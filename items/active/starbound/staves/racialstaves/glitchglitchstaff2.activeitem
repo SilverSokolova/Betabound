@@ -1,0 +1,41 @@
+{
+  "itemName" : "sb_glitchglitchstaff2",
+  "definition" : "racialstaff",
+  "itemTags" : ["weapon","staff"],
+  "tags" : {"<race>" : "glitch", "<staff>" : "glitchstaff", "<n>" : "2"},
+  "rarity" : "legendary",
+  "level" : 6,
+  "configOverrides" : {"price" : 1337},
+  "description" : "‘ÝnßRÀ17LR¥Ä…8æ/ñ¡C!±…Ä¥ŠKÞËáõg€§ýÛ¸Ž
+	ÖeŒq‘¿çH§Ëx¹ØtU
+	ªŒ—üð†",
+  "shortdescription" : "G4mE_bReÄK3r",
+  "tooltipFields" : {
+	"subtitle":"61!7(|-| 574|=|=",
+	"damageKindDImage":"/interface/statuses/crash.png?flipy",
+	"priceLabel":"LEET",
+	"rarityLabel":"1363|/||)4|2\\|/",
+	"handednessLabel":"40|/|3 |-|4|/||)3|)"
+  },
+  "elementalType" : "fire",
+  "altAbilityType" : "plasmabladebarrage",
+  "primaryAbility" : {
+    "projectileType":"sb_gamebreakerscratch",
+    "projectileParameters" : {
+      "baseDamage" : 12,
+      "speed" : 0
+    }
+  },
+  "altAbility" : {
+    "name" : "8|_4|)3 |)|209", //blade drop
+    "projectileDistance" : 8,
+    "projectileAmount" : 6,
+    "projectileType" : "sb_glitchsword",
+    "projectileParameters" : {
+      "timeToLive" : 2,
+      "speed" : -6,
+      "acceleration" : -8
+    }
+  },
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

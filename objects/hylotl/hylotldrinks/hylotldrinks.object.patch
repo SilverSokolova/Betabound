@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/interactAction","value":"OpenMerchantInterface"},{"op":"test","path":"/interactData/items/0"},{"op":"add","path":"/interactData/items/0","value":{"item":"sb_orangenergycan"}}],
+[{"op":"test","path":"/interactAction","value":"OpenMerchantInterface"},{"op":"test","path":"/interactData/items/0","inverse":true},{"op":"add","path":"/interactData/items/-","value":{"item":"sb_orangenergycan"}}]
+]

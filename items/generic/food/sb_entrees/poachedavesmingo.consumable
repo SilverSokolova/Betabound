@@ -1,0 +1,20 @@
+{
+  "itemName" : "sb_poachedavesmingo",
+  "price" : 270,
+  "foodValue" : 25,
+  "effects" : [[
+	{"effect":"ragefood","duration":75},
+	{"effect":"maxhealthscalingboostfood","duration":75},
+	{"effect":"jumpboostfood","duration":75},
+	"sb_foodheal70"
+  ]],
+  "tooltipKind" : "sb_object4",
+  "rarity" : "common",
+  "category" : "preparedFood",
+  "inventoryIcon" : "poachedavesmingo.png",
+  "description" : "A sweet Avesmingo poached in potent Wartjuice. A pretty expensive dish.",
+  "shortdescription" : "Poached Avesmingo",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 2
+}

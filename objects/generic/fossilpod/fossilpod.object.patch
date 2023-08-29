@@ -1,0 +1,13 @@
+[
+[{"op":"test","path":"/smashDropPool","inverse":true},{"op":"add","path":"/smashDropPool","value":"fossils"}],
+[{"op":"test","path":"/smashDropPool","value":"fossils"},{"op":"test","path":"/fossilsExists","inverse":true},{"op":"replace","path":"/smashDropPool","value":"sb_fossils"}],
+[{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":0}],[{"op":"replace","path":"/price","value":160}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":0}],[{"op":"replace","path":"/tooltipKind","value":"sb_object"}],
+
+[{"op":"test","path":"/apexDescription","value":"-todo-"},{"op":"remove","path":"/apexDescription"}],
+[{"op":"test","path":"/avianDescription","value":"-todo-"},{"op":"remove","path":"/avianDescription"}],
+[{"op":"test","path":"/floranDescription","value":"-todo-"},{"op":"replace","path":"/floranDescription","value":"Sssmasssh. Find fosssil!"}],
+[{"op":"test","path":"/glitchDescription","value":"-todo-"},{"op":"replace","path":"/glitchDescription","value":"Excited. I cannot wait to see what's inside."}],
+[{"op":"test","path":"/humanDescription","value":"-todo-"},{"op":"remove","path":"/humanDescription"}],
+[{"op":"test","path":"/hylotlDescription","value":"-todo-"},{"op":"remove","path":"/hylotlDescription"}]
+]

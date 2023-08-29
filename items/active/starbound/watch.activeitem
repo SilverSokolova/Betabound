@@ -1,0 +1,16 @@
+{
+  "itemName" : "sb_watch",
+  "inventoryIcon" : "watch.png",
+  "rarity" : "legendary",
+  "maxStack" : 1,
+  "price" : 300,
+  "description" : "The time telling wrist mechanism is a wrist mechanism for time telling.",
+  "shortdescription" : "Time Telling W.M",
+  "tooltipKind" : "sb_tool",
+  "largeImage" : "watch.png",
+  "category" : "tool",
+  "scriptDelta" : 1,
+  "itemTags" : ["sb_info"],
+  "animationScripts" : ["watch.lua"],
+  "scripts" : ["watch2.lua"]
+}

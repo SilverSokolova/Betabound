@@ -1,0 +1,20 @@
+{
+  "itemName" : "sb_bananabread",
+  "price" : 215,
+  "foodValue" : 25,
+  "tooltipKind" : "sb_object",
+  "rarity" : "Common",
+  "inventoryIcon" : "bananabread.png",
+  "category" : "preparedFood",
+  "description" : "Moist, delicious banana bread.",
+  "shortdescription" : "Banana Bread",
+  "effects" : [[
+	{"effect":"maxenergyscalingboostfood","duration":113},
+	{"effect":"sb_energyregen96","duration":113},
+	"sb_foodheal70"
+  ]],
+  "sb_plateImage" : true,
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 4
+}

@@ -1,0 +1,5 @@
+{
+  "input" : ["bluestim","bottle"],
+  "output" : "sb_jumpbomb",
+  "groups" : ["craftingmedical2","buffs","all"]
+}

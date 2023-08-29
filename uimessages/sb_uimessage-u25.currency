@@ -1,0 +1,10 @@
+{
+  "itemName" : "sb_uimessage-u25",
+  "shortdescription" : "   ^#d5ab36;Need more...^clear;",
+  "currency" : "sb_uimessage",
+  "rarity" : "rare",
+  "value" : 0,
+  "pickupSoundsSmall" : [""],
+  "pickupSoundsMedium" : [""],
+  "pickupSoundsLarge" : [""]
+}

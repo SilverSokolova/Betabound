@@ -1,0 +1,29 @@
+{
+  "sb_tentacleHunting" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.4, "pool" : "sb_liquidtentaclejuice"},
+        {"weight" : 0.6, "item" : "rawtentacle"},
+        {"weight" : 0.06, "item" : ["sb_musicsheet",1,{"music":"crystal-battle1"}]}
+      ]
+    }]
+  ],
+  "sb_weaklingTentacleHunting" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.4, "pool" : "sb_liquidtentaclejuice"},
+        {"weight" : 0.2, "item" : "rawtentacle"},
+        {"weight" : 0.06, "item" : ["sb_musicsheet",1,{"music":"crystal-battle1"}]}
+      ]
+    }]
+  ],
+  "sb_heckblobHunting" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "noMeatMonsterTreasure"},
+        {"weight" : 0.4, "pool" : "sb_heckbush"},
+        {"weight" : 0.6, "item" : "sb_rawfleshlump"}
+      ]
+    }]
+  ]
+}

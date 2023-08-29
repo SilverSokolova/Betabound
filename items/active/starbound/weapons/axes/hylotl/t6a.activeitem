@@ -1,0 +1,8 @@
+{
+  "description": "A severely curved scythe.",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "itemName": "sb_hylotltier6aaxe",
+  "definition": ["colors/t6a", "axes/a"],
+  "shortdescription": "Fishing Hook",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

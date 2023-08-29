@@ -1,0 +1,22 @@
+{
+  "projectileName" : "sb_corrosiveparticle",
+  "physics" : "grenadenobounce",
+  "bounces" : -1,
+  "timeToLive" : 10,
+  "speed" : 15,
+  "image" : "corrosiveparticle.png",
+  "animationCycle" : 0.55,
+  "lightColor" : [169, 77, 253],
+  "frameNumber" : 4,
+  "emitters" : [ "corrosive" ],
+  "piercing" : true,
+  "damagePoly" : [[-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6]],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "damageKind" : "fire",
+  "statusEffects" : ["burning"]
+}

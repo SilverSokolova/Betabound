@@ -1,0 +1,58 @@
+//im not sure what the hell this is. is it hanging? is it standing?? i think it's standing
+{
+  "objectName" : "sb_shroomlamp",
+  "colonyTags" : ["mushroompatch","nature","light"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 50,
+
+  "description" : "A glow-in-the-dark mushroom. Handy AND cute.",
+  "shortdescription" : "Shroom Lamp",
+  "race" : "generic",
+
+  "apexDescription" : "A cute glowing mushroom. Great for a night-light.",
+  "avianDescription" : "This mushroom's glow lights up any room.",
+  "floranDescription" : "Floran like glowy ssshroom.",
+  "glitchDescription" : "Analysis. The glow is produced by spores which seem to display parasitic behaviour.",
+  "humanDescription" : "A lamp you could cuddle.",
+  "hylotlDescription" : "This mushroom lamp is practical and useful.",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 10,
+      "range" : 2
+    } ],
+
+  "lightColor" : [252, 197, 67],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "inventoryIcon" : "shroomlampicon.png",
+  "orientations" : [
+
+    {
+      "image" : "shroomlamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    },
+
+    {
+      "image" : "shroomlamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, 2] ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/oillantern.ogg"
+
+}

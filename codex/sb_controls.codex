@@ -1,0 +1,41 @@
+{
+  "id" : "sb_controls",
+  "title" : "Control Yourself",
+  "description" : "Learn to walk. Then run.\n^gray;Click item to put in hand; click character to read this book.",
+  "icon" : "sb_icon.png",
+  "contentPages" : [
+
+"^orange;Movement - WASD^reset;
+^green;[Movement]^reset; W, A, S, D
+^green;[Space]^reset; Jump
+^green;[E/Middle Mouse Click]^reset; Interact
+^green;[Left]/[Right] Mouse Click^reset; Attack (with weapon equipped)
+^green;Hold [Shift]^reset; Walk
+^green;Hold [Shift]^reset; Select a single block",
+
+"^orange;Hotkeys^reset;
+^green;[C]^reset; Crafting Menu
+^green;[J]^reset; Quest Journal
+^green;[L]^reset; Codex Library
+^green;[N]^reset; Inspection Cursor
+^green;[Esc]^reset; Options/Quit
+^orange;Continued on next page...^reset;",
+
+"^orange;Hotkeys Continued:^reset;
+^green;[Q]^reset; Throw item
+^green;[X]^reset; Swap active hotbar
+^green;[Z]^reset; Toggle held items
+^green;[1-6]^reset; Hold hotbar item
+^green;[Mousewheel]^reset; Hold hotbar item
+^green;[Alt]^reset; Highlight interactables
+
+^green;[Shift + Left Click]^reset; Quick-move item
+^green;[Shift + Right Click]^reset; Split item stack"
+],
+    "itemConfig" : {
+    "rarity" : "rare",
+    "shortdescription" : "Controls",
+    "tooltipKind" : "sb_object",
+    "price" : 25
+  }
+}

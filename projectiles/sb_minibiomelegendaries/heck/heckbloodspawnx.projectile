@@ -1,0 +1,52 @@
+{
+  "projectileName": "sb_heckbloodspawnx",
+  "image": "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "animationCycle": 1,
+  "frameNumber": 1,
+  "timeToLive": 0.01,
+  "speed": 100,
+  "physics": "laser",
+  "flippable": true,
+  "pointLight": false,
+  "actionOnReap": [{
+      "action": "sound",
+      "options": ["/sfx/melee/1h_sword_kill_organic1.ogg"]
+    }, {
+      "action": "projectile",
+      "type": "sb_heckbloodx",
+      "firePosition": [-10, 5],
+      "fuzzAngle": 3,
+      "inheritDamageFactor": 0.15,
+      "angleAdjust": 25
+    }, {
+      "action": "projectile",
+      "type": "sb_heckbloodx",
+      "firePosition": [-10, 5],
+      "fuzzAngle": 3,
+      "inheritDamageFactor": 0.15,
+      "angleAdjust": 12
+    }, {
+      "action": "projectile",
+      "type": "sb_heckbloodx",
+      "firePosition": [-10, 5],
+      "fuzzAngle": 3,
+      "inheritDamageFactor": 0.15,
+      "angleAdjust": 0
+    }, {
+      "action": "projectile",
+      "type": "sb_heckbloodx",
+      "firePosition": [-10, 5],
+      "fuzzAngle": 3,
+      "inheritDamageFactor": 0.15,
+      "angleAdjust": -12
+    }, {
+      "action": "projectile",
+      "type": "sb_heckbloodx",
+      "firePosition": [-10, 5],
+      "fuzzAngle": 3,
+      "inheritDamageFactor": 0.15,
+      "angleAdjust": -25
+    }
+  ],
+  "damageKind": "dagger"
+}

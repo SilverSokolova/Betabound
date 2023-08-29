@@ -1,0 +1,5 @@
+{
+  "input" : [["refinedaegisalt",6],["durasteelbar",4]],
+  "output" : "sb_florantier5abroadsword",
+  "groups" : ["craftingseparator","weapons","all"]
+}

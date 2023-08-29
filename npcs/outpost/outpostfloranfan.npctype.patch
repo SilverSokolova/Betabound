@@ -1,0 +1,29 @@
+[
+  [{
+      "op": "test",
+      "path": "/scripts",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/scripts",
+      "value": ["/npcs/bmain.lua"]
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/scripts/-",
+      "value": "/npcs/sb_outpostfloranfan.lua"
+    }
+  ],
+
+  [{
+      "op": "add",
+      "path": "/scriptConfig/sb_offeredQuests",
+      "value": ["sb_floranfan1.gearup"]
+    }, {
+      "op": "add",
+      "path": "/scriptConfig/sb_turnInQuests",
+      "value": ["sb_floranfan1.gearup"]
+    }
+  ]
+]

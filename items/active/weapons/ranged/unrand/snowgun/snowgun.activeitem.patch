@@ -1,0 +1,25 @@
+[
+[{"op":"test","path":"/builder"},{"op":"test","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua","inverse":true},{"op":"move","from":"/builder","path":"/sb_builder"}],[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua"}],
+
+[{"op":"test","path":"/level","value":1},{"op":"replace","path":"/level","value":3}],
+[{"op":"test","path":"/itemTags/0","value":"toy"},{"op":"remove","path":"/itemTags/0"}],
+[{"op":"add","path":"/itemTags/-","value":"weapon"},{"op":"add","path":"/itemTags/-","value":"ranged"},{"op":"add","path":"/itemTags/-","value":"assaultRifle"}],
+[{"op":"test","path":"/category","value":"toy"},{"op":"replace","path":"/category","value":"uniqueWeapon"}],
+[{"op":"test","path":"/description","value":"Powered by snow, it's fully automatic and keeps your gloves dry."},{"op":"replace","path":"/description","value":"Made for advanced snowball warfare. It's powered by snow, fully automatic, and keeps your gloves dry."}],
+[{"op":"test","path":"/shortdescription","value":"Snowball Shooter"},{"op":"replace","path":"/shortdescription","value":"Blizzard Blaster"}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"fossil"}],
+[{"op":"test","path":"/primaryAbility/projectileParameters/power","inverse":true},{"op":"add","path":"/primaryAbility/projectileParameters/power","value":1.5}],
+[{"op":"test","path":"/primaryAbility/baseDps"},{"op":"replace","path":"/primaryAbility/baseDps","value":10.5}],
+[{"op":"test","path":"/primaryAbility/stances/fire/allowRotate","value":false},{"op":"replace","path":"/primaryAbility/stances/fire/allowRotate","value":true}],
+[{"op":"test","path":"/primaryAbility/stances/fire/allowFlip","value":false},{"op":"replace","path":"/primaryAbility/stances/fire/allowFlip","value":true}],
+[{"op":"test","path":"/primaryAbility/stances/cooldown/allowRotate","value":false},{"op":"replace","path":"/primaryAbility/stances/cooldown/allowRotate","value":true}],
+[{"op":"test","path":"/primaryAbility/stances/cooldown/allowFlip","value":false},{"op":"replace","path":"/primaryAbility/stances/cooldown/allowFlip","value":true}],
+
+[{"op":"test","path":"/altAbilityType","inverse":true},{"op":"test","path":"/altAbility","inverse":true},
+{"op":"add","path":"/altAbilityType","value":"sb_shotgun"},
+{"op":"add","path":"/altAbility","value":{
+	"name":"Explosive Snowballs",
+	"projectileType":"icecrabcanosnowball",
+	"usePrimaryFireSound":true
+}}]
+]

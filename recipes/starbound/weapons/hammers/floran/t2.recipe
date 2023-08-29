@@ -1,0 +1,5 @@
+{
+  "input" : [["tungstenbar",6],["copperbar",4]],
+  "output" : "sb_florantier2hammer",
+  "groups" : ["craftinganvil","weapons","all"]
+}

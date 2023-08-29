@@ -1,0 +1,1 @@
+[{"op":"add","path":"/disableWornArmor","value":true},{"op":"replace","path":"/items/override/0","value":[0,[{"head":[{"name":"sb_mollyhead","parameters":{}}],"chest":[{"name":"sb_mollychest","parameters":{}}],"legs":[{"name":"sb_mollylegs","parameters":{}}]}]]}]

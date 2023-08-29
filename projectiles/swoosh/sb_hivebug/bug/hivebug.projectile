@@ -1,0 +1,85 @@
+{
+  "projectileName" : "sb_hivebug",
+  "physics" : "flybug",
+  "speed" : 30,
+  "bounces" : 0,
+  "timeToLive" : 1.5,
+  "image" : "hivebug.png",
+  "animationCycle" : 1.5,
+  "animationLoops" : false,
+  "orientationLocked" : true,
+  "flippable" : true,
+  "lightColor" : [0, 35, 10],
+  "frameNumber" : 24,
+  "damageKind" : "default",
+  "damagePoly" : [ [-7, -1], [-4.6, -5.6], [0, -8], [4.6, -5.6], [7, -1], [4.6, 3.6], [0, 6], [-4.6, 3.6] ],
+  "periodicActions" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/swoosh/sb_hivebug/spawn.config",
+      "repeat" : false,
+      "time" : 0
+    }
+  ],
+
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "sb_hivebuggib",
+      "power" : 0,
+      "firePosition" : [-10, 5],
+      "fuzzAngle" : 180,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_hivebuggib",
+      "power" : 0,
+      "firePosition" : [-10, 5],
+      "fuzzAngle" : 180,
+      "angleAdjust" : 0
+    },    
+    {
+      "action" : "projectile",
+      "type" : "sb_hivecluster",
+      "power" : 6.25,
+      "firePosition" : [-10, 5],
+      "fuzzAngle" : 180,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_hivecluster",
+      "power" : 6.25,
+      "firePosition" : [-10, 5],
+      "fuzzAngle" : 180,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_hivecluster",
+      "power" : 6.25,
+      "firePosition" : [-10, 5],
+      "fuzzAngle" : 180,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_hivecluster",
+      "power" : 6.25,
+      "firePosition" : [-10, 5],
+      "fuzzAngle" : 180,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/vsmallregularexplosion/vsmallregularexplosionnosound.config",
+      "time" : 9
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/npc/smallbiped/bulbouseyehead_small_idle1.ogg", "/sfx/npc/smallbiped/bulbouseyehead_small_idle2.ogg", "/sfx/npc/smallbiped/bulbouseyehead_small_attack1.ogg", "/sfx/npc/smallbiped/bulbouseyehead_small_attack2.ogg" ],
+      "time" : 9
+    }
+  ]
+}

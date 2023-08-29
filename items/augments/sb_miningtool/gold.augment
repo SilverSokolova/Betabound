@@ -1,0 +1,13 @@
+{
+  "itemName" : "sb_gold_repair",
+  "price" : 20,
+  "tooltipKind" : "sb_object",
+  "rarity" : "uncommon",
+  "category" : "Tool",
+  "tooltipFields" : {"subtitle":"Repair Tool"},
+  "durabilityRegen" : 150,
+  "inventoryIcon" : "gold.png",
+  "description" : "It's a gold repair tool.\n^gray;Select repair tool and right-click pickaxe or drill.",
+  "shortdescription" : "Gold Repair Tool",
+  "scripts" : ["/scripts/augments/sb_ore.lua"]
+}

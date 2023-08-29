@@ -1,0 +1,42 @@
+{
+  "objectName" : "sb_novakidfuelhatch",
+  "colonyTags" : ["novakid"],
+  "printable" : false,
+  "price" : 700,
+  "rarity" : "uncommon",
+  "objectType" : "container",
+  "category" : "other",
+  "tooltipKind" : "sb_object",
+  "description" : "Accepts a bunch of different kinds of fuel for the ship's FTL drive.",
+  "shortdescription" : "^orange;Novakid FTL Fuel Hatch^reset;",
+  "race" : "novakid",
+
+  "apexDescription" : "A fuel hatch. It looks well-constructed.",
+  "avianDescription" : "A robust fuel hatch.",
+  "floranDescription" : "Floran doesssn't drink from hatch.",
+  "glitchDescription" : "Statement. This fuel hatch seems exceptionally well-optimised.",
+  "humanDescription" : "In goes in the fuel, out comes the fire.",
+  "hylotlDescription" : "A fuel hatch.",
+  "novakidDescription" : "Fuel goes in here!",
+
+  "inventoryIcon" : "novakidicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "novakid.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "hasWindowIcon" : false,
+  "recipeGroup" : "fuel",
+  "slotCount" : 6,
+  "uiConfig" : "/interface/sb_fuel/fuel.config",
+  "autoCloseCooldown" : 3600,
+  "frameCooldown" : 5
+}

@@ -1,0 +1,250 @@
+{
+
+  "sb_tier2tech" : [
+	"/sb_givemetech",
+	"/maketechavailable sb_doublejump",
+	"/maketechavailable sb_dash",
+	"/maketechavailable sb_bounce",
+	"/enabletech distortionsphere",
+	"/enabletech dash",
+	"/enabletech doublejump",
+	"/spawnitem sb_tech 1 '{\"techModule\":\"sb_breathprotection\"}",
+	"/sb_enabletech sb_breathprotection",
+	"/maketechavailable aquasphere",
+	"/maketechavailable sonicsphere",
+	"/maketechavailable spikesphere",
+	"/maketechavailable airdash",
+	"/maketechavailable blinkdash",
+	"/maketechavailable sprint",
+	"/maketechavailable multijump",
+	"/maketechavailable rocketjump",
+	"/maketechavailable walljump",
+	"/spawnitem techcard 20"
+  ],
+
+  "sb_tier3tech" : [
+	"/sb_givemetech",
+	"/sb_tier2tech",
+	"/maketechavailable sb_groundsmash",
+	"/maketechavailable sb_rocketjump",
+	"/maketechavailable sb_boat",
+	"/spawnitem sb_tech 1 '{\"techModule\":\"sb_radiationprotection\"}",
+	"/sb_enabletech sb_radiationprotection",
+	"/spawnitem techcard 30"
+  ],
+
+  "sb_tier4tech" : [
+	"/sb_givemetech",
+	"/sb_tier3tech",
+	"/maketechavailable sb_morphball",
+	"/maketechavailable sb_gravitybubble",
+	"/maketechavailable sb_lightrig",
+	"/maketechavailable skyrail",
+	"/spawnitem sb_tech 1 '{\"techModule\":\"sb_coldprotection\"}",
+	"/sb_enabletech sb_coldprotection",
+	"/spawnitem techcard 40"
+  ],
+
+  "sb_tier5tech" : [
+	"/sb_givemetech",
+	"/sb_tier4tech",
+	"/maketechavailable sb_targetblink",
+	"/maketechavailable sb_ftlboost",
+	"/maketechavailable sb_rocketboots",
+	"/spawnitem sb_tech 1 '{\"techModule\":\"sb_heatprotection\"}",
+	"/spawnitem sb_tech 1 '{\"techModule\":\"sb_environmentalprotectiontech\"}",
+	"/sb_enabletech sb_heatprotection",
+	"/sb_enabletech sb_environmentalprotectiontech",
+	"/spawnitem techcard 50"
+  ],
+
+
+  "sb_tier1kit" : [
+	"/spawnitem sb_itembox 1 '{\"shortdescription\":\"T1 Kit: Armour\",\"items\":[
+	\"copperarmorhead\",
+	\"copperarmorchest\",
+	\"copperarmorpants\",
+	\"humantier1head\",
+	\"humantier1chest\",
+	\"humantier1pants\",
+	\"simplecapeback\"
+	]}",
+	"/spawnitem sb_itembox 1 '{\"shortdescription\":\"T1 Kit: Combat\",\"items\":[
+	\"sb_humantier1dagger\",
+	\"sb_humantier1dagger\",
+	\"sb_humantier1axe\",
+	\"sb_humantier1axe\",
+	\"sb_humantier1broadsword\",
+	\"sb_humantier1shortsword\",
+	\"sb_humantier1shortsword\",
+	\"sb_humantier1spear\",
+	\"sb_humantier1hammer\",
+	\"sb_novatier1revolver\",
+	\"sb_novatier1revolver\",
+	\"sb_novatier1rifle\",
+	[\"sb_ammo\",750],
+	\"sb_tier1shield\"
+	]}",
+	"/spawnitem sb_itembox 1 '{\"shortdescription\":\"T1 Kit: Misc\",\"items\":[
+	\"silverpickaxe\",
+	[\"sb_silver_repair\",20],
+	[\"manipulatormodule\",12],
+	[\"climbingrope\",40],
+	\"sb_ladderdeployer\",
+	[\"sb_copperladder\",500],
+	[\"torch\",500],
+	[\"salve\",20],
+	[\"sb_tomatojuice\",5],
+	[\"sb_carrotjuice\",5],
+	[\"sb_boiledpearlpeas\",5],
+	[\"sb_sweetcorn\",5],
+	\"sb_vegetablesoup\",
+	\"sb_alienburger\"
+	]}",
+	"/sb_elliot"
+  ],
+
+  "sb_tier2kit" : [
+	"/sb_tier2tech",
+
+	"/spawnitem sb_itembox 1 '{\"shortdescription\":\"T2 Kit: Misc\",\"items\":[
+	\"shipT3\",
+	[\"fillerup\",999],
+	[\"sb_maxfuel1\",1,{\"customUpgradeID\":\"xrc_1\",\"shipUpgrade\":{\"shipSpeed\":999},\"shortdescription\":\"Thruster MK+\",\"description\":\"Increases thruster speed by 999.\n^#f00;Usable once per ship.^reset;\"}]
+	]}",
+	"/spawnitem sb_itembox 1 '{\"shortdescription\":\"T2 Kit: Armour\",\"items\":[
+	\"silverarmorhead\",
+	\"silverarmorchest\",
+	\"silverarmorlegs\",
+	\"humantier2head\",
+	\"humantier2chest\",
+	\"humantier2pants\",
+	\"breathprotectionback\",
+	\"lanternstickback\"
+	]}",
+	"/spawnitem sb_itembox 1 '{\"shortdescription\":\"T2 Kit: Combat\",\"items\":[
+	[\"sb_starcleaver\",1,{\"level\":2}],
+	[\"sb_slavesword\",1,{\"level\":2}],
+	\"sb_humantier2dagger\",
+	\"sb_humantier2dagger\",
+	\"sb_humantier2axe\",
+	\"sb_humantier2axe\",
+	\"sb_humantier2broadsword\",
+	\"sb_humantier2shortsword\",
+	\"sb_humantier2shortsword\",
+	\"sb_humantier2spear\",
+	\"sb_humantier2hammer\",
+	\"sb_novatier2revolver\",
+	\"sb_novatier2revolver\",
+	\"sb_novatier2rifle\",
+	[\"sb_ammo\",750],
+	[\"sb_tier2shield\",1,{\"level\":2}]
+	]}",
+	"/spawnitem sb_itembox 1 '{\"shortdescription\":\"T2 Kit: Tools\",\"items\":[
+	\"goldpickaxe\",
+	[\"sb_gold_repair\",20],
+	[\"manipulatormodule\",13],
+	[\"climbingrope\",80],
+	\"sb_ladderdeployer\",
+	[\"sb_copperladder\",500]
+	]}",
+	"/sb_elliot"
+  ],
+
+  "sb_tier3kit" : [
+	"/sb_tier3tech",
+
+	"/spawnitem sb_itembox 1 '{\"shortdescription\":\"T3 Kit: Misc\",\"items\":[
+	\"shipT4\",
+	[\"fillerup\",999],
+	[\"sb_maxfuel1\",1,{\"customUpgradeID\":\"xrc_1\",\"shipUpgrade\":{\"shipSpeed\":999},\"shortdescription\":\"Thruster MK+\",\"description\":\"Increases thruster speed by 999.\n^#f00;Usable once per ship.^reset;\"}]
+	]}",
+	"/spawnitem sb_itembox 1 '{\"shortdescription\":\"T3 Kit: Armour\",\"items\":[
+	\"goldarmorhead\",
+	\"goldarmorchest\",
+	\"goldarmorlegs\",
+	\"humantier3head\",
+	\"humantier3chest\",
+	\"humantier3pants\",
+	\"radiationprotectionback\",
+	\"lanternstickback\"
+	]}",
+	"/spawnitem sb_itembox 1 '{\"shortdescription\":\"T3 Kit: Combat\",\"items\":[
+	\"sb_humantier3dagger\",
+	\"sb_humantier3dagger\",
+	\"sb_humantier3axe\",
+	\"sb_humantier3axe\",
+	\"sb_humantier3broadsword\",
+	\"sb_humantier3shortsword\",
+	\"sb_humantier3shortsword\",
+	\"sb_humantier3spear\",
+	\"sb_humantier3hammer\",
+	\"sb_novatier3revolver\",
+	\"sb_novatier3revolver\",
+	\"sb_novatier3rifle\",
+	[\"sb_ammo\",750],
+	[\"sb_tier2shield\",1,{\"level\":3}]
+	]}",
+	"/spawnitem sb_itembox 1 '{\"shortdescription\":\"T3 Kit: Tools\",\"items\":[
+	\"platinumpickaxe\",
+	[\"sb_platinum_repair\",20],
+	[\"manipulatormodule\",26],
+	[\"climbingrope\",80],
+	\"sb_ladderdeployer\",
+	[\"sb_copperladder\",500]
+	]}",
+	"/sb_elliot"
+  ],
+
+//halogen is T4 (halogenpack), and so is xenonpack
+
+  "sb_tier10kit" : [
+	"/enabletech sb_targetblink",
+	"/enabletech sb_rocketboots",
+	"/enabletech sb_dash",
+	"/sb_enabletech sb_glow",
+	"/sb_beamaxe",
+
+	"/spawnitem sb_itembox 1 '{\"shortdescription\":\"T10 Kit: Misc\",\"description\":\"Contains 4 items.\",\"items\":[
+	\"shipT8\",
+	[\"fillerup\",999],
+	[\"sb_tech\",1,{\"techModule\":\"sb_glow\"}],
+	[\"sb_maxfuel1\",1,{\"customUpgradeID\":\"xrc_1\",\"shipUpgrade\":{\"shipSpeed\":999},\"shortdescription\":\"Thruster MK+\",\"description\":\"Increases thruster speed by 999.\n^#f00;Usable once per ship.^reset;\"}]
+	]}",
+	"/spawnitem sb_itembox 1 '{\"shortdescription\":\"T10 Kit: Armour\",\"description\":\"Contains 7 items.\",\"items\":[
+	\"sb_humantier10head\",
+	\"sb_humantier10chest\",
+	\"sb_humantier10pants\",
+	\"sb_emptyhead\",
+	\"invisibleback\",
+	\"heatprotectionback\",
+	\"xenonpack\"
+	]}",
+	"/spawnitem sb_itembox 1 '{\"shortdescription\":\"T10 Kit: Combat\",\"description\":\"Contains 13 items.\",\"items\":[\"sb_testrevolver\",
+	[\"sb_starcleaver\",1,{\"level\":10}],
+	[\"sb_slavesword\",1,{\"level\":10}],
+	[\"sb_flamethrower\",1,{\"level\":10}],
+	[\"sb_freezeray\",1,{\"level\":10}],
+	[\"sb_humantier10dagger\",1,{\"level\":10}],
+	[\"sb_humantier10axe\",1,{\"level\":10}],
+	[\"sb_humantier10broadsword\",1,{\"level\":10}],
+	[\"sb_humantier10shortsword\",1,{\"level\":10}],
+	[\"sb_humantier10spear\",1,{\"level\":10}],
+	[\"sb_humantier10hammer\",1,{\"level\":10}],
+	[\"sb_frozenfirebow\",1,{\"level\":10}],
+	[\"sb_feroziumbow\",1,{\"level\":10}],
+	[\"sb_tierxshield\",1,{\"level\":10}],
+	[\"sb_tierxshield\",1,{\"level\":10}]
+	]}",
+	"/spawnitem sb_itembox 1 '{\"shortdescription\":\"T10 Kit: Tools\",\"description\":\"Contains 5 items.\",\"items\":[
+	\"sb_wiretool\",
+	\"sb_painttool\",
+	\"sb_draintool\",
+	\"sb_swingingvine\",
+	\"sb_swingingvine\"
+	]}",
+	"/spawnitem sb_pizza 999",
+	"/spawnitem sb_doping 999",
+	"/sb_elliot"
+  ]
+}

@@ -1,0 +1,2 @@
+[[{"op":"test","path":"/smashDropPool","inverse":true},{"op":"add","path":"/smashDropPool","value":"capsuleMed"}],
+[{"op":"test","path":"/smashDropPool","value":"capsuleMed"},{"op":"test","path":"/capsuleMedExists","inverse":true},{"op":"replace","path":"/smashDropPool","value":"capsule"}]]

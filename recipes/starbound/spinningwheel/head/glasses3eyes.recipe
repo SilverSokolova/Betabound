@@ -1,0 +1,5 @@
+{
+  "input" : [["glass",3],["screws",2]],
+  "output" : "glasses3eyes",
+  "groups" : ["sb_craftingtable","sb_armors","all"]
+}

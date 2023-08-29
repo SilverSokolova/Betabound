@@ -1,0 +1,20 @@
+{
+  "itemName" : "sb_jelly",
+  "price" : 255,
+  "foodValue" : 30,
+  "rarity" : "rare",//rare due to rarity of an ingredient
+  "category" : "preparedFood",
+  "tooltipKind" : "sb_object",
+  "inventoryIcon" : "jelly.png",
+  "description" : "A slime-based dessert.",
+  "shortdescription" : "Jelly",
+  "effects" : [[
+	{"effect":"jumpboostfood","duration":135},
+	{"effect":"runboostfood","duration":135},
+	{"effect":"bouncy","duration":35},
+	"sb_foodheal95"
+  ]],
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5
+}

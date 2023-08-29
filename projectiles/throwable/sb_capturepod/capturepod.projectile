@@ -1,0 +1,18 @@
+{
+  "projectileName" : "sb_capturepod",
+  "image" : "capturepod.png",
+  "animationCycle" : 0.5, //0.05,
+  "level" : 3,
+  "physics" : "grenadezbomb",
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "speed" : 70,
+  "power" : -1,
+  "damageKind" : "capture",
+  "scripts" : ["capturepod.lua"],
+  "intangibleWindup" : true,
+  "piercing" : true,
+  "damageTeam" : {"type" : "indiscriminate"},
+  "universalDamage" : true,
+  "emitters" : ["capturepodblue"]
+}

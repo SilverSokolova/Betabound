@@ -1,0 +1,7 @@
+{
+  "name" : "sb_ladder",
+  "defaultDuration" : 0.3,
+  "scripts" : ["ladder.lua"],
+  "label" : "Safe Fall",
+  "icon" : "/interface/statuses/nofalldamage.png"
+}

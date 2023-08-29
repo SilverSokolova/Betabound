@@ -1,0 +1,7 @@
+{
+  "currencyInputs" : {"essence":3000},
+  "input" : [["ironbar",30]],
+  "output" : "weaponupgradeanvil",
+  "duration" : 0,
+  "groups" : ["terraforge","all"]
+}

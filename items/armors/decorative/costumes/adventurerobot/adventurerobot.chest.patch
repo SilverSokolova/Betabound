@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/builder","inverse":true},{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildarmor.lua"}],
+[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":5000}],
+[{"op":"test","path":"/rarity","value":"Rare"},{"op":"replace","path":"/rarity","value":"Legendary"}],
+[{"op":"test","path":"/description","value":"Violium makes this prototype chestguard incredibly strong.-NOT USED-"},{"op":"replace","path":"/description","value":"Pure steel makes this chestguard incredibly strong."}]
+]

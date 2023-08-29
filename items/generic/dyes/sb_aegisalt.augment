@@ -1,0 +1,14 @@
+{
+  "itemName" : "sb_limegreendye",
+  "price" : 25,
+  "tooltipKind" : "sb_object4b",
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "sb_aegisalt.png",
+  "description" : "A lime green dye. It can be used to dye armour or clothing.\n^gray;Select dye and right-click armour or clothing.",
+  "shortdescription" : "Lime Green Dye",
+  "dyeDirectives" : {"ffca8a" : "d1e160", "e0975c" : "9bba3d", "a85636" : "48832f", "6f2919" : "1b4c2a"}, //aegisalt, apparently. you can't tell by the bottle
+  "sb_dyeDirectives" : "?replace;ffca8a=d1e160;e0975c=9bba3d;a85636=48832f;6f2919=1b4c2a",
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+  "scripts" : [ "/scripts/augments/dye.lua", "/scripts/augments/sb_dye.lua" ]
+}

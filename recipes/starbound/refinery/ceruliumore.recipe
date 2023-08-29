@@ -1,0 +1,6 @@
+{
+  "input" : ["sb_ceruliumore"],
+  "output" : ["money",75],
+  "duration" : 0.5,
+  "groups" : ["refinery","all"]
+}

@@ -1,0 +1,5 @@
+{
+  "input" : [["money",25]],
+  "output" : "modernplatform",
+  "groups" : ["sb_portable3dprinter","sb_materials","all"]
+}

@@ -1,0 +1,57 @@
+{
+  "type": "sb_outpostfloranscholar",
+  "baseType": "outpostcivilian",
+
+  "scripts": [
+    "/npcs/bmain.lua",
+    "/npcs/sb_outpostcivilian.lua"
+  ],
+
+  "scriptConfig": {
+    "sb_offeredQuests": ["sb_hylotlperformerE2part2.gearup"],
+    "sb_turnInQuests": ["sb_hylotlperformerE2part1.gearup"],
+
+    "dialog": {
+      "converse": {
+        "default": {
+          "default": [
+            "Does my attire surprise you? I try my best to show the others here that not all Floran are savage."
+          ]
+        },
+        "floran": {
+          "default": [
+            "Does my attire surprise you? I try my best to show the others here that not all Floran are savage."
+          ],
+          "floran": [
+            "Were you also repulsed by the savagery of our kin? Our people could achieve so much more!"
+          ],
+          "hylotl": [
+            "Please remain calm. I mean no harm to you or your kind. I abandoned that meaningless path long ago."
+          ]
+        }
+      }
+    }
+  },
+
+  "items": {
+    "override": [
+      [0, [{
+            "chest": [{
+                "name": "sweatervestchest",
+                "parameters": {
+                  "colorIndex": 4
+                }
+              }
+            ],
+            "legs": [{
+                "name": "sweatervestlegs",
+                "parameters": {
+                  "colorIndex": 1
+                }
+              }
+            ]
+          }
+        ]]
+    ]
+  }
+}

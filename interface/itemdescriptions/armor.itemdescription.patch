@@ -1,0 +1,1 @@
+[[{"op":"test","path":"/armorLabelTitle"},{"op":"test","path":"/subTitle","inverse":true},{"op":"move","path":"/subTitle","from":"/armorLabelTitle"}]]

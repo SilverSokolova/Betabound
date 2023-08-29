@@ -1,0 +1,6 @@
+{
+  "input" : ["avesmingo","grapes","sugar"],
+  "output" : "sb_wineglass",
+  "groups" : ["craftingfood","drinks","sb_power","sb_healing","sb_health","all"],
+  "collectables" : {"cooking":"sb_wineglass"}
+}

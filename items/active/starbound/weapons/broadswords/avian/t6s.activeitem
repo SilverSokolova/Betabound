@@ -1,0 +1,1 @@
+{"description":"A lethal, powerful broadsword.","shortdescription":"Wing of Kluex","itemName":"sb_aviantier6sbroadsword","definition":["colors/t6s","broadswords/t6s"],"itemTags":["weapon","melee","broadsword","upgradeableWeapon"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

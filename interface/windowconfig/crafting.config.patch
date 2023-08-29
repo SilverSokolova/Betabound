@@ -1,0 +1,441 @@
+[
+  [{
+      "op": "test",
+      "path": "/betabound",
+      "inverse": true
+    }, {
+      "op": "test",
+      "path": "/paneLayout/btnFilterHaveMaterials/pressedOffset",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/paneLayout/btnFilterHaveMaterials/pressedOffset",
+      "value": [0, 0]
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/betabound",
+      "inverse": true
+    }, {
+      "op": "test",
+      "path": "/paneLayout/btnCraft/pressedOffset",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/paneLayout/btnFilterHaveMaterials/pressedOffset",
+      "value": [0, 0]
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/betabound",
+      "inverse": true
+    }, {
+      "op": "test",
+      "path": "/paneLayout/btnStopCraft/pressedOffset",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/paneLayout/btnFilterHaveMaterials/pressedOffset",
+      "value": [0, 0]
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/betabound",
+      "inverse": true
+    }, {
+      "op": "test",
+      "path": "/paneLayout/btnUpgrade"
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/btnUpgrade/position",
+      "value": [194, 58]
+    }
+  ],
+  //[{"op":"test","path":"/paneLayout/imgCraftBg"},{"op":"replace","path":"/paneLayout/imgCraftBg/file","value":""}],
+
+  [{
+      "op": "test",
+      "path": "/betabound",
+      "inverse": true
+    }, {
+      "op": "test",
+      "path": "/paneLayout/imgAmountInput"
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/imgAmountInput/file",
+      "value": "/interface/sb_crafting/amount.png"
+    }
+  ],
+  //	{"op":"replace","path":"/paneLayout/imgAmountInput/position","value":[208,39]},
+
+  [{
+      "op": "test",
+      "path": "/betabound",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/moneyIcon/hAnchor",
+      "value": "left"
+    }, {
+      "op": "add",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/wrapWidth",
+      "value": 100
+    }, {
+      "op": "add",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/position",
+      "value": [21, 10]
+    }, {
+      "op": "add",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/size",
+      "value": [156, 80]
+    }, {
+      "op": "add",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/vAnchor",
+      "value": "mid"
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/windowtitle/title",
+      "value": "BASIC CRAFTING"
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/windowtitle/subtitle",
+      "value": "^#b9b5b2;Just you, your ingredients, and your hands! ^#0f0;[C]"
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/lblSchematics/value",
+      "value": "SCHEMATICS"
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/lblProducttitle/value",
+      "value": "PRODUCT"
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/betabound",
+      "inverse": true
+    }, {
+      "op": "test",
+      "path": "/paneLayout/lblMainTab"
+    }, {
+      "op": "test",
+      "path": "/paneLayout/lblWepsTab"
+    }, {
+      "op": "test",
+      "path": "/paneLayout/lblBackupTab"
+    }, {
+      "op": "test",
+      "path": "/paneLayout/background/fileBody",
+      "value": "/interface/crafting/craftingbyhand.png"
+    }, {
+      "op": "remove",
+      "path": "/paneLayout/lblMainTab"
+    }, {
+      "op": "remove",
+      "path": "/paneLayout/lblWepsTab"
+    }, {
+      "op": "remove",
+      "path": "/paneLayout/lblBackupTab"
+    }, {
+      "op": "remove",
+      "path": "/paneLayout/categories/buttons/0"
+    }, {
+      "op": "remove",
+      "path": "/paneLayout/categories/buttons/0"
+    }, {
+      "op": "remove",
+      "path": "/paneLayout/categories/buttons/0"
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/betabound",
+      "inverse": true
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/background/fileHeader",
+      "value": "/interface/sb_crafting/craftingheader.png"
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/background/fileBody",
+      "value": "/interface/sb_crafting/craftingbody.png"
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/background/fileFooter",
+      "value": "/interface/sb_crafting/craftingfooter.png"
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/close/pressed",
+      "value": "/interface/sb_inventory/xpress.png"
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/close/base",
+      "value": "/interface/sb_inventory/x.png"
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/close/hover",
+      "value": "/interface/sb_inventory/xhover.png"
+    },
+    //{"op":"remove","path":"/paneLayout/windowtitle/icon/file"},
+    {
+      "op": "replace",
+      "path": "/paneLayout/bgShine/file",
+      "value": "/interface/sb_crafting/shine.png"
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/btnFilterHaveMaterials/base",
+      "value": "/interface/sb_crafting/checkboxnocheck.png"
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/btnFilterHaveMaterials/baseImageChecked",
+      "value": "/interface/sb_crafting/checkboxcheck.png"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/close/position/1",
+      "value": 263
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/lblSchematics/position/1",
+      "value": 243
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/lblProducttitle/position/1",
+      "value": 243
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/spinCount/upOffset",
+      "value": 34
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/tbSpinCount/maxWidth",
+      "value": 18
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/lblProduct/position/1",
+      "value": 83
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/rect/1",
+      "value": 94
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/rect/3",
+      "value": 230
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/memberSize/0",
+      "value": 156
+    },
+
+    //{"op":"replace","path":"/paneLayout/spinCount/position","value":[201,40]},
+    //{"op":"replace","path":"/paneLayout/tbSpinCount/position","value":[230,46]},
+    {
+      "op": "replace",
+      "path": "/paneLayout/tbSpinCount/position",
+      "value": [230, 46]
+    },
+    //{"op":"replace","path":"/paneLayout/btnCraft/position","value":[274,38]},
+    //{"op":"replace","path":"/paneLayout/btnStopCraft/position","value":[274,38]},
+    //{"op":"replace","path":"/paneLayout/currentRecipeIcon/position","value":[252,38]},
+    {
+      "op": "replace",
+      "path": "/paneLayout/btnFilterHaveMaterials/position",
+      "value": [26, 84]
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/moneyIcon/position",
+      "value": [123, 9.8]
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/position",
+      "value": [138, 9]
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/newIcon/position",
+      "value": [117, 5]
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/background/position/0",
+      "value": 0
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/position/0",
+      "value": 21
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/position/1",
+      "value": 11
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": ""
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemIcon/position/0",
+      "value": 1
+    }, {
+      "op": "remove",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/newIcon/zlevel"
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/notcraftableoverlay/position/0",
+      "value": 0
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/description/position/1",
+      "value": 50
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/filter/position",
+      "value": [56, 68]
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/betabound",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/paneLayout/categories/buttons/-",
+      "value": {
+        "position": [9, 44],
+        "baseImage": "/interface/sb_crafting/categories.png:blocks",
+        "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:blocks",
+        "data": {
+          "filter": ["sb_materials", "materials"]
+        }
+      }
+    }, {
+      "op": "add",
+      "path": "/paneLayout/categories/buttons/-",
+      "value": {
+        "position": [29, 44],
+        "baseImage": "/interface/sb_crafting/categories.png:armor",
+        "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:armor",
+        "data": {
+          "filter": ["sb_armors", "armors", "sb_armours", "armours"]
+        }
+      }
+    }, {
+      "op": "add",
+      "path": "/paneLayout/categories/buttons/-",
+      "value": {
+        "position": [49, 44],
+        "baseImage": "/interface/sb_crafting/categories.png:weapons",
+        "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:weapons",
+        "data": {
+          "filter": ["sb_weapons", "weapons"]
+        }
+      }
+    }, {
+      "op": "add",
+      "path": "/paneLayout/categories/buttons/-",
+      "value": {
+        "position": [69, 44],
+        "baseImage": "/interface/sb_crafting/categories.png:items",
+        "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:items",
+        "data": {
+          "filter": ["sb_consumables", "consumables", "healing"]
+        }
+      }
+    }, {
+      "op": "add",
+      "path": "/paneLayout/categories/buttons/-",
+      "value": {
+        "position": [89, 44],
+        "baseImage": "/interface/sb_crafting/categories.png:smith",
+        "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:smith",
+        "data": {
+          "filter": ["sb_tools", "tools", "sb_stations"]
+        }
+      }
+    }, {
+      "op": "add",
+      "path": "/paneLayout/categories/buttons/-",
+      "value": {
+        "position": [109, 44],
+        "baseImage": "/interface/sb_crafting/categories.png:sit",
+        "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:sit",
+        "data": {
+          "filter": ["sb_objects", "objects", "sb_stations", "decoration"]
+        }
+      }
+    }, {
+      "op": "add",
+      "path": "/paneLayout/categories/buttons/-",
+      "value": {
+        "position": [129, 44],
+        "baseImage": "/interface/sb_crafting/categories.png:other",
+        "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:other",
+        "data": {
+          "filter": ["sb_other", "other"]
+        }
+      }
+    }, {
+      "op": "add",
+      "path": "/paneLayout/categories/buttons/-",
+      "value": {
+        "position": [149, 44],
+        "baseImage": "/interface/sb_crafting/categories.png:augments",
+        "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:augments",
+        "data": {
+          "filter": ["sb_augment"]
+        }
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/betabound",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/paneLayout/rarities/buttons",
+      "value":
+      [{
+          "position": [8, 231],
+          "baseImage": "/interface/sb_crafting/rarities.png:0",
+          "baseImageChecked": "/interface/sb_crafting/rarities.png:5",
+          "data": {
+            "rarity": ["common"]
+          }
+        }, {
+          "position": [14, 231],
+          "baseImage": "/interface/sb_crafting/rarities.png:1",
+          "baseImageChecked": "/interface/sb_crafting/rarities.png:6",
+          "data": {
+            "rarity": ["uncommon"]
+          }
+        }, {
+          "position": [20, 231],
+          "baseImage": "/interface/sb_crafting/rarities.png:2",
+          "baseImageChecked": "/interface/sb_crafting/rarities.png:7",
+          "data": {
+            "rarity": ["rare"]
+          }
+        }, {
+          "position": [26, 231],
+          "baseImage": "/interface/sb_crafting/rarities.png:3",
+          "baseImageChecked": "/interface/sb_crafting/rarities.png:8",
+          "data": {
+            "rarity": ["legendary"]
+          }
+        }, {
+          "position": [32, 231],
+          "baseImage": "/interface/sb_crafting/rarities.png:4",
+          "baseImageChecked": "/interface/sb_crafting/rarities.png:9",
+          "data": {
+            "rarity": ["essential"]
+          }
+        }
+      ]
+    }
+  ]
+]

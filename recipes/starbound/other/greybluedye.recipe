@@ -1,0 +1,5 @@
+{
+  "input" : ["greydye","bluedye"],
+  "output" : ["sb_greybluedye",2],
+  "groups" : ["craftingwheel2","dyes","all"]
+}

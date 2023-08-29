@@ -1,0 +1,5 @@
+{
+  "input" : [["refinedviolium",6],["durasteelbar",4]],
+  "output" : "sb_florantier5sbroadsword",
+  "groups" : ["craftingseparator","weapons","all"]
+}

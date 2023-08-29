@@ -1,0 +1,19 @@
+{
+  "itemName" : "sb_crystalchips",
+  "price" : 200,
+  "foodValue" : 20,
+  "effects" : [[
+	{"effect":"glow","duration":180},
+	"sb_foodheal50"
+  ]],
+  "tooltipKind" : "sb_object",
+  "rarity" : "Common",
+  "inventoryIcon" : "crystalchips.png",
+  "category" : "preparedFood",
+  "description" : "Salty chips made from organic crystals.",
+  "shortdescription" : "Crystal Chips",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "learnBlueprintsOnPickup" : ["sb_crystalnachos"],
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 3
+}

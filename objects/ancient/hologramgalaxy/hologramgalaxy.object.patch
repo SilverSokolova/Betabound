@@ -1,0 +1,31 @@
+[
+    [{
+        "op": "test",
+        "path": "/orientations/0/image",
+        "value": "hologramgalaxy.png:<color>.<frame>"
+    },{
+        "op": "replace",
+        "path": "/orientations/0/animationCycle",
+        "value": 8
+    },
+    {
+        "op": "replace",
+        "path": "/orientations/0/frames",
+        "value": 50
+    },
+    {
+        "op": "replace",
+        "path": "/orientations/0/imagePosition/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/orientations/0/imagePosition/0",
+        "value": -89
+    },
+    {
+        "op": "replace",
+        "path": "/orientations/0/image",
+        "value": "hologramgalaxy2.png:<color>.<frame>"
+    }]
+]

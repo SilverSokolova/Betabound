@@ -1,0 +1,18 @@
+{
+  "itemName" : "sb_cornontheblob",
+  "price" : 180,
+  "foodValue" : 25,
+  "effects" : [[
+	"maxhealthscalingboostfood",
+	{"effect":"sb_health","duration":15},
+	"sb_foodheal70"
+  ]],
+  "tooltipKind" : "sb_object4",
+  "rarity" : "Common",
+  "category" : "preparedFood",
+  "inventoryIcon" : "cornontheblob.png",
+  "description" : "Your standard ear of sweetcorn, but with dirturchin spread on top. Mmm!",
+  "shortdescription" : "Corn on the Blob",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"]
+}

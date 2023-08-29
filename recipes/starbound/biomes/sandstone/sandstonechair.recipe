@@ -1,0 +1,5 @@
+{
+  "input" : [["sandstoneblock",25]],
+  "output" : "sandstonechair",
+  "groups" : ["craftingfurniture","decoration","objects","all"]
+}

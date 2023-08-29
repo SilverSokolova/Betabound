@@ -1,0 +1,5 @@
+{
+  "input" : [["tungstenbar",3],["copperbar",2]],
+  "output" : "sb_apextier2axe",
+  "groups" : ["craftinganvil","weapons","all"]
+}

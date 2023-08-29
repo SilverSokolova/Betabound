@@ -1,0 +1,7 @@
+{
+  "name" : "sb_foodslow",
+  "defaultDuration" : 20,
+  "scripts" : ["/stats/effects/staffslow/staffslow.lua"],
+  "label" : "Slow",
+  "icon" : "/interface/statuses/slow.png"
+}

@@ -1,0 +1,42 @@
+{
+  "objectName" : "sb_glitchfuelhatch",
+  "colonyTags" : ["glitch"],
+  "printable" : false,
+  "price" : 700,
+  "rarity" : "uncommon",
+  "objectType" : "container",
+  "category" : "other",
+  "tooltipKind" : "sb_object",
+  "description" : "Accepts a bunch of different kinds of fuel for the ship's FTL drive.",
+  "shortdescription" : "^orange;Glitch FTL Fuel Hatch^reset;",
+  "race" : "glitch",
+
+  "apexDescription" : "A hand-built fuel converter.",
+  "avianDescription" : "A Glitch device to convert items into fuel.",
+  "floranDescription" : "Floran ssshould not put head into fuel hatch.",
+  "glitchDescription" : "Statement. A Glitch fuel device built by hand.",
+  "humanDescription" : "A fuel hatch for powering the ship's FTL drive.",
+  "hylotlDescription" : "A good deal of tech that seems to convert items into fuel.",
+  "novakidDescription" : "Fuel goes in here!",
+
+  "inventoryIcon" : "glitchicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "glitch.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "hasWindowIcon" : false,
+  "recipeGroup" : "fuel",
+  "slotCount" : 6,
+  "uiConfig" : "/interface/sb_fuel/fuel.config",
+  "autoCloseCooldown" : 3600,
+  "frameCooldown" : 5
+}

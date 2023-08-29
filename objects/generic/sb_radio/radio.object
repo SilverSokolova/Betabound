@@ -1,0 +1,66 @@
+{
+  "objectName" : "sb_radio",
+  "rarity" : "rare",
+  "category" : "other",
+  "price" : 300,
+  "printable" : false,
+  "tooltipKind" : "sb_object",
+
+  "description" : "All your music in one space!",
+  "shortdescription" : "^orange;Stationary Radio^reset;",
+  "race" : "human",
+
+  "apexDescription" : "A radio! I like listening to local news.",
+  "avianDescription" : "It's a radio.",
+  "floranDescription" : "Radio box for newsss and musssic.",
+  "glitchDescription" : "Neutral. It's the local radio.",
+  "humanDescription" : "Ah, a radio! It's good for background noise.",
+  "hylotlDescription" : "A simple radio.",
+  "novakidDescription" : "Just a radio.",
+
+  "collectablesOnPickup" : {"sb_music" : "jukebox"},
+  "radioData" : [["/sfx/objects/jukebox.ogg"],60],
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/sb_music/music.config",
+  "inventoryIcon" : "/items/active/starbound/radio.png",
+  "orientations" : [
+    {
+      "dualImage" : "radio.png",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ],
+
+  "animation" : "radio.animation",
+  "animationPosition" : [0, 0],
+
+  "scripts" : [
+    "radio.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [[0,0]],
+
+  "npcToy" : {
+    "influence" : [
+      "hylotlmusic",
+      "hylotlmusic",
+      "hylotlmusic",
+      "hylotlmusicFinished"
+    ],
+    "defaultReactions" : {
+      "hylotlmusic" : [
+        [1.0, "hylotldance"]
+      ],
+      "hylotlmusicFinished" : [
+        [1.0, "hylotldance"],
+        [1.0, "smile"],
+        [1.0, "laugh"]
+      ]
+    },
+    "randomStandXRange" : [-4, 4],
+    "maxNpcs" : 4
+  }
+}

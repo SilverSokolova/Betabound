@@ -1,0 +1,23 @@
+{
+  "itemName": "sb_novatier6arifle",
+  "definition": "rifle",
+  "tags": {
+    "<t>": "6a"
+  },
+  "rarity": "legendary",
+  "description": "A loyal and trustworthy friend indeed.",
+  "shortdescription": "Steadfast Nova",
+  "level": 6,
+  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid", "upgradeableWeapon"],
+  "configOverrides": {
+    "baseOffset": [0.75, 0.25],
+    "primaryAbility": {
+      "energyUsage": 30,
+      "baseDps": 6.25,
+      "fireTime": 0.8
+    }
+  },
+  "muzzleOffset": [2.185, 0.130],
+  "altAbilityType": "markedshot",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

@@ -1,0 +1,14 @@
+{
+  "itemName": "sb_novatier2revolver",
+  "definition": "revolver",
+  "itemTags": ["weapon", "ranged", "pistol", "revolver", "novakid", "upgradeableWeapon"],
+  "tags": {
+    "<t>": "2"
+  },
+  "rarity": "common",
+  "description": "Time's a wastin'.",
+  "shortdescription": "Fast Hands",
+  "muzzleOffset": [2.1, 0.3],
+  "level": 2,
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

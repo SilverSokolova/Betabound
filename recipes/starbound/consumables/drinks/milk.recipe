@@ -1,0 +1,5 @@
+{
+  "input" : [["liquidmilk",3],"liquidwater","sugar"],
+  "output" : ["milk",3],
+  "groups" : ["craftingfood","drinks","sb_healing","all"]
+}

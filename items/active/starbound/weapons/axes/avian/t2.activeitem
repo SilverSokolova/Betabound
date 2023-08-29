@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_aviantier2axe",
+  "description": "A larger, versatile axe.",
+  "shortdescription": "Tomahawk",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t2",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

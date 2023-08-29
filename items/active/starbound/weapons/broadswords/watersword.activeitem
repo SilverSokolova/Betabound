@@ -1,0 +1,84 @@
+{
+  "itemName": "sb_watersword",
+  "level": 1,
+  "price": 800,
+  "maxStack": 1,
+  "rarity": "legendary",
+  "category": "broadsword",
+  "description": "Strike with the force of an ocean!",
+  "shortdescription": "Water Sword",
+  "tooltipFields": {
+    "subtitle": "Water Sword"
+  },
+  "tooltipKind": "sb_sword2",
+  "twoHanded": true,
+  "sb_waBan": true,
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "animation": "/items/active/starbound/weapons/broadsword.animation",
+  "animationParts": {
+    "blade": "watersword.png",
+    "handle": ""
+  },
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "image": "waterswoosh.png:<frame>",
+                  "offset": [0.65, 1.875]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "particleEmitters": {
+      "physicalswoosh": {
+        "active": false,
+        "transformationGroups": ["swoosh"],
+        "burstCount": 6,
+        "particles": [{
+            "particle": "waterdrip"
+          }
+        ]
+      }
+    },
+    "sounds": {
+      "icefire1": ["/sfx/melee/swing_broadsword_water1.ogg", "/sfx/melee/swing_broadsword_water2.ogg", "/sfx/melee/swing_broadsword_water3.ogg", "/sfx/melee/swing_broadsword_water4.ogg"],
+      "icefire2": ["/sfx/melee/swing_broadsword_water1.ogg", "/sfx/melee/swing_broadsword_water2.ogg", "/sfx/melee/swing_broadsword_water3.ogg", "/sfx/melee/swing_broadsword_water4.ogg"],
+      "icefire3": ["/sfx/melee/swing_broadsword_water1.ogg", "/sfx/melee/swing_broadsword_water2.ogg", "/sfx/melee/swing_broadsword_water3.ogg", "/sfx/melee/swing_broadsword_water4.ogg"],
+      "extraFire": ["/sfx/projectiles/bubble_cluster.ogg"]
+    }
+  },
+
+  "builderConfig": [{
+      "nameGenerator": "waterswordnames.config:nameGen",
+      "iconDrawables": ["blade"],
+      "altAbilities": [
+        "bladecharge",
+        "parry",
+        "travelingslash",
+        "blinkexplosion",
+        "traildash"
+      ]
+    }
+  ],
+
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType": "ice",
+  "primaryAbilityType": "sb_meleeslash",
+  "primaryAbility": {
+    "damageConfig": {
+      "statusEffects": ["wet"],
+      "damageSourceKind": "icebroadsword"
+    },
+    "fireTime": [0.6, 0.9],
+    "baseDps": [10.5, 11.5],
+    "projectileType": "sb_watersword"
+  },
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

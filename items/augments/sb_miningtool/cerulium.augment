@@ -1,0 +1,13 @@
+{
+  "itemName" : "sb_cerulium_repair",
+  "price" : 150,
+  "tooltipKind" : "sb_object",
+  "rarity" : "rare",
+  "category" : "Tool",
+  "tooltipFields" : {"subtitle":"Repair Tool"},
+  "durabilityRegen" : 350,
+  "inventoryIcon" : "cerulium.png",
+  "description" : "It's a cerulium repair tool.\n^gray;Select repair tool and right-click pickaxe or drill.",
+  "shortdescription" : "Cerulium Repair Tool",
+  "scripts" : ["/scripts/augments/sb_ore.lua"]
+}

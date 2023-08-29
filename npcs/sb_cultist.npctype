@@ -1,0 +1,38 @@
+{
+  "type" : "sb_cultist",
+  "baseType" : "hostile",
+
+  "persistent" : true,
+
+  "dropPools" : [ "sb_cultistTreasure" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {"default":{"default":["Death to heathens!"]}},
+      "reattack" : {"default":{"default":["Death to heathens!"]}},
+      "killedTarget" : {"default":{"default":["Death to heathens!"]}},
+      "lostTarget" : {"default":{"default":["Death to heathens!"]}},
+      "outOfSight" : {"default":{"default":["Death to heathens!"]}},
+      "cheerOn" : {"default":{"default":["Death to heathens!"]}},
+      "cantReach" : {"default":{"default":["Death to heathens!"]}}
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "copperarmorhead" } ],
+            "chest" : [ { "name" : "copperarmorchest" } ],
+            "legs" : [ { "name" : "copperarmorpants" } ],
+            "headCosmetic" : [ { "name" : "sb_cultisthead","parameters":{"colorIndex":1} } ],
+            "chestCosmetic" : [ { "name" : "cultistchest","parameters":{"colorIndex":1} } ],
+            "legsCosmetic" : [ { "name" : "cultistlegs","parameters":{"colorIndex":1} } ],
+            "alt" : [ "redflashlight","copperore" ],
+            "sheathedprimary" : [ "sb_uncommondagger", "sb_uncommonbroadsword" ]
+          }
+        ]
+      ]
+    ]
+  }
+}

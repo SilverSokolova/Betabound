@@ -1,0 +1,23 @@
+{
+  "name" : "sb_groundsmash",
+  "type" : "body",
+
+  "scripts" : ["/scripts/vec2.lua", "groundsmash.lua"],
+  "animator" : "groundsmash.animation",
+
+  "energyCostPerSmash" : 26,
+  "groundsmashSpeed" : 250,
+  "groundsmashLandingTime" : 0.2,
+  "groundsmashControlForce" : 400,
+
+  "rarity" : "Legendary",
+  "icon" : "/tech/starbound/groundsmash.png",
+  "description" : "Double tap ^#0f0;[DOWN]^reset; in the air and smash the ground!",
+  "shortDescription" : "Ground Smash",
+
+  "knockbackSpeed" : 30,
+  "knockbackOffset" : [0, -2],
+  "knockbackRadius" : 5,
+
+  "maxDoubleTapTime" : 0.2
+}

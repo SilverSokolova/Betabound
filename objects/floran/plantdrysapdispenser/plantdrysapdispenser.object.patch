@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"rare"}],
+[{"op":"test","path":"/description","value":"A Drysap Dispenser. The one thing standing between the Floran and a dusty demise."},
+{"op":"replace","path":"/description","value":"The one thing standing between a Floran and a dusty demise."}]
+]

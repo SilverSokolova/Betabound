@@ -1,0 +1,5 @@
+{
+  "input" : [["eyepiles",25],"leather"],
+  "output" : "sb_eyechair",
+  "groups" : ["craftingfurniture","decoration","objects","all"]
+}

@@ -1,0 +1,35 @@
+[
+    [{
+        "op": "test",
+        "path": "/tiles/360/brush/0/1/typeName",
+        "value": "agrobat"
+    },
+    {
+        "op": "replace",
+        "path": "/tiles/360/brush/0/1/typeName",
+        "value": "sb_monsterspawner"
+    },
+    {
+        "op": "add",
+        "path": "/tiles/360/brush/0/1/parameters",
+        "value": {
+            "sb_monsterspawner": ["agrobat","sewerfly"]
+        }
+    }],
+    [{
+        "op": "test",
+        "path": "/tiles/359/brush/0/1/typeName",
+        "value": "oculob"
+    },{
+        "op": "replace",
+        "path": "/tiles/359/brush/0/1/typeName",
+        "value": "sb_monsterspawner"
+    },
+    {
+        "op": "add",
+        "path": "/tiles/359/brush/0/1/parameters",
+        "value": {
+            "sb_monsterspawner": ["oculob","glitchspider"]
+        }
+    }]
+]

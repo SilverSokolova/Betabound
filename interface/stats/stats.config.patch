@@ -1,0 +1,15 @@
+[
+  [{
+      "op": "test",
+      "path": "/energyRegenPercentageRate",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/energyRegenPercentageRate",
+      "value": {
+        "label": "Energy Regeneration Rate",
+        "icon": "/interface/stats/sb_lightningplus.png"
+      }
+    }
+  ]
+]

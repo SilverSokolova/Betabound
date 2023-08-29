@@ -1,0 +1,9 @@
+{
+  "name" : "sb_skeye",
+  "category" : "sb_skeye_organic",
+  "type" : "body",
+
+  "frames" : {
+    "chest" : "skeye.png"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "itemName": "sb_novatier5mrifle",
+  "definition": "rifle",
+  "tags": {
+    "<t>": "5m"
+  },
+  "rarity": "rare",
+  "description": "The real deal when it comes to delivering justice.",
+  "shortdescription": "Lawmaker",
+  "level": 5,
+  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid", "upgradeableWeapon"],
+  "configOverrides": {
+    "baseOffset": [0.375, 0.375],
+    "primaryAbility": {
+      "energyUsage": 20,
+      "baseDps": 6,
+      "fireTime": 1
+    }
+  },
+  "muzzleOffset": [2.820, 0.095],
+  "elementalType": "poison",
+  "altAbilityType": "deathbomb",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

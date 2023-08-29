@@ -1,0 +1,21 @@
+{
+  "itemName" : "sb_apexsteelstaff2",
+  "definition" : "racialstaff",
+  "itemTags" : ["weapon","staff"],
+  "tags" : {"<race>" : "apex", "<staff>" : "steelstaff", "<n>" : "2"},
+  "rarity" : "legendary",
+  "level" : 6,
+  "description" : "Deploys a drone that fires lasers and rockets.",
+  "shortdescription" : "Deadbolt Staff",
+  "tooltipFields" : {"subtitle":"Steel Staff","damageKindImage":"/interface/sb_tooltips/sb_deadbolt.png"},
+  "elementalType" : "electric",
+  "altAbilityType" : "energyzone",
+  "primaryAbility" : {
+    "projectileType" : "sb_deadboltteleportin",
+    "projectileParameters" : {
+      "baseDamage" : 12,
+      "speed" : 0
+    }
+  },
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/description","value":"A substance that appears to be almost intangible. Can be used for crafting."},
+{"op":"replace","path":"/description","value":"A substance that appears to be almost intangible."}]
+]

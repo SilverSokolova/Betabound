@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_imperviumcompound",3],["solariumstar",2]],
+  "output" : "sb_aviantier6saxe",
+  "groups" : ["craftingseparator","weapons","all"]
+}

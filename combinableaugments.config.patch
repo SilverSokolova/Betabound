@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/recuperationConfig/collar/sb_thorns|Thorns","inverse":true},{"op":"add","path":"/recuperationConfig/collar/sb_thorns|Thorns","value":"sb_thornscollar"}],
+[{"op":"test","path":"/recuperationConfig/augment/sb_energyregen1|Energy Regeneration I","inverse":true},{"op":"add","path":"/recuperationConfig/collar/sb_energyregen1|Energy Regeneration I","value":"sb_energyregenaugment1"}],
+[{"op":"test","path":"/recuperationConfig/augment/sb_energyregen2|Energy Regeneration II","inverse":true},{"op":"add","path":"/recuperationConfig/collar/sb_energyregen2|Energy Regeneration II","value":"sb_energyregenaugment2"}],
+[{"op":"test","path":"/recuperationConfig/augment/sb_energyregen3|Energy Regeneration III","inverse":true},{"op":"add","path":"/recuperationConfig/collar/sb_energyregen3|Energy Regeneration III","value":"sb_energyregenaugment3"}]
+]

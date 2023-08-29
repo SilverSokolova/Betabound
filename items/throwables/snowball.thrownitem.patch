@@ -1,0 +1,7 @@
+[
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_snowcone"}],
+
+[{"op":"test","path":"/description","value":"A snowball, the perfect size for throwing."},
+{"op":"replace","path":"/description","value":"A snowball, the perfect size for throwing. It's begging to be thrown."}]
+]

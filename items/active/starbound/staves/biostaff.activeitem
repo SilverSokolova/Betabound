@@ -1,0 +1,39 @@
+{
+  "itemName" : "sb_biostaff",
+  "definition" : "staff",
+  "itemTags" : ["weapon","staff","upgradeableWeapon"],
+  "tags" : {"<staff>" : "bio", "<glow>" : "bioglow"},
+
+  "description" : "Generates a glowing ball of light that harms nearby foes.",
+  "shortdescription" : "Bio Light Staff",
+  "tooltipFields" : {"damageKindImage":"/interface/sb_tooltips/sb_biolightball.png"},
+  "staffHasFullbright" : true,
+
+  "animationCustom" : {
+    "animatedParts": {"parts":{"chargeEffect":{"properties":{"offset":[-0.2,0.8]}}}}
+  },
+
+  "elementalType" : "fire",
+  "altAbilityType" : "kluexshooter",
+
+  "primaryAbility" : {
+    "projectileType" : "sb_biolightball",
+    "projectileParameters" : {
+      "speed" : 0,
+      "baseDamage" : 14,
+      "color" : [255, 10, 10],
+      "damageTeam" : {"type":"indiscriminate"}
+    }
+  },
+  "altAbility" : {
+    "name" : "Glow Trail",
+    "energyPerShot" : 7,
+    "projectileParameters" : {
+      "baseDamage" : 0,
+      "statusEffects" : [{"effect":"glow","duration":180}]
+    },
+    "projectileType" : "glowgas"
+  },
+
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

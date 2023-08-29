@@ -1,0 +1,8 @@
+{
+  "sounds" : {
+    "none" : [],
+    "drink" : ["/sfx/humanoid/drink.ogg"],
+    "food" : ["/sfx/humanoid/eat3.ogg"],
+    "medicine" : ["/sfx/statuseffects/stimuse.ogg", "/sfx/statuseffects/powerup.ogg"]
+  }
+}

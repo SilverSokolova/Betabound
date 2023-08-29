@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/tooltipKind","value":"back"},{"op":"replace","path":"/tooltipKind","value":"sb_baseaugment"}],
+[{"op":"test","path":"/acceptsAugmentType","inverse":true},{"op":"add","path":"/acceptsAugmentType","value":"back"}]
+]

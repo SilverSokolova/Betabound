@@ -1,0 +1,5 @@
+{
+  "input" : [["platinumbar",2]],
+  "output" : "sb_crittercapturepod",
+  "groups" : ["capturestation","all"]
+}

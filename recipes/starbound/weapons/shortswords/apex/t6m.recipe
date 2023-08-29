@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_ceruliumcompound",3],["solariumstar",2]],
+  "output" : "sb_apextier6mshortsword",
+  "groups" : ["craftingseparator","weapons","all"]
+}

@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_hylotltier4broadsword",
+  "description": "A trusty broadsword.",
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "definition": "broadswords/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "First Mate"
+}

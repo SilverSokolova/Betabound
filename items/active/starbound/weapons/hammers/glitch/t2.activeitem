@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_glitchtier2hammer",
+  "description": "A hammer with a decent reach.",
+  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "definition": "hammers/t2",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Safareach"
+}

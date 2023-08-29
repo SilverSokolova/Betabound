@@ -1,0 +1,23 @@
+{
+  "frameGrid" : {
+    "size" : [130, 130],
+    "dimensions" : [9, 1],
+    "names" : [
+      [ "open.1", "open.2", "open.3", "open.4", "open.5", "open.6", "open.7", "open.8", "open.9"]
+    ]
+  },
+  "aliases" : {
+    "openloop.1" : "open.8",
+    "openloop.2" : "open.9",
+
+    "close.1" : "open.9",
+    "close.2" : "open.8",
+    "close.3" : "open.7",
+    "close.4" : "open.6",
+    "close.5" : "open.5",
+    "close.6" : "open.4",
+    "close.7" : "open.3",
+    "close.8" : "open.2",
+    "close.9" : "open.1"
+  }
+}

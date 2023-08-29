@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/actionOnReap"},{"op":"add","path":"/actionOnReap/-","value":{"action":"sound","options":["/sfx/gun/molotov_impact.ogg"],"time":0,"repeat":false}}]
+]

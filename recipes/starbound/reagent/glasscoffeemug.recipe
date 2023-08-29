@@ -1,0 +1,6 @@
+{
+  "input" : [["glass",2]],
+  "output" : "glasscoffeemug",
+  "duration" : 0.5,
+  "groups" : ["craftingfurnace","ingredients","all"]
+}

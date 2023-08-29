@@ -1,0 +1,80 @@
+{
+  "itemName": "sb_nightstick",
+  "level": 1,
+  "maxStack": 1,
+  "paletteSwaps": "",
+  "rarity": "uncommon",
+  "description": "",
+  "shortdescription": "Nightstick",
+  "tooltipKind": "sb_sword",
+  "price": 495,
+  "category": "dagger",
+  "tooltipFields": {
+    "subtitle": "Nightstick"
+  },
+  "twoHanded": false,
+  "sb_dyeable": true,
+  "sb_backingDirectives": "?replace;616161=ffca8a;383838=e0975c;1a1a1a=a85636",
+  "sb_extraDirectives": "?replace;ffca8a=616161;e0975c=383838;a85636=1a1a1a",
+  "itemTags": ["weapon", "melee", "dagger", "nightstick", "upgradeableWeapon"],
+  "handGrip": "inside",
+  "animation": "/items/active/starbound/weapons/dagger.animation",
+  "inventoryIcon": "nightstick.png<directives>",
+  "animationParts": {
+    "handle": "",
+    "blade": "nightstick.png<directives>"
+  },
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [0.5, 1]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "aimOffset": 0,
+  "primaryAbilityType": "sb_dagger",
+  "primaryAbility": {
+    "fireTime": [0.27, 0.42],
+    "baseDps": [8, 9],
+    "damageConfig": {
+      "damageSourceKind": "slash",
+      "knockback": 12
+    },
+    "stances": {
+      "idle": {
+        "armRotation": -90,
+        "weaponRotation": 65,
+        "weaponOffset": [0.9, 1],
+        "allowRotate": false
+      },
+      "windup": {
+        "duration": 0.2,
+        "weaponOffset": [0.9, 1]
+      },
+      "fire": {
+        "duration": 0.2,
+        "weaponOffset": [0.9, 1]
+      }
+    }
+  },
+  "fireSounds": ["/sfx/melee/swing_dagger.ogg"],
+
+  "builderConfig": [{
+      "nameGenerator": "nightsticknames.config:nameGen",
+      "elementalType": "physical"
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

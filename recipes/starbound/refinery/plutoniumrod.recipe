@@ -1,0 +1,6 @@
+{
+  "input" : ["plutoniumrod"],
+  "output" : ["money",20],
+  "duration" : 0.5,
+  "groups" : ["refinery","all"]
+}

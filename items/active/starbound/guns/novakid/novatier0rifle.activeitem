@@ -1,0 +1,15 @@
+{
+  "itemName": "sb_novatier0rifle",
+  "definition": "rifle",
+  "tags": {
+    "<t>": "0"
+  },
+  "rarity": "legendary",
+  "description": "A gun only as accurate as the one pulling the trigger.",
+  "shortdescription": "Red Ryder",
+  "level": 0.5,
+  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid", "upgradeableWeapon"],
+  "muzzleOffset": [2, 0.135],
+  "altAbilityType": "piercingshot",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

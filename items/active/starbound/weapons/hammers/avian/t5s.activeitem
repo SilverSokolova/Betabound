@@ -1,0 +1,1 @@
+{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","configOverrides":{"primaryAbility":{"stances":{"idle":{"weaponOffset":[0.2,1.75]}}}},"itemTags":["weapon","melee","hammer","upgradeableWeapon"],"definition":["colors/t5s","hammers/t5s"],"description":"A spiky hammer that looks like a corn cob.","itemName":"sb_aviantier5shammer","shortdescription":"The Creamer"}

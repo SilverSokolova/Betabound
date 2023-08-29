@@ -1,0 +1,46 @@
+{
+  "animationParts": {},
+  "animationCustom": {},
+
+  "ability": {
+    "name": "Gun Fire",
+    "type": "sb_gun2",
+    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
+    "class": "GunFire",
+    "projectileType": "standardbullet",
+    "projectileCount": 1,
+    "energyUsage": 8,
+    "baseDps": 6.5,
+    "fireTime": 1,
+    "inaccuracy": 0.008,
+    "fireType": "auto",
+    "projectileParameters": {
+      "knockback": 20
+    },
+
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "fire": { //TODO: corrosive gun has this as {} and it works fine
+        "armRotation": 5,
+        "weaponRotation": 0,
+        "twoHanded": true,
+        "allowRotate": false,
+        "allowFlip": true
+      },
+      "cooldown": {
+        "duration": 0.25,
+        "armRotation": 5,
+        "weaponRotation": 5,
+        "twoHanded": true,
+        "allowRotate": false,
+        "allowFlip": true
+      }
+    }
+  }
+}

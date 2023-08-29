@@ -1,0 +1,5 @@
+{
+  "input" : [["ironbar",8]],
+  "output" : "sb_ironanvil",
+  "groups" : ["sb_anvil","sb_stations","all"]
+}

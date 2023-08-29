@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_tradingcard"}],
+[{"op":"test","path":"/largeImage","inverse":true},{"op":"add","path":"/largeImage","value":"/items/generic/tradingcards/card01large.png"}],
+[{"op":"test","path":"/inventoryIcon","value":"card01.png"},{"op":"replace","path":"/inventoryIcon","value":"sb_card01.png"}]
+]

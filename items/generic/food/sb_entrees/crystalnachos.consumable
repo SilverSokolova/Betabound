@@ -1,0 +1,20 @@
+{
+  "itemName" : "sb_crystalnachos",
+  "price" : 400,
+  "foodValue" : 50,
+  "effects" : [[
+	{"effect":"glow","duration":225},
+	{"effect":"maxhealthscalingboostfood","duration":225},
+	"sb_foodheal170"
+  ]],
+  "tooltipKind" : "sb_object",
+  "rarity" : "rare",
+  "sb_plateHide" : true,
+  "inventoryIcon" : "crystalnachos.png",
+  "category" : "preparedFood",
+  "description" : "Exquisite nachos made from a variety of ingredients.",
+  "shortdescription" : "Crystal Nachos",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 3
+}

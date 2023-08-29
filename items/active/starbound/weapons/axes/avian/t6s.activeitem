@@ -1,0 +1,1 @@
+{"description":"An axe decorated with an Avian skull.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_aviantier6saxe","definition":["colors/t6s","axes/s"],"shortdescription":"Sunborn Fury","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

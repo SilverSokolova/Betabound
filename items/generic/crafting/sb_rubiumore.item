@@ -1,0 +1,12 @@
+{
+  "itemName" : "sb_rubiumore",
+  "price" : 60,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "tooltipKind" : "sb_object",
+  "inventoryIcon" : "sb_rubiumore.png",
+  "itemTags" : ["reagent"],
+  "learnBlueprintsOnPickup" : ["sb_rubium_repair", "sb_refinedrubium"],
+  "description" : "Rubium ore. Can be used for smelting.",
+  "shortdescription" : "Rubium Ore"
+}

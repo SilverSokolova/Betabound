@@ -1,0 +1,18 @@
+[
+  [{
+    "op":"test",
+    "path":"/undergroundPlaceables/items"
+  },
+  {
+    "op":"add",
+    "path":"/undergroundPlaceables/items/-",
+    "value":{
+      "mode":"floor",
+      "priority":1,
+      "variants":1,
+      "distribution":"/biomes/distributions.config:undergroundOreRocks",
+      "type":"microdungeon",
+      "microdungeons":["sb_moonsupermatter"]
+    }
+  }]
+]

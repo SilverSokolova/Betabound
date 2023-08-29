@@ -1,0 +1,15 @@
+[
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
+{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+
+[{"op":"test","path":"/fuelAmount","inverse":true},
+{"op":"add","path":"/fuelAmount","value":8}],
+
+[{"op":"test","path":"/category","value":"craftingMaterial"},
+{"op":"replace","path":"/category","value":"fuel"}],
+
+[{"op":"test","path":"/description","value":"It's solarium. It's warm to the touch."},
+{"op":"replace","path":"/description","value":"It's solarium. Warm to the touch and a fantastic source of fuel."}],
+
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_solarium_repair"}]
+]

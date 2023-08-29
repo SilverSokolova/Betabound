@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":""}],[{"op":"replace","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/shortdescription","value":"Rough Stone"},{"op":"replace","path":"/shortdescription","value":"Arkose Rock"}]
+]

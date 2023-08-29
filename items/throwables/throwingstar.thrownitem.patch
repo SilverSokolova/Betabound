@@ -1,0 +1,8 @@
+[
+[{"op":"test","path":"/description","value":"A throwing star, pocket-sized and deadly."},
+{"op":"replace","path":"/description","value":"A throwing star, pocket-sized and deadly for the ninjas among us."}],
+
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"rare"}],
+
+[{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":8}]
+]

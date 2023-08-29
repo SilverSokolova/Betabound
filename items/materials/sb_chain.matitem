@@ -1,0 +1,13 @@
+{
+  "itemName" : "sb_chain",
+  "rarity" : "unCommon",
+  "category" : "block",
+  "tooltipKind" : "sb_object",
+  "inventoryIcon" : "sb_chain.png",
+  "description" : "Steel chains, and not the fun kind.",
+  "shortdescription" : "Steel Chain",
+  "glitchdescription" : "Statement. Chains.",
+  "florandescription" : "Floran use chains to catch prey.",
+
+  "materialId" : 6970
+}

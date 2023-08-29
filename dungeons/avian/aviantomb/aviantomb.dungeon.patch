@@ -1,0 +1,34 @@
+[
+    [{
+        "op": "test",
+        "path": "/tiles/383/brush/0/1/typeName",
+        "value": "batong"
+    },{
+        "op": "replace",
+        "path": "/tiles/383/brush/0/1/typeName",
+        "value": "sb_monsterspawner"
+    },
+    {
+        "op": "add",
+        "path": "/tiles/383/brush/0/1/parameters/sb_monsterspawner",
+        "value": ["batong","bonebird"]
+    }],
+    [{
+        "op": "test",
+        "path": "/tiles/383/brush/0/1/parameters/damageTeam",
+        "value": 0
+    },{
+        "op": "replace",
+        "path": "/tiles/383/brush/0/1/parameters/damageTeam",
+        "value": 2
+    }],
+    [{
+        "op": "test",
+        "path": "/tiles/382/brush/0/1/parameters/damageTeam",
+        "value": 0
+    },{
+        "op": "replace",
+        "path": "/tiles/382/brush/0/1/parameters/damageTeam",
+        "value": 2
+    }]
+]

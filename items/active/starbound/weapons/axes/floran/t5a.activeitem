@@ -1,0 +1,1 @@
+{"description":"An axe made from a small tree.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_florantier5aaxe","definition":["colors/t5a","axes/a"],"shortdescription":"Treechopper","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

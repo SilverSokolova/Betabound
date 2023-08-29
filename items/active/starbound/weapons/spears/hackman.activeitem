@@ -1,0 +1,68 @@
+{
+  "itemName" : "sb_hackman",
+  "level" : 1,
+  "fixedLevel" : false,
+  "price" : 800,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "sb_waBan" : true,
+  "tooltipKind" : "sb_sword2",
+  "category" : "spear",
+  "description" : "A spontoon equipped with energy-charged crystals.",
+  "shortdescription" : "Hackman",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear","crystal","upgradeableWeapon"],
+  "animation" : "/items/active/starbound/weapons/spear.animation",
+  "inventoryIcon" : "hackman.png",
+  "animationParts" : {
+    "blade" : "hackman.png",
+    "handle" : ""
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+	"swoosh" : {
+	  "partStates" : {
+	    "swoosh" : {
+	      "fire" : {
+		"properties" : {
+		  "image" : "crystalswoosh.png:<frame>"
+		}
+	      }
+	    }
+	  }
+	}
+      }
+    },
+    "sounds" : {
+      "fire" : ["/sfx/tech/tech_blink2.ogg"]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "builderConfig" : [{
+    "altAbilities" : ["flurry","spearspin","spearcharge"]
+  }],
+  "primaryAbilityType" : "sb_spear",
+  "primaryAbility" : {
+    "projectileType" : "sb_plasmacrystal",
+    "fireTime" : [0.5,0.7],
+    "baseDps" : [8.5,12.5],
+    "stances" : {
+      "idle" : {
+        "allowFlip" : true,
+        "allowRotate" : true,
+        "weaponOffset" : [0, 0.95]
+      },
+      "fire" : {
+        "duration" : 0.24
+      },
+      "windup" : {
+        "duration" : 0.2,
+        "weaponOffset" : [0, 0.95]
+      }
+    }
+  },
+  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+}

@@ -1,0 +1,46 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "boosting" : {
+	"default" : "off",
+	"states" : {
+	  "off" : {},
+	  "on" : {
+	    "properties" : {
+	      "persistentSound" : "/sfx/blocks/footstep_sand2.ogg"
+	    }
+	  }
+	}
+      }
+    },
+
+    "parts" : {
+      "bubble" : {
+	"partStates" : {
+	  "boosting" : {
+	    "on" : {
+	      "properties" : {
+		"centered" : true,
+		"image" : "butterfly.png"
+	      }
+	    }
+	  }
+	}
+      }
+    }
+  },
+
+  "particleEmitters" : {
+    "boostParticles" : {
+      "emissionRate" : 20,
+      "particles" : [
+	{"particle":"butterflyboost1"},
+	{"particle":"butterflyboost2"},
+	{"particle":"butterflyboost3"},
+	{"particle":"butterflyboost4"},
+	{"particle":"butterflyboost5"},
+	{"particle":"butterflyboost6"}
+      ]
+    }
+  }
+}

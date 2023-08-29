@@ -1,0 +1,1 @@
+{"description":"A swashbuckling cutlass.","shortdescription":"Cutlass","itemName":"sb_hylotltier6mbroadsword","definition":["colors/t6m","broadswords/t6m"],"itemTags":["weapon","melee","broadsword","upgradeableWeapon"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

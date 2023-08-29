@@ -1,0 +1,62 @@
+{
+  "margin" : 0,
+  "name" : "betabound",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 4,
+  "tileheight" : 60,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "A thin light that sits on the wall.",
+      "//name" : "sb_walllight",
+      "//shortdescription" : "Long Electric Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "sb_walllight",
+      "tilesetDirection" : "right"
+    },
+    "1" : {
+      "//description" : "a",
+      "//name" : "sb_wreckchains1",
+      "//shortdescription" : "chains 1",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "sb_wreckchains1",
+      "tilesetDirection" : "right"
+    },
+    "2" : {
+      "//description" : "a",
+      "//name" : "sb_wreckchains2",
+      "//shortdescription" : "chains 2",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "sb_wreckchains2",
+      "tilesetDirection" : "right"
+    },
+    "3" : {
+      "//description" : "a",
+      "//name" : "sb_wreckchains3",
+      "//shortdescription" : "chains 3",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "sb_wreckchains3",
+      "tilesetDirection" : "right"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "sb_walllight.png"
+    },
+    "1" : {
+      "image" : "sb_wreckchains1.png"
+    },
+    "2" : {
+      "image" : "sb_wreckchains2.png"
+    },
+    "3" : {
+      "image" : "sb_wreckchains3.png"
+    }
+  },
+  "tilewidth" : 67
+}

@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/scripts","inverse":true},{"op":"test","path":"/interactData"},{"op":"add","path":"/scripts","value":[]}],
+[{"op":"add","path":"/scripts/-","value":"sb_treasuredtrophies.lua"}],
+[{"op":"add","path":"/sb_treasuredtrophies","value":["outpost_mission1","outpost_mission2","outpost_mission3","outpost_mission4","outpost_mission5","outpost_mission6","final_gate_key","outpost_beakeasy","outpost_weaponshop"]}]
+]

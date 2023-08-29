@@ -1,0 +1,12 @@
+{
+  "itemName" : "sb_soylentgreen",
+  "rarity" : "Common",
+  "price" : 20,
+  "foodValue" : 10,
+  "tooltipKind" : "sb_object",
+  "inventoryIcon" : "soylentgreen.png",
+  "category" : "food",
+  "description" : "I wonder what this is...",
+  "shortdescription" : "Soylent Green",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua"
+}

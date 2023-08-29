@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_florantier3axe",
+  "description": "A decent axe decorated with leaves.",
+  "shortdescription": "Choppy Leaves",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t3",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

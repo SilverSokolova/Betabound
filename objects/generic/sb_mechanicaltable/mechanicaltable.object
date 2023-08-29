@@ -1,0 +1,32 @@
+{
+  "objectName" : "sb_mechanicaltable",
+  "colonyTags" : ["commerce"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A basic mechanical table.",
+  "shortdescription" : "Mechanical Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 15,
+
+  "apexDescription" : "A decent table.",
+  "avianDescription" : "A nice table.",
+  "floranDescription" : "Floran likess table.",
+  "glitchDescription" : "Indifferent. A table.",
+  "humanDescription" : "A table.",
+  "hylotlDescription" : "An unattractive table.",
+  "novakidDescription" : "Just a table.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "mechanicaltable.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"],
+      "collision" : "platform"
+    }
+  ]
+}

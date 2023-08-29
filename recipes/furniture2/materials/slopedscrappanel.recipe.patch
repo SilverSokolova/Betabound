@@ -1,0 +1,6 @@
+[
+  [
+    {"op":"test","path":"/input/2","inverse":true},
+    {"op":"add","path":"/input/-","value":{"item":"liquidwater","count":1}}
+  ]
+]

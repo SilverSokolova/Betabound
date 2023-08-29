@@ -1,0 +1,47 @@
+{
+  "projectileName" : "sb_splashdrop2",
+  "image" : "splashdrop2.png",
+  "animationCycle" : 0.25,
+  "physics" : "highgravgrenade",
+  "frameNumber" : 2,
+  "pointLight" : false,
+  "animationLoops" : false,
+  "speed" : 10,
+  "timeToLive" : 0,
+  "orientationLocked" : true,
+  "flippable" : true,
+  "power" : 2.0,
+  "damagePoly" : [ [-2, 2], [-2, -2], [2, -2], [2, 2] ],
+  "actionOnReap" : [
+      {
+      "action" : "projectile",
+      "type" : "sb_splashspawner1",
+      "fuzzAngle" : 180,
+      "inheritDamageFactor" : 1.0,
+      "inheritSpeedFactor" : 0.02
+    },
+    {
+      "action" : "projectile",
+      "type" : "watersprinkledroplet",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0,
+      "inheritSpeedFactor" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "watersprinkledroplet",
+      "fuzzAngle" : 40,
+      "inheritDamageFactor" : 0,
+      "inheritSpeedFactor" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "watersprinkledroplet",
+      "fuzzAngle" : -40,
+      "inheritDamageFactor" : 0,
+      "inheritSpeedFactor" : 0
+    }
+  ],
+  "damageKind" : "default",
+  "emitters" : [ "daggerblue" ]
+}

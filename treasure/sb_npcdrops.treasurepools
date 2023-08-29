@@ -1,0 +1,105 @@
+{
+  "sb_castlelordTreasure" : [[0,{"fill":[{"pool":"castlelordtreasure"}]}]],//To keep old NPC's from crashing
+  "sb_labscientistTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.25, "item" : "sb_lightningcoil"},
+        {"weight" : 0.25, "item" : "sb_commonplasmapistol"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ]
+    }]
+  ],
+  "sb_friendlycastleguardTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.25, "item" : "sb_glitchlargemace"},
+        {"weight" : 0.25, "item" : "sb_glitchsmallmace"},
+        {"weight" : 0.25, "item" : "sb_crossbowwood"},
+        {"weight" : 0.25, "item" : "sb_crossbowspecial"}
+//      {"weight" : 0.25, "item" : "sb_glitchstrongshield"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ]
+    }]
+  ],
+  "sb_evilknightTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.25, "pool" : "sb_friendlycastleguardTreasure"},
+        {"weight" : 0.25, "item" : "sb_uncommonbroadsword"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ]
+    }]
+  ],
+  "sb_evilknightlordTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.25, "item" : "glitchroyalhead"},
+        {"weight" : 0.25, "item" : "sb_glitchlordshield"},
+        {"weight" : 0.05, "item" : "capturepod"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ]
+    }]
+  ],
+  "sb_cultistTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "money"}
+      ],
+      "pool" : [
+        {"weight" : 0.005, "item" : ["sb_cultisthead",1,{"colorIndex":1}]},
+        {"weight" : 0.25, "pool" : "money"}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ]
+    }]
+  ],
+  "sb_bunkerpyroTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "money"}
+      ],
+      "pool" : [
+        {"weight" : 0.79, "pool" : "money"},
+        {"weight" : 0.20, "pool" : "healingItem"},
+        {"weight" : 0.01, "item" : "sb_flamethrower"}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.3, 2],
+        [0.2, 3]
+      ]
+    }],
+    [3.9, {
+      "fill" : [
+        {"pool" : "money"}
+      ],
+      "pool" : [
+        {"weight" : 0.79, "pool" : "money"},
+        {"weight" : 0.20, "pool" : "healingItem"},
+        {"weight" : 0.01, "item" : "sb_flamethrower"},
+        {"weight" : 0.01, "item" : ["pathfinderhead",1,{"colorIndex":4}]},
+        {"weight" : 0.01, "item" : ["pathfinderchest",1,{"colorIndex":4}]},
+        {"weight" : 0.01, "item" : ["pathfinderlegs",1,{"colorIndex":4}]}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.3, 2],
+        [0.2, 3]
+      ]
+    }]
+  ]
+}

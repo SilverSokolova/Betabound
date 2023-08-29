@@ -1,0 +1,6 @@
+{
+  "input" : ["clay","sand2","liquidwater"],
+  "output" : ["sb_smoothconcrete",20],
+  "duration" : 0.25,
+  "groups"  : ["craftingfurniture","materials","all"]
+}

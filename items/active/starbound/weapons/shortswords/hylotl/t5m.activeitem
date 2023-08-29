@@ -1,0 +1,1 @@
+{"description":"A sword perfect for slicing cod steaks.","shortdescription":"Codslicer","itemName":"sb_hylotltier5mshortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t5m","shortswords/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

@@ -1,0 +1,83 @@
+{
+  "type" : "sb_bunkerpyro",
+  "baseType" : "hostile",
+  "dropPools" : ["sb_bunkerpyroTreasure"],
+
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Intruder!"
+          ]
+        },
+        "human" : {
+          "default" : [
+            "Intruder!",
+            "We've got a hostile!",
+            "Take 'em down!",
+            "Open fire!",
+            "Target acquired!",
+            "I'm going to burn you alive!",
+            "You're going to be delicious!",
+            "The smell of roasting flesh is a delight!",
+            "Haaa, the flames are bright!",
+            "Fire is the most beautiful of weapons!",
+            "My flames will cleanse the flesh off your bones!",
+            "Sometimes I get distracted by the fire...",
+            "Burn, trespasser, BURN!",
+            "The flames will consume you!",
+            "Today, stranger, you meet your doom, by way of fire!",
+            "I'm gonna roast you good!",
+            "Prepare to melt, trespasser!",
+            "Hostile at twelve o'clock!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [{"name":"pathfinderhead","parameters":{"colorIndex":4}}],
+            "chest" : [{"name":"pathfinderchest","parameters":{"colorIndex":4}}],
+            "legs" : [{"name":"pathfinderlegs","parameters":{"colorIndex":4}}],
+            "back" : [{"name":"hazmatback","parameters":{"colorIndex":4}}],
+            "primary" : [
+              "sb_flamethrower",
+              "flamethrower"
+            ],
+            "sheathedalt" : [
+              "riotshield"
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "resources" : {
+      "energy" : {
+	"maxValue" : 400,
+        "initialValue" : 400
+      }
+    },
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 70
+      },
+      "maxEnergy" : {
+        "baseValue" : 200
+      },
+      "powerMultiplier" : {
+        "baseValue" : 3
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}

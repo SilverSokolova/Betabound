@@ -1,0 +1,8 @@
+{
+  "name" : "sb_jellyslow",
+  "effectConfig" : {"percentage":0.7,"color":"742c8e"},
+  "defaultDuration" : 9,
+  "scripts" : ["color.lua","encumbered.lua"],
+  "label" : "Slow",
+  "icon" : "/interface/statuses/slow.png"
+}

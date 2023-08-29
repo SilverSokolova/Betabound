@@ -1,0 +1,11 @@
+{
+  "itemName" : "sb_lightblocker",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "rare",
+  "inventoryIcon" : "glass.png",
+  "description" : "I can see my reflection... it's hideous!",
+  "shortdescription" : "Lightblocker",
+  
+  "materialId" : 6969
+}

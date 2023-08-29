@@ -1,0 +1,275 @@
+{
+  "type": "sb_robotboss",
+  "shortdescription": "^#f00;Fatal Circuit^reset;",
+  "description": "Although intended to be a top-secret upgraded version of the Glitch, the blueprints can easily be found online.",
+
+  "categories": ["sb_robotboss"],
+  "parts": ["body", "arms", "lit"],
+
+  "animation": "robotboss.animation",
+  "reversed": false, //Yes, I know I manually flip each animation component, but this makes the arms aim properly.
+
+  "dropPools": ["sb_boss2Treasure"],
+
+  "baseParameters": {
+    "monsterClass": "boss",
+    "scripts": [
+      "/monsters/monster.lua",
+      "/monsters/sb_bossmonster.lua"
+    ],
+
+    "alwaysAggressive": true,
+    "damageBar": "Special",
+    "behavior": "monster",
+    "behaviorConfig": {
+      "damageOnTouch": true,
+      "targetQueryRange": 40,
+      "targetOnDamage": true,
+      "keepTargetInSight": true,
+      "keepTargetInRange": 80,
+      "targetOutOfSightTime": 5,
+
+      "foundTargetActions": [{
+          "name": "action-aggrohop"
+        }
+      ],
+
+      "fleeActions": [],
+
+      "hostileActions": [{
+          "name": "action-fire",
+          "cooldown": 2.5,
+          "parameters": {
+            "maximumRange": 15,
+            "minimumRange": 2,
+            "windupState": "",
+            "windupTime": 0,
+
+            "projectileType": "flamethrower",
+            "parameters": {
+              "speed": 25
+            },
+            "power": 4,
+            "fireOffset": [-1, -0.5],
+            "projectileCount": 10,
+            "projectileInterval": 0.03,
+            "aimAtTarget": true,
+            "rotateAim": true,
+            "rotatedOffset": [2.125, 0],
+            "fireState": "melee",
+            "fireDelay": 0.2,
+            "fireSound": "attack",
+
+            "winddownState": "",
+            "winddownTime": 0.5
+          }
+        }, {
+          "name": "action-charge",
+          "cooldown": 2.0,
+          "parameters": {
+            "maximumRange": 30,
+            "windupTime": 0.3,
+
+            "chargeTime": 1,
+            "chargeSpeed": 40,
+            "chargeControlForce": 300,
+            "wallKnockback": true,
+            "wallCrashSound": "pain",
+            "wallCrashEmitter": "",
+
+            "winddownStopForce": 0,
+            "winddownTime": 0.5
+          }
+        }, {
+          "name": "action-leap",
+          "cooldown": 2.0,
+          "parameters": {
+            "onGround": false,
+            "minimumRange": 5,
+            "maximumRange": 20,
+            "windupTime": 0.5,
+            "windupState": "",
+
+            "leapVelocity": 25,
+            "collisionCheck": true,
+            "highArc": false,
+            "leapState": "jump",
+            "fallState": "fall",
+
+            "winddownState": "idle",
+            "winddownTime": 0.0
+          }
+        }, {
+          "name": "action-fire",
+          "cooldown": 9.7,
+          "parameters": {
+            "maximumRange": 80,
+            "minimumRange": 20,
+            "windupState": "",
+            "windupTime": 0,
+
+            "projectileType": "healingzone",
+            "power": 0,
+            "fireOffset": [0, 0],
+            "projectileCount": 1,
+            "projectileInterval": 1,
+            "aimAtTarget": false,
+            "rotateAim": false,
+            "rotatedOffset": [2.125, 0],
+            "fireState": "idle",
+            "fireDelay": 0,
+            "fireSound": "idle",
+
+            "winddownState": "",
+            "winddownTime": 0.5
+          }
+        }
+      ],
+
+      "periodicActions": [],
+
+      "approachActions": [{
+          "name": "approach-walk",
+          "parameters": {
+            "canJump": true,
+            "maxJumps": 6,
+            "jumpXVelocity": 12,
+            "jumpYVelocity": 30,
+            "jumpXControlForce": 50,
+            "minXRange": 10
+          }
+        }
+      ],
+
+      "wanderActions": [{
+          "name": "wander-walk",
+          "cooldown": 6,
+          "parameters": {
+            "wanderTime": [3, 6]
+          }
+        }
+      ]
+    },
+
+    "touchDamage": {
+      "poly": [[-2.45, -2.45], [-0.85, -4.85], [1.85, -4.85], [3.45, -2.45], [3.45, 2.45], [1.85, 4.85], [-0.85, 4.85], [-2.45, 2.45]],
+      "damage": 15,
+      "teamType": "enemy",
+      "damageSourceKind": "default",
+      "knockback": 20,
+      "statusEffects": []
+    },
+
+    "metaBoundBox": [-3, -3, 3, 3],
+    "blockedSensors": [[-2.45, -2.45], [-0.85, -4.85], [1.85, -4.85], [3.45, -2.45], [3.45, 2.45], [1.85, 4.85], [-0.85, 4.85], [-2.45, 2.45]],
+    "fallSensors": [[-2.45, -2.45], [-0.85, -4.85], [1.85, -4.85], [3.45, -2.45], [3.45, 2.45], [1.85, 4.85], [-0.85, 4.85], [-2.45, 2.45]],
+    "scale": 1,
+
+    "movementSettings": {
+      "collisionPoly": [[-2.45, -2.45], [-0.85, -4.85], [1.85, -4.85], [3.45, -2.45], [3.45, 2.45], [1.85, 4.85], [-0.85, 4.85], [-2.45, 2.45]],
+      "mass": 0.6,
+      "walkSpeed": 13,
+      "runSpeed": 13,
+      "jumpMultiplier": 1,
+      "jumpSpeed": 20
+    },
+
+    "bodyMaterialKind": "organic",
+
+    "knockoutTime": 1,
+    "aggressive": true,
+    "knockoutAnimationStates": {
+      "damage": "stunned"
+    },
+    "deathParticles": "deathPoof",
+    "knockoutEffect": "",
+
+    "statusSettings": {
+      "statusProperties": {
+        "bossMusic": "/music/desert-battle-2.ogg",
+        "targetMaterialKind": "robotic"
+      },
+
+      "appliesEnvironmentStatusEffects": false,
+      "appliesWeatherStatusEffects": true,
+      "minimumLiquidStatusEffectPercentage": 0.3,
+
+      "primaryScriptSources": [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta": 5,
+
+      "stats": {
+        "knockbackStunTime": {
+          "baseValue": 0.25
+        },
+        "knockbackThreshold": {
+          "baseValue": 9
+        },
+        "grit": {
+          "baseValue": 1
+        },
+        "maxHealth": {
+          "baseValue": 750
+        },
+        "protection": {
+          "baseValue": 1
+        },
+        "healthRegen": {
+          "baseValue": 0
+        },
+        "powerMultiplier": {
+          "baseValue": 1
+        },
+        "physicalResistance": {
+          "baseValue": 0
+        },
+        "fireResistance": {
+          "baseValue": 0
+        },
+        "fireStatusImmunity": {
+          "baseValue": 0
+        },
+        "iceResistance": {
+          "baseValue": 0
+        },
+        "iceStatusImmunity": {
+          "baseValue": 0
+        },
+        "electricResistance": {
+          "baseValue": 0
+        },
+        "electricStatusImmunity": {
+          "baseValue": 0
+        },
+        "poisonResistance": {
+          "baseValue": 0
+        },
+        "poisonStatusImmunity": {
+          "baseValue": 0
+        }
+      },
+
+      "resources": {
+        "stunned": {
+          "deltaValue": -1,
+          "initialValue": 0
+        },
+        "health": {
+          "maxStat": "maxHealth",
+          "deltaStat": "healthRegen",
+          "defaultPercentage": 100
+        }
+      }
+    },
+
+    "mouthOffset": [0, 0],
+    "feetOffset": [0, -8],
+    "capturable": true,
+    "captureHealthFraction": 0.3,
+    "captureCollectables": {
+      "monsters": "sb_robotboss"
+    },
+    "nametagColor": [64, 200, 255]
+  }
+}

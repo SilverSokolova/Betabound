@@ -1,0 +1,5 @@
+{
+  "input" : ["sb_refinedrubium"],
+  "output" : ["sb_rubiumbar",10],
+  "groups" : ["craftingfurnace3","ingredients","all"]
+}

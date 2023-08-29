@@ -1,0 +1,32 @@
+{
+  "id" : "sb_underside1.gearup",
+  "title" : "^green;The Under Side",
+  "text" : "I've been hiding down here for a while, but I think I'm safe to climb back up now. ^green;Could you get me ^orange;ten climbing ropes ^green;so I can climb out of here?",
+  "completionText" : "You brought me the ropes! However, I think the people looking for me are still out there, so I'm probably safer here. Here, have this as a token of my thanks!",
+  "speaker" : "questGiver",
+  "moneyRange" : [20000, 20000],
+  "rewards" : [["insidioushead"]],
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquest.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "canBeAbandoned" : true,
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {"default" : "questGiver"},
+    "requireTurnIn" : true,
+    "turnInDescription" : "Speak to ^orange;the Underside Man^reset; under the ^orange;outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "climbingrope",
+        "count" : 10,
+        "consume" : true
+      }
+    ]
+  }
+}

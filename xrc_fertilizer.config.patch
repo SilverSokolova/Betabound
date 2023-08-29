@@ -1,0 +1,11 @@
+[
+[{"op":"test","path":"/glowfibre"}
+,{"op":"copy","from":"/glowfibre","path":"/sb_glowfibreorange"}
+,{"op":"copy","from":"/glowfibre","path":"/sb_glowfibregreen"}
+,{"op":"copy","from":"/glowfibre","path":"/sb_glowfibreblue"}
+,{"op":"copy","from":"/glowfibre","path":"/sb_glowfibreyellow"}]
+
+,[{"op":"add","path":"/sb_liquidtentaclejuice","value":[30,70]}]
+,[{"op":"add","path":"/sb_rottenapple","value":[60,60]}]
+,[{"op":"add","path":"/sb_revoltingstew","value":[60,60]}]
+]

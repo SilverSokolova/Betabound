@@ -1,0 +1,5 @@
+{
+  "input" : [["greenslime",4]],
+  "output" : "sb_slimehandgrapple",
+  "groups" : ["plain","tools","all"]
+}

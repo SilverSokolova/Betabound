@@ -1,0 +1,5 @@
+{
+  "input" : ["copperbar","brain"],
+  "output" : "artificialbrain",
+  "groups" : ["sb_ironcraftingtable","sb_other","all"]
+}

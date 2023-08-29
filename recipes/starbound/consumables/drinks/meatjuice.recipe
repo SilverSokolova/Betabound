@@ -1,0 +1,6 @@
+{
+  "input" : ["alienmeat"],
+  "output" : "sb_meatjuice",
+  "groups" : ["craftingfood","drinks","sb_power","sb_healing","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_meatjuice"}
+}

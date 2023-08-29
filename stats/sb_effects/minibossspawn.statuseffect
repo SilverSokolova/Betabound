@@ -1,0 +1,6 @@
+{
+  "name" : "sb_minibossspawn",
+  "effectConfig" : {},
+  "defaultDuration" : 3,
+  "scripts" : ["minibossspawn.lua"]
+}

@@ -1,0 +1,9 @@
+[
+[{"op":"test","path":"/gui/itemGrid/position/0","value":81},
+{"op":"test","path":"/gui/itemGrid2/position/0","value":4},
+{"op":"replace","path":"/gui/itemGrid2/position/0","value":5}],
+
+[{"op":"test","path":"/gui/itemGrid2/position/0","value":5},
+{"op":"test","path":"/gui/itemGrid2/position/1","value":44},
+{"op":"replace","path":"/gui/itemGrid2/position/1","value":43}]
+]

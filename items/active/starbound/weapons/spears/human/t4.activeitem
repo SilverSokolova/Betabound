@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_humantier4spear",
+  "description": "A spear with a little horn on it.",
+  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "definition": "spears/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "The Rhino"
+}

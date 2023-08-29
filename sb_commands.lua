@@ -1,0 +1,156 @@
+local v = {}
+local sb_command = command or function() return nil end
+local ini = init or function() end
+
+function init() ini() require("/scripts/sb_assetmissing.lua") sb_techType() end
+function command(a,b,d) if sb_command then if sb_command(a,b,d) ~= nil then return sb_command(a,b,d) end end if v[a] then return v[a](b,d) else return string.format(root.assetJson("/sb_commands.config").noSuchCommand,a) end end
+
+--find a better way to  gsub. perferably when not exhsusted
+local function cutColors(text) return string.gsub(string.gsub(text, "(%^.-%;)", ""),("\n"),"") end
+
+local function findPlayer(id)
+	if universe.findNick(id) then return universe.findNick(id) else
+		local n = universe.clientIds()
+		for i = 1, #n do
+			if cutColors(universe.clientNick(n[i])) == id then return universe.clientNick(n[i]) end
+		end
+	end
+	return false
+end
+
+--function v.spawnProjectile(clientId, arguments) return "/spawnitem copperore" end
+--[[function v.whisper(you,args) local text = root.assetJson("/sb_commands.config")
+	local them, msg = args[1], "" args[1]=""
+	for i,v in ipairs(args) do msg=msg..v.." " end
+	if not msg or string.gsub(cutColors(msg)," ","")=="" then return string.format(text.lowArgs,"whisper") end
+	nick = cutColors(them)
+--	if nick==cutColors(universe.clientNick(you)) then universe.adminWhisper(you,string.format(text.whisper.you,nick,msg)) return "" end
+	them = findPlayer(them)
+	if not them then return string.format(text.noPlayer,nick) end
+	local id = universe.findNick(them)
+	universe.adminWhisper(id,string.format(text.whisper.them,cutColors(universe.clientNick(you)),msg))
+	universe.adminWhisper(you,string.format(text.whisper.you,nick,msg))
+	return ""
+end]]--
+--[[
+function v.isPvp(you,them) local text = root.assetJson("/sb_commands.config")
+	them = them==nil and you or them[1]
+	if not findPlayer(them) then return string.format(text.noPlayer,them) end
+	return string.format("%s %s %s %s.",cutColors(them), cutColors(them)==cutColors(universe.clientNick(you)) and "are" or "is", universe.isPvp(them) and "" or "not", "PVP.")
+end
+]]--
+function v.sb_itemID(_,i,d) return v.itemID(_,i,d) end
+function v.itemID(_,it,detailed) local text = root.assetJson("/sb_commands.config")
+	detailed=it[2] or false it=it[1] or "perfectlygenericitem"
+	if not sb_itemExists(it) then return string.format(text.itemID.noItem,it) else
+	local rarities = {common="f6f6f6",uncommon="77ee67",rare="6ba8ec",legendary="bb5beb",essential="c3c53e"}
+	local item = root.itemConfig(it)
+	if detailed then return sb.printJson(item,1) end
+	--todo: loop with values in keys
+	local out = string.format("\n^green;Directory:^reset; ^#fff;%s%s.%s^reset;\n^green;Rarity: ^#%s;%s^reset;\n^yellow;Name: ^reset;%s\n^yellow;Category: ^reset;%s\n^yellow;Description: ^reset;%s\n^yellow;Two-Handed: ^reset;%s\n^yellow;Type: ^reset;%s\n^green;Max Stack:^reset; %s\n^green;No. Recipes:^reset; %s\n^green;Tags:^reset; %s\n^green;Tooltip Kind:^reset; %s\n^green;Fields:^reset; %s\n^green;Scripts:^reset; %s",item.directory, item.config.itemName, text.itemTypes[root.itemType(it)] or root.itemType(it),rarities[string.lower(item.config.rarity)],item.config.rarity,item.config.shortdescription,item.config.category,item.config.description,item.config.twoHanded,root.itemType(it),item.config.maxStack or root.assetJson("/items/defaultParameters.config:defaultMaxStack").." (default)",#root.recipesForItem(it),sb.printJson(root.itemTags(it)),item.config.tooltipKind,sb.printJson(item.config.tooltipFields),sb.printJson(item.config.scripts))
+
+--[[	if detailed then out=out.."\n"
+	for param,value in pairs(item.config) do
+		if type(value) ~= "string" and type(value)~="bool" and type(value)~="int" and type(value)~="float" and type(value)~="double" then value=sb.printJson(value) end--table.unpack(value) end--"" end--sb.printJson(value) or "" end
+		out=string.format(out.."^orange;%s: %s\n",param,value)
+	end end]]--
+	return out
+  end
+end
+
+function v.sb_foodvalue(_,it) local text = root.assetJson("/sb_commands.config")
+	it=it[1] or "alienmeat"
+	if not sb_itemExists(it) then return string.format(text.itemID.noItem,it) else
+	local item = root.itemConfig(it)
+	return (item.config.shortdescription or "???")..": "..(item.config.foodValue or 0).." (Price: "..(item.config.price or 0)..")"
+  end
+end
+
+function v.sb_foodweight(_,it) local text = root.assetJson("/sb_commands.config")
+	s="^#ff0;"
+	it=it or {"aliensteak"}
+	it=type(it)=="table" and it or {it}
+	for i = 1, #it do
+		if not sb_itemExists(it[i]) then s = s..string.format(text.itemID.noItem,it[i]).."\n^#ff0;" else
+		local item = root.itemConfig(it[i]).config
+		s = s..((item.shortdescription or "???").." weight: "..1-(item.foodValue or 100)/100).."\n^#ff0;"
+		end
+	end
+	return s
+end
+
+function v.sb_foodsum(_,it) local text = root.assetJson("/sb_commands.config")
+	dr=it[2] or 1; dr=tonumber(dr); if type(dr) ~= "number" then dr = 1 end
+	it=it[1] or "carrotjuice"
+	if not sb_itemExists(it) then return string.format(text.itemID.noItem,it) else
+	local recipe = root.recipesForItem(it)
+	it = root.itemConfig(it).config
+	local quantity, r
+	if recipe and recipe[1] and recipe[1].output then
+		mr = #recipe
+		r = math.min(mr,dr)
+		quantity = recipe[r].output.count
+		recipe = recipe[r].input
+	else return end
+	local sum, psum = 0, 0
+	local mod = 1
+	for i = 1, #recipe do
+		sb.logInfo(sb.print(recipe[i]))
+		mod = recipe[i].count or 1
+		input = recipe[i].name
+		sum = sum + ((text.foodSums[input] and text.foodSums[input][1] or root.itemConfig(input).config.foodValue or 5)*mod)
+		psum = psum + ((text.foodSums[input] and text.foodSums[input][2] or root.itemConfig(input).config.price or 0)*mod)
+	end
+  local finalSum = sum/quantity
+	return (it.shortdescription or it.itemName).." (x"..quantity..") ("..r.."/"..mr.."): "..(finalSum == it.foodValue and "^green;" or "^red;")..finalSum.."^reset; ("..((psum*1.25)/quantity)..")"
+  end
+end
+
+function v.sb_rarity(_,it) local text = root.assetJson("/sb_commands.config")
+	dr=it[2] or 1; dr=tonumber(dr); if type(dr) ~= "number" then dr = 1 end
+	it=it[1] or "carrotjuice"
+	if not sb_itemExists(it) then return string.format(text.itemID.noItem,it) end
+	local recipe = root.recipesForItem(it)
+	if not recipe then return end
+	local mr = #recipe
+	dr = math.min(dr, mr)
+	recipe = recipe[dr].input
+	
+	local rarities = {
+	  common = 1,
+      uncommon = 2,
+      rare = 3,
+      legendary = 4,
+      essential = 5
+	}
+	
+	local rarityNames = {
+	  "^#f6f6f6;Common",
+      "^#77ee67;Uncommon",
+      "^#6ba8ec;Rare",
+      "^#bb5beb;Legendary",
+      "^#c3c53e;Essential"
+	}
+	
+	it = root.itemConfig(it).config
+	rarity = 1
+	for i = 1, #recipe do
+		sb.logInfo(sb.print(recipe[i]))
+		local input = root.itemConfig(recipe[i].name)
+		local newRarity = rarities[(input.parameters and input.parameters.rarity or input.config.rarity):lower()]
+		sb.logInfo(newRarity)
+		if newRarity > rarity then
+		  rarity = newRarity
+		end
+	end
+	return (it.shortdescription or it.itemName).." ("..dr.."/"..mr.."): "..rarityNames[rarity]..""
+end
+
+function v.sb_players() return v.players() end
+function v.players()
+  local clientIds = universe.clientIds()
+  local players = ""
+  local s = #clientIds ~= 1 and "s" or ""
+  for i = 1, #clientIds do players = string.format("%s%s%s",players,universe.clientNick(clientIds[i]),"^reset;, ") end
+  return string.format("%s player%s:\n%s",universe.numberOfClients(),s,players):sub(1,-3)
+end

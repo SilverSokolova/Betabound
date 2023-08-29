@@ -1,0 +1,18 @@
+{
+  "itemName": "sb_novatier4rifle",
+  "definition": "rifle",
+  "tags": {
+    "<t>": "4"
+  },
+  "rarity": "uncommon",
+  "description": "A favourite of many, this gun has a rich and vibrant history.",
+  "shortdescription": "The Apache",
+  "level": 4,
+  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid", "upgradeableWeapon"],
+  "configOverrides": {
+    "baseOffset": [0.875, 0.375]
+  },
+  "muzzleOffset": [2.5, 0.135],
+  "altAbilityType": "explosiveshot",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

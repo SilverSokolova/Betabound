@@ -1,0 +1,19 @@
+{
+  "sb_fishingcommon" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.9, "pool" : "fishingUpgrade"},
+        {"weight" : 0.5, "pool" : "sb_crappyweapons"}
+      ]
+    }]
+  ],
+
+  "sb_fishinguncommon" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.9, "pool" : "fishingUpgrade"},
+        {"weight" : 0.5, "item" : ["rewardbag",1,{"sb_useTechTier":true}]}
+      ]
+    }]
+  ]
+}

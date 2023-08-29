@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "name" : "sb_heckmicrodungeons",
+    "species" : "dummy",
+    "rules" : [["maxSpawnCount",[1]]],
+    "anchor" : [ "heckaltarL","heckaltarR" ],
+    "maxRadius" : 1000000,
+    "maxParts" : 1
+  },
+
+  "parts" : [
+    {
+      "name" : "heckaltarL",
+      "rules" : [],
+      "def" : ["tmx","heckaltarL.json"],
+      "chance" : 1
+    },
+    {
+      "name" : "heckaltarR",
+      "rules" : [],
+      "def" : ["tmx","heckaltarR.json"],
+      "chance" : 1
+    }
+  ]
+}

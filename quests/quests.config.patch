@@ -1,0 +1,4 @@
+[
+[{"op":"add","path":"/indicators/sb_mainquestreceiver","value":{"image":"/interface/sb_quests/mainquestreceiver.animation"}}],
+[{"op":"add","path":"/indicators/sb_mainquestgiver","value":{"image":"/interface/sb_quests/mainquestgiver.animation"}}]
+]

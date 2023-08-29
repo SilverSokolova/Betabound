@@ -1,0 +1,11 @@
+[[{"op":"test","path":"/itemTags","inverse":true},{"op":"add","path":"/itemTags","value":[]}],
+[{"op":"test","path":"/fuelAmount","inverse":true},{"op":"add","path":"/fuelAmount","value":25}],
+
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/category","value":"craftingMaterial"},{"op":"replace","path":"/category","value":"fuel"}],
+[{"op":"test","path":"/fuelAmount","value":25},{"op":"replace","path":"/fuelAmount","value":10}],
+[{"op":"test","path":"/description","value":"It's a uranium rod."},{"op":"replace","path":"/description","value":"It's a uranium rod. A good source of fuel."}],
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}],
+
+[{"op":"add","path":"/itemTags/-","value":"reagent"}]
+]

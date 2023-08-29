@@ -1,0 +1,6 @@
+{
+  "input" : ["coffeebeans"],
+  "duration" : 0.5,
+  "output" : ["sb_liquidcoffee",2],
+  "groups" : ["coffee","sb_coffee","drinks","craftingfood","all"]
+}

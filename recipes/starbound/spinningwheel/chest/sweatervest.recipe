@@ -1,0 +1,5 @@
+{
+  "input" : [["fabric",20],["cottonwool",2]],
+  "output" : "sb_sweatervestchest",
+  "groups" : ["craftingwheel","clothes","all"]
+}

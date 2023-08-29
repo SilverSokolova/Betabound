@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_apextier2axe",
+  "description": "The blade is shaped like a banana.",
+  "shortdescription": "Bananaxe",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t2",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

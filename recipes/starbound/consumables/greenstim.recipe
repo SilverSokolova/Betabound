@@ -1,0 +1,5 @@
+{
+  "input" : [["biosample",4],"syringe"],
+  "output" : "greenstim",
+  "groups" : ["craftingmedical2","buffs","all"]
+}

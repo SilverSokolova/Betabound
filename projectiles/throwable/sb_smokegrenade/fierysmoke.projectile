@@ -1,0 +1,19 @@
+{
+  "projectileName" : "sb_fierysmoke",
+  "image" : "/animations/dust2/dust2.png",
+  "physics" : "orbitalup",
+  "frameNumber" : 4,
+  "animationCycle" : 0.85,
+  "animationLoops" : true,
+  "lightColor" : [135, 26, 2],
+  "power" : 1,
+  "speed" : 1,
+  "timeToLive" : 0.45,
+  "bounces" : -1,
+  "piercing" : true,
+  "onlyHitTerrain" : false,
+  "damageKind" : "fire",
+  "statusEffects" : ["burning"],
+  "damagePoly" : [[-6, -16], [6, -16], [6, 16], [-6, 16]],
+  "emitters" : ["fireflames","fireflames"]
+}

@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_florantier4dagger",
+  "description": "A little, finger-sized dagger.",
+  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "definition": "daggers/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Fingercutter"
+}

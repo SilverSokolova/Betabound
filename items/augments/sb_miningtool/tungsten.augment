@@ -1,0 +1,13 @@
+{
+  "itemName" : "sb_tungsten_repair",
+  "price" : 30,
+  "tooltipKind" : "sb_object",
+  "rarity" : "Common",
+  "category" : "Tool",
+  "tooltipFields" : {"subtitle":"Repair Tool"},
+  "durabilityRegen" : 180,
+  "inventoryIcon" : "tungsten.png",
+  "description" : "It's a tungsten repair tool.\n^gray;Select repair tool and right-click pickaxe or drill.",
+  "shortdescription" : "Tungsten Repair Tool",
+  "scripts" : ["/scripts/augments/sb_ore.lua"]
+}

@@ -1,0 +1,5 @@
+{
+  "input" : ["manipulatormodule",["wire",5],"silverbar"],
+  "output" : "sb_wiretool",
+  "groups" : ["sb_roboticcraftingtable","sb_tools","all"]
+}

@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_florantier2shortsword",
+  "description": "For slicing and stabbing.",
+  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "definition": "shortswords/t2",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Slicestabber"
+}

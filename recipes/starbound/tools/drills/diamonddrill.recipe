@@ -1,0 +1,5 @@
+{
+  "input" : [["diamond",12],"sb_handdrill"],
+  "output" : "diamonddrill",
+  "groups" : ["sb_roboticcraftingtable","tools","all"]
+}

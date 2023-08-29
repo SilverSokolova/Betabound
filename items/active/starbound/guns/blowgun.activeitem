@@ -1,0 +1,37 @@
+{
+  "itemName" : "sb_blowgun",
+  "inventoryIcon" : "blowgun.png",
+  "maxStack" : 1,
+  "price" : 640,
+  "tooltipKind" : "sb_gun2",
+  "itemTags" : ["weapon","ranged","pistol","oasis","upgradeableWeapon"],
+  "category" : "uniqueWeapon",
+  "rarity" : "Rare",
+  "fixedRarity" : false,
+  "animation" : "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationCustom" : {"sounds":{"fire":["/sfx/gun/blowgun1.ogg","/sfx/gun/blowgun2.ogg","/sfx/gun/blowgun3.ogg"]}},
+    "animationParts" : {
+    "barrel" : "",
+    "butt" : "",
+    "muzzleFlash" : "",
+    "middle" : "blowgun.png"
+  },
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "description" : "Fires darts coated in deadly poison.",
+  "shortdescription" : "Blowgun",
+  "baseOffset" : [0.5,0.15],
+  "muzzleOffset" : [1.6,0.1],
+
+  "twoHanded" : false,
+  "fixedLevel" : false,
+  "level" : 1,
+  "primaryAbilityType" : "sb_gun",
+  "primaryAbility" : {
+    "fireTime" : 1.25,
+    "energyUsage" : 5.75,
+    "inaccuracy" : 0.01,
+    "projectileType" : "blowdart",
+    "projectileParameters" : {"speed":60,"power":5.25}
+  },
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "sb_aviantier0shortsword",
+  "definition" : "shortswords/t0",
+  "itemTags" : ["weapon","melee","shortsword"],
+  "description" : "A shortsword perfect for slashing prey.",
+  "shortdescription" : "The Talon",
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

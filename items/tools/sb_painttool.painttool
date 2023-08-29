@@ -1,0 +1,47 @@
+{
+  "itemName" : "sb_painttool",
+  "price" : 1042,
+  "inventoryIcon" : "sb_paintergunicon.png",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Primary fire applies paint, secondary changes colour.",
+  "shortdescription" : "Paint Tool",
+  "fireTime" : 0.05,
+  "blockRadius" : 3,
+  "altBlockRadius" : 1,
+  "twoHanded" : true,
+  "strikeSounds" : [ "/sfx/tools/paint_splash.ogg" ],
+  "largeImage" : "/items/tools/sb_paintergunlarge.png",
+  "tooltipKind" : "sb_tool",
+  "category" : "tool",
+  "image" : "/items/tools/sb_paintergunvariants.png:0",
+  "endImages" : [ "/humanoid/any/ball.png", "/humanoid/any/tileglow.png", "/humanoid/any/4tileglow.png" ],
+  "handPosition" : [-4, 0],
+  "firePosition" : [7, 2],
+
+//  "handPosition" : [-2, 0],
+//  "firePosition" : [5, 0],
+  "segmentsPerUnit" : 1,
+  "nearControlPointElasticity" : 0.1,
+  "farControlPointElasticity" : 0.9,
+  "nearControlPointDistance" : 0.9,
+  "targetSegmentRun" : 1,
+  "innerBrightnessScale" : 20,
+  "firstStripeThickness" : 0.2,
+  "secondStripeThickness" : 0.05,
+  "minBeamWidth" : 1,
+  "maxBeamWidth" : 2,
+  "maxBeamJitter" : 0.2,
+  "minBeamJitter" : 0.1,
+  "minBeamTrans" : 0.6,
+  "maxBeamTrans" : 0.6,
+  "minBeamLines" : 1,
+  "maxBeamLines" : 5,
+
+  "colorNumbers" : [
+    [0, 0, 0, 0], "red", "blue", "green", "yellow", "orange", [210, 45, 193, 255], "black", "white"
+  ],
+  "colorKeys" : [
+    "", ".red", ".blue", ".green", ".yellow", ".orange", ".pink", ".black", ".white"
+  ]
+}

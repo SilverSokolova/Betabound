@@ -1,0 +1,63 @@
+{
+  "itemName": "sb_splatterknife",
+  "level": 1,
+  "maxStack": 1,
+  "rarity": "rare",
+  "description": "A small dagger which oozes with dark energy. Ick.",
+  "shortdescription": "Splatterknife",
+  "tooltipKind": "sb_sword2",
+  "price": 540,
+  "category": "dagger",
+  "twoHanded": false,
+  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "sb_dyeable": true,
+  "sb_backingDirectives": "?replace;838383=ffca8a;555=e0975c;383838=a85636;151515=6f2919",
+  "animation": "/items/active/starbound/weapons/dagger.animation",
+  "inventoryIcon": "splatterknife.png<directives>",
+  "animationParts": {
+    "handle": "",
+    "blade": "splatterknife.png<directives>"
+  },
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "image": "heckswoosh.png:<frame>",
+                  "offset": [0.5, 0.95]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType": "physical",
+  "aimOffset": 0,
+  "primaryAbilityType": "sb_dagger",
+  "primaryAbility": {
+    "projectileType": "sb_heckbloodspawn",
+    "fireTime": [0.27, 0.42],
+    "baseDps": [8, 9],
+    "damageConfig": {
+      "knockback": 12.5
+    },
+    "stances": {
+      "idle": {
+        "weaponOffset": [0.5, 2.2]
+      },
+      "windup": {
+        "weaponOffset": [0.5, 2.2]
+      },
+      "fire": {
+        "weaponOffset": [0.5, 2.2]
+      }
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

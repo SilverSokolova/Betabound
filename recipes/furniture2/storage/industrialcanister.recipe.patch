@@ -1,0 +1,6 @@
+[
+  [
+    {"op":"test","path":"/output/item","value":"industrialcrate"},
+    {"op":"replace","path":"/output/item","value":"industrialcanister"}
+  ]
+]

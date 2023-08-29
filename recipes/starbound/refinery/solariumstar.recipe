@@ -1,0 +1,6 @@
+{
+  "input" : ["solariumstar"],
+  "output" : ["money",30],
+  "duration" : 0.5,
+  "groups" : ["refinery","all"]
+}

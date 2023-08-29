@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_apextier1broadsword",
+  "description": "A quality sword.",
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "definition": "broadswords/t1",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Apesticker"
+}

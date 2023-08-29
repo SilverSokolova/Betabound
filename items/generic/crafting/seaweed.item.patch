@@ -1,0 +1,9 @@
+[
+[{"op":"test","path":"/description","value":"Some alien seaweed."},{"op":"replace","path":"/description","value":"Some salty alien seaweed."}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/price","value":0},{"op":"add","path":"/price","value":4}],
+[{"op":"test","path":"/itemTags"},{"op":"test","path":"/itemTags/0","value":"reagent"},{"op":"remove","path":"/itemTags/0"}],
+[{"op":"test","path":"/category","value":"craftingMaterial"},{"op":"replace","path":"/category","value":"cookingIngredient"}],
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_preservatives"}]
+]

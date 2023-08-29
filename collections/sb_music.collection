@@ -1,0 +1,389 @@
+{
+  "name": "sb_music",
+  "title": "Portable Radio",
+  "type": "generic",
+
+  "collectables": {
+    "accretion-disc": {
+      "icon": "/music/accretion-disc.ogg",
+      "title": "Accretion Disc",
+      "special": true
+    },
+    "arctic-battle1": {
+      "icon": "arctic-battle1-loop",
+      "title": "Arctic Battle (1)",
+      "special": true
+    },
+    "arctic-battle2": {
+      "icon": "arctic-battle2-loop",
+      "title": "Arctic Battle (2)",
+      "special": true
+    },
+    "arctic-battle3": {
+      "icon": "arctic-battle3-loop",
+      "title": "Arctic Battle (3)",
+      "special": true
+    },
+    "arctic-constellation1": {
+      "icon": "arctic-constellation1",
+      "title": "Arctic Constellation (1)"
+    },
+    "arctic-constellation2": {
+      "icon": "arctic-constellation2",
+      "title": "Arctic Constellation (2)"
+    },
+    "arctic-exploration1": {
+      "icon": "arctic-exploration1",
+      "title": "Arctic Exploration (1)"
+    },
+    "arctic-exploration2": {
+      "icon": "arctic-exploration2",
+      "title": "Arctic Exploration (2)"
+    },
+    "atlas": {
+      "icon": "atlas",
+      "title": "Atlas"
+    },
+    "atlas-8bit": {
+      "icon": "atlas-8bit",
+      "title": "Atlas (8-Bit)",
+      "special": true
+    },
+    "blue-straggler": {
+      "icon": "blue-straggler",
+      "title": "Blue Straggler"
+    },
+    "body-electric-loop": {
+      "icon": "body-electric-loop",
+      "title": "Body Electric"
+    },
+    "casiopeia": {
+      "icon": "casiopeia",
+      "title": "Casiopeia"
+    },
+    "crystal-battle1": {
+      "icon": "crystal-battle1-loop",
+      "title": "Crystal Battle (1)",
+      "special": true
+    },
+    "crystal-exploration1": {
+      "icon": "crystal-exploration1",
+      "title": "Crystal Exploration (1)"
+    },
+    "crystal-exploration2": {
+      "icon": "crystal-exploration2",
+      "title": "Crystal Exploration (2)"
+    },
+    "cygnus-x1": {
+      "icon": "cygnus-x1",
+      "title": "Cygnus x1"
+    },
+    "dead-or-alive": {
+      "icon": "dead-or-alive",
+      "title": "Dead or Alive",
+      "special": true
+    },
+    "desert-battle-2": {
+      "icon": "desert-battle-2",
+      "title": "Desert Battle (2)",
+      "special": true
+    },
+    "desert-exploration1": {
+      "icon": "desert-exploration1",
+      "title": "Desert Exploration (1)"
+    },
+    "desert-exploration2": {
+      "icon": "desert-exploration2",
+      "title": "Desert Exploration (2)"
+    },
+    "drosera": {
+      "icon": "drosera",
+      "title": "Drosera"
+    },
+    "epsilon-indi": {
+      "icon": "epsilon-indi",
+      "title": "Epsilon Indi"
+    },
+    "eridanus-supervoid": {
+      "icon": "eridanus-supervoid",
+      "title": "Eridanus Supervoid"
+    },
+    "error-0xbfaf000": {
+      "icon": "error-0xbfaf000",
+      "title": "Error 0xBFAF000"
+    },
+    "europa": {
+      "icon": "europa",
+      "title": "Europa"
+    },
+    "event-horizon": {
+      "icon": "event-horizon",
+      "title": "Event Horizon",
+      "special": true
+    },
+    "sb_forest-battle1": {
+      "icon": "sb_forest-battle1",
+      "title": "Forest Battle (1)"
+    },
+    "forest-battle2": {
+      "icon": "forest-battle2",
+      "title": "Forest Battle (2)",
+      "special": true
+    },
+    "sb_forest-exploration1": {
+      "icon": "sb_forest-exploration1",
+      "title": "Forest Exploration (1)"
+    },
+    "sb_forest-exploration2": {
+      "icon": "sb_forest-exploration2",
+      "title": "Forest Exploration (2)"
+    },
+    "forest": {
+      "icon": "forest-loop",
+      "title": "Forest"
+    },
+    "forsaken-grotto": {
+      "icon": "forsaken-grotto",
+      "title": "Forsaken Grotto"
+    },
+    "gravitational-collapse": {
+      "icon": "gravitational-collapse",
+      "title": "Gravitational Collapse",
+      "special": true
+    },
+    "sb_glacial-horizon": {
+      "icon": "sb_glacial-horizon",
+      "title": "Glacial Horizon"
+    },
+    "haiku": {
+      "icon": "haiku",
+      "title": "Haiku"
+    },
+    "home-concept": {
+      "icon": "home-concept-loop",
+      "title": "Home"
+    },
+    "horsehead-nebula": {
+      "icon": "horsehead-nebula",
+      "title": "Horsehead Nebula"
+    },
+    "housecleaning": {
+      "icon": "housecleaning",
+      "title": "Housecleaning",
+      "special": true
+    },
+    "hymn-to-the-stars": {
+      "icon": "hymn-to-the-stars",
+      "title": "Hymn to the Stars"
+    },
+    "i-was-the-sun": {
+      "icon": "i-was-the-sun",
+      "title": "I was the Sun"
+    },
+    "impact-event": {
+      "icon": "impact-event",
+      "title": "Impact Event",
+      "special": true
+    },
+    "inviolate": {
+      "icon": "inviolate-loop",
+      "title": "Inviolate"
+    },
+    "jupiter": {
+      "icon": "jupiter",
+      "title": "Jupiter"
+    },
+    "large-magellanic-cloud": {
+      "icon": "large-magellanic-cloud",
+      "title": "Large Magellanic Cloud"
+    },
+    "lava-exploration1": {
+      "icon": "lava-exploration1",
+      "title": "Lava Exploration (1)"
+    },
+    "lava-exploration2": {
+      "icon": "lava-exploration2",
+      "title": "Lava Exploration (2)"
+    },
+    "M54": {
+      "icon": "M54",
+      "title": "M54"
+    },
+    "mercury": {
+      "icon": "mercury",
+      "title": "Mercury"
+    },
+    "mira": {
+      "icon": "mira",
+      "title": "Mira"
+    },
+    "nomads": {
+      "icon": "Nomads",
+      "title": "Nomads"
+    },
+    "ocean-battle1": {
+      "icon": "ocean-battle1-loop",
+      "title": "Ocean Battle (1)",
+      "special": true
+    },
+    "sb_ocean-exploration1": {
+      "icon": "sb_ocean-exploration1",
+      "title": "Ocean Exploration (1)"
+    },
+    "ocean-exploration2": {
+      "icon": "ocean-exploration2",
+      "title": "Ocean Exploration (2)"
+    },
+    "on-the-beach-at-night": {
+      "icon": "on-the-beach-at-night",
+      "title": "On the Beach at Night"
+    },
+    "planetarium": {
+      "icon": "planetarium",
+      "title": "Planetarium"
+    },
+    "procyon": {
+      "icon": "procyon",
+      "title": "Procyon"
+    },
+    "psyche": {
+      "icon": "psyche",
+      "title": "Psyche"
+    },
+    "scorian-flow": {
+      "icon": "scorian-flow",
+      "title": "Scorian Flow"
+    },
+    "stellar-acclimation": {
+      "icon": "stellar-acclimation",
+      "title": "Stellar Acclimation",
+      "special": true
+    },
+    "stellarformation": {
+      "icon": "stellarformation",
+      "title": "Stellar Formation"
+    },
+    "swansong": {
+      "icon": "swansong",
+      "title": "Swansong",
+      "special": true
+    },
+    "temple-of-kluex": {
+      "icon": "temple-of-kluex",
+      "title": "Temple of Kluex",
+      "special": true
+    },
+    "tentacle-battle1": {
+      "icon": "tentacle-battle1-loop",
+      "title": "Tentacle Battle (1)",
+      "special": true
+    },
+    "tentacle-exploration1": {
+      "icon": "tentacle-exploration1",
+      "title": "Tentacle Exploration (1)"
+    },
+    "sb_tentacle-exploration2": {
+      "icon": "sb_tentacle-exploration2",
+      "title": "Tentacle Exploration (2)"
+    },
+    "the-apex": {
+      "icon": "the-apex",
+      "title": "The Apex"
+    },
+    "the-deep": {
+      "icon": "the-deep",
+      "title": "The Deep",
+      "special": true
+    },
+    "the-eternal-tide": {
+      "icon": "the-eternal-tide",
+      "title": "The Eternal Tide"
+    },
+    "the-peacekeepers": {
+      "icon": "the-peacekeepers",
+      "title": "The Peacekeepers",
+      "special": true
+    },
+    "title-menu-music": {
+      "icon": "title-menu-music",
+      "title": "Starbound"
+    },
+    "title-theme-concept-old": {
+      "icon": "title-theme-concept-old",
+      "title": "Betabound",
+      "description": "Toby Fox"
+    },
+    "tranquility-base": {
+      "icon": "tranquility-base",
+      "title": "Tranquility Base"
+    },
+    "ultramarine": {
+      "icon": "ultramarine",
+      "title": "Ultramarine"
+    },
+    "vast-immortal-suns": {
+      "icon": "vast-immortal-suns",
+      "title": "Vast Immortal Suns"
+    },
+    "sb_via-aurora": {
+      "icon": "sb_via-aurora",
+      "title": "Via Aurora"
+    },
+    "sb_underground": {
+      "icon": "sb_underground",
+      "title": "Underground",
+      "description": "Toby Fox"
+    },
+
+    "jukebox": {
+      "icon": "/sfx/objects/jukebox.ogg",
+      "title": "Jukebox",
+      "special": true
+    },
+    "jungleloveall": {
+      "description": "Big Ape",
+      "icon": "/sfx/objects/jungleloveall.ogg",
+      "title": "Jungle Love",
+      "special": true
+    },
+    "dancebound": {
+      "description": "???",
+      "icon": "/sfx/objects/dancebound.ogg",
+      "title": "Dancebound",
+      "special": true
+    },
+    "musicbox2": {
+      "icon": "/sfx/objects/musicbox2.ogg",
+      "title": "Decorated Music Box",
+      "special": true
+    },
+    "gramophone": {
+      "icon": "/sfx/objects/gramophone.ogg",
+      "title": "Frontier Gramophone",
+      "special": true
+    },
+    "sb_jab": {
+      "icon": "sb_jab",
+      "title": "Jab",
+      "special": true,
+      "description": "Pacific Dane"
+    },
+    "clubdecks1": {
+      "description": "???",
+      "icon": "/sfx/objects/clubdecks1.ogg",
+      "title": "Club Decks",
+      "special": true
+    },
+    "clubdecks2": {
+      "icon": "/sfx/objects/clubdecks2.ogg",
+      "title": "Underground (Club)",
+      "description": "Toby Fox"
+    },
+
+    "poptop": {
+      "icon": "/sfx/npc/monsters/poptop_sing_loop.ogg",
+      "title": "Poptop Humming",
+      "special": true
+    }
+  }
+}

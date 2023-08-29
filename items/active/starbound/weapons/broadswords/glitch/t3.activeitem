@@ -1,0 +1,25 @@
+{
+  "itemName": "sb_glitchtier3broadsword",
+  "description": "A nice Glitch broadsword.",
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "shortdescription": "Premium 2.0",
+  "definition": "broadswords/t3",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire3": {
+                "properties": {
+                  "offset": [3.5, 0.1]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

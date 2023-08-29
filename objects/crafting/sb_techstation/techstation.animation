@@ -1,0 +1,108 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "station" : {
+        "default" : "on",
+        "states" : {
+          "off" : {"frames":8,"mode":"loop","cycle":1},
+          "on" : {"frames":8,"mode":"loop","cycle":1}
+        }
+      },
+      "station0" : {
+        "default" : "on",
+        "states" : {
+          "off" : {"frames":8,"mode":"loop","cycle":1},
+          "on" : {"frames":8,"mode":"loop","cycle":1}
+        }
+      },
+      "lit" : {
+        "default" : "on",
+        "states" : {
+          "off" : {"frames":8,"mode":"loop","cycle":1},
+          "on" : {"frames":8,"mode":"loop","cycle":1}
+        }
+      },
+      "lit0" : {
+        "default" : "on",
+        "states" : {
+          "off" : {"frames":8,"mode":"loop","cycle":1},
+          "on" : {"frames":8,"mode":"loop","cycle":1}
+        }
+      }
+    },
+    "parts" : {
+      "station" : {
+        "properties" : {
+          "centered" : false
+        },
+        "partStates" : {
+          "station" : {
+            "off" : {
+              "properties" : {}
+            },
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.<frame>",
+                "fullbright" : true
+              }
+            }
+          }
+        }
+      },
+      "station0" : {
+        "properties" : {
+          "centered" : false
+        },
+        "partStates" : {
+          "station0" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.<frame>",
+                "fullbright" : true}
+            },
+            "on" : {
+              "properties" : {
+              }
+            }
+          }
+        }
+      },
+      "lit0" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : false
+        },
+        "partStates" : {
+          "lit0" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.<frame>"}
+            },
+            "on" : {
+              "properties" : {
+              }
+            }
+          }
+        }
+      },
+      "lit" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : false
+        },
+        "partStates" : {
+          "lit" : {
+            "off" : {
+              "properties" : {}
+            },
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

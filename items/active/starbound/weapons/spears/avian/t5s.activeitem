@@ -1,0 +1,8 @@
+{
+  "definition": ["colors/t5s", "spears/t5s"],
+  "itemName": "sb_aviantier5sspear",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "shortdescription": "Bird in the Hand",
+  "description": "A spear perfect for martial arts."
+}

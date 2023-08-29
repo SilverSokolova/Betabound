@@ -1,0 +1,5 @@
+{
+  "input" : ["silverbar"],
+  "output" : "harmonica",
+  "groups" : ["sb_ironcraftingtable","sb_instruments","all"]
+}

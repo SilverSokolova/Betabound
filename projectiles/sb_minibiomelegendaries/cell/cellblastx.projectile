@@ -1,0 +1,22 @@
+{
+  "projectileName" : "sb_cellblastx",
+  "physics" : "bullet",
+  "speed" : 70,
+  "bounces" : 0,
+  "timeToLive" : 1.5,
+  "image" : "cellblastx.png",
+  "animationCycle" : 0.25,
+  "lightColor" : [0, 100, 150],
+  "frameNumber" : 10,
+  "emitters" : ["electricplasma"],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/pulsecannonexplosion/pulsecannonexplosion.config"
+    }
+  ],
+  "power" : 15,
+  "damagePoly" : [[-3, 3], [-3, -3], [3, -3], [3, 3]],
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

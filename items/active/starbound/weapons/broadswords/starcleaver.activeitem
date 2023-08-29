@@ -1,0 +1,66 @@
+{
+  "itemName": "sb_starcleaver",
+  "level": 1,
+  "price": 800,
+  "maxStack": 1,
+  "rarity": "legendary",
+  "category": "broadsword",
+  "description": "Hack 'n' slash in space!",
+  "shortdescription": "Starcleaver",
+  "tooltipFields": {
+    "subtitle": "Starcleaver"
+  },
+  "tooltipKind": "sb_sword2",
+  "twoHanded": true,
+  "sb_waBan": true,
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "animation": "/items/active/starbound/weapons/broadsword.animation",
+  "animationParts": {
+    "blade": "starcleaver.png",
+    "handle": ""
+  },
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "image": "starcleaverswoosh.png:<frame>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds": {
+      "extraFire": ["/sfx/projectiles/swing_fire1.ogg", "/sfx/projectiles/swing_fire2.ogg", "/sfx/projectiles/swing_fire3.ogg"]
+    }
+  },
+
+  "builderConfig": [{
+      "nameGenerator": "starcleavernames.config:nameGen",
+      "iconDrawables": ["blade"],
+      "altAbilities": [
+        "bladecharge",
+        "downstab",
+        "parry",
+        "risingslash",
+        "spinslash",
+        "superspinslash"
+      ]
+    }
+  ],
+
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType": "physical",
+  "primaryAbilityType": "sb_meleeslash",
+  "primaryAbility": {
+    "fireTime": [0.6, 0.9],
+    "baseDps": [10.5, 11.5],
+    "projectileType": "sb_starcleaverboom"
+  },
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

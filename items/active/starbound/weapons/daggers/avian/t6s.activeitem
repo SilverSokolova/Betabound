@@ -1,0 +1,1 @@
+{"description":"A sizeable wing-like dagger.","shortdescription":"Lil Daedalus","itemName":"sb_aviantier6sdagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t6s","daggers/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

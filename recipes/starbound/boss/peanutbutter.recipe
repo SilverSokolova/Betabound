@@ -1,0 +1,6 @@
+//Would use cardboard1 but stored item mods
+{
+  "input" : [["paper",18],"sb_peanutbutterjar"],
+  "output" : "sb_peanutbutter",
+  "groups" : ["inventorstable3","craftingstations","all"]
+}

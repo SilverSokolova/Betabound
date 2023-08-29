@@ -1,0 +1,22 @@
+{
+  "projectileName" : "sb_icematerial",
+  "physics" : "grenade",
+  "image" : "sb_icematerial.png",
+  "damageKind" : "icebarrier",
+  "emitters" : ["barrierice"],
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "power" : 20,
+  "speed" : 6,
+  "statusEffects" : ["frostslow"],
+  "actionOnReap" : [
+    {
+      "action" : "tile",
+      "materials" : [{"kind":"ice"}]
+    },
+    {
+      "action" : "sound",
+      "options" : ["/sfx/projectiles/ice_barrier_break1.ogg", "/sfx/projectiles/ice_barrier_break2.ogg", "/sfx/projectiles/ice_barrier_break3.ogg", "/sfx/projectiles/ice_barrier_break4.ogg", "/sfx/projectiles/ice_barrier_break5.ogg", "/sfx/projectiles/ice_barrier_break6.ogg", "/sfx/projectiles/ice_barrier_break7.ogg", "/sfx/projectiles/ice_barrier_break8.ogg", "/sfx/projectiles/ice_barrier_break9.ogg", "/sfx/projectiles/ice_barrier_break10.ogg"]
+    }
+  ]
+}

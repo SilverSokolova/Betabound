@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/description","value":"A tumbling heap of squishy eyeballs."},
+{"op":"replace","path":"/description","value":"A tumbling heap of squishy eyeballs. To say I feel watched is an understatement."}],
+[{"op":"test","path":"/tooltipKind","inverse":true},
+{"op":"add","path":"/tooltipKind","value":"codex"}]
+]

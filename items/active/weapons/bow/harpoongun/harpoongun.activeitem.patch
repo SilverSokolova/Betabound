@@ -1,0 +1,13 @@
+[
+//cave and frozen bows don't get the beta tooltip, so the harpoon gun doesn't either. If we change our mind, have the vbuilder check for 'sb_' in the tooltip (if it has a tooltip)
+[{"op":"test","path":"/level"},{"op":"remove","path":"/level"}],
+[{"op":"test","path":"/price","value":40},{"op":"replace","path":"/price","value":250}],
+
+[{"op":"test","path":"/primaryAbility/walkWhileFiring","value":true},{"op":"replace","path":"/primaryAbility/walkWhileFiring","value":false}],
+
+[{"op":"test","path":"/twoHanded","value":false},{"op":"test","path":"/primaryAbility/stances/idle","inverse":true},{"op":"add","path":"/primaryAbility/stances/idle","value":{"twoHanded":false}}],
+[{"op":"test","path":"/twoHanded","value":false},{"op":"test","path":"/primaryAbility/stances/draw","inverse":true},{"op":"add","path":"/primaryAbility/stances/draw","value":{"twoHanded":false}}],
+[{"op":"test","path":"/twoHanded","value":false},{"op":"test","path":"/primaryAbility/stances/fire/twoHanded","inverse":true},{"op":"add","path":"/primaryAbility/stances/fire/twoHanded","value":false}],
+
+[{"op":"test","path":"/builder"},{"op":"test","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua","inverse":true},{"op":"move","from":"/builder","path":"/sb_builder"}],[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua"}]
+]

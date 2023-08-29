@@ -1,0 +1,38 @@
+[
+    [{
+        "op": "test",
+        "path": "/rarities/0/0",
+        "value": 0.001
+    },{
+        "op": "replace",
+        "path": "/rarities/0/0",
+        "value": 0.05
+    }],
+    [{
+        "op": "test",
+        "path": "/rarities/1/0",
+        "value": 0.04
+    },{
+        "op": "replace",
+        "path": "/rarities/1/0",
+        "value": 0.2
+    }],
+    [{
+        "op": "test",
+        "path": "/rarities/2/0",
+        "value": 0.2
+    },{
+        "op": "replace",
+        "path": "/rarities/2/0",
+        "value": 0.4
+    }],
+    [{
+        "op": "replace",
+        "path": "/rarities/3/0",
+        "value": 100
+    },{
+        "op": "replace",
+        "path": "/rarities/3/0",
+        "value": 0.8
+    }]
+]

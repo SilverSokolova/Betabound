@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Rare"}],
+[{"op":"test","path":"/shortdescription","value":"Peacekeeper Vending Machine"},{"op":"replace","path":"/shortdescription","value":"Donut Vending Machine"}]
+]

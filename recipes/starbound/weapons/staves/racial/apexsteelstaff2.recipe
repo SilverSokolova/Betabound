@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_ceruliumcompound",12],"battery"],
+  "output" : "sb_apexsteelstaff2",
+  "groups" : ["craftingmanipulator","weapons","all"]
+}

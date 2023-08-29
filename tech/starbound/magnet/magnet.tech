@@ -1,0 +1,14 @@
+{
+  "name" : "sb_magnet",
+  "type" : "head",
+  "icon" : "/tech/starbound/magnet.png",
+  "scripts" : [],
+  "sb_effect" : "sb_magnet",
+  "sb_suitImage" : "?replace;73daff=fa0000;27abff=db0000;117ee4=bc0000;1f45d4=770000;002b72=580000;001522=390000",
+//"sb_suitImage" : "?replace;73daff=ececec;27abff=ccc;117ee4=bdbdbd;1f45d4=aeaeae;002b72=9f9f9f;001522=909090",
+  "rarity" : "Legendary",
+  "chipCost" : 8,
+  "description" : "Provides the wearer with the ability to attract nearby items.",
+  "sb_longDescription" : "Dropping items may be difficult...",
+  "shortDescription" : "Magnetic"
+}

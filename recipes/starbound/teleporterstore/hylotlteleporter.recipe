@@ -1,0 +1,6 @@
+{
+  "currencyInputs" : {"money":3000},
+  "input" : ["teleportercore"],
+  "output" : "sb_hylotlteleporter",
+  "groups" : ["teleshop","all"]
+}

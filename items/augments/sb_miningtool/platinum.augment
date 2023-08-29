@@ -1,0 +1,13 @@
+{
+  "itemName" : "sb_platinum_repair",
+  "price" : 50,
+  "tooltipKind" : "sb_object",
+  "rarity" : "uncommon",
+  "category" : "Tool",
+  "tooltipFields" : {"subtitle":"Repair Tool"},
+  "durabilityRegen" : 200,
+  "inventoryIcon" : "platinum.png",
+  "description" : "It's a platinum repair tool.\n^gray;Select repair tool and right-click pickaxe or drill.",
+  "shortdescription" : "Platinum Repair Tool",
+  "scripts" : ["/scripts/augments/sb_ore.lua"]
+}

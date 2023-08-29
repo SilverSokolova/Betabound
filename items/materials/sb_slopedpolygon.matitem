@@ -1,0 +1,10 @@
+{
+  "itemName" : "sb_slopedpolygon",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "sb_slopedpolygonicon.png",
+  "description" : "A curious material made of \"Hard Light\".",
+  "shortdescription" : "Polygon Panel",
+  "materialId" : 310
+}

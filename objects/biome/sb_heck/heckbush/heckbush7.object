@@ -1,0 +1,39 @@
+{
+  "objectName" : "sb_heckbush7",
+  "colonyTags" : ["flesh","odd"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "breakable",
+
+  "description" : "A disgusting blob of seeping flesh.",
+  "shortdescription" : "Heck Bush",
+  "race" : "generic",
+  "tooltipKind" : "sb_object",
+
+  "apexDescription" : "I'm going to be sick.",
+  "avianDescription" : "What vile foliage is this?",
+  "floranDescription" : "Floran think plant look tasty.",
+  "glitchDescription" : "Revulsion. What kind of flesh sprouts from the ground?",
+  "humanDescription" : "Whoa, this is like a science exhibit.",
+  "hylotlDescription" : "This offends everything I stand for. Disgusting.",
+  "novakidDescription" : "This is just plain gruesome.",
+
+  "inventoryIcon" : "heckbush7.png",
+  "orientations" : [
+    {
+      "dualImage" : "heckbush7.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/meat_break1.ogg", "/sfx/objects/meat_break2.ogg", "/sfx/objects/meat_break3.ogg" ],
+  "smashParticles" : [ { "count" : 7, "particle" : "fleshshard" } ],
+  "smashDropPool" : "sb_heckbush",
+  "breakDropPool" : "sb_heckbush"
+}

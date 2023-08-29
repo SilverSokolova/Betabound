@@ -1,0 +1,17 @@
+{
+  "id" : "sb_bosstentacomet",
+  "title" : "The Tentacomet",
+  "description" : "Information on the Tentacomet, a creature so terrifying nobody could think of a good name for it.",
+  "icon" : "bossbook.png",
+  "contentPages" : [
+    "Rocks can't hurt you, right? Wrong. They could fall on your head, or roll over you, or they could be harbouring a dangerous, ravenous tentacle beast just waiting to tear you apart. Lucky you, the latter roams the Starbound universe.",
+    "Once lured in, the creature gazes upon its prey with its numerous eyes, shielded by its rocky outer casing, tentacles whipping and whirling around as it attempts to eat anything and everything in its path.",
+    "But what is this unknown beast? Some say it's an octopus in a comet. Others insist it shares certain similarities with the tentacled behemoth that destroyed Earth. Perhaps, if some renegade adventurer hadn't cut it down, it would have grown to the size of a planet. Perhaps."/*,
+    "Fun Tentacomet Fact: Greenfinger of the Floran was presented with a sample of the creature for study, but it mysteriously went missing. So did the next sample, and the sample after that."*/
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "tooltipKind" : "sb_object4",
+    "price" : 25
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "itemName" : "sb_roastcacti",
+  "rarity" : "Common",
+  "category" : "preparedFood",
+  "inventoryIcon" : "roastcacti.png",
+  "description" : "Sweet, succulent roasted cacti. It's crunchy and sticky.",
+  "shortdescription" : "Roasted Cactus",
+  "price" : 95,
+  "effects" : [[
+	{"effect":"thorns","duration":60},
+	"sb_foodheal25"
+  ]],
+  "foodValue" : 10,
+  "tooltipKind" : "sb_object",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 2.5
+}

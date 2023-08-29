@@ -1,0 +1,11 @@
+[
+    [{
+        "op": "test",
+        "path": "/list/2/explosiveDamageAmount"
+    },
+    {
+        "op": "add",
+        "path": "/list/2/harvestLevel",
+        "value": 99
+    }]
+]

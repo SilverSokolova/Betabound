@@ -1,0 +1,52 @@
+{
+  "itemName": "sb_brainextractor",
+  "inventoryIcon": "brainextractoricon.png",
+  "maxStack": 1,
+  "price": 300,
+  "tooltipKind": "sb_gun2",
+  "tooltipFields": {
+    "damageKindImage": "/interface/sb_tooltips/electric.png"
+  },
+  "itemTags": ["weapon", "ranged", "pistol", "upgradeableWeapon"],
+  "category": "pistol",
+  "fixedRarity": true,
+  "rarity": "Rare",
+  "animation": "/items/active/weapons/ranged/gun.animation",
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/gun/lightningcoil3.ogg"]
+    }
+  },
+  "animationParts": {
+    "barrel": "",
+    "butt": "",
+    "muzzleFlash": "",
+    "middle": "brainextractor.png"
+  },
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "description" : "Terminating certain types of monsters with this gun will extract its brain.",
+  //"description": "For when a brain needs careful extraction.",
+  "shortdescription": "Brain Extractor",
+  "baseOffset": [0.5, 0.15],
+  "muzzleOffset": [2.8, 0.3],
+  "twoHanded": false,
+  "level": 2,
+  "primaryAbilityType": "sb_gun",
+  "primaryAbility": {
+    "stances": {
+      "cooldown": {
+        "armRotation": 3,
+        "weaponRotation": 3,
+        "recoil": false
+      }
+    },
+    "fireTime": 0.6,
+    "energyUsage": 9.75,
+    "inaccuracy": 0.025,
+    "projectileType": "sb_brainshock",
+    "projectileParameters": {
+      "speed": 5
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

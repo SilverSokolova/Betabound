@@ -1,0 +1,8 @@
+[
+[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
+
+[{"op":"test","path":"/description","value":"Warty but not very weedy."},
+{"op":"replace","path":"/description","value":"Warty but not very weedy. It has a tough skin, regrows easily."}],
+
+[{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":3}]
+]

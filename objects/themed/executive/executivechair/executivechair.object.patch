@@ -1,0 +1,7 @@
+[
+[{"op":"test","inverse":true,"path":"/tooltipKind"},{"op":"add","value":"sb_object","path":"/tooltipKind"}],[{"op":"replace","value":"sb_object","path":"/tooltipKind"},{"op":"replace","value":"legendary","path":"/rarity"}],
+
+
+[{"op":"test","path":"/orientations/1/sitCoverImage","inverse":true},{"op":"add","path":"/orientations/1/sitCoverImage","value":"/objects/themed/executive/executivechair/sb_executivechaircover.png"}],
+[{"op":"test","path":"/orientations/0/sitCoverImage","inverse":true},{"op":"add","path":"/orientations/0/sitCoverImage","value":"/objects/themed/executive/executivechair/sb_executivechaircover.png"}]
+]

@@ -1,0 +1,39 @@
+{
+  "projectileName" : "sb_uraniumorb",
+  "image" : "/projectiles/sb_minibiomelegendaries/wilderness/uraniumorb.png",
+  "physics" : "laser",
+  "animationCycle" : 0.3,
+  "frameNumber" : 4,
+  "power" : 30,
+  "speed" : 0,
+  "timeToLive" : 6,
+  "pointLight" : true,
+  "bounces" : -1,
+  "piercing" : true,
+  "damageKind" : "poison",
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/elementimpact/poisonimpact3.config"
+    },
+    {
+      "action" : "sound",
+      "options" : ["/sfx/gun/lightningcoil1.ogg", "/sfx/gun/lightningcoil2.ogg", "/sfx/gun/lightningcoil3.ogg"]
+    }
+  ],
+  
+  "lightColor" : [9, 186, 9],
+  "statusEffects" : ["weakpoison"],
+  "fullbright" : true,
+  "orientationLocked" : true,
+  "damagePoly" : [[-10, 0], [-7, -7], [0, -10], [7, -7], [10, 0], [7, 7], [0, 10], [-7, 7]],
+  "damageRepeatTimeout" : 0.25,
+
+  "scripts" : ["/projectiles/activeitems/staff/staffprojectile.lua"],
+
+  "controlMovement" : {
+    "maxSpeed" : 60,
+    "controlForce" : 40
+  }
+}

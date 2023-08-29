@@ -1,0 +1,4 @@
+[[
+{"op":"test","path":"/onlyHitTerrain","value":true},
+{"op":"replace","path":"/onlyHitTerrain","value":false}
+],[{"op":"add","path":"/sb_power","value":1.25}]]

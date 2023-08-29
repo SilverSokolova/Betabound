@@ -1,0 +1,40 @@
+[
+  [{
+      "op": "test",
+      "path": "/interactAction",
+      "inverse": true
+    }, {
+      "op": "test",
+      "path": "/slotCount",
+      "inverse": true
+    }, {
+      "op": "test",
+      "path": "/interactData",
+      "inverse": true
+    }, {
+      "op": "test",
+      "path": "/interactive",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/interactAction",
+      "value": "OpenCraftingInterface"
+    }, {
+      "op": "add",
+      "path": "/interactData",
+      "value": {
+        "config": "/interface/windowconfig/craftingfood.config",
+        "paneLayoutOverride": {
+          "windowtitle": {
+            "title": " Cooking Table"
+          }
+        },
+        "filter": ["sb_t1food"]
+      }
+    }, {
+      "op": "replace",
+      "path": "/category",
+      "value": "crafting"
+    }
+  ]
+]

@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_hylotltier2axe",
+  "description": "A small scythe trimmed with gold.",
+  "shortdescription": "Golden Scythe",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t2",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

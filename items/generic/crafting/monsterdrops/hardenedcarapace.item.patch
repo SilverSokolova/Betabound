@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/description","value":"A fragment of tough organic shell. Can be used for crafting."},
+{"op":"replace","path":"/description","value":"A fragment of tough organic shell."}]
+]

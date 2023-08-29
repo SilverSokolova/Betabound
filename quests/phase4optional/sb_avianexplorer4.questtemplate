@@ -1,0 +1,32 @@
+{
+  "id" : "sb_avianexplorer4.gearup",
+  "prerequisites" : [ "hylotl_mission2", "sb_hylotlperformer3.gearup", "sb_bountyhunter3.gearup", "sb_avianexplorer3.gearup" ],
+  "title" : "^green;X Marks the Spot",
+  "text" : "Hello again! Would you like to go on another adventure? Avian pirates are always in search of treasure, ^green;if you can find an airship I'm sure they'll have a ^orange;treasure map ^green;on board. Bring it to me and I'll reward you with another tech card and some manipulator modules.",
+  "completionText" : "Aha! You found one. Who knows what wonderful treasure is marked here. Please take these! You've earned them.",
+  "speaker" : "questGiver",
+  "moneyRange" : [0, 0],
+  "rewards" : [["techcard",["manipulatormodule",3],["rewardbag",1,{"treasure":{"level":5}}]]],
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquest.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {"default" : "questGiver"},
+    "requireTurnIn" : true,
+    "turnInDescription" : "Speak to ^orange;the Avian explorer^reset; at the ^orange;outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "treasuremap",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}

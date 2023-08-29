@@ -1,0 +1,5 @@
+{
+  "input" : [["durasteelbar",10],["eyepiles",30]],
+  "output" : ["sb_eyesword",1,{"level":4,"seed":2,"shortdescription":"Eye Sword"}],
+  "groups" : ["craftinganvil2","weapons","all"]
+}

@@ -1,0 +1,69 @@
+{
+
+  // on picking up materials
+
+  // on picking up various tables
+
+  "sb_pickuptechstation": {
+    "type": "tutorial",
+    "text": "I see that you have obtained a wall-mounted tech station! Using it, you can create unique tech cards which can be used to share or equip techs."
+  },
+
+  "sb_pickuptechconsole": {
+    "type": "tutorial",
+    "text": "If your tech drives are not recognized by the Tech Development Console, ^orange;formatting the data by putting the tech drive into a Refinery^reset; may fix the issue."
+  },
+
+  "sb_pickupspawnerstation": {
+    "type": "tutorial",
+    "text": "It's a well-known fact that ^orange;colony deeds and employment beacons used on more dangerous planets attract more powerful tenants.^reset;"
+  },
+
+  // on picking up misc objects/items
+
+  "sb_pickuplibrary": {
+    "type": "tutorial",
+    "text": "I see that you've acquired a lectern! Any item placed on a lectern will stay with it, even if the lectern is relocated."
+  },
+  "sb_pickupcustomcodex": {
+    "type": "tutorial",
+    "text": "You have discovered a blank book. If you cannot decide what to write, consider writing down notes, messages to friends, lists, my advice, or notable locations you've discovered on your travels."
+  },
+  "sb_pickuppaint": {
+    "type": "tutorial",
+    "text": "You discovered paint! You can paint blocks and platforms into various different colors. Please note that the colour of the paint may change depending on the material being painted."
+  },
+  "sb_pickupfarmbeastfeed": {
+    "type": "tutorial",
+    "text": "I see you've acquired some fluffalo food! With a ^#71f2f6;right-click,^reset; you can feed it to a juvenile fluffalo to influence or speed up its growth."
+  },
+  "sb_pickupladder": {
+    "type": "tutorial",
+    "text": "I see you've acquired a ladder! While on a ladder, hold ^#71f2f6;[SPACE]^reset; to quickly climb."
+  },
+  "sb_pickupmusicsheet": {
+    "type": "tutorial",
+    "text": "I see you've acquired a music sheet! You can craft a radio at a Wooden Tool Table to listen to the music."
+  },
+  "sb_pickupminingtool": {
+    "type": "tutorial",
+    "text": "You've obtained a mining tool. Although you can access it after placing it in the action bar, you can also place it in your Matter Manipulator slot from the access panel on the right-hand toolbar."
+  },
+  "sb_pickuppreservatives": {
+    "type": "tutorial",
+    "text": "I see you've acquired some preservatives! With a ^#71f2f6;right-click,^reset; you can use it to prevent a perishable from rotting. Be warned that this will render the item unsuitable for use in cooking or crafting."
+  },
+  "sb_pickupammo": {
+    "type": "tutorial",
+    "text": "I see you've acquired some ammunition! Certain firearms gain a ^green;20%^reset; damage boost when using any type of ammo. If your ammo reserves are depleted or ^#71f2f6;SHIFT^reset; is held, the gun will instead use energy."
+  },
+
+  // on encountering certain things
+  "sb_ancientgateway": {
+    "type": "tutorial",
+    "text": "Ancient ruins such as this can be found throughout the universe. I'm detecting a spatial anomaly nearby... perhaps some form of teleportation device?"
+  }
+  // on unlocking ship capabilities
+  // Peacekeeper station intros
+
+}

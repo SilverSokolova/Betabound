@@ -1,0 +1,39 @@
+{
+  "itemName" : "sb_mushroomsword2",
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A solid mushroom shortsword. A shortshroom.",
+  "shortdescription" : "Mushroom Sword",
+  "tooltipKind" : "sb_sword2",
+  "price" : 70,
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "sb_waBan" : true,
+  "itemTags" : ["weapon","melee","shortsword","mushroom","upgradeableWeapon"],
+  "handGrip" : "inside",
+  "inventoryIcon" : "mushroomsword.png",
+  "animation" : "/items/active/starbound/weapons/shortsword.animation",
+  "animationParts" : {"blade":"mushroomsword.png","handle":""},
+  "animationCustom" : {
+    "lights":{"glow":{"color":[0,0,0]}},
+    "animatedParts":{
+      "parts" : {
+	"swoosh":{"partStates":{"swoosh":{"fire":{"properties":{"image":"shortshroomswoosh.png:<frame>"}}}}}
+      }}
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "aimOffset" : 0.0,
+  "primaryAbilityType" : "sb_meleeslash2",
+  "primaryAbility" : {
+    "projectileType" : "sb_multisporecloud",
+    "fireTime" : [0.333,0.666],
+    "baseDps" : [2.5,5.5],
+    "baseDamage" : [2.5,5.5],
+    "damageConfig" : {
+      "damageSourceKind" : "poisonshortsword"
+    }
+  },
+  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+}

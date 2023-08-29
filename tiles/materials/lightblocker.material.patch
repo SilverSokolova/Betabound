@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/itemDrop","inverse":true},{"op":"add","path":"/itemDrop","value":""}],
+[{"op":"replace","path":"/itemDrop","value":"sb_lightblocker"}]
+]

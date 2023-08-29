@@ -1,0 +1,12 @@
+{
+  "itemName" : "sb_liquidtentaclejuice",
+  "price" : 5,
+  "tooltipKind" : "sb_object",
+  "rarity" : "common",
+  "category" : "liquid",
+  "inventoryIcon" : "sb_liquidtentaclejuice.png",
+  "learnBlueprintsOnPickup" : ["rawtentacle"],
+  "description" : "A measure of vile, reeking meat juice.",
+  "shortdescription" : "Tentacle Juice",
+  "liquid" : "sb_tentaclejuice"
+}

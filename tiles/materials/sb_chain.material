@@ -1,0 +1,27 @@
+{
+  "materialId" : 6970,
+  "materialName" : "sb_chain",
+  "frames" : "sb_chain.png",
+  "particleColor" : [149, 148, 145, 255],
+  "variants" : 1,
+  "transparent" : true,
+  "itemDrop" : "sb_chain",
+  "category" : "materials",
+  "description" : "Steel chains, and not the fun kind.",
+  "shortdescription" : "Steel chain",
+  "glitchDescription" : "Statement. Chains.",
+  "floranDescription" : "Floran use chains to catch prey.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 10,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "sb_chain.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : false,
+    "zLevel" : 1777
+  }
+}

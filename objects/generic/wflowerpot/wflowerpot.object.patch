@@ -1,0 +1,7 @@
+[
+[{"op":"test","path":"/scripts","inverse":true},{"op":"add","path":"/scripts","value":[]}],
+[{"op":"test","path":"/animation","inverse":true},{"op":"test","path":"/animationParts","inverse":true},
+{"op":"add","path":"/animation","value":"sb_wflowerpot.animation"},
+{"op":"add","path":"/animationParts","value":{"sb_flower":"wflowerpot.png"}},
+{"op":"add","path":"/scripts/-","value":"sb_wflowerpot.lua"}]
+]

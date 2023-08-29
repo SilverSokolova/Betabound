@@ -1,0 +1,5 @@
+{
+  "input" : ["sb_glowfibreblue","sb_glowfibregreen","sb_glowfibreorange","sb_glowfibreyellow"],
+  "output" : ["glowfibre",4],
+  "groups" : ["plain","other","all"]
+}

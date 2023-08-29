@@ -1,0 +1,11 @@
+[
+[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
+
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}],
+
+[{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":2}],
+
+[{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
+[{"op":"add","path":"/effects/0/-","value":{"effect":"bouncy","duration":30}}],
+[{"op":"add","path":"/effects/0/-","value":"sb_foodheal120"}]
+]

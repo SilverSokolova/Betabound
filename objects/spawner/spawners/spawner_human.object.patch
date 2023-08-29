@@ -1,0 +1,8 @@
+[
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":""}],
+[{"op":"test","path":"/orientations/0/anchors/0","value":"bottom"},{"op":"test","path":"/orientations/0/anchors/1","value":"background"},{"op":"remove","path":"/orientations/0/anchors/1"}],
+
+[{"op":"test","path":"/shortdescription","value":"Human Spawner"},{"op":"replace","path":"/shortdescription","value":"^yellow;Human Spawner^reset;"}],
+[{"op":"replace","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"add","path":"/scripts/-","value":"sb_spawner.lua"}]
+]

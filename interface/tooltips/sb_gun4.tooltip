@@ -1,0 +1,150 @@
+{
+  "background": {
+    "type": "background",
+    "fileHeader": "/interface/tooltips/sb_header.png",
+    "fileBody": "/interface/tooltips/sb_bodyobject4.png",
+    "fileFooter": "/interface/tooltips/sb_footer4.png"
+  },
+  "moneyIcon": {
+    "type": "image",
+    "position": [98, 23],
+    "file": "/interface/money.png"
+  },
+  "priceLabel": {
+    "type": "label",
+    "position": [110, 23],
+    "hAnchor": "left",
+    "value": "tree"
+  },
+  "descriptionLabel": {
+    "type": "label",
+    "position": [11, 109],
+    "hAnchor": "left",
+    "vAnchor": "top",
+    "wrapWidth": 126
+  },
+  "ammoLabel": {
+    "type": "label",
+    "position": [11, 86],
+    "hAnchor": "left",
+    "vAnchor": "top",
+    "wrapWidth": 126,
+    "value": "^gray;Craft ammo at an anvil!"
+  },
+  "altAbilityTitleLabel": {
+    "type": "label",
+    "position": [9, 68],
+    "hAnchor": "left",
+    "value": ""
+  },
+  "altAbilityLabel": {
+    "type": "label",
+    "position": [130, 68],
+    "hAnchor": "right",
+    "centered": true,
+    "wrapWidth": 126
+  },
+  "speedTitleLabel": {
+    "type": "label",
+    "position": [9, 50],
+    "hAnchor": "left",
+    "value": "Rate of Fire:"
+  },
+  "speedLabel": {
+    "type": "label",
+    "position": [130, 50],
+    "hAnchor": "right",
+    "wrapWidth": 126
+  },
+  "damagePerShotTitleLabel": {
+    "type": "label",
+    "position": [9, 59],
+    "hAnchor": "left",
+    "value": "Damage Per Shot:"
+  },
+  "damagePerShotLabel": {
+    "type": "label",
+    "position": [130, 59],
+    "hAnchor": "right",
+    "wrapWidth": 126
+  },
+  "energyPerShotTitleLabel": {
+    "type": "label",
+    "position": [9, 41],
+    "hAnchor": "left",
+    "value": "Energy (without ammo):"
+  },
+  "energyPerShotLabel": {
+    "type": "label",
+    "position": [130, 41],
+    "hAnchor": "right",
+    "wrapWidth": 126
+  },
+  "handednessLabel": {
+    "type": "label",
+    "position": [90, 154],
+    "hAnchor": "right",
+    "centered": true,
+    "wrapWidth": 126
+  },
+  "dyeLabel": {
+    "type": "label",
+    "position": [130, 155],
+    "hAnchor": "right",
+    "centered": false,
+    "fontSize": 6,
+    "color": "gray",
+    "wrapWidth": 126
+  },
+  "levelLabel": {
+    "type": "label",
+    "position": [114, 173],
+    "hAnchor": "left",
+    "color": "gray",
+    "centered": true,
+    "wrapWidth": 126
+  },
+  "rarityLabel": {
+    "type": "label",
+    "position": [7, 23],
+    "hAnchor": "left",
+    "centered": true
+  },
+  "damageKindImage": {
+    "type": "image",
+    "position": [120, 125],
+    "file": "",
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "damageKindBImage": {
+    "type": "image",
+    "position": [120, 143],
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "damageKindCImage": {
+    "type": "image",
+    "position": [18, 125],
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "damageKindDImage": {
+    "type": "image",
+    "position": [18, 143],
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "objectImage": {
+    "type": "image",
+    "position": [70, 136],
+    "file": "",
+    "centered": true,
+    "maxSize": [40, 40],
+    "minSize": [40, 40]
+  }
+}

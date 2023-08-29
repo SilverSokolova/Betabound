@@ -1,0 +1,16 @@
+{
+  "projectileName" : "sb_fallingblock2",
+  "physics" : "lightningbolt",
+  "bounces" : 0,
+  "timeToLive" : 8,
+  "image" : "fallingblock2.png",
+  "fullbright" : true,
+  "supportsProcessing" : true,
+//"processing" : "?multiply=0007",
+  "animationCycle" : 1,
+  "lightColor" : [18, 123, 183],
+  "frameNumber" : 1,
+  "power" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

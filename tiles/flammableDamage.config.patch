@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/damageFactors","inverse":true},{"op":"add","path":"/damageFactors","value":{}}],
+[{"op":"test","path":"/damageFactors/plantish","inverse":true},{"op":"add","path":"/damageFactors/plantish","value":0}],
+[{"op":"test","path":"/damageFactors/fire","inverse":true},{"op":"add","path":"/damageFactors/fire","value":1}],
+[{"op":"copy","from":"/damageFactors/fire","path":"/damageFactors/plantish"}]
+]

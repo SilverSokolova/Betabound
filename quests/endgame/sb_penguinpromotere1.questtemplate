@@ -1,0 +1,35 @@
+{
+  "id" : "sb_penguinpromoterE1.gearup",
+  "prerequisites" : [ "glitch_mission2","sb_hylotlwarriorE1.gearup" ],
+  "title" : "^green;Fried and Battered",
+  "text" : "What's a guy like me gotta do to get some fish around here? ^green;Could you ^orange;cook some fish for me?^reset; That'd be great!",
+  "completionText" : "Awesome! This will fill me up good. Have some pixels and this manipulator module as my thanks.",
+  "speaker" : "questGiver",
+  "moneyRange" : [200, 200],
+  "rewards" : [["manipulatormodule",["rewardbag",1,{"treasure":{"level":6}}]]],
+  "canBeAbandoned" : true,
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquest.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "questGiver"
+    },
+    "requireTurnIn" : true,
+    "turnInDescription" : "Speak to ^orange;the penguin promoter^reset; at the ^orange;outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "cookedfish",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}

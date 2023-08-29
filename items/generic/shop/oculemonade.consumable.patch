@@ -1,0 +1,9 @@
+[
+[{"op":"add","path":"/sb_plateImage","value":true},{"op":"add","path":"/sb_plateHide","value":true}],
+[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
+
+[{"op":"test","path":"/shortdescription","value":"Oculemonade"},
+{"op":"replace","path":"/shortdescription","value":"Oculemonade Can"}],
+
+[{"op":"test","path":"/effects"},{"op":"add","path":"/effects/0/0","value":{"effect":"sb_energy","duration":10}}]
+]

@@ -1,0 +1,153 @@
+{
+  "projectileName" : "sb_leaforbx",
+  "physics" : "gas",
+  "pointLight" : true,
+  "piercing" : true, 
+  "image" : "leaforbx.png",
+  "timeToLive" : 1,
+  "speed" : 3, //TODO: get default projectile speed. this should be 0.01 of it
+  "animationCycle" : 0.3,
+  "frameNumber" : 4,
+  "power" : 0,
+  "supportsProcessing" : true,
+  "orientationLocked" : true,
+  "flippable" : true,
+  "periodicActions" : [
+    {
+	"action" : "sound",
+	"options" : ["/sfx/gun/plasma_mp2.ogg", "/sfx/gun/plasma_mp3.ogg"],
+	"time" : 0,
+	"repeat" : false
+    },
+    {
+	"action" : "sound",
+	"options" : ["/sfx/blocks/sand_fall1.ogg", "/sfx/blocks/sand_fall2.ogg", "/sfx/blocks/sand_fall3.ogg"],
+	"time" : 0.15,
+	"repeat" : false
+    },
+    {
+	"action" : "projectile",
+	"type" : "sb_cutterleafx",
+	"inheritDamageFactor" : 0.3,
+	"fuzzAngle" : 5,
+	"time" : 0.15,
+	"repeat" : false
+    },
+    {
+	"action" : "sound",
+	"delaySteps" : 20,
+	"options" : ["/sfx/blocks/sand_fall4.ogg", "/sfx/blocks/sand_fall5.ogg", "/sfx/blocks/sand_fall6.ogg"],
+	"time" : 0.25,
+	"repeat" : false
+    },
+    {
+	"action" : "projectile",
+	"type" : "sb_cutterleafx",
+	"inheritDamageFactor" : 0.3,
+	"fuzzAngle" : 10,
+	"time" : 0.25,
+	"repeat" : false
+    },
+    {
+	"action" : "sound",
+	"options" : ["/sfx/blocks/sand_fall7.ogg", "/sfx/blocks/sand_fall8.ogg", "/sfx/blocks/sand_fall9.ogg"],
+	"time" : 0.35,
+	"repeat" : false
+    },
+    {
+	"action" : "projectile",
+	"type" : "sb_cutterleafx",
+	"inheritDamageFactor" : 0.3,
+	"fuzzAngle" : 15,
+	"time" : 0.35,
+	"repeat" : false
+    },
+    {
+	"action" : "sound",
+	"options" : ["/sfx/blocks/sand_fall1.ogg", "/sfx/blocks/sand_fall2.ogg", "/sfx/blocks/sand_fall3.ogg"],
+	"time" : 0.45,
+	"repeat" : false
+    },
+    {
+	"action" : "projectile",
+	"type" : "sb_cutterleafx",
+	"inheritDamageFactor" : 0.3,
+	"fuzzAngle" : 20,
+	"time" : 0.45,
+	"repeat" : false
+    },
+    {
+	"action" : "sound",
+	"options" : ["/sfx/blocks/sand_fall4.ogg", "/sfx/blocks/sand_fall5.ogg", "/sfx/blocks/sand_fall6.ogg"],
+	"time" : 0.55,
+	"repeat" : false
+    },
+    {
+	"action" : "projectile",
+	"type" : "sb_cutterleafx",
+	"inheritDamageFactor" : 0.3,
+	"fuzzAngle" : 25,
+	"time" : 0.55,
+	"repeat" : false
+    },
+    {
+	"action" : "sound",
+	"options" : ["/sfx/blocks/sand_fall7.ogg", "/sfx/blocks/sand_fall8.ogg", "/sfx/blocks/sand_fall9.ogg"],
+	"time" : 0.65,
+	"repeat" : false
+    },
+    {
+	"action" : "projectile",
+	"type" : "sb_cutterleafx",
+	"inheritDamageFactor" : 0.3,
+	"fuzzAngle" : 30,
+	"time" : 0.65,
+	"repeat" : false
+    },
+    {
+	"action" : "sound",
+	"options" : ["/sfx/blocks/sand_fall1.ogg", "/sfx/blocks/sand_fall2.ogg", "/sfx/blocks/sand_fall3.ogg"],
+	"time" : 0.75,
+	"repeat" : false
+    },
+    {
+	"action" : "projectile",
+	"type" : "sb_cutterleafx",
+	"inheritDamageFactor" : 0.3,
+	"fuzzAngle" : 35,
+	"time" : 0.75,
+	"repeat" : false
+    },
+    {
+	"action" : "sound",
+	"options" : ["/sfx/blocks/sand_fall4.ogg", "/sfx/blocks/sand_fall5.ogg", "/sfx/blocks/sand_fall6.ogg"],
+	"time" : 0.85,
+	"repeat" : false
+    },
+    {
+	"action" : "projectile",
+	"type" : "sb_cutterleafx",
+	"inheritDamageFactor" : 0.3,
+	"fuzzAngle" : 40,
+	"time" : 0.85,
+	"repeat" : false
+    },
+    {
+	"action" : "sound",
+	"options" : ["/sfx/blocks/sand_fall7.ogg", "/sfx/blocks/sand_fall8.ogg", "/sfx/blocks/sand_fall9.ogg"],
+	"time" : 0.95,
+	"repeat" : false
+    },
+    {
+	"action" : "projectile",
+	"type" : "sb_cutterleafx",
+	"inheritDamageFactor" : 0.3,
+	"fuzzAngle" : 45,
+	"time" : 0.95,
+	"repeat" : false
+    }
+  ],
+  "actionOnReap" : [{"action":"config","file":"/projectiles/explosions/leafexplosion/leafexplosion.config"}],
+  "damagePoly" : [],
+  "damageKind" : "default"
+}

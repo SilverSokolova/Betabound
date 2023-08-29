@@ -1,0 +1,23 @@
+{
+  "itemName": "sb_novatier5arifle",
+  "definition": "rifle",
+  "tags": {
+    "<t>": "5a"
+  },
+  "rarity": "rare",
+  "description": "Packs a punch!",
+  "shortdescription": "Red Giant",
+  "level": 5,
+  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid", "upgradeableWeapon"],
+  "configOverrides": {
+    "baseOffset": [0.5, 0.25],
+    "primaryAbility": {
+      "energyUsage": 30,
+      "baseDps": 6.25,
+      "fireTime": 0.8
+    }
+  },
+  "muzzleOffset": [2.815, 0.25],
+  "altAbilityType": "explosiveshot",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

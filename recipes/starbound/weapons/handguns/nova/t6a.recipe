@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_feroziumcompound",3],"solariumstar"],
+  "output" : "sb_novatier6arevolver",
+  "groups" : ["craftingaccelerator","weapons","all"]
+}

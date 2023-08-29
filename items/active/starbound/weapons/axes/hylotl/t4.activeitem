@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_hylotltier4axe",
+  "description": "A ridged scythe.",
+  "shortdescription": "Gillcutter",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t4",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_glitchtier4shortsword",
+  "description": "A shortsword useful for taking out pests.",
+  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "definition": "shortswords/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Antispyware"
+}

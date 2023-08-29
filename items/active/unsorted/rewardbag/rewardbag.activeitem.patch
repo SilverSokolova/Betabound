@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
+[{"op":"test","path":"/fireTime","value":2.0},{"op":"replace","path":"/fireTime","value":0.05}],
+[{"op":"test","path":"/scripts"},{"op":"add","path":"/scripts/-","value":"sb_rewardbag.lua"}]
+]

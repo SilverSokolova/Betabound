@@ -1,0 +1,5 @@
+{
+  "input" : [["darkwoodmaterial",25],["climbingrope",5]],
+  "output" : "woodenelevatorshort",
+  "groups" : ["craftingwiring","mechanics","decoration","craftingfurniture","all"]
+}

@@ -1,0 +1,1 @@
+{"description":"A sword perfect for annoying Florans.","shortdescription":"Stemcutter","itemName":"sb_hylotltier6sshortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t6s","shortswords/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

@@ -1,0 +1,23 @@
+{
+  "projectileName" : "sb_monkeynutlaser",
+  "physics" : "laser",
+  "bounces" : 0,
+  "speed" : 25,
+  "image" : "monkeynutlaser.png",
+  "animationCycle" : 0.2,
+  "timeToLive" : 3.0,
+  "orientationLocked" : false,
+  "flippable" : true,
+  "animationLoops" : false,
+  "frameNumber" : 4,
+  "power" : 50,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "lightColor" : [255, 110, 20],
+  "damageKind" : "plasma"
+}

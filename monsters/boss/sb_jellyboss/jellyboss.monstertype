@@ -1,0 +1,312 @@
+{
+  "type": "sb_jellyboss",
+  "shortdescription": "^#f00;Jelly^reset;",
+  "description": "Everyone knows peanut butter attracts jelly...",
+
+  "categories": ["sb_jellyboss_organic"],
+  "parts": ["body"],
+
+  "animation": "jellyboss.animation",
+  "dropPools": ["sb_boss3Treasure"],
+  "reversed": true,
+
+  "baseParameters": {
+    "scripts": [
+      "/scripts/util.lua",
+      "/monsters/monster.lua",
+      "/scripts/vec2.lua",
+      "/monsters/sb_bossmonster.lua"
+    ],
+    "alwaysAggressive": true,
+    "damageBar": "Special",
+    "behavior": "monster",
+    "renderLayer": "foregroundEntity",
+
+    "behaviorConfig": {
+      "damageOnTouch": true,
+      "targetQueryRange": 140,
+      "targetOnDamage": true,
+      "keepTargetInSight": false,
+      "keepTargetInRange": 250,
+      "targetOutOfSightTime": 28,
+      "hurtTime": 0.05,
+      "hurtWaitForGround": false,
+
+      "foundTargetActions": [],
+
+      "hostileActions": [{
+          "name": "action-charge",
+          "cooldown": 8,
+          "parameters": {
+            "chargeTime": 3,
+            "requireLineOfSight": false,
+            "maximumRange": 160,
+            "onGround": false,
+            "aimAtTarget": true,
+            "minimumRange": 40,
+            "chargeSpeed": 20,
+            "chargeControlForce": 99,
+            "windupState": "chargewindup",
+            "winddownState": "chargewinddown"
+          }
+        }, {
+          "name": "action-fire",
+          "cooldown": 4.0,
+          "parameters": {
+            "requireLineOfSight": true,
+            "maximumRange": 20,
+            "minimumRange": 4,
+            "onGround": false,
+            "windupStopForce": 50,
+            "windupTime": 0.8,
+
+            "projectileType": "sb_jellybossgoo",
+            "projectileParameters": {
+              "speed": 30,
+              "timeToLive": 8
+            },
+            "fireOffset": [0.0, 0.0],
+            "aimAtTarget": true,
+            "inaccuracy": 0.0,
+            "fireState": "fire",
+            "fireDelay": 0.1,
+            "fireSound": "",
+
+            "winddownState": "",
+            "winddownTime": 0.5
+          }
+        }, {
+          "name": "action-fire",
+          "cooldown": 8,
+          "parameters": {
+            "requireLineOfSight": true,
+            "maximumRange": 70,
+            "minimumRange": 30,
+            "onGround": false,
+            "windupStopForce": 50,
+            "windupTime": 0.8,
+
+            "projectileType": "sb_jellybossgoo",
+            "projectileParameters": {
+              "speed": 90,
+              "timeToLive": 8
+            },
+            "fireOffset": [0.0, 0.0],
+            "aimAtTarget": true,
+            "projectileCount": 14,
+            "inaccuracy": 0.4,
+            "fireState": "fire",
+            "fireDelay": 0.0003,
+            "fireSound": "",
+
+            "winddownState": "",
+            "winddownTime": 0.5
+          }
+        }, {
+          "name": "action-fire",
+          "cooldown": 8,
+          "parameters": {
+            "requireLineOfSight": true,
+            "maximumRange": 24,
+            "minimumRange": 14,
+            "onGround": false,
+            "windupState": "teslawindup",
+            "windupTime": 1.32,
+            "projectileType": "sb_jellybossgoosplash",
+            "power": 2,
+            "fireOffset": [0, 1],
+            "aimAtTarget": true,
+            "projectileCount": 16,
+            "inaccuracy": 1.3,
+            "projectileInterval": 0,
+            "fireSound": "attack",
+            "range": 8,
+            "fireState": "hurt",
+            "winddownState": "chargewinddown",
+            "winddownTime": 0.45
+          }
+        }, {
+          "name": "action-fire",
+          "cooldown": 8,
+          "parameters": {
+            "requireLineOfSight": true,
+            "maximumRange": 50,
+            "minimumRange": 13,
+            "onGround": false,
+            "windupState": "teslawindup",
+            "windupTime": 1.32,
+            "projectileType": "sb_jellybossgoosplash2",
+            "power": 2,
+            "aimAtTarget": true,
+            "projectileCount": 36,
+            "inaccuracy": 0.6,
+            "projectileInterval": 0.000001,
+            "fireSound": "attack",
+            "fireState": "hurt",
+            "winddownState": "chargewinddown",
+            "winddownTime": 0.45
+          }
+        }
+      ],
+
+      "periodicActions": [],
+      "approachActions": [{
+          "name": "approach-fly",
+          "parameters": {
+            "usePathfinding": false
+          }
+        }
+      ],
+      "followActions": [{
+          "name": "approach-teleport",
+          "parameters": {}
+        }, {
+          "name": "approach-fly",
+          "parameters": {
+            "usePathfinding": false
+          }
+        }
+      ],
+      "wanderActions": [{
+          "name": "emerge-fly",
+          "cooldown": 6.0,
+          "parameters": {
+            "wanderTime": [5, 20]
+          }
+        }
+      ]
+    },
+
+    "touchDamage": {
+      "poly": [[-9, -4.6], [0, -6], [9, -4.6], [9, 4.6], [0, 9], [-9, 4.6]],
+      "damage": 15,
+      "teamType": "enemy",
+      "damageSourceKind": "default",
+      "knockback": 60,
+      "statusEffects": ["sb_jellyslow"]
+    },
+
+    "metaBoundBox": [-9, -4.6, 9, 4.6],
+    "blockedSensors": [[1.5, -4.5], [1.5, -3.5], [1.5, -2.5], [1.5, -1.5], [1.5, -0.5], [1.5, 0.5]],
+    "fallSensors": [[2, -3.5], [2, -5.5], [2, -6.5], [4, -4.5], [4, -5.5], [4, -6.5]],
+    "scale": 1.0,
+
+    "movementSettings": {
+      "collisionEnabled": false,
+      "collisionPoly": [[-9, -4.6], [0, -6], [9, -4.6], [9, 4.6], [0, 9], [-9, 4.6]],
+      "gravityEnabled": false,
+
+      "mass": 0.6,
+      "walkSpeed": 5,
+      "runSpeed": 13,
+      "jumpMultiplier": 1,
+      "jumpSpeed": 20,
+      "airFriction": 2.0,
+      "airForce": 25,
+      "flySpeed": 16
+    },
+
+    "bodyMaterialKind": "organic",
+    "knockoutTime": 1,
+    "aggressive": true,
+    "knockoutAnimationStates": {
+      "damage": "stunned"
+    },
+    "deathParticles": "deathPoof",
+    "knockoutEffect": "",
+
+    "statusSettings": {
+      "statusProperties": {
+        "bossMusic": "/music/tentacle-battle1-loop.ogg",
+        "targetMaterialKind": "organic"
+      },
+
+      "appliesEnvironmentStatusEffects": false,
+      "appliesWeatherStatusEffects": true,
+      "minimumLiquidStatusEffectPercentage": 0.3,
+
+      "primaryScriptSources": [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta": 5,
+
+      "stats": {
+        "knockbackStunTime": {
+          "baseValue": 0.25
+        },
+        "knockbackThreshold": {
+          "baseValue": 9
+        },
+        "grit": {
+          "baseValue": 0.6
+        },
+        "maxHealth": {
+          "baseValue": 800
+        },
+        "protection": {
+          "baseValue": 30
+        },
+        "healthRegen": {
+          "baseValue": 0.0
+        },
+        "powerMultiplier": {
+          "baseValue": 0.7
+        },
+        "physicalResistance": {
+          "baseValue": 0.4
+        },
+        "fireResistance": {
+          "baseValue": 0.0
+        },
+        "stunImmunity": {
+          "baseValue": 1.0
+        },
+        "fireStatusImmunity": {
+          "baseValue": 0.0
+        },
+        "iceResistance": {
+          "baseValue": 0.4
+        },
+        "iceStatusImmunity": {
+          "baseValue": 0.0
+        },
+        "electricResistance": {
+          "baseValue": 0.2
+        },
+        "electricStatusImmunity": {
+          "baseValue": 0.0
+        },
+        "poisonResistance": {
+          "baseValue": 0.7
+        },
+        "poisonStatusImmunity": {
+          "baseValue": 1
+        },
+        "liquidImmunity": {
+          "baseValue": 1
+        }
+      },
+
+      "resources": {
+        "stunned": {
+          "deltaValue": -1.0,
+          "initialValue": 0.0
+        },
+        "health": {
+          "maxStat": "maxHealth",
+          "deltaStat": "healthRegen",
+          "defaultPercentage": 100
+        }
+      }
+    },
+
+    "mouthOffset": [0, 0],
+    "feetOffset": [0, -8],
+    "capturable": true,
+    "captureHealthFraction": 0.3,
+    "nametagColor": [64, 200, 255],
+    "captureCollectables": {
+      "monsters": "sb_jellyboss"
+    }
+  }
+}

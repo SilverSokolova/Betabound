@@ -1,0 +1,164 @@
+{
+  "type" : "sb_toolmerchant",
+  "baseType" : "merchant",
+
+  "dropPools" : ["diggingTool"],
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common", "merchant"]
+    },
+
+    "merchant" : {
+      "poolsFile" : "/npcs/sb_merchantpools.config",
+      "categories" : {
+        "override": ["sb_toolmerchant"]
+      },
+      "buyFactorRange" : [1, 1],
+      "sellFactorRange" : [0.2, 0.2],
+      "numItems" : 7,
+      "storeRadius" : -1,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Tool Merchant",
+          "subtitle" : "  Sells useful tools"
+        }
+      }
+    },
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+            "Going spelunking? I've got just the thing!",
+            "You'll want some of my supplies if you're going mining.",
+            "This stuff is useful for any adventurous cave explorer!"
+            ]
+          },
+          "apex" : {
+            "default" : [
+              "Hard work pays off, especially with my tools!",
+              "Mining, digging, whacking the Miniknog... I've got just the things.",
+              "If you need to dig a hole and just get away, I can help!",
+              "I've got just the tools for preparing defences against the Miniknog.",
+              "Hey pal, how about some tools? Special price, just for you!"
+            ]
+          },
+          "avian" : {
+            "default" : [
+              "My tools have been blessed by Kluex himself! Maybe!",
+              "Be the miner the universe needs. Buy my tools!",
+              "All the best tools at all the best prices, that's the Avian way!",
+              "Defy the Stargazers. Dig a hole!",
+              "Axes, shovels, all sorts of things in my shop."
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran sssell sssmashy items!",
+              "Floran sssell tools, you dig pit, trap beast!",
+              "Buy tools, dig hole, find ssshiny!",
+              "Floran like ssstabby, but sssmashy sssell well too.",
+              "Floran tools best tools. Greenfinger sssay it!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Statement. I sell all manner of tools.",
+              "Coercive. Buy some tools, go on, you know you want to.",
+              "Proud. Glitch tools will never let you down!",
+              "Alert. I think I sense gold below, better buy some tools and get digging!",
+              "Endearing. My tools are cheap AND useful!"
+            ]
+          },
+          "human" : {
+            "default" : [
+              "Alright me old mucker? 'Ow's about a pickaxe?",
+              "Me tools'll do you right for a spot a' gardenin'.",
+              "Get thee down a mine and make yer fortune. Don't ferget to buy me tools!",
+              "Only the best tools for me old mate, right?",
+              "If it's tools yer want, it's tools I be gettin'."
+            ]
+          },
+          "hylotl" : {
+            "default" : [
+              "If you insist on filthy pursuits, my tools are superb.",
+              "Hylotl tools are a cut above.",
+              "Please buy my tools and support my artistic lifestyle.",
+              "If you want the best tools, you've come to the right place.",
+              "You say tools, I say works of art. Buy some today!"
+            ]
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+            "Come on back if you need anything else!",
+            "If you need more, you know where to find me!",
+            "Be careful now."
+            ]
+          },
+          "apex" : {
+            "default" : [
+              "Come on back if you need anything else!",
+              "If you need more, you know where to find me!",
+              "Be careful now."
+            ]
+          },
+          "avian" : {
+            "default" : [
+              "Come on back soon!",
+              "If you need more, I'll be here.",
+              "Take care."
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran hope you not die!",
+              "Floran want take more money. Come back sssoon!",
+              "Try not get ssstabbed, ssshoppy perssson!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Statement. Return to me if you need more.",
+              "Concern. Look after yourself out there.",
+              "Opportunistic. Don't forget to stock up regularly."
+            ]
+          },
+          "human" : {
+            "default" : [
+              "On yer way now, pal.",
+              "See yer yon, if'n yer survive!",
+              "Godspeed, me little pal."
+            ]
+          },
+          "hylotl" : {
+            "default" : [
+              "I have no doubt you'll be coming back for more.",
+              "Make lots of money out there!",
+              "Try not to drop your purse while you're digging!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ "hikerchest" ],
+            "legs" : [ "hikerlegs" ],
+            "back" : [ "hikerback" ],
+            "sheathedprimary" : [
+              "sb_uncommondagger"
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

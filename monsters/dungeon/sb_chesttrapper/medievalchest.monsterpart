@@ -1,0 +1,9 @@
+{
+  "name" : "chest",
+  "category" : "sb_medievalchesttrapper",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "medievalchest.png"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "sb_geometrictable",
+  "colonyTags" : ["geometric"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A sturdy geometric table.",
+  "shortdescription" : "Geometric Ice Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 240,
+  "tooltipKind" : "sb_object",
+
+  "apexDescription" : "A solid table.",
+  "avianDescription" : "A sturdy table.",
+  "floranDescription" : "Floran ssstub toe on table. Angry!",
+  "glitchDescription" : "Observation. A very sturdy table.",
+  "humanDescription" : "Dinner would be nice.",
+  "hylotlDescription" : "An intrusive, ugly table.",
+  "novakidDescription" : "A weird lookin' table.",
+
+  "inventoryIcon" : "geometrictableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "geometrictable.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"],
+      "collision" : "platform"
+    }
+  ]
+}

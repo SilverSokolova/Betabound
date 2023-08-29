@@ -1,0 +1,5 @@
+{
+  "input" : ["sb_gunpowder","lead"],
+  "output" : ["sb_ammo",30,{"projectileType":"bouncybullet"}],
+  "groups" : ["sb_ammo","craftinganvil","all"]
+}

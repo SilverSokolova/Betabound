@@ -1,0 +1,5 @@
+{
+  "input" : ["manipulatormodule",["wire",3],"silverbar"],
+  "output" : "sb_painttool",
+  "groups" : ["sb_roboticcraftingtable","sb_tools","all"]
+}

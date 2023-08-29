@@ -1,0 +1,12 @@
+{
+  "itemName" : "sb_dreadwreckage",
+  "rarity" : "Common",
+  "price" : 10,
+  "tooltipKind" : "sb_object",
+  "itemTags" : ["reagent"],
+  "category" : "junk",
+  "inventoryIcon" : "sb_dreadwreckage.png",
+  "description" : "Wreckage from Dreadwing's ship.",
+  "shortdescription" : "Dreadwing's Wreckage",
+  "learnBlueprintsOnPickup" : ["sb_wreck_repair"]
+}

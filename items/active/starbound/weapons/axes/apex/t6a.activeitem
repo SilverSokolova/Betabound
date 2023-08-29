@@ -1,0 +1,1 @@
+{"description":"A lethal curved blade.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_apextier6aaxe","definition":["colors/t6a","axes/a"],"shortdescription":"The Grinder","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

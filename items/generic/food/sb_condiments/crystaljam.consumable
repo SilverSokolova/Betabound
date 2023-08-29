@@ -1,0 +1,23 @@
+{
+  "itemName" : "sb_crystaljam",
+  "rarity" : "unCommon",
+  "price" : 300,
+  "category" : "preparedFood",
+  "inventoryIcon" : "crystaljam.png",
+  "description" : "A fancy jam made from an organic crystal plant. Thankfully not as hard as a brick.",
+  "shortdescription" : "Crystal Jam",
+  "effects" : [[
+	{"effect":"maxenergyscalingboostfood","duration":135},
+	{"effect":"glow","duration":135},
+	"sb_foodheal95"
+  ]],
+  "sb_plateImage" : true,
+  "sb_plateHide" : true,
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10,
+  "emitters" : ["drinking"],
+  "learnBlueprintsOnPickup" : ["sb_crystaltart","sb_crystalpie"]
+}

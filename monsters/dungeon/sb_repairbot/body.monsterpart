@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "sb_repairbot",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "repairbot.png"
+  }
+}

@@ -1,0 +1,9 @@
+[[{"op":"test","path":"/itemTags","inverse":true},{"op":"add","path":"/itemTags","value":[]}],
+[{"op":"test","path":"/fuelAmount","inverse":true},{"op":"add","path":"/fuelAmount","value":10}],
+
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/category","value":"craftingMaterial"},{"op":"replace","path":"/category","value":"fuel"}],
+[{"op":"test","path":"/fuelAmount","value":10},{"op":"replace","path":"/fuelAmount","value":4}],
+
+[{"op":"add","path":"/itemTags/-","value":"reagent"}]
+]

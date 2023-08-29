@@ -1,0 +1,10 @@
+{
+  "itemName" : "sb_uimessage1",
+  "shortdescription" : "   New tech available.^clear;",
+  "currency" : "sb_uimessage",
+  "rarity" : "rare",
+  "value" : 0,
+  "pickupSoundsSmall" : ["/sfx/tech/vehicle_appear2.ogg"],
+  "pickupSoundsMedium" : [""],
+  "pickupSoundsLarge" : [""]
+}

@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/pickupQuestTemplates","inverse":true},{"op":"add","path":"/pickupQuestTemplates","value":[]}]
+
+//[{"op":"add","path":"/pickupQuestTemplates/-","value":"sb_tutorial2.gearup"}]
+]

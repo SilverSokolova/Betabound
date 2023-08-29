@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_florantier4spear",
+  "description": "A strong spear.",
+  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "definition": "spears/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Stabber"
+}

@@ -1,0 +1,115 @@
+{
+  "objectName": "sb_scififurnace",
+  "colonyTags": ["crafting", "electronic"],
+  "rarity": "legendary",
+  "tooltipKind": "sb_object",
+  "interactAction": "OpenCraftingInterface",
+  "interactData": {
+    "config": "/interface/windowconfig/sb_crafting.config",
+    "paneLayoutOverride": {
+      "windowtitle": {
+        "title": "MAGNETIC CRUCIBLE",
+        "subtitle": "Incredible technology for creating equally incredible materials!",
+        "icon": {
+          "file": "/interface/sb_crafting/craftingicons.png:scififurnace"
+        }
+      }
+    },
+    "filter": ["sb_scififurnace", "sb_stonefurnace", "sb_ironfurnace", "craftingfurnace", "craftingfurnace2", "craftingfurnace3"],
+    "craftingSound": "/sfx/interface/crafting_furnace.ogg"
+  },
+  "printable": false,
+  "description": "This device can break down materials and turn them into far stronger ones.",
+  "shortdescription": "^orange;Magnetic Crucible^reset;",
+  "race": "generic",
+  "category": "crafting",
+  "price": 1000,
+
+  "apexDescription": "A magnetic crucible. I can create incredibly strong alloys with this.",
+  "avianDescription": "A crucible. Perfect for crafting even stronger alloys.",
+  "floranDescription": "Shiny thing ssspin, ssspin, ssspin. Make smaller shiny thingsss.",
+  "glitchDescription": "Intrigued. This magnetic crucible is perfect for creating durasteel and other alloys.",
+  "humanDescription": "A magnetic crucible. This device is powerful enough to create durasteel and other materials.",
+  "hylotlDescription": "A magnetic crucible. I can make incredible materials with this.",
+  "novakidDescription": "This magnetic crucible can be used to create some real strong materials.",
+
+  "lightColor": [31, 66, 102],
+  "lightPosition": [0, 2],
+
+  "flickerPeriod": 0.5,
+  "flickerMinIntensity": 0.95,
+  "flickerMaxIntensity": 1.0,
+  "flickerPeriodVariance": 0.0,
+  "flickerIntensityVariance": 0.0,
+
+  "inventoryIcon": "scififurnaceicon.png",
+  "orientations": [{
+      "imageLayers": [{
+          "image": "scififurnace.png:<color>.<frame>",
+          "fullbright": true
+        }, {
+          "image": "scififurnacelit.png:<color>.<frame>"
+        }
+      ],
+
+      "imagePosition": [-8, 0],
+      "frames": 14,
+      "animationCycle": 0.5,
+
+      "direction": "left",
+      "flipImages": true,
+
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }, {
+      "imageLayers": [{
+          "image": "scififurnace.png:<color>.<frame>",
+          "fullbright": true
+        }, {
+          "image": "scififurnacelit.png:<color>.<frame>"
+        }
+      ],
+
+      "imagePosition": [-8, 0],
+      "frames": 14,
+      "animationCycle": 0.5,
+
+      "direction": "right",
+
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ],
+
+  "soundEffect": "/sfx/objects/scififurnace.ogg",
+
+  "statusEffects": [],
+
+  "frameCooldown": 5,
+  "autoCloseCooldown": 3600,
+
+  "scripts": ["/scripts/npcToyObject.lua"],
+  "npcToy": {
+    "influence": [
+      "furnace",
+      "furnace",
+      "furnaceComplete"
+    ],
+    "defaultReactions": {
+      "furnace": [
+        [1.0, "warmhands"],
+        [1.0, "crouchwarm"]
+      ],
+      "furnaceComplete": [
+        [1.0, "warmhands"],
+        [1.0, "crouchwarm"],
+        [1.0, "pokefire"]
+      ]
+    },
+    "preciseStandPositionLeft": [-2.5, 0.0],
+    "preciseStandPositionRight": [2.5, 0.0],
+    "maxNpcs": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "projectileName" : "sb_smokegrenade",
+  "physics" : "grenadenobounce",
+  "bounces" : -1,
+  "timeToLive" : 9,
+  "scripts" : ["smokegrenade.lua"],
+  "image" : "smokegrenade.png",
+  "animationCycle" : 5,
+  "frameNumber" : 1,
+  "power" : 0,
+  "scriptDelta" : 15,
+  "periodicProjectile" : "sb_fierysmoke",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "onlyHitTerrain" : true,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "movementSettings" : {
+    "collisionPoly" : [[-0.6, 0.5], [-0.6, -0.5], [0.6, -0.5], [0.6, -0.5], [0.6, 0.5], [0.6, 0.5]]
+  },
+  "emitters" : ["smoke"]
+}

@@ -1,0 +1,15 @@
+{
+  "projectileName" : "sb_tarblob",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "image" : "tarblob.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 2,
+  "emitters" : ["tarball"],
+  "power" : 0.1,
+  "level" : 1,
+  "speed" : 32,
+  "actionOnReap" : [{"action":"config","file":"/projectiles/explosions/tarexplosion/tarexplosion.config"}],
+  "damageKind" : "tarball",
+  "statusEffects" : ["tarslow"]
+}

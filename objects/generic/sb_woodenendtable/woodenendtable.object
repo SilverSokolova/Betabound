@@ -1,0 +1,37 @@
+{
+  "objectName" : "sb_woodenendtable",
+  "colonyTags" : ["commerce"],
+  "category" : "furniture",
+  "rarity" : "common",
+  "price" : 10,
+  "tooltipKind" : "sb_object",
+  "description" : "A basic wooden end table.",
+  "shortdescription" : "Wooden End Table",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "A very simple wooden end table.",
+  "avianDescription" : "The simplest of tables.",
+  "floranDescription" : "Sssimple wood table.",
+  "glitchDescription" : "Bored. A very simple table.",
+  "humanDescription" : "Not much to say about this tiny table.",
+  "hylotlDescription" : "A table, very simple in every way.",
+  "novakidDescription" : "Just a table.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodenendtable.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+
+}

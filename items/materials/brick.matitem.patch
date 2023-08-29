@@ -1,0 +1,10 @@
+[[
+{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
+{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}
+],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"ledgebrick"}],
+
+
+[{"op":"test","path":"/description","value":"Small but perfectly formed bricks made from clay."},
+{"op":"replace","path":"/description","value":"Small but perfectly formed bricks made from clay. Quaint."}]
+]

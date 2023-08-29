@@ -1,0 +1,12 @@
+[
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":0}],
+[{"op":"replace","path":"/tooltipKind","value":"sb_tall"}],
+
+[{"op":"test","path":"/breakDropOptions","inverse":true},{"op":"add","path":"/breakDropOptions","value":[]}],
+[{"op":"add","path":"/breakDropOptions/-","value":[["woodenchair",32,{}]]}],
+
+[{"op":"test","path":"/sitArmorCosmeticOverrides"},{"op":"remove","path":"/sitArmorCosmeticOverrides"}],
+[{"op":"test","path":"/description","value":"A ridiculously tall chair"},{"op":"replace","path":"/description","value":"A ridiculously tall chair."}],
+
+[{"op":"test","path":"/price","value":300},{"op":"replace","path":"/price","value":320}]
+]

@@ -1,0 +1,24 @@
+{
+  "itemName" : "sb_orangejam",
+  "rarity" : "unCommon",
+  "price" : 165,
+  "category" : "preparedFood",
+  "inventoryIcon" : "orangejam.png",
+  "description" : "A tarty orange-coloured jam made from oranges.",
+  "shortdescription" : "Orange Jam",
+  "effects" : [[
+	{"effect":"maxhealthscalingboostfood","duration":135},
+	{"effect":"maxenergyscalingboostfood","duration":135},
+	{"effect":"sb_restoration","duration":15},
+	"sb_foodheal95"
+  ]],
+  "sb_plateImage" : true,
+  "sb_plateHide" : true,
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10,
+  "emitters" : ["drinking"],
+  "learnBlueprintsOnPickup" : ["sb_orangetart","sb_orangepie"]
+}

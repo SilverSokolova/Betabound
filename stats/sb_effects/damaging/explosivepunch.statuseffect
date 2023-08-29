@@ -1,0 +1,6 @@
+{
+  "name" : "sb_explosivepunch",
+  "effectConfig" : {},
+  "defaultDuration" : 0,
+  "scripts" : ["explosivepunch.lua"]
+}

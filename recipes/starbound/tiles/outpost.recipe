@@ -1,0 +1,6 @@
+{
+  "input" : ["tungstenbar","outpostwall1"],
+  "output" : ["outpost",50],
+  "duration" : 0.2,
+  "groups"  : ["craftingfurniture2","materials","all"]
+}

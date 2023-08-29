@@ -1,0 +1,1 @@
+{"description":"An axe that cuts through anything in six seconds.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_florantier5saxe","definition":["colors/t5s","axes/s"],"shortdescription":"Vine","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

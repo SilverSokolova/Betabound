@@ -1,0 +1,53 @@
+{
+  "objectName" : "sb_ironcraftingtable",
+  "colonyTags" : ["crafting"],
+  "rarity" : "rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/sb_crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "IRON TOOL TABLE",
+        "subtitle" : "Heavy duty crafting!",
+        "icon" : {
+          "file" : "/interface/sb_crafting/craftingicons.png:table2"
+        }
+      }
+    },
+    "craftingSound" : "/sfx/interface/crafting_general1.ogg",
+    "filter":["sb_craftingtable","sb_ironcraftingtable"]
+  },
+  "printable" : false,
+  "description" : "One could build some very sophisticated equipment on this table.",
+  "shortdescription" : "^orange;Iron Tool Table^reset;",
+  "race" : "generic",
+  "category" : "crafting",
+  "tooltipKind" : "sb_object",
+  "price" : 400,
+
+  "apexDescription" : "A crafting table for ironwork.",
+  "avianDescription" : "This crafting table enables me to create a wide range of equipment.",
+  "floranDescription" : "Iron table for making thingsss.",
+  "glitchDescription" : "Interested. It's an iron crafting table. It's better than a wooden one.",
+  "humanDescription" : "I'm not scared of some DIY. Let's do this.",
+  "hylotlDescription" : "An iron crafting table can be used to craft some good equipment with.",
+  "novakidDescription" : "A good ol' iron crafting table. It's better than a wooden one.",
+
+  "inventoryIcon" : "ironcraftingtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ironcraftingtable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "learnBlueprintsOnPickup" : [
+    "sb_ironcraftingtable"
+  ]
+}

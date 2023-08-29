@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/description","value":"Rough, unrefined limestone."},
+{"op":"replace","path":"/description","value":"This chalky stone is found in certain types of caves."}]
+]

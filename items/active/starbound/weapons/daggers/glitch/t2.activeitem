@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_glitchtier2dagger",
+  "description": "A decent dagger.",
+  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "definition": "daggers/t2",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Dagger Pro"
+}

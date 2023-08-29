@@ -1,0 +1,11 @@
+{
+  "itemName" : "sb_glowfibreorange",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "tooltipKind" : "sb_object",
+  "itemTags" : ["reagent"],
+  "inventoryIcon" : "sb_glowfibreorange.png",
+  "description" : "A handful of bioluminescent orange plant fibres.",
+  "shortdescription" : "Orange Glow Fibre",
+  "learnBlueprintsOnPickup" : ["glowfibre","glowbushlamp","glowstickorange"]
+}

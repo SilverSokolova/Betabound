@@ -1,0 +1,8 @@
+[
+[{"op":"test","path":"/description","value":"Ore for durasteel bars is primarily found on planets orbiting radioactive stars."},
+{"op":"replace","path":"/description","value":"Useful for crafting some seriously advanced stuff. Ore for this material is primarily found on planets orbiting radioactive stars."}],
+[{"op":"test","path":"/tooltipKind","inverse":true},
+{"op":"add","path":"/tooltipKind","value":"sb_v5"}],
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
+{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_tier4techchest"}]]

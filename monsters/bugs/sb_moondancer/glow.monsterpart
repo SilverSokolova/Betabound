@@ -1,0 +1,9 @@
+{
+  "name" : "head",
+  "category" : "sb_moondancer",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "glow.png"
+  }
+}

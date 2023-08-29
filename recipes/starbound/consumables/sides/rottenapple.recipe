@@ -1,0 +1,6 @@
+{
+  "input" : ["redapple","rottenfood"],
+  "output" : "sb_rottenapple",
+  "groups" : ["craftingfood","sides","sb_other","nouncrafting","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_rottenapple"}
+}

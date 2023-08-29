@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_hylotltier3dagger",
+  "description": "A gold-hilted dagger.",
+  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "definition": "daggers/t3",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Goldfish"
+}

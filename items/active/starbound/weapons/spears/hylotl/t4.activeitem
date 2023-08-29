@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_hylotltier4spear",
+  "description": "A good spear with barbed prongs.",
+  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "definition": "spears/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Sandstirrer"
+}

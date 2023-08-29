@@ -1,0 +1,5 @@
+[
+[{"op":"test","inverse":true,"path":"/tooltipKind"},{"op":"add","value":"sb_object","path":"/tooltipKind"}],[{"op":"replace","value":"sb_object","path":"/tooltipKind"},{"op":"replace","value":"rare","path":"/rarity"}],
+[{"op":"test","path":"/sitPosition/1","value":22},{"op":"replace","path":"/sitPosition/1","value":25}],
+[{"op":"test","path":"/orientations/0/sitCoverImage","inverse":true},{"op":"add","path":"/orientations/0/sitCoverImage","value":"/objects/themed/serene/serenechair/sb_serenechaircover.png"}]
+]

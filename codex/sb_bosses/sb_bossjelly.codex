@@ -1,0 +1,18 @@
+{
+  "id" : "sb_bossjelly",
+  "title" : "Brian",
+  "description" : "Information on Brian, a vile, gelatinous blob of malevolence and raspberry.",
+  "icon" : "bossbook.png",
+  "contentPages" : [
+    "Jelly. A staple at children's parties. A tasty, wobbly snack. A fun food for all the family. At least, that is, until it sprouts eyes and tentacles and tries to slaughter you. No amount of ice-cream will make up for being eaten by a ravenous, gelatinous blob.",
+    "This horrifying mockery of a dessert descends from the skies, wibbling and wobbling, its little jelly shot sidekicks ready to provide backup. ^#f00;It was your fault, of course.^reset; You laid that peanut butter trap. Everyone knows peanut butter attracts jelly.",
+    "The worst part is, this jelly doesn't even taste nice. Nobody knows where it came from, what its goal is, or what flavour it might be. Someone once claimed it tasted like chicken, but nobody is sure if they really knew what chicken tastes like. Plus, chicken jelly? Let's not make this any worse.",
+    "The only way to deal with this jelly is to stick a fork in it and declare it done. And by fork, we mean sword, axe or spear. Or shoot it. Or fire arrows at it. Or blow it up. Anything that results in the jelly exploding into horrifying, sticky globules counts as a win.",
+    "Fun Jelly Fact: After the humans' first encounter with this creature, a fight broke out in the USCM barracks when some of the soldiers referred to it as jelly, and others referred to it as jam. In the end, the commanding officer decided it was called Brian."
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "tooltipKind" : "sb_object",
+    "price" : 25
+  }
+}

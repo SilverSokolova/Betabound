@@ -1,0 +1,11 @@
+{
+  "itemName" : "sb_rubiumbar",
+  "price" : 12,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "tooltipKind" : "sb_object4",
+  "inventoryIcon" : "sb_rubiumbar.png",
+  "itemTags" : ["reagent"],
+  "description" : "This bar has been distilled to its purest form, and is primarily used for crafting doom furniture.",
+  "shortdescription" : "Rubium Bar"
+}

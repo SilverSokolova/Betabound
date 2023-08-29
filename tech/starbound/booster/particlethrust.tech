@@ -1,0 +1,16 @@
+{
+  "name" : "sb_particlethrust",
+  "type" : "legs",
+
+  "rarity" : "Legendary",
+  "icon" : "/tech/starbound/particlethrust.png",
+  "description" : "Grants slow flight in any direction! ^#0f0;[SPACE]",
+  "shortDescription" : "Particle Thrust",
+
+  "scripts" : ["booster.lua"],
+  "animator" : "particlethrust.animation",
+
+  "boostControlForce" : 750,
+  "boostSpeed" : 20,
+  "energyUsagePerSecond" : 30
+}

@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_humantier4hammer",
+  "description": "A pretty swish hammer.",
+  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "definition": "hammers/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Hammertime"
+}

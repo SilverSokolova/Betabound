@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_aviantier3broadsword",
+  "description": "A sword shaped like an Avian wing bone.",
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "definition": "broadswords/t3",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Wingdinger XL"
+}

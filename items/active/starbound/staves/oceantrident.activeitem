@@ -1,0 +1,34 @@
+{
+  "itemName" : "sb_oceantrident",
+  "definition" : "staff",
+  "itemTags" : ["weapon","staff","upgradeableWeapon"],
+
+  "description" : "This trident smells fishy.",
+  "shortdescription" : "Dangpa's Fury",
+  "tooltipFields" : {"damageKindImage":"/items/tools/miningtools/fishicon.png"},
+
+  "animationCustom" : {
+    "particleEmitters" : {"physicalcharge":{"particles":[]}}
+//    "sounds" : {"zoneactivate" : ["/sfx/blocks/water_puddlemod.ogg","/sfx/blocks/water_swim.ogg"]}
+  },
+
+  "elementalType" : "ice",
+  "altAbilityType" : "forcecage",
+  "primaryAbility" : {
+    "projectileType" : "randomfish",
+    "projectileParameters" : {
+      "baseDamage" : 8,
+      "damageTeam" : {"type":"indiscriminate"}
+    }
+  },
+
+  "configOverrides" : {
+    "inventoryIcon" : "oceantrident.png",
+    "animationParts" : {
+      "staff" : "oceantrident.png",
+      "chargeEffect" : "/items/active/weapons/staff/generated/glow/physical.png"
+    }
+  },
+
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_ceruliumbar",2],["leather",5]],
+  "output" : "wavechair",
+  "groups" : ["craftingfurniture2","decoration","all"]
+}

@@ -1,0 +1,202 @@
+{
+  "sb_techchip" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : "sb_techchip"},
+        {"weight" : 0.5, "item" : ["sb_techchip", 2]}
+      ]
+    }]
+  ],
+  
+  "sb_tech" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.8, "item" : "techcard"},
+        {"weight" : 0.2, "item" : "sb_tech"}
+      ]
+    }]
+  ],
+
+  "sb_mattermodule" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.2, "item" : ["sb_mattermodulecomponent", 1]},
+        {"weight" : 0.2, "item" : ["sb_mattermodulecomponent", 2]},
+        {"weight" : 0.2, "item" : ["sb_mattermodulecomponent", 3]},
+        {"weight" : 0.2, "item" : ["sb_mattermodulecomponent", 4]},
+        {"weight" : 0.1, "item" : "manipulatormodule"}
+      ]
+    }]
+  ],
+
+  "sb_gun" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.6, "pool" : "commonGun"}
+      ]
+    }],
+    [2.9, {
+      "pool" : [
+        {"weight" : 0.10, "pool" : "commonGun"},
+        {"weight" : 0.5, "pool" : "uncommonGun"},
+        {"weight" : 0.03, "pool" : "rareGun"}
+      ]
+    }],
+    [4.9, {
+      "pool" : [
+        {"weight" : 0.10, "pool" : "commonGun"},
+        {"weight" : 0.6, "pool" : "uncommonGun"},
+        {"weight" : 0.03, "pool" : "rareGun"}
+      ]
+    }]
+  ],
+
+  // ================================
+  //            Repair Pools
+  // ================================
+
+
+  "sb_repairTools" : [
+    [0, {
+      "poolRounds" : [[0.1, 1], [0.6, 2], [0.3, 3]],
+      "pool" : [
+        {"weight" : 0.7, "item" : ["sb_copper_repair", 4]},
+        {"weight" : 0.7, "item" : ["sb_iron_repair", 2]}
+      ]
+    }],
+    [1.9, {
+      "poolRounds" : [[0.1, 1], [0.6, 2], [0.3, 3]],
+      "pool" : [
+        {"weight" : 0.7, "item" : ["sb_tungsten_repair", 4]}
+      ]
+    }],
+    [2.9, {
+      "poolRounds" : [[0.1, 1], [0.6, 2], [0.3, 3]],
+      "pool" : [
+        {"weight" : 0.65, "item" : ["sb_titanium_repair", 4]},
+        {"weight" : 0.65, "item" : ["sb_platinum_repair", 4]},
+        {"weight" : 0.05, "item" : ["sb_diamond_repair", 1]}
+      ]
+    }],
+    [3.9, {
+      "poolRounds" : [[0.1, 1], [0.6, 2], [0.3, 3]],
+      "pool" : [
+        {"weight" : 0.65, "item" : ["sb_durasteel_repair", 4]},
+        {"weight" : 0.05, "item" : ["sb_diamond_repair", 1]}
+      ]
+    }],
+    [4.9, {
+      "poolRounds" : [[0.1, 1], [0.6, 2], [0.3, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["sb_violium_repair", 3]},
+        {"weight" : 0.2, "item" : ["sb_aegisalt_repair", 3]},
+        {"weight" : 0.2, "item" : ["sb_rubium_repair", 3]},
+        {"weight" : 0.2, "item" : ["sb_ferozium_repair", 3]},
+        {"weight" : 0.1, "item" : ["sb_diamond_repair", 2]}
+      ]
+    }],
+    [5.9, {
+      "poolRounds" : [[0.1, 1], [0.6, 2], [0.3, 3]],
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_solarium_repair", 2]},
+        {"weight" : 0.5, "item" : ["sb_cerulium_repair", 2]}
+      ]
+    }]
+  ],
+
+  "sb_liquidtentaclejuice" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.2, "item" : ["sb_liquidtentaclejuice", 5]},
+        {"weight" : 0.6, "item" : ["sb_liquidtentaclejuice", 10]},
+        {"weight" : 0.2, "item" : ["sb_liquidtentaclejuice", 10]}
+      ]
+    }]
+  ],
+
+  "sb_stim" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.25, "item" : ["redstim", 2]},
+        {"weight" : 0.25, "item" : ["bluestim", 2]},
+        {"weight" : 0.25, "item" : ["greenstim", 2]},
+        {"weight" : 0.25, "item" : ["orangestim", 2]},
+        {"weight" : 0.25, "item" : ["yellowstim", 2]},
+        {"weight" : 0.25, "item" : ["sb_greystim", 2]}
+      ]
+    }],
+    [3.9, {
+      "pool" : [
+        {"weight" : 0.25, "item" : ["redstim",3]},
+        {"weight" : 0.25, "item" : ["bluestim",3]},
+        {"weight" : 0.25, "item" : ["greenstim",3]},
+        {"weight" : 0.25, "item" : ["orangestim",3]},
+        {"weight" : 0.25, "item" : ["yellowstim",3]},
+        {"weight" : 0.25, "item" : ["sb_greystim",3]}
+      ]
+    }]
+  ],
+
+  "sb_rockblueprints" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : "rock01-recipe"},
+        {"weight" : 1, "item" : "rock02-recipe"},
+        {"weight" : 1, "item" : "rock03-recipe"},
+        {"weight" : 1, "item" : "rock04-recipe"},
+        {"weight" : 1, "item" : "rock12-recipe"},
+        {"weight" : 1, "item" : "rock14-recipe"},
+        {"weight" : 1, "item" : "rock15-recipe"},
+        {"weight" : 1, "item" : "rock17-recipe"},
+        {"weight" : 1, "item" : "rock19-recipe"},
+        {"weight" : 1, "item" : "rock20-recipe"}
+      ]
+    }]
+  ],
+
+  "sb_dye" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : ["plantfibre",4]}, //Nowhere else to put this
+        {"weight" : 1, "item" : ["petalred",10]},
+        {"weight" : 1, "item" : ["petalblue",10]},
+        {"weight" : 1, "item" : ["petalyellow",10]},
+        {"weight" : 1, "item" : "reddye"},
+        {"weight" : 1, "item" : "bluedye"},
+        {"weight" : 1, "item" : "yellowdye"},
+        {"weight" : 1, "item" : "blackdye"},
+        {"weight" : 1, "item" : "dyeremover"},
+        {"weight" : 1, "item" : "whitedye"}
+      ]
+    }]
+  ],
+
+  "sb_brain" : [ //unused i think
+    [0, {
+      "pool" : [
+        {"weight" : 0.6, "item" : "brain"},
+        {"weight" : 0.4, "item" : "inferiorbrain"}
+      ]
+    }]
+  ],
+
+  "sb_revolver" : [
+    [0, {
+      "fill" : [
+        {"item" : "sb_revolver"},
+        {"item" : ["sb_ammo",100]}
+      ]
+    }]
+  ],
+
+  "sb_crappyweapons" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : "sb_crappyaxe"},
+        {"weight" : 1, "item" : "sb_crappybroadsword"},
+        {"weight" : 1, "item" : "sb_crappyspear"},
+        {"weight" : 1, "item" : "sb_crappyhammer"}
+      ]
+    }]
+  ]
+}

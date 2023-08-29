@@ -1,0 +1,6 @@
+{
+  "input" : ["thornfruit","sugar"],
+  "output" : "sb_thornjam",
+  "groups" : ["craftingfood","condiments","sb_healing","sb_thorns","sb_energy","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_thornjam"}
+}

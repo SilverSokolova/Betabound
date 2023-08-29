@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":""}],[{"op":"replace","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/description","value":"Fires teleport-node discs. Quite useful. Upgrade using your ^orange;Tricorder^reset;."},
+{"op":"replace","path":"/fireOffset","value":[1.5,0.125]}]
+]

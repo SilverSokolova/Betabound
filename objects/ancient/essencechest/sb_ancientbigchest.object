@@ -1,0 +1,56 @@
+{
+  "objectName" : "sb_ancientbigchest",
+  "colonyTags" : ["ancient","storage"],
+  "printable" : false,
+  "rarity" : "legendary",
+  "objectType" : "container",
+  "tooltipKind" : "sb_container",
+  "builder" : "/items/buildscripts/starbound/buildcontainer.lua",
+  "scripts" : ["/scripts/sb_container.lua"],
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A fearsome ancient chest ornamented with a lidless eye.",
+  "shortdescription" : "Big Ancient Chest",
+  "race" : "ancient",
+  "health" : 1.5,
+
+  "apexDescription" : "This chest looks very old and creepy.",
+  "avianDescription" : "This chest looks very old and creepy.",
+  "floranDescription" : "Ssscary chessst makes Floran nervousss.",
+  "glitchDescription" : "Unsettled. The eye adorning this chest seems to be judging me.",
+  "humanDescription" : "A creepy old chest. Dare I open it?",
+  "hylotlDescription" : "I was taught to be wary of mysterious chests.",
+  "novakidDescription" : "I don't care much for the way this chest is lookin' at me.",
+
+  "inventoryIcon" : "icon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "essencechest.png:<color>.<key>", "fullbright" : true }, { "image" : "essencechestlit.png:<color>.<key>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "essencechest.png:<color>.<key>", "fullbright" : true }, { "image" : "essencechestlit.png:<color>.<key>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 24,
+  "tooltipFields":{"slotCountLabel":"Holds 24 Items"},
+  "uiConfig" : "/interface/sb_chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

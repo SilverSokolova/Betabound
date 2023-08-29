@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/dropPools/0","value":"smallGiftMonsterBoxTreasure"},{"op":"remove","path":"/dropPools/0"}],
+[{"op":"add","path":"/baseParameters/scripts/-","value":"/monsters/dungeon/giftmonster/sb_behavior.lua"}]
+]

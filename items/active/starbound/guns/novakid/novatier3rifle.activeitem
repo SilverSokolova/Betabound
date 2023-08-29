@@ -1,0 +1,18 @@
+{
+  "itemName": "sb_novatier3rifle",
+  "definition": "rifle",
+  "tags": {
+    "<t>": "3"
+  },
+  "rarity": "uncommon",
+  "description": "The gun that won't be tamed.",
+  "shortdescription": "Kablammity Jane",
+  "level": 3,
+  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid", "upgradeableWeapon"],
+  "configOverrides": {
+    "baseOffset": [0.75, 0.125]
+  },
+  "muzzleOffset": [2.675, 0.25],
+  "altAbilityType": "bouncingshot",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

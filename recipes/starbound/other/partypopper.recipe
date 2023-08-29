@@ -1,0 +1,5 @@
+{
+  "input" : ["paper","volatilepowder","string"],
+  "output" : "sb_partypopper",
+  "groups" : ["holidaycraftingtable","heartforge","sb_craftingtable","sb_tools","other","all"]
+}

@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_apextier2broadsword",
+  "description": "A relatively decent fencing sword.",
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "definition": "broadswords/t2",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "The Backscratcher"
+}

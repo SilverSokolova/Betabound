@@ -1,0 +1,11 @@
+{
+  "itemName" : "sb_imperviumbar",
+  "price" : 30,
+  "rarity" : "Legendary",
+  "tooltipKind" : "sb_object4",
+  "category" : "craftingMaterial",
+  "itemTags" : ["reagent"],
+  "inventoryIcon" : "sb_imperviumbar.png",
+  "description" : "This bar possesses incredible durability, and is primarily used for crafting executive furniture.",
+  "shortdescription" : "Impervium Bar"
+}

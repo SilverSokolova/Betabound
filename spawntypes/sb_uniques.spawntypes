@@ -1,0 +1,24 @@
+[
+  // unique monsters
+
+  // HECK BIOME
+
+  {
+    "name" : "sb_heckblob",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 3],
+    "spawnChance" : 0.08,
+    "monsterType" : [
+      [1, "sb_heckblob"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  }
+]

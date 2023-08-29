@@ -1,0 +1,6 @@
+{
+  "name" : "sb_energy",
+  "effectConfig" : {"text":"^shadow,green;+%s Energy","textOffset":0.3,"resource":"energy"},
+  "defaultDuration" : 10,
+  "scripts" : ["instant.lua"]
+}

@@ -1,0 +1,7 @@
+[
+[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
+[{"op":"test","path":"/description","value":"Grows currentcorn, full of acid. Not good for fleshy creatures."},
+{"op":"replace","path":"/description","value":"Currentcorn, full of acid. Not good for fleshy creatures."}],
+
+[{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":5}]
+]

@@ -1,0 +1,10 @@
+{
+  "itemName" : "sb_uimessage9",
+  "shortdescription" : "   Tech already equipped.^clear;",
+  "currency" : "sb_uimessage",
+  "rarity" : "rare",
+  "value" : 0,
+  "pickupSoundsSmall" : ["/sfx/interface/clickon_error.ogg"],
+  "pickupSoundsMedium" : [""],
+  "pickupSoundsLarge" : [""]
+}

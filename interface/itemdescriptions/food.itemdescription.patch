@@ -1,0 +1,13 @@
+[[{
+      "op": "test",
+      "path": "/effectLabel"
+    }, {
+      "op": "test",
+      "path": "/effectLabel/lineSpacing",
+      "value": 1.0
+    }, {
+      "op": "replace",
+      "path": "/effectLabel/lineSpacing",
+      "value": 0.9
+    }
+  ]]

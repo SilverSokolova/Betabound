@@ -1,0 +1,18 @@
+{
+  "itemName": "sb_novatier2rifle",
+  "definition": "rifle",
+  "tags": {
+    "<t>": "2"
+  },
+  "rarity": "common",
+  "description": "This rifle has a bad attitude.",
+  "shortdescription": "Fierce Repeater",
+  "level": 2,
+  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid", "upgradeableWeapon"],
+  "configOverrides": {
+    "baseOffset": [0.5, 0.25]
+  },
+  "muzzleOffset": [2.25, 0.26],
+  "altAbilityType": "bouncingshot",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

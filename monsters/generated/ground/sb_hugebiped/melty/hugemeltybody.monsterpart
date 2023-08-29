@@ -1,0 +1,9 @@
+{
+  "name" : "sb_hugemeltybody",
+  "category" : "sb_hugebiped",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

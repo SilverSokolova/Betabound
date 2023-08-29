@@ -1,0 +1,5 @@
+[
+{"op":"add","path":"/groups/-","value":"craftingstations"},
+{"op":"add","path":"/groups/-","value":"all"},
+{"op":"add","path":"/groups/-","value":"inventorstable"}
+]

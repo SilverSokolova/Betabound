@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_rubiumbar",2],["wire",5],["smallbattery",2]],
+  "output" : "doomswitch",
+  "groups" : ["craftingwiring","switches","all"]
+}

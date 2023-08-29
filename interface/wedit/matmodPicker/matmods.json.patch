@@ -1,0 +1,5 @@
+[
+{"op":"add","path":"/-","value":{"name":"sb_fossil","buttonImage":"sb_fossil.png"}},
+{"op":"add","path":"/-","value":{"name":"sb_rubium","buttonImage":"sb_rubium.png"}},
+{"op":"add","path":"/-","value":{"name":"sb_cerulium","buttonImage":"sb_cerulium.png"}}
+]

@@ -1,0 +1,165 @@
+{
+  "projectileName" : "sb_redgiant",
+  "physics" : "hover",
+  "bounces" : -1,
+  "speed" : 25,
+  "timeToLive" : 8,
+  "lightColor" : [255, 85, 10],
+  "pointLight" : true,
+  "piercing" : true, 
+  "image" : "redgiant.png",
+  "animationCycle" : 0.6,
+  "frameNumber" : 6,
+  "power" : 2,
+  "damagePoly" : [ [-15, 0], [-10, -10], [0, -15], [10, -10], [15, 0], [10, 10], [0, 15], [-10, 10] ],
+  "supportsProcessing" : true,
+  "orientationLocked" : true,
+  "flippable" : true,
+  "periodicActions" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/redgiant.ogg" ],
+      "time" : 0,
+      "repeat" : false
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_sunray",
+      "fuzzAngle" : 180,
+      "inheritDamageFactor" : 0.01,
+      "inheritSpeedFactor" : 0.1,
+      "delaySteps" : 30,
+      "time" : 0,
+      "repeat" : false
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_sunray",
+      "fuzzAngle" : 180,
+      "inheritDamageFactor" : 0.02,
+      "inheritSpeedFactor" : 0.1,
+      "delaySteps" : 60,
+      "time" : 0,
+      "repeat" : false
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_sunray",
+      "fuzzAngle" : 180,
+      "inheritDamageFactor" : 0.03,
+      "inheritSpeedFactor" : 0.1,
+      "delaySteps" : 90,
+      "time" : 0,
+      "repeat" : false
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_sunray",
+      "fuzzAngle" : 180,
+      "inheritDamageFactor" : 0.04,
+      "inheritSpeedFactor" : 0.1,
+      "delaySteps" : 120,
+      "time" : 0,
+      "repeat" : false
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_sunray",
+      "fuzzAngle" : 180,
+      "inheritDamageFactor" : 0.05,
+      "inheritSpeedFactor" : 0.1,
+      "delaySteps" : 150,
+      "time" : 0,
+      "repeat" : false
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_sunray",
+      "fuzzAngle" : 180,
+      "inheritDamageFactor" : 0.06,
+      "inheritSpeedFactor" : 0.1,
+      "delaySteps" : 180,
+      "time" : 0,
+      "repeat" : false
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_sunray",
+      "fuzzAngle" : 180,
+      "inheritDamageFactor" : 0.07,
+      "inheritSpeedFactor" : 0.1,
+      "delaySteps" : 210,
+      "time" : 0,
+      "repeat" : false
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_sunray",
+      "fuzzAngle" : 180,
+      "inheritDamageFactor" : 0.08,
+      "inheritSpeedFactor" : 0.1,
+      "delaySteps" : 240,
+      "time" : 0,
+      "repeat" : false
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_sunray",
+      "fuzzAngle" : 180,
+      "inheritDamageFactor" : 0.09,
+      "inheritSpeedFactor" : 0.1,
+      "delaySteps" : 270,
+      "time" : 0,
+      "repeat" : false
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_sunray",
+      "fuzzAngle" : 180,
+      "inheritDamageFactor" : 0.1,
+      "inheritSpeedFactor" : 0.1,
+      "delaySteps" : 300,
+      "time" : 0,
+      "repeat" : false
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_sunray",
+      "fuzzAngle" : 180,
+      "inheritDamageFactor" : 0.1,
+      "inheritSpeedFactor" : 0.1,
+      "delaySteps" : 330,
+      "time" : 0,
+      "repeat" : false
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_sunray",
+      "fuzzAngle" : 180,
+      "inheritDamageFactor" : 0.1,
+      "inheritSpeedFactor" : 0.1,
+      "delaySteps" : 360,
+      "time" : 0,
+      "repeat" : false
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_sunray",
+      "fuzzAngle" : 180,
+      "inheritDamageFactor" : 0.1,
+      "inheritSpeedFactor" : 0.1,
+      "delaySteps" : 420,
+      "time" : 0,
+      "repeat" : false
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/globeexplosions/orangeglobeexplosion/orangeglobeexplosion.config"
+    }
+  ],
+  "damageKind" : "plasma",
+  "statusEffects" : [{"effect":"burning","duration":3}],
+  "emitters" : ["defaultorange","fireflames","firesparks"]
+}

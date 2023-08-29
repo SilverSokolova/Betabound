@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/oreList/diamond","value":"diamond"},{"op":"replace","path":"/oreList/diamond","value":"sb_diamondore"}],
+[{"op":"add","path":"/sb_rubium","value":"sb_rubiumore"}],
+[{"op":"add","path":"/sb_cerulium","value":"sb_ceruliumore"}],
+[{"op":"add","path":"/sb_fossil","value":"fossilore"}]
+]

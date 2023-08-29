@@ -1,0 +1,160 @@
+{
+  "type" : "sb_stimmerchant",
+  "baseType" : "merchant",
+
+  "dropPools" : [ "wizardtreasure" ], //this, too. see doc spawner as to why don't worry about exploits
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common"]
+    },
+
+    "merchant" : {
+      "poolsFile" : "/npcs/sb_merchantpools.config",
+      "categories" : {
+        "override": [ "sb_stimmerchant" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 5,
+      "storeRadius" : -1,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Stim Merchant",
+          "subtitle" : "  Sells powerful medicine"
+        }
+      }
+    },
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "Need a little pick-me-up?"
+            ]
+          },
+          "apex" : {
+            "default" : [
+              "Stay on top of things with my patented stims!",
+              "Never fall to the Miniknog again with these handy stims!",
+              "I've sold stims to Big Ape himself.",
+              "For all your buffing needs.",
+              "Be strong like an ape!"
+            ]
+          },
+          "avian" : {
+            "default" : [
+              "Need a little pick-me-up?",
+              "Fly without wings, with my helpful stims!",
+              "Become as one with Kluex with my handy stims.",
+              "My stims are certified by Thornwing himself. Ahem.",
+              "One hundred percent legal stims... I left the paperwork on my ship."
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran sssell ssstabby medicine!",
+              "Greenfinger say Floran ssstims volatile. Volatile mean sssafe.",
+              "Floran ssstims best ssstims! Make feel ssstabby!",
+              "Floran sssell magic medicine to ssspaceman!",
+              "Hope person like Floran ssstims. Floran like Floran ssstims."
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Statement. Stims for sale.",
+              "Twitchy. Stims, lots of stims, buy the stims, quickly.",
+              "Elusive. Mysterious stims, I have them.",
+              "Confused. We Glitch do not know why these stims are so effective, but they are.",
+              "Ecstatic. Buy my stims, join me in joy!"
+            ]
+          },
+          "human" : {
+            "default" : [
+              "Good evening. Some stims, perhaps?",
+              "Perchance you will test out some of my more experimental stims one day.",
+              "Soon, my shipment of snake oil will arrive. For now, I have stims.",
+              "Quickly, quickly, you look sickly. Buy my stims and... just buy them.",
+              "Stims! For your every need."
+            ]
+          },
+          "hylotl" : {
+            "default" : [
+              "Hylotl stims are unrivalled. Buy some.",
+              "Improve yourself the Hylotl way. With stims!",
+              "If you need a buff, I've got just the thing.",
+              "Hello friend. Stim?",
+              "I've got a stim with your name on it. I know, I found it weird too."
+            ]
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "Just to be clear; I'm not responsible for any side-effects!"
+            ]
+          },
+          "apex" : {
+            "default" : [
+              "No refunds!",
+              "Sorry in advance!",
+              "Don't take too many!"
+            ]
+          },
+          "avian" : {
+            "default" : [
+              "Kluex save you.",
+              "Kluex has no faith in medicine.",
+              "Fly long, fly free!"
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran hope you not die too much!",
+              "Floran sssee you sssoon. Real sssoon.",
+              "Floran hope you want more ssstims!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Statement. Stims are not proven to be addictive.",
+              "Evasive. Of course there are no side effects.",
+              "Concern. Remember to talk to a doctor regularly."
+            ]
+          },
+          "human" : {
+            "default" : [
+              "Side effects? All part of the fun!",
+              "They're perfectly safe, I've been taking them for years.",
+              "Come back soon! You can never have too many stims! Don't hold me to that!"
+            ]
+          },
+          "hylotl" : {
+            "default" : [
+              "Hylotl stims have no reported side effects.",
+              "Return to me soon.",
+              "May calm wash over you like an ocean."
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ "scientistchest" ],
+            "legs" : [ "scientistlegs" ],
+            "head" : [ "sunglasses1head" ],
+            "back" : [ "medicback" ],
+            "sheathedprimary" : [
+              "sb_uncommonplasmashotgun"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

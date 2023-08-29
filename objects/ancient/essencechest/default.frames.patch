@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/aliases/default.default","inverse":true},{"op":"add","path":"/aliases/default.default","value":"closed"}],
+[{"op":"test","path":"/aliases/default.0","inverse":true},{"op":"add","path":"/aliases/default.0","value":"closed"}],
+[{"op":"test","path":"/aliases/default.1","inverse":true},{"op":"add","path":"/aliases/default.1","value":"burst"}],
+[{"op":"test","path":"/aliases/default.2","inverse":true},{"op":"add","path":"/aliases/default.2","value":"open"}]
+]

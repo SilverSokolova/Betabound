@@ -1,0 +1,5 @@
+{
+  "input" : ["frozenbow","sb_firebow",["solariumstar",6]],
+  "output" : "sb_frozenfirebow",
+  "groups" : ["craftingaccelerator","weapons","all"]
+}

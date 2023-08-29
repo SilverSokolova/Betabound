@@ -1,0 +1,5 @@
+{
+  "input" : [["ironbar",3],["darkwoodmaterial",2]],
+  "output" : "sb_glitchtier1axe",
+  "groups" : ["craftinganvil","weapons","all"]
+}

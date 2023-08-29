@@ -1,0 +1,5 @@
+{
+  "input" : [["wire",4],"titaniumbar","staticcell"],
+  "output" : "battery",
+  "groups" : ["craftingfurnace3","ingredients","all"]
+}

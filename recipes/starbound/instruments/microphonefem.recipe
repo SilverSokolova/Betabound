@@ -1,0 +1,5 @@
+{
+  "input" : ["sb_steelbar","siliconboard","wire"],
+  "output" : "microphonefem",
+  "groups" : ["sb_roboticcraftingtable","sb_instruments","all"]
+}

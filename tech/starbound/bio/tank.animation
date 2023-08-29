@@ -1,0 +1,27 @@
+{
+  "particleEmitters": {
+    "boost": {
+      "emissionRate": 30,
+      "particles": [{
+          "particle": {
+            "type": "ember",
+            "size": 1.5,
+            "color": [198, 198, 198, 180],
+            "fade": 0.9,
+            "position": [0, 0],
+            "offsetRegion": [0, 0, 0, 0],
+            "initialVelocity": [0, 10],
+            "finalVelocity": [0, 10],
+            "destructionAction": "shrink",
+            "destructionTime": 0.1,
+            "approach": [0, 10],
+            "timeToLive": 0.2,
+            "variance": {
+              "initialVelocity": [0, 1]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

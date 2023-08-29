@@ -1,0 +1,56 @@
+{
+  "objectName" : "sb_spawnernovakid",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Spawn your very own Novakid villager!",
+  "shortdescription" : "^yellow;Novakid Spawner^reset;",
+  "race" : "human",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 100,
+  "tooltipKind" : "sb_object",
+
+  "apexDescription" : "A gunslinger could assist me.",
+  "avianDescription" : "Do I need to light a Novakid's home?",
+  "floranDescription" : "Floran not sssure if want to sssummon light people.",
+  "glitchDescription" : "Excited. I hope they bring their steed.",
+  "humanDescription" : "I better get my sunglasses before I activate this.",
+  "hylotlDescription" : "I suppose a Novakid would do well for light.",
+  "novakidDescription" : "If I can't find any of their towns, I'll just bring 'em right to me!", //jokes on you; these fools don't sell blueprints.
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "sb_spawner_novakid.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : ["/objects/spawner/spawners/spawner.lua", "sb_spawner.lua"],
+  "scriptDelta" : 30,
+
+  "animation" : "/objects/spawner/spawners/sb_spawner.animation",
+
+  "animationParts" : {
+    "switch" : "sb_spawner_novakid.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "inputNodes" : [],
+  "outputNodes" : [],
+
+  "spawner" : {
+    "searchRadius" : 32,
+    "npcSpeciesOptions" : ["novakid"],
+    "npcTypeOptions" : ["villager"],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : []
+      }
+    ]
+  }
+}

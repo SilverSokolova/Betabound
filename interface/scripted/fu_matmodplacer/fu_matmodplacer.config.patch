@@ -1,0 +1,83 @@
+[
+  [{
+      "op": "test",
+      "path": "/matMods/16/description",
+      "value": "Diamond. Requires diamonds to place."
+    }, {
+      "op": "replace",
+      "path": "/matMods/16/description",
+      "value": "Diamond. Requires diamond ore to place."
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/matMods/16/fuel",
+      "value": "diamond"
+    }, {
+      "op": "replace",
+      "path": "/matMods/16/fuel",
+      "value": "sb_diamondore"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/matMods/16/icon",
+      "value": "diamond"
+    }, {
+      "op": "replace",
+      "path": "/matMods/16/icon",
+      "value": "sb_diamondore"
+    }
+  ],
+
+  [{
+      "op": "add",
+      "path": "/matMods/-",
+      "value": {
+        "name": "Platinum Ore",
+        "matMod": "platinum",
+        "fuel": "platinumore",
+        "fuelValue": 1,
+        "description": "Platinum. Requires platinum ore to place.",
+        "icon": "platinumore",
+        "category": "ore"
+      }
+    }, {
+      "op": "add",
+      "path": "/matMods/-",
+      "value": {
+        "name": "Rubium Ore",
+        "matMod": "sb_rubium",
+        "fuel": "sb_rubiumore",
+        "fuelValue": 1,
+        "description": "Rubium. Requires rubium ore to place.",
+        "icon": "sb_rubiumore",
+        "category": "ore"
+      }
+    }, {
+      "op": "add",
+      "path": "/matMods/-",
+      "value": {
+        "name": "Cerulium Ore",
+        "matMod": "sb_cerulium",
+        "fuel": "sb_ceruliumore",
+        "fuelValue": 1,
+        "description": "Cerulium. Requires cerulium ore to place.",
+        "icon": "sb_ceruliumore",
+        "category": "ore"
+      }
+    }, {
+      "op": "add",
+      "path": "/matMods/-",
+      "value": {
+        "name": "Fossil",
+        "matMod": "sb_fossil",
+        "fuel": "fossilore",
+        "fuelValue": 1,
+        "description": "Fossil. Requires unidentified fossil to place.",
+        "icon": "fossilore",
+        "category": "ore"
+      }
+    }
+  ]
+]

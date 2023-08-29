@@ -1,0 +1,57 @@
+{
+  "type": "sb_outposthylotlfloranhater",
+  "baseType": "outpostcivilian",
+
+  "scripts": [
+    "/npcs/bmain.lua",
+    "/npcs/sb_outpostcivilian.lua"
+  ],
+
+  "scriptConfig": {
+    "sb_offeredQuests": ["sb_kelpquest.gearup"],
+    "sb_turnInQuests": ["sb_kelpquest.gearup"],
+
+    "dialog": {
+      "converse": {
+        "default": {
+          "default": [
+            "I don't trust those Floran. Who knows what they're scheming?"
+          ]
+        },
+        "hylotl": {
+          "default": [
+            "I don't trust those Floran. Who knows what they're scheming?"
+          ],
+          "floran": [
+            "Get away from me, you filth!"
+          ],
+          "hylotl": [
+            "Can you believe that they actually let Floran stay here? Disgusting creatures."
+          ]
+        }
+      }
+    }
+  },
+
+  "items": {
+    "override": [
+      [0, [{
+            "chest": [{
+                "name": "traineechest",
+                "parameters": {
+                  "colorIndex": 4
+                }
+              }
+            ],
+            "legs": [{
+                "name": "hylotltier5apants",
+                "parameters": {
+                  "colorIndex": 4
+                }
+              }
+            ]
+          }
+        ]]
+    ]
+  }
+}

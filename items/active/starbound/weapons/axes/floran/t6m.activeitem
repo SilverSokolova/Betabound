@@ -1,0 +1,1 @@
+{"description":"An axe with a berry on it.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_florantier6maxe","definition":["colors/t6m","axes/m"],"shortdescription":"Chopberry","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

@@ -1,0 +1,56 @@
+{
+  "objectName" : "sb_metalcrate",
+  "colonyTags" : ["storage"],
+  "rarity" : "Common",
+  "description" : "A storage crate, typically used for transporting equipment and materials.",
+  "shortdescription" : "Metal Crate",
+  "category" : "storage",
+  "objectType" : "container",
+  "tooltipKind" : "sb_container",
+  "price" : 100,
+  "printable" : true,
+  "race" : "generic",
+  "health" : 1.5,
+  "builder" : "/items/buildscripts/starbound/buildcontainer.lua",
+  "scripts" : ["/scripts/sb_container.lua"],
+  "apexDescription" : "A nice storage crate made from a metal material.",
+  "avianDescription" : "This crate is used for storing different types of equipment.",
+  "floranDescription" : "Crate can store many thingss.",
+  "glitchDescription" : "Curious. This crate may hold valuables.",
+  "humanDescription" : "This crate looks like it could survive any space condition.",
+  "hylotlDescription" : "A crate used for organising items and keeping them safe.",
+  "novakidDescription" : "A nice crate. I wonder what's inside.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [{"image":"metalcrate.png:<color>"},{"image":"metalcratelit.png:<color>","fullbright":true}],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [{"image":"metalcrate.png:<color>"},{"image":"metalcratelit.png:<color>","fullbright":true}],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : ["/sfx/objects/metalbox_open.ogg"],
+  "closeSounds" : ["/sfx/objects/metalbox_close.ogg"],
+  "slotCount" : 16,
+  "tooltipFields":{"slotCountLabel":"Holds 16 Items"},
+  "uiConfig" : "/interface/sb_chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

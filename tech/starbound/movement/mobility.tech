@@ -1,0 +1,12 @@
+{
+  "name" : "sb_mobility",
+  "type" : "head",
+  "icon" : "/tech/starbound/mobility.png",
+  "scripts" : [],
+  "sb_effect" : "sb_mobilitytech",
+  "sb_suitImage" : "?replace;73daff=5bf0b9;27abff=3fedad;117ee4=23ac84;1f45d4=0f685a;002b72=0b4d43;001522=07322c",
+  "rarity" : "Legendary",
+  "chipCost" : 8,
+  "description" : "Provides the wearer with a boost in movement speed and jumping power.",
+  "shortDescription" : "Mobility+"
+}

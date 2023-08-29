@@ -1,0 +1,5 @@
+{
+  "input" : ["ironbar"],
+  "output" : "sb_pipes4",
+  "groups" : ["craftingfurniture","decoration","all"]
+}

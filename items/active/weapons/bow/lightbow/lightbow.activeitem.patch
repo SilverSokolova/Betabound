@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/altAbilityType","inverse":true},{"op":"test","path":"/altAbility","inverse":true},{"op":"add","path":"/altAbilityType","value":"zenshot"},{"op":"add","path":"/altAbility","value":{"projectileType":"lightarrow","projectileParameters":{"power":8.125}}}],
+
+[{"op":"test","path":"/builder"},{"op":"test","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua","inverse":true},{"op":"move","from":"/builder","path":"/sb_builder"}],[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua"}]
+]

@@ -1,0 +1,78 @@
+{
+  "itemName": "sb_chromosword",
+  "level": 1,
+  "price": 800,
+  "maxStack": 1,
+  "rarity": "legendary",
+  "category": "broadsword",
+  "description": "A massive sword with intertwining blades.",
+  "shortdescription": "Chromosword",
+  "tooltipKind": "sb_sword2",
+  "twoHanded": true,
+  "sb_waBan": true,
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "animation": "/items/active/starbound/weapons/broadsword.animation",
+  "sb_dyeable": true,
+  "sb_backingDirectives": "?replace;49ffd1=ffca8a;3fd3c0=e0975c;2082a0=a85636",
+  "animationParts": {
+    "blade": "chromosword.png",
+    "handle": ""
+  },
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "blade": {
+          "properties": {
+            "offset": [0.3, 2.4]
+          }
+        },
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "image": "starcleaverswoosh.png:<frame>",
+                  "offset": [0.65, 1.875]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds": {
+      "projectileFire": ["/sfx/gun/plasma_pistol1.ogg", "/sfx/gun/plasma_pistol2.ogg", "/sfx/gun/plasma_pistol3.ogg", "/sfx/gun/plasma_pistol4.ogg"]
+    }
+  },
+
+  "builderConfig": [{
+      "animationParts": {
+        "blade": {
+          "path": "chromosword.png",
+          "paletteSwap": true
+        }
+      },
+      "iconDrawables": ["blade"],
+      "palette": "/items/active/starbound/colors/cellsword.weaponcolors",
+      "altAbilities": [
+        "bladecharge",
+        "downstab",
+        "parry",
+        "risingslash",
+        "spinslash",
+        "superspinslash"
+      ]
+    }
+  ],
+
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType": "physical",
+  "primaryAbilityType": "sb_meleeslash",
+  "primaryAbility": {
+    "fireTime": [0.6, 0.9],
+    "baseDps": [10.5, 11.5],
+    "projectileType": "cellblast",
+    "inaccuracy": 0.02
+  },
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

@@ -1,0 +1,9 @@
+{
+  "frameGrid" : {
+    "size" : [18, 12],
+    "dimensions" : [2, 1],
+    "names" : [
+      ["full", "empty"]
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/price","value":10},{"op":"replace","path":"/price","value":80}],
+[{"op":"test","path":"/description","value":"A bright blue alarm"},{"op":"replace","path":"/description","value":"A bright blue alarm."}]
+]

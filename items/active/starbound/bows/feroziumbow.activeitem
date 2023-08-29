@@ -1,0 +1,33 @@
+{
+  "itemName": "sb_feroziumbow",
+  "definition": "bow",
+  "itemTags": ["weapon", "ranged", "bow", "sb_scintillium", "upgradeableWeapon"],
+  "tags": {
+    "<bow>": "ferozium"
+  },
+  "fixedRarity": true,
+  "rarity": "legendary",
+  "tooltipFields": {
+    "damageKindImage": "/interface/sb_tooltips/purplearrow.png"
+  },
+  "description": "Harvests meat and other goods from monsters.",
+  "shortdescription": "Scintillium Bow",
+  "level": 6,
+  "primaryAbility": {
+    "fireTime": 0.6,
+    "inaccuracy": 0.01,
+    "projectileType": "purplearrow",
+    "powerProjectileType": "chargedpurplearrow",
+    "walkWhileFiring": true,
+    "projectileParameters": {
+      "power": 6
+    }
+  },
+  "altAbility": {
+    "projectileType": "purplearrow",
+    "projectileParameters": {
+      "power": 6
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

@@ -1,0 +1,5 @@
+{
+  "input" : [["icecrystal",15],["snowball",5]],
+  "output" : "sb_geometricchair",
+  "groups" : ["craftingfurniture","decoration","all"]
+}

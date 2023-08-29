@@ -1,0 +1,5 @@
+{
+  "input" : [["biosample",4],"bottle"],
+  "output" : "antidote",
+  "groups" : ["craftingmedical","healing","all"]
+}

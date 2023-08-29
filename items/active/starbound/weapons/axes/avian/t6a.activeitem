@@ -1,0 +1,1 @@
+{"description":"An axe shaped like the head of an unknown bird.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_aviantier6aaxe","definition":["colors/t6a","axes/a"],"shortdescription":"Birdbrainer","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

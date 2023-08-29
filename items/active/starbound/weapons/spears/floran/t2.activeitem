@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_florantier2spear",
+  "description": "A spear on a stick.",
+  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "definition": "spears/t2",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Pokerface"
+}

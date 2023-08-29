@@ -1,0 +1,14 @@
+{
+  "itemName": "sb_novatier4revolver",
+  "definition": "revolver",
+  "itemTags": ["weapon", "ranged", "pistol", "revolver", "novakid", "upgradeableWeapon"],
+  "tags": {
+    "<t>": "4"
+  },
+  "rarity": "uncommon",
+  "description": "No problem is too big or too small for The Doc.",
+  "shortdescription": "The Doc",
+  "muzzleOffset": [2.1, 0.15],
+  "level": 4,
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

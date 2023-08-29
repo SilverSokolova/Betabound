@@ -1,0 +1,5 @@
+{
+  "input" : [["refinedviolium",3],"durasteelbar"],
+  "output" : "sb_novatier5srevolver",
+  "groups" : ["craftingaccelerator","weapons","all"]
+}

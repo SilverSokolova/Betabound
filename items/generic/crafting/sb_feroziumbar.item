@@ -1,0 +1,11 @@
+{
+  "itemName" : "sb_feroziumbar",
+  "price" : 30,
+  "rarity" : "Legendary",
+  "tooltipKind" : "sb_object4",
+  "category" : "craftingMaterial",
+  "itemTags" : ["reagent"],
+  "inventoryIcon" : "sb_feroziumbar.png",
+  "description" : "This bar shines with an almost otherworldly quality, and is primarily used for crafting geometric furniture.",
+  "shortdescription" : "Scintillium Bar"
+}

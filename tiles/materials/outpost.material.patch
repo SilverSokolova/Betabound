@@ -1,0 +1,1 @@
+[{"op":"replace","path":"/renderTemplate","value":"/tiles/sb_pipetemplate.config"},{"op":"replace","path":"/renderParameters/texture","value":"sb_outpost.png"}]

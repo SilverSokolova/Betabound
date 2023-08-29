@@ -1,0 +1,13 @@
+{
+  "itemName" : "sb_poisonfluffalofeed",
+  "rarity" : "uncommon",
+  "category" : "farmBeastFeed",
+  "price" : 250,
+  "inventoryIcon" : "poison.png",
+  "description" : "Feed this to a fluffalo calf to raise a Poison Fluffalo - a source of venom samples.",
+  "tooltipKind" : "sb_object",
+  "shortdescription" : "Poison Pear",
+  "feedType" : "poison",
+  "radioMessagesOnPickup" : ["sb_pickupfarmbeastfeed"],
+  "scripts" : ["feed.lua"]
+}

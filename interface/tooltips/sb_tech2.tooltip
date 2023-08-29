@@ -1,0 +1,16 @@
+{
+  "background": {
+    "type": "background",
+    "fileHeader": "/interface/tooltips/sb_header3.png",
+    "fileBody": "/interface/tooltips/sb_bodyobjecttech2.png",
+    "fileFooter": "/interface/tooltips/sb_footertech2.png"
+  },
+
+  "descriptionLabel": {
+    "type": "label",
+    "position": [11, 66],
+    "hAnchor": "left",
+    "vAnchor": "top",
+    "wrapWidth": 120
+  }
+}

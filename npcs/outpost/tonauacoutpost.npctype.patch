@@ -1,0 +1,4 @@
+[
+[{"op":"add","path":"/scriptConfig/behaviorConfig/blessings/-","value":"sb_energyregen96"},
+{"op":"add","path":"/scriptConfig/behaviorConfig/blessings/-","value":"sb_protectionboost5"}]
+]

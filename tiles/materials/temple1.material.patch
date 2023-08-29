@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/renderParameters/texture","value":"temple1.png"},{"op":"replace","path":"/renderParameters/texture","value":"temple1OLDbackup.png"}],
+[{"op":"test","path":"/renderParameters/variants","value":10},{"op":"replace","path":"/renderParameters/variants","value":25}]
+]

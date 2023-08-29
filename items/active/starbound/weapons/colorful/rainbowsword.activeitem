@@ -1,0 +1,62 @@
+{
+  "itemName": "sb_rainbowsword",
+  "level": 1,
+  "price": 100,
+  "maxStack": 1,
+  "rarity": "rare",
+  "sb_waBan": true,
+  "tooltipKind": "sb_sword2",
+  "category": "broadsword",
+  "description": "This beautiful blade shines with a striking iridescence that catches the eye.", //bends light around it like a prism,
+  "shortdescription": "Rainbow Sword",
+  "twoHanded": true,
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "animation": "/items/active/starbound/weapons/broadsword.animation",
+  "inventoryIcon": "rainbowsword.png",
+  "animationParts": {
+    "blade": "rainbowsword.png",
+    "handle": ""
+  },
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "image": "rainbowswoosh.png:<frame>"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "builderConfig": [{
+      "altAbilities": [
+        "bladecharge",
+        "downstab",
+        "parry",
+        "risingslash",
+        "spinslash",
+        "superspinslash"
+      ]
+    }
+  ],
+
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType": "physical",
+  //"altAbility" : {"stances":{"parry":{"weaponOffset":[0.5,0]}}},
+  "primaryAbilityType": "sb_meleeslash",
+  "primaryAbility": {
+    "fireTime": [0.43, 0.63],
+    "baseDps": [11.425, 14.425],
+    "damageConfig": {
+      "knockback": 10
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

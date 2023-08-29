@@ -1,0 +1,76 @@
+{
+  "type" : "sb_bunkerguard",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "bunkerguardtreasure" ],
+
+  "scripts" : [
+    "/npcs/bmain.lua",
+    "/npcs/sb_bmain.lua"
+  ],
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Intruder!"
+          ]
+        },
+        "human" : {
+          "default" : [
+              "Intruder!",
+              "We've got a hostile!",
+              "Take 'em down!",
+              "Open fire!",
+              "Target acquired!",
+              "You've trespassed for the last time!",
+              "I made my bullets extra explodey, just for you!",
+              "My aim is true! Except for just then.",
+              "Die faster!",
+              "Big fish eats little fish! Guess which one you are?",
+              "How many bullets can you take? Let's find out.",
+              "There's no escaping for you!",
+              "I hope you wrote a will!",
+              "Look behind you! It's your imminent dooooom!",
+              "Prepare to die, scum!",
+              "I am your death, stranger.",
+              "Your expiry date has come!",
+              "Hostile at twelve o'clock!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [{"name":"soldierhead","parameters":{"colorIndex":7}}],
+            "chest" : [{"name":"soldierchest","parameters":{"colorIndex":7}}],
+            "legs" : [{"name":"soldierpants","parameters":{"colorIndex":7}}],
+            "primary" : ["sb_pulserifle"],
+            "sheathedprimary" : ["sb_nightstick"],
+            "sheathedalt" : ["riotshield"]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 70
+      },
+      "maxEnergy" : {
+        "baseValue" : 60
+      },
+      "powerMultiplier" : {
+        "baseValue" : 3
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}

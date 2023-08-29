@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_aegisaltbar",2]],
+  "output" : "serenetable",
+  "groups" : ["craftingfurniture2","decoration","all"]
+}

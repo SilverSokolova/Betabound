@@ -1,0 +1,16 @@
+{
+  "projectileName" : "sb_sporecloudx",
+  "image" : "sporecloudx.png",
+  "physics" : "gas",
+  "animationCycle" : 1,
+  "speed" : 5,
+  "power" : 2,
+  "frameNumber" : 8,
+  "pointLight" : false,
+  "timeToLive" : 1,
+  "piercing" : true,
+  "damageKind" : "poison",
+  "lightColor" : [100, 175, 155],
+  "emitters" : [ "defaultlightblue" ],
+  "damagePoly" : [ [-14, 0], [-10, -10], [0, -14], [10, -10], [14, 0], [10, 10], [0, 14], [-10, 10] ]
+}

@@ -1,0 +1,7 @@
+[
+[{"op":"test","path":"/description","value":"A cluster of electrically charged cell matter. Can be used for crafting."},
+{"op":"replace","path":"/description","value":"A cluster of electrically charged cell matter."}],
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
+{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_electrogrenade"}]
+]

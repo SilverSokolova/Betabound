@@ -1,0 +1,2 @@
+[[{"op":"test","path":"/description","inverse":true},{"op":"add","path":"/description","value":"It's some kind of ancient automaton."}],
+[{"op":"test","path":"/baseParameters/scripts"},{"op":"add","path":"/baseParameters/scripts/-","value":"/monsters/boss/guardianboss/sb_guardian.lua"}]]

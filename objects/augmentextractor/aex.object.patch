@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/collarMap"},{"op":"add","path":"/collarMap/sb_thorns","value":"sb_thornscollar"}],
+[{"op":"test","path":"/augmentMap"},{"op":"add","path":"/augmentMap/sb_energyregen1","value":"sb_energyregenaugment1"}],
+[{"op":"test","path":"/augmentMap"},{"op":"add","path":"/augmentMap/sb_energyregen2","value":"sb_energyregenaugment2"}],
+[{"op":"test","path":"/augmentMap"},{"op":"add","path":"/augmentMap/sb_energyregen3","value":"sb_energyregenaugment3"}]
+]

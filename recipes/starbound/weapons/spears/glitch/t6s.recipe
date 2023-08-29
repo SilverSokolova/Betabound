@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_imperviumcompound",6],["solariumstar",4]],
+  "output" : "sb_glitchtier6sspear",
+  "groups" : ["craftingseparator","weapons","all"]
+}

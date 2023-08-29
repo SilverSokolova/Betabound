@@ -1,0 +1,1 @@
+{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","configOverrides":{"primaryAbility":{"stances":{"idle":{"weaponOffset":[0.2,1.75]}}}},"itemTags":["weapon","melee","hammer","upgradeableWeapon"],"definition":["colors/t5m","hammers/t5m"],"description":"A hammer shaped like a large egg.","itemName":"sb_aviantier5mhammer","shortdescription":"The Scrambler"}

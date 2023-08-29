@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_aviantier4broadsword",
+  "description": "A sword with a gem encased in it.",
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "definition": "broadswords/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Eye of the Storm"
+}

@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_humantier3axe",
+  "description": "An axe that vibrates softly when it hits stone.",
+  "shortdescription": "Vibro-axe",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t3",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

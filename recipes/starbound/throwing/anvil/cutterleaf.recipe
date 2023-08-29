@@ -1,0 +1,5 @@
+{
+  "input" : [["plantfibre",3]],
+  "output" : ["sb_cutterleaf",5],
+  "groups" : ["craftinganvil","consumables","all"]
+}

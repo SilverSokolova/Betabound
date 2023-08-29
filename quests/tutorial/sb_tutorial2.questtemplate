@@ -1,0 +1,34 @@
+{
+  "id" : "sb_tutorial2.gearup",
+  "prerequisites" : ["bootship" ],
+  "mainQuest" : true,
+  "title" : "^#9be3d6;Shop Class",
+  "text" : "^green;It's time to search the planet for resources.^reset; To survive down there you'll need tools. To produce tools you'll need to ^green;make yourself a ^orange;wooden crafting table.",
+  "completionText" : "Well done! Using the ^orange;wooden crafting table^reset; will give you access to a wide range of ^green;new recipes.^reset; Collecting fuel and visiting a range of planets is the best way to find resources.",
+  "speaker" : "questGiver",
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : false,
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquestnorewards.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/sb_main.lua",
+  "scriptConfig" : {
+    "followUp" : "sb_tutorial2b.gearup",
+    "giveBlueprints" : ["sb_woodencraftingtable","darkwoodmaterial"],
+    "portraits" : {"default" : "player"},
+    "requireTurnIn" : false,
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "sb_woodencraftingtable",
+        "count" : 1,
+        "consume" : false
+      }
+    ]
+  }
+}

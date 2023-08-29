@@ -1,0 +1,179 @@
+{
+  "type" : "sb_hugebiped",
+
+  "categories" : ["sb_hugebiped"],
+  "parts" : ["barm", "farm", "body", "tail", "head"],
+  "partParameters" : "hugebiped.partparams",
+
+  "animation" : "hugebiped.animation",
+  "reversed" : true,
+
+  "dropPools" : ["sb_minibossTreasure"],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua",
+      "/monsters/sb_miniboss.lua"
+    ],
+
+    "behavior" : "monster",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 30,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 2.5,
+
+      "foundTargetActions" : [{"name" : "action-aggrohop"}],
+
+      "approachActions" : [
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+//          "maxJumps" : 6,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50,
+            "fallState" : "jump",
+            "moveState" : "run",
+            "run" : true
+          }
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+//          "maxJumps" : 6,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50,
+            "fallState" : "jump",
+            "moveState" : "run",
+            "run" : true
+          }
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "wander-walk",
+          "cooldown" : 6,
+          "parameters" : {
+            "wanderTime" : [3, 9]
+          }
+        }
+      ]
+    },
+
+    "skillCount" : 3,
+    "baseSkills" : ["chargeAttack", "pounceAttack"],
+    "specialSkills" : ["staticDischargeAttack", "bubbleBlastAttack", "waterGunAttack", "burninghaloAttack", "gasBelchAttack", "rainbowVomitAttack", "shockingBoltAttack", "plasmaTorpedoAttack", "eyeballSprayAttack", "bloodVomitAttack", "acidicSpitAttack", "fireballAttack", "icerockShotAttack", "doubleBarbSprayAttack", "miniDragonBreathAttack", "acidSprayAttack", "beamBurstAttack", "plasmaSweepAttack", "eyeballShotAttack", "glitterAttack", "darkGravityBallAttack", "fireSwirlAttack", "rockRollAttack", "iceBlastAttack", "snotBubbleAttack", "leafyGustAttack", "mudBallAttack", "lightBallAttack", "shardSprayAttack", "blueFlameAttack", "smokeRingAttack", "putridWaveAttack", "boneRainAttack", "orbOfZotsAttack", "snotShotAttack", "fishBreathAttack", "explosivePhlegmAttack", "cellBlastAttack" ], //shockingWaveAttack
+
+    "knockoutTime" : 0.1,
+    "knockoutEffect" : "blink",
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+
+    "colors" : "generated",
+
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-3.8, -9], [-3.4, -9.375], [3.4, -9.375], [3.8, -9], [3.8, 2.1], [3.4, 2.5], [-3.4, 2.5], [-3.8, 2.1] ],
+      "mass" : 1.6,
+      "walkSpeed" : 5.0,
+      "runSpeed" : 13.0
+    },
+
+    "metaBoundBox" : [-10, -10, 10, 10],
+
+    "touchDamage" : {
+      "poly" : [ [-3, -9.375], [3, -9.375], [3, 2], [-3, 2] ],
+      "damage" : 25,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 30,
+      "statusEffects" : [ ]
+    },
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.05
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 440
+        },
+        "maxShield" : {
+          "baseValue" : 0
+        },
+        "protection" : {
+          "baseValue" : 0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.25
+        },
+        "shieldRegen" : {
+          "baseValue" : 0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.5
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        },
+        "shieldHealth" : {
+          "maxStat" : "maxShield",
+          "deltaStat" : "shieldRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0.5, 0.5],
+    "feetOffset" : [0, -21],
+    "capturable" : false, //TODO: pod uses monster collision, causing it to spawn in floor when thrown from ground. fix. Maybe feet offset?
+    "captureHealthFraction" : 0.5,
+    "nametagColor" : [64, 200, 255]
+  }
+}

@@ -1,0 +1,1 @@
+[[{"op":"test","inverse":true,"path":"/tooltipKind"},{"op":"add","value":0,"path":"/tooltipKind"}],[{"op":"replace","value":"sb_object","path":"/tooltipKind"},{"op":"replace","value":"legendary","path":"/rarity"}]]

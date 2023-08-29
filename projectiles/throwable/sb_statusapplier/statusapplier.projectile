@@ -1,0 +1,12 @@
+{
+  "projectileName" : "sb_statusapplier",
+  "image" : "statusapplier.png",
+  "frameNumber" : 1,
+  "speed" : 0,
+  "timeToLive" : 0.5,
+  "animationLoops" : false,
+  "flippable" : true,
+  "power" : -1,
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKind" : "default"
+}

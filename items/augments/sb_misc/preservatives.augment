@@ -1,0 +1,44 @@
+{
+  "itemName": "sb_preservatives",
+  "price": 50,
+  "tooltipKind": "sb_object4b",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "tooltipFields": {
+    "subtitle": "Other"
+  },
+  "inventoryIcon": "preservatives.png",
+  "description": "Completely prevents food from rotting, but renders it unusable for cooking.\n^gray;Select preservatives and right-click item",
+  "shortdescription": "Preservatives",
+  "radioMessagesOnPickup": ["sb_pickuppreservatives"],
+
+  "fade": "?fade=f9ed88;0.1",
+  "foodValueReduction": 0.8,
+  "applyParameters": {
+    "tooltipFields": {
+      "subtitle": "Preserved Food"
+    },
+    "sb_preserved2": true
+  },
+  "drinkApplyParameters": {
+    "tooltipFields": {
+      "subtitle": "Preserved Drink"
+    }
+  },
+  "persistentParameters": [
+    "shortdescription",
+    "blockingEffects",
+    "inventoryIcon",
+    "tooltipFields",
+    "description",
+    "tooltipKind",
+    "returnItem",
+    "foodValue",
+    "category",
+    "effects",
+    "rarity",
+    "price",
+    "emote"
+  ],
+  "scripts": ["/scripts/augments/sb_preservatives.lua"]
+}

@@ -1,0 +1,7 @@
+[
+[{"op":"test","path":"/inventoryIcon","value":"capsulebigicon.png"},{"op":"replace","path":"/inventoryIcon","value":"smallhouse7.png?border=1;000"}],
+[{"op":"test","path":"/description","value":"A miniature house. Don't knock too hard!"},{"op":"replace","path":"/description","value":"A miniature factory. Don't knock too hard!"}],
+[{"op":"test","path":"/shortdescription","value":"Tiny House"},{"op":"replace","path":"/shortdescription","value":"Tiny Factory"}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":0}],
+[{"op":"replace","path":"/tooltipKind","value":"sb_object"}]
+]

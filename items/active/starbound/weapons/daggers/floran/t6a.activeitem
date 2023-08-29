@@ -1,0 +1,1 @@
+{"description":"A dagger hidden behind a leaf.","shortdescription":"Razorleaf","itemName":"sb_florantier6adagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t6a","daggers/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

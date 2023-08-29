@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_aviantier2broadsword",
+  "description": "A sword that doubles as a spit.",
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "definition": "broadswords/t2",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "The Skewer XL"
+}

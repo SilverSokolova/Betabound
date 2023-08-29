@@ -1,0 +1,5 @@
+{
+  "input" : ["paper","darkwoodmaterial"],
+  "output" : "sb_wrappingpaper",
+  "groups" : ["holidaycraftingtable","heartforge","sb_craftingtable","sb_tools","other","all"]
+}

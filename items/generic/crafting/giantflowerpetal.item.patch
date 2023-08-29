@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/description","value":"A giant flower petal. Soft!"},
+{"op":"replace","path":"/description","value":"Soft!"}]
+]

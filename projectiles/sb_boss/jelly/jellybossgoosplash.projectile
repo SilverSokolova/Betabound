@@ -1,0 +1,19 @@
+{
+  "projectileName" : "sb_jellybossgoosplash",
+  "image" : "jellybossgoosplash.png",
+  "physics" : "goop",
+  "animationCycle" : 1,
+  "frameNumber" : 10,
+  "power" : 1,
+  "speed" : 2,
+  "timeToLive" : 3,
+  "bounces" : 3,
+  "piercing" : true,
+  "statusEffects" : [
+    {"effect" : "sb_jellyslow", "duration" : 3 }
+  ],
+//  "damageTeam" : { "type" : "indiscriminate" },
+  "damageType" : "ignoresdef",
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "damageKind" : "default"
+}

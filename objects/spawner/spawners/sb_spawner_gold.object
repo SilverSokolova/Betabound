@@ -1,0 +1,51 @@
+{
+  "objectName" : "sb_spawnergold",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "For when you need to buy some stuff.",
+  "shortdescription" : "^yellow;Merchant Spawner^reset;",
+  "race" : "human",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 100,
+  "tooltipKind" : "sb_object",
+
+  "apexDescription" : "A merchant may be just what I need.",
+  "avianDescription" : "Buying items is a necessity.",
+  "floranDescription" : "Floran buy ssstuff to flex on rivals!",
+  "glitchDescription" : "Statement. I would like to buy some items.",
+  "humanDescription" : "This is even easier than ordering online.",
+  "hylotlDescription" : "The products they sell better not be faulty.",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_gold.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ],
+
+  "scripts" : ["/objects/spawner/spawners/spawner.lua", "sb_spawner.lua"],
+  "scriptDelta" : 0,
+  "animation" : "/objects/spawner/spawners/sb_spawner.animation",
+  "animationParts" : {
+    "switch" : "spawner_gold.png"
+  },
+  "animationPosition" : [-8, 0],
+  "inputNodes" : [],
+  "outputNodes" : [],
+  "spawner" : {
+    "searchRadius" : 32,
+    "npcSpeciesOptions" : ["apex", "avian", "floran", "glitch", "human", "hylotl", "novakid"],
+    "npcTypeOptions" : ["wanderingmerchant", "merchant"],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [],
+	"merchant" : {"storeRadius":-1}
+      }
+    ]
+  }
+}

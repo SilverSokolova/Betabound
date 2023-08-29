@@ -1,0 +1,6 @@
+{
+  "input" : [["plutoniumore",2]],
+  "output" : "plutoniumrod",
+  "duration" : 0.15,
+  "groups" : ["craftingfurnace3","bars","all"]
+}

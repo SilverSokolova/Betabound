@@ -1,0 +1,5 @@
+{
+  "input" : [["volatilepowder",4],"string","scorchedcore","sb_steelbar"],
+  "output" : "sb_groundfirebomb",
+  "groups" : ["craftinganvil2","consumables","all"]
+}

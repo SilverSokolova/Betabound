@@ -1,0 +1,1 @@
+{"description":"A decorated axe with a smooth bone handle.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_aviantier5maxe","definition":["colors/t5m","axes/m"],"shortdescription":"Wingbone","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

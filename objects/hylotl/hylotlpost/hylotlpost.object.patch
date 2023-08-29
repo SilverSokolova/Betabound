@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/shortdescription","value":"Traditional Wooden Post"},{"op":"replace","path":"/shortdescription","value":"Traditional Metal Post"}],
+[{"op":"test","path":"/description","value":"A decorative wooden post with a lantern in it."},{"op":"replace","path":"/description","value":"A decorative metal post with a lantern in it."}],
+[{"op":"test","path":"/avianDescription","value":"Pretty good for sharpening one's beak on."},{"op":"replace","path":"/avianDescription","value":"Too bad this isn't made of wood, otherwise it'd be pretty good for sharpening one's beak on."}]
+]

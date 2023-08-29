@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_aviantier2shortsword",
+  "description": "A shortsword that doubles as a spit.",
+  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "definition": "shortswords/t2",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "The Skewer"
+}

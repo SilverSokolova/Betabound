@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_humantier4broadsword",
+  "description": "The blacksmith is getting carried away now.",
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "definition": "broadswords/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "The Overcompensator"
+}

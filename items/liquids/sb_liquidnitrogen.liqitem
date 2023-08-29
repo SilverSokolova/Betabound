@@ -1,0 +1,10 @@
+{
+  "itemName" : "sb_liquidnitrogen",
+  "tooltipKind" : "sb_object",
+  "rarity" : "common",
+  "category" : "liquid",
+  "inventoryIcon" : "sb_liquidnitrogen.png",
+  "description" : "A measure of liquid nitrogen.",
+  "shortdescription" : "Liquid Nitrogen",
+  "liquid" : "sb_liquidnitrogen"
+}

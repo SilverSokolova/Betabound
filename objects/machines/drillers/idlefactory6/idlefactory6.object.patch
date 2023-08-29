@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/description","value":"Tier 5 Driller will generate aegisalt, ferozium and violium ores overtime"},
+{"op":"replace","path":"/description","value":"Tier 5 Driller will generate aegisalt, ferozium, rubium and violium ores overtime"}],
+[{"op":"add","path":"/productionConfig/outputList/default/-","value":[30,"platinumore"]}],
+[{"op":"add","path":"/productionConfig/outputList/default/-","value":[40,"sb_rubiumore"]}]
+]

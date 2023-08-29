@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/tooltipKind","value":"armor"},{"op":"replace","path":"/tooltipKind","value":"sb_armor"}]
+]

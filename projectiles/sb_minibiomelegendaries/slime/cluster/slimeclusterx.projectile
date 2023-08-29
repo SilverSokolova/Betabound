@@ -1,0 +1,29 @@
+{
+  "projectileName" : "sb_slimeclusterx",
+  "physics" : "stickybomb",
+  "lightColor" : [0, 50, 40],
+  "pointLight" : true,
+  "image" : "slimeclusterx.png",
+  "timeToLive" : 2,
+  "speed" : 35,
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "power" : 60,
+  "supportsProcessing" : true,
+  "orientationLocked" : true,
+  "flippable" : true,
+  "bounces" : 1,
+  "actionOnReap" : [
+    {
+	"action" : "projectile",
+	"type" : "smallregularexplosion",
+	"inheritDamageFactor" : 0.5,
+	"angle" : 5
+    },
+    {
+	"action" : "sound",
+	"options" : ["/sfx/projectiles/goocluster_pop.ogg"]
+    }
+  ],
+  "damageKind" : "acid"
+}

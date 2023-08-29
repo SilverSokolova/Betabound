@@ -1,0 +1,6 @@
+{
+  "input" : [["money",100]],
+  "output" : "sb_beamaxe",
+  "duration" : 0,
+  "groups" : ["sb_craftingtable","plain","sb_tools","all"]
+}

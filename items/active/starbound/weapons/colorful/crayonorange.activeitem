@@ -1,0 +1,11 @@
+{
+  "itemName" : "sb_crayonorange",
+  "definition" : "crayon",
+  "shortdescription" : "Striking Orange Crayon",
+  "tags" : {
+    "<color>" : "orange",
+    "<swaps>" : ""
+  },
+  "itemTags" : ["weapon","melee","shortsword","upgradeableWeapon"],
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

@@ -1,0 +1,67 @@
+[
+/*  [{
+      "op": "test",
+      "path": "/builder",
+      "value": "/items/buildscripts/buildunrandshield.lua"
+    }, {
+      "op": "replace",
+      "path": "/builder",
+      "value": "/items/buildscripts/buildshield.lua"
+    }, {
+      "op": "add",
+      "path": "/builderConfig",
+      "value": [{
+          "nameGenerator": "sb_eyeshieldnames.config:nameGen"
+        }
+      ]
+    }
+  ],*/
+  [{
+      "op": "test",
+      "path": "/builder"
+    }, {
+      "op": "test",
+      "path": "/builder",
+      "value": "/items/buildscripts/starbound/buildvweapon.lua",
+      "inverse": true
+    }, {
+      "op": "move",
+      "from": "/builder",
+      "path": "/sb_builder"
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/builder",
+      "value": "/items/buildscripts/starbound/buildvweapon.lua"
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/scripts/-",
+      "value": "sb_shield.lua"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/itemTags",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/itemTags",
+      "value": []
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/itemTags/-",
+      "value": "upgradeableWeapon"
+    }
+  ]
+//  [{
+//      "op": "add",
+//      "path": "/sb_subtitle",
+//      "value": "Eye Shield"
+//    }
+//  ]
+]

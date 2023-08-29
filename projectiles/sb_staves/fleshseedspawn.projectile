@@ -1,0 +1,35 @@
+{
+  "projectileName" : "sb_fleshseedspawn",
+  "image" : "fleshseedspawn.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "timeToLive" : 0.01,
+  "physics" : "grenade",
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "onlyHitTerrain" : true,
+  "actionOnReap" : [
+    {
+      "action" : "option",
+      "options" : [
+        {
+          "action" : "projectile",
+          "type" : "sb_fleshseed1",
+          "fuzzAngle" : 50,
+          "inheritDamageFactor" : 1,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "sb_fleshseed1",
+          "fuzzAngle" : 20,
+          "inheritDamageFactor" : 1,
+          "inheritSpeedFactor" : 1
+        }
+      ]
+    }
+  ],
+  "damagePoly" : [ ],
+  "power" : 0,
+  "damageKind" : "default"
+}

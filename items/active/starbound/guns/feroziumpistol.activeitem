@@ -1,0 +1,48 @@
+{
+  "itemName": "sb_feroziumpistol",
+  "inventoryIcon": "feroziumpistol.png",
+  "maxStack": 1,
+  "price": 1125,
+  "tooltipKind": "sb_gun2",
+  "tooltipFields": {
+    "damageKindImage": "/interface/sb_tooltips/standardbullet.png"
+  },
+  "itemTags": ["weapon", "ranged", "pistol", "ferozium", "upgradeableWeapon"],
+  "category": "pistol",
+  "fixedRarity": true,
+  "rarity": "legendary",
+  "description": "A modern-looking sidearm.",
+  "shortdescription": "Scintillium Pistol",
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/gun/revolver2.ogg"]
+    }
+  },
+  "animationParts": {
+    "barrel": "",
+    "butt": "",
+    "muzzleFlash": "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.png",
+    "middle": "feroziumpistol.png"
+  },
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "baseOffset": [0.7, 0.15],
+  "muzzleOffset": [1.5, 0.4],
+
+  "twoHanded": false,
+  "level": 8,
+  "primaryAbilityType": "sb_gun",
+  "primaryAbility": {
+    "fireTime": 0.6,
+    "baseDps": 7.25,
+    "energyUsage": 12,
+    "inaccuracy": 0.018,
+    "projectileParameters": {
+      "speed": 150,
+      "timeToLive": 3,
+      "power": 2.7,
+      "knockback": 6
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

@@ -1,0 +1,5 @@
+{
+  "input" : [["rainbowwood",20],"reddye","greendye","bluedye"],
+  "output" : "rainbowpainting",
+  "groups" : ["craftingfurniture","decoration","all"]
+}

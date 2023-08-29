@@ -1,0 +1,9 @@
+[
+[{"op":"test","path":"/description","value":"Ore for iron bars is primarily found on planets orbiting gentle stars."},
+{"op":"replace","path":"/description","value":"Useful for a multitude of crafts! Ore for this material is primarily found on planets orbiting gentle stars."}],
+[{"op":"test","path":"/tooltipKind","inverse":true},
+{"op":"add","path":"/tooltipKind","value":"fossil"}],
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
+{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_tier1techchest"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_throwingneedle"}]]

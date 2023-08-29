@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/description","value":"Hopefully not a volatile powder barrel, probably check before putting it on."},
+{"op":"replace","path":"/description","value":"Hopefully not a gunpowder barrel, probably check before putting it on."}]
+]

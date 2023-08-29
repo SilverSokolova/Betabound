@@ -1,0 +1,5 @@
+{
+  "input" : ["corefragmentore","sb_gunpowder","lead"],
+  "output" : ["sb_ammo",50,{"projectileType":"explosivebullet"}],
+  "groups" : ["sb_ammo","craftinganvil","all"]
+}

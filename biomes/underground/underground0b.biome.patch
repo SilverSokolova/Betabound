@@ -1,0 +1,12 @@
+[  [
+    {"op":"test","path":"/undergroundPlaceables/items"},
+    {"op":"add","path":"/undergroundPlaceables/items/-","value":{"mode":"floor","priority":0,"variants":1,"distribution":"/biomes/distributions.config:undergroundweaponChests","type":"treasureBox","treasureBoxSets":["sb_gunChest"]}}
+  ],
+[{"op":"add","path":"/musicTrack/night/tracks/-","value":"/music/sb_underground.ogg"},
+{"op":"add","path":"/musicTrack/night/tracks/-","value":"/music/sb_via-aurora.ogg"},
+{"op":"add","path":"/musicTrack/day/tracks/-","value":"/music/sb_underground.ogg"},
+{"op":"add","path":"/musicTrack/day/tracks/-","value":"/music/sb_via-aurora.ogg"}],
+
+[{"op":"add","path":"/ambientNoises/night/tracks/-","value":"/sfx/environmental/garden_underground.ogg"},
+{"op":"add","path":"/ambientNoises/day/tracks/-","value":"/sfx/environmental/garden_underground.ogg"}]
+]

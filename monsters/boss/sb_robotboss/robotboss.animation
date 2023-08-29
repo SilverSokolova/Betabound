@@ -1,0 +1,430 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "music": {
+        "default": "on",
+        "states": {
+          "off": {},
+          "on": {
+            "mode": "loop",
+            "properties": {
+              "persistentSound": "/music/desert-battle-2.ogg",
+              "persistentSoundStopTime": 6,
+              "persistentSoundRangeMultiplier": 7
+            }
+          }
+        }
+      },
+      "body": {
+        "priority": 0,
+        "default": "idle",
+
+        "states": {
+          "idle": {
+            "frames": 4,
+            "mode": "loop"
+          },
+          "walk": {
+            "frames": 8,
+            "cycle": 1,
+            "mode": "loop"
+          },
+          "jump": {
+            "frames": 8,
+            "cycle": 1,
+            "mode": "loop"
+          },
+          "fall": {
+            "frames": 8,
+            "cycle": 1,
+            "mode": "loop"
+          },
+          "melee": {
+            "frames": 2,
+            "cycle": 0.25,
+            "mode": "loop"
+          },
+          "charge": {
+            "frames": 2,
+            "cycle": 0.25,
+            "mode": "loop"
+          },
+          "chargewindup": {
+            "frames": 2,
+            "cycle": 0.25,
+            "mode": "loop"
+          },
+          "chargewinddown": {
+            "frames": 2,
+            "cycle": 0.25,
+            "mode": "loop"
+          }
+        }
+      },
+      "damage": {
+        "priority": 3,
+        "default": "none",
+        "states": {
+          "none": {
+            "frames": 1
+          },
+          "stunned": {
+            "frames": 1
+          }
+        }
+      },
+      "releaseParticles": {
+        "default": "off",
+        "states": {
+          "off": {
+            "frames": 1,
+            "properties": {
+              "particleEmittersOff": ["releaseParticles"]
+            }
+          },
+          "on": {
+            "frames": 1,
+            "cycle": 0.1,
+            "mode": "transition",
+            "transition": "off",
+            "properties": {
+              "particleEmittersOn": ["releaseParticles"]
+            }
+          }
+        }
+      }
+    },
+
+    "parts": {
+      "body": {
+        "properties": {
+          "zLevel": 2,
+          "offset": [0, 0.5],
+          "transformationGroups": ["facing", "body"]
+        },
+        "partStates": {
+          "body": {
+            "idle": {
+              "properties": {
+                "image": "<partImage>:idle.<frame>?flipx"
+              }
+            },
+            "walk": {
+              "properties": {
+                "image": "<partImage>:move.<frame>?flipx"
+              }
+            },
+            "jump": {
+              "properties": {
+                "image": "<partImage>:move.<frame>?flipx"
+              }
+            },
+            "fall": {
+              "properties": {
+                "image": "<partImage>:move.<frame>?flipx"
+              }
+            },
+            "melee": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>?flipx"
+              }
+            },
+            "charge": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>?flipx"
+              }
+            },
+            "chargewindup": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>?flipx"
+              }
+            },
+            "chargewinddown": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>?flipx"
+              }
+            }
+          }
+        }
+      },
+      "lit": {
+        "properties": {
+          "image": "<partImage>:idle",
+          "fullbright" : true,
+          "transformationGroups": ["facing", "body"],
+          "offset": [0, 0.5],
+          "zLevel": 3
+        },
+        "partStates": {
+          "body": {
+            "idle": {
+              "properties": {
+                "image": "<partImage>:idle.<frame>?flipx"
+              }
+            },
+            "walk": {
+              "properties": {
+                "image": "<partImage>:move.<frame>?flipx"
+              }
+            },
+            "jump": {
+              "properties": {
+                "image": "<partImage>:move.<frame>?flipx"
+              }
+            },
+            "fall": {
+              "properties": {
+                "image": "<partImage>:move.<frame>?flipx"
+              }
+            },
+            "melee": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>?flipx"
+              }
+            },
+            "charge": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>?flipx"
+              }
+            },
+            "chargewindup": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>?flipx"
+              }
+            },
+            "chargewinddown": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>?flipx"
+              }
+            }
+          }
+        }
+      },
+      "frontArm": {
+        "properties": {
+          "image": "<partImage>:idle",
+          "transformationGroups": ["aim"],
+          "rotationCenter": [0.25, -1],
+          "zLevel": 4
+        },
+        "partStates": {
+          "body": {
+            "idle": {
+              "properties": {
+                "image": "<partImage>:idle.<frame>?flipx"
+              }
+            },
+            "walk": {
+              "properties": {
+                "image": "<partImage>:move.<frame>?flipx"
+              }
+            },
+            "jump": {
+              "properties": {
+                "image": "<partImage>:move.<frame>?flipx"
+              }
+            },
+            "fall": {
+              "properties": {
+                "image": "<partImage>:move.<frame>?flipx"
+              }
+            },
+            "melee": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>?flipx"
+              }
+            },
+            "charge": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>?flipx"
+              }
+            },
+            "chargewindup": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>?flipx"
+              }
+            },
+            "chargewinddown": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>?flipx"
+              }
+            }
+          }
+        }
+      },
+      "backArm": {
+        "properties": {
+          "image": "<partImage>:idle",
+          "transformationGroups": ["aim"],
+          "rotationCenter": [0.25, -1],
+          "zLevel": 0
+        },
+        "partStates": {
+          "body": {
+            "idle": {
+              "properties": {
+                "image": "<partImage>:idle.<frame>?flipx"
+              }
+            },
+            "walk": {
+              "properties": {
+                "image": "<partImage>:move.<frame>?flipx"
+              }
+            },
+            "jump": {
+              "properties": {
+                "image": "<partImage>:move.<frame>?flipx"
+              }
+            },
+            "fall": {
+              "properties": {
+                "image": "<partImage>:move.<frame>?flipx"
+              }
+            },
+            "melee": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>?flipx"
+              }
+            },
+            "charge": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>?flipx"
+              }
+            },
+            "chargewindup": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>?flipx"
+              }
+            },
+            "chargewinddown": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>?flipx"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups": {
+    "body": {
+      "interpolated": true
+    },
+    "facing": {
+      "interpolated": false
+    },
+    "aim": {
+      "interpolated": true
+    }
+  },
+
+  "particleEmitters": {
+    "captureParticles": {
+      "particles": [{
+          "particle": "monstercapture"
+        }
+      ]
+    },
+    "releaseParticles": {
+      "particles": [{
+          "particle": "monsterrelease"
+        }
+      ]
+    },
+    "teleportOut": {
+      "particles": [{
+          "particle": "monstercapture"
+        }
+      ]
+    },
+    "teleportIn": {
+      "particles": [{
+          "particle": "monsterrelease"
+        }
+      ]
+    },
+    "deathPoof": {
+      "particles": [{
+          "particle": "monstersplosion"
+        }, {
+          "particle": "sb_robotdeath_s1"
+        }, {
+          "particle": "sb_robotdeath_s2"
+        }, {
+          "particle": "sb_robotdeath_s3"
+        }, {
+          "particle": "sb_robotdeath_s4"
+        }, {
+          "particle": "sb_robotdeath_s5"
+        }, {
+          "particle": "sb_robotdeath_s6"
+        }, {
+          "particle": "sb_robotdeath_s7"
+        }, {
+          "particle": "sb_robotdeath_q1"
+        }, {
+          "particle": "sb_robotdeath_s2"
+        }, {
+          "particle": "sb_robotdeath_s3"
+        }, {
+          "particle": "sb_robotdeath_s4"
+        }, {
+          "particle": "sb_robotdeath_s5"
+        }, {
+          "particle": "sb_robotdeath_s6"
+        }, {
+          "particle": "sb_robotdeath_s7"
+        }, {
+          "particle": "sb_robotdeath_q1"
+        }, {
+          "particle": "sb_robotdeath_q2"
+        }, {
+          "particle": "sb_robotdeath_q3"
+        }, {
+          "particle": "sb_robotdeath_a1"
+        }, {
+          "particle": "sb_robotdeath_a2"
+        }, {
+          "particle": "sb_robotdeath_a3"
+        }, {
+          "particle": "sb_robotdeath_a4"
+        }, {
+          "particle": "sb_robotdeath_a5"
+        }, {
+          "particle": "deathfizz1left"
+        }, {
+          "particle": "deathfizz1right"
+        }, {
+          "particle": "deathfizz2left"
+        }, {
+          "particle": "deathfizz2right"
+        }, {
+          "particle": "deathfizz3left"
+        }, {
+          "particle": "deathfizz3right"
+        }, {
+          "particle": "deathfizz4left"
+        }, {
+          "particle": "deathfizz4right"
+        }
+      ]
+    }
+  },
+
+  "effects": {
+    "blink": {
+      "type": "flash",
+      "time": 0.25,
+      "directives": "fade=fff;0.5"
+    }
+  },
+
+  "sounds": {
+    "idle": ["/sfx/npc/boss/robotboss_idle1.ogg", "/sfx/npc/boss/robotboss_idle2.ogg"],
+    "aggroHop": ["/sfx/npc/boss/robotboss_turnhostile.ogg"],
+    "attack": ["/sfx/npc/boss/robotboss_attack1.ogg", "/sfx/npc/boss/robotboss_attack2.ogg"],
+    "pain": ["/sfx/npc/boss/robotboss_pain1.ogg", "/sfx/npc/boss/robotboss_pain2.ogg", "/sfx/npc/boss/robotboss_pain3.ogg"],
+    "deathPuff": ["/sfx/npc/boss/robotboss_death.ogg"]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_refinedrubium",6],["durasteelbar",6],"battery"],
+  "output" : "sb_apexsteelstaff1",
+  "groups" : ["craftingmanipulator","weapons","all"]
+}

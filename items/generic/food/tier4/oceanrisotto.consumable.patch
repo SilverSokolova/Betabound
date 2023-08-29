@@ -1,0 +1,11 @@
+[
+[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
+
+[{"op":"add","path":"/sb_plateHide","value":true}],
+
+[{"op":"test","path":"/rarity","value":"Uncommon"},{"op":"replace","path":"/rarity","value":"Rare"}],
+
+[{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
+[{"op":"add","path":"/effects/0/-","value":{"effect":"swimboostcola","duration":450}}],
+[{"op":"add","path":"/effects/0/-","value":"sb_foodheal170"}]
+]

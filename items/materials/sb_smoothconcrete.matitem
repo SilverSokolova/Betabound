@@ -1,0 +1,14 @@
+{
+  "itemName" : "sb_smoothconcrete",
+  "rarity" : "Common",
+  "inventoryIcon" : "sb_smoothconcreteicon.png",
+  "category" : "block",
+  "tooltipKind" : "sb_object",
+  "description" : "Smooth, solid concrete.",
+  "shortdescription" : "Smooth Concrete",
+  "glitchDescription" : "Aquatinted. Concrete is a commonly used construction material.",
+  "floranDescription" : "Floran disslike smooth concrete.",
+  "novakidDescription" : "Concrete makes a mighty sturdy block.",
+
+  "materialId" : 6961
+}

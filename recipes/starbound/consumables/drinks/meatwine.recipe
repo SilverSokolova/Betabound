@@ -1,0 +1,6 @@
+{
+  "input" : ["alienmeat","grapes"],
+  "output" : "sb_meatwine",
+  "groups" : ["craftingfood","drinks","sb_mobility","sb_power","sb_healing","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_meatwine"}
+}

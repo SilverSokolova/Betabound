@@ -1,0 +1,5 @@
+{
+  "input" : [["darkwoodmaterial",5],["string",10],"ironbar"],
+  "output" : "harp",
+  "groups" : ["sb_craftingtable","sb_instruments","all"]
+}

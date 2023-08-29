@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_aviantier3dagger",
+  "description": "A little hooked dagger.",
+  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "definition": "daggers/t3",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Hookbeak"
+}

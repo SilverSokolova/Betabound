@@ -1,0 +1,7 @@
+[
+[{"op":"test","path":"/dropPools","inverse":true},{"op":"add","path":"/dropPools","value":[]}],
+[{"op":"add","path":"/dropPools/-","value":"villagertreasure"}],
+
+[{"op":"test","path":"/scriptConfig/questGenerator/graduation/nextNpcType"},
+{"op":"add","path":"/scriptConfig/questGenerator/graduation/nextNpcType/-","value":[0.25,"sb_crewmemberchemistgrey"]}]
+]

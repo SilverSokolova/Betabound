@@ -1,0 +1,20 @@
+{
+  "sb_holidaySpirit" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.10, "item" : ["money",10]},
+        {"weight" : 0.05, "item" : ["money",25]},
+        {"weight" : 0.55, "item" : ["sb_timecapsule",1]},
+        {"weight" : 0.20, "item" : ["sb_timecapsule",2]},
+        {"weight" : 0.75, "item" : ["sb_timecapsule",3]},
+        {"weight" : 0.03, "item" : ["sb_timecapsule",5]},
+        {"weight" : 0.25, "item" : ["sb_timecapsule",5]}
+      ],
+      "poolRounds" : [
+        [0.05, 0],
+        [0.95, 2]
+      ],
+      "allowDuplication" : true
+    }]
+  ]
+}

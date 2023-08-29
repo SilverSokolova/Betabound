@@ -1,0 +1,15 @@
+[
+  [{
+      "op": "add",
+      "path": "/sb_levelLabel",
+      "value": {
+        "type": "label",
+        "position": [114, 145],
+        "hAnchor": "left",
+        "color": "gray",
+        "centered": true,
+        "wrapWidth": 126
+      }
+    }
+  ]
+]

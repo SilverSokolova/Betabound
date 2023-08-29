@@ -1,0 +1,7 @@
+[
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
+{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":""}],
+[{"op":"test","path":"/description","value":"Bricks made from coconut and mortar."},{"op":"replace","path":"/description","value":"Just blocks made from coconut and mortar."}],
+[{"op":"replace","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"coconutblock"}]]

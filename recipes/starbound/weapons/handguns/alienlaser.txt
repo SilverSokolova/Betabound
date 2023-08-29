@@ -1,0 +1,5 @@
+{
+  "input" : [["durasteelbar",4],["alientreesap",15]],
+  "output" : ["sb_alienlaser",1,{"level":4}],
+  "groups" : ["craftinganvil2","weapons","all"]
+}

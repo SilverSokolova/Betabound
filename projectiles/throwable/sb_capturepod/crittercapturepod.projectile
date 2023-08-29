@@ -1,0 +1,21 @@
+{
+  "projectileName" : "sb_crittercapturepod",
+  "image" : "crittercapturepod.png",
+  "animationCycle" : 0.25,
+  "physics" : "grenade",
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "speed" : 30,
+  "power" : 0.0,
+  "damageKind" : "capture",
+  "intangibleWindup" : true,
+  "piercing" : true,
+  "windupTime" : 0.05,
+  "emitters" : ["capturepodblue"],
+  "damageTeam" : {"type" : "indiscriminate"},
+//"statusEffects" : [{"effect": "sb_crittercapturepod", "duration" : 15}],
+  "scripts" : ["crittercapturepod.lua"],
+  "capturableTypes" : [
+    "critter"
+  ]
+}

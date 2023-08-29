@@ -1,0 +1,1 @@
+{"description":"A hefty, chunky shortsword.","shortdescription":"Chimp's Grin","itemName":"sb_apextier6sshortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t6s","shortswords/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

@@ -1,0 +1,5 @@
+{
+  "input" : [["refinedferozium",2],"solariumstar"],
+  "output" : ["sb_feroziumcompound",2],
+  "groups" : ["craftingfurnace3","bars","all"]
+}

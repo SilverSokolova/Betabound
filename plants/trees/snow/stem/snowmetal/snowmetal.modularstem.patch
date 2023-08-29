@@ -1,0 +1,4 @@
+[[{"op":"test","path":"/dropConfig","inverse":true},{"op":"add","path":"/dropConfig","value":{"drops":[[]]}}],
+[{"op":"add","path":"/dropConfig/drops/0/-","value":{"item":"sb_treeHarvest","count":1}}],
+[{"op":"add","path":"/dropConfig/drops/0/-","value":{"item":"metallic","count":2}}]
+]

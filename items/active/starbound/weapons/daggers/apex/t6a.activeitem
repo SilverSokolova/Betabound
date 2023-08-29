@@ -1,0 +1,1 @@
+{"description":"A dagger that doubles as a hairdressing tool.","shortdescription":"The Comb","itemName":"sb_apextier6adagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t6a","daggers/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

@@ -1,0 +1,25 @@
+{
+  "itemName" : "sb_glitchstarter",
+  "definition" : "starter",
+  "itemTags" : ["weapon","melee","broadsword"],
+  "description" : "It looks like it needs maintenance.",
+  "shortdescription" : "Broken Runewrath Sword",
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "swoosh" : {
+          "partStates" : {
+            "swoosh" : {
+              "fire3" : {
+                "properties" : {
+                  "offset" : [3.5,0.25]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

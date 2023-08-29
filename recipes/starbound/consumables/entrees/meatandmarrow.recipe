@@ -1,0 +1,6 @@
+{
+  "input" : ["boneboo","sb_meatchunks"],
+  "output" : "sb_meatandmarrow",
+  "groups" : ["craftingfood","mains","sb_healing","sb_power","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_meatandmarrow"}
+}

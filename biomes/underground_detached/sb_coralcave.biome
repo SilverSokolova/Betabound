@@ -1,0 +1,155 @@
+{
+  "name" : "sb_coralcave",
+  "friendlyName" : "Coral Cave",
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+	"select" : 4,
+	"pool" : [ 
+	  [ 0.5, "sb_passiveSmallBiped" ],
+	  [ 0.5, "sb_aggroSmallQuadruped" ],
+	  [ 0.5, "sb_aggroSmallBiped" ],
+	  [ 0.5, "sb_passiveSmallQuadruped" ],
+	  [ 1, "sb_aggroLargeQuadruped" ],
+	  [ 1, "sb_smallFishCave" ]
+	]
+      }
+    ]
+  },
+
+  "mainBlock" : "rock14",
+  "subBlocks" : [ "dirt", "rock19" ],
+  "ores" : "depth2",
+  "parallax" : "/parallax/underground/sb_coralcave.parallax",
+  "hueShiftOptions" : [0],
+
+  "sky" : {
+    "topColor" : [182, 204, 255],
+    "bottomColor" : [224, 239, 255],
+    "nightTopColor" : [0, 0, 30],
+    "nightBottomColor" : [0, 0, 0]
+  },
+
+ "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vast-immortal-suns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg", "/music/on-the-beach-at-night.ogg","/music/sb_underground.ogg","/music/sb_via-aurora.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg","/music/sb_underground.ogg","/music/sb_via-aurora.ogg" ]
+    }
+  },
+
+
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "tar" ],
+    "grassModDensity" : 0.9,
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildcarrotseed" ] ],
+            "parameters" : { "startingStage" : 2 }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "embercoral1" ], [0.35, "embercoral2" ], [0.35, "embercoral3" ], [0.35, "embercoral4" ], [0.35, "embercoral5" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "tar" ],
+    "grassModDensity" : 0.9,
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildcarrotseed" ] ],
+            "parameters" : { "startingStage" : 2 }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : ["barrelChest","sb_coralcaveChest"]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "sb_coraltemple" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "embercoral1" ], [0.35, "embercoral2" ], [0.35, "embercoral3" ], [0.35, "embercoral4" ], [0.35, "embercoral5" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 4,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.7, "oillantern1" ], [1.5, "haypile" ], [0.1, "haystack" ], [0.05, "outhouse" ], [0.3, "randomfountain" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  }
+}

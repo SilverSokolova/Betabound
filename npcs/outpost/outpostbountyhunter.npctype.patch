@@ -1,0 +1,12 @@
+[
+  [{
+      "op": "add",
+      "path": "/scriptConfig/sb_offeredQuests",
+      "value": ["sb_bountyhunter1.gearup", "sb_bountyhunter2.gearup", "sb_bountyhunter3.gearup", "sb_bountyhunter4.gearup"]
+    }, {
+      "op": "add",
+      "path": "/scriptConfig/sb_turnInQuests",
+      "value": ["sb_bountyhunter1.gearup", "sb_bountyhunter2.gearup", "sb_bountyhunter3.gearup", "sb_bountyhunter4.gearup"]
+    }
+  ]
+]

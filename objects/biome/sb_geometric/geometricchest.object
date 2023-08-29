@@ -1,0 +1,44 @@
+{
+  "objectName" : "sb_geometricchest",
+  "colonyTags" : ["geometric","storage"],
+  "printable" : false,
+  "rarity" : "common",
+  "objectType" : "container",
+  "tooltipKind" : "sb_container",
+  "builder" : "/items/buildscripts/starbound/buildcontainer.lua",
+  "scripts" : ["/scripts/sb_container.lua"],
+  "category" : "fridgeStorage",
+  "price" : 125,
+  "description" : "Haven't I seen this exact same design before? ...No, it's probably my imagination.",
+  "shortdescription" : "Geometric Ice Chest",
+  "race" : "generic",
+
+  "apexDescription" : "A hi-tech chest. It looks as if it might contain something valuable.",
+  "avianDescription" : "A chest that looks like it stores something valuable.",
+  "floranDescription" : "Sspecial shiny chesst.",
+  "glitchDescription" : "Non-committal. This chest is of unknown origin.",
+  "humanDescription" : "Who made this? What's in it?",
+  "hylotlDescription" : "A horrid chest which offends all the senses imaginable. I wish nothing more than to destroy it as soon as possible.",
+  "novakidDescription" : "Ooh, I bet it's chock full o' valuable technology.",
+
+  "inventoryIcon" : "geometricchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "geometricchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : ["/sfx/objects/chest_small_open.ogg"],
+  "closeSounds" : ["/sfx/objects/chest_small_close.ogg"],
+  "slotCount" : 16,
+  "tooltipFields":{"slotCountLabel":"Holds 16 Items"},
+  "uiConfig" : "/interface/sb_chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "itemAgeMultiplier" : 0,
+  "autoCloseCooldown" : 3600
+}

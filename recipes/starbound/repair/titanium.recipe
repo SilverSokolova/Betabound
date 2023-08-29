@@ -1,0 +1,6 @@
+{
+  "input" : ["titaniumore"],
+  "output" : "sb_titanium_repair",
+  "duration" : 0,
+  "groups" : ["plain","sb_augment","all"]
+}

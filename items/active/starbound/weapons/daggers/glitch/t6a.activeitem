@@ -1,0 +1,1 @@
+{"description":"A dagger that'll pierce any hide.","shortdescription":"Operating System","itemName":"sb_glitchtier6adagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t6a","daggers/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

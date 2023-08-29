@@ -1,0 +1,5 @@
+{
+  "input" : [["refinedferozium",2],"goldbar"],
+  "output" : "sb_feroziumcompound",
+  "groups" : ["craftingfurnace3","bars","all"]
+}

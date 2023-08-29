@@ -1,0 +1,19 @@
+{
+  "itemName" : "sb_thornscollar",
+  "price" : 2500,
+  "rarity" : "Uncommon",
+  "tooltipKind" : "sb_object4b",
+  "category" : "petCollar",
+  "inventoryIcon" : "thornscollar.png",
+  "description" : "A collar that causes your pet to reflect damage back at nearby enemies.\n^gray;Equip to capture pod with right-click^reset;",
+  "shortdescription" : "Thorns Collar",
+
+  "collar" : {
+    "name" : "sb_thorns",
+    "displayName" : "Thorns",
+    "displayIcon" : "/items/augments/pet/thornscollar.png",
+    "effects" : ["thornsaugment"]
+  },
+  "radioMessagesOnPickup" : ["pickupcollar"],
+  "scripts" : ["/scripts/augments/collar.lua"]
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "sb_brains",
+  "rarity" : "Common",
+  "inventoryIcon" : "sb_brains.png",
+  "category" : "block",
+  "tooltipKind" : "sb_object",
+  "description" : "Pulsating brain matter... I wonder what it's thinking.",
+  "shortdescription" : "Heck Brains",
+  "glitchDescription" : "Alarmed. Brain patterns suggest this brain belonged to a genius.",
+  "floranDescription" : "Floran want to ssstab sssquishy brain.",
+  "novakidDescription" : "Some fleshy brain-stuff.",
+
+  "materialId" : 6960
+}

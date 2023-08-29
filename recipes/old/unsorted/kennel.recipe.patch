@@ -1,0 +1,5 @@
+[
+{"op":"add","path":"/groups/-","value":"craftingfurniture"},
+{"op":"add","path":"/groups/-","value":"decoration"},
+{"op":"add","path":"/groups/-","value":"objects"}
+]

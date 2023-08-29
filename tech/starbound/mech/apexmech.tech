@@ -1,0 +1,65 @@
+{
+  "name" : "sb_apexmech",
+  "type" : "head",
+  "scripts" : ["/tech/starbound/vehicle.lua"],
+  "animator" : "mech.animation",
+  "rarity" : "legendary",
+  "icon" : "/tech/starbound/apexmech.png",
+  "shortDescription" : "Apex Mech",
+  "description" : "^#0F0;[F]^reset; Use this tech, spawn a mech, then destroy things.",
+
+  "mechStats" : [
+    {"stat":"breathProtection","amount":1},
+    {"stat":"fallDamageMultiplier","effectiveMultiplier":0},
+    {"stat":"grit","amount":9}
+  ],
+
+  "mechCustomMovementParameters" : { //3x 3.7
+    "collisionPoly" : [ [-3.5, -2.5], [-2, -5], [2, -5], [3.5, -2.5], [3.5, 2], [2, 3], [-2, 3], [-3.5, 2] ],
+    "crouchingPoly" : [ [-3.5, -2.5], [-2, -5], [2, -5], [3.5, -2.5], [3.5, 2], [2, 3], [-2, 3], [-3.5, 2] ],
+    "mass" : 5,
+
+    "groundFriction" : 50,
+    "ambulatingGroundFriction" : 0,
+    "skiddingGroundFriction" : 0,
+
+    "groundForce" : 60,
+    "airForce" : 50,
+    "liquidForce" : 70,
+
+    "walkSpeed" : 24,
+    "runSpeed" : 24,
+
+    "airJumpProfile" : {
+      "jumpSpeed" : 60,
+      "jumpControlForce" : 800,
+      "jumpInitialPercentage" : 0.45,
+      "jumpHoldTime" : 0.15
+    },
+
+    "liquidJumpProfile" : {
+      "jumpSpeed" : 60,
+      "jumpControlForce" : 400,
+      "jumpInitialPercentage" : 0.75,
+      "jumpHoldTime" : 0.15,
+      "multiJump" : false
+    }
+  },
+
+  "energyCostPerSecond" : 0.5,
+  "warpDirectives" : "?fade=CCFF=0.25",
+  "walkOffset" : [[0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25], [0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25]],
+  "mechTransformPositionChange" : [0, 0],
+  "parentOffset" : [2, 1.2],
+  "suppressTools" : true,
+  "mechCollisionTest" : [-3.5, -2.5, 3.5, 5],
+  "mechType" : "apex",
+  "mechGunType" : "human",
+  "mechAimLimit" : 40,
+  "mechBackGunAngle" : 3.1,
+  "mechFireCycle" : 0.5,
+  "mechProjectile" : "neotommygunbullet",
+  "mechProjectileConfig" : {
+    "power" : 3
+  }
+}

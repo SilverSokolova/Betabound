@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_limegreendye"}],
+[{"op":"test","path":"/scripts"},{"op":"add","path":"/scripts/-","value":"/scripts/augments/sb_dye.lua"}],
+[{"op":"add","path":"/sb_dyeDirectives","value":"?replace;ffca8a=b2e89d;e0975c=51bd3b;a85636=247824;6f2919=144216"}]
+]

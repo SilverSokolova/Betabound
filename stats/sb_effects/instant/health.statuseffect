@@ -1,0 +1,6 @@
+{
+  "name" : "sb_health",
+  "effectConfig" : {"text":"^shadow,#f00;+%s Health","textOffset":0.9},
+  "defaultDuration" : 10,
+  "scripts" : ["instant.lua"]
+}

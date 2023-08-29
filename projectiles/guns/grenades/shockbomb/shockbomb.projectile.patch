@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/actionOnReap"},{"op":"test","path":"/actionOnReap/0/type","value":"shock"},{"op":"test","path":"/actionOnReap/0/config","inverse":true},{"op":"add","path":"/actionOnReap/0/config","value":{}}],
+[{"op":"test","path":"/actionOnReap/0/config/speed","inverse":true},{"op":"add","path":"/actionOnReap/0/config/speed","value":0}]
+]

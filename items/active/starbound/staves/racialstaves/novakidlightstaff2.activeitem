@@ -1,0 +1,52 @@
+{
+  "itemName" : "sb_novakidlightstaff2",
+  "definition" : "racialstaff",
+  "itemTags" : ["weapon","staff"],
+  "tags" : {"<race>" : "novakid", "<staff>" : "lightstaff2", "<n>" : ""},
+  "rarity" : "legendary",
+  "level" : 6,
+  "description" : "Creates a bright star to light up the area.",
+  "shortdescription" : "Supergiant Orb",
+  "tooltipFields" : {"subtitle":"Light Staff","damageKindImage":"/projectiles/sb_staves/racialstaves/light/supergiant/icon.png"},
+  "animationCustom" : {
+    "lights":{"glow":{"active":true,"color":[185,255,255]}},
+    "sounds":{
+      "icecharge" : ["/sfx/melee/staff_charge2_fire.ogg"],
+      "icefullcharge" : ["/sfx/melee/elemental_aura_activate.ogg"],
+      "icechargedloop" : ["/sfx/melee/staff_charged_fire2.ogg"],
+      "icedischarge" : ["/sfx/melee/elemental_aura_deactivate1.ogg"],
+      "iceactivate" : ["/sfx/melee/travelingslash_fire2.ogg"]
+    }
+  },
+  "configOverrides" : {
+    "stances" : {
+      "idle" : {
+	"armRotation" : 20,
+	"weaponRotation" : -20,
+	"weaponOffset" : [-0.2, 0.2],
+	"twoHanded" : true
+      },
+      "charge" : {
+	"armRotation" : 90,
+	"weaponRotation" : -90
+      },
+      "charged" : {
+	"armRotation" : 90,
+	"weaponRotation" : -90
+      }
+    }
+  },
+
+  "elementalType" : "ice",
+  "altAbilityType" : "forcecage",
+  "primaryAbility" : {
+    "projectileType" : "sb_supergiant",
+    "maxCastRange" : 20,
+    "energyCost" : 80,
+    "projectileParameters" : {
+      "baseDamage" : 35,
+      "speed" : 0
+    }
+  },
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

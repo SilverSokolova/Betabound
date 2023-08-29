@@ -1,0 +1,13 @@
+{
+  "itemName" : "sb_diamond_repair",
+  "price" : 300,
+  "tooltipKind" : "sb_object",
+  "rarity" : "rare",
+  "category" : "Tool",
+  "tooltipFields" : {"subtitle":"Repair Tool"},
+  "durabilityRegen" : 225,
+  "inventoryIcon" : "diamond.png",
+  "description" : "It's a diamond repair tool.\n^gray;Select repair tool and right-click pickaxe or drill.",
+  "shortdescription" : "Diamond Repair Tool",
+  "scripts" : ["/scripts/augments/sb_ore.lua"]
+}

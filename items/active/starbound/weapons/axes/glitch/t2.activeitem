@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_glitchtier2axe",
+  "description": "A tungsten axe.",
+  "shortdescription": "Steelsplitter",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t2",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

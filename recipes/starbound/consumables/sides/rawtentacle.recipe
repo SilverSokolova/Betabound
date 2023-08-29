@@ -1,0 +1,5 @@
+{
+  "input" : ["alienmeat",["sb_liquidtentaclejuice",10]],
+  "output" : ["rawtentacle",2],
+  "groups" : ["craftingfood","sides","sb_other","sb_t1food","all"]
+}

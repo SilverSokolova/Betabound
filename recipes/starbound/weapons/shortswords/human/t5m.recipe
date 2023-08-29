@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_refinedrubium",3],["durasteelbar",2]],
+  "output" : "sb_humantier5mshortsword",
+  "groups" : ["craftingseparator","weapons","all"]
+}

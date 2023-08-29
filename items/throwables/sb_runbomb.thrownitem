@@ -1,0 +1,29 @@
+{
+  "itemName" : "sb_runbomb",
+  "rarity" : "Common",
+  "tooltipKind" : "sb_object",
+  "inventoryIcon" : "sb_runbomb.png",
+  "image" : "sb_runbomb.png",
+  "shortdescription" : "The Sprinter",
+  "category" : "throwableItem",
+  "description" : "A bomb for when you feel the need for explosive speed.",
+  "price" : 110,
+  "ammoUsage" : 1,
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "sb_runbomb",
+  "projectileConfig" : {
+    "speed" : 25,
+    "level" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "input" : [["icecrystal",25],["leather",3]],
+  "output" : "sb_geometricbed",
+  "groups" : ["craftingfurniture","beds","all"]
+}

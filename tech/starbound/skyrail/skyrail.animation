@@ -1,0 +1,61 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "skyrail" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "on" : {
+            "frames" : 4,
+            "cycle" : 0.4,
+            "mode" : "loop"
+          }
+        }
+      },
+      "skyrailbg" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "on" : {
+            "frames" : 4,
+            "cycle" : 0.4,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+    "parts" : {
+      "raileffect" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [0, 1.5]
+        },
+        "partStates" : {
+          "skyrail" : {
+            "on" : {
+              "properties" : {
+                "image" : "raileffect.png:<frameIndex>"
+              }
+            }
+          }
+        }
+      },
+      "raileffectbg" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [0, 1.5]
+        },
+        "partStates" : {
+          "skyrailbg" : {
+            "on" : {
+              "properties" : {
+		"zLevel"  : -1,
+                "image" : "raileffectbg.png:<frameIndex>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

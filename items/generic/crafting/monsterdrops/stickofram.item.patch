@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/description","value":"A classic universal computer chip. Can be used for crafting."},
+{"op":"replace","path":"/description","value":"A classic universal computer chip."}]
+]

@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_apextier1axe",
+  "description": "An axe for an Apex.",
+  "shortdescription": "Apax",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t1",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

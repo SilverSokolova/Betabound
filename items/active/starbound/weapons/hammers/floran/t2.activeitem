@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_florantier2hammer",
+  "description": "A decent hammer.",
+  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "definition": "hammers/t2",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Thwacker"
+}

@@ -1,0 +1,22 @@
+{
+  "projectileName" : "sb_vinehook",
+  "image" : "/items/tools/vinehook.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "flippable" : false,
+  "actionOnReap" : [ ],
+  "statusEffects" : [ ],
+  "power" : 0,
+  "speed" : 4,
+  "movementSettings":{"collisionPoly":[[-0.25,0],[0,-0.25],[0.25,0],[0,0.25]]},
+  "damageKind" : "default",
+  "physics" : "ballisticgrapplehook",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 5,
+
+  "onlyHitTerrain" : true,
+
+  "scripts" : [ "grapplehook.lua" ]
+}

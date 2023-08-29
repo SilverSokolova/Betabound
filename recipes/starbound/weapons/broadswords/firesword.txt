@@ -1,0 +1,5 @@
+{
+  "input" : [["titaniumbar",10],["liquidlava",30],["sb_glowfibreorange",15]],
+  "output" : ["sb_firesword",1,{"level":3,"seed":42,"shortdescription":"Fire Sword"}],
+  "groups" : ["craftinganvil2","weapons","all"]
+}

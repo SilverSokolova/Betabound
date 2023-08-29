@@ -1,0 +1,6 @@
+{
+  "input" : ["dirturchin","corn"],
+  "output" : "sb_cornontheblob",
+  "groups" : ["craftingfood","sides","sb_healing","sb_health","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_cornontheblob"}
+}

@@ -1,0 +1,6 @@
+{
+  "input" : ["swampwater","rottenfood"],
+  "output" : ["sb_revoltingstew",2],
+  "groups" : ["craftingfood","sides","sb_other","nouncrafting","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_revoltingstew"}
+}

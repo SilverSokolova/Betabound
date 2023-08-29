@@ -1,0 +1,12 @@
+{
+  "itemName" : "sb_imperviumcompound",
+  "price" : 300,
+  "rarity" : "Legendary",
+  "tooltipKind" : "sb_object4",
+  "category" : "craftingMaterial",
+  "itemTags" : ["reagent"],
+  "learnBlueprintsOnPickup" : ["sb_imperviumbar"],
+  "inventoryIcon" : "sb_imperviumcompound.png",
+  "description" : "This compound possesses incredible durability. Weapons made from this prioritize raw strength above all else.",
+  "shortdescription" : "Impervium Compound"
+}

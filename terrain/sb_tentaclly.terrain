@@ -1,0 +1,47 @@
+{
+  "name" : "sb_tentaclly",
+
+  "type" : "displacement",
+  "xType" : "perlin",
+  "xOctaves" : 3,
+  "xFreq" : 0.2,
+  "xAmp" : 0,
+  "yType" : "perlin",
+  "yOctaves" : 3,
+  "yFreq" : 0.2,
+  "yAmp" : 0,
+
+  "source" : {
+    "type" : "displacement",
+    "xType" : "perlin",
+    "xOctaves" : 2,
+    "xFreq" : 0.02,
+    "xAmp" : 100,
+    "yXInfluence" : 0,
+    "yYInfluence" : 1,
+    "yType" : "billow",
+    "yOctaves" : 2,
+    "yFreq" : 0.02,
+    "yAmp" : 0,
+
+    "source" : {
+      "type" : "displacement",
+      "xType" : "perlin",
+      "xOctaves" : 2,
+      "xFreq" : 0.02,
+      "xAmp" : 0,
+      "yType" : "billow",
+      "yOctaves" : 2,
+      "yFreq" : 0.02,
+      "yAmp" : 100,
+      "yXInfluence" : 1,
+      "yYInfluence" : 0,
+
+      "source" : {
+        "type" : "flatSurface",
+
+        "adjustment" : 0
+      }
+    }
+  }
+}

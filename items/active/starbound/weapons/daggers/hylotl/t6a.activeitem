@@ -1,0 +1,1 @@
+{"description":"A dagger carried by Hylotl guards.","shortdescription":"Seaguard Dagger","itemName":"sb_hylotltier6adagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t6a","daggers/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

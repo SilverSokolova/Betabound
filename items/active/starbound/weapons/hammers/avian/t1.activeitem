@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_aviantier1hammer",
+  "description": "A chunk of iron on a stick.",
+  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "definition": "hammers/t1",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Brick-on-a-Stick"
+}

@@ -1,0 +1,74 @@
+{
+  "sb_farmChestTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "valuableTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.5, "pool" : "basicTreasure"},
+        {"weight" : 0.5, "pool" : "sb_farmTreasure"}
+      ],
+      "poolRounds" : [
+        [0.05, 1],
+        [0.40, 2],
+        [0.30, 3],
+        [0.15, 4],
+        [0.10, 5]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "sb_farmTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.70, "item" : ["wheat",2]},
+        {"weight" : 0.20, "item" : ["wheat",4]},
+        {"weight" : 0.10, "item" : ["wheat",6]}
+      ]
+    }]
+  ],
+
+
+  "sb_miningcampChestTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "valuableTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.5, "pool" : "basicSpaceTreasure"},
+        {"weight" : 0.5, "pool" : "sb_miningcampTreasure"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+
+  "sb_miningcampTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.8, "pool" : "nonTieredRichOre"},
+        {"weight" : 0.8, "pool" : "ore"},
+        {"weight" : 0.9, "item" : ["sb_diamondore",6]},
+        {"weight" : 0.8, "pool" : "diggingTool"},
+        {"weight" : 0.8, "item" : ["climbingrope",3]},
+        {"weight" : 0.8, "item" : ["climbingrope",2]},
+        {"weight" : 0.8, "item" : "climbingrope"},
+
+        {"weight" : 0.05, "pool" : "spaceWeapon"},
+        {"weight" : 0.4, "pool" : "commonSpaceItem"},
+        {"weight" : 0.2, "pool" : "rareSpaceItem"},
+
+        {"weight" : 0.7, "item" : ["lightmetal",100]},
+        {"weight" : 0.4, "pool" : "spaceTrash"},
+        {"weight" : 0.7, "item" : ["magmarock",100]},
+
+        {"weight" : 0.5, "item" : ["lightmetal",25]},
+        {"weight" : 0.5, "item" : ["magmarock",25]}
+      ]
+    }]
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "input" : ["wheat","sugar","milk","egg"],
+  "output" : ["sb_cake",2],
+  "groups" : ["craftingfood","desserts","sb_healing","sb_energy","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_cake"}
+}

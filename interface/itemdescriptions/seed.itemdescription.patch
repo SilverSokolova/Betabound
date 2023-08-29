@@ -1,0 +1,20 @@
+[[{
+      "op": "test",
+      "path": "/toolLabel"
+    }, {
+      "op": "test",
+      "path": "/subTitle",
+      "inverse": true
+    }, {
+      "op": "move",
+      "path": "/subTitle",
+      "from": "/toolLabel"
+    }
+  ], [{
+      "op": "test",
+      "path": "/handednessLabel"
+    }, {
+      "op": "remove",
+      "path": "/handednessLabel"
+    }
+  ]]

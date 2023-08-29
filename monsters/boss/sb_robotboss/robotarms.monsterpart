@@ -1,0 +1,10 @@
+{
+  "name" : "sb_robotarms",
+  "category" : "sb_robotboss",
+  "type" : "arms",
+
+  "frames" : {
+    "frontArm" : "robotfarm.png",
+    "backArm" : "robotbarm.png"
+  }
+}

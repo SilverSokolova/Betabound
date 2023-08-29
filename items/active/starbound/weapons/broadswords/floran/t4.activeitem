@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_florantier4broadsword",
+  "description": "A sword that really hurts.",
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "definition": "broadswords/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Big Nastyslice"
+}

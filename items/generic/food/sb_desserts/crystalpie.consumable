@@ -1,0 +1,19 @@
+{
+  "itemName" : "sb_crystalpie",
+  "rarity" : "rare",
+  "price" : 450,
+  "category" : "preparedFood",
+  "inventoryIcon" : "crystalpie.png",
+  "description" : "Not actually a pie. It's a thick, soft layer of frosting over a hard, glowing brick of crystal bread.",
+  "shortdescription" : "Crystal Pie",
+  "effects" : [[
+	{"effect":"glow","duration":450},
+	"sb_foodheal170"
+  ]],
+  "foodValue" : 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 4
+}

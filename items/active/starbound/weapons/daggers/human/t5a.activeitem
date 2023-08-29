@@ -1,0 +1,1 @@
+{"description":"Named as such because the grip is green. Obviously.","shortdescription":"Greengrip","itemName":"sb_humantier5adagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t5a","daggers/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

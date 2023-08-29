@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/builder","inverse":true},{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildarmor.lua"}],
+[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":5000}],
+[{"op":"test","path":"/rarity","value":"Rare"},{"op":"replace","path":"/rarity","value":"Legendary"}],
+[{"op":"test","path":"/description","value":"This prototype mask is inspired by the Glitch.-NOT USED-"},{"op":"replace","path":"/description","value":"After meeting a group of Glitch, human adventurers adopted a new style for masks."}]
+]

@@ -1,0 +1,14 @@
+{
+  "kind" : "sb_warpout_car",
+  "definition" : {
+    "type" : "animated",
+    "image" : "/tech/starbound/automobile/car/warpout.animation",
+    "size" : 1,
+    "fade" : 0.4,
+    "frames" : 16,
+    "position" : [0.89, -0.8],
+    "finalVelocity" : [0, 0],
+    "timeToLive" : 2.64,
+    "layer" : "front"
+  }
+}

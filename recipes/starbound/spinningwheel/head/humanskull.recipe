@@ -1,0 +1,5 @@
+{
+  "input" : ["humanfossil1"],
+  "output" : "humanskullhead",
+  "groups" : ["craftingwheel","clothes","all"]
+}

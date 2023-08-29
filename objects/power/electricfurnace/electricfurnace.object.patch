@@ -1,0 +1,26 @@
+[
+    [{
+        "op": "test",
+        "path": "/bonusOutputs/platinumore",
+        "inverse" : true
+    },
+    {
+        "op": "add",
+        "path": "/bonusOutputs/platinumore",
+        "value": {
+            "ironore": 25,
+            "fu_oxygen": 23,
+            "fu_carbondioxide": 30
+        }
+    }],
+    [{
+        "op": "test",
+        "path": "/inputsToOutputs/platinumore",
+        "inverse" : true
+    },
+    {
+        "op": "add",
+        "path": "/inputsToOutputs/platinumore",
+        "value": "platinumbar"
+    }]
+]

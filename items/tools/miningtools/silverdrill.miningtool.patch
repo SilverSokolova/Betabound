@@ -1,0 +1,12 @@
+[
+[{"op":"test","path":"/tooltipKind","value":"tool"},{"op":"replace","path":"/tooltipKind","value":"sb_tool"}],
+[{"op":"test","path":"/blockRadius","value":2},{"op":"replace","path":"/blockRadius","value":4}],
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"uncommon"}],
+[{"op":"test","path":"/durability","value":1000},{"op":"replace","path":"/durability","value":1500}],
+[{"op":"test","path":"/description","value":"Drills fast but breaks quickly. A temporary alternative to the matter manipulator."},
+{"op":"replace","path":"/description","value":"A silver drill! This is more like it."}],
+
+[{"op":"add","path":"/canBeRepaired","value":true}],
+[{"op":"test","path":"/radioMessagesOnPickup","inverse":true},{"op":"add","path":"/radioMessagesOnPickup","value":[]}],
+[{"op":"add","path":"/radioMessagesOnPickup/-","value":"sb_pickupminingtool"}]
+]

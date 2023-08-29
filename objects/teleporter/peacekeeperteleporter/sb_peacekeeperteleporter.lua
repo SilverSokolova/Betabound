@@ -1,0 +1,1 @@
+function onInteraction(args) world.sendEntityMessage(args.sourceId,"sb_peacekeeperteleporter",{config.getParameter("interactAction"),config.getParameter("interactData"),entity.id()}) end

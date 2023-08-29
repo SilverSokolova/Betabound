@@ -1,0 +1,6 @@
+{
+  "input" : ["glasscoffeemug","sb_liquidcoffee"],
+  "output" : "coffee",
+  "groups" : ["craftingfood","drinks","coffee","sb_healing","sb_energy","sb_energyregen","sb_t1food","plain","consumables","all"],
+  "collectables" : {"cooking":"coffee"}
+}

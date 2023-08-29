@@ -1,0 +1,63 @@
+{
+  "itemName": "sb_glitchlordshield",
+  "price": 600,
+  "maxStack": 1,
+  "rarity": "Uncommon",
+  "category": "shield",
+  "description": "There's something powerful between us.",
+  "shortdescription": "Glitch Lord Shield",
+  "sb_subtitle": "Royal Shield",
+  "tooltipKind": "sb_shield",
+  "twoHanded": false,
+  "itemTags": ["shield", "upgradeableweapon"],
+
+  "inventoryIcon": "images/sb_glitchlord.png:nearidle",
+
+  "animation": "shield.animation",
+  "animationParts": {
+    "shield": "images/sb_glitchlord.png"
+  },
+  "animationCustom": {
+    "sounds": {
+      "raiseShield": ["/sfx/melee/sword_guard.ogg"],
+      "perfectBlock": ["/sfx/melee/shield_block_metal_perfect.ogg"],
+      "block": ["/sfx/melee/shield_block_metal.ogg"],
+      "break": ["/sfx/melee/shield_break_metal.ogg"]
+    }
+  },
+
+  "scripts": ["/items/active/shields/shield.lua", "sb_shield.lua"],
+
+  "minActiveTime": 0.2,
+
+  "forceWalk": true,
+  "baseShieldHealth": 35,
+  "cooldownTime": 0.7,
+
+  "perfectBlockDirectives": "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime": 0.2,
+
+  "knockback": 10,
+
+  "stances": {
+    "idle": {
+      "armRotation": -90,
+      "shieldRotation": 0,
+      "allowRotate": false,
+      "allowFlip": true
+    },
+    "raised": {
+      "armRotation": 0,
+      "shieldRotation": 0,
+      "allowRotate": false,
+      "allowFlip": true
+    }
+  },
+
+  "builderConfig": [{
+      "nameGenerator": "sb_glitchlordshieldnames.config:nameGen"
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildshield.lua",
+  "sb_builder": "/items/buildscripts/buildshield.lua"
+}

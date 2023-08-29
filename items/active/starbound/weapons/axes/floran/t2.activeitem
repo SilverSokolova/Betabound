@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_florantier2axe",
+  "description": "A decent axe. It's better than a basic axe.",
+  "shortdescription": "Better Choppy Thing",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t2",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

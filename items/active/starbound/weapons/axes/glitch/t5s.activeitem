@@ -1,0 +1,1 @@
+{"description":"An axe you can swing forever.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_glitchtier5saxe","definition":["colors/t5s","axes/s"],"shortdescription":"Perpetuum","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

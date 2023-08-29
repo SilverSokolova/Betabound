@@ -1,0 +1,6 @@
+{
+  "input" : ["rawbacon","sb_meatchunks","rawribmeat"],
+  "output" : "sb_meatwich",
+  "groups" : ["craftingfood","mains","sb_healing","sb_health","all"],
+  "collectables" : {"cooking":"sb_meatwich"}
+}

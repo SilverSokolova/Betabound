@@ -1,0 +1,22 @@
+{
+  "projectileName" : "sb_cutterleafx",
+  "image" : "cutterleafx.png",
+  "animationCycle" : 0.25,
+  "physics" : "gravitybullet",
+  "frameNumber" : 2,
+  "pointLight" : false,
+  "speed" : 50,
+  "timeToLive" : 2.5,
+  "orientationLocked" : true,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/leafexplosion/leafexplosion.config"
+    }
+  ],
+  "power" : 3,
+  "damagePoly" : [[-2,2],[-2,-2],[2,-2],[2,2]],
+  "damageKind" : "default",
+  "emitters" : ["defaultgreen"]
+}

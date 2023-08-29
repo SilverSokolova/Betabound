@@ -1,0 +1,22 @@
+{
+  "itemName" : "sb_heartstringbow",
+  "definition" : "bow",
+  "itemTags" : ["weapon","ranged","bow","upgradeableWeapon"],
+  "tags" : {"<bow>" : "heartstring"},
+  "tooltipFields" : {"damageKindImage":"/interface/sb_tooltips/sb_heckarrow.png"},
+  "description" : "Harvests meat and other goods from monsters.",
+  "shortdescription" : "Heartstring Bow",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 8.25,
+    "inaccuracy" : 0.025,
+    "projectileType" : "sb_heckarrow",
+    "powerProjectileType" : "sb_heckarrow",
+    "walkWhileFiring" : true,
+    "projectileParameters" : {"speed":80,"power":8.375}
+  },
+
+  "altAbilityType" : "zenshot",
+  "altAbility" : {"projectileType" : "sb_bloodcloud"},
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

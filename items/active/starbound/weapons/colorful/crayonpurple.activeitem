@@ -1,0 +1,11 @@
+{
+  "itemName" : "sb_crayonpurple",
+  "definition" : "crayon",
+  "shortdescription" : "Striking Purple Crayon",
+  "tags" : {
+    "<color>" : "purple",
+    "<swaps>" : "?replace;ffca8a=df8aff;eb9550=b150eb;b55f30=7730b5;843114=451484"
+  },
+  "itemTags" : ["weapon","melee","shortsword","upgradeableWeapon"],
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

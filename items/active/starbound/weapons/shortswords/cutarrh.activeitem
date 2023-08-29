@@ -1,0 +1,39 @@
+{
+  "itemName" : "sb_cutarrh",
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "A sharp blade which secretes a putrid, oozing mucus.",
+  "shortdescription" : "Cutarrh",
+  "tooltipKind" : "sb_sword2",
+  "price" : 800,
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "sb_waBan" : true,
+  "itemTags" : ["weapon","melee","shortsword","slime","upgradeableWeapon"],
+  "handGrip" : "inside",
+  "inventoryIcon" : "cutarrh.png<directives>",
+  "animation" : "/items/active/starbound/weapons/shortsword.animation",
+  "animationParts" : {
+    "blade" : "cutarrh.png<directives>",
+    "handle" : ""
+  },
+  "animationCustom" : {
+    "lights":{"glow":{"color":[0,0,0]}},
+    "animatedParts":{
+      "parts" : {
+	"swoosh":{"partStates":{"swoosh":{"fire":{"properties":{"image":"slimeswoosh.png:<frame>"}}}}}
+      }}
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "primaryAbilityType" : "sb_meleeslash2",
+  "primaryAbility" : {
+    "projectileType" : "sb_slimeblob",
+    "projectileOffset" : [1, 0.5],
+    "fireTime" : [0.333,0.666],
+    "baseDps" : [2.5,5.5],
+    "baseDamage" : [2.5,5.5]
+  },
+  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+}

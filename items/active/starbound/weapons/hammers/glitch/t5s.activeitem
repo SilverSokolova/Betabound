@@ -1,0 +1,1 @@
+{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"A hammer that'll shatter any Glitch outer shells.","itemTags":["weapon","melee","hammer","upgradeableWeapon"],"definition":["colors/t5s","hammers/t5s"],"itemName":"sb_glitchtier5shammer","shortdescription":"Internal Explorer"}

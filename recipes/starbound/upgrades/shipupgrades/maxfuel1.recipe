@@ -1,0 +1,5 @@
+{
+  "input" : ["upgrademodule",["moonstoneore",20],["uraniumrod",20],["titaniumbar",10]],
+  "output" : "sb_maxfuel1",
+  "groups" : ["sb_roboticcraftingtable","tools","all"]
+}

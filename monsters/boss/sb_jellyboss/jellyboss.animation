@@ -1,0 +1,474 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "music": {
+        "default": "on",
+        "states": {
+          "off": {},
+          "on": {
+            "mode": "loop",
+            "properties": {
+              "persistentSound": "/music/tentacle-battle1-loop.ogg",
+              "persistentSoundStopTime": 6,
+              "persistentSoundRangeMultiplier": 7
+            }
+          }
+        }
+      },
+      "body": {
+        "priority": 0,
+        "default": "idle",
+        "states": {
+          "idle": {
+            "frames": 8,
+            "mode": "loop",
+            "cycle": 1.2,
+            "properties": {}
+          },
+          "jump": {
+            "frames": 8,
+            "mode": "loop",
+            "properties": {
+              "immediateSound": "/sfx/projectiles/goo_spit1.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          },
+          "hop": {
+            "frames": 8,
+            "mode": "loop",
+            "properties": {
+              "immediateSound": "/sfx/projectiles/goo_spit1.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          },
+          "hopfull": {
+            "frames": 8,
+            "mode": "loop",
+            "properties": {
+              "immediateSound": "/sfx/projectiles/goo_spit1.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          },
+
+          "land": {
+            "frames": 8,
+            "mode": "loop",
+            "properties": {
+              "immediateSound": "/sfx/projectiles/goo_spit1.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          },
+          "fly": {
+            "frames": 8,
+            "mode": "loop",
+            "properties": {
+              "immediateSound": "/sfx/projectiles/goo_spit1.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          },
+          "walk": {
+            "frames": 8,
+            "cycle": 1.2,
+            "mode": "loop",
+            "properties": {}
+          },
+          "charge": {
+            "frames": 8,
+            "cycle": 1.6,
+            "mode": "loop",
+            "properties": {
+              "immediateSound": "/sfx/melee/swing_broadsword_poison1.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          },
+          "hurt": {
+            "frames": 8,
+            "mode": "loop",
+            "properties": {
+              "immediateSound": "/sfx/projectiles/poison_barrier_kill.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          },
+          "fall": {
+            "frames": 1
+          },
+          "chargewindup": {
+            "frames": 8,
+            "cycle": 0.45,
+            "mode": "loop",
+            "properties": {
+              "immediateSound": "/sfx/projectiles/goo_spit1.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          },
+          "swoopwindup": {
+            "frames": 8,
+            "cycle": 0.45,
+            "mode": "loop",
+            "properties": {
+              "immediateSound": "/sfx/projectiles/goo_spit1.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          },
+          "chargewinddown": {
+            "frames": 8,
+            "mode": "loop",
+            "cycle": 0.45,
+            "properties": {
+              "immediateSound": "/sfx/projectiles/goo_spit1.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          },
+          "swoopwinddown": {
+            "frames": 8,
+            "mode": "loop",
+            "cycle": 0.45,
+            "properties": {
+              "immediateSound": "/sfx/projectiles/goo_spit1.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          },
+          "swoop": {
+            "frames": 8,
+            "mode": "loop",
+            "cycle": 0.45,
+            "properties": {
+              "immediateSound": "/sfx/projectiles/goo_spit1.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          },
+          "firewindup": {
+            "frames": 8,
+            "cycle": 1.58,
+            "mode": "loop",
+            "properties": {
+              "immediateSound": "/sfx/projectiles/poisonorb_break2.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          },
+          "fire": {
+            "frames": 8,
+            "mode": "loop",
+            "cycle": 0.5,
+            "properties": {
+              "immediateSound": "/sfx/projectiles/poisonorb_break2.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          },
+          "firewinddown": {
+            "frames": 8,
+            "mode": "loop",
+            "cycle": 0.45,
+            "properties": {
+              "immediateSound": "/sfx/gun/grenadeblast_poison2.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          },
+          "teslawindup": {
+            "frames": 8,
+            "cycle": 1.32,
+            "mode": "loop",
+            "properties": {
+              "immediateSound": "/sfx/projectiles/goo_spit1.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          },
+          "wavewindup": {
+            "frames": 8,
+            "cycle": 1.58,
+            "mode": "loop",
+            "properties": {
+              "immediateSound": "/sfx/projectiles/goo_spit1.ogg",
+              "immediateSoundRangeMultiplier": 0.5
+            }
+          }
+        }
+      },
+      "damage": {
+        "priority": 3,
+        "default": "none",
+        "states": {
+          "none": {
+            "frames": 1
+          },
+          "stunned": {
+            "frames": 1
+          }
+        }
+      },
+      "releaseParticles": {
+        "default": "off",
+        "states": {
+          "off": {
+            "frames": 8,
+            "properties": {
+              "particleEmittersOff": [
+                "releaseParticles"
+              ]
+            }
+          },
+          "on": {
+            "frames": 8,
+            "cycle": 0.1,
+            "mode": "transition",
+            "transition": "off",
+            "properties": {
+              "particleEmittersOn": [
+                "releaseParticles"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "parts": {
+      "body": {
+        "properties": {
+          "transformationGroups": [
+            "body"
+          ],
+          "offset": [
+            0.5,
+            0.75
+          ]
+        },
+        "partStates": {
+          "body": {
+            "idle": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "walk": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "hurt": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "jump": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "hop": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "land": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "fly": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "hopfull": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "fall": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "chargewindup": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "swoopwindup": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "swoopwinddown": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "charge": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "chargewinddown": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "firewindup": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "fire": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "firewinddown": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "teslawindup": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "swoop": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            },
+            "wavewindup": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            }
+          },
+          "damage": {
+            "stunned": {
+              "properties": {
+                "image": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "transformationGroups": {
+    "body": {
+      "interpolated": true
+    }
+  },
+  "effects": {
+    "blink": {
+      "type": "flash",
+      "time": 0,
+      "directives": "fade=ffffff;0.5"
+    }
+  },
+  "particleEmitters": {
+    /*    "predeath" : {
+    "active" : false,
+    "emissionRate" : 18,
+    "offsetRegion" : [-8, -8, 8, 8],
+    "particles" : [{ "particle" : "dripslime" },{ "particle" : "dripslime" },{ "particle" : "dripslime" }
+    ]
+    },*/
+    "captureParticles": {
+      "particles": [{
+          "particle": "monstercapture"
+        }
+      ]
+    },
+    "releaseParticles": {
+      "particles": [{
+          "particle": "monsterrelease"
+        }
+      ]
+    },
+    "teleportOut": {
+      "particles": [{
+          "particle": "monstercapture"
+        }
+      ]
+    },
+    "teleportIn": {
+      "particles": [{
+          "particle": "monsterrelease"
+        }
+      ]
+    },
+    "levelUp": {
+      "particles": [{
+          "particle": "monsterlevelup"
+        }
+      ]
+    },
+    "deathPoof": {
+      "particles": [{
+          "particle": "monstersplosion"
+        }, {
+          "particle": "sb_jellydeath_1"
+        }, {
+          "particle": "sb_jellydeath_2"
+        }, {
+          "particle": "sb_jellydeath_3"
+        }, {
+          "particle": "sb_jellydeath_4"
+        }, {
+          "particle": "sb_jellydeath_5"
+        }, {
+          "particle": "sb_jellydeath_1"
+        }, {
+          "particle": "sb_jellydeath_2"
+        }, {
+          "particle": "sb_jellydeath_3"
+        }, {
+          "particle": "sb_jellydeath_4"
+        }, {
+          "particle": "sb_jellydeath_5"
+        }, {
+          "particle": "deathfizz1left"
+        }, {
+          "particle": "deathfizz1right"
+        }, {
+          "particle": "deathfizz2left"
+        }, {
+          "particle": "deathfizz2right"
+        }, {
+          "particle": "deathfizz3left"
+        }, {
+          "particle": "deathfizz3right"
+        }, {
+          "particle": "deathfizz4left"
+        }, {
+          "particle": "deathfizz4right"
+        }
+      ]
+    }
+  },
+  "sounds": {
+    "aggroHop": [
+      "/sfx/npc/monsters/monster_surprise.ogg"
+    ],
+    "deathPuff": [
+      "/sfx/npc/enemydeathpuff.ogg"
+    ],
+    "idle": [
+      "/assetmissing.wav"
+    ],
+    "attack": [
+      "/sfx/projectiles/goo_spit1.ogg"
+    ],
+    "melee": [
+      "/sfx/projectiles/goo_spit1.ogg"
+    ],
+    "wallCrash": [
+      "/assetmissing.wav"
+    ],
+    "crash": [
+      "/assetmissing.wav"
+    ],
+    "pain1": [
+      "/sfx/projectiles/goo_spit1.ogg"
+    ],
+    "pain2": [
+      "/sfx/projectiles/goo_spit1.ogg"
+    ],
+    "pain3": [
+      "/sfx/projectiles/goo_spit1.ogg"
+    ]
+  }
+}

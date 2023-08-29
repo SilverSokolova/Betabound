@@ -1,0 +1,5 @@
+{
+  "input" : ["coalore","sulphur"],
+  "output" : ["sb_gunpowder",2],
+  "groups" : ["ingredients","craftingfurnace","all"]
+}

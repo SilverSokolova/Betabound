@@ -1,0 +1,1 @@
+{"description":"A lethal, sharp axe with beautiful plumage.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_aviantier5saxe","definition":["colors/t5s","axes/s"],"shortdescription":"Poliwanta Cleankill","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

@@ -1,0 +1,60 @@
+{
+  "itemName": "sb_candycane",
+  "level": 1,
+  "price": 180,
+  "maxStack": 1,
+  "rarity": "common",
+  "category": "broadsword",
+  "shortdescription": "Candy Cane",
+  "tooltipKind": "sb_sword",
+  "twoHanded": true,
+  "sb_waBan": true,
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "sb_backingDirectives": "?replace;d93a3a=e0975c;932625=a85636;601119=6f2919",
+  "animation": "/items/active/starbound/weapons/broadsword.animation",
+  "animationParts": {
+    "blade": "candycane.png",
+    "handle": ""
+  },
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "image": "/items/active/weapons/melee/hammer/swoosh/physicalswoosh.png:<frame>",
+                  "offset": [0.6, 2.40]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "builderConfig": [{
+      "nameGenerator": "candycanenames.config:nameGen",
+      "iconDrawables": ["blade"],
+      "altAbilities": [
+        "bladecharge",
+        "downstab",
+        "parry",
+        "risingslash",
+        "spinslash",
+        "superspinslash"
+      ]
+    }
+  ],
+
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType": "physical",
+  "primaryAbilityType": "sb_meleeslash",
+  "primaryAbility": {
+    "fireTime": [0.6, 0.9],
+    "baseDps": [10.5, 11.5]
+  },
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

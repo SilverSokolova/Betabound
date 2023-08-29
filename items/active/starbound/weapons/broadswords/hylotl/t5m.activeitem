@@ -1,0 +1,1 @@
+{"description":"A sword perfect for slicing shark steaks.","shortdescription":"Sharkslicer","itemName":"sb_hylotltier5mbroadsword","definition":["colors/t5m","broadswords/t5m"],"itemTags":["weapon","melee","broadsword","upgradeableWeapon"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

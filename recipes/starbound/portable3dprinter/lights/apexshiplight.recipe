@@ -1,0 +1,5 @@
+{
+  "input" : [["money",100]],
+  "output" : "apexshiplight",
+  "groups" : ["sb_portable3dprinter","sb_lights","all"]
+}

@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_apextier2spear",
+  "description": "A spiky spear.",
+  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "definition": "spears/t2",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Fruitpicker"
+}

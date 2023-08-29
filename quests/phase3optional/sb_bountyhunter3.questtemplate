@@ -1,0 +1,38 @@
+{
+  "id" : "sb_bountyhunter3.gearup",
+  "prerequisites" : [ "hylotl_mission1", "sb_bountyhunter2.gearup", "sb_glitchsilenttype2.gearup", "sb_humanexcon2.gearup", "sb_humansurvivor2.gearup" ],
+  "title" : "^green;Pest Problem",
+  "text" : "I have a job I need taken care of... ^green;Do you think you could find me some ^orange;cheese and some liquid poison?",
+  "completionText" : "Excellent... Here, I don't need this anymore.",
+  "speaker" : "questGiver",
+  "moneyRange" : [0, 0],
+  "rewards" : [[["sb_uncommonshotgun",1,{"level":4}],"upgrademodule",["rewardbag",1,{"treasure":{"level":4}}]]],
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquest.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {"default" : "questGiver"},
+    "requireTurnIn" : true,
+    "turnInDescription" : "Speak to ^orange;the bounty hunter^reset; at the ^orange;outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "cheese",
+        "count" : 1,
+        "consume" : true
+      },
+      {
+        "type" : "gatherItem",
+        "itemName" : "liquidpoison",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}

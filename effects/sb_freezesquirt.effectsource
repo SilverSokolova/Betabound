@@ -1,0 +1,24 @@
+{
+  "kind" : "sb_freezesquirt",
+  "location" : "mouth",
+  "definition" : {
+    "duration" : 0.001,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        ["sb_freezesquirt"]
+      ],
+      "sounds" : [[]]
+    },
+    "particles" : [
+      ["sb_freezesquirt"]
+    ],
+    "sounds" : [[]],
+    "stop" : {
+      "particles" : [
+        []
+      ],
+      "sounds" : [[]]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"description":"A lethal, powerful shortsword.","shortdescription":"Crest of Kluex","itemName":"sb_aviantier6sshortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t6s","shortswords/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

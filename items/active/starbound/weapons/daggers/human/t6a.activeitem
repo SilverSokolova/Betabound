@@ -1,0 +1,8 @@
+{
+  "description": "A little barbed dagger.",
+  "shortdescription": "Small Fury",
+  "itemName": "sb_humantier6adagger",
+  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "definition": ["colors/t6a", "daggers/a"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

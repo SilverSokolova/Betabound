@@ -1,0 +1,5 @@
+{
+  "input" : ["gauntlet","upgrademodule",["scorchedcore",15]],
+  "output" : "sb_explosiveglove",
+  "groups" : ["craftinganvil","weapons","all"]
+}

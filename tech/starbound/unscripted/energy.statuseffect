@@ -1,0 +1,6 @@
+{
+  "name" : "sb_energytech",
+  "defaultDuration" : 5,
+  "label" : "Energy+",
+  "icon" : "/tech/starbound/energy.png"
+}

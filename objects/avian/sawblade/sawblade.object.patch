@@ -1,0 +1,14 @@
+[
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":0}],
+[{"op":"replace","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/smashDropOptions","inverse":true},{"op":"add","path":"/smashDropOptions","value":[]}],
+[{"op":"add","path":"/smashDropOptions/-","value":[["sawblade",1,{}]]}],
+
+[{"op":"test","path":"/damageTeam","inverse":true},
+{"op":"add","path":"/damageTeam","value":{"type":"indiscriminate","team":4}}],
+[{"op":"test","path":"/orientations/0/touchDamage/damageType","value":"Environment"},
+{"op":"replace","path":"/orientations/0/touchDamage/damageType","value":"Damage"},
+{"op":"replace","path":"/orientations/1/touchDamage/damageType","value":"Damage"},
+{"op":"replace","path":"/orientations/2/touchDamage/damageType","value":"Damage"},
+{"op":"replace","path":"/orientations/3/touchDamage/damageType","value":"Damage"}]
+]

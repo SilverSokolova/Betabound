@@ -1,0 +1,115 @@
+//No container mod compat for this one
+{
+  "objectName" : "sb_vendingmachine",
+  "colonyTags" : ["human","humanbunker","commerce","mechanical"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "sb_container",
+  "description" : "Ooh, snack time.",
+  "shortdescription" : "Unlocked Vending Machine",
+  "race" : "human",
+  "category" : "fridgeStorage",
+  "price" : 185,
+  "lightColor" : [153, 115, 116],
+  "builder" : "/items/buildscripts/starbound/buildcontainer.lua",
+
+  "apexDescription" : "A vending machine. No banana-flavoured snacks, sadly.",
+  "avianDescription" : "Perfect to stave off hunger.",
+  "floranDescription" : "Floran ssshake machine, sssnack popsss out.",
+  "glitchDescription" : "Indecisive. I can't decide what to buy.",
+  "humanDescription" : "Oh boy, it's the kind of vending machine where you win every time!",
+  "hylotlDescription" : "A vending machine for processed snacks. They will have to do.",
+  "novakidDescription" : "A vendin' machine for sugary type drinks.",
+
+  "scriptStorage" : {},
+  "inventoryIcon" : "vendingmachineicon.png",
+  "retainObjectParametersInItem" : true,
+  "treasurePools" : ["vendingtreasure"],
+
+  "orientations" : [
+    {
+      "image" : "vendingmachineleftpreview.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+
+      "animationParts" : {
+        "bg" : "vendingmachineleft.png",
+        "fg" : "vendingmachineleftlit.png"
+      },
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"],
+      "collision" : "platform"
+    },
+    {
+      "image" : "vendingmachineright.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "vendingmachineright.png",
+        "fg" : "vendingmachinerightlit.png"
+      },
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"],
+      "collision" : "platform"
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "vendingmachineleft.png",
+    "fg" : "vendingmachineleftlit.png"
+  },
+
+  "scripts" : [
+    "/objects/wired/light/light.lua",
+    "/scripts/npcToyObject.lua",
+    "/objects/human/vendingmachine/sb_vendingmachine.lua"
+  ],
+  "scriptDelta" : 60,
+
+  "openSounds" : ["/sfx/objects/vendingmachine_open1.ogg"],
+  "closeSounds" : ["/sfx/objects/vendingmachine_close1.ogg"],
+  "slotCount" : 16,
+  "tooltipFields" : {"slotCountLabel":"Holds 16 Items"},
+  "uiConfig" : "/interface/sb_chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  "itemAgeMultiplier" : 0,
+
+  "inputNodes" : [[0, 2]],
+  "interactive" : true,
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_loud.ogg",
+
+  "npcToy" : {
+    "influence" : [
+      "vendingmachineActivate",
+      "vendingmachineCollect",
+      "vendingmachineConsume",
+      "vendingmachineComplete"
+    ],
+    "defaultReactions" : {
+      "vendingmachineActivate" : [
+        [1, "pressbutton"]
+      ],
+      "vendingmachineCollect" : [
+        [1, "crouchcollect"]
+      ],
+      "vendingmachineConsume" : [
+        [1, "drink"]
+      ],
+      "vendingmachineComplete" : [
+        [1, "smile"],
+        [0.1, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 1],
+    "preciseStandPositionRight" : [2, 1],
+    "maxNpcs" : 1
+  }
+}

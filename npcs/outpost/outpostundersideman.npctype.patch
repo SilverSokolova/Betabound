@@ -1,0 +1,34 @@
+[
+  //hey so dont use sb_quests for this guy. he does byos stuff
+  [{
+      "op": "test",
+      "path": "/scriptConfig/offeredQuests",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/scriptConfig/offeredQuests",
+      "value": []
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/scriptConfig/turnInQuests",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/scriptConfig/turnInQuests",
+      "value": []
+    }
+  ],
+
+  [{
+      "op": "add",
+      "path": "/scriptConfig/offeredQuests/-",
+      "value": "sb_underside1.gearup"
+    }, {
+      "op": "add",
+      "path": "/scriptConfig/turnInQuests/-",
+      "value": "sb_underside1.gearup"
+    }
+  ]
+]

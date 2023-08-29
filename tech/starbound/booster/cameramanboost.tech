@@ -1,0 +1,17 @@
+{
+  "name" : "sb_cameramanboost",
+  "type" : "legs",
+
+  "rarity" : "Legendary",
+  "icon" : "/interface/x.png",
+  "description" : "Press and hold Jump in the air to float around with this Cameraman Boost tech.",
+  "sb_briefDescription" : "Press and hold Jump in the air to float around.",
+  "shortDescription" : "Cameraman Boost",
+
+  "scripts" : ["booster.lua"],
+  "animator" : "cameramanboost.animation",
+
+  "boostControlForce" : 1500,
+  "boostSpeed" : 8,
+  "energyUsagePerSecond" : 0
+}

@@ -1,0 +1,1 @@
+{"description":"A sharp dagger covered in berries.","shortdescription":"Berrypicker","itemName":"sb_florantier5sdagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t5s","daggers/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "sb_fleshstaff",
+  "definition" : "staff",
+  "itemTags" : ["weapon","staff","upgradeableWeapon"],
+  "tags" : {"<staff>" : "flesh", "<glow>" : "fleshglow"},
+
+  "description" : "Creates revolting solid light holograms. Long live the new flesh!",
+  "shortdescription" : "Fleshbringer",
+  "tooltipFields" : {"damageKindImage":"/interface/sb_tooltips/sb_fleshseedspawn.png"},
+  "animationCustom" : {
+    "animatedParts": {"parts":{"chargeEffect":{"properties":{"offset":[0,1]}}}},
+    "particleEmitters" : {
+      "physicalcharge" : {"particles":[]}
+    },
+    "sounds" : {
+      "zoneactivate" : ["/sfx/blocks/water_puddlemod.ogg","/sfx/blocks/water_swim.ogg"]
+    }
+  },
+
+  "elementalType" : "poison",
+  "altAbilityType" : "elementrain",
+  "primaryAbility" : {
+    "projectileType" : "sb_fleshseedspawn",
+    "projectileParameters" : {
+      "baseDamage" : 8,
+      "damageTeam" : {"type":"indiscriminate"}
+    }
+  },
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_apextier1hammer",
+  "description": "A basic warhammer.",
+  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "definition": "hammers/t1",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Thunderpunch"
+}

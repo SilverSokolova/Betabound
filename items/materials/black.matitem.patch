@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/shortdescription","value":"..."},{"op":"replace","path":"/shortdescription","value":"Black Block"}],
+[{"op":"test","path":"/description","value":"..."},{"op":"replace","path":"/description","value":"A pitch black block."}]
+]

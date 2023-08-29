@@ -1,0 +1,2 @@
+[[{"op":"test","path":"/description","value":"Automatically collect nearby ores,including Arcana and FU."},
+{"op":"replace","path":"/description","value":"Automatically collects nearby ores, including Betabound, Arcana, and FU."}]]

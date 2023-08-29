@@ -1,0 +1,1 @@
+{"description":"A one-bladed shortsword.","shortdescription":"Tiny Twintail","itemName":"sb_apextier5sshortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t5s","shortswords/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

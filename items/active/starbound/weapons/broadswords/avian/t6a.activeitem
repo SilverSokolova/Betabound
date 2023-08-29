@@ -1,0 +1,1 @@
+{"description":"A hefty broadsword of the same design as carried by the first Stargazer.","shortdescription":"Stargazer's Might","itemName":"sb_aviantier6abroadsword","definition":["colors/t6a","broadswords/t6a"],"itemTags":["weapon","melee","broadsword","upgradeableWeapon"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

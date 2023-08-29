@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_hylotltier3spear",
+  "description": "A good spear.",
+  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "definition": "spears/t3",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Sandraker"
+}

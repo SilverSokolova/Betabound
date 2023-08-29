@@ -1,0 +1,104 @@
+{
+  "name" : "sb_normalSurface",
+
+  "type" : "displacement",
+  "xType" : "perlin",
+  "xOctaves" : 2,
+  "xFreq" : 0.2,
+  "xAmp" : 1,
+  "xXInfluence" : 0,
+  "yType" : "perlin",
+  "yOctaves" : 3,
+  "yFreq" : 0.07,
+  "yAmp" : 10,
+  "yYInfluence" : 0,
+  "yBias" : 0.5,
+  "yClamp" : [0, 1],
+
+  "source" : {
+    "type" : "mix",
+
+    "mixSource" : {
+      "type" : "perlin",
+      "function" : "perlin",
+      "octaves" : 1,
+      "freq" : 0.003,
+      "amp" : 10,
+      "xInfluence" : 1,
+      "yInfluence" : 0
+    },
+
+    "aSource" : {
+      "type" : "displacement",
+      "xType" : "perlin",
+      "xOctaves" : 1,
+      "xFreq" : 0.02,
+      "xAmp" : 0,
+      "yType" : "perlin",
+      "yOctaves" : 2,
+      "yFreq" : 0.01,
+      "yAmp" : 20,
+      "yYInfluence" : 0,
+
+      "yClamp" : [-100, 25],
+      "yClampSmoothing" : 5,
+
+      "source" : {
+        "type" : "flatSurface",
+
+        "adjustment" : 50
+      }
+
+    },
+    "bSource" : {
+      "type" : "displacement",
+      "xType" : "perlin",
+      "xOctaves" : 1,
+      "xFreq" : 0.05,
+      "xAmp" : 20,
+      "xXInfluence" : 0,
+      "yType" : "perlin",
+      "yOctaves" : 1,
+      "yFreq" : 0.05,
+      "yAmp" : 20,
+      "yYInfluence" : 0,
+
+      "source" : {
+        "type" : "displacement",
+        "xType" : "perlin",
+        "xOctaves" : 1,
+        "xFreq" : 0.002,
+        "xAmp" : 0,
+        "yType" : "perlin",
+        "yOctaves" : 1,
+        "yFreq" : 0.001,
+        "yAmp" : 300,
+        "yYInfluence" : 0,
+        "yClamp" : [-1000, 100],
+        "yClampSmoothing" : 25,
+
+        "source" : {
+          "type" : "displacement",
+          "xType" : "perlin",
+          "xOctaves" : 1,
+          "xFreq" : 0.02,
+          "xAmp" : 0,
+          "yType" : "perlin",
+          "yOctaves" : 2,
+          "yFreq" : 0.01,
+          "yAmp" : 100,
+          "yYInfluence" : 0,
+
+          "yClamp" : [-100, 25],
+          "yClampSmoothing" : 5,
+
+          "source" : {
+            "type" : "flatSurface",
+
+            "adjustment" : 50
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id" : "sb_humanexcon2.gearup",
+  "prerequisites" : ["floran_mission1", "sb_floranfan1.gearup", "sb_hylotlperformer1.gearup"],
+  "title" : "^green;Time for a Celebration!",
+  "text" : "I've come here after being released from a USCM prison and everyone has accepted me. I want to show them how much they mean to me. ^green;Bring me ^orange;5 units of gunpowder ^reset;so I can make fireworks ^orange;and show you how to make them too!",
+  "completionText" : "Wonderful! They're going to love my firework display. Here! Take this firework and I'll show you how to make more.",
+  "speaker" : "questGiver",
+  "moneyRange" : [300, 400],
+  "rewards" : [["firework","firework-recipe","fireworkblue-recipe","fireworkgreen-recipe",["rewardbag",1,{"treasure":{"level":3}}]]],
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquest.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "questGiver"
+    },
+    "requireTurnIn" : true,
+    "turnInDescription" : "Speak to ^orange;the ex-convict^reset; at the ^orange;outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "sb_gunpowder",
+        "count" : 5,
+        "consume" : true
+      }
+    ]
+  }
+}

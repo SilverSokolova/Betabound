@@ -1,0 +1,39 @@
+{
+  "id" : "sb_outpost2.gearup",
+  "prerequisites" : ["sb_outpost1.gearup"],
+  "title" : "^#0f0;A Healthy Trade",
+  "text" : "Nice to see a friendly face again! I found a better place to live but to tell you the truth, we're really hurting for food supplies at the moment. If you bring me ^#0f0;some steak and some wheat^reset;, I can give you an ^#0f0;Air Pocket Generator.^reset; They create breathable air in the empty space around you. ^orange;They won't work in liquids,^reset; but they're very useful for exploring airless environments.",
+  "completionText" : "Thanks, you're a lifesaver! Here's your reward, as promised.",
+  "speaker" : "questGiver",
+  "moneyRange" : [600, 600],
+  "rewards" : [["sb_airpocketback","rewardbag"]],
+  "canBeAbandoned" : true,
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquest.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {"default" : "questGiver"},
+    "requireTurnIn" : true,
+    "turnInDescription" : "Speak to ^orange;the human survivor^reset; at the ^orange;outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "alienmeat",
+        "count" : 1,
+        "consume" : true
+      },
+      {
+        "type" : "gatherItem",
+        "itemName" : "wheat",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}

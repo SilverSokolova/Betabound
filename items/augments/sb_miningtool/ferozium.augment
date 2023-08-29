@@ -1,0 +1,13 @@
+{
+  "itemName" : "sb_ferozium_repair",
+  "price" : 60,
+  "tooltipKind" : "sb_object",
+  "rarity" : "rare",
+  "category" : "Tool",
+  "tooltipFields" : {"subtitle":"Repair Tool"},
+  "durabilityRegen" : 280,
+  "inventoryIcon" : "ferozium.png",
+  "description" : "It's a ferozium repair tool.\n^gray;Select repair tool and right-click pickaxe or drill.",
+  "shortdescription" : "Ferozium Repair Tool",
+  "scripts" : ["/scripts/augments/sb_ore.lua"]
+}

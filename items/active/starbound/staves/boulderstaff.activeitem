@@ -1,0 +1,32 @@
+{
+  "itemName" : "sb_boulderstaff",
+  "definition" : "staff",
+  "itemTags" : ["weapon","staff","upgradeableWeapon"],
+  "tags" : {"<staff>" : "boulder", "<glow>" : "/items/active/weapons/staff/generated/glow/physical"},
+
+  "description" : "A technological marvel designed to teleport giant boulders at your enemies.",
+  "shortdescription" : "Rockalanche Staff",
+  "tooltipFields" : {"damageKindImage":"/items/throwables/throwingboulder.png"},
+  "staffHasFullbright" : true,
+
+  "animationCustom" : {
+    "particleEmitters" : {
+      "physicalcharge" : {"particles":[]}
+    }//,
+    //"sounds" : {
+    //  "zoneactivate" : ["/sfx/blocks/water_puddlemod.ogg","/sfx/blocks/water_swim.ogg"]
+   // }
+  },
+
+  "elementalType" : "physical",
+  "altAbilityType" : "slowzone",
+  "primaryAbility" : {
+    "projectileType" : "bigboulderexplosion",
+    "projectileParameters" : {
+      "speed" : 0,
+      "baseDamage" : 18
+    }
+  },
+
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

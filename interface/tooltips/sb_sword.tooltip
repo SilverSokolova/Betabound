@@ -1,0 +1,137 @@
+{
+  "background": {
+    "type": "background",
+    "fileHeader": "/interface/tooltips/sb_header.png",
+    "fileBody": "/interface/tooltips/sb_bodyobject2.png",
+    "fileFooter": "/interface/tooltips/sb_footer2.png"
+  },
+  "moneyIcon": {
+    "type": "image",
+    "position": [98, 23],
+    "file": "/interface/money.png"
+  },
+  "priceLabel": {
+    "type": "label",
+    "position": [110, 23],
+    "hAnchor": "left",
+    "value": "tree"
+  },
+  "altAbilityTitleLabel": {
+    "type": "label",
+    "position": [9, 62],
+    "hAnchor": "left",
+    "value": ""
+  },
+  "altAbilityLabel": {
+    "type": "label",
+    "position": [130, 62],
+    "hAnchor": "right",
+    "centered": true,
+    "wrapWidth": 126
+  },
+  "damagePerShotTitleLabel": {
+    "type": "label",
+    "position": [9, 53],
+    "hAnchor": "left",
+    "value": "Damage Per Swing:"
+  },
+  "damagePerShotLabel": {
+    "type": "label",
+    "position": [130, 53],
+    "hAnchor": "right",
+    "centered": true,
+    "width": 126
+  },
+  "speedTitleLabel": {
+    "type": "label",
+    "position": [9, 44],
+    "hAnchor": "left",
+    "value": "Swing Speed:"
+  },
+  "speedLabel": {
+    "type": "label",
+    "position": [130, 44],
+    "hAnchor": "right",
+    "width": 126
+  },
+  /*  "damagePerShotTitleLabel" : {
+  "type" : "label",
+  "position" : [9, 35],//44
+  "hAnchor" : "left",
+  "value" : "Damage Per Swing:"
+  },
+  "damagePerShotLabel" : {
+  "type" : "label",
+  "position" : [130, 35],//44
+  "hAnchor" : "right",
+  "width" : 126
+  },*/
+  "handednessLabel": {
+    "type": "label",
+    "position": [90, 128],
+    "hAnchor": "right",
+    "centered": true,
+    "width": 126
+  },
+  "dyeLabel": {
+    "type": "label",
+    "position": [130, 129],
+    "hAnchor": "right",
+    "fontSize": 6,
+    "color": "gray",
+    "centered": false,
+    "wrapWidth": 126
+  },
+  "levelLabel": {
+    "type": "label",
+    "position": [114, 147],
+    "hAnchor": "left",
+    "color": "gray",
+    "centered": true,
+    "wrapWidth": 126
+  },
+  "rarityLabel": {
+    "type": "label",
+    "position": [7, 23],
+    "hAnchor": "left",
+    "centered": true,
+    "width": 126
+  },
+  "damageKindImage": {
+    "type": "image",
+    "position": [120, 90],
+    "file": "",
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "damageKindBImage": {
+    "type": "image",
+    "position": [120, 108],
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "damageKindCImage": {
+    "type": "image",
+    "position": [18, 90],
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "damageKindDImage": {
+    "type": "image",
+    "position": [18, 108],
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "objectImage": {
+    "type": "image",
+    "position": [70, 99],
+    "file": "",
+    "centered": true,
+    "maxSize": [75, 45],
+    "minSize": [65, 35]
+  }
+}

@@ -1,0 +1,25 @@
+[
+  [
+    {"op":"add","path":"/terrestrialHorizonGraphics/sb_tentacle","value":
+      {
+        "baseImages":"/celestial/system/terrestrial/horizon/textures/sb_tentacle_<selector>.png",
+        "maskTextures":"/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+        "maskRange":[1,25],
+        "maskPerPlanetRange":[3,3]
+      }
+    },
+    {"op":"add","path":"/terrestrialGraphics/sb_tentacle","value":
+      {
+        "baseImages":"/celestial/system/terrestrial/biomes/sb_tentacle/maskie<num>.png",
+        "dynamicsImages":"/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+        "dynamicsRange":[1,30]
+      }
+    },
+    {"op":"add","path":"/planetaryTypes/Tier6/baseParameters/terrestrialType/-","value":"sb_tentacle"}
+  ],
+  [
+    {"op":"test","path":"/systemTypes/ClassMStar","inverse":false},
+    {"op":"add","path":"/planetaryTypes/MildPlanet/baseParameters/terrestrialType/-","value":"sb_tentacle"},
+    {"op":"add","path":"/satelliteTypes/MildNSat/baseParameters/terrestrialType/-","value":"sb_tentacle"}
+  ]
+]

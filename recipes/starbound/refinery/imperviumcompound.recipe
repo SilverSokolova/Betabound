@@ -1,0 +1,6 @@
+{
+  "input" : ["sb_imperviumcompound"],
+  "output" : ["money",150],
+  "duration" : 0.5,
+  "groups" : ["refinery","all"]
+}

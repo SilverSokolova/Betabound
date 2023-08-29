@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/gui/scrollArea/children/collectionList/schema/listTemplate/icon/scissoring","inverse":true},
+{"op":"add","path":"/gui/scrollArea/children/collectionList/schema/listTemplate/icon/scissoring","value":true}]
+]

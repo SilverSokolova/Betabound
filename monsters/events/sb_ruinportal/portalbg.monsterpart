@@ -1,0 +1,9 @@
+{
+  "name" : "ruinportal",
+  "category" : "sb_ruinportal",
+  "type" : "portalbg",
+
+  "frames" : {
+    "portalbg" : "portalbg.png"
+  }
+}

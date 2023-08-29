@@ -1,0 +1,9 @@
+{
+  "name" : "sb_frozenburning",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+  "scripts" : ["frozenburning.lua"],
+  "animationConfig" : "frozenburning.animation",
+  "label" : "^#ce7dfa;Frozen Burning",
+  "icon" : "/interface/statuses/frozenfire.png"
+}

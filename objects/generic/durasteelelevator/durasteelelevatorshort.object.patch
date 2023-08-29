@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"uncommon"}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],[{"op":"test","path":"/tooltipFields","inverse":true},{"op":"add","path":"/tooltipFields","value":[]},{"op":"add","path":"/tooltipFields","value":{"objectImage":"/objects/generic/durasteelelevator/platform.png"}}]]

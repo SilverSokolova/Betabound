@@ -1,0 +1,8 @@
+{
+  "itemName" : "sb_humantier0shortsword",
+  "definition" : "shortswords/t0",
+  "itemTags" : ["weapon","melee","shortsword"],
+  "description" : "An unremarkable shortsword. Its edge is dulled.",
+  "shortdescription" : "Blunt Shortsword",
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

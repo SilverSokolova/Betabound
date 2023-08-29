@@ -1,0 +1,1 @@
+{"description":"A regular, sturdy, dual-bladed broadsword.","shortdescription":"Twintails","itemName":"sb_apextier5sbroadsword","definition":["colors/t5s","broadswords/t5s"],"itemTags":["weapon","melee","broadsword","upgradeableWeapon"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

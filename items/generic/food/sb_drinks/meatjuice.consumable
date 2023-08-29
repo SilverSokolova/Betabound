@@ -1,0 +1,20 @@
+{
+  "itemName" : "sb_meatjuice",
+  "price" : 30,
+  "foodValue" : 20,
+  "effects" : [[
+	{"effect":"ragefood","duration":180},
+	"sb_foodheal50"
+  ]],
+  "tooltipKind" : "sb_object",
+  "rarity" : "Common",
+  "inventoryIcon" : "meatjuice.png",
+  "category" : "drink",
+  "description" : "A drink made of meat juices. Popular among Florans.",
+  "shortdescription" : "Meatjuice",
+  "handPosition" : [0, -2.5],
+  "emitters" : ["drinking"],
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 2.5
+}

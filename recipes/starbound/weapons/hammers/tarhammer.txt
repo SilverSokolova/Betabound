@@ -1,0 +1,5 @@
+{
+  "input" : [["tungstenbar",10],["tarball",12],["bone",12]],
+  "output" : ["sb_tarhammer",1,{"level":2,"seed":1}],
+  "groups" : ["weapons","craftinganvil","all"]
+}

@@ -1,0 +1,40 @@
+{
+  "itemName" : "sb_xterminitor",
+  "price" : 800,
+  "maxStack" : 1,
+  "level" : 1,
+  "fixedLevel" : false,
+  "rarity" : "rare",
+  "sb_waBan" : true,
+  "description" : "A living warhammer shuddering with dark energy. Something is inside...",
+  "shortdescription" : "X-Terminitor",
+  "tooltipKind" : "sb_sword2",
+  "category" : "hammer",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","hammer","upgradeableWeapon"],
+  "animation" : "/items/active/starbound/weapons/hammer.animation",
+
+  "sb_dyeable" : false,
+  "inventoryIcon" : "xterminitor.png",
+  "animationParts" : {
+    "blade" : "xterminitor.png",
+    "handle" : ""
+  },
+  "animationCustom" : {
+    "animatedParts" : {"parts":{"swoosh":{"partStates":{"swoosh":{"fire":{"properties":{"image":"hiveswooshx.png:<frame>"}}}}}}}
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "sb_hammer",
+  "altAbilityType" : "groundslam",
+  "primaryAbility" : {
+    "fireTime" : [1.65,1.85],
+    "projectileType" : "sb_hivebugx",
+    "baseDps" : [6,12.4],
+    "smashMomentum" : [0, -64]
+  },
+
+  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+}

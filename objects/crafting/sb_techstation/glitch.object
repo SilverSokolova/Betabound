@@ -1,0 +1,52 @@
+{
+  "objectName" : "sb_techstation_glitch",
+  "rarity" : "legendary",
+  "learnBlueprintsOnPickup" : ["sb_techstation_glitch"],
+  "radioMessagesOnPickup" : ["sb_pickuptechstation"],
+  "category" : "techManagement",
+  "price" : 6000,
+  "tooltipKind" : "sb_object",
+  "tooltipFields" : {"objectImage":"/objects/crafting/sb_techstation/glitch.png:default.2"},
+  "description" : "A tech station. For sharing, binding, and equipping awesome tech!",
+  "shortdescription" : "^orange;Glitch Tech Station^reset;",
+  "race" : "glitch",
+  "printable" : false,
+  "lightColor" : [185, 131, 0],
+  "lightPosition" : [-1, 0],
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/sb_techstation/techstation.config",
+
+  "apexDescription" : "This complex machine allows me to equip useful techs.",
+  "avianDescription" : "This console lets me equip techs! Useful devices, once you get over the weirdness.",
+  "floranDescription" : "This consssole lets Floran equip techs! New techsss always very exciting.",
+  "glitchDescription" : "Excited. This console allows me to equip and remove techs.",
+  "humanDescription" : "I can equip techs here! What a handy machine.",
+  "hylotlDescription" : "Techs are a fascinating advancement in bioengineering. I can equip them here.",
+  "novakidDescription" : "With a little know-how, I can use this machine to equip techs.",
+
+  "inputNodes" : [[-2, -1]],
+  "scripts" : [ "techstation.lua"],
+  "animation" : "techstation.animation",
+  "animationParts" : {
+    "station0" : "glitch0.png",
+    "lit0" : "glitchlit0.png",
+    "station" : "glitch.png",
+    "lit" : "glitchlit.png"
+  },
+  "animationPosition" : [-16, -8],
+  "active" : true,
+
+  "placementImage" : "glitch.png:default.2",
+  "placementImagePosition" : [-16, -8],
+  "inventoryIcon" : "icons.png:1",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "glitch.png:<color>.<frame>", "fullbright" : true }, { "image" : "glitchlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : ["background"]
+    }
+  ]
+}

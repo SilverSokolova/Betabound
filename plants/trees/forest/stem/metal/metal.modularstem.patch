@@ -1,0 +1,1 @@
+[[{"op":"test","path":"/dropConfig","inverse":true},{"op":"add","path":"/dropConfig","value":{"drops":[[]]}}],[{"op":"add","path":"/dropConfig/drops/0/-","value":{"item":"metallic","count":3}}]]

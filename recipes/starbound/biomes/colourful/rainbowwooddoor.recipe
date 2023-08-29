@@ -1,0 +1,5 @@
+{
+  "input" : [["rainbowwood",15],"silverbar"],
+  "output" : "rainbowwooddoor",
+  "groups" : ["craftingfurniture","doors","all"]
+}

@@ -1,0 +1,7 @@
+[
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":0}],
+
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_ragebomb"}],
+[{"op":"replace","path":"/price","value":100}]
+]

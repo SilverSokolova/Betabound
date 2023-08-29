@@ -1,0 +1,6 @@
+{
+  "input" : ["copperore"],
+  "output" : "sb_copper_repair",
+  "duration" : 0,
+  "groups" : ["plain","sb_augment","all"]
+}

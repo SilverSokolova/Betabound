@@ -1,0 +1,64 @@
+{
+  "projectileName" : "sb_coralswooshx",
+  "image" : "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "speed" : 0,
+  "orientationLocked" : true,
+  "damagePoly" : [ [-25, 19], [-2, 19], [12, 14], [19, 7], [22, -1], [22, -9], [19, -16], [16, -19], [-10, -19] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "bounces" : -1,
+  "flippable" : true,
+  "timeToLive" : 0,
+  "damageKind" : "fireaxe",
+  "lightColor" : [255, 145, 28],
+  "statusEffects" : ["burning"], 
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/objects/pot_break_small1.ogg", "/sfx/objects/pot_break_small2.ogg", "/sfx/objects/pot_break_small1.ogg" ]
+    },
+//    {
+//      "action" : "config",
+//      "file" : "/projectiles/explosions/lightblockexplosion/lightblockexplosion.config"
+//    },
+    {
+      "action" : "projectile",
+      "type" : "sb_coralshardx",
+      "firePosition" : [-10, -50],
+      "fuzzAngle" : 180,
+      "angleAdjust" : 25
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_coralshardx",
+      "firePosition" : [-10, -50],
+      "fuzzAngle" : 180,
+      "angleAdjust" : 12
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_coralshardx",
+      "firePosition" : [-10, -50],
+      "fuzzAngle" : 180,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_coralshardx",
+      "firePosition" : [-10, -50],
+      "fuzzAngle" : 180,
+      "angleAdjust" : -12
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_coralshardx",
+      "firePosition" : [-10, -50],
+      "fuzzAngle" : 180,
+      "angleAdjust" : -25
+    }
+  ],
+  "knockback" : 30,
+  "knockbackDirectional" : true
+}

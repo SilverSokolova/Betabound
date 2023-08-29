@@ -1,0 +1,1 @@
+function init() math.betabound_entity = _ENV.entity end

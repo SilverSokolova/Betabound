@@ -1,0 +1,9 @@
+{
+  "name" : "sb_hugedragonbarm",
+  "category" : "sb_hugebiped",
+  "type" : "barm",
+
+  "frames" : {
+    "barm" : "barm.png"
+  }
+}

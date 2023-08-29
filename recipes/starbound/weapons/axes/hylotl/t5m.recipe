@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_refinedrubium",3],["durasteelbar",2]],
+  "output" : "sb_hylotltier5maxe",
+  "groups" : ["craftingseparator","weapons","all"]
+}

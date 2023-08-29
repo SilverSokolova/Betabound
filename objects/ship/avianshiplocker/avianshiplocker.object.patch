@@ -1,0 +1,8 @@
+[[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
+{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"test","path":"/price","inverse":true},
+{"op":"add","path":"/price","value":260}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"avianshiplocker"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"avianstoragelocker"},
+{"op":"replace","path":"/rarity","value":"Rare"},
+{"op":"replace","path":"/shortdescription","value":"Avian Ship Locker"}]]

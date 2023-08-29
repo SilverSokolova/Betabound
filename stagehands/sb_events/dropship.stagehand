@@ -1,0 +1,19 @@
+{
+  "type" : "sb_dropship",
+
+  "scripts" : [
+    "/stagehands/sb_events/dropship.lua"
+  ],
+  "scriptDelta" : 10,
+
+  "spawnVehicle" : "dropship",
+  "vehicleBounds" : [-6.0, -4.0, 6.0, 4.0],
+  "vehicleParameters" : {
+    "script" : "/vehicles/dropship/eventdropship.lua",
+
+    "moveSpeed" : 20,
+    "maxHeight" : 50,
+
+    "flyDistance" : 100
+  }
+}

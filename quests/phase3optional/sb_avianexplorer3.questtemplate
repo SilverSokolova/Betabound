@@ -1,0 +1,32 @@
+{
+  "id" : "sb_avianexplorer3.gearup",
+  "prerequisites" : [ "hylotl_mission1", "sb_bountyhunter2.gearup", "sb_glitchsilenttype2.gearup", "sb_humanexcon2.gearup", "sb_humansurvivor2.gearup" ],
+  "title" : "^green;One Small Step",
+  "text" : "Good eternal evening! You look like someone in need of adventure, would you like to go on an adventure for me? ^green;If you can find a ^orange;moon emblem^green; in an Avian tomb I'll give you this tech card and a manipulator module in return!",
+  "completionText" : "Beautiful! It's in perfect condition too!",
+  "speaker" : "questGiver",
+  "moneyRange" : [0, 0],
+  "rewards" : [["techcard","manipulatormodule",["rewardbag",1,{"treasure":{"level":4}}]]],
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquest.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {"default" : "questGiver"},
+    "requireTurnIn" : true,
+    "turnInDescription" : "Speak to ^orange;the Avian explorer^reset; at the ^orange;outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "moonemblem",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}

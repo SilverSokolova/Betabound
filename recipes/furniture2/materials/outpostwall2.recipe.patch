@@ -1,0 +1,18 @@
+[
+  [
+    {"op":"test","path":"/input/0/item","value":"concretematerial"},
+    {"op":"replace","path":"/input/0/item","value":"outpostwall1"},
+    {"op":"add","path":"/input/0","value":{"item":"tungstenbar","count":1}}
+  ],
+  
+  [
+    {"op":"test","path":"/input/1/item","value":"concretematerial"},
+    {"op":"test","path":"/input/1/count","value":20},
+    {"op":"replace","path":"/input/1/count","value":1}
+  ],
+
+  [
+    {"op":"test","path":"/output/count","value":10},
+    {"op":"replace","path":"/output/count","value":50}
+  ]
+]

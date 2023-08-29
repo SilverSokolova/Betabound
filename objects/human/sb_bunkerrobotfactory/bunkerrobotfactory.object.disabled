@@ -1,0 +1,51 @@
+{
+  "objectName" : "humanbunkerrobotfactory",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "spawner",
+  "price" : 2000,
+  "description" : "A factory capabable of creating the latest in urban robot technology.",
+  "shortdescription" : "Robot Factory",
+  "race" : "human",
+
+  "apexDescription" : "Such an inefficient design; with merely a single assembly line.",
+  "avianDescription" : "Warm thermals escape the vent. Warm, but so dirty.",
+  "floranDescription" : "What comesss forth?",
+  "glitchDescription" : "Awe. Thus my brethren are spawned.",
+  "humanDescription" : "New robots roll off the conveyor belt continuously.",
+  "hylotlDescription" : "Does not appear to be water-tight.",
+
+  "inventoryIcon" : "bunkerrobotfactoryicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bunkerrobotfactory.png:idle.8",
+      "imagePosition" : [-48, 0],
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/human/bunkerrobotfactory/behavior.lua",
+    "/monsters/stateMachine.lua",
+    "/monsters/util.lua",
+    "/monsters/vec2.lua"
+  ],
+  "animation" : "animation.config",
+  "animationParts" : {
+    "body" : "bunkerrobotfactory.png"
+  },
+
+  "scriptDelta" : 5,
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ],
+
+  "maxSpawnedRobots" : 4,
+  "spawnCooldownTime" : 5.0,
+  "spawnTime" : 0.8,
+  "serpentdroidSpawnOffset" : [11.25, 1.875],
+  "repairbotSpawnOffset" : [11.0, 1.875],
+  "cleaningbotSpawnOffset" : [11.25, 0.75]
+}

@@ -1,0 +1,1 @@
+{"description":"A shortsword with all manner of nasty hooked bits.","shortdescription":"Gougeslicer","itemName":"sb_florantier5sshortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t5s","shortswords/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

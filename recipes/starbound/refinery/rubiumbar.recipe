@@ -1,0 +1,6 @@
+{
+  "input" : ["sb_rubiumbar"],
+  "output" : ["money",10],
+  "duration" : 0.2,
+  "groups" : ["refinery","all"]
+}

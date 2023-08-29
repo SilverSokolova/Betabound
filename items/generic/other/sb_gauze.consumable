@@ -1,0 +1,20 @@
+{
+  "itemName" : "sb_gauze",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "medicine",
+  "inventoryIcon" : "sb_gauze.png",
+  "tooltipKind" : "sb_object",
+  "description" : "A roll of cotton gauze for healing wounds. Restores 75 health over 1 second.",
+  "shortdescription" : "Gauze",
+  "effects" : [[{"effect":"sb_gauzeheal"}]],
+  "emitters" : ["bandageuse"],
+  "emote" : "",
+  "blockingEffects" : [
+    "salveheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal",
+    "sb_gauzeheal"
+  ]
+}

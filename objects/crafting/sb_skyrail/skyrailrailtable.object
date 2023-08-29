@@ -1,0 +1,72 @@
+{
+  "objectName" : "sb_skyrailrailtable",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/sb_skyrailcrafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "SKYRAIL RAIL TABLE",
+        "subtitle" : "Build your very own Skyrail and Rail networks to travel in style!",
+        "icon" : {
+          "file" : "/interface/sb_crafting/craftingicons.png:skyrailrailtable"
+        }
+      }
+    },
+    "filter" : [ "skyrailtable","sb_skyrailtable","rail" ],
+    "craftingSound" : "/sfx/interface/crafting_compress.ogg",
+    "initialRecipeUnlocks" : ["skyrailplatform","skyrail_asc","skyrail_desc","skyrail_diodeL","skyrail_diodeR","skyrailboost","skyrailbreak"]
+  },
+  "printable" : false,
+  "description" : "More commonly known as a Skyrail Rail Crafting Table Table.",
+  "shortdescription" : "^orange;Skyrail Rail Crafting Table^reset;",
+  "race" : "generic",
+  "category" : "crafting",
+  "tooltipKind" : "sb_object",
+  "price" : 1550,
+
+  "apexDescription" : "I can craft impressive skyrail parts on this workstation.",
+  "avianDescription" : "This is for crafting such admirable structures as skyrails.",
+  "floranDescription" : "Floran can make sssskyrail thingsss here.",
+  "glitchDescription" : "Excited. A workstation for crafting skyrail parts. I can't wait to get started!",
+  "humanDescription" : "I can create skyrail parts from the comfort of this workstation. What a time to be alive!",
+  "hylotlDescription" : "Skyrail parts can be crafted on this table.",
+  "novakidDescription" : "I can make my own skyrail from parts crafted on this workstation.",
+  
+  "lightColor" : [62, 89, 89],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 1.2,
+  "flickerMaxIntensity" : 1.5,
+  "flickerPeriodVariance" : 0.0,
+  "flickerIntensityVariance" : 0,
+  "inventoryIcon" : "skyrailrailtabletableicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "skyrailrailcraftingtabletablelit.png:<color>", "fullbright" : true }, { "image" : "skyrailrailcraftingtabletable.png:<color>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 1,
+      "animationCycle" : 0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "skyrailrailcraftingtabletablelit.png:<color>", "fullbright" : true }, { "image" : "skyrailrailcraftingtabletable.png:<color>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "frames" : 1,
+      "animationCycle" : 0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "sb_cutterleaf",
+  "rarity" : "Common",
+  "tooltipKind" : "sb_object",
+  "inventoryIcon" : "sb_cutterleaf.png",
+  "image" : "sb_cutterleaf.png",
+  "shortdescription" : "Cutter Leaf",
+  "category" : "throwableItem",
+  "description" : "A sharp-edged leaf that can be thrown for low damage.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.2,
+
+  "projectileType" : "sb_cutterleaf",
+  "projectileConfig" : {
+    "speed" : 35,
+    "power" : 5,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

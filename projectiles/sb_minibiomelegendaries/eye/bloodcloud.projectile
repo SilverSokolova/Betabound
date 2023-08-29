@@ -1,0 +1,14 @@
+{
+  "projectileName" : "sb_bloodcloud",
+  "image" : "bloodcloud.png",
+  "physics" : "gas",
+  "animationCycle" : 0.5,
+  "speed" : 28,
+  "frameNumber" : 8,
+  "pointLight" : false,
+  "timeToLive" : 0.5,
+  "power" : 5,
+  "effectSources" : ["blood"],
+  "damageKind" : "default",
+  "damagePoly" : [[-18, 0], [-12, -12], [0, -18], [12, -12], [18, 0], [12, 12], [0, 18], [-12, 12]]
+}

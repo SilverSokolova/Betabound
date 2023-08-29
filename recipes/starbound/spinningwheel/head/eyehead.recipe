@@ -1,0 +1,5 @@
+{
+  "input" : [["eyepiles",60],["fleshstrand",20]],
+  "output" : "eyehead",
+  "groups" : ["craftingwheel","clothes","all"]
+}

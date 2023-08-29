@@ -1,0 +1,22 @@
+[
+  [{
+      "op": "test",
+      "path": "/animationCustom/animatedParts/parts/parryShield/partStates/parryShield/active/properties/image",
+      "value": "/items/active/weapons/melee/abilities/broadsword/parry/parryshield.png:active"
+    }, {
+      "op": "replace",
+      "path": "/animationCustom/animatedParts/parts/parryShield/partStates/parryShield/active/properties/image",
+      "value": ""
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/animationCustom/animatedParts/parts/parryShield/partStates/parryShield/block/properties/image",
+      "value": "/items/active/weapons/melee/abilities/broadsword/parry/parryshield.png:block"
+    }, {
+      "op": "replace",
+      "path": "/animationCustom/animatedParts/parts/parryShield/partStates/parryShield/block/properties/image",
+      "value": ""
+    }
+  ]
+]

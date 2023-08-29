@@ -1,0 +1,1 @@
+{"description":"A hooked axe.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_aviantier5aaxe","definition":["colors/t5a","axes/a"],"shortdescription":"Hawkbill","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

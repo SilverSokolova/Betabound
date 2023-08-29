@@ -1,0 +1,5 @@
+{
+  "input" : [["durasteelbar",6],"livingroot"],
+  "output" : "sb_spaceairtank",
+  "groups" : ["craftingfarm2","survival","all"]
+}

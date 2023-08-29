@@ -1,0 +1,5 @@
+[
+[{"op":"add","path":"/glitchmission1Reward/0/1/fill/-","value":{"pool":"sb_glitchmission1Music"}}],
+[{"op":"add","path":"/glitchmission1Reward/0/1/pool/-","value":{"weight":0.1,"item":["sb_musicsheet",1,{"music":"event-horizon"}]}}],
+[{"op":"add","path":"/glitchmission1Reward/0/1/pool/-","value":{"weight":0.1,"item":["sb_musicsheet",1,{"music":"gravitational-collapse"}]}}]
+]

@@ -1,0 +1,1 @@
+{"description":"A little hooked dagger.","shortdescription":"Thornbill","itemName":"sb_aviantier6mdagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t6m","daggers/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

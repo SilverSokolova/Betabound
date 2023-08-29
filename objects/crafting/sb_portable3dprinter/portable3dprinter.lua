@@ -1,0 +1,1 @@
+function update(dt) if #world.playerQuery(object.position(),15)==0 then object.smash() end end

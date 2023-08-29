@@ -1,0 +1,33 @@
+{
+  "objectName" : "sb_ceruliumsample",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "tooltipKind" : "sb_object",
+  "description" : "\"A perfect sample of a cerulium ore.\"",
+  "shortdescription" : "Cerulium Sample",
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ceruliumsample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "ceruliumsample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

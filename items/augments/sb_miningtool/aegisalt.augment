@@ -1,0 +1,13 @@
+{
+  "itemName" : "sb_aegisalt_repair",
+  "price" : 60,
+  "tooltipKind" : "sb_object",
+  "rarity" : "rare",
+  "category" : "Tool",
+  "tooltipFields" : {"subtitle":"Repair Tool"},
+  "durabilityRegen" : 280,
+  "inventoryIcon" : "aegisalt.png",
+  "description" : "It's an aegisalt repair tool.\n^gray;Select repair tool and right-click pickaxe or drill.",
+  "shortdescription" : "Aegisalt Repair Tool",
+  "scripts" : ["/scripts/augments/sb_ore.lua"]
+}

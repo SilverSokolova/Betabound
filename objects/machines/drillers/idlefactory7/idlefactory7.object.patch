@@ -1,0 +1,4 @@
+[
+[{"op":"add","path":"/productionConfig/outputList/default/-","value":[30,"platinumore"]}],
+[{"op":"add","path":"/productionConfig/outputList/default/-","value":[40,"sb_ceruliumore"]}]
+]

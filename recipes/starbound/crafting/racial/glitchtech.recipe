@@ -1,0 +1,5 @@
+{
+  "input" : ["upgrademodule",["platinumbar",5],["wire",20],"techconsole"],
+  "output" : "sb_techstation_glitch",
+  "groups" : ["sb_roboticcraftingtable","sb_stations","all"]
+}

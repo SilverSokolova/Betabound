@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/description","value":"A personal teleporter, connects to bookmarked locations. \n^red;Destroyed when broken."},{"op":"replace","path":"/description","value":"This teleporter's cables are exposed, but touching them still voids the warranty.\n^red;Destroyed when broken."}]
+]

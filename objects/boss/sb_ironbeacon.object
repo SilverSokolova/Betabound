@@ -1,0 +1,46 @@
+{
+  "objectName" : "sb_ironbeacon",
+  "rarity" : "essential",
+  "description" : "A distress beacon. Who knows who might hear it?",
+  "shortdescription" : "^#f00;Distress Beacon^reset;",
+  "race" : "generic",
+  "category" : "other",
+  "printable" : false,
+  "tooltipKind" : "sb_object",
+  "tooltipFields" : {"rarityLabel":"Critical"},
+  "learnBlueprintsOnPickup" : ["sb_ironcraftingtable"],
+
+  "price" : 600,
+  "apexDescription" : "A distress beacon. I hope the person who left it is okay.",
+  "avianDescription" : "A distress beacon. Someone must be in trouble.",
+  "floranDescription" : "Floran help as well as hunt. Sssometimes.",
+  "glitchDescription" : "Analysis. This distress beacon is transmitting at a number of frequencies.",
+  "humanDescription" : "This beacon's sending out a distress call.",
+  "hylotlDescription" : "Someone needs help. Protecting the weak is a worthwhile pursuit.",
+
+  "inventoryIcon" : "sb_ironbeaconicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sb_ironbeacon.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 12,
+      "animationCycle" : 2,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "sb_ironbeacon.animation",
+  "animationParts" : {
+    "beacon" : "sb_ironbeacon.png"
+  },
+  "animationPosition" : [-16, 0],
+  "sounds" : ["/sfx/interface/clickon_error.ogg"],
+
+  "scripts" : [ "sb_ironbeacon.lua" ],
+  "scriptDelta" : 5,
+  "hasAnimation" : true,
+  "badReception" : ["say","No signal!\nPlease activate on planet surface.\n\nIf the problem persists, please check the power of the device and cable connection status, or relocate the device."],
+  "bossType" : [["sb_penguinUfo",[0,32]]],
+  "bossLevel" : 1
+}

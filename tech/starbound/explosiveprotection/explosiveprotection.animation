@@ -1,0 +1,85 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "recharge" : {
+        "priority" : 2,
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "frames" : 1
+          },
+          "recharge" : {
+            "frames" : 4,
+            "cycle" : 0.2,
+            "mode" : "transition",
+            "transition" : "off",
+            "properties" : {
+              "immediateSound" : "/sfx/tech/tech_dash_cooldown2.ogg"
+            }
+          }
+        }
+      }
+    },
+    "parts" : {      
+      "recharge" : {
+        "properties" : {
+          "zLevel" : 5,
+          "centered" : true,
+          "offset" : [0, 0]
+        },
+
+        "partStates" : {
+          "recharge" : {
+            "recharge" : {
+              "properties" : {
+                "image" : "/tech/starbound/dash/recharge.png:<frame>"
+              }
+            },
+            "off" : {
+            }
+          }
+        }
+      }
+    }
+  },
+  "particleEmitters" : {
+    "energy" : {
+      "enabled" : false,
+      "emissionRate" : 0,
+      "particles" : [
+        {"particle" : "fireswoosh1"},
+        {"particle" : "fireswoosh2"},
+        {"particle" : "fireswoosh3"},
+        {"particle" : "fireswoosh1"},
+        {"particle" : "fireswoosh1"},
+        {"particle" : "fireswoosh2"},
+        {"particle" : "fireswoosh3"},
+        {
+          "particle" : {
+            "type" : "ember",
+            "size" : 1,
+            "color" : [198, 42, 0, 230],
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.3,
+            "fade" : 0.9,
+            "position" : [0, 0],
+            "offsetRegion" : [0, 0, 0, 0],
+            "initialVelocity" : [0, 6],
+            "finalVelocity" : [0, 3],
+            "approach" : [0, 20],
+            "timeToLive" : 0.3,
+            "variance" : {
+              "size" : 0.5,
+              "initialVelocity" : [2, 1]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "sounds" : {
+    "activate" : ["/sfx/tech/tech_doublejump.ogg"],
+    "beep" : ["/sfx/npc/boss/apeboss_missile.ogg"],
+    "explode" : ["/sfx/tech/mech_explosion_windup.ogg"]
+  }
+}

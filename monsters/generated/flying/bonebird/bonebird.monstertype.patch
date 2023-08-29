@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/baseParameters/captureCollectables","inverse":true},{"op":"add","path":"/baseParameters/captureCollectables","value":{"monsters":"bonebird"}}],
+
+[{"op":"test","path":"/description","inverse":true},{"op":"add","path":"/description","value":"There's nothing more haunting than a flying skeleton, especially if it's a bird."}],
+[{"op":"test","path":"/shortdescription","inverse":true},{"op":"add","path":"/shortdescription","value":"Bone Bird"}]
+]

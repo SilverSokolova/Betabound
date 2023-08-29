@@ -1,0 +1,8 @@
+[
+[{"op":"test","path":"/rewards/0/0/0","value":"rewardbag"},{"op":"test","path":"/rewards/0/0/2","inverse":true},
+{"op":"add","path":"/rewards/0/0/2","value":{}}],
+[{"op":"test","path":"/rewards/0/0/0","value":"rewardbag"},{"op":"test","path":"/rewards/0/0/2"},{"op":"test","path":"/rewards/0/0/2/treasure","inverse":true},
+{"op":"add","path":"/rewards/0/0/2/treasure","value":{}}],
+[{"op":"test","path":"/rewards/0/0/0","value":"rewardbag"},{"op":"test","path":"/rewards/0/0/2"},{"op":"test","path":"/rewards/0/0/2/treasure/level","inverse":true},
+{"op":"add","path":"/rewards/0/0/2/treasure/level","value":3}]
+]

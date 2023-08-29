@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_humantier1broadsword",
+  "description": "A normal, unremarkable broadsword.",
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "definition": "broadswords/t1",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Regular Broadsword"
+}

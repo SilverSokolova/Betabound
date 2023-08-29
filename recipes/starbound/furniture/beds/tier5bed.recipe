@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_aegisaltbar",2],["fabric",10],["silk",3]],
+  "output" : "serenebed",
+  "groups" : ["craftingfurniture2","beds","all"]
+}

@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_aegisaltbar",2],["glass",2],"smallbattery"],
+  "output" : "serenelight",
+  "groups" : ["craftingfurniture2","lights","all"]
+}

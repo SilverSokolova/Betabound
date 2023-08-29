@@ -1,0 +1,30 @@
+{
+  "itemName" : "sb_smokegrenade",
+  "rarity" : "Common",
+  "tooltipKind" : "sb_object4",
+  "inventoryIcon" : "sb_smokegrenade.png",
+  "image" : "sb_smokegrenade.png",
+  "shortdescription" : "Heated Smoke Grenade",
+  "category" : "throwableItem",
+  "description" : "This grenade won't explode, but it will release a steady stream of super-heated smoke.",
+  "price" : 120,
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "sb_smokegrenade",
+  "projectileConfig" : {
+    "speed" : 30,
+    "power" : 45,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : ["/sfx/projectiles/throw_item_small.ogg"]
+      }
+    ]
+  }
+}

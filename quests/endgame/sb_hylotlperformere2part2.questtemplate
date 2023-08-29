@@ -1,0 +1,28 @@
+{
+  "id" : "sb_hylotlperformerE2part2.gearup",
+  "prerequisites" : [ "glitch_mission2","sb_hylotlperformerE2part1.gearup" ],
+  "title" : "^green;Audience of One",
+  "text" : "I should probably give the feedback back to the performer. Maybe I better spare his feelings...",
+  "completionText" : "They... liked my show? Fantastic! Wonderful! I'm sure I just need to get the word out some more and they'll be lining up to see me! Thanks for all your help! Here, take this.",
+  "moneyRange" : [150, 250],
+  "rewards" : [["accordion"]],
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquest.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "player",
+      "questComplete" : "questReceiver"
+    },
+    "requireTurnIn" : true,
+    "turnInDescription" : "Speak to ^orange;the comedian^reset; at the ^orange;outpost^reset;",
+    "conditions" : []
+  }
+}
+ 

@@ -1,0 +1,5 @@
+[
+[{"op":"add","path":"/musicTrack/night/tracks/-","value":"/music/sb_glacial-horizon.ogg"}],
+
+[{"op":"add","path":"/surfacePlaceables/items/-","value":{"mode":"floor","priority":3,"variants":1,"distribution":"/biomes/distributions.config:overgroundChests","type":"treasureBox","treasureBoxSets":["sb_arcticChest"]}}]
+]

@@ -1,0 +1,11 @@
+{
+  "itemName" : "sb_glowfibreblue",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "tooltipKind" : "sb_object",
+  "itemTags" : ["reagent"],
+  "inventoryIcon" : "sb_glowfibreblue.png",
+  "description" : "Bulbous, bioluminescent plant fibres. They glow greenish-blue!",
+  "shortdescription" : "Blue Glow Fibre",
+  "learnBlueprintsOnPickup" : ["glowfibre","glowvinelamp","glowstickblue"]
+}

@@ -1,0 +1,6 @@
+{
+  "input" : ["tomato","chili"],
+  "output" : "sb_soup",
+  "groups" : ["craftingfood","mains","sb_healing","sb_health","sb_nova","sb_other","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_soup"}
+}

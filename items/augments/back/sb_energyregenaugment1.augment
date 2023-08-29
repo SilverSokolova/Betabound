@@ -1,0 +1,22 @@
+{
+  "itemName": "sb_energyregenaugment1",
+  "price": 5000,
+  "rarity": "Uncommon",
+  "tooltipKind": "sb_object4b",
+  "category": "eppAugment",
+  "inventoryIcon": "sb_energyregenaugment.png",
+  "description": "An EPP module that boosts your energy regeneration speed a little.\n\n^gray;Equip to EPP with right-click^reset;",
+  "shortdescription": "Energy Regen I Augment",
+
+  "augment": {
+    "type": "back",
+    "name": "sb_energyregen1",
+    "displayName": "Energy Regeneration I",
+    "displayIcon": "/items/augments/back/sb_energyregenaugment.png",
+    "effects": ["sb_energyregenaugment1"]
+  },
+
+  "radioMessagesOnPickup": ["pickupaugment"],
+
+  "scripts": ["/scripts/augments/augment.lua"]
+}

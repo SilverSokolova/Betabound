@@ -1,0 +1,53 @@
+{
+  "animationParts": {},
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/melee/swing_dagger.ogg"]
+    }
+  },
+
+  "ability": {
+    "name": "Slash",
+    "type": "sb_dagger",
+    "scripts": ["/items/active/starbound/weapons/meleeslash2.lua"],
+    "class": "MeleeSlash",
+
+    "fireTime": 0.345,
+    "baseDps": 8,
+    "damageConfig": {
+      "damageSourceKind": "dagger",
+      "knockbackMode": "aim",
+      "knockback": 10,
+      "timeoutGroup": "primary"
+    },
+
+    "stances": {
+      "idle": {
+        "armRotation": -90,
+        "weaponRotation": -10,
+        "weaponOffset": [0.4, 2],
+
+        "allowFlip": true,
+        "allowRotate": true
+      },
+      "windup": {
+        "duration": 0.05,
+        "armRotation": -20,
+        "weaponRotation": -20,
+        "weaponOffset": [0.4, 2],
+
+        "allowFlip": true,
+        "allowRotate": false
+      },
+      "fire": {
+        "duration": 0.2,
+        "armRotation": -135,
+        "weaponRotation": 40,
+        "weaponOffset": [0.4, 2],
+
+        "allowFlip": true,
+        "allowRotate": false
+      }
+    }
+  }
+}

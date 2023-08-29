@@ -1,0 +1,5 @@
+{
+  "input" : [["titaniumbar",2],["copperbar",2]],
+  "output" : ["harpoongun",1,{"level":3}],
+  "groups" : ["craftinganvil2","weapons","all"]
+}

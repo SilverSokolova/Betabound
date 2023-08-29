@@ -1,0 +1,20 @@
+{
+  "name" : "sb_simplehead",
+  "category" : "smallquadruped",
+  "type" : "head",
+
+
+  "frames" : {
+    "head" : "sb_simplehead.png"
+  },
+
+  "parameters" :
+  {
+  /*  "projectileSourcePosition" : [1, -0.5],
+    "idleNoise" : [ "/sfx/npc/smallbiped/arrowhead_small_idle1.ogg", "/sfx/npc/smallbiped/arrowhead_small_idle2.ogg" ],
+    "turnHostileNoise" : [ "/sfx/npc/smallbiped/arrowhead_small_turnhostile.ogg" ],
+    "attackNoise" : [ "/sfx/npc/smallbiped/arrowhead_small_attack1.ogg", "/sfx/npc/smallbiped/arrowhead_small_attack2.ogg" ],
+    "painNoise" : [ "/sfx/npc/smallbiped/arrowhead_small_pain1.ogg", "/sfx/npc/smallbiped/arrowhead_small_pain2.ogg" ],
+    "deathNoise" : [ "/sfx/npc/smallbiped/arrowhead_small_death.ogg" ]*/
+  }
+}

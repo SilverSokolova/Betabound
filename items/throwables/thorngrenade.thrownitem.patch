@@ -1,0 +1,11 @@
+[
+[{"op":"test","path":"/description","value":"Scary what one can achieve with a fruit and a bit of volatile powder."},
+{"op":"replace","path":"/description","value":"A makeshift nail bomb. Scary what one can achieve with a fruit and a bit of powder."}],
+
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"thorngrenade"}],
+
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"uncommon"}],
+
+[{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":310}]
+]

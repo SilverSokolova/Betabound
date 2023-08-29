@@ -1,0 +1,1 @@
+[[{"op":"test","path":"/description","inverse":true},{"op":"add","path":"/description","value":"A penguin soldier with a decorated helmet. He looks important!"}],[{"op":"test","path":"/shortdescription","inverse":true},{"op":"add","path":"/shortdescription","value":"Penguin General"}]]

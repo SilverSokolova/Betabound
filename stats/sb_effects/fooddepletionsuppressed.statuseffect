@@ -1,0 +1,5 @@
+{
+  "name" : "sb_fooddepletionsuppressed", //dontstarve removed by cinemas
+  "defaultDuration" : 120,
+  "scripts" : ["/stats/effects/dontstarve/dontstarve.lua"]
+}

@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/price","value":250},{"op":"replace","path":"/price","value":2500}],
+[{"op":"test","path":"/description","value":"An EPP module that increases your defense and gives you a soft light."},{"op":"replace","path":"/description","value":"An EPP module that slightly increases your defense and gives you a soft light."}]
+]

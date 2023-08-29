@@ -1,0 +1,77 @@
+{
+  "itemName": "sb_shiv",
+  "level": 1,
+  "maxStack": 1,
+  "paletteSwaps": "",
+  "rarity": "uncommon",
+  "description": "A homemade weapon from prison.",
+  "shortdescription": "Shiv",
+  "tooltipKind": "sb_sword2",
+  "price": 495,
+  "category": "dagger",
+  "tooltipFields": {
+    "subtitle": "Shiv",
+    "damageKindImage": "/interface/statuses/sb_bleed.png"
+  },
+  "twoHanded": false,
+  //  "sb_dyeable" : true,
+  //  "sb_backingDirectives" : "?replace;e6e6e6=ffca8a;b6b6b6=e0975c;7b7b7b=a85636;373737=ffca8a",
+  //  "sb_extraDirectives" : "?replace;ffca8a=e6e6e6;e0975c=b6b6b6;a85636=7b7b7b;ffca8a=373737",
+  "itemTags": ["weapon", "melee", "dagger", "shiv", "upgradeableWeapon"],
+  "handGrip": "inside",
+  "animation": "/items/active/starbound/weapons/dagger.animation",
+  "animationParts": {},
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/melee/swing_dagger.ogg"]
+    }
+  },
+
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "aimOffset": 0,
+  "primaryAbilityType": "sb_dagger",
+  "primaryAbility": {
+    "fireTime": [0.27, 0.42],
+    "baseDps": [8, 9],
+    "damageConfig": {
+      "damageSourceKind": "slash",
+      "statusEffects": ["sb_bleed"],
+      "knockback": [6, 9]
+    },
+    "stances": {
+      "idle": {
+        "weaponOffset": [0.3, 1.8]
+      },
+      "windup": {
+        "weaponOffset": [0.3, 1.8]
+      },
+      "fire": {
+        "duration": 0.2,
+        "weaponOffset": [0.3, 1.8]
+      }
+    }
+  },
+
+  "builderConfig": [{
+      "nameGenerator": "daggernames.config:nameGen",
+      "elementalType": "physical",
+      "animationParts": {
+        "blade": {
+          "path": "shiv/blade/<variant>.png",
+          "variants": 2,
+          "paletteSwap": true
+        },
+        "handle": {
+          "path": "shiv/handle/<variant>.png",
+          "variants": 1,
+          "paletteSwap": true
+        }
+      },
+      "iconDrawables": ["handle", "blade"],
+      "palette": "/items/active/starbound/colors/melee.weaponcolors",
+      "altAbilities": []
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

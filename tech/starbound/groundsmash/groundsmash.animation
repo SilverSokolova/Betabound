@@ -1,0 +1,36 @@
+{
+  "particleEmitters" : {
+    "fallParticles" : {
+      "emissionRate" : 100,
+      "particles" : [
+	{"particle":"fallingair"},
+	{"particle":"fallingair"},
+	{"particle":"fallingair"},
+	{"particle":"fallingair"},
+	{"particle":"fallingair"}
+      ]
+    },
+    "landParticles" : {
+      "emissionRate" : 1,
+      "particles" : [
+	{
+	  "particle" : {
+	    "type" : "animated",
+	    "animation" : "/animations/dust4/dust4.animation",
+	    "position" : [0, 0],
+	    "destructionTime" : 0,
+	    "fade" : 1,
+	    "size" : 1,
+	    "layer" : "front",
+	    "timeToLive" : 0.45
+	  }
+	}
+      ]
+    }
+  },
+
+  "sounds" : {
+    "falling" : ["/sfx/tech/tech_superjump.ogg"],
+    "landing" : ["/sfx/gun/grenadeblast2.ogg"]
+  }
+}

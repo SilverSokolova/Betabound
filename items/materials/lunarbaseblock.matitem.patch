@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/description","value":"This alloy looks incredibly durable."},{"op":"replace","path":"/description","value":"This block looks incredibly durable."}]
+]

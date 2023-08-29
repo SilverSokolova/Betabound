@@ -1,0 +1,6 @@
+{
+  "input" : ["wheat","sb_orangejam"],
+  "output" : "sb_orangetart",
+  "groups" : ["craftingfood","desserts","sb_healing","sb_health","sb_energy","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_orangetart"}
+}

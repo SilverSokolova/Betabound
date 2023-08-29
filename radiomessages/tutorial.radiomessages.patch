@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/pickupcorefrag/text","value":"You discovered a core fragment! These are useful objects. I estimate that you will require at least 20 of them."},
+{"op":"replace","path":"/pickupcorefrag/text","value":"You discovered a core fragment! These are useful objects. I estimate that you will require at least 20 of them. They can also be made into extremely volatile powder."}]
+]

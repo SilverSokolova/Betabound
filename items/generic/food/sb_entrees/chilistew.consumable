@@ -1,0 +1,22 @@
+{
+  "itemName" : "sb_chilistew",
+  "price" : 165,
+  "foodValue" : 30,
+  "tooltipKind" : "sb_object",
+  "rarity" : "unCommon",
+  "sb_plateHide" : true,
+  "category" : "preparedFood",
+  "inventoryIcon" : "chilistew.png",
+  "description" : "A delicious beefy chili. Spicy!",
+  "effects" : [[
+	{"effect":"maxhealthscalingboostfood","duration":135},
+	{"effect":"nova","duration":135},
+	{"effect":"burning","duration":10},
+	"sb_foodheal95"
+  ]],
+  "rottedItem" : "sb_revoltingstew",
+  "shortdescription" : "Chili Stew",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 3
+}

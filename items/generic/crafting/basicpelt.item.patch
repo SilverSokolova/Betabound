@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/price","value":0},{"op":"add","path":"/price","value":5}],
+[{"op":"test","path":"/description","value":"It's the pelt of an animal."},{"op":"replace","path":"/description","value":"It's the pelt of an animal. A few of these could be turned into leather at a furnace..."}]
+]

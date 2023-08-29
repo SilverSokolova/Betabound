@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/description","value":"An icy organic chemical. Can be used for crafting."},
+{"op":"replace","path":"/description","value":"An icy organic chemical."}]
+]

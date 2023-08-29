@@ -1,0 +1,5 @@
+{
+  "input" : ["sb_imperviumcompound"],
+  "output" : ["sb_imperviumbar",10],
+  "groups" : ["craftingfurnace3","ingredients","all"]
+}

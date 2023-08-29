@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/shortdescription","value":"Hivestone"},
+{"op":"replace","path":"/shortdescription","value":"Hive"}]
+]

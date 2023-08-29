@@ -1,0 +1,16 @@
+{
+  "input" : [
+	"ethnichead",
+	"vicioushead",
+	"predatoryhead",
+	"predatorychest",
+	"predatorypants",
+	"predatoryback",
+	"floranmission2-codex",
+	"floranmission3-codex",
+	"floranmission4-codex",
+	"floranmission1-codex"
+  ],
+  "output" : "ixodoomaf",
+  "groups" : ["sb_treasuredtrophies_outpost_mission2","nouncrafting","all"]
+}

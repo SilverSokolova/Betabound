@@ -1,0 +1,5 @@
+{
+  "input" : [["salvagetier4",10],["platinumbar",15],["goldbar",20]],
+  "output" : "mechassemblystation",
+  "groups" : ["inventorstable3","craftingstations","all"]
+}

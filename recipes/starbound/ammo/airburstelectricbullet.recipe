@@ -1,0 +1,5 @@
+{
+  "input" : ["staticcell","sb_gunpowder","lead"],
+  "output" : ["sb_ammo",75,{"projectileType":"airburstelectricbullet"}],
+  "groups" : ["sb_ammo","craftinganvil2","all"]
+}

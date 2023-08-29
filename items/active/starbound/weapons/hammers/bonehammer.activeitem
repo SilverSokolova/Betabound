@@ -1,0 +1,80 @@
+{
+  "itemName" : "sb_bonehammer",
+  "level" : 1,
+  "price" : 1500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "BOOONNNNNNEEESTOOORRRMMM!",
+  "shortdescription" : "Bone Hammer",
+  "sb_waBan" : true,
+  "tooltipKind" : "sb_sword2",
+  "category" : "hammer",
+  "tooltipFields" : {"subtitle":"Bone Hammer"},
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","hammer","upgradeableWeapon"],
+
+  "inventoryIcon" : "bonehammer.png",
+  "animationParts" : {
+    "blade" : "bonehammer.png",
+    "handle" : ""
+  },
+
+  "builderConfig" : [{
+    "nameGenerator" : "bonehammernames.config:nameGen",
+    "altAbilities" : ["physicalshockwave"]
+  }],
+  "animation" : "/items/active/starbound/weapons/hammer.animation",
+  "animationCustom" : {
+    "animatedParts":{
+      "parts" : {
+        "swoosh" : {"partStates":{"swoosh":{"fire":{"properties":{"offset":[0,1.5],"image":"/projectiles/swoosh/sb_boneswoosh/boneswoosh.png:<frame>"}}}
+        }},
+        "blade" : {
+          "properties" : {
+          "offset":[0.65, 1.875]
+          }
+        },
+        "handle" : {
+          "properties" : {
+          "offset":[0.65, 1.875]
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "fire" : ["/sfx/melee/swing_hammer.ogg"],
+      "groundImpact" : []
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "aimOffset" : -1.0,
+  "projectileDamageMultiplier" : 2.5,
+  "primaryAbilityType" : "sb_hammer",
+  "primaryAbility" : {
+    "fireTime" : [0.55,1.5],
+    "stances" : {
+      "idle" : {
+	"weaponRotation" : 0
+      },
+      "windup" : {
+	"weaponRotation" : 0,
+	"weaponOffset" : [-0.125, 0.5]
+      },
+      "preslash" : {
+	"weaponOffset" : [-0.125, 0.5]
+      },
+      "fire" : {
+	"armRotation" : -45,
+	"weaponRotation" : -45,
+	"weaponOffset" : [-0.125, 0.5]
+      }
+    },
+    "baseDps" : [6.5,9],
+    "projectileOffset" : [2,2],
+    "projectileType" : "sb_boneswoosh"
+  },
+
+  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+}

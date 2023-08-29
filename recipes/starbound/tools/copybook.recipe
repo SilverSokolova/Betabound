@@ -1,0 +1,5 @@
+{
+  "input" : [["paper",3],"leather"],
+  "output" : "sb_copybook",
+  "groups" : ["sb_craftingtable","sb_tools","all"]
+}

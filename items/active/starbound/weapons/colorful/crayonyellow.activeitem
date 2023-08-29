@@ -1,0 +1,11 @@
+{
+  "itemName" : "sb_crayonyellow",
+  "definition" : "crayon",
+  "shortdescription" : "Striking Yellow Crayon",
+  "tags" : {
+    "<color>" : "yellow",
+    "<swaps>" : "?replace;ffca8a=fffa8a;eb9550=ebd550;b55f30=b59630;843114=845f14"
+  },
+  "itemTags" : ["weapon","melee","shortsword","upgradeableWeapon"],
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

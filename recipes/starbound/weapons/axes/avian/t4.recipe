@@ -1,0 +1,5 @@
+{
+  "input" : [["durasteelbar",3],["copperbar",2]],
+  "output" : "sb_aviantier4axe",
+  "groups" : ["craftinganvil3","weapons","all"]
+}

@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_apextier1dagger",
+  "description": "A curved dagger.",
+  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "definition": "daggers/t1",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Simisickle"
+}

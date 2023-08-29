@@ -1,0 +1,23 @@
+{
+  "materialId" : 6965,
+  "materialName" : "skyrailbreak",
+  "platform" : true,
+  "transparent" : true,
+  "collisionKind" : "platform",
+  "itemDrop" : "skyrailbreak",
+  "shortdescription" : "Skyrail Breaker",
+  "description" : "A skyrail for slowing things down.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "supports",
+
+  "renderTemplate" : "/tiles/skyrailtemplate.config",
+  "renderParameters" : {
+    "texture" : "skyrail_break.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

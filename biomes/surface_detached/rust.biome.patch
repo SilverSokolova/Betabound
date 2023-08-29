@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/friendlyName","value":"Rust"},
+{"op":"replace","path":"/friendlyName","value":"Foundry"}],
+[{"op":"test","path":"/surfacePlaceables/items/1/treeStemList"},
+{"op":"add","path":"/surfacePlaceables/items/1/treeFoliageList/-","value":"rustflower"}]
+]

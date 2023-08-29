@@ -1,0 +1,6 @@
+{
+  "input" : [["tungstenbar",6],["wildvines",5]],
+//Better to use wildvines instead of putting people in a situation where they want the weapon but cant because they have have all but one color of petals
+  "output" : "pollenpump",
+  "groups" : ["craftinganvil","weapons","all"]
+}

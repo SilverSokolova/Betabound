@@ -1,0 +1,1 @@
+{"description":"A chunky, strong dagger.","shortdescription":"Force Restart","itemName":"sb_glitchtier5sdagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t5s","daggers/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

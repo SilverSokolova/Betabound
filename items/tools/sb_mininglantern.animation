@@ -1,0 +1,87 @@
+{
+  "globalTagDefaults": {
+    "color": "black"
+  },
+  "animatedParts": {
+    "stateTypes": {
+      "light": {
+        "default": "on",
+        "states": {
+          "off": {},
+          "on": {
+            "frames": 2,
+            "cycle": 0.4,
+            "mode": "loop"
+          }
+        }
+      }
+    },
+
+    "parts": {
+      "bg": {
+        "properties": {
+          "centered": false,
+          "offset": [-0.5, -1]
+        },
+
+        "partStates": {
+          "light": {
+            "off": {
+              "properties": {
+                "image": "<partImage>:<color>.off"
+              }
+            },
+
+            "on": {
+              "properties": {
+                "image": "<partImage>:<color>.<frame>",
+                "fullbright": true
+              }
+            }
+          }
+        }
+      },
+      "fg": {
+        "properties": {
+          "centered": false,
+          "zLevel": 1,
+          "offset": [-0.5, -1]
+        },
+
+        "partStates": {
+          "light": {
+            "off": {
+              "properties": {
+                "image": "<partImage>:<color>.off"
+              }
+            },
+
+            "on": {
+              "properties": {
+                "image": "<partImage>:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "lights": {
+    "lantern": {
+      "active": true,
+      "position": [-0.5, -1],
+      "color": [0, 0, 0],
+      "pointLight": false,
+      "beamAmbience": 0,
+      "flickerPeriod": 0.3,
+      "flickerMinIntensity": 0.95,
+      "flickerMaxIntensity": 1,
+      "flickerPeriodVariance": 0.075,
+      "flickerIntensityVariance": 0.025
+    }
+  },
+  "sounds": {
+    "on": ["/sfx/objects/oillantern_on.ogg"],
+    "off": ["/sfx/objects/oillantern_off.ogg"]
+  }
+}

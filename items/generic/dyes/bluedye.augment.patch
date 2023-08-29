@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/scripts"},{"op":"add","path":"/scripts/-","value":"/scripts/augments/sb_dye.lua"}],
+[{"op":"add","path":"/sb_dyeDirectives","value":"?replace;ffca8a=96cbe7;e0975c=5588d4;a85636=344495;6f2919=1a1c51"}]
+]

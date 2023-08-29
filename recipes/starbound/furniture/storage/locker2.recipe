@@ -1,0 +1,5 @@
+{
+  "input" : ["ironbar"],
+  "output" : "locker2",
+  "groups" : ["craftingfurniture","storage","all"]
+}

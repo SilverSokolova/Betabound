@@ -1,0 +1,9 @@
+[
+[{"op":"test","path":"/description","value":"The source of a creature's fiery abilities. Can be used for crafting."},
+{"op":"replace","path":"/description","value":"The source of a creature's fiery abilities."}],
+
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
+{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_firebow"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_groundfirebomb"}]
+]

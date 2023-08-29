@@ -1,0 +1,25 @@
+[
+[{"op":"test","path":"/aliases","inverse":true},{"op":"add","path":"/aliases","value":{}}],
+
+[{"op":"test","path":"/frameGrid/names/0/0","value":"default.1"}],[
+    {"op":"add","path":"/aliases/default.on","value":"default.1"},
+    {"op":"add","path":"/aliases/red.on","value":"red.1"},
+    {"op":"add","path":"/aliases/blue.on","value":"blue.1"},
+    {"op":"add","path":"/aliases/green.on","value":"green.1"},
+    {"op":"add","path":"/aliases/yellow.on","value":"yellow.1"},
+    {"op":"add","path":"/aliases/orange.on","value":"orange.1"},
+    {"op":"add","path":"/aliases/pink.on","value":"pink.1"},
+    {"op":"add","path":"/aliases/black.on","value":"black.1"},
+    {"op":"add","path":"/aliases/white.on","value":"white.1"}],
+
+[{"op":"test","path":"/frameGrid/names/0/0","value":"default.0"}],[
+    {"op":"add","path":"/aliases/default.on","value":"default.0"},
+    {"op":"add","path":"/aliases/red.on","value":"red.0"},
+    {"op":"add","path":"/aliases/blue.on","value":"blue.0"},
+    {"op":"add","path":"/aliases/green.on","value":"green.0"},
+    {"op":"add","path":"/aliases/yellow.on","value":"yellow.0"},
+    {"op":"add","path":"/aliases/orange.on","value":"orange.0"},
+    {"op":"add","path":"/aliases/pink.on","value":"pink.0"},
+    {"op":"add","path":"/aliases/black.on","value":"black.0"},
+    {"op":"add","path":"/aliases/white.on","value":"white.0"}]
+]

@@ -1,0 +1,6 @@
+{
+  "input" : ["sb_ceruliumbar"],
+  "output" : ["money",15],
+  "duration" : 0.2,
+  "groups" : ["refinery","all"]
+}

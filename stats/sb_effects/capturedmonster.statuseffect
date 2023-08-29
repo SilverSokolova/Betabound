@@ -1,0 +1,10 @@
+{
+  "name" : "sb_capturedmonster",
+  "effectConfig" : {},
+  "defaultDuration" : 20,
+
+  "icon" : "/items/throwables/sb_filledcapturepod.png",
+  "label" : "This effect is used to keep track of a captured monster's kills and levels.",
+  "scripts" : []
+//"scripts" : ["capturedmonster.lua"]
+}

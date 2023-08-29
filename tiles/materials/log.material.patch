@@ -1,0 +1,1 @@
+[{"op":"test","path":"/damageTable","inverse":true},{"op":"add","path":"/damageTable","value":"/tiles/flammableDamage.config"}]

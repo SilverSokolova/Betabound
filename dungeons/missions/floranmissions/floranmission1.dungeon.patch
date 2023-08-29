@@ -1,0 +1,23 @@
+[
+    [{
+        "op":"test",
+        "path":"/patchproject",
+        "inverse":true
+    },{
+        "op":"test",
+        "path":"/tiles/384/brush/1/1",
+        "value":"caveart3"
+    },{
+        "op":"test",
+        "path":"/tiles/383/brush/1/1",
+        "value":"caveart3"
+    },{
+        "op":"replace",
+        "path":"/tiles/384/brush/1/1",
+        "value":"sb_caveart3"
+    },{
+        "op":"replace",
+        "path":"/tiles/383/brush/1/1",
+        "value":"sb_caveart3"
+    }]
+]

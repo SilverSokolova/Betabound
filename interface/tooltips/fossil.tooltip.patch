@@ -1,0 +1,47 @@
+[
+  [{
+      "op": "test",
+      "path": "/foodValueLabel",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/foodValueLabel",
+      "value": {
+        "type": "label",
+        "position": [8, 132],
+        "hAnchor": "left",
+        "centered": true,
+        "width": 126
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/foodAmountLabel",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/foodAmountLabel",
+      "value": {
+        "type": "label",
+        "position": [8, 132],
+        "hAnchor": "left",
+        "centered": true,
+        "width": 126
+      }
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb_levelLabel",
+      "value": {
+        "type": "label",
+        "position": [114, 147],
+        "hAnchor": "left",
+        "color": "gray",
+        "centered": true,
+        "wrapWidth": 126
+      }
+    }
+  ]
+]

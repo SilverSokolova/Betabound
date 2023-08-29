@@ -1,0 +1,5 @@
+{
+  "input" : [["money",750]],
+  "output" : "spawnerhylotl",
+  "groups" : ["spawnerstation","sb_villagers","all"]
+}

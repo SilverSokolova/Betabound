@@ -1,0 +1,134 @@
+{
+  "animationParts": {},
+  "animationCustom": {},
+
+  "ability": {
+    "name": "Combo Slash",
+    "type": "sb_meleeslash",
+    "scripts": ["/items/active/starbound/weapons/meleeslash.lua"],
+    "class": "MeleeSlash",
+
+    "comboSteps": 3,
+    "flashTime": 0.15,
+    "flashDirectives": "fade=FFFF=0.15",
+    "swooshOffsetRegions": [
+      [0.75, 0.0, 4.25, 5.0],
+      [3.0, -0.5, 6.5, 2.0],
+      [1.5, -1.0, 5.5, 1.0]
+    ],
+    "comboSpeedFactor": 0.9,
+    "edgeTriggerGrace": 0.25,
+
+    "fireTime": 0.83, //some broadswords in vanilla use this time
+    "baseDps": 11.5,
+    "baseDamage": 5,
+    "cooldownTime": 1.5,
+    "damageConfig": {
+      "damageSourceKind": "broadsword",
+      "knockbackMode": "aim",
+      "knockback": 15,
+      "timeoutGroup": "primary"
+    },
+    "stepDamageConfig": [{
+        "baseDamageFactor": 1.0,
+        "knockback": 15
+      }, {
+        "baseDamageFactor": 0.5,
+        "knockback": 10
+      }, {
+        "baseDamageFactor": 1.0,
+        "knockback": 25
+      }
+    ],
+
+    "stances": {
+      "idle": {
+        "weaponRotation": -10,
+        "armRotation": -90,
+
+        "allowRotate": false,
+        "allowFlip": true
+      },
+      "fire1": {
+        "duration": 0.15,
+        "armRotation": -45,
+        "weaponRotation": -55,
+        "twoHanded": true,
+
+        "allowRotate": false,
+        "allowFlip": true
+      },
+      "preslash1": {
+        "duration": 0.025,
+        "armRotation": 55,
+        "weaponRotation": -45,
+        "twoHanded": true,
+
+        "allowRotate": false,
+        "allowFlip": false
+      },
+      "windup1": {
+        "duration": 0.1,
+        "armRotation": 70,
+        "weaponRotation": 0,
+        "twoHanded": true,
+
+        "allowRotate": false,
+        "allowFlip": true
+      },
+      "wait1": {
+        "duration": 0.2,
+        "armRotation": -45,
+        "weaponRotation": -55,
+        "allowRotate": false,
+        "allowFlip": true,
+        "twoHanded": true
+      },
+      "windup2": {
+        "duration": 0.15,
+        "armRotation": -15,
+        "weaponRotation": -60,
+        "weaponOffset": [0, 0],
+        "twoHanded": true,
+        "allowFlip": true,
+        "allowRotate": false
+      },
+      "fire2": {
+        "duration": 0.2,
+        "armRotation": -150,
+        "weaponRotation": 55,
+        "weaponOffset": [0, 0],
+        "twoHanded": true,
+        "allowFlip": true,
+        "allowRotate": false
+      },
+      "wait2": {
+        "duration": 0.2,
+        "armRotation": -150,
+        "weaponRotation": 55,
+        "weaponOffset": [0, 0],
+        "allowRotate": false,
+        "allowFlip": true,
+        "twoHanded": true
+      },
+      "windup3": {
+        "duration": 0.15,
+        "armRotation": -150,
+        "weaponRotation": 55,
+        "twoHanded": true,
+
+        "allowRotate": false,
+        "allowFlip": true
+      },
+      "fire3": {
+        "duration": 0.3,
+        "armRotation": 0,
+        "weaponRotation": -90,
+        "twoHanded": true,
+
+        "allowRotate": false,
+        "allowFlip": true
+      }
+    }
+  }
+}

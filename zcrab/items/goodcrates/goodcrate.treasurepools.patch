@@ -1,0 +1,15 @@
+[
+{"op":"add","path":"/zcrab_foodcrate/0/1/pool/-","value":{"weight":18,"item":"sb_vegetablesoup"}},
+
+{"op":"add","path":"/zcrab_foodcrate/0/1/pool/-","value":{"weight":3,"item":"orange"}},
+{"op":"add","path":"/zcrab_foodcrate/0/1/pool/-","value":{"weight":2,"item":"sb_poisoncreep"}},
+{"op":"add","path":"/zcrab_foodcrate/0/1/pool/-","value":{"weight":1,"item":"crystalplant"}},
+
+
+{"op":"add","path":"/zcrab_electroniccrate/0/1/pool/-","value":{"weight":2,"item":["screws",8]}},
+{"op":"add","path":"/zcrab_electroniccrate/0/1/pool/-","value":{"weight":1,"item":["screws",4]}},
+
+
+{"op":"add","path":"/zcrab_medicalcrate/0/1/pool/-","value":{"weight":2,"item":["sb_gauze",4]}},
+{"op":"add","path":"/zcrab_medicalcrate/0/1/pool/-","value":{"weight":1.5,"item":["sb_gauze",2]}}
+]

@@ -1,0 +1,5 @@
+{
+  "input" : [["tungstenbar",4],["reed",15]],
+  "output" : ["sb_blowgun",1,{"seed":1,"level":2}],
+  "groups" : ["craftinganvil","weapons","all"]
+}

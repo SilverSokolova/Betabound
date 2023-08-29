@@ -1,0 +1,18 @@
+[
+[{"op":"test","path":"/pingDetectConfig/colors/coal","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/coal","value":[72,80,100,255]}],
+[{"op":"test","path":"/pingDetectConfig/colors/platinum","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/platinum","value":[226,226,220,255]}],
+[{"op":"test","path":"/pingDetectConfig/colors/diamond","inverse":false},{"op":"replace","path":"/pingDetectConfig/colors/diamond","value":[58,207,254,255]}],
+[{"op":"test","path":"/pingDetectConfig/colors/uranium","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/uranium","value":[9,186,9,255]}],
+[{"op":"test","path":"/pingDetectConfig/colors/plutonium","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/plutonium","value":[227,14,207,255]}],
+[{"op":"test","path":"/pingDetectConfig/colors/sb_rubium","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/sb_rubium","value":[255,88,110,255]}],
+[{"op":"test","path":"/pingDetectConfig/colors/sb_cerulium","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/sb_cerulium","value":[77,88,198,255]}],
+[{"op":"test","path":"/pingDetectConfig/colors/crystal","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/crystal","value":[104,225,241,255]}],
+[{"op":"test","path":"/pingDetectConfig/colors/prisilite","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/prisilite","value":[162,95,224,250]}],
+[{"op":"test","path":"/pingDetectConfig/colors/corefragment","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/corefragment","value":[217,46,0,255]}],
+[{"op":"test","path":"/pingDetectConfig/colors/sb_fossil","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/sb_fossil","value":[188,173,128,255]}],
+[{"op":"test","path":"/pingDetectConfig/colors/sulphur","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/sulphur","value":[249,237,136,255]}],
+[{"op":"test","path":"/pingDetectConfig/colors/lead","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/lead","value":[52,52,52,255]}],
+[{"op":"test","path":"/pingDetectConfig/colors/moonstone","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/moonstone","value":[255,255,83,255]}],
+[{"op":"test","path":"/pingDetectConfig/colors/ferroverium","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/ferroverium","value":[247,220,210,255]}], //??not ours why
+[{"op":"test","path":"/pingDetectConfig/colors/hyverium","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/hyverium","value":[156,227,244]}] //??not ours why
+]

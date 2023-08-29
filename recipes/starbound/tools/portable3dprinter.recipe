@@ -1,0 +1,5 @@
+{
+  "input" : [["money",200],["silverbar",5],"siliconboard"],
+  "output" : "sb_portable3dprinter",
+  "groups" : ["inventorstable3","craftingstations","all"]
+}

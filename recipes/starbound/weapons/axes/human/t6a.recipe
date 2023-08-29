@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_feroziumcompound",3],["solariumstar",2]],
+  "output" : "sb_humantier6aaxe",
+  "groups" : ["craftingseparator","weapons","all"]
+}

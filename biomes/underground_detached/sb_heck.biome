@@ -1,0 +1,166 @@
+{
+  "name" : "sb_heck",
+  "friendlyName" : "Heck",
+  "description" : "A Heck biome.", //this string appears in biome data when dumping worlds
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+	"select" : 1,
+	"pool" : [ 
+	  [ 1.0, "sb_heckblob" ]
+	]
+      }
+    ]
+  },
+
+  "mainBlock" : "hellstone",
+  "subBlocks" : [ "sb_brains", "rock04" ],
+  "ores" : "depth2",
+  "parallax" : "/parallax/underground/sb_heck.parallax",
+  "hueShiftOptions" : [0],
+
+  "sky" : {
+    "topColor" : [182, 204, 255],
+    "bottomColor" : [224, 239, 255],
+    "nightTopColor" : [0, 0, 30],
+    "nightBottomColor" : [0, 0, 0]
+  },
+
+ "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/arid_underground.ogg","/sfx/environmental/tentacle_loop2.ogg","/sfx/environmental/aviantemple.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/arid_underground.ogg","/sfx/environmental/tentacle_loop2.ogg","/sfx/environmental/aviantemple.ogg.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vast-immortal-suns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg", "/music/on-the-beach-at-night.ogg","/music/sb_underground.ogg","/music/sb_via-aurora.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg","/music/sb_underground.ogg","/music/sb_via-aurora.ogg" ]
+    }
+  },
+
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "heckgrass" ],
+    "grassModDensity" : 0.1,
+
+    "items" : [
+      {
+	"mode" : "floor",
+	"priority" : 0.1,
+	"variants" : 11,
+	"distribution" : "/biomes/distributions.config:denseSmall",
+
+	"type" : "object",
+	"objectSets" : [
+	  {
+	    "pool" : [
+		[0.35, "sb_heckbush1" ],
+		[0.35, "sb_heckbush2" ],
+		[0.35, "sb_heckbush3" ],
+		[0.35, "sb_heckbush4" ],
+		[0.35, "sb_heckbush5" ],
+		[0.35, "sb_heckbush6" ],
+		[0.35, "sb_heckbush7" ],
+		[0.35, "sb_heckbush8" ],
+		[0.35, "sb_heckbush9" ],
+		[0.35, "sb_heckbush10" ],
+
+		[0.35, "sb_hecklight1" ],
+		[0.35, "sb_hecklight2" ]
+	    ],
+	    "parameters" : { }
+	  }
+	]
+      },
+      {
+	"mode" : "floor",
+	"priority" : 4.0,
+	"variants" : 1,
+	"distribution" : "/biomes/distributions.config:denseLarge",
+
+	"type" : "grass",
+	"grasses" : [ "heckflower" ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "heckgrass" ],
+    "grassModDensity" : 0.1,
+
+    "items" : [
+      {
+	"mode" : "floor",
+	"priority" : 0.1,
+	"variants" : 11,
+	"distribution" : "/biomes/distributions.config:denseSmall",
+
+	"type" : "object",
+	"objectSets" : [
+	  {
+	    "pool" : [
+		[0.35, "sb_heckbush1" ],
+		[0.35, "sb_heckbush2" ],
+		[0.35, "sb_heckbush3" ],
+		[0.35, "sb_heckbush4" ],
+		[0.35, "sb_heckbush5" ],
+		[0.35, "sb_heckbush6" ],
+		[0.35, "sb_heckbush7" ],
+		[0.35, "sb_heckbush8" ],
+		[0.35, "sb_heckbush9" ],
+		[0.35, "sb_heckbush10" ],
+
+		[0.35, "sb_hecklight1" ],
+		[0.35, "sb_hecklight2" ],
+
+	//	[0.35, "sb_heckaltar" ],
+		[0.35, "woodentalllantern" ],
+		[0.35, "huntingpike1" ],
+		[0.35, "huntingpike2" ],
+		[0.35, "huntingpike3" ],
+
+		[0.35, "sb_heckpillar1" ],
+		[0.35, "sb_heckpillar2" ],
+		[0.35, "sb_hecksign" ]
+	    ],
+	    "parameters" : { }
+	  }
+	]
+      },
+      {
+	"mode" : "floor",
+	"priority" : 4.0,
+	"variants" : 1,
+	"distribution" : "/biomes/distributions.config:denseLarge",
+
+	"type" : "grass",
+	"grasses" : [ "heckflower" ]
+      },
+      {
+	"mode" : "floor",
+	"priority" : 8.0,
+	"variants" : 1,
+	"distribution" : "/biomes/distributions.config:rare",
+
+	"type" : "treasureBox",
+	"treasureBoxSets" : [ "sb_heckChest" ]
+      },
+      {
+	"mode" : "floor",
+	"priority" : 8.0,
+	"variants" : 1,
+	"distribution" : "/biomes/distributions.config:uncommon",
+
+	"type" : "microdungeon",
+	"microdungeons" : [ "sb_heckmicrodungeons" ]
+      }
+    ]
+  }
+}

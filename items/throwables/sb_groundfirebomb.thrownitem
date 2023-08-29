@@ -1,0 +1,30 @@
+{
+  "itemName" : "sb_groundfirebomb",
+  "rarity" : "Uncommon",
+  "tooltipKind" : "sb_object",
+  "inventoryIcon" : "sb_groundfirebomb.png",
+  "image" : "sb_groundfirebomb.png",
+  "shortdescription" : "Spreading Fire Bomb",
+  "description" : "A real earth-scorcher!",
+  "category" : "throwableItem",
+  "price" : 120,
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "sb_groundfirebomb",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 50,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : ["/sfx/projectiles/throw_item.ogg"]
+      }
+    ]
+  }
+}

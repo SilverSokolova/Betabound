@@ -1,0 +1,3 @@
+[[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/smashDropPool","value":""},{"op":"replace","path":"/smashDropPool","value":"sb_platinumRockSmall"}],
+[{"op":"test","path":"/breakDropPool","value":""},{"op":"replace","path":"/breakDropPool","value":"sb_platinumRockSmall"}]]

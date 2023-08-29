@@ -1,0 +1,5 @@
+{
+  "input" : ["hylotlfossil1"],
+  "output" : "hylotlskullhead",
+  "groups" : ["craftingwheel","clothes","all"]
+}

@@ -1,0 +1,18 @@
+{
+  "itemName" : "sb_toast",
+  "rarity" : "uncommon",
+  "category" : "preparedFood",
+  "price" : 300,
+  "inventoryIcon" : "toast.png",
+  "tooltipKind" : "sb_object4",
+  "description" : "A slice of warm, toasted bread with a coat of butter. Comforting.",
+  "shortdescription" : "Buttered Toast",
+  "foodValue" : 35,
+  "effects" : [[
+	{"effect":"maxhealthscalingboostfood","duration":158},
+	{"effect":"sb_health","duration":20},
+	"sb_foodheal120"
+  ]],
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"]
+}

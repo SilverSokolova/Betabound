@@ -1,0 +1,11 @@
+{
+  "itemName" : "sb_glowfibregreen",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "tooltipKind" : "sb_object",
+  "itemTags" : ["reagent"],
+  "inventoryIcon" : "sb_glowfibregreen.png",
+  "description" : "Bioluminescent plant fibres. They glow a dazzling bright green!",
+  "shortdescription" : "Green Glow Fibre",
+  "learnBlueprintsOnPickup" : ["glowfibre","glowstickgreen","glowstickgreen"]
+}

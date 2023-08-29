@@ -1,0 +1,5 @@
+{
+  "input" : [["paper",18],["darkwoodmaterial",6]],
+  "output" : "cardboard2",
+  "groups" : ["craftingfurniture","storage","all"]
+}

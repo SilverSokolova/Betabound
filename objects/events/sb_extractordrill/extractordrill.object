@@ -1,0 +1,28 @@
+{
+  "objectName" : "sb_extractordrill",
+  "rarity" : "Common",
+  "description" : "Extracts ores from the ground.",
+  "shortdescription" : "Extractor Drill",
+  "race" : "generic",
+  "category" : "generic",
+  "price" : 0,
+
+  "inventoryIcon" : "extractordrillrack.png",
+  "orientations" : [
+    {
+      "image" : "extractordrillrack.png",
+      "imagePosition" : [-15, 0],
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ],
+
+  "animation" : "/objects/events/sb_extractordrill/extractordrill.animation",
+  "animationPosition" : [0, 26],
+  "scripts" : ["/objects/events/sb_extractordrill/extractordrill.lua"],
+  "scriptDelta" : 1,
+  "raiseTime" : 3,
+  "drillHeight" : 3,
+  "holdTime" : 1,
+  "fallTime" : 0.25
+}

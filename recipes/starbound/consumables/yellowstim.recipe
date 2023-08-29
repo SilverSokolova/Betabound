@@ -1,0 +1,5 @@
+{
+  "input" : [["toxicwaste",4],"syringe"],
+  "output" : "yellowstim",
+  "groups" : ["craftingmedical","buffs","all"]
+}

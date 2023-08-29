@@ -1,0 +1,96 @@
+[
+    [{
+        "op": "test",
+        "path": "/scriptConfig/dialog/converse/default/default/30",
+        "value": "How'd you get down here? the facility is on lockdown!"
+    },{
+        "op": "replace",
+        "path": "/scriptConfig/dialog/converse/default/default/30",
+        "value": "How'd you get down here? The facility is on lockdown!"
+    }],
+    [{
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "Help better be on the way!"
+    },
+    {
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "How many of us are left here?!"
+    },
+    {
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "I can't hide here forever - My supplies will run out eventually!"
+    },
+    {
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "I knew those glowing crystals weren't safe!"
+    },
+    {
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "I wish I had never taken this job!"
+    },
+    {
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "I won't be able to hold out in this place for long!"
+    },
+    {
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "I wonder how I'll get off this moon..."
+    },
+    {
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "I'm hiding here until those monsters disappear."
+    },
+    {
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "I'm hiding in here until those monsters disappear."
+    },
+    {
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "If I keep out of the way, those monsters might ignore me..."
+    },
+    {
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "There's no company protocol for something like this!"
+    },
+    {
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "These creatures... Where did they come from?!"
+    },
+    {
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "These things are like moon mutants... Moontants!"
+    },
+    {
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "Those creatures... Where did they come from?"
+    },
+    {
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "Those pink things, they look almost like people..."
+    },
+    {
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "Why would you come to this place? Are you here to mine?"
+    },
+    {
+        "op": "add",
+        "path": "/scriptConfig/dialog/converse/default/default/-",
+        "value": "Why would you come to this place? Go before it's too late!"
+    }]
+]

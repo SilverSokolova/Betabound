@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_gunpowder",2],"lead"],
+  "output" : ["sb_ammo",50,{"projectileType":"fast"}],
+  "groups" : ["sb_ammo","craftinganvil","all"]
+}

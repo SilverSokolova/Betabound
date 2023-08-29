@@ -1,0 +1,94 @@
+{
+  "background": {
+    "type": "background",
+    "fileHeader": "/interface/tooltips/sb_header.png",
+    "fileBody": "/interface/tooltips/sb_bodyobject2.png",
+    "fileFooter": "/interface/tooltips/sb_footer2.png"
+  },
+  "objectImage": {
+    "type": "image",
+    "position": [67, 110],
+    "file": "",
+    "centered": true,
+    "maxSize": [38, 38],
+    "minSize": [38, 38]
+  },
+  "priceLabel": {
+    "type": "label",
+    "position": [110, 23],
+    "hAnchor": "left",
+    "value": "tree"
+  },
+  "healthLabel": {
+    "type": "label",
+    "position": [127, 71],
+    "hAnchor": "right",
+    "value": ""
+  },
+  "healthTitleLabel": {
+    "type": "label",
+    "position": [12, 71],
+    "hAnchor": "left",
+    "value": "Shield Health:"
+  },
+  "cooldownLabel": {
+    "type": "label",
+    "position": [127, 62],
+    "hAnchor": "right",
+    "value": ""
+  },
+  "cooldownTitleLabel": {
+    "type": "label",
+    "position": [12, 62],
+    "hAnchor": "left",
+    "value": "Cooldown Time:"
+  },
+  "knockbackLabel": {
+    "type": "label",
+    "position": [127, 44],
+    "hAnchor": "right",
+    "value": ""
+  },
+  "knockbackTitleLabel": {
+    "type": "label",
+    "position": [12, 44],
+    "hAnchor": "left",
+    "value": ""
+  },
+  "moneyIcon": {
+    "type": "image",
+    "position": [98, 23],
+    "file": "/interface/money.png"
+  },
+  "descriptionLabel": {
+    "type": "label",
+    "position": [12, 58], //12, 58],
+    "lineSpacing": 1.0,
+    "hAnchor": "left",
+    "vAnchor": "top",
+    "wrapWidth": 122 //4
+  },
+  "levelLabel": {
+    "type": "label",
+    "position": [114, 147],
+    "hAnchor": "left",
+    "color": "gray",
+    "centered": true,
+    "wrapWidth": 126
+  },
+  "damageKindImage": {
+    "type": "image",
+    "position": [120, 90],
+    "file": "",
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "rarityLabel": {
+    "type": "label",
+    "position": [7, 23],
+    "hAnchor": "left",
+    "centered": true,
+    "wrapWidth": 126
+  }
+}

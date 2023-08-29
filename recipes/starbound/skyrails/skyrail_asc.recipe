@@ -1,0 +1,5 @@
+{
+  "input" : [["skyrailplatform",20],"goldbar"],
+  "output" : ["skyrail_asc",20],
+  "groups" : ["sb_skyrailtable","sb_skyrails","all"]
+}

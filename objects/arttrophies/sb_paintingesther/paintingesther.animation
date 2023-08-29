@@ -1,0 +1,49 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "painting": {
+        "default": "off",
+        "states": {
+          "blink": {
+            "frames": 2,
+            "cycle": 1
+          },
+          "off": {
+            "frames": 1
+          },
+          "on": {
+            "frames": 2,
+            "cycle": 0.15,
+            "mode": "loop"
+          }
+        }
+      }
+    },
+    "parts": {
+      "painting": {
+        "properties": {
+          "centered": false
+        },
+        "partStates": {
+          "painting": {
+            "blink": {
+              "properties": {
+                "image": "/interface/chatbubbles/sb_esther.png:sb_estherBlink.<frame>"
+              }
+            },
+            "off": {
+              "properties": {
+                "image": "/interface/chatbubbles/sb_esther.png:idle"
+              }
+            },
+            "on": {
+              "properties": {
+                "image": "/interface/chatbubbles/sb_esther.png:sb_estherTalk.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

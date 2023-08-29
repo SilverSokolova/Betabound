@@ -1,0 +1,6 @@
+[
+{"op":"add","path":"/groups/-","value":"plain"},
+{"op":"add","path":"/groups/-","value":"sb_health"},
+{"op":"add","path":"/groups/-","value":"healing"},
+{"op":"add","path":"/groups/-","value":"craftingmedical"}
+]

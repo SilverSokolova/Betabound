@@ -1,0 +1,26 @@
+{
+  "name": "sb_miner",
+  "priority": 3,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "mining": 10
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": ["apex","avian","floran","glitch","human","hylotl","novakid"],
+      "type": "sb_friendlyminer",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [1200, 1800],
+    "pool": "minerGift"
+  }
+}

@@ -1,0 +1,5 @@
+[
+//[{"op":"test","path":"/orientations/0/spaces","inverse":true},{"op":"add","path":"/orientations/0/spaces","value":[[-1,0],[0,0],[-1,1],[0,1],[-1,2],[0,2]]}],
+
+[{"op":"test","path":"/shortdescription","value":"^yellow;Colony Deed"},{"op":"replace","path":"/shortdescription","value":"^yellow;Colony Deed^reset;"}]
+]

@@ -1,0 +1,5 @@
+{
+  "input" : ["peacecredit"],
+  "output" : ["sb_peacekeeper_repair",3],
+  "groups" : ["peacekeeper3","all"]
+}

@@ -1,0 +1,5 @@
+{
+  "input" : [["basic",5]],
+  "output" : "leather",
+  "groups" : ["craftingfurnace","ingredients","all"]
+}

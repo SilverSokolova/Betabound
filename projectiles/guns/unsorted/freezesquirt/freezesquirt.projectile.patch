@@ -1,0 +1,7 @@
+[
+[{"op":"test","path":"/physics","value":"laser"},{"op":"replace","path":"/physics","value":"grenade"}],
+[{"op":"test","path":"/actionOnReap/0/liquid","value":"liquidnitrogen"},{"op":"replace","path":"/actionOnReap/0/liquid","value":"sb_liquidnitrogen"}],
+[{"op":"test","path":"/statusEffects","inverse":true},{"op":"add","path":"/statusEffects","value":[]}],[{"op":"add","path":"/statusEffects/-","value":"frostslow"}],
+[{"op":"test","path":"/emitters","inverse":true},{"op":"add","path":"/emitters","value":[]}],[{"op":"add","path":"/emitters/-","value":"icethrowertrail"}],
+[{"op":"test","path":"/emitters/0","value":"squirt"},{"op":"replace","path":"/emitters/0","value":"sb_freezesquirt"}]
+]

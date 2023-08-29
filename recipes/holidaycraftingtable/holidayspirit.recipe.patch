@@ -1,0 +1,6 @@
+[
+  [
+    {"op":"test","path":"/groups/1","value":"objects"},
+	{"op":"replace","path":"/groups/1","value":"other"}
+  ]
+]

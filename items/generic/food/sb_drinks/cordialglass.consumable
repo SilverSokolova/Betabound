@@ -1,0 +1,20 @@
+{
+  "itemName" : "sb_cordialglass",
+  "price" : 290,
+  "foodValue" : 30,
+  "effects" : [[
+	{"effect":"ragefood","duration":270},
+	"sb_foodheal95"
+  ]],
+  "tooltipKind" : "sb_object",
+  "rarity" : "unCommon",
+  "category" : "drink",
+  "inventoryIcon" : "cordialglass.png",
+  "description" : "A glass of smooth avesmingo cordial.",
+  "shortdescription" : "Avesmingo Cordial Glass",
+  "handPosition" : [0, -2.5],
+  "emitters" : ["drinking"],
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10
+}

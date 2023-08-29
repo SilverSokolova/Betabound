@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_florantier4shortsword",
+  "description": "A shortsword that really hurts.",
+  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "definition": "shortswords/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Nastyslice"
+}

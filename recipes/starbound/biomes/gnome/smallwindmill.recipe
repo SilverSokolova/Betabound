@@ -1,0 +1,5 @@
+{
+  "input" : [["gnome",14]],
+  "output" : "smallwindmill",
+  "groups" : ["craftingfurniture","decoration","all"]
+}

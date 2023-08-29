@@ -1,0 +1,48 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "moving" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "on" : {
+            "properties" : {
+              "persistentSound" : "/sfx/objects/steel_elevator_loop.ogg"
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "base" : {
+        "properties" : {
+          "offset" : [-0.5, 0],
+          "centered" : false,
+          "image" : "<partImage>"
+        }
+      },
+
+      "platform" : {
+        "properties" : {
+          "centered" : true,
+          "transformationGroups" : ["platform"],
+          "image" : "<partImage>",
+          "zLevel" : 1
+        }
+      }
+    }
+  },
+
+  "transformationGroups" : {
+    "platform" : {
+      "interpolated" : true
+    }
+  },
+
+  "sounds" : {
+    "changeDir" : {
+      "pool" : [ "/sfx/objects/steel_elevator_hit.ogg" ]
+    }
+  }
+}

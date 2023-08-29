@@ -1,0 +1,7 @@
+[[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"test","path":"/fuelAmount","inverse":true},{"op":"add","path":"/fuelAmount","value":2}],
+//[{"op":"test","path":"/tooltipFields","inverse":true},{"op":"add","path":"/tooltipFields","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_gunpowder"},
+{"op":"replace","path":"/category","value":"fuel"}]
+//,{"op":"add","path":"/tooltipFields","value":{"subtitle":"Ship Fuel"}}]
+]

@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_humantier1axe",
+  "description": "A small iron axe. Chop chop?",
+  "shortdescription": "Iron Axe",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t1",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

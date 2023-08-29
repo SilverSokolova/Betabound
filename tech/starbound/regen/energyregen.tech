@@ -1,0 +1,14 @@
+{
+  "name" : "sb_energyregen",
+  "type" : "head",
+  "icon" : "/tech/starbound/energyregen.png",
+  "scripts" : [],
+  "sb_effect" : "sb_energyregentech",
+  "sb_suitImage" : "?replace;73daff=ccead0;27abff=b6e1bc;117ee4=8acf94;1f45d4=6ca174;002b72=517e58;001522=39583e",
+  "rarity" : "Legendary",
+  "description" : "Provides the wearer with a boost in energy regeneration whilst not moving.",
+  "shortDescription" : "Energy Charge",
+
+  "regenRate" : 35,
+  "glow" : "0A03"
+}

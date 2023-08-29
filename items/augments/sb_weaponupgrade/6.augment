@@ -1,0 +1,14 @@
+{
+  "itemName" : "sb_weaponupgrade6",
+  "price" : 3175,
+  "tooltipKind" : "sb_object4b",
+  "rarity" : "legendary",
+  "itemTags" : ["weapon","ranged","revolver","pistol","gun"],
+  "category" : "pistol",
+  "tooltipFields" : {"subtitle":"Other"},
+  "newLevel" : 6,
+  "inventoryIcon" : "6.png",
+  "description" : "A weapon upgrade kit. It can bring most weapons up to ^orange;level 6!^reset;\n^gray;Select kit and right-click weapon.",
+  "shortdescription" : "Masterful Upgrade Kit",
+  "scripts" : ["/scripts/augments/sb_upgrade.lua"]
+}

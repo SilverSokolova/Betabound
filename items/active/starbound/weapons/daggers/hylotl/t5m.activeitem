@@ -1,0 +1,1 @@
+{"description":"A spiky dagger.","shortdescription":"Stinger","itemName":"sb_hylotltier5mdagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t5m","daggers/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

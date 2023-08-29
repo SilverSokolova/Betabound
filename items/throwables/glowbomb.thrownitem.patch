@@ -1,0 +1,9 @@
+[
+[{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":0}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"replace","path":"/price","value":110},
+{"op":"replace","path":"/projectileConfig/speed","value":25},
+{"op":"replace","path":"/projectileConfig/level","value":0}],
+[{"op":"test","path":"/description","value":"For when you need a quick light source."},
+{"op":"replace","path":"/description","value":"For when you need a quick light source and only another sentient being will do."}]
+]

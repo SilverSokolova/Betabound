@@ -1,0 +1,49 @@
+{
+  "itemName" : "sb_aegisaltshotgun",
+  "inventoryIcon" : "aegisaltshotgun.png",
+  "maxStack" : 1,
+  "price" : 600,
+  "tooltipKind" : "sb_gun2",
+  "tooltipFields" : {"damageKindImage":"/interface/sb_tooltips/standardbullet.png"},
+  "itemTags" : ["weapon","ranged","shotgun","aegisalt","upgradeableWeapon"],
+  "category" : "shotgun",
+  "fixedRarity" : true,
+  "rarity" : "rare",
+  "description" : "A shotgun worth its aegisalt.",
+  "shortdescription" : "Aegishot",
+  "animation" : "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationCustom" : {"sounds":{"fire":["/sfx/gun/shotgun3.ogg"]}},
+    "animationParts" : {
+    "barrel" : "",
+    "butt" : "",
+    "muzzleFlash" : "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.png",
+    "middle" : "aegisaltshotgun.png"
+  },
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "baseOffset" : [0.6,0.15],
+  "muzzleOffset" : [2,0],
+
+  "twoHanded" : true,
+  "level" : 5,
+  "primaryAbilityType" : "sb_gun2",
+  "altAbilityType" : "piercingshot",
+  "altAbility" : {
+    "energyUsage" : 60
+  },
+  "primaryAbility" : {
+    "stances" : {
+      "cooldown" : {
+        "recoil" : true,
+        "armRotation" : 0,
+        "weaponRotation" : 0
+      }
+    },
+    "projectileCount" : 5,
+    "fireTime" : 0.85,
+    "baseDps" : 13.25,
+    "energyUsage" : 15,
+    "inaccuracy" : 0.11,
+    "projectileParameters" : {"speed":150,"timeToLive":3,"knockback":7}
+  },
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

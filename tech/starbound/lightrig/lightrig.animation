@@ -1,0 +1,39 @@
+{
+  "lights" : {
+    "lightright" : {
+      "active" : false,
+      "position" : [-1, -1],
+      "color" : [150, 150, 120],
+      "pointLight" : true,
+      "pointAngle" : 0,
+      "pointBeam" : 0.4
+    },
+    "lightup" : {
+      "active" : false,
+      "position" : [0, -1],
+      "color" : [150, 150, 120],
+      "pointLight" : true,
+      "pointAngle" : 90,
+      "pointBeam" : 0.4
+    },
+    "lightleft" : {
+      "active" : false,
+      "position" : [1, -1],
+      "color" : [150, 150, 120],
+      "pointLight" : true,
+      "pointAngle" : 180,
+      "pointBeam" : 0.4
+    },
+    "lightdown" : {
+      "active" : false,
+      "position" : [0, 0],
+      "color" : [150, 150, 120],
+      "pointLight" : true,
+      "pointAngle" : 270,
+      "pointBeam" : 0.4
+    }
+  },
+  "sounds" : {
+    "toggle" : ["/sfx/tools/flashlight_toggle.ogg"]
+  }
+}

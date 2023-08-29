@@ -1,0 +1,9 @@
+{
+  "name" : "sb_hugedragontail",
+  "category" : "sb_hugebiped",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "tail.png"
+  }
+}

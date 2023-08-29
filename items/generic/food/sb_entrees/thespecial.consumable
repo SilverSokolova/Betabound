@@ -1,0 +1,18 @@
+{
+  "itemName" : "sb_thespecial",
+  "price" : 270,
+  "foodValue" : 70,
+  "tooltipKind" : "sb_object",
+  "rarity" : "legendary",
+  "inventoryIcon" : "thespecial.png",
+  "category" : "preparedFood",
+  "description" : "You're better off not knowing what's in it.",
+  "effects" : [[
+	{"effect":"ragefood","duration":315},
+	{"effect":"maxhealthscalingboostfood","duration":315},
+	"sb_foodheal265"
+  ]],
+  "shortdescription" : "The Special",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"]
+}

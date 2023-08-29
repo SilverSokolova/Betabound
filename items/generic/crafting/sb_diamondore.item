@@ -1,0 +1,12 @@
+{
+  "itemName" : "sb_diamondore",
+  "price" : 300,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "tooltipKind" : "sb_object",
+  "inventoryIcon" : "sb_diamondore.png",
+  "itemTags" : ["reagent"],
+  "learnBlueprintsOnPickup" : ["sb_diamond_repair","diamond"],
+  "description" : "Diamond ore. Can be used for smelting.",
+  "shortdescription" : "Diamond Ore"
+}

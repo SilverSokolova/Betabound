@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
+[{"op":"add","path":"/sb_plateImage","value":true},{"op":"add","path":"/sb_plateHide","value":true}]
+]

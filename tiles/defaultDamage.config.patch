@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/damageFactors","inverse":true},{"op":"add","path":"/damageFactors","value":{}}],
+[{"op":"test","path":"/damageFactors/plantish","inverse":true},{"op":"add","path":"/damageFactors/plantish","value":0}],
+[{"op":"replace","path":"/damageFactors/plantish","value":0.02}]
+]

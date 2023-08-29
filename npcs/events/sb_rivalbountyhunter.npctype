@@ -1,0 +1,93 @@
+{
+  "type" : "sb_rivalbountyhunter",
+  "baseType" : "base",
+
+  "levelVariance" : [3, 3],
+  "persistent" : false,
+
+  "damageTeamType" : "friendly",
+  "damageTeam" : 1,
+
+  "dropPools" : [ ],
+
+  "scriptConfig" : {
+    "behavior" : "bountyrival",
+
+    "dialog" : {
+      "attack" : "/dialog/peacekeeper.config:attack",
+      "reattack" : "/dialog/peacekeeper.config:reattack",
+      "killedTarget" : "/dialog/peacekeeper.config:killedTarget",
+      "lostTarget" : "/dialog/peacekeeper.config:lostTarget",
+      "outOfSight" : "/dialog/peacekeeper.config:outOfSight",
+      "cheerOn" : "/dialog/peacekeeper.config:cheerOn",
+      "cantReach" : "/dialog/peacekeeper.config:cantReach",
+
+      "bountyRival" : {
+        "warn" : {
+          "default" : {
+            "default" : [
+              "I don't trust you to take down ^green;<bountyName>^reset;."
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Informative. I'm also on the hunt for ^green;<bountyName>^reset;."
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran will ssstop ^green;<bountyName>^reset;!"
+            ]
+          }
+        },
+        "leave" : {
+          "default" : {
+            "default" : [
+              "Don't get in my way!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Threatening. I will get to them first."
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Ssstay away, <entitySpecies>..."
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "peacekeeperchest" } ],
+            "legs" : [ { "name" : "peacekeeperpants" } ],
+            "primary" : [ "npcassaultrifle" ],
+            "sheathedprimary" : [ "npcbroadsword" ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 100.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.5
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

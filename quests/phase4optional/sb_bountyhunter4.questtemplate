@@ -1,0 +1,32 @@
+{
+  "id" : "sb_bountyhunter4.gearup",
+  "prerequisites" : [ "hylotl_mission2", "sb_bountyhunter3.gearup", "sb_hylotlperformer3.gearup", "sb_avianexplorer3.gearup"],
+  "title" : "^green;Sharpening Up",
+  "text" : "Hey, eh... this butcher knife, it's not really sharp enough to be, eh... fit for purpose. Can you bring me some leather so I can sharpen it?",
+  "completionText" : "Nice and sharp! You've probably been wondering why I've been asking you to do all of these things for me. I'm sure you've guessed it by now, I'm opening a restaurant! Thank you for helping me. Take this! It's the last of my weapon stockpile.",
+  "speaker" : "questGiver",
+  "moneyRange" : [200, 200],
+  "rewards" : [["techcard",["sb_boneshotgun",1,{"level":5}],"upgrademodule",["rewardbag",1,{"treasure":{"level":5}}]]],
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquest.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {"default" : "questGiver"},
+    "requireTurnIn" : true,
+    "turnInDescription" : "Speak to ^orange;the bounty hunter^reset; at the ^orange;outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "leather",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}

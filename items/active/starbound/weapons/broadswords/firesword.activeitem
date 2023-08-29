@@ -1,0 +1,90 @@
+{
+  "itemName": "sb_firesword",
+  "level": 1,
+  "price": 800,
+  "maxStack": 1,
+  "rarity": "legendary",
+  "category": "broadsword",
+  "description": "The concentrated fire inside the blade sets enemies aflame with every attack!",
+  "shortdescription": "Fire Sword",
+  "tooltipFields": {
+    "subtitle": "Fire Sword"
+  },
+  "tooltipKind": "sb_sword2",
+  "twoHanded": true,
+  "sb_waBan": true,
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "animation": "/items/active/starbound/weapons/broadsword.animation",
+  "animationParts": {
+    "blade": "fireswordblade.png",
+    "handle": "fireswordhandle.png"
+  },
+  "animationCustom": {
+    "lights": {
+      "glow": {
+        "color": [191, 103, 2]
+      }
+    },
+    "animatedParts": {
+      "parts": {
+        "blade": {
+          "properties": {
+            "fullbright": true
+          }
+        },
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [0.65, 1.875]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "particleEmitters": {
+      "fireswoosh": {
+        "active": false,
+        "transformationGroups": ["swoosh"],
+        "burstCount": 6,
+        "particles": [{
+            "particle": "burningdust"
+          }, {
+            "particle": "campfireflames"
+          }, {
+            "particle": "dust2"
+          }
+        ]
+      }
+    }
+  },
+
+  "builderConfig": [{
+      "nameGenerator": "fireswordnames.config:nameGen",
+      "iconDrawables": ["blade", "handle"],
+      "altAbilities": [
+        "bladecharge",
+        "parry",
+        "travelingslash",
+        "blinkexplosion",
+        "traildash"
+      ]
+    }
+  ],
+
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType": "fire",
+  "primaryAbilityType": "sb_meleeslash",
+  "primaryAbility": {
+    "damageConfig": {
+      "statusEffects": ["burning"],
+      "damageSourceKind": "firebroadsword"
+    },
+    "fireTime": [0.6, 0.9],
+    "baseDps": [10.5, 11.5]
+  },
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

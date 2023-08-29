@@ -1,0 +1,21 @@
+{
+  "projectileName" : "sb_filledcrittercapturepod",
+  "image" : "filledcrittercapturepod.png",
+  "animationCycle" : 0.25,
+  "physics" : "grenade",
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "speed" : 40,
+  "power" : 0.1,
+  "damageKind" : "default",
+  "emitters" : ["capturepodred"],
+  "pureArcDuration" : 1,
+  "returnCollisionDuration" : 2,
+  "orientationLocked" : true,
+//"scripts" : ["filledcapturepodprojectile.lua"],
+  "controlForce" : 80,
+  "pickupDistance" : 1,
+  "snapDistance" : 4,
+  "podUuid" : null,
+  "returns" : false
+}

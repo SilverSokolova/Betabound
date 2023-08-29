@@ -1,0 +1,23 @@
+{
+  "projectileName" : "sb_xtermite",
+  "image" : "xtermite.png",
+  "physics" : "rollingboulder",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "orientationLocked" : true,
+  "flippable" : true,
+  "power" : 15,
+  "speed" : 16,
+  "timeToLive" : 2,
+  "bounces" : -1,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/vsmallregularexplosion/vsmallregularexplosionknockback.config"
+    }
+  ],
+  "lightColor" : [120, 0, 130],
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "movementSettings" : {"collisionPoly" : [[0, -0.75], [0.5, 0], [0, 0.75], [-0.5, 0]]}
+}

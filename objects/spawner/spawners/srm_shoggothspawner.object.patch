@@ -1,0 +1,8 @@
+[
+[{"op":"test","path":"/orientations/0/anchors/0","value":"bottom"},{"op":"test","path":"/orientations/0/anchors/1","value":"background"},{"op":"remove","path":"/orientations/0/anchors/1"}],
+
+[{"op":"test","path":"/description","value":"Spawn your very own shoggoth villager. Simply place and then leave the planet or ship. Once you return there will be an NPC."},{"op":"replace","path":"/description","value":"Spawn your very own Shoggoth villager! Simply place and interact with it."}],
+
+[{"op":"test","path":"/shortdescription","value":"Shoggoth Spawner"},{"op":"replace","path":"/shortdescription","value":"^yellow;Shoggoth Spawner^reset;"}],
+[{"op":"add","path":"/scripts/-","value":"sb_spawner.lua"}]
+]

@@ -1,0 +1,27 @@
+{
+  "background": {
+    "type": "background",
+    "fileHeader": "/interface/tooltips/sb_header2.png",
+    "fileBody": "/interface/tooltips/sb_bodyobjecttext.png",
+    "fileFooter": "/interface/tooltips/sb_footer.png"
+  },
+
+  "descriptionLabel": {
+    "type": "label",
+    "position": [11, 96],
+    "hAnchor": "left",
+    "vAnchor": "top",
+    "wrapWidth": 120
+  },
+  "priceLabel": {
+    "type": "label",
+    "position": [110, 23],
+    "hAnchor": "left",
+    "value": "tree"
+  },
+  "moneyIcon": {
+    "type": "image",
+    "position": [98, 23],
+    "file": "/interface/money.png"
+  }
+}

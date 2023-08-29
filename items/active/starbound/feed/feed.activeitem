@@ -1,0 +1,12 @@
+{
+  "itemName" : "sb_fluffalofeed",
+  "rarity" : "uncommon",
+  "category" : "farmBeastFeed",
+  "price" : 250,
+  "inventoryIcon" : "feed.png",
+  "description" : "Feed this to a fluffalo calf to raise a common Fluffalo - a good source of plant fibre.", //"Feed this to a fluffalo calf to help it mature.",
+  "tooltipKind" : "sb_object",
+  "shortdescription" : "Ordinary Acorn",
+  "radioMessagesOnPickup" : ["sb_pickupfarmbeastfeed"],
+  "scripts" : ["feed.lua"]
+}

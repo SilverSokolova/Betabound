@@ -1,0 +1,5 @@
+{
+  "input" : [["refinedviolium",6],["durasteelbar",4],"staticcell"],
+  "output" : "sb_aviantier5sspear",
+  "groups" : ["craftingseparator","weapons","all"]
+}

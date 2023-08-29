@@ -1,0 +1,9 @@
+{
+  "input":[
+    ["sb_tech",1,{"techModule":"sb_shield"}],
+    ["sb_tech",1,{"techModule":"sb_energyregen"}]
+  ],
+  "matchInputParameters" : true,
+  "output" : ["sb_tech",1,{"techModule":"sb_forcefield"}],
+  "groups" : ["sb_techconsole","sb_tech_4","nouncrafting","all"]
+}

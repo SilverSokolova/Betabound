@@ -1,0 +1,9 @@
+{
+  "name" : "sb_hugedragonfarm",
+  "category" : "sb_hugebiped",
+  "type" : "farm",
+
+  "frames" : {
+    "farm" : "farm.png"
+  }
+}

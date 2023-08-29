@@ -1,0 +1,9 @@
+{
+  "input":[
+    ["sb_tech",1,{"techModule":"sb_health"}],
+    ["sb_tech",1,{"techModule":"sb_regeneration"}]
+  ],
+  "matchInputParameters" : true,
+  "output" : ["sb_tech",1,{"techModule":"sb_enhancedhealing"}],
+  "groups" : ["sb_techconsole","sb_tech_4","nouncrafting","all"]
+}

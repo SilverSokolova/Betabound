@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_refinedrubium",6],["durasteelbar",6],"battery",["icecrystal",25]],
+  "output" : ["sb_scistaff",1,{"level":5,"seed":1}],
+  "groups" : ["craftingmanipulator","weapons","all"]
+}

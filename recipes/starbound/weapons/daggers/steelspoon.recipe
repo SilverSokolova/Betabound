@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_steelbar",2],"silverbar"],
+  "output" : "sb_steelspoon",
+  "groups" : ["craftinganvil2","weapons"]
+}

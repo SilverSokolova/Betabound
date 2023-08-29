@@ -1,0 +1,16 @@
+{
+  "name" : "sb_regeneration",
+  "type" : "head",
+  "icon" : "/tech/starbound/regeneration.png",
+  "scripts" : [],
+  "sb_effect" : "sb_regenerationtech",
+  "sb_suitImage" : "?replace;73daff=e88888;27abff=e36e6e;117ee4=d93a3a;1f45d4=cd2828;002b72=b32323;001522=7f1919",
+  "rarity" : "Legendary",
+  "description" : "Provides the wearer with a boost in health regeneration whilst not moving.",
+  "shortDescription" : "Regeneration",
+
+  "regenRate" : 10,
+//"energyUsageRate" : 30,
+  "resource" : "health",
+  "glow" : "F003"
+}

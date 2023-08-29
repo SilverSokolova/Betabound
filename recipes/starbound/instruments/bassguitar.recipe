@@ -1,0 +1,5 @@
+{
+  "input" : [["darkwoodmaterial",20],["string",5],"ironbar"],
+  "output" : "bassguitar",
+  "groups" : ["sb_craftingtable","sb_instruments","all"]
+}

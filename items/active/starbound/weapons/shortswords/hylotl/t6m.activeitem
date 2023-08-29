@@ -1,0 +1,1 @@
+{"description":"Like a cutlass, but smaller.","shortdescription":"Cutless","itemName":"sb_hylotltier6mshortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t6m","shortswords/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

@@ -1,0 +1,17 @@
+{
+  "name" : "sb_flyingjump",
+  "type" : "legs",
+
+  "rarity" : "Legendary",
+  "icon" : "/tech/starbound/flyingjump.png",
+  "description" : "Four additional jumps that can be used while in the air!",
+  "sb_longDescription" : "Refreshed upon landing.",
+  "shortDescription" : "Flying Jump",
+  "chipCost" : 16,
+
+  "scripts" : ["multijump.lua"],
+  "animator" : "multijump.animation",
+
+  "multiJumpCount" : 4,
+  "energyUsage" : 11
+}

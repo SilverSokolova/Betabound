@@ -1,0 +1,5 @@
+{
+  "input" : [["platinumbar",10],"siliconboard"],
+  "output" : "spawnerstation",
+  "groups" : ["inventorstable3","craftingstations","all"]
+}

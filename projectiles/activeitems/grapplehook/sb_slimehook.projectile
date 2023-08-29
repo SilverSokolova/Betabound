@@ -1,0 +1,22 @@
+{
+  "projectileName" : "sb_slimehook",
+  "image" : "/items/tools/slimehook.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "flippable" : false,
+  "actionOnReap" : [ ],
+  "statusEffects" : [ ],
+  "power" : 0,
+  "speed" : 4,
+  "movementSettings":{"collisionPoly":[[-0.5,0.25],[-0.5,-0.25],[0.5,0]]},
+  "damageKind" : "default",
+  "physics" : "ballisticgrapplehook",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 5,
+
+  "onlyHitTerrain" : true,
+
+  "scripts" : [ "grapplehook.lua" ]
+}

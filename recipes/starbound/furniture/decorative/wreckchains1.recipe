@@ -1,0 +1,5 @@
+{
+  "input" : [["rustymetal",10]],
+  "output" : "sb_wreckchains1",
+  "groups" : ["craftingfurniture","decoration","all"]
+}

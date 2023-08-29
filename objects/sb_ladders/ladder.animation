@@ -1,0 +1,46 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "ladder": {
+        "default": "bottom",
+        "states": {
+          "top": {
+            "frames": 1
+          },
+          "middle": {
+            "frames": 1
+          },
+          "bottom": {
+            "frames": 1
+          }
+        }
+      }
+    },
+    "parts": {
+      "ladder": {
+        "properties": {
+          "centered": false
+        },
+        "partStates": {
+          "ladder": {
+            "top": {
+              "properties": {
+                "image": "<partImage>:top"
+              }
+            },
+            "middle": {
+              "properties": {
+                "image": "<partImage>:middle"
+              }
+            },
+            "bottom": {
+              "properties": {
+                "image": "<partImage>:bottom"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

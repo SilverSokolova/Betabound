@@ -1,0 +1,9 @@
+{
+  "name" : "sb_light2energy288",
+  "effectConfig" : {
+    "maxRegenAmount" : 4.8
+  },
+  "defaultDuration" : 60,
+  "scripts" : ["light2energy.lua"],
+  "animationConfig" : "energyregen.animation"
+}

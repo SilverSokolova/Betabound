@@ -1,0 +1,5 @@
+{
+  "input" : ["upgrademodule",["moonstoneore",15],["refinedaegisalt",15]],
+  "output" : "sb_fuelefficiency1",
+  "groups" : ["sb_roboticcraftingtable","tools","all"]
+}

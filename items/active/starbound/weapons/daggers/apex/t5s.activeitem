@@ -1,0 +1,1 @@
+{"description":"A small, curved dagger.","shortdescription":"Miniknog's Claw","itemName":"sb_apextier5sdagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t5s","daggers/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

@@ -1,0 +1,9 @@
+{
+  "tooltipKind": "sb_sword2",
+  "itemName": "sb_humantier4axe",
+  "description": "A stylish, practical axe.",
+  "shortdescription": "Class Axe",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t4",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "sb_shuriken",
+  "rarity" : "rare",
+  "tooltipKind" : "sb_object",
+  "inventoryIcon" : "sb_shuriken.png",
+  "image" : "sb_shuriken.png",
+  "shortdescription" : "Plasma Shuriken",
+  "category" : "throwableItem",
+  "description" : "A shuriken cloaked in plasma.",
+
+  "ammoUsage" : 1,
+  "price" : 40,
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "shuriken",
+  "projectileConfig" : {
+    "speed" : 45,
+    "power" : 40,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

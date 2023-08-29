@@ -1,0 +1,9 @@
+[
+{"op":"add","path":"/-","value":{"name":"skyrailplatform","buttonImage":"skyrailplatform.png"}},
+{"op":"add","path":"/-","value":{"name":"skyrail_asc","buttonImage":"skyrail_asc.png"}},
+{"op":"add","path":"/-","value":{"name":"skyrail_desc","buttonImage":"skyrail_asc.png?flipy"}},
+{"op":"add","path":"/-","value":{"name":"skyrail_diodeL","buttonImage":"skyrail_diodel.png"}},
+{"op":"add","path":"/-","value":{"name":"skyrail_diodeR","buttonImage":"skyrail_diodel.png?flipx"}},
+{"op":"add","path":"/-","value":{"name":"skyrailboost","buttonImage":"skyrailboost.png"}},
+{"op":"add","path":"/-","value":{"name":"skyrailbreak","buttonImage":"skyrailbreak.png"}}
+]

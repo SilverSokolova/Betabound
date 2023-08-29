@@ -1,0 +1,79 @@
+{
+  "objectName" : "sb_geometricscreen",
+  "colonyTags" : ["geometric","electronic"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 130,
+  "description" : "Numbers dance and scroll on the screen. What do they mean?",
+  "shortdescription" : "Geometric Ice Screen",
+  "race" : "generic",
+  "tooltipKind" : "sb_object",
+
+  "lightColor" : [147, 195, 200],
+  "flickerPeriod" : 0.4,
+  "flickerMinIntensity" : 0.775,
+  "flickerMaxIntensity" : 0.8,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0,
+
+  "apexDescription" : "A monitor. The information makes no sense to me.",
+  "avianDescription" : "A monitor, filled with arcane data.",
+  "floranDescription" : "Floran read words good. Sssay 'ssstab a meatman'. Huh.",
+  "glitchDescription" : "Analysis. This display appears to read 'stab a meatman' in binary. How unusual.",
+  "humanDescription" : "This reminds me of that one old movie. I can't remember the name of it.",
+  "hylotlDescription" : "Meaningless data.",
+  "novakidDescription" : "Some data. I ain't got the time to read all that!",
+
+  "inventoryIcon" : "geometricscreenicon.png",
+  "orientations" : [
+    {
+      "image" : "geometricscreen.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "lightPosition" : [0, 0]
+    },
+    {
+      "image" : "geometricscreen.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "lightPosition" : [0, 0]
+    },
+    {
+      "image" : "geometricscreen.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [0, 0]
+    },
+    {
+      "image" : "geometricscreen.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [0, 0]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/screen3.ogg",
+
+  "animation" : "geometricscreen.animation",
+  "animationParts" : {
+    "bg" : "geometricscreen.png",
+    "fg" : "geometricscreenlit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [[0,0]]
+}

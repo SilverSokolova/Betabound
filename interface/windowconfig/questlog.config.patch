@@ -1,0 +1,36 @@
+[[{
+      "op": "test",
+      "path": "/paneLayout/rewardItems/dimensions/0",
+      "value": 2
+    }, {
+      "op": "test",
+      "path": "/paneLayout/rewardItems/dimensions/1",
+      "value": 1
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/rewardItems/dimensions/0",
+      "value": 5
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/paneLayout/imgPolaroid/position/1",
+      "value": 45
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/imgPolaroid/position/1",
+      "value": 85
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/imgPortrait/position/1",
+      "value": 110
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/lblPortraitTitle/position/1",
+      "value": 87
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/imgPolaroidBack/position/1",
+      "value": 85
+    }
+  ]]

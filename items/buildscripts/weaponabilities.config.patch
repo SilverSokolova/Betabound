@@ -1,0 +1,15 @@
+[
+[{"op":"add","path":"/sb_staff","value":"/items/active/starbound/staves/staff.weaponability"}],
+[{"op":"add","path":"/sb_gun","value":"/items/active/starbound/guns/gun.weaponability"}],
+[{"op":"add","path":"/sb_gun2","value":"/items/active/starbound/guns/gun2.weaponability"}],
+[{"op":"add","path":"/sb_shotgun","value":"/items/active/starbound/guns/shotgun.weaponability"}],
+[{"op":"add","path":"/sb_burst","value":"/items/active/starbound/guns/burst.weaponability"}],
+[{"op":"add","path":"/sb_axe","value":"/items/active/starbound/weapons/axe.weaponability"}],
+[{"op":"add","path":"/sb_hammer","value":"/items/active/starbound/weapons/hammer.weaponability"}],
+[{"op":"add","path":"/sb_meleeslash","value":"/items/active/starbound/weapons/meleeslash.weaponability"}],
+[{"op":"add","path":"/sb_meleeslash2","value":"/items/active/starbound/weapons/meleeslash2.weaponability"}],
+[{"op":"add","path":"/sb_dagger","value":"/items/active/starbound/weapons/dagger.weaponability"}],
+[{"op":"add","path":"/sb_parry","value":"/items/active/starbound/weapons/parry.weaponability"}],
+[{"op":"add","path":"/sb_spear","value":"/items/active/starbound/weapons/spear.weaponability"}],
+[{"op":"add","path":"/sb_bustershot","value":"/items/active/starbound/bows/bustershot.weaponability"}]
+]

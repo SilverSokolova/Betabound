@@ -1,0 +1,13 @@
+[
+[{"op":"test","path":"/dropPools","inverse":true},{"op":"add","path":"/dropPools","value":[]}],
+
+[{"op":"add","path":"/dropPools/-","value":"sb_friendlycastleguardTreasure"}],
+
+[{"op":"test","path":"/items/override/0/1/0/primary"},
+{"op":"add","path":"/items/override/0/1/0/primary/-","value":"sb_glitchlargemace"},
+{"op":"add","path":"/items/override/0/1/0/primary/-","value":"sb_glitchsmallmace"}],
+
+[{"op":"test","path":"/items/override/0/1/0/sheathedprimary"},
+{"op":"add","path":"/items/override/0/1/0/sheathedprimary/-","value":"sb_crossbowwood"},
+{"op":"add","path":"/items/override/0/1/0/sheathedprimary/-","value":"sb_crossbowspecial"}]
+]

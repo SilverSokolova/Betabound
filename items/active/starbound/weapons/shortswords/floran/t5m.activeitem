@@ -1,0 +1,1 @@
+{"description":"A treasured Floran shortsword.","shortdescription":"Rosebud","itemName":"sb_florantier5mshortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t5m","shortswords/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

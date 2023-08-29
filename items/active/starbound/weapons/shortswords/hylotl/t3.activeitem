@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_hylotltier3shortsword",
+  "description": "A small, sturdy katana.",
+  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "definition": "shortswords/t3",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Kittfish"
+}

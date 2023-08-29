@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_humantier1hammer",
+  "description": "A regular sledgehammer.",
+  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "definition": "hammers/t1",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Sledgehammer"
+}

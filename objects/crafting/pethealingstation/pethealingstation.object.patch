@@ -1,0 +1,27 @@
+[
+  [{
+      "op": "test",
+      "path": "/subtitle"
+    }, {
+      "op": "copy",
+      "path": "/category",
+      "from": "/subtitle"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/tooltipFields",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/tooltipFields",
+      "value": {}
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/tooltipFields/subtitle",
+      "value": "Storage"
+    }
+  ]
+]

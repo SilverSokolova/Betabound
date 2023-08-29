@@ -1,0 +1,56 @@
+{
+  "type" : "sb_peacekeeper",
+  "baseType" : "hostile",
+
+  "levelVariance" : [3, 3],
+  "persistent" : true,
+
+  "damageTeamType" : "enemy",
+  "damageTeam" : 1,
+
+  "dropPools" : [ "guardtreasure" ],
+
+  "scriptConfig" : {
+    "behavior" : "peacekeeper",
+
+    "dialog" : {
+      "attack" : "/dialog/peacekeeper.config:attack",
+      "reattack" : "/dialog/peacekeeper.config:reattack",
+      "killedTarget" : "/dialog/peacekeeper.config:killedTarget",
+      "lostTarget" : "/dialog/peacekeeper.config:lostTarget",
+      "outOfSight" : "/dialog/peacekeeper.config:outOfSight",
+      "cheerOn" : "/dialog/peacekeeper.config:cheerOn",
+      "cantReach" : "/dialog/peacekeeper.config:cantReach"
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "peacekeeperchest" } ],
+            "legs" : [ { "name" : "peacekeeperpants" } ],
+            "primary" : [ "npcassaultrifle" ],
+            "sheathedprimary" : [ "npcbroadsword" ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 100.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.5
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

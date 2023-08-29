@@ -1,0 +1,5 @@
+{
+  "input" : [["refinedaegisalt",6],["durasteelbar",4],"venomsample"],
+  "output" : "sb_apextier5ahammer",
+  "groups" : ["craftingseparator","weapons","all"]
+}

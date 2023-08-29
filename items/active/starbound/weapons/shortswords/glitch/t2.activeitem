@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_glitchtier2shortsword",
+  "description": "A solid Glitch shortsword.",
+  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "definition": "shortswords/t2",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Upgrade 1.0"
+}

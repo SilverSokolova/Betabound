@@ -1,0 +1,13 @@
+[[{"op":"test","path":"/itemTags","inverse":true},{"op":"add","path":"/itemTags","value":[]}],
+[{"op":"test","path":"/fuelAmount","inverse":true},{"op":"add","path":"/fuelAmount","value":0}],
+
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/category","value":"Junk"},{"op":"replace","path":"/category","value":"fuel"}],
+[{"op":"test","path":"/fuelAmount","value":0},{"op":"replace","path":"/fuelAmount","value":15}],
+[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":40}],
+[{"op":"test","path":"/description","value":"Nobody's going to want this. It's highly radioactive."},{"op":"replace","path":"/description","value":"It's a plutonium rod. A great source of fuel."}],
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}],
+[{"op":"test","path":"/fuelAmount","value":9},{"op":"replace","path":"/tooltipKind","value":"sb_object4"}],
+
+[{"op":"add","path":"/itemTags/-","value":"reagent"}]
+]

@@ -1,0 +1,10 @@
+{
+  "name" : "sb_breathprotectiontech",
+  "effectConfig" : { "statModifierGroup" : [
+    {"stat":"breathProtection","amount":1}
+  ]},
+  "defaultDuration" : 5,
+  "scripts" : ["suit.lua"],
+  "label" : "Oxygen Supply",
+  "icon" : "/tech/starbound/air.png"
+}

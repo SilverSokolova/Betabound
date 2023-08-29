@@ -1,0 +1,14 @@
+{
+  "itemName" : "sb_greybluedye",
+  "price" : 25,
+  "tooltipKind" : "sb_object4b",
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "sb_durasteel.png",
+  "description" : "A grey-blue dye. It can be used to dye armour or clothing.\n^gray;Select dye and right-click armour or clothing.",
+  "shortdescription" : "Grey-Blue Dye",
+  "dyeDirectives" : {"ffca8a" : "9da8af", "e0975c" : "676f83", "a85636" : "3d3d51", "6f2919" : "24232f"}, //durasteel
+  "sb_dyeDirectives" : "?replace;ffca8a=9da8af;e0975c=676f83;a85636=3d3d51;6f2919=24232f",
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+  "scripts" : [ "/scripts/augments/dye.lua", "/scripts/augments/sb_dye.lua" ]
+}

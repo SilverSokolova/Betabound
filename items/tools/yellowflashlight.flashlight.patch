@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/description","value":"A yellow flashlight! Don't be afraid."},
+{"op":"replace","path":"/description","value":"A yellow flashlight! Don't be afraid now; it's summer everywhere!"}]
+]

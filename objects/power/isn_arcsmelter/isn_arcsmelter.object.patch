@@ -1,0 +1,108 @@
+//Do we need to check for FU here?
+[
+    [{
+        "op": "test",
+        "path": "/bonusOutputs/platinumore",
+        "inverse" : true
+    },
+    {
+        "op": "add",
+        "path": "/bonusOutputs/platinumore",
+        "value": {
+            "ironore": 25,
+            "fu_oxygen": 23,
+            "fu_carbondioxide": 30
+        }
+    }],
+    [{
+        "op": "test",
+        "path": "/inputsToOutputs/platinumore",
+        "inverse" : true
+    },
+    {
+        "op": "add",
+        "path": "/inputsToOutputs/platinumore",
+        "value": "platinumbar"
+    }],
+
+
+    [{
+        "op": "test",
+        "path": "/bonusOutputs/sb_diamondore",
+        "inverse" : true
+    },
+    {
+        "op": "add",
+        "path": "/bonusOutputs/sb_diamondore",
+        "value": {
+            "coalore": 25,
+            "fu_carbon": 23,
+            "fu_carbondioxide": 30
+        }
+    }],
+    [{
+        "op": "test",
+        "path": "/inputsToOutputs/sb_diamondore",
+        "inverse" : true
+    },
+    {
+        "op": "add",
+        "path": "/inputsToOutputs/sb_diamondore",
+        "value": "diamond"
+    }],
+
+
+    [{
+        "op": "test",
+        "path": "/bonusOutputs/sb_rubiumore",
+        "inverse" : true
+    },
+    {
+        "op": "add",
+        "path": "/bonusOutputs/sb_rubiumore",
+        "value": {
+            "feroziumore": 30,
+            "refinedferozium": 23,
+            "sb_rubiumbar": 30,
+            "corefragmentore": 30,
+            "fu_nitrogen": 28
+        }
+    }],
+    [{
+        "op": "test",
+        "path": "/inputsToOutputs/sb_rubiumore",
+        "inverse" : true
+    },
+    {
+        "op": "add",
+        "path": "/inputsToOutputs/sb_rubiumore",
+        "value": "sb_refinedrubium"
+    }],
+
+
+    [{
+        "op": "test",
+        "path": "/bonusOutputs/sb_ceruliumore",
+        "inverse" : true
+    },
+    {
+        "op": "add",
+        "path": "/bonusOutputs/sb_ceruliumore",
+        "value": {
+            "sb_rubiumore": 20,
+            "solariumore": 23,
+            "goldore": 30,
+            "fu_nitrogen": 28
+        }
+    }],
+    [{
+        "op": "test",
+        "path": "/inputsToOutputs/sb_ceruliumore",
+        "inverse" : true
+    },
+    {
+        "op": "add",
+        "path": "/inputsToOutputs/sb_ceruliumore",
+        "value": "sb_ceruliumcompound"
+    }]
+]

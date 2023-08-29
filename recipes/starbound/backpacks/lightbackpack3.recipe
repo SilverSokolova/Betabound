@@ -1,0 +1,5 @@
+{
+  "input" : ["halogenpack","upgrademodule"],
+  "output" : "xenonpack",
+  "groups" : ["craftingfarm2","survival","all"]
+}

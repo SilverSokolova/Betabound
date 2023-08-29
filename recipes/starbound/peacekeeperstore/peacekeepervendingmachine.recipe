@@ -1,0 +1,5 @@
+{
+  "input" : [["peacecredit",18],"teleportercore"],
+  "output" : "peacekeepervendingmachine",
+  "groups" : ["peacekeeper3","all"]
+}

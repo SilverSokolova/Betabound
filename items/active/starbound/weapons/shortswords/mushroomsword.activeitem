@@ -1,0 +1,62 @@
+{
+  "itemName" : "sb_mushroomsword",
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "An enchanted mushroom shortsword.", //not actual magic
+  "shortdescription" : "Magic Shroom Sword",
+  "tooltipKind" : "sb_sword2",
+  "price" : 70,
+  "category" : "shortsword",
+  "tooltipFields" : {"subtitle":"Magic Shroom Sword"},
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword","mushroom","upgradeableWeapon"],
+  "handGrip" : "inside",
+  "animation" : "/items/active/starbound/weapons/shortsword.animation",
+  "animationParts" : {},
+  "animationCustom" : {
+    "lights":{"glow":{"color":[0,0,0]}},
+    "animatedParts":{
+      "parts" : {
+        "blade" : {"properties" : {}},
+        "handle" : {"properties" : {}},
+	"swoosh":{"partStates":{"swoosh":{"fire":{"properties":{"image":"shortshroomswoosh.png:<frame>"}}}}}
+      }}
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "aimOffset" : 0.0,
+  "primaryAbilityType" : "sb_meleeslash2",
+  "primaryAbility" : {
+    "projectileTypes" : ["sb_fireswirl","electricexplosion"],
+
+    "fireTime" : [0.333,0.666],
+    "baseDps" : [5.5,6.5],
+    "baseDamage" : [5.5,7.5],
+    "damageConfig" : {
+      "damageSourceKind" : "poisonshortsword"
+    }
+  },
+
+  "builderConfig" : [{
+    "nameGenerator" : "mushroomnames.config:nameGen",
+    "elementalType" : "poison",
+    "animationParts" : {
+      "blade" : {
+        "path" : "mushroomsword/blade/<variant>.png",
+        "variants" : 1,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "mushroomsword/handle/<variant>.png",
+        "variants" : 24,
+        "paletteSwap" : true
+      }
+    },
+   "iconDrawables" : ["handle", "blade"],
+    "palette" : "/items/active/starbound/colors/melee.weaponcolors",
+    "altAbilities" : []
+  }],
+  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+}

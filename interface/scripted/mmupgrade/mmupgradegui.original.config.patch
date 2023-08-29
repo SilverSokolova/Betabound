@@ -1,0 +1,181 @@
+[{
+    "op": "add",
+    "path": "/gui/imgSbLine0",
+    "value": {
+      "type": "image",
+      "zlevel": 1,
+      "file": "/interface/scripted/mmupgrade/sb_line.png",
+      "position": [31, 120]
+    }
+  }, {
+    "op": "add",
+    "path": "/gui/imgSbLine1",
+    "value": {
+      "type": "image",
+      "zlevel": 1,
+      "file": "/interface/scripted/mmupgrade/sb_line.png",
+      "position": [54, 120]
+    }
+  }, {
+    "op": "add",
+    "path": "/gui/imgSbLine2",
+    "value": {
+      "type": "image",
+      "zlevel": 1,
+      "file": "/interface/scripted/mmupgrade/sb_line.png",
+      "position": [76, 120]
+    }
+  }, {
+    "op": "add",
+    "path": "/gui/imgSbLine3",
+    "value": {
+      "type": "image",
+      "zlevel": 1,
+      "file": "/interface/scripted/mmupgrade/sb_line.png",
+      "position": [76, 115]
+    }
+  }, {
+    "op": "add",
+    "path": "/gui/imgSbLine4",
+    "value": {
+      "type": "image",
+      "zlevel": 1,
+      "file": "/interface/scripted/mmupgrade/sb_line.png",
+      "position": [76, 114]
+    }
+  }, {
+    "op": "add",
+    "path": "/gui/imgSbLine5",
+    "value": {
+      "type": "image",
+      "zlevel": 1,
+      "file": "/interface/scripted/mmupgrade/sb_line3.png",
+      "position": [108, 159]
+    }
+  }, {
+    "op": "add",
+    "path": "/gui/imgSbLine6",
+    "value": {
+      "type": "image",
+      "zlevel": 1,
+      "file": "/interface/scripted/mmupgrade/sb_line2.png",
+      "position": [240, 151]
+    }
+  }, {
+    "op": "add",
+    "path": "/gui/btnSbLiquidCollection",
+    "value": {
+      "type": "button",
+      "base": "/interface/sb_crafting/checkboxnocheck.png",
+      "baseImageChecked": "/interface/sb_crafting/checkboxcheck.png",
+      "hover": "/interface/sb_crafting/checkboxnocheckhover.png",
+      "hoverImageChecked": "/interface/sb_crafting/checkboxcheckhover.png",
+      "zlevel": 3,
+      "position": [72, 106],
+      "pressedOffset": [0, 0],
+      "callback": "sb_liquid",
+      "checkable": true
+    }
+  }, {
+    "op": "add",
+    "path": "/gui/btnSbBeamaxe",
+    "value": {
+      "type": "button",
+      "base": "/interface/scripted/mmupgrade/sb_slots.png:0",
+      "hover": "/interface/scripted/mmupgrade/sb_slots.png:0?brightness=60",
+      "position": [90, 151],
+      "pressedOffset": [0, 0],
+      "callback": "sb_beamaxe"
+    }
+  }, {
+    "op": "add",
+    "path": "/gui/btnSbPaintMode",
+    "value": {
+      "type": "button",
+      "base": "/interface/scripted/mmupgrade/sb_slots.png:1",
+      "hover": "/interface/scripted/mmupgrade/sb_slots.png:1?brightness=60",
+      "position": [45, 102],
+      "pressedOffset": [0, 0],
+      "callback": "sb_swap",
+      "data": {
+        "slot": "painttool",
+        "tool": "paintingbeamtool",
+        "tag": "sb_painttool"
+      }
+    }
+  }, {
+    "op": "add",
+    "path": "/gui/btnSbWireMode",
+    "value": {
+      "type": "button",
+      "base": "/interface/scripted/mmupgrade/sb_slots.png:2",
+      "hover": "/interface/scripted/mmupgrade/sb_slots.png:2?brightness=60",
+      "position": [22, 102],
+      "pressedOffset": [0, 0],
+      "callback": "sb_swap",
+      "data": {
+        "slot": "wiretool",
+        "tool": "wiretool",
+        "tag": "sb_wiretool"
+      }
+    }
+  }, {
+    "op": "add",
+    "path": "/gui/btnSbScanMode",
+    "value": {
+      "type": "button",
+      "base": "/interface/scripted/mmupgrade/sb_slots.png:3",
+      "hover": "/interface/scripted/mmupgrade/sb_slots.png:3?brightness=60",
+      "position": [271, 154],
+      "pressedOffset": [0, 0],
+      "callback": "sb_swap",
+      "data": {
+        "slot": "inspectiontool",
+        "tool": "inspectiontool",
+        "tag": "sb_inspectiontool"
+      }
+    }
+  }, {
+    "op": "add",
+    "path": "/scriptWidgetCallbacks/-",
+    "value": "sb_swap"
+  }, {
+    "op": "add",
+    "path": "/scriptWidgetCallbacks/-",
+    "value": "sb_liquid"
+  }, {
+    "op": "add",
+    "path": "/scriptWidgetCallbacks/-",
+    "value": "sb_beamaxe"
+  }, {
+    "op": "add",
+    "path": "/scripts/-",
+    "value": "/interface/scripted/mmupgrade/sb_mmupgradegui.lua"
+  }, {
+    "op": "add",
+    "path": "/sb_text",
+    "value": ["Can't remove that. Replace it with a similar item", "Liquid collection enabled", "Liquid collection disabled"]
+  }, {
+    "op": "add",
+    "path": "/gui/sb_generic",
+    "value": {
+      "base": "",
+      "hover": "",
+      "callback": "null",
+      "type": "button",
+      "visible": false
+    }
+  }, {
+    "op": "add",
+    "path": "/upgrades/sb_generic",
+    "value": {
+      "button": "sb_generic",
+      "prerequisites": ["sb_generic"],
+      "moduleCost": 1,
+      "highlight": "powergen",
+      "icon": "",
+      "description": "",
+      "essentialSlot": ""
+    }
+  }
+]

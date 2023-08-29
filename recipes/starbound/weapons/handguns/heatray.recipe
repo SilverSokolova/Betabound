@@ -1,0 +1,5 @@
+{
+  "input" : [["refinedaegisalt",2],["solariumstar",2],"smallbattery"],
+  "output" : ["sb_heatray",1,{"seed":1,"level":6}],
+  "groups" : ["craftingaccelerator","weapons","all"]
+}

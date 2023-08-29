@@ -1,0 +1,4 @@
+[
+{"op":"add","path":"/items/starboundbeta:teleporter","value":{"label":"^#ff0;Teleporter","action":["pane","/interface/warping/sb_returningteleporter.config"],"dismissQuickbar":true,"weight":-800,"condition":["admin"],"icon":"/interface/warping/icon.png?crop=5;9;17;13?border=1;000"}}
+,{"op":"add","path":"/items/starboundbeta:music","value":{"label":"^#ff0,shadow;Portable Radio","action":["pane","/interface/scripted/sb_music/music.config"],"weight":-600,"condition":["admin"],"icon":"/items/active/starbound/radio.png"}}
+]

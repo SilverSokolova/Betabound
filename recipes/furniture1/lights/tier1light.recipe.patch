@@ -1,0 +1,9 @@
+[
+  [
+    {"op":"test","path":"/input/2"},
+	{"op":"test","path":"/input/2/item","value":"glassmaterial"},
+	{"op":"test","path":"/input/2/count","value":1},
+	{"op":"replace","path":"/input/2/item","value":"glass"},
+	{"op":"replace","path":"/input/2/count","value":3}
+  ]
+]

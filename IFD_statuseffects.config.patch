@@ -1,0 +1,114 @@
+[
+[{"op":"add","path":"/effectNames/sb_bleed","value":{"path":"/stats/sb_effects/damaging/bleed.statuseffect","customLabels":["^red;- Bleeding^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_frozenburning","value":{"path":"/stats/sb_effects/frozenburning.statuseffect","customLabels":["^red;- Frozen Burning^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_explosiveglove","value":{"path":"/stats/sb_effects/damaging/explosivepunch.statuseffect","customLabels":["^red;- Spontaneous Combustion^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_poisoncreep","value":{"path":"/stats/sb_effects/poisoncreep.statuseffect","customLabels":["^#ff0;| Poisoncreep^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_levelup","value":{"path":"/stats/sb_effects/levelup.statuseffect","customLabels":["^#0f0;+ Level Up^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_glowtech","value":{"path":"/tech/starbound/unscripted/glow.statuseffect","customLabels":["^#0f0;+ Glow^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_encumbered","value":{"path":"/stats/sb_effects/movement/encumbered.statuseffect","customLabels":["^red;- Encumbered^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_jellyslow","value":{"path":"/stats/sb_effects/movement/jellied.statuseffect","customLabels":["^red;- Slowness^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_sugarrush","value":{"path":"/stats/sb_effects/movement/sugarrush.statuseffect","customLabels":["^#0f0;+ 20% Jump Boost","^#0f0;+ 20% Run Boost^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodslow","value":{"path":"/stats/sb_effects/movement/foodslow.statuseffect","customLabels":["^red;- 70% Slowness^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_tranquilized","value":{"path":"/stats/sb_effects/movement/tranquilized.statuseffect","customLabels":["^red;- Tranqilized^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_airpocket","value":{"path":"/stats/sb_effects/airpocket.statuseffect","customLabels":["^#0f0;+ ^#81d8d8;Air Pocket^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_breathprotectiontech","value":{"path":"/tech/starbound/suits/air.statuseffect","customLabels":["^#0f0;+ ^#81d8d8;Oxygen Supply^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_radiationprotectiontech","value":{"path":"/tech/starbound/suits/radprotection.statuseffect","customLabels":["^#0f0;+ ^#ffc600;Radiation Protection","^#0f0;+ 25% Poison Resistance^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_coldprotectiontech","value":{"path":"/tech/starbound/suits/cold.statuseffect","customLabels":["^#0f0;+ Cold Protection","^#0f0;+ 25% Ice Resist^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_heatprotectiontech","value":{"path":"/tech/starbound/suits/heat.statuseffect","customLabels":["^#0f0;+ Heat Protection","^#0f0;+ 25% Fire Resistance^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_outpostnpcspawner","value":{"path":"/stats/sb_effects/outpost.statuseffect","customLabels":["(No Effect)"]}}]
+,[{"op":"add","path":"/effectNames/sb_capturedmonster","value":{"path":"/stats/sb_effects/capturedmonster.statuseffect","customLabels":["(No Effect)"]}}]
+,[{"op":"add","path":"/effectNames/sb_entity","value":{"path":"/stats/sb_effects/entity.statuseffect","customLabels":["(No Effect)"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_minibossspawn","value":{"path":"/stats/sb_effects/minibossspawn.statuseffect","customLabels":["^#0f0;+ Miniboss Invulnerability"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_mobilitytech","value":{"path":"/tech/starbound/movement/mobility.statuseffect","customLabels":["^#0f0;+ 50% Jump Boost\n^#5af09e;& 50% Speed Boost^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_jumptech","value":{"path":"/tech/starbound/movement/jump.statuseffect","customLabels":["^#0f0;+ 50% Jump Boost"]}}]
+,[{"op":"add","path":"/effectNames/sb_speedtech","value":{"path":"/tech/starbound/movement/speed.statuseffect","customLabels":["^#0f0;+ 150% Speed Boost^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_gravitytech","value":{"path":"/tech/starbound/movement/gravity.statuseffect","customLabels":["^#0f0;- 30% Gravity^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_protectiontech","value":{"path":"/tech/starbound/unscripted/protection.statuseffect","customLabels":["^#0f0;+ 5 Protection^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_grittech","value":{"path":"/tech/starbound/unscripted/grit.statuseffect","customLabels":["^#0f0;+ 50% KB Resist^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_shield","value":{"path":"/tech/starbound/shield/shield.statuseffect","customLabels":["^#0f0;+ Shield^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_vamptech","value":{"path":"/tech/starbound/bio/vamp.statuseffect","customLabels":["^#0f0;+ Vampiric^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_enhancedhealingtech","value":{"path":"/tech/starbound/bio/enhancedhealing.statuseffect","customLabels":["^#0f0;+ Enhanced Healing^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_regenerationtech","value":{"path":"/tech/starbound/regen/regeneration.statuseffect","customLabels":["^#0f0;+ Stationary Regen^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_energyregentech","value":{"path":"/tech/starbound/regen/energyregen.statuseffect","customLabels":["^#0f0;+ Energy Charge^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_healthtech","value":{"path":"/tech/starbound/unscripted/health.statuseffect","customLabels":["^#0f0;+ Health+^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_energytech","value":{"path":"/tech/starbound/unscripted/energy.statuseffect","customLabels":["^#0f0;+ ^#0f0;Energy+^reset;"]}}]
+
+
+,[{"op":"add","path":"/effectNames/sb_health","value":{"path":"/stats/sb_effects/instant/health.statuseffect","customLabels":["^#0f0;+ Instant Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_energy","value":{"path":"/stats/sb_effects/instant/energy.statuseffect","customLabels":["^#0f0;+ Instant Energy^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_food","value":{"path":"/stats/sb_effects/instant/food.statuseffect","customLabels":["^#0f0;+ Instant Food^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_directdamage","value":{"path":"/stats/sb_effects/instant/directdamage.statuseffect","customLabels":["^#0f0;- Instant Damage^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_restoration","value":{"path":"/stats/sb_effects/instant/restoration.statuseffect","customLabels":["^#0f0;+ Instant Health\n+ Instant Energy^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_fooddepletionsuppressed","value":{"path":"/stats/sb_effects/fooddepletionsuppressed.statuseffect","customLabels":["^#0f0;+ No Hunger^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_grit","value":{"path":"/stats/sb_effects/stats/grit.statuseffect","customLabels":["^#0f0;+ 100% KB Resist^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_brainextractor","value":{"path":"/stats/sb_effects/brainextractor.statuseffect","customLabels":["^#ff0;| Brain Extraction^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_glide","value":{"path":"/stats/sb_effects/movement/glide.statuseffect","customLabels":["^#0f0;+ Parachute^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_ladder","value":{"path":"/stats/sb_effects/ladder.statuseffect","customLabels":["^#0f0;+ ^#0f0;Ladder^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_groundsmashdamage","value":{"path":"/tech/starbound/groundsmash/groundsmashdamage.statuseffect","customLabels":["^#f00;- Instant Damage^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_groundsmashknockbackX","value":{"path":"/tech/starbound/groundsmash/groundsmashknockback.statuseffect","customLabels":["^#f00;| Horizontal Knockback^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_groundsmashknockbackY","value":{"path":"/tech/starbound/groundsmash/groundsmashknockbackY.statuseffect","customLabels":["^#f00;| Vertical Knockback^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_magnet","value":{"path":"/tech/starbound/magnet/magnet.statuseffect","customLabels":["^#0f0;+ Magnetic^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_maxenergyboost5","value":{"path":"/stats/effects/maxenergyboost/sb_maxenergyboost5.statuseffect","customLabels":["^#0f0;+ 5 Max Energy^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_maxenergyboost10","value":{"path":"/stats/effects/maxenergyboost/sb_maxenergyboost10.statuseffect","customLabels":["^#0f0;+ 10 Max Energy^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_maxenergyboost30","value":{"path":"/stats/effects/maxenergyboost/sb_maxenergyboost30.statuseffect","customLabels":["^#0f0;+ 30 Max Energy^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_berserk","value":{"path":"/tech/starbound/unscripted/berserk.statuseffect","customLabels":["^#0f0;+ Berserk^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_protectionboost5","value":{"path":"/stats/sb_effects/stats/protectionboost5.statuseffect","customLabels":["^#0f0;+ 5 Protection^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_greystim","value":{"path":"/stats/sb_effects/stats/greystim.statuseffect","customLabels":["^#0f0;+ 5 Protection^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_shipgreystim","value":{"path":"/stats/sb_effects/stats/shipgreystim.statuseffect","customLabels":["^#0f0;+ 5 Protection^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_energyregen","value":{"path":"/stats/sb_effects/energyregen/energyregen.statuseffect","customLabels":["^#0f0;+ 5% Energy Regen^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_energyregen96","value":{"path":"/stats/sb_effects/energyregen/energyregen96.statuseffect","customLabels":["^#0f0;+ 1.6% Energy Regen^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_energyregen192","value":{"path":"/stats/sb_effects/energyregen/energyregen192.statuseffect","customLabels":["^#0f0;+ 3.2% Energy Regen^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_energyregen288","value":{"path":"/stats/sb_effects/energyregen/energyregen288.statuseffect","customLabels":["^#0f0;+ 4.8% Energy Regen^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_energyregen384","value":{"path":"/stats/sb_effects/energyregen/energyregen384.statuseffect","customLabels":["^#0f0;+ 6.4% Energy Regen^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_energyregen480","value":{"path":"/stats/sb_effects/energyregen/energyregen480.statuseffect","customLabels":["^#0f0;+ 8% Energy Regen^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_energyregen672","value":{"path":"/stats/sb_effects/energyregen/energyregen672.statuseffect","customLabels":["^#0f0;+ 11.2% Energy Regen^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_light2energy","value":{"path":"/stats/sb_effects/energyregen/light2energy.statuseffect","customLabels":["^#0f0;+ 5% Light-Energy Regen^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_light2energy96","value":{"path":"/stats/sb_effects/energyregen/light2energy96.statuseffect","customLabels":["^#0f0;+ 1.6% Light-Energy Regen^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_light2energy192","value":{"path":"/stats/sb_effects/energyregen/light2energy192.statuseffect","customLabels":["^#0f0;+ 3.2% Light-Energy Regen^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_light2energy288","value":{"path":"/stats/sb_effects/energyregen/light2energy288.statuseffect","customLabels":["^#0f0;+ 4.8% Light-Energy Regen^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_light2energy384","value":{"path":"/stats/sb_effects/energyregen/light2energy384.statuseffect","customLabels":["^#0f0;+ 6.4% Light-Energy Regen^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_light2energy480","value":{"path":"/stats/sb_effects/energyregen/light2energy480.statuseffect","customLabels":["^#0f0;+ 8% Light-Energy Regen^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_light2energy672","value":{"path":"/stats/sb_effects/energyregen/light2energy672.statuseffect","customLabels":["^#0f0;+ 11.2% Light-Energy Regen^reset;"]}}]
+
+,[{"op":"add","path":"/effectNames/sb_foodheal10","value":{"path":"/stats/sb_effects/foodheal/foodheal10.statuseffect","customLabels":["^#0f0;+ 10 Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodheal25","value":{"path":"/stats/sb_effects/foodheal/foodheal25.statuseffect","customLabels":["^#0f0;+ 25 Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodheal35","value":{"path":"/stats/sb_effects/foodheal/foodheal35.statuseffect","customLabels":["^#0f0;+ 35 Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodheal50","value":{"path":"/stats/sb_effects/foodheal/foodheal50.statuseffect","customLabels":["^#0f0;+ 50 Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodheal70","value":{"path":"/stats/sb_effects/foodheal/foodheal70.statuseffect","customLabels":["^#0f0;+ 70 Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodheal95","value":{"path":"/stats/sb_effects/foodheal/foodheal95.statuseffect","customLabels":["^#0f0;+ 95 Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodheal120","value":{"path":"/stats/sb_effects/foodheal/foodheal120.statuseffect","customLabels":["^#0f0;+ 120 Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodheal135","value":{"path":"/stats/sb_effects/foodheal/foodheal135.statuseffect","customLabels":["^#0f0;+ 135 Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodheal145","value":{"path":"/stats/sb_effects/foodheal/foodheal145.statuseffect","customLabels":["^#0f0;+ 145 Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodheal170","value":{"path":"/stats/sb_effects/foodheal/foodheal170.statuseffect","customLabels":["^#0f0;+ 170 Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodheal190","value":{"path":"/stats/sb_effects/foodheal/foodheal190.statuseffect","customLabels":["^#0f0;+ 190 Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodheal215","value":{"path":"/stats/sb_effects/foodheal/foodheal215.statuseffect","customLabels":["^#0f0;+ 215 Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodheal240","value":{"path":"/stats/sb_effects/foodheal/foodheal240.statuseffect","customLabels":["^#0f0;+ 240 Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodheal265","value":{"path":"/stats/sb_effects/foodheal/foodheal265.statuseffect","customLabels":["^#0f0;+ 265 Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodheal315","value":{"path":"/stats/sb_effects/foodheal/foodheal315.statuseffect","customLabels":["^#0f0;+ 315 Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodheal360","value":{"path":"/stats/sb_effects/foodheal/foodheal360.statuseffect","customLabels":["^#0f0;+ 360 Health^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_foodheal720","value":{"path":"/stats/sb_effects/foodheal/foodheal720.statuseffect","customLabels":["^#0f0;+ 720 Health^reset;"]}}]
+
+
+,[{"op":"test","path":"/effectNames","value":"electrified","inverse":true},{"op":"add","path":"/effectNames/electrified","value":{"path":"/stats/effects/electrified/electrified.statuseffect","customLabels":["^#0f0;+ Electrified^reset;"]}}]
+]

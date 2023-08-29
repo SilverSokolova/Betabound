@@ -1,0 +1,12 @@
+{
+  "ability" : {
+    "type" : "sb_staff",
+    "name" : "Staff",
+    "scripts" : ["/items/active/starbound/staves/staff.lua"],
+    "class" : "sb_staff",
+    "energyCost" : 80,
+    "maxCastRange" : 25,
+    "projectileType" : "healingzone",
+    "projectileParameters" : {}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "itemName": "sb_novatier6mrevolver",
+  "definition": "revolver",
+  "itemTags": ["weapon", "ranged", "pistol", "revolver", "novakid", "upgradeableWeapon"],
+  "tags": {
+    "<t>": "6m"
+  },
+  "rarity": "legendary",
+  "description": "She's quite the beaut, if guns can be called beautiful.",
+  "shortdescription": "Sundancer",
+  "muzzleOffset": [2, 0.3],
+  "level": 6,
+  "configOverrides": {
+    "primaryAbility": {
+      "fireTime": 0.67,
+      "baseDps": 5,
+      "energyUsage": 10
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

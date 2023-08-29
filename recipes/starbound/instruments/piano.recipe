@@ -1,0 +1,5 @@
+{
+  "input" : [["darkwoodmaterial",5],["polymer",5],"ironbar"],
+  "output" : "piano",
+  "groups" : ["sb_ironcraftingtable","sb_instruments","all"]
+}

@@ -1,0 +1,5 @@
+[
+  {"op":"add","path":"/groups/-","value":"plain"},
+  {"op":"add","path":"/groups/-","value":"sb_kitchen"},
+  {"op":"add","path":"/groups/-","value":"sb_cooking_other"}
+]

@@ -1,0 +1,37 @@
+{
+  "id" : "sb_floranfan1.gearup",
+  "prerequisites" : ["sb_outpost1.gearup"],
+  "title" : "^green;Looking Good and Dressing Well",
+  "text" : "Do you like my clothesss? I love human clothing! ^green;If you bring me a ^orange;stylish jacket ^green;I'll give you ssssomething nice!",
+  "completionText" : "It'sss awessome! Floran ssso cool! Here you go!",
+  "speaker" : "questGiver",
+  "moneyRange" : [0, 0],
+  "rewards" : [["caphead","manipulatormodule","rewardbag"]],
+  "canBeAbandoned" : true,
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquest.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "questGiver"
+    },
+    "requireTurnIn" : true,
+    "acceptItems" : ["coolchest-recipe"],
+    "setUniverseFlags" : ["sb_floranfan1"],
+    "turnInDescription" : "Speak to ^orange;the fashionable Floran^reset; at the ^orange;outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "coolchest",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}

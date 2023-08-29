@@ -1,0 +1,5 @@
+{
+  "input" : [["cobblestonematerial",50]],
+  "output" : "flowerstatue",
+  "groups" : ["craftingfurniture","decoration","all"]
+}

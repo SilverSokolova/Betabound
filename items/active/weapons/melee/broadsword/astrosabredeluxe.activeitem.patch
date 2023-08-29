@@ -1,0 +1,7 @@
+[
+[{"op":"test","path":"/builder"},{"op":"test","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua","inverse":true},{"op":"move","from":"/builder","path":"/sb_builder"}],[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua"}],
+[{"op":"test","path":"/description","value":"An inscription on the blade reads,\"High-five for expressing yourself!\""},
+{"op":"replace","path":"/description","value":"An inscription on the blade reads, \"High-five for expressing yourself!\""}],
+
+[{"op":"add","path":"/fixedRarity","value":true}]
+]

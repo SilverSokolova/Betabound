@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/description","value":"A solid Durasteel table."},{"op":"replace","path":"/description","value":"A solid durasteel table."}],
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}]
+]

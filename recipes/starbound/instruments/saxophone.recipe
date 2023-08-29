@@ -1,0 +1,5 @@
+{
+  "input" : [["copperbar",2]],
+  "output" : "saxophone",
+  "groups" : ["sb_craftingtable","sb_instruments","all"]
+}

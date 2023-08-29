@@ -1,0 +1,5 @@
+{
+  "input" : ["petalred",["petalblue",2],"petalyellow","hardenedcarapace","syringe"],
+  "output" : "sb_greystim",
+  "groups" : ["craftingmedical2","buffs","all"]
+}

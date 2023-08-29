@@ -1,0 +1,20 @@
+{
+  "itemName" : "sb_partypopper",
+  "rarity" : "common",
+  "description" : "It's party time!",
+  "shortdescription" : "Party Popper",
+  "twoHanded" : true,
+  "category" : "toy",
+  "itemTags" : ["toy"],
+  "tooltipKind" : "sb_object",
+  "price" : 25,
+
+  "inventoryIcon" : "partypoppericon.png",
+  "animation" : "partypopper.animation",
+  "animationCustom" : {},
+  "scripts" : ["partypopper.lua"],
+
+  "emotes" : ["happy","laugh","oh"],
+  "fireTime" : 0.8, //2,
+  "fireOffset" : [1, 0]
+}

@@ -1,0 +1,5 @@
+{
+  "input" : [["titaniumbar",10],["thornfruit",3]],
+  "output" : ["sb_thornyneedler",1,{"seed":34,"level":3,"shortdescription":"Thorny Needler"}],
+  "groups" : ["craftinganvil2","weapons","all"]
+}

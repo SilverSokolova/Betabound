@@ -1,0 +1,51 @@
+{
+  "projectileName" : "sb_watersword",
+  "image" : "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "animationCycle" : 1,
+  "level" : 1,
+  "frameNumber" : 1,
+  "speed" : 0,
+  "timeToLive" : 0,
+  "animationLoops" : false,
+  "flippable" : true,
+
+  "actionOnReap" : [
+    {
+	"action" : "projectile",
+	"type" : "bubbles",
+	"fuzzAngle" : 10,
+	"inheritDamageFactor" : 0.2,
+	"angleAdjust" : 35
+    },
+    {
+	"action" : "projectile",
+	"type" : "bubbles",
+	"fuzzAngle" : 10,
+	"inheritDamageFactor" : 0.2,
+	"angleAdjust" : -35
+    },
+    {
+	"action" : "projectile",
+	"type" : "bubbles",
+	"fuzzAngle" : 10,
+	"inheritDamageFactor" : 0.2,
+	"angleAdjust" : 1
+    },
+    {
+	"action" : "projectile",
+	"type" : "bubbles",
+	"fuzzAngle" : 10,
+	"inheritDamageFactor" : 0.2,
+	"angleAdjust" : -18
+    },
+    {
+	"action" : "projectile",
+	"type" : "bubbles",
+	"fuzzAngle" : 10,
+	"inheritDamageFactor" : 0.2,
+	"angleAdjust" : 18
+    }
+  ],
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

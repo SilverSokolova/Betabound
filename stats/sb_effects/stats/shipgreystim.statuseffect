@@ -1,0 +1,7 @@
+{
+  "name" : "sb_shipgreystim",
+  "defaultDuration" : 60,
+  "scripts" : ["a.lua"],
+  "label" : "Bonus Protection",
+  "icon" : "/interface/stats/protection.png?crop=0;0;15;15?replace;4a4a4aed=0000"
+}

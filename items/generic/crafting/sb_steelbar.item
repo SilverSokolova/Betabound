@@ -1,0 +1,12 @@
+{
+  "itemName" : "sb_steelbar",
+  "price" : 60,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "sb_steelbar.png",
+  "description" : "It's a steel bar. Useful for crafting much stronger weapons, tools, and more!",
+  "learnBlueprintsOnPickup" : ["sb_tier2techchest","sb_chain"],
+  "itemTags" : ["reagent"],
+  "shortdescription" : "Steel Bar",
+  "tooltipKind" : "sb_object"
+}

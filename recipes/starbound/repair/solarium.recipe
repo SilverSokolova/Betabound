@@ -1,0 +1,6 @@
+{
+  "input" : ["solariumore"],
+  "output" : "sb_solarium_repair",
+  "duration" : 0,
+  "groups" : ["plain","sb_augment","all"]
+}

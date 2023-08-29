@@ -1,0 +1,5 @@
+[
+{"op":"add","path":"/groups/-","value":"plain"},
+{"op":"add","path":"/groups/-","value":"sb_t1food"},
+{"op":"add","path":"/groups/-","value":"sb_healing"}
+]

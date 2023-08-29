@@ -1,0 +1,9 @@
+[
+[{"op":"test","path":"/scripts"},{"op":"add","path":"/scripts/-","value":"sb_thorns.lua"}],
+[{"op":"test","path":"/effectConfig/visualProjectileCount","inverse":true},{"op":"add","path":"/effectConfig/visualProjectileCount","value":20}],
+[{"op":"test","path":"/effectConfig/visualProjectileType","inverse":true},{"op":"add","path":"/effectConfig/visualProjectileType","value":"armorthorns"}],
+[{"op":"test","path":"/effectConfig/visualProjectileSpeed","inverse":true},{"op":"add","path":"/effectConfig/visualProjectileSpeed","value":20}],
+[{"op":"test","path":"/effectConfig/visualProjectileTime","inverse":true},{"op":"add","path":"/effectConfig/visualProjectileTime","value":0.15}],
+[{"op":"test","path":"/effectConfig/visualDuration","inverse":true},{"op":"add","path":"/effectConfig/visualDuration","value":0.2}],
+[{"op":"test","path":"/effectConfig/sb_fadeColor","inverse":true},{"op":"add","path":"/effectConfig/sb_fadeColor","value":"930"}]
+]

@@ -1,0 +1,14 @@
+{
+  "input" : [
+	"wizardhead",
+	"wizardchest",
+	"wizardlegs",
+	"wizardback",
+	"glitchmission2-codex",
+	"glitchmission3-codex",
+	"glitchmission4-codex",
+	"glitchmission1-codex"
+  ],
+  "output" : "dragonhead",
+  "groups" : ["sb_treasuredtrophies_outpost_mission6","nouncrafting","all"]
+}

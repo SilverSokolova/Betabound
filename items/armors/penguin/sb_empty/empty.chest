@@ -1,0 +1,25 @@
+{
+  "itemName" : "sb_emptychest",
+  "inventoryIcon" : "icons.png:chest",
+  "description" : "An empty chest or such.",
+  "shortdescription" : "Empty Chest",
+  "maxStack" : 1,
+  "price" : 50,
+  "category" : "chestwear",
+  "rarity" : "rare",
+  "tooltipKind" : "sb_armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "builder" : "/items/buildscripts/starbound/buildarmor.lua"
+}

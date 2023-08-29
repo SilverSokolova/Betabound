@@ -1,0 +1,1 @@
+{"description":"A large gutting sword.","shortdescription":"Scuttlefish","itemName":"sb_hylotltier5sbroadsword","definition":["colors/t5s","broadswords/t5s"],"itemTags":["weapon","melee","broadsword","upgradeableWeapon"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

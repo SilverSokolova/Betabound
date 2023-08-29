@@ -1,0 +1,10 @@
+{
+  "itemName" : "sb_buster",
+  "definition" : "buster",
+  "tags" : {"<buster>" : "buster"},
+  "description" : "A powerful arm-mounted plasma cannon.",
+  "shortdescription" : "Buster",
+  "itemTags" : ["weapon", "ranged", "upgradeableWeapon"],
+  "level" : 1,
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

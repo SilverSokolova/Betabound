@@ -1,0 +1,69 @@
+{
+  "projectileName" : "sb_leaforb",
+  "physics" : "gas",
+  "pointLight" : true,
+  "piercing" : true, 
+  "image" : "leaforb.png",
+  "timeToLive" : 0.6,
+  "speed" : 9, //TODO: get default projectile speed. this should be 0.1 of it
+  "animationCycle" : 0.3,
+  "frameNumber" : 4,
+  "power" : 0,
+  "supportsProcessing" : true,
+  "orientationLocked" : true,
+  "flippable" : true,
+  "periodicActions" : [
+    {
+	"action" : "sound",
+	"options" : ["/sfx/gun/plasma_mp2.ogg", "/sfx/gun/plasma_mp3.ogg"],
+	"time" : 0,
+	"repeat" : false
+    },
+    {
+	"action" : "sound",
+	"options" : ["/sfx/blocks/sand_fall1.ogg", "/sfx/blocks/sand_fall2.ogg", "/sfx/blocks/sand_fall3.ogg"],
+	"time" : 0.15,
+	"repeat" : false
+    },
+    {
+	"action" : "projectile",
+	"type" : "sb_cutterleaf",
+	"fuzzAngle" : 15,
+	"config" : {"power" : 1.5},
+	"time" : 0.15,
+	"repeat" : false
+    },
+    {
+	"action" : "sound",
+	"delaySteps" : 20,
+	"options" : ["/sfx/blocks/sand_fall4.ogg", "/sfx/blocks/sand_fall5.ogg", "/sfx/blocks/sand_fall6.ogg"],
+	"time" : 0.25,
+	"repeat" : false
+    },
+    {
+	"action" : "projectile",
+	"type" : "sb_cutterleaf",
+	"fuzzAngle" : 15,
+	"config" : {"power" : 1.5},
+	"time" : 0.25,
+	"repeat" : false
+    },
+    {
+	"action" : "sound",
+	"options" : ["/sfx/blocks/sand_fall7.ogg", "/sfx/blocks/sand_fall8.ogg", "/sfx/blocks/sand_fall9.ogg"],
+	"time" : 0.35,
+	"repeat" : false
+    },
+    {
+	"action" : "projectile",
+	"type" : "sb_cutterleaf",
+	"fuzzAngle" : 15,
+	"config" : {"power" : 1.5},
+	"time" : 0.35,
+	"repeat" : false
+    }
+  ],
+  "actionOnReap" : [{"action":"config","file":"/projectiles/explosions/leafexplosion/leafexplosion.config"}],
+  "damagePoly" : [],
+  "damageKind" : "default"
+}

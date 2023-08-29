@@ -1,0 +1,6 @@
+{
+  "input" : ["titaniumbar"],
+  "output" : ["throwingaxe",5],
+  "duration" : 0.3,
+  "groups" : ["craftinganvil2","consumables","all"]
+}

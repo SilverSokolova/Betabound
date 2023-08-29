@@ -1,0 +1,1 @@
+{"description":"A sword that cuts through fur and feathers.","shortdescription":"Birdseye Two","itemName":"sb_aviantier5sbroadsword","definition":["colors/t5s","broadswords/t5s"],"itemTags":["weapon","melee","broadsword","upgradeableWeapon"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

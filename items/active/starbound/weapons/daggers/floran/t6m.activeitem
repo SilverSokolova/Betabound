@@ -1,0 +1,1 @@
+{"description":"A rose by any other name.","shortdescription":"Little Thorn","itemName":"sb_florantier6mdagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t6m","daggers/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

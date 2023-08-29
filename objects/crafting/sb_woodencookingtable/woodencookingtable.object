@@ -1,0 +1,43 @@
+{
+  "objectName": "sb_woodencookingtable",
+  "colonyTags": ["crafting", "cooking"],
+  "printable": false,
+  "price": 100,
+  "rarity": "Uncommon",
+  "interactAction": "OpenCraftingInterface",
+  "interactData": {
+    "config": "/interface/windowconfig/craftingfood.config",
+    "paneLayoutOverride": {
+      "windowtitle": {
+        "title": " Cooking Table"
+      }
+    },
+    "filter": ["sb_t1food"]
+  },
+  "description": "Used to prepare and combine raw ingredients, though it only offers a modest range of recipe options.",
+  "shortdescription": "^orange;Wooden Cooking Table^reset;",
+  "race": "generic",
+  "category": "crafting",
+  "tooltipKind": "sb_object4",
+
+  "apexDescription": "This table contains everything one could need to create simple dishs.",
+  "avianDescription": "A few Avian dishs could be prepared here.",
+  "floranDescription": "Floran prepare food with bare handsss. But table ussseful.",
+  "glitchDescription": "Inspired. Let's create food!",
+  "humanDescription": "A chef's table. There aren't many implements for making food...",
+  "hylotlDescription": "Food preparation is an art and this is the paintbrush.",
+  "novakidDescription": "I could cook up some good ol' stews on this here thing.",
+
+  "inventoryIcon": "woodencookingtableicon.png",
+  "orientations": [{
+      "dualImage": "woodencookingtable.png:<color>",
+      "imagePosition": [-16, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ],
+
+  "npcToy": {}
+}

@@ -1,0 +1,20 @@
+{
+  "itemName" : "sb_orangejuice",
+  "price" : 25,
+  "foodValue" : 15,
+  "effects" : [[
+	{"effect":"maxhealthscalingboostfood","duration":135},
+	{"effect":"sb_health","duration":10},
+	"sb_foodheal35"
+  ]],
+  "tooltipKind" : "sb_object",
+  "rarity" : "Common",
+  "inventoryIcon" : "orangejuice.png",
+  "category" : "drink",
+  "description" : "A carton full of sweet orange juice.",
+  "shortdescription" : "Orange Juice",
+  "emitters" : ["drinking"],
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 2.5
+}

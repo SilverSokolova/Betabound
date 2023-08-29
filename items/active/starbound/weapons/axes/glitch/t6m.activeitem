@@ -1,0 +1,1 @@
+{"description":"An axe of battle.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_glitchtier6maxe","definition":["colors/t6m","axes/m"],"shortdescription":"Battle Axe","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+	"bossdreadwing-codex",
+	"moltencore",
+	["sb_dreadwreckage",5]
+  ],
+  "output" : "dreadwingaf",
+  "groups" : ["sb_treasuredtrophies_outpost_beakeasy","nouncrafting","all"]
+}

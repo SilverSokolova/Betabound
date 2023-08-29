@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_ceruliumcompound",6],["solariumstar",4],"cryonicextract"],
+  "output" : "sb_humantier6mhammer",
+  "groups" : ["craftingseparator","weapons","all"]
+}

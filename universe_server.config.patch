@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/commandProcessorScripts/-",
+    "value": "/sb_commands.lua"
+  }
+]

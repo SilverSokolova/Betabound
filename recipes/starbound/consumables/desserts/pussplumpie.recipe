@@ -1,0 +1,6 @@
+{
+  "input" : ["wheat","pussplum","sb_meatchunks"],
+  "output" : "sb_pussplumpie",
+  "groups" : ["craftingfood","desserts","sb_healing","sb_bouncy","sb_mobility","all"],
+  "collectables" : {"cooking":"sb_pussplumpie"}
+}

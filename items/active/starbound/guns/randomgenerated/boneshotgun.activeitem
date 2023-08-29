@@ -1,0 +1,69 @@
+{
+  "itemName" : "sb_boneshotgun",
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "muzzleOffset" : [2.6, 0.1],
+  "baseOffset" : [-1.25, 0.25],
+  "tooltipKind" : "sb_gun2",
+  "category" : "shotgun",
+  "twoHanded" : true,
+  "sb_waBan" : true,
+  "price" : 620,
+  "paletteSwaps" : "",
+  "level" : 1,
+  "description" : "A shotgun made of bone. An entirely organic firearm.",
+  "shortdescription" : "Bone Shotgun",
+  "tooltipFields" : {"subtitle":"Bone Shotgun"},
+  "itemTags" : ["weapon","ranged","shotgun","upgradeableWeapon"],
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "animation" : "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "inventoryIcon" : "boneshotgun.png",
+  "animationParts" : {
+//  "muzzleFlash" : "/animations/muzzleflash/bloodvomitmuzzle/bloodvomitmuzzle.png",
+    "muzzleFlash" : "/animations/muzzleflash/bulletmuzzle4/bulletmuzzle4.png",
+    "middle" : "boneshotgun.png"
+  },
+  "animationCustom" : {"sounds":{"fire":["/sfx/gun/boneshotgun.ogg"]}},
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "projectileType" : ["bonethorn","throwingbone"],
+    "fireTime" : [0.4, 1.4],
+    "baseDps" : [5, 9],
+    "projectileCount" : [3,8],
+    "energyUsage" : [22.5, 25.5],
+    "inaccuracy" : [5,15],
+    "projectileParameters" : {
+      "knockbackRange" : [10, 30]
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {},
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builderConfig" : [{
+    "nameGenerator" : "bonenames.config:nameGen",
+    "altAbilities" : []
+  }],
+  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+}

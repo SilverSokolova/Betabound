@@ -1,0 +1,12 @@
+{
+  "itemName" : "sb_blankblueprint",
+  "price" : 25,
+  "tooltipKind" : "sb_object4",
+  "rarity" : "uncommon",
+  "category" : "Blueprint",
+  "inventoryIcon" : "/items/generated/blueprintinhand.png",
+  "description" : "It's a blank blueprint. Use it to copy another blueprint.\n^gray;Select item and right-click blueprint.",
+  "shortdescription" : "Blank Blueprint",
+  "sb_copybookTypes" : ["blueprint","sb_copyblueprint","sb_blueprint"],
+  "scripts" : ["/scripts/augments/sb_copybook.lua"]
+}

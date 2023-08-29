@@ -1,0 +1,13 @@
+{
+  "name" : "sb_regenerationtech",
+  "effectConfig" : {
+    "tech" : "sb_regeneration"
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : ["regen.lua"],
+  "animationConfig" : "regeneration.animation",
+
+  "label" : "Regeneration",
+  "icon" : "regeneration.png"
+}

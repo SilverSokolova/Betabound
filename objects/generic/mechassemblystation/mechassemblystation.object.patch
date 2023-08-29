@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/shortdescription","value":"Mech Assembly Station"},{"op":"replace","path":"/shortdescription","value":"^orange;Mech Assembly Station^reset;"}],
+[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":2500}],
+[{"op":"test","path":"/colonyTags"},{"op":"add","path":"/colonyTags/-","value":"crafting"}],
+[{"op":"test","path":"/colonyTags"},{"op":"add","path":"/colonyTags/-","value":"electronic"}]
+]

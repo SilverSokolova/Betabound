@@ -1,0 +1,21 @@
+{
+  "itemName" : "sb_stonehoe",
+  "inventoryIcon" : "sb_stonehoeicon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "price" : 110,
+  "tooltipKind" : "sb_tool",
+  "category" : "tool",
+  "largeImage" : "/items/tools/sb_stonehoebig.png",
+  "description" : "A stone hoe, useful for farming.",
+  "shortdescription" : "Stone Hoe",
+  "image" : "sb_stonehoe.png",
+  "handPosition" : [-5, -4], //x-4
+  "fireTime" : 0.29,
+  "blockRadius" : 5,
+  "altBlockRadius" : 1,
+  "twoHanded" : true,
+  "strikeSounds" : ["/sfx/tools/pickaxe_hit.ogg"],
+  "learnBlueprintsOnPickup" : ["woodenwateringcan","sb_wateringcan"]
+//"pickupQuestTemplates" : [ "firstcrops" ]
+}

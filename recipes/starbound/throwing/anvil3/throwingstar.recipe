@@ -1,0 +1,6 @@
+{
+  "input" : ["durasteelbar"],
+  "output" : ["throwingstar",15],
+  "duration" : 0.3,
+  "groups" : ["craftinganvil3","consumables","all"]
+}

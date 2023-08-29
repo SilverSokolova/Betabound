@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_hylotltier4shortsword",
+  "description": "A trusty shortsword.",
+  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "definition": "shortswords/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Cabin Boy"
+}

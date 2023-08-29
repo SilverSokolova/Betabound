@@ -1,0 +1,5 @@
+[
+[{"op":"replace","path":"/itemName","value":"starbound_bottledwate"}],
+
+[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}]
+]

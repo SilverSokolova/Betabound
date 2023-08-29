@@ -1,0 +1,38 @@
+{
+  "objectName" : "sb_copperladder",
+  "rarity" : "Common",
+  "tooltipKind" : "sb_object",
+  "category" : "other",
+  "tooltipFields" : {"subtitle" : "Ladder", "objectImage" : "/objects/sb_ladders/copperladderlarge.png"},
+  "price" : 1,
+  "description" : "A sturdy copper ladder.",
+  "shortdescription" : "Copper Ladder",
+  "race" : "generic",
+  "health" : 1.5,
+  "printable" : false,
+  "radioMessagesOnPickup" : ["sb_pickupladder"],
+
+  "glitchDescription" : "Surprised. This ladder is made from copper.",
+  "floranDescription" : "Ladder iss made from sshiny copper.",
+  "novakidDescription" : "A ladder made outta copper.",
+
+  "inventoryIcon" : "/items/materials/copperladder.png",
+  "orientations" : [
+    {
+      "image" : "copperladder.png:bottom",
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      "flipImages" : false,
+
+      "spaces" : [[0, 0], [1, 0]],
+      "anchors" : ["bottom"],
+      "collision" : "platform"
+    }
+  ],
+
+  "animation" : "ladder.animation",
+  "animationParts" : {"ladder" : "copperladder.png"},
+  "statusEffects" : ["sb_ladder"],
+  "scripts" : ["ladder.lua"],
+  "scriptDelta" : 60
+}

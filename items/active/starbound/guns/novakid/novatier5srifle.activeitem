@@ -1,0 +1,23 @@
+{
+  "itemName": "sb_novatier5srifle",
+  "definition": "rifle",
+  "tags": {
+    "<t>": "5s"
+  },
+  "rarity": "rare",
+  "description" : "No one really knows how this gun works, or why it's so remarkably purple.",
+  "shortdescription" : "Almighty Magnetar",
+  "level": 5,
+  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid", "upgradeableWeapon"],
+  "configOverrides": {
+    "baseOffset": [0.625, 0.375],
+    "primaryAbility": {
+      "energyUsage": 30,
+      "fireTime": 1.5,
+      "baseDps": 7
+    }
+  },
+  "muzzleOffset": [1.905, 0.2],
+  "altAbilityType": "explosiveshot",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

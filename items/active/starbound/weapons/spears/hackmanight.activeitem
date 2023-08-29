@@ -1,0 +1,70 @@
+{
+  "itemName" : "sb_hackmanight",
+  "level" : 1,
+  "fixedLevel" : false,
+  "price" : 800,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "sb_waBan" : true,
+  "tooltipKind" : "sb_sword2",
+  "category" : "spear",
+  "description" : "A spontoon loaded with masses and masses of highly unstable uranium.",
+  "shortdescription" : "Hackmanight",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear","crystal","upgradeableWeapon"],
+  "animation" : "/items/active/starbound/weapons/spear.animation",
+  "fuelAmount" : 180,
+  "inventoryIcon" : "hackmanight.png",
+  "animationParts" : {
+    "blade" : "hackmanight.png",
+    "handle" : ""
+  },
+
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+	"swoosh" : {
+	  "partStates" : {
+	    "swoosh" : {
+	      "fire" : {
+		"properties" : {
+		  "image" : "crystalswooshx.png:<frame>"
+		}
+	      }
+	    }
+	  }
+	}
+      }
+    },
+    "sounds" : {
+      "fire" : ["/sfx/tech/tech_blink1.ogg","/sfx/tech/tech_sphere_transform.ogg"]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "builderConfig" : [{
+    "altAbilities" : ["flurry","spearspin","spearcharge"]
+  }],
+  "primaryAbilityType" : "sb_spear",
+  "primaryAbility" : {
+    "projectileType" : "sb_plasmacrystalx",
+    "fireTime" : [0.5,0.7],
+    "baseDps" : [8.5,12.5],
+    "stances" : {
+      "idle" : {
+        "allowFlip" : true,
+        "allowRotate" : true,
+        "weaponOffset" : [0, 0.95]
+      },
+      "fire" : {
+        "duration" : 0.24
+      },
+      "windup" : {
+        "duration" : 0.2,
+        "weaponOffset" : [0, 0.95]
+      }
+    }
+  },
+  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+}

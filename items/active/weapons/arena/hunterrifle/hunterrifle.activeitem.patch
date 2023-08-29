@@ -1,0 +1,13 @@
+[
+[{"op":"test","path":"/builder"},{"op":"test","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua","inverse":true},{"op":"move","from":"/builder","path":"/sb_builder"}],[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua"}],
+
+
+[{"op":"test","path":"/shortdescription","value":"Vintage Scoped Rifle"},
+{"op":"replace","path":"/upgradeParameters/shortdescription","value":"Vintage Hunting Rifle ^yellow;^reset;"}],
+[{"op":"test","path":"/upgradeParameters/shortdescription","value":"Vintage Hunting Rifle ^yellow;^reset;"},
+{"op":"replace","path":"/shortdescription","value":"Vintage Hunting Rifle"}],
+[{"op":"test","path":"/primaryAbility/projectileType","value":"standardbullet"},
+{"op":"replace","path":"/primaryAbility/projectileType","value":"huntingbullet"}],
+
+[{"op":"add","path":"/fixedRarity","value":true}]
+]

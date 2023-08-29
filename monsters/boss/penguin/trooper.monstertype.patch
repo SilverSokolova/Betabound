@@ -1,0 +1,1 @@
+[[{"op":"test","path":"/description","inverse":true},{"op":"add","path":"/description","value":"An armed penguin soldier."}],[{"op":"test","path":"/shortdescription","inverse":true},{"op":"add","path":"/shortdescription","value":"Penguin Trooper"}]]

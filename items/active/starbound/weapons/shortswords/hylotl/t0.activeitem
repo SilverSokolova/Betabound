@@ -1,0 +1,8 @@
+{
+  "itemName" : "sb_hylotltier0shortsword",
+  "definition" : "shortswords/t0",
+  "itemTags" : ["weapon","melee","shortsword"],
+  "description" : "A flimsy pirate sword.",
+  "shortdescription" : "Swashbuckler Xtra Lite",
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

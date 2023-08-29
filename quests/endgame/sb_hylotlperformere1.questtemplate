@@ -1,0 +1,32 @@
+{
+  "id" : "sb_hylotlperformerE1.gearup",
+  "prerequisites" : [ "glitch_mission2","sb_hylotlperformer3.gearup" ],
+  "title" : "^green;The Joker and the Thief",
+  "text" : "The prankster strikes again! This time they've stolen my gag nose - No doubt an attempt to sabotage my act! ^green;Can you find me something ^orange;round, small and colourful ^green;around here to replace it?",
+  "completionText" : "An orange! Perfect! It turns out I had left my original nose in my pocket all along. Here, you can have it. This orange nose is FAR funnier.",
+  "speaker" : "questGiver",
+  "moneyRange" : [0, 0],
+  "rewards" : [["gagnosehead"]],
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquest.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {"default" : "questGiver"},
+    "requireTurnIn" : true,
+    "turnInDescription" : "Speak to ^orange;the comedian^reset; at the ^orange;outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "orange",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}

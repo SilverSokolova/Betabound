@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/upgradeStages/0/itemSpawnParameters/inventoryIcon","value":"craftingfurnaceicon.png"},{"op":"replace","path":"/upgradeStages/0/itemSpawnParameters/inventoryIcon","value":"sb_craftingfurnaceicon.png"}],
+[{"op":"test","path":"/inventoryIcon","value":"craftingfurnaceicon.png"},{"op":"replace","path":"/inventoryIcon","value":"sb_craftingfurnaceicon.png"}]
+]

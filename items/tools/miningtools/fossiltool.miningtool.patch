@@ -1,0 +1,15 @@
+[
+[{"op":"test","path":"/tooltipFields","inverse":true},{"op":"add","path":"/tooltipFields","value":{}}],
+[{"op":"add","path":"/tooltipFields/objectImage","value":"/items/tools/miningtools/sb_fossiltoolbig.png"}],
+[{"op":"test","path":"/tooltipKind","value":"tool"},{"op":"replace","path":"/tooltipKind","value":"sb_object4"}],
+[{"op":"add","path":"/tooltipFields/objectImage","value":"/items/tools/miningtools/sb_fossiltoolbig.png"}],
+[{"op":"test","path":"/inventoryIcon","value":"drillicon.png"},{"op":"replace","path":"/inventoryIcon","value":"sb_fossiltoolicon.png"}],
+[{"op":"test","path":"/largeImage","value":"drillbig.png"},{"op":"replace","path":"/largeImage","value":"sb_fossiltoolbig.png"}],
+[{"op":"test","path":"/image","value":"drill.png:{frame}"},{"op":"replace","path":"/image","value":"sb_fossiltool.png:{frame}"}],
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"rare"}],
+[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":100}],
+[{"op":"test","path":"/durabilityPerUse","value":0.05},{"op":"replace","path":"/durabilityPerUse","value":0.01}],
+[{"op":"add","path":"/canBeRepaired","value":true}],
+[{"op":"test","path":"/description","value":"Used to unearth fossils. Anything else would break them. This tool has very low durability."},
+{"op":"replace","path":"/description","value":"Used to unearth fossils. Anything else would break them. This tool is easily repaired."}]
+]

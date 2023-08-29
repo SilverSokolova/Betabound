@@ -1,0 +1,29 @@
+{
+  "itemName" : "sb_plasmagrenade",
+  "rarity" : "uncommon",
+  "tooltipKind" : "sb_object",
+  "inventoryIcon" : "sb_plasmagrenade.png",
+  "image" : "sb_plasmagrenade.png",
+  "category" : "throwableItem",
+  "shortdescription" : "Plasma Grenade",
+  "description" : "A grenade made from explosive plasma. Duck and cover!",
+  "price" : 95,
+  "ammoUsage" : 1,
+  "edgeTrigger" : true,
+  "windupTime" : 0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "sb_plasmagrenade",
+  "projectileConfig" : {
+    "speed" : 45,
+    "power" : 30,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

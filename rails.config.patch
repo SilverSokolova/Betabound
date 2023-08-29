@@ -1,0 +1,9 @@
+[
+[{"op":"add","path":"/skyrail_asc","value":{"friction":1,"speedLimit":60}}],
+[{"op":"add","path":"/skyrailbreak","value":{"friction":2,"speedLimit":10}}],
+[{"op":"add","path":"/skyrailboost","value":{"friction":-5,"speedLimit":110}}],
+[{"op":"add","path":"/skyrail_diodeR","value":{"friction":1,"speedLimit":60}}],
+[{"op":"add","path":"/skyrail_diodeL","value":{"friction":1,"speedLimit":60}}],
+[{"op":"add","path":"/skyrail_desc","value":{"friction":1,"speedLimit":60}}],
+[{"op":"add","path":"/skyrailplatform","value":{"friction":1,"speedLimit":60}}]
+]

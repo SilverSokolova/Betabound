@@ -1,0 +1,1 @@
+{"description":"A shortsword so heavy it can split... saplings? Great.","shortdescription":"Sapsplitter","itemName":"sb_humantier6mshortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t6m","shortswords/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

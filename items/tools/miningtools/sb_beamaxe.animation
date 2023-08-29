@@ -1,0 +1,50 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "manipulator": {
+        "default": "idle",
+        "states": {
+          "idle": {
+            "properties": {}
+          }
+        }
+      }
+    },
+
+    "parts": {
+      "manipulator": {
+        "properties": {
+          "zLevel": 0,
+          "centered": true,
+          "image": "<partImage>",
+          "offset": [0.25, 0],
+          "transformationGroups": ["manipulator"]
+        }
+      },
+      "manipulatorOptics": {
+        "properties": {
+          "zLevel": 0,
+          "centered": true,
+          "fullbright": true,
+          "image": "<partImage>",
+          "offset": [0.8125, 0],
+          "transformationGroups": ["manipulator"]
+        }
+      }
+    }
+  },
+
+  "transformationGroups": {
+    "manipulator": {}
+  },
+  "lights": {
+    "optics1": {
+      "active": true,
+      "position": [0.88, -0.2],
+      "color": [220, 220, 255],
+      "pointLight": true,
+      "beamAmbience": 0.2,
+      "pointBeam": 3
+    }
+  }
+}

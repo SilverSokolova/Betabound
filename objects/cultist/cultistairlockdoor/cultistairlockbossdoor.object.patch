@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/shortdescription","value":"Cultist Airlock Door"},
+{"op":"replace","path":"/shortdescription","value":"One-way Cultist Airlock"}],
+[{"op":"test","path":"/rarity","value":"Common"},
+{"op":"replace","path":"/rarity","value":"Uncommon"}]
+]

@@ -1,0 +1,5 @@
+{
+  "input" : [["iceblock",9]],
+  "output" : "icespherechest",
+  "groups" : ["craftingfurniture","storage","all"]
+}

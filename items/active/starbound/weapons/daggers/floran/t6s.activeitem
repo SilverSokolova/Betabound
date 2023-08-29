@@ -1,0 +1,1 @@
+{"description":"A tiny, lethal dagger.","shortdescription":"Slashmaster","itemName":"sb_florantier6sdagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t6s","daggers/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

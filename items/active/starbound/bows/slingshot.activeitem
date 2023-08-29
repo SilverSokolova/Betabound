@@ -1,0 +1,47 @@
+{
+  "itemName" : "sb_slingshot",
+  "definition" : "bow",
+  "configOverrides" : {
+    "price" : 50,
+    "inventoryIcon" : "slingshoticon.png",
+    "animationParts" : {
+      "bow" : "slingshotfull.png"
+    },
+    "animationCustom" : {
+      "sounds" : {
+        "draw" : ["/sfx/gun/bow_draw1.ogg","/sfx/gun/bow_draw2.ogg","/sfx/gun/bow_draw3.ogg","/sfx/tools/rod_line_stretching.ogg"],
+        "release" : ["/sfx/gun/blowgun1.ogg","/sfx/gun/blowgun2.ogg","/sfx/gun/blowgun3.ogg"]
+      }
+    },
+    "radioMessagesOnPickup" : [],
+    "altAbilityType" : "bowshot",
+    "category" : "uniqueWeapon"
+  },
+  "tooltipFields" : {
+    "damageKindImage" : "/interface/sb_tooltips/sb_slingshot.png"
+  },
+  "description" : "A basic, easily concealed ranged weapon.",
+  "shortdescription" : "Slingshot",
+  "itemTags" : ["weapon", "ranged", "bow", "upgradeableWeapon"],
+  "primaryAbility" : {
+    "fireOffset" : [1, 0.8],
+    "fireTime" : 0.4,
+    "baseDps" : 6.25,
+    "inaccuracy" : 0.025,
+    "projectileType" : "sb_slingshot",
+    "powerProjectileType" : "sb_slingshot",
+    "walkWhileFiring" : false,
+    "energyPerShot" : 10
+  },
+  "altAbility" : {
+    "fireOffset" : [1, 0.8],
+    "fireTime" : 0.45,
+    "inaccuracy" : 0.025,
+    "projectileCount" : 3,
+    "projectileType" : "sb_slingshot3",
+    "powerProjectileType" : "sb_slingshot3",
+    "walkWhileFiring" : false,
+    "energyPerShot" : 15
+  },
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

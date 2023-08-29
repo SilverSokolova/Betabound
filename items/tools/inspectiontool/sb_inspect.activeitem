@@ -1,0 +1,26 @@
+{
+  "itemName" : "sb_inspect",
+  "price" : 100,
+  "category" : "Tool",
+  "inventoryIcon" : "inspectionmode.png",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "itemTags" : ["tool","sb_inspectiontool"],
+  "description" : "Describes people and creatures.",
+  "shortdescription" : "Creature Inspector",
+  "tooltipKind" : "sb_object",
+  "scripts" : ["sb_scan.lua"],
+
+  "defaultPlayerDescription" : "This %s seems to have nothing to say for %s.",
+  "defaultNpcDescription" : "Some funny looking person.",
+  "defaultPassiveMonsterDescription" : "It's obvious what that is.",
+  "defaultAggressiveMonsterDescription" : "Some indescribable horror.",
+
+  "glitchPrefix" : "Analytical. ",
+
+  "nouns" : {
+    "male" : ["guy","himself","he","his"],
+    "female" : ["gal","herself","she","her"],
+    "other" : ["person","themself","them","their"]
+  }
+}

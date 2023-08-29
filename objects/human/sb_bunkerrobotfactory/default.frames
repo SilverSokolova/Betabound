@@ -1,0 +1,17 @@
+{
+  "frameGrid" : {
+    "size" : [112, 80],
+    "dimensions" : [8, 8],
+
+    "names" : [
+      [ "serpentdroidSpawn.1", "serpentdroidSpawn.2", "serpentdroidSpawn.3", "serpentdroidSpawn.4", "serpentdroidSpawn.5", "serpentdroidSpawn.6", "serpentdroidSpawn.7", "serpentdroidSpawn.8" ],
+      [ "serpentdroidSpawn.9", "serpentdroidSpawn.10", "serpentdroidSpawn.11", "serpentdroidSpawn.12", "serpentdroidSpawn.13", "serpentdroidSpawn.14", "serpentdroidSpawn.15", "serpentdroidSpawn.16" ],
+      [ "repairbotSpawn.1", "repairbotSpawn.2", "repairbotSpawn.3", "repairbotSpawn.4", "repairbotSpawn.5", "repairbotSpawn.6", "repairbotSpawn.7", "repairbotSpawn.8" ],
+      [ "repairbotSpawn.9", "repairbotSpawn.10", "repairbotSpawn.11", "repairbotSpawn.12", "repairbotSpawn.13", "repairbotSpawn.14", "repairbotSpawn.15", "repairbotSpawn.16" ],
+      [ "cleaningbotSpawn.1", "cleaningbotSpawn.2", "cleaningbotSpawn.3", "cleaningbotSpawn.4", "cleaningbotSpawn.5", "cleaningbotSpawn.6", "cleaningbotSpawn.7", "cleaningbotSpawn.8" ],
+      [ "cleaningbotSpawn.9", "cleaningbotSpawn.10", "cleaningbotSpawn.11", "cleaningbotSpawn.12", "cleaningbotSpawn.13", "cleaningbotSpawn.14", "cleaningbotSpawn.15", "cleaningbotSpawn.16" ],
+      [ "idle.1", "idle.2", "idle.3", "idle.4", "idle.5", "idle.6", "idle.7", "idle.8" ],
+      [ "close.1", "close.2", "close.3", "close.4", "close.5", "close.6", "close.7", "close.8" ]
+    ]
+  }
+}

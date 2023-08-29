@@ -1,0 +1,30 @@
+{
+  "itemName" : "sb_filledcrittercapturepod",
+  "rarity" : "Common",
+  "inventoryIcon" : "sb_filledcrittercapturepod.png",
+  "image" : "sb_filledcrittercapturepod.png",
+  "shortdescription" : "Filled Critter Capture Pod",
+  "category" : "throwableItem",
+  "description" : "Throw it down to release the critter captured inside!",
+  "tooltipKind" : "sb_object",
+  "maxStack" : 100,
+  "ammoUsage" : 1,
+  "price" : 500,
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "sb_filledcrittercapturepod",
+  "projectileConfig" : {
+    "speed" : 40,
+    "level" : 7,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "sb_vegetablesoup",
+  "rarity" : "unCommon",
+  "price" : 320,
+  "foodValue" : 40,
+  "sb_plateImage" : true,
+  "sb_plateHide" : true,
+  "category" : "preparedFood",
+  "tooltipKind" : "sb_object",
+  "inventoryIcon" : "vegetablesoup.png",
+  "description" : "A hearty, healthy veggie soup.",
+  "shortdescription" : "Veggie Soup",
+  "effects" : [[
+	{"effect":"maxhealthscalingboostfood","duration":360},
+	{"effect":"sb_health","duration":20},
+	"sb_foodheal135"
+  ]],
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10
+}

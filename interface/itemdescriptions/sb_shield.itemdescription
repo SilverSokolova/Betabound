@@ -1,0 +1,137 @@
+{
+  "moneyIcon": {
+    "type": "image",
+    "position": [102, 30],
+    "file": "/interface/money.png"
+  },
+  "priceLabel": {
+    "type": "label",
+    "position": [115, 30],
+    "hAnchor": "left",
+    "value": "0"
+  },
+  "descriptionLabel": {
+    "type": "label",
+    "position": [16, 91],
+    "hAnchor": "left",
+    "vAnchor": "top",
+    "wrapWidth": 122
+  },
+  "objectImage": {
+    "type": "image",
+    "position": [74, 125],
+    "file": "",
+    "centered": true,
+    "maxSize": [70, 45],
+    "minSize": [70, 45]
+  },
+  "title": {
+    "type": "label",
+    "position": [35, 179],
+    "hAnchor": "left",
+    "value": ""
+  },
+  "damageKindImage": {
+    "type": "image",
+    "position": [120, 110],
+    "file": "",
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "damageKindBImage": {
+    "type": "image",
+    "position": [120, 128],
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "damageKindCImage": {
+    "type": "image",
+    "position": [24, 110],
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "damageKindDImage": {
+    "type": "image",
+    "position": [24, 128],
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "healthLabel": {
+    "type": "label",
+    "position": [134, 62],
+    "hAnchor": "right",
+    "value": ""
+  },
+  "healthTitleLabel": {
+    "type": "label",
+    "position": [16, 62],
+    "hAnchor": "left",
+    "value": "Shield Health:"
+  },
+  "cooldownLabel": {
+    "type": "label",
+    "position": [134, 53],
+    "hAnchor": "right",
+    "value": ""
+  },
+  "cooldownTitleLabel": {
+    "type": "label",
+    "position": [16, 53],
+    "hAnchor": "left",
+    "value": "Cooldown Time:"
+  },
+  "knockbackLabel": {
+    "type": "label",
+    "position": [134, 44],
+    "hAnchor": "right",
+    "value": ""
+  },
+  "knockbackTitleLabel": {
+    "type": "label",
+    "position": [16, 44],
+    "hAnchor": "left",
+    "value": ""
+  },
+  "level2Label": {
+    "type": "label",
+    "position": [114, 169],
+    "hAnchor": "left",
+    "color": "gray",
+    "centered": true,
+    "wrapWidth": 126
+  },
+  "foodValueLabel": {
+    "type": "label",
+    "position": [14, 152],
+    "hAnchor": "left",
+    "centered": true,
+    "width": 126
+  },
+  "subTitle": {
+    "type": "label",
+    "position": [35, 169],
+    "hAnchor": "left",
+    "color": [185, 181, 178],
+    "value": ""
+  },
+  "rarityLabel": {
+    "type": "label",
+    "position": [12, 30],
+    "hAnchor": "left",
+    "centered": true,
+    "wrapWidth": 126
+  },
+  "titleIcon": {
+    "type": "itemslot",
+    "position": [9, 167],
+    "callback": "null",
+    "iconMode": true,
+    "backingImage": "/interface/inventory/portrait.png",
+    "showRarity": false,
+    "showBackingImageWhenFull": true
+  }
+}

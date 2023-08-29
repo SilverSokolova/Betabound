@@ -1,0 +1,35 @@
+[
+  [
+    {"op":"test","path":"/undergroundPlaceables/items"},
+    {"op":"add","path":"/undergroundPlaceables/items/-","value":{"mode":"floor","priority":0,"variants":1,"distribution":"/biomes/distributions.config:undergroundweaponChests","type":"treasureBox","treasureBoxSets":["sb_gunChest"]}}
+  ],
+
+  [{//test for af_bugs
+    "op":"test",
+    "path":"/spawnProfile/groups/1/allowDuplication",
+    "inverse":true
+  },{
+    "op":"add",
+    "path":"/spawnProfile/groups/1/pool/-",
+    "value":[0.3,"sb_moondancer"]
+  }],
+
+  [{//test for af_bugs
+    "op":"test",
+    "path":"/spawnProfile/groups/1/allowDuplication"
+  },{
+    "op":"add",
+    "path":"/spawnProfile/groups/1/pool/-",
+    "value":[1,"sb_moondancer"]
+  }],
+
+  [{//test for af_bugs
+    "op":"test",
+    "path":"/spawnProfile/groups/1/select",
+    "value":3
+  },{
+    "op":"replace",
+    "path":"/spawnProfile/groups/1/select",
+    "value":4
+  }]
+]

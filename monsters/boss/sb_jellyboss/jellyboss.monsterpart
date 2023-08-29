@@ -1,0 +1,9 @@
+{
+  "name": "sb_jellyboss",
+  "category": "sb_jellyboss_organic",
+  "type": "body",
+
+  "frames": {
+    "chest": "jellyboss.png"
+  }
+}

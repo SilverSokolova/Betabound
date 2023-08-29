@@ -1,0 +1,33 @@
+{
+  "id" : "sb_apexrefugee4.gearup",
+  "prerequisites" : [ "hylotl_mission2", "sb_hylotlperformer3.gearup", "sb_bountyhunter3.gearup", "sb_avianexplorer3.gearup" ],
+  "title" : "^green;Mazebound",
+  "text" : "Have you tried the game next to the Beakeasy? Personally, I think it's impossible! In fact... I'd bet my life savings on it. ^green;If you bring me a ^orange;winning ticket ^green;from the machine, I'll give you my life savings...",
+  "completionText" : "You did it?! I don't believe it! Well, no one can say I'm not an ape of my word. Here are my life savings...",
+  "speaker" : "questGiver",
+  "moneyRange" : [2000, 2090],
+  "rewards" : [[["manipulatormodule",2],"noveltybanana",["rewardbag",1,{"treasure":{"level":5}}]]],
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquest.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+
+  "scriptConfig" : {
+    "portraits" : {"default" : "questGiver"},
+    "requireTurnIn" : true,
+    "turnInDescription" : "Speak to ^orange;the Apex refugee^reset; at the ^orange;outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "winningticket",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "itemName" : "sb_burrito",
+  "price" : 160,
+  "foodValue" : 45,
+  "tooltipKind" : "sb_object",
+  "rarity" : "rare",
+  "inventoryIcon" : "burrito.png",
+  "category" : "preparedFood",
+  "effects" : [[
+	{"effect":"maxhealthscalingboostfood","duration":405},
+	{"effect":"sb_health","duration":25},
+	"sb_foodheal145"
+  ]],
+  "description" : "A bean and cheese burrito. Deliciously unhealthy!",
+  "shortdescription" : "Burrito",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 3
+}

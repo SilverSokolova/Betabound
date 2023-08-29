@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_humantier3spear",
+  "description": "A futuristic-looking spear.",
+  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "definition": "spears/t3",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Prong Tomorrow"
+}

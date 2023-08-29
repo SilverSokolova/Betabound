@@ -1,0 +1,5 @@
+{
+  "input" : [["fabric",5]],
+  "output" : "sb_emptyhead",
+  "groups" : ["craftingwheel","clothes","all"]
+}

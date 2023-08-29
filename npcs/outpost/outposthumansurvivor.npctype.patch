@@ -1,0 +1,12 @@
+[
+  [{
+      "op": "add",
+      "path": "/scriptConfig/sb_offeredQuests",
+      "value": ["sb_outpost1.gearup", "sb_outpost2.gearup", "sb_humansurvivor2.gearup", "sb_coffee0.gearup", "sb_coffee1.gearup", "sb_coffee2.gearup"]
+    }, {
+      "op": "add",
+      "path": "/scriptConfig/sb_turnInQuests",
+      "value": ["sb_outpost1.gearup", "sb_outpost2.gearup", "sb_humansurvivor2.gearup", "sb_coffee0.gearup", "sb_coffee1.gearup", "sb_coffee2.gearup"]
+    }
+  ]
+]

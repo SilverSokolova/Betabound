@@ -1,0 +1,128 @@
+{
+  "type" : "sb_envprobe2",
+  "shortdescription" : "Environmental Probe",
+  "description" : "A probe of unknown origin, designed to protect environments.",
+
+  "categories" : ["sb_envprobe"],
+  "parts" : [ "body" ],
+
+  "animation" : "envprobe.animation",
+
+  "dropPools" : [],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/events/sb_envprobe/envprobe2.lua"
+    ],
+
+    "dialog" : {
+      "approach" : [
+        "^#0f0;LIGHT ASSIST DIRECTIVE INITIATED"
+      ]
+    },
+    
+    "animationScripts" : ["/items/active/effects/lightning.lua"],
+    "lightning" : [
+      {
+        "partStartPosition" : ["body", "electrics"],
+        "color" : [230, 220, 255, 230],
+        "displacement" : 2.0,
+        "minDisplacement" : 0.0625,
+        "forks" : 0,
+        "width" : 1
+      }
+    ],
+
+    "touchDamage" : {
+      "poly" : [ [1.25, 0.0], [0.875, 0.875], [0.0, 1.25], [-0.875, 0.875], [-1.25, 0.0], [-0.875, -0.875], [0.0, -1.25], [0.875, -0.875] ],
+      "damage" : 10,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "hammer",
+      "knockback" : 20,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4, -4, 4, 4],
+    "scale" : 1.0,
+
+
+    "behaviorConfig" : {      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        }]},
+    "movementSettings" : {
+      "collisionPoly" : [ [1.25, 0.0], [0.875, 0.875], [0.0, 1.25], [-0.875, 0.875], [-1.25, 0.0], [-0.875, -0.875], [0.0, -1.25], [0.875, -0.875] ],
+
+      "mass" : 0.5,
+      "walkSpeed" : 4,
+      "runSpeed" : 12,
+      "gravityEnabled" : false,
+
+      "airFriction" : 2,
+      "airForce" : 40,
+      "flySpeed" : 18,
+      "physicsEffectCategories" : ["envprobe", "monster"]
+    },
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "stone"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 0
+        },
+        "maxHealth" : {
+          "baseValue" : 30
+        },
+        "protection" : {
+          "baseValue" : 30.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8]
+  }
+}

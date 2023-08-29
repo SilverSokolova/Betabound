@@ -1,0 +1,46 @@
+[
+    [{"op":"test","path":"/animatedParts","inverse":true},{"op":"add","path":"/animatedParts","value":{}}],
+    [{"op":"test","path":"/animatedParts/stateTypes","inverse":true},{"op":"add","path":"/animatedParts/stateTypes","value":{}}],
+    [{"op":"test","path":"/animatedParts/parts","inverse":true},{"op":"add","path":"/animatedParts/parts","value":{}}],
+    [{
+        "op": "add",
+        "path": "/animatedParts/stateTypes/sb_flames",
+        "value": {
+            "default": "none",
+            "states": {
+                "none": {},
+                "flames": {
+                    "frames": 7,
+                    "cycle": 0.5,
+                    "mode": "loop"
+                }
+            }
+        }
+    }],
+    [{
+        "op": "add",
+        "path": "/animatedParts/parts",
+        "value": {
+            "sb_flames": {
+                "properties": {
+                    "fullbright": true,
+                    "centered": true,
+                    "offset": [
+                        0,
+                        0
+                    ],
+                    "zLevel": -1
+                },
+                "partStates": {
+                    "sb_flames": {
+                        "flames": {
+                            "properties": {
+                                "image": "/humanoid/any/flames.png:<frame>"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }]
+]

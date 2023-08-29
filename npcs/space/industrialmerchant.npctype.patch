@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/scriptConfig/merchant/numItems","value":5},{"op":"replace","path":"/scriptConfig/merchant/numItems","value":10}]
+]

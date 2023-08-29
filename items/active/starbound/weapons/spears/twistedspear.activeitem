@@ -1,0 +1,74 @@
+{
+  "itemName" : "sb_twistedspear",
+  "level" : 1,
+  "price" : 160,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "tooltipKind" : "sb_sword",
+  "category" : "spear",
+  "description" : "",
+  "shortdescription" : "Twisted Spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear","upgradeableWeapon"],
+  "animation" : "/items/active/starbound/weapons/spear.animation",
+  "inventoryIcon" : "twistedspear.png",
+  "animationParts" : {
+    "blade" : "twistedspear.png",
+    "handle" : ""
+  },
+
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+	"swoosh" : {
+	  "partStates" : {
+	    "swoosh" : {
+	      "fire" : {
+		"properties" : {
+		  "image" : "twistedspearswoosh.png:<frame>"
+		}
+	      }
+	    }
+	  }
+	}
+      }
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "sb_spear",
+  "primaryAbility" : {
+    "projectileOffset" : [5,1],
+    "fireTime" : [1, 1.33],
+    "baseDps" : [9.5, 10.5],
+    "projectileTypes" : ["sb_twistedspearchain1","sb_twistedspearchain2","sb_twistedspearchain3"],
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [],
+      "knockbackMode" : "aim",
+      "knockbackRange" : [25,30],
+      "timeoutGroup" : "primary"
+    },
+    "stances" : {
+      "idle" : {
+        "allowFlip" : true,
+        "allowRotate" : true,
+        "weaponOffset" : [0, 0.95]
+      },
+      "fire" : {
+        "duration" : 0.24
+      },
+      "windup" : {
+        "duration" : 0.2
+      }
+    }
+  },
+  "builderConfig" : [{
+    "altAbilities" : [
+      "flurry",
+      "spearspin"
+    ]
+  }],
+  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+}

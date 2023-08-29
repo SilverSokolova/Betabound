@@ -1,0 +1,5 @@
+{
+  "input" : [["durasteelbar",10],["refinedviolium",10]],
+  "output" : "sb_separatortable",
+  "groups" : ["sb_scifianvil","sb_stations","all"]
+}

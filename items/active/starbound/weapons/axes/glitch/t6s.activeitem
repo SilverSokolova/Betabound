@@ -1,0 +1,26 @@
+{
+  "description": "An axe that might just be sentient.",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "itemName": "sb_glitchtier6saxe",
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "handle": {
+            "properties": {
+              "fullbright": true
+            }
+          }
+        }
+      }
+    },
+    "animationParts": {
+      "handle": "t6s.png",
+      "blade": "t6s.png<directives>"
+    },
+    "sb_extraDirectives": ";cc0016=0000"
+  },
+  "definition": ["colors/t6s", "axes/s"],
+  "shortdescription": "Sentinel",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

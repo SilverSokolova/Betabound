@@ -1,0 +1,28 @@
+{
+  "objectName" : "sb_wreckchains3",
+  "colonyTags" : ["wreck"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 40,
+  "tooltipKind" : "sb_object",
+
+  "description" : "Old, rusty chains, and not the fun kind.",
+  "shortdescription" : "Long Wrecked Chains",
+  "race" : "generic",
+
+  "floranDescription" : "Weak chainsss.",
+  "glitchDescription" : "Disgust. Rusty chains.",
+  "novakidDescription" : "Some rusty chains made outta iron.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "wreckchains3.png:<color>",
+      "imagePosition" : [0, -2],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : ["top"]
+    }
+  ]
+}

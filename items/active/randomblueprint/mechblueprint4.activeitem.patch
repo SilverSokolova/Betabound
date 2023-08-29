@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/inventoryIcon","value":"mechblueprint4.png"},{"op":"replace","path":"/inventoryIcon","value":"mechblueprint4.png?replace;000=0000?border=1;000"}]
+]

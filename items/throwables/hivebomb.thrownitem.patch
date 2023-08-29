@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/description","value":"Careful! These bugs have a deadly sting."},
+{"op":"replace","path":"/description","value":"Mind your aim and be careful! These creepy critters have a deadly sting and can eat through just about anything."}],
+[{"op":"test","path":"/tooltipKind","inverse":true},
+{"op":"add","path":"/tooltipKind","value":"fossil"}]
+]

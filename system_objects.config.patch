@@ -1,0 +1,7 @@
+[
+{"op":"replace","path":"/spacestation_peacekeeper1/parameters/bookmarkIcon","value":"spacestation_peacekeeper1"},
+{"op":"replace","path":"/spacestation_peacekeeper2/parameters/bookmarkIcon","value":"spacestation_peacekeeper2"},
+{"op":"replace","path":"/spacestation_peacekeeper3/parameters/bookmarkIcon","value":"spacestation_peacekeeper3"},
+{"op":"replace","path":"/spacestation_peacekeeper4/parameters/bookmarkIcon","value":"spacestation_peacekeeper4"},
+{"op":"replace","path":"/spacestation_peacekeeper5/parameters/bookmarkIcon","value":"spacestation_peacekeeper5"}
+]

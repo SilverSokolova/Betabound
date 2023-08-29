@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_humantier2hammer",
+  "description": "A sledgehammer with a clawed end.",
+  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "definition": "hammers/t2",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Claw Hammer"
+}

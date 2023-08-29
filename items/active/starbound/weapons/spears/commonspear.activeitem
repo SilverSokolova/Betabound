@@ -1,0 +1,73 @@
+{
+  "itemName" : "sb_commonspear",
+  "level" : 1,
+  "price" : 60,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "tooltipKind" : "sb_sword",
+  "category" : "spear",
+  "description" : "",
+  "shortdescription" : "Common Spear",
+  "twoHanded" : true,
+  "sb_dyeable" : true,
+  "sb_backingDirectives" : "?replace;f5e458=ffca8a;bc8b07=e0975c;a1750b=a85636;e9e9e9=ffca8a;b1b1b1=e0975c;676767=a85636",
+  "sb_extraDirectives" : "?replace;ffca8a=f5e458;e0975c=bc8b07;a85636=a1750b;ffca8a=e9e9e9;e0975c=b1b1b1;a85636=676767",
+  "itemTags" : ["weapon","melee","spear","upgradeableWeapon"],
+  "animation" : "/items/active/starbound/weapons/spear.animation",
+  "animationParts" : {},
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+	"blade":{"properties":{}},
+	"handle":{"properties":{}}
+      }
+    },
+    "lights":{"glow":{"color":[0,0,0]}}
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "primaryAbilityType" : "sb_spear",
+  "primaryAbility" : {
+    "fireTime" : [0.83, 1.11],
+    "baseDps" : [9, 10],
+    "damageConfig" : {
+      "knockback" : 25
+    },
+    "stances" : {
+      "idle" : {
+        "weaponOffset" : [0, 0.95]
+      },
+      "fire" : {
+        "duration" : 0.24
+      },
+      "windup" : {
+        "duration" : 0.2
+      }
+    }
+  },
+  "builderConfig" : [{
+    "nameGenerator" : "spearnames.config:nameGen",
+    "elementalType" : "physical",
+    "animationParts" : {
+      "blade" : {
+        "path" : "spear/blade/<variant>.png",
+        "variants" : 37,
+        "paletteSwap" : true,
+	"fullbrights" : [3,11,12,13,14,15,16,17,19,24]
+      },
+      "handle" : {
+        "path" : "spear/handle/<variant>.png",
+        "variants" : 21,
+        "paletteSwap" : true,
+	"fullbrights" : [12,15]
+      }
+    },
+    "altAbilities" : [
+      "flurry",
+      "spearspin"
+    ],
+   "iconDrawables" : ["handle", "blade"],
+   "palette" : "/items/active/starbound/colors/melee.weaponcolors"
+  }],
+  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+}

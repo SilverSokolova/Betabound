@@ -1,0 +1,5 @@
+{
+  "input" : [["leather",4],["fabric",2]],
+  "output" : "snowinfantrypants",
+  "groups" : ["craftingwheel","clothes","all"]
+}

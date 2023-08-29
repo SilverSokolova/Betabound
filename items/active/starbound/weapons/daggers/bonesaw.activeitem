@@ -1,0 +1,57 @@
+{
+  "itemName": "sb_bonesaw",
+  "level": 1,
+  "maxStack": 1,
+  "paletteSwaps": "",
+  "rarity": "uncommon",
+  "description": "",
+  "shortdescription": "Bone Saw",
+  "tooltipKind": "sb_sword",
+  "price": 70,
+  "category": "dagger",
+  "tooltipFields": {
+    "subtitle": "Bone Saw"
+  },
+  "twoHanded": false,
+  "sb_dyeable": true,
+  "itemTags": ["weapon", "melee", "dagger", "bonesaw", "upgradeableWeapon"],
+  "handGrip": "inside",
+  "animation": "/items/active/starbound/weapons/dagger.animation",
+  "animationParts": {},
+  "animationCustom": {},
+
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "aimOffset": 0,
+  "primaryAbilityType": "sb_dagger",
+  "primaryAbility": {
+    "fireTime" : [0.27, 0.42],
+    "baseDps" : [8.0, 9.0],
+    "damageConfig": {
+      "damageSourceKind": "slash",
+      "knockbackRange" : [10, 15]
+    }
+  },
+
+  "builderConfig": [{
+      "nameGenerator": "bonesawnames.config:nameGen",
+      "elementalType": "physical",
+      "animationParts": {
+        "blade": {
+          "path": "bonesaw/blade/<variant>.png",
+          "variants": 5,
+          "paletteSwap": true
+        },
+        "handle": {
+          "path": "bonesaw/handle/<variant>.png",
+          "variants": 5,
+          "paletteSwap": true
+        }
+      },
+      "iconDrawables": ["handle", "blade"],
+      "coloredParts": ["handle", "blade"],
+      "palette": "/items/active/starbound/colors/bonesaw.weaponcolors",
+      "altAbilities": []
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

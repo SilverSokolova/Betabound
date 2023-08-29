@@ -1,0 +1,21 @@
+{
+  "itemName" : "sb_orangenergyglass",
+  "price" : 40,
+  "foodValue" : 10,
+  "effects" : [[
+	{"effect":"runboostfood","duration":90},
+	{"effect":"maxhealthscalingboostfood","duration":90},
+	"sb_foodheal25",
+	{"effect":"sb_health","duration":10}
+  ]],
+  "tooltipKind" : "sb_object4",
+  "rarity" : "Common",
+  "inventoryIcon" : "orangenergyglass.png",
+  "category" : "drink",
+  "description" : "A glass full of a healthy, revitalizing homemade orange energy drink.",
+  "shortdescription" : "Orangenergy Glass",
+  "emitters" : ["drinking"],
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 2
+}

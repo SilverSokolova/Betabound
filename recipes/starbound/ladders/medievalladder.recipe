@@ -1,0 +1,6 @@
+{
+  "input" : ["darkwoodmaterial","plantfibre"],
+  "output" : ["sb_medievalladder",15],
+  "duration" : 0.25,
+  "groups"  : ["craftingfurniture","materials","tools","all","plain"]
+}

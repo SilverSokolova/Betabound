@@ -1,0 +1,30 @@
+{
+  "itemName" : "sb_handgrenade",
+  "rarity" : "unCommon",
+  "tooltipKind" : "sb_object",
+  "inventoryIcon" : "sb_handgrenade.png",
+  "image" : "sb_handgrenade.png",
+  "shortdescription" : "Hand Grenade",
+  "category" : "throwableItem",
+  "description" : "USCM Standard Issue Hand Grenade. Has a 3 second fuse.",
+  "price" : 80,
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "sb_handgrenade",
+  "projectileConfig" : {
+    "speed" : 30,
+    "power" : 45,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : ["/sfx/projectiles/throw_item_small.ogg"]
+      }
+    ]
+  }
+}

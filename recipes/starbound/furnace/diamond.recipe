@@ -1,0 +1,6 @@
+{
+  "input" : [["sb_diamondore",2]],
+  "output" : "diamond",
+  "duration" : 0.15,
+  "groups" : ["craftingfurnace","bars","all"]
+}

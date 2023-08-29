@@ -1,0 +1,6 @@
+[
+[{"op":"add","path":"/mediumValueQuestRewards/0/1/pool/-","value":{"weight":0.07,"item":"sb_tech"}}],
+
+[{"op":"add","path":"/highValueQuestRewards/0/1/pool/-","value":{"weight":0.07,"item":"sb_tech"}}],
+[{"op":"add","path":"/highValueQuestRewards/0/1/pool/-","value":{"weight":0.30,"pool":"valuableTreasure"}}]
+]

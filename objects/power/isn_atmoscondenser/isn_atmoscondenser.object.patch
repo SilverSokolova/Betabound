@@ -1,0 +1,5 @@
+[
+{"op":"add","path":"/outputs/sb_tentacle","value":[{"weight":"common","items":["sb_liquidtentaclejuice","liquidpoison","fu_oxygen","fu_hydrogen","fu_nitrogen"]}]},
+{"op":"copy","from":"/outputs/default/1","path":"/outputs/sb_tentacle/1"},
+{"op":"copy","from":"/outputs/moon/2","path":"/outputs/sb_tentacle/2"}
+]

@@ -1,0 +1,55 @@
+{
+  "itemName": "sb_feroziumrifle",
+  "price": 1500,
+  "inventoryIcon": "feroziumrifle.png",
+  "maxStack": 1,
+  "fixedRarity": true,
+  "rarity": "legendary",
+  "description": "A big gun that does big damage.",
+  "shortdescription": "Scintillium Rifle",
+  "level": 6,
+  "tooltipKind": "sb_gun2",
+  "tooltipFields": {
+    "damageKindImage": "/interface/sb_tooltips/standardbullet.png"
+  },
+  "category": "assaultRifle",
+  "itemTags": ["weapon", "ranged", "assaultrifle", "sb_scintillium", "upgradeableWeapon"],
+  "twoHanded": true,
+
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationParts": {
+    "butt": "",
+    "middle": "feroziumrifle.png",
+    "barrel": "",
+    "muzzleFlash": "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.png"
+  },
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/gun/ar4.ogg"]
+    }
+  },
+  "baseOffset": [0.5, 0.0],
+  "muzzleOffset": [2.075, 0.235],
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "elementalType": "physical",
+  "altAbilityType": "piercingshot",
+  "primaryAbilityType": "sb_gun2",
+  "primaryAbility": {
+    "fireTime": 0.08,
+    "baseDps": 8.5,
+    "energyUsage": 32,
+    "inaccuracy": 0.02,
+    "projectileParameters": {
+      "speed": 150
+    },
+    "stances": {
+      "cooldown": {
+        "duration": 0.02,
+        "recoil": true,
+        "armRotation": 2,
+        "weaponRotation": 2
+      }
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

@@ -1,0 +1,12 @@
+{
+  "layers" : [
+    {
+	"kind" : "tile/sb_heck",
+	"nohueshift" : true,
+	"lightMapped" : true,
+	"parallax" : 1.2,
+	"directives" : "?brightness=-65",
+	"repeatY" : true
+    }
+  ]
+}

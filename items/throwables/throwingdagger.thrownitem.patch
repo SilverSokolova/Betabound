@@ -1,0 +1,7 @@
+[
+[{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":3}],
+[{"op":"test","path":"/price","value":3},{"op":"replace","path":"/price","value":13}],
+
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"throwingdagger"}]
+]

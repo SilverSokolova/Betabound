@@ -1,0 +1,114 @@
+[
+  [{
+      "op": "add",
+      "path": "/collectables/sb_heckblob",
+      "value": {
+        "order": 61,
+        "monsterType": "sb_heckblob",
+        "icon": "/monsters/walkers/sb_heckblob/heckblob.png:idle.3"
+      }
+    }
+  ], [{
+      "op": "add",
+      "path": "/collectables/sb_robotboss",
+      "value": {
+        "order": 62,
+        "monsterType": "sb_robotboss",
+        "icon": "/monsters/boss/sb_robotboss/portrait.png"
+      }
+    }
+  ], [{
+      "op": "add",
+      "path": "/collectables/sb_jellyboss",
+      "value": {
+        "order": 63,
+        "monsterType": "sb_jellyboss",
+        "icon": "/monsters/boss/sb_jellyboss/jellyboss.png:idle.1"
+      }
+    }
+  ], [{
+      "op": "add",
+      "path": "/collectables/sb_skeye",
+      "value": {
+        "order": 64,
+        "monsterType": "sb_skeye",
+        "icon": "/monsters/boss/sb_jellyboss/skeye.png:idle.1"
+      }
+    }
+  ], [{
+      "op": "add",
+      "path": "/collectables/sb_envprobe",
+      "value": {
+        "order": 65,
+        "monsterType": "sb_envprobe",
+        "icon": "/monsters/events/sb_envprobe/body.png:idle.1"
+      }
+    }
+  ], [{
+      "op": "add",
+      "path": "/collectables/sb_poptop",
+      "value": {
+        "order": 66,
+        "monsterType": "sb_poptop",
+        "icon": "/monsters/walkers/sb_poptop/poptop.png:idle.1"
+      }
+    }
+  ], [{
+      "op": "add",
+      "path": "/collectables/sb_repairbot",
+      "value": {
+        "order": 67,
+        "monsterType": "sb_repairbot",
+        "icon": "/monsters/dungeon/sb_repairbot/repairbot.png:portrait"
+      }
+    }
+  ], [{
+      "op": "add",
+      "path": "/collectables/sb_serpentdroid",
+      "value": {
+        "order": 68,
+        "monsterType": "sb_serpentdroid",
+        "icon": "/monsters/dungeon/sb_serpentdroid/portrait.png"
+      }
+    }
+  ], [{
+      "op": "test",
+      "path": "/collectables/sewerfly",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/collectables/sewerfly",
+      "value": {
+        "order": 69,
+        "monsterType": "sewerfly",
+        "icon": "/monsters/dungeon/sewerfly/sb_portrait.png"
+      }
+    }
+  ], [{
+      "op": "test",
+      "path": "/collectables/swarpion",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/collectables/swarpion",
+      "value": {
+        "order": 70,
+        "monsterType": "swarpion",
+        "icon": "/monsters/dungeon/swarpion/swarpion.png:idle.1"
+      }
+    }
+  ], [{
+      "op": "test",
+      "path": "/collectables/bonebird",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/collectables/bonebird",
+      "value": {
+        "order": 71,
+        "monsterType": "bonebird",
+        "icon": "/monsters/generated/flying/bonebird/sb_portrait.png"
+      }
+    }
+  ]
+]

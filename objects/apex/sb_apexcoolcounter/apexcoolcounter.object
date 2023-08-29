@@ -1,0 +1,34 @@
+{
+  "objectName" : "sb_apexcoolcounter",
+  "colonyTags" : ["apex","apexresearchlab","commerce"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "tooltipKind" : "sb_object",
+  "price" : 105,
+  "description" : "That sure is a cool counter.",
+  "shortdescription" : "Cool Counter",
+  "race" : "apex",
+
+  "apexDescription" : "A basic laboratory counter.",
+  "avianDescription" : "An alchemist's mixing station.",
+  "floranDescription" : "A counter for experimentsss.",
+  "glitchDescription" : "Sarcastic. A very interesting find.",
+  "humanDescription" : "Looks like a lab counter.",
+  "hylotlDescription" : "A counter built for scientific use.",
+  "novakidDescription" : "A metallic counter.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexcoolcounter.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "itemName" : "sb_applepie",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "applepie.png",
+  "category" : "preparedFood",
+  "description" : "Apple pie! It's as American as itself!",
+  "shortdescription" : "Apple Pie",
+  "effects" : [[
+	{"effect":"maxhealthscalingboostfood","duration":105},
+	{"effect":"sb_sugarrush","duration":105},
+	"sb_foodheal120"
+  ]],
+  "price" : 300,
+  "foodValue" : 35,
+  "tooltipKind" : "sb_object",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 4
+}

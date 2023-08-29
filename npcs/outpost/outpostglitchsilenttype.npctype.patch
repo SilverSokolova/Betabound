@@ -1,0 +1,12 @@
+[
+  [{
+      "op": "add",
+      "path": "/scriptConfig/sb_offeredQuests",
+      "value": ["sb_glitchsilenttype2.gearup", "sb_glitchsilenttype3.gearup"]
+    }, {
+      "op": "add",
+      "path": "/scriptConfig/sb_turnInQuests",
+      "value": ["sb_glitchsilenttype2.gearup", "sb_glitchsilenttype3.gearup"]
+    }
+  ]
+]

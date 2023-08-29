@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_apextier4broadsword",
+  "description": "It's actually just a regular broadsword.",
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "definition": "broadswords/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Haircutter"
+}

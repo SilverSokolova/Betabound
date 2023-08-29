@@ -1,0 +1,92 @@
+[
+
+
+[{"op":"add","path":"/planetTypes/forest/layers/surface/dungeons/-","value":[1,"sb_humanbunker"]}],
+[{"op":"add","path":"/planetTypes/desert/layers/surface/dungeons/-","value":[1,"sb_humanbunker"]}],
+[{"op":"add","path":"/planetTypes/savannah/layers/surface/dungeons/-","value":[1,"sb_humanbunker"]}],
+[{"op":"add","path":"/planetTypes/snow/layers/surface/dungeons/-","value":[1,"sb_humanbunker"]}],
+[{"op":"add","path":"/planetTypes/jungle/layers/surface/dungeons/-","value":[1,"sb_humanbunker"]}],
+[{"op":"add","path":"/planetTypes/alien/layers/surface/dungeons/-","value":[1,"sb_humanbunker"]}],
+[{"op":"add","path":"/planetTypes/tundra/layers/surface/dungeons/-","value":[1,"sb_humanbunker"]}],
+[{"op":"add","path":"/planetTypes/volcanic/layers/surface/dungeons/-","value":[1,"sb_humanbunker"]}],
+[{"op":"add","path":"/planetTypes/midnight/layers/surface/dungeons/-","value":[1,"sb_humanbunker"]}],
+[{"op":"add","path":"/planetTypes/scorchedcity/layers/surface/dungeons/-","value":[1,"sb_humanbunker"]}],
+
+[{"op":"test","path":"/useSecondaryEnvironmentBiomeIndex","value":false},{"op":"replace","path":"/useSecondaryEnvironmentBiomeIndex","value":true}] //My final design decision is YES because I'm not sure why it's stupid aside from the lag spikes!
+
+//,[{"op":"add","path":"/regionTypes/tentacle/caveLiquid/-","value":"sb_tentaclejuice"}] No poison conflicts with bg and is too easy
+
+
+//MAKE BIOMES SPAWN
+,[{"op":"add","path":"/regionTypes/volcanic/subRegion/-","value":"sb_crystalline"}]
+,[{"op":"add","path":"/regionTypes/scorchedcity/subRegion/-","value":"sb_crystalline"}]
+
+,[{"op":"add","path":"/regionTypes/volcanic/subRegion/-","value":"sb_rust"}]
+,[{"op":"add","path":"/regionTypes/scorchedcity/subRegion/-","value":"sb_rust"}]
+
+,[{"op":"add","path":"/regionTypes/deepunderground/subRegion/-","value":"sb_heck"}]
+,[{"op":"add","path":"/regionTypes/deepunderground/subRegion/-","value":"sb_coralcave"}]
+,[{"op":"add","path":"/regionTypes/deepunderground/subRegion/-","value":"sb_crystalcave"}]
+
+
+
+//MAKE BIOMES
+	,[{"op":"add","path":"/regionTypes/sb_crystalline","value":{"biome":[[0,["sb_crystalline"]]],"caveLiquid":["lava"],
+	"blockSelector":["remixedMildSurface"],"fgCaveSelector":["surfaceCaves"],"subRegion":[],"bgCaveSelector":["empty"]}}]
+
+	,[{"op":"add","path":"/regionTypes/sb_rust","value":{"biome":[[0,["sb_rust"]]],
+	"blockSelector":["remixedMildSurface"],"fgCaveSelector":["surfaceCaves"],"subRegion":[],"bgCaveSelector":["empty"]}}]
+
+	,[{"op":"add","path":"/regionTypes/sb_heck","value":{"biome":[[0,["sb_heck"]]],
+	"fgCaveSelector":["sb_heck"],"fgOreSelector":["richVeins"],"bgOreSelector":["richVeins"],
+	"caveLiquid": ["water"],"caveLiquidSeedDensityRange":[1,2]}}]
+
+
+	,[{"op": "add","path":"/regionTypes/sb_coralcave","value":{"biome":[[0,["sb_coralcave"]]],
+	"fgCaveSelector":["normalCaves"],"fgOreSelector":["normalVeins"],"bgOreSelector":["normalVeins"],
+	"caveLiquid": ["tarliquid"],"caveLiquidSeedDensityRange":[1,2]}}]
+
+	,[{"op": "add","path":"/regionTypes/sb_crystalcave","value":{"biome":[[0,["sb_crystalcave"]]],
+	"fgCaveSelector":["normalCaves"],"fgOreSelector":["normalVeins"],"bgOreSelector":["normalVeins"],
+	"caveLiquid": ["lava"],"caveLiquidSeedDensityRange":[1,2]}}]
+
+,[{"op":"test","path":"/regionTypes/eyepatch/caveLiquid","inverse":true}],[{"op":"add","path":"/regionTypes/eyepatch/caveLiquid","value":[]}]
+,[{"op":"add","path":"/regionTypes/eyepatch/caveLiquid/-","value":"sb_tentaclejuice"}]
+
+,[{"op":"test","path":"/regionTypes/flesh/caveLiquid","inverse":true}],[{"op":"add","path":"/regionTypes/flesh/caveLiquid","value":[]}]
+,[{"op":"add","path":"/regionTypes/flesh/caveLiquid/-","value":"sb_tentaclejuice"}]
+
+,[{
+    "op": "add",
+    "path": "/planetTypes/sb_tentacle",
+    "value": {
+      "threatRange" : [6,6],
+      "layers": {
+        "surface": {
+          "primaryRegion" : ["sb_tentacle"],
+          "secondaryRegions" : [],
+          "dungeons" : []
+        },
+		
+        "subsurface" : {
+          "primaryRegion" : [ "sb_tentacle" ]
+        },"core":{"primaryRegion":["core"]
+        }
+      }
+    }
+  },
+  
+  // Regions
+  {
+    "op": "add",
+    "path": "/regionTypes/sb_tentacle",
+    "value": {
+      "caveLiquid": ["sb_tentaclejuice"],
+      "blockSelector": ["sb_normalSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0,["sb_tentacle"]]],
+      "subRegion" : ["forest", "desert", "garden", "jungle", "savannah", "snow", "tundra", "volcanic"] //2=arid
+    }
+  }]
+]

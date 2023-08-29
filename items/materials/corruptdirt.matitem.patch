@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/description","value":"A disgusting block of corrupted dirt."},
+{"op":"replace","path":"/description","value":"Ick. A disgusting block of corrupted dirt."}]
+]

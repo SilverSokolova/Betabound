@@ -1,0 +1,15 @@
+[
+[{"op":"add","path":"/miningtreasurelore/0/1/fill/-","value":{"pool":"sb_miningtreasureMusic"}}],
+[{"op":"add","path":"/miningtreasure/0/1/pool/-","value":{"weight":0.02,"item":"lunarbaseblock-recipe"}},
+{"op":"add","path":"/miningtreasure/0/1/pool/-","value":{"weight":0.02,"item":"lunarbaseplatform-recipe"}},
+{"op":"add","path":"/miningtreasure/0/1/pool/-","value":{"weight":0.02,"item":"miningchest-recipe"}},
+{"op":"add","path":"/miningtreasure/0/1/pool/-","value":{"weight":0.02,"item":"miningdoor-recipe"}},
+{"op":"add","path":"/miningtreasure/0/1/pool/-","value":{"weight":0.02,"item":"miningverticaldoor-recipe"}}],
+
+[{"op":"add","path":"/translator1Pool/0/1/fill/-","value":{"item":["sb_filledcrittercapturepod",1,{"projectileConfig":{"actionOnReap":[{"offset":[0,0],"type":"blackcat","arguments":{"damageTeamType":"friendly","wasRelocated":true},"action":"spawnmonster"},{"name":"sb_crittercapturepod","action":"item","offset":[0,0]}],"speed":40}}]}}],
+
+[{"op":"add","path":"/lunarbaseRare1/0/1/fill/-","value":{"pool":"miningtreasure"}},{"op":"add","path":"/lunarbaseRare1/0/1/fill/-","value":{"pool":"miningtreasure"}}],
+[{"op":"add","path":"/lunarbaseRare2/0/1/fill/-","value":{"pool":"miningtreasure"}},{"op":"add","path":"/lunarbaseRare2/0/1/fill/-","value":{"pool":"miningtreasure"}}],
+[{"op":"add","path":"/lunarbaseRare3/0/1/fill/-","value":{"pool":"miningtreasure"}},{"op":"add","path":"/lunarbaseRare3/0/1/fill/-","value":{"pool":"miningtreasure"}}],
+[{"op":"add","path":"/lunarbaseRare4/0/1/fill/-","value":{"pool":"miningtreasure"}},{"op":"add","path":"/lunarbaseRare4/0/1/fill/-","value":{"pool":"miningtreasure"}}]
+]

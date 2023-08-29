@@ -1,0 +1,6 @@
+{
+  "input" : ["crystalplant","wheat","tomato","cheese"],
+  "output" : "sb_crystalnachos",
+  "groups" : ["craftingfood","mains","sb_healing","sb_health","sb_glow","all"],
+  "collectables" : {"cooking":"sb_crystalnachos"}
+}

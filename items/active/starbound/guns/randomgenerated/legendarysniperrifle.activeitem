@@ -1,0 +1,90 @@
+{
+  "itemName" : "sb_legendarysniperrifle",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "muzzleOffset" : [0, 0],
+  "baseOffset" : [-1.25, 0.5],
+  "tooltipKind" : "sb_gun",
+  "price" : 620,
+  "description" : "",
+  "shortdescription" : "Legendary Sniper Rifle",
+  "category" : "sniperRifle",
+  "paletteSwaps" : "",
+  "twoHanded" : true,
+  "level" : 1,
+  "itemTags" : ["weapon","ranged","sniperrifle","upgradeableWeapon"],
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "animation" : "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationParts" : {"muzzleFlash":"/animations/sb/muzzleflash/bulletmuzzle3/bulletmuzzle3.png"},
+  "animationCustom" : {"sounds":{"fire":["/sfx/gun/sniper4.ogg"]}},
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "projectileType" : [ "bullet-1", "bullet-2", "bullet-3", "bullet-4","delayed", "fast", "flame","bouncybullet", "splitbullet", "piercingbullet","trishot", "stickybullet", "explosivebullet" ],
+    "fireSounds" : [ "/sfx/gun/sniper1.ogg","/sfx/gun/sniper2.ogg","/sfx/gun/sniper3.ogg","/sfx/gun/sniper4.ogg"],
+ //   "baseDamage" : 16,
+    "fireTime" : [0.5, 1.5],
+    "baseDps" : [7.8, 8.5],
+    "energyUsage" : [28.5, 36.5],
+    "inaccuracy" : 0,
+    "projectileParameters" : {
+      "knockbackRange" : [10, 30]
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {},
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builderConfig" : [{
+    "elementalType" : ["physical","fire","ice","electric","poison"],
+    "nameGenerator" : "snipernames.config:nameGen",
+    "animationParts" : {
+      "barrel" : {
+        "path" : "sniperrifle/barrel/<variant>.png",
+        "variants" : 20,
+        "paletteSwap" : true
+      },
+      "butt" : {
+        "path" : "sniperrifle/butt/<variant>.png",
+        "variants" : 20,
+        "paletteSwap" : true
+      },
+      "middle" : {
+        "path" : "sniperrifle/middle/<variant>.png",
+        "variants" : 20,
+        "paletteSwap" : true
+      }
+    },
+    "iconDrawables" : ["butt", "middle", "barrel"],
+    "gunParts" : ["butt", "middle", "barrel"],
+    "palette" : "/items/active/starbound/colors/sniperrifle.weaponcolors",
+    "altAbilities" : [
+      "flashlight",
+      "grenadelauncher",
+      "explosiveshot",
+      "bouncingshot",
+      "piercingshot",
+      "markedshot",
+      "deathbomb"
+    ]
+  }],
+  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+}

@@ -1,0 +1,19 @@
+{
+  "type" : "sb_cultistattack",
+
+  "scripts" : [
+    "/stagehands/sb_events/npcattack.lua"
+  ],
+  "scriptDelta" : 10,
+
+  "npcBounds" : [-0.75, -2.5, 0.75, 1.22],
+  "species" : [
+    "human"
+  ],
+  "npcTypes" : [
+    "cultist",
+    "cultist",
+    "cultist"
+  ],
+  "spawnRange" : [-5, 5]
+}

@@ -1,0 +1,12 @@
+{
+  "name" : "sb_foodheal70",
+  "effectConfig" : {
+    "healAmount" : 70,
+    "emissionRate" : 0.8
+  },
+  "defaultDuration" : 2,
+  "scripts" : ["foodheal.lua"],
+  "animationConfig" : "foodheal.animation",
+  "label" : "Healing",
+  "icon" : "/interface/statuses/heal.png"
+}

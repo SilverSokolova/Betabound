@@ -1,0 +1,51 @@
+{
+  "objectName" : "sb_spawnerstim",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "For when you really need a pick-me-up.",
+  "shortdescription" : "^yellow;Stim Spawner^reset;",
+  "race" : "human",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 100,
+  "tooltipKind" : "sb_object",
+
+  "apexDescription" : "Ahhh, finally I have access to clean medical supplies.",
+  "avianDescription" : "A stim merchant is always handy to have around.",
+  "floranDescription" : "Floran buy medicine and get ssstrong!",
+  "glitchDescription" : "Conflicted. Just... one... more... dose.",
+  "humanDescription" : "This sure beats monthly health insurance.",
+  "hylotlDescription" : "I hope the stims they sell are regulation-checked.",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "sb_spawner_stim.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : ["/objects/spawner/spawners/spawner.lua", "sb_spawner.lua"],
+  "scriptDelta" : 0,
+  "animation" : "/objects/spawner/spawners/sb_spawner.animation",
+  "animationParts" : {
+    "switch" : "sb_spawner_stim.png"
+  },
+  "animationPosition" : [-8, 0],
+  "inputNodes" : [],
+  "outputNodes" : [],
+
+  "spawner" : {
+    "searchRadius" : 32,
+    "npcSpeciesOptions" : ["apex", "avian", "floran", "glitch", "human", "hylotl"],
+    "npcTypeOptions" : ["sb_stimmerchant"],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : []
+      }
+    ]
+  }
+}

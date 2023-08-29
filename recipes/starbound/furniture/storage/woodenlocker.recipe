@@ -1,0 +1,5 @@
+{
+  "input" : [["darkwoodmaterial",15],"copperbar"],
+  "output" : "sb_woodenlocker",
+  "groups" : ["craftingfurniture","storage","all"]
+}

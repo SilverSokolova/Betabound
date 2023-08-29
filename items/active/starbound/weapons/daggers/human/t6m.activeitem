@@ -1,0 +1,8 @@
+{
+  "description": "A chunky, strong dagger.",
+  "shortdescription": "Kneesplitter",
+  "itemName": "sb_humantier6mdagger",
+  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "definition": ["colors/t6m", "daggers/m"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

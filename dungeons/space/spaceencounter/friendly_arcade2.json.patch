@@ -1,0 +1,12 @@
+[
+    [{
+        "op": "test",
+        "path": "/layers/3/objects/25/properties/parameters",
+        "inverse": true
+    },
+    {
+        "op": "add",
+        "path": "/layers/3/objects/25/properties/parameters",
+        "value": "{\"treasurePools\":[\"sb_friendly_arcade2Music\"]}"
+    }]
+]

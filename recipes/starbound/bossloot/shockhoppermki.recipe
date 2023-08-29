@@ -1,0 +1,5 @@
+{
+  "input" : ["bossshockhopper-codex"],
+  "output" : "shockhoppermkiaf",
+  "groups" : ["sb_treasuredtrophies_outpost_weaponshop","nouncrafting","all"]
+}

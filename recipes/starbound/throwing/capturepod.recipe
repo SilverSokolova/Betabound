@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_steelbar",2]],
+  "output" : "sb_capturepod",
+  "groups" : ["capturestation","all"]
+}

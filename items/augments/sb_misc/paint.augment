@@ -1,0 +1,13 @@
+{
+  "itemName" : "sb_paint",
+  "price" : 1,
+  "tooltipKind" : "sb_object",
+  "rarity" : "Common",
+  "category" : "block",
+  "tooltipFields" : {"subtitle":"Other"},
+  "description" : "It's a translucent jar of paint.\n^gray;Select paint and right-click block (in chest or inventory).",
+  "shortdescription" : "Jar of '%s' Paint",
+  "radioMessagesOnPickup" : ["sb_pickuppaint"],
+  "scripts" : ["/scripts/augments/sb_paint.lua"],
+  "builder" : "/items/buildscripts/starbound/buildpaint.lua"
+}

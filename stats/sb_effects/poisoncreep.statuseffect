@@ -1,0 +1,7 @@
+{
+  "name" : "sb_poisoncreep",
+  "blockingStat" : "sb_poisoncreepImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+  "scripts" : ["poisoncreep.lua"]
+}

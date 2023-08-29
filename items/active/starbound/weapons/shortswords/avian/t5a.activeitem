@@ -1,0 +1,1 @@
+{"description":"A sword that looks like a hefty wing.","shortdescription":"Wingwhacker","itemName":"sb_aviantier5ashortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t5a","shortswords/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

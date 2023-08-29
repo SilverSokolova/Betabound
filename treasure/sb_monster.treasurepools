@@ -1,0 +1,71 @@
+{
+  "sb_minibossTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "goodWeapon"},
+        {"pool" : "valuableTreasure"},
+        {"pool" : "generatedGroundMonsterTreasure"},
+        {"pool" : "money"}
+      ]
+    }]
+  ],
+  "sb_tentacleTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "pool" : "sb_liquidtentaclejuice"},
+        {"weight" : 0.11, "item" : "rawtentacle"},
+        {"weight" : 0.03, "item" : ["sb_musicsheet",1,{"music":"crystal-battle1"}]}
+      ]
+    }]
+  ],
+  "sb_weaklingTentacleTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.60, "item" : ["sb_liquidtentaclejuice",3]},
+        {"weight" : 0.35, "item" : "sb_liquidtentaclejuice"},
+        {"weight" : 0.05, "item" : "rawtentacle"},
+        {"weight" : 0.003, "item" : ["sb_musicsheet",1,{"music":"crystal-battle1"}]}
+      ]
+    }]
+  ],
+  "sb_envprobeTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "pool" : "salvageComponent"},
+//      {"weight" : 0.35, "item" : "screws"},
+        {"weight" : 0.025, "item" : "sb_envprobeaf"}
+      ],
+      "poolRounds" : [
+        [1, 2],
+        [0.25, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "sb_heckblobTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.6, "pool" : "noMeatMonsterTreasure"},
+        {"weight" : 0.4, "pool" : "sb_heckbush"},
+        {"weight" : 0.2, "item" : "sb_rawfleshlump"},
+        {"weight" : 0.025, "item" : "sb_heckblobaf"}
+      ]
+    }]
+  ],
+  "sb_serpentdroidTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.6, "pool" : "largeRobotTreasure"},
+        {"weight" : 0.025, "item" : "sb_serpentdroidaf"}
+      ]
+    }]
+  ],
+  "sb_repairbotTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.6, "pool" : "robotTreasure"},
+        {"weight" : 0.025, "item" : "sb_repairbotaf"}
+      ]
+    }]
+  ]
+}

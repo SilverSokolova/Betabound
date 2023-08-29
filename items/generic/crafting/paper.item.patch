@@ -1,0 +1,7 @@
+[[
+{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
+{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}
+],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"cardboard1"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"cardboard2"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"cardboard3"}]]

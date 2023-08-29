@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":80}],
+[{"op":"test","path":"/description","value":"This practice target outputs a wire signal until broken."},{"op":"replace","path":"/description","value":"This practice target outputs a wire signal until broken.\n^red;Destroyed when broken.^reset;"}]
+]

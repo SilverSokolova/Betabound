@@ -1,0 +1,5 @@
+{
+  "input" : [["ironbar",3],["darkwoodmaterial",2]],
+  "output" : "sb_novatier1revolver",
+  "groups" : ["craftinganvil","weapons","all"]
+}

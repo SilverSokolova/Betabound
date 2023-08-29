@@ -1,0 +1,33 @@
+{
+  "id" : "sb_avianrefugee2part2.gearup",
+  "prerequisites" : [ "sb_outpost1.gearup", "sb_floranfan1.gearup", "sb_hylotlperformer1.gearup", "sb_radardish1.gearup", "sb_floranscholar2.gearup","sb_examplequest.gearup" ],
+  "title" : "^green;Liftoff!",
+//  "requiredShipLevel" : 4,
+  "text" : "Did you get the paper? ^green;If you bring me ^orange;5 pieces of paper ^white;I'll show you how to make this awesome paper plane.",
+  "completionText" : "There you go! Go and give it a fly!",
+  "speaker" : "questGiver",
+  "moneyRange" : [0, 0],
+  "rewards" : [["paperplane"]],
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquest.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {"default" : "questGiver"},
+    "requireTurnIn" : true,
+    "turnInDescription" : "Speak to ^orange;the Avian refugee^reset; at the ^orange;outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "paper",
+        "count" : 5,
+        "consume" : true
+      }
+    ]
+  }
+}

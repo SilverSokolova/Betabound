@@ -1,0 +1,34 @@
+{
+  "itemName" : "sb_hylotlaquastaff1",
+  "definition" : "racialstaff",
+  "itemTags" : ["weapon","staff"],
+  "tags" : {"<race>" : "hylotl", "<staff>" : "aquastaff", "<n>" : "1"},
+  "rarity" : "rare",
+  "level" : 5,
+  "description" : "Creates a a splash of water.",
+  "shortdescription" : "Sacred Splash Staff",
+  "tooltipFields" : {"subtitle":"Aqua Staff","damageKindImage":"/items/liquids/liquidwatericon.png"},
+  "animationCustom" : {
+    "sounds" : {
+      "zoneactivate" : []
+    }
+  },
+  "configOverrides" : {
+    "stances" : {
+      "idle" : {
+	"weaponOffset" : [-0.2, 0.6]
+      },
+      "charge" : {"duration" : 0.9}
+    }
+  },
+  "elementalType" : "ice",
+  "altAbilityType" : "healingzone",
+  "primaryAbility" : {
+    "projectileType":"sb_splashdrop2",
+    "projectileParameters" : {
+      "baseDamage" : 18,
+      "speed" : 0
+    }
+  },
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_feroziumbar",2]],
+  "output" : "geometricdoor",
+  "groups" : ["craftingfurniture2","doors","all"]
+}

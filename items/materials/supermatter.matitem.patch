@@ -1,0 +1,12 @@
+[
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":0}],
+[{"op":"test","path":"/fuelAmount","inverse":true},{"op":"add","path":"/fuelAmount","value":8}],
+[{"op":"test","path":"/tooltipFields","inverse":true},{"op":"add","path":"/tooltipFields","value":{}}],
+[{"op":"replace","path":"/price","value":15},
+{"op":"add","path":"/tooltipFields/subtitle","value":"Ship Fuel"}],
+
+[{"op":"test","path":"/description","value":"A crystal used to power FTL technology. It's still not fully understood.\n^green;Extractable^reset;."},
+{"op":"replace","path":"/tooltipKind","value":"sb_object4"}]
+]

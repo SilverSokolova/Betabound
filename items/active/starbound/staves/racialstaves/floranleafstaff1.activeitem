@@ -1,0 +1,21 @@
+{
+  "itemName" : "sb_floranleafstaff1",
+  "definition" : "racialstaff",
+  "itemTags" : ["weapon","staff"],
+  "tags" : {"<race>" : "floran", "<staff>" : "leafstaff", "<n>" : "1"},
+  "rarity" : "rare",
+  "level" : 5,
+  "description" : "Creates a powerful blizzard of leaves.",
+  "shortdescription" : "Leaf Flurry",
+  "tooltipFields" : {"subtitle":"Leaf Staff","damageKindImage":"/items/throwables/sb_cutterleaf.png"},
+  "elementalType" : "poison",
+  "altAbilityType" : "elementorb",
+  "primaryAbility" : {
+    "projectileType" : "sb_leafcloud",
+    "projectileParameters" : {
+      "baseDamage" : 5,
+      "speed" : 0
+    }
+  },
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

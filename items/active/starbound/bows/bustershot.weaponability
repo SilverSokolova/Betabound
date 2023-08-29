@@ -1,0 +1,58 @@
+{
+  "ability" : {
+    "type" : "sb_bustershot",
+    "class" : "BowShot",
+    "name" : "Buster Shot",
+    "scripts" : ["/items/active/weapons/bow/abilities/bowshot.lua"],
+    "walkWhileFiring" : false,
+
+    "fireOffset" : [1.75, 0],
+
+    "energyPerShot" : 30,
+    "baseDps" : 8.25,
+    "cooldownTime" : 0.4,
+    "fireTime" : 0.35,
+    "inaccuracy" : 0.02,
+
+    "drawFrameSelector" : "bowImageSelector",
+    "drawPowerMultiplier" : "drawTimeMultiplier",
+    "drawSpeedMultiplier" : "drawTimeMultiplier",
+    "drawPowerCurve" : "busterTimeMultiplier",
+    "drawArmFrames" : ["rotation", "rotation", "rotation", "rotation", "rotation"],
+
+    "projectileType" : "bustershot",
+    "powerProjectileType" : "chargedbustershot",
+    "powerProjectileTime" : [0.7, 50],
+    "projectileParameters" : {
+      "speed" : 60,
+      "power" : 15
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : -30,
+        "weaponRotation" : 0,
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "twoHanded" : false
+      },
+      "draw" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "twoHanded" : false
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : false,
+
+        "frontArmFrame" : "rotation"
+      }
+    }
+  }
+}

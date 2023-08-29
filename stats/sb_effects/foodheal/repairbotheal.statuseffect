@@ -1,0 +1,12 @@
+{
+  "name" : "sb_repairbotheal",
+  "effectConfig" : {
+    "healAmount" : 30,
+    "emissionRate" : 0.45
+  },
+  "defaultDuration" : 3,
+  "scripts" : ["foodheal.lua"],
+  "animationConfig" : "foodheal.animation",
+  "label" : "Healing",
+  "icon" : "/interface/statuses/heal.png"
+}

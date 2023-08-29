@@ -1,0 +1,33 @@
+{
+  "objectName" : "sb_woodenshelf",
+  "colonyTags" : ["commerce","storage"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "tooltipKind" : "sb_object",
+
+  "description" : "A sturdy wooden shelf.",
+  "shortdescription" : "Wooden Shelf",
+  "race" : "generic",
+
+  "apexDescription" : "It's a wall shelf made from wood.",
+  "avianDescription" : "A mounted wood wall shelf.",
+  "floranDescription" : "Hanging wood ssshelf.",
+  "glitchDescription" : "Observant. This wall shelf is made from wood and iron.",
+  "humanDescription" : "It's a wall shelf crafted from wood.",
+  "hylotlDescription" : "A wooden wall shelf of very basic design.",
+  "novakidDescription" : "A wooden shelf hangin' on the wall.",
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodenshelf.png:<color>",
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : ["background"],
+      "collision" : "platform"
+    }
+  ]
+}

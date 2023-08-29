@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_humantier2dagger",
+  "description": "A basic, decorated dagger.",
+  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "definition": "daggers/t2",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Fancy Shanker"
+}

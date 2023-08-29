@@ -1,0 +1,6 @@
+{
+  "input" : ["endomorphicjelly","greenslime","sugar"],
+  "output" : ["sb_jelly",3],
+  "groups" : ["craftingfood","desserts","sb_healing","sb_bouncy","sb_mobility","all"],
+  "collectables" : {"cooking":"sb_jelly"}
+}

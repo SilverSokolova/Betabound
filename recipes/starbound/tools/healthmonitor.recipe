@@ -1,0 +1,5 @@
+{
+  "input" : ["silverbar","smallbattery","glass","wire"],
+  "output" : "sb_healthmonitor",
+  "groups" : ["craftingfarm2","survival","all"]
+}

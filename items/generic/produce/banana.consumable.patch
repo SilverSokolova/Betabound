@@ -1,0 +1,15 @@
+[
+[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
+
+[{"op":"test","path":"/description","value":"A genetically enhanced banana."},
+{"op":"replace","path":"/description","value":"A genetically enhanced banana, could make anyone but an Apex sick."}],
+
+[{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
+[{"op":"add","path":"/effects/0/-","value":"sb_energyregen192"}],
+[{"op":"add","path":"/effects/0/-","value":"sb_maxenergyboost10"}],
+
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_roastbanana"}],
+
+[{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":2}]
+]

@@ -1,0 +1,5 @@
+{
+  "input" : [["darkwoodmaterial",15],["polymer",3],"leather","ironbar"],
+  "output" : "accordion",
+  "groups" : ["sb_ironcraftingtable","sb_instruments","all"]
+}

@@ -1,0 +1,103 @@
+{
+  "itemName": "sb_irradiatedlauncher",
+  "inventoryIcon": "irradiatedlauncher.png",
+  "maxStack": 1,
+  "price": 1500,
+  "tooltipKind": "sb_gun2",
+  "tooltipFields": {
+    "damageKindImage": "/projectiles/guns/grenades/impactgrenade/poisonicon.png"
+  },
+  "itemTags": ["weapon", "ranged", "grenadelauncher", "upgradeableWeapon"],
+  "category": "grenadeLauncher",
+  "rarity": "Rare",
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "butt": {
+          "properties": {
+            "fullbright": true,
+            "offset": [0.5, 0.15]
+          }
+        }
+      }
+    },
+    "particleEmitters": {
+      "muzzleFlash": {
+        "particles": [{
+            "particle": "rocketbarrelpuff",
+            "offset": [0, 0]
+          }, {
+            "particle": "rocketbarrelpuff",
+            "offset": [0, 0]
+          }, {
+            "particle": "rocketbarrelpuff",
+            "offset": [0, 0]
+          }
+        ]
+      }
+    },
+    "sounds": {
+      "fire": ["/sfx/gun/grenade1.ogg", "/sfx/gun/grenade2.ogg", "/sfx/gun/grenade3.ogg"]
+    }
+  },
+  "animationParts": {
+    "barrel": "",
+    "butt": "irradiatedlauncherfb.png",
+    "muzzleFlash": "/animations/muzzleflash/plasmamuzzle4green/plasmamuzzle4green.png",
+    "middle": "irradiatedlauncher.png"
+  },
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "description": "Death by radiation poisoning, at your fingertips.",
+  "shortdescription": "Irradiated Launcher",
+  "baseOffset": [0.5, 0.15],
+  "muzzleOffset": [1.6, 0.2],
+  "twoHanded": false,
+  "fixedLevel": false,
+  "elementalType": "poison",
+  "level": 1,
+  "primaryAbilityType": "sb_gun",
+  "primaryAbility": {
+    "fireTime": 1.25,
+    "baseDps": 11,
+    "energyUsage": 22,
+    "inaccuracy": 0,
+    "projectileType": "poisonplasmaimpactgrenade",
+    "projectileParameters": {
+      "speed": 75,
+      "knockback": 40,
+      "statusEffects": ["weakpoison"],
+      "actionOnReap": [{
+          "action": "config",
+          "file": "/projectiles/explosions/regularexplosion2/poisonexplosionknockback.config"
+        }, {
+          "action": "projectile",
+          "type": "gas2",
+          "inheritDamageFactor": 0.05,
+          "angle": 0
+        }, {
+          "action": "projectile",
+          "type": "gas2",
+          "inheritDamageFactor": 0.05,
+          "angle": 90
+        }, {
+          "action": "projectile",
+          "type": "gas2",
+          "inheritDamageFactor": 0.05,
+          "angle": 158
+        }, {
+          "action": "projectile",
+          "type": "gas2",
+          "inheritDamageFactor": 0.05,
+          "angle": 225
+        }, {
+          "action": "projectile",
+          "type": "gas2",
+          "inheritDamageFactor": 0.05,
+          "angle": 292
+        }
+      ]
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

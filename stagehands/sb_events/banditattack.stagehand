@@ -1,0 +1,24 @@
+{
+  "type" : "sb_banditattack",
+
+  "scripts" : [
+    "/stagehands/sb_events/npcattack.lua"
+  ],
+  "scriptDelta" : 10,
+
+  "npcBounds" : [-0.75, -2.5, 0.75, 1.22],
+  "species" : [
+    "human",
+    "apex",
+    "floran",
+    "glitch",
+    "hylotl",
+    "avian",
+    "novakid"
+  ],
+  "npcTypes" : [
+    "bandit",
+    "bandit"
+  ],
+  "spawnRange" : [-5, 5]
+}

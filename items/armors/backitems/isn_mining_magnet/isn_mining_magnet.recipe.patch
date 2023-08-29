@@ -1,0 +1,3 @@
+[[{"op":"test","path":"/input/2/item","value":"refinedaegisalt"},
+{"op":"add","path":"/input/2","value":{"item":"sb_refinedrubium","count":2}},
+{"op":"copy","from":"/input/3/count","path":"/input/2/count"}]]

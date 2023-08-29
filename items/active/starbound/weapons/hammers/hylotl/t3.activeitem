@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_hylotltier3hammer",
+  "description": "A good hammer.",
+  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "definition": "hammers/t3",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Shellslammer"
+}

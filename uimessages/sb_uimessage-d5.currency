@@ -1,0 +1,10 @@
+{
+  "itemName" : "sb_uimessage-d5",
+  "shortdescription" : "   ^#d5ab36;I see a light...^clear;",
+  "currency" : "sb_uimessage",
+  "rarity" : "rare",
+  "value" : 0,
+  "pickupSoundsSmall" : [""],
+  "pickupSoundsMedium" : [""],
+  "pickupSoundsLarge" : [""]
+}

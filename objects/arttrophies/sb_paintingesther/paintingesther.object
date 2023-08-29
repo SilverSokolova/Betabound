@@ -1,0 +1,53 @@
+{
+  "objectName" : "sb_paintingesther",
+  "colonyTags" : ["human","wired","horror","valuable"],
+  "rarity" : "Rare",
+  "tooltipKind" : "sb_object",
+  "description" : "An old portrait of Esther Bright, former Grand Protector.",
+  "shortdescription" : "Esther Painting",
+  "race" : "human",
+  "category" : "decorative",
+  "price" : 700,
+  "printable" : false,
+
+  "chatOptions" : [
+	"I'm always watching you, dear.",
+	"I'm here whenever you need me, dear. Especially if you'd like a mint humbug.",
+	"Hmmm, how curious... I need to cross-reference this.",
+	"Interesting. This will certainly have a bearing on my research.",
+	"Keep it up dear, this is all very helpful!",
+	"A clue of small implication, but relevant nonetheless!",
+	"This is excellent, everything you find contributes to the formation of a theory.",
+	"Hm, I wonder...",
+	"This confirms something that I had speculated upon!",
+	"How peculiar! But surprising information can be even more valuable than expected information...",
+	"Even the smallest piece of evidence can help to uncover the grandest secrets of the universe.",
+	"This clue hints at hidden information.",
+	"Another piece of this twisted puzzle falls into place."
+  ],
+
+  "apexDescription" : "Creepy...",
+  "avianDescription" : "A human woman.",
+  "floranDescription" : "Creepy human...",
+  "glitchDescription" : "Terrified. My desire to leave this area has increased.",
+  "humanDescription" : "This painting is giving me some real bad vibes.",
+  "hylotlDescription" : "I do not wish to discover the story behind this torture instrument.",
+  "novakidDescription" : "Yep, that's creepy alright.",
+  "inputNodes" : [[0, 0]],
+  "animation" : "paintingesther.animation",
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "/interface/chatbubbles/sb_esther.png:sb_estherIdle.<frame>",
+      "frames" : 2,
+      "animationCycle" : 0.1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "scripts" : ["/objects/arttrophies/sb_paintingesther/paintingesther.lua"],
+  "scriptDelta" : 60
+}

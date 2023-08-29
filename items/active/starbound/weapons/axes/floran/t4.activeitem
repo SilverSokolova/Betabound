@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_florantier4axe",
+  "description": "An axe-head attached to a strong stick.",
+  "shortdescription": "Chop Stick",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t4",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

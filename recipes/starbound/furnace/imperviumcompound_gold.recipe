@@ -1,0 +1,5 @@
+{
+  "input" : [["refinedviolium",2],"goldbar"],
+  "output" : "sb_imperviumcompound",
+  "groups" : ["craftingfurnace3","bars","all"]
+}

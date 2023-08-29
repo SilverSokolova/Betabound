@@ -1,0 +1,8 @@
+{
+  "description": "Like a Zweihander, but tiny.",
+  "shortdescription": "Zweifinger",
+  "itemName": "sb_humantier5sdagger",
+  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "definition": ["colors/t5s", "daggers/s"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

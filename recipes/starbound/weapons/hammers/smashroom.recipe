@@ -1,0 +1,5 @@
+{
+  "input" : [["tungstenbar",10],["shroom",25]],
+  "output" : ["sb_smashroom",1,{"level":2,"seed":1}],
+  "groups" : ["craftinganvil","weapons","all"]
+}

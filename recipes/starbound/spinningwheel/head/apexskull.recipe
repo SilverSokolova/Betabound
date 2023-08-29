@@ -1,0 +1,5 @@
+{
+  "input" : ["apexfossil1"],
+  "output" : "apexskullhead",
+  "groups" : ["craftingwheel","clothes","all"]
+}

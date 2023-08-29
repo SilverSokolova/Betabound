@@ -1,0 +1,23 @@
+{
+  "itemName" : "sb_aegisaltbow",
+  "definition" : "bow",
+  "itemTags" : ["weapon","ranged","bow","upgradeableWeapon"],
+  "tags" : {"<bow>" : "aegisalt"},
+  "fixedRarity" : true,
+  "rarity" : "rare",
+  "tooltipFields" : {"damageKindImage":"/interface/sb_tooltips/sb_aegisaltarrow.png"},
+  "description" : "Harvests meat and other goods from monsters.",
+  "shortdescription" : "Aegisalt Bow",
+  "level" : 5,
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 8.25,
+    "inaccuracy" : 0.025,
+    "projectileType" : "sb_aegisaltarrow",
+    "powerProjectileType" : "sb_chargedaegisaltarrow",
+    "walkWhileFiring" : true,
+    "projectileParameters" : {"speed":80,"power":8.375}
+  },
+  "altAbility" : {"projectileType" : "sb_aegisaltarrow"},
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

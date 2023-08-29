@@ -1,0 +1,64 @@
+{
+  "itemName" : "sb_corrosivegun",
+  "inventoryIcon" : "corrosivegun.png",
+  "maxStack" : 1,
+  "price" : 800,
+  "tooltipKind" : "sb_gun2",
+  "tooltipFields" : {
+    "damageKindImage" : "/interface/sb_tooltips/sb_corrosiveparticle.png",
+  //"damageKindBImage" : "/interface/elements/fire.png",
+    "subtitle" : "Alien Gun"
+  },
+  "itemTags" : ["weapon","ranged","pistol","upgradeableWeapon"],
+  "category" : "pistol",
+  "rarity" : "Rare",
+  "fixedRarity" : false,
+  "animation" : "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationCustom" : {"sounds":{"fire":["/sfx/gun/plasma_sniper2.ogg"]}},
+    "animationParts" : {
+    "barrel" : "",
+    "butt" : "",
+    "muzzleFlash" : "/animations/muzzleflash/plasmamuzzle3pink/plasmamuzzle3pink.png",
+    "middle" : "corrosivegun.png"
+  },
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "description" : "A gun that sprays corrosive particles.",
+  "shortdescription" : "Corrosive Gun",
+  "baseOffset" : [0.5, 0.15],
+  "muzzleOffset" : [1.6, -0.1],
+
+  "twoHanded" : true,
+  "level" : 1,
+  "primaryAbilityType" : "sb_gun",
+  "primaryAbility" : {
+    "stances" : {
+      "idle" : {"twoHanded":true},
+      "cooldown" : {"twoHanded":true}
+    },
+    "fireTime" : 0.2,
+    "baseDps" : 12.25,
+    "energyUsage" : 19.75,
+    "inaccuracy" : 0.04,
+    "projectileType" : "sb_corrosiveparticle",
+    "projectileParameters" : {"speed":20,"timeToLive":3}
+  },
+  "altAbilityType" : "sb_gun2",
+  "altAbility" : {
+    "name" : "Corrosive Grenade",
+    "stances" : {
+      "cooldown" : {
+        "duration" : 0.15,
+        "recoil" : true,
+        "armRotation" : 0,
+        "weaponRotation" : 0
+      }
+    },
+    "fireTime" : 1.4,
+    "baseDps" : 6.25,
+    "energyUsage" : 19.75,
+    "inaccuracy" : 0.08,
+    "projectileType" : "sb_corrosivegrenade",
+    "projectileParameters" : {"speed":40,"power":5}
+  },
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

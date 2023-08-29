@@ -1,0 +1,9 @@
+{
+  "sb_itemName" : "kelp.item",
+  "itemName" : "kelp",
+  "shortdescription": "Kelp",
+//"category" : "food",
+  "foodValue" : 1.5,
+//"tooltipKind" : "sb_object",
+  "builder" : "/items/buildscripts/starbound/fromsource.lua"
+}

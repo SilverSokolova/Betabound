@@ -1,0 +1,14 @@
+[
+[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
+
+[{"op":"test","path":"/inventoryIcon","value":"hothothotpot.png"},{"op":"replace","path":"/inventoryIcon","value":"hothothotpot.png?replace;497dff=ff5b1ffe;375dc1=c20000fe"}],
+
+[{"op":"add","path":"/sb_plateHide","value":true}],
+
+[{"op":"test","path":"/rarity","value":"Uncommon"},{"op":"replace","path":"/rarity","value":"Rare"}],
+
+[{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":10}],
+
+[{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
+[{"op":"add","path":"/effects/0/-","value":"sb_foodheal170"}]
+]

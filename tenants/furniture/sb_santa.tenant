@@ -1,0 +1,26 @@
+{
+  "name": "sb_santa",
+  "priority": 6,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "commerce" : 8,
+    "christmas": 24
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "human",
+      "type": "santa",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900, 1800],
+    "pool": "merchantGift"
+  }
+}

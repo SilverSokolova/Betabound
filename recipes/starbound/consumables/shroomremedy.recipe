@@ -1,0 +1,5 @@
+{
+  "input" : [["liquidhealing",10],["shroom",5],"bottle"],
+  "output" : "shroomremedy",
+  "groups" : ["craftingmedical","healing","all"]
+}

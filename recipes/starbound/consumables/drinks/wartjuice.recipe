@@ -1,0 +1,6 @@
+{
+  "input" : ["wartweed"],
+  "output" : "sb_wartjuice",
+  "groups" : ["craftingfood","drinks","sb_health","sb_healing","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_wartjuice"}
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "sb_hugefeatherhead",
+  "category" : "sb_hugebiped",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "head.png"
+  }
+}

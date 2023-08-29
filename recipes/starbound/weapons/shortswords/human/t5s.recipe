@@ -1,0 +1,5 @@
+{
+  "input" : [["refinedviolium",3],["durasteelbar",2]],
+  "output" : "sb_humantier5sshortsword",
+  "groups" : ["craftingseparator","weapons","all"]
+}

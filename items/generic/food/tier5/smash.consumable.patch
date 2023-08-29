@@ -1,0 +1,16 @@
+[
+[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
+
+[{"op":"test","path":"/rottedItem","inverse":true},{"op":"add","path":"/rottedItem","value":"sb_revoltingstew"}],
+
+[{"op":"add","path":"/sb_plateHide","value":true}],
+
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}],
+
+[{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":2}],
+
+[{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
+[{"op":"test","path":"/effects/0/0/duration","value":315},{"op":"replace","path":"/effects/0/0/duration","value":158}],
+[{"op":"add","path":"/effects/0/-","value":{"effect":"electrified","duration":158}}],
+[{"op":"add","path":"/effects/0/-","value":"sb_foodheal120"}]
+]

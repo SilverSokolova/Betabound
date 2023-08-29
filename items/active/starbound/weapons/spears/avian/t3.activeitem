@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_aviantier3spear",
+  "description": "A decorated, sturdy spear.",
+  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "definition": "spears/t3",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Migrator"
+}

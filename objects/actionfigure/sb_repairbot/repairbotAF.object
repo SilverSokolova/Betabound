@@ -1,0 +1,22 @@
+{
+  "objectName" : "sb_repairbotaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "tooltipKind" : "sb_object",
+  "category" : "actionFigure",
+  "collectablesOnPickup" : {"actionfigures":"sb_repairbotaf"},
+  "price" : 5000,
+  "printable" : false,
+  "description" : "The label reads, \"A mass-produced welding unit commonly used by the USCM.\"",
+  "shortdescription" : "Repair Bot Figurine",
+
+  "inventoryIcon" : "repairbotAF.png",
+  "orientations" : [
+    {
+      "dualImage" : "repairbotAF.png",
+      "imagePosition" : [-2, 0],
+      "spaces" : [[0,0],[0,0],[0,0],[0,0]],
+      "anchors" : ["bottom"]
+    }
+  ]
+}

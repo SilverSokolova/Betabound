@@ -1,0 +1,80 @@
+{
+  "itemName" : "sb_slavesword",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "tooltipKind" : "sb_sword",
+  "description" : "",
+  "price" : 300,
+  "shortdescription" : "Slave Sword",
+  "category" : "shortsword",
+  "sb_waBan" : true,
+  "tooltipFields" : {"subtitle":"Slave Sword"},
+  "itemTags" : ["weapon","melee","shortsword","upgradeableWeapon"],
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "animation" : "/items/active/starbound/weapons/shortsword.animation",
+  "inventoryIcon" : "slavesword.png<directives>",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "slavesword.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "physicalfire" : ["/sfx/melee/sb_slavesword_swing.ogg"] //TODO: see if this sound exists under a different name in vanilla
+     },
+    "animatedParts" : {
+      "parts" : {
+	"swoosh" : {
+	  "partStates" : {
+	    "swoosh" : {
+	      "fire" : {
+		"properties" : {
+		  "image" : "",
+		  "damageArea" : [[-0.5, 0.25],[2, 0.25],[2, -1.25],[-0.5, -1.25]]
+		}
+	      }
+	    }
+	  }
+	}
+      }
+    }
+  },
+
+  "elementalType" : "physical",
+  "primaryAbilityType" : "sb_meleeslash2",
+  "primaryAbility" : {
+    "projectileType" : "sb_swordshot",
+    "fireTime" : [0.4,1.2],
+    "baseDps" : [3.5,12.5],
+    "stances" : {
+      "idle" : {
+        "armRotation" : -84.5,
+        "weaponRotation" : 4.5,
+        "weaponOffset" : [-0.1, 1.4],
+	"twoHanded" : false
+      },
+      "windup" : {
+        "hold" : false, //is hold used?
+        "duration" : 0.3,
+        "armRotation" : -24.5,
+        "weaponRotation" : -24.5,
+        "weaponOffset" : [0, 1.25],
+        "allowRotate" : true
+      },
+      "fire" : {
+        "hold" : true, //is hold--
+        "duration" : 0.4,
+        "armRotation" : -125,
+        "weaponRotation" : 32,
+        "weaponOffset" : [0.1, 1.4],
+        "allowRotate" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/starbound/buildweapon.lua",
+  "builderConfig" : [{
+    "nameGenerator" : "slaveswordnames.config:nameGen",
+    "palette" : "/items/active/starbound/colors/slavesword.weaponcolors"
+  }],
+  "nameGenerator" : "slaveswordnames.config:nameGen"
+}

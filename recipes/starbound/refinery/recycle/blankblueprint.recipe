@@ -1,0 +1,6 @@
+{
+  "input" : ["sb_blueprint"],
+  "output" : "sb_blankblueprint",
+  "duration" : 0.15,
+  "groups" : ["refinery","nouncrafting","all"]
+}

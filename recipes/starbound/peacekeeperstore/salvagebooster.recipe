@@ -1,0 +1,5 @@
+{
+  "input" : ["peacecredit"],
+  "output" : ["salvagebooster",3],
+  "groups" : ["peacekeeper1","all"]
+}

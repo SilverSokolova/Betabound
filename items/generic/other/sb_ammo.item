@@ -1,0 +1,15 @@
+{
+  "itemName" : "sb_ammo",
+  "rarity" : "common",
+  "price" : 1,
+  "tooltipKind" : "sb_object",
+  "inventoryIcon" : "sb_ammo.png",
+  "category" : "pistol",
+  "tooltipFields" : {"subtitle" : "Other"},
+  "radioMessagesOnPickup" : ["sb_pickupammo"],
+//"itemTags" : ["weapon","ranged","revolver","pistol","gun"], Uncrafter will see it as a weapon
+  "description" : "This type of ammo can be used with certain firearms.",
+  "shortdescription" : "Ammunition",
+  "projectileTypes" : ["standardbullet","fast","bouncybullet"],
+  "builder" : "/items/buildscripts/starbound/buildammo.lua"
+}

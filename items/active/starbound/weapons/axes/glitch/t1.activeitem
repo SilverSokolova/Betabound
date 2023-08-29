@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_glitchtier1axe",
+  "description": "A robot's basic hatchet.",
+  "shortdescription": "Ratchet",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t1",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

@@ -1,0 +1,5 @@
+{
+  "input" : [["cobblestonematerial",10]],
+  "output" : "markerwallplaque2",
+  "groups" : ["objects","all","decoration","craftingfurniture"]
+}

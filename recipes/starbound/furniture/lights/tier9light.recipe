@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_rubiumbar",2],["glass",2],"smallbattery"],
+  "output" : "doomlight",
+  "groups" : ["craftingfurniture2","lights","all"]
+}

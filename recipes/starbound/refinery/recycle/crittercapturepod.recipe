@@ -1,0 +1,6 @@
+{
+  "input" : ["sb_filledcrittercapturepod"],
+  "output" : "sb_crittercapturepod",
+  "duration" : 0.8,
+  "groups" : ["refinery","nouncrafting","all"]
+}

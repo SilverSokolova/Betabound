@@ -1,0 +1,5 @@
+{
+  "input" : [["copperbar",3],["ironbar",3]],
+  "output" : "mechanicalelevatorshort",
+  "groups" : ["craftingwiring","mechanics","decoration","craftingfurniture","all"]
+}

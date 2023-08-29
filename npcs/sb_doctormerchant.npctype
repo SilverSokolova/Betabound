@@ -1,0 +1,162 @@
+{
+  "type" : "sb_doctormerchant",
+  "baseType" : "merchant",
+
+  "dropPools" : [ "healingItem" ],
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common"]
+    },
+
+    "merchant" : {
+      "poolsFile" : "/npcs/sb_merchantpools.config",
+      "categories" : {
+        "override": [ "sb_doctormerchant" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 3,
+      "storeRadius" : -1,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Doctor",
+          "subtitle" : "  Sells useful medicine"
+        }
+      }
+    },
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "Always carry some first-aid!"
+            ]
+          },
+          "apex" : {
+            "default" : [
+              "Keep healthy, stay fit, buy medicine!",
+              "Look after yourself with my low-priced products.",
+              "Your health is important, as is my wallet.",
+              "Hurt by the Miniknog? Buy medicine here!",
+              "Never be without a handy medkit!"
+            ]
+          },
+          "avian" : {
+            "default" : [
+              "Kluex won't save you, but my medicine will.",
+              "Faith or science? Science wins. Buy medicine.",
+              "There is no shame in receiving aid via earthly means.",
+              "Get back to full health with this Avian-endorsed medicine!",
+              "Take care of yourself in the field with my medicinal stock."
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran sssell medicine to sssickly ssspaceperssson!",
+              "Buy Floran medicine, get not sssick!",
+              "Floran medicine best, Greenfinger sssay it!",
+              "Floran want person to feel better. Buy medicine!",
+              "Medicine good, help heal ssstabbies. Buy!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Statement. Buy medicine, it is good for you.",
+              "Concerned. If you are in a bind, healing is what you need.",
+              "Scientific. Healing is forty percent more likely to stop you from dying.",
+              "Pleasant. Please, buy some medicine!",
+              "Proud. This medicine works for all species."
+            ]
+          },
+          "human" : {
+            "default" : [
+              "First-aid kits here!",
+              "No health insurance needed, just buy a medkit.",
+              "If you want the heals, then I've got the deals.",
+              "Let science heal you. Buy my medicine!",
+              "Never die again, with my handy medkits!"
+            ]
+          },
+          "hylotl" : {
+            "default" : [
+              "Heal like a Hylotl with my medkits.",
+              "A healthy body is a healthy wallet. Buy medicine!",
+              "Look after yourself out there with my medkits.",
+              "Spread peace through healing with my patented medkits.",
+              "Hylotl medicine is the best medicine."
+            ]
+
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "If you ever need medical supplies, come find me."
+            ]
+          },
+          "apex" : {
+            "default" : [
+              "If you ever need medical supplies, come find me.",
+              "Be careful out there!",
+              "Be sure to come back if you're in trouble."
+            ]
+          },
+          "avian" : {
+            "default" : [
+              "Remember: medkits heal, not Kluex.",
+              "Drop by any time!",
+              "Thanks for your patronage."
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran happy you heal good!",
+              "Floran hope you not die out there.",
+              "Floran hope you not get sssick!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Statement. Come again.",
+              "Concern. Do be careful out there.",
+              "Eager. Hope you need healing again soon."
+            ]
+          },
+          "human" : {
+            "default" : [
+              "Remember, I'm only a bloodtrail away.",
+              "Be seeing you!",
+              "Be well! But not too well you don't need medkits!"
+            ]
+          },
+          "hylotl" : {
+            "default" : [
+              "Keep healthy, keep safe, keep paying me.",
+              "Remember not to let your stock run dry.",
+              "I'm here whenever you need me."
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ {"name":"scientistchest","parameters":{"colorIndex":[1,2,3,4,5,6,7,8,9,10,11]}} ],
+            "legs" : [ {"name":"scientistlegs","parameters":{"colorIndex":[1,2,3,4,5,6,7,8,9,10,11]}} ],
+            "head" : [ "scientisthead" ],
+            "back" : [ {"name":"medicback","parameters":{"colorIndex":3}} ],
+            "sheathedprimary" : [
+              "sb_commondagger" //bonesaw?
+            ]
+          }
+        ] ]
+    ]
+  }
+}

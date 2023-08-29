@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/innateStatusEffects","inverse":true},{"op":"add","path":"/innateStatusEffects","value":[]}],
+[{"op":"add","path":"/innateStatusEffects/-","value":"sb_outpostnpcspawner"}]
+]

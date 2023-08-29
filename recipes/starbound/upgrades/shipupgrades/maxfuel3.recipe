@@ -1,0 +1,5 @@
+{
+  "input" : ["upgrademodule",["moonstoneore",30],["solariumstar",20],["supermatter",20]],
+  "output" : "sb_maxfuel3",
+  "groups" : ["sb_roboticcraftingtable","tools","all"]
+}

@@ -1,0 +1,5 @@
+{
+  "input" : ["peacecredit"],
+  "output" : "sb_radio",
+  "groups" : ["peacekeeper2","nouncrafting","all"]
+}

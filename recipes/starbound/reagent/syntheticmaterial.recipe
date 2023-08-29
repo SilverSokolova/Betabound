@@ -1,0 +1,5 @@
+{
+  "input" : ["phasematter",["liquidoil",5]],
+  "output" : "syntheticmaterial",
+  "groups" : ["craftingwheel2","ingredients","all"]
+}

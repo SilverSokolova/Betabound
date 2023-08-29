@@ -1,0 +1,12 @@
+[
+[{"op":"add","path":"/apexmission1Reward/0/1/fill/-","value":{"pool":"sb_apexmission1Music"}}],
+
+[{"op":"add","path":"/apexmissionBasic/0/1/pool/-","value":{"weight":0.05,"item":"apexcooldoor-recipe"}},
+{"op":"add","path":"/apexmissionBasic/0/1/pool/-","value":{"weight":0.05,"item":"sb_apexcoolverticaldoor-recipe"}}],
+
+[{"op":"test","path":"/apexmissionBasic/0/1/poolRounds/0/0","value":0.40},{"op":"replace","path":"/apexmissionBasic/0/1/poolRounds/0/0","value":1}],
+[{"op":"test","path":"/apexmissionBasic/0/1/poolRounds/1/0","value":0.30},{"op":"replace","path":"/apexmissionBasic/0/1/poolRounds/1/0","value":0.90}],
+[{"op":"test","path":"/apexmissionBasic/0/1/poolRounds/2/0","value":0.20},{"op":"replace","path":"/apexmissionBasic/0/1/poolRounds/2/0","value":0.80}],
+[{"op":"test","path":"/apexmissionBasic/0/1/poolRounds/3/0","value":0.10},{"op":"replace","path":"/apexmissionBasic/0/1/poolRounds/3/0","value":0.70}]
+//THERE ARE LIKE 4 CHESTS IN THE ENTIRE MISSION
+]

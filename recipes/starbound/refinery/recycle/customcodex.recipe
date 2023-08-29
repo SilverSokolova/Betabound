@@ -1,0 +1,6 @@
+{
+  "input" : ["sb_customcodex"],
+  "output" : "sb_customcodex",
+  "duration" : 0.5,
+  "groups" : ["refinery","nouncrafting","all"]
+}

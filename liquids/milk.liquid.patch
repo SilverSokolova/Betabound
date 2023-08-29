@@ -1,0 +1,4 @@
+[[
+{"op":"test","path":"/interactions"},
+{"op":"add","path":"/interactions/-","value":{"liquid":85,"liquidResult":85}} //coffee
+]]

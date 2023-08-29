@@ -1,0 +1,15 @@
+{
+  "projectileName" : "sb_tranquilizerdart",
+  "image" : "tranquilizerdart.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "power" : 5,
+  "speed" : 150,
+  "timeToLive" : 1,
+  "bounces" : 0,
+  "piercing" : false,
+  "physics" : "bullet",
+//"damagePoly" : [[-9,0],[-6,-6],[0,-9],[6,-6],[9,0],[6,6],[0,9],[-6,6]],
+//"damageKind" : "sb_brain",
+  "statusEffects" : ["sb_tranquilized"]
+}

@@ -1,0 +1,64 @@
+{
+  "objectName" : "sb_tribaloven2",
+  "colonyTags" : ["cooking","avian"],
+  "rarity" : "Uncommon",
+  "description" : "Crackling quietly, the smell of hickory smoke wafts from its grate.",
+  "shortdescription" : "^orange;Stout Oven^reset;",
+  "category" : "Wood-fired cooking",
+  "race" : "avian",
+  "tooltipKind" : "sb_object",
+  "tooltipFields" : {"subtitle":"Crafting Station"},
+  "price" : 100,
+  "objectType" : "container",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "It appears to be an oven.",
+  "avianDescription" : "The grounded are wonderful cooks.",
+  "floranDescription" : "Floran would like to cook meat.",
+  "glitchDescription" : "Annoyed. Cooks unevenly.",
+  "humanDescription" : "This oven smells of home-cooked meals.",
+  "hylotlDescription" : "The Hylotl cook their food with microwaves.",
+  "novakidDescription" : "Well, if that ain't the cutest little oven I ever saw!",
+
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.65,
+  "flickerMaxIntensity" : 0.7,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "unlit.png:<color>.<frame>" }, { "image" : "lit.png:<color>.<frame>", "fullbright" : true } ],
+      "direction" : "left",
+
+      "imagePosition" : [-6.5, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "unlit.png:<color>.<frame>" }, { "image" : "lit.png:<color>.<frame>", "fullbright" : true } ],
+      "direction" : "right",
+      "flipImages" : true,
+
+      "imagePosition" : [-6.5, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "recipeGroup" : "campfire",
+  "openSounds" : ["/sfx/objects/campfire_use.ogg"],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/sb_objectcrafting/campfire.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

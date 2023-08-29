@@ -1,0 +1,63 @@
+{
+  "name" : "sb_waterball",
+  "type" : "head",
+
+  "scripts" : ["/scripts/vec2.lua", "distortionsphere.lua", "/tech/starbound/groundsmash/groundsmash.lua", "waterball.lua"],
+  "animator" : "waterball.animation",
+  "chipCost" : 12,
+
+  "rarity" : "Legendary",
+  "icon" : "/tech/starbound/waterball.png",
+  "description" : "Double-tap ^#0f0;[DOWN]^reset; to smash/bounce, press ^#0f0;[F]^reset; to turn into a ball.",
+  "sb_longDescription" : "You can bounce while in ball form.",
+  "sb_briefDescription" : "Double-tap ^#0f0;[DOWN]^reset; to bounce, press ^#0f0;[F]^reset; to turn into a ball.",
+  "shortDescription" : "Waterball",
+
+  "animationParts" : {
+    "ball" : "/tech/starbound/morphball/waterball.png"
+  },
+
+  "transformedMovementParameters" : {
+    "collisionPoly" : [[-0.85, -0.45], [-0.45, -0.85], [0.45, -0.85], [0.85, -0.45], [0.85, 0.45], [0.45, 0.85], [-0.45, 0.85], [-0.85, 0.45]],
+
+    "liquidForce" : 350,
+    "liquidFriction" : 2.5,
+    "minimumLiquidPercentage" : 0.1,
+    "liquidImpedance" : 0.2,
+    "liquidBuoyancy" : 2.0,
+    "bounceFactor" : 0.8,
+    "groundForce" : 450,
+    "normalGroundFriction" : 1.5,
+    "ambulatingGroundFriction" : 0.2,
+    "slopeSlidingFactor" : 3.0,
+
+    "airJumpProfile" : {
+      "jumpSpeed" : 32,
+      "jumpControlForce" : 800,
+      "jumpInitialPercentage" : 1,
+      "jumpHoldTime" : 0.1
+    },
+
+    "liquidJumpProfile" : {
+      "jumpSpeed" : 0,
+      "jumpControlForce" : 0,
+
+      "multiJump" : false,
+      "autoJump" : false
+    }
+  },
+
+  "energyCost" : 50,
+  "energyCostPerSmash" : 26,
+  "groundsmashSpeed" : 250,
+  "groundsmashLandingTime" : 0.2, //unused
+  "groundsmashControlForce" : 400,
+  "ballSpeed" : 14,
+  "ballLiquidSpeed" : 18,
+  "ballRadius" : 1,
+  "ballFrames" : 6,
+  "knockbackSpeed" : 30,
+  "knockbackOffset" : [0, -2],
+  "knockbackRadius" : 5,
+  "maxDoubleTapTime" : 0.2
+}

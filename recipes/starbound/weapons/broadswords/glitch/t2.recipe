@@ -1,0 +1,5 @@
+{
+  "input" : [["tungstenbar",6],["copperbar",4]],
+  "output" : "sb_glitchtier2broadsword",
+  "groups" : ["craftinganvil","weapons","all"]
+}

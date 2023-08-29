@@ -1,0 +1,25 @@
+{
+  "projectileName" : "sb_jellybossgoo",
+  "image" : "jellybossgoo.png",
+  "animationCycle" : 1,
+  "frameNumber" : 2,
+  "physics" : "grenadenobounce",
+  "pointLight" : false,
+  "timeToLive" : 8,
+  "bounces" : 0,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "sb_jellybossgoosplash",
+      "inheritDamageFactor" : 1,
+      "angle" : 5
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/goocluster_pop.ogg" ]
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

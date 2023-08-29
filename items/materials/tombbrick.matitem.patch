@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/description","value":"Dusty and ancient bricks."},
+{"op":"replace","path":"/description","value":"Dusty and ancient, these bricks are at home in the darkest of tombs."}]
+]

@@ -1,0 +1,37 @@
+{
+  "objectName" : "sb_geometricbush1",
+  "colonyTags" : ["geometric"],
+  "rarity" : "Common",
+  "category" : "breakable",
+  "printable" : false,
+
+  "description" : "A crystalline deposit. Shiny.",
+  "shortdescription" : "Geometric Ice Bush",
+  "race" : "generic",
+  "tooltipKind" : "sb_object",
+
+  "apexDescription" : "Crystals are quite beautiful.",
+  "avianDescription" : "A bunch of shiny crystals.",
+  "floranDescription" : "Shiny, pointy rocksss.",
+  "glitchDescription" : "Impatient. Crystals are unpleasant when underfoot.",
+  "humanDescription" : "Ooh, pretty.",
+  "hylotlDescription" : "This crystal reminds me of frozen coral.",
+  "novakidDescription" : "A sparklin' crystal.",
+
+  "inventoryIcon" : "1.png",
+  "orientations" : [
+    {
+      "dualImage" : "1.png:<color>",
+      "imagePosition" : [0,0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ],
+  "smashable" : true,
+  "smashSounds" : ["/sfx/objects/capsule_break1.ogg","/sfx/objects/capsule_break2.ogg","/sfx/objects/capsule_break3.ogg"],
+  "smashParticles" : [{"count":4,"particle":"prismgreenshard"}],
+  "smashDropPool" : "sb_geometricbush",
+  "breakDropPool" : "sb_geometricbush"
+}

@@ -1,0 +1,71 @@
+[
+[{"op":"test","path":"/gui/scrollArea/children/itemList/schema/memberSize/0","value":123},{"op":"replace","path":"/gui/scrollArea/children/itemList/schema/memberSize/0","value":235}],
+//[{"op":"test","path":"/gui/outputLabelScroll/children/itemList/schema/memberSize/0","value":123},{"op":"replace","path":"/gui/outputLabelScroll/children/itemList/schema/memberSize/0","value":98}],
+//[{"op":"test","path":"/gui/inputLabelScroll/children/itemList/schema/memberSize/0","value":123},{"op":"replace","path":"/gui/inputLabelScroll/children/itemList/schema/memberSize/0","value":98}],
+
+[{"op":"test","path":"/gui/outputLabelScroll/children/itemList/schema/listTemplate/itemName/size","inverse":true}
+,{"op":"replace","path":"/gui/outputLabelScroll/children/itemList/schema/listTemplate/itemName/position/1","value":10}
+,{"op":"add","path":"/gui/outputLabelScroll/children/itemList/schema/listTemplate/itemName/size","value":[98,20]}
+,{"op":"add","path":"/gui/outputLabelScroll/children/itemList/schema/listTemplate/itemName/vAnchor","value":"mid"}
+,{"op":"add","path":"/gui/outputLabelScroll/children/itemList/schema/listTemplate/itemName/wrapWidth","value":68}],
+
+[{"op":"test","path":"/gui/inputLabelScroll/children/itemList/schema/listTemplate/itemName/size","inverse":true}
+,{"op":"replace","path":"/gui/inputLabelScroll/children/itemList/schema/listTemplate/itemName/position/1","value":10}
+,{"op":"add","path":"/gui/inputLabelScroll/children/itemList/schema/listTemplate/itemName/size","value":[98,20]}
+,{"op":"add","path":"/gui/inputLabelScroll/children/itemList/schema/listTemplate/itemName/vAnchor","value":"mid"}
+,{"op":"add","path":"/gui/inputLabelScroll/children/itemList/schema/listTemplate/itemName/wrapWidth","value":68}],
+
+
+[{"op":"test","path":"/gui/scrollArea/children/itemList/schema/listTemplate/itemName/size","inverse":true}
+,{"op":"replace","path":"/gui/scrollArea/children/itemList/schema/listTemplate/itemName/position/1","value":10}
+,{"op":"add","path":"/gui/scrollArea/children/itemList/schema/listTemplate/itemName/size","value":[250,20]}
+,{"op":"add","path":"/gui/scrollArea/children/itemList/schema/listTemplate/itemName/vAnchor","value":"mid"}
+,{"op":"add","path":"/gui/scrollArea/children/itemList/schema/listTemplate/itemName/wrapWidth","value":188}],
+
+[{"op":"test","path":"/gui/selectionButton/position/1","value":46},{"op":"replace","path":"/gui/selectionButton/position/1","value":12}],
+[{"op":"test","path":"/gui/goBackButton/position/1","value":46},{"op":"replace","path":"/gui/goBackButton/position/1","value":12}],
+
+
+[{"op":"test","path":"/filterNameToFriendly/treasuredtrophies","inverse":true},{"op":"add","path":"/filterNameToFriendly/treasuredtrophies","value":"Treasured Trophies"}],
+[{"op":"test","path":"/filterNameToFriendly/peacekeeper1","inverse":true},{"op":"add","path":"/filterNameToFriendly/peacekeeper1","value":"Peacekeeper Store (T1)"}],
+[{"op":"test","path":"/filterNameToFriendly/peacekeeper2","inverse":true},{"op":"add","path":"/filterNameToFriendly/peacekeeper2","value":"Peacekeeper Store (T2)"}],
+[{"op":"test","path":"/filterNameToFriendly/peacekeeper3","inverse":true},{"op":"add","path":"/filterNameToFriendly/peacekeeper3","value":"Peacekeeper Store (T3)"}],
+[{"op":"test","path":"/filterNameToFriendly/peacekeeper4","inverse":true},{"op":"add","path":"/filterNameToFriendly/peacekeeper4","value":"Peacekeeper Store (T4)"}],
+[{"op":"test","path":"/filterNameToFriendly/ivrpgminerstation","inverse":true},{"op":"add","path":"/filterNameToFriendly/ivrpgminerstation","value":"Miner Station"}],
+[{"op":"test","path":"/filterNameToFriendly/3dprinter","inverse":true},{"op":"add","path":"/filterNameToFriendly/3dprinter","value":"Pixel Printer"}],
+[{"op":"test","path":"/filterNameToFriendly/seedmaker","inverse":true},{"op":"add","path":"/filterNameToFriendly/seedmaker","value":"Seed Maker"}],
+
+[{"op":"copy","from":"/filterNameToFriendly/treasuredtrophies","path":"/filterNameToFriendly/sb_treasuredtrophies_outpost_mission1"}],
+[{"op":"copy","from":"/filterNameToFriendly/treasuredtrophies","path":"/filterNameToFriendly/sb_treasuredtrophies_outpost_mission2"}],
+[{"op":"copy","from":"/filterNameToFriendly/treasuredtrophies","path":"/filterNameToFriendly/sb_treasuredtrophies_outpost_mission3"}],
+[{"op":"copy","from":"/filterNameToFriendly/treasuredtrophies","path":"/filterNameToFriendly/sb_treasuredtrophies_outpost_mission4"}],
+[{"op":"copy","from":"/filterNameToFriendly/treasuredtrophies","path":"/filterNameToFriendly/sb_treasuredtrophies_outpost_mission5"}],
+[{"op":"copy","from":"/filterNameToFriendly/treasuredtrophies","path":"/filterNameToFriendly/sb_treasuredtrophies_outpost_mission6"}],
+[{"op":"copy","from":"/filterNameToFriendly/treasuredtrophies","path":"/filterNameToFriendly/sb_treasuredtrophies_outpost_beakeasy"}],
+[{"op":"copy","from":"/filterNameToFriendly/treasuredtrophies","path":"/filterNameToFriendly/sb_treasuredtrophies_final_gate_key"}],
+
+[{"op":"test","path":"/filterNameToFriendly"}
+,{"op":"add","path":"/filterNameToFriendly/sb_craftingtable","value":"Wooden Tool Table"}
+,{"op":"add","path":"/filterNameToFriendly/sb_ironcraftingtable","value":"Iron Tool Table"}
+,{"op":"add","path":"/filterNameToFriendly/sb_roboticcraftingtable","value":"Robotic Tool Table"}
+
+,{"op":"add","path":"/filterNameToFriendly/sb_stonefurnace","value":"Stone Furnace"}
+,{"op":"add","path":"/filterNameToFriendly/sb_ironfurnace","value":"Iron Furnace"}
+,{"op":"add","path":"/filterNameToFriendly/sb_scififurnace","value":"Magnetic Crucible"}
+
+,{"op":"add","path":"/filterNameToFriendly/sb_anvil","value":"Iron Anvil"}
+,{"op":"add","path":"/filterNameToFriendly/sb_metalworkstation","value":"Metalwork Station"}
+
+,{"op":"add","path":"/filterNameToFriendly/sb_scifianvil","value":"Replicator (Beta)"}
+,{"op":"add","path":"/filterNameToFriendly/sb_advancedanvil","value":"Accel. / Manip. / Seper. Table (Beta)"}
+,{"op":"add","path":"/filterNameToFriendly/sb_acceleratortable","value":"Accelerator's Table (Beta)"}
+,{"op":"add","path":"/filterNameToFriendly/sb_manipulatortable","value":"Manipulator's Table (Beta)"}
+,{"op":"add","path":"/filterNameToFriendly/sb_separatortable","value":"Separator's Table (Beta)"}
+
+,{"op":"add","path":"/filterNameToFriendly/sb_kitchen","value":"Wooden Cooking Table"}
+,{"op":"add","path":"/filterNameToFriendly/sb_skyrailtable","value":"Skyrail Crafting Table"}
+,{"op":"add","path":"/filterNameToFriendly/sb_portable3dprinter","value":"Portable Pixel Printer"}
+,{"op":"add","path":"/filterNameToFriendly/sb_techconsole","value":"Tech Development Console"}
+,{"op":"add","path":"/filterNameToFriendly/sb_coffee","value":"Coffee Machine"}
+,{"op":"add","path":"/filterNameToFriendly/spawnerstation","value":"Employer's Station"}
+]]

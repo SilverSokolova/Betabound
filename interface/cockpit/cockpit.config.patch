@@ -1,0 +1,316 @@
+[
+  [{
+      "op": "add",
+      "path": "/visitableTypeDescription/ancientgateway/-",
+      "value": "A strange ^#571cff;gate^white; of incalculably ancient origin."
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/displayOres/platinum",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/displayOres/platinum",
+      "value": {
+        "displayName": "Platinum",
+        "icon": "/items/generic/crafting/platinumore.png"
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/displayOres/coal",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/displayOres/coal",
+      "value": {
+        "displayName": "Coal",
+        "icon": "/items/generic/crafting/coalore.png"
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/displayOres/diamond"
+    }, {
+      "op": "replace",
+      "path": "/displayOres/diamond",
+      "value": {
+        "displayName": "Diamond",
+        "icon": "/items/generic/crafting/sb_diamondore.png"
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/displayOres/diamond",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/displayOres/diamond",
+      "value": {
+        "displayName": "Diamond",
+        "icon": "/items/generic/crafting/sb_diamondore.png"
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/displayOres/corefragment",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/displayOres/corefragment",
+      "value": {
+        "displayName": "Core Fragments",
+        "icon": "/items/generic/crafting/corefragmentore.png"
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/displayOres/plutonium",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/displayOres/plutonium",
+      "value": {
+        "displayName": "Plutonium",
+        "icon": "/items/generic/crafting/plutoniumore.png"
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/displayOres/uranium",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/displayOres/uranium",
+      "value": {
+        "displayName": "Uranium",
+        "icon": "/items/generic/crafting/uraniumore.png"
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/displayOres/crystal",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/displayOres/crystal",
+      "value": {
+        "displayName": "Crystal",
+        "icon": "/items/generic/crafting/crystal.png"
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/displayOres/lead",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/displayOres/lead",
+      "value": {
+        "displayName": "Lead",
+        "icon": "/items/generic/crafting/lead.png"
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/displayOres/moonstone",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/displayOres/moonstone",
+      "value": {
+        "displayName": "Moonstone",
+        "icon": "/items/generic/crafting/sb_moonstoneore.png"
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/displayOres/sulphur",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/displayOres/sulphur",
+      "value": {
+        "displayName": "Sulphur",
+        "icon": "/items/generic/crafting/sulphur.png"
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/displayOres/trianglium",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/displayOres/trianglium",
+      "value": {
+        "displayName": "Trianglium",
+        "icon": "/items/generic/crafting/triangliumore.png"
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/displayOres/prisilite",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/displayOres/prisilite",
+      "value": {
+        "displayName": "Prisilite",
+        "icon": "/items/generic/crafting/prisiliteore.png"
+      }
+    }
+  ],
+
+  [{
+      "op": "add",
+      "path": "/displayOres/sb_rubium",
+      "value": {
+        "displayName": "Rubium",
+        "icon": "/items/generic/crafting/sb_rubiumore.png"
+      }
+    }, {
+      "op": "add",
+      "path": "/displayOres/sb_cerulium",
+      "value": {
+        "displayName": "Cerulium",
+        "icon": "/items/generic/crafting/sb_ceruliumore.png"
+      }
+    }, {
+      "op": "add",
+      "path": "/displayOres/sb_fossil",
+      "value": {
+        "displayName": "Fossils",
+        "icon": "/items/generic/crafting/fossilore.png"
+      }
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/gui/planetinfo/children/inner/children/oreLayout/rect",
+      "value": [0, 51, 126, 67]
+    }, //am aware of second row tooltip being taken over by the third
+    {
+      "op": "replace",
+      "path": "/gui/planetinfo/children/inner/children/oreLayout/spacing",
+      "value": [-4, -8]
+    }, {
+      "op": "replace",
+      "path": "/gui/planetinfo/children/inner/children/oreLayout/rect/3",
+      "value": 71
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/topLeftButtonTooltips/goToPeacekeeper",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/topLeftButtonTooltips/goToPeacekeeper",
+      "value": "View Peacekeeper HQ"
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/wordsList",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/wordsList",
+      "value": {}
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/namesList",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/namesList",
+      "value": {}
+    }
+  ],
+
+  [{
+      "op": "add",
+      "path": "/wordsList/sb_",
+      "value": {
+        "word": "sb_",
+        "friendlyWord": ""
+      }
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/namesList/sb_",
+      "value": {
+        "word": "sb_",
+        "friendlyWord": ""
+      }
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/wordsList/sb_crystallineline",
+      "value": {
+        "word": "inel",
+        "friendlyWord": ""
+      }
+    }
+  ], //Futile attempt to prevent the 'crystal' in 'crystalline' from being replaced with 'crystalline'
+  [{
+      "op": "add",
+      "path": "/namesList/sb_crystallineline",
+      "value": {
+        "word": "inel",
+        "friendlyWord": ""
+      }
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/displayDungeons"
+    }, {
+      "op": "test",
+      "path": "/displayDungeons/humanbunker"
+    }, {
+      "op": "copy",
+      "path": "/displayDungeons/sb_humanbunker",
+      "from": "/displayDungeons/humanbunker"
+    }
+  ],
+
+  [{
+      "op": "add",
+      "path": "/visitableTypeDescription/sb_tentacle",
+      "value": [
+        "A landing site characterised by tentacles, aggressive fauna and ^#f4aa9f;pools of tentacle juice^reset;. The area's inhabitants are highly ^#f00;aggressive^reset;.",
+        "The beam location is situated in a ^#f4aa9f;tentacular^reset; landscape. Readings indicate an unpleasant environment."]
+    }, {
+      "op": "add",
+      "path": "/planetTypeNames/sb_tentacle",
+      "value": "Tentacle"
+    }, {
+      "op": "add",
+      "path": "/planetTypeColors/sb_tentacle",
+      "value": [244, 170, 159]
+    }
+  ]
+]

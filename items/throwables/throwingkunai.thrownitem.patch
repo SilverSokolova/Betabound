@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/description","value":"A specialized throwing knife with a heavy blade."},
+{"op":"replace","path":"/description","value":"A specialized throwing knife with a heavy blade. Focus your chakra then let loose!"}],
+
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"uncommon"}]
+]

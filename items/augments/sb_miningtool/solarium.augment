@@ -1,0 +1,14 @@
+{
+  "itemName" : "sb_solarium_repair",
+  "price" : 30,
+  "tooltipKind" : "sb_object",
+  "rarity" : "rare",
+  "category" : "Tool",
+  "tooltipFields" : {"subtitle":"Repair Tool"},
+  "durabilityRegen" : 350,
+  "fuelAmount" : 8,
+  "inventoryIcon" : "solarium.png",
+  "description" : "It's a solarium repair tool.\n^gray;Select repair tool and right-click pickaxe or drill.",
+  "shortdescription" : "Solarium Repair Tool",
+  "scripts" : ["/scripts/augments/sb_ore.lua"]
+}

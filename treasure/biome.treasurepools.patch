@@ -1,0 +1,362 @@
+[
+//garden
+
+  // ================================
+  //            Forest
+  // ================================
+[{"op":"add","path":"/forestTreasure/0/1/pool/-","value":{"weight":0.03,"pool":"sb_forestMusic"}}]
+
+  // ================================
+  //            Desert
+  // ================================
+,[{"op":"add","path":"/desertTreasure/0/1/pool/-","value":{"weight":0.2,"item":["molotov",3]}}]
+,[{"op":"add","path":"/desertTreasure/0/1/pool/-","value":{"weight":0.2,"item":["throwingspear",5]}}]
+,[{"op":"add","path":"/desertTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_cactislammer"}}]
+,[{"op":"add","path":"/desertTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_cactislammer-recipe"}}]
+,[{"op":"add","path":"/desertTreasure/0/1/pool/-","value":{"weight":0.03,"pool":"sb_desertMusic"}}]
+,[{"op":"add","path":"/desertTreasure/0/1/pool/-","value":{"weight":0.3,"item":"broom"}}]
+
+,[{"op":"add","path":"/desertChestTreasure/0/1/pool/-","value":{"weight":0.5,"pool":"sandstoneTreasure"}}]
+
+
+  // ================================
+  //            Savannah
+  // ================================
+//,[{"op":"add","path":"/savannahTreasure/0/1/pool/-","value":{"weight":0.3,"item":"thorngrenade-recipe"}}]
+,[{"op":"add","path":"/savannahTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_thornyneedler-recipe"}}]
+,[{"op":"add","path":"/savannahTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_thornyneedler"}}]
+,[{"op":"add","path":"/savannahTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_terminite"}}]
+,[{"op":"add","path":"/savannahTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_xterminitor"}}]
+
+//snow
+  // ================================
+  //            Ocean
+  // ================================
+,[{"op":"test","path":"/oceanTreasure/0/1/pool/0/item/0","value":"waterballoon"},{"op":"test","path":"/oceanTreasure/0/1/pool/0/weight","value":1.0},{"op":"replace","path":"/oceanTreasure/0/1/pool/0/weight","value":0.5}]
+,[{"op":"add","path":"/oceanTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_watersword"}}]
+,[{"op":"add","path":"/oceanTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_oceantrident"}}]
+,[{"op":"add","path":"/oceanTreasure/0/1/pool/-","value":{"weight":0.3,"item":"harpoongun"}}]
+,[{"op":"add","path":"/oceanTreasure/0/1/pool/-","value":{"weight":0.3,"item":"harpoongun-recipe"}}]
+,[{"op":"add","path":"/oceanTreasure/0/1/pool/-","value":{"weight":0.03,"pool":"sb_oceanMusic"}}]
+
+
+//ocean floor
+,[{"op":"add","path":"/oceanFloorTreasure/0/1/pool/-","value":{"weight":0.03,"pool":"sb_oceanMusic"}}]
+,[{"op":"add","path":"/oceanFloorTreasure/0/1/pool/-","value":{"weight":1,"item":["kelp",30]}}]
+,[{"op":"add","path":"/oceanFloorTreasure/0/1/pool/-","value":{"weight":1,"item":["seaweed",30]}}]
+
+  // ================================
+  //            Jungle
+  // ================================
+,[{"op":"add","path":"/jungleTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_toxicbroadsword"}}]
+,[{"op":"add","path":"/jungleTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_tranquilizergun"}}]
+,[{"op":"add","path":"/jungleTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_tranquilizergun-recipe"}}]
+
+  // ================================
+  //            Alien
+  // ================================
+//,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.6,"item":["sb_corrosivegrenade",2]}}]
+,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_corrosivegrenade",5]}}] //4
+,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.2,"item":["sb_corrosivegrenade",6]}}] //5
+,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_corrosivegun"}}]
+,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_alienlaser"}}]
+
+
+  // ================================
+  //            Toxic
+  // ================================
+,[{"op":"add","path":"/toxicTreasure/0/1/pool/-","value":{"weight":1,"item":["sb_poisonballoon",5]}}]
+,[{"op":"add","path":"/toxicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_toxicbroadsword"}}]
+,[{"op":"add","path":"/toxicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_irradiatedlauncher"}}]
+,[{"op":"add","path":"/toxicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_irradiatedlauncher-recipe"}}]
+,[{"op":"add","path":"/toxicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_uraniumrodstaff"}}]
+,[{"op":"add","path":"/toxicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_uraniumrodstaff-recipe"}}]
+,[{"op":"add","path":"/toxicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_light2energy"}}]
+//midnight
+
+  // ================================
+  //            Volcanic
+  // ================================
+,[{"op":"add","path":"/volcanicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"firelordback"}}]
+,[{"op":"add","path":"/volcanicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_heatray"}}]
+,[{"op":"add","path":"/volcanicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_heatray-recipe"}}]
+
+
+
+//scorched city
+//tentacle
+
+
+
+
+
+//secondary surface biomes
+  // ================================
+  //            Mushroom
+  // ================================
+,[{"op":"add","path":"/mushroomTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_mushroomsword"}}]
+,[{"op":"add","path":"/mushroomTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_mushroomsword2"}}]
+,[{"op":"add","path":"/mushroomTreasure/0/1/pool/-","value":{"weight":0.3,"item":"mushroomshield-recipe"}}]
+,[{"op":"add","path":"/mushroomTreasure/0/1/pool/-","value":{"weight":0.3,"item":"mushroomhead-recipe"}}]
+
+  // ================================
+  //            Spring
+  // ================================
+,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":1,"item":["wildvines",3]}}]
+,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":1,"item":["wildvines",4]}}]
+,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":1,"item":["wildvines",5]}}]
+,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":0.3,"item":"pollenpump"}}]
+,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":0.3,"item":"pollenpump-recipe"}}]
+,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":0.3,"item":"flowerstatue-recipe"}}]
+
+  // ================================
+  //		  Oasis
+  // ================================
+,[{"op":"test","path":"/oasisTreasure/0/1/pool/9/weight","value":0.01},{"op":"test","path":"/oasisTreasure/0/1/pool/9/item","value":"oasisbed"},{"op":"replace","path":"/oasisTreasure/0/1/pool/9/weight","value":0.3}]
+,[{"op":"add","path":"/oasisTreasure/0/1/pool/-","value":{"weight":0.3,"item":"deckchair"}}]
+
+  // ================================
+  //		  Tar
+  // ================================
+,[{"op":"add","path":"/tarTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_tarhammer"}}]
+,[{"op":"add","path":"/tarTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_sabertoothspear"}}]
+,[{"op":"add","path":"/tarTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_sabertoothspear-recipe"}}]
+
+  // ================================
+  //            Colourful
+  // ================================
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"bubblegun"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_rainbowsword"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayonred-recipe"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayonblue-recipe"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayonyellow-recipe"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayonpurple-recipe"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayongreen-recipe"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayonorange-recipe"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.5,"item":"rainbowwoodbed-recipe"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.5,"item":"rainbowwoodchair-recipe"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.5,"item":"rainbowwooddoor-recipe"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.5,"item":"rainbowwoodsafe-recipe"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.5,"item":"rainbowwoodtable-recipe"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.5,"item":"rainbowunicornstatue-recipe"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.5,"item":"rainbowpainting-recipe"}}]
+
+  // ================================
+  //		Bone
+  // ================================
+,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.05,"item":["bonematerial",10]}}] //already in bone caves
+//,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_bonesword"}}]
+,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_bonepistol"}}]
+
+
+
+  // ================================
+  //	         Alpine
+  // ================================
+,[{"op":"add","path":"/alpineTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_boulderstaff"}}]
+//,[{"op":"add","path":"/alpineTreasure/0/1/pool/-","value":{"weight":0.15,"item":"sb_iceaxe"}}]
+
+
+
+  // ================================
+  //	    Bio Luminescent
+  // ================================
+,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_glowfibreorange",3]}}]
+,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_glowfibreyellow",3]}}]
+,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_glowfibreblue",3]}}]
+,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_glowfibregreen",3]}}]
+,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_glowchest-recipe"}}]
+,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_firesword"}}]
+,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"lightbow-recipe"}}]
+
+//giant flower
+//swamp
+  // ================================
+  //            Eyeball
+  // ================================
+//,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"rock02-recipe"}}]
+,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyebed-recipe"}}]
+,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyechair-recipe"}}]
+,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyechest-recipe"}}]
+,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyedoor-recipe"}}]
+,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyetable-recipe"}}]
+,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"eyehead-recipe"}}]
+,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_hawkeyes"}}]
+,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyesword"}}]
+,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyesword-recipe"}}]
+,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_hawkeyes"}}]
+,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyeballhead"}}]
+,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyeballchest"}}]
+
+
+  // ================================
+  //              Ice
+  // ================================
+,[{"op":"add","path":"/iceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_frostspear"}}]
+,[{"op":"add","path":"/iceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_frostspear-recipe"}}]
+,[{"op":"add","path":"/iceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"frostshield"}}]
+,[{"op":"add","path":"/iceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"frostshield-recipe"}}]
+//steam spring
+//prism
+
+  // ================================
+  //            Hive
+  // ================================
+//,[{"op":"add","path":"/hiveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"rock04-recipe"}}]
+,[{"op":"add","path":"/hiveTreasure/0/1/pool/-","value":{"weight":0.3,"item":["hivebomb",3]}}]
+,[{"op":"add","path":"/hiveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_stingergun"}}]
+
+//foundry
+
+  // ================================
+  //              Rust (For now, use foundry chests)
+  // ================================
+,[{"op":"add","path":"/foundryTreasure/0/1/pool/-","value":{"weight":0.3,"item":"rustchest-recipe"}}]
+,[{"op":"add","path":"/foundryTreasure/0/1/pool/-","value":{"weight":0.3,"item":"rustbed-recipe"}}]
+,[{"op":"add","path":"/foundryTreasure/0/1/pool/-","value":{"weight":0.3,"item":"rustchair-recipe"}}]
+,[{"op":"add","path":"/foundryTreasure/0/1/pool/-","value":{"weight":0.3,"item":"rustdoor-recipe"}}]
+,[{"op":"add","path":"/foundryTreasure/0/1/pool/-","value":{"weight":0.3,"item":"rusttable-recipe"}}]
+
+
+//geode
+//crystal
+,[{"op":"add","path":"/crystalTreasure/0/1/pool/-","value":{"weight":0.03,"pool":"sb_crystalMusic"}}]
+,[{"op":"add","path":"/crystalTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_hackman"}}]
+,[{"op":"add","path":"/crystalTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_hackman-recipe"}}]
+,[{"op":"add","path":"/crystalTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_hackmanight"}}]
+
+
+
+
+
+
+
+
+  // ================================
+  //      Underground Mushroom
+  // ================================
+,[{"op":"add","path":"/mushroomUndergroundTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_smashroom"}}]
+,[{"op":"add","path":"/mushroomUndergroundTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_smashroom-recipe"}}]
+,[{"op":"add","path":"/mushroomUndergroundTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_blighchen"}}]
+,[{"op":"add","path":"/mushroomUndergroundTreasure/0/1/pool/-","value":{"weight":0.3,"item":"shroomstatue-recipe"}}]
+,[{"op":"add","path":"/mushroomUndergroundTreasure/0/1/pool/-","value":{"weight":0.3,"item":"mushroomhead-recipe"}}]
+
+  // ================================
+  //      Underground Wilderness
+  // ================================
+,[{"op":"add","path":"/wildernessTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_swingingvine"}}]
+
+  // ================================
+  //	Underground Gnome Village
+  // ================================
+//,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.003,"item":"sb_rock02-recipe"}}]
+//,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.003,"item":"sb_rock03-recipe"}}]
+//,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.003,"item":"sb_rock04-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.2,"item":["gnome",7]}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.2,"item":["gnome",14]}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.2,"item":["gnome",21]}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallchurch-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallclocktower-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse1-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse2-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse3-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse4-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse5-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse6-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse7-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse8-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse9-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse10-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse11-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallinn-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smalllamppost-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallwindmill-recipe"}}]
+
+//underground tar
+
+  // ================================
+  //		Bone Cave
+  // ================================
+,[{"op":"add","path":"/boneCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_bonerifle"}}]
+,[{"op":"add","path":"/boneCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_boneshotgun"}}]
+,[{"op":"add","path":"/boneCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_bonepistol"}}]
+//,[{"op":"add","path":"/boneCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_bonesword"}}]
+
+
+  // ================================
+  //		Ice Cave
+  // ================================
+,[{"op":"add","path":"/iceCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_icechucker"}}]
+,[{"op":"add","path":"/iceCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"frozenbow"}}]
+,[{"op":"add","path":"/iceCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"frozenbow-recipe"}}]
+,[{"op":"add","path":"/iceCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_freezeray"}}]
+,[{"op":"add","path":"/iceCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"icespherechest-recipe"}}]
+
+
+  // ================================
+  //		Stone Cave
+  // ================================
+//,[{"op":"test","path":"/stoneCaveTreasure/0/1/pool/0/item/0","value":"limestone"},{"op":"test","path":"/stoneCaveTreasure/0/1/pool/0/weight","value":1.0},{"op":"replace","path":"/stoneCaveTreasure/0/1/pool/0/weight","value":0.5}]
+//,[{"op":"add","path":"/stoneCaveTreasure/0/1/pool/-","value":{"weight":1,"item":["rock01",15]}}]
+,[{"op":"add","path":"/stoneCaveTreasure/0/1/pool/-","value":{"weight":0.3,"pool":"sb_rockblueprints"}}]
+,[{"op":"add","path":"/stoneCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"cavebow"}}]
+,[{"op":"add","path":"/stoneCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_cavehammer"}}]
+
+  // ================================
+  //		Luminous Cave
+  // ================================
+,[{"op":"add","path":"/luminousCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_biostaff"}}]
+,[{"op":"add","path":"/luminousCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_biostaff-recipe"}}]
+
+
+
+  // ================================
+  //	    Underground Flesh
+  // ================================
+,[{"op":"add","path":"/fleshTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_fleshstaff"}}]
+,[{"op":"add","path":"/fleshTreasure/0/1/pool/-","value":{"weight":0.3,"item":"fleshbed-recipe"}}]
+
+
+  // ================================
+  //	    Underground Cell
+  // ================================
+,[{"op":"add","path":"/cellTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_chromosword"}}]
+,[{"op":"add","path":"/cellTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_chromosword-recipe"}}]
+
+  // ================================
+  //		Slime Cave
+  // ================================
+,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.05,"item":"sb_slimehide-recipe"}}]
+,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.2,"item":["sb_slimehandgrapple",5]}}]
+,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_slimestaff"}}]
+,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_slimestaff-recipe"}}]
+,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_cutarrh"}}]
+,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_cutarrh-recipe"}}]
+,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_katarrhna"}}]
+
+
+
+  // ================================
+  //	OLD AND BUSTED - Sandstone
+  // ================================
+//,[{"op":"test","path":"/sandstoneTreasure/0/1/poolRounds/0/1","value":1},{"op":"replace","path":"/sandstoneTreasure/0/1/poolRounds/0/1","value":2}]
+//,[{"op":"test","path":"/sandstoneTreasure/0/1/poolRounds/1/1","value":2},{"op":"replace","path":"/sandstoneTreasure/0/1/poolRounds/1/1","value":3}]
+,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sandstonebed-recipe"}}]
+,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sandstonechair-recipe"}}]
+,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sandstonechest-recipe"}}]
+,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sandstonedoor-recipe"}}]
+,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sandstonetable-recipe"}}]
+,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sandstonetorch-recipe"}}]
+
+
+  // ================================
+  //	OLD AND BUSTED - Geometric
+  // ================================
+,[{"op":"test","path":"/geometricTreasure/0/1/pool/0/item","value":"geometricchair-recipe"},{"op":"replace","path":"/geometricTreasure/0/1/pool/0/item","value":"sb_geometricchair-recipe"}]
+,[{"op":"test","path":"/geometricTreasure/0/1/pool/1/item","value":"geometricchest-recipe"},{"op":"replace","path":"/geometricTreasure/0/1/pool/1/item","value":"sb_geometricchest-recipe"}]
+,[{"op":"test","path":"/geometricTreasure/0/1/pool/2/item","value":"geometricbed-recipe"},{"op":"replace","path":"/geometricTreasure/0/1/pool/2/item","value":"sb_geometricbed-recipe"}]
+,[{"op":"test","path":"/geometricTreasure/0/1/pool/3/item","value":"geometricscreen-recipe"},{"op":"replace","path":"/geometricTreasure/0/1/pool/3/item","value":"sb_geometricscreen-recipe"}]
+,[{"op":"test","path":"/geometricTreasure/0/1/pool/4/item","value":"geometrictable-recipe"},{"op":"replace","path":"/geometricTreasure/0/1/pool/4/item","value":"sb_geometrictable-recipe"}]
+
+,[{"op":"add","path":"/geometricTreasure/0/1/pool/-","value":{"weight":1,"item":["icecrystal",15]}}]
+]

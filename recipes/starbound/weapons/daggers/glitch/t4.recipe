@@ -1,0 +1,5 @@
+{
+  "input" : [["durasteelbar",2],"copperbar"],
+  "output" : "sb_glitchtier4dagger",
+  "groups" : ["craftinganvil3","weapons","all"]
+}

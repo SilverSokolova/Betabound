@@ -1,0 +1,26 @@
+{
+  "materialId" : 6960,
+  "materialName" : "sb_brains",
+  "particleColor" : [161, 129, 99, 255],
+  "itemDrop" : "sb_brains",
+  "description" : "Pulsating brain matter... I wonder what it's thinking.",
+  "shortdescription" : "Heck Brains",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "tillableMod" : 32,
+  "soil" : true,
+  "health" : 4,
+  "category" : "materials",
+  "glitchDescription" : "Alarmed. Brain patterns suggest this brain belonged to a genius.",
+  "floranDescription" : "Floran want to ssstab sssquishy brain.",
+  "novakidDescription" : "Some fleshy brain-stuff.",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "sb_brains.png",
+    "variants" : 4,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 1777
+  }
+}

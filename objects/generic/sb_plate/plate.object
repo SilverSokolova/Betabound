@@ -1,0 +1,55 @@
+//https://imgur.com/a/R77DoN3
+{
+  "objectName" : "sb_plate",
+  "colonyTags" : ["storage","cooking"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "sb_container",
+  "category" : "fridgeStorage",
+  "sb_plateImage" : true,
+  "price" : 10,
+  "description" : "A plate for showcasing food and other consumables. Nifty!",
+  "shortdescription" : "Plate",
+  "race" : "generic",
+  "health" : 1.5,
+  "printable" : false,
+
+  "inventoryIcon" : "plate.png?flipx?border=1;000",
+  "orientations" : [
+    {
+      "image" : "plate.png",
+      "imagePosition" : [-1, 0],
+      "animationPosition" : [-1, 0],
+      "direction" : "left",
+      "flipImages" : false,
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : ["bottom"],
+      "directions" : ["right"]
+    },
+    {
+      "image" : "plate.png",
+      "imagePosition" : [-1, 0],
+      "animationPosition" : [-1, 0],
+      "direction" : "right",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : ["bottom"],
+      "directions" : ["left"]
+    }
+  ],
+
+  "animation" : "plate.animation",
+  "animationParts" : {"plate" : "plate.png"},
+  "scripts" : ["plate.lua"],
+  "scriptDelta" : 5,
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 1,
+  "tooltipFields":{"slotCountLabel":"Holds 1 Item"},
+  "uiConfig" : "/interface/sb_chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  "itemAgeMultiplier" : 0
+}

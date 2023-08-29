@@ -1,0 +1,6 @@
+{
+  "input" : [["pizzaslice",5]],
+  "output" : "pizza",
+  "groups" : ["craftingfood","mains","sb_entree","sb_health","sb_healing","sb_other","all"],
+  "collectables" : {"cooking":"pizza"}
+}

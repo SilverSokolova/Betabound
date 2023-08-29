@@ -1,0 +1,13 @@
+[
+[{"op":"test","path":"/description","value":"It's Silt. It's very silty."},
+{"op":"replace","path":"/description","value":"A fine glittering sand. Could probably be made into glass!"}],
+[{"op":"test","path":"/shortdescription","value":"Loose Silt"},
+{"op":"replace","path":"/shortdescription","value":"Fine Sand"}],
+
+[{"op":"test","path":"/glitchDescription","value":"Uncomfortable. It is difficult to keep silt from seeping into my components."},
+{"op":"replace","path":"/glitchDescription","value":"Uncomfortable. It is difficult to keep sand from seeping into my components."}],
+[{"op":"test","path":"/floranDescription","value":"Silt. It's so dussty."},
+{"op":"replace","path":"/floranDescription","value":"Sssand. It's ssso dry almossst nothing can grow."}],
+[{"op":"test","path":"/novakidDescription","value":"Big ol' pile of dusty silt."},
+{"op":"replace","path":"/novakidDescription","value":"Big ol' pile of dusty sand."}]
+]

@@ -1,0 +1,8 @@
+{
+  "name" : "sb_outpostnpcspawner",
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+  "icon" : "/interface/bookmarks/icons/outpost.png",
+  "label" : "This effect is used to populate the Outpost with some NPC's and quest items.",
+  "scripts" : ["outpost.lua"]
+}

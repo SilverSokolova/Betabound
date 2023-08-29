@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/smashDropOptions/0/0/0","value":"geode"},{"op":"replace","path":"/smashDropOptions/0/0/0","value":"crystal"}],
+[{"op":"test","path":"/smashDropOptions/0/1/0","value":"geode"},{"op":"replace","path":"/smashDropOptions/0/1/0","value":"crystal"}],
+[{"op":"test","path":"/smashDropOptions/0/2/0","value":"geode"},{"op":"replace","path":"/smashDropOptions/0/2/0","value":"crystal"}]
+]

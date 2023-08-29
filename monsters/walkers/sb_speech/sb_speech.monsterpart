@@ -1,0 +1,9 @@
+{
+  "name" : "sb_speech",
+  "category" : "sb_speech",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "sb_speech.png"
+  }
+}

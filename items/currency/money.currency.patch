@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/category","inverse":true},
+{"op":"add","path":"/category","value":"currency"}],
+[{"op":"test","path":"/description","value":"Pixels are a universal currency. They can also be used for 3D Printing."},
+{"op":"replace","path":"/description","value":"Pixels, used for 3D Printing; they have become a universal currency."}]
+]

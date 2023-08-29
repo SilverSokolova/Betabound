@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_imperviumbar",2]],
+  "output" : "executivetable",
+  "groups" : ["craftingfurniture2","decoration","all"]
+}

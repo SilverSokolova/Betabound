@@ -1,0 +1,1 @@
+{"description":"A dagger that can pry open shells.","shortdescription":"Shellslicer","itemName":"sb_hylotltier5sdagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t5s","daggers/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

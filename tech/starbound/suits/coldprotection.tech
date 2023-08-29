@@ -1,0 +1,13 @@
+{
+  "name" : "sb_coldprotection",
+  "type" : "head",
+  "icon" : "/tech/starbound/cold.png",
+  "scripts" : [],
+  "sb_effect" : "sb_coldprotectiontech",
+  "sb_suitImage" : "?replace;73daff=f0fcff;27abff=c3f1ff;117ee4=8be0ff;1f45d4=45afeb;002b72=005b9a;001522=00264a",
+  "rarity" : "Legendary",
+  "tooltipKind" : "sb_object4",
+  "chipCost" : 8,
+  "description" : "Protects the wearer from the extreme cold found on certain planets and provides ice resistance.",
+  "shortDescription" : "Cold Protection"
+}

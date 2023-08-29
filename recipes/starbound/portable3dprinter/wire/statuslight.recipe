@@ -1,0 +1,5 @@
+{
+  "input" : [["money",145]],
+  "output" : "statuslight",
+  "groups" : ["sb_portable3dprinter","sb_wire","all"]
+}

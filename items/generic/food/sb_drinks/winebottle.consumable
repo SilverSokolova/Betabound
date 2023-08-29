@@ -1,0 +1,21 @@
+{
+  "itemName" : "sb_winebottle",
+  "price" : 600,
+  "foodValue" : 60,
+  "tooltipKind" : "sb_object",
+  "rarity" : "rare",
+  "category" : "drink",
+  "effects" : [[
+	{"effect":"maxhealthscalingboostfood","duration":270},
+	{"effect":"ragefood","duration":270},
+	"sb_foodheal215"
+  ]],
+  "inventoryIcon" : "winebottle.png",
+  "description" : "A bottle of smooth red wine.",
+  "shortdescription" : "Wine Bottle",
+  "handPosition" : [2, -3],
+  "emitters" : ["drinking"],
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10
+}

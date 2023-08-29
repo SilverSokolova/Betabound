@@ -1,0 +1,1 @@
+{"description":"A dangerous dagger decorated with leaves.","shortdescription":"Planttrimmer Prime","itemName":"sb_florantier5mdagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t5m","daggers/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

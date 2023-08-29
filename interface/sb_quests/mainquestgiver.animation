@@ -1,0 +1,6 @@
+{
+  "frames" : "mainquestgiver.png",
+  "mode" : "loopForever"//,
+//  "animationCycle" : 0//,
+//  "frameNumber" : 1
+}

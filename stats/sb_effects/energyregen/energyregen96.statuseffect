@@ -1,0 +1,11 @@
+{
+  "name" : "sb_energyregen96",
+  "effectConfig" : {
+    "regenAmount" : 1.6
+  },
+  "defaultDuration" : 60,
+  "scripts" : ["energyregen.lua"],
+  "animationConfig" : "energyregen.animation",
+  "label" : "Energy Regeneration",
+  "icon" : "/interface/statuses/energyregen.png"
+}

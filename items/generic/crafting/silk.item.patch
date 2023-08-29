@@ -1,0 +1,10 @@
+[
+[{"op":"test","path":"/description","value":"A square of soft, lustrous silk"},
+{"op":"replace","path":"/description","value":"A square of soft, lustrous silk."}],
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
+{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"wedding2head"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"wedding2chest"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"wedding2legs"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"wedding1chest"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"wedding1legs"}]]

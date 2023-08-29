@@ -1,0 +1,42 @@
+{
+  "itemName" : "sb_novakidlightstaff1",
+  "definition" : "racialstaff",
+  "itemTags" : ["weapon","staff"],
+  "tags" : {"<race>" : "novakid", "<staff>" : "lightstaff", "<n>" : "1"},
+  "rarity" : "rare",
+  "level" : 5,
+  "description" : "Creates a miniature sun to light up the area.",
+  "shortdescription" : "Red Giant Orb",
+  "tooltipFields" : {"subtitle":"Light Staff","damageKindImage":"/projectiles/sb_staves/racialstaves/light/redgiant/icon.png"},
+  "animationCustom" : {"lights":{"glow":{"active":true,"color":[255,85,10]}}},
+  "configOverrides" : {
+    "stances" : {
+      "idle" : {
+	"armRotation" : 20,
+	"weaponRotation" : -20,
+	"weaponOffset" : [-0.2, 0.2],
+	"twoHanded" : true
+      },
+      "charge" : {
+	"armRotation" : 90,
+	"weaponRotation" : -90
+      },
+      "charged" : {
+	"armRotation" : 90,
+	"weaponRotation" : -90
+      }
+    }
+  },
+  "elementalType" : "fire",
+  "altAbilityType" : "forcecage",
+  "primaryAbility" : {
+    "projectileType" : "sb_redgiant",
+    "maxCastRange" : 20,
+    "energyCost" : 80,
+    "projectileParameters" : {
+      "baseDamage" : 20,
+      "speed" : 0
+    }
+  },
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

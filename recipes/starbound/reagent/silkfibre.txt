@@ -1,0 +1,5 @@
+{
+  "input" : ["spidersilkblock"],
+  "output" : ["silkfibre",5],
+  "groups" : ["craftingwheel","ingredients","all"]
+}

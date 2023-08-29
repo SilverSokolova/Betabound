@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_glitchtier4axe",
+  "description": "An axe perfect for cutting down screws.",
+  "shortdescription": "Screwslicer",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t4",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

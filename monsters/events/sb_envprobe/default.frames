@@ -1,0 +1,11 @@
+{
+  "frameGrid" : {
+    "size" : [20, 20],
+    "dimensions" : [6, 3],
+    "names" : [
+      [ "idle.1", "idle.2", "idle.3", "idle.4", "idle.5", "idle.6" ],
+      [ "aggro.1", "aggro.2", "aggro.3", "aggro.4", "aggro.5", "aggro.6" ],
+      [ "stunned.1", "stunned.2", "stunned.3", "stunned.4", "stunned.5", "stunned.6" ]
+    ]
+  }
+}

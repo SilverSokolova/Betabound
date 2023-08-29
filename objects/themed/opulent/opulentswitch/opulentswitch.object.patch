@@ -1,0 +1,2 @@
+[[{"op":"test","inverse":true,"path":"/tooltipKind"},{"op":"add","value":"sb_object","path":"/tooltipKind"}],[{"op":"replace","value":"sb_object","path":"/tooltipKind"},{"op":"replace","value":"rare","path":"/rarity"}],
+[{"op":"test","value":"A opulent console mounted on a suspended crystal.","path":"/description"},{"op":"replace","value":"An opulent console mounted on a suspended crystal.","path":"/description"}]]

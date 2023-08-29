@@ -1,0 +1,12 @@
+[
+[{"op":"add","path":"/systemNames/-","value":[1,"Rho"]},
+{"op":"add","path":"/systemNames/-","value":[1,"Sokolova"]},
+{"op":"add","path":"/systemNames/-","value":[1,"Walters"]},
+{"op":"add","path":"/systemNames/-","value":[1,"Persavqui"]},
+{"op":"add","path":"/systemNames/-","value":[1,"Asi'is"]},
+{"op":"add","path":"/systemNames/-","value":[1,"Lua"]},
+{"op":"add","path":"/systemNames/-","value":[1,"JSON"]},
+{"op":"add","path":"/systemNames/-","value":[1,"RFC 6902"]},
+{"op":"add","path":"/systemNames/-","value":[1,"Epsilon"]},
+{"op":"add","path":"/systemNames/-","value":[1,"X"]}]
+]

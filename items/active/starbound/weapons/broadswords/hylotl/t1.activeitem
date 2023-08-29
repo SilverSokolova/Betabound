@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_hylotltier1broadsword",
+  "description": "A simple pirate sword.",
+  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "definition": "broadswords/t1",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Swashbuckler"
+}

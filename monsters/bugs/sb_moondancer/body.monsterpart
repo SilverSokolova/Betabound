@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "sb_moondancer",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

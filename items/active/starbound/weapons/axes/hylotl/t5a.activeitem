@@ -1,0 +1,8 @@
+{
+  "description": "A ridged scythe shaped like dual fins.",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "itemName": "sb_hylotltier5aaxe",
+  "definition": ["colors/t5a", "axes/a"],
+  "shortdescription": "Doublefin",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

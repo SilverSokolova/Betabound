@@ -1,0 +1,6 @@
+{
+  "input" : ["rawham","bread"],
+  "output" : "sb_hamsandwich",
+  "groups" : ["craftingfood","mains","sb_health","sb_healing","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_hamsandwich"}
+}

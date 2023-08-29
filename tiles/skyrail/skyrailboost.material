@@ -1,0 +1,23 @@
+{
+  "materialId" : 6964,
+  "materialName" : "skyrailboost",
+  "platform" : true,
+  "transparent" : true,
+  "collisionKind" : "platform",
+  "itemDrop" : "skyrailboost",
+  "shortdescription" : "Skyrail Booster",
+  "description" : "A skyrail for speeding things up.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "supports",
+
+  "renderTemplate" : "/tiles/skyrailtemplate.config",
+  "renderParameters" : {
+    "texture" : "skyrail_boost.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

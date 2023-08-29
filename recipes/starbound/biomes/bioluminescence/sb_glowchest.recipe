@@ -1,0 +1,5 @@
+{
+  "input" : [["glowfibre",15]],
+  "output" : "sb_glowchest",
+  "groups" : ["craftingfurniture","storage","all"]
+}

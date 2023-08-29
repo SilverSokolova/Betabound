@@ -1,0 +1,5 @@
+{
+  "input" : [["darkwoodmaterial",10],"ironbar"],
+  "output" : "sb_woodenshelf",
+  "groups" : ["craftingfurniture","decoration","all"]
+}

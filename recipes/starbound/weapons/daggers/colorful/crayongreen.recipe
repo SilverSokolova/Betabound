@@ -1,0 +1,5 @@
+{
+  "input" : [["rainbowwood",50],["liquidoil",10],["greendye",3]],
+  "output" : "sb_crayongreen",
+  "groups" : ["craftinganvil2","weapons","all"]
+}

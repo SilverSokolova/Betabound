@@ -1,0 +1,5 @@
+{
+  "input" : ["ironbar","coalore"],
+  "output" : "sb_steelbar",
+  "groups" : ["craftingfurnace2","bars","all"]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "sb_liquidcoffee",
+  "price" : 45,
+  "tooltipKind" : "sb_object",
+  "rarity" : "common",
+  "category" : "liquid",
+  "inventoryIcon" : "sb_liquidcoffee.png",
+  "description" : "A measure of nice, warm coffee.",
+  "shortdescription" : "Coffee",
+  "liquid" : "sb_coffee"
+}

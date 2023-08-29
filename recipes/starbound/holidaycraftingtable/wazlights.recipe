@@ -1,0 +1,6 @@
+{
+  "input" : [["holidayspirit",7]],
+  "output" : "wazlights",
+  "duration" : 0,
+  "groups" : ["holidaycraftingtable","objects","all"]
+}

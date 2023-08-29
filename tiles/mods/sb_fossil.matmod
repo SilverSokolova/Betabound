@@ -1,0 +1,20 @@
+{
+  "modId" : 4403,
+  "modName" : "sb_fossil",
+  "itemDrop" : "fossilore",
+  "description" : "A fossil. I'll need a special tool to extract this.",
+  "health" : 0.5,
+  "harvestLevel" : 100,
+  "breaksWithTile" : false,
+
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle" : "orespark",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "sb_fossil.png",
+    "variants" : 6,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

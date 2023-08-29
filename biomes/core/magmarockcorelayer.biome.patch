@@ -1,0 +1,6 @@
+[
+  [
+    {"op":"test","path":"/undergroundPlaceables/items"},
+    {"op":"add","path":"/undergroundPlaceables/items/-","value":{"mode":"floor","priority":0,"variants":1,"distribution":"/biomes/distributions.config:undergroundweaponChests","type":"treasureBox","treasureBoxSets":["sb_gunChest"]}}
+  ]
+]

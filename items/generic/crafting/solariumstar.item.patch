@@ -1,0 +1,13 @@
+[
+[{"op":"test","path":"/fuelAmount","inverse":true},
+{"op":"add","path":"/fuelAmount","value":20}],
+
+[{"op":"test","path":"/tooltipKind","inverse":true},
+{"op":"add","path":"/tooltipKind","value":"sb_v5"}],
+
+[{"op":"test","path":"/category","value":"craftingMaterial"},
+{"op":"replace","path":"/category","value":"fuel"}],
+
+[{"op":"test","path":"/description","value":"Ore to make solarium stars is primarily found on planets orbiting fiery stars."},
+{"op":"replace","path":"/description","value":"Solarium stars are a fantastic source of fuel. Ore for this material is primarily found on planets orbiting fiery stars."}]
+]

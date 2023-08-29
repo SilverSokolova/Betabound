@@ -1,0 +1,16 @@
+[
+[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
+[{"op":"add","path":"/sb_plateHide","value":true}],
+
+[{"op":"test","path":"/foodValue","value":75},{"op":"replace","path":"/foodValue","value":40}],
+[{"op":"test","path":"/price","value":300},{"op":"replace","path":"/price","value":160}],
+
+[{"op":"test","path":"/rarity","value":"Rare"},{"op":"replace","path":"/rarity","value":"Uncommon"}],
+
+[{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":2}],
+
+[{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
+[{"op":"test","path":"/effects/0/0/duration","value":675},{"op":"replace","path":"/effects/0/0/duration","value":360}],
+[{"op":"add","path":"/effects/0/-","value":"sb_foodheal135"}],
+[{"op":"add","path":"/effects/0/-","value":{"effect":"sb_health","duration":20}}]
+]

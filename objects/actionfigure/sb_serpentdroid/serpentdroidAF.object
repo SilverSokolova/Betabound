@@ -1,0 +1,22 @@
+{
+  "objectName" : "sb_serpentdroidaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "tooltipKind" : "sb_object",
+  "category" : "actionFigure",
+  "collectablesOnPickup" : {"actionfigures":"sb_serpentdroidaf"},
+  "price" : 5000,
+  "printable" : false,
+  "description" : "The label reads, \"A mass-produced guard robot commonly used by the USCM.\"",
+  "shortdescription" : "Serpent Droid Figurine",
+
+  "inventoryIcon" : "serpentdroidAF.png",
+  "orientations" : [
+    {
+      "dualImage" : "serpentdroidAF.png",
+      "imagePosition" : [-2, 0],
+      "spaces" : [[0,0],[0,0],[0,0],[0,0]],
+      "anchors" : ["bottom"]
+    }
+  ]
+}

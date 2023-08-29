@@ -1,0 +1,44 @@
+{
+  "objectName" : "sb_woodenlocker",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "An item locker built from wood.",
+  "shortdescription" : "Wooden Locker",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 35,
+  "tooltipKind" : "sb_container",
+  "builder" : "/items/buildscripts/starbound/buildcontainer.lua",
+  "scripts" : ["/scripts/sb_container.lua"],
+
+  "apexDescription" : "A storage locker built from wood.",
+  "avianDescription" : "I don't think wood is a good material for a storage locker.",
+  "floranDescription" : "Wooden ssstorage.",
+  "glitchDescription" : "Doubtful. A storage locker made of wood?",
+  "humanDescription" : "Hmmm, a locker made of wood. I don't know about that.",
+  "hylotlDescription" : "A strange choice of materials. A wooden locker.",
+  "novakidDescription" : "I wouldn't count on anything in there staying there.",
+
+  "inventoryIcon" : "woodenlockericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodenlocker.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"],
+      "collision" : "platform"
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/chest_medium_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.ogg" ],
+  "slotCount" : 16,
+  "tooltipFields":{"slotCountLabel":"Holds 16 Items"},
+  "uiConfig" : "/interface/sb_chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

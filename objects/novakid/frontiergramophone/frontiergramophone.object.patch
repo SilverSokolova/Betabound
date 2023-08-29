@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/collectablesOnPickup","inverse":true},
+{"op":"add","path":"/collectablesOnPickup","value":{}}],
+[{"op":"add","path":"/collectablesOnPickup/sb_music","value":"gramophone"}]
+]

@@ -1,0 +1,5 @@
+{
+  "input" : ["orangestim","bottle"],
+  "output" : "sb_ragebomb",
+  "groups" : ["craftingmedical2","buffs","all"]
+}

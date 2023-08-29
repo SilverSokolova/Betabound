@@ -1,0 +1,7 @@
+[
+[{"op":"test","path":"/damageTeam","inverse":true},
+{"op":"add","path":"/damageTeam","value":{"type":"indiscriminate","team":4}}],
+[{"op":"test","path":"/orientations/0/touchDamage/damageType","value":"Environment"},
+{"op":"replace","path":"/orientations/0/touchDamage/damageType","value":"Damage"},
+{"op":"replace","path":"/orientations/1/touchDamage/damageType","value":"Damage"}]
+]

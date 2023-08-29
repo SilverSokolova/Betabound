@@ -1,0 +1,29 @@
+{
+  "itemName" : "sb_healthbomb",
+  "rarity" : "Common",
+  "tooltipKind" : "sb_object",
+  "inventoryIcon" : "sb_healthbomb.png",
+  "image" : "sb_healthbomb.png",
+  "shortdescription" : "Burst of Energy",
+  "category" : "throwableItem",
+  "description" : "Disperses healing energy when thrown.",
+  "price" : 110,
+  "ammoUsage" : 1,
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "sb_healbomb",
+  "projectileConfig" : {
+    "speed" : 25,
+    "level" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/unbreakable","value":true},{"op":"replace","path":"/unbreakable","value":false}],
+[{"op":"add","path":"/interactData/items/-","value":{"item":"sb_coralcleaver-recipe","price":1800}}]
+]

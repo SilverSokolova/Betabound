@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_ceruliumbar",2],["fabric",10],["silk",3]],
+  "output" : "wavebed",
+  "groups" : ["craftingfurniture2","beds","all"]
+}

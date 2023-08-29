@@ -1,0 +1,8 @@
+[
+[{"op":"test","path":"/baseParameters/movementSettings/collisionPoly/0/0","value":-1.0},
+{"op":"replace","path":"/baseParameters/movementSettings/collisionPoly/0/0","value":-0.5}],
+[{"op":"test","path":"/baseParameters/movementSettings/collisionPoly/1/0","value":1.0},
+{"op":"replace","path":"/baseParameters/movementSettings/collisionPoly/1/0","value":0.5}],
+[{"op":"test","path":"/baseParameters/relocatable","inverse":true},
+{"op":"add","path":"/baseParameters/relocatable","value":true}]
+]

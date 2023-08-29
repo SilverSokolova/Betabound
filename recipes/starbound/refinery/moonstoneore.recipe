@@ -1,0 +1,6 @@
+{
+  "input" : ["moonstoneore"],
+  "output" : ["money",15],
+  "duration" : 0.5,
+  "groups" : ["refinery","all"]
+}

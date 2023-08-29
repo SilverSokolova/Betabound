@@ -1,0 +1,13 @@
+{
+  "name" : "sb_environmentalprotectiontech",
+  "effectConfig" : { "statModifierGroup" : [
+    {"stat":"breathProtection","amount":1},
+    {"stat":"biomeradiationImmunity","amount":1},
+    {"stat":"biomecoldImmunity","amount":1},
+    {"stat":"biomeheatImmunity","amount":1}
+  ]},
+  "defaultDuration" : 5,
+  "scripts" : ["suit.lua"],
+  "label" : "Environmental Protection",
+  "icon" : "environmentalprotection.png"
+}

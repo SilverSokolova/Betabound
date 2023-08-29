@@ -1,0 +1,23 @@
+{
+  "materialId" : 6966,
+  "materialName" : "skyrail_asc",
+  "platform" : true,
+  "transparent" : true,
+  "collisionKind" : "platform",
+  "itemDrop" : "skyrail_asc",
+  "shortdescription" : "Skyrail Switcher +",
+  "description" : "Gives priority to higher rails.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "Supports",
+
+  "renderTemplate" : "/tiles/skyrailtemplate.config",
+  "renderParameters" : {
+    "texture" : "skyrail_asc.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

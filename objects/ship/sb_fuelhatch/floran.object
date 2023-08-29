@@ -1,0 +1,42 @@
+{
+  "objectName" : "sb_floranfuelhatch",
+  "colonyTags" : ["floran"],
+  "printable" : false,
+  "price" : 700,
+  "rarity" : "uncommon",
+  "objectType" : "container",
+  "category" : "other",
+  "tooltipKind" : "sb_object",
+  "description" : "Accepts a bunch of different kinds of fuel for the ship's FTL drive.",
+  "shortdescription" : "^orange;Floran FTL Fuel Hatch^reset;",
+  "race" : "floran",
+
+  "apexDescription" : "This fuel system doesn't appear to be Floran in origin.",
+  "avianDescription" : "Where did the Floran find this tech, I wonder?",
+  "floranDescription" : "Floran enjoy fuel tech. Floran explore many worldsss.",
+  "glitchDescription" : "Statement. This is not a Floran design.",
+  "humanDescription" : "I don't think this is Floran tech.",
+  "hylotlDescription" : "Floran don't design tech; they consume it.",
+  "novakidDescription" : "Fuel goes in here!",
+
+  "inventoryIcon" : "floranicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "floran.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "hasWindowIcon" : false,
+  "recipeGroup" : "fuel",
+  "slotCount" : 6,
+  "uiConfig" : "/interface/sb_fuel/fuel.config",
+  "autoCloseCooldown" : 3600,
+  "frameCooldown" : 5
+}

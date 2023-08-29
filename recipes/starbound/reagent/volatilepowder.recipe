@@ -1,0 +1,5 @@
+{
+  "input" : ["coralfragment"],
+  "output" : ["volatilepowder",3],
+  "groups" : ["craftingfurnace","ingredients","all"]
+}

@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_poisoncreep",2],"bottle"],
+  "output" : "antidote",
+  "groups" : ["craftingmedical","healing","all"]
+}

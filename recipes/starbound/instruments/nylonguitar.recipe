@@ -1,0 +1,5 @@
+{
+  "input" : [["darkwoodmaterial",20],["string",5],"ironbar","polymer"],
+  "output" : "nylonguitar",
+  "groups" : ["sb_ironcraftingtable","sb_instruments","all"]
+}

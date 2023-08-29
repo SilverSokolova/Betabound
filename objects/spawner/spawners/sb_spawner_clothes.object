@@ -1,0 +1,66 @@
+{
+  "objectName" : "sb_spawnerclothes",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Spawn your very own tailor!",
+  "shortdescription" : "^yellow;Tailor Spawner^reset;",
+  "race" : "human",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 100,
+  "tooltipKind" : "sb_object",
+
+  "apexDescription" : "I could disguise myself with the help of a clothier.",
+  "avianDescription" : "My outfit is fine.",
+  "floranDescription" : "Floran buy ssspooky cossstume?",
+  "glitchDescription" : "Amused. I could engage in cosplay.",
+  "humanDescription" : "My own personal fashion advisor? Sign me up!",
+  "hylotlDescription" : "These tailors had better know what they're talking about.",
+  "novakidDescription" : "I sure hope they sell hats!",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_clothes.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ],
+
+  "scripts" : ["/objects/spawner/spawners/spawner.lua", "sb_spawner.lua"],
+  "scriptDelta" : 0,
+  "animation" : "/objects/spawner/spawners/sb_spawner.animation",
+  "animationParts" : {
+    "switch" : "spawner_clothes.png"
+  },
+  "animationPosition" : [-8, 0],
+  "inputNodes" : [],
+  "outputNodes" : [],
+
+  "spawner" : {
+    "searchRadius" : 32,
+    "npcSpeciesOptions" : ["apex", "avian", "floran", "glitch", "human", "hylotl", "novakid"],
+    "npcTypeOptions" : ["sb_clothesmerchant"],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ] /*,
+        "scriptConfig" : {
+	  "merchant" : {
+	    "categories" : {
+	      "default" : ["apexclothes"],
+	      "apex" : ["apexclothes"],
+	      "avian" : ["apexclothes"],
+	      "floran" : ["apexclothes"],
+	      "glitch" : ["apexclothes"],
+	      "human" : ["apexclothes"],
+	      "hylotl" : ["apexclothes"],
+	      "novakid" : ["apexclothes"]
+	    }
+	  }
+	}*/
+      }
+    ]
+  }
+}

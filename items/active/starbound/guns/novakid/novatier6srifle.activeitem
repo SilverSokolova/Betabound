@@ -1,0 +1,23 @@
+{
+  "itemName": "sb_novatier6srifle",
+  "definition": "rifle",
+  "tags": {
+    "<t>": "6s"
+  },
+  "rarity": "legendary",
+  "description": "Finally, the power of pure energy in your hands!",
+  "shortdescription": "Wild Pulsar",
+  "level": 6,
+  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid", "upgradeableWeapon"],
+  "configOverrides": {
+    "baseOffset": [0.5, 0.25],
+    "primaryAbility": {
+      "energyUsage": 30,
+      "fireTime": 1.5,
+      "baseDps": 7
+    }
+  },
+  "muzzleOffset": [2.75, 0.25],
+  "altAbilityType": "piercingshot",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

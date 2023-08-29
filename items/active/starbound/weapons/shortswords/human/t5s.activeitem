@@ -1,0 +1,1 @@
+{"description":"A hefty shortsword that packs a punch.","shortdescription":"Mini-Paddle","itemName":"sb_humantier5sshortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t5s","shortswords/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

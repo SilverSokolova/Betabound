@@ -1,0 +1,13 @@
+[
+[{"op":"add","path":"/sb_plateHide","value":true},{"op":"add","path":"/sb_plateImage","value":true}],
+
+[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
+
+[{"op":"test","path":"/description","value":"A refreshing can of soda."},
+{"op":"replace","path":"/description","value":"A refreshing can of Glorp soda."}],
+
+[{"op":"test","path":"/effects"},
+{"op":"test","path":"/effects/0/0/duration","value":30},
+{"op":"replace","path":"/effects/0/0/duration","value":60}],
+[{"op":"test","path":"/effects"},{"op":"add","path":"/effects/0/-","value":{"effect":"sb_energyregen192","duration":60}}]
+]

@@ -1,0 +1,5 @@
+{
+  "input" : [["refinedaegisalt",3],"durasteelbar"],
+  "output" : "sb_novatier5arevolver",
+  "groups" : ["craftingaccelerator","weapons","all"]
+}

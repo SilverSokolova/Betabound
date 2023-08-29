@@ -1,0 +1,8 @@
+{
+  "name" : "sb_enhancedhealingtech",
+  "defaultDuration" : 5,
+  "effectConfig" : {"tech":"sb_enhancedhealing"},
+  "scripts" : ["enhancedhealing.lua"],
+  "label" : "Enhanced Healing",
+  "icon" : "/tech/starbound/enhancedhealing.png"
+}

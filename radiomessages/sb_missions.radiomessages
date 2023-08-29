@@ -1,0 +1,9 @@
+{
+  "sb_tentaclemission-brain" : {
+    "unique" : false,
+    "type" : "mission",
+    "senderName" : "The Baron",
+    "portraitImage" : "/interface/chatbubbles/baron.png:<frame>",
+    "text" : "Impressed. A novel descent!"
+  }
+}

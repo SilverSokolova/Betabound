@@ -1,0 +1,11 @@
+{
+  "itemName" : "sb_gunpowder",
+  "price" : 10,
+  "tooltipKind" : "sb_object",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "itemTags" : ["reagent"],
+  "inventoryIcon" : "sb_gunpowder.png",
+  "description" : "This black powder is useful for crafting bullets.",
+  "shortdescription" : "Gunpowder"
+}

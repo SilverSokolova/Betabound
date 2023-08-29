@@ -1,0 +1,4 @@
+[
+[{"op":"test","inverse":true,"path":"/tooltipKind"},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/scripts"},{"op":"add","path":"/scripts/-","value":"sb_giftmonsterbox.lua"}]
+]

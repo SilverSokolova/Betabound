@@ -1,0 +1,27 @@
+{
+  "objectName" : "sb_pipes1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 40,
+  "tooltipKind" : "sb_object",
+
+  "description" : "Metal pipes.",
+  "shortdescription" : "Split Pipe",
+  "race" : "apex",
+
+  "inspectionDescription" : "Pipes.",
+  "floranDescription" : "Pipesss.",
+  "glitchDescription" : "Observation. Pipes.",
+
+  "inventoryIcon" : "pipe1icon.png?flipx",
+  "orientations" : [
+    {
+      "dualImage" : "pipes1.png:<color>",
+      "imagePosition" : [-6, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : ["top"]
+    }
+  ]
+}

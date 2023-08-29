@@ -1,0 +1,38 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "dashing" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "on" : {
+            "properties" : {
+              "immediateSound" : "/sfx/tech/tech_dash.ogg"
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "particleEmitters" : {
+    "dashParticles" : {
+      "emissionRate" : 40,
+      "particles" : [
+        {
+          "particle" : "dash",
+          "flip" : true
+        }
+      ]
+    },
+   "crouchdashParticles" : {
+      "emissionRate" : 40,
+      "particles" : [
+        {
+          "particle" : "sb_crouchdash",
+          "flip" : true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "itemName" : "sb_sweettime",
+  "price" : 475,
+  "foodValue" : 50,
+  "tooltipKind" : "sb_object4",
+  "rarity" : "rare",
+  "effects" : [[
+	{"effect":"sb_sugarrush","duration":225},
+	{"effect":"electrified","duration":225},
+	"sb_foodheal95"
+  ]],
+  "inventoryIcon" : "sweettime.png",
+  "category" : "preparedFood",
+  "description" : "A sweet oculemon tart topped with diodia shavings. It's... unconventional.",
+  "shortdescription" : "Sweet Time",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 4
+}

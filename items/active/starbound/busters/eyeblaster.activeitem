@@ -1,0 +1,15 @@
+{
+  "itemName" : "sb_eyeblaster",
+  "definition" : "buster",
+  "tags" : {"<buster>" : "eyeblaster"},
+  "description" : "Don't look it in the eye!",
+  "shortdescription" : "Eye Blaster",
+  "itemTags" : ["weapon", "ranged", "upgradeableWeapon"],
+  "level" : 1,
+  "primaryAbility" : {
+    "inaccuracy" : 0.025,
+    "projectileType" : "sb_monkeynutlaser",
+    "powerProjectileType" : "sb_triplesteellaser"
+  },
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

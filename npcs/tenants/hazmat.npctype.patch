@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/scriptConfig/questGenerator/graduation/nextNpcType"},
+{"op":"add","path":"/scriptConfig/questGenerator/graduation/nextNpcType/-","value":[0.25,"sb_crewmemberchemistgrey"]}]
+]

@@ -1,0 +1,35 @@
+{
+  "projectileName" : "sb_fallingblock",
+  "physics" : "lightningbolt",
+  "bounces" : 0,
+  "timeToLive" : 8,
+  "image" : "fallingblock.png",
+  "animationCycle" : 1,
+  "lightColor" : [18, 123, 183],
+  "frameNumber" : 1,
+/*  "periodicActions" : [
+    {
+      "repeat" : false,
+      "action" : "projectile",
+      "type" : "sb_fallingblock2",
+      "inheritSpeedFactor" : 0.4,
+      "time" : 0
+    },
+    {
+      "repeat" : false,
+      "action" : "projectile",
+      "type" : "sb_fallingblock3",
+      "inheritSpeedFactor" : 0.6,
+      "time" : 0
+    }],*/
+  "actionOnReap" : [
+    {"action":"particle","specification":"sb_fallingblockdebris1"},
+    {"action":"particle","specification":"sb_fallingblockdebris2"},
+    {"action":"particle","specification":"sb_fallingblockdebris3"},
+    {"action":"particle","specification":"sb_fallingblockdebris4"},
+    {"action":"particle","specification":"sb_fallingblockdebris5"}
+  ],
+  "power" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

@@ -1,0 +1,1 @@
+{"description":"A serrated sword with a few hidden surprises.","shortdescription":"Bane of the Gods","itemName":"sb_humantier6sbroadsword","definition":["colors/t6s","broadswords/t6s"],"itemTags":["weapon","melee","broadsword","upgradeableWeapon"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

@@ -1,0 +1,6 @@
+{
+  "input" : ["milk","sb_liquidcoffee","glasscoffeemug"],
+  "output" : "flatwhite",
+  "groups" : ["craftingfood","drinks","coffee","sb_healing","sb_energy","sb_energyregen","all"],
+  "collectables" : {"cooking":"flatwhite"}
+}

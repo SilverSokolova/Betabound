@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_refinedrubium",6],["durasteelbar",4],"scorchedcore"],
+  "output" : "sb_glitchtier5mspear",
+  "groups" : ["craftingseparator","weapons","all"]
+}

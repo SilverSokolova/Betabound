@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_aviantier2hammer",
+  "description": "A brick on a fancier stick.",
+  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "definition": "hammers/t2",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Brick-on-a-Stick Prime"
+}

@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_glitchtier4dagger",
+  "description": "A small, maneuverable dagger.",
+  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "definition": "daggers/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "dieOS"
+}

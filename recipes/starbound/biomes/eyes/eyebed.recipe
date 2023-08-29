@@ -1,0 +1,5 @@
+{
+  "input" : [["eyepiles",50],["goldbar",2],["leather",3]],
+  "output" : "sb_eyebed",
+  "groups" : ["craftingfurniture","beds","objects","all"]
+}

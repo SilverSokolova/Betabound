@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/dropPools","inverse":true},{"op":"add","path":"/dropPools","value":[]}],
+[{"op":"add","path":"/dropPools/-","value":"sb_evilknightlordTreasure"}]
+]

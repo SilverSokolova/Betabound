@@ -1,0 +1,18 @@
+{
+  "itemName" : "sb_meatwich",
+  "price" : 280,
+  "foodValue" : 55,
+  "tooltipKind" : "sb_object4",
+  "rarity" : "Rare",
+  "inventoryIcon" : "meatwich.png",
+  "category" : "preparedFood",
+  "description" : "Chunks of meat sandwiched between more chunks of meat. Meaty!",
+  "effects" : [[
+	{"effect":"maxhealthscalingboostfood","duration":495},
+	{"effect":"sb_health","duration":30},
+	"sb_foodheal190"
+  ]],
+  "shortdescription" : "Meatwich",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"]
+}

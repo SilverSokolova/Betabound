@@ -1,0 +1,5 @@
+{
+  "input" : [["tungstenbar",2],"copperbar"],
+  "output" : "sb_humantier2dagger",
+  "groups" : ["craftinganvil","weapons","all"]
+}

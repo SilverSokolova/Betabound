@@ -1,0 +1,5 @@
+{
+  "input" : [["eyepiles",40]],//monsterplating
+  "output" : "sb_eyetable",
+  "groups" : ["craftingfurniture","decoration","objects","all"]
+}

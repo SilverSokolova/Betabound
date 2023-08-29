@@ -1,0 +1,14 @@
+{
+  "name" : "sb_vamp",
+  "type" : "head",
+  "icon" : "/tech/starbound/vamp.png",
+  "scripts" : [],
+  "sb_effect" : ["sb_vamptech",{"stat":"maxHealth","effectiveMultiplier":0.75}],
+  "sb_suitImage" : "?replace;73daff=f84646;27abff=f72929;117ee4=db0808;1f45d4=bd0707;002b72=9f0606;001522=810505",
+  "rarity" : "Rare",
+  "tooltipKind" : "sb_object4",
+  "description" : "Provides the wearer with the ability to restore health by attacking, at the cost of a maximum health reduction.",
+  "shortDescription" : "Vampiric",
+
+  "percentage" : 3
+}

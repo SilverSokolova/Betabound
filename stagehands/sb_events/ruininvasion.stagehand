@@ -1,0 +1,10 @@
+{
+  "type" : "sb_ruininvasion",
+
+  "scripts" : [
+    "/stagehands/sb_events/ruininvasion.lua"
+  ],
+  "scriptDelta" : 10,
+
+  "portalBounds" : [-8.0, -8.0, 8.0, 8.0]
+}

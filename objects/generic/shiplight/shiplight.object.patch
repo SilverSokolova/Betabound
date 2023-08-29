@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/shortdescription","value":"Ship Light"},{"op":"replace","path":"/shortdescription","value":"Small Ship Light"}]
+]

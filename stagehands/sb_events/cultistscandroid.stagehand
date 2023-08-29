@@ -1,0 +1,13 @@
+{
+  "type" : "sb_cultistscandroid",
+
+  "scripts" : [
+    "/stagehands/sb_events/spawnmonster.lua"
+  ],
+  "scriptDelta" : 10,
+
+  "requireOutOfSight" : false,
+
+  "monsterType" : "cultistscandroid",
+  "monsterBounds" : [-1.5, -1.5, 1.5, 1.5]
+}

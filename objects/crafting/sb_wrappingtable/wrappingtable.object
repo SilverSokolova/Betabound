@@ -1,0 +1,39 @@
+{
+  "objectName" : "sb_wrappingtable",
+  "colonyTags" : ["crafting"],
+  "rarity" : "uncommon",
+  "description" : "This table can be used to wrap multiple items with empty parcels!",
+  "shortdescription" : "^orange;Wrapping Table^reset;",
+  "category" : "Wrap ALL the gifts!",
+  "race" : "generic",
+  "tooltipKind" : "sb_object",
+  "price" : 65,
+  "tooltipFields" : {"subtitle":"Crafting Station"},
+  "objectType" : "container",
+
+  "apexDescription" : "A basic table.",
+  "avianDescription" : "It's a table.",
+  "floranDescription" : "Floran stand on table!",
+  "glitchDescription" : "Statement. A table.",
+  "humanDescription" : "It's just a table.",
+  "hylotlDescription" : "A crude and simplistic table.",
+  "novakidDescription" : "A table just waitin' for someone to bring a deck of cards!",
+
+  "slotCount" : 7,
+  "uiConfig" : "/interface/sb_objectcrafting/wrapping.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wrappingtable.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : ["bottom"]
+    }
+  ]
+}

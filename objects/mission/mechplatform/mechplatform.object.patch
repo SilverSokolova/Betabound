@@ -1,0 +1,10 @@
+[
+[{"op":"test","path":"/health","inverse":true},{"op":"add","path":"/health","value":10}],
+[{"op":"test","path":"/rooting","inverse":true},{"op":"add","path":"/rooting","value":true}],
+[{"op":"test","path":"/printable","inverse":true},{"op":"add","path":"/printable","value":false}],//only disable printing if not enabled
+[{"op":"test","path":"/rarity","value":"Uncommon"},{"op":"add","path":"/rarity","value":"Legendary"}],
+[{"op":"test","path":"/breakDropPool","inverse":true},{"op":"add","path":"/breakDropPool","value":"remoteteleporter"}],
+[{"op":"test","path":"/category","value":"decorative"},{"op":"replace","path":"/category","value":"other"}],
+[{"op":"test","path":"/price","value":110},{"op":"replace","path":"/price","value":3000}],
+[{"op":"test","path":"/description","value":"A teleportation platform that summons a player's mech."},{"op":"replace","path":"/description","value":"A teleportation platform that summons a personal mech.\n^red;Destroyed when broken."}]
+]

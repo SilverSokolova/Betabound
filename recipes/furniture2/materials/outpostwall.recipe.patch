@@ -1,0 +1,12 @@
+[
+  [
+    {"op":"test","path":"/input/0/item","value":"concretematerial"},
+    {"op":"test","path":"/input/1","inverse":true},
+    {"op":"replace","path":"/input","value":[
+      {"item":"clay","count":1},
+      {"item":"sand2","count":1},
+      {"item":"liquidwater","count":1}
+    ]}
+  ],
+  [{"op":"replace","path":"/output/count","value":20}]
+]

@@ -1,0 +1,2 @@
+[[{"op":"add","path":"/baseParameters/scripts/-","value":"/scripts/companions/sb_capturable.lua"}],
+[{"op":"test","path":"/relocatable","inverse":true},{"op":"add","path":"/relocatable","value":true}]]

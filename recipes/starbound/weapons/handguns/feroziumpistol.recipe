@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_feroziumcompound",4]],
+  "output" : "sb_feroziumpistol",
+  "groups" : ["craftingaccelerator","weapons","all"]
+}

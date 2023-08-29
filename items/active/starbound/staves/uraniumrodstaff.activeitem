@@ -1,0 +1,82 @@
+{
+  "itemName" : "sb_uraniumrodstaff",
+  "definition" : "staff",
+  "itemTags" : ["weapon","staff","upgradeableWeapon"],
+  "tags" : {"<staff>" : "uraniumrod", "<glow>" : "uraniumglow"},
+
+  "description" : "Sometimes a simple fireball just isn't enough.",
+  "shortdescription" : "Uranium Rod Staff",
+  "tooltipFields" : {"damageKindImage":"/interface/sb_tooltips/poisonthrower.png"},
+  "fuelAmount" : 50,
+
+  "animationCustom" : {
+    "lights":{"glow":{"active":true,"color":[9,186,9],"position":[0,0]}},
+    "animatedParts": {
+      "parts" : {
+	"chargeEffect" : {
+	  "properties" : {
+	    "offset" : [-0.15, 1]
+	  }
+	},
+	"staff" : {
+	  "properties" : {
+	    "fullbright" : true
+	  }
+	}
+      }
+    }
+  },
+
+  "elementalType" : "poison",
+  "altAbilityType" : "elementorb",
+
+  "primaryAbility" : {
+    "projectileType" : "invisibleprojectile",
+    "projectileParameters" : {
+      "baseDamage" : 8,
+      "timeToLive" : 0,
+      "actionOnReap" : [
+	{
+	  "action" : "config",
+	  "file" : "/projectiles/explosions/regularexplosion2/poisonexplosionknockback.config"
+	},
+	{
+	  "action" : "projectile",
+	  "type" : "gas2",
+	  "inheritDamageFactor" : 0.2,
+	  "angle" : 0
+	},
+	{
+	  "action" : "projectile",
+	  "type" : "gas2",
+	  "inheritDamageFactor" : 0.2,
+	  "angle" : 90
+	},
+	{
+	  "action" : "projectile",
+	  "type" : "gas2",
+	  "inheritDamageFactor" : 0.2,
+	  "angle" : 158
+	},
+	{
+	  "action" : "projectile",
+	  "type" : "gas2",
+	  "inheritDamageFactor" : 0.2,
+	  "angle" : 225
+	},
+	{
+	  "action" : "projectile",
+	  "type" : "gas2",
+	  "inheritDamageFactor" : 0.2,
+	  "angle" : 292
+	}
+      ]
+    }
+  },
+  "altAbility" : {
+    "name" : "Focused Exposure",
+    "projectileType" : "sb_uraniumorb"
+  },
+
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

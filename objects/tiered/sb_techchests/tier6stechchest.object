@@ -1,0 +1,42 @@
+{
+  "objectName": "sb_tier6stechchest",
+  "colonyTags": ["storage"],
+  "printable": false,
+  "rarity": "legendary",
+  "objectType": "container",
+  "tooltipKind": "sb_container",
+  "builder": "/items/buildscripts/starbound/buildcontainer.lua",
+  "scripts": ["/scripts/sb_container.lua"],
+  "category": "storage",
+  "price": 100,
+  "description": "A chest with a bright glowing marking.",
+  "shortdescription": "Impervium Tech Chest",
+  "race": "generic",
+
+  "apexDescription": "A chest for storing tech.",
+  "avianDescription": "A solid tech chest. It glows.",
+  "floranDescription": "Glowy box hold Floran thingsss.",
+  "glitchDescription": "Resolute. I endeavour to fill this chest.",
+  "humanDescription": "A basic, dependable tech chest.",
+  "hylotlDescription": "A chest in which I can store tech.",
+  "novakidDescription": "Ooh, I bet it's chock full o' valuable technology.",
+
+  "inventoryIcon": "icons.png:9",
+  "orientations": [{
+      "dualImage": "tier6stechchest.png:<color>.<key>",
+      "imagePosition": [-8, 0],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ],
+
+  "openSounds": ["/sfx/objects/chest_small_open.ogg"],
+  "closeSounds": ["/sfx/objects/chest_small_close.ogg"],
+  "slotCount": 32,
+  "tooltipFields": {
+    "slotCountLabel": "Holds 32 Items"
+  },
+  "uiConfig": "/interface/sb_chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "autoCloseCooldown": 3600
+}

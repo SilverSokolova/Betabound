@@ -1,0 +1,21 @@
+[
+//  [{"op":"replace","path":"/newItemAnimation/frames","value":"/interface/sb_inventory/itemoverlay.png:<index>"},
+//  {"op":"replace","path":"/newItemAnimation/loops","value":1},
+//  {"op":"replace","path":"/newItemAnimation/animationCycle","value":1},
+//  {"op":"replace","path":"/newItemAnimation/frameNumber","value":12}],
+
+[
+  {"op":"test","path":"/mainBar/collections/open","value":"/interface/collections.png:open"},
+  {"op":"replace","path":"/mainBar/collections/open","value":"/interface/collections.png:open?replace;297e17=7721a0;1a510e=611f88"}
+],
+
+[
+  {"op":"test","path":"/mainBar/collections/openHover","value":"/interface/collections.png:openHover"},
+  {"op":"replace","path":"/mainBar/collections/openHover","value":"/interface/collections.png:openHover?replace;3ea721=912fca;297e17=7721a0"}
+],
+
+[{"op":"test","path":"/statusIconPos/1","value":50},{"op":"replace","path":"/statusIconPos/1","value":53}]
+//,[{"op":"test","path":"/statusIconDarkenImage","value":"/interface/statuses/darken.png"},{"op":"replace","path":"/statusIconDarkenImage","value":"/interface/statuses/darken.png?scalenearest=1.4"}],
+
+//[{"op":"test","path":"/itemCountRightAnchor/0","value":20},{"op":"replace","path":"/itemCountRightAnchor/0","value":19}]
+]

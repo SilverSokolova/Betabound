@@ -1,0 +1,34 @@
+{
+  "id" : "sb_outpost0.gearup",
+  "prerequisites" : [],//"gaterepair"
+  "title" : "^orange;Gear Up",
+  "text" : "If you're serious about exploring the universe, you're going to need better equipment. Tell you what, ^#0f0;if you bring me a ^orange;wooden tool table,^reset; I'll upgrade it to an ^orange;iron tool table ^reset;and ^#0f0;show you how to make one yourself!^reset; Head to the teleporter shop and use their teleporter to help you go get it faster.",
+  "completionText" : "Great! Here's the iron tool table - And now you can make your own!",// If you're interested, I have another task you might be able to help with.",
+  "speaker" : "questGiver",
+  "moneyRange" : [0, 0],
+  "rewards" : [["sb_ironcraftingtable",["ironbar",5],"rewardbag"]],
+  "canBeAbandoned" : true,
+  "questGiverIndicator" : "sb_mainquestgiver",
+  "questReceiverIndicator" : "sb_mainquestreceiver",
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquest.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {"portraits" : {"default" : "questGiver"},
+    "requireTurnIn" : true,
+    "turnInDescription" : "Speak to ^orange;the human scientist^reset; at the ^orange;outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "sb_woodencraftingtable",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}

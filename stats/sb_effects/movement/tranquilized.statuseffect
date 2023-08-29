@@ -1,0 +1,8 @@
+{
+  "name" : "sb_tranquilized",
+  "effectConfig" : {"color":"a2ff2a","fade":"0.08"},
+  "defaultDuration" : 15,
+  "scripts" : ["color.lua","tranquilized.lua"],
+  "label" : "^shadow,#a2ff2a;Tranquilized",
+  "icon" : "/interface/statuses/tranquilizer.png"
+}

@@ -1,0 +1,1 @@
+{"description":"An ominous dagger.","shortdescription":"Fruitslicer","itemName":"sb_apextier6mdagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t6m","daggers/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

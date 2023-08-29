@@ -1,0 +1,151 @@
+{
+  "itemName": "sb_thornyneedler",
+  "maxStack": 1,
+  "rarity": "rare",
+  "muzzleOffset": [1.75, 0.125],
+  "baseOffset": [-1.25, 0.375],
+  "price": 620,
+  "tooltipKind": "sb_gun2",
+  "description": "Fires a rapid barrage of thorns.",
+  "shortdescription": "Thorny Needler",
+  "category": "assaultRifle",
+  "twoHanded": true,
+  "sb_waBan": true,
+  "level": 1,
+  "itemTags": ["weapon", "ranged", "assaultrifle", "needler", "floran", "upgradeableWeapon"],
+  "tooltipFields": {
+    "subtitle": "Thorny Needler"
+  },
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "inventoryIcon": "needler.png",
+  "animationParts": {
+    "muzzleFlash": "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.png",
+    "butt": "needler.png"
+  },
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "butt": {
+          "properties": {
+            "offset": [0.15, 0.25]
+          }
+        }
+      }
+    },
+    "sounds": {
+      "fire": ["/sfx/gun/needler1.ogg"]
+    }
+  },
+
+  "elementalType": "physical",
+
+  "primaryAbility": {
+    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
+    "class": "GunFire",
+    "projectileType": ["needlerthorns", "thorns"],
+    "projectileParameters": {
+      "speed": 70,
+      "power": 5
+    },
+    "fireTime": [0.08, 0.16],
+    "fireType": "auto",
+    "baseDps": [8.25, 12.75],
+    "energyUsage" : [28.5, 31.5],
+    "inaccuracy": 0.025,
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "fire": {},
+      "cooldown": {
+        "duration": 0.11,
+        "recoil": true,
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+
+        "allowRotate": true,
+        "allowFlip": true
+      }
+    }
+  },
+
+  "altAbility": {
+    "name": "Thorn Grenade",
+    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
+    "class": "GunFire",
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "fire": {},
+      "cooldown": {
+        "duration": 0.15,
+        "recoil": true,
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+
+        "allowRotate": true,
+        "allowFlip": true
+      }
+    },
+    "projectileCount": 1,
+    "fireTime": 1.5,
+    "baseDps": 5.25,
+    "energyUsage": 19.75,
+    "inaccuracy": 0.01,
+    "fireType": "auto",
+    "projectileType": "thorngrenade",
+    "projectileParameters": {
+      "speed": 60,
+      "actionOnReap": [{
+          "action": "config",
+          "file": "/projectiles/explosions/thorngrenadeexplosion/thorngrenadeexplosion.config"
+        }, {
+          "action": "projectile",
+          "type": "fruitthorn",
+          "inheritDamageFactor": 0.2,
+          "angle": 0
+        }, {
+          "action": "projectile",
+          "type": "fruitthorn",
+          "inheritDamageFactor": 0.2,
+          "angle": 90
+        }, {
+          "action": "projectile",
+          "type": "fruitthorn",
+          "inheritDamageFactor": 0.2,
+          "angle": 158
+        }, {
+          "action": "projectile",
+          "type": "fruitthorn",
+          "inheritDamageFactor": 0.2,
+          "angle": 225
+        }, {
+          "action": "projectile",
+          "type": "fruitthorn",
+          "inheritDamageFactor": 0.2,
+          "angle": 292
+        }
+      ]
+    }
+  },
+
+  "builderConfig": [{
+      "nameGenerator": "needlernames.config:nameGen"
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

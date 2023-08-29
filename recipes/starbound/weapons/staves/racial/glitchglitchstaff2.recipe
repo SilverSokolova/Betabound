@@ -1,0 +1,16 @@
+{
+  "input" : [
+	["sb_glitchglitchstaff1",0],
+	["smallbattery",0,{"shortdescription":"44-84773|2\\|/","inventoryIcon":"smallbattery.png?flipxy?hueshift=8?scale=1.1"}],
+	["syntheticmaterial",0,{"shortdescription":"{\"itemName\":\"syntheticmaterial\",\"price\":200,\"rarity\":\"Uncommon\",\"category\":\"craftingMaterial\",\"inventoryIcon\":\"syntheticmaterial.png\",\"description\":\"A square of synthetic material.\",\"shortdescription\":\"Synthetic Material\",\"itemTags\":[\"reagent\"]}","inventoryIcon":"syntheticmaterial.png?flipxy?hueshift=28?scale=0.9"}],
+	["logblock",0,{"shortdescription":"|_06","inventoryIcon":"logicon.png?replace;be9f55=a9a9a9;ab8f4d=8b8b8b;927040=6a6a6a;3d2614=121212;77552f=4e4e4e;5d3a1f=2f2f2f"}],
+	["sb_ceruliumcompound",12,{"shortdescription":"<3|2|_||_1|_||\\/\\/| >0|\\/\\/|90|_||\\||)","inventoryIcon":"sb_ceruliumcompound.png?flipxy"}],
+	["battery",1,{"inventoryIcon":"battery.png?scalenearest=3;1","shortdescription":"W i d e"}],
+	["beamaxe",0,{"shortdescription":"Your beamaxe.\nHand it over."}],
+	["sb_glitchglitchstaff2",0,{"inventoryIcon":"/monsters/critter/bunnycritter/body.png:idle.1","shortdescription":"^green;0/0"}],
+//	["perfectlygenericitem",0,{"rarity":"common","shortdescription":"/interface/windowconfig/playerinventory.config","inventoryIcon":"/interface/inventory.png"}],
+	["perfectlygenericitem",0,{"rarity":"common","shortdescription":"commonuncommonrarelegendaryessentialredgray","inventoryIcon":[{"position":[0,4],"image":"/interface/inventory/itemborderuncommon.png"},{"position":[4,0],"image":"/interface/inventory/itemborderrare.png"},{"position":[4,4],"image":"/interface/inventory/itemborderlegendary.png"},{"position":[4,-4],"image":"/interface/inventory/itemborderessential.png"},{"position":[-4,4],"image":"/interface/inventory/redborder.png"},{"position":[-4,-4],"image":"/interface/inventory/grayborder.png"},{"position":[-1,1],"image":"/interface/inventory/itembordercommon.png"}]}]
+  ],
+  "output" : "sb_glitchglitchstaff2",
+  "groups" : ["craftingmanipulator","weapons","all"]
+}

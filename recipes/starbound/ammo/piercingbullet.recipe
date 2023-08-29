@@ -1,0 +1,5 @@
+{
+  "input" : ["sharpenedclaw","sb_gunpowder","lead"],
+  "output" : ["sb_ammo",75,{"projectileType":"piercingbullet"}],
+  "groups" : ["sb_ammo","craftinganvil","all"]
+}

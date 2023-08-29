@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_glitchtier3axe",
+  "description": "A steel axe.",
+  "shortdescription": "Smitanium",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t3",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

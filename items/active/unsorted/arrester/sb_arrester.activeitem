@@ -1,0 +1,63 @@
+{
+  "itemName" : "sb_arrester",
+  "description" : "Used to freeze and incapacitate targets in their tracks.",
+  "shortdescription" : "Long Arm",
+  "level" : 1,
+  "price" : 2000,
+  "rarity" : "Legendary",
+  "tooltipKind" : "sb_object",
+  "category" : "tool",
+  "inventoryIcon" : [
+    {"image" : "longarm.png:front"},
+    {"image" : "longarm_fullbright.png:active.1"}
+  ],
+  "maxStack" : 1,
+  "twoHanded" : false,
+  "scripts" : ["sb_arrester.lua"],
+  "animationScripts" : ["arresteranimation.lua"],
+  "animation" : "arrester.animation",
+
+  "targetInnerRadius" : 1.5,
+  "targetOuterRadius" : 6,
+  "targetRange" : 30,
+  "increaseRate" : 35,
+  "decreaseRate" : 60,
+  "minArrestFactor" : 0.5,
+  "damageInterruptFactor" : 2,
+  "energyUsage" : 40,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true,
+      "twoHanded" : false
+    },
+    "active" : {
+      "armRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true,
+      "twoHanded" : false
+    },
+    "success" : {
+      "armRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true,
+      "twoHanded" : false,
+
+      "duration" : 1,
+      "transition" : "idle",
+      "transitionFunction" : "reset"
+    },
+    "failure" : {
+      "armRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true,
+      "twoHanded" : false,
+
+      "duration" : 1,
+      "transition" : "idle",
+      "transitionFunction" : "reset"
+    }
+  }
+}

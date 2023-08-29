@@ -1,0 +1,5 @@
+{
+  "input" : [["glass",10],["uraniumrod",10],["titaniumbar",10],["silverbar",10]],
+  "output" : "sb_scififurnace",
+  "groups" : ["sb_stations","all"]
+}

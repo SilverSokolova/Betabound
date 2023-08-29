@@ -1,0 +1,23 @@
+{
+  "itemName" : "sb_soup",
+  "price" : 160,
+  "foodValue" : 15,
+  "tooltipKind" : "sb_object",
+  "rarity" : "Common",
+  "sb_plateHide" : true,
+  "inventoryIcon" : "soup.png",
+  "category" : "preparedFood",
+  "effects" : [[
+	{"effect":"maxhealthscalingboostfood","duration":68},
+	{"effect":"nova","duration":68},
+	"sb_foodheal35"
+  ]],
+  "description" : "A steaming bowl of tomato soup.",
+  "shortdescription" : "Spicy Tomato Soup",
+  "rottedItem" : "sb_revoltingstew",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 2,
+  "emitters" : ["drinking"],
+  "handPosition" : [0, -2]
+}

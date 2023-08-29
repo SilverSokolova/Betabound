@@ -1,0 +1,37 @@
+{
+  "type" : "sb_crewmemberchemistgrey",
+  "baseType" : "crewmemberchemist",
+
+  "scriptConfig" : {
+    "crew" : {
+      "role" : {
+        "benefits" : [
+          {
+            // Ephemeral effects gained upon leaving the ship
+            "type" : "EphemeralEffect",
+            "effect" : "sb_greystim",
+            "duration" : 30
+          },
+          {
+            // Persistent effects are active while on the ship
+            "type" : "PersistentEffect",
+            "effect" : "sb_shipgreystim"
+          }
+        ]
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "chest" : [{"name" : "protectoratechest"}],
+            "legs" : [{"name" : "protectoratepants"}],
+            "primary" : ["sb_greystim"],
+            "sheathedprimary" : ["npcpistol", "npcshortsword"]
+          }
+        ] ]
+    ]
+  }
+}

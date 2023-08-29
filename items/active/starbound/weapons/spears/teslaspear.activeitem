@@ -1,0 +1,76 @@
+{
+  "itemName" : "sb_teslaspear",
+  "level" : 1,
+  "fixedLevel" : false,
+  "price" : 800,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "sb_waBan" : true,
+  "tooltipKind" : "sb_sword",
+  "category" : "spear",
+  "shortdescription" : "Tesla Spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear","upgradeableWeapon"],
+  "animation" : "/items/active/starbound/weapons/spear.animation",
+  "inventoryIcon" : "teslaspear.png",
+  "animationParts" : {
+    "blade" : "teslaspear.png",
+    "handle" : ""
+  },
+
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+	"swoosh" : {
+	  "partStates" : {
+	    "swoosh" : {
+	      "fire" : {
+		"properties" : {
+		  "offset" : [4,0.25],
+		  "image" : "teslaspearswoosh.png:<frame>"
+		}
+	      }
+	    }
+	  }
+	}
+      }
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "electric",
+  "primaryAbilityType" : "sb_spear",
+  "primaryAbility" : {
+    "damageConfig" : {
+      "damageSourceKind" : "electricspear",
+      "statusEffects" : ["electrified"]
+    },
+    "projectileType" : "teslabolt",
+    "projectileOffset" : [5, 1],
+    "fireTime" : [0.5,0.7],
+    "baseDps" : [8.5,12.5],
+    "stances" : {
+      "idle" : {
+        "allowFlip" : true,
+        "allowRotate" : true,
+        "weaponOffset" : [0, 0.95]
+      },
+      "fire" : {
+        "duration" : 0.24
+      },
+      "windup" : {
+        "duration" : 0.2,
+        "weaponOffset" : [0, 0.95]
+      }
+    }
+  },
+  "builderConfig" : [{
+    "nameGenerator" : "teslaspearnames.config:nameGen",
+    "altAbilities" : [
+      "blinkexplosion",
+      "barrier",
+      "elementalspin"
+    ]
+  }],
+  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+}

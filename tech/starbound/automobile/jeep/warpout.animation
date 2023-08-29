@@ -1,0 +1,7 @@
+{
+  "frames" : "warp.png",
+  "variants" : 2,
+  "frameNumber" : 16,
+  "animationCycle" : 0.33,
+  "offset" : [0, 0]
+}

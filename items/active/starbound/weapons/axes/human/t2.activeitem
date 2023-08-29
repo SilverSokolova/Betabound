@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_humantier2axe",
+  "description": "A good axe for mountain climbing.",
+  "shortdescription": "Ice Axe",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t2",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

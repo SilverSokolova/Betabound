@@ -1,0 +1,6 @@
+[[
+{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
+{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}
+],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_diamond_repair"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"upgrademodule"}]]

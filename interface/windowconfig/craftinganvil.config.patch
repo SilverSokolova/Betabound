@@ -1,0 +1,17 @@
+[
+	[{"op":"test","path":"/paneLayout"},
+	{"op":"test","path":"/paneLayout/categories"},
+	{"op":"test","path":"/paneLayout/categories/buttons"},
+	{"op":"test","path":"/paneLayout/categories/buttons/1"},
+	{"op":"test","path":"/paneLayout/categories/buttons/1/data"},
+	{"op":"test","path":"/paneLayout/categories/buttons/1/data/filter"},
+	{"op":"add","path":"/paneLayout/categories/buttons/1/data/filter/-","value":"sb_shields"}],
+
+	[{"op":"test","path":"/paneLayout"},
+	{"op":"test","path":"/paneLayout/categories"},
+	{"op":"test","path":"/paneLayout/categories/buttons"},
+	{"op":"test","path":"/paneLayout/categories/buttons/2"},
+	{"op":"test","path":"/paneLayout/categories/buttons/2/data"},
+	{"op":"test","path":"/paneLayout/categories/buttons/2/data/filter"},
+	{"op":"add","path":"/paneLayout/categories/buttons/2/data/filter/-","value":"sb_ammo"}]
+]

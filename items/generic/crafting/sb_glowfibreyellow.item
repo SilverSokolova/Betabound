@@ -1,0 +1,11 @@
+{
+  "itemName" : "sb_glowfibreyellow",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "tooltipKind" : "sb_object",
+  "itemTags" : ["reagent"],
+  "inventoryIcon" : "sb_glowfibreyellow.png",
+  "description" : "Bulbous, bioluminescent plant fibres. They glow yellow!",
+  "shortdescription" : "Yellow Glow Fibre",
+  "learnBlueprintsOnPickup" : ["glowfibre","glowflowerlamp","glowstickyellow"]
+}

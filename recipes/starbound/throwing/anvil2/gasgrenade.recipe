@@ -1,0 +1,5 @@
+{
+  "input" : [["volatilepowder",4],"venomsample","sb_steelbar"],
+  "output" : ["sb_gasgrenade"],
+  "groups" : ["craftinganvil2","consumables","all"]
+}

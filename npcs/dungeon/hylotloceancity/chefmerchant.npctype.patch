@@ -1,0 +1,10 @@
+[
+[{"op":"test","path":"/scriptConfig/merchant/categories/default"},{"op":"add","path":"/scriptConfig/merchant/categories/default/-","value":""}],
+[{"op":"test","path":"/scriptConfig/merchant/categories/human"},{"op":"add","path":"/scriptConfig/merchant/categories/human/-","value":""}],
+[{"op":"test","path":"/scriptConfig/merchant/categories/apex"},{"op":"add","path":"/scriptConfig/merchant/categories/apex/-","value":""}],
+[{"op":"test","path":"/scriptConfig/merchant/categories/hylotl"},{"op":"add","path":"/scriptConfig/merchant/categories/hylotl/-","value":""}],
+[{"op":"test","path":"/scriptConfig/merchant/categories/floran"},{"op":"add","path":"/scriptConfig/merchant/categories/floran/-","value":""}],
+[{"op":"test","path":"/scriptConfig/merchant/categories/glitch"},{"op":"add","path":"/scriptConfig/merchant/categories/glitch/-","value":""}],
+[{"op":"test","path":"/scriptConfig/merchant/categories/avian"},{"op":"add","path":"/scriptConfig/merchant/categories/avian/-","value":""}],
+[{"op":"test","path":"/scriptConfig/merchant/categories/novakid"},{"op":"add","path":"/scriptConfig/merchant/categories/novakid/-","value":""}]
+]

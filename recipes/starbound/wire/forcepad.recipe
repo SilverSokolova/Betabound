@@ -1,0 +1,5 @@
+{
+  "input" : ["platinumbar","smallbattery"],
+  "output" : "sb_forcepad",
+  "groups" : ["craftingwiring","mechanics","all"]
+}

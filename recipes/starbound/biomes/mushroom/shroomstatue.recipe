@@ -1,0 +1,5 @@
+{
+  "input" : [["cobblestonematerial",150]],
+  "output" : "shroomstatue",
+  "groups" : ["craftingfurniture","decoration","all"]
+}

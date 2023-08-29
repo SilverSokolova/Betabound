@@ -1,0 +1,32 @@
+{
+  "id" : "sb_avianmercenary4.gearup",
+  "prerequisites" : [ "hylotl_mission2", "sb_hylotlperformer3.gearup", "sb_bountyhunter3.gearup", "sb_avianexplorer3.gearup" ],
+  "title" : "^green;Golden Ducky",
+  "text" : "Hello. Have you ever experienced Avian craftmanship? Our temples are remarkable, but our artisans are adept in producing beautiful smaller trinkets too. ^green;If you can obtain a ^orange;golden ducky ^green;statue for me I'll give you something good in return.",
+  "completionText" : "Beautiful craftmanship, just beautiful. This is the 500th golden ducky I've obtained, my collection is complete!",
+  "speaker" : "questGiver",
+  "moneyRange" : [0, 0],
+  "rewards" : [[["techcard",3],["manipulatormodule",3],["rewardbag",1,{"treasure":{"level":5}}]]],
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquest.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {"default" : "questGiver"},
+    "requireTurnIn" : true,
+    "turnInDescription" : "Speak to ^orange;the Avian mercenary^reset; at the ^orange;outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "goldenducky",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}

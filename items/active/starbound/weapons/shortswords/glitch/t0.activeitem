@@ -1,0 +1,8 @@
+{
+  "itemName" : "sb_glitchtier0shortsword",
+  "definition" : "shortswords/t0",
+  "itemTags" : ["weapon","melee","shortsword"],
+  "description" : "An obsolete build of Glitch shortsword.",
+  "shortdescription" : "Beta 0.5",
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "sb_unrefinedwood",
+  "price" : 3,
+  "tooltipKind" : "sb_object4",
+  "rarity" : "Common",
+  "category" : "fuel",
+  "fuelAmount" : 3,
+  "itemTags" : ["reagent"],
+  "inventoryIcon" : "sb_unrefinedwood.png",
+  "description" : "The concentration of combustible materials in this log is comparable to that of fossil fuels.",
+  "shortdescription" : "Fuelwood"
+}

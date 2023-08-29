@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/inventoryIcon","value":"capsulebigicon.png"},{"op":"replace","path":"/inventoryIcon","value":"smallclocktower.png?border=1;000"}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":0}],
+[{"op":"replace","path":"/tooltipKind","value":"sb_object"}]
+]

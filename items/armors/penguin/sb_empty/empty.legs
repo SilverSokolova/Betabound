@@ -1,0 +1,16 @@
+{
+  "itemName" : "sb_emptylegs",
+  "inventoryIcon" : "icons.png:pants",
+  "description" : "An empty pair of pants or such.",
+  "shortdescription" : "Empty Pants",
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "tooltipKind" : "sb_armor",
+  "price" : 50,
+  "category" : "legwear",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+ 
+  "builder" : "/items/buildscripts/starbound/buildarmor.lua"
+}

@@ -1,0 +1,5 @@
+{
+  "input" : [["refinedviolium",3],["durasteelbar",2]],
+  "output" : "sb_florantier5saxe",
+  "groups" : ["craftingseparator","weapons","all"]
+}

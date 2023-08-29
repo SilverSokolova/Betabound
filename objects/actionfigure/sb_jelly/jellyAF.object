@@ -1,0 +1,23 @@
+{
+  "objectName" : "sb_jellyaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "tooltipKind" : "sb_object",
+  "category" : "actionFigure",
+  "collectablesOnPickup" : { "actionfigures" : "sb_jellyaf" },
+  "price" : 5000,
+  "printable" : false,
+  "description" : "The label reads, \"Everyone knows peanut butter attracts jelly...\"",
+  "shortdescription" : "Jelly Figurine",
+
+
+  "inventoryIcon" : "jellyAF.png",
+  "orientations" : [
+    {
+      "dualImage" : "jellyAF.png",
+      "imagePosition" : [-4, 0],
+      "spaces" : [[0,0],[1,0],[0,1],[1,1]],
+      "anchors" : ["bottom"]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "input" : ["wheat","rice","liquidwater"],
+  "output" : "sb_whiskeyflask",
+  "groups" : ["craftingfood","drinks","sb_other","sb_power","sb_healing","all"],
+  "collectables" : {"cooking":"sb_whiskeyflask"}
+}

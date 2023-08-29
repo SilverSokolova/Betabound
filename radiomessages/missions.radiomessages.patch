@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/tentaclemission-arrived3/portraitImage","value":"/interface/chatbubbles/esthertalk.png:<frame>"},
+{"op":"replace","path":"/tentaclemission-arrived3/portraitImage","value":"/interface/chatbubbles/lana.png:<frame>"}],
+[{"op":"test","path":"/tentaclemission-arrived2/portraitImage","value":"/interface/chatbubbles/lana.png:<frame>"},
+{"op":"replace","path":"/tentaclemission-arrived2/portraitImage","value":"/interface/chatbubbles/esthertalk.png:<frame>"}]
+]

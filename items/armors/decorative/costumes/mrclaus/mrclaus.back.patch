@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/tooltipKind","value":"back"},{"op":"replace","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/price","value":50},{"op":"replace","path":"/price","value":500}]
+]

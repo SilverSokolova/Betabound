@@ -1,0 +1,17 @@
+{
+  "itemName" : "sb_techupgrade1",
+  "price" : 325,
+  "rarity" : "essential",
+  "tooltipFields" : {"rarityLabel" : "Critical", "subtitle" : "Tech Upgrade"},
+  "tooltipKind" : "sb_object",
+  "shortdescription" : "^#ff0;Metalworking Upgrade^reset;",
+  "description" : "Unlocks the ability to create steel, an alloy made with iron at an ^orange;Industrial Furnace^reset;.",
+  "category" : "upgradeComponent",
+  "animation" : "sb_shipupgrade.animation",
+  "inventoryIcon" : "sb_techupgrade1.png",
+  "scripts" : ["sb_techupgrade.lua"],
+  "recipes" : ["sb_steelbar"],
+  "animationCustom" : {
+    "sounds" : {"success":["/sfx/interface/item_holster.ogg"]}
+  }
+}

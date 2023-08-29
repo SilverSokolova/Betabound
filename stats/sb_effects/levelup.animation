@@ -1,0 +1,10 @@
+{
+  "sounds" : {"beep" : ["/sfx/statuseffects/powerup.ogg"]},
+  "particleEmitters" : {
+    "message" : {
+      "active" : true,
+      "emissionRate" : 0,
+      "particles" : [{"particle" : "sb_monsterlevelup"}]
+    }
+  }
+}

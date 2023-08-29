@@ -1,0 +1,5 @@
+{
+  "input" : ["sb_feroziumbar"],
+  "output" : "sb_tier6atechchest",
+  "groups" : ["craftingfurniture2","storage","all"]
+}

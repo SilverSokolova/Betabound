@@ -1,0 +1,32 @@
+{
+  "objectName" : "sb_woodenwallfan",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 15,
+  "description" : "Its rotation is strangely hypnotic.",
+  "shortdescription" : "Wooden Wall Fan",
+  "race" : "generic",
+  "tooltipKind" : "sb_object",
+
+  "apexDescription" : "A wooden fan.",
+  "avianDescription" : "Air blows through.",
+  "floranDescription" : "Spinner makess air cold.",
+  "glitchDescription" : "Neutral. Wood is a poor choice of material for a fan.",
+  "humanDescription" : "A wooden fan.",
+  "hylotlDescription" : "A fan made of wood.",
+  "novakidDescription" : "I could watch this just about all day!",
+
+  "inventoryIcon" : "woodenwallfanicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "woodenwallfan.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 2,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+
+  ]
+}

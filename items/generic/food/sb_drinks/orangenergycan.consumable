@@ -1,0 +1,19 @@
+{
+  "itemName" : "sb_orangenergycan",
+  "price" : 40,
+  "effects" : [[
+	{"effect":"maxhealthscalingboostfood","duration":90},
+	{"effect":"runboostfood","duration":90},
+	{"effect":"sb_health","duration":10}
+  ]],
+  "tooltipKind" : "food",
+  "rarity" : "Common",
+  "inventoryIcon" : "orangenergycan.png",
+  "sb_plateImage" : true,
+  "sb_plateHide" : true,
+  "category" : "drink",
+  "description" : "A healthy, revitalizing energy drink made from oranges.",
+  "shortdescription" : "Orangenergy Can",
+  "emitters" : ["drinking"],
+  "builder" : "/items/buildscripts/starbound/buildfood.lua"
+}

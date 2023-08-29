@@ -1,0 +1,11 @@
+{
+  "itemName" : "sb_ceruliumbar",
+  "price" : 30,
+  "tooltipKind" : "sb_object4",
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "itemTags" : ["reagent"],
+  "inventoryIcon" : "sb_ceruliumbar.png",
+  "description" : "This bar emits an incredible amount of energy, and is primarily used for crafting wave furniture.",
+  "shortdescription" : "Cerulium Bar"
+}

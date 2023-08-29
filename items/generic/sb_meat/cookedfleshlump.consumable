@@ -1,0 +1,15 @@
+{
+  "itemName" : "sb_cookedfleshlump",
+  "rarity" : "Common",
+  "price" : 25,
+  "foodValue" : 20,
+  "tooltipKind" : "sb_object",
+  "category" : "preparedFood",
+  "inventoryIcon" : "cookedfleshlump.png",
+  "description" : "It's a cooked hunk of flesh of questionable origin.",
+  "shortdescription" : "Cooked Flesh Lump",
+  "effects" : [["sb_foodheal50"]],
+  "learnBlueprintsOnPickup" : ["sb_meatchunks"],
+  "handPosition" : [0, -4],
+  "builder" : "/items/buildscripts/starbound/buildfood.lua"
+}

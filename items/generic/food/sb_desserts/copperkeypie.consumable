@@ -1,0 +1,19 @@
+{
+  "itemName" : "sb_copperkeypie",
+  "price" : 400,
+  "foodValue" : 45,
+  "tooltipKind" : "sb_object",
+  "rarity" : "rare",
+  "category" : "preparedFood",
+  "effects" : [[
+	{"effect":"maxenergyscalingboostfood","duration":203},
+	{"effect":"electrified","duration":203},
+	"sb_foodheal145"
+  ]],
+  "inventoryIcon" : "copperkeypie.png",
+  "description" : "A kiwi pie with a bit of a coppery kick.",
+  "shortdescription" : "Copper Key Pie",
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 4
+}

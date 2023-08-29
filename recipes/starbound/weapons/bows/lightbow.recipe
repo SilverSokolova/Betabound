@@ -1,0 +1,5 @@
+{
+  "input" : [["titaniumbar",6],"string",["glowfibre",10]],
+  "output" : "lightbow",
+  "groups" : ["craftinganvil2","weapons","all"]
+}

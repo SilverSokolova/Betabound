@@ -1,0 +1,30 @@
+{
+  "itemName" : "sb_floranstarter",
+  "definition" : "starter",
+  "itemTags" : ["weapon","melee","broadsword"],
+  "description" : "It looks like its been chewed on.",
+  "shortdescription" : "Broken Venus Sword",
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "animationCustoEEEm" : {
+    "animatedParts" : {
+      "parts" : {
+        "swoosh" : {
+          "partStates" : {
+            "swoosh" : {
+              "fire2" : {
+                "properties" : {
+                  "offset" : [5,0]
+                }
+              },
+              "fire3" : {
+                "properties" : {
+                  "offset" : [3.5,-0.5]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

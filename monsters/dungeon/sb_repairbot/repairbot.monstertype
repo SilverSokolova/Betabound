@@ -1,0 +1,165 @@
+{
+  "type" : "sb_repairbot",
+  "shortdescription" : "Repair Bot",
+  "description" : "A mass-produced welding unit commonly used by the USCM.",
+
+  "categories" : ["sb_repairbot"],
+  "parts" : ["body"],
+
+  "animation" : "repairbot.animation",
+
+  "dropPools" : ["sb_repairbotTreasure"],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/scripts/sensors.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua",
+      "/scripts/companions/sb_capturable.lua",
+      "/monsters/dungeon/sb_repairbot/behavior.lua"
+    ],
+
+    "damageTeam" : 2,
+    "behavior" : "monster",
+
+    "facingMode" : "transformation",
+
+    "behaviorConfig" : {
+//which ones are unused? check after doing chesttrapper
+      "damageOnTouch" : true,
+      "hurtWaitForGround" : false,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 40,
+      "targetOutOfSightTime" : 5
+    },
+
+    "metaBoundBox" : [-1, -1.5, 1, 1],
+    "scale" : 1.0,
+
+    "touchDamage" : {
+      "poly" : [[0.5125, 2.5], [1.0125, 2],  [1.0125, -1], [0.5125, -1.5],  [-0.5125, -1.5], [-1.0125, -1],  [-1.0125, 2], [-0.5125, 2.5]],
+      "damage" : 12,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 20,
+      "statusEffects" : []
+    },
+
+    "movementSettings" : {
+      "collisionPoly" : [[0.5125, 2.5], [1.0125, 2],  [1.0125, -1], [0.5125, -1.5],  [-0.5125, -1.5], [-1.0125, -1],  [-1.0125, 2], [-0.5125, 2.5]],
+
+      "mass" : 1,
+      "walkSpeed" : 6,
+      "runSpeed" : 8
+    },
+
+    "knockoutTime" : 0.5,
+    "knockoutEffect" : "blink",
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "robotic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "sb_killCount" : {
+          "baseValue" : 0
+        },
+        "sb_level" : {
+          "baseValue" : 0
+        },
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 48
+        },
+        "protection" : {
+          "baseValue" : 0
+        },
+        "healthRegen" : {
+          "baseValue" : 0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1
+        },
+        "physicalResistance" : {
+          "baseValue" : 0
+        },
+        "fireResistance" : {
+          "baseValue" : 0
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 0
+        },
+        "iceResistance" : {
+          "baseValue" : 0
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 0
+        },
+        "electricResistance" : {
+          "baseValue" : -0.5
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 0
+        },
+        "poisonResistance" : {
+          "baseValue" : 0.5
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1,
+          "initialValue" : 0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : true,
+    "captureHealthFraction" : 0.5,
+    "captureCollectables" : {"monsters" : "sb_repairbot"},
+    "nametagColor" : [64, 200, 255],
+    "collisionSensors" : [[1.25, 0]],
+    "nearGroundSensor" : [[0, -2.25]],
+    "midGroundSensor" : [[0, -5]],
+    "idleTimeRange" : [1, 3],
+    "moveTimeRange" : [2, 5],
+    "repairResponseMaxDistance" : 20,
+    "repairDistance" : 3,
+    "repairStatusEffect" : "sb_repairbotheal",
+    "attackTargetHoldTime" : 5,
+    "attackRange" : [5, 15],
+    "projectileOffset" : [0.25, -0.375]
+  }
+}

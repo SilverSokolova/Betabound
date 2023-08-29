@@ -1,0 +1,20 @@
+{
+  "projectileName" : "sb_morphballbomb",
+  "image" : "bomb.png",
+  "physics" : "grenade",
+  "animationCycle" : 2,
+  "frameNumber" : 4,
+  "power" : 5,
+  "initialVelocity" : 50,
+  "timeToLive" : 1.75,
+  "bounces" : -1,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bombblockexplosion/bombblockexplosion.config"
+    }
+  ],
+  "lightColor" : [255, 180, 0],
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

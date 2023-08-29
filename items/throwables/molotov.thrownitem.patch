@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/description","value":"The liquid in this bottle is highly flammable."},
+{"op":"replace","path":"/description","value":"The liquid in this bottle is highly flammable. For the anarchist in all of us."}],
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"uncommon"}]
+]

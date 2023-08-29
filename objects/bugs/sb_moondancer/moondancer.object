@@ -1,0 +1,33 @@
+{
+  "objectName" : "sb_moondancer",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "price" : 50,
+  "printable" : false,
+  "description" : "The patterns on this bioluminescent bug's back will continuously change throughout its life.",
+  "shortdescription" : "Moondancer",
+  "race" : "generic",
+  "category" : "bug",
+  "collectablesOnPickup" : {"bugs" : "sb_moondancer"},
+  "itemTags" : ["bug"],
+  "tooltipKind" : "sb_object4",
+
+  "lightColor" : [50, 72, 77],
+  "flickerDistance" : 0.1,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "tooltipFields" : {"objectImage" : "/objects/bugs/sb_moondancer/icon.png?flipx"},
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [{"image":"moondancer.png:<color>.<frame>","fullbright":true},{"image":"moondancerlit.png:<color>.<frame>"}],
+      "imagePosition" : [-1, 0],
+      "frames" : 27,
+      "animationCycle" : 2.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ]
+}

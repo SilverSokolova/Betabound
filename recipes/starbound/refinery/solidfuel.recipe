@@ -1,0 +1,6 @@
+{
+  "input" : ["solidfuel"],
+  "output" : ["money",5],
+  "duration" : 0.5,
+  "groups" : ["refinery","all"]
+}

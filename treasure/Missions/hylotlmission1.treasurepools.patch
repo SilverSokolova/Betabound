@@ -1,0 +1,4 @@
+[
+[{"op":"add","path":"/hylotlmissionReward/0/1/fill/-","value":{"pool":"sb_hylotlmissionMusic"}}],
+[{"op":"add","path":"/hylotlmissionBasic/0/1/pool/-","value":{"weight":0.05,"item":["sb_copybook",3]}}]
+]

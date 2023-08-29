@@ -1,0 +1,5 @@
+{
+  "input" : [["liquidpoison",3],"polymer"],
+  "output" : "sb_poisonballoon",
+  "groups" : ["plain","consumables","all"]
+}

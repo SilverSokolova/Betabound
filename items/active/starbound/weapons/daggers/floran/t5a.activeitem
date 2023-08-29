@@ -1,0 +1,1 @@
+{"description":"A dagger decorated with leaves.","shortdescription":"Planttrimmer","itemName":"sb_florantier5adagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t5a","daggers/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

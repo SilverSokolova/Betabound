@@ -1,0 +1,10 @@
+{
+  "input":[
+    ["sb_tech",1,{"techModule":"sb_regeneration"}],
+    ["sb_tech",1,{"techModule":"sb_protection"}],
+    ["sb_tech",1,{"techModule":"sb_grit"}]
+  ],
+  "matchInputParameters" : true,
+  "output" : ["sb_tech",1,{"techModule":"sb_tank"}],
+  "groups" : ["sb_techconsole","sb_tech_4","nouncrafting","all"]
+}

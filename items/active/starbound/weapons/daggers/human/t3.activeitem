@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_humantier3dagger",
+  "description": "A posh, jewel-encrusted basic dagger.",
+  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "definition": "daggers/t3",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Swanky Shanker"
+}

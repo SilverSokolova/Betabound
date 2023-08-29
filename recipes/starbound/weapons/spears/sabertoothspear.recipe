@@ -1,0 +1,5 @@
+{
+  "input" : [["tungstenbar",10],["tarball",10],["bone",10]],
+  "output" : ["sb_sabertoothspear",1,{"level":2,"seed":1}],
+  "groups" : ["weapons","craftinganvil","all"]
+}

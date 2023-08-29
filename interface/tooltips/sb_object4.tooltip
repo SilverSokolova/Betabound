@@ -1,0 +1,108 @@
+{
+  "background": {
+    "type": "background",
+    "fileHeader": "/interface/tooltips/sb_header.png",
+    "fileBody": "/interface/tooltips/sb_bodyobjectextended.png",
+    "fileFooter": "/interface/tooltips/sb_footerextended.png"
+  },
+  "objectImage": {
+    "type": "image",
+    "position": [67, 109],
+    "file": "",
+    "centered": true,
+    "maxSize": [70, 45],
+    "minSize": [70, 45]
+  },
+  "damageKindImage": {
+    "type": "image",
+    "position": [120, 92],
+    "file": "",
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "damageKindBImage": {
+    "type": "image",
+    "position": [120, 110],
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "damageKindCImage": {
+    "type": "image",
+    "position": [18, 92],
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "damageKindDImage": {
+    "type": "image",
+    "position": [18, 110],
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "damageKindEImage": {
+    "type": "image",
+    "position": [120, 128],
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "damageKindFImage": {
+    "visible": false,
+    "type": "image",
+    "position": [18, 128],
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "descriptionLabel": {
+    "type": "label",
+    "position": [8, 78],
+    "hAnchor": "left",
+    "vAnchor": "top",
+    "wrapWidth": 126,
+    "value": ""
+  },
+  "priceLabel": {
+    "type": "label",
+    "position": [110, 23],
+    "hAnchor": "left",
+    "value": "tree"
+  },
+  "moneyIcon": {
+    "type": "image",
+    "position": [98, 23],
+    "file": "/interface/money.png"
+  },
+  "rotTimeLabel": {
+    "type": "label",
+    "position": [8, 48],
+    "hAnchor": "left",
+    "vAnchor": "top",
+    "wrapWidth": 122,
+    "value": ""
+  },
+  "rarityLabel": {
+    "type": "label",
+    "position": [7, 23],
+    "hAnchor": "left",
+    "centered": true,
+    "wrapWidth": 126
+  },
+  "foodValueLabel": {
+    "type": "label",
+    "position": [8, 132],
+    "hAnchor": "left",
+    "centered": true,
+    "width": 126
+  },
+  "foodAmountLabel": {
+    "type": "label",
+    "position": [8, 132],
+    "hAnchor": "left",
+    "centered": true,
+    "width": 126
+  }
+}

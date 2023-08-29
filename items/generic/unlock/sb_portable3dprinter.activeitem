@@ -1,0 +1,12 @@
+{
+  "itemName" : "sb_portable3dprinter",
+  "rarity" : "Legendary",
+  "category" : "tool",
+  "price" : 750,
+  "tooltipKind" : "sb_object",
+  "inventoryIcon" : "sb_portable3dprinter.png", //slightly modified icon with 254 alpha
+  "animation" : "sb_portable3dprinter.animation",
+  "shortdescription" : "^orange;Portable Pixel Printer^reset;",
+  "description" : "Used to craft small hi-tech items on-the-fly.",
+  "scripts" : ["sb_portable3dprinter.lua"]
+}

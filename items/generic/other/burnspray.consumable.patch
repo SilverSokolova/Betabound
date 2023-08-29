@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/blockingEffects/0","value":"burnspray"},{"op":"remove","path":"/blockingEffects/0"}],
+[{"op":"test","path":"/emitters","value":[]},{"op":"add","path":"/emitters/-","value":"sb_sprayuse"}]
+]

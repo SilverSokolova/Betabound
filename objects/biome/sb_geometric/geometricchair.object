@@ -1,0 +1,39 @@
+{
+  "objectName" : "sb_geometricchair",
+  "colonyTags" : ["geometric"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A geometric chair. Posh, but uncomfortable.",
+  "shortdescription" : "Geometric Ice Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 95,
+  "tooltipKind" : "sb_object",
+
+  "apexDescription" : "A hard, pointy chair.",
+  "avianDescription" : "This chair looks like it was made for a Glitch wizard.",
+  "floranDescription" : "Floran pick up chair. Ssset chair down. Good chair.",
+  "glitchDescription" : "Content. The perfect shape for a Glitch.",
+  "humanDescription" : "A futuristic chair.",
+  "hylotlDescription" : "An unpleasant-looking angled chair.",
+  "novakidDescription" : "I ain't sure what to think of this chair.",
+
+  "inventoryIcon" : "geometricchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "geometricchair.png:<color>",
+
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+}

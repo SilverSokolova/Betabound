@@ -1,0 +1,167 @@
+{
+  //use biome order from biome.treasurepools
+  //garden
+  "sb_forestMusic" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"forest"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"sb_forest-exploration1"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"sb_forest-exploration2"}]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "sb_desertMusic" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"desert-exploration1"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"desert-exploration2"}]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  //savannah
+  //snow
+
+  "sb_oceanMusic" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"sb_ocean-exploration1"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"ocean-exploration2"}]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+
+  "sb_arcticMusic" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"arctic-constellation1"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"arctic-constellation2"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"arctic-exploration1"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"arctic-exploration2"}]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+
+  "sb_crystalMusic" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"crystal-exploration1"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"crystal-exploration2"}]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+
+  "sb_spaceMusic" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"jupiter"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"lava-exploration2"}]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+
+  //monsters
+  "sb_poptopMusic" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"poptop"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"on-the-beach-at-night"}]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+
+  //dungeons
+  "sb_friendly_arcade2Music" : [
+    [0, {
+      "fill" : [
+        {"item" : ["sb_musicsheet",1,{"music":"atlas-8bit"}]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  //missions
+  "sb_miningtreasureMusic" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"ocean-battle1"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"gravitational-collapse"}]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "sb_florantreasureMusic" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"lava-exploration2"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"gravitational-collapse"}]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "sb_hylotlmissionMusic" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"the-deep"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"arctic-battle3"}]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "sb_avianmission1Music" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"casiopeia"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"gravitational-collapse"}]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "sb_apexmission1Music" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"arctic-battle1"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"arctic-battle3"}]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "sb_glitchmission1Music" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"event-horizon"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"gravitational-collapse"}]} //THERE ARE LIKE 9 BOSS BATTLE TRACKS IN THE GAME BUT THEY CHOSE THE SAME ONE LIKE EVERY OTHER MISSION--
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "sb_tentaclemissionMusic" : [
+    [0, {
+      "fill" : [
+        {"item" : ["sb_musicsheet",1,{"music":"forest-battle2"}]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "sb_cultistmission1Music" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"dead-or-alive"}]},
+        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"swansong"}]}
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}

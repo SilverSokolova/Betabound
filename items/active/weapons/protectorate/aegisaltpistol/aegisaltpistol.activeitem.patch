@@ -1,0 +1,8 @@
+[
+[{"op":"test","path":"/shortdescription","value":"Aegisalt Pistol"},
+{"op":"replace","path":"/shortdescription","value":"Aegisalt Laser"}],
+
+[{"op":"test","path":"/builder"},{"op":"test","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua","inverse":true},{"op":"move","from":"/builder","path":"/sb_builder"}],[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua"}],
+
+[{"op":"add","path":"/fixedRarity","value":true}]
+]

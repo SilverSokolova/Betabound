@@ -1,0 +1,9 @@
+{
+  "frameGrid" : {
+    "size" : [43, 43],
+    "dimensions" : [8, 1]
+  },
+  "aliases" : {
+    "8" : "7"
+  }
+}

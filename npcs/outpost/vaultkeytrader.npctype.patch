@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/scriptConfig/offeredQuests","inverse":true},{"op":"add","path":"/scriptConfig/offeredQuests","value":[]}],
+[{"op":"add","path":"/scriptConfig/offeredQuests/-","value":"sb_heatskin2.gearup"}],
+[{"op":"add","path":"/scriptConfig/offeredQuests/-","value":"sb_coldskin3.gearup"}]
+]

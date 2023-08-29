@@ -1,0 +1,17 @@
+{
+  "itemName" : "sb_emptyhead",
+  "inventoryIcon" : "icons.png:head",
+  "description" : "An empty helmet or such.",
+  "shortdescription" : "Empty Hat",
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "price" : 50,
+  "category" : "headwear",
+  "tooltipKind" : "sb_armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "",
+ 
+  "builder" : "/items/buildscripts/starbound/buildarmor.lua"
+}

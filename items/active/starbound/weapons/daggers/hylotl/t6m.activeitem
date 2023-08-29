@@ -1,0 +1,1 @@
+{"description":"A thick, strong dagger.","shortdescription":"Detailer","itemName":"sb_hylotltier6mdagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t6m","daggers/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

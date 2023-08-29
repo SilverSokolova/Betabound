@@ -1,0 +1,6 @@
+{
+  "input" : ["milk","boltbulb"],
+  "output" : "sb_boltedmilk",
+  "groups" : ["craftingfood","drinks","sb_energy","sb_healing","sb_electrified","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_boltedmilk"}
+}

@@ -1,0 +1,26 @@
+{
+  "projectileName" : "sb_magnet",
+  "physics" : "illusion",
+  "timeToLive" : 0.3,
+  "image" : "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "frameNumber" : 1,
+  "animationLoops" : false,
+  "scripts" : ["magnetprojectile.lua"],
+  "boundBox" : [-32, -32, 32, 32],
+  "physicsForces" : {
+    "magnet" : {
+      "type" : "RadialForceRegion",
+      "categoryWhitelist" : ["itemdrop"],
+      "outerRadius" : 16,
+      "innerRadius" : 1,
+      "targetRadialVelocity" : -10,
+      "controlForce" : 250,
+      "active" : true
+    }
+  },
+  "power" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [[0,0]],
+  "onlyHitTerrain" : true
+}

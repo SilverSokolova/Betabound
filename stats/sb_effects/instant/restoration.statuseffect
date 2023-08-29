@@ -1,0 +1,8 @@
+{
+  "name" : "sb_restoration",
+  "effectConfig" : {
+    "effects" : ["sb_health","sb_energy"]
+  },
+  "defaultDuration" : 10,
+  "scripts" : ["/stats/sb_effects/effects.lua"]
+}

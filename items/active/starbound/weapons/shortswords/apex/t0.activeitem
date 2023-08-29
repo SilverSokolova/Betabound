@@ -1,0 +1,8 @@
+{
+  "itemName" : "sb_apextier0shortsword",
+  "definition" : "shortswords/t0",
+  "itemTags" : ["weapon","melee","shortsword"],
+  "description" : "A decent shortsword.",
+  "shortdescription" : "Lil Apepoker",
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

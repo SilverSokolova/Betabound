@@ -1,0 +1,23 @@
+{
+  "name" : "sb_dash",
+  "type" : "body",
+
+  "rarity" : "Legendary",
+  "icon" : "/tech/starbound/dash.png",
+  "description" : "Double tap ^green;[A]^reset; or ^green;[D] ^reset;to dash!",
+  "sb_longDescription" : "You can dash while crouching.",
+  "shortDescription" : "Energy Dash",
+  "chipCost" : 10,
+
+  "scripts" : ["dash.lua"],
+  "animator" : "dash.animation",
+
+  "maximumDoubleTapTime" : 0.2,
+  "dashControlForce" : 2000,//600,
+  "dashSpeed" : 40,
+  "dashDuration" : 0.3,
+  "energyUsage" : 35,
+  "stopAfterDash" : false,
+  "groundOnly" : false,
+  "canCrouchDash" : true
+}

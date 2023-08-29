@@ -1,0 +1,13 @@
+[[{"op":"test","path":"/npctypes"},
+{"op":"add","path":"/npctypes/-","value":{"type":"glow","species":["human"]}},
+{"op":"add","path":"/npctypes/-","value":{"type":"foundry","species":["human"]}},
+{"op":"add","path":"/npctypes/-","value":{"type":"chefmerchant","species":["human","apex","hylotl","floran","glitch","avian","novakid"]}},
+{"op":"add","path":"/npctypes/-","value":{"type":"sb_spacecheesemerchant","species":["human","novakid","apex","hylotl","floran","glitch","avian"]}},
+
+{"op":"add","path":"/npctypes/-","value":{"type":"foodgoodstrader","species":["human"]}},
+{"op":"add","path":"/npctypes/-","value":{"type":"militarygoodstrader","species":["human"]}},
+{"op":"add","path":"/npctypes/-","value":{"type":"medicalgoodstrader","species":["human"]}},
+{"op":"add","path":"/npctypes/-","value":{"type":"electronicgoodstrader","species":["human"]}},
+{"op":"add","path":"/npctypes/-","value":{"type":"seedmerchant","species":["floran"]}}]
+//{"op":"add","path":"/npctypes/-","value":{"type":"peacekeepervillager","species":["floran"]}}] disabled because they can call the player an officer, by name, and they might not be a peacekeeper
+]

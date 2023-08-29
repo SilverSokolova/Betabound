@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/inventoryPool"},
+{"op":"add","path":"/inventoryPool/-","value":"wormerang"},
+{"op":"add","path":"/inventoryPool/-","value":"sb_explosiveglove"}]
+]

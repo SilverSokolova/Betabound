@@ -1,0 +1,15 @@
+[
+[{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":3}],
+[{"op":"test","path":"/price","value":3},{"op":"replace","path":"/price","value":20}],
+
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"throwingaxe"}],
+
+[{"op":"test","path":"/description","value":"A throwing axe, for chopping things down at a distance."},
+{"op":"replace","path":"/description","value":"A throwing axe, for chopping things down at a distance or for people who are way outta line."}],
+
+[{"op":"test","path":"/tooltipKind","inverse":true},
+{"op":"add","path":"/tooltipKind","value":"fossil"}],
+
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"uncommon"}]
+]

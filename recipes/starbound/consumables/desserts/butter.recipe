@@ -1,0 +1,6 @@
+{
+  "input" : ["milk","sugar"],
+  "output" : "sb_butter",
+  "groups" : ["craftingfood","desserts","craftingfood","sb_healing","sb_other","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_butter"}
+}

@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/interactData/config","value":"/interface/windowconfig/craftingnocategories.config"},{"op":"replace","path":"/interactData/config","value":"/interface/windowconfig/sb_craftingnocategories.config"}]
+]

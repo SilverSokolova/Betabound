@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_humantier4shortsword",
+  "description": "The blacksmith hasn't gotten carried away yet.",
+  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "definition": "shortswords/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "The Undercompensator"
+}

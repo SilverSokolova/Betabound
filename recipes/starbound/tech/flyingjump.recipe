@@ -1,0 +1,9 @@
+{
+  "input":[
+    ["sb_tech",1,{"techModule":"multijump"}],
+    ["sb_tech",1,{"techModule":"sb_doublejump"}]
+  ],
+  "matchInputParameters" : true,
+  "output" : ["sb_tech",1,{"techModule":"sb_flyingjump"}],
+  "groups" : ["sb_techconsole","sb_tech_3","nouncrafting","all"]
+}

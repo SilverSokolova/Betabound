@@ -1,0 +1,42 @@
+{
+  "objectName" : "sb_apexfuelhatch",
+  "colonyTags" : ["apex"],
+  "printable" : false,
+  "price" : 700,
+  "rarity" : "uncommon",
+  "objectType" : "container",
+  "category" : "other",
+  "tooltipKind" : "sb_object",
+  "description" : "Accepts a bunch of different kinds of fuel for the ship's FTL drive.",
+  "shortdescription" : "^orange;Apex FTL Fuel Hatch^reset;",
+  "race" : "apex",
+
+  "apexDescription" : "Converts fuel into freedom.",
+  "avianDescription" : "Let's load it up and take to the stars!",
+  "floranDescription" : "Let'sss fill it up and get going!",
+  "glitchDescription" : "Excited. Once filled, we may visit planets outside of this system.",
+  "humanDescription" : "A fuel panel. We can fill this up and explore.",
+  "hylotlDescription" : "Fuel is the lifeblood of exploration.",
+  "novakidDescription" : "Fuel goes in here!",
+
+  "inventoryIcon" : "apexicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "apex.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "hasWindowIcon" : false,
+  "recipeGroup" : "fuel",
+  "slotCount" : 6,
+  "uiConfig" : "/interface/sb_fuel/fuel.config",
+  "autoCloseCooldown" : 3600,
+  "frameCooldown" : 5
+}

@@ -1,0 +1,41 @@
+{
+  "objectName": "sb_medievalladder",
+  "rarity": "Common",
+  "tooltipKind": "sb_object",
+  "category": "other",
+  "tooltipFields": {
+    "subtitle": "Ladder",
+    "objectImage": "/objects/sb_ladders/medievalladderlarge.png"
+  },
+  "price": 1,
+  "description": "A shoddy wooden ladder. What a thrill!",
+  "shortdescription": "Wooden Ladder",
+  "race": "generic",
+  "health": 1.5,
+  "printable": false,
+  "radioMessagesOnPickup": ["sb_pickupladder"],
+
+  "glitchDescription": "Concerned. This ladder looks ready to give out.",
+  "floranDescription": "Floran climb dangerous ladder.",
+
+  "inventoryIcon": "medievalladdericon.png",
+  "orientations": [{
+      "image": "medievalladder.png:bottom",
+      "imagePosition": [0, 0],
+      "animationPosition": [0, 0],
+      "flipImages": false,
+
+      "spaces": [[0, 0], [1, 0]],
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ],
+
+  "animation": "ladder.animation",
+  "animationParts": {
+    "ladder": "medievalladder.png"
+  },
+  "statusEffects": ["sb_ladder"],
+  "scripts": ["ladder.lua"],
+  "scriptDelta": 60
+}

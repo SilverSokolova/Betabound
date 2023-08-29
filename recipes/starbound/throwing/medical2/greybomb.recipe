@@ -1,0 +1,5 @@
+{
+  "input" : ["sb_greystim", "bottle"],
+  "output" : "sb_protectionbomb",
+  "groups" : ["craftingmedical2","buffs","all"]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "sb_gravitytech",
+  "effectConfig" : {"gravityModifier":0.3},
+  "defaultDuration" : 9,
+  "scripts" : ["gravity.lua"],
+  "label" : "Light",
+  "icon" : "/tech/starbound/gravity.png"
+}

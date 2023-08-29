@@ -1,0 +1,9 @@
+{
+  "name" : "sb_levelup",
+  "effectConfig" : {},
+  "defaultDuration" : 0.5,
+  "animationConfig" : "levelup.animation",
+  "icon" : "/items/throwables/sb_filledcapturepod.png",
+  "label" : "This effect is used to level up captured monsters.",
+  "scripts" : []
+}

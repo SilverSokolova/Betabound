@@ -1,0 +1,5 @@
+{
+  "input" : [["ironbar",8]],
+  "output" : "sb_ironcraftingtable",
+  "groups" : ["inventorstable2","craftingstations","all"]
+}

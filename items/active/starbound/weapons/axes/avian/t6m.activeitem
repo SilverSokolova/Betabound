@@ -1,0 +1,1 @@
+{"description":"An axe with vibrant plumage.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_aviantier6maxe","definition":["colors/t6m","axes/m"],"shortdescription":"Poliwanta Cracker","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

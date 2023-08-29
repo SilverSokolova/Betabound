@@ -1,0 +1,5 @@
+{
+  "input" : [["liquidwater",10],["wildvines",5],["plantfibre",5],"bottle"],
+  "output" : "grassremedy",
+  "groups" : ["craftingmedical","healing","all"]
+}

@@ -1,0 +1,19 @@
+{
+  "kind" : "sb_fallingblockdebris5",
+  "definition" : {
+    "type" : "textured",
+    "image" : "/particles/sb_fallingblock/debris5.png",
+    "size" : 1,
+    "fade" : 1,
+    "initialVelocity" : [7, 10],
+    "finalVelocity" : [0, -10],
+    "approach" : [0, 20],
+    "timeToLive" : 0.7,
+    "destructionAction" : "fade",
+    "destructionTime" : 0.4,
+    "layer" : "back",
+    "variance" : {
+      "initialVelocity" : [3, -3]
+    }
+  }
+}

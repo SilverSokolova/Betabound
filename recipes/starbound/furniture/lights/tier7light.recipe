@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_ceruliumbar",2],["glass",2],"smallbattery"],
+  "output" : "wavelight",
+  "groups" : ["craftingfurniture2","lights","all"]
+}

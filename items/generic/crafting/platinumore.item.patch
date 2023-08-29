@@ -1,0 +1,11 @@
+[[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":""}],
+[{"op":"test","path":"/itemTags","inverse":true},{"op":"add","path":"/itemTags","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_platinum_repair"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"platinumbar"},
+{"op":"replace","path":"/tooltipKind","value":"sb_object"},
+{"op":"replace","path":"/category","value":"craftingMaterial"},
+{"op":"add","path":"/itemTags/-","value":"reagent"},
+{"op":"replace","path":"/price","value":50},
+{"op":"replace","path":"/rarity","value":"Uncommon"}],
+[{"op":"test","path":"/description","value":"It's platinum."},{"op":"replace","path":"/description","value":"It's platinum. Can be used for smelting."}]]

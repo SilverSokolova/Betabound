@@ -1,0 +1,21 @@
+{
+  "itemName" : "sb_wineglass",
+  "price" : 440,
+  "foodValue" : 45,
+  "effects" : [[
+	{"effect":"maxhealthscalingboostfood","duration":203},
+	{"effect":"ragefood","duration":203},
+	"sb_foodheal145"
+  ]],
+  "tooltipKind" : "sb_object",
+  "rarity" : "rare",
+  "category" : "drink",
+  "inventoryIcon" : "wineglass.png",
+  "description" : "A glass of smooth red wine.",
+  "shortdescription" : "Wine Glass",
+  "handPosition" : [0, -2.5],
+  "emitters" : ["drinking"],
+  "builder" : "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10
+}

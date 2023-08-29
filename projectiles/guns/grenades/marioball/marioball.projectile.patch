@@ -1,0 +1,10 @@
+[[{"op":"test","path":"/emitters","inverse":true},{"op":"add","path":"/emitters","value":[]}],
+[{"op":"test","path":"/statusEffects","inverse":true},{"op":"add","path":"/statusEffects","value":[]}],
+[{"op":"test","path":"/pointLight","inverse":true},{"op":"add","path":"/pointLight","value":true}],
+[{"op":"test","path":"/damageType","inverse":false},{"op":"remove","path":"/damageType"}],
+[{"op":"test","path":"/lightColor","inverse":true},{"op":"add","path":"/lightColor","value":[235,126,2]}],
+[{"op":"add","path":"/emitters/-","value":"flames"},
+{"op":"add","path":"/emitters/-","value":"flamesfast"},
+{"op":"replace","path":"/damageKind","value":"fire"},
+{"op":"replace","path":"/power","value":25},
+{"op":"add","path":"/statusEffects/-","value":"burning"}]]

@@ -1,0 +1,5 @@
+{
+  "input" : [["sb_ceruliumcompound",2],"coalore"],
+  "output" : "refinedviolium",
+  "groups" : ["craftingfurnace3","bars","all"]
+}

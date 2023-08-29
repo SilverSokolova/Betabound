@@ -1,0 +1,5 @@
+{
+  "input" : [["darkwoodmaterial",15]],
+  "output" : "sb_woodenwallfan",
+  "groups" : ["craftingfurniture","decoration","all"]
+}

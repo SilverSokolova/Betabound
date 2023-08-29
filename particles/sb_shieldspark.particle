@@ -1,0 +1,19 @@
+{
+  "kind" : "sb_shieldspark",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/animations/sparkles/shieldspark.animation",
+    "position" : [0, 0],
+    "initialVelocity" : [0, 6],
+    "finalVelocity" : [0, -6],
+    "approach" : [0, 20],
+    "fade" : 0.5,
+    "size" : 1.0,
+    "timeToLive" : 0.65,
+    "layer" : "front",
+    "variance" : {
+      "position" : [0.3, 0.3],
+      "initialVelocity" : [3, 2]
+    }
+  }
+}

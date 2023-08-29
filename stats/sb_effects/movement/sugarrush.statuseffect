@@ -1,0 +1,8 @@
+{
+  "name" : "sb_sugarrush",
+  "effectConfig" : {
+    "effects" : ["runboostfood","jumpboostfood"]
+  },
+  "defaultDuration" : 60,
+  "scripts" : ["/stats/sb_effects/effects.lua"]
+}

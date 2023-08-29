@@ -1,0 +1,5 @@
+{
+  "input" : [["gnome",14]],
+  "output" : "smallhouse11",
+  "groups" : ["craftingfurniture","decoration","all"]
+}

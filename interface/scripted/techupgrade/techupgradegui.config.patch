@@ -1,0 +1,160 @@
+[
+  [{
+      "op": "add",
+      "path": "/scripts/-",
+      "value": "/interface/scripted/techupgrade/sb_techupgradegui.lua"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/gui/imgSelected/zlevel",
+      "inverse": true
+    }, {
+      "op": "move",
+      "path": "/gui/imgSelected/zlevel",
+      "from": "/gui/imgSelected/zLevel"
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/gui/sb_btnSuit",
+      "value": {
+        "type": "button",
+        "zlevel" : 7, //Why 7? Mara reported this button being under the little blue person
+        "base": "/interface/button.png?scalenearest=0.95;1",
+        "hover": "/interface/buttonhover.png?scalenearest=0.95;1",
+        "pressedOffset": [0, -1],
+        "caption": "Suits",
+        "position": [0, 0],
+        "callback": "sb_showSuits"
+      }
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/gui/sb_unequip",
+      "value": {
+        "type": "button",
+        "zlevel" : 7,
+        "base": "/interface/button.png",
+        "hover": "/interface/buttonhover.png",
+        "pressedOffset": [0, -1],
+        "caption": "Unequip",
+        "position": [10, 1],
+        "callback": "sb_unequip",
+        "disabled": true
+      }
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/gui/sb_download",
+      "value": {
+        "type": "button",
+        "zlevel" : 7,
+        "base": "/interface/button.png",
+        "hover": "/interface/buttonhover.png",
+        "pressedOffset": [0, -1],
+        "caption": "Download",
+        "position": [63, 1],
+        "callback": "sb_download",
+        "disabled": true
+      }
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/scriptWidgetCallbacks/-",
+      "value": "sb_showSuits"
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/scriptWidgetCallbacks/-",
+      "value": "sb_unequip"
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/scriptWidgetCallbacks/-",
+      "value": "sb_download"
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/slotLabelText/sb_suit",
+      "value": "SUIT TECH"
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb_selectTechDescription",
+      "value": "Mouse over a tech to view its description"
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb_downloadTechDescription",
+      "value": "Use Tech Cards to download techs into your inventory"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/gui/techScrollArea/children/techList/schema/listTemplate/techName/wrapWidth",
+      "value": 116
+    }, {
+      "op": "replace",
+      "path": "/gui/techScrollArea/children/techList/schema/listTemplate/techName/wrapWidth",
+      "value": 94
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/gui/techScrollArea/children/techList/schema/listTemplate/techName/wrapWidth",
+      "value": 140,
+      "inverse": true
+    }, //test for bk3k tech helper
+    {
+      "op": "test",
+      "path": "/gui/techScrollArea/children/techList/schema/listTemplate/techName/vAnchor",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/gui/techScrollArea/children/techList/schema/listTemplate/techName/vAnchor",
+      "value": "mid"
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/gui/techScrollArea/children/techList/schema/listTemplate/techName/position",
+      "value": [25, 6]
+    }, {
+      "op": "replace",
+      "path": "/gui/techScrollArea/children/techList/schema/listTemplate/techName/position",
+      "value": [22, 10]
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/gui/pat_remove/position",
+      "value": [63, 1]
+    }, {
+      "op": "replace",
+      "path": "/gui/pat_remove/position",
+      "value": [116, 1]
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/selectTechDescription",
+      "value": "Select a tech to equip or upgrade"
+    }, {
+      "op": "replace",
+      "path": "/selectTechDescription",
+      "value": "Select a tech to equip, upgrade, or download"
+    }
+  ]
+]

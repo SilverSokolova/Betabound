@@ -1,0 +1,6 @@
+[
+{"op":"add","path":"/-","value":{"name":"sb_coffee","liquidId":85,"buttonImage":"sb_coffee.png"}},
+{"op":"add","path":"/-","value":{"name":"sb_tentaclejuice","liquidId":87,"buttonImage":"sb_tentaclejuice.png"}},
+{"op":"add","path":"/-","value":{"name":"sb_alienjuice","liquidId":88,"buttonImage":"sb_alienjuice.png"}},
+{"op":"add","path":"/-","value":{"name":"sb_liquidnitrogen","liquidId":86,"buttonImage":"sb_liquidnitrogen.png"}}
+]

@@ -1,0 +1,54 @@
+{
+//TODO: rename and get rid of this once we have shortsword combos. shortsword.weaponability mmmm
+  "animationParts": {},
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/melee/swing_shortsword.ogg"]
+    }
+  },
+
+  "ability": {
+    "name": "Slash",
+    "type": "sb_meleeslash2",
+    "scripts": ["/items/active/starbound/weapons/meleeslash2.lua"],
+    "class": "MeleeSlash",
+
+    "fireTime" : 0.625,
+    "baseDps" : 7.5,
+    "damageConfig": {
+      "damageSourceKind": "shortsword",
+      "knockbackMode": "aim",
+      "knockback": 10,
+      "timeoutGroup": "primary"
+    },
+
+    "stances": {
+      "idle": {
+        "weaponRotation": -10,
+        "armRotation": -90,
+        "weaponOffset": [0.4, 2],
+
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "fire": {
+        "duration": 0.2, //dont increase this. t5a shortsword needs it
+        "armRotation": -135,
+        "weaponRotation": 40,
+        "weaponOffset": [0.4, 2],
+
+        "allowRotate": false,
+        "allowFlip": true
+      },
+      "windup": {
+        "duration": 0.2,
+        "armRotation": -20,
+        "weaponRotation": -20,
+        "weaponOffset": [0.4, 2],
+
+        "allowRotate": false,
+        "allowFlip": true
+      }
+    }
+  }
+}

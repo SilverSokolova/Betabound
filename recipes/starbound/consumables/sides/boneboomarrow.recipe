@@ -1,0 +1,6 @@
+{
+  "input" : ["boneboo"],
+  "output" : "sb_boneboomarrow",
+  "groups" : ["craftingfood","sides","sb_healing","sb_power","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_boneboomarrow"}
+}

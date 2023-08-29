@@ -1,0 +1,22 @@
+{
+  "projectileName" : "sb_iceaxehook",
+  "image" : "sb_iceaxehook.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "flippable" : false,
+  "actionOnReap" : [ ],
+  "statusEffects" : [ ],
+  "power" : 0,
+  "speed" : 0,
+//  "movementSettings":{"collisionPoly":[[0.5,0],[-0.5,0.5],[-1.7,0.5],[1.7,0]]},
+  "damageKind" : "default",
+  "physics" : "bonethorn",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 5,
+
+  "onlyHitTerrain" : true,
+
+  "scripts" : [ "grapplehook.lua" ]
+}

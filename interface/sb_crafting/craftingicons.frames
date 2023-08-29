@@ -1,0 +1,8 @@
+{"frameGrid":{"size":[24,24],"dimensions":[5,5],
+"names":[
+["table1","table2","table3","scififurnace","metalwork"],
+["scifianvil","manipulatortable","acceleratortable","separatortable","culinaryarts"],
+["heartforge","holiday","printingicon","spawnerstation","capturestation"],
+["techconsole","researchstation","skyrailtable","skyrailrailtable","music"],
+["tech","closedbook","openbook",null,null]
+]}}

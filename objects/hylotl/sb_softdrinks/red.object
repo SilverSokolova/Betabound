@@ -1,0 +1,31 @@
+{
+  "objectName" : "sb_softdrinkred",
+  "colonyTags" : ["hylotl","hylotloceancity"],
+  "rarity" : "Common",
+  "tooltipKind" : "sb_object",
+  "category" : "decorative",
+  "price" : 50,
+  "description" : "A refreshing cup of soda.",
+  "shortdescription" : "Soft Drink",
+  "race" : "hylotl",
+
+  "apexDescription" : "Some sort of soft drink.",
+  "avianDescription" : "This drink looks a little sweet for my taste...",
+  "floranDescription" : "Floran dissslike over-sweet drinks.",
+  "glitchDescription" : "Intrigued. I wouldn't mind trying this foreign beverage.",
+  "humanDescription" : "I could use some sugar in my system.",
+  "hylotlDescription" : "Personally, I'm quite partial to Reef-Cola.",
+  "novakidDescription" : "Never been a great fan of fizzy drinks.",
+
+  "inventoryIcon" : "redicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "red.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ]
+}

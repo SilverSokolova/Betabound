@@ -1,0 +1,10 @@
+[
+[{"op":"test","value":"Uncommon","path":"/rarity"},{"op":"add","path":"/rarity","value":"legendary"}],
+[{"op":"test","inverse":true,"path":"/tooltipKind"},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","value":"Toymaker's Table","path":"/shortdescription"},{"op":"replace","path":"/shortdescription","value":"^orange;Toymaker's Table^reset;"}],
+[{"op":"test","inverse":true,"path":"/price"},{"op":"add","path":"/price","value":0}],[{"op":"replace","path":"/price","value":1225}],
+//[{"op":"test","path":"/interactData/config","value":"/interface/windowconfig/crafting.config"},{"op":"replace","path":"/interactData/config","value":"/interface/windowconfig/sb_craftingfurniture.config"}], no armor category so no
+[{"op":"test","path":"/interactData/paneLayoutOverride/windowtitle/icon/file"},{"op":"replace","path":"/interactData/paneLayoutOverride/windowtitle/icon/file","value":"/interface/sb_crafting/craftingicons.png:holiday"}],
+[{"op":"test","value":"  Toymaker's Table","path":"/interactData/paneLayoutOverride/windowtitle/title"},{"op":"add","path":"/interactData/paneLayoutOverride/windowtitle/title","value":"Toymaker's Table"}],
+[{"op":"test","value":"  For all your holiday crafting needs","path":"/interactData/paneLayoutOverride/windowtitle/subtitle"},{"op":"add","path":"/interactData/paneLayoutOverride/windowtitle/subtitle","value":"For all your holiday crafting needs!"}]
+]

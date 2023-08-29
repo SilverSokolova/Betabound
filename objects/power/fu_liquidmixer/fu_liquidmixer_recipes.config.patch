@@ -1,0 +1,13 @@
+[
+ {"op":"add","path":"/-","value":{"inputs":{"liquidmilk":1,"sb_liquidcoffee":1},"outputs":{"sb_liquidcoffee":2}}}
+
+,{"op":"add","path":"/-","value":{"inputs":{"liquidpoison":1,"sb_liquidcoffee":1},"outputs":{"liquidpoison":2}}}
+,{"op":"add","path":"/-","value":{"inputs":{"liquidpoison":1,"sb_liquidnitrogen":1},"outputs":{"liquidpoison":2}}}
+,{"op":"add","path":"/-","value":{"inputs":{"liquidpoison":1,"sb_liquidtentaclejuice":1},"outputs":{"liquidpoison":2}}}
+,{"op":"add","path":"/-","value":{"inputs":{"liquidpoison":1,"sb_liquidalienjuice":1},"outputs":{"liquidpoison":2}}}
+
+,{"op":"add","path":"/-","value":{"inputs":{"sb_liquidnitrogen":1,"liquidwater":1},"outputs":{"ice":2}}}
+
+,{"op":"add","path":"/-","value":{"inputs":{"sb_liquidtentaclejuice":1,"liquidwater":1},"outputs":{"liquidpoison":2}}}
+,{"op":"add","path":"/-","value":{"inputs":{"sb_liquidalienjuice":1,"liquidwater":1},"outputs":{"liquidpoison":2}}}
+]

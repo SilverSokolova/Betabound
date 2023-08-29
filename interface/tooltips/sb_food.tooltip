@@ -1,0 +1,82 @@
+{
+  "background": {
+    "type": "background",
+    "fileHeader": "/interface/tooltips/sb_header.png",
+    "fileBody": "/interface/tooltips/sb_foodbody.png",
+    "fileFooter": "/interface/tooltips/sb_footer.png"
+  },
+  "rarityLabel": {
+    "type": "label",
+    "position": [7, 23],
+    "hAnchor": "left",
+    "centered": true,
+    "wrapWidth": 126
+  },
+  "foodValueLabel": {
+    "type": "label",
+    "position": [18, 168],
+    "hAnchor": "left",
+    "centered": true,
+    "width": 126
+  },
+  "foodAmountLabel": {
+    "type": "label",
+    "position": [18, 168],
+    "hAnchor": "left",
+    "centered": true,
+    "width": 126
+  },
+  "levelLabel": {
+    "type": "label",
+    "position": [114, 190],
+    "hAnchor": "left",
+    "color": "gray",
+    "centered": true,
+    "wrapWidth": 126
+  },
+  "moneyIcon": {
+    "type": "image",
+    "position": [98, 23],
+    "file": "/interface/money.png"
+  },
+  "priceLabel": {
+    "type": "label",
+    "position": [110, 23],
+    "hAnchor": "left",
+    "value": "0"
+  },
+  "objectImage": {
+    "type": "image",
+    "position": [35, 138],
+    "file": "",
+    "centered": true,
+    "maxSize": [35, 35],
+    "minSize": [35, 35]
+  },
+  "descriptionLabel": {
+    "type": "label",
+    "position": [10, 95],
+    "wrapWidth": 122,
+    "lineSpacing": 1.1,
+    "vAnchor": "top",
+    "hAnchor": "left"
+  },
+  "effectLabel": {
+    "type": "label",
+    "position": [70, 178],
+    "wrapWidth": 90,
+    "fontSize": 6,
+    "lineSpacing": 1,
+    "vAnchor": "top",
+    "hAnchor": "left"
+  },
+  "rotTimeLabel": {
+    "type": "label",
+    "position": [10, 50],
+    "hAnchor": "left",
+    "vAnchor": "top",
+    "wrapWidth": 122,
+    "value": "",
+    "color": "gray"
+  }
+}

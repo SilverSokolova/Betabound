@@ -1,0 +1,5 @@
+{
+  "input" : [["money",50]],
+  "output" : "techhull1",
+  "groups" : ["sb_portable3dprinter","sb_materials","all"]
+}

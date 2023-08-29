@@ -1,0 +1,12 @@
+{
+  "itemName" : "sb_ceruliumore",
+  "price" : 150,
+  "rarity" : "legendary",
+  "category" : "craftingMaterial",
+  "tooltipKind" : "sb_object",
+  "inventoryIcon" : "sb_ceruliumore.png",
+  "itemTags" : ["reagent"],
+  "learnBlueprintsOnPickup" : ["sb_cerulium_repair"],
+  "description" : "Cerulium ore. Can be used for smelting.",
+  "shortdescription" : "Cerulium Ore"
+}

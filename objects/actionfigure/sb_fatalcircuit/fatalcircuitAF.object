@@ -1,0 +1,23 @@
+{
+  "objectName" : "sb_fatalcircuitaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "tooltipKind" : "sb_object4b",
+  "category" : "actionFigure",
+  "collectablesOnPickup" : { "actionfigures" : "sb_fatalcircuitaf" },
+  "price" : 5000,
+  "printable" : false,
+  "description" : "The label reads, \"Although intended to be a top-secret upgraded version of the Glitch, the blueprints can easily be found online.\"",
+  "shortdescription" : "Fatal Circuit Figurine",
+
+
+  "inventoryIcon" : "fatalcircuitAF.png",
+  "orientations" : [
+    {
+      "dualImage" : "fatalcircuitAF.png",
+      "imagePosition" : [-4, 0],
+      "spaces" : [[0,0],[1,0],[0,1],[1,1]],
+      "anchors" : ["bottom"]
+    }
+  ]
+}

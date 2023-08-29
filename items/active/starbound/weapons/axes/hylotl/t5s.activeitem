@@ -1,0 +1,8 @@
+{
+  "description": "A rotary-style scythe.",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "itemName": "sb_hylotltier5saxe",
+  "definition": ["colors/t5s", "axes/s"],
+  "shortdescription": "The Propeller",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

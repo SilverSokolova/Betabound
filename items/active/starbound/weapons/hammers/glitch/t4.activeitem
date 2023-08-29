@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_glitchtier4hammer",
+  "description": "A hammer good for uppercutting.",
+  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "definition": "hammers/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Flash Upswing"
+}

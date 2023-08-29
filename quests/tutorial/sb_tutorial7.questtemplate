@@ -1,0 +1,36 @@
+{
+  "id" : "sb_tutorial7.gearup",
+  "prerequisites" : ["sb_tutorial6.gearup" ],
+  "mainQuest" : true,
+  "title" : "^#9be3d6;First Contact",
+  "text" : "Your anvil isn't yet strong enough to handle steel. ^green;Craft a ^orange;Distress Beacon ^green;and maybe you'll be able to make contact with a larger ship. ^reset;Make sure you're ready for anything before you do though!",
+  "completionText" : "Nicely done. I suggest you gear up before placing it. You never know who'll receive your signal.",
+  "speaker" : "questGiver",
+  "moneyRange" : [500, 500],
+  "canBeAbandoned" : true,
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquestnorewards.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/sb_main.lua",
+  "scriptConfig" : {
+    "title" : "^#9be3d6;First Contact",
+    "missable" : true,
+    "itemIcon" : "/interface/sb_numbers.png:8",
+    "giveBlueprints" : ["sb_ironbeacon"],
+    "portraits" : {"default" : "player"},
+    "requireTurnIn" : false,
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "sb_ironbeacon",
+        "count" : 1,
+        "consume" : false
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "input" : [["rainbowwood",50]],
+  "output" : "rainbowunicornstatue",
+  "groups" : ["craftingfurniture","decoration","all"]
+}

@@ -1,0 +1,1 @@
+function init() effect.addStatModifierGroup(config.getParameter("statModifierGroup")) end

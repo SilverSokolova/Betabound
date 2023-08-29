@@ -1,0 +1,10 @@
+[
+[{"op":"replace","path":"/itemName","value":"starbound_rice"}],
+
+[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
+
+[{"op":"test","path":"/description","value":"Rice. Grains of goodness."},
+{"op":"replace","path":"/description","value":"Rice. Grains of goodness. Good for when you're hungry and want to eat a thousand of something."}],
+
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":""}],[{"op":"replace","path":"/tooltipKind","value":"fossil"}]
+]

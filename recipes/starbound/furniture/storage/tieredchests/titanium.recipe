@@ -1,0 +1,5 @@
+{
+  "input" : ["titaniumbar"],
+  "output" : "sb_tier3techchest",
+  "groups" : ["craftingfurniture2","storage","all"]
+}

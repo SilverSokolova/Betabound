@@ -1,0 +1,6 @@
+{
+  "input" : ["sb_poisoncreep","pineapple","sugar"],
+  "output" : "sb_brineapple",
+  "groups" : ["craftingfood","desserts","sb_mobility","sb_health","sb_healing","all"],
+  "collectables" : {"cooking":"sb_brineapple"}
+}

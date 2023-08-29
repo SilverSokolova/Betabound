@@ -1,0 +1,5 @@
+{
+  "input" : [["titaniumbar",6],"string",["snowflake",15]],
+  "output" : "frozenbow",
+  "groups" : ["craftinganvil2","weapons","all"]
+}

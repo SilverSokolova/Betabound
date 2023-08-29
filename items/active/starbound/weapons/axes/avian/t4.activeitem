@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_aviantier4axe",
+  "description": "A versatile, dove-shaped war axe.",
+  "shortdescription": "Dove of War",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t4",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

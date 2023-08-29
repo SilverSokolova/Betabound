@@ -1,0 +1,64 @@
+{
+  "sb_platinumRockSmall" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "platinumore"}
+      ],
+      "poolRounds" : [
+        [0.25, 5],
+        [0.50, 6],
+        [0.25, 7]
+      ]
+    }]
+  ],
+  "sb_platinumRock" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "platinumore"}
+      ],
+      "poolRounds" : [
+        [0.25, 8],
+        [0.50, 10],
+        [0.25, 12]
+      ]
+    }]
+  ],
+  "sb_heckbush" : [
+    [0, {
+      "fill" : [
+        {"item" : "sb_meatchunks"}
+      ],
+      "pool" : [
+        {"weight" : 0.3, "item" : "sb_meatchunks"},
+        {"weight" : 0.3, "item" : "sb_meatchunks"}
+      ]
+    }]
+  ],
+  "sb_geometricbush" : [
+    [0, {
+      "fill" : [
+        {"item" : "icecrystal"}
+      ],
+      "pool" : [
+        {"weight" : 0.3, "item" : "icecrystal"},
+        {"weight" : 0.3, "item" : "icecrystal"}
+      ]
+    }]
+  ],
+  "sb_fossils" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.4, "pool" : "smallfossil"},
+        {"weight" : 0.35, "pool" : "humanoidfossil"},
+        {"weight" : 0.25, "pool" : "largefossil"},
+        {"weight" : 0.15, "pool" : "fossilBonusTreasure"},
+        {"weight" : 0.05, "pool" : "fossilRareBonusTreasure"},
+        {"weight" : 0.05, "item" : "sb_wreck_repair"}
+      ],
+      "poolRounds" : [
+        [0.25, 2],
+        [0.75, 1]
+      ]
+    }]
+  ]
+}

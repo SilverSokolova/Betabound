@@ -1,0 +1,8 @@
+{
+  "name" : "sb_energyregenaugment1",
+  "effectConfig" : {
+    "regenAmount" : 0.25
+  },
+  "defaultDuration" : 5,
+  "scripts" : ["energyregen.lua"]
+}

@@ -1,0 +1,66 @@
+{
+  "objectName" : "sb_apexsecuritylamp",
+  "colonyTags" : ["apex","light","apexvillage"],
+  "printable" : false,
+  "rarity" : "common",
+  "tooltipKind" : "sb_object",
+  "category" : "light",
+  "price" : 110,
+  "description" : "An oppressive street lamp with a security camera.",
+  "shortdescription" : "Security Lamp Post",
+  "race" : "generic",
+  
+  "apexDescription" : "A standard street lamp.",
+  "avianDescription" : "This lamp post is rather aesthetically unpleasant, if I do say so myself.",
+  "floranDescription" : "Floran might be able climb post for tactical advantagesss.",
+  "glitchDescription" : "Cheerful. The Glitch enjoy light.",
+  "humanDescription" : "An old street lamp.",
+  "hylotlDescription" : "This lamp emits a dull light. My heart is filled with rage at the mere sight of its unadulterated filth.",
+  "novakidDescription":  "Lamp posts like this must be a common sight for city slickers!",
+  
+
+  "lightColor" : [232, 208, 84],
+  "pointLight" : true,
+  "pointBeam" : 2,
+  "beamAmbience" : 0.35,
+
+  "inventoryIcon" : "/objects/apex/sb_apexstreetlamp/icon.png",
+  "orientations" : [
+    {
+      "image" : "apexsecuritylamp.png:<color>.<frame>",
+      "imagePosition" : [-14, 0],
+      "animationPosition" : [-14, 0],
+      "frames" : 1,
+      "animationCycle" : 0,
+      "direction" : "left",
+      "flipImages" : true,
+      "lightPosition" : [-0.85, 7], //Close enough, right?
+      "beamAngle" : 270,
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    },
+    {
+      "image" : "apexsecuritylamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0,
+      "direction" : "right",
+      "lightPosition" : [1.5, 7],
+      "beamAngle" : 270,
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "apexsecuritylamp.png",
+    "fg" : "apexsecuritylamplit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  "interactive" : false,
+  "inputNodes" : [[0, 5]]
+}

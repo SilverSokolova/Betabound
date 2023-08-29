@@ -1,0 +1,6 @@
+{
+  "name" : "sb_groundsmashknockbackY",
+  "effectConfig" : {},
+  "defaultDuration" : 0.1,
+  "scripts" : ["groundsmashknockback.lua"]
+}

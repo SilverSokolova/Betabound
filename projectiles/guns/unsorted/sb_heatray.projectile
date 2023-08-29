@@ -1,0 +1,18 @@
+{
+  "projectileName" : "sb_heatray",
+  "image" : "/projectiles/npcs/shortbeam/shortbeam.png",
+  "animationCycle" : 0.3,
+  "frameNumber" : 4,
+  "speed" : 25,
+  "physics" : "bullet",
+  "orientationLocked" : false,
+  "damagePoly" : [[0, 1], [60, 1], [60, -1], [0, -1]],
+  "movementSettings":{"collisionEnabled":false,"collisionPoly":[[0, 0.3], [7.5, 0.3], [7.5, -0.3], [0, -0.3]]},
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "emitters" : ["firesparks","fireplasma"],
+  "damageKind" : "fire",
+  "statusEffects" : ["burning"],
+  "lightColor" : [188, 0, 0]
+}

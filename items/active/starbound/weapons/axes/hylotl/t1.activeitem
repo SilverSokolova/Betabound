@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_hylotltier1axe",
+  "description": "A small scythe.",
+  "shortdescription": "Iron Scythe",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t1",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+}

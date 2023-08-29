@@ -1,0 +1,23 @@
+{
+  "materialId" : 6967,
+  "materialName" : "skyrail_desc",
+  "platform" : true,
+  "transparent" : true,
+  "collisionKind" : "platform",
+  "itemDrop" : "skyrail_desc",
+  "shortdescription" : "Skyrail Switcher -",
+  "description" : "Gives priority to lower rails.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "supports",
+
+  "renderTemplate" : "/tiles/skyrailtemplate.config",
+  "renderParameters" : {
+    "texture" : "skyrail_desc.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

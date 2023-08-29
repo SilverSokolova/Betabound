@@ -1,0 +1,5 @@
+{
+  "input" : ["endomorphicjelly",["durasteelbar",10]],
+  "output" : "sb_scifianvil",
+  "groups" : ["sb_stations","all"]
+}

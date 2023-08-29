@@ -1,0 +1,5 @@
+{
+  "input" : [["money",180]],
+  "output" : "outpostkeypad",
+  "groups" : ["sb_portable3dprinter","sb_wire","all"]
+}

@@ -1,0 +1,66 @@
+{
+  "itemName": "sb_steelspoon",
+  "level": 3,
+  "maxStack": 1,
+  "rarity": "uncommon",
+  "description": "A perfectly ordinary spoon. It's quite unusually large.",
+  "shortdescription": "Steel Spoon",
+  "tooltipKind": "sb_sword2",
+  "price": 495,
+  "category": "dagger",
+  "twoHanded": false,
+  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+
+  "inventoryIcon": "steelspoon.png",
+  "animation": "/items/active/starbound/weapons/dagger.animation",
+  "animationParts": {
+    "handle": "",
+    "blade": "steelspoon.png"
+  },
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [0.5, 0.95]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType": "physical",
+
+  "aimOffset": 0,
+  "primaryAbilityType": "sb_dagger",
+  "primaryAbility": {
+    "fireTime": 0.44,
+    "baseDps": 8,
+    "damageConfig": {
+      "knockback": 0.4
+    },
+    "stances": {
+      "idle": {
+        "weaponOffset": [0.4, 1.7]
+      },
+      "windup": {
+        "duration": 0.1,
+        "weaponOffset": [0.4, 1.7]
+      },
+      "fire": {
+        "duration": 0.2,
+        "weaponOffset": [0.4, 1.7]
+      }
+    }
+  },
+
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

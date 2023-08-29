@@ -1,0 +1,12 @@
+[[
+    {
+        "op":"test",
+        "path":"/scriptConfig/generatedText/complete/default/0",
+        "value":"You took out <bounty.name>? Excellent work, partner! The universe is just a little bit safer now.\n\nCome by the Peacekeeper office next time you're on the Outpost to collect your rewards!"
+    },
+    {
+        "op":"replace",
+        "path":"/scriptConfig/generatedText/complete/default/0",
+        "value":"You took out <bounty.name>? Excellent work, partner! The universe is gonna be a lot safer now.\n\nCome by the Peacekeeper station to collect your rewards!"
+    }
+]]

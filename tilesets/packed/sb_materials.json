@@ -1,0 +1,32 @@
+{
+  "margin" : 0,
+  "name" : "sb_materials",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 2,
+  "tileheight" : 16,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "Pulsating brain matter... I wonder what it's thinking.",
+      "//name" : "sb_brains",
+      "//shortdescription" : "Heck Brains",
+      "material" : "sb_brains"
+    },
+    "1" : {
+      "//description" : "Smooth, solid concrete.",
+      "//name" : "sb_concrete",
+      "//shortdescription" : "Smooth Concrete",
+      "material" : "sb_concrete"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "sb_brains.png"
+    },
+    "1" : {
+      "image" : "sb_concrete.png"
+    }
+  },
+  "tilewidth" : 16
+}

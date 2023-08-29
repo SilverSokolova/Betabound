@@ -1,0 +1,6 @@
+[
+  [
+    {"op":"test","path":"/input/1/item","value":"concretematerial"},
+    {"op":"replace","path":"/input/1/item","value":"outpostwall1"}
+  ]
+]

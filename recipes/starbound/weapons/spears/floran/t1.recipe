@@ -1,0 +1,5 @@
+{
+  "input" : [["ironbar",6],["darkwoodmaterial",4]],
+  "output" : "sb_florantier1spear",
+  "groups" : ["craftinganvil","weapons","all"]
+}

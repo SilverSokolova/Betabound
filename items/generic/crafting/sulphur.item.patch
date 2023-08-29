@@ -1,0 +1,9 @@
+[
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":2}],
+[{"op":"test","path":"/description","value":"Sulphur, a surprisingly useful compound."},{"op":"replace","path":"/description","value":"Sulphur, a surprisingly useful element."}],
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_preservatives"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_gunpowder"}]
+]

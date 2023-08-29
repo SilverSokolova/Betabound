@@ -1,0 +1,27 @@
+{
+  "objectName" : "sb_pipes4",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 40,
+  "tooltipKind" : "sb_object",
+
+  "description" : "Metal pipes.",
+  "shortdescription" : "Long Pipe",
+  "race" : "apex",
+
+  "inspectionDescription" : "A pipe.",
+  "floranDescription" : "Pipe.",
+  "glitchDescription" : "Observation. A pipe.",
+
+  "inventoryIcon" : "pipe4icon.png?flipx",
+  "orientations" : [
+    {
+      "dualImage" : "pipes4.png:<color>",
+      "imagePosition" : [1, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : ["top"]
+    }
+  ]
+}

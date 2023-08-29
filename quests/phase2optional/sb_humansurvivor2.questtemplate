@@ -1,0 +1,31 @@
+{
+  "id" : "sb_humansurvivor2.gearup",
+  "prerequisites" : ["floran_mission1", "sb_floranfan1.gearup", "sb_hylotlperformer1.gearup"],
+  "title" : "^green;A Lovely Bunch of Coconuts!",
+  "text" : "Hello there! You look like an explorer! If you come across a desert island and ^green;bring me three ^orange;coconuts ^reset;I'll give you something fun!",
+  "completionText" : "Mmm coconuts! Here take this, don't lose it!",
+  "speaker" : "questGiver",
+  "moneyRange" : [50, 150],
+  "rewards" : [["beachball",["rewardbag",1,{"treasure":{"level":3}}]]],
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquest.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {"portraits":{"default":"questGiver"},
+    "requireTurnIn" : true,
+    "turnInDescription" : "Speak to ^orange;the human survivor^reset; at the ^orange;outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "coconut",
+        "count" : 3,
+        "consume" : true
+      }
+    ]
+  }
+}

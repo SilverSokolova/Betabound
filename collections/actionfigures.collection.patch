@@ -1,0 +1,8 @@
+[
+{"op":"add","path":"/collectables/sb_envprobeaf","value":{"order":58,"item":"sb_envprobeaf"}},
+{"op":"add","path":"/collectables/sb_heckblobaf","value":{"order":58,"item":"sb_heckblobaf"}},
+{"op":"add","path":"/collectables/sb_serpentdroidaf","value":{"order":58,"item":"sb_serpentdroidaf"}},
+{"op":"add","path":"/collectables/sb_repairbotaf","value":{"order":58,"item":"sb_repairbotaf"}},
+{"op":"add","path":"/collectables/sb_fatalcircuitaf","value":{"order":68,"item":"sb_fatalcircuitaf"}},
+{"op":"add","path":"/collectables/sb_jellyaf","value":{"order":69,"item":"sb_jellyaf"}}
+]

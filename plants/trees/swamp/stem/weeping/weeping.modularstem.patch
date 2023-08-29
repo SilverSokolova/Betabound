@@ -1,0 +1,2 @@
+//By the by... These use to drop thorn fruit in beta, but I ran a poll and not many people want that back
+[[{"op":"test","path":"/dropConfig","inverse":true},{"op":"add","path":"/dropConfig","value":{"drops":[[]]}}],[{"op":"add","path":"/dropConfig/drops/0/-","value":{"item":"sb_treeHarvest","count":1}}]]

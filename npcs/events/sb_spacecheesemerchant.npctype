@@ -1,0 +1,101 @@
+{
+  "type" : "sb_spacecheesemerchant",
+  "baseType" : "merchant",
+
+  "persistent" : false,
+
+  "scriptConfig" : {
+    "questGenerator" : { "pools" : [], "enableParticipation" : false },
+
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : -1,
+      "categories" : {
+        "override" : [ "cheesemerchant" ]
+      },
+      "buyFactorRange" : [ 0.4, 1.8 ],//0.7,1.5
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 5,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Astro Cheese Merchant",
+          "subtitle" : "  Sells cheese from outer space!"
+        }
+      }
+    },
+
+    "dialog" : {
+      "merchant" : {
+        "tout" : {
+          "default" : {
+            "default" : [
+              "I have arrived from outer space to offer you the finest selection of cheese!"
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran sssell cheese! From ssspace!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Proud. My space cheese is the best cheese."
+            ]
+          }
+        },
+        "start" : {
+          "default" : {
+            "default" : [
+              "Browse my selection of space cheese."
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran sssell cheese! From ssspace!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Proud. My cheese is the best cheese all the way from space."
+            ]
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "Come back anytime for cheese!"
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Come back sssoon for more cheese!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Encouraging. Go forth and eat cheese."
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "back" : [
+              { "name" : "foundryforemanback", "parameters" : { "colorIndex" : [2] } }
+            ],
+            "chest" : [
+              { "name" : "spacesuitchest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "spacesuitlegs", "parameters" : { "colorIndex" : [0] } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "input" : ["liquidsensor",["tungstenbar",2],"smallbattery","wire","siliconboard"],
+  "output" : "sb_pump",
+  "groups" : ["craftingwiring","mechanics","all"]
+}

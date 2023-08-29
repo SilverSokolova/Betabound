@@ -1,0 +1,19 @@
+[
+[{"op":"test","path":"/ambientNoises","inverse":true},{"op":"add","path":"/ambientNoises","value":{"day":{"tracks":[]},"night":{"tracks":[]}}}],
+  [{
+        "op": "add",
+        "path": "/ambientNoises",
+        "value": {
+            "day": {
+                "tracks": [
+                    "/sfx/environmental/snow_underground.ogg"
+                ]
+            },
+            "night": {
+                "tracks": [
+                    "/sfx/environmental/tundra_underground.ogg"
+                ]
+            }
+        }
+    }]
+]

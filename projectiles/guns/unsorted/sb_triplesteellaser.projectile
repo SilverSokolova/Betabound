@@ -1,0 +1,34 @@
+{
+  "projectileName" : "sb_triplesteellaser",
+  "image" : "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "timeToLive" : 0,
+  "physics" : "laser",
+  "flippable" : true,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "sb_monkeynutlaser",
+      "fuzzAngle" : 3,
+      "inheritDamageFactor" : 0.4,
+      "angleAdjust" : 12
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_deadboltlaser",
+      "fuzzAngle" : 3,
+      "inheritDamageFactor" : 1,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "sb_monkeynutlaser",
+      "fuzzAngle" : 3,
+      "inheritDamageFactor" : 0.4,
+      "angleAdjust" : -12
+    }
+  ],
+  "damageKind" : "dagger"
+}

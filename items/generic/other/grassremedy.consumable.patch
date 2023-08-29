@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/handPosition"},{"op":"remove","path":"/handPosition"}],
+[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":100}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}]
+]

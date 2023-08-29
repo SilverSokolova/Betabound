@@ -1,0 +1,5 @@
+[
+[{"op":"add","path":"/techChest/0/containers/-","value":"techchest"}]
+,[{"op":"add","path":"/iceChest/0/containers/-","value":"icespherechest"}]
+,[{"op":"add","path":"/iceCaveChest/0/containers/-","value":"icespherechest"}]
+]

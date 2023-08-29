@@ -1,0 +1,6 @@
+{
+  "input" : ["mysterioustrashbag"],
+  "output" : "mysteriousashes",
+  "duration" : 3,
+  "groups" : ["craftingfurnace","ingredients","all"]
+}

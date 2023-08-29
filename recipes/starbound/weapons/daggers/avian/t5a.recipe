@@ -1,0 +1,5 @@
+{
+  "input" : [["refinedaegisalt",2],["durasteelbar",1]],
+  "output" : "sb_aviantier5adagger",
+  "groups" : ["craftingseparator","weapons","all"]
+}

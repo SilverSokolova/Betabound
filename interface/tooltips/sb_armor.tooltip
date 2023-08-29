@@ -1,0 +1,74 @@
+{
+  "background": {
+    "type": "background",
+    "fileHeader": "/interface/tooltips/sb_header.png",
+    "fileBody": "/interface/tooltips/sb_armorbody.png",
+    "fileFooter": "/interface/tooltips/sb_footer.png"
+  },
+  "rarityLabel": {
+    "type": "label",
+    "position": [7, 23],
+    "hAnchor": "left",
+    "centered": true,
+    "wrapWidth": 126
+  },
+  "levelLabel": {
+    "type": "label",
+    "position": [114, 172.5],
+    "hAnchor": "left",
+    "color": "gray",
+    "centered": true,
+    "wrapWidth": 126
+  },
+  "moneyIcon": {
+    "type": "image",
+    "position": [98, 23],
+    "file": "/interface/money.png"
+  },
+  "priceLabel": {
+    "type": "label",
+    "position": [110, 23],
+    "hAnchor": "left",
+    "value": "0"
+  },
+  "objectImage": {
+    "type": "image",
+    "position": [35, 131],
+    "file": "",
+    "centered": true,
+    "scale": 2,
+    "maxSize": [46, 59],
+    "minSize": [46, 59]
+  },
+  "descriptionLabel": {
+    "type": "label",
+    "position": [10, 95],
+    "wrapWidth": 122,
+    "vAnchor": "top",
+    "hAnchor": "left"
+  },
+  "statusList": {
+    "scissoring": false,
+    "type": "list",
+    "fillDown": true,
+    "position": [0, 166.5],
+    "schema": {
+      "spacing": [0, 2.5],
+      "memberSize": [999, 15],
+      "listTemplate": {
+        "statusLabel": {
+          "type": "label",
+          "position": [128, 2],
+          "hAnchor": "right"
+        },
+        "statusImage": {
+          "scissoring": false,
+          "type": "image",
+          "position": [68, -1],
+          "file": "",
+          "zlevel": 8
+        }
+      }
+    }
+  }
+}

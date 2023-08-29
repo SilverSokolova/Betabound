@@ -1,0 +1,34 @@
+{
+  "id" : "sb_hylotlperformer1.gearup",
+  "prerequisites" : ["sb_outpost1.gearup"],
+  "title" : "^green;The Funny Pages",
+  "text" : "By golly! I've been planning a stand up comedy show here on the outpost for weeks and my ^orange;script ^reset;has gone missing. ^green;It must be around here some place... ^orange;Can you help me find it?",
+  "completionText" : "What!? It was in the bin? Some mischievous prankster must've stolen the script and disposed of it. Thank you, here's some pixels for your hard work!",
+  "speaker" : "questGiver",
+  "moneyRange" : [80, 80],
+  "rewards" : [],
+
+  "guiConfigs" : {
+    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest" : "/interface/windowconfig/sb_newquestnorewards.config",
+    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "canBeAbandoned" : true,
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {"default" : "questGiver"},
+//  "acceptItems" : ["comedyscript"],
+    "turnInDescription" : "Speak to ^orange;the comedian^reset; at the ^orange;outpost^reset;",
+    "requireTurnIn" : true,
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "comedyscript",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}

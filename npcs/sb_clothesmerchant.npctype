@@ -1,0 +1,40 @@
+{
+  "type" : "sb_clothesmerchant",
+  "baseType" : "merchant",
+  
+  "persistent" : true,
+  "damageTeamType" : "friendly",
+
+  "dropPools" : [ "basicTreasure" ],
+
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common", "merchant"]
+    },
+
+
+    "merchant" : {
+      "categories" : {
+        "default" : ["apexclothes", "avianclothes", "floranclothes", "glitchclothes", "sb_humanclothes", "hylotlclothes", "novakidclothes","sb_costumes"],
+        "apex" : ["apexclothes","sb_costumes"],
+        "avian" : ["avianclothes","sb_costumes"],
+        "floran" : ["floranclothes","sb_costumes"],
+        "glitch" : ["glitchclothes","sb_costumes"],
+        "human" : ["sb_humanclothes","sb_costumes"],
+        "hylotl" : ["hylotlclothes","sb_costumes"],
+        "novakid" : ["novakidclothes","sb_costumes"]
+      },
+      "buyFactorRange" : [ 0.9, 1.2 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 20,
+      "storeRadius" : -1,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Clothing Merchant",
+          "subtitle" : "  Sells cultural clothing"
+        }
+      }
+    }
+  }
+}

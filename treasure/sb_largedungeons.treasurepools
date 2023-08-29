@@ -1,0 +1,119 @@
+{
+  "sb_humanbunkerLore" : [
+    [0, {
+      "fill" : [
+        {"pool" : "bookTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_customcodex",1,{"inventoryIcon":"/codex/sb_humanbunkerbook.png","codexIcon":"/codex/sb_humanbunkerbook.png"}]}
+      ],
+      "poolRounds" : [
+        [0.05, 0],
+        [0.05, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "sb_humanbunkerChestTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "valuableTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.5, "pool" : "basicTreasure"},
+        {"weight" : 0.5, "pool" : "sb_humanbunkerTreasure"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "sb_humanbunkerTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.045, "pool" : "sb_holidaySpirit"},
+        {"weight" : 0.05, "item" : "sb_alienburger"},
+        {"weight" : 0.03, "pool" : "sb_stim"},
+        {"weight" : 0.02, "item" : ["sb_handgrenade",4]},
+        {"weight" : 0.008, "pool" : "sb_revolver"},
+        {"weight" : 0.008, "item" : "sb_flamethrower"},
+        {"weight" : 0.008, "item" : "fryingpan"},
+        {"weight" : 0.008, "item" : "sb_fryingpan"}
+      ]
+    }]
+  ],
+  "sb_humanbunkerFoodTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.05, "item" : ["grapes",2]},
+        {"weight" : 0.05, "item" : ["banana",2]},
+        {"weight" : 0.05, "item" : ["kiwi",2]},
+        {"weight" : 0.05, "item" : ["grapes",2]}, //more grapes
+        {"weight" : 0.05, "item" : ["pineapple",3]},
+        {"weight" : 0.025, "item" : "sb_alienburger"},
+        {"weight" : 0.025, "item" : "hamburger"}
+      ]
+    }]
+  ],
+  "sb_humanbunkerFuelTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_unrefinedwood",20]},
+        {"weight" : 0.5, "item" : ["sb_unrefinedwood",10]},
+        {"weight" : 0.5, "item" : ["coalore",10]},
+        {"weight" : 0.5, "item" : ["coalore",5]}
+      ]
+    }],
+    [2.9, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["sb_unrefinedwood",20]},
+        {"weight" : 0.5, "item" : ["sb_unrefinedwood",10]},
+        {"weight" : 0.5, "item" : ["coalore",10]},
+        {"weight" : 0.5, "item" : ["coalore",5]},
+        {"weight" : 0.2, "item" : ["liquidfuel",20]},
+        {"weight" : 0.2, "item" : ["liquidfuel",10]},
+        {"weight" : 0.2, "item" : ["solidfuel",20]},
+        {"weight" : 0.2, "item" : ["solidfuel",10]},
+        {"weight" : 0.07, "item" : ["supermatter",5]},
+        {"weight" : 0.07, "item" : ["supermatter",2]},
+        {"weight" : 0.15, "item" : ["liquidoil",6]},
+        {"weight" : 0.15, "item" : ["liquidoil",12]},
+        {"weight" : 0.07, "item" : ["uraniumore",6]},
+        {"weight" : 0.07, "item" : ["uraniumore",3]}
+      ]
+    }],
+    [4.9, {
+      "pool" : [
+        {"weight" : 0.3, "item" : ["supermatter",5]},
+        {"weight" : 0.3, "item" : ["supermatter",2]},
+        {"weight" : 0.2, "item" : ["uraniumrod",4]},
+        {"weight" : 0.2, "item" : ["uraniumrod",2]},
+        {"weight" : 0.07, "item" : ["plutoniumore",4]},
+        {"weight" : 0.07, "item" : ["plutoniumore",2]},
+        {"weight" : 0.05, "item" : ["plutoniumrod",4]},
+        {"weight" : 0.05, "item" : ["plutoniumrod",2]}
+      ]
+    }]
+  ],
+  "sb_humanbunkerClothesTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight":0.7,"item":"chefhead"},
+        {"weight":0.7,"item":"chefchest"},
+        {"weight":0.7,"item":"cheflegs"},
+        {"weight":0.7,"item":"soldierhead"},
+        {"weight":0.7,"item":"soldierchest"},
+        {"weight":0.7,"item":"soldierpants"},
+        {"weight":1,"item":["tshirtchest",1,{"colorIndex":3}]},
+        {"weight":1,"item":["workoutchest",1,{"colorIndex":3}]},
+        {"weight":1,"item":["sb_workoutchest",1,{"colorIndex":3}]},
+        {"weight":1,"item":"jeans1legs"},
+        {"weight":1,"item":["jeans2legs",1,{"colorIndex":8}]},
+        {"weight":1,"item":"jeans3legs"},
+        {"weight":1,"item":"sweatervestlegs"}
+      ]
+    }]
+  ]
+}

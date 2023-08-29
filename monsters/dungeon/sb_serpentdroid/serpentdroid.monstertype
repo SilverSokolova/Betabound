@@ -1,0 +1,259 @@
+{
+  "type" : "sb_serpentdroid",
+  "shortdescription" : "Serpent Droid",
+  "description" : "A mass-produced guard robot commonly used by the USCM.",
+
+  "categories" : ["sb_serpentdroid"],
+  "parts" : ["body","arm"],
+  "animation" : "serpentdroid.animation",
+  "reversed" : false, //Yes, I know I manually flip each animation component, but this makes the arms aim properly.
+
+  "dropPools" : ["sb_serpentdroidTreasure"],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua",
+      "/scripts/companions/sb_capturable.lua"
+    ],
+    "damageTeam" : 2,
+    "behavior" : "monster",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 30,
+      "targetOnDamage" : true,
+      "targetEntityTypes" : ["player", "npc", "monster"],
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 2.5,
+
+      "foundTargetActions" : [{"name" : "action-aggrohop"}],
+
+      "fleeActions" : [],
+
+      "hostileActions" : [
+        {
+          "name" : "action-invulnerable",
+          "cooldown" : 10,
+          "parameters" : {
+            "windupTime" : 0.5,
+            "windupState" : "windup",
+            "winddownTime" : 0.5,
+            "winddownState" : "winddown",
+
+            "invulnerableEffect" : "highprotection",
+            "invulnerableTime" : 8
+          }
+        },
+        {
+          "name" : "action-fire",
+          "cooldown" : 2.5,
+          "parameters" : {
+            "maximumRange" : 15,
+            "minimumRange" : 2,
+            "windupState" : "",
+            "windupTime" : 0,
+
+            "projectileType" : "blueplasmabullet",
+            "power" : 4,
+            "fireOffset" : [-1, -0.5],
+            "projectileCount" : 3,
+            "projectileInterval" : 0.3,
+            "aimAtTarget" : true,
+            "rotateAim" : true,
+            "rotatedOffset" : [2.125, 0],
+            "fireState" : "fire",
+            "fireDelay" : 0.2,
+            "fireSound" : "fire",
+
+            "winddownState" : "",
+            "winddownTime" : 0.5
+          }
+        }
+      ],
+
+      "invulnerableActions" : [
+        {
+          "name" : "action-fire",
+          "parameters" : {
+            "maximumRange" : 15,
+            "minimumRange" : 2,
+            "windupState" : "",
+            "windupTime" : 0,
+
+            "projectileType" : "blueplasmabullet",
+            "power" : 4,
+            "fireOffset" : [-1, -0.5],
+            "projectileCount" : 3,
+            "projectileInterval" : 0.3,
+            "aimAtTarget" : true,
+            "rotateAim" : true,
+            "rotatedOffset" : [2.125, 0],
+            "rotationCenter" : [-1.25, -0.5],
+            "fireState" : "",
+            "fireDelay" : 0.2,
+            "fireSound" : "fire",
+
+            "winddownState" : "",
+            "winddownTime" : 0.5
+          }
+        }
+      ],
+
+      "periodicActions" : [],
+
+      "approachActions" : [
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : false
+          }
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "wander-walk",
+          "cooldown" : 6,
+          "parameters" : {
+            "wanderTime" : [3, 6]
+          }
+        }
+      ]
+    },
+
+    "metaBoundBox" : [-1.75, -1.75, 1.75, 1],
+    "scale" : 1,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-1.75, -0.35], [0,-1.75], [1.75, -0.35], [1.75, 1], [-1.75, 1] ],
+      "mass" : 1,
+      "walkSpeed" : 6,
+      "runSpeed" : 6,
+      "jumpSpeed" : 0,
+      "flySpeed" : 15,
+      "airFriction" : 0.25,
+      "airForce" : 50,
+      "airJumpProfile" : {
+        "jumpControlForce" : 0,
+        "jumpInitialPercentage" : 0
+      }
+    },
+
+    "knockoutTime" : 0.1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+
+    "touchDamage" : {
+      "poly" : [ [-1.75, -1.75], [1.75, -1.75], [1.75, 1], [-1.75, 1] ],
+      "damage" : 15,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "hammer",
+      "statusEffects" : [ ]
+    },
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "robotic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+	"sb_killCount" : {
+	  "baseValue" : 0
+	},
+	"sb_level" : {
+	  "baseValue" : 0
+	},
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 72
+        },
+        "maxShieldHealth" : {
+          "baseValue" : 0
+        },
+        "protection" : {
+          "baseValue" : 1
+        },
+        "healthRegen" : {
+          "baseValue" : 0
+        },
+        "poisonImmunity" : {
+          "baseValue" : 1
+        },
+        "shieldRegen" : {
+          "baseValue" : 0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1
+        },
+        "physicalResistance" : {
+          "baseValue" : 0
+        },
+        "fireResistance" : {
+          "baseValue" : -0.5
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 0
+        },
+        "iceResistance" : {
+          "baseValue" : 0
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 0
+        },
+        "electricResistance" : {
+          "baseValue" : 0.5
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 1
+        },
+        "poisonResistance" : {
+          "baseValue" : 0
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1,
+          "initialValue" : 0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        },
+        "shieldHealth" : {
+          "maxStat" : "maxShield",
+          "deltaStat" : "shieldRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : true,
+    "captureHealthFraction" : 0.5,
+    "nametagColor" : [64, 200, 255],
+    "captureCollectables" : {"monsters" : "sb_serpentdroid"}
+  }
+}
