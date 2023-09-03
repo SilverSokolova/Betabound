@@ -1,57 +1,57 @@
 {
-  "globalTagDefaults" : {
-    "paletteSwaps" : ""
+  "globalTagDefaults": {
+    "paletteSwaps": ""
   },
 
-  "animatedParts" : {
-    "stateTypes" : {
-      "firing" : {
-        "default" : "off",
-        "states" : {
-          "off" : {},
-          "fire" : {
-            "frames" : 2,
-            "cycle" : 0.07,
-            "mode" : "transition",
-            "transition" : "off"
+  "animatedParts": {
+    "stateTypes": {
+      "firing": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "fire": {
+            "frames": 2,
+            "cycle": 0.07,
+            "mode": "transition",
+            "transition": "off"
           }
         }
       }
     },
 
-    "parts" : {
-      "middle" : {
-        "properties" : {
-          "centered" : true,
-          "image" : "<partImage><paletteSwaps>",
-          "offset" : [0.5, 0.125],
-          "transformationGroups" : ["weapon"]
+    "parts": {
+      "middle": {
+        "properties": {
+          "centered": true,
+          "image": "<partImage><paletteSwaps>",
+          "offset": [0.5, 0.125],
+          "transformationGroups": ["weapon"]
         }
       },
-      "middleFullbright" : {
-        "properties" : {
-          "zLevel" : 1,
-          "centered" : true,
-          "fullbright" : true,
-          "image" : "<partImage><paletteSwaps>",
-          "offset" : [0.5, 0.125],
-          "transformationGroups" : ["weapon"]
+      "middleFullbright": {
+        "properties": {
+          "zLevel": 1,
+          "centered": true,
+          "fullbright": true,
+          "image": "<partImage><paletteSwaps>",
+          "offset": [0.5, 0.125],
+          "transformationGroups": ["weapon"]
         }
       },
-      "muzzleFlash" : {
-        "properties" : {
-          "zLevel" : -1,
-          "centered" : true,
-          "offset" : [0.75, 0],
-          "fullbright" : true,
-          "transformationGroups" : ["muzzle"]
+      "muzzleFlash": {
+        "properties": {
+          "zLevel": -1,
+          "centered": true,
+          "offset": [0.75, 0],
+          "fullbright": true,
+          "transformationGroups": ["muzzle"]
         },
 
-        "partStates" : {
-          "firing" : {
-            "fire" : {
-              "properties" : {
-                "image" : "<partImage>:<variant>.<frame>"
+        "partStates": {
+          "firing": {
+            "fire": {
+              "properties": {
+                "image": "<partImage>:<variant>.<frame>"
               }
             }
           }
@@ -60,46 +60,49 @@
     }
   },
 
-  "rotationGroups" : {
-    "weapon" : {
-      "angularVelocity" : 0
+  "rotationGroups": {
+    "weapon": {
+      "angularVelocity": 0
     }
   },
 
-  "transformationGroups" : {
-    "weapon" : {},
-    "muzzle" : {},
-    "beamEnd" : {}
+  "transformationGroups": {
+    "weapon": {},
+    "muzzle": {},
+    "beamEnd": {}
   },
 
-  "particleEmitters" : {
-    "muzzleFlash" : {
-      "transformationGroups" : ["muzzle"],
-      "offsetRegion" : [0, 0, 0, 0],
-      "particles" : [ ]
+  "particleEmitters": {
+    "muzzleFlash": {
+      "transformationGroups": ["muzzle"],
+      "offsetRegion": [0, 0, 0, 0],
+      "particles": []
     },
-    "beamCollision" : {
-      "active" : false,
-      "transformationGroups" : ["muzzle", "beamEnd"],
-      "emissionRate" : 20,
-      "particles" : [
-        {"particle" : "iceswoosh3"},
-        {"particle" : "icetrailwide"},
-        {"particle" : "icethrowertrail"}
+    "beamCollision": {
+      "active": false,
+      "transformationGroups": ["muzzle", "beamEnd"],
+      "emissionRate": 20,
+      "particles": [{
+          "particle": "iceswoosh3"
+        }, {
+          "particle": "icetrailwide"
+        }, {
+          "particle": "icethrowertrail"
+        }
       ]
     }
   },
 
-  "lights" : {
-    "muzzleFlash" : {
-      "color" : [0, 0, 0]
+  "lights": {
+    "muzzleFlash": {
+      "color": [0, 0, 0]
     }
   },
 
-  "sounds" : {
-    "fireStart" : [],
-    "fireLoop" : [],
-    "fireEnd" : [],
-    "beamImpact" : []
+  "sounds": {
+    "fireStart": [],
+    "fireLoop": [],
+    "fireEnd": [],
+    "beamImpact": []
   }
 }

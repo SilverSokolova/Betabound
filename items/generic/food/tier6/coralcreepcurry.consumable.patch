@@ -3,10 +3,12 @@
 [{"op":"test","path":"/rottedItem","inverse":true},{"op":"add","path":"/rottedItem","value":"sb_revoltingstew"}],
 [{"op":"add","path":"/sb_plateHide","value":true}],
 
-[{"op":"test","path":"/rarity","value":"Uncommon"},{"op":"replace","path":"/rarity","value":"Rare"}],
-
+[{"op":"test","path":"/foodValue","value":50},{"op":"replace","path":"/foodValue","value":40}],
+[{"op":"test","path":"/price","value":515},{"op":"replace","path":"/price","value":335}],
 [{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":2}],
 
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
-[{"op":"add","path":"/effects/0/-","value":"sb_foodheal170"}]
+[{"op":"test","path":"/effects/0/duration","value":225},{"op":"replace","path":"/effects/0/duration","value":180}],
+[{"op":"test","path":"/effects/1/duration","value":225},{"op":"replace","path":"/effects/1/duration","value":180}],
+[{"op":"add","path":"/effects/0/-","value":"sb_foodheal135"}]
 ]

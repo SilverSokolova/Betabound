@@ -1,29 +1,50 @@
 {
-  "itemName" : "sb_slimestaff",
-  "definition" : "staff",
-  "itemTags" : ["weapon","staff","upgradeableWeapon"],
-  "tags" : {"<staff>" : "slime", "<glow>" : "slimeglow"},
-
-  "description" : "Casts a spread of sticky slime at your target.",
-  "shortdescription" : "Slime Staff",
-  "tooltipFields" : {"damageKindImage":"/interface/sb_tooltips/slimeexplosion.png"},
-
-  "animationCustom" : {
-    "animatedParts": {"parts":{"chargeEffect":{"properties":{"offset":[0,0.85]}}}},
-//  "particleEmitters" : {"physicalcharge" : {"particles":[]}},
-    "sounds" : {"zoneactivate" : ["/sfx/blocks/water_puddlemod.ogg","/sfx/blocks/water_swim.ogg"]}
+  "itemName": "sb_slimestaff",
+  "definition": "staff",
+  "itemTags": ["weapon", "staff", "upgradeableWeapon"],
+  "tags": {
+    "<staff>": "slime",
+    "<glow>": "slimeglow"
   },
 
-  "elementalType" : "poison",
-  "altAbilityType" : "elementbouncer",
-  "primaryAbility" : {
-    "projectileType" : "slimeexplosion",
-    "projectileParameters" : {
-      "speed" : 0,
-      "baseDamage" : 8,
-      "statusEffects" : [{"effect":"slimeslow","duration":5}],
-      "damageTeam" : {"type":"indiscriminate"}
+  "description": "Casts a spread of sticky slime at your target.",
+  "shortdescription": "Slime Staff",
+  "tooltipFields": {
+    "damageKindImage": "/interface/sb_tooltips/slimeexplosion.png"
+  },
+
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "chargeEffect": {
+          "properties": {
+            "offset": [0, 0.85]
+          }
+        }
+      }
+    },
+    //  "particleEmitters" : {"physicalcharge" : {"particles":[]}},
+    "sounds": {
+      "zoneactivate": ["/sfx/blocks/water_puddlemod.ogg", "/sfx/blocks/water_swim.ogg"]
     }
   },
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+
+  "elementalType": "poison",
+  "altAbilityType": "elementbouncer",
+  "primaryAbility": {
+    "projectileType": "slimeexplosion",
+    "projectileParameters": {
+      "speed": 0,
+      "baseDamage": 8,
+      "statusEffects": [{
+          "effect": "slimeslow",
+          "duration": 5
+        }
+      ],
+      "damageTeam": {
+        "type": "indiscriminate"
+      }
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

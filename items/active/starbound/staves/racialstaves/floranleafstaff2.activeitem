@@ -1,21 +1,28 @@
 {
-  "itemName" : "sb_floranleafstaff2",
-  "definition" : "racialstaff",
-  "itemTags" : ["weapon","staff"],
-  "tags" : {"<race>" : "floran", "<staff>" : "leafstaff", "<n>" : "2"},
-  "rarity" : "legendary",
-  "level" : 6,
-  "description" : "Creates an unbearable flurry of petals.",
-  "shortdescription" : "Petal Storm Staff",
-  "tooltipFields" : {"subtitle":"Leaf Staff","damageKindImage":"/items/throwables/sb_cutterleaf.png"},
-  "elementalType" : "poison",
-  "altAbilityType" : "elementorb",
-  "primaryAbility" : {
-    "projectileType" : "sb_petalcloud",
-    "projectileParameters" : {
-      "baseDamage" : 12,
-      "speed" : 0
+  "itemName": "sb_floranleafstaff2",
+  "definition": "racialstaff",
+  "itemTags": ["weapon", "staff", "upgradeableWeapon"],
+  "tags": {
+    "<race>": "floran",
+    "<staff>": "leafstaff",
+    "<n>": "2"
+  },
+  "rarity": "legendary",
+  "level": 6,
+  "description": "Creates an unbearable flurry of petals.",
+  "shortdescription": "Petal Storm Staff",
+  "tooltipFields": {
+    "subtitle": "Leaf Staff",
+    "damageKindImage": "/items/throwables/sb_cutterleaf.png"
+  },
+  "elementalType": "poison",
+  "altAbilityType": "elementorb",
+  "primaryAbility": {
+    "projectileType": "sb_petalcloud",
+    "projectileParameters": {
+      "baseDamage": 12,
+      "speed": 0
     }
   },
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

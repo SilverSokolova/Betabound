@@ -6,7 +6,6 @@ require "/scripts/activeitem/sb_swing.lua"
 function init() swingInit() sb_cursor("power")
   itemName = config.getParameter("itemName")..config.getParameter("customUpgradeID","")
   onlyOnce = config.getParameter("onlyOnce",true)
-  property = "sb_shipUpgrades"
 end
 
 function swingAction() animateSwing()
@@ -16,12 +15,12 @@ function swingAction() animateSwing()
     for k, v in pairs(upgrade) do upgrade[k] = ship[k] + v end
   end
   if onlyOnce then
-    local upgrades = player.getProperty(property,{})
+    local upgrades = player.getProperty("sb_shipUpgrades",{})
     if #upgrades == 0 then
-      player.setProperty(property,{itemName})
+      player.setProperty("sb_shipUpgrades",{itemName})
     else
       upgrades[#upgrades+1] = itemName
-      player.setProperty(property,upgrades)
+      player.setProperty("sb_shipUpgrades",upgrades)
     end
     local betabound = player.getProperty("betabound",{})
     player.setProperty("betabound",sb.jsonMerge(betabound,{ship=sb.jsonMerge(betabound.ship,upgrade)}))
@@ -31,4 +30,4 @@ function swingAction() animateSwing()
   item.consume(1)
 end
 
-function hasUpgrade() return contains(player.getProperty(property,{}),itemName) end
+function hasUpgrade() return contains(player.getProperty("sb_shipUpgrades",{}),itemName) end

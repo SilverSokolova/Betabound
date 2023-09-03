@@ -1,21 +1,28 @@
 {
-  "itemName" : "sb_aviancrystalstaff2",
-  "definition" : "racialstaff",
-  "itemTags" : ["weapon","staff"],
-  "tags" : {"<race>" : "avian", "<staff>" : "crystalstaff", "<n>" : "2"},
-  "rarity" : "legendary",
-  "level" : 6,
-  "description" : "Creates a gemstone pulsing with tremendous energy.",
-  "shortdescription" : "Quetzalcoatl's Quartz",
-  "tooltipFields" : {"subtitle":"Crystal Staff","damageKindImage":"/projectiles/sb_staves/racialstaves/crystal/quetzalcoatlsquartz/quetzalcoatlsquartz.png:0"},
-  "elementalType" : "electric",
-  "altAbilityType" : "pullzone",
-  "primaryAbility" : {
-    "projectileType" : "sb_quetzalcoatlsquartz",
-    "projectileParameters" : {
-      "baseDamage" : 12,
-      "speed" : 0
+  "itemName": "sb_aviancrystalstaff2",
+  "definition": "racialstaff",
+  "itemTags": ["weapon", "staff", "upgradeableWeapon"],
+  "tags": {
+    "<race>": "avian",
+    "<staff>": "crystalstaff",
+    "<n>": "2"
+  },
+  "rarity": "legendary",
+  "level": 6,
+  "description": "Creates a gemstone pulsing with tremendous energy.",
+  "shortdescription": "Quetzalcoatl's Quartz",
+  "tooltipFields": {
+    "subtitle": "Crystal Staff",
+    "damageKindImage": "/projectiles/sb_staves/racialstaves/crystal/quetzalcoatlsquartz/quetzalcoatlsquartz.png:0"
+  },
+  "elementalType": "electric",
+  "altAbilityType": "pullzone",
+  "primaryAbility": {
+    "projectileType": "sb_quetzalcoatlsquartz",
+    "projectileParameters": {
+      "baseDamage": 12,
+      "speed": 0
     }
   },
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

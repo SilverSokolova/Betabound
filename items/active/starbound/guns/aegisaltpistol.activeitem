@@ -1,37 +1,48 @@
 {
-  "itemName" : "sb_aegisaltpistol",
-  "inventoryIcon" : "aegisaltpistol.png",
-  "maxStack" : 1,
-  "price" : 450,
-  "tooltipKind" : "sb_gun2",
-  "tooltipFields" : {"damageKindImage":"/interface/sb_tooltips/standardbullet.png"},
-  "itemTags" : ["weapon","ranged","pistol","aegisalt","upgradeableWeapon"],
-  "category" : "pistol",
-  "fixedRarity" : true,
-  "rarity" : "rare",
-  "description" : "A pistol of the highest calibre.",
-  "shortdescription" : "Aegisalt Pistol",
-  "animation" : "/items/active/starbound/guns/randomgenerated/gun.animation",
-  "animationCustom" : {"sounds":{"fire":["/sfx/gun/revolver1.ogg"]}},
-  "animationParts" : {
-    "barrel" : "",
-    "butt" : "",
-    "muzzleFlash" : "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.png",
-    "middle" : "aegisaltpistol.png"
+  "itemName": "sb_aegisaltpistol",
+  "inventoryIcon": "aegisaltpistol.png",
+  "maxStack": 1,
+  "price": 450,
+  "tooltipKind": "sb_gun2",
+  "tooltipFields": {
+    "damageKindImage": "/interface/sb_tooltips/standardbullet.png"
   },
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-  "baseOffset" : [0.6, 0.15],
-  "muzzleOffset" : [2, 0.4],
+  "itemTags": ["weapon", "ranged", "pistol", "aegisalt", "upgradeableWeapon"],
+  "category": "pistol",
+  "fixedRarity": true,
+  "rarity": "rare",
+  "description": "A pistol of the highest calibre.",
+  "shortdescription": "Aegisalt Pistol",
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/gun/revolver1.ogg"]
+    }
+  },
+  "animationParts": {
+    "barrel": "",
+    "butt": "",
+    "muzzleFlash": "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.png",
+    "middle": "aegisaltpistol.png"
+  },
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "baseOffset": [0.6, 0.15],
+  "muzzleOffset": [2, 0.4],
 
-  "twoHanded" : false,
-  "level" : 5,
-  "primaryAbilityType" : "sb_gun",
-  "primaryAbility" : {
-    "fireTime" : 0.6,
-    "baseDps" : 7.25,
-    "energyUsage" : 7,
-    "inaccuracy" : 0.02,
-    "projectileParameters" : {"speed":150,"timeToLive":3,"power":2.7,"knockback":6}
+  "twoHanded": false,
+  "level": 5,
+  "primaryAbilityType": "sb_gun",
+  "primaryAbility": {
+    "fireTime": 0.6,
+    "baseDps": 7.25,
+    "energyUsage": 7,
+    "inaccuracy": 0.02,
+    "projectileParameters": {
+      "speed": 150,
+      "timeToLive": 3,
+      "power": 2.7,
+      "knockback": 6
+    }
   },
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

@@ -1,0 +1,98 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "shopleft": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "open": {
+            "frames": 4,
+            "cycle": 0.4,
+            "properties": {
+              "immediateSound": "/sfx/objects/apexcooldoor_open.ogg"
+            }
+          },
+          "close": {
+            "frames": 4,
+            "cycle": 0.4,
+            "properties": {
+              "immediateSound": "/sfx/objects/apexcooldoor_close.ogg"
+            }
+          }
+        }
+      },
+      "shopright": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "open": {
+            "frames": 4,
+            "cycle": 0.4,
+            "properties": {
+              "immediateSound": "/sfx/objects/apexcooldoor_open.ogg"
+            }
+          },
+          "close": {
+            "frames": 4,
+            "cycle": 0.4,
+            "properties": {
+              "immediateSound": "/sfx/objects/apexcooldoor_close.ogg"
+            }
+          }
+        }
+      }
+    },
+    "parts": {
+      "shopleft": {
+        "properties": {
+          "centered": false,
+          "zLevel": -1
+        },
+        "partStates": {
+          "shopleft": {
+            "off": {
+              "properties": {
+                "image": ""
+              }
+            },
+            "open": {
+              "properties": {
+                "image": "<partImage>:<color>.<frame>?flipx"
+              }
+            },
+            "close": {
+              "properties": {
+                "image": "<partImage>:<color>.reverse<frame>?flipx"
+              }
+            }
+          }
+        }
+      },
+      "shopright": {
+        "properties": {
+          "centered": false,
+          "zLevel": -1
+        },
+        "partStates": {
+          "shopright": {
+            "off": {
+              "properties": {
+                "image": ""
+              }
+            },
+            "open": {
+              "properties": {
+                "image": "<partImage>:<color>.<frame>"
+              }
+            },
+            "close": {
+              "properties": {
+                "image": "<partImage>:<color>.reverse<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

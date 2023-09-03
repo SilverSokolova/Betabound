@@ -1,85 +1,94 @@
 {
-  "itemName" : "sb_lightningcoil",
-  "maxStack" : 1,
-  "price" : 620,
-  "rarity" : "uncommon",
-  "muzzleOffset" : [0, 0.5],
-  "baseOffset" : [-1, 0],
-  "tooltipKind" : "sb_gun",
-  "category" : "assaultRifle",
-  "description" : "",
-  "shortdescription" : "Lightning Coil",
-  "paletteSwaps" : "",
-  "twoHanded" : true,
-  "level" : 1,
-  "itemTags" : ["weapon","ranged","sniperrifle","upgradeableWeapon"],
-  "tooltipFields" : {"subtitle":"Lightning Coil"},
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-  "animation" : "/items/active/starbound/guns/randomgenerated/gun.animation",
-  "animationParts" : {"muzzleFlash":"/animations/sb/muzzleflash/electromuzzle/electromuzzle.png"},
-  "animationCustom" : {"sounds":{"fire":["/sfx/gun/lightningcoil1.ogg", "/sfx/gun/lightningcoil2.ogg", "/sfx/gun/lightningcoil3.ogg"]}},
+  "itemName": "sb_lightningcoil",
+  "maxStack": 1,
+  "price": 620,
+  "rarity": "uncommon",
+  "muzzleOffset": [0, 0.5],
+  "baseOffset": [-1, 0],
+  "tooltipKind": "sb_gun",
+  "category": "assaultRifle",
+  "description": "",
+  "shortdescription": "Lightning Coil",
+  "paletteSwaps": "",
+  "twoHanded": true,
+  "level": 1,
+  "itemTags": ["weapon", "ranged", "sniperrifle", "upgradeableWeapon"],
+  "tooltipFields": {
+    "subtitle": "Lightning Coil"
+  },
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationParts": {
+    "muzzleFlash": "/animations/sb/muzzleflash/electromuzzle/electromuzzle.png"
+  },
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/gun/lightningcoil1.ogg", "/sfx/gun/lightningcoil2.ogg", "/sfx/gun/lightningcoil3.ogg"]
+    }
+  },
 
-  "elementalType" : "electric",
+  "elementalType": "electric",
 
-  "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-    "projectileType" : ["lightning2","electro","teslaboltsmall","teslabolt","electriccrutterlightning"],
-    "projectileParameters" : {
-      "knockbackRange" : [0,0],
-      "bounces" : 4
+  "primaryAbility": {
+    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
+    "class": "GunFire",
+    "projectileType": ["lightning2", "electro", "teslaboltsmall", "teslabolt", "electriccrutterlightning"],
+    "projectileParameters": {
+      "knockbackRange": [0, 0],
+      "bounces": 4
     },
-    "fireTime" : [0.03, 0.09],
-    "baseDps" : [9.5, 10.5],
-    "projectileOffset" : [0, 0.5],
-    "fireMode" : "auto",
-    "energyUsage" : [38, 48],
-    "inaccuracy" : 0,
-    "stances" : {
-      "idle" : {
-	"armRotation" : 0,
-	"weaponRotation" : 0,
-	"twoHanded" : true,
+    "fireTime": [0.03, 0.09],
+    "baseDps": [9.5, 10.5],
+    "projectileOffset": [0, 0.5],
+    "fireMode": "auto",
+    "energyUsage": [38, 48],
+    "inaccuracy": 0,
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
 
-	"allowRotate" : true,
-	"allowFlip" : true
+        "allowRotate": true,
+        "allowFlip": true
       },
-      "fire" : {},
-      "cooldown" : {
-	"duration" : 0,
-	"armRotation" : 0,
-	"weaponRotation" : 0,
-	"twoHanded" : true,
+      "fire": {},
+      "cooldown": {
+        "duration": 0,
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
 
-	"allowRotate" : true,
-	"allowFlip" : true
+        "allowRotate": true,
+        "allowFlip": true
       }
     }
   },
 
-  "builderConfig" : [{
-    "nameGenerator" : "lightningcoilnames.config:nameGen",
-    "animationParts" : {
-      "barrel" : {
-        "path" : "lightningcoil/barrel/<variant>.png",
-        "variants" : 5,
-        "paletteSwap" : true
+  "builderConfig": [{
+      "nameGenerator": "lightningcoilnames.config:nameGen",
+      "animationParts": {
+        "barrel": {
+          "path": "lightningcoil/barrel/<variant>.png",
+          "variants": 5,
+          "paletteSwap": true
+        },
+        "butt": {
+          "path": "lightningcoil/butt/<variant>.png",
+          "variants": 7,
+          "paletteSwap": true
+        },
+        "middle": {
+          "path": "lightningcoil/middle/<variant>.png",
+          "variants": 5,
+          "paletteSwap": true
+        }
       },
-      "butt" : {
-        "path" : "lightningcoil/butt/<variant>.png",
-        "variants" : 7,
-        "paletteSwap" : true
-      },
-      "middle" : {
-        "path" : "lightningcoil/middle/<variant>.png",
-        "variants" : 5,
-        "paletteSwap" : true
-      }
-    },
-    "iconDrawables" : ["butt", "middle", "barrel"],
-    "gunParts" : ["butt", "middle", "barrel"],
-    "palette" : "/items/active/starbound/colors/lightningcoil.weaponcolors",
-    "altAbilities" : ["flashlight","grenadelauncher","deathbomb","lance"]
-  }],
-  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+      "iconDrawables": ["butt", "middle", "barrel"],
+      "gunParts": ["butt", "middle", "barrel"],
+      "palette": "/items/active/starbound/colors/lightningcoil.weaponcolors",
+      "altAbilities": ["flashlight", "grenadelauncher", "deathbomb", "lance"]
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

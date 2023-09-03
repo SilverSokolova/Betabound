@@ -1,59 +1,61 @@
 {
-  "itemName" : "sb_aegisaltrifle",
-  "price" : 600,
-  "inventoryIcon" : "aegisaltrifle.png",
-  "maxStack" : 1,
-  "fixedRarity" : true,
-  "rarity" : "rare",
-  "description" : "Puts the 'assault' in aegisalt.",
-  "shortdescription" : "Aegisalt Rifle",
-  "level" : 5,
-  "tooltipKind" : "sb_gun2",
-  "tooltipFields" : {"damageKindImage":"/interface/sb_tooltips/standardbullet.png"},
-  "category" : "assaultRifle",
-  "itemTags" : ["weapon","ranged","assaultrifle","aegisalt","upgradeableWeapon"],
-  "twoHanded" : true,
-
-  "animation" : "/items/active/starbound/guns/randomgenerated/gun.animation",
-  "animationParts" : {
-    "butt" : "",
-    "middle" : "aegisaltrifle.png",
-    "barrel" : "",
-    "muzzleFlash" : "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.png"
+  "itemName": "sb_aegisaltrifle",
+  "price": 600,
+  "inventoryIcon": "aegisaltrifle.png",
+  "maxStack": 1,
+  "fixedRarity": true,
+  "rarity": "rare",
+  "description": "Puts the 'assault' in aegisalt.",
+  "shortdescription": "Aegisalt Rifle",
+  "level": 5,
+  "tooltipKind": "sb_gun2",
+  "tooltipFields": {
+    "damageKindImage": "/interface/sb_tooltips/standardbullet.png"
   },
-  "animationCustom" : {
-    "sounds" : {
-      "fire" : ["/sfx/gun/ar4.ogg"]
+  "category": "assaultRifle",
+  "itemTags": ["weapon", "ranged", "assaultrifle", "aegisalt", "upgradeableWeapon"],
+  "twoHanded": true,
+
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationParts": {
+    "butt": "",
+    "middle": "aegisaltrifle.png",
+    "barrel": "",
+    "muzzleFlash": "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.png"
+  },
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/gun/ar4.ogg"]
     }
   },
 
-  "baseOffset" : [0.5, 0],
-  "muzzleOffset" : [2.075, 0.235],
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-  "elementalType" : "physical",
-  "primaryAbilityType" : "sb_gun2",
-  "altAbilityType" : "bouncingshot",
-  "altAbility" : {
-    "projectileParameters" : { 
-      "speed" : 250
+  "baseOffset": [0.5, 0],
+  "muzzleOffset": [2.075, 0.235],
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "elementalType": "physical",
+  "primaryAbilityType": "sb_gun2",
+  "altAbilityType": "bouncingshot",
+  "altAbility": {
+    "projectileParameters": {
+      "speed": 250
     }
   },
-  "primaryAbility" : {
-    "fireTime" : 0.13,
-    "baseDps" : 7.54,
-    "energyUsage" : 18,
-    "inaccuracy" : 0.025,
-    "projectileParameters" : { 
-      "speed" : 150
+  "primaryAbility": {
+    "fireTime": 0.13,
+    "baseDps": 7.54,
+    "energyUsage": 18,
+    "inaccuracy": 0.025,
+    "projectileParameters": {
+      "speed": 150
     },
-    "stances" : {
-      "cooldown" : {
-	"duration" : 0.03,
-	"recoil" : true,
-	"armRotation" : 2,
-	"weaponRotation" : 2
+    "stances": {
+      "cooldown": {
+        "duration": 0.03,
+        "recoil": true,
+        "armRotation": 2,
+        "weaponRotation": 2
       }
     }
   },
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

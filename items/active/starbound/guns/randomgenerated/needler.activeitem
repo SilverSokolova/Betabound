@@ -51,7 +51,7 @@
     "fireTime": [0.08, 0.16],
     "fireType": "auto",
     "baseDps": [8.25, 12.75],
-    "energyUsage" : [28.5, 31.5],
+    "energyUsage": [28.5, 31.5],
     "inaccuracy": 0.025,
     "stances": {
       "idle": {

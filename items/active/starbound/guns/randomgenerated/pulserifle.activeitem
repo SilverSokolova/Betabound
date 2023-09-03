@@ -27,7 +27,11 @@
   "animationCustom": {
     "animatedParts": {
       "parts": {
-        "muzzleFlash":{"properties":{"offset":[0.75, -0.3]}},
+        "muzzleFlash": {
+          "properties": {
+            "offset": [0.75, -0.3]
+          }
+        },
         "grenadelauncher": {
           "properties": {
             "image": "",
@@ -49,8 +53,8 @@
     },
     "fireType": "auto",
     "fireTime": [0.08, 0.14],
-    "baseDps" : [9.5, 10.5],
-    "energyUsage" : [28.5, 31.5],
+    "baseDps": [9.5, 10.5],
+    "energyUsage": [28.5, 31.5],
     "inaccuracy": 0
   },
 

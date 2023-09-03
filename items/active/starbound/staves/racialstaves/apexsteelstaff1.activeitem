@@ -1,26 +1,35 @@
 {
-  "itemName" : "sb_apexsteelstaff1",
-  "definition" : "racialstaff",
-  "itemTags" : ["weapon","staff"],
-  "tags" : {"<race>" : "apex", "<staff>" : "steelstaff", "<n>" : "1"},
-  "rarity" : "rare",
-  "level" : 5,
-  "description" : "Deploys a small drone that shoots lasers.",
-  "shortdescription" : "Monkey Nut Staff",
-  "tooltipFields" : {"subtitle":"Steel Staff","damageKindImage":"/interface/sb_tooltips/sb_monkeynut.png"},
-  "elementalType" : "electric",
-  "altAbilityType" : "energyzone",
-  "primaryAbility" : {
-    "projectileType" : "sb_monkeynutteleportin",
-    "projectileParameters" : {
-      "baseDamage" : 9,
-      "speed" : 0
+  "itemName": "sb_apexsteelstaff1",
+  "definition": "racialstaff",
+  "itemTags": ["weapon", "staff", "upgradeableWeapon"],
+  "tags": {
+    "<race>": "apex",
+    "<staff>": "steelstaff",
+    "<n>": "1"
+  },
+  "rarity": "rare",
+  "level": 5,
+  "description": "Deploys a small drone that shoots lasers.",
+  "shortdescription": "Monkey Nut Staff",
+  "tooltipFields": {
+    "subtitle": "Steel Staff",
+    "damageKindImage": "/interface/sb_tooltips/sb_monkeynut.png"
+  },
+  "elementalType": "electric",
+  "altAbilityType": "energyzone",
+  "primaryAbility": {
+    "projectileType": "sb_monkeynutteleportin",
+    "projectileParameters": {
+      "baseDamage": 9,
+      "speed": 0
     }
   },
-  "configOverrides" : {
-    "stances" : {
-      "cooldown" : {"duration" : 0.5}
+  "configOverrides": {
+    "stances": {
+      "cooldown": {
+        "duration": 0.5
+      }
     }
   },
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

@@ -1,27 +1,40 @@
 {
-  "itemName" : "sb_hylotlaquastaff2",
-  "definition" : "racialstaff",
-  "itemTags" : ["weapon","staff"],
-  "tags" : {"<race>" : "hylotl", "<staff>" : "aquastaff", "<n>" : "2"},
-  "rarity" : "legendary",
-  "level" : 6,
-  "description" : "Creates a a torrent of water.",
-  "shortdescription" : "Hylid's Pulse Staff",
-  "tooltipFields" : {"subtitle":"Aqua Staff","damageKindImage":"/items/liquids/liquidwatericon.png"},
-  "animationCustom" : {"sounds":{"zoneactivate":[]}},
-  "configOverrides" : {
-    "stances" : {
-      "idle" : {"weaponOffset" : [-0.2, 0.5]}
+  "itemName": "sb_hylotlaquastaff2",
+  "definition": "racialstaff",
+  "itemTags": ["weapon", "staff", "upgradeableWeapon"],
+  "tags": {
+    "<race>": "hylotl",
+    "<staff>": "aquastaff",
+    "<n>": "2"
+  },
+  "rarity": "legendary",
+  "level": 6,
+  "description": "Creates a a torrent of water.",
+  "shortdescription": "Hylid's Pulse Staff",
+  "tooltipFields": {
+    "subtitle": "Aqua Staff",
+    "damageKindImage": "/items/liquids/liquidwatericon.png"
+  },
+  "animationCustom": {
+    "sounds": {
+      "zoneactivate": []
     }
   },
-  "elementalType" : "ice",
-  "altAbilityType" : "healingzone",
-  "primaryAbility" : {
-    "projectileType":"sb_splashspawner2",
-    "projectileParameters" : {
-      "baseDamage" : 9,
-      "speed" : 0
+  "configOverrides": {
+    "stances": {
+      "idle": {
+        "weaponOffset": [-0.2, 0.5]
+      }
     }
   },
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "elementalType": "ice",
+  "altAbilityType": "healingzone",
+  "primaryAbility": {
+    "projectileType": "sb_splashspawner2",
+    "projectileParameters": {
+      "baseDamage": 9,
+      "speed": 0
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

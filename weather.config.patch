@@ -1,8 +1,13 @@
-[{"op":"add","path":"/sb_tentacle","value":[
-        [0.1, "rain" ],
-        [0.05, "storm" ],
-        [0.025, "glowingrain" ],
-        [0.125, "drizzle" ],
-        [0.055, "acidrain" ],
-        [0.7, "clear" ]
-]}]
+[{
+    "op": "add",
+    "path": "/sb_tentacle",
+    "value": [
+      [0.1, "rain"],
+      [0.05, "storm"],
+      [0.025, "glowingrain"],
+      [0.125, "drizzle"],
+      [0.055, "acidrain"],
+      [0.7, "clear"]
+    ]
+  }
+]

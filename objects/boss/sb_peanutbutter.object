@@ -1,44 +1,45 @@
 {
-  "objectName" : "sb_peanutbutter",
-  "rarity" : "essential",
-  "description" : "This could attract anything... I should make sure I'm prepared before using it.",
-  "shortdescription" : "^#f00;Peanut Butter Trap^reset;",
-  "race" : "generic",
-  "category" : "other",
-  "printable" : false,
-  "price" : 500,
-  "tooltipKind" : "sb_object",
-  "tooltipFields" : {"rarityLabel":"Critical"},
+  "objectName": "sb_peanutbutter",
+  "rarity": "essential",
+  "description": "This could attract anything... I should make sure I'm prepared before using it. ^gray;It could help obtain ^#CEA867;endomorphic jelly^gray;...^reset;",
+  "shortdescription": "^#f00;Peanut Butter Trap^reset;",
+  "race": "generic",
+  "category": "other",
+  "printable": false,
+  "price": 500,
+  "tooltipKind": "sb_object4b",
+  "tooltipFields": {
+    "rarityLabel": "Critical"
+  },
 
-  "apexDescription" : "A peanut butter trap. I wonder what this could catch?",
-  "avianDescription" : "A trap with peanut butter. Tasty AND deadly.",
-  "floranDescription" : "Floran use peanut sssquishy to catch thing!",
-  "glitchDescription" : "Skeptical. Surely only a tiny creature will be lured in by this.",
-  "humanDescription" : "If I'm not careful, I'll get caught in this trap myself.",
-  "hylotlDescription" : "A peanut butter trap. I bet this won't attract a thing.",
+  "apexDescription": "A peanut butter trap. I wonder what this could catch?",
+  "avianDescription": "A trap with peanut butter. Tasty AND deadly.",
+  "floranDescription": "Floran use peanut sssquishy to catch thing!",
+  "glitchDescription": "Skeptical. Surely only a tiny creature will be lured in by this.",
+  "humanDescription": "If I'm not careful, I'll get caught in this trap myself.",
+  "hylotlDescription": "A peanut butter trap. I bet this won't attract a thing.",
 
-  "inventoryIcon" : "sb_peanutbuttericon.png",
-  "orientations" : [
-    {
-      "dualImage" : "sb_peanutbutter.png",
-      "imagePosition" : [-16, 0],
-      "frames" : 1,
-      "animationCycle" : 1,
-      "spaceScan" : 0.1,
-      "anchors" : ["bottom"]
+  "inventoryIcon": "sb_peanutbuttericon.png",
+  "orientations": [{
+      "dualImage": "sb_peanutbutter.png",
+      "imagePosition": [-16, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
     }
   ],
 
-  "animation" : "sb_ironbeacon2.animation",
-  "animationParts" : {
-    "beacon" : "sb_peanutbutter.png"
+  "animation": "sb_ironbeacon2.animation",
+  "animationParts": {
+    "beacon": "sb_peanutbutter.png"
   },
-  "animationPosition" : [-16, 0],
+  "animationPosition": [-16, 0],
 
-  "scripts" : ["sb_ironbeacon.lua"],
-  "scriptDelta" : 5,
-  "hasAnimation" : true,
-  "badReception" : [0,"I should take it to the planet surface before trying to use it."],
-  "bossType" : [["sb_jellyboss",[0,40]],["sb_skeye",[20,40]],["sb_skeye",[-20,40]]],
-  "bossLevel" : 3
+  "scripts": ["sb_ironbeacon.lua"],
+  "scriptDelta": 5,
+  "hasAnimation": true,
+  "badReception": [0, "I should take it to the planet surface before trying to use it."],
+  "bossType": [["sb_jellyboss", [0, 40]], ["sb_skeye", [20, 40]], ["sb_skeye", [-20, 40]]],
+  "bossLevel": 3
 }

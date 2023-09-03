@@ -1,22 +1,31 @@
 {
-  "itemName" : "sb_glitchglitchstaff1",
-  "definition" : "racialstaff",
-  "itemTags" : ["weapon","staff"],
-  "tags" : {"<race>" : "glitch", "<staff>" : "glitchstaff", "<n>" : "1"},
-  "rarity" : "rare",
-  "level" : 5,
-  "description" : "01100101 01110010 01110010 01101111 01110010",
-  "shortdescription" : "Binary Breaker",
-  "tooltipFields" : {"subtitle":"Glitch Staff","damageKindImage":"/interface/statuses/crash.png"},
-  "elementalType" : "fire",
-  "altAbilityType" : "elementorb",
-  "primaryAbility" : {
-    "projectileType" : "sb_glitchscratch",
-    "projectileParameters" : {
-      "baseDamage" : 12,
-      "speed" : 0
+  "itemName": "sb_glitchglitchstaff1",
+  "definition": "racialstaff",
+  "itemTags": ["weapon", "staff", "upgradeableWeapon"],
+  "tags": {
+    "<race>": "glitch",
+    "<staff>": "glitchstaff",
+    "<n>": "1"
+  },
+  "rarity": "rare",
+  "level": 5,
+  "description": "01100101 01110010 01110010 01101111 01110010",
+  "shortdescription": "Binary Breaker",
+  "tooltipFields": {
+    "subtitle": "Glitch Staff",
+    "damageKindImage": "/interface/statuses/crash.png"
+  },
+  "elementalType": "fire",
+  "altAbilityType": "elementorb",
+  "primaryAbility": {
+    "projectileType": "sb_glitchscratch",
+    "projectileParameters": {
+      "baseDamage": 12,
+      "speed": 0
     }
   },
-  "altAbility" : {"name":"4669726520 4F7262"},
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "altAbility": {
+    "name": "4669726520 4F7262"
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

@@ -1,29 +1,42 @@
 {
-  "itemName" : "sb_frozenfirebow",
-  "definition" : "bow",
-  "itemTags" : ["weapon","ranged","bow","upgradeableWeapon"],
-  "tags" : {"<bow>" : "frozenfire"},
-  "rarity" : "legendary",
-  "fixedRarity" : false,
-  "fixedLevel" : false,
-  "tooltipFields" : {"damageKindImage":"/interface/sb_tooltips/sb_frozenflamearrow.png"},
-  "description" : "Every arrow loosed from this bow at full power is imbued with a crippling frostfire.",
-  "shortdescription" : "Frozenfire Bow",
+  "itemName": "sb_frozenfirebow",
+  "definition": "bow",
+  "itemTags": ["weapon", "ranged", "bow", "upgradeableWeapon"],
+  "tags": {
+    "<bow>": "frozenfire"
+  },
+  "rarity": "legendary",
+  "fixedRarity": false,
+  "fixedLevel": false,
+  "tooltipFields": {
+    "damageKindImage": "/interface/sb_tooltips/sb_frozenflamearrow.png"
+  },
+  "description": "Every arrow loosed from this bow at full power is imbued with a crippling frostfire.",
+  "shortdescription": "Frozenfire Bow",
 
-  "configOverrides" : {"animationCustom":{"sounds":{"perfectRelease":["/sfx/gun/frozenfirebow_loose_perfect.ogg"]}}},
-  "primaryAbility" : {
-    "fireTime" : 0.65,
-    "baseDps" : 8.25,
-    "inaccuracy" : 0.025,
-    "projectileType" : "sb_frozenflamearrow",
-    "powerProjectileType" : "sb_chargedfrozenflamearrow",
-    "walkWhileFiring" : true,
-    "projectileParameters" : {"speed":60,"power":7}
+  "configOverrides": {
+    "animationCustom": {
+      "sounds": {
+        "perfectRelease": ["/sfx/gun/frozenfirebow_loose_perfect.ogg"]
+      }
+    }
+  },
+  "primaryAbility": {
+    "fireTime": 0.65,
+    "baseDps": 8.25,
+    "inaccuracy": 0.025,
+    "projectileType": "sb_frozenflamearrow",
+    "powerProjectileType": "sb_chargedfrozenflamearrow",
+    "walkWhileFiring": true,
+    "projectileParameters": {
+      "speed": 60,
+      "power": 7
+    }
   },
 
-  "altAbility" : {
-    "projectileType" : "sb_frozenflamearrow"
+  "altAbility": {
+    "projectileType": "sb_frozenflamearrow"
   },
 
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

@@ -1,57 +1,60 @@
 {
-  "itemName" : "sb_alienlaser",
-  "inventoryIcon" : "alienlaser.png",
-  "maxStack" : 1,
-  "price" : 1500,
-  "tooltipKind" : "sb_gun2",
-  "tooltipFields" : {
-    "damageKindImage" : "/projectiles/guns/plasmabullets/fireplasma/icon.png",
-    "damageKindBImage" : "/projectiles/guns/plasmabullets/electricplasma/icon.png",
-//  "damageKindImage" : "/interface/elements/fire.png",
-//  "damageKindBImage" : "/interface/elements/electric.png",
-    "subtitle" : "Alien Gun"
+  "itemName": "sb_alienlaser",
+  "inventoryIcon": "alienlaser.png",
+  "maxStack": 1,
+  "price": 1500,
+  "tooltipKind": "sb_gun2",
+  "tooltipFields": {
+    "damageKindImage": "/projectiles/guns/plasmabullets/fireplasma/icon.png",
+    "damageKindBImage": "/projectiles/guns/plasmabullets/electricplasma/icon.png",
+    //  "damageKindImage" : "/interface/elements/fire.png",
+    //  "damageKindBImage" : "/interface/elements/electric.png",
+    "subtitle": "Alien Gun"
   },
-  "itemTags" : ["weapon","ranged","pistol","upgradeableWeapon"],
-  "category" : "pistol",
-  "rarity" : "Rare",
-  "animation" : "/items/active/starbound/guns/randomgenerated/gun.animation",
-  "animationCustom" : {
-    "animatedParts" : {
-      "parts" : {
-	"butt" : {
-	  "properties" : {
-	    "fullbright" : true,
-	    "offset" : [0.5, 0.15]
-	  }
-	}
+  "itemTags": ["weapon", "ranged", "pistol", "upgradeableWeapon"],
+  "category": "pistol",
+  "rarity": "Rare",
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "butt": {
+          "properties": {
+            "fullbright": true,
+            "offset": [0.5, 0.15]
+          }
+        }
       }
     },
-    "sounds" : {
-      "fire" : ["/sfx/gun/plasma_sniper2.ogg"]
+    "sounds": {
+      "fire": ["/sfx/gun/plasma_sniper2.ogg"]
     }
   },
-  "animationParts" : {
-    "barrel" : "",
-    "butt" : "alienlaserfb.png",
-    "muzzleFlash" : "/animations/muzzleflash/plasmamuzzle3blue/plasmamuzzle3blue.png",
-    "middle" : "alienlaser.png"
+  "animationParts": {
+    "barrel": "",
+    "butt": "alienlaserfb.png",
+    "muzzleFlash": "/animations/muzzleflash/plasmamuzzle3blue/plasmamuzzle3blue.png",
+    "middle": "alienlaser.png"
   },
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-  "description" : "A very colourful alien laser blaster.",
-  "shortdescription" : "Alien Laser",
-  "baseOffset" : [0.5, 0.15],
-  "muzzleOffset" : [1.6, 0.2],
-  "twoHanded" : false,
-  "fixedLevel" : false,
-  "level" : 1,
-  "primaryAbilityType" : "sb_gun",
-  "primaryAbility" : {
-    "fireTime" : 0.8,
-    "baseDps" : 12.25,
-    "energyUsage" : 19.5,
-    "inaccuracy" : 0.01,
-    "projectileType" : ["electricplasma","fireplasma"],
-    "projectileParameters" : {"speed":75,"timeToLive":3}
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "description": "A very colourful alien laser blaster.",
+  "shortdescription": "Alien Laser",
+  "baseOffset": [0.5, 0.15],
+  "muzzleOffset": [1.6, 0.2],
+  "twoHanded": false,
+  "fixedLevel": false,
+  "level": 1,
+  "primaryAbilityType": "sb_gun",
+  "primaryAbility": {
+    "fireTime": 0.8,
+    "baseDps": 12.25,
+    "energyUsage": 19.5,
+    "inaccuracy": 0.01,
+    "projectileType": ["electricplasma", "fireplasma"],
+    "projectileParameters": {
+      "speed": 75,
+      "timeToLive": 3
+    }
   },
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

@@ -1,38 +1,44 @@
 {
-  "itemName" : "sb_huntingknife",
-  "level" : 1,
-  "maxStack" : 1,
-  "rarity" : "common",
-  "description" : "A sharp hunting knife, makes monsters drop meat and other goods.",
-  "shortdescription" : "Hunting Knife",
-  "tooltipKind" : "sb_sword2",
-  "price" : 120,
-  "category" : "shortsword",
-  "twoHanded" : false,
-  "itemTags" : ["weapon","melee","shortsword","upgradeableWeapon"],
+  "itemName": "sb_huntingknife",
+  "level": 1,
+  "maxStack": 1,
+  "rarity": "common",
+  "description": "A sharp hunting knife, makes monsters drop meat and other goods.",
+  "shortdescription": "Hunting Knife",
+  "tooltipKind": "sb_sword2",
+  "price": 120,
+  "category": "shortsword",
+  "twoHanded": false,
+  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
 
-  "inventoryIcon" : "huntingknife.png",
-  "animation" : "/items/active/starbound/weapons/shortsword.animation",
-  "animationParts" : {
+  "inventoryIcon": "huntingknife.png",
+  "animation": "/items/active/starbound/weapons/shortsword.animation",
+  "animationParts": {
     "handle": "",
-    "blade" : "huntingknife.png"
+    "blade": "huntingknife.png"
   },
-  "animationCustom" : {},
+  "animationCustom": {},
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "physical",
-  "primaryAbilityType" : "sb_meleeslash2",
-  "aimOffset" : 0,
-  "primaryAbility" : {
-    "fireTime" : 0.52,
-    "baseDps" : 8,
-    "stances" : {
-      "idle" : {"weaponOffset" : [0.8, 2.3]},
-      "windup" : {"weaponOffset" : [0.8, 2.3]},
-      "fire" : {"weaponOffset" : [0.8, 2.3]}
+  "elementalType": "physical",
+  "primaryAbilityType": "sb_meleeslash2",
+  "aimOffset": 0,
+  "primaryAbility": {
+    "fireTime": 0.52,
+    "baseDps": 8,
+    "stances": {
+      "idle": {
+        "weaponOffset": [0.8, 2.3]
+      },
+      "windup": {
+        "weaponOffset": [0.8, 2.3]
+      },
+      "fire": {
+        "weaponOffset": [0.8, 2.3]
+      }
     }
   },
 
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

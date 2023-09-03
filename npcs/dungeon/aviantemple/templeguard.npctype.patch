@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/items/override/0/1/0/sheathedprimary"},{"op":"add","path":"/items/override/0/1/0/sheathedprimary/-","value":"sb_aviangun"}],
+[{"op":"test","path":"/items/override/0/1/0/sheathedprimary"},{"op":"add","path":"/items/override/0/1/0/sheathedprimary/-","value":"sb_avianblaster"}]
+]

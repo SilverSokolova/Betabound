@@ -1,7 +1,7 @@
 {
   "objectName" : "sb_decoyprincess",
   "rarity" : "essential",
-  "description" : "A decoy princess. The perfect bait.",
+  "description" : "A decoy princess. The perfect bait. ^gray;It could help obtain a ^#CEA867;dragon bone^gray;...^reset;",
   "shortdescription" : "^#f00;Decoy Princess^reset;",
   "race" : "generic",
   "category" : "other",

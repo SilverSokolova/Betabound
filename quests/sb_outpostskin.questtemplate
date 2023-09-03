@@ -2,7 +2,7 @@
   "id" : "sb_outpostSkin.gearup",
   "prerequisites" : ["sb_outpost0.gearup", "human_mission1"],
   "title" : "^orange;Help! I need somebody!",
-  "text" : "I've received a distress signal from a nearby lunar mining facility. If you wish to investigate it, you should make yourself any set of ^orange;armour made from copper or iron.^reset; Craft it by using an ^orange;anvil.^green; Come back when you're equipped,^reset; and I'll give you a ^green;nano-suit^reset; that allows you to breathe when no oxygen is present.",
+  "text" : "I've received a distress signal from a nearby lunar mining facility. If you wish to investigate it, you should make yourself any set of ^orange;armour made from iron.^reset; Craft it by using an ^orange;anvil.^green; Come back when you're equipped,^reset; and I'll give you a ^green;nano-suit^reset; that allows you to breathe when no oxygen is present.",
   "completionText" : "You're all equipped! In that case, get the ^green;coordinates^reset; from ^orange;Penguin Pete^reset; and take this ^green;respiratory nano-suit.^reset; Good luck-- Wait, ^orange;you've already done it?^reset; ...That's good to know.",
   "speaker" : "questGiver",
   "moneyRange" : [0, 0],

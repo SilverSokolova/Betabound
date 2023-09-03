@@ -1,81 +1,91 @@
 {
-  "itemName" : "sb_uzi",
-  "maxStack" : 1,
-  "rarity" : "common",
-  "baseOffset" : [-0.85, 0.12],
-  "muzzleOffset" : [0,0.25],
-  "price" : 620,
-  "paletteSwaps" : "",
-  "tooltipKind" : "sb_gun",
-  "description" : "",
-  "shortdescription" : "Uzi",
-  "category" : "pistol",
-  "twoHanded" : false,
-  "level" : 1,
-  "tooltipFields" : {"subtitle":"Uzi"},
-  "itemTags" : ["weapon","ranged","pistol","upgradeableWeapon"],
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-  "animation" : "/items/active/starbound/guns/randomgenerated/gun.animation",
-  "animationParts" : {"muzzleFlash":"/animations/sb/muzzleflash/bulletmuzzle2/bulletmuzzle2.png"},
-  "animationCustom" : {"sounds":{"fire":["/sfx/gun/uzi1.ogg"]}},
+  "itemName": "sb_uzi",
+  "maxStack": 1,
+  "rarity": "common",
+  "baseOffset": [-0.85, 0.12],
+  "muzzleOffset": [0, 0.25],
+  "price": 620,
+  "paletteSwaps": "",
+  "tooltipKind": "sb_gun",
+  "description": "",
+  "shortdescription": "Uzi",
+  "category": "pistol",
+  "twoHanded": false,
+  "level": 1,
+  "tooltipFields": {
+    "subtitle": "Uzi"
+  },
+  "itemTags": ["weapon", "ranged", "pistol", "upgradeableWeapon"],
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationParts": {
+    "muzzleFlash": "/animations/sb/muzzleflash/bulletmuzzle2/bulletmuzzle2.png"
+  },
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/gun/uzi1.ogg"]
+    }
+  },
 
-  "elementalType" : "physical",
+  "elementalType": "physical",
 
-  "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-    "projectileType" : ["bullet-1", "bullet-2", "bullet-3", "bullet-4", "fast","bouncybullet"],
+  "primaryAbility": {
+    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
+    "class": "GunFire",
+    "projectileType": ["bullet-1", "bullet-2", "bullet-3", "bullet-4", "fast", "bouncybullet"],
 
-    "fireTime" : [0.01, 0.04],//0.007
-    "baseDps" : [13, 17.5],//29.5
-    "energyUsage" : [45, 65],
-    "inaccuracy" : [1,5],
-    "projectileParameters" : {
-      "knockbackRange" : [0, 0.7]
+    "fireTime": [0.07, 0.11],
+    "baseDps": [7.5, 8],
+    "energyUsage": [11, 13],
+    "inaccuracy": [1, 5],
+    
+    "projectileParameters": {
+      "knockbackRange": [0, 0.7]
     },
-    "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : false,
-        "allowRotate" : true,
-        "allowFlip" : true
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": false,
+        "allowRotate": true,
+        "allowFlip": true
       },
-      "fire" : {},
-      "cooldown" : {
-        "duration" : 0,
-        "armRotation" : 2,
-        "weaponRotation" : 2,
-        "twoHanded" : false,
-        "allowRotate" : true,
-        "allowFlip" : true
+      "fire": {},
+      "cooldown": {
+        "duration": 0,
+        "armRotation": 2,
+        "weaponRotation": 2,
+        "twoHanded": false,
+        "allowRotate": true,
+        "allowFlip": true
       }
     }
   },
 
-  "builderConfig" : [{
-    "nameGenerator" : "mpistolnames.config:nameGen",
-    "animationParts" : {
-      "barrel" : {
-        "path" : "uzi/barrel/<variant>.png",
-        "variants" : 3,
-        "paletteSwap" : true
+  "builderConfig": [{
+      "nameGenerator": "mpistolnames.config:nameGen",
+      "animationParts": {
+        "barrel": {
+          "path": "uzi/barrel/<variant>.png",
+          "variants": 3,
+          "paletteSwap": true
+        },
+        "butt": {
+          "path": "uzi/butt/<variant>.png",
+          "variants": 4,
+          "paletteSwap": true
+        },
+        "middle": {
+          "path": "uzi/middle/<variant>.png",
+          "variants": 5,
+          "paletteSwap": true
+        }
       },
-      "butt" : {
-        "path" : "uzi/butt/<variant>.png",
-        "variants" : 4,
-        "paletteSwap" : true
-      },
-      "middle" : {
-        "path" : "uzi/middle/<variant>.png",
-        "variants" : 5,
-        "paletteSwap" : true
-      }
-    },
-    "iconDrawables" : ["butt", "middle", "barrel"],
-    "gunParts" : ["butt", "middle", "barrel"],
-    "palette" : "/items/active/starbound/colors/sniperrifle.weaponcolors",
-    "altAbilities" : []
-  }],
-  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+      "iconDrawables": ["butt", "middle", "barrel"],
+      "gunParts": ["butt", "middle", "barrel"],
+      "palette": "/items/active/starbound/colors/sniperrifle.weaponcolors",
+      "altAbilities": []
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

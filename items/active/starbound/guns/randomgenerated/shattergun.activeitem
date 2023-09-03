@@ -1,85 +1,94 @@
 {
-  "itemName" : "sb_shattergun",
-  "maxStack" : 1,
-  "rarity" : "uncommon",
-  "muzzleOffset" : [0, 0],
-  "baseOffset" : [-1.25, 0.05],
-  "tooltipKind" : "sb_gun",
-  "category" : "shotgun",
-  "tooltipFields" : {"subtitle" : "Shattergun"},
-  "twoHanded" : true,
-  "price" : 620,
-  "paletteSwaps" : "",
-  "level" : 1,
-  "description" : "",
-  "shortdescription" : "Shattergun",
-  "itemTags" : ["weapon","ranged","shattergun","upgradeableWeapon"],
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-  "animation" : "/items/active/starbound/guns/randomgenerated/gun.animation",
-  "animationParts" : {"muzzleFlash":""},
-  "animationCustom" : {"sounds":{"fire":["/sfx/gun/shattergun1.ogg","/sfx/gun/shattergun2.ogg","/sfx/gun/shattergun3.ogg"]}},
+  "itemName": "sb_shattergun",
+  "maxStack": 1,
+  "rarity": "uncommon",
+  "muzzleOffset": [0, 0],
+  "baseOffset": [-1.25, 0.05],
+  "tooltipKind": "sb_gun",
+  "category": "shotgun",
+  "tooltipFields": {
+    "subtitle": "Shattergun"
+  },
+  "twoHanded": true,
+  "price": 620,
+  "paletteSwaps": "",
+  "level": 1,
+  "description": "",
+  "shortdescription": "Shattergun",
+  "itemTags": ["weapon", "ranged", "shattergun", "upgradeableWeapon"],
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationParts": {
+    "muzzleFlash": ""
+  },
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/gun/shattergun1.ogg", "/sfx/gun/shattergun2.ogg", "/sfx/gun/shattergun3.ogg"]
+    }
+  },
 
-  "elementalType" : "physical",
+  "elementalType": "physical",
 
-  "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-    "projectileType" : ["crystalslide", "glassslide", "plasticslide", "chinaslide", "goldslide", "glowslide", "brokenglassslide"],
-  //  "baseDamage" : 16,
-    "fireTime" : [0.4, 1.4],
-    "projectileCount" : [5,10],
-  //"baseDps" : [5.5, 6.5],
-    "baseDps" : [20.5, 23.5],
-    "energyUsage" : [22.5, 25.5],
-    "inaccuracy" : 0.75,
-    "projectileParameters" : {
-      "knockbackRange" : [20, 30]
+  "primaryAbility": {
+    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
+    "class": "GunFire",
+    "projectileType": ["crystalslide", "glassslide", "plasticslide", "chinaslide", "goldslide", "glowslide", "brokenglassslide"],
+    //  "baseDamage" : 16,
+    "fireTime": [0.4, 1.4],
+    "projectileCount": [5, 10],
+    //"baseDps" : [5.5, 6.5],
+    "baseDps": [20.5, 23.5],
+    "energyUsage": [22.5, 25.5],
+    "inaccuracy": 0.75,
+    "projectileParameters": {
+      "knockbackRange": [20, 30]
     },
-    "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
 
-        "allowRotate" : true,
-        "allowFlip" : true
+        "allowRotate": true,
+        "allowFlip": true
       },
-      "fire" : {},
-      "cooldown" : {
-        "duration" : 0.25,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
-        "twoHanded" : true,
+      "fire": {},
+      "cooldown": {
+        "duration": 0.25,
+        "armRotation": 5,
+        "weaponRotation": 5,
+        "twoHanded": true,
 
-        "allowRotate" : false,
-        "allowFlip" : false
+        "allowRotate": false,
+        "allowFlip": false
       }
     }
   },
 
-  "builderConfig" : [{
-    "nameGenerator" : "shattergunnames.config:nameGen",
-    "animationParts" : {
-      "barrel" : {
-        "path" : "shattergun/barrel/<variant>.png",
-        "variants" : 20,
-        "paletteSwap" : true
+  "builderConfig": [{
+      "nameGenerator": "shattergunnames.config:nameGen",
+      "animationParts": {
+        "barrel": {
+          "path": "shattergun/barrel/<variant>.png",
+          "variants": 20,
+          "paletteSwap": true
+        },
+        "butt": {
+          "path": "shattergun/butt/<variant>.png",
+          "variants": 20,
+          "paletteSwap": true
+        },
+        "middle": {
+          "path": "shattergun/middle/<variant>.png",
+          "variants": 20,
+          "paletteSwap": true
+        }
       },
-      "butt" : {
-        "path" : "shattergun/butt/<variant>.png",
-        "variants" : 20,
-        "paletteSwap" : true
-      },
-      "middle" : {
-        "path" : "shattergun/middle/<variant>.png",
-        "variants" : 20,
-        "paletteSwap" : true
-      }
-    },
-    "iconDrawables" : ["butt", "middle", "barrel"],
-    "gunParts" : ["butt", "middle", "barrel"],
-    "palette" : "/items/active/starbound/colors/sniperrifle.weaponcolors",
-    "altAbilities" : ["flashlight","grenadelauncher","shrapnelbomb"]
-  }],
-  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+      "iconDrawables": ["butt", "middle", "barrel"],
+      "gunParts": ["butt", "middle", "barrel"],
+      "palette": "/items/active/starbound/colors/sniperrifle.weaponcolors",
+      "altAbilities": ["flashlight", "grenadelauncher", "shrapnelbomb"]
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

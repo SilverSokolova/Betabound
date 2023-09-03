@@ -1,110 +1,119 @@
 {
-  "itemName" : "sb_florangrenadelauncher",
-  "maxStack" : 1,
-  "rarity" : "common",
-  "muzzleOffset" : [0, 0],
-  "baseOffset" : [-0.375, 0.375],
-  "tooltipKind" : "sb_gun",
-  "category" : "grenadeLauncher",
-  "twoHanded" : true,
-  "price" : 620,
-  "level" : 1,
-  "description" : "",
-  "shortdescription" : "Toxic Launcher",
-  "itemTags" : ["weapon","ranged","floran","grenadelauncher","upgradeableWeapon"],
-  "tooltipFields" : {"subtitle":"Toxic Launcher"},
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-  "animation" : "/items/active/starbound/guns/randomgenerated/gun.animation",
-  "animationParts" : {"muzzleFlash":"/animations/muzzleflash/smokemuzzle/smokemuzzle.png"},
-  "animationCustom" : {"sounds":{"fire":["/sfx/gun/grenade1.ogg"]}},
+  "itemName": "sb_florangrenadelauncher",
+  "maxStack": 1,
+  "rarity": "common",
+  "muzzleOffset": [0, 0],
+  "baseOffset": [-0.375, 0.375],
+  "tooltipKind": "sb_gun",
+  "category": "grenadeLauncher",
+  "twoHanded": true,
+  "price": 620,
+  "level": 1,
+  "description": "",
+  "shortdescription": "Toxic Launcher",
+  "itemTags": ["weapon", "ranged", "floran", "grenadelauncher", "upgradeableWeapon"],
+  "tooltipFields": {
+    "subtitle": "Toxic Launcher"
+  },
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationParts": {
+    "muzzleFlash": "/animations/muzzleflash/smokemuzzle/smokemuzzle.png"
+  },
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/gun/grenade1.ogg"]
+    }
+  },
 
-  "elementalType" : "poison",
+  "elementalType": "poison",
 
-  "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-    "projectileType" : [ "acidgrenade" ],
-    "fireTime" : [0.5, 2],
-    "baseDps" : [5, 6.5],
-    "energyUsage" : [22.5, 25.5],
-    "inaccuracy" : 0,
-    "projectileParameters" : {
-      "knockbackRange" : [10, 30]
+  "primaryAbility": {
+    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
+    "class": "GunFire",
+    "projectileType": ["acidgrenade"],
+    "fireTime": [0.5, 2],
+    "baseDps": [5, 6.5],
+    "energyUsage": [22.5, 25.5],
+    "inaccuracy": 0,
+    "projectileParameters": {
+      "knockbackRange": [10, 30]
     },
-    "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
 
-        "allowRotate" : true,
-        "allowFlip" : true
+        "allowRotate": true,
+        "allowFlip": true
       },
-      "fire" : {},
-      "cooldown" : {
-        "duration" : 0.25,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
-        "twoHanded" : true,
+      "fire": {},
+      "cooldown": {
+        "duration": 0.25,
+        "armRotation": 5,
+        "weaponRotation": 5,
+        "twoHanded": true,
 
-        "allowRotate" : false,
-        "allowFlip" : false
+        "allowRotate": false,
+        "allowFlip": false
       }
     }
   },
 
-  "altAbility" : {
-    "name" : "Poison Spray",
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-    "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
+  "altAbility": {
+    "name": "Poison Spray",
+    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
+    "class": "GunFire",
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
 
-        "allowRotate" : true,
-        "allowFlip" : true
+        "allowRotate": true,
+        "allowFlip": true
       },
-      "fire" : {},
-      "cooldown" : {
-        "duration" : 0.11,
-        "recoil" : true,
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
+      "fire": {},
+      "cooldown": {
+        "duration": 0.11,
+        "recoil": true,
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
 
-        "allowRotate" : true,
-        "allowFlip" : true
+        "allowRotate": true,
+        "allowFlip": true
       }
     },
-    "projectileCount" : 4,
-    "fireTime" : 1.5,
-    "baseDps" : 7.5,
-    "energyUsage" : 82,
-    "inaccuracy" : 0.13,
-    "fireType" : "auto",
-    "projectileType" : "poisonthrower"
+    "projectileCount": 4,
+    "fireTime": 1.5,
+    "baseDps": 7.5,
+    "energyUsage": 82,
+    "inaccuracy": 0.13,
+    "fireType": "auto",
+    "projectileType": "poisonthrower"
   },
 
-  "builderConfig" : [{
-    "nameGenerator" : "floranglaunchernames.config:nameGen",
-    "animationParts" : {
-      "barrel" : {
-        "path" : "florangrenadelauncher/barrel/<variant>.png",
-        "variants" : 2
+  "builderConfig": [{
+      "nameGenerator": "floranglaunchernames.config:nameGen",
+      "animationParts": {
+        "barrel": {
+          "path": "florangrenadelauncher/barrel/<variant>.png",
+          "variants": 2
+        },
+        "butt": {
+          "path": "florangrenadelauncher/butt/<variant>.png",
+          "variants": 2 //3 is wack
+        },
+        "middle": {
+          "path": "florangrenadelauncher/middle/<variant>.png",
+          "variants": 2
+        }
       },
-      "butt" : {
-        "path" : "florangrenadelauncher/butt/<variant>.png",
-        "variants" : 2 //3 is wack
-      },
-      "middle" : {
-        "path" : "florangrenadelauncher/middle/<variant>.png",
-        "variants" : 2
-      }
-    },
-    "iconDrawables" : ["butt", "middle", "barrel"],
-    "gunParts" : ["butt", "middle", "barrel"]
-  }],
-  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+      "iconDrawables": ["butt", "middle", "barrel"],
+      "gunParts": ["butt", "middle", "barrel"]
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

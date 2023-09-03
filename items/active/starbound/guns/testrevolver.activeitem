@@ -1,21 +1,23 @@
 {
-  "itemName" : "sb_testrevolver",
-  "definition" : "revolver",
-  "itemTags" : ["weapon","ranged","pistol","revolver","novakid","upgradeableWeapon"],
-  "rarity" : "essential",
-  "configOverrides" : {
-    "inventoryIcon" : "revolvericon.png",
-    "animationParts" : {"middle":"revolver.png"},
-    "baseOffset" : [0.5, 0.15],
-    "primaryAbility" : {
-      "energyUsage" : 18.75,
-      "inaccuracy" : 0.008,
-      "projectileType" : "bullet-1"
+  "itemName": "sb_testrevolver",
+  "definition": "revolver",
+  "itemTags": ["weapon", "ranged", "pistol", "revolver", "novakid", "upgradeableWeapon"],
+  "rarity": "essential",
+  "configOverrides": {
+    "inventoryIcon": "revolvericon.png",
+    "animationParts": {
+      "middle": "revolver.png"
+    },
+    "baseOffset": [0.5, 0.15],
+    "primaryAbility": {
+      "energyUsage": 18.75,
+      "inaccuracy": 0.008,
+      "projectileType": "bullet-1"
     }
   },
-  "description" : "\"Bolt Single Action Army\" is engraved on its side.",
-  "shortdescription" : "Pristine Revolver",
-  "muzzleOffset" : [1.8,0.4],
-  "level" : 10,
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "description": "\"Bolt Single Action Army\" is engraved on its side.",
+  "shortdescription": "Pristine Revolver",
+  "muzzleOffset": [1.8, 0.4],
+  "level": 10,
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

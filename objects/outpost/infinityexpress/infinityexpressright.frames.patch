@@ -1,0 +1,33 @@
+[
+  [{
+      "op": "test",
+      "path": "/frameGrid/dimensions/0",
+      "value": 1
+    }, {
+      "op": "replace",
+      "path": "/frameGrid/dimensions/0",
+      "value": 4
+    }, {
+      "op": "replace",
+      "path": "/frameGrid/names",
+      "value": [["default.1", "default.2", "default.3", "default.4"]]
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/aliases",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/aliases",
+      "value": {
+        "0.default": "default.1",
+        "default.default": "default.1",
+        "default.reverse1": "default.4",
+        "default.reverse2": "default.3",
+        "default.reverse3": "default.2",
+        "default.reverse4": "default.1"
+      }
+    }
+  ]
+]

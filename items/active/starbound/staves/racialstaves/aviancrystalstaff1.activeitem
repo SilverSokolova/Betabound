@@ -1,21 +1,28 @@
 {
-  "itemName" : "sb_aviancrystalstaff1",
-  "definition" : "racialstaff",
-  "itemTags" : ["weapon","staff"],
-  "tags" : {"<race>" : "avian", "<staff>" : "crystalstaff", "<n>" : "1"},
-  "rarity" : "rare",
-  "level" : 5,
-  "description" : "Creates a floating crystal that harms anything nearby.",
-  "shortdescription" : "Cardinal's Chalcedony",
-  "tooltipFields" : {"subtitle":"Crystal Staff","damageKindImage":"/projectiles/sb_staves/racialstaves/crystal/cardinalschalcedony/cardinalschalcedony.png:0"},
-  "elementalType" : "electric",
-  "altAbilityType" : "pullzone",
-  "primaryAbility" : {
-    "projectileType" : "sb_cardinalschalcedony",
-    "projectileParameters" : {
-      "baseDamage" : 12,
-      "speed" : 0
+  "itemName": "sb_aviancrystalstaff1",
+  "definition": "racialstaff",
+  "itemTags": ["weapon", "staff", "upgradeableWeapon"],
+  "tags": {
+    "<race>": "avian",
+    "<staff>": "crystalstaff",
+    "<n>": "1"
+  },
+  "rarity": "rare",
+  "level": 5,
+  "description": "Creates a floating crystal that harms anything nearby.",
+  "shortdescription": "Cardinal's Chalcedony",
+  "tooltipFields": {
+    "subtitle": "Crystal Staff",
+    "damageKindImage": "/projectiles/sb_staves/racialstaves/crystal/cardinalschalcedony/cardinalschalcedony.png:0"
+  },
+  "elementalType": "electric",
+  "altAbilityType": "pullzone",
+  "primaryAbility": {
+    "projectileType": "sb_cardinalschalcedony",
+    "projectileParameters": {
+      "baseDamage": 12,
+      "speed": 0
     }
   },
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

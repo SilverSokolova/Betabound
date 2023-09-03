@@ -1,48 +1,50 @@
 {
-  "animationParts" : {}, //TODO: why are these here
-  "animationCustom" : {}, //are they even merged into the weapon
+  "animationParts": {}, //TODO: why are these here
+  "animationCustom": {}, //are they even merged into the weapon
 
-  "ability" : {
-	"name" : "Burst",
-	"type" : "sb_burst",
-	"scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
-	"class" : "AltFireAttack",
-	"burstCount" : 3,
-	"burstSpeed" : 0.18,
-	"burstTime" : 0.12,
-	"energyUsage" : 8,
-	"baseDps" : 8,
-	"fireTime" : 1.5,
-	"inaccuracy" : 0.008,
-	"fireType" : "burst",
-	"projectileParameters" : {"knockback":20},
-	"usePrimaryFireSound" : true,
-	"useParticleEmitter" : false,
+  "ability": {
+    "name": "Burst",
+    "type": "sb_burst",
+    "scripts": ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class": "AltFireAttack",
+    "burstCount": 3,
+    "burstSpeed": 0.18,
+    "burstTime": 0.12,
+    "energyUsage": 8,
+    "baseDps": 8,
+    "fireTime": 1.5,
+    "inaccuracy": 0.008,
+    "fireType": "burst",
+    "projectileParameters": {
+      "knockback": 20
+    },
+    "usePrimaryFireSound": true,
+    "useParticleEmitter": false,
 
-	"stances" : {
-	  "idle" : {
-		"armRotation" : 0,
-		"weaponRotation" : 0,
-		"twoHanded" : true,
-		"allowRotate" : true,
-		"allowFlip" : true
-	  },
-	  "fire" : {
-		"armRotation" : 0,
-		"weaponRotation" : 0,
-		"twoHanded" : true,
-		"allowRotate" : true,
-		"allowFlip" : true
-	  },
-	  "cooldown" : {
-		"duration" : 0.11,
-		"armRotation" : 0,
-		"weaponRotation" : 0,
-		"twoHanded" : true,
-		"recoil" : true,
-		"allowRotate" : true,
-		"allowFlip" : true
-	  }
-	}
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "fire": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "cooldown": {
+        "duration": 0.11,
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+        "recoil": true,
+        "allowRotate": true,
+        "allowFlip": true
+      }
+    }
   }
 }

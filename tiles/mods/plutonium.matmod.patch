@@ -1,2 +1,3 @@
-[[{"op":"test","path":"/renderParameters/radiantLight","inverse":true},{"op":"add","path":"/renderParameters/radiantLight","value":[227,14,207]}]]
+[[{"op":"test","path":"/renderParameters/radiantLight","inverse":true},{"op":"add","path":"/renderParameters/radiantLight","value":[114,14,104]}]]
+//227,14,207
 //255,163,245

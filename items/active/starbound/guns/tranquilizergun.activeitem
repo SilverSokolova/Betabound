@@ -1,34 +1,40 @@
 {
-  "itemName" : "sb_tranquilizergun",
-  "inventoryIcon" : "tranquilizergun.png",
-  "maxStack" : 1,
-  "price" : 1500,
-  "fixedRarity" : false,
-  "rarity" : "Rare",
-  "category" : "uniqueWeapon",
-  "itemTags" : ["weapon","ranged","upgradeableWeapon"],
-  "tooltipKind" : "sb_gun2",
-  "tooltipFields" : {"damageKindImage":"/interface/statuses/tranquilizer.png"},
-  "animation" : "/items/active/starbound/guns/randomgenerated/gun.animation",
-  "animationCustom" : {"sounds":{"fire":["/sfx/gun/blowgun1.ogg","/sfx/gun/blowgun2.ogg","/sfx/gun/blowgun3.ogg"]}},
-    "animationParts" : {
-    "barrel" : "",
-    "butt" : "",
-    "muzzleFlash" : "",
-    "middle" : "tranquilizergun.png"
+  "itemName": "sb_tranquilizergun",
+  "inventoryIcon": "tranquilizergun.png",
+  "maxStack": 1,
+  "price": 1500,
+  "fixedRarity": false,
+  "rarity": "Rare",
+  "category": "uniqueWeapon",
+  "itemTags": ["weapon", "ranged", "upgradeableWeapon"],
+  "tooltipKind": "sb_gun2",
+  "tooltipFields": {
+    "damageKindImage": "/interface/statuses/tranquilizer.png"
   },
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-  "description" : "Gradually slows enemies to a crawl.",
-  "shortdescription" : "Tranquilizer Gun",
-  "baseOffset" : [0.375, 0.15],
-  "muzzleOffset" : [1, 0.4],
-  "twoHanded" : false,
-  "primaryAbilityType" : "sb_gun",
-  "primaryAbility" : {
-    "fireTime" : 0.8,
-    "energyUsage" : 18.75,
-    "inaccuracy" : 0,
-    "projectileType" : "sb_tranquilizerdart"
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/gun/blowgun1.ogg", "/sfx/gun/blowgun2.ogg", "/sfx/gun/blowgun3.ogg"]
+    }
   },
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "animationParts": {
+    "barrel": "",
+    "butt": "",
+    "muzzleFlash": "",
+    "middle": "tranquilizergun.png"
+  },
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "description": "Gradually slows enemies to a crawl.",
+  "shortdescription": "Tranquilizer Gun",
+  "baseOffset": [0.375, 0.15],
+  "muzzleOffset": [1, 0.4],
+  "twoHanded": false,
+  "primaryAbilityType": "sb_gun",
+  "primaryAbility": {
+    "fireTime": 0.8,
+    "energyUsage": 18.75,
+    "inaccuracy": 0,
+    "projectileType": "sb_tranquilizerdart"
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

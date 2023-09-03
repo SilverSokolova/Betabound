@@ -1,28 +1,43 @@
 {
-  "itemName" : "sb_scistaff",
-  "definition" : "staff",
-  "itemTags" : ["weapon","staff","upgradeableWeapon"],
-  "tags" : {"<staff>" : "sci", "<glow>" : "/items/active/weapons/staff/generated/glow/physical"},
-
-  "description" : "Gives nearby foes an icy reception at your command.",
-  "shortdescription" : "Sci-Cryo Staff",
-  "tooltipFields" : {"damageKindImage":"/interface/sb_tooltips/icethrower.png"},
-  "staffHasFullbright" : true,
-
-  "animationCustom" : {
-    "animatedParts": {"parts":{"chargeEffect":{"properties":{"offset":[-0.4,0.85]}}}}
+  "itemName": "sb_scistaff",
+  "definition": "staff",
+  "itemTags": ["weapon", "staff", "upgradeableWeapon"],
+  "tags": {
+    "<staff>": "sci",
+    "<glow>": "/items/active/weapons/staff/generated/glow/physical"
   },
 
-  "elementalType" : "ice",
-  "altAbilityType" : "elementswarm",
-  "primaryAbilityType" : "plasmabarrage",
-  "primaryAbility" : {
-    "projectileType" : "icebreath",
-    "projectileParameters" : {
-      "speed" : 0,
-      "baseDamage" : 8,
-      "damageTeam" : {"type":"indiscriminate"}
+  "description": "Gives nearby foes an icy reception at your command.",
+  "shortdescription": "Sci-Cryo Staff",
+  "tooltipFields": {
+    "damageKindImage": "/interface/sb_tooltips/icethrower.png"
+  },
+  "staffHasFullbright": true,
+
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "chargeEffect": {
+          "properties": {
+            "offset": [-0.4, 0.85]
+          }
+        }
+      }
     }
   },
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+
+  "elementalType": "ice",
+  "altAbilityType": "elementswarm",
+  "primaryAbilityType": "plasmabarrage",
+  "primaryAbility": {
+    "projectileType": "icebreath",
+    "projectileParameters": {
+      "speed": 0,
+      "baseDamage": 8,
+      "damageTeam": {
+        "type": "indiscriminate"
+      }
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

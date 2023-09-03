@@ -1,21 +1,36 @@
 {
-  "itemName" : "sb_firebow",
-  "definition" : "bow",
-  "itemTags" : ["weapon","ranged","bow","upgradeableWeapon"],
-  "tags" : {"<bow>" : "fire"},
-  "tooltipFields" : {"damageKindImage":"/interface/sb_tooltips/flamearrow.png"},
-  "description" : "Every arrow loosed from this bow at full power is set aflame.",
-  "shortdescription" : "Fire Bow",
-  "configOverrides" : {"animationCustom":{"sounds":{"perfectRelease":["/sfx/gun/firebow_loose_perfect.ogg"]}}},
-  "primaryAbility" : {
-    "fireTime" : 0.65,
-    "baseDps" : 8.25,
-    "inaccuracy" : 0.025,
-    "projectileType" : "flamearrow",
-    "powerProjectileType" : "chargedflamearrow",
-    "walkWhileFiring" : true,
-    "projectileParameters" : {"speed":60,"power":7}
+  "itemName": "sb_firebow",
+  "definition": "bow",
+  "itemTags": ["weapon", "ranged", "bow", "upgradeableWeapon"],
+  "tags": {
+    "<bow>": "fire"
   },
-  "altAbility" : {"projectileType" : "flamearrow"},
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "tooltipFields": {
+    "damageKindImage": "/interface/sb_tooltips/flamearrow.png"
+  },
+  "description": "Every arrow loosed from this bow at full power is set aflame.",
+  "shortdescription": "Fire Bow",
+  "configOverrides": {
+    "animationCustom": {
+      "sounds": {
+        "perfectRelease": ["/sfx/gun/firebow_loose_perfect.ogg"]
+      }
+    }
+  },
+  "primaryAbility": {
+    "fireTime": 0.65,
+    "baseDps": 8.25,
+    "inaccuracy": 0.025,
+    "projectileType": "flamearrow",
+    "powerProjectileType": "chargedflamearrow",
+    "walkWhileFiring": true,
+    "projectileParameters": {
+      "speed": 60,
+      "power": 7
+    }
+  },
+  "altAbility": {
+    "projectileType": "flamearrow"
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

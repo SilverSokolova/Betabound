@@ -1,103 +1,112 @@
 {
-  "itemName" : "sb_commonburstrifle",
-  "maxStack" : 1,
-  "rarity" : "common",
-  "muzzleOffset" : [0.75, 0.25],
-  "baseOffset" : [-1.25, 0.25],
-  "price" : 620,
-  "tooltipKind" : "sb_gun",
-  "description" : "",
-  "shortdescription" : "Common Burst Rifle",
-  "paletteSwaps" : "",
-  "category" : "assaultRifle",
-  "twoHanded" : true,
-  "level" : 1,
-  "itemTags" : ["weapon","ranged","burstrifle","upgradeableWeapon"],
-  "tooltipFields" : {"subtitle":"Burst Rifle"},
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-  "animation" : "/items/active/starbound/guns/randomgenerated/gun.animation",
-  "animationParts" : {"muzzleFlash":"/animations/sb/muzzleflash/bulletmuzzle4/bulletmuzzle4.png"},
-  "animationCustom" : {"sounds":{"fire":["/sfx/gun/ar1.ogg"]}},
+  "itemName": "sb_commonburstrifle",
+  "maxStack": 1,
+  "rarity": "common",
+  "muzzleOffset": [0.75, 0.25],
+  "baseOffset": [-1.25, 0.25],
+  "price": 620,
+  "tooltipKind": "sb_gun",
+  "description": "",
+  "shortdescription": "Common Burst Rifle",
+  "paletteSwaps": "",
+  "category": "assaultRifle",
+  "twoHanded": true,
+  "level": 1,
+  "itemTags": ["weapon", "ranged", "burstrifle", "upgradeableWeapon"],
+  "tooltipFields": {
+    "subtitle": "Burst Rifle"
+  },
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationParts": {
+    "muzzleFlash": "/animations/sb/muzzleflash/bulletmuzzle4/bulletmuzzle4.png"
+  },
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/gun/ar1.ogg"]
+    }
+  },
 
-  "elementalType" : "physical",
+  "elementalType": "physical",
 
-  "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-    "projectileType" : ["delayed", "fast", "flame","bouncybullet", "splitbullet", "piercingbullet", "marioball"],
+  "primaryAbility": {
+    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
+    "class": "GunFire",
+    "projectileType": ["delayed", "fast", "flame", "bouncybullet", "splitbullet", "piercingbullet", "marioball"],
 
-    "projectileParameters" : {
-      "knockbackRange" : [3, 11]
+    "projectileParameters": {
+      "knockbackRange": [3, 11]
     },
-    "fireTime" : [0.4,0.7],
-    "fireType" : "burst",
-    "burstCount" : [3,4],
-    "burstSpeed" : [0.16,0.18],
-    "burstTime" : [0.18,0.26],
-    "baseDps" : [8.25, 12.75],
-    "energyUsage" : [25, 30],
-    "inaccuracy" : 0.03,
-    "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
+    "fireTime": [0.4, 0.7],
+    "fireType": "burst",
+    "burstCount": [3, 4],
+    "burstSpeed": [0.16, 0.18],
+    "burstTime": [0.18, 0.26],
+    "baseDps": [8.25, 12.75],
+    "energyUsage": [25, 30],
+    "inaccuracy": 0.03,
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
 
-        "allowRotate" : true,
-        "allowFlip" : true
+        "allowRotate": true,
+        "allowFlip": true
       },
-      "fire" : {
-        "duration" : 0.03,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
-        "twoHanded" : true,
+      "fire": {
+        "duration": 0.03,
+        "armRotation": 5,
+        "weaponRotation": 5,
+        "twoHanded": true,
 
-        "allowRotate" : false,
-        "allowFlip" : false
+        "allowRotate": false,
+        "allowFlip": false
       },
-      "cooldown" : {
-        "duration" : 0.06,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
-        "twoHanded" : true,
+      "cooldown": {
+        "duration": 0.06,
+        "armRotation": 5,
+        "weaponRotation": 5,
+        "twoHanded": true,
 
-        "allowRotate" : false,
-        "allowFlip" : false
+        "allowRotate": false,
+        "allowFlip": false
       }
     }
   },
 
-  "builderConfig" : [{
-    "nameGenerator" : "assaultnames.config:nameGen",
-    "animationParts" : {
-      "barrel" : {
-        "path" : "assaultrifle/barrel/<variant>.png",
-        "variants" : 20,
-        "paletteSwap" : true
+  "builderConfig": [{
+      "nameGenerator": "assaultnames.config:nameGen",
+      "animationParts": {
+        "barrel": {
+          "path": "assaultrifle/barrel/<variant>.png",
+          "variants": 20,
+          "paletteSwap": true
+        },
+        "butt": {
+          "path": "assaultrifle/butt/<variant>.png",
+          "variants": 20,
+          "paletteSwap": true
+        },
+        "middle": {
+          "path": "assaultrifle/middle/<variant>.png",
+          "variants": 20,
+          "paletteSwap": true
+        }
       },
-      "butt" : {
-        "path" : "assaultrifle/butt/<variant>.png",
-        "variants" : 20,
-        "paletteSwap" : true
-      },
-      "middle" : {
-        "path" : "assaultrifle/middle/<variant>.png",
-        "variants" : 20,
-        "paletteSwap" : true
-      }
-    },
-    "iconDrawables" : ["butt", "middle", "barrel"],
-    "gunParts" : ["butt", "middle", "barrel"],
-    "palette" : "/items/active/starbound/colors/sniperrifle.weaponcolors",
-    "altAbilities" : [
-	"flashlight",
-	"grenadelauncher",
-	"stickyshot",
-	"shrapnelbomb",
-	"explosiveshot",
-	"bouncingshot",
-	"piercingshot"
-    ]
-  }],
-  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+      "iconDrawables": ["butt", "middle", "barrel"],
+      "gunParts": ["butt", "middle", "barrel"],
+      "palette": "/items/active/starbound/colors/sniperrifle.weaponcolors",
+      "altAbilities": [
+        "flashlight",
+        "grenadelauncher",
+        "stickyshot",
+        "shrapnelbomb",
+        "explosiveshot",
+        "bouncingshot",
+        "piercingshot"
+      ]
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

@@ -1,82 +1,91 @@
 {
-  "itemName" : "sb_revolver",
-  "maxStack" : 1,
-  "rarity" : "uncommon",
-  "price" : 620,
-  "baseOffset" : [-0.50, 0.25],
-  "muzzleOffset" : [0.5,0.375],
-  "tooltipKind" : "sb_gun4",
-  "category" : "pistol",
-  "twoHanded" : false,
-  "paletteSwaps" : "",
-  "level" : 1,
-  "description" : "It's a revolver.",
-  "shortdescription" : "Revolver",
-  "itemTags" : ["weapon","ranged","revolver","pistol","gun","upgradeableWeapon"],
-  "tooltipFields" : {"subtitle":"Revolver"},
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-  "animationScripts" : ["/items/active/starbound/guns/ammo.lua"],
-  "animation" : "/items/active/starbound/guns/randomgenerated/gun.animation",
-  "animationParts" : {"muzzleFlash":"/animations/sb/muzzleflash/bulletmuzzle4/bulletmuzzle4.png"},
-  "animationCustom" : {"sounds":{"fire":["/sfx/gun/revolver1.ogg","/sfx/gun/revolver2.ogg"]}},
+  "itemName": "sb_revolver",
+  "maxStack": 1,
+  "rarity": "uncommon",
+  "price": 620,
+  "baseOffset": [-0.50, 0.25],
+  "muzzleOffset": [0.5, 0.375],
+  "tooltipKind": "sb_gun4",
+  "category": "pistol",
+  "twoHanded": false,
+  "paletteSwaps": "",
+  "level": 1,
+  "description": "It's a revolver.",
+  "shortdescription": "Revolver",
+  "itemTags": ["weapon", "ranged", "revolver", "pistol", "gun", "upgradeableWeapon"],
+  "tooltipFields": {
+    "subtitle": "Revolver"
+  },
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "animationScripts": ["/items/active/starbound/guns/ammo.lua"],
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationParts": {
+    "muzzleFlash": "/animations/sb/muzzleflash/bulletmuzzle4/bulletmuzzle4.png"
+  },
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg"]
+    }
+  },
 
-  "elementalType" : "physical",
+  "elementalType": "physical",
 
-  "primaryAbility" : {
-    "scripts" : ["/items/active/starbound/guns/ammogunfire.lua"],
-    "class" : "sb_AmmoGunFire",
-    "projectileType" : ["bullet-2"],
+  "primaryAbility": {
+    "scripts": ["/items/active/starbound/guns/ammogunfire.lua"],
+    "class": "sb_AmmoGunFire",
+    "projectileType": ["bullet-2"],
 
-    "fireTime" : [0.4, 0.8],
-    "baseDps" : [8.5, 9.5],
-    "energyUsage" : [8, 14],
-    "inaccuracy" : 0,
-    "projectileParameters" : {
-      "knockbackRange" : [15, 20]
+    "fireTime": [0.4, 0.8],
+    "baseDps": [8.5, 9.5],
+    "energyUsage": [8, 14],
+    "inaccuracy": 0,
+    "projectileParameters": {
+      "knockbackRange": [15, 20]
     },
-    "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : false,
-        "allowRotate" : true,
-        "allowFlip" : true
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": false,
+        "allowRotate": true,
+        "allowFlip": true
       },
-      "fire" : {},
-      "cooldown" : {
-        "duration" : 0.15,
-        "armRotation" : 10,
-        "weaponRotation" : 10,
-        "twoHanded" : false,
-        "allowRotate" : false,
-        "allowFlip" : true
+      "fire": {},
+      "cooldown": {
+        "duration": 0.15,
+        "armRotation": 10,
+        "weaponRotation": 10,
+        "twoHanded": false,
+        "allowRotate": false,
+        "allowFlip": true
       }
     }
   },
 
-  "builderConfig" : [{
-    "nameGenerator" : "revolvernames.config:nameGen",
-    "animationParts" : {
-      "barrel" : {
-        "path" : "revolver/barrel/<variant>.png",
-        "variants" : 9,
-        "paletteSwap" : true
+  "builderConfig": [{
+      "nameGenerator": "revolvernames.config:nameGen",
+      "animationParts": {
+        "barrel": {
+          "path": "revolver/barrel/<variant>.png",
+          "variants": 9,
+          "paletteSwap": true
+        },
+        "butt": {
+          "path": "revolver/butt/<variant>.png",
+          "variants": 12,
+          "paletteSwap": true
+        },
+        "middle": {
+          "path": "revolver/middle/<variant>.png",
+          "variants": 3,
+          "paletteSwap": true
+        }
       },
-      "butt" : {
-        "path" : "revolver/butt/<variant>.png",
-        "variants" : 12,
-        "paletteSwap" : true
-      },
-      "middle" : {
-        "path" : "revolver/middle/<variant>.png",
-        "variants" : 3,
-        "paletteSwap" : true
-      }
-    },
-    "palette" : "/items/active/starbound/colors/sniperrifle.weaponcolors",
-  "iconDrawables" : ["butt", "middle", "barrel"],
-    "gunParts" : ["butt", "middle", "barrel"],
-    "altAbilities" : []
-  }],
-  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+      "palette": "/items/active/starbound/colors/sniperrifle.weaponcolors",
+      "iconDrawables": ["butt", "middle", "barrel"],
+      "gunParts": ["butt", "middle", "barrel"],
+      "altAbilities": []
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }
