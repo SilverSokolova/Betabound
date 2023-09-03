@@ -63,17 +63,17 @@
       "nameGenerator": "aviannames.config:nameGen",
       "animationParts": {
         "barrel": {
-          "path": "avianblaster/barrel/<variant>.png",
+          "path": "blasterbarrel/<variant>.png",
           "variants": 2,
           "paletteSwap": true
         },
         "butt": {
-          "path": "avianblaster/butt/<variant>.png",
+          "path": "blasterbutt/<variant>.png",
           "variants": 1,
           "paletteSwap": true
         },
         "middle": {
-          "path": "avianblaster/middle/<variant>.png",
+          "path": "blastermiddle/<variant>.png",
           "variants": 2,
           "paletteSwap": true
         }

@@ -4,13 +4,13 @@
   "rarity": "common",
   "baseOffset": [-0.25, 0.25],
   "muzzleOffset": [0, 0.375],
-  "tooltipKind": "sb_gun",
   "price": 620,
   "category": "pistol",
   "twoHanded": false,
   "level": 1,
   "paletteSwaps": "",
-  "description": "",
+  "tooltipKind": "sb_gun2",
+  "description" : "A small fully automatic pistol.",
   "shortdescription": "Common Machine Pistol",
   "tooltipFields": {
     "subtitle": "Machine Pistol"

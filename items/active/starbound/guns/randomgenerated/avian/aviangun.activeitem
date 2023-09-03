@@ -45,17 +45,17 @@
       "nameGenerator": "aviannames.config:nameGen",
       "animationParts": {
         "barrel": {
-          "path": "aviangun/barrel/<variant>.png",
+          "path": "gunbarrel/<variant>.png",
           "variants": 3,
           "paletteSwap": true
         },
         "butt": {
-          "path": "aviangun/butt/<variant>.png",
+          "path": "gunbutt/<variant>.png",
           "variants": 2,
           "paletteSwap": true
         },
         "middle": {
-          "path": "aviangun/middle/<variant>.png",
+          "path": "gunmiddle/<variant>.png",
           "variants": 3,
           "paletteSwap": true
         }
