@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/emitters","inverse":true},{"op":"add","path":"/emitters","value":[]}],
+[{"op":"add","path":"/emitters/-","value":"daggerblue"}]
+]

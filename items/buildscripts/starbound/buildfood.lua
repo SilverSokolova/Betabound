@@ -1,7 +1,7 @@
 function build(directory, config, parameters)
+  config.effects = parameters.effects or config.effects --fix for IFD only checking config for status effects
   require("/items/buildscripts/buildfood.lua")
   config, parameters = build(directory, config, parameters)
-
   local foodTooltip = root.assetJson("/interface/tooltips/food.tooltip")
   local fields = config.tooltipFields or {}
   if foodTooltip.effectLabel then --check for IFD

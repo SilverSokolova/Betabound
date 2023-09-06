@@ -4,5 +4,5 @@
   "shortdescription": "", //required to keep ES from dying
   "animation": "/items/sb_consumable.animation",
   "scripts": ["/items/sb_consumable.lua"],
-  "builder": "/items/buildscripts/buildfood.lua"
+  "builder": "/items/buildscripts/starbound/buildfood.lua"
 }

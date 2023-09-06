@@ -114,6 +114,7 @@
   // ================================
 ,[{"op":"test","path":"/oasisTreasure/0/1/pool/9/weight","value":0.01},{"op":"test","path":"/oasisTreasure/0/1/pool/9/item","value":"oasisbed"},{"op":"replace","path":"/oasisTreasure/0/1/pool/9/weight","value":0.3}]
 ,[{"op":"add","path":"/oasisTreasure/0/1/pool/-","value":{"weight":0.3,"item":"deckchair"}}]
+,[{"op":"add","path":"/oasisTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_throwingreed",5]}}]
 
   // ================================
   //		  Tar
