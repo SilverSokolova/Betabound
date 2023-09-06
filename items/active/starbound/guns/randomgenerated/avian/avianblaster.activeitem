@@ -49,12 +49,10 @@
       },
       "fire": {},
       "cooldown": {
-        "duration": 0,
+        "duration": 0.025,
+        "recoil": true,
         "armRotation": 2,
-        "weaponRotation": 2,
-        "twoHanded": false,
-        "allowRotate": true,
-        "allowFlip": true
+        "weaponRotation": 2
       }
     }
   },

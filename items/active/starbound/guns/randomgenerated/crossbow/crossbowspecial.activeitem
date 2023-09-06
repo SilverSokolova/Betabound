@@ -1,0 +1,13 @@
+{
+  "itemName": "sb_crossbowspecial",
+  "sb_definition": "crossbow",
+  "rarity": "uncommon",
+  "shortdescription": "Elemental Crossbow",
+  "itemTags": ["weapon", "ranged", "crossbow", "bow", "upgradeableWeapon"],
+  "configOverrides": {
+    "primaryAbility": {
+      "projectileType": ["woodenbolt", "flamebolt", "icebolt", "poisonbolt", "electricbolt", "explosivebolt"]
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

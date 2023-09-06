@@ -1,21 +1,22 @@
 {
-  "projectileName" : "sb_splashdrop1",
-  "image" : "splashdrop1.png",
-  "animationCycle" : 0.25,
-  "physics" : "highgravgrenade",
-  "frameNumber" : 2,
-  "pointLight" : false,
-  "animationLoops" : false,
-  "speed" : 70,
-  "timeToLive" : 1.5,
-  "orientationLocked" : false,
-  "flippable" : true,
-  "power" : 1.0,
-  "damagePoly" : [ [-2, 2], [-2, -2], [2, -2], [2, 2] ],
-  "damageKind" : "default",
-  "emitters" : [ "daggerblue","defaultblue" ],
-  "statusEffects" : [{"effect" : "wet", "duration" : 0.6 }],
-  "damageTeam" : { "type" : "indiscriminate" }
+  "projectileName": "sb_splashdrop1",
+  "image": "splashdrop1.png",
+  "animationCycle": 0.25,
+  "physics": "highgravgrenade",
+  "frameNumber": 2,
+  "pointLight": false,
+  "animationLoops": false,
+  "speed": 70,
+  "timeToLive": 1.5,
+  "orientationLocked": false,
+  "flippable": true,
+  "power": 1.0,
+  "damagePoly": [[-2, 2], [-2, -2], [2, -2], [2, 2]],
+  "damageKind": "default",
+  "emitters": ["daggerblue", "defaultblue"],
+  "statusEffects": [{
+      "effect": "wet",
+      "duration": 0.6
+    }
+  ]
 }
-
-

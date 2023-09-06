@@ -33,10 +33,7 @@
     "projectileType": "icebreath",
     "projectileParameters": {
       "speed": 0,
-      "baseDamage": 8,
-      "damageTeam": {
-        "type": "indiscriminate"
-      }
+      "baseDamage": 8
     }
   },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"

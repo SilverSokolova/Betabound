@@ -1,113 +1,103 @@
 {
-  "projectileName" : "sb_cardinalschalcedony",
-  "physics" : "gas",
-  "bounces" : -1,
-  "speed" : 25,
-  "timeToLive" : 4,
-  "lightColor" : [120, 0, 40],
-  "pointLight" : true,
-  "piercing" : true, 
-  "image" : "cardinalschalcedony.png",
-  "animationCycle" : 0.6,
-  "orientationLocked" : true,
-  "flippable" : true,
-  "frameNumber" : 12,
-  "power" : 50,
-  "damagePoly" : [ [-5, 5], [-5, -5], [5, -5], [5, 5] ],
-  "supportsProcessing" : true,
-  "onlyHitTerrain" : true,
-  "periodicActions" : [
-    {
-      "action" : "sound",
-      "options" : ["/sfx/projectiles/sb_crystalhum.ogg"],
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "regularexplosionuniversal",
-      "fuzzAngle" : 180,
-      "inheritSpeedFactor" : 0.1,
-      "inheritDamageFactor" : 0.25,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "regularexplosionuniversal",
-      "fuzzAngle" : 180,
-      "inheritSpeedFactor" : 0.1,
-      "inheritDamageFactor" : 0.25,
-      "delaySteps" : 30,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "regularexplosionuniversal",
-      "fuzzAngle" : 180,
-      "inheritSpeedFactor" : 0.1,
-      "inheritDamageFactor" : 0.25,
-      "delaySteps" : 60,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "regularexplosionuniversal",
-      "fuzzAngle" : 180,
-      "inheritSpeedFactor" : 0.1,
-      "inheritDamageFactor" : 0.25,
-      "delaySteps" : 90,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "regularexplosionuniversal",
-      "fuzzAngle" : 180,
-      "inheritSpeedFactor" : 0.1,
-      "inheritDamageFactor" : 0.25,
-      "delaySteps" : 120,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "regularexplosionuniversal",
-      "fuzzAngle" : 180,
-      "inheritSpeedFactor" : 0.1,
-      "inheritDamageFactor" : 0.25,
-      "delaySteps" : 150,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "regularexplosionuniversal",
-      "fuzzAngle" : 180,
-      "inheritSpeedFactor" : 0.1,
-      "inheritDamageFactor" : 0.25,
-      "delaySteps" : 180,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "regularexplosionuniversal",
-      "fuzzAngle" : 180,
-      "inheritSpeedFactor" : 0.1,
-      "inheritDamageFactor" : 0.25,
-      "delaySteps" : 210,
-      "time" : 0,
-      "repeat" : false
+  "projectileName": "sb_cardinalschalcedony",
+  "physics": "gas",
+  "bounces": -1,
+  "speed": 25,
+  "timeToLive": 4,
+  "lightColor": [120, 0, 40],
+  "pointLight": true,
+  "piercing": true,
+  "image": "cardinalschalcedony.png",
+  "animationCycle": 0.6,
+  "orientationLocked": true,
+  "flippable": true,
+  "frameNumber": 12,
+  "power": 50,
+  "damagePoly": [[-5, 5], [-5, -5], [5, -5], [5, 5]],
+  "supportsProcessing": true,
+  "onlyHitTerrain": true,
+  "periodicActions": [{
+      "action": "sound",
+      "options": ["/sfx/projectiles/sb_crystalhum.ogg"],
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "regularexplosionuniversal",
+      "fuzzAngle": 180,
+      "inheritSpeedFactor": 0.1,
+      "inheritDamageFactor": 0.25,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "regularexplosionuniversal",
+      "fuzzAngle": 180,
+      "inheritSpeedFactor": 0.1,
+      "inheritDamageFactor": 0.25,
+      "delaySteps": 30,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "regularexplosionuniversal",
+      "fuzzAngle": 180,
+      "inheritSpeedFactor": 0.1,
+      "inheritDamageFactor": 0.25,
+      "delaySteps": 60,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "regularexplosionuniversal",
+      "fuzzAngle": 180,
+      "inheritSpeedFactor": 0.1,
+      "inheritDamageFactor": 0.25,
+      "delaySteps": 90,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "regularexplosionuniversal",
+      "fuzzAngle": 180,
+      "inheritSpeedFactor": 0.1,
+      "inheritDamageFactor": 0.25,
+      "delaySteps": 120,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "regularexplosionuniversal",
+      "fuzzAngle": 180,
+      "inheritSpeedFactor": 0.1,
+      "inheritDamageFactor": 0.25,
+      "delaySteps": 150,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "regularexplosionuniversal",
+      "fuzzAngle": 180,
+      "inheritSpeedFactor": 0.1,
+      "inheritDamageFactor": 0.25,
+      "delaySteps": 180,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "regularexplosionuniversal",
+      "fuzzAngle": 180,
+      "inheritSpeedFactor": 0.1,
+      "inheritDamageFactor": 0.25,
+      "delaySteps": 210,
+      "time": 0,
+      "repeat": false
     }
   ],
-  "actionOnReap" : [
-    {
-      "action" : "config",
-      "file" : "/projectiles/explosions/globeexplosions/redglobeexplosion/redglobeexplosion.config"
+  "actionOnReap": [{
+      "action": "config",
+      "file": "/projectiles/explosions/globeexplosions/redglobeexplosion/redglobeexplosion.config"
     }
   ],
-  "damageKind" : "plasma"
+  "damageKind": "plasma"
 }

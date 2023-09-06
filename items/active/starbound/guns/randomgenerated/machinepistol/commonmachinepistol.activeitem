@@ -1,0 +1,89 @@
+{
+  "itemName": "sb_commonmachinepistol",
+  "maxStack": 1,
+  "rarity": "common",
+  "baseOffset": [-0.25, 0.25],
+  "muzzleOffset": [0, 0.375],
+  "price": 620,
+  "category": "pistol",
+  "twoHanded": false,
+  "level": 1,
+  "paletteSwaps": "",
+  "tooltipKind": "sb_gun2",
+  "description" : "A small fully automatic pistol.",
+  "shortdescription": "Common Machine Pistol",
+  "tooltipFields": {
+    "subtitle": "Machine Pistol"
+  },
+  "itemTags": ["weapon", "ranged", "pistol", "upgradeableWeapon"],
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationParts": {
+    "muzzleFlash": "/animations/sb/muzzleflash/bulletmuzzle1/bulletmuzzle1.png"
+  },
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/sb/gun/mp4.ogg"]
+    }
+  },
+
+  "elementalType": "physical",
+
+  "primaryAbility": {
+    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
+    "class": "GunFire",
+    "projectileType": ["bullet-1", "bullet-2", "bullet-3", "bullet-4"],
+    "fireTime": [0.11, 0.18],
+    "baseDps": [3, 3.5],
+    "energyUsage": [18, 19.5],
+    "inaccuracy": [1, 5],
+    "projectileParameters": {
+      "knockbackRange": [0, 6]
+    },
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": false,
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "fire": {},
+      "cooldown": {
+        "duration": 0.11,
+        "armRotation": 2,
+        "weaponRotation": 2,
+        "twoHanded": false,
+        "allowRotate": true,
+        "allowFlip": true
+      }
+    }
+  },
+
+  "builderConfig": [{
+      "nameGenerator": "mpistolnames.config:nameGen",
+      "animationParts": {
+        "barrel": {
+          "path": "barrel/<variant>.png",
+          "variants": 20,
+          "paletteSwap": true
+        },
+        "butt": {
+          "path": "butt/<variant>.png",
+          "variants": 20,
+          "paletteSwap": true
+        },
+        "middle": {
+          "path": "middle/<variant>.png",
+          "variants": 20,
+          "paletteSwap": true
+        }
+      },
+      "iconDrawables": ["butt", "middle", "barrel"],
+      "gunParts": ["butt", "middle", "barrel"],
+      "palette": "/items/active/starbound/colors/sniperrifle.weaponcolors",
+      "altAbilities": []
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

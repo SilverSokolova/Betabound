@@ -25,6 +25,9 @@
   "primaryAbilityType": "sb_meleeslash2",
   "aimOffset": 0,
   "primaryAbility": {
+    "damageConfig": {
+      "damageSourceKind": "bow"
+    },
     "fireTime": 0.52,
     "baseDps": 8,
     "stances": {
