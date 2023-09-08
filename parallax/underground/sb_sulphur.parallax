@@ -1,6 +1,6 @@
 {
   "layers": [{
-      "kind": "tile/sb_crystalcave",
+      "kind": "tile/sb_sulphur",
       "nohueshift": true,
       "lightMapped": true,
       "parallax": 1.2,

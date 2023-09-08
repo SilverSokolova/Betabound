@@ -7,7 +7,7 @@
   "price": 620,
   "paletteSwaps": "",
   "tooltipKind": "sb_gun2",
-  "description" : "A small fully automatic pistol.",
+  "description": "A small fully automatic pistol.",
   "shortdescription": "Uncommon Machine Pistol",
   "category": "pistol",
   "twoHanded": false,
@@ -32,7 +32,7 @@
   "primaryAbility": {
     "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
     "class": "GunFire",
-    "projectileType": ["bullet-1", "bullet-2", "bullet-3", "bullet-4", "delayed", "fast", "flame"],
+    "projectileType": ["bullet-1", "bullet-2", "bullet-3", "bullet-4", "delayed", "fast", "sb_fastflame"],
     "fireTime": [0.11, 0.18],
     "baseDps": [4, 4.5],
     "energyUsage": [20, 24.5],

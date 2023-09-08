@@ -6,7 +6,7 @@
   "baseOffset": [-1.25, 0.25],
   "price": 620,
   "tooltipKind": "sb_gun2",
-  "description" : "A fully automatic, military grade rifle.",
+  "description": "A fully automatic, military grade rifle.",
   "shortdescription": "Common Burst Rifle",
   "paletteSwaps": "",
   "category": "assaultRifle",
@@ -32,7 +32,7 @@
   "primaryAbility": {
     "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
     "class": "GunFire",
-    "projectileType": ["delayed", "fast", "flame", "bouncybullet", "splitbullet", "piercingbullet", "marioball"],
+    "projectileType": ["delayed", "fast", "sb_fastflame", "bouncybullet", "splitbullet", "piercingbullet", "marioball"],
 
     "projectileParameters": {
       "knockbackRange": [3, 11]

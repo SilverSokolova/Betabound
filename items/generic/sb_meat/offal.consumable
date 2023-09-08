@@ -1,13 +1,13 @@
 {
-  "itemName" : "sb_offal",
-  "rarity" : "rare",
-  "price" : 90,
-  "foodValue" : 60,
-  "effects" : [["foodpoison"]],
-  "tooltipKind" : "sb_object",
-  "inventoryIcon" : "offal.png",
-  "category" : "food",
-  "description" : "All the scraps that most people won't touch. Good, if you can get past the texture...",
-  "shortdescription" : "Offal",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua"
+  "itemName": "sb_offal",
+  "rarity": "rare",
+  "price": 90,
+  "foodValue": 60,
+  "effects": [["foodpoison"]],
+  "tooltipKind": "sb_object",
+  "inventoryIcon": "offal.png",
+  "category": "food",
+  "description": "All the scraps that most people won't touch. Good, if you can get past the texture...",
+  "shortdescription": "Offal",
+  "builder": "/items/buildscripts/starbound/buildfood.lua"
 }

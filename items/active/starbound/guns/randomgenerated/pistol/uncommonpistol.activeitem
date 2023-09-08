@@ -6,8 +6,8 @@
   "muzzleOffset": [0, 0.375],
   "price": 620,
   "paletteSwaps": "",
-  "tooltipKind": "sb_gun",
-  "description": "",
+  "tooltipKind": "sb_gun2",
+  "description": "A small handgun.",
   "shortdescription": "Uncommon Pistol",
   "category": "pistol",
   "twoHanded": false,
@@ -29,7 +29,7 @@
   "primaryAbility": {
     "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
     "class": "GunFire",
-    "projectileType": ["bullet-1", "bullet-2", "bullet-3", "bullet-4", "pellet", "delayed", "fast", "flame"],
+    "projectileType": ["bullet-1", "bullet-2", "bullet-3", "bullet-4", "pellet", "delayed", "fast", "sb_fastflame"],
 
     "fireTime": [0.3, 1.1],
     "baseDps": [5.7, 6.2],
@@ -62,17 +62,17 @@
       "nameGenerator": "pistolnames.config:nameGen",
       "animationParts": {
         "barrel": {
-          "path": "<variant>.png",
+          "path": "barrel/<variant>.png",
           "variants": 20,
           "paletteSwap": true
         },
         "butt": {
-          "path": "<variant>.png",
+          "path": "butt/<variant>.png",
           "variants": 20,
           "paletteSwap": true
         },
         "middle": {
-          "path": "<variant>.png",
+          "path": "middle/<variant>.png",
           "variants": 20,
           "paletteSwap": true
         }

@@ -6,7 +6,7 @@
   "muzzleOffset": [0, 0.375],
   "category": "pistol",
   "tooltipKind": "sb_gun2",
-  "description" : "A small fully automatic pistol.",
+  "description": "A small fully automatic pistol.",
   "paletteSwaps": "",
   "shortdescription": "Legendary Machine Pistol",
   "price": 620,

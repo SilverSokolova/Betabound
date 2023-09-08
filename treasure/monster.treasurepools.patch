@@ -8,9 +8,18 @@
 //,{"op":"add","path":"/basicMonsterTreasure/0/1/pool/-","value":{"weight":0.89,"item":"alienmeat"}}
 //,{"op":"add","path":"/flyingMonsterTreasure/0/1/pool/-","value":{"weight":0.89,"item":"alienmeat"}}
 
-,[{"op":"add","path":"/poptopTreasure/0/1/pool/-","value":{"weight":0.15,"pool":"sb_poptopMusic"}}]
 ,[{"op":"add","path":"/pogolemTreasure/0/1/pool/-","value":{"weight":0.5,"item":"poop"}}]
 
+//Check if bone birds can roll to drop 0-3 bones, and if so, replace it to be 0-1 and add a chance for generic monster loot (ie: money), then replace the bone drop with a separate pool mimicing the old draw
+,[{"op":"test","path":"/bonebirdTreasure/0/1/pool/0/item","value":"bone"},
+{"op":"test","path":"/bonebirdTreasure/0/1/poolRounds/3"},
+
+{"op":"replace","path":"/bonebirdTreasure/0/1/poolRounds","value":[[0.2, 0],[0.8, 1]]},
+{"op":"remove","path":"/bonebirdTreasure/0/1/pool/0/item"},
+{"op":"add","path":"/bonebirdTreasure/0/1/pool/0/pool","value":"sb_bonebirdBones"},
+{"op":"add","path":"/bonebirdTreasure/0/1/pool/-","value":{"weight":1,"pool":"noMeatMonsterTreasure"}}]
+
+,[{"op":"add","path":"/poptopTreasure/0/1/pool/-","value":{"weight":0.15,"pool":"sb_poptopMusic"}}]
 ,[{"op":"add","path":"/poptopVaultTreasure/0/1/pool/-","value":{"weight":0.3,"pool":"sb_poptopMusic"}}]
 
 ,[{"op":"add","path":"/taroniTreasure/0/1/pool/-","value":{"weight":0.4,"item":"basic"}}]

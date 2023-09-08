@@ -1,17 +1,22 @@
 {
-  "itemName" : "sb_techupgrade2",
-  "price" : 750,
-  "rarity" : "essential",
-  "tooltipFields" : {"rarityLabel" : "Critical", "subtitle" : "Tech Upgrade"},
-  "tooltipKind" : "sb_object4",
-  "shortdescription" : "^#ff0;Compounding Upgrade^reset;",
-  "description" : "Unlocks the ability to create scintillium, cerulium, and impervium compounds at an ^orange;Atomic Furnace^reset;.",
-  "category" : "upgradeComponent",
-  "animation" : "sb_shipupgrade.animation",
-  "inventoryIcon" : "sb_techupgrade2.png",
-  "scripts" : ["sb_techupgrade.lua"],
-  "recipes" : ["sb_feroziumcompound","sb_ceruliumcompound","sb_imperviumcompound"],
-  "animationCustom" : {
-    "sounds" : {"success":["/sfx/interface/item_holster.ogg"]}
+  "itemName": "sb_techupgrade2",
+  "price": 750,
+  "rarity": "essential",
+  "tooltipFields": {
+    "rarityLabel": "Critical",
+    "subtitle": "Tech Upgrade"
+  },
+  "tooltipKind": "sb_object4",
+  "shortdescription": "^#ff0;Compounding Upgrade^reset;",
+  "description": "Unlocks the ability to create scintillium, cerulium, and impervium compounds at an ^orange;Atomic Furnace^reset;.",
+  "category": "upgradeComponent",
+  "animation": "sb_shipupgrade.animation",
+  "inventoryIcon": "sb_techupgrade2.png",
+  "scripts": ["sb_techupgrade.lua"],
+  "recipes": ["sb_feroziumcompound", "sb_ceruliumcompound", "sb_imperviumcompound"],
+  "animationCustom": {
+    "sounds": {
+      "success": ["/sfx/interface/item_holster.ogg"]
+    }
   }
 }

@@ -5,10 +5,10 @@
   "baseOffset": [-0.25, 0.25],
   "muzzleOffset": [0, 0.375],
   "price": 620,
-  "description": "",
   "paletteSwaps": "",
   "shortdescription": "Rare Pistol",
-  "tooltipKind": "sb_gun",
+  "tooltipKind": "sb_gun2",
+  "description": "A small handgun.",
   "category": "pistol",
   "twoHanded": false,
   "level": 1,
@@ -29,7 +29,7 @@
   "primaryAbility": {
     "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
     "class": "GunFire",
-    "projectileType": ["bullet-1", "bullet-2", "bullet-3", "bullet-4", "pellet", "delayed", "fast", "flame", "bouncybullet", "splitbullet", "piercingbullet", "marioball"],
+    "projectileType": ["bullet-1", "bullet-2", "bullet-3", "bullet-4", "pellet", "delayed", "fast", "sb_fastflame", "bouncybullet", "splitbullet", "piercingbullet", "marioball"],
 
     "fireTime": [0.3, 1.1],
     "baseDps": [6.2, 7.7],

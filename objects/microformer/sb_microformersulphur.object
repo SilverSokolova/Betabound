@@ -1,18 +1,18 @@
 {
-  "objectName": "sb_microformerheck",
+  "objectName": "sb_microformersulphur",
   "colonyTags": [],
   "rarity": "Legendary",
-  "description": "Transforms an area of a planet into a hellish abomination.",
-  "shortdescription": "Heck Microformer",
+  "description": "Transforms an area of a planet into a hot sulphuric region.",
+  "shortdescription": "Sulphuric Microformer",
   "race": "ancient",
   "category": "terraformer",
   "price": 3000,
   "printable": false,
 
-  "inventoryIcon": "flesh/microformericon.png",
+  "inventoryIcon": "steamspring/microformericon.png",
   "orientations": [{
       "imageLayers": [{
-          "image": "flesh/microformerfullbright.png:default",
+          "image": "steamspring/microformerfullbright.png:default",
           "fullbright": true
         }, {
           "image": "microformer.png:default"
@@ -24,7 +24,7 @@
       "direction": "right"
     }, {
       "imageLayers": [{
-          "image": "flesh/microformerfullbright.png:default",
+          "image": "steamspring/microformerfullbright.png:default",
           "fullbright": true
         }, {
           "image": "microformer.png:default"
@@ -44,7 +44,7 @@
   "animationPosition": [-16, 0],
   "animationParts": {
     "base": "microformer.png",
-    "baseFullbright": "flesh/microformerfullbright.png"
+    "baseFullbright": "steamspring/microformerfullbright.png"
   },
   "smashSounds": ["/sfx/objects/rock_crumble1.ogg", "/sfx/objects/rock_crumble2.ogg", "/sfx/objects/rock_crumble3.ogg", "/sfx/objects/rock_crumble4.ogg", "/sfx/objects/rock_crumble5.ogg"],
   "smashParticles": [{
@@ -57,5 +57,5 @@
   "terraformOffset": [-15, 0],
   "terraformSize": 400,
   "pregenerateTime": [5, 30],
-  "terraformBiome": "sb_heck"
+  "terraformBiome": "sb_sulphur"
 }

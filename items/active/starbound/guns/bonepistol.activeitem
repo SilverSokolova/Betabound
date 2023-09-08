@@ -21,7 +21,9 @@
   "inventoryIcon": "bonepistol.png",
   "animationParts": {
     "muzzleFlash": "/animations/sb/muzzleflash/bulletmuzzle4/bulletmuzzle4.png",
-    "middle": "bonepistol.png"
+    "middle": "bonepistol.png",
+    "barrel": "",
+    "butt": ""
   },
   "animationCustom": {
     "animatedParts": {

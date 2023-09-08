@@ -20,5 +20,16 @@
       "type":"microdungeon",
       "microdungeons":["sb_glitchencounter","sb_randomencounter","sb_miniboss"]}
     }
+  ],
+
+  [
+    {"op":"add","path":"/surfacePlaceables/items/-","value":{
+      "mode":"floor",
+      "priority":2,
+      "variants":1,
+      "distribution" : "/biomes/distributions.config:scatteredLarge",
+      "type":"bush",
+      "bushes":[{"name":"aridskeleton","baseHueShiftMax":0,"modHueShiftMax":0}]}
+    }
   ]
 ]

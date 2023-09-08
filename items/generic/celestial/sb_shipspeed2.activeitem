@@ -1,14 +1,18 @@
 {
-  "itemName" : "sb_shipspeed2",
-  "price" : 4000,
-  "rarity" : "legendary",
-  "tooltipFields" : {"subtitle" : "Ship Enhancement"},
-  "tooltipKind" : "sb_object",
-  "shortdescription" : "^#ff0;Thruster MK3^reset;",
-  "description" : "Increases thruster speed by 30%.\n^#f00;Usable once per ship.^reset;",
-  "category" : "upgradeComponent",
-  "animation" : "sb_shipupgrade.animation",
-  "inventoryIcon" : "sb_shipengine.png",
-  "scripts" : ["sb_shipupgrade.lua"],
-  "shipUpgrade" : {"shipSpeed":4.5}
+  "itemName": "sb_shipspeed2",
+  "price": 4000,
+  "rarity": "legendary",
+  "tooltipFields": {
+    "subtitle": "Ship Enhancement"
+  },
+  "tooltipKind": "sb_object",
+  "shortdescription": "^#ff0;Thruster MK3^reset;",
+  "description": "Increases thruster speed by 30%.\n^#f00;Usable once per ship.^reset;",
+  "category": "upgradeComponent",
+  "animation": "sb_shipupgrade.animation",
+  "inventoryIcon": "sb_shipengine.png",
+  "scripts": ["sb_shipupgrade.lua"],
+  "shipUpgrade": {
+    "shipSpeed": 4.5
+  }
 }

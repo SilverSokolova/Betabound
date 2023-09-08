@@ -21,7 +21,9 @@
   "inventoryIcon": "needler.png",
   "animationParts": {
     "muzzleFlash": "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.png",
-    "butt": "needler.png"
+    "butt": "needler.png",
+    "barrel": "",
+    "middle": ""
   },
   "animationCustom": {
     "animatedParts": {

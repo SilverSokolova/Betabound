@@ -1,15 +1,19 @@
 {
-  "itemName" : "sb_maxfuel1",
-  "price" : 3300,
-  "rarity" : "legendary",
-  "tooltipFields" : {"subtitle" : "Ship Enhancement"},
-  "tooltipKind" : "sb_object",
-  "shortdescription" : "^#ff0;Fuel Tank MK2^reset;",
-  "description" : "Increases fuel tank capacity by 400.\n^#f00;Usable once per ship.^reset;",
-  "category" : "upgradeComponent",
-  "animation" : "sb_shipupgrade.animation",
-  "learnBlueprintsOnPickup" : ["sb_maxfuel2"],
-  "inventoryIcon" : "sb_shipengine.png",
-  "scripts" : ["sb_shipupgrade.lua"],
-  "shipUpgrade" : {"maxFuel":400}
+  "itemName": "sb_maxfuel1",
+  "price": 3300,
+  "rarity": "legendary",
+  "tooltipFields": {
+    "subtitle": "Ship Enhancement"
+  },
+  "tooltipKind": "sb_object",
+  "shortdescription": "^#ff0;Fuel Tank MK2^reset;",
+  "description": "Increases fuel tank capacity by 400.\n^#f00;Usable once per ship.^reset;",
+  "category": "upgradeComponent",
+  "animation": "sb_shipupgrade.animation",
+  "learnBlueprintsOnPickup": ["sb_maxfuel2"],
+  "inventoryIcon": "sb_shipengine.png",
+  "scripts": ["sb_shipupgrade.lua"],
+  "shipUpgrade": {
+    "maxFuel": 400
+  }
 }

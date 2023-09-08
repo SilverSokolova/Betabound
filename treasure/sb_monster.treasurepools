@@ -67,5 +67,18 @@
         {"weight" : 0.025, "item" : "sb_repairbotaf"}
       ]
     }]
+  ],
+  "sb_bonebirdBones" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : "bone"}
+      ],
+      "poolRounds" : [
+        [0.2, 0],
+        [0.4, 1],
+        [0.2, 2],
+        [0.2, 3]
+      ]
+    }]
   ]
 }

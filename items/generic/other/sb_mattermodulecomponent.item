@@ -1,13 +1,12 @@
 {
-  "itemName" : "sb_mattermodulecomponent",
-  "rarity" : "Rare",
-  "price" : 10,
-  "tooltipKind" : "sb_object",
-  "itemTags" : [ "reagent" ],
-  "category" : "upgradeComponent",
-  "inventoryIcon" : "mattermodulecomponent.png",
-  "description" : "I can slot a bunch of these together to make a manipulator module!",
-  "shortdescription" : "Matter Module Component",
-
-  "learnBlueprintsOnPickup" : [ "manipulatormodule" ]
+  "itemName": "sb_mattermodulecomponent",
+  "rarity": "Rare",
+  "price": 10,
+  "tooltipKind": "sb_object",
+  "itemTags": ["reagent"],
+  "category": "upgradeComponent",
+  "inventoryIcon": "mattermodulecomponent.png",
+  "description": "I can slot a bunch of these together to make a manipulator module!",
+  "shortdescription": "Matter Module Component",
+  "learnBlueprintsOnPickup": ["manipulatormodule"]
 }

@@ -1,6 +1,6 @@
 {
-  "name": "sb_crystalcave",
-  "friendlyName": "Crystal Cave",
+  "name": "sb_sulphur",
+  "friendlyName": "Sulphuric",
 
   //No fish because lava
   "spawnProfile": {
@@ -29,10 +29,10 @@
     ]
   },
 
-  "mainBlock": "rock14",
-  "subBlocks": ["obsidian", "rock02"],
-  "ores": "sb_crystalDepth2",
-  "parallax": "/parallax/underground/sb_crystalcave.parallax",
+  "mainBlock": "rock12",
+  "subBlocks": ["ash", "rock14"],
+  "ores": "sb_sulphurDepth3",
+  "parallax": "/parallax/underground/sb_sulphur.parallax",
   "hueShiftOptions": [0],
 
   "sky": {
@@ -44,10 +44,10 @@
 
   "ambientNoises": {
     "day": {
-      "tracks": ["/sfx/environmental/crystal_underground.ogg"]
+      "tracks": ["/sfx/environmental/volcanic_underground.ogg"]
     },
     "night": {
-      "tracks": ["/sfx/environmental/crystal_underground.ogg"]
+      "tracks": ["/sfx/environmental/volcanic_underground.ogg"]
     }
   },
 
@@ -61,43 +61,29 @@
   },
 
   "surfacePlaceables": {
-    "grassMod": ["crystalgrass"],
+    "grassMod": ["charredgrass", "blackash"],
     "grassModDensity": 0.9,
     "items": [{
         "mode": "floor",
-        "priority": 4,
+        "priority": 4.0,
         "variants": 1,
-        "distribution": "/biomes/distributions.config:potsRare",
-
-        "type": "object",
-        "objectSets": [{
-            "pool": [[1, "wildcrystalplantseed"]],
-            "parameters": {
-              "startingStage": 2
-            }
-          }
-        ]
+        "distribution": "/biomes/distributions.config:denseLarge",
+        "type": "grass",
+        "grasses": ["sulphurplant"]
       }
     ]
   },
 
   "undergroundPlaceables": {
-    "grassMod": ["crystalgrass"],
+    "grassMod": ["charredgrass"],
     "grassModDensity": 0.9,
     "items": [{
         "mode": "floor",
-        "priority": 4,
+        "priority": 4.0,
         "variants": 1,
-        "distribution": "/biomes/distributions.config:potsRare",
-
-        "type": "object",
-        "objectSets": [{
-            "pool": [[1, "wildcrystalplantseed"]],
-            "parameters": {
-              "startingStage": 2
-            }
-          }
-        ]
+        "distribution": "/biomes/distributions.config:denseLarge",
+        "type": "grass",
+        "grasses": ["sulphurplant"]
       }, {
         "mode": "floor",
         "priority": 0.0,
@@ -105,19 +91,15 @@
         "distribution": "/biomes/distributions.config:minibiomeChests",
 
         "type": "treasureBox",
-        "treasureBoxSets": ["crystalChest"]
+        "treasureBoxSets": ["basicChest"]
       }, {
         "mode": "floor",
         "priority": 0.0,
-        "variants": 4,
-        "distribution": "/biomes/distributions.config:scatteredLarge",
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundweaponChests",
 
-        "type": "object",
-        "objectSets": [{
-            "pool": [[0.35, "crystalcavebush1"], [0.35, "crystalcavebush2"], [0.35, "crystalcavebush3"], [0.35, "crystalcavebush4"], [0.35, "pillar1"], [0.35, "pillar2"], [0.35, "wormstatue"], [0.35, "altar1"]],
-            "parameters": {}
-          }
-        ]
+        "type": "treasureBox",
+        "treasureBoxSets": ["weaponChest", "sb_gunChest"]
       }
     ]
   }

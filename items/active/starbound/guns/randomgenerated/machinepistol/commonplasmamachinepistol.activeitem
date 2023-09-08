@@ -9,7 +9,7 @@
   "level": 1,
   "paletteSwaps": "",
   "tooltipKind": "sb_gun2",
-  "description" : "A small fully automatic plasma pistol.",
+  "description": "A small fully automatic plasma pistol.",
   "shortdescription": "Common Plasma Machine Pistol",
   "price": 620,
   "tooltipFields": {

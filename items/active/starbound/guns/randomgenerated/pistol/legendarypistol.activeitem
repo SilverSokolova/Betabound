@@ -4,9 +4,9 @@
   "rarity": "legendary",
   "baseOffset": [-0.25, 0.25],
   "muzzleOffset": [0, 0.375],
-  "tooltipKind": "sb_gun",
   "category": "pistol",
-  "description": "",
+  "tooltipKind": "sb_gun2",
+  "description": "A small handgun.",
   "paletteSwaps": "",
   "price": 620,
   "shortdescription": "Legendary Pistol",
@@ -29,7 +29,7 @@
   "primaryAbility": {
     "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
     "class": "GunFire",
-    "projectileType": ["bullet-1", "bullet-2", "bullet-3", "bullet-4", "pellet", "delayed", "fast", "flame", "bouncybullet", "splitbullet", "piercingbullet", "trishot", "stickybullet", "explosivebullet", "marioball"],
+    "projectileType": ["bullet-1", "bullet-2", "bullet-3", "bullet-4", "pellet", "delayed", "fast", "sb_fastflame", "bouncybullet", "splitbullet", "piercingbullet", "trishot", "stickybullet", "explosivebullet", "marioball"],
 
     "fireTime": [0.3, 1.1],
     "baseDps": [7.7, 8.2],

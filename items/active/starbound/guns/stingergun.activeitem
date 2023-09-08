@@ -21,7 +21,9 @@
   "inventoryIcon": "stingergun.png",
   "animationParts": {
     "muzzleFlash": "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.png",
-    "butt": "stingergun.png"
+    "butt": "stingergun.png",
+    "barrel": "",
+    "middle": ""
   },
   "animationCustom": {
     "animatedParts": {

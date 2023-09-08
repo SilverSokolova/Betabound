@@ -10,7 +10,7 @@
   "level": 1,
   "paletteSwaps": "",
   "tooltipKind": "sb_gun2",
-  "description" : "A small fully automatic pistol.",
+  "description": "A small fully automatic pistol.",
   "shortdescription": "Common Machine Pistol",
   "tooltipFields": {
     "subtitle": "Machine Pistol"

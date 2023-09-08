@@ -23,7 +23,9 @@
   "animationParts": {
     //  "muzzleFlash" : "/animations/muzzleflash/bloodvomitmuzzle/bloodvomitmuzzle.png",
     "muzzleFlash": "/animations/muzzleflash/bulletmuzzle4/bulletmuzzle4.png",
-    "middle": "boneshotgun.png"
+    "middle": "boneshotgun.png",
+    "barrel": "",
+    "butt": ""
   },
   "animationCustom": {
     "sounds": {

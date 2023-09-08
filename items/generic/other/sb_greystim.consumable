@@ -1,15 +1,15 @@
 {
-  "itemName" : "sb_greystim",
-  "rarity" : "Common",
-  "price" : 100,
-  "category" : "medicine",
-  "inventoryIcon" : "sb_greystim.png",
-  "tooltipKind" : "sb_object",
-  "description" : "A stimpack full of grey liquid, it'll make you hard as a rock!",
-  "shortdescription" : "Grey Stim Pack",
-  "effects" : [["sb_greystim"]],
-  "emote" : "",
-  "emitters" : ["stimuse"],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "learnBlueprintsOnPickup" : ["sb_protectionbomb"]
+  "itemName": "sb_greystim",
+  "rarity": "Common",
+  "price": 100,
+  "category": "medicine",
+  "inventoryIcon": "sb_greystim.png",
+  "tooltipKind": "sb_object",
+  "description": "A stimpack full of grey liquid, it'll make you hard as a rock!",
+  "shortdescription": "Grey Stim Pack",
+  "effects": [["sb_greystim"]],
+  "emote": "",
+  "emitters": ["stimuse"],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "learnBlueprintsOnPickup": ["sb_protectionbomb"]
 }

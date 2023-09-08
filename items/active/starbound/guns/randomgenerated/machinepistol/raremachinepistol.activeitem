@@ -8,7 +8,7 @@
   "paletteSwaps": "",
   "category": "pistol",
   "tooltipKind": "sb_gun2",
-  "description" : "A small fully automatic pistol.",
+  "description": "A small fully automatic pistol.",
   "shortdescription": "Rare Machine Pistol",
   "twoHanded": false,
   "level": 1,
@@ -32,7 +32,7 @@
   "primaryAbility": {
     "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
     "class": "GunFire",
-    "projectileType": ["delayed", "fast", "flame", "bouncybullet", "splitbullet", "piercingbullet", "marioball"],
+    "projectileType": ["delayed", "fast", "sb_fastflame", "bouncybullet", "splitbullet", "piercingbullet", "marioball"],
     "fireTime": [0.11, 0.18],
     "baseDps": [5, 5.5],
     "energyUsage": [22, 27.5],

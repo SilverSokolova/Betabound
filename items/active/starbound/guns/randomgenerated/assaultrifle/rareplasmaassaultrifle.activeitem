@@ -6,7 +6,7 @@
   "baseOffset": [-1.25, 0.25],
   "price": 620,
   "tooltipKind": "sb_gun2",
-  "description" : "A fully automatic, military grade rifle.",
+  "description": "A fully automatic, military grade plasma rifle.",
   "shortdescription": "Rare Plasma Rifle",
   "paletteSwaps": "",
   "category": "assaultRifle",

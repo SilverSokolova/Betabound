@@ -1,21 +1,27 @@
 {
-  "itemName" : "sb_blackcurrentcrumble",
-  "price" : 390,
-  "foodValue" : 45,
-  "tooltipKind" : "sb_object",
-  "rarity" : "rare",
-  "sb_plateImage" : true,
-  "inventoryIcon" : "blackcurrentcrumble.png",
-  "category" : "preparedFood",
-  "description" : "A crumble that holds a charge.",
-  "shortdescription" : "Black Current Crumble",
-  "effects" : [[
-	{"effect":"maxhealthscalingboostfood","duration":135},
-	{"effect":"maxenergyscalingboostfood","duration":135},
-	{"effect":"electrified","duration":135},
-	"sb_foodheal145"
-  ]],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 4
+  "itemName": "sb_blackcurrentcrumble",
+  "price": 390,
+  "foodValue": 45,
+  "tooltipKind": "sb_object",
+  "rarity": "rare",
+  "sb_plateImage": true,
+  "inventoryIcon": "blackcurrentcrumble.png",
+  "category": "preparedFood",
+  "description": "A crumble that holds a charge.",
+  "shortdescription": "Black Current Crumble",
+  "effects": [[{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 135
+      }, {
+        "effect": "maxenergyscalingboostfood",
+        "duration": 135
+      }, {
+        "effect": "electrified",
+        "duration": 135
+      },
+      "sb_foodheal145"
+    ]],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 4
 }
