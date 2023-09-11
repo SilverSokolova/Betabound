@@ -7,6 +7,6 @@
   "inventoryIcon" : "sb_portable3dprinter.png", //slightly modified icon with 254 alpha
   "animation" : "sb_portable3dprinter.animation",
   "shortdescription" : "^orange;Portable Pixel Printer^reset;",
-  "description" : "Used to craft small hi-tech items on-the-fly.",
+  "description" : "Used to print small hi-tech items on-the-fly.",
   "scripts" : ["sb_portable3dprinter.lua"]
 }

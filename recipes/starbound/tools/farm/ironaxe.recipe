@@ -1,0 +1,5 @@
+{
+  "input" : [["ironbar",4],["darkwoodmaterial",12]],
+  "output" : "sb_ironaxe",
+  "groups" : ["craftingfarm","farming","all"]
+}

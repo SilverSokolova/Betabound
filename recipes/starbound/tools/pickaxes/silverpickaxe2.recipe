@@ -1,5 +1,0 @@
-{
-  "input" : [["silverbar",4],"pickaxe"],
-  "output" : "silverpickaxe",
-  "groups" : ["sb_ironcraftingtable","tools","nouncrafting","all"]
-}

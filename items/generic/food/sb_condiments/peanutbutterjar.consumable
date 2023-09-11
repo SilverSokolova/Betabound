@@ -1,0 +1,22 @@
+{
+  "itemName": "sb_peanutbutterjar",
+  "price": 335,
+  "foodValue": 35,
+  "tooltipKind": "sb_object",
+  "rarity": "Uncommon",
+  "sb_plateHide": true,
+  "inventoryIcon": "peanutbutterjar.png",
+  "category": "food",
+  "effects": [[{
+        "effect": "sb_protectionboost5",
+        "duration": 315
+      },
+      "sb_foodheal120"
+    ]],
+  "learnBlueprintsOnPickup": ["sb_peanutbutter"],
+  "description": "Now with actual butter. And peas. No nuts though.",
+  "shortdescription": "Peanut Butter",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 10
+}

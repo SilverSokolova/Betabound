@@ -1,16 +1,15 @@
 {
-  "kind" : "sb_crouchdash",
-  "definition" : {
-    "type" : "animated",
-    "animation" : "/animations/dash/sb_crouchdash.animation",
-    "position" : [0, 0],
-    "finalVelocity" : [0, 0],
-    "approach" : [0, 0],
-    "fade" : 1,
-    "size" : 1,
-    "layer" : "back",
-    "timeToLive" : 0.85,
-    "variance" : {
-    }
+  "kind": "sb_crouchdash",
+  "definition": {
+    "type": "animated",
+    "animation": "/animations/dash/sb_crouchdash.animation",
+    "position": [0, 0],
+    "finalVelocity": [0, 0],
+    "approach": [0, 0],
+    "fade": 1,
+    "size": 1,
+    "layer": "back",
+    "timeToLive": 0.85,
+    "variance": {}
   }
 }

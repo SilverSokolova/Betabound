@@ -1,9 +1,9 @@
 {
-  "name" : "body",
-  "category" : "sb_heckblob",
-  "type" : "body",
+  "name": "body",
+  "category": "sb_heckblob",
+  "type": "body",
 
-  "frames" : {
-    "body" : "heckblob.png"
+  "frames": {
+    "body": "heckblob.png"
   }
 }

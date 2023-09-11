@@ -1,5 +1,0 @@
-{
-  "input" : [["money",200]],
-  "output" : "sb_crittercapturepod",
-  "groups" : ["sb_portable3dprinter","sb_other","all"]
-}

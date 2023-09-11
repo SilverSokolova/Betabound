@@ -1,113 +1,111 @@
 {
-  "type" : "sb_moondancer",
-
-  "categories" : ["sb_moondancer"],
-  "parts" : ["body", "head"],
-  "animation" : "moondancer.animation",
-  "dropPools" : [
-    {
-      "default" : "empty",
-      "bugnet" : "sb_moondancer"
+  "type": "sb_moondancer",
+  "categories": ["sb_moondancer"],
+  "parts": ["body", "head"],
+  "animation": "moondancer.animation",
+  "dropPools": [{
+      "default": "empty",
+      "bugnet": "sb_moondancer"
     }
   ],
 
-  "baseParameters" : {
-    "scripts" : [
+  "baseParameters": {
+    "scripts": [
       "/monsters/bugs/bug.lua",
       "/scripts/util.lua",
       "/scripts/vec2.lua"
     ],
 
-    "buzzing" : {
-      "riseSpeed" : 2,
-      "minGroundDistance" : 2,
-      "fallSpeed" : 3,
-      "maxGroundDistance" : 5,
-      "changeDirSpeed" : 2,
-      "wanderDistance" : 5,
+    "buzzing": {
+      "riseSpeed": 2,
+      "minGroundDistance": 2,
+      "fallSpeed": 3,
+      "maxGroundDistance": 5,
+      "changeDirSpeed": 2,
+      "wanderDistance": 5,
 
-      "rotationSpeed" : 2,
-      "rotationChangeInterval" : 1
+      "rotationSpeed": 2,
+      "rotationChangeInterval": 1
     },
 
-    "metaBoundBox" : [-0.5, -0.5, 0.5, 0.5],
-    "scale" : 1,
+    "metaBoundBox": [-0.5, -0.5, 0.5, 0.5],
+    "scale": 1,
 
-    "movementSettings" : {
-      "collisionPoly" : [[-0.5, -0.5], [0.5, -0.5], [0.5, 0.5], [-0.5, 0.5]],
+    "movementSettings": {
+      "collisionPoly": [[-0.5, -0.5], [0.5, -0.5], [0.5, 0.5], [-0.5, 0.5]],
 
-      "mass" : 1,
-      "walkSpeed" : 10,
-      "runSpeed" : 10,
-      "jumpSpeed" : 5,
-      "flySpeed" : 3,
-      "airFriction" : 0,
-      "airForce" : 100,
-      "gravityEnabled" : false
+      "mass": 1,
+      "walkSpeed": 10,
+      "runSpeed": 10,
+      "jumpSpeed": 5,
+      "flySpeed": 3,
+      "airFriction": 0,
+      "airForce": 100,
+      "gravityEnabled": false
     },
 
-    "bodyMaterialKind" : "organic",
+    "bodyMaterialKind": "organic",
 
-    "knockoutTime" : 0.1,
-    "knockoutEffect" : "",
+    "knockoutTime": 0.1,
+    "knockoutEffect": "",
 
-    "damageTeamType" : "passive",
+    "damageTeamType": "passive",
 
-    "statusSettings" : {
-      "statusProperties" : {
-        "targetMaterialKind" : "organic"
+    "statusSettings": {
+      "statusProperties": {
+        "targetMaterialKind": "organic"
       },
 
-      "appliesEnvironmentStatusEffects" : false,
-      "appliesWeatherStatusEffects" : false,
-      "minimumLiquidStatusEffectPercentage" : 0.1,
+      "appliesEnvironmentStatusEffects": false,
+      "appliesWeatherStatusEffects": false,
+      "minimumLiquidStatusEffectPercentage": 0.1,
 
-      "primaryScriptSources" : [
+      "primaryScriptSources": [
         "/stats/monster_primary.lua"
       ],
-      "primaryScriptDelta" : 5,
+      "primaryScriptDelta": 5,
 
-      "stats" : {
-        "knockbackStunTime" : {
-          "baseValue" : 0.25
+      "stats": {
+        "knockbackStunTime": {
+          "baseValue": 0.25
         },
-        "knockbackThreshold" : {
-          "baseValue" : 9
+        "knockbackThreshold": {
+          "baseValue": 9
         },
-        "maxHealth" : {
-          "baseValue" : 1
+        "maxHealth": {
+          "baseValue": 1
         },
-        "protection" : {
-          "baseValue" : 0
+        "protection": {
+          "baseValue": 0
         },
-        "healthRegen" : {
-          "baseValue" : 0
+        "healthRegen": {
+          "baseValue": 0
         },
-        "wetImmunity" : {
-          "baseValue" : 1
+        "wetImmunity": {
+          "baseValue": 1
         },
-        "powerMultiplier" : {
-          "baseValue" : 1
+        "powerMultiplier": {
+          "baseValue": 1
         }
       },
 
-      "resources" : {
-        "stunned" : {
-          "deltaValue" : -1,
-          "initialValue" : 0
+      "resources": {
+        "stunned": {
+          "deltaValue": -1,
+          "initialValue": 0
         },
-        "health" : {
-          "maxStat" : "maxHealth",
-          "deltaStat" : "healthRegen",
-          "defaultPercentage" : 100
+        "health": {
+          "maxStat": "maxHealth",
+          "deltaStat": "healthRegen",
+          "defaultPercentage": 100
         }
       }
     },
 
-    "mouthOffset" : [0, 0],
-    "feetOffset" : [0, -8],
+    "mouthOffset": [0, 0],
+    "feetOffset": [0, -8],
 
-    "capturable" : false,
-    "relocatable" : true
+    "capturable": false,
+    "relocatable": true
   }
 }

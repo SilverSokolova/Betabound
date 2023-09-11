@@ -1,5 +1,5 @@
 {
   "input" : ["endomorphicjelly",["durasteelbar",1]],
   "output" : "sb_techupgrade2",
-  "groups" : ["inventorstable3","craftingstations","sb_roboticcraftingtable","tools","all"]
+  "groups" : ["inventorstable3","craftingstations","all"]
 }

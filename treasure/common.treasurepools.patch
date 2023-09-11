@@ -229,7 +229,7 @@
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_techmasterlegs"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"adventurerobothead"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"adventurerobotchest"}}],
-  [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"adventurerobotlegs"}}],
+  [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"adventurerobotpants"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_oddhead"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_conehead"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_braincagehead"}}],

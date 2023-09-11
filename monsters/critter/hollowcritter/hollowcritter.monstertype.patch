@@ -1,4 +1,4 @@
-[[{"op":"add","path":"/baseParameters/scripts/-","value":"/scripts/companions/sb_crittercapturable.lua"}],
+[
 [{"op":"test","path":"/shortdescription","inverse":true},{"op":"add","path":"/shortdescription","value":"Hollow"}],
 [{"op":"test","path":"/baseParameters/movementSettings/collisionPoly","value":[[-0.5,-0.5],[0.5,-0.5],[0.5,0.5],[-0.5,0.5]]},
 {"op":"replace","path":"/baseParameters/movementSettings/collisionPoly","value":[[0,-0.5],[0.5,0],[0,0.5],[-0.5,0]]}]]

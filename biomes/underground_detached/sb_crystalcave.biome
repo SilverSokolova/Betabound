@@ -118,6 +118,19 @@
             "parameters": {}
           }
         ]
+      }, {
+        "mode": "floor",
+        "priority": 2,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:scatteredLarge",
+
+        "type": "bush",
+        "bushes": [{
+            "name": "crystals",
+            "baseHueShiftMax": 0,
+            "modHueShiftMax": 0
+          }
+        ]
       }
     ]
   }

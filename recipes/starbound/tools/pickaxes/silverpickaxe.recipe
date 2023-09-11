@@ -1,5 +1,0 @@
-{
-  "input" : [["silverbar",8],"sb_stonepickaxe"],
-  "output" : "silverpickaxe",
-  "groups" : ["sb_ironcraftingtable","tools","all"]
-}

@@ -1,183 +1,186 @@
 {
-  "type" : "sb_medievalchesttrapper",
-  "shortdescription" : "Chest Trapper",
-  "description" : "todo",
+  "type": "sb_medievalchesttrapper",
+  "shortdescription": "Chest Trapper",
+  "description": "todo",
 
-  "categories" : ["sb_medievalchesttrapper"],
-  "parts" : ["body"],
+  "categories": ["sb_medievalchesttrapper"],
+  "parts": ["body"],
 
-  "animation" : "chesttrapper.animation",
+  "animation": "chesttrapper.animation",
 
-  "dropPools" : [ { "default" : "gleapTreasure", "bow" : "gleapHunting" } ],
+  "dropPools": [{
+      "default": "gleapTreasure",
+      "bow": "gleapHunting"
+    }
+  ],
 
-  "baseParameters" : {
-    "scripts" : ["/monsters/monster.lua"],
-    "behavior" : "monster",
+  "baseParameters": {
+    "scripts": ["/monsters/monster.lua"],
+    "behavior": "monster",
 
-    "behaviorConfig" : {
-      "damageOnTouch" : true,
+    "behaviorConfig": {
+      "damageOnTouch": true,
 
-      "targetQueryRange" : 5,
-      "targetOnDamage" : true,
-      "keepTargetInSight" : true,
-      "keepTargetInRange" : 50,
-      "targetOutOfSightTime" : 5.0,
+      "targetQueryRange": 5,
+      "targetOnDamage": true,
+      "keepTargetInSight": true,
+      "keepTargetInRange": 50,
+      "targetOutOfSightTime": 5.0,
 
-      "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
+      "foundTargetActions": [{
+          "name": "action-aggrohop"
+        }
+      ],
 
-      "hostileActions" : [
-        {
-          "name" : "action-hop",
-          "cooldown" : 0.1,
-          "parameters" : {
-            "verticalSpeed" : 10,
-            "horizontalSpeed" : 10,
-            "hopSequence" : 1,
-            "timeBetweenHops" : 0.5,
-            "windupTime" : 0,
-            "landTime" : 0,
-            "hopAwayFromWall" : false,
-            "wallVerticalSpeed" : 35
+      "hostileActions": [{
+          "name": "action-hop",
+          "cooldown": 0.1,
+          "parameters": {
+            "verticalSpeed": 10,
+            "horizontalSpeed": 10,
+            "hopSequence": 1,
+            "timeBetweenHops": 0.5,
+            "windupTime": 0,
+            "landTime": 0,
+            "hopAwayFromWall": false,
+            "wallVerticalSpeed": 35
           }
         }
       ],
 
-      "periodicActions" : [],
+      "periodicActions": [],
 
-      "followActions" : [
-        {
-          "name" : "approach-teleport",
-          "parameters" : {
-          }
-        },
-        {
-          "name" : "action-hop",
-          "cooldown" : 0.1,
-          "parameters" : {
-            "verticalSpeed" : 5,
-            "horizontalSpeed" : 5,
-            "hopSequence" : 2,
-            "timeBetweenHops" : 0.5,
-            "windupTime" : 0,
-            "landTime" : 0,
-            "hopAwayFromWall" : false,
-            "wallVerticalSpeed" : 35
+      "followActions": [{
+          "name": "approach-teleport",
+          "parameters": {}
+        }, {
+          "name": "action-hop",
+          "cooldown": 0.1,
+          "parameters": {
+            "verticalSpeed": 5,
+            "horizontalSpeed": 5,
+            "hopSequence": 2,
+            "timeBetweenHops": 0.5,
+            "windupTime": 0,
+            "landTime": 0,
+            "hopAwayFromWall": false,
+            "wallVerticalSpeed": 35
           }
         }
       ]
 
     },
 
-    "touchDamage" : {
-      "poly" : [ [-1.0, -1.125], [1.0, -1.125], [1.0, 1.0], [-1.0, 1.0] ],
-      "damage" : 22,
+    "touchDamage": {
+      "poly": [[-1.0, -1.125], [1.0, -1.125], [1.0, 1.0], [-1.0, 1.0]],
+      "damage": 22,
 
-      "teamType" : "enemy",
-      "damageSourceKind" : "bite",
-      "knockback" : 20,
-      "statusEffects" : [ ]
+      "teamType": "enemy",
+      "damageSourceKind": "bite",
+      "knockback": 20,
+      "statusEffects": []
     },
 
-    "metaBoundBox" : [-1.0, -1.125, 1.0, 1.0],
-    "scale" : 1.0,
+    "metaBoundBox": [-1.0, -1.125, 1.0, 1.0],
+    "scale": 1.0,
 
-    "movementSettings" : {
-      "collisionPoly" : [ [-1.0, -1.125], [1.0, -1.125], [1.0, 1.0], [-1.0, 1.0] ],
+    "movementSettings": {
+      "collisionPoly": [[-1.0, -1.125], [1.0, -1.125], [1.0, 1.0], [-1.0, 1.0]],
 
-      "mass" : 1.0,
-      "walkSpeed" : 3,
-      "runSpeed" : 6,
-      "jumpSpeed" : 5
+      "mass": 1.0,
+      "walkSpeed": 3,
+      "runSpeed": 6,
+      "jumpSpeed": 5
     },
 
-    "bodyMaterialKind" : "organic",
+    "bodyMaterialKind": "organic",
 
-    "knockoutTime" : 1,
-    "knockoutAnimationStates" : {
-      "damage" : "stunned"
+    "knockoutTime": 1,
+    "knockoutAnimationStates": {
+      "damage": "stunned"
     },
-    "deathParticles" : "deathPoof",
-    "knockoutEffect" : "",
+    "deathParticles": "deathPoof",
+    "knockoutEffect": "",
 
-    "statusSettings" : {
-      "statusProperties" : {
-        "targetMaterialKind" : "organic"
+    "statusSettings": {
+      "statusProperties": {
+        "targetMaterialKind": "organic"
       },
 
-      "appliesEnvironmentStatusEffects" : false,
-      "appliesWeatherStatusEffects" : true,
-      "minimumLiquidStatusEffectPercentage" : 0.1,
+      "appliesEnvironmentStatusEffects": false,
+      "appliesWeatherStatusEffects": true,
+      "minimumLiquidStatusEffectPercentage": 0.1,
 
-      "primaryScriptSources" : [
+      "primaryScriptSources": [
         "/stats/monster_primary.lua"
       ],
-      "primaryScriptDelta" : 5,
+      "primaryScriptDelta": 5,
 
-      "stats" : {
-        "knockbackStunTime" : {
-          "baseValue" : 0.25
+      "stats": {
+        "knockbackStunTime": {
+          "baseValue": 0.25
         },
-        "knockbackThreshold" : {
-          "baseValue" : 9
+        "knockbackThreshold": {
+          "baseValue": 9
         },
-        "maxHealth" : {
-          "baseValue" : 12
+        "maxHealth": {
+          "baseValue": 12
         },
-        "protection" : {
-          "baseValue" : 1
+        "protection": {
+          "baseValue": 1
         },
-        "healthRegen" : {
-          "baseValue" : 0.0
+        "healthRegen": {
+          "baseValue": 0.0
         },
-        "powerMultiplier" : {
-          "baseValue" : 1.0
+        "powerMultiplier": {
+          "baseValue": 1.0
         },
-        "physicalResistance" : {
-          "baseValue" : 0.0
+        "physicalResistance": {
+          "baseValue": 0.0
         },
-        "fireResistance" : {
-          "baseValue" : 0.0
+        "fireResistance": {
+          "baseValue": 0.0
         },
-        "fireStatusImmunity" : {
-          "baseValue" : 0.0
+        "fireStatusImmunity": {
+          "baseValue": 0.0
         },
-        "iceResistance" : {
-          "baseValue" : 0.0
+        "iceResistance": {
+          "baseValue": 0.0
         },
-        "iceStatusImmunity" : {
-          "baseValue" : 0.0
+        "iceStatusImmunity": {
+          "baseValue": 0.0
         },
-        "electricResistance" : {
-          "baseValue" : 0.0
+        "electricResistance": {
+          "baseValue": 0.0
         },
-        "electricStatusImmunity" : {
-          "baseValue" : 0.0
+        "electricStatusImmunity": {
+          "baseValue": 0.0
         },
-        "poisonResistance" : {
-          "baseValue" : 0.0
+        "poisonResistance": {
+          "baseValue": 0.0
         },
-        "poisonStatusImmunity" : {
-          "baseValue" : 0.0
+        "poisonStatusImmunity": {
+          "baseValue": 0.0
         }
       },
 
-      "resources" : {
-        "stunned" : {
-          "deltaValue" : -1.0,
-          "initialValue" : 0.0
+      "resources": {
+        "stunned": {
+          "deltaValue": -1.0,
+          "initialValue": 0.0
         },
-        "health" : {
-          "maxStat" : "maxHealth",
-          "deltaStat" : "healthRegen",
-          "defaultPercentage" : 100
+        "health": {
+          "maxStat": "maxHealth",
+          "deltaStat": "healthRegen",
+          "defaultPercentage": 100
         }
       }
     },
 
-    "mouthOffset" : [0, 0],
-    "feetOffset" : [0, -8],
-    "capturable" : true,
-    "captureHealthFraction" : 0.5,
-    "nametagColor" : [64, 200, 255]
+    "mouthOffset": [0, 0],
+    "feetOffset": [0, -8],
+    "capturable": true,
+    "captureHealthFraction": 0.5,
+    "nametagColor": [64, 200, 255]
   }
 }

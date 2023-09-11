@@ -1,5 +1,5 @@
 {
   "input" : ["upgrademodule",["durasteelbar",10]],
   "output" : "sb_weaponupgrade4",
-  "groups" : ["sb_roboticcraftingtable","tools","all"]
+  "groups" : ["sb_roboticcraftingtable","upgrades","all"]
 }

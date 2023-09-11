@@ -1,0 +1,5 @@
+{
+  "input" : [["darkwoodmaterial",8],["cobblestonematerial",8]],
+  "output" : "sb_stonepickaxe",
+  "groups" : ["plain","all","mining","sb_craftingtable"]
+}

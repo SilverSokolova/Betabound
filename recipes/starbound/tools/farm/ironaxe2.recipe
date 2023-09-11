@@ -1,0 +1,5 @@
+{
+  "input" : [["ironbar",2],"sb_stoneaxe"],
+  "output" : "sb_ironaxe",
+  "groups" : ["nouncrafting","craftingfarm","farming","all"]
+}

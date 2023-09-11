@@ -1,0 +1,5 @@
+{
+  "input" : [["copperbar",12],"sb_handdrill"],
+  "output" : "copperdrill",
+  "groups" : ["sb_roboticcraftingtable","mining","all"]
+}

@@ -1,5 +1,0 @@
-{
-  "input" : [["durasteelbar",10],["refinedaegisalt",10]],
-  "output" : "sb_acceleratortable",
-  "groups" : ["sb_scifianvil","sb_stations","all"]
-}

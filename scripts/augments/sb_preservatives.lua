@@ -12,13 +12,14 @@ function apply(input)
       output:setInstanceValue(pp[i], output:instanceValue(pp[i]))
     end
     output.name = "sb_preservedfood"
+    output.parameters.originalItemName = item.name or item.itemName
 
     local icon = output.parameters.inventoryIcon
     local fade = config.getParameter("fade","?fade=f9ed88;0.05")
     if icon then
       icon = type(icon) == "string" and sb_pathToImage(icon, directory)..fade or icon
       if type(icon) == "table" then
-	for i = 1, #icon do
+        for i = 1, #icon do
           icon[i].image = sb_pathToImage(icon[i].image, directory)..fade
         end
       end

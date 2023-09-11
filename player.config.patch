@@ -1,6 +1,4 @@
 [
-//[{"op":"add","path":"/defaultItems/-","value":"sb_controls-codex"}],
-//[{"op":"remove","path":"/defaultHumanoidIdentity/color"}],
 
 //stats
 [{"op":"test","path":"/statusControllerSettings/stats/foodDelta/baseValue","value":-0.0583},{"op":"replace","path":"/statusControllerSettings/stats/foodDelta/baseValue","value":-0.0425}], //-51 food over 20 minutes
@@ -30,7 +28,6 @@
 
 //reagent
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"coalore"}}],
-//[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_gunpowder"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"platinumbar"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_refinedrubium"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"uraniumrod"}}],
@@ -45,8 +42,6 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_throwingneedle"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"javelin"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"throwingstar"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_capturepod"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_crittercapturepod"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_smokegrenade"}}],
 
 //skyrails
@@ -66,17 +61,6 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_roboticcraftingtable"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_woodencookingtable"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_cookingstation"}}],
-
-//[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_ironanvil"}}],
-//[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_metalworkstation"}}],
-//[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_scifianvil"}}],
-//[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_manipulatortable"}}],
-//[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_acceleratortable"}}],
-//[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_separatortable"}}],
-
-//[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_stonefurnace"}}],
-//[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_alloyfurnace"}}],
-//[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_scififurnace"}}],
 
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_codex"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"fossilpod"}}],
@@ -166,28 +150,6 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_shirtshort1chest"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_shirtlong1chest"}}],
 
-/*
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"copperarmorhead"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"copperarmorchest"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"copperarmorpants"}}],
-
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"silverarmorhead"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"silverarmorchest"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"silverarmorlegs"}}],
-
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"goldarmorhead"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"goldarmorchest"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"goldarmorlegs"}}],
-
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_diamondarmorhead"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_diamondarmorchest"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_diamondarmorpants"}}],
-
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_platinumarmorhead"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_platinumarmorchest"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_platinumarmorpants"}}],
-*/
-
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_emptyhead"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_emptychest"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_emptylegs"}}],
@@ -241,9 +203,6 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"geometricswitch"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"geometricbed"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_tier6atechchest"}}],
-
-//[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_geometricscreen"}}],
-//[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_geometricchest"}}],
 
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"wavechair"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"wavelight"}}],
@@ -302,11 +261,9 @@
 
 
 //weapons
-//[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_slingshot","count":1,"parameters":{"description":"An inconspicuous toy - until someone launches explosives with it.","tooltipFields":{"damageKindImage":"/items/throwables/sb_grenade.png","subtitle":"Breakable Weapon","damagePerShotLabel":45},"primaryAbility":{"projectileType":"sb_handgrenade","projectileParameters":{"power":45}},"rarity":"rare","durability":10,"durabilityHit":10}}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_slingshot"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_huntingknife"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_brainextractor"}}],
-//[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_flowerbouquet"}}],
 
 //ammo
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",30,{"projectileType":"bouncybullet"}]}],

@@ -65,7 +65,7 @@
     "grassModDensity": 0.9,
     "items": [{
         "mode": "floor",
-        "priority": 4.0,
+        "priority": 4,
         "variants": 1,
         "distribution": "/biomes/distributions.config:denseLarge",
         "type": "grass",
@@ -79,14 +79,14 @@
     "grassModDensity": 0.9,
     "items": [{
         "mode": "floor",
-        "priority": 4.0,
+        "priority": 4,
         "variants": 1,
         "distribution": "/biomes/distributions.config:denseLarge",
         "type": "grass",
         "grasses": ["sulphurplant"]
       }, {
         "mode": "floor",
-        "priority": 0.0,
+        "priority": 0,
         "variants": 1,
         "distribution": "/biomes/distributions.config:minibiomeChests",
 
@@ -94,7 +94,7 @@
         "treasureBoxSets": ["basicChest"]
       }, {
         "mode": "floor",
-        "priority": 0.0,
+        "priority": 0,
         "variants": 1,
         "distribution": "/biomes/distributions.config:undergroundweaponChests",
 

@@ -1,0 +1,14 @@
+[
+  [{
+      "op": "test",
+      "path": "/shapes/5",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/shapes/-",
+      "value": {
+        "base": "6.png"
+      }
+    }
+  ]
+]
