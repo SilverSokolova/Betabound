@@ -70,5 +70,34 @@
         {"weight" : 0.5, "item" : ["magmarock",25]}
       ]
     }]
+  ],
+  
+  "sb_glitchHouseChestTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "valuableTreasure"},
+        {"pool" : "nonTieredOre"}
+      ],
+      "pool" : [
+        {"weight" : 0.5, "pool" : "basicTreasure"},
+        {"weight" : 0.5, "pool" : "sb_glitchHouseTreasure"}
+      ],
+      "poolRounds" : [
+        [0.05, 1],
+        [0.40, 2],
+        [0.30, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "sb_glitchHouseTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : "glitchfossil1"},
+        {"weight" : 0.5, "item" : "glitchfossil2"},
+        {"weight" : 0.5, "item" : "glitchfossil3"}
+      ]
+    }]
   ]
 }

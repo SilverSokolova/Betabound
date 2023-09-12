@@ -5,7 +5,7 @@
   "rarity" : "legendary",
   "itemTags" : ["weapon","ranged","revolver","pistol","gun"],
   "category" : "pistol",
-  "tooltipFields" : {"subtitle":"Other"},
+  "tooltipFields" : {"subtitle":"Weapon Upgrade Kit"},
   "newLevel" : 4,
   "inventoryIcon" : "4.png",
   "description" : "A weapon upgrade kit. It can bring most weapons up to ^orange;level 4!^reset;\n^gray;Select kit and right-click weapon.",

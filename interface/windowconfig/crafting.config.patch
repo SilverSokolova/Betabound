@@ -353,7 +353,7 @@
         "baseImage": "/interface/sb_crafting/categories.png:smith",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:smith",
         "data": {
-          "filter": ["sb_tools", "tools", "sb_stations"]
+          "filter": ["sb_tools", "tools", "mining", "sb_stations"]
         }
       }
     }, {

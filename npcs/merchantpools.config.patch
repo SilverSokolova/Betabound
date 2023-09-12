@@ -134,7 +134,7 @@
   //	   Themed
   // ================
 [{"op":"add","path":"/glowmerchant/0/1/-","value":{"item":{"name":"glowbomb"},"rarity":0.5}}],
-[{"op":"add","path":"/glowmerchant/0/1/-","value":{"item":{"name":"sb_tech","parameters":{"techModule":"sb_glow"}},"rarity":1}}],
+[{"op":"add","path":"/glowmerchant/0/1/-","value":{"item":{"name":"sb_tech","parameters":{"techModule":"sb_glow"}},"rarity":0.2}}],
 
 [{"op":"add","path":"/geodemerchant/0/1/-","value":{"item":{"name":"biorock"},"price":15}}],
 [{"op":"add","path":"/geodemerchant/0/1/-","value":{"item":{"name":"rock01-recipe"},"price":30,"rarity":0.05}}],
