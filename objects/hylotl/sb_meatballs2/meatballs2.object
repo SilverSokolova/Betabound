@@ -6,14 +6,14 @@
   "category" : "decorative",
   "price" : 25,
   "description" : "Meatballs in a sealed can. There's no way we're getting this open.",
-  "shortdescription" : "Can of Meatballs",
+  "shortdescription" : "Sealed Meatballs",
   "race" : "hylotl",
 
   "apexDescription" : "A can of meatballs. Such an item is a luxury in Miniknog settlements.",
   "avianDescription" : "Some Avians can open cans with their beaks. I'm not willing to try it.",
   "floranDescription" : "Throw!",
   "glitchDescription" : "Neutral. A tin can.",
-  "humanDescription" : "Meatballs in a can. Not quite homemade, but then again, we're in space.",
+  "humanDescription" : "Meatballs in a can. Not quite homemade, but then again, we're in space. Plus, they'll keep a lot longer.",
   "hylotlDescription" : "A replica of a can of meatballs. A perfect example of modern art.",
   "novakidDescription" : "Yeehaw! Target practice!",
 

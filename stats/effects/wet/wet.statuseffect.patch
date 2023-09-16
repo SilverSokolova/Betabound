@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/scripts"},{"op":"add","path":"/scripts/-","value":"sb_wet.lua"}],
+[{"op":"test","path":"/defaultDuration","value":2},{"op":"replace","path":"/defaultDuration","value":8}]
+]

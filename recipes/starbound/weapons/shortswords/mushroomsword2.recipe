@@ -1,0 +1,5 @@
+{
+  "input" : [["tungstenbar",5],["shroom",15],"venomsample"],
+  "output" : ["sb_mushroomsword2",1,{"level":2,"seed":1}],
+  "groups" : ["craftinganvil","weapons","all"]
+}

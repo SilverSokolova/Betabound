@@ -1,5 +1,5 @@
 {
-  "input" : [["titaniumbar",10],["snowflake",20]],
+  "input" : [["titaniumbar",10],["snowflake",25]],
   "output" : ["sb_frostspear",1,{"level":3,"seed":1}],
   "groups" : ["weapons","craftinganvil2","all"]
 }

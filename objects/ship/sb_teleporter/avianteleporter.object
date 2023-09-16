@@ -5,7 +5,7 @@
   "printable" : false,
   "rarity" : "Legendary",
   "description" : "Trusty teleporter, what would we do without you?
-^#f00;Destroyed when broken.",
+^red;Destroyed when broken.^reset;",
   "tooltipKind" : "sb_object",
   "price" : 3000,
   "shortdescription" : "Small Avian Teleporter",

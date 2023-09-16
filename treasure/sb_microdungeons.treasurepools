@@ -24,7 +24,8 @@
       "pool" : [
         {"weight" : 0.70, "item" : ["wheat",2]},
         {"weight" : 0.20, "item" : ["wheat",4]},
-        {"weight" : 0.10, "item" : ["wheat",6]}
+        {"weight" : 0.10, "item" : ["wheat",6]},
+        {"weight" : 0.50, "pool" : "seed"}
       ]
     }]
   ],

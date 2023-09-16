@@ -1,5 +1,5 @@
 {
   "input" : [["durasteelbar",10],["bone",25]],
-  "output" : ["sb_bonehammer",1,{"level":4,"seed":1}],
+  "output" : ["sb_bonehammer",1,{"level":4,"seed":2,"shortdescription":"Bone Hammer"}],
   "groups" : ["craftinganvil3","weapons","all"]
 }

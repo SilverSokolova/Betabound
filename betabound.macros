@@ -68,6 +68,7 @@ for k,_ in pairs(music) do world.spawnItem('sb_musicsheet',entity.position(),1,{
 
   "sb_home" : ["/warp CelestialWorld:-161011021:-960048166:41000317:4=1448.1027"],
   "sb_storage" : ["/warp InstanceWorld:playerstation:21df53c9aade582dfc2b38e6a28b62f0:1=cba2e7459537ec44bcfced0ab0548c99"],
+  "sb_storage2" : ["/warp InstanceWorld:playerstation:6f20604db8080bfa09f17a9cd667956b:1=2acb1e351639f3d2f738182d7f86c8a3"],
 
   "sb_beamaxe" : ["/spawnitem sb_beamaxe2 1 '{\"upgrades\":[\"sb_generic\",\"size1\",\"size2\",\"size3\",\"range1\",\"range2\",\"range3\",\"power1\",\"power2\",\"power3\",\"liquidcollection\",\"paintmode\",\"wiremode\"],\"canCollectLiquid\":true,\"blockRadius\":5,\"tileDamage\":4.8,\"minBeamWidth\":8,\"minBeamJitter\":0.2}"],
   "sb_beam" : ["/entityeval frame = {1,2,15} frame=frame[math.random(3)] species = root.assetJson(\"/interface/windowconfig/charcreation.config:speciesOrdering\") for i = 1, #species do world.spawnItem(\"redapple\",entity.position(),1,{timeToRot=1,inventoryIcon=\"/animations/teleport/penguinplayerwarpin.png:\"..frame..(root.assetJson(\"/species/\"..species[i]..\".species\")[\"effectDirectives\"] or \"\"),shortdescription=species[i]}) end"],

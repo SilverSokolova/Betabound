@@ -1,0 +1,5 @@
+{
+  "input" : [["titaniumbar",10],["rainbowwood",25]],
+  "output" : ["sb_rainbowsword",1,{"level":3,"seed":1}],
+  "groups" : ["craftinganvil2","weapons","all"]
+}

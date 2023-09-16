@@ -1,5 +1,0 @@
-{
-  "input" : [["durasteelbar",10],["sb_corrosivegrenade",5]],
-  "output" : ["sb_corrosivegun",1,{"seed":1,"level":4}],
-  "groups" : ["craftinganvil2","weapons","all"]
-}

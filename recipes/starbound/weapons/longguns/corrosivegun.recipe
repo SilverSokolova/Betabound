@@ -1,0 +1,5 @@
+{
+  "input" : [["durasteelbar",10],["alienwoodsap",25]],
+  "output" : ["sb_corrosivegun",1,{"level":4}],
+  "groups" : ["craftinganvil2","weapons","all"]
+}

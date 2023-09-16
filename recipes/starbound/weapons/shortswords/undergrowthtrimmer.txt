@@ -1,5 +1,5 @@
 {
-  "input" : [["durasteelbar",5],["wildvines",30]],
+  "input" : [["durasteelbar",5],["wildvines",15]],
   "output" : ["sb_undergrowthtrimmer",1,{"level":4,"seed":1}],
   "groups" : ["craftinganvil2","weapons","all"]
 }

@@ -233,6 +233,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"durasteelelevatorlong"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_standingturret"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_pump"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_dpstestdummy"}}],
 
 //tiles
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_medievalladder"}}],

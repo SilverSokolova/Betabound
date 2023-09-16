@@ -150,6 +150,16 @@
 
         "type": "microdungeon",
         "microdungeons": ["sb_heckmicrodungeons"]
+      }, {
+        "mode": "ceiling",
+        "priority": 2.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:denseMedium",
+
+        "type": "tree",
+        "treeFoliageHueShiftMax": 180,
+        "treeStemHueShiftMax": 180,
+        "treeStemList": ["podvine"]
       }
     ]
   }
