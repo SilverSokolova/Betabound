@@ -4,41 +4,37 @@ function init()
   local spawnNpc = world.spawnNpc
   if entity.entityType() ~= "player" and status.statusProperty("sb_outpostnpcspawner") ~= true then
 
-
-  local positions = {
-	{412,614}, --excon
-	{360,611}, --refugee
-	{374,627}, --scientist
-	{508,611}, --mechanic
-	{508,611}, --promoter
-	{416,611}, --warrior
-	{404,611}, --hater (was 508,610)
-	{412,614}, --mercenary (seed was 14)
-	{377,614}, --forge
-	{286,611}, --santa
-	{356,641}, --garbage
-	{200,616}  --kennel
+  positions = {
+    {412,614}, --excon
+    {360,611}, --refugee
+    {374,627}, --scientist
+    {508,611}, --mechanic
+    {508,611}, --promoter
+    {416,611}, --warrior
+    {404,611}, --hater (was 508,610)
+    {412,614}, --mercenary (seed was 14)
+    {377,614}, --forge
+    {286,611}, --santa
+    {356,641}, --garbage
+    {200,616}  --kennel
   }
 
   if sb_itemExists("anom_outpostelliotassistant") then
-  positions = {
-	{412,614}, --excon
-	{360,611}, --refugee
-	{374,627}, --scientist
-	{508,610}, --mechanic
-	{508,610}, --promoter
-	{416,611}, --warrior
-	{710,611}, --hater
-	{412,614}, --mercenary (seed was 14)
-	{377,614}, --forge
-	{286,611}, --santa
-	{444,580}, --garbage
-        {0,0},     --kennel
-  }
-    else
+    positions = {
+      {412,614}, --excon
+      {360,611}, --refugee
+      {374,627}, --scientist
+      {508,610}, --mechanic
+      {508,610}, --promoter
+      {416,611}, --warrior
+      {710,611}, --hater
+      {412,614}, --mercenary (seed was 14)
+      {377,614}, --forge
+      {286,611}, --santa
+      {444,580}, --garbage
+      {0,0}     --kennel
+    }
   end
-
-  pos12 = positions[12]
 
 
 --could loop spawning of npcs or move to config file
@@ -64,5 +60,5 @@ end
 
 function update()
   if not world.universeFlagSet("sb_hylotlwarriorE2") then script.setUpdateDelta(0) return end
-  if world.spawnVehicle("sb_kennel",pos12 or {200,616}) then script.setUpdateDelta(0) return end
+  if positions then if world.spawnVehicle("sb_kennel",positions[12]) then script.setUpdateDelta(0) return end end
 end

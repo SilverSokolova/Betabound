@@ -3,6 +3,7 @@ local updat = update or function() end
 
 function init() ini()
   sb_dir = "shop"..(object.direction() > 0 and "right" or "left")
+  animator.setAnimationState(sb_dir, "close")
   sb_justClosed = true
 end
 
