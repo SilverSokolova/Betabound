@@ -9,7 +9,7 @@
   "category": "other",
   "price": 300,
 
-  "inventoryIcon": "dpstestdummyicon.png",
+  "inventoryIcon": "icon.png",
   "orientations": [{
       "dualImage": "dpstestdummy.png:<color>",
       "imagePosition": [-16, -0],

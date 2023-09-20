@@ -279,6 +279,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",75,{"projectileType":"airburstfirebullet"}]}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",75,{"projectileType":"airbursticebullet"}]}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",75,{"projectileType":"airburstpoisonbullet"}]}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",75,{"projectileType":"sb_homingbullet"}]}],
 
 //instruments
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"accordion"}}],

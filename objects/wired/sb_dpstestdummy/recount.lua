@@ -40,11 +40,14 @@ function update(dt)
     lastDps = dps
   end
 
-  object.say(string.format(dialogue, totalDamage, lastMeterTimer, lastDps))
+  if meterTimer ~= 0 then
+    object.say(string.format(dialogue, totalDamage, lastMeterTimer, lastDps))
+  end
 end
 
 function onInteraction(args)
   if meterActive then
+    object.say(string.format(dialogue, 0, 0, 0))
     reset()
   else
     object.smash()
