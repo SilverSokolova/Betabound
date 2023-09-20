@@ -1,351 +1,324 @@
-[{"op":"add","path":"/Betabound","value":true},
-    {
-        "op": "add",
-        "path": "/panels/-",
-        "value": {
-            "drawables": [
-                {
-                    "image": "/cinematics/sb_loading.png"
-                }
-            ],
-            "animationFrames": 1,
-            "startTime": 4,
-            "keyframes": [
-                {
-                    "timecode": 0,
-                    "alpha": 0,
-                    "position": [
-                        480,
-                        220
-                    ],
-                    "zoom": 1,
-                    "frame": 0
-                },
-                {
-                    "timecode": 0.5,
-                    "alpha": 1,
-                    "zoom": 1,
-                    "frame": 0
-                },
-                {
-                    "timecode": 10000,
-                    "alpha": 1,
-                    "zoom": 1,
-                    "frame": 110000
-                }
-            ]
-        }
-    },
-    {
-        "op": "add",
-        "path": "/panels/-",
-        "value": {
-            "drawables": [
-                {
-                    "image": "/cinematics/sb_busy.png:<frame>"
-                }
-            ],
-            "animationFrames": 8,
-            "startTime": 4,
-            "keyframes": [
-                {
-                    "timecode": 0,
-                    "alpha": 0,
-                    "position": [
-                        480,
-                        270
-                    ],
-                    "zoom": 1,
-                    "frame": 0
-                },
-                {
-                    "timecode": 0.5,
-                    "alpha": 1,
-                    "zoom": 1,
-                    "frame": 0
-                },
-                {
-                    "timecode": 10000,
-                    "alpha": 1,
-                    "zoom": 1,
-                    "frame": 110000
-                },
-                {
-                    "timecode": 30,
-                    "alpha": 0
-                },
-                {
-                    "timecode": 120,
-                    "alpha": 0
-                },
-                {
-                    "timecode": 120.5,
-                    "alpha": 1
-                }
-            ]
-        }
-    },
-    {
-        "op": "add",
-        "path": "/panels/-",
-        "value": {
-            "drawables": [
-                {
-                    "image": "/cinematics/sb_busy5.png:<frame>"
-                }
-            ],
-            "animationFrames": 8,
-            "startTime": 34,
-            "keyframes": [
-                {
-                    "timecode": 0,
-                    "alpha": 0,
-                    "position": [
-                        480,
-                        270
-                    ],
-                    "zoom": 1,
-                    "frame": 0
-                },
-                {
-                    "timecode": 0.5,
-                    "alpha": 1,
-                    "zoom": 1,
-                    "frame": 0
-                },
-                {
-                    "timecode": 10000,
-                    "alpha": 0,
-                    "zoom": 1,
-                    "frame": 110000
-                },
-                {
-                    "timecode": 30,
-                    "alpha": 0
-                }
-            ]
-        }
-    },
-    {
-        "op": "add",
-        "path": "/panels/-",
-        "value": {
-            "drawables": [
-                {
-                    "image": "/cinematics/sb_busy3.png:<frame>"
-                }
-            ],
-            "animationFrames": 29,
-            "startTime": 64,
-            "keyframes": [
-                {
-                    "timecode": 0.5,
-                    "alpha": 0,
-                    "position": [
-                        480,
-                        270
-                    ],
-                    "zoom": 1,
-                    "frame": 0
-                },
-                {
-                    "timecode": 0.5,
-                    "alpha": 1,
-                    "zoom": 1,
-                    "frame": 0
-                },
-                {
-                    "timecode": 10000,
-                    "alpha": 0,
-                    "zoom": 1,
-                    "frame": 110000
-                },
-                {
-                    "timecode": 29.8,
-                    "alpha": 0
-                }
-            ]
-        }
-    },
-    {
-        "op": "add",
-        "path": "/panels/-",
-        "value": {
-            "drawables": [
-                {
-                    "image": "/cinematics/sb_busy2.png:<frame>"
-                }
-            ],
-            "animationFrames": 8,
-            "startTime": 94,
-            "keyframes": [
-                {
-                    "timecode": 0.5,
-                    "alpha": 0,
-                    "position": [
-                        480,
-                        270
-                    ],
-                    "zoom": 1,
-                    "frame": 0
-                },
-                {
-                    "timecode": 0.5,
-                    "alpha": 1,
-                    "zoom": 1,
-                    "frame": 0
-                },
-                {
-                    "timecode": 10000,
-                    "alpha": 0,
-                    "zoom": 1,
-                    "frame": 110000
-                },
-                {
-                    "timecode": 29.8,
-                    "alpha": 0
-                }
-            ]
-        }
-    },
-    {
-        "op": "add",
-        "path": "/panels/-",
-        "value": {
-            "text": "Wow, you sure do have a lot of content to load, huh?",
-            "startTime": 334,
-            "fontSize": 14,
-            "textPosition": {
-                "position": [
-                    0,
-                    0
-                ],
-                "hAnchor": "mid",
-                "vAnchor": "mid",
-                "wrapWidth": 500
-            },
-            "keyframes": [
-                {
-                    "timecode": 0.5,
-                    "alpha": 0,
-                    "position": [
-                        300,
-                        130
-                    ],
-                    "zoom": 500,
-                    "textPercentage": 0
-                },
-                {
-                    "timecode": 1,
-                    "alpha": 1,
-                    "textPercentage": 1
-                }
-            ]
-        }
-    },
-    {
-        "op": "add",
-        "path": "/panels/-",
-        "value": {
-            "text": "This is taking awhile. Maybe you should have a cup of tea?",
-            "startTime": 394,
-            "fontSize": 14,
-            "textPosition": {
-                "position": [
-                    0,
-                    0
-                ],
-                "hAnchor": "mid",
-                "vAnchor": "mid",
-                "wrapWidth": 500
-            },
-            "keyframes": [
-                {
-                    "timecode": 0.5,
-                    "alpha": 0,
-                    "position": [
-                        280,
-                        100
-                    ],
-                    "zoom": 500,
-                    "textPercentage": 0
-                },
-                {
-                    "timecode": 1,
-                    "alpha": 1,
-                    "textPercentage": 1
-                }
-            ]
-        }
-    },
-    {
-        "op": "add",
-        "path": "/panels/-",
-        "value": {
-            "text": "Maybe go for a walk?",
-            "startTime": 504,
-            "fontSize": 14,
-            "textPosition": {
-                "position": [
-                    0,
-                    0
-                ],
-                "hAnchor": "mid",
-                "vAnchor": "mid",
-                "wrapWidth": 500
-            },
-            "keyframes": [
-                {
-                    "timecode": 0.5,
-                    "alpha": 0,
-                    "position": [
-                        400,
-                        70
-                    ],
-                    "zoom": 500,
-                    "textPercentage": 0
-                },
-                {
-                    "timecode": 1,
-                    "alpha": 1,
-                    "textPercentage": 1
-                }
-            ]
-        }
-    },
-    {
-        "op": "add",
-        "path": "/panels/-",
-        "value": {
-            "text": "Don't ask me, I wouldn't know.",
-            "startTime": 604,
-            "fontSize": 14,
-            "textPosition": {
-                "position": [
-                    0,
-                    0
-                ],
-                "hAnchor": "mid",
-                "vAnchor": "mid",
-                "wrapWidth": 500
-            },
-            "keyframes": [
-                {
-                    "timecode": 0.5,
-                    "alpha": 0,
-                    "position": [
-                        365,
-                        40
-                    ],
-                    "zoom": 500,
-                    "textPercentage": 0
-                },
-                {
-                    "timecode": 1,
-                    "alpha": 1,
-                    "textPercentage": 1
-                }
-            ]
-        }
+[
+  [{
+      "op": "add",
+      "path": "/Betabound",
+      "value": true
+    }, {
+      "op": "replace",
+      "path": "/skippable",
+      "value": true
     }
+  ],
+  [{
+      "op": "test",
+      "path": "/betabound:skip",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/panels/-",
+      "value": {
+        "drawables": [{
+            "image": "/cinematics/sb_loading.png"
+          }
+        ],
+        "animationFrames": 1,
+        "startTime": 4,
+        "keyframes": [{
+            "timecode": 0,
+            "alpha": 0,
+            "position": [
+              480,
+              220
+            ],
+            "zoom": 1,
+            "frame": 0
+          }, {
+            "timecode": 0.5,
+            "alpha": 1,
+            "zoom": 1,
+            "frame": 0
+          }, {
+            "timecode": 10000,
+            "alpha": 1,
+            "zoom": 1,
+            "frame": 110000
+          }
+        ]
+      }
+    }, {
+      "op": "add",
+      "path": "/panels/-",
+      "value": {
+        "drawables": [{
+            "image": "/cinematics/sb_busy.png:<frame>"
+          }
+        ],
+        "animationFrames": 8,
+        "startTime": 4,
+        "keyframes": [{
+            "timecode": 0,
+            "alpha": 0,
+            "position": [
+              480,
+              270
+            ],
+            "zoom": 1,
+            "frame": 0
+          }, {
+            "timecode": 0.5,
+            "alpha": 1,
+            "zoom": 1,
+            "frame": 0
+          }, {
+            "timecode": 10000,
+            "alpha": 1,
+            "zoom": 1,
+            "frame": 110000
+          }, {
+            "timecode": 30,
+            "alpha": 0
+          }, {
+            "timecode": 120,
+            "alpha": 0
+          }, {
+            "timecode": 120.5,
+            "alpha": 1
+          }
+        ]
+      }
+    }, {
+      "op": "add",
+      "path": "/panels/-",
+      "value": {
+        "drawables": [{
+            "image": "/cinematics/sb_busy5.png:<frame>"
+          }
+        ],
+        "animationFrames": 8,
+        "startTime": 34,
+        "keyframes": [{
+            "timecode": 0,
+            "alpha": 0,
+            "position": [
+              480,
+              270
+            ],
+            "zoom": 1,
+            "frame": 0
+          }, {
+            "timecode": 0.5,
+            "alpha": 1,
+            "zoom": 1,
+            "frame": 0
+          }, {
+            "timecode": 10000,
+            "alpha": 0,
+            "zoom": 1,
+            "frame": 110000
+          }, {
+            "timecode": 30,
+            "alpha": 0
+          }
+        ]
+      }
+    }, {
+      "op": "add",
+      "path": "/panels/-",
+      "value": {
+        "drawables": [{
+            "image": "/cinematics/sb_busy3.png:<frame>"
+          }
+        ],
+        "animationFrames": 29,
+        "startTime": 64,
+        "keyframes": [{
+            "timecode": 0.5,
+            "alpha": 0,
+            "position": [
+              480,
+              270
+            ],
+            "zoom": 1,
+            "frame": 0
+          }, {
+            "timecode": 0.5,
+            "alpha": 1,
+            "zoom": 1,
+            "frame": 0
+          }, {
+            "timecode": 10000,
+            "alpha": 0,
+            "zoom": 1,
+            "frame": 110000
+          }, {
+            "timecode": 29.8,
+            "alpha": 0
+          }
+        ]
+      }
+    }, {
+      "op": "add",
+      "path": "/panels/-",
+      "value": {
+        "drawables": [{
+            "image": "/cinematics/sb_busy2.png:<frame>"
+          }
+        ],
+        "animationFrames": 8,
+        "startTime": 94,
+        "keyframes": [{
+            "timecode": 0.5,
+            "alpha": 0,
+            "position": [
+              480,
+              270
+            ],
+            "zoom": 1,
+            "frame": 0
+          }, {
+            "timecode": 0.5,
+            "alpha": 1,
+            "zoom": 1,
+            "frame": 0
+          }, {
+            "timecode": 10000,
+            "alpha": 0,
+            "zoom": 1,
+            "frame": 110000
+          }, {
+            "timecode": 29.8,
+            "alpha": 0
+          }
+        ]
+      }
+    }, {
+      "op": "add",
+      "path": "/panels/-",
+      "value": {
+        "text": "Wow, you sure do have a lot of content to load, huh?",
+        "startTime": 334,
+        "fontSize": 14,
+        "textPosition": {
+          "position": [
+            0,
+            0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "wrapWidth": 500
+        },
+        "keyframes": [{
+            "timecode": 0.5,
+            "alpha": 0,
+            "position": [
+              300,
+              130
+            ],
+            "zoom": 500,
+            "textPercentage": 0
+          }, {
+            "timecode": 1,
+            "alpha": 1,
+            "textPercentage": 1
+          }
+        ]
+      }
+    }, {
+      "op": "add",
+      "path": "/panels/-",
+      "value": {
+        "text": "This is taking awhile. Maybe you should have a cup of tea?",
+        "startTime": 394,
+        "fontSize": 14,
+        "textPosition": {
+          "position": [
+            0,
+            0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "wrapWidth": 500
+        },
+        "keyframes": [{
+            "timecode": 0.5,
+            "alpha": 0,
+            "position": [
+              280,
+              100
+            ],
+            "zoom": 500,
+            "textPercentage": 0
+          }, {
+            "timecode": 1,
+            "alpha": 1,
+            "textPercentage": 1
+          }
+        ]
+      }
+    }, {
+      "op": "add",
+      "path": "/panels/-",
+      "value": {
+        "text": "Maybe go for a walk?",
+        "startTime": 504,
+        "fontSize": 14,
+        "textPosition": {
+          "position": [
+            0,
+            0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "wrapWidth": 500
+        },
+        "keyframes": [{
+            "timecode": 0.5,
+            "alpha": 0,
+            "position": [
+              400,
+              70
+            ],
+            "zoom": 500,
+            "textPercentage": 0
+          }, {
+            "timecode": 1,
+            "alpha": 1,
+            "textPercentage": 1
+          }
+        ]
+      }
+    }, {
+      "op": "add",
+      "path": "/panels/-",
+      "value": {
+        "text": "Don't ask me, I wouldn't know.",
+        "startTime": 604,
+        "fontSize": 14,
+        "textPosition": {
+          "position": [
+            0,
+            0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "wrapWidth": 500
+        },
+        "keyframes": [{
+            "timecode": 0.5,
+            "alpha": 0,
+            "position": [
+              365,
+              40
+            ],
+            "zoom": 500,
+            "textPercentage": 0
+          }, {
+            "timecode": 1,
+            "alpha": 1,
+            "textPercentage": 1
+          }
+        ]
+      }
+    }
+  ]
 ]
