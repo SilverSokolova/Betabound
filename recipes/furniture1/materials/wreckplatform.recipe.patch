@@ -1,11 +1,11 @@
 [
   [
     {"op":"test","path":"/input/1/count","value":10},
-	{"op":"replace","path":"/input/1/count","value":1}
+    {"op":"replace","path":"/input/1/count","value":1}
   ],
-  
+
   [
     {"op":"test","path":"/output/count","value":10},
-	{"op":"replace","path":"/output/count","value":40}
+    {"op":"replace","path":"/output/count","value":40}
   ]
 ]

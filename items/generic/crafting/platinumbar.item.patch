@@ -7,4 +7,4 @@
 {"op":"add","path":"/itemTags/-","value":"reagent"},
 {"op":"add","path":"/learnBlueprintsOnPickup/-","value":"platinumblock"},
 {"op":"replace","path":"/rarity","value":"Uncommon"}],
-[{"op":"test","path":"/description","value":"It's a platinum bar."},{"op":"replace","path":"/description","value":"Ore for platinum bars is primarily found on planets orbiting gentle stars."}]]
+[{"op":"test","path":"/description","value":"It's a platinum bar."},{"op":"replace","path":"/description","value":"Ore for platinum bars is found at great depths on most planets around all stars."}]]

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    "armoredcultisthead",
+    "armoredcultistback",
+    ["cultistmission1-codex",1,{"shortdescription":"Occasus Lab Report: R"}],
+    ["cultistmission2-codex",1,{"shortdescription":"Occasus Lab Report: A"}],
+    "mecharmsoluskatana"
+  ],
+  "output" : ["sb_itembox",1,{"items":"swansongaf","shortdescription":"Swangsong Figurine","directives":"?replace;ffca8a=d29ce7;e0975c=a451c4;a85636=6a2284"}],
+  "groups" : ["sb_treasuredtrophies_final_gate_key","nouncrafting","all"]
+}

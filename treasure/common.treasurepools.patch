@@ -126,15 +126,16 @@
   [{"op":"add","path":"/thrownWeapon/0/1/pool/-","value":{"weight":0.40,"item":["sb_throwingneedle",20]}}],
   [{"op":"add","path":"/thrownWeapon/0/1/pool/-","value":{"weight":0.40,"item":["sb_cutterleaf",16]}}],
 
-  [{"op":"add","path":"/thrownWeapon/2/1/pool/-","value":{"weight":0.35,"item":["sb_handgrenade",3]}}],
-  [{"op":"add","path":"/thrownWeapon/2/1/pool/-","value":{"weight":0.35,"item":["sb_smokegrenade",3]}}],
-  [{"op":"add","path":"/thrownWeapon/2/1/pool/-","value":{"weight":0.35,"item":["sb_corrosivegrenade",3]}}],
+  [{"op":"add","path":"/thrownWeapon/1/1/pool/-","value":{"weight":0.35,"item":["sb_handgrenade",3]}}],
+  [{"op":"add","path":"/thrownWeapon/1/1/pool/-","value":{"weight":0.35,"item":["sb_smokegrenade",3]}}],
+
   [{"op":"add","path":"/thrownWeapon/2/1/pool/-","value":{"weight":0.35,"item":["sb_groundfirebomb",3]}}],
+  [{"op":"add","path":"/thrownWeapon/2/1/pool/-","value":{"weight":0.35,"item":["sb_gasgrenade",3]}}],
+  [{"op":"add","path":"/thrownWeapon/2/1/pool/-","value":{"weight":0.35,"item":["sb_electrogrenade",3]}}],
+  [{"op":"add","path":"/thrownWeapon/2/1/pool/-","value":{"weight":0.35,"item":["sb_plasmagrenade",3]}}],
 
-  [{"op":"add","path":"/thrownWeapon/3/1/pool/-","value":{"weight":0.35,"item":["sb_gasgrenade",3]}}],
-  [{"op":"add","path":"/thrownWeapon/3/1/pool/-","value":{"weight":0.35,"item":["sb_electrogrenade",3]}}],
-  [{"op":"add","path":"/thrownWeapon/3/1/pool/-","value":{"weight":0.35,"item":["sb_plasmagrenade",3]}}],
-
+  [{"op":"add","path":"/thrownWeapon/3/1/pool/-","value":{"weight":0.35,"item":["sb_corrosivegrenade",3]}}],
+  
   [{"op":"add","path":"/thrownWeapon/4/1/pool/-","value":{"weight":0.70,"item":["sb_shuriken",5]}}],
 
   [{"op":"add","path":"/thrownWeapon/5/1/pool/-","value":{"weight":0.70,"item":["sb_shuriken",10]}}],

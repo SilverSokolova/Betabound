@@ -21,6 +21,7 @@
       "op": "add",
       "path": "/aliases",
       "value": {
+        "default": "default.1",
         "0.default": "default.1",
         "default.default": "default.1",
         "default.reverse1": "default.4",

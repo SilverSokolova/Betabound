@@ -1,0 +1,5 @@
+{
+  "input" : ["sb_steelbar"],
+  "output" : "sb_tier2techchest",
+  "groups" : ["craftingfurniture","storage","all"]
+}

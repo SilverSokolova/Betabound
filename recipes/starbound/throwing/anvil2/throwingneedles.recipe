@@ -1,5 +1,0 @@
-{
-  "input" : ["ironbar"],
-  "output" : ["sb_throwingneedle",6],
-  "groups" : ["craftinganvil2","consumables","all"]
-}

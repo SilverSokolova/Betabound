@@ -41,6 +41,16 @@
   ],
   [{
       "op": "test",
+      "path": "/rarity",
+      "value": "Uncommon"
+    }, {
+      "op": "replace",
+      "path": "/rarity",
+      "value": "Rare"
+    }
+  ],
+  [{
+      "op": "test",
       "path": "/maxStack"
     }, {
       "op": "remove",
@@ -55,6 +65,16 @@
       "op": "replace",
       "path": "/category",
       "value": "preparedFood"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/price",
+      "value": 150
+    }, {
+      "op": "replace",
+      "path": "/price",
+      "value": 600
     }
   ],
   [{

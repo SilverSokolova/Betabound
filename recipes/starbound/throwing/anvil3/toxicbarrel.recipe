@@ -1,0 +1,6 @@
+{
+  "input" : ["durasteelbar",["toxicwaste",5]],
+  "output" : "sb_toxicbarrel",
+  "duration" : 0.3,
+  "groups" : ["craftinganvil3","consumables","all"]
+}

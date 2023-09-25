@@ -7,6 +7,7 @@
   "shortdescription": "DPS Test Dummy",
   "tooltipKind": "sb_object4b",
   "category": "other",
+  "printable": false,
   "price": 300,
 
   "inventoryIcon": "icon.png",

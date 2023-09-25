@@ -30,7 +30,7 @@
   "muzzleOffset": [1.5, 0.4],
 
   "twoHanded": false,
-  "level": 8,
+  "level": 6,
   "primaryAbilityType": "sb_gun",
   "primaryAbility": {
     "fireTime": 0.6,

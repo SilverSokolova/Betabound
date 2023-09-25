@@ -1,5 +1,5 @@
 {
-  "input" : [["ironbar",5],["darkwoodmaterial",2]],
-  "output" : "sb_huntingknife",
-  "groups" : ["craftingfarm","hunting"]
+  "input": [["ironbar", 5], ["darkwoodmaterial", 2]],
+  "output": "sb_huntingknife",
+  "groups": ["craftingfarm", "hunting", "all"]
 }

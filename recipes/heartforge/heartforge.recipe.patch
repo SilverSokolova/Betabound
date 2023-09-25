@@ -1,5 +1,12 @@
 [
-{"op":"add","path":"/groups/-","value":"craftingstations"},
-{"op":"add","path":"/groups/-","value":"all"},
-{"op":"add","path":"/groups/-","value":"inventorstable"}
+  [
+    {"op":"add","path":"/groups/-","value":"craftingstations"},
+    {"op":"add","path":"/groups/-","value":"all"},
+    {"op":"add","path":"/groups/-","value":"inventorstable"}
+  ],
+
+  [
+    {"op":"test","path":"/input/2/item","value":"money"},
+    {"op":"remove","path":"/input/2"}
+  ]
 ]

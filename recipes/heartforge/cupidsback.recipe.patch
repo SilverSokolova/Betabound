@@ -1,0 +1,6 @@
+[
+  [
+    {"op":"test","path":"/input/1/item","value":"money"},
+    {"op":"remove","path":"/input/1"}
+  ]
+]

@@ -1,11 +1,5 @@
 [
-[{"op":"test","path":"/glowfibre"}
-,{"op":"copy","from":"/glowfibre","path":"/sb_glowfibreorange"}
-,{"op":"copy","from":"/glowfibre","path":"/sb_glowfibregreen"}
-,{"op":"copy","from":"/glowfibre","path":"/sb_glowfibreblue"}
-,{"op":"copy","from":"/glowfibre","path":"/sb_glowfibreyellow"}]
-
-,[{"op":"test","path":"/plantfibre"},{"op":"test","path":"/kelp","inverse":true}
+[{"op":"test","path":"/plantfibre"},{"op":"test","path":"/kelp","inverse":true}
 ,{"op":"copy","from":"/plantfibre","path":"/kelp"}]
 
 ,[{"op":"test","path":"/seaweed","inverse":true}

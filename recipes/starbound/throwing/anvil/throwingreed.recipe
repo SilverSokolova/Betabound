@@ -1,5 +1,0 @@
-{
-  "input" : ["reed"],
-  "output" : ["sb_throwingreed",10],
-  "groups" : ["craftinganvil","consumables","all"]
-}

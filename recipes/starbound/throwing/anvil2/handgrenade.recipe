@@ -1,5 +1,0 @@
-{
-  "input" : [["volatilepowder",6],"sb_steelbar"],
-  "output" : "sb_handgrenade",
-  "groups" : ["consumables","craftinganvil2","all"]
-}

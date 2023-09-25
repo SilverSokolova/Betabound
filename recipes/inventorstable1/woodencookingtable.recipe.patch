@@ -1,6 +1,6 @@
 [
   [
     {"op":"test","path":"/input/2/item","value":"copperbar"},
-	{"op":"replace","path":"/input/2/item","value":"silverbar"}
+    {"op":"replace","path":"/input/2/item","value":"silverbar"}
   ]
 ]

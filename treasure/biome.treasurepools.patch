@@ -171,10 +171,6 @@
   // ================================
   //	    Bio Luminescent
   // ================================
-,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_glowfibreorange",3]}}]
-,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_glowfibreyellow",3]}}]
-,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_glowfibreblue",3]}}]
-,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_glowfibregreen",3]}}]
 ,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_glowchest-recipe"}}]
 ,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_firesword"}}]
 ,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_firesword-recipe"}}]

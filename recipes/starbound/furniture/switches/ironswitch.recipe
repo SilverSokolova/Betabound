@@ -1,5 +1,0 @@
-{
-  "input" : ["ironbar","copperbar",["wire",5],"smallbattery"],
-  "output" : "ironswitch",
-  "groups" : ["craftingwiring", "switches"]
-}

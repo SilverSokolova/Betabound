@@ -245,6 +245,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"mossypackeddirt"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"neonblock"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"plantblock"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"junktech"}}],
 
 //consumables
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_cake"}}],
@@ -265,6 +266,15 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_slingshot"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_huntingknife"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_brainextractor"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltpistol"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltrifle"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltshotgun"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltbow"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_feroziumrifle"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_feroziumrocket"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_feroziumsniper"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_feroziumpistol"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_feroziumbow"}}],
 
 //ammo
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",30,{"projectileType":"bouncybullet"}]}],
@@ -345,11 +355,6 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"ironassaultrifle"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tungstenmagnum"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tungstenshotgun"}}],
-
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"titaniummachinepistol"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"titaniumsniperrifle"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"durasteelrevolver"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"durasteelassaultrifle"}}],
 
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"titaniummachinepistol"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"titaniumsniperrifle"}}],

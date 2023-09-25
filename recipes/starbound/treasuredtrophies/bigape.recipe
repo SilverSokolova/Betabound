@@ -1,0 +1,14 @@
+{
+  "input": [
+    "visorhead",
+    "miniknoghead",
+    "miniknogchest",
+    "miniknogpants",
+    "apexmission2-codex",
+    "apexmission3-codex",
+    "apexmission4-codex",
+    "apexmission1-codex"
+  ],
+  "output": "bigapeaf",
+  "groups": ["sb_treasuredtrophies_outpost_mission5", "nouncrafting", "all"]
+}

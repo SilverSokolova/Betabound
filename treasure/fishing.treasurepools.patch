@@ -1,6 +1,6 @@
 [
 [{"op":"test","path":"/fishingcommon/0/1/pool"},{"op":"add","path":"/fishingcommon/0/1/pool/-","value":{"weight":0.97,"pool":"sb_fishingcommon"}}]
 ,[{"op":"test","path":"/fishinguncommon/0/1/pool"},{"op":"add","path":"/fishinguncommon/0/1/pool/-","value":{"weight":0.97,"pool":"sb_fishinguncommon"}}]
-,[{"op":"test","path":"/fishingrare/0/1/pool"},{"op":"add","path":"/fishingrare/0/1/fill/-","value":{"item":["rewardbag",1,{"sb_useTechTier":true}]}}]
-,[{"op":"test","path":"/fishinglegendary/0/1/pool"},{"op":"add","path":"/fishinglegendary/0/1/fill/-","value":{"item":["rewardbag",2,{"sb_useTechTier":true}]}}]
+,[{"op":"test","path":"/fishingrare/0/1/fill"},{"op":"add","path":"/fishingrare/0/1/fill/-","value":{"item":["rewardbag",1,{"sb_useTechTier":true}]}}]
+,[{"op":"test","path":"/fishinglegendary/0/1/fill"},{"op":"add","path":"/fishinglegendary/0/1/fill/-","value":{"item":["rewardbag",2,{"sb_useTechTier":true}]}}]
 ]
