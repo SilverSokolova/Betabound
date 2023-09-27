@@ -119,6 +119,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_ladderdeployer"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_gps"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_healthmonitor"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_flashfreeze"}}],
 
 //upgrades
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"upgrademodule"}}],

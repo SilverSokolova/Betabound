@@ -49,10 +49,6 @@
     "type": "tutorial",
     "text": "You've obtained a mining tool. Although you can access it after placing it in the action bar, you can also place it in your Matter Manipulator slot from the access panel on the right-hand toolbar."
   },
-  "sb_pickuppreservatives": {
-    "type": "tutorial",
-    "text": "I see you've acquired some preservatives! With a ^#71f2f6;right-click,^reset; you can use it to prevent a perishable from rotting. Be warned that this will render the item unsuitable for use in cooking or crafting."
-  },
   "sb_pickupammo": {
     "type": "tutorial",
     "text": "I see you've acquired some ammunition! Certain firearms gain a ^green;20%^reset; damage boost when using any type of ammo. If your ammo reserves are depleted or ^#71f2f6;SHIFT^reset; is held, the gun will instead use energy."

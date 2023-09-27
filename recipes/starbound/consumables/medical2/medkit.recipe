@@ -1,5 +1,0 @@
-{
-  "input" : ["biosample","bandage"],
-  "output" : "medkit",
-  "groups" : ["craftingmedical2","healing","all"]
-}

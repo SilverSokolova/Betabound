@@ -1,0 +1,41 @@
+{
+  "itemName": "sb_flashfreeze",
+  "price": 200,
+  "tooltipKind": "sb_object4b",
+  "rarity": "uncommon",
+  "category": "preparedFood",
+  "tooltipFields": {
+    "subtitle": "Other"
+  },
+  "inventoryIcon": "flashfreeze.png",
+  "description": "Completely prevents food from rotting, but renders it unusable for cooking.\n^gray;Select preservatives and right-click item",
+  "shortdescription": "Flash Freeze Spray",
+
+  "fade": "?fade=99e2f3;0.15",
+  "foodValueReduction": 0.8,
+  "applyParameters": {
+    "subtitle": "Preserved Food",
+    "sb_preserved2": true
+  },
+  "uniqueApplyParameters": {
+    "drink": {
+      "subtitle": "Preserved Drink"
+    }
+  },
+  "persistentParameters": [
+    "shortdescription",
+    "blockingEffects",
+    "inventoryIcon",
+    "tooltipFields",
+    "description",
+    "tooltipKind",
+    "returnItem",
+    "foodValue",
+    "category",
+    "effects",
+    "rarity",
+    "price",
+    "emote"
+  ],
+  "scripts": ["/scripts/augments/sb_flashfreeze.lua"]
+}

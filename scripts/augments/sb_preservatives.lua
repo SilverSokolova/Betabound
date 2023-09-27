@@ -1,53 +1,29 @@
 require "/scripts/augments/item.lua"
-require "/scripts/sb_assetmissing.lua"
 
 function apply(input)
   local output = Item.new(input)
-  local item = root.itemConfig(output.name)
-  local directory = item.directory
-  item = item.config
-  if item.itemAgingScripts and not output:instanceValue("sb_preserved2") then --I'd like to check for a rotTimeMultiplier in case some non-food items use a rotting script, but it defaults to 1 so not every item has it, and that's far more likely than someone implementing decaying isotopes in a popular mod
-    local pp = config.getParameter("persistentParameters")
-    for i = 1, #pp do
-      output:setInstanceValue(pp[i], output:instanceValue(pp[i]))
-    end
-    output.name = "sb_preservedfood"
-    output.parameters.originalItemName = item.name or item.itemName
-
-    local icon = output.parameters.inventoryIcon
-    local fade = config.getParameter("fade","?fade=f9ed88;0.05")
-    if icon then
-      icon = type(icon) == "string" and sb_pathToImage(icon, directory)..fade or icon
-      if type(icon) == "table" then
-        for i = 1, #icon do
-          icon[i].image = sb_pathToImage(icon[i].image, directory)..fade
-        end
+  local item = root.itemConfig(output.name).config
+  local itemAgingScripts = item.itemAgingScripts
+  if itemAgingScripts and #itemAgingScripts ~= 0 then
+    local timeToRot = root.assetJson("/items/rotting.config:baseTimeToRot") * (output.parameters.rottingMultiplier or output.config.rottingMultiplier or 1)
+    if output.parameters.timeToRot < timeToRot then
+      --Check if there are any other tooltipFields. If not, delete the whole thing, otherwise just remove the rotTimeLabel
+      --This is so they stack with newly created foods
+      local fields = 0
+      for _, _ in pairs(output.parameters.tooltipFields) do
+        fields = fields + 1
+        if fields > 1 then break end
       end
+      if fields > 1 then
+        require(itemAgingScripts[1])
+        rotTimeLabel = getRotTimeDescription(timeToRot) --If this causes issues, run ageItem
+      end
+      output.parameters.timeToRot = nil
+      output.parameters.tooltipFields.rotTimeLabel = rotTimeLabel
+      if not rotTimeLabel then
+        output.parameters.tooltipFields = nil
+      end
+      return output:descriptor(), 1
     end
-    output:setInstanceValue("inventoryIcon",icon)
-    local category = item.category
-    local newParams = config.getParameter("applyParameters",{})
-    for k, v in pairs(newParams) do output:setInstanceValue(k,v) end
-    newParams = config.getParameter(category.."ApplyParameters")
-    if newParams then for k, v in pairs(newParams) do output:setInstanceValue(k,v) end end --fix for only items with a category parameter working 
-
-    if item.foodValue then
-      local foodValue = config.getParameter("foodValueReduction")
-      foodValue = item.foodValue * foodValue
-      output:setInstanceValue("foodValue", foodValue)
-
-      local fields = output:instanceValue("tooltipFields",{})
-      foodValue = "Food: "..math.floor(foodValue,1)
-      fields.foodAmountLabel = foodValue
-      fields.foodValueLabel = foodValue
-      output:setInstanceValue("tooltipFields",fields)
-    end
-
-    output.parameters.maxStack = root.assetJson("/items/defaultParameters.config:defaultMaxStack")
-    output.parameters.timeToRot = nil
-    output.parameters.animation = nil
-    output.parameters.scripts = nil
-
-    return output:descriptor(), 1
   end
 end

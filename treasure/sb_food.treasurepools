@@ -232,6 +232,7 @@
         ,{"weight" : 0.985, "item" : "reefcola"}
         ,{"weight" : 0.7, "item" : "sb_meatballs"}
         ,{"weight" : 0.7, "item" : "sb_preservatives"}
+        ,{"weight" : 0.5, "item" : "sb_flashfreeze"}
       ]
     }],
     [4.9, {
@@ -291,6 +292,7 @@
         ,{"weight" : 0.985, "item" : "oculemonade"}
         ,{"weight" : 0.7, "item" : "sb_meatballs"}
         ,{"weight" : 0.7, "item" : "sb_preservatives"}
+        ,{"weight" : 0.5, "item" : "sb_flashfreeze"}
       ]
     }],
     [5.9, {
@@ -321,6 +323,7 @@
         ,{"weight" : 0.985, "item" : "sb_orangenergycan"}
         ,{"weight" : 0.7, "item" : "sb_meatballs"}
         ,{"weight" : 0.7, "item" : "sb_preservatives"}
+        ,{"weight" : 0.5, "item" : "sb_flashfreeze"}
       ]
     }],
     [6.9, {
@@ -358,6 +361,7 @@
         ,{"weight" : 0.985, "item" : "sb_orangenergycan"}
         ,{"weight" : 0.7, "item" : "sb_meatballs"}
         ,{"weight" : 0.7, "item" : "sb_preservatives"}
+        ,{"weight" : 0.5, "item" : "sb_flashfreeze"}
       ]
     }]
   ]

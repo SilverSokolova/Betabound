@@ -1,13 +1,15 @@
 {
-  "itemName" : "sb_silver_repair",
-  "price" : 15,
-  "tooltipKind" : "sb_object",
-  "rarity" : "Common",
-  "category" : "Tool",
-  "tooltipFields" : {"subtitle":"Repair Tool"},
-  "durabilityRegen" : 110,
-  "inventoryIcon" : "silver.png",
-  "description" : "It's a silver repair tool.\n^gray;Select repair tool and right-click pickaxe or drill.",
-  "shortdescription" : "Silver Repair Tool",
-  "scripts" : ["/scripts/augments/sb_ore.lua"]
+  "itemName": "sb_silver_repair",
+  "price": 15,
+  "tooltipKind": "sb_object",
+  "rarity": "Common",
+  "category": "Tool",
+  "tooltipFields": {
+    "subtitle": "Repair Tool"
+  },
+  "durabilityRegen": 110,
+  "inventoryIcon": "silver.png",
+  "description": "It's a silver repair tool.\n^gray;Select repair tool and right-click pickaxe or drill",
+  "shortdescription": "Silver Repair Tool",
+  "scripts": ["/scripts/augments/sb_repair.lua"]
 }

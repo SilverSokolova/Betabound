@@ -1,13 +1,15 @@
 {
-  "itemName" : "sb_durasteel_repair",
-  "price" : 50,
-  "tooltipKind" : "sb_object",
-  "rarity" : "uncommon",
-  "category" : "Tool",
-  "tooltipFields" : {"subtitle":"Repair Tool"},
-  "durabilityRegen" : 260,
-  "inventoryIcon" : "durasteel.png",
-  "description" : "It's a durasteel repair tool.\n^gray;Select repair tool and right-click pickaxe or drill.",
-  "shortdescription" : "Durasteel Repair Tool",
-  "scripts" : ["/scripts/augments/sb_ore.lua"]
+  "itemName": "sb_durasteel_repair",
+  "price": 50,
+  "tooltipKind": "sb_object",
+  "rarity": "uncommon",
+  "category": "Tool",
+  "tooltipFields": {
+    "subtitle": "Repair Tool"
+  },
+  "durabilityRegen": 260,
+  "inventoryIcon": "durasteel.png",
+  "description": "It's a durasteel repair tool.\n^gray;Select repair tool and right-click pickaxe or drill",
+  "shortdescription": "Durasteel Repair Tool",
+  "scripts": ["/scripts/augments/sb_repair.lua"]
 }

@@ -3,5 +3,5 @@
 [{"op":"add","path":"/sb_plateImage","value":true},{"op":"add","path":"/sb_plateHide","value":true}],
 [{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Rare"}],
 [{"op":"test","path":"/price","value":40},{"op":"replace","path":"/price","value":125}],
-[{"op":"test","path":"/category","value":"food"},{"op":"replace","path":"/category","value":"prepareedFood"}]
+[{"op":"test","path":"/category","value":"food"},{"op":"replace","path":"/category","value":"preparedFood"}]
 ]

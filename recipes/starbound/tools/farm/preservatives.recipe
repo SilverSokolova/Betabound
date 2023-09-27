@@ -1,5 +1,5 @@
 {
-  "input" : ["sulphur","seaweed"],
-  "output" : "sb_preservatives",
+  "input" : ["sulphur","seaweed",["bottle",2]],
+  "output" : ["sb_preservatives",2],
   "groups" : ["craftingfarm","survival","all"]
 }

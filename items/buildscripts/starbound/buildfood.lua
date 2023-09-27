@@ -19,6 +19,8 @@ function build(directory, config, parameters)
     end
   end
 
+  local subtitle = parameters.subtitle or config.subtitle
+  if subtitle then fields.subtitle = subtitle end
   parameters.tooltipFields = fields
 
   if not config.itemAgingScripts then

@@ -1,5 +1,5 @@
 {
-  "input" : [["shroom",5],"livingroot","syringe"],
+  "input" : [["shroom",5],["plantfibre",5],"livingroot","syringe"],
   "output" : "fungusstim",
   "groups" : ["craftingmedical2","buffs","all"]
 }
