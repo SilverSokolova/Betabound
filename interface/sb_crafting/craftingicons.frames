@@ -5,7 +5,7 @@
     "names": [
       ["table1", "table2", "table3", "culinaryarts", "heartforge"],
       ["holiday", "printingicon", "spawnerstation", "techconsole", "researchstation"],
-      ["skyrailtable", "skyrailrailtable", "music", "tech", "closedbook"]
+      [null, null, "music", "tech", "closedbook"]
     ]
   }
 }

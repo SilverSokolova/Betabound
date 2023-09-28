@@ -24,7 +24,6 @@
 [{"op":"add","path":"/inventoryFilters/autoAddToCustomBar/typeWhitelist/-","value":"wiretool"}],
 [{"op":"add","path":"/inventoryFilters/autoAddToCustomBar/typeWhitelist/-","value":"paintingbeamtool"}],
 [{"op":"add","path":"/inventoryFilters/autoAddToCustomBar/typeWhitelist/-","value":"inspectiontool"}],
-[{"op":"add","path":"/inventoryFilters/autoAddToCustomBar/typeWhitelist/-","value":"sb_partypopper"}],
 
 //reagent
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"coalore"}}],
@@ -36,6 +35,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"polymer"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"leather"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"glasscoffeemug"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"thread"}}],
 
 //throwing
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_handgrenade"}}],
@@ -45,7 +45,6 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_smokegrenade"}}],
 
 //skyrails
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_skyrailtable"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"skyrail_asc"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"skyrail_desc"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"skyrail_diodeL"}}],
@@ -120,6 +119,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_gps"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_healthmonitor"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_flashfreeze"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_partypopper"}}],
 
 //upgrades
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"upgrademodule"}}],
@@ -147,6 +147,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"snowinfantrypants"}}],
 
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"winterscarfhead"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"eyepatchhead"}}],
 
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_shirtshort1chest"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_shirtlong1chest"}}],
@@ -267,6 +268,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_slingshot"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_huntingknife"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_brainextractor"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_firebow",1,{"seed":1,"level":3}]}], //you cant do this kind of recipe in learnBlueprintsOnPickup
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltpistol"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltrifle"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltshotgun"}}],
@@ -326,6 +328,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"steeldrum"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"trumpet"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"violin"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"overdriveguitar"}}],
 
 //revolvers
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier1revolver"}}],

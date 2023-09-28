@@ -1,5 +1,0 @@
-{
-  "input" : [["silverbar",10]],
-  "output" : "sb_skyrailtable",
-  "groups" : ["inventorstable3","craftingstations","all"]
-}

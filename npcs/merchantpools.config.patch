@@ -172,6 +172,7 @@
 [{"op":"add","path":"/industrialmerchant/0/1/-","value":{"item":{"name":"industrialdisplay-recipe"},"rarity":0.1}}],
 [{"op":"add","path":"/industrialmerchant/0/1/-","value":{"item":{"name":"industrialcomputer-recipe"},"rarity":0.1}}],
 [{"op":"add","path":"/industrialmerchant/0/1/-","value":{"item":{"name":"industrialcanister-recipe"},"rarity":0.1}}],
+[{"op":"add","path":"/industrialmerchant/0/1/-","value":{"item":{"name":"industrialbed-recipe"},"rarity":0.1}}],
 
 
   // ================

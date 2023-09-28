@@ -4,7 +4,7 @@
   "rarity" : "Legendary",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/sb_skyrailcrafting.config",
+    "config" : "/interface/windowconfig/sb_railcrafting.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
         "title" : "SKYRAIL TABLE",

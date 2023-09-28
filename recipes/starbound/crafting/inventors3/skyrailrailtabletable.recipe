@@ -1,5 +1,0 @@
-{
-  "input" : ["sb_skyrailtable","railcraftingtable"],
-  "output" : "sb_skyrailrailtable",
-  "groups" : ["inventorstable3","craftingstations","all"]
-}
