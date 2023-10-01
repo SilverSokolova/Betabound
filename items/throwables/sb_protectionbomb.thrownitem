@@ -1,28 +1,27 @@
 {
-  "itemName" : "sb_protectionbomb",
-  "rarity" : "Common",
-  "tooltipKind" : "sb_object",
-  "inventoryIcon" : "sb_protectionbomb.png",
-  "image" : "sb_protectionbomb.png",
-  "shortdescription" : "The Defender",
-  "category" : "throwableItem",
-  "description" : "A bomb for when you have to be sturdy.",
-  "price" : 110,
-  "ammoUsage" : 1,
-  "edgeTrigger" : true,
-  "windupTime" : 0.0,
-  "cooldown" : 0.4,
+  "itemName": "sb_protectionbomb",
+  "rarity": "Common",
+  "tooltipKind": "sb_object",
+  "inventoryIcon": "sb_protectionbomb.png",
+  "image": "sb_protectionbomb.png",
+  "shortdescription": "The Defender",
+  "category": "throwableItem",
+  "description": "A bomb for when you have to be sturdy.",
+  "price": 110,
+  "ammoUsage": 1,
+  "edgeTrigger": true,
+  "windupTime": 0,
+  "cooldown": 0.4,
 
-  "projectileType" : "sb_protectionbomb",
-  "projectileConfig" : {
-    "speed" : 25,
-    "level" : 0,
-    "periodicActions" : [
-      {
-        "time" : 0,
-        "repeat" : false,
-        "action" : "sound",
-        "options" : ["/sfx/projectiles/throw_item_small.ogg"]
+  "projectileType": "sb_protectionbomb",
+  "projectileConfig": {
+    "speed": 25,
+    "level": 0,
+    "periodicActions": [{
+        "time": 0,
+        "repeat": false,
+        "action": "sound",
+        "options": ["/sfx/projectiles/throw_item_small.ogg"]
       }
     ]
   }

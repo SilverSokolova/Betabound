@@ -8,6 +8,8 @@
   "shortdescription": "Sharpened Reed",
   "description": "A large sharpened reed, suitable for hunting. Lightweight, yet effective.",
   "price": 3,
+  "builder": "/items/buildscripts/starbound/buildthrowable.lua",
+  "level": 2,
   "ammoUsage": 1,
   "edgeTrigger": true,
   "windupTime": 0,

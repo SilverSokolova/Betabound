@@ -7,6 +7,8 @@
   "shortdescription": "Plasma Shuriken",
   "category": "throwableItem",
   "description": "A shuriken made of pure energy, ideal for cutting right through foes.",
+  "builder": "/items/buildscripts/starbound/buildthrowable.lua",
+  "level": 6,
   "ammoUsage": 1,
   "price": 40,
   "edgeTrigger": true,

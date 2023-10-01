@@ -7,8 +7,7 @@ function apply(input)
   if itemAgingScripts and #itemAgingScripts ~= 0 then
     local timeToRot = root.assetJson("/items/rotting.config:baseTimeToRot") * (output.parameters.rottingMultiplier or output.config.rottingMultiplier or 1)
     if output.parameters.timeToRot < timeToRot then
-      --Check if there are any other tooltipFields. If not, delete the whole thing, otherwise just remove the rotTimeLabel
-      --This is so they stack with newly created foods
+      --Check if there are any other tooltipFields. If not, delete the whole thing so it stacks with items that havent generated theirs, otherwise just remove the rotTimeLabel
       local fields = 0
       for _, _ in pairs(output.parameters.tooltipFields) do
         fields = fields + 1

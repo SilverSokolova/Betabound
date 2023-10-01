@@ -1,7 +1,0 @@
-{
-  "description" : "A simple patch to restore the original loading menu. This patch will load before Betabound and set a value which Betabound checks for. If said value exists, Betabound does not alter the loading menu.",
-  "friendlyName" : "Betabound - Restore Vanilla Loading Menu",
-  "name" : "XRC_BETA_STARBOUND-removeloadingmenu",
-  "priority" : -9998,
-  "tags" : "User Interface"
-}

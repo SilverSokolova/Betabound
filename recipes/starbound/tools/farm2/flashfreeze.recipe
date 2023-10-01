@@ -1,5 +1,5 @@
 {
-  "input" : ["polymer","bottle","cryonicextract"], //polymer to wrap food and prevent thawing. look, lava balloons exist in this universe, it'll work trust me
+  "input" : ["bottle","cryonicextract"],
   "output" : "sb_flashfreeze", //Just make a farm if you want more than one...
   "groups" : ["craftingfarm2","survival","all"]
 }

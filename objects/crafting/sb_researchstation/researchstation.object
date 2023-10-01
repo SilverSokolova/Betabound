@@ -665,6 +665,7 @@
       ,"industrialdisplay"
       ,"industrialcomputer"
       ,"industrialcanister"
+      ,"industrialbed"
      ]
    },
   "description" : "With some pixels and blank blueprints, I can develop hard-to-find blueprints here!",

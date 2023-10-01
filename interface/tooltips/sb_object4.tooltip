@@ -104,5 +104,13 @@
     "hAnchor": "left",
     "centered": true,
     "width": 126
+  },
+  "levelLabel": {
+    "type": "label",
+    "position": [130, 145],
+    "hAnchor": "right",
+    "color": "gray",
+    "centered": true,
+    "wrapWidth": 126
   }
 }

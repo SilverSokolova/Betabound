@@ -2,5 +2,9 @@
 [{"op":"test","path":"/description","value":"Careful! These bugs have a deadly sting."},
 {"op":"replace","path":"/description","value":"Mind your aim and be careful! These creepy critters have a deadly sting and can eat through just about anything."}],
 [{"op":"test","path":"/tooltipKind","inverse":true},
-{"op":"add","path":"/tooltipKind","value":"fossil"}]
+{"op":"add","path":"/tooltipKind","value":"fossil"}],
+
+[{"op":"test","path":"/level","inverse":true},{"op":"add","path":"/level","value":2}],
+[{"op":"test","path":"/builder"},{"op":"move","from":"/builder","path":"/sb_builder"}],
+[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildthrowable.lua"}]
 ]

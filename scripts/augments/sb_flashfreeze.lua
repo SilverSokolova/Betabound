@@ -42,7 +42,10 @@ function apply(input)
       output:setInstanceValue("tooltipFields",fields)
     end
 
-    output.parameters.maxStack = root.assetJson("/items/defaultParameters.config:defaultMaxStack")
+    local maxStack = item.maxStack or 0
+    if maxStack > root.assetJson("/items/defaultParameters.config:defaultMaxStack")) then
+      output.parameters.maxStack = maxStack
+    end
     output.parameters.timeToRot = nil
     output.parameters.animation = nil
     output.parameters.scripts = nil

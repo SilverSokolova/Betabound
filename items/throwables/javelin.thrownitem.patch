@@ -1,5 +1,9 @@
 [
 [{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"uncommon"}],
 
-[{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":5}]
+[{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":5}],
+
+[{"op":"test","path":"/level","inverse":true},{"op":"add","path":"/level","value":4}],
+[{"op":"test","path":"/builder"},{"op":"move","from":"/builder","path":"/sb_builder"}],
+[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildthrowable.lua"}]
 ]

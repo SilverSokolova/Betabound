@@ -16,25 +16,6 @@
     "hAnchor": "left",
     "value": "0"
   },
-  "warmthImage": {
-    "type": "image",
-    "position": [18, 108],
-    "zlevel": 3,
-    "centered": true,
-    "file": ""
-  },
-  "augmentIconImage": {
-    "type": "image",
-    "position": [18, 108],
-    "zlevel": 3,
-    "centered": true,
-    "file": ""
-  },
-  "augmentNameLabel": {
-    "type": "label",
-    "position": [30, 42],
-    "fontSize": 0
-  },
   "damageKindImage": {
     "type": "image",
     "position": [120, 86],
@@ -130,13 +111,13 @@
     "hAnchor": "left",
     "centered": true,
     "width": 126
+  },
+  "levelLabel": {
+    "type": "label",
+    "position": [130, 135],
+    "hAnchor": "right",
+    "color": "gray",
+    "centered": true,
+    "wrapWidth": 126
   }
-  /*  "levelLabel" : {
-  "type" : "label",
-  "position" : [130, 135],
-  "hAnchor" : "right",
-  "color" : "gray",
-  "centered" : true,
-  "wrapWidth" : 126
-  }*/
 }

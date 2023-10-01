@@ -1,3 +1,7 @@
 [
-[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"rare"}]
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"rare"}],
+
+[{"op":"test","path":"/level","inverse":true},{"op":"add","path":"/level","value":6}],
+[{"op":"test","path":"/builder"},{"op":"move","from":"/builder","path":"/sb_builder"}],
+[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildthrowable.lua"}]
 ]

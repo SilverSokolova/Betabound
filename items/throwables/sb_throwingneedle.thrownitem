@@ -8,8 +8,9 @@
   "category": "throwableItem",
   "description": "Great against evil haystacks.",
   "price": 8,
+  "builder": "/items/buildscripts/starbound/buildthrowable.lua",
+  "level": 1,
   "ammoUsage": 1,
-
   "edgeTrigger": true,
   "windupTime": 0,
   "cooldown": 0.4,

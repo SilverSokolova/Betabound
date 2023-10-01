@@ -1,20 +1,19 @@
 {
-  "projectileName" : "sb_dreadwreckage",
-  "speed" : 35,
-  "bounces" : 0,
-  "timeToLive" : 30,
-  "physics" : "grenade",
-  "image" : "dreadwreckage.png",
-  "frameNumber" : 1,
-  "damageKind" : "default",
-  "power" : 0.1,
-  "clientEntityMode" : "ClientSlaveOnly",
-  "actionOnReap" : [
-    {
-      "action" : "item",
-      "name" : "sb_dreadwreckage"
+  "projectileName": "sb_dreadwreckage",
+  "speed": 35,
+  "bounces": 0,
+  "timeToLive": 30,
+  "physics": "grenade",
+  "image": "dreadwreckage.png",
+  "frameNumber": 1,
+  "damageKind": "default",
+  "power": 0.1,
+  "clientEntityMode": "ClientSlaveOnly",
+  "actionOnReap": [{
+      "action": "item",
+      "name": "sb_dreadwreckage"
     }
   ],
-  "damagePoly" : [ [-7.5, 0], [-5, -5], [0, -7.5], [5, -5], [7.5, 0], [5, 5], [0, 7.5], [-5, 5] ],
-  "emitters" : [ "flames","sparks","fireplasma","rocketsmoke" ]
+  "damagePoly": [[-7.5, 0], [-5, -5], [0, -7.5], [5, -5], [7.5, 0], [5, 5], [0, 7.5], [-5, 5]],
+  "emitters": ["flames", "sparks", "fireplasma", "rocketsmoke"]
 }

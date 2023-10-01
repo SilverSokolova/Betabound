@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/damageKind","value":"snowball"},{"op":"replace","path":"/damageKind","value":"sb_snowball"}]
+]

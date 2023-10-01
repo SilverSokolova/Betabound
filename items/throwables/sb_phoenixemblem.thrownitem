@@ -1,29 +1,27 @@
 {
-  "itemName" : "sb_phoenixemblem",
-  "rarity" : "rare",
-  "tooltipKind" : "sb_object",
-  "inventoryIcon" : "sb_phoenixemblem.png",
-  "image" : "sb_phoenixemblem.png",
-  "shortdescription" : "Phoenix Emblem",
-  "category" : "throwableItem",
-  "description" : "A fiery phoenix emblem, an ancient Avian tool of combat.",
-
-  "ammoUsage" : 1,
-
-  "edgeTrigger" : true,
-  "windupTime" : 0.0,
-  "cooldown" : 0.4,
-
-  "projectileType" : "sb_phoenix",
-  "projectileConfig" : {
-    "speed" : 45,
-    "power" : 15,
-    "periodicActions" : [
-      {
-        "time" : 0,
-        "repeat" : false,
-        "action" : "sound",
-        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+  "itemName": "sb_phoenixemblem",
+  "rarity": "rare",
+  "tooltipKind": "sb_object",
+  "inventoryIcon": "sb_phoenixemblem.png",
+  "image": "sb_phoenixemblem.png",
+  "shortdescription": "Phoenix Emblem",
+  "category": "throwableItem",
+  "description": "A fiery phoenix emblem, an ancient Avian tool of combat.",
+  "builder": "/items/buildscripts/starbound/buildthrowable.lua",
+  "level": 6,
+  "ammoUsage": 1,
+  "edgeTrigger": true,
+  "windupTime": 0,
+  "cooldown": 0.4,
+  "projectileType": "sb_phoenix",
+  "projectileConfig": {
+    "speed": 45,
+    "power": 15,
+    "periodicActions": [{
+        "time": 0,
+        "repeat": false,
+        "action": "sound",
+        "options": ["/sfx/projectiles/throw_item_small.ogg"]
       }
     ]
   }

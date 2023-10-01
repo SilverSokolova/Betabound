@@ -10,7 +10,7 @@
   "ammoUsage": 1,
   "price": 1000,
   "edgeTrigger": true,
-  "windupTime": 0.0,
+  "windupTime": 0,
   "cooldown": 0.4,
 
   "projectileType": "sb_filledcrittercapturepod",

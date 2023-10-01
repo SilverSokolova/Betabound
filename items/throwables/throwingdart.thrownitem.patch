@@ -1,4 +1,8 @@
 [
 [{"op":"test","path":"/description","value":"A throwing dart, aim for the bullseye."},
-{"op":"replace","path":"/description","value":"A throwing dart, aim for the bullseye... One hundred and eightyyyyyy!"}]
+{"op":"replace","path":"/description","value":"A throwing dart, aim for the bullseye... One hundred and eightyyyyyy!"}],
+
+[{"op":"test","path":"/level","inverse":true},{"op":"add","path":"/level","value":1}],
+[{"op":"test","path":"/builder"},{"op":"move","from":"/builder","path":"/sb_builder"}],
+[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildthrowable.lua"}]
 ]

@@ -22,26 +22,26 @@ function update(dt)
       local s = swapSlotItem; swapSlotItem = nil
       s.name = "sb_blueprint"
       s.parameters = {
-	sb_recipe = recipe.config.recipe,
-	price = (recipe.config.price or root.assetJson("/items/defaultParameters.config:defaultPrice")) * root.assetJson("/items/defaultParameters.config:blueprintPriceFactor") or 0.5,
-	shortdescription = recipe.config.shortdescription or "Blueprint",
-	description = recipe.config.description or "Used for crafting.",
-	rarity = recipe.config.rarity or "uncommon",
-	inventoryIcon = jarray()
+        sb_recipe = recipe.config.recipe,
+        price = (recipe.config.price or root.assetJson("/items/defaultParameters.config:defaultPrice")) * root.assetJson("/items/defaultParameters.config:blueprintPriceFactor") or 0.5,
+        shortdescription = recipe.config.shortdescription or "Blueprint",
+        description = recipe.config.description or "Used for crafting.",
+        rarity = recipe.config.rarity or "uncommon",
+        inventoryIcon = jarray()
       }
 
       if type(recipe.config.inventoryIcon) == "table" then
-	for i = 1, #recipe.config.inventoryIcon do
-	  table.insert(s.parameters.inventoryIcon, {
-	    image = sb_assetmissing(sb_pathToImage(recipe.config.inventoryIcon[i].image, recipe.directory),
-	    root.assetJson("/items/defaultParameters.config:missingIcon") or "/objects/generic/perfectlygenericitem/perfectlygenericitemicon.png")
-	  })
-	end
+        for i = 1, #recipe.config.inventoryIcon do
+          table.insert(s.parameters.inventoryIcon, {
+            image = sb_assetmissing(sb_pathToImage(recipe.config.inventoryIcon[i].image, recipe.directory),
+            root.assetJson("/items/defaultParameters.config:missingIcon") or "/objects/generic/perfectlygenericitem/perfectlygenericitemicon.png")
+          })
+        end
       else
-	table.insert(s.parameters.inventoryIcon, {
-	  image = sb_assetmissing(sb_pathToImage(recipe.config.inventoryIcon, recipe.directory),
-	  root.assetJson("/items/defaultParameters.config:missingIcon") or "/objects/generic/perfectlygenericitem/perfectlygenericitemicon.png")
-	})
+        table.insert(s.parameters.inventoryIcon, {
+          image = sb_assetmissing(sb_pathToImage(recipe.config.inventoryIcon, recipe.directory),
+          root.assetJson("/items/defaultParameters.config:missingIcon") or "/objects/generic/perfectlygenericitem/perfectlygenericitemicon.png")
+        })
       end
 
       table.insert(s.parameters.inventoryIcon, {position = {5.5,-4}, image = "/items/generic/unlock/sb_blueprints.png:"..string.lower(s.parameters.rarity)})
