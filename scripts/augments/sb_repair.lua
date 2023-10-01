@@ -1,8 +1,9 @@
 require "/scripts/augments/item.lua"
 
 function apply(input)
-  local durabilityRegen = config.getParameter("durabilityRegen", 0)
   local output = Item.new(input)
+  if output:instanceValue("sb_unrepairable") then return output:descriptor(), 0 end
+  local durabilityRegen = config.getParameter("durabilityRegen", 0)
   local count = 1
   if durabilityRegen then
     if (root.itemConfig(output.name).config.sb_repairType or nil) == config.getParameter("sb_repairType", nil) then --We could have it check primaryAbility.class for BeamMine if other mods add laser miners...

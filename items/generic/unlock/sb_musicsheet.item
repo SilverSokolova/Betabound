@@ -1,14 +1,16 @@
 {
-  "itemName" : "sb_musicsheet",
-  "price" : 100,
-  "tooltipKind" : "sb_object",
-  "rarity" : "uncommon",
-  "inventoryIcon" : "sb_musicsheet.png",
-  "category" : "musicalInstrument",
-  "tooltipFields" : {"subtitle" : "Other"},
-  "description" : "This music sheet can be played from a ^orange;Portable or Stationary Radio!^reset;",
-  "shortdescription" : "Music Sheet",
-  "sb_copybook" : true,
-  "radioMessagesOnPickup" : ["sb_pickupmusicsheet"],
-  "builder" : "/items/buildscripts/starbound/buildmusic.lua"
+  "itemName": "sb_musicsheet",
+  "price": 100,
+  "tooltipKind": "sb_object",
+  "rarity": "uncommon",
+  "inventoryIcon": "sb_musicsheet.png",
+  "category": "musicalInstrument",
+  "tooltipFields": {
+    "subtitle": "Other"
+  },
+  "description": "This music sheet can be played from a ^orange;Portable or Stationary Radio!^reset;",
+  "shortdescription": "Music Sheet",
+  "itemTags": ["sb_copybook"],
+  "radioMessagesOnPickup": ["sb_pickupmusicsheet"],
+  "builder": "/items/buildscripts/starbound/buildmusic.lua"
 }

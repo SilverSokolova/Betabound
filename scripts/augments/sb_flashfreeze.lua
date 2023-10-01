@@ -3,6 +3,7 @@ require "/scripts/sb_assetmissing.lua"
 
 function apply(input)
   local output = Item.new(input)
+  if output:instanceValue("sb_unfreezeable") then return output:descriptor(), 0 end
   local item = root.itemConfig(output.name)
   local directory = item.directory
   item = item.config
@@ -12,7 +13,7 @@ function apply(input)
       output:setInstanceValue(pp[i], output:instanceValue(pp[i]))
     end
     output.name = "sb_preservedfood"
-    output.parameters.originalItemName = item.name or item.itemName
+    output.parameters.originalItemName = item.name
 
     local icon = output.parameters.inventoryIcon
     local fade = config.getParameter("fade","?fade=f9ed88;0.05")

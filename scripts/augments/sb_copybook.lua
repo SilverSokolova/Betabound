@@ -2,12 +2,26 @@ require "/scripts/augments/item.lua"
 
 function apply(input)
   local output = Item.new(input)
-  local exchange = 0
-  local defaults = {"codex","sb_copybook",{}}
-  local maxStack = output:instanceValue("maxStack",root.itemConfig(output.name).config.maxStack or root.assetJson("/items/defaultParameters.config:defaultMaxStack"))
-    local category = output:instanceValue("category","")
-    if (string.lower(category) == config.getParameter("sb_copybookTypes",defaults)[1]) or output:instanceValue(config.getParameter("sb_copybooktypes",defaults)[2],false) or output.name == config.getParameter("sb_copybooktypes",defaults)[3] then
-    if output.count < maxStack then exchange = 1 end
-    output.count = output.count + exchange end
-  return output:descriptor(), exchange
+  if output:instanceValue("sb_uncopyable") or string.sub(output.name, -7) == "-recipe" then return output:descriptor(), 0 end --Blueprints aren't stackable nor do they have a maxStack value
+  local count = 0
+  local maxStack = output:instanceValue("maxStack", root.assetJson("/items/defaultParameters.config:defaultMaxStack"))
+  local conditions = config.getParameter("sb_copybookConditions")
+  if output.count < maxStack then
+    if conditions then
+      if hasValue(string.lower(output:instanceValue("category", "")), conditions.categories or {}) or hasValue(output.name, conditions.itemTags or {}, true) then
+        count = 1
+        output.count = output.count + 1
+      end
+    end
+  end
+  return output:descriptor(), count
+end
+
+function hasValue(target, values, checkTags)
+  local valid = false
+  for i = 1, #values do
+    valid = checkTags and root.itemHasTag(target, values[i]) or (target == values[i])
+    if valid then break end
+  end
+  return valid
 end

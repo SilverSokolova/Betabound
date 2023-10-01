@@ -1,14 +1,14 @@
 {
-  "itemName" : "sb_blueprint",
-  "rarity" : "uncommon",
-  "tooltipKind" : "sb_object",//"base",
-  "shortdescription" : "Blueprint",
-  "category" : "Blueprint",
-  "twoHanded" : false,
-  "sb_copybook" : true,
-  "inventoryIcon" : "sb_blueprint.png",
-  "sb_recipe" : "perfectlygenericitem",
-  "animation" : "sb_blueprint.animation",
-  "scripts" : ["sb_blueprint.lua"],
-  "swingTime" : 0.15
+  "itemName": "sb_blueprint",
+  "rarity": "uncommon",
+  "tooltipKind": "sb_object", //"base",
+  "shortdescription": "Blueprint",
+  "category": "Blueprint",
+  "twoHanded": false,
+  "itemTags": ["sb_copybook"], //for lectern
+  "inventoryIcon": "sb_blueprint.png",
+  "sb_recipe": "perfectlygenericitem",
+  "animation": "sb_blueprint.animation",
+  "scripts": ["sb_blueprint.lua"],
+  "swingTime": 0.15
 }

@@ -1,11 +1,18 @@
 {
-  "itemName" : "sb_wrappingpaper",
-  "price" : 10,
-  "tooltipKind" : "sb_object4b",
-  "rarity" : "Common",
-  "category" : "other",
-  "inventoryIcon" : [{"image":"wrappingpaper.png"},{"position":[6,0],"image":"/items/generic/crafting/thread.png"}],
-  "description" : "It's an empty parcel. Use it to wrap an item, then dye the ribbon!\n^gray;Select parcel and right-click item.",
-  "shortdescription" : "Empty Parcel",
-  "scripts" : ["/scripts/augments/sb_wrappingpaper.lua"]
+  "itemName": "sb_wrappingpaper",
+  "price": 10,
+  "tooltipKind": "sb_object4b",
+  "rarity": "Common",
+  "category": "other",
+  "inventoryIcon": [{
+      "image": "wrappingpaper.png"
+    }, {
+      "position": [6, 0],
+      "image": "/items/generic/crafting/thread.png"
+    }
+  ],
+  "description": "It's an empty parcel. Use it to wrap an item, then dye the ribbon!\n^gray;Select parcel and right-click item",
+  "shortdescription": "Empty Parcel",
+  "scripts": ["/scripts/augments/sb_wrappingpaper.lua"]
+  //I'd like to make it randomly select a color, though wouldn't that be annoying for people wrapping unstackable items? Could we use the itemName as a seed?
 }
