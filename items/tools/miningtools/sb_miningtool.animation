@@ -1,0 +1,44 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "tool": {
+        "default": "idle",
+        "states": {
+          "idle": {}
+        }
+      }
+    },
+
+    "parts": {
+      "tool": {
+        "properties": {
+          "zLevel": 0,
+          "centered": true,
+          "offset": [0.75, 0.75],
+          "transformationGroups": ["weapon"],
+          "rotationCenter": [0, 0]
+        },
+        "partStates": {
+          "tool": {
+            "idle": {
+              "properties": {
+                "image": "<partImage>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups": {
+    "weapon": {},
+    "swoosh": {}
+  },
+
+  "sounds": {
+    "fire": ["/sfx/tools/pickaxe_hit.ogg"],
+    "blockSound": [],
+    "break": ["/sfx/tools/pickaxe_break.ogg"]
+  }
+}

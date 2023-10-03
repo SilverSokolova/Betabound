@@ -1,0 +1,37 @@
+{
+  "itemName": "sb_stonehoe",
+  "price": 110,
+  "maxStack": 1,
+  "rarity": "common",
+  "category": "tool",
+  "description": "A stone hoe for tilling soil to grow crops. It won't last long, but it'll get the job done.",
+  "shortdescription": "Stone Hoe",
+  "tooltipKind": "sb_tool",
+  "largeImage": "/items/tools/sb_stonehoebig.png",
+  "twoHanded": true,
+  "itemTags": ["tool"],
+  "inventoryIcon": "sb_stonehoeicon.png",
+  "animation": "/items/tools/miningtools/sb_miningtool.animation",
+  "animationParts": {
+    "tool": "sb_stonehoe.png"
+  },
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "durability": 50,
+  "durabilityPerUse": 1,
+  "blockRadius": 1,
+  "tileDamageType": "tilling",
+  "canBeRepaired": false,
+
+  "primaryAbilityType": "sb_miningtool",
+  "primaryAbility": {
+    "layer": "foreground",
+    "activatingFireMode": "primary"
+  },
+  "altAbilityType": "sb_miningtool",
+  "altAbility": {
+    "layer": "background",
+    "activatingFireMode": "alt"
+  },
+  "builder": "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,10 @@
+[
+  [
+    {"op":"test","path":"/input/1/item","value":"copperbar"},
+    {"op":"replace","path":"/input/1/item","value":"tungstenbar"}
+  ],
+  [
+    {"op":"test","path":"/input/2/item","value":"string"},
+    {"op":"replace","path":"/input/2/item","value":"climbingrope"}
+  ]
+]

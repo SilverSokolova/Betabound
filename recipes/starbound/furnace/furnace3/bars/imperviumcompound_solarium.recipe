@@ -1,5 +1,6 @@
 {
   "input" : [["refinedviolium",2],"solariumstar"],
-  "output" : ["sb_imperviumcompound",2],
+  "output" : "sb_imperviumcompound",
+  "duration" : 0.15,
   "groups" : ["craftingfurnace3","bars","all"]
 }

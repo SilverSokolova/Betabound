@@ -1,0 +1,29 @@
+{
+  "itemName": "sb_stoneaxe",
+  "inventoryIcon": "sb_stoneaxeicon.png",
+  "maxStack": 1,
+  "rarity": "common",
+  "price": 110,
+  "tooltipKind": "sb_object",
+  "category": "tool",
+  "description": "Chop chop! This axe will make getting wood easier.",
+  "shortdescription": "Stone Axe",
+  "image": "sb_stoneaxe.png",
+  "tooltipFields": {
+    "objectImage": "/items/tools/sb_stoneaxebig.png"
+  },
+  "handPosition": [-4, -8],
+  "pointable": true,
+  "fireTime": 0.25,
+  "swingStart": 60,
+  "swingFinish": -40,
+  "tileDamageType": "plantish",
+  "blockRadius": 2,
+  "altBlockRadius": 1,
+  "twoHanded": true,
+  "strikeSounds": ["/sfx/tools/pickaxe_hit.ogg"],
+  "durability": 1,
+  "durabilityPerUse": 0,
+  "harvestLevel": 99,
+  "tileDamage": 1
+}

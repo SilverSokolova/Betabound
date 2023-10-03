@@ -11,5 +11,6 @@
 [{"op":"add","path":"/sb_dagger","value":"/items/active/starbound/weapons/dagger.weaponability"}],
 [{"op":"add","path":"/sb_parry","value":"/items/active/starbound/weapons/parry.weaponability"}],
 [{"op":"add","path":"/sb_spear","value":"/items/active/starbound/weapons/spear.weaponability"}],
-[{"op":"add","path":"/sb_bustershot","value":"/items/active/starbound/bows/bustershot.weaponability"}]
+[{"op":"add","path":"/sb_bustershot","value":"/items/active/starbound/bows/bustershot.weaponability"}],
+[{"op":"add","path":"/sb_miningtool","value":"/items/tools/miningtools/sb_miningtool.weaponability"}]
 ]

@@ -1,41 +1,57 @@
 {
-  "itemName" : "sb_iceaxe",
-  "price" : 250,
-//  "inventoryIcon" : "sb_iceaxebig.png",
-  "inventoryIcon" : [{"image":"sb_iceaxebig.png"},{"image":"/interface/sb_inventory/x.png"}],
-  "rarity" : "Rare",
-  "maxStack" : 1,
-  "description" : "An ice axe used for climbing.",
-  "shortdescription" : "Ice Axe",
-  "category" : "tool",
-  "twoHanded" : false,
-  "tooltipKind" : "sb_tool",
-  "largeImage" : "sb_iceaxebig.png",
+  "itemName": "sb_iceaxe",
+  "price": 250,
+  //  "inventoryIcon" : "sb_iceaxebig.png",
+  "inventoryIcon": [{
+      "image": "sb_iceaxebig.png"
+    }, {
+      "image": "/interface/sb_inventory/x.png"
+    }
+  ],
+  "rarity": "Rare",
+  "maxStack": 1,
+  "description": "An ice axe used for climbing.",
+  "shortdescription": "Ice Axe",
+  "category": "tool",
+  "twoHanded": false,
+  "tooltipKind": "sb_tool",
+  "largeImage": "sb_iceaxebig.png",
 
-  "scripts" : ["/items/active/grapplinghooks/grapplinghook.lua"],
-  "animationScripts" : ["/items/active/effects/renderrope.lua"],
+  "scripts": ["/items/active/grapplinghooks/grapplinghook.lua"],
+  "animationScripts": ["/items/active/effects/renderrope.lua"],
 
-  "animation" : "sb_grapplinghook.animation",
-  "animationCustom" : {"animatedParts":{"parts":{"rope":{"properties":{"image":"sb_iceaxe.png","offset":[0.25,0]}}}}},
-  "fireOffset" : [0.1, 0.2],
-  "ropeOffset" : [0, 0],
-  "ropeVisualOffset" : [-0.5, 0.0],
+  "animation": "sb_grapplinghook.animation",
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "rope": {
+          "properties": {
+            "image": "sb_iceaxe.png",
+            "offset": [0.25, 0]
+          }
+        }
+      }
+    }
+  },
+  "fireOffset": [0.1, 0.2],
+  "ropeOffset": [0, 0],
+  "ropeVisualOffset": [-0.5, 0.0],
 
-  "consumeOnUse" : false,
+  "consumeOnUse": false,
 
-  "projectileType" : "sb_iceaxehook",
+  "projectileType": "sb_iceaxehook",
 
-  "ropeWidth" : 1,
-  "ropeColor" : [181, 181, 181, 0],
+  "ropeWidth": 1,
+  "ropeColor": [181, 181, 181, 0],
 
-  "reelInDistance" : 0,
-  "reelOutLength" : 1.5,
-  "breakLength" : 4,
+  "reelInDistance": 0,
+  "reelOutLength": 1.5,
+  "breakLength": 4,
 
-  "minSwingDistance" : 0,
+  "minSwingDistance": 0,
 
-  "reelSpeed" : 60,
-  "controlForce" : 7000,
+  "reelSpeed": 60,
+  "controlForce": 7000,
 
-  "groundLagTime" : 0
+  "groundLagTime": 0
 }

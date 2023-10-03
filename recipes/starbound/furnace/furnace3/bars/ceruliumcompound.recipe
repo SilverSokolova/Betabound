@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_ceruliumore",2],"goldbar"],
+  "input" : [["sb_ceruliumore",2],"plutoniumrod"],
   "output" : "sb_ceruliumcompound",
   "duration" : 0.15,
   "groups" : ["craftingfurnace3","bars","all"]

@@ -1,6 +1,6 @@
 function init()
   feed = config.getParameter("feedType","")
-  range = config.getParameter("interactRadius",root.assetJson("/player.config:interactRadius") or 5)
+  range = config.getParameter("interactRadius", root.assetJson("/player.config:interactRadius"))
   promised = false
 end
 

@@ -19,7 +19,8 @@
       "damageSourceKind": "shortsword",
       "knockbackMode": "aim",
       "knockback": 10,
-      "timeoutGroup": "primary"
+      "timeoutGroup": "primary",
+      "timeout": 0.5
     },
 
     "stances": {
