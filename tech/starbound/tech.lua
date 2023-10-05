@@ -9,29 +9,30 @@ function init() swingInit() sb_cursor("power") sb_techType()
   suit = root.techType(tech) == "Suit"
 end
 
-function swingAction() animateSwing()
+function swingAction()
   if root.hasTech(tech) then
     if suit and not ownsSuit() then
       unlockSuit()
     elseif not suit and not ownsTech() then
       unlockTech()
     else
-      sb_uiMessage(2)
+      sb_uiMessage("techKnown")
     end
-    else sb_uiMessage(3)
+  else
+    sb_uiMessage("techFail")
   end
 end
 
 function unlockTech()
   player.makeTechAvailable(tech)
   player.enableTech(tech)
-  sb_uiMessage(1)
+  sb_uiMessage("newTech")
   item.consume(1)
 end
 
 function unlockSuit()
   if not conditions(root.techConfig(tech).sb_conditions) then
-    sb_uiMessage(3)
+    sb_uiMessage("techFail")
     sb.logWarn("[BETABOUND] Player attempted to learn a tech but its mod conditions have not been met: "..tech)
     return
   end
@@ -42,7 +43,7 @@ function unlockSuit()
     suits[#suits+1] = tech
     player.setProperty("sb_bioimplants",suits)
   end
-  sb_uiMessage(1)
+  sb_uiMessage("newTech")
   item.consume(1)
 end
 

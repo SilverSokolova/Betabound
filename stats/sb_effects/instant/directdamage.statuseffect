@@ -1,5 +1,5 @@
 {
-  "name" : "sb_directdamage",
-  "defaultDuration" : 10,
-  "scripts" : ["directdamage.lua"]
+  "name": "sb_directdamage",
+  "defaultDuration": 10,
+  "scripts": ["directdamage.lua"]
 }

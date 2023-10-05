@@ -1,10 +1,9 @@
 {
-  "itemName": "sb_cinema_heatm",
-  "shortdescription": "^clear;",
+  "itemName": "sb_uimessage:d15",
+  "shortdescription": "   ^#d5ab36;Can't take it much longer...^clear;",
   "currency": "sb_uimessage",
   "rarity": "rare",
   "value": 0,
-  "cinematicOnPickup": "/cinematics/sb_upgrade/heatm.cinematic",
   "pickupSoundsSmall": [""],
   "pickupSoundsMedium": [""],
   "pickupSoundsLarge": [""]

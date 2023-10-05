@@ -34,7 +34,7 @@ function update(dt) updat(dt)
     if hunger ~= sb_lastHunger then
       for i = 1, #sb_hungerBenchmarks-1 do
         if hunger > sb_hungerBenchmarks[i] and hunger < sb_hungerBenchmarks[i+1] then
-          local id = "-"..(hunger > sb_lastHunger and "u" or "d")..sb_hungerBenchmarks[i+1]
+          local id = (hunger > sb_lastHunger and "u" or "d")..sb_hungerBenchmarks[i+1]
           if sb_lastHungerMessage ~= id then
             if player then sb_uiMessage(id) end
             sb_lastHungerMessage = id

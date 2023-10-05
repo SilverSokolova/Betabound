@@ -8,8 +8,8 @@ function init() swingInit() sb_cursor("power")
   onlyOnce = config.getParameter("onlyOnce",true)
 end
 
-function swingAction() animateSwing()
-  if hasUpgrade() and onlyOnce then sb_uiMessage(10) return end
+function swingAction()
+  if hasUpgrade() and onlyOnce then sb_uiMessage("enhancementApplied") return end
   local upgrade, ship = config.getParameter("shipUpgrade",{}), player.shipUpgrades()
   if config.getParameter("additive",true) then
     for k, v in pairs(upgrade) do upgrade[k] = ship[k] + v end

@@ -10,5 +10,5 @@
   "sb_recipe": "perfectlygenericitem",
   "animation": "sb_blueprint.animation",
   "scripts": ["sb_blueprint.lua"],
-  "swingTime": 0.15
+  "useTime": 0.05
 }

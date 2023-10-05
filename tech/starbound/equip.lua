@@ -23,19 +23,33 @@ function equipTech()
     local tec = root.techType(tech) == "Suit" and player.getProperty("sb_bioimplant") or player.equippedTech(root.techConfig(tech).type)
     if tec ~= nil then
       if ownsTech() then
-	local suit = root.techType(tech) == "Suit" and true
-	if (tech ~= tec) then
-	  activeItem.setInstanceValue("durabilityHit",0)
-	  if not suit then
-	    player.equipTech(tech)
-	  else
-	    world.sendEntityMessage(player.id(),"sb_implant",tech)
-	  end
-	  animator.playSound("success")
-	else sb_uiMessage(9) end --wearing that
-      else sb_uiMessage(5) end --does not own tech
-    else if ownsTech() then player.equipTech(tech) activeItem.setInstanceValue("durabilityHit",0) animator.playSound("success") else sb_uiMessage(5) end end --not wearing, not owned
-  else sb_uiMessage(3) end --does not exist
+        local suit = root.techType(tech) == "Suit" and true
+        if (tech ~= tec) then
+          activeItem.setInstanceValue("durabilityHit",0)
+          if not suit then
+            player.equipTech(tech)
+          else
+            world.sendEntityMessage(player.id(),"sb_implant",tech)
+          end
+          animator.playSound("success")
+        else
+          sb_uiMessage("techAlreadyEquipped")
+        end
+      else
+        sb_uiMessage("techNotKnown")
+      end
+    else
+      if ownsTech() then
+        player.equipTech(tech)
+        activeItem.setInstanceValue("durabilityHit", 0)
+        animator.playSound("success")
+      else
+        sb_uiMessage("techNotKnown") --Not wearing and not owned
+      end
+    end
+  else
+    sb_uiMessage("techFail")
+  end
 end
 
 function ownsTech() return contains(player.enabledTechs(), tech) or contains(player.getProperty("sb_bioimplants",{}), tech) end

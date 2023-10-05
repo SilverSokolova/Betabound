@@ -1,16 +1,18 @@
 {
-  "itemName" : "sb_songbook",
-  "inventoryIcon" : "radio.png",
-  "rarity" : "rare",
-  "maxStack" : 1,
-  "price" : 300,
-  "description" : "All your music in one space!",
-  "shortdescription" : "Portable Radio",
-  "tooltipKind" : "sb_tool",
-  "largeImage" : "radio.png",
-  "category" : "musicalInstrument",
-  "collectablesOnPickup" : {"sb_music" : "jukebox"},
-  "scriptDelta" : 0,
-  "scripts" : ["interface.lua"],
-  "interactAction" : ["scriptPane","/interface/scripted/sb_music/music.config"]
+  "itemName": "sb_songbook",
+  "inventoryIcon": "radio.png",
+  "rarity": "rare",
+  "maxStack": 1,
+  "price": 300,
+  "description": "All your music in one space!",
+  "shortdescription": "Portable Radio",
+  "tooltipKind": "sb_tool",
+  "largeImage": "radio.png",
+  "category": "musicalInstrument",
+  "collectablesOnPickup": {
+    "sb_music": "jukebox"
+  },
+  "scriptDelta": 0,
+  "scripts": ["interface.lua"], //maybe move it to the scripts folder, like cursor and swingable?
+  "interactAction": ["scriptPane", "/interface/scripted/sb_music/music.config"]
 }
