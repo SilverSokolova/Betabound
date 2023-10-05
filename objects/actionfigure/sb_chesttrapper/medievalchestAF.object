@@ -1,22 +1,21 @@
 {
-  "objectName" : "sb_medievalchesttrapperaf",
-  "colonyTags" : ["pretty"],
-  "rarity" : "Legendary",
-  "tooltipKind" : "sb_object",
-  "category" : "actionFigure",
-//  "collectablesOnPickup" : { "actionfigures" : "sb_serpentdroidaf" },
-  "price" : 5000,
-  "printable" : false,
-  "description" : "todo",
-  "shortdescription" : "Chest Trapper Figurine",
+  "objectName": "sb_medievalchesttrapperaf",
+  "colonyTags": ["pretty"],
+  "rarity": "Legendary",
+  "tooltipKind": "sb_object",
+  "category": "actionFigure",
+  //  "collectablesOnPickup" : { "actionfigures" : "sb_serpentdroidaf" },
+  "price": 5000,
+  "printable": false,
+  "description": "todo",
+  "shortdescription": "Chest Trapper Figurine",
 
-  "inventoryIcon" : "medievalchestAF.png",
-  "orientations" : [
-    {
-      "dualImage" : "medievalchestAF.png",
-      "imagePosition" : [-2, 0],
-      "spaces" : [[0,0],[0,0],[0,0],[0,0]],
-      "anchors" : ["bottom"]
+  "inventoryIcon": "medievalchestAF.png",
+  "orientations": [{
+      "dualImage": "medievalchestAF.png",
+      "imagePosition": [-2, 0],
+      "spaces": [[0, 0], [0, 0], [0, 0], [0, 0]],
+      "anchors": ["bottom"]
     }
   ]
 }

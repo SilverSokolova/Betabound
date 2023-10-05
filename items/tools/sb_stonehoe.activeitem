@@ -20,8 +20,10 @@
   "durability": 50,
   "durabilityPerUse": 1,
   "blockRadius": 1,
+  "tileDamage": 0.001,
   "tileDamageType": "tilling",
   "canBeRepaired": false,
+  "sb_unrepairable": true,
 
   "primaryAbilityType": "sb_miningtool",
   "primaryAbility": {

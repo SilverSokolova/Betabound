@@ -1,6 +1,6 @@
 [
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":0}],
-[{"op":"replace","path":"/tooltipKind","value":"sb_tall"}],
+[{"op":"replace","path":"/tooltipKind","value":"sb_object"}],
 
 [{"op":"test","path":"/breakDropOptions","inverse":true},{"op":"add","path":"/breakDropOptions","value":[]}],
 [{"op":"add","path":"/breakDropOptions/-","value":[["woodenchair",32,{}]]}],

@@ -1,33 +1,20 @@
 {
-  "objectName" : "sb_leadsample",
-  "colonyTags" : ["pretty"],
-  "rarity" : "Legendary",
-  "category" : "decorative",
-  "price" : 5000,
-  "printable" : false,
-  "tooltipKind" : "sb_object",
-  "description" : "\"A perfect sample of lead.\"",
-  "shortdescription" : "Lead Sample",
+  "objectName": "sb_leadsample",
+  "colonyTags": ["pretty"],
+  "rarity": "Legendary",
+  "category": "decorative",
+  "price": 5000,
+  "printable": false,
+  "tooltipKind": "sb_object",
+  "description": "\"A perfect sample of lead.\"",
+  "shortdescription": "Lead Sample",
 
-
-  "inventoryIcon" : "icon.png",
-  "orientations" : [
-    {
-      "image" : "leadsample.png:<color>",
-      "imagePosition" : [-2, 0],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "spaces" : [ [0, 0], [0, 1] ],
-      "anchors" : [ "bottom" ]
-    },
-    {
-      "image" : "leadsample.png:<color>",
-      "imagePosition" : [-2, 0],
-      "direction" : "right",
-
-      "spaces" : [ [0, 0], [0, 1] ],
-      "anchors" : [ "bottom" ]
+  "inventoryIcon": "icon.png",
+  "orientations": [{
+      "dualImage": "leadsample.png:<color>",
+      "imagePosition": [-2, 0],
+      "spaces": [[0, 0], [0, 1]],
+      "anchors": ["bottom"]
     }
   ]
 }

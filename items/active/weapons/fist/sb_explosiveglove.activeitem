@@ -1,116 +1,106 @@
 {
-  "itemName" : "sb_explosiveglove",
-  "price" : 1000,
-  "level" : 5,
-  "maxStack" : 1,
-  "rarity" : "Legendary",
-  "description" : "PUNCH HIM SO HARD HE EXPLODES!",
-//"description" : "Punch with the force of a hundred powder kegs!",
-  "shortdescription" : "Explosive Glove",
-  "tooltipKind" : "sb_fistweapon",
-  "category" : "fistWeapon",
-  "twoHanded" : false,
-  "itemTags" : ["weapon","upgradeableWeapon"],
+  "itemName": "sb_explosiveglove",
+  "price": 1000,
+  "level": 5,
+  "maxStack": 1,
+  "rarity": "Legendary",
+  "description": "PUNCH HIM SO HARD HE EXPLODES!",
+  //"description" : "Punch with the force of a hundred powder kegs!",
+  "shortdescription": "Explosive Glove",
+  "tooltipKind": "sb_fistweapon",
+  "category": "fistWeapon",
+  "twoHanded": false,
+  "itemTags": ["weapon", "upgradeableWeapon"],
 
-  "inventoryIcon" : "sb_explosiveglove.png:front",
-  "animation" : "fistweapon.animation",
-  "animationParts" : {
-    "weapon" : "sb_explosiveglove.png",
-    "swoosh" : "swoosh/bigphysicalswoosh.png"
+  "inventoryIcon": "sb_explosiveglove.png:front",
+  "animation": "fistweapon.animation",
+  "animationParts": {
+    "weapon": "sb_explosiveglove.png",
+    "swoosh": "swoosh/bigphysicalswoosh.png"
   },
-  "animationCustom" : {
-    "sounds" : {
-      "fire" : ["/sfx/melee/swing_dagger.ogg"]
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/melee/swing_dagger.ogg"]
     }
   },
-  "scripts" : ["fistweapon.lua"],
+  "scripts": ["fistweapon.lua"],
 
-  "needsEdgeTrigger" : true,
-  "edgeTriggerGrace" : 0.1,
+  "needsEdgeTrigger": true,
+  "edgeTriggerGrace": 0.1,
 
-  "comboSteps" : 3,
-  "comboTiming" : [0.2, 0.5],
-  "comboCooldown" : 0.2,
-  "comboFinisherSource" : "/items/active/weapons/fist/combofinishers/sb_explosivepunch.combofinisher",
+  "comboSteps": 3,
+  "comboTiming": [0.2, 0.5],
+  "comboCooldown": 0.2,
+  "comboFinisherSource": "/items/active/weapons/fist/combofinishers/sb_explosivepunch.combofinisher",
+  "freezeLimit": 2,
 
-  "freezeLimit" : 2,
+  "primaryAbility": {
+    "scripts": ["/items/active/weapons/fist/punch.lua"],
+    "class": "Punch",
 
-  "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/fist/punch.lua"],
-    "class" : "Punch",
-
-    "freezeTime" : 0.15,
-    "fireTime" : 0.3,
-    "baseDps" : 10,
-    "damageConfig" : {
-      "statusEffects" : [],
-      "damageSourceKind" : "fist",
-      "knockback" : [0, 15],
-      "timeoutGroup" : "primary",
-      "timeout" : 0.1
+    "freezeTime": 0.15,
+    "fireTime": 0.3,
+    "baseDps": 10,
+    "damageConfig": {
+      "statusEffects": [],
+      "damageSourceKind": "fist",
+      "knockback": [0, 15],
+      "timeoutGroup": "primary",
+      "timeout": 0.1
     },
-    "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 45,
-        "weaponRotationCenter" : [-1, 0],
-        "weaponOffset" : [-0.25, -0.575],
-
-        "allowRotate" : false,
-        "allowFlip" : true,
-
-        "frontArmFrame" : "run.2",
-        "backArmFrame" : "jump.3"
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 45,
+        "weaponRotationCenter": [-1, 0],
+        "weaponOffset": [-0.25, -0.575],
+        "allowRotate": false,
+        "allowFlip": true,
+        "frontArmFrame": "run.2",
+        "backArmFrame": "jump.3"
       },
-      "windup" : {
-        "duration" : 0.05,
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "weaponRotationCenter" : [-1, 0],
-        "weaponOffset" : [-0.625, -0.125],
-
-        "allowRotate" : false,
-        "allowFlip" : false,
-
-        "frontArmFrame" : "swimIdle.1",
-        "backArmFrame" : "swim.1"
+      "windup": {
+        "duration": 0.05,
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "weaponRotationCenter": [-1, 0],
+        "weaponOffset": [-0.625, -0.125],
+        "allowRotate": false,
+        "allowFlip": false,
+        "frontArmFrame": "swimIdle.1",
+        "backArmFrame": "swim.1"
       },
-      "windup2" : {
-        "duration" : 0.05,
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "weaponRotationCenter" : [-1, 0],
-        "weaponOffset" : [-0.75, -0.125],
-
-        "allowRotate" : false,
-        "allowFlip" : false,
-
-        "frontArmFrame" : "swimIdle.1",
-        "backArmFrame" : "swim.1",
-
-        "recoil" : true
+      "windup2": {
+        "duration": 0.05,
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "weaponRotationCenter": [-1, 0],
+        "weaponOffset": [-0.75, -0.125],
+        "allowRotate": false,
+        "allowFlip": false,
+        "frontArmFrame": "swimIdle.1",
+        "backArmFrame": "swim.1",
+        "recoil": true
       },
-      "fire" : {
-        "duration" : 0.1,
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "weaponRotationCenter" : [-1, 0],
-        "weaponOffset" : [0.125, -0.25],
-
-        "allowRotate" : false,
-        "allowFlip" : false,
-
-        "frontArmFrame" : "rotation",
-        "backArmFrame" : "rotation"
+      "fire": {
+        "duration": 0.1,
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "weaponRotationCenter": [-1, 0],
+        "weaponOffset": [0.125, -0.25],
+        "allowRotate": false,
+        "allowFlip": false,
+        "frontArmFrame": "rotation",
+        "backArmFrame": "rotation"
       }
     }
   },
-  "upgradeParameters" : {
-    "inventoryIcon" : "explosiveglove.png:front",
-    "animationParts" : {
-      "weapon" : "explosiveglove.png"
+  "upgradeParameters": {
+    "inventoryIcon": "explosiveglove.png:front",
+    "animationParts": {
+      "weapon": "explosiveglove.png"
     },
-    "shortdescription" : "Explosive Glove ^yellow;^reset;"
+    "shortdescription": "Explosive Glove ^yellow;^reset;"
   },
-  "builder" : "/items/buildscripts/starbound/buildfist.lua"
+  "builder": "/items/buildscripts/starbound/buildfist.lua"
 }

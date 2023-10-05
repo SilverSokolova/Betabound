@@ -2,26 +2,26 @@
  "sb_avianBlueprints" : [
     [0, {
       "pool" : [
-	{"weight" : 0.1, "item" : "sb_musicsheet"}
-	,{"weight" : 0.1, "item" : "sb_poachedavesmingo-recipe"}
-	,{"weight" : 0.1, "item" : "sb_crowncake-recipe"}
-	,{"weight" : 0.1, "item" : "sb_cordialglass-recipe"}
-	,{"weight" : 0.1, "item" : "sb_cordialbottle-recipe"}
-	,{"weight" : 0.1, "item" : "sb_wartjuice-recipe"}
-	,{"weight" : 0.1, "item" : "sb_wartwine-recipe"}
-	,{"weight" : 0.1, "item" : "sb_pussplumpie-recipe"}
-	,{"weight" : 0.1, "item" : "sb_candiedpearlpeas-recipe"}
-	,{"weight" : 0.1, "item" : "sb_ricevinegar-recipe"}
-	,{"weight" : 0.1, "item" : "sb_rootpopbottle-recipe"}
-	,{"weight" : 0.1, "item" : "sb_rootpopflask-recipe"}
-	,{"weight" : 0.1, "item" : "sb_curriedbeakseed-recipe"}
-	,{"weight" : 0.1, "item" : "sb_wineglass-recipe"}
-	,{"weight" : 0.1, "item" : "sb_winebottle-recipe"}
+        {"weight" : 0.1, "item" : "sb_musicsheet"},
+        {"weight" : 0.1, "item" : "sb_poachedavesmingo-recipe"},
+        {"weight" : 0.1, "item" : "sb_crowncake-recipe"},
+	      {"weight" : 0.1, "item" : "sb_cordialglass-recipe"},
+        {"weight" : 0.1, "item" : "sb_cordialbottle-recipe"},
+        {"weight" : 0.1, "item" : "sb_wartjuice-recipe"},
+        {"weight" : 0.1, "item" : "sb_wartwine-recipe"},
+        {"weight" : 0.1, "item" : "sb_pussplumpie-recipe"},
+        {"weight" : 0.1, "item" : "sb_candiedpearlpeas-recipe"},
+        {"weight" : 0.1, "item" : "sb_ricevinegar-recipe"},
+        {"weight" : 0.1, "item" : "sb_rootpopbottle-recipe"},
+        {"weight" : 0.1, "item" : "sb_rootpopflask-recipe"},
+        {"weight" : 0.1, "item" : "sb_curriedbeakseed-recipe"},
+        {"weight" : 0.1, "item" : "sb_wineglass-recipe"},
+        {"weight" : 0.1, "item" : "sb_winebottle-recipe"}
       ],
       "poolRounds" : [
-	[0.55, 1],
-	[0.40, 2],
-	[0.20, 3]
+        [0.55, 1],
+	      [0.40, 2],
+        [0.20, 3]
       ],
       "allowDuplication" : false
     }]
@@ -30,18 +30,18 @@
   "sb_glitchBlueprints" : [
     [0, {
       "pool" : [
-	{"weight" : 0.1, "item" : "sb_musicsheet"}
-	,{"weight" : 0.1, "item" : "sb_blackcurrentcrumble-recipe"}
-	,{"weight" : 0.1, "item" : "sb_copperkeypie-recipe"}
-	,{"weight" : 0.1, "item" : "sb_sweettime-recipe"}
-	,{"weight" : 0.1, "item" : "sb_corntent-recipe"}
-	,{"weight" : 0.1, "item" : "sb_batteryacid-recipe"}
-	,{"weight" : 0.1, "item" : "sb_boltedmilk-recipe"}
-	],
+        {"weight" : 0.1, "item" : "sb_musicsheet"},
+        {"weight" : 0.1, "item" : "sb_blackcurrentcrumble-recipe"},
+        {"weight" : 0.1, "item" : "sb_copperkeypie-recipe"},
+        {"weight" : 0.1, "item" : "sb_sweettime-recipe"},
+        {"weight" : 0.1, "item" : "sb_corntent-recipe"},
+        {"weight" : 0.1, "item" : "sb_batteryacid-recipe"},
+        {"weight" : 0.1, "item" : "sb_boltedmilk-recipe"}
+      ],
       "poolRounds" : [
-	[0.55, 1],
-	[0.40, 2],
-	[0.20, 3]
+        [0.55, 1],
+	        [0.40, 2],
+        [0.20, 3]
       ],
       "allowDuplication" : false
     }]
@@ -50,25 +50,25 @@
  "sb_humanBlueprints" : [
     [0, {
       "pool" : [
-	{"weight" : 0.1, "item" : "sb_musicsheet"}
-	,{"weight" : 0.1, "item" : "sb_applepie-recipe"}
-	,{"weight" : 0.1, "item" : "sb_candy-recipe"}
-	,{"weight" : 0.1, "item" : "sb_icecream-recipe"}
-	,{"weight" : 0.1, "item" : "sb_lollypop-recipe"}
-	,{"weight" : 0.1, "item" : "sb_butter-recipe"}
-	,{"weight" : 0.1, "item" : "sb_toffee-recipe"}
-	,{"weight" : 0.1, "item" : "sb_toffeeapple-recipe"}
-	,{"weight" : 0.1, "item" : "sb_sweetmeat-recipe"}
-	,{"weight" : 0.1, "item" : "sb_alienburger-recipe"}
-	,{"weight" : 0.1, "item" : "sb_burrito-recipe"}
-	,{"weight" : 0.1, "item" : "sb_chilistew-recipe"}
-	,{"weight" : 0.1, "item" : "sb_hamsandwich-recipe"}
-	,{"weight" : 0.1, "item" : "sb_soup-recipe"}
+        {"weight" : 0.1, "item" : "sb_musicsheet"},
+        {"weight" : 0.1, "item" : "sb_applepie-recipe"},
+        {"weight" : 0.1, "item" : "sb_candy-recipe"},
+        {"weight" : 0.1, "item" : "sb_icecream-recipe"},
+        {"weight" : 0.1, "item" : "sb_lollypop-recipe"},
+        {"weight" : 0.1, "item" : "sb_butter-recipe"},
+        {"weight" : 0.1, "item" : "sb_toffee-recipe"},
+        {"weight" : 0.1, "item" : "sb_toffeeapple-recipe"},
+        {"weight" : 0.1, "item" : "sb_sweetmeat-recipe"},
+        {"weight" : 0.1, "item" : "sb_alienburger-recipe"},
+        {"weight" : 0.1, "item" : "sb_burrito-recipe"},
+        {"weight" : 0.1, "item" : "sb_chilistew-recipe"},
+        {"weight" : 0.1, "item" : "sb_hamsandwich-recipe"},
+        {"weight" : 0.1, "item" : "sb_soup-recipe"}
       ],
       "poolRounds" : [
-	[0.55, 1],
-	[0.40, 2],
-	[0.20, 3]
+        [0.55, 1],
+        [0.40, 2],
+        [0.20, 3]
       ],
       "allowDuplication" : false
     }]
@@ -77,20 +77,20 @@
   "sb_floranBlueprints" : [
     [0, {
       "pool" : [
-	{"weight" : 0.1, "item" : "sb_musicsheet"}
-	,{"weight" : 0.1, "item" : "sb_pussplumpie-recipe"}
-	,{"weight" : 0.1, "item" : "sb_boneboomarrow-recipe"}
-	,{"weight" : 0.1, "item" : "sb_meatandmarrow-recipe"}
-	,{"weight" : 0.1, "item" : "sb_meatwich-recipe"}
-	,{"weight" : 0.1, "item" : "sb_thespecial-recipe"}
-	,{"weight" : 0.1, "item" : "sb_meatjuice-recipe"}
-	,{"weight" : 0.1, "item" : "sb_meatwine-recipe"}
-	,{"weight" : 0.1, "item" : "sb_offal-recipe"}
-	],
+        {"weight" : 0.1, "item" : "sb_musicsheet"},
+        {"weight" : 0.1, "item" : "sb_pussplumpie-recipe"},
+        {"weight" : 0.1, "item" : "sb_boneboomarrow-recipe"},
+        {"weight" : 0.1, "item" : "sb_meatandmarrow-recipe"},
+        {"weight" : 0.1, "item" : "sb_meatwich-recipe"},
+        {"weight" : 0.1, "item" : "sb_thespecial-recipe"},
+        {"weight" : 0.1, "item" : "sb_meatjuice-recipe"},
+        {"weight" : 0.1, "item" : "sb_meatwine-recipe"},
+        {"weight" : 0.1, "item" : "sb_offal-recipe"}
+      ],
       "poolRounds" : [
-	[0.55, 1],
-	[0.40, 2],
-	[0.20, 3]
+        [0.55, 1],
+        [0.40, 2],
+        [0.20, 3]
       ],
       "allowDuplication" : false
     }]
@@ -99,13 +99,13 @@
   "sb_apexBlueprints" : [
     [0, {
       "pool" : [
-	{"weight" : 0.1, "item" : "sb_musicsheet"}
-	,{"weight" : 0.1, "item" : "sb_bananabread-recipe"}
-	],
+        {"weight" : 0.1, "item" : "sb_musicsheet"},
+        {"weight" : 0.1, "item" : "sb_bananabread-recipe"}
+      ],
       "poolRounds" : [
-	[0.55, 1],
-	[0.40, 2],
-	[0.20, 3]
+        [0.55, 1],
+        [0.40, 2],
+        [0.20, 3]
       ],
       "allowDuplication" : false
     }]
@@ -114,18 +114,18 @@
   "sb_hylotlBlueprints" : [
     [0, {
       "pool" : [
-	{"weight" : 0.1, "item" : "sb_musicsheet"}
-	,{"weight" : 0.1, "item" : "sb_dirtea-recipe"}
-	,{"weight" : 0.1, "item" : "sb_ricewine-recipe"}
-	,{"weight" : 0.1, "item" : "sb_whiskeybottle-recipe"}
-	,{"weight" : 0.1, "item" : "sb_whiskeyflask-recipe"}
-	,{"weight" : 0.1, "item" : "sb_eggfriedrice-recipe"}
-	,{"weight" : 0.1, "item" : "sb_cornontheblob-recipe"}
-	],
+        {"weight" : 0.1, "item" : "sb_musicsheet"},
+        {"weight" : 0.1, "item" : "sb_dirtea-recipe"},
+        {"weight" : 0.1, "item" : "sb_ricewine-recipe"},
+        {"weight" : 0.1, "item" : "sb_whiskeybottle-recipe"},
+        {"weight" : 0.1, "item" : "sb_whiskeyflask-recipe"},
+        {"weight" : 0.1, "item" : "sb_eggfriedrice-recipe"},
+        {"weight" : 0.1, "item" : "sb_cornontheblob-recipe"}
+      ],
       "poolRounds" : [
-	[0.55, 1],
-	[0.40, 2],
-	[0.20, 3]
+        [0.55, 1],
+        [0.40, 2],
+        [0.20, 3]
       ],
       "allowDuplication" : false
     }]
@@ -134,14 +134,14 @@
   "sb_novakidBlueprints" : [
     [0, {
       "pool" : [
-	{"weight" : 0.1, "item" : "sb_musicsheet"}
-	,{"weight" : 0.1, "item" : "sb_whiskeybottle-recipe"}
-	,{"weight" : 0.1, "item" : "sb_whiskeyflask-recipe"}
-	],
+        {"weight" : 0.1, "item" : "sb_musicsheet"},
+        {"weight" : 0.1, "item" : "sb_whiskeybottle-recipe"},
+        {"weight" : 0.1, "item" : "sb_whiskeyflask-recipe"}
+      ],
       "poolRounds" : [
-	[0.55, 1],
-	[0.40, 2],
-	[0.20, 3]
+        [0.55, 1],
+        [0.40, 2],
+        [0.20, 3]
       ],
       "allowDuplication" : false
     }]

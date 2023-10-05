@@ -1,5 +1,5 @@
 {
-  "input": [["sb_steelbar", 4], ["wire", 2], "smallbattery"],
+  "input": [["sb_steelbar", 4], ["wire", 2], "smallbattery", ["liquidoil", 15]],
   "output": "sb_chainsaw",
   "groups": ["craftingfarm2", "farming", "all"]
 }

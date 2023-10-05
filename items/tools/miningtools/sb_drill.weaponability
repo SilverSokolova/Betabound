@@ -1,0 +1,86 @@
+{
+  "animationParts": {},
+  "animationCustom": {
+    "animatedParts": {
+      "stateTypes": {
+        "tool": {
+          //I decided against having rev up/down sfx because they keep swapping when breaking blocks
+          "states": {
+            "inactive": {
+              "properties": {
+                "particleEmittersOff": ["smoke"]
+              }
+            },
+            "active": {
+              "properties": {
+                "persistentSound": "/sfx/tools/chainsaw_idle.ogg",
+                "particleEmittersOn": ["smoke"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "parts": {
+      "tool": {
+        "partStates": {
+          "tool": {
+            "active": {
+              "properties": {
+                "offset": [1, 1]
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds": {
+      "fire": ["/sfx/tools/drill_hit.ogg"]
+    }
+  },
+
+  "ability": {
+    "type": "sb_drill",
+    "scripts": ["/items/tools/miningtools/sb_miningtool.lua"],
+    "class": "MiningTool",
+    "blockRadius": 4,
+    "altBlockRadius": 1,
+    "harvestLevel": 99,
+    "hitObjects": true,
+    "canBeRepaired": true,
+    "animated": true,
+
+    "tilledMods": {
+      "31": "tilled"
+    },
+
+    "stances": {
+      "idle": {
+        "armRotation": -1.25,
+        "weaponRotation": -1.25,
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true,
+        "weaponOffset": [0, 0.5]
+      },
+      "windup": {
+        "duration": 0,
+        "armRotation": -1.25,
+        "weaponRotation": -1.25,
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true,
+        "weaponOffset": [0, 0.5]
+      },
+      "fire": {
+        "duration": 0.1,
+        "armRotation": -1.25,
+        "weaponRotation": -1.25,
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true,
+        "weaponOffset": [0, 0.5]
+      }
+    }
+  }
+}

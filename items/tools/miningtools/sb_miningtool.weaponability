@@ -8,7 +8,6 @@
     "class": "MiningTool",
     "blockRadius": 3,
     "altBlockRadius": 1,
-    "tileDamage": 0.001,
     "harvestLevel": 99,
     
     "tilledMods": {

@@ -2,6 +2,5 @@
 [{"op":"test","path":"/inventoryIcon","value":"capsulebigicon.png"},{"op":"replace","path":"/inventoryIcon","value":"smallhouse8.png?border=1;000"}],
 [{"op":"test","path":"/description","value":"Little house on the prairie. Or wherever you are."},{"op":"replace","path":"/description","value":"A miniature shop. Don't knock too hard!"}],
 [{"op":"test","path":"/shortdescription","value":"Tiny House"},{"op":"replace","path":"/shortdescription","value":"Tiny Shop"}],
-[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":0}],
-[{"op":"replace","path":"/tooltipKind","value":"sb_object"}]
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}]
 ]

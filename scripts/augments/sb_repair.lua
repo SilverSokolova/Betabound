@@ -1,5 +1,6 @@
 require "/scripts/augments/item.lua"
 --TODO: check the item type instead of having different tools. activeitems are reversed
+--Maybe we could make them repair percentages instead
 function apply(input)
   local output = Item.new(input)
   if output:instanceValue("sb_unrepairable") then return output:descriptor(), 0 end

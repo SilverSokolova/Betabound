@@ -1,72 +1,70 @@
 {
-  "objectName" : "sb_apexcoolverticaldoor",
-  "colonyTags" : ["apex","apexresearchlab","door"],
-  "rarity" : "Common",
-  "tooltipKind" : "sb_object",
-  "category" : "door",
-  "price" : 125,
-  "description" : "This hatch is made of some sort of bulletproof material.",
-  "shortdescription" : "Security Hatch",
-  "race" : "apex",
+  "objectName": "sb_apexcoolverticaldoor",
+  "colonyTags": ["apex", "apexresearchlab", "door"],
+  "rarity": "Common",
+  "tooltipKind": "sb_object",
+  "category": "door",
+  "price": 125,
+  "description": "This hatch is made of some sort of bulletproof material.",
+  "shortdescription": "Security Hatch",
+  "race": "apex",
 
-  "apexDescription" : "This door looks strong enough to keep anything out... or everyone in.",
-  "avianDescription" : "A strong hatch. Not even the breeze could slip through.",
-  "floranDescription" : "Door of great ssstrength.",
-  "glitchDescription" : "Jealous. Such strong materials.",
-  "humanDescription" : "A huge, heavy security hatch.",
-  "hylotlDescription" : "This looks strong enough to hold back the ocean.",
-  "novakidDescription" : "A very thick hatch.",
+  "apexDescription": "This door looks strong enough to keep anything out... or everyone in.",
+  "avianDescription": "A strong hatch. Not even the breeze could slip through.",
+  "floranDescription": "Door of great ssstrength.",
+  "glitchDescription": "Jealous. Such strong materials.",
+  "humanDescription": "A huge, heavy security hatch.",
+  "hylotlDescription": "This looks strong enough to hold back the ocean.",
+  "novakidDescription": "A very thick hatch.",
 
-  "inventoryIcon" : "sb_apexcooldooricon.png",
-  "orientations" : [
-    {
-      "image" : "sb_apexcooldoor.png:default",
-      "imagePosition" : [-16, -8],
-      "renderLayer" : "Object+5",
-      "spaceScan" : 0.1,
-      "spaces" : [ 
-                    [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], 
-                    [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1]
+  "inventoryIcon": "sb_apexcooldooricon.png",
+  "orientations": [{
+      "image": "sb_apexcooldoor.png:default",
+      "imagePosition": [-16, -8],
+      "renderLayer": "Object+5",
+      "spaceScan": 0.1,
+      "spaces": [
+        [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0],
+        [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1]
       ],
-      "anchors" : [ "left", "right" ],
-      "direction" : "left"
-    },
-    {
-      "image" : "sb_apexcooldoor.png:default",
-      "flipImages" : true,
-      "imagePosition" : [-16, -8],
-      "renderLayer" : "Object+5",
-      "spaceScan" : 0.1,
-      "spaces" : [ 
-                    [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], 
-                    [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1]
+      "anchors": ["left", "right"],
+      "direction": "left"
+    }, {
+      "image": "sb_apexcooldoor.png:default",
+      "flipImages": true,
+      "imagePosition": [-16, -8],
+      "renderLayer": "Object+5",
+      "spaceScan": 0.1,
+      "spaces": [
+        [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0],
+        [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1]
       ],
-      "anchors" : [ "left", "right" ],
-      "direction" : "right"
+      "anchors": ["left", "right"],
+      "direction": "right"
     }
   ],
 
-  "scripts" : [ "/objects/wired/door/door.lua" ],
-  "scriptDelta" : 5,
+  "scripts": ["/objects/wired/door/door.lua"],
+  "scriptDelta": 5,
 
-  "animation" : "/objects/wired/door/door.animation",
-  "animationCustom" : {
-    "sounds" : {
-      "open" : {
-        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
-        "rangeMultiplier" : 0.5
+  "animation": "/objects/wired/door/door.animation",
+  "animationCustom": {
+    "sounds": {
+      "open": {
+        "pool": ["/sfx/objects/apexcooldoor_open.ogg"],
+        "rangeMultiplier": 0.5
       },
-      "close" : {
-        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
-        "rangeMultiplier" : 0.5
+      "close": {
+        "pool": ["/sfx/objects/apexcooldoor_close.ogg"],
+        "rangeMultiplier": 0.5
       }
     }
   },
-  "animationParts" : {
-    "door" : "sb_apexcooldoor.png"
+  "animationParts": {
+    "door": "sb_apexcooldoor.png"
   },
-  "animationPosition" : [-16, -8],
+  "animationPosition": [-16, -8],
 
-  "inputNodes" : [ [-2, 0] ],
-  "outputNodes" : [ [2, -1] ]
+  "inputNodes": [[-2, 0]],
+  "outputNodes": [[2, -1]]
 }

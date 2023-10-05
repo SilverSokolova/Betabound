@@ -1,1 +1,5 @@
-[[{"op":"test","path":"/category","value":"decorative"},{"op":"replace","path":"/category","value":"other"}]]
+[
+//Keep it decorative so it can be printed
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Legendary"}],
+[{"op":"test","path":"/printable","value":false},{"op":"replace","path":"/printable","value":true}]
+]

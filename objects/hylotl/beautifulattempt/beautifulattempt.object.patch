@@ -1,1 +1,7 @@
-[[{"op":"test","path":"/category","value":"decorative"},{"op":"replace","path":"/category","value":"other"}]]
+[
+//Keep it decorative so it can be printed
+[{"op":"test","path":"/printable","value":false},{"op":"replace","path":"/printable","value":true}],
+[{"op":"test","path":"/shortdescription","value":"Beautiful Attempt! Machine"},{"op":"replace","path":"/shortdescription","value":"Beautiful Attempt!"}],
+[{"op":"test","path":"/retainObjectParametersInItem","inverse":true},{"op":"add","path":"/retainObjectParametersInItem","value":true}],
+[{"op":"add","path":"/scripts/-","value":"/interface/scripted/sbvn/sb_sbvnobject.lua"}]
+]
