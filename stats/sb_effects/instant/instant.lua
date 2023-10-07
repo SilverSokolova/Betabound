@@ -2,7 +2,7 @@ function init()
   local a, b = math.floor(effect.duration()), mcontroller.position()
   status.modifyResource(config.getParameter("resource", "health"), a)
   world.spawnProjectile("invisibleprojectile",
-    {b[1]-3 b[2] + config.getParameter("textOffset")}, entity.id(), {0, 0}, false,
+    {b[1]-3, b[2] + config.getParameter("textOffset")}, entity.id(), {0, 0}, false,
     {damageType="nodamage",timeToLive=0,piercing=true,speed=0,power=0,
       actionOnReap = {{
         action = "particle",

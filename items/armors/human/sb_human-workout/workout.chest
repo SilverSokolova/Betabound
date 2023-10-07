@@ -1,16 +1,25 @@
 {
-  "itemName" : "sb_sweatervestlegs",
-  "inventoryIcon" : "sb_icons.png:pants",
-  "description" : "They're business casual.",
-  "shortdescription" : "Work Pants",
+  "itemName" : "sb_workoutchest",
+  "price" : 75,
+  "inventoryIcon" : "icon.png",
   "maxStack" : 1,
-  "rarity" : "common",
+  "rarity" : "Common",
+  "category" : "chestwear",
+  "description" : "A sweatshirt... It smells.",
+  "shortdescription" : "Sweatshirt",
   "tooltipKind" : "sb_armor",
-  "price" : 35,
-  "category" : "legwear",
 
-  "maleFrames" : "sb_pants.png",
-  "femaleFrames" : "sb_pants.png",
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
 
   "builder" : "/items/buildscripts/starbound/buildarmor.lua",
 

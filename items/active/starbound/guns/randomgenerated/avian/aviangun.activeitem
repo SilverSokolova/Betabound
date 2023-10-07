@@ -4,7 +4,7 @@
   "rarity": "uncommon",
   "price": 620,
   "baseOffset": [-1.25, 0.25],
-  "muzzleOffset": [-0.5, 0.275],
+  "muzzleOffset": [-0.5, 0.225],
   "description": "",
   "shortdescription": "Heavy Avian Blaster",
   "tooltipKind": "sb_gun",

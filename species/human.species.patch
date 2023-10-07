@@ -19,18 +19,18 @@
 {"op":"add","path":"/genders/0/shirt/-","value":"sb_shirtlong1chest"},
 {"op":"add","path":"/genders/0/shirt/-","value":"sb_coolchest"},
 {"op":"add","path":"/genders/0/shirt/-","value":"sb_workoutchest"},
-{"op":"add","path":"/genders/0/shirt/-","value":"sb_sweatervestchest"},
+{"op":"add","path":"/genders/0/shirt/-","value":"sb_workchest"},
 
 {"op":"add","path":"/genders/1/shirt/-","value":"tshirtchest"},
 {"op":"add","path":"/genders/1/shirt/-","value":"sb_shirtshort1chest"},
 {"op":"add","path":"/genders/1/shirt/-","value":"sb_shirtlong1chest"},
 {"op":"add","path":"/genders/1/shirt/-","value":"sb_coolchest"},
 {"op":"add","path":"/genders/1/shirt/-","value":"sb_workoutchest"},
-{"op":"add","path":"/genders/1/shirt/-","value":"sb_sweatervestchest"},
+{"op":"add","path":"/genders/1/shirt/-","value":"sb_workchest"},
 
 
-{"op":"add","path":"/genders/0/pants/-","value":"sb_sweatervestlegs"},
-{"op":"add","path":"/genders/1/pants/-","value":"sb_sweatervestlegs"},
+{"op":"add","path":"/genders/0/pants/-","value":"sb_worklegs"},
+{"op":"add","path":"/genders/1/pants/-","value":"sb_worklegs"},
 
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_applepie"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_candy"}},
@@ -114,8 +114,8 @@
 
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_coolchest"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_workoutchest"}},
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_sweatervestchest"}},
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_sweatervestlegs"}},
+{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_workchest"}},
+{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_worklegs"}},
 
 
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_techstation_human"}},

@@ -26,11 +26,11 @@
         "allowRotate": true,
         "allowFlip": true
       },
-      "fire": { //TODO: corrosive gun has this as {} and it works fine
+      "fire": {
         "armRotation": 5,
         "weaponRotation": 0,
         "twoHanded": true,
-        "allowRotate": false,
+        "allowRotate": true,
         "allowFlip": true
       },
       "cooldown": {
@@ -38,7 +38,7 @@
         "armRotation": 5,
         "weaponRotation": 5,
         "twoHanded": true,
-        "allowRotate": false,
+        "allowRotate": true,
         "allowFlip": true
       }
     }

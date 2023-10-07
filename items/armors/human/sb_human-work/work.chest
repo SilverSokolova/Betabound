@@ -1,24 +1,24 @@
 {
-  "itemName" : "sb_coolchest",
+  "itemName" : "sb_workchest",
   "price" : 75,
-  "inventoryIcon" : "sb_icon.png",
+  "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestwear",
-  "description" : "A cool jacket, too cool for drycleaning.",
-  "shortdescription" : "Cool Jacket",
+  "description" : "A classy sweater vest. It's business casual.",
+  "shortdescription" : "Work Shirt",
   "tooltipKind" : "sb_armor",
 
   "maleFrames" : {
-    "body" : "sb_chestm.png",
-    "backSleeve" : "sb_bsleeve.png",
-    "frontSleeve" : "sb_fsleeve.png"
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
   },
 
   "femaleFrames" : {
-    "body" : "sb_chestf.png",
-    "backSleeve" : "sb_bsleeve.png",
-    "frontSleeve" : "sb_fsleeve.png"
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
   },
 
   "builder" : "/items/buildscripts/starbound/buildarmor.lua",

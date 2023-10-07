@@ -2,7 +2,7 @@
   "itemName": "sb_rareplasmasniperrifle",
   "maxStack": 1,
   "rarity": "rare",
-  "muzzleOffset": [0, -0.1],
+  "muzzleOffset": [0, 0.05],
   "baseOffset": [-1.25, 0.5],
   "price": 620,
   "paletteSwaps": "",

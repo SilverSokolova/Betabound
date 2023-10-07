@@ -2,7 +2,7 @@
   "itemName": "sb_florangrenadelauncher",
   "maxStack": 1,
   "rarity": "common",
-  "muzzleOffset": [0, 0],
+  "muzzleOffset": [0, 0.25],
   "baseOffset": [-0.375, 0.375],
   "tooltipKind": "sb_gun",
   "category": "grenadeLauncher",
@@ -18,9 +18,22 @@
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
   "animationParts": {
-    "muzzleFlash": "/animations/muzzleflash/smokemuzzle/smokemuzzle.png"
+    "muzzleFlash": ""
   },
   "animationCustom": {
+    "particleEmitters": {
+      "muzzleFlash": {
+        "burstCount": 2,
+        "particles": [{
+            "particle": "poisondust"
+          },{
+            "particle": "poisonsicknessdust2"
+          },{
+            "particle": "poisonswoosh1"
+          }
+        ]
+      }
+    },
     "sounds": {
       "fire": ["/sfx/gun/grenade1.ogg"]
     }

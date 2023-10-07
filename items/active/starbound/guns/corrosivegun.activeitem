@@ -6,7 +6,6 @@
   "tooltipKind": "sb_gun2",
   "tooltipFields": {
     "damageKindImage": "/interface/sb_tooltips/sb_corrosiveparticle.png",
-    //"damageKindBImage" : "/interface/elements/fire.png",
     "subtitle": "Alien Gun"
   },
   "itemTags": ["weapon", "ranged", "pistol", "upgradeableWeapon"],
@@ -29,7 +28,7 @@
   "description": "A gun that sprays corrosive particles.",
   "shortdescription": "Corrosive Gun",
   "baseOffset": [0.5, 0.15],
-  "muzzleOffset": [1.6, -0.1],
+  "muzzleOffset": [2, -0.25],
 
   "twoHanded": true,
   "level": 1,

@@ -2,7 +2,7 @@
   "itemName": "sb_bonepistol",
   "maxStack": 1,
   "rarity": "rare",
-  "muzzleOffset": [1.8, 0],
+  "muzzleOffset": [1.25, 0.2],
   "tooltipKind": "sb_gun2",
   "category": "pistol",
   "twoHanded": false,
@@ -28,6 +28,12 @@
   "animationCustom": {
     "animatedParts": {
       "parts": {
+        "muzzleFlash": {
+          "properties": {
+            "offset": [1.25, 0]
+
+          }
+        },
         "middle": {
           "properties": {
             "offset": [0.25, 0.1]
@@ -41,12 +47,9 @@
   },
 
   "elementalType": "physical",
-
+  "primaryAbilityType": "sb_gun",
   "primaryAbility": {
-    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
-    "class": "GunFire",
     "projectileType": ["bonethorn", "throwingbone"],
-
     "fireTime": [0.3, 1.1],
     "baseDps": [5.7, 6.2],
     "energyUsage": [6.5, 11],
@@ -55,23 +58,13 @@
       "knockbackRange": [0, 6]
     },
     "stances": {
-      "idle": {
-        "armRotation": 0,
-        "weaponRotation": 0,
-        "twoHanded": false,
-
-        "allowRotate": true,
-        "allowFlip": true
+      "fire": {
+        "duration": 0.05,
+        "recoil": true
       },
-      "fire": {},
       "cooldown": {
-        "duration": 0.15,
         "armRotation": 10,
-        "weaponRotation": 10,
-        "twoHanded": false,
-
-        "allowRotate": false,
-        "allowFlip": false
+        "weaponRotation": 10
       }
     }
   },

@@ -41,39 +41,20 @@
   },
 
   "elementalType": "physical",
-
-  "primaryAbility": { //TODO: use gun ability
-    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
-    "class": "GunFire",
+  "primaryAbilityType": "sb_gun2",
+  "primaryAbility": {
     "projectileType": ["stingergunsting"],
     "projectileParameters": {
       "speed": 70,
       "power": 5
     },
     "fireTime": [0.08, 0.16],
-    "fireType": "auto",
     "baseDps": [8.25, 12.75],
     "energyUsage": [45, 80],
     "inaccuracy": 0.025,
     "stances": {
-      "idle": {
-        "armRotation": 0,
-        "weaponRotation": 0,
-        "twoHanded": true,
-
-        "allowRotate": true,
-        "allowFlip": true
-      },
-      "fire": {},
       "cooldown": {
-        "duration": 0.11,
-        "recoil": true,
-        "armRotation": 0,
-        "weaponRotation": 0,
-        "twoHanded": true,
-
-        "allowRotate": true,
-        "allowFlip": true
+        "duration": 0.11
       }
     }
   },

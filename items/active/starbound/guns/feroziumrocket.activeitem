@@ -24,6 +24,15 @@
     "muzzleFlash": "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.png"
   },
   "animationCustom": {
+    "particleEmitters": {
+      "muzzleFlash": {
+        "burstCount": 3,
+        "particles": [{
+            "particle": "rocketbarrelpuff"
+          }
+        ]
+      }
+    },
     "sounds": {
       "fire": ["/sfx/gun/rocket1.ogg"]
     }

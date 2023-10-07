@@ -1,24 +1,24 @@
 {
-  "itemName" : "sb_workoutchest",
+  "itemName" : "sb_coolchest",
   "price" : 75,
-  "inventoryIcon" : "sb_icon.png",
+  "inventoryIcon" : "icon.png",
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestwear",
-  "description" : "A sweatshirt... It smells.",
-  "shortdescription" : "Sweatshirt",
+  "description" : "A cool jacket, too cool for drycleaning.",
+  "shortdescription" : "Cool Jacket",
   "tooltipKind" : "sb_armor",
 
   "maleFrames" : {
-    "body" : "sb_chestm.png",
-    "backSleeve" : "sb_bsleeve.png",
-    "frontSleeve" : "sb_fsleeve.png"
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
   },
 
   "femaleFrames" : {
-    "body" : "sb_chestf.png",
-    "backSleeve" : "sb_bsleeve.png",
-    "frontSleeve" : "sb_fsleeve.png"
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
   },
 
   "builder" : "/items/buildscripts/starbound/buildarmor.lua",

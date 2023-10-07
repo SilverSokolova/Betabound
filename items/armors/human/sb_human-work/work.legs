@@ -1,25 +1,16 @@
 {
-  "itemName" : "sb_sweatervestchest",
-  "price" : 75,
-  "inventoryIcon" : "sb_icons.png:chest",
+  "itemName" : "sb_worklegs",
+  "inventoryIcon" : "icons.png:pants",
+  "description" : "They're business casual.",
+  "shortdescription" : "Work Pants",
   "maxStack" : 1,
-  "rarity" : "Common",
-  "category" : "chestwear",
-  "description" : "A classy sweater vest. It's business casual.",
-  "shortdescription" : "Work Shirt",
+  "rarity" : "common",
   "tooltipKind" : "sb_armor",
+  "price" : 35,
+  "category" : "legwear",
 
-  "maleFrames" : {
-    "body" : "sb_chestm.png",
-    "backSleeve" : "sb_bsleeve.png",
-    "frontSleeve" : "sb_fsleeve.png"
-  },
-
-  "femaleFrames" : {
-    "body" : "sb_chestf.png",
-    "backSleeve" : "sb_bsleeve.png",
-    "frontSleeve" : "sb_fsleeve.png"
-  },
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
 
   "builder" : "/items/buildscripts/starbound/buildarmor.lua",
 

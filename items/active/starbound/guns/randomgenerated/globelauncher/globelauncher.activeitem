@@ -2,8 +2,8 @@
   "itemName": "sb_globelauncher",
   "maxStack": 1,
   "rarity": "uncommon",
-  "muzzleOffset": [0, 0],
-  "baseOffset": [-1.25, 0.05],
+  "muzzleOffset": [0, 0.25],
+  "baseOffset": [-1.25, 0.15],
   "tooltipKind": "sb_gun",
   "category": "sniperRifle",
   "tooltipFields": {
@@ -28,38 +28,15 @@
   },
 
   "elementalType": "physical",
-
+  "primaryAbilityType": "sb_gun2",
   "primaryAbility": {
-    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
-    "class": "GunFire",
     "projectileType": ["whiteglobe", "redglobe", "yellowglobe", "blueglobe", "greenglobe", "orangeglobe", "magentaglobe"],
     "fireTime": [0.3, 1],
-    "projectileCount": 1,
     "baseDps": [5.5, 6.5],
     "energyUsage": [22.5, 25.5],
     "inaccuracy": 0.02,
     "projectileParameters": {
       "knockbackRange": [20, 30]
-    },
-    "stances": {
-      "idle": {
-        "armRotation": 0,
-        "weaponRotation": 0,
-        "twoHanded": true,
-
-        "allowRotate": true,
-        "allowFlip": true
-      },
-      "fire": {},
-      "cooldown": {
-        "duration": 0.25,
-        "armRotation": 5,
-        "weaponRotation": 5,
-        "twoHanded": true,
-
-        "allowRotate": false,
-        "allowFlip": false
-      }
     }
   },
 

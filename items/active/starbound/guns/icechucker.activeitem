@@ -9,8 +9,8 @@
   "itemTags": ["weapon", "ranged", "pistol", "upgradeableWeapon"],
   "tooltipKind": "sb_gun2",
   "tooltipFields": {
-    "damageKindImage": "/projectiles/material/sb_icematerial.png"
-    //  "damageKindBImage" : "/interface/elements/ice.png"
+    "damageKindImage": "/projectiles/material/sb_icematerial.png",
+    "objectImage":"/items/active/starbound/guns/icechucker.png"
   },
   "animation": "/items/active/weapons/ranged/gun.animation",
   "animationCustom": {

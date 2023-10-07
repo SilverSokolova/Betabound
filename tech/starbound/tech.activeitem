@@ -1,15 +1,14 @@
 {
   "itemName": "sb_tech",
-  "price": 5000,
+  "price": 1250,
   "tooltipKind": "sb_object",
   "tooltipFields": {
     "rarityLabel": ""
   },
   "category": "tech",
   "subtitle": "Tech (%s)",
-  "techModule": "",
-  "description": "This tech drive needs to have a description set.",
-  "shortdescription": "Tech Drive",
+  "description": "",
+  "shortdescription": "",
   "scripts": ["tech.lua"],
   "builder": "/items/buildscripts/starbound/buildtech.lua"
 }

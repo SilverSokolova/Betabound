@@ -4,7 +4,7 @@
   "rarity": "rare",
   "price": 620,
   "baseOffset": [-0.25, 0.25],
-  "muzzleOffset": [0, 0.375],
+  "muzzleOffset": [0, 0.25],
   "tooltipKind": "sb_gun",
   "category": "pistol",
   "twoHanded": false,
