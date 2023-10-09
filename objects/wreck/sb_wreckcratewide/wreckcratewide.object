@@ -1,44 +1,42 @@
 {
-  "objectName" : "sb_wreckcratewide",
-  "rarity" : "Common",
-  "objectType" : "container",
-  "description" : "A antique crate, I wonder what's inside..",
-  "shortdescription" : "Wide Wrecked Crate",
-  "race" : "generic",
-  "category" : "storage",
-  "price" : 115,
-  "tooltipKind" : "sb_container",
-  "builder" : "/items/buildscripts/starbound/buildcontainer.lua",
-  "scripts" : ["/scripts/sb_container.lua"],
+  "objectName": "sb_wreckcratewide",
+  "rarity": "Common",
+  "objectType": "container",
+  "description": "A antique crate, I wonder what's inside..",
+  "shortdescription": "Wide Wrecked Crate",
+  "race": "generic",
+  "category": "storage",
+  "price": 115,
+  "tooltipKind": "sb_container",
+  "builder": "/items/buildscripts/starbound/buildcontainer.lua",
+  "scripts": ["/scripts/sb_container.lua"],
 
-  "apexDescription" : "A battered crate.",
-  "avianDescription" : "Could there be anything still in here?",
-  "floranDescription" : "Old ssmashed storage.",
-  "glitchDescription" : "Intrigued. An old storage container.",
-  "humanDescription" : "An old crate. Might still be something in there.",
-  "hylotlDescription" : "Could any treasures of worth be concealed in such a ruined crate?",
-  "novakidDescription" : "Even I ain't sure this crate's worth lookin' in.",
+  "apexDescription": "A battered crate.",
+  "avianDescription": "Could there be anything still in here?",
+  "floranDescription": "Old ssmashed storage.",
+  "glitchDescription": "Intrigued. An old storage container.",
+  "humanDescription": "An old crate. Might still be something in there.",
+  "hylotlDescription": "Could any treasures of worth be concealed in such a ruined crate?",
+  "novakidDescription": "Even I ain't sure this crate's worth lookin' in.",
 
-  "inventoryIcon" : "icon.png",
-  "orientations" : [
-    {
-      "dualImage" : "wreckcratewide.png:<color>",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-
-      "spaceScan" : 0.1,
-      "anchors" : ["bottom"],
-      "collision" : "platform"
-
+  "inventoryIcon": "icon.png",
+  "orientations": [{
+      "dualImage": "wreckcratewide.png:<color>",
+      "imagePosition": [-8, 0],
+      "frames": 1,
+      "animationCycle": 1.0,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
     }
   ],
-  "openSounds" : ["/sfx/objects/metalbox_open.ogg"],
-  "closeSounds" : ["/sfx/objects/metalbox_close.ogg"],
-  "slotCount" : 24,
-  "tooltipFields":{"slotCountLabel":"Holds 24 Items"},
-  "uiConfig" : "/interface/sb_chests/chest<slots>.config",
-  "frameCooldown" : 5,
-  "autoCloseCooldown" : 3600
+  "openSounds": ["/sfx/objects/metalbox_open.ogg"],
+  "closeSounds": ["/sfx/objects/metalbox_close.ogg"],
+  "slotCount": 24,
+  "tooltipFields": {
+    "slotCountLabel": "Holds 24 Items"
+  },
+  "uiConfig": "/interface/sb_chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "autoCloseCooldown": 3600
 }
