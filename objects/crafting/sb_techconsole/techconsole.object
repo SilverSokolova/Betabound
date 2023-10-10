@@ -1,66 +1,76 @@
 {
-  "objectName" : "sb_techconsole",
-  "colonyTags" : ["misc"],
-  "printable" : false,
-  "rarity" : "legendary",
-  "price" : 6000,
-  "tooltipKind" : "sb_object",
-  "radioMessagesOnPickup" : [ "sb_pickuptechconsole" ],
-  "learnBlueprintsOnPickup" : [ "sb_techconsole" ],
-  "interactAction" : "OpenCraftingInterface",
-  "interactData" : {
-    "config" : "/interface/windowconfig/sb_craftingtechconsole.config",
-    "paneLayoutOverride" : {
-      "windowtitle" : {
-        "title" : "TECH DEVELOPMENT CONSOLE",
-        "subtitle" : "Develop specialized tech!",
-        "icon" : {
-          "file" : "/interface/sb_crafting/craftingicons.png:techconsole"
+  "objectName": "sb_techconsole",
+  "colonyTags": ["misc"],
+  "printable": false,
+  "rarity": "legendary",
+  "price": 6000,
+  "tooltipKind": "sb_object",
+  "radioMessagesOnPickup": ["sb_pickuptechconsole"],
+  "learnBlueprintsOnPickup": ["sb_techconsole"],
+  "interactAction": "OpenCraftingInterface",
+  "interactData": {
+    "config": "/interface/windowconfig/sb_craftingtechconsole.config",
+    "paneLayoutOverride": {
+      "windowtitle": {
+        "title": "TECH DEVELOPMENT CONSOLE",
+        "subtitle": "Develop specialized tech!",
+        "icon": {
+          "file": "/interface/sb_crafting/craftingicons.png:techconsole"
         }
       }
     },
-    "requiresBlueprint" : false,
-    "filter" : ["sb_techconsole"]
+    "requiresBlueprint": false,
+    "filter": ["sb_techconsole"]
   },
 
-  "description" : "Use this to create new techs to equip on adventures!",
-  "shortdescription" : "^orange;Tech Development Console^reset;",
-  "race" : "human",
+  "description": "Use this to create new techs to equip on adventures!",
+  "shortdescription": "^orange;Tech Development Console^reset;",
+  "race": "human",
 
-  "apexDescription" : "This console allows me to create tech.",
-  "avianDescription" : "The mystery of science. I can create tech here.",
-  "floranDescription" : "Floran pressss button, make magic thingsss.",
-  "glitchDescription" : "Pleased. A console that will allow me to create new tech.",
-  "humanDescription" : "The first time I used one of these to create new tech, it blew my mind. Then blew up my backpack, but that's besides the point.",
-  "hylotlDescription" : "A convenient, impressive way to create new tech.",
+  "apexDescription": "This console allows me to create tech.",
+  "avianDescription": "The mystery of science. I can create tech here.",
+  "floranDescription": "Floran pressss button, make magic thingsss.",
+  "glitchDescription": "Pleased. A console that will allow me to create new tech.",
+  "humanDescription": "The first time I used one of these to create new tech, it blew my mind. Then blew up my backpack, but that's besides the point.",
+  "hylotlDescription": "A convenient, impressive way to create new tech.",
 
-  "category" : "techManagement",
-  "lightColor" : [54, 77, 89],
+  "category": "crafting",
+  "lightColor": [54, 77, 89],
 
-  "inventoryIcon" : "techconsoleicon.png",
-  "orientations" : [
-    {
-      "imageLayers" : [ { "image" : "techconsole.png:<color>.<frame>", "fullbright" : true }, { "image" : "techconsolelit.png:<color>.<frame>" } ],
-      "imagePosition" : [-12, -0],
-      "frames" : 6,
-      "animationCycle" : 0.6,
-      "direction" : "right",
+  "inventoryIcon": "techconsoleicon.png",
+  "orientations": [{
+      "imageLayers": [{
+          "image": "techconsole.png:<color>.<frame>",
+          "fullbright": true
+        }, {
+          "image": "techconsolelit.png:<color>.<frame>"
+        }
+      ],
+      "imagePosition": [-12, -0],
+      "frames": 6,
+      "animationCycle": 0.6,
+      "direction": "right",
 
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    },
-    {
-      "imageLayers" : [ { "image" : "techconsoler.png:<color>.<frame>", "fullbright" : true }, { "image" : "techconsolerlit.png:<color>.<frame>" } ],
-      "imagePosition" : [-12, -0],
-      "frames" : 6,
-      "animationCycle" : 0.6,
-      "direction" : "left",
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }, {
+      "imageLayers": [{
+          "image": "techconsoler.png:<color>.<frame>",
+          "fullbright": true
+        }, {
+          "image": "techconsolerlit.png:<color>.<frame>"
+        }
+      ],
+      "imagePosition": [-12, -0],
+      "frames": 6,
+      "animationCycle": 0.6,
+      "direction": "left",
 
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
     }
   ],
 
-  "soundEffect" : "/sfx/objects/bunkerpanel1.ogg"
+  "soundEffect": "/sfx/objects/bunkerpanel1.ogg"
 
 }

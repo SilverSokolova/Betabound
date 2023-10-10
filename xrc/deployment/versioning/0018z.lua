@@ -1,6 +1,6 @@
 local ini = init or function() end
 function init() ini()
-	local currentVersion = 26
+	local currentVersion = 27
 	if status.statusProperty("xrc_0018z") == nil then status.setStatusProperty("xrc_0018z",0) end
 	local yv = status.statusProperty("xrc_0018z")
 	if yv < currentVersion then

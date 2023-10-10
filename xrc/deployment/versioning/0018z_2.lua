@@ -172,5 +172,6 @@ xrc0018[26]=function()
     end
   end
 end
+xrc0018[27]=function() quest("sb_outpostSkin.gearup","techconsole") end
 
 function xrc0018z_2(cv,yv) for i = yv, cv-1 do xrc0018[i+1]() end end

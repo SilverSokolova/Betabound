@@ -1,32 +1,33 @@
 {
-  "id" : "sb_outpost1.gearup",
-  "prerequisites" : [ ],
-  "title" : "^green;Rent Well Spent",
-  "text" : "My Landlord is a jerk! He's going to kick me out of my place if I don't get him a bar of ^orange;chocolate.^reset; ^#0f0;They sell them at Infinity Express,^reset; but I haven't got any pixels! Can you help me out?",
-  "completionText" : "Thank you so much! Maybe it is time I found a better place to live. You seem like a nice person - If you head to the ^#0f0;Frogg Furnishing^reset; store, ^orange;you can become a Landlord yourself!^reset; I will tell the others here of your kindness.",
-  "speaker" : "questGiver",
-  "moneyRange" : [300, 300],
-  "rewards" : [["colonydeed","colonymanual-codex","rewardbag"]],
-  "canBeAbandoned" : true,
+  "id": "sb_outpost1.gearup",
+  "prerequisites": [],
+  "title": "^green;Rent Well Spent",
+  "text": "My Landlord is a jerk! He's going to kick me out of my place if I don't get him a bar of ^orange;chocolate.^reset; ^#0f0;They sell them at Infinity Express,^reset; but I haven't got any pixels! Can you help me out?",
+  "completionText": "Thank you so much! Maybe it is time I found a better place to live. You seem like a nice person - If you head to the ^#0f0;Frogg Furnishing^reset; store, ^orange;you can become a Landlord yourself!^reset; I will tell the others here of your kindness.",
+  "speaker": "questGiver",
+  "moneyRange": [300, 300],
+  "rewards": [["colonydeed", "colonymanual-codex", "rewardbag"]],
+  "canBeAbandoned": true,
 
-  "guiConfigs" : {
-    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
-    "newQuest" : "/interface/windowconfig/sb_newquest.config",
-    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquest.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
   },
 
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/main.lua",
-  "scriptConfig" : {
-    "portraits" : {"default" : "questGiver"},
-    "requireTurnIn" : true,
-    "turnInDescription" : "Speak to ^orange;the human survivor^reset; at the ^orange;outpost^reset;",
-    "conditions" : [
-      {
-        "type" : "gatherItem",
-        "itemName" : "chocolate",
-        "count" : 1,
-        "consume" : true
+  "updateDelta": 10,
+  "script": "/quests/scripts/main.lua",
+  "scriptConfig": {
+    "portraits": {
+      "default": "questGiver"
+    },
+    "requireTurnIn": true,
+    "turnInDescription": "Speak to ^orange;the human survivor^reset; at the ^orange;outpost^reset;",
+    "conditions": [{
+        "type": "gatherItem",
+        "itemName": "chocolate",
+        "count": 1,
+        "consume": true
       }
     ]
   }

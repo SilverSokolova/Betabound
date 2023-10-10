@@ -6,7 +6,7 @@
 
   "sb_pickuptechstation": {
     "type": "tutorial",
-    "text": "I see that you have obtained a wall-mounted tech station! Using it, you can create unique tech cards which can be used to share or equip techs."
+    "text": "I see that you have obtained a tech binding station! Using it, you can create unique tech cards which can be used equip techs on-the-go."
   },
 
   "sb_pickuptechconsole": {

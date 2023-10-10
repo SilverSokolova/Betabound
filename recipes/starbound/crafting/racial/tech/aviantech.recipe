@@ -1,5 +1,5 @@
 {
-  "input" : ["upgrademodule",["platinumbar",5],["wire",20],"techconsole"],
+  "input" : [["platinumbar",5],["wire",5],"siliconboard","stickofram"],
   "output" : "sb_techstation_avian",
   "groups" : ["sb_roboticcraftingtable","sb_stations","all"]
 }

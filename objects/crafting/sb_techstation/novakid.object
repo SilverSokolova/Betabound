@@ -1,52 +1,59 @@
 {
-  "objectName" : "sb_techstation_novakid",
-  "rarity" : "legendary",
-  "learnBlueprintsOnPickup" : ["sb_techstation_novakid"],
-  "radioMessagesOnPickup" : ["sb_pickuptechstation"],
-  "category" : "techManagement",
-  "price" : 6000,
-  "tooltipKind" : "sb_object",
-  "tooltipFields" : {"objectImage":"/objects/crafting/sb_techstation/novakid.png:default.2"},
-  "description" : "A tech station. For sharing, binding, and equipping awesome tech!",
-  "shortdescription" : "^orange;Novakid Tech Station^reset;",
-  "race" : "novakid",
-  "printable" : false,
-  "lightColor" : [185, 171, 0],
-  "lightPosition" : [-1, 0],
-  "interactAction" : "ScriptPane",
-  "interactData" : "/interface/scripted/sb_techstation/techstation.config",
-
-  "apexDescription" : "This complex machine allows me to equip useful techs.",
-  "avianDescription" : "This console lets me equip techs! Useful devices, once you get over the weirdness.",
-  "floranDescription" : "This consssole lets Floran equip techs! New techsss always very exciting.",
-  "glitchDescription" : "Excited. This console allows me to equip and remove techs.",
-  "humanDescription" : "I can equip techs here! What a handy machine.",
-  "hylotlDescription" : "Techs are a fascinating advancement in bioengineering. I can equip them here.",
-  "novakidDescription" : "With a little know-how, I can use this machine to equip techs.",
-
-  "inputNodes" : [[-2, -1]],
-  "scripts" : [ "techstation.lua"],
-  "animation" : "techstation.animation",
-  "animationParts" : {
-    "station0" : "novakid0.png",
-    "lit0" : "novakidlit0.png",
-    "station" : "novakid.png",
-    "lit" : "novakidlit.png"
+  "objectName": "sb_techstation_novakid",
+  "rarity": "legendary",
+  "learnBlueprintsOnPickup": ["sb_techstation_novakid"],
+  "radioMessagesOnPickup": ["sb_pickuptechstation"],
+  "category": "techManagement",
+  "price": 6000,
+  "tooltipKind": "sb_object",
+  "tooltipFields": {
+    "objectImage": "/objects/crafting/sb_techstation/novakid.png:default.2"
   },
-  "animationPosition" : [-16, -8],
-  "active" : true,
+  "description": "A tech binding station. For binding awesome tech!",
+  "shortdescription": "^orange;Novakid Tech Binder^reset;",
+  "race": "novakid",
+  "printable": false,
+  "lightColor": [185, 171, 0],
+  "lightPosition": [-1, 0],
+  "interactAction": "ScriptPane",
+  "interactData": "/interface/scripted/sb_techselection/techselection.config",
 
-  "placementImage" : "novakid.png:default.2",
-  "placementImagePosition" : [-16, -8],
-  "inventoryIcon" : "icons.png:6",
-  "orientations" : [
-    {
-      "imageLayers" : [{"image":"novakid.png:<color>.<frame>","fullbright":true}, {"image":"novakidlit.png:<color>.<frame>"}],
-      "imagePosition" : [-16, -8],
-      "frames" : 8,
-      "animationCycle" : 1,
-      "spaceScan" : 0.1,
-      "anchors" : ["background"]
+  "apexDescription": "This complex machine allows me to bind useful techs.",
+  "avianDescription": "This console lets me bind techs! Useful devices, once you get over the weirdness.",
+  "floranDescription": "This consssole lets Floran bind techs! New techsss always very exciting.",
+  "glitchDescription": "Excited. This console allows me to bind techs.",
+  "humanDescription": "I can bind techs here! What a handy machine.",
+  "hylotlDescription": "Techs are a fascinating advancement in bioengineering. I can bind them here.",
+  "novakidDescription": "With a little know-how, I can use this machine to bind techs.",
+
+  "inputNodes": [[-2, -1]],
+  "scripts": ["techstation.lua"],
+  "animation": "techstation.animation",
+  "animationParts": {
+    "station0": "novakid0.png",
+    "lit0": "novakidlit0.png",
+    "station": "novakid.png",
+    "lit": "novakidlit.png"
+  },
+  "animationPosition": [-16, -8],
+  "active": true,
+
+  "placementImage": "novakid.png:default.2",
+  "placementImagePosition": [-16, -8],
+  "inventoryIcon": "icons.png:6",
+  "orientations": [{
+      "imageLayers": [{
+          "image": "novakid.png:<color>.<frame>",
+          "fullbright": true
+        }, {
+          "image": "novakidlit.png:<color>.<frame>"
+        }
+      ],
+      "imagePosition": [-16, -8],
+      "frames": 8,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
     }
   ]
 }

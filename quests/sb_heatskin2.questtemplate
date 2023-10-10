@@ -22,7 +22,7 @@
   "script": "/quests/scripts/sb_main.lua",
   "scriptConfig": {"portraits" : {"default" : "questGiver"},
     "sb_genderedItem" : "sb_cinema_heat%s",
-    "acceptItems" : [["sb_tech",1,{"techModule":"sb_heatprotection"}],"sb_techstation_glitch"],
+    "acceptItems" : [["sb_tech",1,{"techModule":"sb_heatprotection"}]],
     "requireTurnIn": false,
     "turnInDescription": "Speak to the ^orange;mysterious trader^reset; at the ^orange;outpost^reset;",
     "conditions" : []
