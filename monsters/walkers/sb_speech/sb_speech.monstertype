@@ -94,8 +94,8 @@
 
       "resources": {
         "stunned": {
-          "deltaValue": -1.0,
-          "initialValue": 0.0
+          "deltaValue": -1,
+          "initialValue": 0
         },
         "health": {
           "maxStat": "maxHealth",

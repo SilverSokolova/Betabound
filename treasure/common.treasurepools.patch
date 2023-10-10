@@ -213,7 +213,6 @@
   [{"op":"add","path":"/seed/3/1/pool/-","value":{"weight":3,"item":["crystalplantseed",3]}}],
 
 		//Rare Furniture
-  [{"op":"add","path":"/rarefurniture/0/1/pool/-","value":{"weight":0.03,"item":"sb_paintingesther"}}],
 
 		//Instruments
   [{"op":"add","path":"/instrument/0/1/pool/-","value":{"weight":0.0007,"item":"keyboard"}}],
