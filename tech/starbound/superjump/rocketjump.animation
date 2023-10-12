@@ -1,13 +1,13 @@
 {
-  "animatedParts" : {
-    "stateTypes" : {
-      "jumping" : {
-        "default" : "off",
-        "states" : {
-          "off" : {},
-          "on" : {
-            "properties" : {
-              "persistentSound" : "/sfx/tools/teleport_up.ogg"
+  "animatedParts": {
+    "stateTypes": {
+      "jumping": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "on": {
+            "properties": {
+              "persistentSound": "/sfx/tools/teleport_up.ogg"
             }
           }
         }
@@ -15,39 +15,56 @@
     }
   },
 
-  "particleEmitters" : {
-    "jumpParticles" : {
-      "emissionRate" : 40,
-      "particles" : [
-        {
-          "particle" : "dash",
-          "flip" : true
+  "particleEmitters": {
+    "jumpParticles": {
+      "emissionRate": 40,
+      "particles": [{
+          "particle": "dash",
+          "flip": true
         }
       ]
     },
-    "rocketParticles" : {
-      "emissionRate" : 50,
-      "particles" : [
-	{"particle":"jetboots2","offset":[-0.15,0]},
-	{"particle":"jetboots","offset":[-0.15,0]},
-	{"particle":"jetboots3","offset":[-0.15,0]},
-	{"particle":"jetboots2","offset":[0.15,0]},
-	{"particle":"jetboots","offset":[0.15,0]},
-	{"particle":"jetboots3","offset":[0.15,0]}
+    "rocketParticles": {
+      "emissionRate": 50,
+      "particles": [{
+          "particle": "jetboots2",
+          "offset": [-0.15, 0]
+        }, {
+          "particle": "jetboots",
+          "offset": [-0.15, 0]
+        }, {
+          "particle": "jetboots3",
+          "offset": [-0.15, 0]
+        }, {
+          "particle": "jetboots2",
+          "offset": [0.15, 0]
+        }, {
+          "particle": "jetboots",
+          "offset": [0.15, 0]
+        }, {
+          "particle": "jetboots3",
+          "offset": [0.15, 0]
+        }
       ]
     },
-    "chargedParticles" : {
-      "emissionRate" : 20,
-      "particles" : [
-        {"particle":"jumpboost","offset":[-0.15,0]},
-        {"particle":"jetboots2","offset":[0.15,0]},
-        {"particle":"jetboots3","offset":[0,0.15]}
+    "chargedParticles": {
+      "emissionRate": 20,
+      "particles": [{
+          "particle": "jumpboost",
+          "offset": [-0.15, 0]
+        }, {
+          "particle": "jetboots2",
+          "offset": [0.15, 0]
+        }, {
+          "particle": "jetboots3",
+          "offset": [0, 0.15]
+        }
       ]
     }
   },
 
-  "sounds" : {
-    "charge" : ["/sfx/gun/dragonhead_charge1.ogg"],
-    "jumpSound" : ["/sfx/tech/tech_rocketjump_release.ogg"]
+  "sounds": {
+    "charge": ["/sfx/gun/dragonhead_charge1.ogg"],
+    "jumpSound": ["/sfx/tech/tech_rocketjump_release.ogg"]
   }
 }

@@ -14,12 +14,12 @@ function update(args)
   local action = input(args)
 
   if action == "activate"
-      and not tech.parentLounging()
-      and world.resolvePolyCollision(bounceCollisionPoly, mcontroller.position(), 1)
-      and status.overConsumeResource("energy", energyUsageRate * args.dt) then
-
-    activate()
-  elseif action == "deactivate" or (active and not status.overConsumeResource("energy", energyUsageRate * args.dt)) then
+    and not tech.parentLounging()
+    and world.resolvePolyCollision(bounceCollisionPoly, mcontroller.position(), 1)
+    and status.overConsumeResource("energy", energyUsageRate * args.dt) then
+  activate()
+  elseif action == "deactivate"
+    or (active and (not status.overConsumeResource("energy", energyUsageRate * args.dt) or tech.parentLounging())) then
     deactivate()
   end
 

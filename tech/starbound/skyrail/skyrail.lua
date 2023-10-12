@@ -2,8 +2,6 @@ require "/scripts/vec2.lua"
 require "/scripts/rails.lua"
 require "/scripts/util.lua"
 
-
-
 function init()
 --INPUT ACTION CONSTANTS
 
@@ -68,11 +66,13 @@ end
 --UPDATE HANDLING: General & Offrail
 ------------------------------------------------------------------------------------------
 function update(args)
-
+  if self.active and tech.parentLounging() then
+    self.active = false
+  end
 
     --Handle active/unactive state of skyrail rider + calling onrail / offrail update.
     --if args.moves["special1"] then
-    if args.moves["special1"] and not self.lastAction2 then
+    if args.moves["special1"] and not self.lastAction2 and not tech.parentLounging() then
         self.active = not self.active
         if self.onRail then
             leaveRail()
@@ -88,10 +88,10 @@ function update(args)
             update_onrail(args) tech.setParentState("Fly")
         else
             update_offrail(args)
- tech.setParentState()
+            tech.setParentState()
         end
     else
- tech.setParentState()
+        tech.setParentState()
         animator.setAnimationState("skyrail", "off")
         animator.setAnimationState("skyrailbg", "off")
     end

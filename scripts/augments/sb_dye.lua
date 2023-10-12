@@ -11,9 +11,9 @@ function apply(input)
       used = output:instanceValue("directives")~=defaultDirectives
       output:setInstanceValue("directives",defaultDirectives) goto a end
       if dyeDirectives and output:instanceValue("sb_backingDirectives","")..dyeDirectives..output:instanceValue("sb_extraDirectives","") ~= output:instanceValue("directives","") then
-	output:setInstanceValue("directives", output:instanceValue("sb_backingDirectives","")..dyeDirectives..output:instanceValue("sb_extraDirectives",""))
-	local inventoryIcon = output:instanceValue("inventoryIcon")
-	used = true
+        output:setInstanceValue("directives", output:instanceValue("sb_backingDirectives","")..dyeDirectives..output:instanceValue("sb_extraDirectives",""))
+        local inventoryIcon = output:instanceValue("inventoryIcon")
+        used = true
       end else return appl(input) end
   ::a::
   return output:descriptor(), config.getParameter("sb_reusable",used) and 1 or 0
