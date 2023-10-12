@@ -86,7 +86,7 @@
     },
     "jumpForce_right": {
       "type": "DirectionalForceRegion",
-      "rectRegion": [0, 0, -12, 2],
+      "rectRegion": [1, 0, -11, 2],
       "xTargetVelocity": 350,
       "controlForce": 505
     },
@@ -98,7 +98,7 @@
     },
     "jumpForce_top": {
       "type": "DirectionalForceRegion",
-      "rectRegion": [0, 0, 2, -12],
+      "rectRegion": [0, 1, 2, -11],
       "yTargetVelocity": 650,
       "controlForce": 344
     }

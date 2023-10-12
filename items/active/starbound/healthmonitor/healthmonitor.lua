@@ -15,11 +15,11 @@ function update(dt)
   k = 1
   for i = 1, #c do
     for j = 1, #c[i] do
-      localAnimator.addDrawable({image="/interface/sb_numbers.png:"..c[i]:sub(j,j).."?replace;fff="..colors[c[i]==m[i] and 1 or 2][i],fullbright=true,position={pos[1]+(k/1.6),pos[2]}},"overlay")
+      localAnimator.addDrawable({image="/interface/sb_numbers.png:"..c[i]:sub(j,j).."?replace;fff="..colors[c[i]==m[i] and 1 or 2][i]..";000=0000?border;1;333;0000",fullbright=true,position={pos[1]+(k/1.6),pos[2]}},"overlay")
       k=k+1
     end
     if i ~= #c then
-      localAnimator.addDrawable({image="/interface/sb_numbers.png:13",fullbright=true,position={pos[1]+(k/1.6),pos[2]}},"overlay")
+      localAnimator.addDrawable({image="/interface/sb_numbers.png:13?replace;000=0000?border;1;333;0000",fullbright=true,position={pos[1]+(k/1.6),pos[2]}},"overlay")
       k=k+1
     end
   end

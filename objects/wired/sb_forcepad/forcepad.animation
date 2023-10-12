@@ -7,7 +7,7 @@
           "off": {
             "frames": 1,
             "properties": {
-              "particleEmittersOff": [ "left", "right", "top", "bottom" ]
+              "particleEmittersOff": ["left", "right", "top", "bottom"]
             }
           },
           "on": {
@@ -44,22 +44,23 @@
     "left": {
       "active": false,
       "emissionRate": 200,
-      "offsetRegion": [6,0,1.2,2],
-      "particles": [
-        {
+      "offsetRegion": [6, 0, 1.2, 2],
+      "particles": [{
           "particle": {
             "type": "streak",
             "size": 1,
-            "color": [220,220,220,200],
+            "color": [220, 220, 220, 200],
             "fade": 0.9,
-            "position": [0,0],
-            "initialVelocity": [12,0],
-            "finalVelocity": [0,0],
+            "position": [0, 0],
+            "initialVelocity": [12, 0],
+            "finalVelocity": [0, 0],
             "destructionTime": 0,
-            "approach": [0,10],
+            "approach": [0, 10],
             "timeToLive": 0.5,
             "length": 2,
-            "variance": {"initialVelocity": [3,1]}
+            "variance": {
+              "initialVelocity": [3, 1]
+            }
           }
         }
       ]
@@ -67,22 +68,23 @@
     "right": {
       "active": false,
       "emissionRate": 200,
-      "offsetRegion": [6,0,1.2,2],
-      "particles": [
-        {
+      "offsetRegion": [6, 0, 1.2, 2],
+      "particles": [{
           "particle": {
             "type": "streak",
             "size": 1,
-            "color": [220,220,220,200],
+            "color": [220, 220, 220, 200],
             "fade": 0.9,
-            "position": [0,0],
-            "initialVelocity": [12,0],
-            "finalVelocity": [0,0],
+            "position": [0, 0],
+            "initialVelocity": [12, 0],
+            "finalVelocity": [0, 0],
             "destructionTime": 0,
-            "approach": [0,10],
+            "approach": [0, 10],
             "timeToLive": 0.5,
             "length": 2,
-            "variance": {"initialVelocity": [3,1]}
+            "variance": {
+              "initialVelocity": [3, 1]
+            }
           }
         }
       ]
@@ -90,22 +92,23 @@
     "top": {
       "active": false,
       "emissionRate": 200,
-      "offsetRegion": [0,-1.2,2,-6],
-      "particles": [
-        {
+      "offsetRegion": [0, -1.2, 2, -4],
+      "particles": [{
           "particle": {
             "type": "streak",
             "size": 1,
-            "color": [220,220,220,200],
+            "color": [220, 220, 220, 200],
             "fade": 0.9,
-            "position": [0,0],
-            "initialVelocity": [0,-12],
-            "finalVelocity": [0,0],
+            "position": [0, 1],
+            "initialVelocity": [0, -12],
+            "finalVelocity": [0, 0],
             "destructionTime": 0,
-            "approach": [0,-10],
+            "approach": [0, -10],
             "timeToLive": 0.5,
             "length": 2,
-            "variance": {"initialVelocity": [1,-3]}
+            "variance": {
+              "initialVelocity": [1, -3]
+            }
           }
         }
       ]
@@ -113,22 +116,23 @@
     "bottom": {
       "active": false,
       "emissionRate": 200,
-      "offsetRegion": [0,6,2,1.2],
-      "particles": [
-        {
+      "offsetRegion": [0, 6, 2, 1.2],
+      "particles": [{
           "particle": {
             "type": "streak",
             "size": 1,
-            "color": [220,220,220,200],
+            "color": [220, 220, 220, 200],
             "fade": 0.9,
-            "position": [0,0],
-            "initialVelocity": [0,12],
-            "finalVelocity": [0,0],
+            "position": [0, 0],
+            "initialVelocity": [0, 12],
+            "finalVelocity": [0, 0],
             "destructionTime": 0,
-            "approach": [0,10],
+            "approach": [0, 10],
             "timeToLive": 0.5,
             "length": 2,
-            "variance": {"initialVelocity": [1,3]}
+            "variance": {
+              "initialVelocity": [1, 3]
+            }
           }
         }
       ]
