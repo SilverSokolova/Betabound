@@ -1,6 +1,6 @@
 {
-  "input" : ["avesmingo","sugar"],
-  "output" : "sb_cordialglass",
-  "groups" : ["craftingfood","drinks","sb_power","sb_healing","sb_t1food","all"],
+  "input" : ["avesmingo","banana","sugar"],
+  "output" : ["sb_cordialglass",2],
+  "groups" : ["craftingfood","drinks","sb_healing","sb_energy","sb_energyregen","sb_mobility","all"],
   "collectables" : {"cooking":"sb_cordialglass"}
 }

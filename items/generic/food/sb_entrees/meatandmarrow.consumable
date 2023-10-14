@@ -1,18 +1,23 @@
 {
-  "itemName" : "sb_meatandmarrow",
-  "price" : 210,
-  "foodValue" : 35,
-  "tooltipKind" : "sb_object4",
-  "rarity" : "unCommon",
-  "inventoryIcon" : "meatandmarrow.png",
-  "category" : "food",
-  "effects" : [[
-	{"effect":"ragefood","duration":315},
-	"sb_foodheal120"
-  ]],
-  "description" : "It's exactly what it says on the tin, if only it had come in a tin.",
-  "shortdescription" : "Meat n' Marrow",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 2
+  "itemName": "sb_meatandmarrow",
+  "price": 220,
+  "foodValue": 40,
+  "tooltipKind": "sb_object4",
+  "rarity": "uncommon",
+  "inventoryIcon": "meatandmarrow.png",
+  "category": "preparedFood",
+  "effects": [[{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 180
+      }, {
+        "effect": "ragefood",
+        "duration": 180
+      },
+      "sb_foodheal135"
+    ]],
+  "description": "It's exactly what it says on the tin, if only it had come in a tin.",
+  "shortdescription": "Meat n' Marrow",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 2
 }

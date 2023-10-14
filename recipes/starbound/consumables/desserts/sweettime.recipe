@@ -1,6 +1,6 @@
 {
   "input" : ["oculemon","sugar","diodia"],
   "output" : "sb_sweettime",
-  "groups" : ["craftingfood","desserts","sb_healing","sb_mobility","sb_electrified","all"],
+  "groups" : ["craftingfood","desserts","sb_healing","sb_health","sb_energy","sb_electrified","all"],
   "collectables" : {"cooking":"sb_sweettime"}
 }

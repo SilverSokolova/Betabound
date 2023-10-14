@@ -10,14 +10,11 @@
   "description": "A crumble that holds a charge.",
   "shortdescription": "Black Current Crumble",
   "effects": [[{
-        "effect": "maxhealthscalingboostfood",
-        "duration": 135
-      }, {
         "effect": "maxenergyscalingboostfood",
-        "duration": 135
+        "duration": 203
       }, {
         "effect": "electrified",
-        "duration": 135
+        "duration": 203
       },
       "sb_foodheal145"
     ]],

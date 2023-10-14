@@ -10,7 +10,6 @@
 [{"op":"test","path":"/collectables/pizza","inverse":true},{"op":"add","path":"/collectables/pizza","value":{"order":8,"item":"pizza"}}],
 [{"op":"add","path":"/collectables/sb_poachedavesmingo","value":{"order":9,"item":"sb_poachedavesmingo"}}],
 [{"op":"add","path":"/collectables/sb_thespecial","value":{"order":10,"item":"sb_thespecial"}}],
-[{"op":"add","path":"/collectables/sb_soup","value":{"order":11,"item":"sb_soup"}}],
 [{"op":"add","path":"/collectables/sb_vegetablesoup","value":{"order":12,"item":"sb_vegetablesoup"}}],
 [{"op":"add","path":"/collectables/sb_roastpoultry","value":{"order":36.9,"item":"sb_roastpoultry"}}],
 

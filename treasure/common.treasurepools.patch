@@ -254,6 +254,7 @@
   [{"op":"add","path":"/produce/0/1/pool/-","value":{"weight":1,"item":"sb_rottenapple"}}],
   [{"op":"add","path":"/produce/0/1/pool/-","value":{"weight":1,"item":"sb_soylentgreen"}}],
 
+  [{"op":"add","path":"/produce/1/1/pool/-","value":{"weight":2,"item":["redapple",3]}}],
   [{"op":"add","path":"/produce/1/1/pool/-","value":{"weight":2,"item":["orange",3]}}],
   [{"op":"add","path":"/produce/1/1/pool/-","value":{"weight":1,"item":"sb_rawfleshlump"}}],
 
@@ -269,6 +270,7 @@
   [{"op":"add","path":"/produce/6/1/pool/-","value":{"weight":1,"item":"sb_soylentgreen"}}],
   [{"op":"add","path":"/produce/6/1/pool/-","value":{"weight":1,"item":"sb_rawfleshlump"}}],
   [{"op":"add","path":"/produce/6/1/pool/-","value":{"weight":3,"item":["sb_poisoncreep",3]}}],
+  [{"op":"add","path":"/produce/6/1/pool/-","value":{"weight":2,"item":["redapple",3]}}],
   [{"op":"add","path":"/produce/6/1/pool/-","value":{"weight":2,"item":["orange",3]}}],
   [{"op":"add","path":"/produce/6/1/pool/-","value":{"weight":2,"item":["crystalplant",3]}}],
 

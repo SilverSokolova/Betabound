@@ -62,8 +62,7 @@
         {"weight" : 0.1, "item" : "sb_alienburger-recipe"},
         {"weight" : 0.1, "item" : "sb_burrito-recipe"},
         {"weight" : 0.1, "item" : "sb_chilistew-recipe"},
-        {"weight" : 0.1, "item" : "sb_hamsandwich-recipe"},
-        {"weight" : 0.1, "item" : "sb_soup-recipe"}
+        {"weight" : 0.1, "item" : "sb_hamsandwich-recipe"}
       ],
       "poolRounds" : [
         [0.55, 1],

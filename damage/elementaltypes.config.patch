@@ -1,30 +1,17 @@
 [
-    [{
-	"op": "add",
-	"path": "/sb_frozenburning_fire",
-	"value": {
-	    "resistanceStat": "fireResistance",
-	    "damageNumberParticles": {
-		"hit": "sb_frozenburning_firedamagenumber",
-		"stronghit": "sb_frozenburning_firedamagenumberstrong",
-		"weakhit": "sb_frozenburning_firedamagenumberweak",
-		"shieldhit": "sb_frozenburning_firedamagenumber",
-		"kill": "sb_frozenburning_firedamagenumber"
-	    }
-	}
-    }],
-    [{
-	"op": "add",
-	"path": "/sb_frozenburning_ice",
-	"value": {
-	    "resistanceStat": "iceResistance",
-	    "damageNumberParticles": {
-		"hit": "sb_frozenburning_icedamagenumber",
-		"stronghit": "sb_frozenburning_icedamagenumberstrong",
-		"weakhit": "sb_frozenburning_icedamagenumberweak",
-		"shieldhit": "sb_frozenburning_icedamagenumber",
-		"kill": "sb_frozenburning_icedamagenumber"
-	    }
-	}
-    }]
+  [{
+      "op": "add",
+      "path": "/sb_frozenburning",
+      "value": {
+        "resistanceStat": "fireResistance",
+        "damageNumberParticles": {
+          "hit": "sb_frozenburningdamagenumber",
+          "stronghit": "sb_frozenburningdamagenumberstrong",
+          "weakhit": "sb_frozenburningdamagenumberweak",
+          "shieldhit": "sb_frozenburningdamagenumber",
+          "kill": "sb_frozenburningdamagenumber"
+        }
+      }
+    }
+  ]
 ]

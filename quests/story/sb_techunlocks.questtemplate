@@ -1,35 +1,36 @@
 {
-  "id" : "sb_techunlocks",
-  "prerequisites" : [],
-  "showAcceptDialog" : false,
-  "showCompleteDialog" : false,
-  "showFailDialog" : false,
-  "showInLog" : false,
-  "canBeAbandoned" : false,
-  "title" : "",
-  "text" : "",
-  "completionText" : "",
-  "moneyRange" : [0, 0],
-  "rewards" : [],
-  "questGiverIndicator" : "mainquestgiver",
-  "questReceiverIndicator" : "mainquestreceiver",
+  "id": "sb_techunlocks",
+  "prerequisites": [],
+  "showAcceptDialog": false,
+  "showCompleteDialog": false,
+  "showFailDialog": false,
+  "showInLog": false,
+  "canBeAbandoned": false,
+  "title": "",
+  "text": "",
+  "completionText": "",
+  "moneyRange": [0, 0],
+  "rewards": [],
+  "questGiverIndicator": "mainquestgiver",
+  "questReceiverIndicator": "mainquestreceiver",
 
-  "updateDelta" : 0,
-  "script" : "/quests/scripts/story/sb_techunlocks.lua",
-  "scriptConfig" : {
-    "portraits" : {},
-    "descriptions" : {},
-    "radioMessage" : "The following tech%s ha%s been made available:\n%s\nYou can purchase tech at a tech console using tech cards.",
-    "adjectives" : [["","s"],["s","ve"]],
-    "quests" : ["human_mission1","floran_mission2","hylotl_mission2","avian_mission2","apex_mission2","glitch_mission2"],
-    "techTiers" : [
-	[["sb_doublejump","sb_dash","sb_bounce"],[]],
-	[["sb_groundsmash","sb_rocketjump","sb_boat"],[]],
-	[["sb_morphball","sb_gravitybubble","sb_lightrig","skyrail"],[]],
-	[["sb_targetblink","sb_ftlboost","sb_rocketboots"],[]],
-	[["sb_bubbleboost"],["sb_energyregen","sb_shield"]],
-	[["sb_humanmech_NOTNOW","sb_particlethrust"],["sb_regeneration"]]
+  "updateDelta": 0,
+  "script": "/quests/scripts/story/sb_techunlocks.lua",
+  "scriptConfig": {
+    "portraits": {},
+    "descriptions": {},
+    "radioMessages": [
+      "The following tech has been made available:\n%s\nYou can purchase tech at a tech console using tech cards.",
+      "The following techs have been made available:\n%s\nYou can purchase tech at a tech console using tech cards."
+    ],
+    "quests": ["human_mission1", "floran_mission2", "hylotl_mission2", "avian_mission2", "apex_mission2", "glitch_mission2"],
+    "techTiers": [
+      [["sb_doublejump", "sb_dash", "sb_bounce"], []],
+      [["sb_groundsmash", "sb_rocketjump", "sb_boat"], []],
+      [["sb_morphball", "sb_gravitybubble", "sb_lightrig", "skyrail"], []],
+      [["sb_targetblink", "sb_ftlboost", "sb_rocketboots"], []],
+      [["sb_bubbleboost"], ["sb_energyregen", "sb_shield"]],
+      [["sb_humanmech_NOTNOW", "sb_particlethrust"], ["sb_regeneration"]]
     ]
-//  "completionQuest" : "destroyruin"
   }
 }

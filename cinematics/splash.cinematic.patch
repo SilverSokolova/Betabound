@@ -14,6 +14,9 @@
       "path": "/betabound:skip",
       "inverse": true
     }, {
+      "op": "test",
+      "path": "/audio/0" //This game is cursed. Ok so 1772263578 causes infinite loading unless we do this
+    }, {
       "op": "add",
       "path": "/panels/-",
       "value": {

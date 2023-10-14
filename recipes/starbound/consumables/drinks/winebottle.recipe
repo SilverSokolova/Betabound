@@ -1,5 +1,5 @@
 {
-  "input" : [["avesmingo",2],"grapes","sugar"],
+  "input" : ["pussplum","grapes","sugar"],
   "output" : "sb_winebottle",
   "groups" : ["craftingfood","drinks","sb_power","sb_healing","sb_health","all"],
   "collectables" : {"cooking":"sb_winebottle"}

@@ -124,7 +124,6 @@
         ,{"weight" : 0.7, "item" : "sb_alienburger"}
         ,{"weight" : 0.55, "item" : "sb_burrito"}
         ,{"weight" : 0.6, "item" : "sb_hamsandwich"}
-        ,{"weight" : 0.85, "item" : "sb_soup"}
 
         ,{"weight" : 0.9, "item" : "sb_roastcacti"}
 

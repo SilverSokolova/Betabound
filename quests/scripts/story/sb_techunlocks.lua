@@ -1,13 +1,12 @@
 require "/scripts/util.lua"
 
 function init()
+  skipMessage = config.getParameter("skipMessage", false)
   local quests = config.getParameter("quests")
   for i = 1, #quests do
     if player.hasCompletedQuest(quests[i]) then unlockTech(i) end
   end
---if player.hasCompletedQuest(config.getParameter("completionQuest",quest.templateId())) then
---  quest.fail()
---end
+
   message.setHandler("objectScanned", function(_, a, _, id)
     if a == false then return end
     if id == nil then return end
@@ -24,7 +23,7 @@ function unlockTech(tier)
   local techs, suits = techTiers[tier], 0
   techs, suits = techs[1], techs[2]
   local newTechs = {}
-  local unlockMessage = config.getParameter("radioMessage")
+  local unlockMessage = config.getParameter("radioMessages")
 
   for i = 1, #techs do
     if root.hasTech(techs[i]) and not ownsTech(techs[i]) then newTechs[#newTechs+1] = techs[i] player.makeTechAvailable(techs[i]) end
@@ -33,12 +32,12 @@ function unlockTech(tier)
     if root.hasTech(suits[i]) and not ownsSuit(suits[i]) then newTechs[#newTechs+1] = suits[i] player_makeSuitAvailable(suits[i]) end
   end
 
-  if #newTechs == 0 then return end
-  local adjectives = config.getParameter("adjectives")[#newTechs==1 and 1 or 2]
+  if skipMessage or #newTechs == 0 then return end
+  local msg = #newTechs == 1 and 1 or 2
   local a = ""
   for i = 1, #newTechs do a = a..root.techConfig(newTechs[i]).shortDescription..(i~=#newTechs and ", " or ".") end
   newTechs = a
-  player.radioMessage({messageId=sb.makeUuid(),unique=false,text=string.format(unlockMessage,adjectives[1],adjectives[2],newTechs)})
+  player.radioMessage({messageId=sb.makeUuid(),unique=false,text=string.format(unlockMessage[msg],newTechs)})
 end
 
 function player_makeSuitAvailable(suit)

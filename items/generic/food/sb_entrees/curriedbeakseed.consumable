@@ -16,7 +16,7 @@
         "duration": 90
       }, {
         "effect": "burning",
-        "duration": 10
+        "duration": 5
       },
       "sb_foodheal50"
     ]],

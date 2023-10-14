@@ -44,7 +44,7 @@ function apply(input)
     end
 
     local maxStack = item.maxStack or 0
-    if maxStack > root.assetJson("/items/defaultParameters.config:defaultMaxStack")) then
+    if maxStack > root.assetJson("/items/defaultParameters.config:defaultMaxStack") then
       output.parameters.maxStack = maxStack
     end
     output.parameters.timeToRot = nil

@@ -1,7 +1,7 @@
 {
   "itemName": "sb_chilistew",
-  "price": 165,
-  "foodValue": 30,
+  "price": 175,
+  "foodValue": 35,
   "tooltipKind": "sb_object",
   "rarity": "unCommon",
   "sb_plateHide": true,
@@ -10,15 +10,15 @@
   "description": "A delicious beefy chilli. Spicy!",
   "effects": [[{
         "effect": "maxhealthscalingboostfood",
-        "duration": 135
+        "duration": 158
       }, {
         "effect": "nova",
-        "duration": 135
+        "duration": 158
       }, {
         "effect": "burning",
-        "duration": 10
+        "duration": 5
       },
-      "sb_foodheal95"
+      "sb_foodheal120"
     ]],
   "rottedItem": "sb_revoltingstew",
   "shortdescription": "Chilli Stew",

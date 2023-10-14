@@ -248,8 +248,6 @@
 [{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_chilistew-recipe"},"rarity":0.01}}],
 [{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_hamsandwich"},"rarity":0.05}}],
 [{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_hamsandwich-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_soup"},"rarity":0.05}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_soup-recipe"},"rarity":0.01}}],
 [{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_vendingmachine"},"rarity":0.01}}],
 
 [{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_meatchunks"},"rarity":0.05}}],
@@ -335,7 +333,6 @@
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_alienburger"}}}],
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_burrito"}}}],
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_hamsandwich"}}}],
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_soup"}}}],
 
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_roastcacti"}}}],
 

@@ -1,19 +1,24 @@
 {
-  "itemName" : "sb_crowncake",
-  "price" : 595,
-  "foodValue" : 60,
-  "tooltipKind" : "sb_object",
-  "rarity" : "rare",
-  "itemTags" : ["sb_cake"],
-  "category" : "preparedFood",
-  "inventoryIcon" : "crowncake.png",
-  "effects" : [[
-	{"effect":"jumpboostfood","duration":540},
-	"sb_foodheal215"
-  ]],
-  "description" : "Pineapple upside CROWN cake! Haha! Get it? Sigh...",
-  "shortdescription" : "Upside-Crown Cake",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 4
+  "itemName": "sb_crowncake",
+  "price": 595,
+  "foodValue": 60,
+  "tooltipKind": "sb_object",
+  "rarity": "rare",
+  "itemTags": ["sb_cake"],
+  "category": "preparedFood",
+  "inventoryIcon": "crowncake.png",
+  "effects": [[{
+        "effect": "runboostfood",
+        "duration": 270
+      }, {
+        "effect": "jumpboostfood",
+        "duration": 270
+      },
+      "sb_foodheal215"
+    ]],
+  "description": "Pineapple upside CROWN cake! Haha! Get it? Sigh...",
+  "shortdescription": "Upside-Crown Cake",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 4
 }

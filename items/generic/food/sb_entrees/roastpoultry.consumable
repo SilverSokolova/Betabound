@@ -1,21 +1,27 @@
 {
-  "itemName" : "sb_roastpoultry",
-  "price" : 280,
-  "foodValue" : 45,
-  "tooltipKind" : "sb_object",
-  "sb_plateHide" : true,
-  "rarity" : "Rare",
-  "inventoryIcon" : "roastpoultry.png",
-  "category" : "preparedFood",
-  "description" : "A beautiful, juicy platter of roasted poultry.",
-  "effects" : [[
-	{"effect":"maxhealthscalingboostfood","duration":203},
-	{"effect":"nova","duration":203},
-	{"effect":"burning","duration":10},
-	"sb_foodheal145"
-  ]],
-  "shortdescription" : "Roasted Poultry",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 2
+  "itemName": "sb_roastpoultry",
+  "price": 280,
+  "foodValue": 45,
+  "tooltipKind": "sb_object",
+  "sb_plateHide": true,
+  "rarity": "Rare",
+  "inventoryIcon": "roastpoultry.png",
+  "category": "preparedFood",
+  "description": "A beautiful, juicy platter of roasted poultry.",
+  "effects": [[{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 203
+      }, {
+        "effect": "nova",
+        "duration": 203
+      }, {
+        "effect": "burning",
+        "duration": 5
+      },
+      "sb_foodheal145"
+    ]],
+  "shortdescription": "Roasted Poultry",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 2
 }

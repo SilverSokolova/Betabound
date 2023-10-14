@@ -1,21 +1,18 @@
 {
   "itemName": "sb_poachedavesmingo",
-  "price": 270,
-  "foodValue": 25,
+  "price": 500,
+  "foodValue": 40,
   "effects": [[{
+        "effect": "runboostfood",
+        "duration": 180
+      }, {
         "effect": "ragefood",
-        "duration": 75
-      }, {
-        "effect": "maxhealthscalingboostfood",
-        "duration": 75
-      }, {
-        "effect": "jumpboostfood",
-        "duration": 75
+        "duration": 180
       },
-      "sb_foodheal70"
+      "sb_foodheal135"
     ]],
   "tooltipKind": "sb_object4",
-  "rarity": "common",
+  "rarity": "uncommon",
   "category": "preparedFood",
   "inventoryIcon": "poachedavesmingo.png",
   "description": "A sweet avesmingo poached in potent wartjuice. A pretty expensive dish.",

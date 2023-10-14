@@ -1,19 +1,21 @@
 {
-  "itemName" : "sb_dirtea",
-  "price" : 95,
-  "foodValue" : 10,
-  "effects" : [[
-	{"effect":"ragefood","duration":90},
-	"sb_foodheal25"
-  ]],
-  "tooltipKind" : "sb_object4",
-  "rarity" : "Common",
-  "category" : "drink",
-  "inventoryIcon" : "dirtea.png",
-  "description" : "Tea made by steeping dried dirturchin leaves in boiling water. A traditional drink.",
-  "shortdescription" : "Dirtea",
-  "emitters" : ["drinking"],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 3
+  "itemName": "sb_dirtea",
+  "price": 95,
+  "foodValue": 10,
+  "effects": [[{
+        "effect": "ragefood",
+        "duration": 90
+      },
+      "sb_foodheal25"
+    ]],
+  "tooltipKind": "sb_object4",
+  "rarity": "Common",
+  "category": "drink",
+  "inventoryIcon": "dirtea.png",
+  "description": "Tea made by steeping dried dirturchin leaves in boiling water. A traditional drink.",
+  "shortdescription": "Dirtea",
+  "emitters": ["drinking"],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 3
 }

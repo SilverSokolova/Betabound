@@ -1,5 +1,5 @@
 {
-  "input" : ["avesmingo","sb_wartjuice"],
+  "input" : ["avesmingo","sb_wartwine"],
   "output" : "sb_poachedavesmingo",
   "groups" : ["craftingfood","mains","sb_health","sb_power","sb_mobility","sb_healing","sb_t1food","all"],
   "collectables" : {"cooking":"sb_poachedavesmingo"}
