@@ -3,7 +3,7 @@
   "price": 95,
   "foodValue": 10,
   "effects": [[{
-        "effect": "ragefood",
+        "effect": "maxhealthscalingboostfood",
         "duration": 90
       },
       "sb_foodheal25"

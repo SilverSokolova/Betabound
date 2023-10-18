@@ -1,11 +1,17 @@
 {
-  "name" : "sb_radiationprotectiontech",
-  "effectConfig" : { "statModifierGroup" : [
-    {"stat":"biomeradiationImmunity","amount":1},
-    {"stat":"poisonResistance","amount":0.25}
-  ]},
-  "defaultDuration" : 5,
-  "scripts" : ["suit.lua"],
-  "label" : "Radiation Protection",
-  "icon" : "rad.png"
+  "name": "sb_radiationprotectiontech",
+  "effectConfig": {
+    "statModifierGroup": [{
+        "stat": "biomeradiationImmunity",
+        "amount": 1
+      }, {
+        "stat": "poisonResistance",
+        "amount": 0.25
+      }
+    ]
+  },
+  "defaultDuration": 5,
+  "scripts": ["suit.lua"],
+  "label": "Radiation Protection",
+  "icon": "rad.png"
 }

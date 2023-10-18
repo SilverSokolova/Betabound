@@ -1,13 +1,13 @@
 {
-  "name" : "sb_tanktech",
-  "effectConfig" : {
-    "tech" : "sb_tank"
+  "name": "sb_tanktech",
+  "effectConfig": {
+    "tech": "sb_tank"
   },
-  "defaultDuration" : 5,
+  "defaultDuration": 5,
 
-  "scripts" : ["tank.lua"],
-  "animationConfig" : "tank.animation",
+  "scripts": ["tank.lua"],
+  "animationConfig": "tank.animation",
 
-  "label" : "Tanky",
-  "icon" : "/tech/starbound/tank.png"
+  "label": "Tanky",
+  "icon": "/tech/starbound/tank.png"
 }

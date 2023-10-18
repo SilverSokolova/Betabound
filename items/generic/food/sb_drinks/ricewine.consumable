@@ -1,20 +1,26 @@
 {
-  "itemName" : "sb_ricewine",
-  "rarity" : "Common",
-  "inventoryIcon" : "ricewine.png",
-  "foodValue" : 25,
-  "description" : "A traditional Hylotl drink with a very potent flavor.",
-  "shortdescription" : "Rice Wine",
-  "category" : "drink",
-  "price" : 180,
-  "tooltipKind" : "sb_object",
-  "effects" : [[
-	{"effect":"ragefood","duration":225},
-	"sb_foodheal70"
-  ]],
-  "emitters" : ["drinking"],
-  "handPosition" : [1, -3],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 10
+  "itemName": "sb_ricewine",
+  "rarity": "Common",
+  "inventoryIcon": "ricewine.png",
+  "foodValue": 25,
+  "description": "A traditional Hylotl drink with a very potent flavor.",
+  "shortdescription": "Rice Wine",
+  "category": "drink",
+  "subtitle": "sb_alcohol",
+  "price": 180,
+  "tooltipKind": "sb_object",
+  "effects": [[{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 113
+      },{
+        "effect": "ragefood",
+        "duration": 113
+      },
+      "sb_foodheal70"
+    ]],
+  "emitters": ["drinking"],
+  "handPosition": [1, -3],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 10
 }

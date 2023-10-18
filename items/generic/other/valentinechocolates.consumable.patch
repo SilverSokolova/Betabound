@@ -125,7 +125,7 @@
       "path": "/effects/0/-",
       "value": {
         "effect": "runboostfood",
-        "duration": 180
+        "duration": 540
       }
     }
   ]

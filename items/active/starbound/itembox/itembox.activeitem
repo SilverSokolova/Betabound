@@ -1,24 +1,32 @@
 {
-  "itemName" : "sb_itembox",
-  "price" : 10,
-  "maxStack" : 1,
-  "rarity" : "Legendary",
-  "tooltipKind" : "sb_object",
-  "category" : "other",
-  "tooltipFields" : {"subtitle" : "Mysterious Reward"},
-  "description" : "A parcel, wrapped up nicely with ribbon!",
-  "shortdescription" : "Parcel",
-  "twoHanded" : true,
-  "sb_dyeable" : true,
-  "directives" : "?replace;ffca8a=b2e89d;e0975c=51bd3b;a85636=247824",
+  "itemName": "sb_itembox",
+  "price": 10,
+  "maxStack": 1,
+  "rarity": "Legendary",
+  "tooltipKind": "sb_object",
+  "category": "other",
+  "tooltipFields": {
+    "subtitle": "Mysterious Reward"
+  },
+  "description": "A parcel, wrapped up nicely with ribbon!",
+  "shortdescription": "Parcel",
+  "twoHanded": true,
+  "sb_dyeable": true,
+  "directives": "?replace;ffca8a=b2e89d;e0975c=51bd3b;a85636=247824",
 
-  "inventoryIcon" : "itembox.png<directives>",
-  "animation" : "itembox.animation",
-  "animationCustom" : {"animatedParts":{"gun":"itembox.png<directives>"}},
-  "animationParts" : {"gun":"itembox.png<directives>"},
-  "scripts" : ["itembox.lua"],
-  "builder" : "/items/buildscripts/starbound/builditembox.lua",
+  "inventoryIcon": "itembox.png<directives>",
+  "animation": "itembox.animation",
+  "animationCustom": {
+    "animatedParts": {
+      "gun": "itembox.png<directives>"
+    }
+  },
+  "animationParts": {
+    "gun": "itembox.png<directives>"
+  },
+  "scripts": ["itembox.lua"],
+  "builder": "/items/buildscripts/starbound/builditembox.lua",
 
-  "fireTime" : 2,
-  "items" : "sb_wrappingpaper"
+  "fireTime": 2,
+  "items": "sb_wrappingpaper"
 }

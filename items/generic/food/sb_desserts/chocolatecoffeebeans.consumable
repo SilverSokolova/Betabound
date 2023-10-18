@@ -1,20 +1,26 @@
 {
-  "itemName" : "sb_chocolatecoffeebeans",
-  "price" : 300,
-  "foodValue" : 30,
-  "tooltipKind" : "sb_object4b",
-  "rarity" : "unCommon",
-  "inventoryIcon" : "chocolatecoffeebeans.png",
-  "category" : "preparedFood",
-  "effects" : [[
-	{"effect":"maxenergyscalingboostfood","duration":135},
-	{"effect":"sb_energyregen96","duration":135},
-	{"effect":"runboostfood","duration":135},
-	"sb_foodheal95"
-  ]],
-  "description" : "Roasted coffee beans covered in chocolate. A fine mix of sweet and bitter flavours.",
-  "shortdescription" : "Chocolate Coffee Beans",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 8
+  "itemName": "sb_chocolatecoffeebeans",
+  "price": 300,
+  "foodValue": 30,
+  "tooltipKind": "sb_object4b",
+  "rarity": "unCommon",
+  "inventoryIcon": "chocolatecoffeebeans.png",
+  "category": "preparedFood",
+  "effects": [[{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 135
+      }, {
+        "effect": "sb_energyregen96",
+        "duration": 135
+      }, {
+        "effect": "runboostfood",
+        "duration": 135
+      },
+      "sb_foodheal95"
+    ]],
+  "description": "Roasted coffee beans covered in chocolate. A fine mix of sweet and bitter flavours.",
+  "shortdescription": "Chocolate Coffee Beans",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 8
 }

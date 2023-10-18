@@ -1,6 +1,8 @@
 {
-  "name" : "sb_groundsmashknockbackX",
-  "effectConfig" : {"X":"X"},
-  "defaultDuration" : 0.1,
-  "scripts" : ["groundsmashknockback.lua"]
+  "name": "sb_groundsmashknockbackX",
+  "effectConfig": {
+    "X": "X"
+  },
+  "defaultDuration": 0.1,
+  "scripts": ["groundsmashknockback.lua"]
 }

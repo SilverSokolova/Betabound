@@ -13,14 +13,16 @@ function build(directory, config, parameters)
   else
     local foodValue = parameters.foodValue or config.foodValue
     if foodValue then
-      local untrailingValue = string.format("%.0f",foodValue,0)
-      fields.foodValueLabel = "Food: "..untrailingValue
-      fields.foodAmountLabel = "Food: "..untrailingValue
+      fields.foodValueLabel = "Food: "..foodValue
+      fields.foodAmountLabel = "Food: "..foodValue
     end
   end
 
   local subtitle = parameters.subtitle or config.subtitle
-  if subtitle then fields.subtitle = subtitle end
+  if subtitle then
+    local subtitles = root.assetJson("/items/categories.config:labels")
+    fields.subtitle = subtitles[subtitle] or subtitles["other"]
+  end
   parameters.tooltipFields = fields
 
   if not config.itemAgingScripts then

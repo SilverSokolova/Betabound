@@ -1,5 +1,5 @@
 {
   "input": ["banana"],
   "output": "sb_roastbanana",
-  "groups": ["campfire", "consumables", "all", "sides", "sb_healing", "sb_energy"]
+  "groups": ["campfire", "consumables", "all", "sides", "sb_healing", "sb_energy", "sb_energyregen"]
 }

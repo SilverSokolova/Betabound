@@ -1,12 +1,12 @@
 {
-  "itemName" : "sb_empty",
-  "shortdescription" : "^clear;",
-  "currency" : "sb_uimessage",
-  "rarity" : "essential",
-  "tooltipKind" : "simpleTooltip",
-  "inventoryIcon" : "/interface/actionbar/actionbarcover.png?replace;000=0000?border=1;000",
-  "value" : 0,
-  "pickupSoundsSmall" : ["/sfx/interface/item_equip.ogg"],
-  "pickupSoundsMedium" : [""],
-  "pickupSoundsLarge" : [""]
+  "itemName": "sb_empty",
+  "shortdescription": "^clear;",
+  "currency": "sb_uimessage",
+  "rarity": "essential",
+  "tooltipKind": "simpleTooltip",
+  "inventoryIcon": "/interface/actionbar/actionbarcover.png?replace;000=0000?border=1;000",
+  "value": 0,
+  "pickupSoundsSmall": ["/sfx/interface/item_equip.ogg"],
+  "pickupSoundsMedium": [""],
+  "pickupSoundsLarge": [""]
 }

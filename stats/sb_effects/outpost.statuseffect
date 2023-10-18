@@ -23,7 +23,7 @@
         [416, 611], //warrior
         [404, 611], //hater (was 508,610)
         [412, 614], //mercenary (seed was 14)
-        [69, 69], //scholar
+        [328, 611], //scholar
         [377, 614], //forge + backup comedy script location
         [286, 611], //santa
         [356, 641], //garbage
@@ -38,9 +38,9 @@
         [416, 611], //warrior
         [710, 611], //hater
         [412, 614], //mercenary
-        [69, 69], //scholar
+        [412, 614], //scholar
         [377, 614], //forge
-        [286, 611], //santa
+        [0, 0], //santa
         [444, 580], //garbage
         [0, 0]//kennel
       ]

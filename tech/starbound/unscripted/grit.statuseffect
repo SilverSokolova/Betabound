@@ -1,6 +1,6 @@
 {
-  "name" : "sb_grittech",
-  "defaultDuration" : 1,
-  "label" : "Grit+",
-  "icon" : "/tech/starbound/grit.png"
+  "name": "sb_grittech",
+  "defaultDuration": 1,
+  "label": "Grit+",
+  "icon": "/tech/starbound/grit.png"
 }

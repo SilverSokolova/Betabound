@@ -1,19 +1,23 @@
 {
-  "itemName" : "sb_batteryacid",
-  "price" : 95,
-  "foodValue" : 10,
-  "effects" : [[
-	{"effect":"maxenergyscalingboostfood","duration":90},
-	"weakpoison"
-  ]],
-  "tooltipKind" : "sb_object",
-  "rarity" : "Common",
-  "inventoryIcon" : "batteryacid.png",
-  "category" : "drink",
-  "description" : "Luckily, not actual battery acid!",
-  "shortdescription" : "Battery Acid",
-  "emitters" : ["drinking"],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 10
+  "itemName": "sb_batteryacid",
+  "price": 95,
+  "foodValue": 10,
+  "effects": [[{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 45
+      }, {
+        "effect": "electrified",
+        "duration": 45
+      }
+    ]],
+  "tooltipKind": "sb_object",
+  "rarity": "Common",
+  "inventoryIcon": "batteryacid.png",
+  "category": "drink",
+  "description": "Luckily, not actual battery acid!",
+  "shortdescription": "Battery Acid",
+  "emitters": ["drinking"],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 10
 }

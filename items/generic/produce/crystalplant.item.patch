@@ -6,5 +6,7 @@
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_liquifiedcrystal"}],
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_crystalcandy"}],
-[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_crystaljam"}]
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_crystaljam"}],
+[{"op":"test","path":"/builder","value":"/items/buildscripts/buildfood.lua"},{"op":"replace","path":"/builder","value":"/items/buildscripts/starbound/buildfood.lua"}],
+[{"op":"test","path":"/builder","inverse":true},{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildfood.lua"}]
 ]

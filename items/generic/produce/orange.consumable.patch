@@ -7,5 +7,6 @@
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_orangejuice"}],
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_orangejam"}],
 
-[{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":1.5}]
+[{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":1.5}],
+[{"op":"test","path":"/builder","value":"/items/buildscripts/buildfood.lua"},{"op":"replace","path":"/builder","value":"/items/buildscripts/starbound/buildfood.lua"}]
 ]

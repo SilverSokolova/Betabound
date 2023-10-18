@@ -7,7 +7,10 @@
   "inventoryIcon": "sb_candy.png",
   "category": "preparedFood",
   "description": "Hard candy. It probably won't do much for me if I'm starving, but it sure is tasty.",
-  "effects": [[
+  "effects": [[{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 45
+      },
       "sb_foodheal10"
     ]],
   "shortdescription": "Candy",

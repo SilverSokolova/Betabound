@@ -40,8 +40,6 @@ function init()
 
   self.lightning = config.getParameter("lightning")
 
-  if world.getProperty("sb_envprobe") == false then vanish() return end
---if math.random(1,5) <= 2 then status.addEphemeralEffect("monsterdespawn") end
   capturable.init()
 end
 
@@ -186,13 +184,6 @@ function scanTarget(dt)
   monster.setDeathSound(nil)
   status.addEphemeralEffect("monsterdespawn")
   while true do coroutine.yield() end
-end
-
-function vanish()
-  monster.setDropPool(nil)
-  monster.setDeathParticleBurst(nil)
-  monster.setDeathSound(nil)
-  status.addEphemeralEffect("monsterdespawn")
 end
 
 function shouldDie()

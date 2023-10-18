@@ -1,11 +1,17 @@
 {
-  "name" : "sb_heatprotectiontech",
-  "effectConfig" : { "statModifierGroup" : [
-    {"stat":"biomeheatImmunity","amount":1},
-    {"stat":"fireResistance","amount":0.25}
-  ]},
-  "defaultDuration" : 5,
-  "scripts" : ["suit.lua"],
-  "label" : "Heat Protection",
-  "icon" : "heat.png"
+  "name": "sb_heatprotectiontech",
+  "effectConfig": {
+    "statModifierGroup": [{
+        "stat": "biomeheatImmunity",
+        "amount": 1
+      }, {
+        "stat": "fireResistance",
+        "amount": 0.25
+      }
+    ]
+  },
+  "defaultDuration": 5,
+  "scripts": ["suit.lua"],
+  "label": "Heat Protection",
+  "icon": "heat.png"
 }

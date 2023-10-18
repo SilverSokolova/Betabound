@@ -1,5 +1,6 @@
 [[{"op":"test","path":"/groups"},
 {"op":"add","path":"/groups/-","value":"sb_healing"},
 {"op":"add","path":"/groups/-","value":"sb_energy"},
-{"op":"add","path":"/groups/-","value":"sb_energyregen"}
+{"op":"add","path":"/groups/-","value":"sb_energyregen"},
+{"op":"add","path":"/groups/-","value":"sb_mobility"}
 ]]

@@ -9,6 +9,7 @@
 
   "scripts" : ["booster.lua"],
   "animator" : "particlethrust.animation",
+  "chipCost" : 10,
 
   "boostControlForce" : 750,
   "boostSpeed" : 20,

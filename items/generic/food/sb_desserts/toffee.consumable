@@ -1,19 +1,21 @@
 {
-  "itemName" : "sb_toffee",
-  "price" : 375,
-  "foodValue" : 40,
-  "tooltipKind" : "sb_object",
-  "rarity" : "uncommon",
-  "inventoryIcon" : "toffee.png",
-  "category" : "food",
-  "effects" : [[
-	{"effect":"sb_sugarrush","duration":160},
-	"sb_foodheal135"
-  ]],
-  "description" : "Toffee! A common ingredient in sweets.",
-  "learnBlueprintsOnPickup" : ["sb_toffeeapple","sb_sweetmeat"],
-  "shortdescription" : "Toffee",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 5
+  "itemName": "sb_toffee",
+  "price": 200,
+  "foodValue": 25,
+  "tooltipKind": "sb_object",
+  "rarity": "common",
+  "inventoryIcon": "toffee.png",
+  "category": "food",
+  "effects": [[{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 225
+      },
+      "sb_foodheal70"
+    ]],
+  "description": "Toffee! A common ingredient in sweets.",
+  "learnBlueprintsOnPickup": ["sb_toffeeapple", "sb_sweetmeat"],
+  "shortdescription": "Toffee",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 5
 }

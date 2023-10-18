@@ -1,18 +1,26 @@
 {
-  "itemName" : "sb_sweetmeat",
-  "price" : 500,
-  "foodValue" : 50,
-  "tooltipKind" : "sb_object",
-  "rarity" : "rare",
-  "category" : "preparedFood",
-  "inventoryIcon" : "sweetmeat.png",
-  "effects" : [[
-	{"effect":"sb_sugarrush","duration":450},
-	"sb_foodheal170"
-  ]],
-  "description" : "A sweet dish inspired by the Florans-- toffee'd beacon.",
-  "shortdescription" : "Toffee Bacon",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 2
+  "itemName": "sb_sweetmeat",
+  "price": 280,
+  "foodValue": 35,
+  "tooltipKind": "sb_object",
+  "rarity": "uncommon",
+  "category": "preparedFood",
+  "inventoryIcon": "sweetmeat.png",
+  "effects": [[{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 158
+      },{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 158
+      },{
+        "effect": "sb_restoration",
+        "duration": 20
+      },
+      "sb_foodheal120"
+    ]],
+  "description": "A sweet dish inspired by the Florans-- toffee'd beacon.",
+  "shortdescription": "Toffee Bacon",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 2
 }

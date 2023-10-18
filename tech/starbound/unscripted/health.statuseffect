@@ -1,6 +1,6 @@
 {
-  "name" : "sb_healthtech",
-  "defaultDuration" : 5,
-  "label" : "Health+",
-  "icon" : "/tech/starbound/health.png"
+  "name": "sb_healthtech",
+  "defaultDuration": 5,
+  "label": "Health+",
+  "icon": "/tech/starbound/health.png"
 }

@@ -1,6 +1,6 @@
 {
   "input" : ["kiwi","wheat","diodia"],
   "output" : "sb_copperkeypie",
-  "groups" : ["craftingfood","desserts","sb_energy","sb_electrified","sb_healing","all"],
+  "groups" : ["craftingfood","desserts","sb_energy","sb_mobility","sb_electrified","sb_healing","all"],
   "collectables" : {"cooking":"sb_copperkeypie"}
 }

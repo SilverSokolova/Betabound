@@ -44,7 +44,7 @@
 
         ,{"weight" : 0.6, "item" : "sb_vegetablesoup"}
 
-        ,{"weight" : 0.65, "item" : "sb_applepie"}
+        ,{"weight" : 0.55, "item" : "sb_applepie"}
         ,{"weight" : 0.75, "item" : "sb_candiedpearlpeas"}
 
         ,{"weight" : 0.85, "item" : "sb_ricevinegar"}
@@ -127,15 +127,15 @@
 
         ,{"weight" : 0.9, "item" : "sb_roastcacti"}
 
-        ,{"weight" : 0.75, "item" : "sb_butter"}
-        ,{"weight" : 0.75, "item" : "sb_toast"}
+        ,{"weight" : 0.925, "item" : "sb_butter"}
+        ,{"weight" : 0.8, "item" : "sb_toast"}
         ,{"weight" : 0.75, "item" : "sb_cake"}
         ,{"weight" : 0.95, "item" : "sb_candy"}
         ,{"weight" : 0.75, "item" : "sb_carrotcake"}
         ,{"weight" : 0.7, "item" : "sb_chocolatecoffeebeans"}
 
         ,{"weight" : 0.9, "item" : "sb_batteryacid"}
-        ,{"weight" : 0.8, "item" : "sb_meatjuice"}
+        ,{"weight" : 0.6, "item" : "sb_meatjuice"}
         ,{"weight" : 0.85, "item" : "sb_orangejuice"}
 
         ,{"weight" : 0.985, "item" : "soda"}
@@ -201,28 +201,28 @@
         ,{"weight" : 0.8, "item" : "sb_crystalchips"}
 
         ,{"weight" : 0.75, "item" : "sb_bananabread"}
-        ,{"weight" : 0.45, "item" : "sb_brineapple"}
+        ,{"weight" : 0.5, "item" : "sb_brineapple"}
         ,{"weight" : 0.4, "item" : "sb_crowncake"}
-        ,{"weight" : 0.9, "item" : "sb_crystalcandy"}
+        ,{"weight" : 0.85, "item" : "sb_crystalcandy"}
         ,{"weight" : 0.7, "item" : "sb_crystaljam"}
-        ,{"weight" : 0.5, "item" : "sb_crystalpie"}
+        ,{"weight" : 0.65, "item" : "sb_crystalpie"}
         ,{"weight" : 0.6, "item" : "sb_crystaltart"}
         ,{"weight" : 0.75, "item" : "sb_icecream"}
-        ,{"weight" : 0.7, "item" : "sb_lollypop"}
+        ,{"weight" : 0.65, "item" : "sb_lollypop"}
         ,{"weight" : 0.7, "item" : "sb_orangejam"}
         ,{"weight" : 0.65, "item" : "sb_orangepie"}
         ,{"weight" : 0.6, "item" : "sb_orangetart"}
         ,{"weight" : 0.65, "item" : "sb_peanutbutterjar"}
-        ,{"weight" : 0.6, "item" : "sb_pussplumpie"}
+        ,{"weight" : 0.55, "item" : "sb_pussplumpie"}
         ,{"weight" : 0.65, "item" : "sb_thornjam"}
-        ,{"weight" : 0.6, "item" : "sb_toffee"}
-        ,{"weight" : 0.7, "item" : "sb_toffeeapple"}
-        ,{"weight" : 0.5, "item" : "sb_sweetmeat"}
+        ,{"weight" : 0.75, "item" : "sb_toffee"}
+        ,{"weight" : 0.65, "item" : "sb_toffeeapple"}
+        ,{"weight" : 0.65, "item" : "sb_sweetmeat"}
         ,{"weight" : 0.6, "item" : "sb_chocolate"}
 
         ,{"weight" : 0.9, "item" : "sb_dirtea"}
         ,{"weight" : 0.85, "item" : "sb_liquifiedcrystal"}
-        ,{"weight" : 0.65, "item" : "sb_meatwine"}
+        ,{"weight" : 0.45, "item" : "sb_meatwine"}
         ,{"weight" : 0.65, "item" : "sb_weyene"}
         ,{"weight" : 0.6, "item" : "sb_whiskeybottle"}
         ,{"weight" : 0.7, "item" : "sb_whiskeyflask"}
@@ -275,7 +275,7 @@
         {"weight" : 0.35, "item" : "toxictart"},
         {"weight" : 0.65, "item" : "toxictopjam"}
 
-        ,{"weight" : 0.75, "item" : "sb_poachedavesmingo"}
+        ,{"weight" : 0.6, "item" : "sb_poachedavesmingo"}
 
         ,{"weight" : 0.75, "item" : "sb_eggfriedrice"}
 
@@ -284,7 +284,7 @@
         ,{"weight" : 0.5, "item" : "sb_sweettime"}
 
         ,{"weight" : 0.8, "item" : "sb_boltedmilk"}
-        ,{"weight" : 0.8, "item" : "sb_oculemonade"}
+        ,{"weight" : 0.65, "item" : "sb_oculemonade"}
 
         ,{"weight" : 0.985, "item" : "soda"}
         ,{"weight" : 0.985, "item" : "reefcola"}
@@ -313,8 +313,8 @@
         ,{"weight" : 0.7, "item" : "sb_cordialglass"}
         ,{"weight" : 0.9, "item" : "sb_wartjuice"}
         ,{"weight" : 0.75, "item" : "sb_wartwine"}
-        ,{"weight" : 0.55, "item" : "sb_wineglass"}
-        ,{"weight" : 0.4, "item" : "sb_winebottle"}
+        ,{"weight" : 0.7, "item" : "sb_wineglass"}
+        ,{"weight" : 0.55, "item" : "sb_winebottle"}
 
         ,{"weight" : 0.985, "item" : "soda"}
         ,{"weight" : 0.985, "item" : "reefcola"}
@@ -347,7 +347,7 @@
         {"weight" : 0.6, "item" : "wartweedstew"}
 
 
-        ,{"weight" : 0.7, "item" : "sb_chilistew"}
+        ,{"weight" : 0.55, "item" : "sb_chilistew"}
         ,{"weight" : 0.8, "item" : "sb_curriedbeakseed"}
 
         ,{"weight" : 0.9, "item" : "sb_orangenergyglass"}

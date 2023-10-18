@@ -3,7 +3,11 @@
   "rarity": "rare",
   "price": 90,
   "foodValue": 60,
-  "effects": [["foodpoison"]],
+  "effects": [[{
+        "effect": "foodpoison",
+        "duration": 5
+      }
+    ]],
   "tooltipKind": "sb_object",
   "inventoryIcon": "offal.png",
   "category": "food",

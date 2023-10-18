@@ -1,19 +1,24 @@
 {
-  "itemName" : "sb_roastbanana",
-  "rarity" : "Common",
-  "category" : "preparedFood",
-  "inventoryIcon" : "roastbanana.png",
-  "description" : "Not as tasty or filling as a battered banana, but undeniably better for you.",
-  "shortdescription" : "Roasted Banana",
-  "price" : 150,
-  "effects" : [[
-	{"effect":"maxenergyscalingboostfood","duration":60},
-	"sb_foodheal35"
-  ]],
-  "foodValue" : 15,
-  "tooltipKind" : "sb_object4",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 2.5,
-  "learnBlueprintsOnPickup" : ["sb_roastbanana"]
+  "itemName": "sb_roastbanana",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "inventoryIcon": "roastbanana.png",
+  "description": "Not as tasty or filling as a battered banana, but undeniably better for you.",
+  "shortdescription": "Roasted Banana",
+  "price": 150,
+  "effects": [[{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 60
+      },{
+        "effect": "sb_energyregen",
+        "duration": 60
+      },
+      "sb_foodheal35"
+    ]],
+  "foodValue": 15,
+  "tooltipKind": "sb_object4",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 2.5,
+  "learnBlueprintsOnPickup": ["sb_roastbanana"]
 }

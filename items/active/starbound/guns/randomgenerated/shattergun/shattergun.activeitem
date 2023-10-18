@@ -28,7 +28,7 @@
   },
 
   "elementalType": "physical",
- //TODO: needs to use gun2 ability (not shotgun)
+  //TODO: needs to use gun2 ability (not shotgun)
   "primaryAbility": {
     "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
     "class": "GunFire",

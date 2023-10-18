@@ -1,21 +1,21 @@
 {
   "itemName": "sb_pussplumpie",
-  "price": 235,
-  "foodValue": 40,
+  "price": 245,
+  "foodValue": 45,
   "tooltipKind": "sb_object",
-  "rarity": "uncommon",
+  "rarity": "rare",
   "inventoryIcon": "pussplumpie.png",
   "effects": [[{
         "effect": "maxhealthscalingboostfood",
-        "duration": 180
+        "duration": 203
       }, {
         "effect": "ragefood",
-        "duration": 180
+        "duration": 203
       }, {
         "effect": "bouncy",
-        "duration": 30
+        "duration": 15
       },
-      "sb_foodheal135"
+      "sb_foodheal145"
     ]],
   "category": "preparedFood",
   "description": "A slice of pussplum pie. The smell is a little off-putting.",

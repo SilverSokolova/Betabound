@@ -1,6 +1,6 @@
 {
   "itemName": "sb_wartwine",
-  "price": 270,
+  "price": 250,
   "foodValue": 25,
   "effects": [[{
         "effect": "runboostfood",
@@ -13,6 +13,7 @@
     ]],
   "tooltipKind": "sb_object4",
   "category": "drink",
+  "subtitle": "sb_alcohol",
   "rarity": "common",
   "inventoryIcon": "wartwine.png",
   "description": "Popular Avian wine of wartweed and fermented grapes.",

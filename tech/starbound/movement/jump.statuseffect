@@ -1,7 +1,7 @@
 {
-  "name" : "sb_jumptech",
-  "defaultDuration" : 5,
-  "scripts" : ["jump.lua"],
-  "label" : "Jump+",
-  "icon" : "/tech/starbound/jump.png"
+  "name": "sb_jumptech",
+  "defaultDuration": 5,
+  "scripts": ["jump.lua"],
+  "label": "Jump+",
+  "icon": "/tech/starbound/jump.png"
 }

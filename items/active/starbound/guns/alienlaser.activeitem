@@ -6,10 +6,9 @@
   "tooltipKind": "sb_gun2",
   "tooltipFields": {
     "damageKindImage": "/projectiles/guns/plasmabullets/fireplasma/icon.png",
-    "damageKindBImage": "/projectiles/guns/plasmabullets/electricplasma/icon.png",
+    "damageKindBImage": "/projectiles/guns/plasmabullets/electricplasma/icon.png"
     //  "damageKindImage" : "/interface/elements/fire.png",
-    //  "damageKindBImage" : "/interface/elements/electric.png",
-    "subtitle": "Alien Gun"
+    //  "damageKindBImage" : "/interface/elements/electric.png"
   },
   "itemTags": ["weapon", "ranged", "pistol", "upgradeableWeapon"],
   "category": "pistol",

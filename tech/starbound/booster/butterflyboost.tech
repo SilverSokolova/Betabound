@@ -10,6 +10,7 @@
 
   "scripts" : ["booster.lua"],
   "animator" : "butterflyboost.animation",
+  "chipCost" : 10,
 
   "boostControlForce" : 750,
   "boostSpeed" : 30,

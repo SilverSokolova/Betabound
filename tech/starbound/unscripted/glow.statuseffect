@@ -1,7 +1,7 @@
 {
-  "name" : "sb_glowtech",
-  "defaultDuration" : 5,
-  "animationConfig" : "glow.animation",
-  "label" : "Glowing",
-  "icon" : "/tech/starbound/glow.png"
+  "name": "sb_glowtech",
+  "defaultDuration": 5,
+  "animationConfig": "glow.animation",
+  "label": "Glowing",
+  "icon": "/tech/starbound/glow.png"
 }

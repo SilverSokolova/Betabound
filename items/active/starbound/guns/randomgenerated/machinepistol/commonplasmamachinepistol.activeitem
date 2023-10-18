@@ -4,7 +4,7 @@
   "rarity": "common",
   "baseOffset": [-0.25, 0.25],
   "muzzleOffset": [0, 0.375],
-  "category": "pistol",
+  "category": "machinePistol",
   "twoHanded": false,
   "level": 1,
   "paletteSwaps": "",

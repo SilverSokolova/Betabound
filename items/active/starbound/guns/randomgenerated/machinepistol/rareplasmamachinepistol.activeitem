@@ -9,7 +9,7 @@
   "tooltipKind": "sb_gun2",
   "description": "A small fully automatic plasma pistol.",
   "shortdescription": "Rare Plasma Machine Pistol",
-  "category": "pistol",
+  "category": "machinePistol",
   "twoHanded": false,
   "level": 1,
   "tooltipFields": {

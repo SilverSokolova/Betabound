@@ -1,0 +1,6 @@
+[
+  //NOTE: Betabound uses these as custom tooltipFields subtitles, and uses *only vanilla categories* as the category!
+  //This means that the category shown to the player is different than the actual category used by Starbound to sort items in the inventory.
+  //So, you don't need to do anything for your custom inventory mod.
+  {"op":"add","path":"/labels/sb_alcohol","value":"Alcohol"}
+]

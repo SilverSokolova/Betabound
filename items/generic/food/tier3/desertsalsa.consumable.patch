@@ -9,5 +9,9 @@
 [{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":10}],
 
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
+[{"op":"test","path":"/effects/0/0/duration","value":383},{"op":"replace","path":"/effects/0/0/duration","value":192}],
+[{"op":"test","path":"/effects/0/1/duration","value":383},{"op":"replace","path":"/effects/0/1/duration","value":192}],
+[{"op":"add","path":"/effects/0/-","value":{"effect":"maxenergyscalingboostfood","duration":192}}],
+[{"op":"add","path":"/effects/0/-","value":{"effect":"electrified","duration":192}}],
 [{"op":"add","path":"/effects/0/-","value":"sb_foodheal315"}]
 ]

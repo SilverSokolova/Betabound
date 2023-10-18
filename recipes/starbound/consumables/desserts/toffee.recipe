@@ -1,6 +1,6 @@
 {
   "input" : ["sb_butter","sugar"],
   "output" : "sb_toffee",
-  "groups" : ["craftingfood","desserts","sb_healing","sb_mobility","sb_t1food","all"],
+  "groups" : ["craftingfood","desserts","sb_healing","sb_energy","sb_t1food","all"],
   "collectables" : {"cooking":"sb_toffee"}
 }

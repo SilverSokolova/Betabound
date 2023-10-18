@@ -1,22 +1,29 @@
 {
-  "itemName" : "sb_oculemonade",
-  "price" : 200,
-  "foodValue" : 20,
-  "effects" : [[
-	{"duration":180,"effect":"maxenergyscalingboostfood"},
-	{"duration":10,"effect":"sb_energy"},
-	"sb_foodheal50"
-  ]],
-  "tooltipKind" : "sb_object4",
-  "rarity" : "Common",
-  "category" : "drink",
-  "inventoryIcon" : "oculemonade.png",
-  "description" : "Nothing better on a hot day than a cool, refreshing glass of homemade Oculemonade.",
-  "shortdescription" : "Oculemonade Glass",
-  "emitters" : ["drinking"],
-  "handPosition" : [1, -3],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "learnBlueprintsOnPickup" : ["sb_weyene"],
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 2
+  "itemName": "sb_oculemonade",
+  "price": 200,
+  "foodValue": 35,
+  "effects": [[{
+        "duration": 158,
+        "effect": "maxhealthscalingboostfood"
+      }, {
+        "duration": 158,
+        "effect": "maxenergyscalingboostfood"
+      }, {
+        "duration": 20,
+        "effect": "sb_restoration"
+      },
+      "sb_foodheal120"
+    ]],
+  "tooltipKind": "sb_object4",
+  "rarity": "Uncommon",
+  "category": "drink",
+  "inventoryIcon": "oculemonade.png",
+  "description": "Nothing better on a hot day than a cool, refreshing glass of homemade Oculemonade.",
+  "shortdescription": "Oculemonade Glass",
+  "emitters": ["drinking"],
+  "handPosition": [1, -3],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "learnBlueprintsOnPickup": ["sb_weyene"],
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 2
 }

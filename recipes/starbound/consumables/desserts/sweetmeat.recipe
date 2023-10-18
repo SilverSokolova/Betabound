@@ -1,6 +1,6 @@
 {
   "input" : ["sb_toffee","rawbacon"],
   "output" : "sb_sweetmeat",
-  "groups" : ["craftingfood","desserts","sb_healing","sb_mobility","sb_t1food","all"],
+  "groups" : ["craftingfood","desserts","sb_healing","sb_health","sb_energy","sb_t1food","all"],
   "collectables" : {"cooking":"sb_sweetmeat"}
 }

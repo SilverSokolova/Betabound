@@ -1,13 +1,13 @@
 {
-  "name" : "sb_energyregentech",
-  "effectConfig" : {
-    "tech" : "sb_energyregen"
+  "name": "sb_energyregentech",
+  "effectConfig": {
+    "tech": "sb_energyregen"
   },
-  "defaultDuration" : 5,
+  "defaultDuration": 5,
 
-  "scripts" : ["regen.lua"],
-  "animationConfig" : "energyregen.animation",
+  "scripts": ["regen.lua"],
+  "animationConfig": "energyregen.animation",
 
-  "label" : "Energy Charge",
-  "icon" : "/tech/starbound/energyregen.png"
+  "label": "Energy Charge",
+  "icon": "/tech/starbound/energyregen.png"
 }

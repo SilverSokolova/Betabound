@@ -14,15 +14,15 @@
   },
   "foodValueLabel": {
     "type": "label",
-    "position": [18, 168],
-    "hAnchor": "left",
+    "position": [36, 168],
+    "hAnchor": "mid",
     "centered": true,
     "width": 126
   },
   "foodAmountLabel": {
     "type": "label",
-    "position": [18, 168],
-    "hAnchor": "left",
+    "position": [36, 168],
+    "hAnchor": "mid",
     "centered": true,
     "width": 126
   },
@@ -63,7 +63,7 @@
   },
   "effectLabel": {
     "type": "label",
-    "position": [70, 178],
+    "position": [67.5, 178],
     "wrapWidth": 90,
     "fontSize": 6,
     "lineSpacing": 1,

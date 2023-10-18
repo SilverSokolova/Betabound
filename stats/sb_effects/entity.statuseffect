@@ -1,6 +1,0 @@
-{
-  "name" : "sb_entity",
-  "effectConfig" : {},
-  "defaultDuration" : 1,
-  "scripts" : ["entity.lua"]
-}

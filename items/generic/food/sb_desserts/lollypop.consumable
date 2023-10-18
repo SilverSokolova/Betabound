@@ -1,19 +1,27 @@
 {
-  "itemName" : "sb_lollypop",
-  "price" : 270,
-  "foodValue" : 30,
-  "tooltipKind" : "sb_object4",
-  "rarity" : "unCommon",
-  "inventoryIcon" : "lollypop.png",
-  "handPosition" : [1, -3],
-  "category" : "preparedFood",
-  "effects" : [[
-	{"effect":"sb_sugarrush","duration":270},
-	"sb_foodheal95"
-  ]],
-  "description" : "It's a lollypop! Or, for the uninitiated, a hunk of sugar on a stick.",
-  "shortdescription" : "Lollypop",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 5
+  "itemName": "sb_lollypop",
+  "price": 325,
+  "foodValue": 35,
+  "tooltipKind": "sb_object4",
+  "rarity": "unCommon",
+  "inventoryIcon": "lollypop.png",
+  "handPosition": [-2.7, -2.6],
+  "category": "preparedFood",
+  "effects": [[{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 158
+      }, {
+        "effect": "maxenergyscalingboostfood",
+        "duration": 158
+      }, {
+        "effect": "sb_restoration",
+        "duration": 20
+      },
+      "sb_foodheal120"
+    ]],
+  "description": "It's a lollypop! Or, for the uninitiated, a hunk of sugar on a stick.",
+  "shortdescription": "Lollypop",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 5
 }

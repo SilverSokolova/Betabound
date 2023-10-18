@@ -1,6 +1,6 @@
 {
   "input" : ["wheat","orange","egg"],
   "output" : "sb_orangepie",
-  "groups" : ["craftingfood","desserts","sb_healing","sb_energy","all"],
+  "groups" : ["craftingfood","desserts","sb_healing","sb_health","all"],
   "collectables" : {"cooking":"sb_orangepie"}
 }

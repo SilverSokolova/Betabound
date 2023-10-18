@@ -1,20 +1,29 @@
 {
-  "itemName" : "sb_cordialglass",
-  "price" : 290,
-  "foodValue" : 30,
-  "effects" : [[
-	{"effect":"ragefood","duration":270},
-	"sb_foodheal95"
-  ]],
-  "tooltipKind" : "sb_object",
-  "rarity" : "unCommon",
-  "category" : "drink",
-  "inventoryIcon" : "cordialglass.png",
-  "description" : "A glass of smooth avesmingo cordial.",
-  "shortdescription" : "Avesmingo Cordial Glass",
-  "handPosition" : [0, -2.5],
-  "emitters" : ["drinking"],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 10
+  "itemName": "sb_cordialglass",
+  "price": 290,
+  "foodValue": 30,
+  "effects": [[{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 90
+      },{
+        "effect": "runboostfood",
+        "duration": 90
+      },{
+        "effect": "ragefood",
+        "duration": 90
+      },
+      "sb_foodheal95"
+    ]],
+  "tooltipKind": "sb_object",
+  "rarity": "unCommon",
+  "category": "drink",
+  "subtitle": "sb_alcohol",
+  "inventoryIcon": "cordialglass.png",
+  "description": "A glass of smooth avesmingo cordial.",
+  "shortdescription": "Avesmingo Cordial Glass",
+  "handPosition": [0, -2.5],
+  "emitters": ["drinking"],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 10
 }

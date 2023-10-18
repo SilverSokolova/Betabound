@@ -1,6 +1,6 @@
 {
-  "input" : ["pussplum","grapes","sugar"],
-  "output" : ["sb_wineglass",2],
-  "groups" : ["craftingfood","drinks","sb_power","sb_healing","sb_health","all"],
+  "input" : ["grapes","sugar"],
+  "output" : "sb_wineglass",
+  "groups" : ["craftingfood","drinks","sb_energy","sb_healing","sb_mobility","sb_power","all"],
   "collectables" : {"cooking":"sb_wineglass"}
 }

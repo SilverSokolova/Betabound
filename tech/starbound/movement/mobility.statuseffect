@@ -1,8 +1,8 @@
 {
-  "name" : "sb_mobilitytech",
-  "effectConfig" : {},
-  "defaultDuration" : 5,
-  "scripts" : ["mobility.lua"],
-  "label" : "Mobility+",
-  "icon" : "/tech/starbound/mobility.png"
+  "name": "sb_mobilitytech",
+  "effectConfig": {},
+  "defaultDuration": 5,
+  "scripts": ["mobility.lua"],
+  "label": "Mobility+",
+  "icon": "/tech/starbound/mobility.png"
 }

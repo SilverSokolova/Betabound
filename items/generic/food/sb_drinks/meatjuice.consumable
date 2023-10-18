@@ -1,20 +1,25 @@
 {
-  "itemName" : "sb_meatjuice",
-  "price" : 30,
-  "foodValue" : 20,
-  "effects" : [[
-	{"effect":"ragefood","duration":180},
-	"sb_foodheal50"
-  ]],
-  "tooltipKind" : "sb_object",
-  "rarity" : "Common",
-  "inventoryIcon" : "meatjuice.png",
-  "category" : "drink",
-  "description" : "A drink made of meat juices. Popular among Florans.",
-  "shortdescription" : "Meatjuice",
-  "handPosition" : [0, -2.5],
-  "emitters" : ["drinking"],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 2.5
+  "itemName": "sb_meatjuice",
+  "price": 220,
+  "foodValue": 40,
+  "effects": [[{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 180
+      },{
+        "effect": "ragefood",
+        "duration": 180
+      },
+      "sb_foodheal135"
+    ]],
+  "tooltipKind": "sb_object",
+  "rarity": "Uncommon",
+  "inventoryIcon": "meatjuice.png",
+  "category": "drink",
+  "description": "A drink made of meat juices and boneboo. Popular among Florans.",
+  "shortdescription": "Meatjuice",
+  "handPosition": [0, -2.5],
+  "emitters": ["drinking"],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 2.5
 }

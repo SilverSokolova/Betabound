@@ -7,6 +7,7 @@
   "description" : "Press and hold ^#0f0;[SPACE]^reset; midair to activate the rocket boots!",
   "sb_briefDescription" : "Press and hold ^#0f0;[SPACE]^reset; midair to fly!",
   "shortDescription" : "Rocket Boots",
+  "chipCost" : 6,
 
   "scripts" : ["jetpack.lua"],
   "animator" : "rocketboots.animation",
