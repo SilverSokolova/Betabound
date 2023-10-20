@@ -11,7 +11,8 @@ local function updateNote(a)
   i.parameters.shortdescription = a[1].." "..b.updateNote
   player.giveItem(i)
 end
-xrc0018[1]=function() end
+
+xrc0018[1]=function() local b = root.assetJson("/betabound.config:defaultItems") for i = 1, #b do player.giveItem(b[i]) end end
 xrc0018[2]=function() end
 xrc0018[3]=function() end
 xrc0018[4]=function() quest("sb_kelpquest.gearup","refinery") end
@@ -172,6 +173,25 @@ xrc0018[26]=function()
     end
   end
 end
-xrc0018[27]=function() quest("sb_outpostSkin.gearup","techconsole") end
 
-function xrc0018z_2(cv,yv) for i = yv, cv-1 do xrc0018[i+1]() end end
+--The tech binding stations no longer allow players to equip techs. Give them a techconsole so they have one
+--Give players an ammo guide if they missed it (returning player)
+--We use to have two scripts like this. One was shitty, so I'm ditching it completely now. If there are returning players from when that script was still used, run its code before deleting the version tracker
+xrc0018[27]=function()
+  quest("sb_outpostSkin.gearup","techconsole")
+  if not newPlayer then player.giveItem("sb_gunguide-codex") end
+  local a = status.statusProperty("xrc_0018")
+  if a then
+    if pv == 0 then player.giveItem("sb_inspect") player.giveItem("sb_survivalguide-codex") elseif
+      pv == 1 and player.hasActiveQuest("sb_avianrefugeeE2.gearup") then player.giveBlueprint("paperwingsback") player.giveItem("voxel5k") elseif
+      pv == 2 and #player.shipUpgrades().capabilities > 0 then require("/scripts/sb_assetmissing.lua") local i = "sb_"..(player.species()=="novakid" and "nova" or player.species()).."starter" if sb_itemExists(i) then player.giveItem(i) end elseif
+      pv == 3 and #player.shipUpgrades().capabilities > 0 then require("/scripts/sb_assetmissing.lua") local i = "sb_"..player.species().."tier0shortsword" if sb_itemExists(i) then player.giveItem(i) end
+    end
+    status.setStatusProperty("xrc_0018",nil)
+  end
+end
+
+function xrc0018z_2(cv,yv)
+  newPlayer = yv == 0
+  for i = yv, cv-1 do xrc0018[i+1]() end
+end

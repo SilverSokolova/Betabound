@@ -1,5 +1,4 @@
 [
-
 //stats
 [{"op":"test","path":"/statusControllerSettings/stats/foodDelta/baseValue","value":-0.0583},{"op":"replace","path":"/statusControllerSettings/stats/foodDelta/baseValue","value":-0.0425}], //-51 food over 20 minutes
 [{"op":"test","path":"/statusControllerSettings/resources/food/maxValue","value":70},{"op":"replace","path":"/statusControllerSettings/resources/food/maxValue","value":100}],
@@ -384,7 +383,6 @@
 
 //end
 [{"op":"add","path":"/genericScriptContexts/sb_main","value":"/scripts/player/sb_main.lua"}],
-[{"op":"add","path":"/deploymentConfig/scripts/-","value":"/xrc/deployment/unlock/0018.lua"}],
 [{"op":"add","path":"/deploymentConfig/scripts/-","value":"/xrc/deployment/versioning/tech.lua"}],
 [{"op":"add","path":"/deploymentConfig/scripts/-","value":"/xrc/deployment/versioning/0018z.lua"}],
 [{"op":"add","path":"/genericScriptContexts/sb_blueprints","value":"/scripts/player/sb_blueprints.lua"}],

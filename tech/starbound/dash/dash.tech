@@ -1,23 +1,23 @@
 {
-  "name" : "sb_dash",
-  "type" : "body",
+  "name": "sb_dash",
+  "type": "body",
 
-  "rarity" : "Legendary",
-  "icon" : "/tech/starbound/dash.png",
-  "description" : "A dash which uses energy and has no cooldown! ^green;[A]^reset;/^green;[D]^reset;",
-  "sb_longDescription" : "You can dash while crouching.",
-  "shortDescription" : "Energy Dash",
-  "chipCost" : 10,
+  "rarity": "Legendary",
+  "icon": "/tech/starbound/dash.png",
+  "description": "A dash which uses energy and has no cooldown! ^green;[A]^reset;/^green;[D]^reset;",
+  "sb_longDescription": "You can dash while crouching.",
+  "shortDescription": "Energy Dash",
+  "chipCost": 10,
 
-  "scripts" : ["dash.lua"],
-  "animator" : "dash.animation",
+  "scripts": ["dash.lua"],
+  "animator": "dash.animation",
 
-  "maximumDoubleTapTime" : 0.2,
-  "dashControlForce" : 2000,//600,
-  "dashSpeed" : 40,
-  "dashDuration" : 0.3,
-  "energyUsage" : 35,
-  "stopAfterDash" : false,
-  "groundOnly" : false,
-  "canCrouchDash" : true
+  "maximumDoubleTapTime": 0.2,
+  "dashControlForce": 2000, //600,
+  "dashSpeed": 40,
+  "dashDuration": 0.3,
+  "energyUsage": 35,
+  "stopAfterDash": false,
+  "groundOnly": false,
+  "canCrouchDash": true
 }

@@ -15,7 +15,7 @@
   // ================
 [{"op":"add","path":"/basicmerchant/0/1/-","value":{"item":{"name":"bandage"},"rarity":0.3}}],
 [{"op":"add","path":"/basicmerchant/0/1/-","value":{"item":{"name":"medkit"},"rarity":0.3}}],
-[{"op":"add","path":"/basicmerchant/0/1/-","value":{"item":{"name":"sb_preservatives"},"rarity":0.3,"price":150}}],
+[{"op":"add","path":"/basicmerchant/0/1/-","value":{"item":{"name":"sb_preservatives"},"rarity":0.3}}],
 
   // ================
   //	   Bartender

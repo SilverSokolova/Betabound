@@ -29,7 +29,7 @@
     "hAnchor": "left",
     "vAnchor": "top",
     "wrapWidth": 126,
-    "value": "^gray;Craft ammo at an anvil!"
+    "value": "^green;This weapon can use ammo"
   },
   "altAbilityTitleLabel": {
     "type": "label",

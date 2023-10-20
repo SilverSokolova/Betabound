@@ -67,7 +67,10 @@
 
 ,[{"op":"add","path":"/effectNames/sb_maxenergyboost5","value":{"path":"/stats/effects/maxenergyboost/sb_maxenergyboost5.statuseffect","customLabels":["^#0f0;+ 5 Max Energy^reset;"]}}]
 ,[{"op":"add","path":"/effectNames/sb_maxenergyboost10","value":{"path":"/stats/effects/maxenergyboost/sb_maxenergyboost10.statuseffect","customLabels":["^#0f0;+ 10 Max Energy^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_maxenergyboost15","value":{"path":"/stats/effects/maxenergyboost/sb_maxenergyboost15.statuseffect","customLabels":["^#0f0;+ 15 Max Energy^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_maxenergyboost20","value":{"path":"/stats/effects/maxenergyboost/sb_maxenergyboost20.statuseffect","customLabels":["^#0f0;+ 20 Max Energy^reset;"]}}]
 ,[{"op":"add","path":"/effectNames/sb_maxenergyboost30","value":{"path":"/stats/effects/maxenergyboost/sb_maxenergyboost30.statuseffect","customLabels":["^#0f0;+ 30 Max Energy^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_maxenergyboost40","value":{"path":"/stats/effects/maxenergyboost/sb_maxenergyboost40.statuseffect","customLabels":["^#0f0;+ 40 Max Energy^reset;"]}}]
 
 ,[{"op":"add","path":"/effectNames/sb_berserk","value":{"path":"/tech/starbound/unscripted/berserk.statuseffect","customLabels":["^#0f0;+ Berserk^reset;"]}}]
 

@@ -1,23 +1,64 @@
 [
-  [
-    {"op":"test","path":"/undergroundPlaceables/items"},
-    {"op":"add","path":"/undergroundPlaceables/items/-","value":{"mode":"floor","priority":0,"variants":1,"distribution":"/biomes/distributions.config:undergroundweaponChests","type":"treasureBox","treasureBoxSets":["sb_gunChest"]}}
+  [{
+      "op": "test",
+      "path": "/undergroundPlaceables/items"
+    }, {
+      "op": "add",
+      "path": "/undergroundPlaceables/items/-",
+      "value": {
+        "mode": "floor",
+        "priority": 0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundweaponChests",
+        "type": "treasureBox",
+        "treasureBoxSets": ["sb_gunChest"]
+      }
+    }
   ],
 
-  [
-    {"op":"add","path":"/musicTrack/night/tracks/-","value":"/music/sb_forest-exploration1.ogg"},
-    {"op":"add","path":"/musicTrack/night/tracks/-","value":"/music/sb_forest-exploration2.ogg"},
-    {"op":"add","path":"/musicTrack/day/tracks/-","value":"/music/forest-loop.ogg"}
+  [{
+      "op": "add",
+      "path": "/musicTrack/night/tracks/-",
+      "value": "/music/sb_forest-exploration1.ogg"
+    }, {
+      "op": "add",
+      "path": "/musicTrack/night/tracks/-",
+      "value": "/music/sb_forest-exploration2.ogg"
+    }, {
+      "op": "add",
+      "path": "/musicTrack/day/tracks/-",
+      "value": "/music/forest-loop.ogg"
+    }
   ],
 
-  [
-    {"op":"add","path":"/surfacePlaceables/items/-","value":{
-	  "mode":"floor",
-	  "priority":1,
-	  "variants":1,
-	  "distribution":"/biomes/distributions.config:mainBiomeEncounterDungeon",
-	  "type":"microdungeon",
-	  "microdungeons":["sb_glitchencounter","sb_randomencounter","sb_miniboss"]}
-	}
+  [{
+      "op": "add",
+      "path": "/surfacePlaceables/items/-",
+      "value": {
+        "mode": "floor",
+        "priority": 1,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:mainBiomeEncounterDungeon",
+        "type": "microdungeon",
+        "microdungeons": ["sb_glitchencounter", "sb_randomencounter", "sb_miniboss"]
+      }
+    }
+  ],
+
+  [{
+      "op": "add",
+      "path": "/surfacePlaceables/items/-",
+      "value": {
+        "mode": "floor",
+        "priority": 1,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:denseLarge",
+        "type": "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList": ["wood"],
+        "treeFoliageList": ["greenleaves"]
+      }
+    }
   ]
 ]

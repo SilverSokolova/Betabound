@@ -1,4 +1,5 @@
 [
+[{"op":"test","path":"/printable","inverse":true},{"op":"add","path":"/printable","value":false}],//it only works from one side...
 [{"op":"test","path":"/shortdescription","value":"Cultist Airlock Door"},
 {"op":"replace","path":"/shortdescription","value":"One-way Cultist Airlock"}],
 [{"op":"test","path":"/rarity","value":"Common"},

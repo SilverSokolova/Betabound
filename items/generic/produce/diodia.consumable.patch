@@ -4,5 +4,6 @@
 [{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":5}],
 
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
-[{"op":"add","path":"/effects/0/-","value":{"effect":"sb_maxenergyboost5","duration":90}}]
+[{"op":"add","path":"/effects/0/-","value":{"effect":"sb_maxenergyboost30","duration":34}}],
+[{"op":"add","path":"/effects/0/-","value":{"effect":"electrified","duration":34}}]
 ]

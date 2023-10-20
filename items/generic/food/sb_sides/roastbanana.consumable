@@ -7,11 +7,11 @@
   "shortdescription": "Roasted Banana",
   "price": 150,
   "effects": [[{
-        "effect": "maxenergyscalingboostfood",
-        "duration": 60
+        "effect": "sb_maxenergyboost20",
+        "duration": 135
       },{
         "effect": "sb_energyregen",
-        "duration": 60
+        "duration": 135
       },
       "sb_foodheal35"
     ]],

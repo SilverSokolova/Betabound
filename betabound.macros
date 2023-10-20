@@ -21,6 +21,7 @@
     for n=1,#i do world.spawnItem(i[n]..'dye',entity.position(),30,{sb_reusable=false,rarity='rare'}) end"
   ],
   "sb_beamaxe": ["/spawnitem sb_beamaxe2 1 '{\"upgrades\":[\"size1\",\"size2\",\"size3\",\"range1\",\"range2\",\"range3\",\"power1\",\"power2\",\"power3\",\"liquidcollection\",\"paintmode\",\"wiremode\"],\"canCollectLiquid\":true,\"blockRadius\":5,\"tileDamage\":4.8,\"minBeamWidth\":8,\"minBeamJitter\":0.2}"],
+  "sb_repeatversioning": ["/run status.setStatusProperty('xrc_0018z',status.statusProperty('xrc_0018z')-1)"],
 
   //Completion
   "sb_tech": ["/entityeval if not world then return end local t=root.assetJson('/tech/starbound/tech.config') for i=1,#t do world.spawnItem('sb_tech',entity.position(),1,{techModule=t[i]}) end"],

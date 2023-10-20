@@ -54,6 +54,13 @@
     "centered": true,
     "wrapWidth": 126
   },
+  "ammoLabel": {
+    "type": "label",
+    "position": [16, 51],
+    "hAnchor": "left",
+    "wrapWidth": 126,
+    "value": "^green;This weapon can use ammo"
+  },
   "altAbilityLabel": {
     "type": "label",
     "position": [13.4, 142],

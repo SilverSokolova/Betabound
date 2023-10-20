@@ -33,7 +33,7 @@ function apply(input)
 
     if item.foodValue then
       local foodValue = config.getParameter("foodValueReduction")
-      foodValue = item.foodValue * foodValue
+      foodValue = math.floor(item.foodValue * foodValue)
       output:setInstanceValue("foodValue", foodValue)
 
       local fields = output:instanceValue("tooltipFields",{})

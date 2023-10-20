@@ -1,12 +1,17 @@
 [
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
 [{"op":"test","path":"/tooltipKind","value":"food"},{"op":"replace","path":"/tooltipKind","value":"sb_object"}],
-//[{"op":"test","path":"/description","value":"It's an orange."},{"op":"replace","path":"/description","value":"The colour is named after the fruit."}],
+//[{"op":"test","path":"/description","value":"It's an orange."},{"op":"replace","path":"/description","value":"Earth produce was so replete with citric acids that humanity produced relatively few drinks with them."}],//The colour is named after the fruit. //requires object4b tooltip
+[{"op":"test","path":"/description","value":"It's an orange."},{"op":"replace","path":"/description","value":"An orange. The colour is named after the fruit."}],
 
+[{"op":"add","path":"/sb_plateOffset","value":0.075}],
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_orangejuice"}],
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_orangejam"}],
 
 [{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":1.5}],
-[{"op":"test","path":"/builder","value":"/items/buildscripts/buildfood.lua"},{"op":"replace","path":"/builder","value":"/items/buildscripts/starbound/buildfood.lua"}]
+[{"op":"test","path":"/builder","value":"/items/buildscripts/buildfood.lua"},{"op":"replace","path":"/builder","value":"/items/buildscripts/starbound/buildfood.lua"}],
+
+[{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
+[{"op":"add","path":"/effects/0/-","value":{"effect":"maxhealthboost10","duration":45}}]
 ]
