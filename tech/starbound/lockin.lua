@@ -27,23 +27,34 @@ function lockinTech()
     local tec = root.techType(tech[1]) ~= "Suit" and player.equippedTech(root.techConfig(tech[1]).type) or player.getProperty("sb_bioimplant")
     if tec ~= nil then
       if ownsTech() then
-	suit = root.techType(tec) == "Suit" and true
-	if (tech[1] == tec) or (tech[2] == tec) then
-	  activeItem.setInstanceValue("durabilityHit",0)
-	  local e = {tech[2],tech[1]}
-	  activeItem.setInstanceValue("techModules",e)
-	  local f = config.getParameter("tooltipFields",nil)
-	  if f then e = {objectBImage = f.objectCImage, objectCImage = f.objectBImage,objectImage=""} 
-	  activeItem.setInstanceValue("tooltipFields",e) end
-	  if not suit then
-	  player.equipTech(tech[2])
-	  else
-	  world.sendEntityMessage(player.id(),"sb_implant",tech[2]) end
-	  animator.playSound("success")
-	else sb_uiMessage(6) end
-      else sb_uiMessage(5) end
-    else sb_uiMessage(6) end
-  else sb_uiMessage(3) end tech = config.getParameter("techModules")
+        suit = root.techType(tec) == "Suit" and true
+        if (tech[1] == tec) or (tech[2] == tec) then
+          activeItem.setInstanceValue("durabilityHit",0)
+          local e = {tech[2],tech[1]}
+          activeItem.setInstanceValue("techModules",e)
+          local f = config.getParameter("tooltipFields",nil)
+          if f then
+            e = {objectBImage = f.objectCImage, objectCImage = f.objectBImage,objectImage=""} 
+            activeItem.setInstanceValue("tooltipFields",e)
+          end
+          if not suit then
+            player.equipTech(tech[2])
+          else
+            world.sendEntityMessage(player.id(),"sb_implant",tech[2]) end
+            animator.playSound("success")
+          else
+            sb_uiMessage("techNotBinded")
+          end
+        else
+          sb_uiMessage("techNotKnown")
+        end
+      else
+        sb_uiMessage("techNotBinded")
+      end
+    else
+      sb_uiMessage("techFail")
+    end
+  tech = config.getParameter("techModules")
 end
 
 function ownsTech() return contains(player.enabledTechs(), tech[2]) or contains(player.getProperty("sb_bioimplants",{}), tech[2]) end

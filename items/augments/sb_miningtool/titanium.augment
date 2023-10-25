@@ -1,13 +1,15 @@
 {
-  "itemName" : "sb_titanium_repair",
-  "price" : 40,
-  "tooltipKind" : "sb_object",
-  "rarity" : "uncommon",
-  "category" : "Tool",
-  "tooltipFields" : {"subtitle":"Repair Tool"},
-  "durabilityRegen" : 240,
-  "inventoryIcon" : "titanium.png",
-  "description" : "It's a titanium repair tool.\n^gray;Select repair tool and right-click pickaxe or drill.",
-  "shortdescription" : "Titanium Repair Tool",
-  "scripts" : ["/scripts/augments/sb_ore.lua"]
+  "itemName": "sb_titanium_repair",
+  "price": 40,
+  "tooltipKind": "sb_object",
+  "rarity": "uncommon",
+  "category": "Tool",
+  "tooltipFields": {
+    "subtitle": "Repair Tool"
+  },
+  "durabilityRegen": 240,
+  "inventoryIcon": "titanium.png",
+  "description": "It's a titanium repair tool.\n^gray;Select repair tool and right-click pickaxe or drill",
+  "shortdescription": "Titanium Repair Tool",
+  "scripts": ["/scripts/augments/sb_repair.lua"]
 }

@@ -1,4 +1,9 @@
 function init()
+  animationConfig = config.getParameter("animation")
+  if animationConfig then
+    local itemConfig = root.itemConfig(config.getParameter("itemName"))
+    animationConfig = root.assetJson(animationConfig:sub(1,1) == "/" and animationConfig or itemConfig.directory..itemConfig.config.animation).extraSounds
+  end
   activeItem.setArmAngle(-math.pi / 2)
   swingStart = config.getParameter("swingStart", -60) * math.pi / 180
   swingFinish = config.getParameter("swingFinish", 40) * math.pi / 180
@@ -47,7 +52,15 @@ function update(dt, fireMode)
 
     if currentAngle >= swingFinish then -- and useTimer <= 0 then
       applyAdditionalEffects()
-      animator.playSound(soundSet[math.random(#soundSet)])
+      local selectedSoundSet = soundSet[math.random(#soundSet)]
+      if animationConfig[selectedSoundSet] then
+        animator.playSound(selectedSoundSet)
+        for i = 1, #animationConfig[selectedSoundSet] do
+          animator.playSound(selectedSoundSet..animationConfig[selectedSoundSet][i])
+        end
+      else
+        animator.playSound(selectedSoundSet)
+      end
       if emote then activeItem.emote(emote[math.random(#emote)]) end
       if status.isResource(resource) then
         if giveWellfed and status.resourceMax(resource) <= foodValue + status.resource(resource) then

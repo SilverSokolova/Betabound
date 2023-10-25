@@ -1,6 +1,5 @@
 [
-
-
+//add bunker
 [{"op":"add","path":"/planetTypes/forest/layers/surface/dungeons/-","value":[1,"sb_humanbunker"]}],
 [{"op":"add","path":"/planetTypes/desert/layers/surface/dungeons/-","value":[1,"sb_humanbunker"]}],
 [{"op":"add","path":"/planetTypes/savannah/layers/surface/dungeons/-","value":[1,"sb_humanbunker"]}],
@@ -11,6 +10,7 @@
 [{"op":"add","path":"/planetTypes/volcanic/layers/surface/dungeons/-","value":[1,"sb_humanbunker"]}],
 [{"op":"add","path":"/planetTypes/midnight/layers/surface/dungeons/-","value":[1,"sb_humanbunker"]}],
 [{"op":"add","path":"/planetTypes/scorchedcity/layers/surface/dungeons/-","value":[1,"sb_humanbunker"]}],
+
 
 [{"op":"test","path":"/useSecondaryEnvironmentBiomeIndex","value":false},{"op":"replace","path":"/useSecondaryEnvironmentBiomeIndex","value":true}] //My final design decision is YES because I'm not sure why it's stupid aside from the lag spikes!
 
@@ -27,34 +27,100 @@
 ,[{"op":"add","path":"/regionTypes/deepunderground/subRegion/-","value":"sb_heck"}]
 ,[{"op":"add","path":"/regionTypes/deepunderground/subRegion/-","value":"sb_coralcave"}]
 ,[{"op":"add","path":"/regionTypes/deepunderground/subRegion/-","value":"sb_crystalcave"}]
+//,[{"op":"add","path":"/regionTypes/deepunderground/subRegion/-","value":"sb_sulphur"}],
 
 
 
 //MAKE BIOMES
-	,[{"op":"add","path":"/regionTypes/sb_crystalline","value":{"biome":[[0,["sb_crystalline"]]],"caveLiquid":["lava"],
-	"blockSelector":["remixedMildSurface"],"fgCaveSelector":["surfaceCaves"],"subRegion":[],"bgCaveSelector":["empty"]}}]
+  ,[{
+      "op": "add",
+      "path": "/regionTypes/sb_crystalline",
+      "value": {
+        "biome": [[0, ["sb_crystalline"]]],
+        "caveLiquid": ["lava"],
+        "blockSelector": ["remixedMildSurface"],
+        "fgCaveSelector": ["surfaceCaves"],
+        "subRegion": [],
+        "bgCaveSelector": ["empty"]
+      }
+    }
+  ]
+  ,[{
+      "op": "add",
+      "path": "/regionTypes/sb_rust",
+      "value": {
+        "biome": [[0, ["sb_rust"]]],
+        "blockSelector": ["remixedMildSurface"],
+        "fgCaveSelector": ["surfaceCaves"],
+        "subRegion": [],
+        "bgCaveSelector": ["empty"]
+      }
+    }
+  ],
 
-	,[{"op":"add","path":"/regionTypes/sb_rust","value":{"biome":[[0,["sb_rust"]]],
-	"blockSelector":["remixedMildSurface"],"fgCaveSelector":["surfaceCaves"],"subRegion":[],"bgCaveSelector":["empty"]}}]
-
-	,[{"op":"add","path":"/regionTypes/sb_heck","value":{"biome":[[0,["sb_heck"]]],
-	"fgCaveSelector":["sb_heck"],"fgOreSelector":["richVeins"],"bgOreSelector":["richVeins"],
-	"caveLiquid": ["water"],"caveLiquidSeedDensityRange":[1,2]}}]
-
-
-	,[{"op": "add","path":"/regionTypes/sb_coralcave","value":{"biome":[[0,["sb_coralcave"]]],
-	"fgCaveSelector":["normalCaves"],"fgOreSelector":["normalVeins"],"bgOreSelector":["normalVeins"],
-	"caveLiquid": ["tarliquid"],"caveLiquidSeedDensityRange":[1,2]}}]
-
-	,[{"op": "add","path":"/regionTypes/sb_crystalcave","value":{"biome":[[0,["sb_crystalcave"]]],
-	"fgCaveSelector":["normalCaves"],"fgOreSelector":["normalVeins"],"bgOreSelector":["normalVeins"],
-	"caveLiquid": ["lava"],"caveLiquidSeedDensityRange":[1,2]}}]
-
+//underground
+  [{
+      "op": "add",
+      "path": "/regionTypes/sb_heck",
+      "value": {
+        "biome": [[0, ["sb_heck"]]],
+        "fgCaveSelector": ["sb_heck"],
+        "fgOreSelector": ["richVeins"],
+        "bgOreSelector": ["richVeins"],
+        "caveLiquid": ["sb_tentaclejuice"],
+        "caveLiquidSeedDensityRange": [1, 2]
+      }
+    }
+  ]
+  ,[{
+      "op": "add",
+      "path": "/regionTypes/sb_coralcave",
+      "value": {
+        "biome": [[0, ["sb_coralcave"]]],
+        "fgCaveSelector": ["normalCaves"],
+        "fgOreSelector": ["normalVeins"],
+        "bgOreSelector": ["normalVeins"],
+        "caveLiquid": ["tarliquid"],
+        "caveLiquidSeedDensityRange": [1, 2]
+      }
+    }
+  ]
+  ,[{
+      "op": "add",
+      "path": "/regionTypes/sb_crystalcave",
+      "value": {
+        "biome": [[0, ["sb_crystalcave"]]],
+        "fgCaveSelector": ["normalCaves"],
+        "fgOreSelector": ["normalVeins"],
+        "bgOreSelector": ["normalVeins"],
+        "caveLiquid": ["lava"],
+        "caveLiquidSeedDensityRange": [1, 2]
+      }
+    }
+  ]
+  ,[{
+      "op": "add",
+      "path": "/regionTypes/sb_sulphur",
+      "value": {
+        "biome": [[0, ["sb_sulphur"]]],
+        "fgCaveSelector": ["normalCaves"],
+        "fgOreSelector": ["normalVeins"],
+        "bgOreSelector": ["normalVeins"],
+        "caveLiquid": ["lava"],
+        "caveLiquidSeedDensityRange": [1, 2]
+      }
+    }
+  ]
+  
+//change vanilla biomes
 ,[{"op":"test","path":"/regionTypes/eyepatch/caveLiquid","inverse":true}],[{"op":"add","path":"/regionTypes/eyepatch/caveLiquid","value":[]}]
 ,[{"op":"add","path":"/regionTypes/eyepatch/caveLiquid/-","value":"sb_tentaclejuice"}]
 
 ,[{"op":"test","path":"/regionTypes/flesh/caveLiquid","inverse":true}],[{"op":"add","path":"/regionTypes/flesh/caveLiquid","value":[]}]
 ,[{"op":"add","path":"/regionTypes/flesh/caveLiquid/-","value":"sb_tentaclejuice"}]
+
+,[{"op":"test","path":"/regionTypes/fleshcaves/caveLiquid","inverse":true}],[{"op":"add","path":"/regionTypes/fleshcaves/caveLiquid","value":[]}]
+,[{"op":"add","path":"/regionTypes/fleshcaves/caveLiquid/-","value":"sb_tentaclejuice"}]
 
 ,[{
     "op": "add",

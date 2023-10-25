@@ -1,8 +1,51 @@
 {
-  "name" : "sb_outpostnpcspawner",
-  "effectConfig" : {},
-  "defaultDuration" : 1,
-  "icon" : "/interface/bookmarks/icons/outpost.png",
-  "label" : "This effect is used to populate the Outpost with some NPC's and quest items.",
-  "scripts" : ["outpost.lua"]
+  "name": "sb_outpostnpcspawner",
+  //Other mods can just patch the default positions
+  "effectConfig": {
+    "npcs": [
+      ["human", "outposthumanexcon", 46],
+      ["avian", "outpostavianrefugee", 25],
+      ["apex", "outpostapexscientist", 7],
+      ["glitch", "outpostglitchmechanic", 28],
+      ["penguin", "outpostpenguinpromoter", 28],
+      ["hylotl", "outposthylotlwarrior", 9],
+      ["hylotl", "sb_outposthylotlfloranhater", 28],
+      ["glitch", "outpostglitchmercenary", 41], //was 14
+      ["floran", "sb_outpostfloranscholar", 57]
+    ],
+    "positions": {
+      "default": [
+        [412, 614], //excon
+        [360, 611], //refugee
+        [374, 627], //scientist
+        [508, 611], //mechanic
+        [508, 611], //promoter
+        [416, 611], //warrior
+        [404, 611], //hater (was 508,610)
+        [412, 614], //mercenary (seed was 14)
+        [328, 611], //scholar
+        [377, 614], //forge + backup comedy script location
+        [286, 611], //santa
+        [356, 641], //garbage
+        [200, 616]//kennel
+      ],
+      "anom": [
+        [412, 612], //excon
+        [360, 611], //refugee
+        [374, 627], //scientist
+        [508, 610], //mechanic
+        [508, 610], //promoter
+        [416, 611], //warrior
+        [710, 611], //hater
+        [412, 614], //mercenary
+        [412, 614], //scholar
+        [377, 614], //forge
+        [0, 0], //santa
+        [444, 580], //garbage
+        [0, 0]//kennel
+      ]
+    }
+  },
+  "defaultDuration": 1,
+  "scripts": ["outpost.lua"]
 }

@@ -217,6 +217,7 @@
 
     "statusSettings": {
       "statusProperties": {
+        "displayTitle": "Boss",
         "bossMusic": "/music/tentacle-battle1-loop.ogg",
         "targetMaterialKind": "organic"
       },

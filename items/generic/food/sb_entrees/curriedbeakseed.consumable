@@ -1,20 +1,26 @@
 {
-  "itemName" : "sb_curriedbeakseed",
-  "price" : 200,
-  "foodValue" : 20,
-  "tooltipKind" : "sb_object",
-  "rarity" : "Common",
-  "category" : "preparedFood",
-  "inventoryIcon" : "curriedbeakseed.png",
-  "description" : "Curried, crunchy beakseeds with hot chili peppers. Mmm.",
-  "shortdescription" : "Curried Beakseed",
-  "effects" : [[
-	{"effect":"jumpboostfood","duration":90},
-	{"effect":"nova","duration":90},
-	{"effect":"burning","duration":10},
-	"sb_foodheal50"
-  ]],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 8
+  "itemName": "sb_curriedbeakseed",
+  "price": 200,
+  "foodValue": 20,
+  "tooltipKind": "sb_object",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "inventoryIcon": "curriedbeakseed.png",
+  "description": "Curried, crunchy beakseeds with hot chilli peppers. Mmm.",
+  "shortdescription": "Curried Beakseed",
+  "effects": [[{
+        "effect": "jumpboostfood",
+        "duration": 90
+      }, {
+        "effect": "nova",
+        "duration": 90
+      }, {
+        "effect": "burning",
+        "duration": 5
+      },
+      "sb_foodheal50"
+    ]],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 8
 }

@@ -1,0 +1,19 @@
+{
+  "input": [
+    "snorkelhead",
+    "valoroushead",
+    "valorouschest",
+    "valorouspants",
+    "hylotlmission2-codex",
+    "hylotlmission3-codex",
+    "hylotlmission4-codex",
+    /*	"hylotlmission5-codex",
+    "hylotlmission6-codex",
+    "hylotlmission7-codex",
+    "hylotlmission8-codex",
+    "hylotlmission9-codex",*/
+    "hylotlmission1-codex"
+  ],
+  "output": "asranoxaf",
+  "groups": ["sb_treasuredtrophies_outpost_mission3", "nouncrafting", "all"]
+}

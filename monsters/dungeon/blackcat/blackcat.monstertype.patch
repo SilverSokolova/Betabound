@@ -1,6 +1,6 @@
-[[{"op":"add","path":"/baseParameters/scripts/-","value":"/scripts/companions/sb_crittercapturable.lua"}],
+[
 [{"op":"test","path":"/shortdescription","inverse":true},{"op":"add","path":"/shortdescription","value":"Cat"}],
 [{"op":"test","path":"/description","inverse":true},{"op":"add","path":"/description","value":"A small carnivorous mammal originating from Earth. Cats are frequently kept as pets."}],
-[{"op":"test","path":"/captureHealthFraction","value":0.5},{"op":"replace","path":"/captureHealthFraction","value":1}],
-[{"op":"test","path":"/relocatable","inverse":true},{"op":"add","path":"/relocatable","value":true}]
+[{"op":"test","path":"/baseParameters/captureHealthFraction","value":0.5},{"op":"replace","path":"/baseParameters/captureHealthFraction","value":1}],
+[{"op":"test","path":"/baseParameters/relocatable","inverse":true},{"op":"add","path":"/baseParameters/relocatable","value":true}]
 ]

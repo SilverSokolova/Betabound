@@ -1,0 +1,60 @@
+{
+  "itemName": "sb_icechucker",
+  "inventoryIcon": "icechuckericon.png",
+  "maxStack": 1,
+  "price": 640,
+  "rarity": "rare",
+  "fixedRarity": false,
+  "category": "pistol",
+  "itemTags": ["weapon", "ranged", "pistol", "upgradeableWeapon"],
+  "tooltipKind": "sb_gun2",
+  "tooltipFields": {
+    "damageKindImage": "/projectiles/material/sb_icematerial.png",
+    "objectImage":"/items/active/starbound/guns/icechucker.png"
+  },
+  "animation": "/items/active/weapons/ranged/gun.animation",
+  "animationCustom": {
+    "sounds": {
+      "fire": [
+        "/sfx/projectiles/ice_barrier_break1.ogg",
+        "/sfx/projectiles/ice_barrier_break4.ogg",
+        "/sfx/projectiles/ice_barrier_break5.ogg",
+        "/sfx/projectiles/ice_barrier_break6.ogg",
+        "/sfx/projectiles/ice_barrier_break10.ogg"
+      ]
+    }
+  },
+  "animationParts": {
+    "barrel": "",
+    "butt": "",
+    "muzzleFlash": "",
+    "middle": "icechucker.png"
+  },
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "description": "A small gun that fires blocks of ice. Freeze!",
+  "shortdescription": "Ice Chucker",
+  "baseOffset": [0.5, 0.15],
+  "muzzleOffset": [0.6, 0.3],
+
+  "twoHanded": false,
+  "fixedLevel": false,
+
+  "primaryAbilityType": "sb_gun",
+  "primaryAbility": {
+    "stances": {
+      "cooldown": {
+        "recoil": false,
+        "armRotation": 3,
+        "weaponRotation": 3
+      }
+    },
+    "fireTime": 0.8,
+    "energyUsage": 18.75,
+    "inaccuracy": 0.025,
+    "projectileType": "sb_icematerial",
+    "projectileParameters": {
+      "speed": 30
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

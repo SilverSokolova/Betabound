@@ -48,11 +48,18 @@
   },
   "level2Label": {
     "type": "label",
-    "position": [114, 169],
+    "position": [118, 169],
     "hAnchor": "left",
     "color": "gray",
     "centered": true,
     "wrapWidth": 126
+  },
+  "ammoLabel": {
+    "type": "label",
+    "position": [16, 51],
+    "hAnchor": "left",
+    "wrapWidth": 126,
+    "value": "^green;This weapon can use ammo"
   },
   "altAbilityLabel": {
     "type": "label",

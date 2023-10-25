@@ -1,5 +1,5 @@
 {
-  "input" : [["plantfibre",5],["paper",5],["money",150]],
+  "input" : [["plantfibre",5],["paper",5]],
   "output" : "sb_flowerbouquet",
   "groups" : ["heartforge","weapons","all"]
 }

@@ -1,19 +1,23 @@
 {
-  "itemName" : "sb_alienburger",
-  "price" : 95,
-  "foodValue" : 30,
-  "tooltipKind" : "sb_object",
-  "rarity" : "Uncommon",
-  "category" : "preparedFood",
-  "inventoryIcon" : "alienburger.png",
-  "effects" : [[
-	{"effect":"maxhealthscalingboostfood","duration":270},
-	{"effect":"sb_health","duration":20},
-	"sb_foodheal95"
-  ]],
-  "description" : "A burger made of green alien meat. Mm!",
-  "shortdescription" : "Alien Burger",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 2
+  "itemName": "sb_alienburger",
+  "price": 95,
+  "foodValue": 30,
+  "tooltipKind": "sb_object",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "inventoryIcon": "alienburger.png",
+  "effects": [[{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 270
+      }, {
+        "effect": "sb_health",
+        "duration": 20
+      },
+      "sb_foodheal95"
+    ]],
+  "description": "A burger made of green alien meat. Mmm!",
+  "shortdescription": "Alien Burger",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 2
 }

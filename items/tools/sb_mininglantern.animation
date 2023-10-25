@@ -23,7 +23,6 @@
           "centered": false,
           "offset": [-0.5, -1]
         },
-
         "partStates": {
           "light": {
             "off": {
@@ -31,7 +30,6 @@
                 "image": "<partImage>:<color>.off"
               }
             },
-
             "on": {
               "properties": {
                 "image": "<partImage>:<color>.<frame>",

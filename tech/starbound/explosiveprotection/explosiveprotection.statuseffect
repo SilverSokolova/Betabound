@@ -1,9 +1,11 @@
 {
-  "name" : "sb_explosiveprotectiontech",
-  "defaultDuration" : 5,
-  "animationConfig" : "explosiveprotection.animation",
-  "effectConfig" : {"tech":"sb_explosiveprotection"},
-  "scripts" : ["explosiveprotection.lua"],
-  "label" : "Explosive Defence",
-  "icon" : "/tech/starbound/explosiveprotection.png"
+  "name": "sb_explosiveprotectiontech",
+  "defaultDuration": 5,
+  "animationConfig": "explosiveprotection.animation",
+  "effectConfig": {
+    "tech": "sb_explosiveprotection"
+  },
+  "scripts": ["explosiveprotection.lua"],
+  "label": "Explosive Defence",
+  "icon": "/tech/starbound/explosiveprotection.png"
 }

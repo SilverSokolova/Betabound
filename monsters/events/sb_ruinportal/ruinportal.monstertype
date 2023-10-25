@@ -1,106 +1,105 @@
 {
-  "type" : "sb_ruinportal",
-  "shortdescription" : "Ruin Portal",
-  "description" : "A portal created by the Ruin.",
+  "type": "sb_ruinportal",
+  "shortdescription": "Ruin Portal",
+  "description": "A portal created by the Ruin.",
 
-  "categories" : ["sb_ruinportal"],
-  "parts" : ["portal", "portalbg"],
+  "categories": ["sb_ruinportal"],
+  "parts": ["portal", "portalbg"],
 
-  "animation" : "ruinportal.animation",
+  "animation": "ruinportal.animation",
 
-  "dropPools" : [ ],
+  "dropPools": [],
 
-  "baseParameters" : {
-    "scripts" : [
+  "baseParameters": {
+    "scripts": [
       "/monsters/events/sb_ruinportal/ruinportal.lua",
       "/monsters/sb_bossmonster.lua"
     ],
 
-    "totalSpawns" : [4, 8],
-    "airSpawns" : [
+    "totalSpawns": [4, 8],
+    "airSpawns": [
       "tentacleghost",
       "tentaclebomb",
       "tentaclegnat",
       "tentaclegnat"
     ],
-    "groundSpawns" : [
+    "groundSpawns": [
       "tentacleclam",
       "tentaclecrawler"
     ],
-    
-    "damageTeamType" : "passive",
-    "renderLayer" : "BackgroundTile+10", //It goes over objects, but, whatever, I don't think these can even spawn near wall-mounted ones
 
-    "touchDamage" : {
-      "poly" : [],
-      "damage" : 0,
+    "damageTeamType": "passive",
+    "renderLayer": "BackgroundTile+10", //It goes over objects, but, whatever, I don't think these can even spawn near wall-mounted ones
 
-      "teamType" : "enemy",
-      "damageSourceKind" : "lash",
-      "knockback" : 20,
-      "statusEffects" : []
+    "touchDamage": {
+      "poly": [],
+      "damage": 0,
+
+      "teamType": "enemy",
+      "damageSourceKind": "lash",
+      "knockback": 20,
+      "statusEffects": []
     },
 
-    "metaBoundBox" : [-4, -4, 4, 4],
-    "scale" : 1.0,
+    "metaBoundBox": [-4, -4, 4, 4],
+    "scale": 1.0,
 
-    "movementSettings" : {
-      "collisionPoly" : [ [8.125, 0], [5.75, 5.75], [0, 8.125], [-5.75, 5.75], [-8.125, 0], [-5.75, -5.75], [0, -8.125], [5.75, -5.75] ],
+    "movementSettings": {
+      "collisionPoly": [[8.125, 0], [5.75, 5.75], [0, 8.125], [-5.75, 5.75], [-8.125, 0], [-5.75, -5.75], [0, -8.125], [5.75, -5.75]],
 
-      "mass" : 1.0,
-      "walkSpeed" : 1,
-      "runSpeed" : 4,
-      "gravityEnabled" : false,
+      "mass": 1.0,
+      "walkSpeed": 1,
+      "runSpeed": 4,
+      "gravityEnabled": false,
 
-      "airFriction" : 10,
-      "airForce" : 40,
-      "flySpeed" : 6
+      "airFriction": 10,
+      "airForce": 40,
+      "flySpeed": 6
     },
 
-    "bodyMaterialKind" : "organic",
+    "bodyMaterialKind": "organic",
 
-    "knockoutTime" : 0.0,
-    "knockoutAnimationStates" : {
-    },
-    "knockoutEffect" : "blink",
+    "knockoutTime": 0.0,
+    "knockoutAnimationStates": {},
+    "knockoutEffect": "blink",
 
-    "statusSettings" : {
-      "statusProperties" : {
-	"bossMusic" : "/music/tentacle-battle1-loop.ogg",
-        "targetMaterialKind" : "organic"
+    "statusSettings": {
+      "statusProperties": {
+        "bossMusic": "/music/tentacle-battle1-loop.ogg",
+        "targetMaterialKind": "organic"
       },
 
-      "appliesEnvironmentStatusEffects" : false,
-      "appliesWeatherStatusEffects" : false,
-      "minimumLiquidStatusEffectPercentage" : 0.1,
+      "appliesEnvironmentStatusEffects": false,
+      "appliesWeatherStatusEffects": false,
+      "minimumLiquidStatusEffectPercentage": 0.1,
 
-      "primaryScriptSources" : [
+      "primaryScriptSources": [
         "/stats/monster_primary.lua"
       ],
-      "primaryScriptDelta" : 5,
+      "primaryScriptDelta": 5,
 
-      "stats" : {
-        "maxHealth" : {
-          "baseValue" : 5
+      "stats": {
+        "maxHealth": {
+          "baseValue": 5
         },
-        "healthRegen" : {
-          "baseValue" : 0
+        "healthRegen": {
+          "baseValue": 0
         },
-        "invulnerable" : {
-          "baseValue" : 1
+        "invulnerable": {
+          "baseValue": 1
         }
       },
 
-      "resources" : {
-        "health" : {
-          "maxStat" : "maxHealth",
-          "deltaStat" : "healthRegen",
-          "defaultPercentage" : 100
+      "resources": {
+        "health": {
+          "maxStat": "maxHealth",
+          "deltaStat": "healthRegen",
+          "defaultPercentage": 100
         }
       }
     },
 
-    "mouthOffset" : [0, 0],
-    "feetOffset" : [0, -65]
+    "mouthOffset": [0, 0],
+    "feetOffset": [0, -65]
   }
 }

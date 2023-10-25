@@ -1,0 +1,70 @@
+{
+  "itemName": "sb_aviangun",
+  "maxStack": 1,
+  "rarity": "uncommon",
+  "price": 620,
+  "baseOffset": [-1.25, 0.25],
+  "muzzleOffset": [-0.5, 0.225],
+  "description": "",
+  "shortdescription": "Heavy Avian Blaster",
+  "tooltipKind": "sb_gun",
+  "category": "assaultRifle",
+  "twoHanded": true,
+  "level": 1,
+  "paletteSwaps": "",
+  "tooltipFields": {
+    "subtitle": "Heavy Avian Blaster"
+  },
+  "itemTags": ["weapon", "ranged", "assaultrifle", "upgradeableWeapon"],
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationParts": {
+    "muzzleFlash": "/animations/sb/muzzleflash/plasmamuzzle3/plasmamuzzle3.png"
+  },
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/gun/ar6.ogg"]
+    }
+  },
+
+  "elementalType": "physical",
+  "primaryAbilityType": "sb_gun2",
+  "primaryAbility": {
+    "projectileType": ["plasmabullet", "plasma1", "plasma2", "plasma3"],
+    "projectileParameters": {
+      "knockbackRange": [0, 5]
+    },
+    "fireType": "auto",
+    "fireTime": [0.08, 0.14],
+    "baseDps": [9.5, 10.5],
+    "energyUsage": [28.5, 31.5],
+    "inaccuracy": 0
+  },
+
+  "builderConfig": [{
+      "nameGenerator": "aviannames.config:nameGen",
+      "animationParts": {
+        "barrel": {
+          "path": "gunbarrel/<variant>.png",
+          "variants": 3,
+          "paletteSwap": true
+        },
+        "butt": {
+          "path": "gunbutt/<variant>.png",
+          "variants": 2,
+          "paletteSwap": true
+        },
+        "middle": {
+          "path": "gunmiddle/<variant>.png",
+          "variants": 3,
+          "paletteSwap": true
+        }
+      },
+      "iconDrawables": ["butt", "middle", "barrel"],
+      "gunParts": ["butt", "middle", "barrel"],
+      "palette": "/items/active/starbound/colors/avianguns.weaponcolors",
+      "altAbilities": ["sb_shotgun"]
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

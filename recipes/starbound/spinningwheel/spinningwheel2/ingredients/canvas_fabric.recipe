@@ -1,0 +1,5 @@
+{
+  "input": [["cottonwool", 2], ["fabric", 3]],
+  "output": "canvas",
+  "groups": ["craftingwheel2", "ingredients", "all"]
+}

@@ -11,5 +11,9 @@
 [{"op":"test","path":"/tooltipKind","inverse":true},
 {"op":"add","path":"/tooltipKind","value":"fossil"}],
 
-[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"uncommon"}]
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"uncommon"}],
+
+[{"op":"test","path":"/level","inverse":true},{"op":"add","path":"/level","value":3}],
+[{"op":"test","path":"/builder"},{"op":"move","from":"/builder","path":"/sb_builder"}],
+[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildthrowable.lua"}]
 ]

@@ -1,3 +1,4 @@
-[[{"op":"add","path":"/baseParameters/scripts/-","value":"/scripts/companions/sb_capturable.lua"}],
+[
 [{"op":"test","path":"/dropPools","inverse":true},{"op":"add","path":"/dropPools","value":[]}],
-[{"op":"add","path":"/dropPools/-","value":{"default":"sb_weaklingTentacleTreasure","bow":"sb_weaklingTentacleHunting"}}]]
+[{"op":"add","path":"/dropPools/-","value":{"default":"sb_weaklingTentacleTreasure","bow":"sb_weaklingTentacleHunting"}}]
+]

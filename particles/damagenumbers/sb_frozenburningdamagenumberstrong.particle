@@ -1,0 +1,23 @@
+{
+  "kind": "sb_frozenburningdamagenumberstrong",
+  "definition": {
+    "type": "text",
+    "text": "^shadow;$dmg$",
+    "color": [206, 125, 250, 255],
+    "light": [47, 0, 69],
+    "fullbright": true,
+    "initialVelocity": [0, 15],
+    "finalVelocity": [0, -15],
+    "size": 1.2,
+    "approach": [3, 30],
+    "angularVelocity": 20,
+    "timeToLive": 0.7,
+    "layer": "front",
+    "destructionAction": "shrink",
+    "destructionTime": 0.5,
+    "variance": {
+      "initialVelocity": [9, 3]
+    },
+    "flippable": false
+  }
+}

@@ -6,5 +6,10 @@
 [{"op":"test","path":"/description","value":"Rice. Grains of goodness."},
 {"op":"replace","path":"/description","value":"Rice. Grains of goodness. Good for when you're hungry and want to eat a thousand of something."}],
 
-[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":""}],[{"op":"replace","path":"/tooltipKind","value":"fossil"}]
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":""}],[{"op":"replace","path":"/tooltipKind","value":"fossil"}],
+[{"op":"test","path":"/builder","value":"/items/buildscripts/buildfood.lua"},{"op":"replace","path":"/builder","value":"/items/buildscripts/starbound/buildfood.lua"}],
+[{"op":"test","path":"/builder","inverse":true},{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildfood.lua"}],
+
+[{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
+[{"op":"add","path":"/effects/0/-","value":{"effect":"maxhealthboost5","duration":23}}]
 ]

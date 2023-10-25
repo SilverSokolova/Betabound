@@ -1,5 +1,0 @@
-{
-  "input" : [["durasteelbar",10],["sb_refinedrubium",10]],
-  "output" : "sb_manipulatortable",
-  "groups" : ["sb_scifianvil","sb_stations","all"]
-}

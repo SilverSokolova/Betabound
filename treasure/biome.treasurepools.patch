@@ -34,6 +34,7 @@
   // ================================
 ,[{"op":"test","path":"/oceanTreasure/0/1/pool/0/item/0","value":"waterballoon"},{"op":"test","path":"/oceanTreasure/0/1/pool/0/weight","value":1.0},{"op":"replace","path":"/oceanTreasure/0/1/pool/0/weight","value":0.5}]
 ,[{"op":"add","path":"/oceanTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_watersword"}}]
+,[{"op":"add","path":"/oceanTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_watersword-recipe"}}]
 ,[{"op":"add","path":"/oceanTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_oceantrident"}}]
 ,[{"op":"add","path":"/oceanTreasure/0/1/pool/-","value":{"weight":0.3,"item":"harpoongun"}}]
 ,[{"op":"add","path":"/oceanTreasure/0/1/pool/-","value":{"weight":0.3,"item":"harpoongun-recipe"}}]
@@ -58,7 +59,9 @@
 //,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.6,"item":["sb_corrosivegrenade",2]}}]
 ,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_corrosivegrenade",5]}}] //4
 ,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.2,"item":["sb_corrosivegrenade",6]}}] //5
+,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_corrosivegrenade-recipe"}}]
 ,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_corrosivegun"}}]
+,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_corrosivegun-recipe"}}]
 ,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_alienlaser"}}]
 
 
@@ -95,7 +98,9 @@
   //            Mushroom
   // ================================
 ,[{"op":"add","path":"/mushroomTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_mushroomsword"}}]
+,[{"op":"add","path":"/mushroomTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_mushroomsword-recipe"}}]
 ,[{"op":"add","path":"/mushroomTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_mushroomsword2"}}]
+,[{"op":"add","path":"/mushroomTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_mushroomsword2-recipe"}}]
 ,[{"op":"add","path":"/mushroomTreasure/0/1/pool/-","value":{"weight":0.3,"item":"mushroomshield-recipe"}}]
 ,[{"op":"add","path":"/mushroomTreasure/0/1/pool/-","value":{"weight":0.3,"item":"mushroomhead-recipe"}}]
 
@@ -114,11 +119,13 @@
   // ================================
 ,[{"op":"test","path":"/oasisTreasure/0/1/pool/9/weight","value":0.01},{"op":"test","path":"/oasisTreasure/0/1/pool/9/item","value":"oasisbed"},{"op":"replace","path":"/oasisTreasure/0/1/pool/9/weight","value":0.3}]
 ,[{"op":"add","path":"/oasisTreasure/0/1/pool/-","value":{"weight":0.3,"item":"deckchair"}}]
+,[{"op":"add","path":"/oasisTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_throwingreed",5]}}]
 
   // ================================
   //		  Tar
   // ================================
 ,[{"op":"add","path":"/tarTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_tarhammer"}}]
+,[{"op":"add","path":"/tarTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_tarhammer-recipe"}}]
 ,[{"op":"add","path":"/tarTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_sabertoothspear"}}]
 ,[{"op":"add","path":"/tarTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_sabertoothspear-recipe"}}]
 
@@ -127,6 +134,7 @@
   // ================================
 ,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"bubblegun"}}]
 ,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_rainbowsword"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_rainbowsword-recipe"}}]
 ,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayonred-recipe"}}]
 ,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayonblue-recipe"}}]
 ,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayonyellow-recipe"}}]
@@ -147,6 +155,8 @@
 ,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.05,"item":["bonematerial",10]}}] //already in bone caves
 //,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_bonesword"}}]
 ,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_bonepistol"}}]
+,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_bonehammer"}}]
+,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_bonehammer-recipe"}}]
 
 
 
@@ -161,12 +171,9 @@
   // ================================
   //	    Bio Luminescent
   // ================================
-,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_glowfibreorange",3]}}]
-,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_glowfibreyellow",3]}}]
-,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_glowfibreblue",3]}}]
-,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_glowfibregreen",3]}}]
 ,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_glowchest-recipe"}}]
 ,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_firesword"}}]
+,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_firesword-recipe"}}]
 ,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"lightbow-recipe"}}]
 
 //giant flower

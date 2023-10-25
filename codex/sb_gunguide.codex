@@ -1,0 +1,19 @@
+{
+  "id": "sb_gunguide",
+  "title": "All About Ammo",
+  "description": "An informational leaflet about ammunition for guns.",
+  "icon": "sb_gun.png",
+  "contentPages": [
+    "While most guns solely use energy reserves, certain firearms can still use traditional ammunition. They will plainly state 'This weapon can use ammo'.
+    * 20% damage boost when using any ammo
+    * Uses energy when ammo is depleted or when ^#71f2f6;SHIFT^reset; is held
+    * Ammo is automatically used when in the inventory
+    * Craft ammo at an anvil
+    * All types of ammo are universally accepted"
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "tooltipKind": "sb_object",
+    "price": 25
+  }
+}

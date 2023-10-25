@@ -1,14 +1,16 @@
 {
-  "itemName" : "sb_peacekeeper_repair",
-  "price" : 60,
-  "tooltipKind" : "sb_object4b",
-  "rarity" : "uncommon",
-  "category" : "Tool",
-  "tooltipFields" : {"subtitle":"Repair Tool"},
-  "durabilityRegen" : -375,
-  "sb_repairType" : 1,
-  "inventoryIcon" : "peacekeeper.png",
-  "description" : "This battery can be used to recharge Peacekeeper devices.\n^gray;Select battery and right-click mining laser.",
-  "shortdescription" : "Peacekeeper Battery",
-  "scripts" : ["/scripts/augments/sb_ore.lua"]
+  "itemName": "sb_peacekeeper_repair",
+  "price": 60,
+  "tooltipKind": "sb_object4b",
+  "rarity": "uncommon",
+  "category": "Tool",
+  "tooltipFields": {
+    "subtitle": "Repair Tool"
+  },
+  "durabilityRegen": -375,
+  "sb_repairType": "sb_battery-",
+  "inventoryIcon": "peacekeeper.png",
+  "description": "This battery can be used to recharge Peacekeeper devices.\n^gray;Select battery and right-click mining laser",
+  "shortdescription": "Peacekeeper Battery",
+  "scripts": ["/scripts/augments/sb_repair.lua"]
 }

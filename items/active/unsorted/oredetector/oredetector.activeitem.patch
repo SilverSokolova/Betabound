@@ -12,7 +12,5 @@
 [{"op":"test","path":"/pingDetectConfig/colors/sb_fossil","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/sb_fossil","value":[188,173,128,255]}],
 [{"op":"test","path":"/pingDetectConfig/colors/sulphur","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/sulphur","value":[249,237,136,255]}],
 [{"op":"test","path":"/pingDetectConfig/colors/lead","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/lead","value":[52,52,52,255]}],
-[{"op":"test","path":"/pingDetectConfig/colors/moonstone","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/moonstone","value":[255,255,83,255]}],
-[{"op":"test","path":"/pingDetectConfig/colors/ferroverium","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/ferroverium","value":[247,220,210,255]}], //??not ours why
-[{"op":"test","path":"/pingDetectConfig/colors/hyverium","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/hyverium","value":[156,227,244]}] //??not ours why
+[{"op":"test","path":"/pingDetectConfig/colors/moonstone","inverse":true},{"op":"add","path":"/pingDetectConfig/colors/moonstone","value":[255,255,83,255]}]
 ]

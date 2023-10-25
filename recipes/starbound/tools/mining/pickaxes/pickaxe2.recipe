@@ -1,0 +1,5 @@
+{
+  "input" : [["ironbar",4],"copperpickaxe"],
+  "output" : "pickaxe",
+  "groups" : ["sb_craftingtable","mining","nouncrafting","all"]
+}

@@ -1,9 +1,14 @@
 {
-  "sb_tentaclemission-brain" : {
-    "unique" : false,
-    "type" : "mission",
-    "senderName" : "The Baron",
-    "portraitImage" : "/interface/chatbubbles/baron.png:<frame>",
-    "text" : "Impressed. A novel descent!"
+  "sb_tentaclemission-brain": {
+    "unique": false,
+    "type": "mission",
+    "senderName": "The Baron",
+    "portraitImage": "/interface/chatbubbles/baron.png:<frame>",
+    "text": "Impressed. A novel descent!"
+  },
+  "sb_tentaclemission-artifact": {
+    "unique": false,
+    "type": "mission",
+    "text": "I have detected nearby energy readings from the ^orange;Master Manipulator^reset;."
   }
 }

@@ -1,17 +1,18 @@
 {
-  "name" : "sb_rocketboots",
-  "type" : "legs",
+  "name": "sb_rocketboots",
+  "type": "legs",
 
-  "rarity" : "Legendary",
-  "icon" : "/tech/starbound/rocketboots.png",
-  "description" : "Press and hold ^#0f0;[SPACE]^reset; midair to activate the rocket boots!",
-  "sb_briefDescription" : "Press and hold ^#0f0;[SPACE]^reset; midair to fly!",
-  "shortDescription" : "Rocket Boots",
+  "rarity": "Legendary",
+  "icon": "/tech/starbound/rocketboots.png",
+  "description": "Press and hold ^#0f0;[SPACE]^reset; midair to activate the rocket boots!",
+  "sb_briefDescription": "Press and hold ^#0f0;[SPACE]^reset; midair to fly!",
+  "shortDescription": "Rocket Boots",
+  "chipCost": 6,
 
-  "scripts" : ["jetpack.lua"],
-  "animator" : "rocketboots.animation",
+  "scripts": ["jetpack.lua"],
+  "animator": "rocketboots.animation",
 
-  "jetpackSpeed" : 20,
-  "jetpackControlForce" : 250,
-  "energyUsagePerSecond" : 43
+  "jetpackSpeed": 20,
+  "jetpackControlForce": 250,
+  "energyUsagePerSecond": 43
 }

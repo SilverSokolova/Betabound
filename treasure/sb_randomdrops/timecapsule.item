@@ -1,0 +1,6 @@
+{
+  "itemName": "sb_timecapsule",
+  "rarity": "Rare",
+  "sb_timecapsuleConfig": ["sb_goldcoin", [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, "holidayspirit"]],
+  "builder": "/items/buildscripts/starbound/buildtimecapsule.lua"
+}

@@ -1,2 +1,3 @@
 [{"op":"add","path":"/groups/-","value":"objects"},
-{"op":"add","path":"/groups/-","value":"tools"}]
+{"op":"add","path":"/groups/-","value":"tools"},
+{"op":"add","path":"/groups/-","value":"craftingfurniture"}]

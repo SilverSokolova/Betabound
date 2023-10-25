@@ -1,12 +1,13 @@
 [
-[{"op":"test","path":"/sb_repairType","inverse":true},{"op":"add","path":"/sb_repairType","value":1}],
-[{"op":"test","path":"/description","inverse":true},{"op":"add","path":"/description","value":""}],
-[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":""}],
-[{"op":"test","path":"/largeImage","inverse":true},{"op":"add","path":"/largeImage","value":""}],
+[{"op":"test","path":"/sb_repairType","inverse":true},{"op":"add","path":"/sb_repairType","value":"sb_battery-"}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":0}],
 [{"op":"test","path":"/primaryAbility/energyUsage","inverse":true},{"op":"add","path":"/primaryAbility/energyUsage","value":0}],
+[{"op":"move","from":"/builder","path":"/sb_builder"}],
+[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/merge.lua"}],
 
 [{"op":"replace","path":"/primaryAbility/energyUsage","value":0}],
-[{"op":"replace","path":"/largeImage","value":"/items/active/unsorted/laserminer/sb_laserminerbig.png"}],
-[{"op":"replace","path":"/description","value":"Pickaxes are so last millennium! Lasers are the future."}],
-[{"op":"replace","path":"/tooltipKind","value":"sb_tool"}]
+[{"op":"add","path":"/sb_merge","value":{"tooltipFields":{"objectImage":"/items/active/unsorted/laserminer/sb_laserminerbig.png"}}}],
+[{"op":"test","path":"/description","value":"A disposable mining tool that drills with a focused microwave beam."},
+{"op":"replace","path":"/description","value":"Lasers are the future! This disposable mining tool drills with a focused microwave beam."}],
+[{"op":"replace","path":"/tooltipKind","value":"sb_object4"}]
 ]

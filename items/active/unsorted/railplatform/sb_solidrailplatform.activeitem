@@ -1,22 +1,19 @@
 {
-  "itemName" : "sb_solidrailplatform",
-  "price" : 675,
-  "rarity" : "rare",
-  "category" : "railPlatform",
-  "description" : "Places a solid, self-propelled platform that follows rails.",
-  "shortdescription" : "Solid Rail Platform",
-  "twoHanded" : true,
-  "maxStack" : 10, //why? is this to prevent infinite jumps?
-  "tooltipKind" : "sb_object",
+  "itemName": "sb_solidrailplatform",
+  "price": 675,
+  "rarity": "rare",
+  "category": "railPlatform",
+  "description": "Places a solid, self-propelled platform that follows rails.",
+  "shortdescription": "Solid Rail Platform",
+  "twoHanded": true,
+  "maxStack": 10, //why? is this to prevent infinite jumps?
+  "tooltipKind": "sb_object",
 
-  "inventoryIcon" : "sb_solidrailplatformicon.png",
-
-  "scripts" : ["railplatform.lua"],
-  "animationScripts" : ["placementpreview.lua"],
-
-  "placementRange" : 15,
-  "placementBounds" : [-3.75, 1, 3.75, -0.5],
-  "placementPreviewImage" : "/vehicles/railplatform/solidrailplatform.png:onRail.1",
-
-  "platformType" : "solidrailplatform"
+  "inventoryIcon": "sb_solidrailplatformicon.png",
+  "scripts": ["railplatform.lua"],
+  "animationScripts": ["placementpreview.lua"],
+  "placementRange": 15,
+  "placementBounds": [-3.75, 1, 3.75, -0.5],
+  "placementPreviewImage": "/vehicles/railplatform/solidrailplatform.png:onRail.1",
+  "platformType": "solidrailplatform"
 }

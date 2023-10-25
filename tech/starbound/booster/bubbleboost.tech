@@ -11,6 +11,7 @@
 
   "scripts" : ["booster.lua"],
   "animator" : "bubbleboost.animation",
+  "chipCost" : 10,
 
   "boostControlForce" : 300,
   "boostSpeed" : 40,

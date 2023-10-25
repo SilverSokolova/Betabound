@@ -27,7 +27,8 @@
       "damageSourceKind": "broadsword",
       "knockbackMode": "aim",
       "knockback": 15,
-      "timeoutGroup": "primary"
+      "timeoutGroup": "primary",
+      "timeout": 0.5
     },
     "stepDamageConfig": [{
         "baseDamageFactor": 1.0,

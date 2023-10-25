@@ -1,0 +1,17 @@
+{
+  "projectileName": "sb_homingbullet",
+  "image": "homingbullet.png",
+  "animationCycle": 0.25,
+  "frameNumber": 1,
+  "speed": 30,
+  "acceleration": 30,
+  "physics": "rocket",
+  "emitters": ["rocketsmoke"],
+  "pointLight": false,
+  "power": 5,
+  "damageKind": "default",
+  "scripts": ["/scripts/projectiles/homingprojectile.lua"],
+  "scriptDelta": 3,
+  "rotationRate": 4,
+  "trackingLimit": 2
+}

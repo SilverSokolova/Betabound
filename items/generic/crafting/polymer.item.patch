@@ -2,5 +2,6 @@
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
 [{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":90}],
 [{"op":"test","path":"/shortdescription","value":"Space Age Polymer"},{"op":"replace","path":"/shortdescription","value":"Polymer"}],
+[{"op":"test","path":"/description","value":"It's some space age polymer."},{"op":"replace","path":"/description","value":"It's some space-age polymer."}],
 [{"op":"test","path":"/inventoryIcon","value":"polymer.png"},{"op":"replace","path":"/inventoryIcon","value":"sb_polymer.png"}]
 ]

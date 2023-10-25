@@ -1,6 +1,7 @@
 [
 [{"op":"test","path":"/input/1/count","value":10},{"op":"replace","path":"/input/1/count","value":1}],
 [{"op":"add","path":"/groups/-","value":"craftingfurniture"},
+{"op":"add","path":"/groups/-","value":"craftingwheel"},
 {"op":"add","path":"/groups/-","value":"decoration"},
 {"op":"add","path":"/groups/-","value":"all"}]
 ]

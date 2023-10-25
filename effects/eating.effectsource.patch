@@ -1,0 +1,19 @@
+[
+  [{
+      "op": "test",
+      "path": "/definition/start/sounds/0"
+    }, {
+      "op": "add",
+      "path": "/definition/start/sounds/-",
+      "value": "/sfx/humanoid/eat1.ogg"
+    }, {
+      "op": "add",
+      "path": "/definition/start/sounds/-",
+      "value": "/sfx/humanoid/eat2.ogg"
+    }, {
+      "op": "add",
+      "path": "/definition/start/sounds/-",
+      "value": "/sfx/humanoid/eat4.ogg"
+    }
+  ]
+]

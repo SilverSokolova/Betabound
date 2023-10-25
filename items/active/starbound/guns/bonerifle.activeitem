@@ -1,0 +1,78 @@
+{
+  "itemName": "sb_bonerifle",
+  "maxStack": 1,
+  "rarity": "rare",
+  "muzzleOffset": [2.5, 0.2],
+  "baseOffset": [-0.5, 0.5],
+  "tooltipKind": "sb_gun2",
+  "category": "assaultRifle",
+  "twoHanded": true,
+  "sb_waBan": true,
+  "price": 620,
+  "paletteSwaps": "",
+  "level": 1,
+  "description": "A rifle made of bone. An entirely organic firearm.",
+  "shortdescription": "Bone Rifle",
+  "tooltipFields": {
+    "subtitle": "Bone Rifle"
+  },
+  "itemTags": ["weapon", "ranged", "assaultrifle", "upgradeableWeapon"],
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "inventoryIcon": "bonerifle.png",
+  "animationParts": {
+    //  "muzzleFlash" : "/animations/muzzleflash/bloodvomitmuzzle/bloodvomitmuzzle.png",
+    "muzzleFlash": "/animations/sb/muzzleflash/bulletmuzzle4/bulletmuzzle4.png",
+    "middle": "bonerifle.png",
+    "barrel": "",
+    "butt": ""
+  },
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/gun/bonerifle.ogg"]
+    }
+  },
+
+  "elementalType": "physical",
+
+  "primaryAbility": {
+    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
+    "class": "GunFire",
+    "projectileType": ["bonethorn"], //,"throwingbone"],
+    "projectileParameters": {
+      "knockbackRange": [3, 11]
+    },
+    "fireTime": [0.12, 0.22],
+    "fireType": "auto",
+    "baseDps": [9.25, 13.75],
+    "energyUsage": [25, 30],
+    "inaccuracy": 0.025,
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "fire": {},
+      "cooldown": {
+        "duration": 0.11,
+        "armRotation": 5,
+        "weaponRotation": 5,
+        "twoHanded": true,
+
+        "allowRotate": true,
+        "allowFlip": false
+      }
+    }
+  },
+
+  "builderConfig": [{
+      "nameGenerator": "bonenames.config:nameGen",
+      "altAbilities": ["spray"]
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

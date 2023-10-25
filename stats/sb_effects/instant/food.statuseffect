@@ -1,6 +1,6 @@
 {
-  "name" : "sb_food",
-  "effectConfig" : {},
-  "defaultDuration" : 10,
-  "scripts" : ["food.lua"]
+  "name": "sb_food",
+  "effectConfig": {},
+  "defaultDuration": 10,
+  "scripts": ["food.lua"]
 }

@@ -28,7 +28,7 @@ function update(dt)
     status.applySelfDamageRequest({
       damageType = "IgnoresDef",
       damage = math.floor(status.resourceMax("health") * tickDamagePercentage) + 3,
-      damageSourceKind = "sb_frozenburning_"..(math.random(2)==1 and "fire" or "ice"),
+      damageSourceKind = "sb_frozenburning",
       sourceEntityId = id
     })
   end

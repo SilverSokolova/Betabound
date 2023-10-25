@@ -1,22 +1,27 @@
 {
-  "itemName" : "sb_wartwine",
-  "price" : 270,
-  "foodValue" : 25,
-  "effects" : [[
-	{"effect":"maxhealthscalingboostfood","duration":113},
-	{"effect":"ragefood","duration":113},
-	"sb_foodheal70"
-  ]],
-  "tooltipKind" : "sb_object4",
-  "category" : "drink",
-  "rarity" : "Uncommon",//rarity due to being an upgrade
-  "inventoryIcon" : "wartwine.png",
-  "description" : "Popular Avian wine of wartweed and fermented grapes.",
-  "shortdescription" : "Wartwine",
-  "emote" : "laugh",
-  "emitters" : ["drinking"],
-  "handPosition" : [0, -0.5],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 10
+  "itemName": "sb_wartwine",
+  "price": 250,
+  "foodValue": 25,
+  "effects": [[{
+        "effect": "runboostfood",
+        "duration": 113
+      }, {
+        "effect": "ragefood",
+        "duration": 113
+      },
+      "sb_foodheal70"
+    ]],
+  "tooltipKind": "sb_object4",
+  "category": "drink",
+  "subtitle": "sb_alcohol",
+  "rarity": "common",
+  "inventoryIcon": "wartwine.png",
+  "description": "Popular Avian wine of wartweed and fermented grapes.",
+  "shortdescription": "Wartwine",
+  "emote": "laugh",
+  "emitters": ["drinking"],
+  "handPosition": [0, -0.5],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 10
 }

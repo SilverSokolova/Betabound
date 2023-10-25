@@ -1,1 +1,4 @@
-[{"op":"add","path":"/sb_copybook","value":true}]
+[
+[{"op":"test","path":"/itemTags","inverse":true},{"op":"add","path":"/itemTags","value":[]}],
+[{"op":"add","path":"/itemTags/-","value":"sb_copybook"}]
+]

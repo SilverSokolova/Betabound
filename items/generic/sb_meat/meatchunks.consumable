@@ -1,13 +1,13 @@
 {
-  "itemName" : "sb_meatchunks",
-  "rarity" : "Common",
-  "price" : 15,
-  "foodValue" : 15,
-  "tooltipKind" : "sb_object",
-  "category" : "food",
-  "inventoryIcon" : "meatchunks.png",
-  "description" : "Chunks of pulverized meat. A little overcooked.",
-  "shortdescription" : "Meat Chunks",
-  "handPosition" : [0, -2],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua"
+  "itemName": "sb_meatchunks",
+  "rarity": "Common",
+  "price": 15,
+  "foodValue": 15,
+  "tooltipKind": "sb_object",
+  "category": "food",
+  "inventoryIcon": "meatchunks.png",
+  "description": "Chunks of pulverized meat. A little overcooked.",
+  "shortdescription": "Meat Chunks",
+  "handPosition": [0, -2],
+  "builder": "/items/buildscripts/starbound/buildfood.lua"
 }

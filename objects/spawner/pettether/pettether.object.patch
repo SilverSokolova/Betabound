@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Rare"}]
+]

@@ -521,7 +521,7 @@
                         {
                          "name":"object",
                          "type":"string",
-                         "value":"sb_coffeemachine"
+                         "value":"coffeemachine"
                         }],
                  "rotation":0,
                  "type":"",

@@ -1,98 +1,106 @@
 {
-  "objectName" : "sb_forcepad",
-  "objectType" : "physics",
-  "colonyTags" : ["wired"],
-  "printable" : false,
-  "rarity" : "Rare",
-  "description" : "Blows away nearby people with a strong elastic force.",
-  "shortdescription" : "Force Pad",
-  "tooltipKind" : "sb_object",
-  "tooltipFields" : {"objectImage" : "/objects/wired/sb_forcepad/y.png:3"},
+  "objectName": "sb_forcepad",
+  "objectType": "physics",
+  "colonyTags": ["wired"],
+  "printable": false,
+  "rarity": "Rare",
+  "description": "Blows away nearby people with a strong elastic force.",
+  "shortdescription": "Force Pad",
+  "tooltipKind": "sb_object",
+  "tooltipFields": {
+    "objectImage": "/objects/wired/sb_forcepad/y.png:3"
+  },
 
-  "category" : "wire",
-  "price" : 250,
+  "category": "wire",
+  "price": 250,
 
-  "floranDescription" : "Isss thiss a fan or a pump?",
-  "glitchDescription" : "Cautious. These pads could prove fatal if used recklessly.",
-  "humanDescription" : "I bet the guy that invented these got rich from it!",
+  "floranDescription": "Wind!",
+  "glitchDescription": "Cautious. These pads could prove fatal if used recklessly.",
+  "humanDescription": "I bet the guy that invented these got rich from it!",
 
-  "inventoryIcon" : "icon.png",
-  "orientations" : [
-    {
-      "direction" : "right",
-      "image" : "x.png:<frame>",
-      "animationParts" : {"forcepad" : "x.png"},
-      "imagePosition" : [0, 0],
-      "frames" : 6,
-      "animationCycle" : 1.0,
-      "spaceScan" : 0.1,
-      "anchors" : [ "left" ]
-    },
-    {
-      "direction" : "left",
-      "image" : "x.png:<frame>",
-      "animationParts" : {"forcepad" : "x.png"},
-      "imagePosition" : [0, 0],
-      "frames" : 6,
-      "metaBoundBox" : [-12, 0, 0, 0],
-      "animationCycle" : 1.0,
-      "spaceScan" : 0.1,
-      "anchors" : [ "right" ]
-    },
-    {
-      "image" : "y.png:<frame>",
-      "animationParts" : {"forcepad" : "y.png"},
-      "imagePosition" : [0, 0],
-      "frames" : 6,
-      "animationCycle" : 1.0,
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    },
-    {
-      "image" : "y2.png:<frame>",
-      "animationParts" : {"forcepad" : "y2.png"},
-      "imagePosition" : [0, 0],
-      "frames" : 6,
-      "metaBoundBox" : [0, -12, 0, 0],
-      "animationCycle" : 1.0,
-      "spaceScan" : 0.1,
-      "anchors" : [ "top" ]
+  "inventoryIcon": "icon.png",
+  "orientations": [{
+      "direction": "right",
+      "image": "x.png:<frame>",
+      "animationParts": {
+        "forcepad": "x.png"
+      },
+      "imagePosition": [0, 0],
+      "frames": 6,
+      "animationCycle": 1.0,
+      "spaceScan": 0.1,
+      "anchors": ["left"]
+    }, {
+      "direction": "left",
+      "image": "x.png:<frame>",
+      "animationParts": {
+        "forcepad": "x.png"
+      },
+      "imagePosition": [0, 0],
+      "frames": 6,
+      "metaBoundBox": [-12, 0, 0, 0],
+      "animationCycle": 1.0,
+      "spaceScan": 0.1,
+      "anchors": ["right"]
+    }, {
+      "image": "y.png:<frame>",
+      "animationParts": {
+        "forcepad": "y.png"
+      },
+      "imagePosition": [0, 0],
+      "frames": 6,
+      "animationCycle": 1.0,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }, {
+      "image": "y2.png:<frame>",
+      "animationParts": {
+        "forcepad": "y2.png"
+      },
+      "imagePosition": [0, 0],
+      "frames": 6,
+      "metaBoundBox": [0, -12, 0, 0],
+      "animationCycle": 1.0,
+      "spaceScan": 0.1,
+      "anchors": ["top"]
     }
   ],
 
-  "scripts" : [ "/objects/wired/sb_forcepad/forcepad.lua" ],
-  "scriptDelta" : 0,
+  "scripts": ["/objects/wired/sb_forcepad/forcepad.lua"],
+  "scriptDelta": 0,
 
-  "animation" : "/objects/wired/sb_forcepad/forcepad.animation",
+  "animation": "/objects/wired/sb_forcepad/forcepad.animation",
 
-  "animationParts" : {"forcepad" : "x.png"},
-  "animationPosition" : [0, 0],
+  "animationParts": {
+    "forcepad": "x.png"
+  },
+  "animationPosition": [0, 0],
 
-  "inputNodes" : [[0, 0]],
-  "physicsForces" : {
-    "jumpForce_left" : {
-      "type" : "DirectionalForceRegion",
-      "rectRegion" : [12,2,0,0],
-      "xTargetVelocity" : 350,
-      "controlForce" : 505
+  "inputNodes": [[0, 0]],
+  "physicsForces": {
+    "jumpForce_left": {
+      "type": "DirectionalForceRegion",
+      "rectRegion": [12, 2, 0, 0],
+      "xTargetVelocity": 350,
+      "controlForce": 505
     },
-    "jumpForce_right" : {
-      "type" : "DirectionalForceRegion",
-      "rectRegion" : [0,0,-12,2],
-      "xTargetVelocity" : 350, 
-      "controlForce" : 505
+    "jumpForce_right": {
+      "type": "DirectionalForceRegion",
+      "rectRegion": [1, 0, -11, 2],
+      "xTargetVelocity": 350,
+      "controlForce": 505
     },
-    "jumpForce_bottom" : {
-      "type" : "DirectionalForceRegion",
-      "rectRegion" : [0,0,2,12],
-      "yTargetVelocity" : 650, 
-      "controlForce" : 344
+    "jumpForce_bottom": {
+      "type": "DirectionalForceRegion",
+      "rectRegion": [0, 0, 2, 12],
+      "yTargetVelocity": 650,
+      "controlForce": 344
     },
-    "jumpForce_top" : {
-      "type" : "DirectionalForceRegion",
-      "rectRegion" : [0,0,2,-12],
-      "yTargetVelocity" : 650, 
-      "controlForce" : 344
+    "jumpForce_top": {
+      "type": "DirectionalForceRegion",
+      "rectRegion": [0, 1, 2, -11],
+      "yTargetVelocity": 650,
+      "controlForce": 344
     }
   }
 }

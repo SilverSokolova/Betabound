@@ -1,6 +1,8 @@
-[[
-{"op":"test","path":"/input/0/count","value":6},
-{"op":"test","path":"/input/0/item","value":"titaniumbar"},
-{"op":"replace","path":"/input/0/count","value":30},
-{"op":"replace","path":"/input/0/item","value":"rainbowwood"}
-]]
+[
+  [
+    {"op":"test","path":"/input/0/count","value":6},
+    {"op":"test","path":"/input/0/item","value":"titaniumbar"},
+    {"op":"replace","path":"/input/0/count","value":30},
+    {"op":"replace","path":"/input/0/item","value":"rainbowwood"}
+  ]
+]

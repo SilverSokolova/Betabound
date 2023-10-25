@@ -1,121 +1,146 @@
 {
-  "itemName" : "sb_uncommoncrappyaxe",
-  "price" : 25,
-  "maxStack" : 1,
-  "level" : 1,
-  "rarity" : "uncommon",
-  "description" : "",
-  "shortdescription" : "Uncommon Crappy Axe",
-  "tooltipKind" : "sb_sword",
-  "category" : "axe",
-  "tooltipFields" : {"subtitle":"Crappy Axe"},
-  "twoHanded" : false,
-  "itemTags" : ["weapon","melee","axe","crappy","upgradeableWeapon"],
-  "animation" : "/items/active/starbound/weapons/axe.animation",
+  "itemName": "sb_uncommoncrappyaxe",
+  "price": 25,
+  "maxStack": 1,
+  "level": 1,
+  "rarity": "uncommon",
+  "description": "",
+  "shortdescription": "Uncommon Crappy Axe",
+  "tooltipKind": "sb_sword",
+  "category": "axe",
+  "tooltipFields": {
+    "subtitle": "Crappy Axe"
+  },
+  "twoHanded": false,
+  "itemTags": ["weapon", "melee", "axe", "crappy", "upgradeableWeapon"],
+  "animation": "/items/active/starbound/weapons/axe.animation",
 
-  "animationCustom" : {
-    "animatedParts" : { "parts" : { "swoosh" : { "properties" : {
-      "offset" : [-1.0, 1.75]
-    }}}}
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "properties": {
+            "offset": [-1.0, 1.75]
+          }
+        }
+      }
+    }
   },
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "aimOffset" : -1.0,
+  "aimOffset": -1.0,
 
-  "primaryAbilityType" : "axecleave",
-  "primaryAbility" : {
-    "scripts" : ["/items/active/starbound/weapons/axe.lua"],
-    "fireTime" : [0.4,0.9],
-    "allowHold" : false,
-    "baseDps" : [4.5,6.5],
-    "damageConfig" : {
-      "damageSourceKind" : "axe",
-      "knockbackRange" : [12,16]
+  "primaryAbilityType": "axecleave",
+  "primaryAbility": {
+    "scripts": ["/items/active/starbound/weapons/axe.lua"],
+    "fireTime": [0.4, 0.9],
+    "allowHold": false,
+    "baseDps": [4.5, 6.5],
+    "damageConfig": {
+      "damageSourceKind": "axe",
+      "knockbackRange": [12, 16]
     },
-    "stances" : {
-      "idle" : {
-	"allowRotate" : true,
-	"weaponOffset" : [0.3, 1.5]
+    "stances": {
+      "idle": {
+        "allowRotate": true,
+        "weaponOffset": [0.3, 1.5]
       },
-      "windup" : {
-	"allowRotate" : true,
-	"duration" : 0.2,
-	"weaponOffset" : [0.3, 1.5],
+      "windup": {
+        "allowRotate": true,
+        "duration": 0.2,
+        "weaponOffset": [0.3, 1.5],
 
-        "minWindup" : 0.6,
+        "minWindup": 0.6,
 
-        "weaponAngle" : [
+        "weaponAngle": [
           [0.7, "linear", -20, 0],
           [0.85, "linear", 0, 50],
           [0.925, "sin", 50, 45],
           [1.0, "cos", 50, 45]
         ],
 
-        "armAngle" : [
+        "armAngle": [
           [1.0, "sin", -90, 50]
         ]
       },
-      "fire" : {
-	"duration" : 0.4,
-	"allowRotate":true,
-	"weaponOffset" : [0.3, 1.5]
+      "fire": {
+        "duration": 0.4,
+        "allowRotate": true,
+        "weaponOffset": [0.3, 1.5]
       }
     }
   },
 
-  "builderConfig" : [{
-    "nameGenerator" : "crappyaxenames.config:nameGen",
-    "elementalType" : ["physical","fire","ice","electric","poison"],
-    "elementalConfig" : {
-      "fire" : {
-	"primaryAbility" : {
-	  "damageConfig" : {
-	    "statusEffects" : [{"effect":"burning","duration":2}],
-	    "damageSourceKind" : "fireaxe"
-	  }
-	}
+  "builderConfig": [{
+      "nameGenerator": "crappyaxenames.config:nameGen",
+      "elementalType": ["physical", "fire", "ice", "electric", "poison"],
+      "elementalConfig": {
+        "fire": {
+          "primaryAbility": {
+            "damageConfig": {
+              "statusEffects": [{
+                  "effect": "burning",
+                  "duration": 2
+                }
+              ],
+              "damageSourceKind": "fireaxe"
+            }
+          }
+        },
+        "ice": {
+          "primaryAbility": {
+            "damageConfig": {
+              "statusEffects": [{
+                  "effect": "frostslow",
+                  "duration": 2
+                }
+              ],
+              "damageSourceKind": "iceaxe"
+            }
+          }
+        },
+        "electric": {
+          "primaryAbility": {
+            "damageConfig": {
+              "statusEffects": [{
+                  "effect": "electrified",
+                  "duration": 2
+                }
+              ],
+              "damageSourceKind": "electricaxe"
+            }
+          }
+        },
+        "poison": {
+          "primaryAbility": {
+            "damageConfig": {
+              "statusEffects": [{
+                  "effect": "weakpoison",
+                  "duration": 2
+                }
+              ],
+              "damageSourceKind": "poisonaxe"
+            }
+          }
+        }
       },
-      "ice" : {
-	"primaryAbility" : {
-	  "damageConfig" : {
-	    "statusEffects" : [{"effect":"frostslow","duration":2}],
-	    "damageSourceKind" : "iceaxe"
-	  }
-	}
+      "animationParts": {
+        "blade": {
+          "path": "crappyaxe/blade/<variant>.png",
+          "variants": 12,
+          "paletteSwap": true
+        },
+        "handle": {
+          "path": "crappyaxe/handle/<variant>.png",
+          "variants": 5,
+          "paletteSwap": true
+        }
       },
-      "electric" : {
-	"primaryAbility" : {
-	  "damageConfig" : {
-	    "statusEffects" : [{"effect":"electrified","duration":2}],
-	    "damageSourceKind" : "electricaxe"
-	  }
-	}
-      },
-      "poison" : {
-	"primaryAbility" : {
-	  "damageConfig" : {
-	    "statusEffects" : [{"effect":"weakpoison","duration":2}],
-	    "damageSourceKind" : "poisonaxe"
-	  }
-	}
-      }
-    },
-    "animationParts" : {
-      "blade" : {
-        "path" : "crappyaxe/blade/<variant>.png",
-        "variants" : 12,
-        "paletteSwap" : true
-      },
-      "handle" : {
-        "path" : "crappyaxe/handle/<variant>.png",
-        "variants" : 5,
-        "paletteSwap" : true
-      }
-    },
-    "palette" : "/items/active/starbound/colors/crappy.weaponcolors",
-    "iconDrawables" : ["handle", "blade"]
-  }],
+      "palette": "/items/active/starbound/colors/crappy.weaponcolors",
+      "iconDrawables": ["handle", "blade"]
+    }
+  ],
 
-  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

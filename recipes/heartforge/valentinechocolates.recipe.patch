@@ -1,0 +1,7 @@
+[
+  [
+    {"op":"test","path":"/input/0/item","value":"money"},
+    {"op":"test","path":"/input/0/count","value":150},
+    {"op":"replace","path":"/input/0/count","value":600}
+  ]
+]

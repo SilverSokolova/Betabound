@@ -31,9 +31,9 @@ function update(dt)
     script.setUpdateDelta(0)
   end
   if self.waitTime < 0 then
-  self.state:update(dt)
+    self.state:update(dt)
   else
-  self.waitTime = self.waitTime - dt
+    self.waitTime = self.waitTime - dt
   end
 end
 
@@ -47,10 +47,18 @@ function destroyRuin()
   while not findBoss() do
     coroutine.yield()
   end
-  if player.hasQuest("destroyruin") and not storage.gotQuestItem then player.giveItem("sb_beamaxe2") storage.gotQuestItem = true end
 
   sb_radioMessage() --Esther
   sb_radioMessage() --Lana
+  
+  while entity.position()[2] > config.getParameter("mmMessageHeight",480) do
+    coroutine.yield()
+  end
+  if player.hasQuest("destroyruin") and not storage.gotQuestItem then
+    player.giveItem("sb_beamaxe2")
+    storage.gotQuestItem = true
+    player.radioMessage("sb_tentaclemission-artifact")
+  end
 
   while entity.position()[2] > config.getParameter("brainMessageHeight",380) do
     coroutine.yield()

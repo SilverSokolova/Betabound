@@ -1,0 +1,14 @@
+[
+  //Mmm yes let me make a piece of furniture which confers no benefits instead of 40 bandages
+  //actually im not gonna change the fabric count since a shirt uses 20. still gonna change the fibre though
+  [
+    {"op":"test","path":"/input/2/item","value":"plantfibre"},
+    {"op":"test","path":"/input/2/count","value":40},
+    {"op":"replace","path":"/input/2/count","value":10}
+  ],
+  [
+    {"op":"add","path":"/groups/-","value":"craftingfurniture"},
+    {"op":"add","path":"/groups/-","value":"decoration"},
+    {"op":"add","path":"/groups/-","value":"all"}
+  ]
+]

@@ -1,64 +1,64 @@
 {
-  "globalTagDefaults" : {
-    "paletteSwaps" : ""
+  "globalTagDefaults": {
+    "paletteSwaps": ""
   },
 
-  "animatedParts" : {
-    "stateTypes" : {
-      "firing" : {
-        "default" : "off",
-        "states" : {
-          "off" : {},
-          "fire" : {
-            "frames" : 2,
-            "cycle" : 0.07,
-            "mode" : "transition",
-            "transition" : "off"
+  "animatedParts": {
+    "stateTypes": {
+      "firing": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "fire": {
+            "frames": 2,
+            "cycle": 0.07,
+            "mode": "transition",
+            "transition": "off"
           }
         }
       }
     },
 
-    "parts" : {
-      "butt" : {
-        "properties" : {
-          "centered" : true,
-          "image" : "<partImage><paletteSwaps>",
-          "offset" : [0, 0],
-          "transformationGroups" : ["weapon"]
+    "parts": {
+      "butt": {
+        "properties": {
+          "centered": true,
+          "image": "<partImage><paletteSwaps>",
+          "offset": [0, 0],
+          "transformationGroups": ["weapon"]
         }
       },
-      "middle" : {
-        "properties" : {
-          "centered" : true,
-          "image" : "<partImage><paletteSwaps>",
-          "offset" : [0, 0],
-          "transformationGroups" : ["weapon"]
+      "middle": {
+        "properties": {
+          "centered": true,
+          "image": "<partImage><paletteSwaps>",
+          "offset": [0, 0],
+          "transformationGroups": ["weapon"]
         }
       },
-      "barrel" : {
-        "properties" : {
-          "centered" : true,
-          "image" : "<partImage><paletteSwaps>",
-          "offset" : [0, 0],
-          "transformationGroups" : ["weapon"]
+      "barrel": {
+        "properties": {
+          "centered": true,
+          "image": "<partImage><paletteSwaps>",
+          "offset": [0, 0],
+          "transformationGroups": ["weapon"]
         }
       },
-      "muzzleFlash" : {
-        "properties" : {
-          "zLevel" : -1,
-          "centered" : true,
-          "offset" : [0.75, 0],
-          "fullbright" : true,
-	  "image" : "",
-          "transformationGroups" : ["muzzle"]
+      "muzzleFlash": {
+        "properties": {
+          "zLevel": -1,
+          "centered": true,
+          "offset": [0.75, 0],
+          "fullbright": true,
+          "image": "",
+          "transformationGroups": ["muzzle"]
         },
 
-        "partStates" : {
-          "firing" : {
-            "fire" : {
-              "properties" : {
-                "image" : "<partImage>:<frame>"
+        "partStates": {
+          "firing": {
+            "fire": {
+              "properties": {
+                "image": "<partImage>:<frame>"
               }
             }
           }
@@ -67,35 +67,35 @@
     }
   },
 
-  "rotationGroups" : {
-    "weapon" : {
-      "angularVelocity" : 0
+  "rotationGroups": {
+    "weapon": {
+      "angularVelocity": 0
     }
   },
 
-  "transformationGroups" : {
-    "weapon" : {},
-    "muzzle" : {}
+  "transformationGroups": {
+    "weapon": {},
+    "muzzle": {}
   },
 
-  "particleEmitters" : {
-    "muzzleFlash" : {
-      "transformationGroups" : ["muzzle"],
-      "offsetRegion" : [0, 0, 0, 0],
-      "particles" : [ ]
+  "particleEmitters": {
+    "muzzleFlash": {
+      "transformationGroups": ["muzzle"],
+      "offsetRegion": [0, 0, 0, 0],
+      "particles": []
     }
   },
 
-  "lights" : {
-    "muzzleFlash" : {
-      "active" : false,
-      "position" : [0, 0],
-      "color" : [90, 90, 0]
+  "lights": {
+    "muzzleFlash": {
+      "active": false,
+      "position": [0, 0],
+      "color": [90, 90, 0]
     }
   },
 
-  "sounds" : {
-    "fire" : [],
-    "fail" : []
+  "sounds": {
+    "fire": [],
+    "fail": []
   }
 }

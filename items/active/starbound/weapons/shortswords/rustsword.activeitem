@@ -1,61 +1,69 @@
 {
-  "itemName" : "sb_rustsword",
-  "level" : 1,
-  "price" : 85,
-  "maxStack" : 1,
-  "rarity" : "uncommon",
-  "tooltipKind" : "sb_sword",
-  "category" : "shortsword",
-  "tooltipFields" : {"subtitle":"Rust Sword"},
-  "description" : "",
-  "shortdescription" : "Rust Sword",
-  "twoHanded" : false,
-  "itemTags" : ["weapon","melee","shortsword","rust","upgradeableWeapon"],
-  "animation" : "/items/active/starbound/weapons/shortsword.animation",
+  "itemName": "sb_rustsword",
+  "level": 1,
+  "price": 85,
+  "maxStack": 1,
+  "rarity": "uncommon",
+  "tooltipKind": "sb_sword",
+  "category": "shortsword",
+  "tooltipFields": {
+    "subtitle": "Rust Sword"
+  },
+  "description": "",
+  "shortdescription": "Rust Sword",
+  "twoHanded": false,
+  "itemTags": ["weapon", "melee", "shortsword", "rust", "upgradeableWeapon"],
+  "animation": "/items/active/starbound/weapons/shortsword.animation",
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-  "primaryAbilityType" : "sb_meleeslash2",
-  "primaryAbility" : {
-    "fireTime" : [0.111,0.333],
-    "baseDps" : [7.6,9.2],
-    "baseDamage" : [5.5,7.8],
-    "damageConfig" : {
-      "damageSourceKind" : "slash"
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "primaryAbilityType": "sb_meleeslash2",
+  "primaryAbility": {
+    "fireTime": [0.111, 0.333],
+    "baseDps": [7.6, 9.2],
+    "baseDamage": [5.5, 7.8],
+    "damageConfig": {
+      "damageSourceKind": "slash"
     },
-    "stances" : {
-      "idle" : {
-        "weaponOffset" : [0.3, 1.7]
+    "stances": {
+      "idle": {
+        "weaponOffset": [0.3, 1.7]
       },
-      "windup" : {
-        "duration" : 0.2,
-        "weaponOffset" : [0.3, 1.7]
+      "windup": {
+        "duration": 0.2,
+        "weaponOffset": [0.3, 1.7]
       },
-      "fire" : {
-        "duration" : 0.2,
-        "weaponOffset" : [0.3, 1.7]
+      "fire": {
+        "duration": 0.2,
+        "weaponOffset": [0.3, 1.7]
       }
     }
   },
-  "builderConfig" : [{
-    "nameGenerator" : "rustswordnames.config:nameGen",
-    "elementalType" : ["poison"],
-    "elementalConfig" : {
-	"poison" : {
-	  "primaryAbility":{"damageConfig":{"statusEffects":["weakpoison"],"damageSourceKind":"poisonshortsword"}}
-	}
-    },
-    "animationParts" : {
-      "blade" : {
-        "path" : "rustsword/blade/<variant>.png",
-        "variants" : 3
+  "builderConfig": [{
+      "nameGenerator": "rustswordnames.config:nameGen",
+      "elementalType": ["poison"],
+      "elementalConfig": {
+        "poison": {
+          "primaryAbility": {
+            "damageConfig": {
+              "statusEffects": ["weakpoison"],
+              "damageSourceKind": "poisonshortsword"
+            }
+          }
+        }
       },
-      "handle" : {
-        "path" : "rustsword/handle/<variant>.png",
-        "variants" : 3
-      }
-    },
-   "iconDrawables" : ["handle", "blade"],
-   "altAbilities" : []
-  }],
-  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+      "animationParts": {
+        "blade": {
+          "path": "rustsword/blade/<variant>.png",
+          "variants": 3
+        },
+        "handle": {
+          "path": "rustsword/handle/<variant>.png",
+          "variants": 3
+        }
+      },
+      "iconDrawables": ["handle", "blade"],
+      "altAbilities": []
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

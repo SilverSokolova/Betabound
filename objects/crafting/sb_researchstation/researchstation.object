@@ -8,649 +8,663 @@
   "interactAction" : "ScriptPane",
   "interactData" : "/interface/windowconfig/sb_craftingresearch.config",
   "categoryButton" : {
-	"pressedOffset" : [0,-1],
-	"position" : [22, 44], //-10,22,33,51,58,78 increasing by 11 seems good
-	"baseImage" : "/interface/sb_crafting/categories.png:%s",
-	"baseImageChecked" : "/interface/sb_crafting/categoriesselected.png:%s",
-	"data" : {}
+  "pressedOffset" : [0,-1],
+  "position" : [22, 44], //-10,22,33,51,58,78 increasing by 11 seems good
+  "baseImage" : "/interface/sb_crafting/categories.png:%s",
+  "baseImageChecked" : "/interface/sb_crafting/categoriesselected.png:%s",
+  "data" : {}
   },
   "scripts" : ["researchstation.lua"],
 //"offeredItems" : {"main":["copperbar"],"mechs":["goldbar"]},
   "offeredItems" : {
      "main" : [
-	//avian
-	"sb_poachedavesmingo"
-	,"sb_crowncake"
-	,"sb_cordialglass"
-	,"sb_cordialbottle"
-	,"sb_wartjuice"
-	,"sb_wartwine"
-	,"sb_candiedpearlpeas"
-	,"sb_ricevinegar"
-	,"sb_rootpopbottle"
-	,"sb_rootpopflask"
-	,"sb_curriedbeakseed"
-	,"sb_wineglass"
-	,"sb_winebottle"
+      //avian
+      "sb_poachedavesmingo"
+      ,"sb_crowncake"
+      ,"sb_cordialglass"
+      ,"sb_cordialbottle"
+      ,"sb_wartjuice"
+      ,"sb_wartwine"
+      ,"sb_candiedpearlpeas"
+      ,"sb_ricevinegar"
+      ,"sb_rootpopbottle"
+      ,"sb_rootpopflask"
+      ,"sb_curriedbeakseed"
+      ,"sb_wineglass"
+      ,"sb_winebottle"
+    
+      //glitch
+      ,"sb_blackcurrentcrumble"
+      ,"sb_copperkeypie"
+      ,"sb_sweettime"
+      ,"sb_corntent"
+      ,"sb_batteryacid"
+      ,"sb_boltedmilk"
 
-	//glitch
-	,"sb_blackcurrentcrumble"
-	,"sb_copperkeypie"
-	,"sb_sweettime"
-	,"sb_corntent"
-	,"sb_batteryacid"
-	,"sb_boltedmilk"
+      //human
+      ,"sb_applepie"
+      ,"sb_candy"
+      ,"sb_icecream"
+      ,"sb_lollypop"
+      ,"sb_butter"
+      ,"sb_toffee"
+      ,"sb_toffeeapple"
+      ,"sb_alienburger"
+      ,"sb_burrito"
+      ,"sb_chilistew"
+      ,"sb_hamsandwich"
+    
+      //floran
+      ,"sb_sweetmeat"
+      ,"sb_pussplumpie"
+      ,"sb_boneboomarrow"
+      ,"sb_meatandmarrow"
+      ,"sb_meatwich"
+      ,"sb_thespecial"
+      ,"sb_meatjuice"
+      ,"sb_meatwine"
+      ,"sb_offal"
+    
+      //apex
+      ,"sb_bananabread"
 
-	//human
-	,"sb_applepie"
-	,"sb_candy"
-	,"sb_icecream"
-	,"sb_lollypop"
-	,"sb_butter"
-	,"sb_toffee"
-	,"sb_toffeeapple"
-	,"sb_alienburger"
-	,"sb_burrito"
-	,"sb_chilistew"
-	,"sb_hamsandwich"
-	,"sb_soup"
-
-	//floran
-	,"sb_sweetmeat"
-	,"sb_pussplumpie"
-	,"sb_boneboomarrow"
-	,"sb_meatandmarrow"
-	,"sb_meatwich"
-	,"sb_thespecial"
-	,"sb_meatjuice"
-	,"sb_meatwine"
-	,"sb_offal"
-
-	//apex
-	,"sb_bananabread"
-
-	//hylotl
-	,"sb_dirtea"
-	,"sb_ricewine"
-	,"sb_whiskeybottle"
-	,"sb_whiskeyflask"
-	,"sb_eggfriedrice"
-	,"sb_cornontheblob"
+      //hylotl
+      ,"sb_dirtea"
+      ,"sb_ricewine"
+      ,"sb_whiskeybottle"
+      ,"sb_whiskeyflask"
+      ,"sb_eggfriedrice"
+      ,"sb_cornontheblob"
     ],
+    
     "craft" : [
-	//seasonal
-	"heartforge"
-	,"holidaycraftingtable"
+      //seasonal
+      "heartforge"
+      ,"holidaycraftingtable"
     ],
+    
     "weapons" : [
-	//desert
-	"sb_cactislammer"
+      //desert
+      "sb_cactislammer"
+    
+      //savannah
+      ,"sb_thornyneedler"
+    
+      //snow
+      ,"snowgun"
+    
+      //jungle
+      ,"sb_tranquilizergun"
+    
+      //alien
+      ,"sb_corrosivegun"
+      ,"sb_corrosivegrenade"
+     
+      //volcanic
+      ,"sb_heatray"
+     
+     
+      //rainbow/colorful
+      ,"sb_rainbowsword"
+      ,"sb_crayonred"
+      ,"sb_crayonblue"
+      ,"sb_crayonyellow"
+      ,"sb_crayonpurple"
+      ,"sb_crayongreen"
+      ,"sb_crayonorange"
+    
+      ,"paintgunred"
+      ,"paintgunblue"
+      ,"paintgunyellow"
+      ,"paintgunpurple"
+      ,"paintgungreen"
+      ,"paintgunorange"
+    
+      //ocean
+      ,"harpoongun"
+      ,"sb_watersword"
+    
+      //toxic
+      ,"sb_irradiatedlauncher"
+      ,"sb_uraniumrodstaff"
+    
+      //bone
+      ,"sb_bonehammer"
+    
+      //alpine
+    
+      //bioluminescence
+      ,"lightbow"
+      ,"sb_firesword"
+    
+      //spring
+      ,"pollenpump"
+    
+      //oasis
+    
+      //tar
+      ,"sb_sabertoothspear"
+      ,"sb_tarhammer"
+    
+      //swamp
+    
+      //eyeball
+      ,"sb_eyesword"
 
-	//savannah
-	,"sb_thornyneedler"
-
-	//snow
-	,"snowgun"
-
-	//jungle
-	,"sb_tranquilizergun"
-
-	//alien
-
-	//volcanic
-	,"sb_heatray"
-
-
-	//rainbow/colorful
-	,"sb_crayonred"
-	,"sb_crayonblue"
-	,"sb_crayonyellow"
-	,"sb_crayonpurple"
-	,"sb_crayongreen"
-	,"sb_crayonorange"
-
-	,"paintgunred"
-	,"paintgunblue"
-	,"paintgunyellow"
-	,"paintgunpurple"
-	,"paintgungreen"
-	,"paintgunorange"
-
-	//ocean
-	,"harpoongun"
-
-	//toxic
-	,"sb_irradiatedlauncher"
-	,"sb_uraniumrodstaff"
-
-	//bone
-	//alpine
-
-	//bioluminescence
-	,"lightbow"
-
-	//spring
-	,"pollenpump"
-
-	//oasis
-
-	//tar
-	,"sb_sabertoothspear"
-
-	//swamp
-
-	//eyeball
-	,"sb_eyesword"
-
-	//ice
-	,"sb_frostspear"
-	,"frostshield"
-	,"frozenbow"
-
-	//cell
-	,"sb_chromosword"
-
-	//slime
-	,"sb_slimestaff"
-	,"sb_cutarrh"
-
-	//crystal
-	,"sb_hackman"
-
-	//heck
-	,"sb_splatterknife"
-
-	//mushroom
-	,"sb_smashroom"
-	,"mushroomshield"
-
-	//luminous cave
-	,"sb_biostaff"
-
-	//coral
-	,"sb_coralcleaver"
-
-	//unique weapon
-	,"iceboomerang"
-	,"fireboomerang"
-	,"lunarang"
-	,"neochakram"
-	,"sawchakram"
-	,"hardchakram"
-	,"clawglove"
-	,"stunglove"
-	,"vinefist"
-	,"sb_explosiveglove"
+      //ice
+      ,"sb_frostspear"
+      ,"frostshield"
+      ,"frozenbow"
+    
+      //cell
+      ,"sb_chromosword"
+    
+      //slime
+      ,"sb_slimestaff"
+      ,"sb_cutarrh"
+    
+      //crystal
+      ,"sb_hackman"
+    
+      //heck
+      ,"sb_splatterknife"
+    
+      //mushroom
+      ,"sb_mushroomsword"
+      ,"sb_mushroomsword2"
+      ,"sb_smashroom"
+      ,"mushroomshield"
+    
+      //luminous cave
+      ,"sb_biostaff"
+    
+      //coral
+      ,"sb_coralcleaver"
+    
+      //unique weapon
+      ,"iceboomerang"
+      ,"fireboomerang"
+      ,"lunarang"
+      ,"neochakram"
+      ,"sawchakram"
+      ,"hardchakram"
+      ,"clawglove"
+      ,"stunglove"
+      ,"vinefist"
+      ,"sb_explosiveglove"
     ],
+
     "mechs" : [
-	//mech3
-	"mechbodypirate"
-	,"mechbodyreactor"
-	,"mechbodymilitary"
-	,"mechbodybad"
-	,"mechboosterzed"
-	,"mechboosterstalwart"
-	,"mechboosterastro"
-	,"mechlegstwinjet"
-	,"mechlegshopper"
-	,"mechlegsarc"
-	,"mecharmheatrifle"
-	,"mecharmtommygun"
-	,"mecharmsplitshot"
-
-	//mech4
-	,"mechboostersleek"
-	,"mechlegssleek"
-	,"mecharmcannon"
-	,"mecharmgatling"
-	,"mecharmchainsaw"
-	,"mecharmhomingmissile"
-	,"mecharmplasmadrone"
-	,"mecharmclustermine"
-	,"mecharmwobbleshot"
-
-	//mech5
-	,"mechbodyhero"
-	,"mechbodyskull"
-	,"mechbodyshark"
-	,"mechboostergallant"
-	,"mechboosterzero"
-	,"mechboosterhammer"
-	,"mechlegsronin"
-	,"mechlegsintrepid"
-	,"mechlegshermes"
-	,"mecharmenergyrifle"
-	,"mecharmdualrifle"
-	,"mecharmenergyblade"
-	,"mecharmguidedmissiles"
-	,"mecharmshielddrone"
-	,"mecharmspikefist"
-	,"mecharmbeamdrill"
-
-	//mech6
-	,"mechbodyexodus"
-	,"mechbodyiris"
-	,"mecharmteslastream"
-	,"mecharmmultidrone"
-	,"mecharmbeamsniper"
-	,"mecharmgravitymine"
-
-	//mech unique
-	,"mechbodycultist"
-	,"mechbodycultist2"
-	,"mechbodyminiknog"
-	,"mechbodyprotector"
-	,"mechbodypenguin"
+      //mech3
+      "mechbodypirate"
+      ,"mechbodyreactor"
+      ,"mechbodymilitary"
+      ,"mechbodybad"
+      ,"mechboosterzed"
+      ,"mechboosterstalwart"
+      ,"mechboosterastro"
+      ,"mechlegstwinjet"
+      ,"mechlegshopper"
+      ,"mechlegsarc"
+      ,"mecharmheatrifle"
+      ,"mecharmtommygun"
+      ,"mecharmsplitshot"
+    
+      //mech4
+      ,"mechboostersleek"
+      ,"mechlegssleek"
+      ,"mecharmcannon"
+      ,"mecharmgatling"
+      ,"mecharmchainsaw"
+      ,"mecharmhomingmissile"
+      ,"mecharmplasmadrone"
+      ,"mecharmclustermine"
+      ,"mecharmwobbleshot"
+     
+      //mech5
+      ,"mechbodyhero"
+      ,"mechbodyskull"
+      ,"mechbodyshark"
+      ,"mechboostergallant"
+      ,"mechboosterzero"
+      ,"mechboosterhammer"
+      ,"mechlegsronin"
+      ,"mechlegsintrepid"
+      ,"mechlegshermes"
+      ,"mecharmenergyrifle"
+      ,"mecharmdualrifle"
+      ,"mecharmenergyblade"
+      ,"mecharmguidedmissiles"
+      ,"mecharmshielddrone"
+      ,"mecharmspikefist"
+      ,"mecharmbeamdrill"
+    
+      //mech6
+      ,"mechbodyexodus"
+      ,"mechbodyiris"
+      ,"mecharmteslastream"
+      ,"mecharmmultidrone"
+      ,"mecharmbeamsniper"
+      ,"mecharmgravitymine"
+    
+      //mech unique
+      ,"mechbodycultist"
+      ,"mechbodycultist2"
+      ,"mechbodyminiknog"
+      ,"mechbodyprotector"
+      ,"mechbodypenguin"
     ],
+
     "head" : [
-	//mushroom
-	"mushroomhead"
-
-	//rainbow
-	,"crayonredback"
-	,"crayonblueback"
-	,"crayonyellowback"
-	,"crayonpurpleback"
-	,"crayongreenback"
-	,"crayonorangeback"
-
-	//eyeball
-	,"eyehead"
-
+      //mushroom
+      "mushroomhead"
+    
+      //rainbow
+      ,"crayonredback"
+      ,"crayonblueback"
+      ,"crayonyellowback"
+      ,"crayonpurpleback"
+      ,"crayongreenback"
+      ,"crayonorangeback"
+    
+      //eyeball
+      ,"eyehead"
+     
     ],
     "blocks" : [
-	"wallpaper"
-	,"slopedrustypanel"
-	,"temple1"
-	,"temple2"
-	,"temple3"
-	,"temple4"
-	,"techhull1"
-	,"stonetiles"
-	,"stoneplatform"
-	,"slopedscrappanel"
-	,"slopedinsetpanel"
-	,"slopedhullpanel"
-	,"shojiscreenpanel"
-	,"shadowwallblock"
-	,"shadowspikeblock"
-	,"sewerpipe"
-	,"sandstoneblock"
-	,"rustymetal"
-	,"rustyblock"
-	,"ruinsplatform"
-	,"pressurisedplatform"
-	,"pressurisedgirder"
-	,"pressuriseddurasteel"
-	,"pressurisedbeam"
-	,"platematerial"
-	,"plantplatform"
-	,"pillarblock"
-	,"petalblock"
-	,"outpostwall1"
-	,"outpostwall2"
-	,"outpostsupport"
-	,"outpostplatform"
-	,"ornatewood"
-	,"ornatewall"
-	,"ornatetiles"
-	,"ornateroofing"
-	,"ornateflooring"
-	,"modernplatform"
-	,"mirror"
-	,"metallicmaterial"
-	,"lightmetal"
-	,"ledgebrick"
-	,"junktech"
-	,"iceblock"
-	,"homewalls1"
-	,"heavyironbars"
-	,"hazard"
-	,"girdermaterial"
-	,"floweryblock"
-	,"fadedblocks"
-	,"concretematerial"
-	,"cheapwallpaper"
-	,"castlewalls1"
-	,"castlewalls2"
-	,"bookpiles"
-	,"blackglass"
-	,"baseboard"
-	,"bars"
-	,"bambooplatform"
-	,"bamboo"
-	,"aztectech"
-	,"apexshipwall"
-	,"apexshipsupport"
-	,"apexshipplatform"
-	,"apexshipdetails"
-	,"wreckplatform"
-	,"woodenplatform"
-	,"tungstenplatform"
-	,"tribalplatform"
-	,"tombbrick"
-	,"tombbrick2"
-	,"tombbrick3"
-	,"tombbrick4"
-	,"tombbrick5"
-
-	,"blackblock"
-	,"outpost"
-	,"sb_smoothconcrete"
-	,"cloudblock"
+      "wallpaper"
+      ,"slopedrustypanel"
+      ,"temple1"
+      ,"temple2"
+      ,"temple3"
+      ,"temple4"
+      ,"techhull1"
+      ,"stonetiles"
+      ,"stoneplatform"
+      ,"slopedscrappanel"
+      ,"slopedinsetpanel"
+      ,"slopedhullpanel"
+      ,"shojiscreenpanel"
+      ,"shadowwallblock"
+      ,"shadowspikeblock"
+      ,"sewerpipe"
+      ,"sandstoneblock"
+      ,"rustymetal"
+      ,"rustyblock"
+      ,"ruinsplatform"
+      ,"pressurisedplatform"
+      ,"pressurisedgirder"
+      ,"pressuriseddurasteel"
+      ,"pressurisedbeam"
+      ,"platematerial"
+      ,"plantplatform"
+      ,"pillarblock"
+      ,"petalblock"
+      ,"outpostwall1"
+      ,"outpostwall2"
+      ,"outpostsupport"
+      ,"outpostplatform"
+      ,"ornatewood"
+      ,"ornatewall"
+      ,"ornatetiles"
+      ,"ornateroofing"
+      ,"ornateflooring"
+      ,"modernplatform"
+      ,"mirror"
+      ,"metallicmaterial"
+      ,"lightmetal"
+      ,"ledgebrick"
+      ,"ridgebrick"
+      ,"iceblock"
+      ,"homewalls1"
+      ,"heavyironbars"
+      ,"hazard"
+      ,"girdermaterial"
+      ,"floweryblock"
+      ,"fadedblocks"
+      ,"concretematerial"
+      ,"cheapwallpaper"
+      ,"castlewalls1"
+      ,"castlewalls2"
+      ,"bookpiles"
+      ,"blackglass"
+      ,"baseboard"
+      ,"bars"
+      ,"bambooplatform"
+      ,"bamboo"
+      ,"aztectech"
+      ,"apexshipwall"
+      ,"apexshipsupport"
+      ,"apexshipplatform"
+      ,"apexshipdetails"
+      ,"wreckplatform"
+      ,"woodenplatform"
+      ,"tungstenplatform"
+      ,"tribalplatform"
+      ,"tombbrick"
+      ,"tombbrick2"
+      ,"tombbrick3"
+      ,"tombbrick4"
+      ,"tombbrick5"
+     
+      ,"blackblock"
+      ,"outpost"
+      ,"sb_smoothconcrete"
+      ,"cloudblock"
     ],
     "planets" : [
-	//garden
-	//forest
-	//desert
-	//savannah
-	//snow*
+      //garden
+      //forest
+      //desert
+      //savannah
+      //snow*
+    
+      //ocean
+      //jungle
+      //alien
+      "alienbed"
+      ,"alienchair"
+      ,"alienchest"
+      ,"aliendoor"
+      ,"alientable"
+    
+      //toxic
+      ,"toxicchest"
+      ,"toxicchair"
+      ,"toxiclamp1"
+      ,"toxiclamp2"
+      ,"toxictable"
+    
+      //volcanic
+      //city
+      ,"scorchedcitybed"
+      ,"scorchedcitychair"
+      ,"scorchedcitychestdrawerlarge"
+      ,"scorchedcitychestdrawersmall"
+      ,"scorchedcitytable"
+      ,"scorchedcityfridge"
+      ,"scorchedcitytv"
+      ,"scorchedcitycounter"
+      ,"scorchedcityregister"
+      ,"scorchedcitystoreshelf"
+    
+      //tentacle
+     
+      //SECONDARY SURFACE BIOMES
+      //mushroom*
+     
+      ,"shroombed"
+      ,"shroomchair"
+      ,"shroomchest"
+      ,"shroomdoor"
+      ,"shroomlamp"
+      ,"shroomtable"
 
-	//ocean
-	//jungle
-	//alien
-	"alienbed"
-	,"alienchair"
-	,"alienchest"
-	,"aliendoor"
-	,"alientable"
+      //UG mushroom
+      ,"shroomstatue"
+     
+      ,"shroomwardrobe"
+     
+      //spring
+      ,"flowerstatue"
+     
+      ,"flowerbox"
+      ,"flowerlamp"
+      ,"movingsunflower"
+      ,"petalfountain"
+      ,"springchest"
+     
+      //oasis
+      ,"reedchair"
+      ,"reedbed"
+      ,"reedclock"
+      ,"reedlamp"
+      ,"reeddesk"
+      ,"reeddoor"
+      ,"reedchest"
+      ,"reedshelf"
+     
+      //tar
+  //  ,"asphalt"
+      ,"tarchair"
+      ,"tarbed"
+      ,"tarconsole"
+      ,"tarlight"
+      ,"tarman"
+      ,"tardoor"
+      ,"tarpitchest"
 
-	//toxic
-	,"toxicchest"
-	,"toxicchair"
-	,"toxiclamp1"
-	,"toxiclamp2"
-	,"toxictable"
+      //UG tar
+    
+      //colourful/rainbow*
+      ,"rainbowwoodbed"
+      ,"rainbowwoodchair"
+      ,"rainbowwooddoor"
+      ,"rainbowwoodsafe"
+      ,"rainbowwoodtable"
+      ,"rainbowunicornstatue"
+      ,"rainbowpainting"
+    
+      ,"rainbowbed"
+      ,"rainbowchair"
+      ,"rainbowchest"
+      ,"rainbowdoor"
+      ,"rainbowtable"
+    
+      //bone
+      ,"bonebed"
+      ,"bonechair"
+      ,"bonechest"
+      ,"bonedoor"
+      ,"bonetable"
+     
+      //alpine
+      ,"stonechest"
+      ,"stonebed"
+      ,"stonechair"
+      ,"stonedoor"
+      ,"stonetable"
+     
+      //biolumi
+      ,"sb_glowchest"
 
-	//volcanic
-	//city
-	,"scorchedcitybed"
-	,"scorchedcitychair"
-	,"scorchedcitychestdrawerlarge"
-	,"scorchedcitychestdrawersmall"
-	,"scorchedcitytable"
-	,"scorchedcityfridge"
-	,"scorchedcitytv"
-	,"scorchedcitycounter"
-	,"scorchedcityregister"
-	,"scorchedcitystoreshelf"
+      ,"glowflowerlamp"
+      ,"glowbushlamp"
+      ,"glowvinelamp"
+      ,"glowchest"
+      ,"glowbed"
+      ,"glowchair"
+      ,"glowstickorange"
+      ,"glowstickyellow"
+      ,"glowstickgreen"
+      ,"glowstickblue"
+     
+      //giant flower
+      ,"giantflowerbed"
+      ,"giantflowerchair"
+      ,"giantflowerchest"
+      ,"giantflowerdoor"
+      ,"giantflowerlamp"
+      ,"giantflowertable"
+     
+      //swamp
+      ,"swampchair"
+      ,"swampbed"
+      ,"swampybed"
+      ,"swampchest"
+    
+      //eyeball*
+      ,"sb_eyebed"
+      ,"sb_eyechair"
+      ,"sb_eyechest"
+      ,"sb_eyedoor"
+      ,"sb_eyetable"
+    
+      ,"eyebed"
+      ,"eyechair"
+      ,"eyechest"
+      ,"eyedoor"
+      ,"eyetable"
+    
+      //ice*
+      ,"icebed"
+      ,"icechair"
+      ,"icechest"
+      ,"icedoor"
+      ,"icetable"
+      ,"icemachine"
+     
+      //steamspring
+      ,"steamspringlamp"
+      ,"steamspringbed"
+      ,"steamspringdoor"
+      ,"steamspringchair"
+      ,"steamspringtable"
+     
+      //prism
+      ,"prismbed"
+      ,"prismdoor"
+      ,"prismchair"
+      ,"prismtable"
+      ,"prismlamp1"
+      ,"prismlamp2"
+      ,"prismlamp3"
+     
+      //hive
+      ,"hivebed"
+      ,"hivedoor"
+      ,"hivechair"
+      ,"hivetable"
+      ,"hivelamp"
+    
+      //foundry
+      ,"foundrybed"
+      ,"foundrychair"
+      ,"foundrydoor"
+      ,"foundrylight"
+      ,"magmalamp"
+    
+      //rust
+      ,"rustchest"
+      ,"rustbed"
+      ,"rustchair"
+      ,"rustdoor"
+      ,"rusttable"
+     
+      //geode
+      ,"geodebed"
+      ,"geodechair"
+      ,"geodedoor"
+      ,"geodeplantpot"
+      ,"geodeceilinglight"
+      ,"geodelowanote"
+      ,"geodebnote"
+      ,"geodecnote"
+      ,"geodednote"
+      ,"geodeenote"
+      ,"geodefnote"
+      ,"geodegnote"
+      ,"geodehighanote"
+    
+      //crystal
+      ,"crystalbed"
+      ,"crystalchair"
+      ,"crystalchest"
+      ,"crystallamp"
+      ,"crystaltable"
+    
+      //UG wilderness
+      //UG gnome
+      ,"smallchurch"
+      ,"smallclocktower"
+      ,"smallhouse1"
+      ,"smallhouse2"
+      ,"smallhouse3"
+      ,"smallhouse4"
+      ,"smallhouse5"
+      ,"smallhouse6"
+      ,"smallhouse7"
+      ,"smallhouse8"
+      ,"smallhouse9"
+      ,"smallhouse10"
+      ,"smallhouse11"
+      ,"smallinn"
+      ,"smalllamppost"
+      ,"smallwindmill"
+     
+      //ice cave
+      ,"icespherechest"
+     
+      //stone cave
+      ,"rock01"
+      ,"rock02"
+      ,"rock03"
+      ,"rock04"
+      ,"rock12"
+      ,"rock14"
+      ,"rock15"
+      ,"rock17"
+      ,"rock19"
+      ,"rock20"
+     
+      ,"cavebed"
+      ,"cavechair"
+      ,"cavechest"
+      ,"cavelamp"
 
-	//tentacle
-
-	//SECONDARY SURFACE BIOMES
-	//mushroom*
-
-	,"shroombed"
-	,"shroomchair"
-	,"shroomchest"
-	,"shroomdoor"
-	,"shroomlamp"
-	,"shroomtable"
-
-	//UG mushroom
-	,"shroomstatue"
-
-	,"shroomwardrobe"
-
-	//spring
-	,"flowerstatue"
-
-	,"flowerbox"
-	,"flowerlamp"
-	,"movingsunflower"
-	,"petalfountain"
-	,"springchest"
-
-	//oasis
-	,"reedchair"
-	,"reedbed"
-	,"reedclock"
-	,"reedlamp"
-	,"reeddesk"
-	,"reeddoor"
-	,"reedchest"
-	,"reedshelf"
-
-	//tar
-//	,"asphalt"
-	,"tarchair"
-	,"tarbed"
-	,"tarconsole"
-	,"tarlight"
-	,"tarman"
-	,"tardoor"
-	,"tarpitchest"
-
-	//UG tar
-
-	//colourful/rainbow*
-	,"rainbowwoodbed"
-	,"rainbowwoodchair"
-	,"rainbowwooddoor"
-	,"rainbowwoodsafe"
-	,"rainbowwoodtable"
-	,"rainbowunicornstatue"
-	,"rainbowpainting"
-
-	,"rainbowbed"
-	,"rainbowchair"
-	,"rainbowchest"
-	,"rainbowdoor"
-	,"rainbowtable"
-
-	//bone
-	,"bonebed"
-	,"bonechair"
-	,"bonechest"
-	,"bonedoor"
-	,"bonetable"
-
-	//alpine
-	,"stonechest"
-	,"stonebed"
-	,"stonechair"
-	,"stonedoor"
-	,"stonetable"
-
-	//biolumi
-	,"sb_glowchest"
-
-	,"glowflowerlamp"
-	,"glowbushlamp"
-	,"glowvinelamp"
-	,"glowchest"
-	,"glowbed"
-	,"glowchair"
-	,"glowstickorange"
-	,"glowstickyellow"
-	,"glowstickgreen"
-	,"glowstickblue"
-
-	//giant flower
-	,"giantflowerbed"
-	,"giantflowerchair"
-	,"giantflowerchest"
-	,"giantflowerdoor"
-	,"giantflowerlamp"
-	,"giantflowertable"
-
-	//swamp
-	,"swampchair"
-	,"swampbed"
-	,"swampybed"
-	,"swampchest"
-
-	//eyeball*
-	,"sb_eyebed"
-	,"sb_eyechair"
-	,"sb_eyechest"
-	,"sb_eyedoor"
-	,"sb_eyetable"
-
-	,"eyebed"
-	,"eyechair"
-	,"eyechest"
-	,"eyedoor"
-	,"eyetable"
-
-	//ice*
-	,"icebed"
-	,"icechair"
-	,"icechest"
-	,"icedoor"
-	,"icetable"
-	,"icemachine"
-
-	//steamspring
-	,"steamspringlamp"
-	,"steamspringbed"
-	,"steamspringdoor"
-	,"steamspringchair"
-	,"steamspringtable"
-
-	//prism
-	,"prismbed"
-	,"prismdoor"
-	,"prismchair"
-	,"prismtable"
-	,"prismlamp1"
-	,"prismlamp2"
-	,"prismlamp3"
-
-	//hive
-	,"hivebed"
-	,"hivedoor"
-	,"hivechair"
-	,"hivetable"
-	,"hivelamp"
-
-	//foundry
-	,"foundrybed"
-	,"foundrychair"
-	,"foundrydoor"
-	,"foundrylight"
-	,"magmalamp"
-
-	//rust
-	,"rustchest"
-	,"rustbed"
-	,"rustchair"
-	,"rustdoor"
-	,"rusttable"
-
-	//geode
-	,"geodebed"
-	,"geodechair"
-	,"geodedoor"
-	,"geodeplantpot"
-	,"geodeceilinglight"
-	,"geodelowanote"
-	,"geodebnote"
-	,"geodecnote"
-	,"geodednote"
-	,"geodeenote"
-	,"geodefnote"
-	,"geodegnote"
-	,"geodehighanote"
-
-	//crystal
-	,"crystalbed"
-	,"crystalchair"
-	,"crystalchest"
-	,"crystallamp"
-	,"crystaltable"
-
-	//UG wilderness
-	//UG gnome
-	,"smallchurch"
-	,"smallclocktower"
-	,"smallhouse1"
-	,"smallhouse2"
-	,"smallhouse3"
-	,"smallhouse4"
-	,"smallhouse5"
-	,"smallhouse6"
-	,"smallhouse7"
-	,"smallhouse8"
-	,"smallhouse9"
-	,"smallhouse10"
-	,"smallhouse11"
-	,"smallinn"
-	,"smalllamppost"
-	,"smallwindmill"
-
-	//ice cave
-	,"icespherechest"
-
-	//stone cave
-	,"rock01"
-	,"rock02"
-	,"rock03"
-	,"rock04"
-	,"rock12"
-	,"rock14"
-	,"rock15"
-	,"rock17"
-	,"rock19"
-	,"rock20"
-
-	,"cavebed"
-	,"cavechair"
-	,"cavechest"
-	,"cavelamp"
-
-	//luminous cave
-	,"bioshroomtable"
-
-	//UG flesh
-	,"fleshbed"
-
-	,"fleshchair"
-	,"fleshchest"
-	,"fleshdoor"
-	,"fleshtable"
-
-	//UG cell
-	,"cellchair"
-	,"celltable"
-	,"celldoor"
-	,"celllamp"
-	,"cellchest"
-
-	//slime cave
-	,"sb_slimehide"
-
-	,"slimechair"
-	,"slimebed"
-	,"slimehide"
-	,"slimetorch"
-
-	//OLD AND BUSTED
-	//sandstone
-	,"sandstonebed"
-	,"sandstonechair"
-	,"sandstonechest"
-	,"sandstonedoor"
-	,"sandstonetable"
-	,"sandstonetorch"
-
-	//geometric
-	,"sb_geometricchair"
-	,"sb_geometricchest"
-	,"sb_geometricbed"
-	,"sb_geometricscreen"
-	,"sb_geometrictable"
-
-	//NON-BIOME SETS. If we're doing the industrial set, should we also do mission sets such as the lunar base?
-	,"industrialchair"
-	,"industrialtable"
-	,"industriallight"
-	,"industrialcrate"
-	,"industrialdoor"
-	,"industrialstoragelocker"
-	,"industrialdisplay"
-	,"industrialcomputer"
-	,"industrialcanister"
+      //luminous cave
+      ,"bioshroomtable"
+     
+      //UG flesh
+      ,"fleshbed"
+     
+      ,"fleshchair"
+      ,"fleshchest"
+      ,"fleshdoor"
+      ,"fleshtable"
+     
+      //UG cell
+      ,"cellchair"
+      ,"celltable"
+      ,"celldoor"
+      ,"celllamp"
+      ,"cellchest"
+     
+      //slime cave
+      ,"sb_slimehide"
+     
+      ,"slimechair"
+      ,"slimebed"
+      ,"slimehide"
+      ,"slimetorch"
+     
+      //OLD AND BUSTED
+      //sandstone
+      ,"sandstonebed"
+      ,"sandstonechair"
+      ,"sandstonechest"
+      ,"sandstonedoor"
+      ,"sandstonetable"
+      ,"sandstonetorch"
+     
+      //geometric
+      ,"sb_geometricchair"
+      ,"sb_geometricchest"
+      ,"sb_geometricbed"
+      ,"sb_geometricscreen"
+      ,"sb_geometrictable"
+     
+      //NON-BIOME SETS. If we're doing the industrial set, should we also do mission sets such as the lunar base?
+      ,"industrialchair"
+      ,"industrialtable"
+      ,"industriallight"
+      ,"industrialcrate"
+      ,"industrialdoor"
+      ,"industrialstoragelocker"
+      ,"industrialdisplay"
+      ,"industrialcomputer"
+      ,"industrialcanister"
+      ,"industrialbed"
      ]
    },
   "description" : "With some pixels and blank blueprints, I can develop hard-to-find blueprints here!",

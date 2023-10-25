@@ -10,6 +10,7 @@
 [{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":4}],
 
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
-[{"op":"add","path":"/effects/0/-","value":"sb_foodheal215"}],
-[{"op":"add","path":"/effects/0/-","value":{"effect":"sb_energy","duration":30}}]
+[{"op":"test","path":"/effects/0/0/duration","value":540},{"op":"replace","path":"/effects/0/0/duration","value":270}],
+[{"op":"add","path":"/effects/0/-","value":{"effect":"runboostfood","duration":270}}],
+[{"op":"add","path":"/effects/0/-","value":"sb_foodheal215"}]
 ]

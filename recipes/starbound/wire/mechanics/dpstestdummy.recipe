@@ -1,0 +1,5 @@
+{
+  "input": ["scarecrow", "wire", "smallbattery", "siliconboard", "stickofram"],
+  "output": "sb_dpstestdummy",
+  "groups": ["craftingwiring", "mechanics", "all"]
+}

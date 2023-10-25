@@ -1,6 +1,0 @@
-{
-  "input" : [["sb_ceruliumore",2]],
-  "output" : "sb_ceruliumcompound",
-  "duration" : 0.15,
-  "groups" : ["craftingfurnace3","bars","all"]
-}

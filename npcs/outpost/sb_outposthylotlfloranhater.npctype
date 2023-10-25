@@ -1,11 +1,7 @@
 {
   "type": "sb_outposthylotlfloranhater",
   "baseType": "outpostcivilian",
-
-  "scripts": [
-    "/npcs/bmain.lua",
-    "/npcs/sb_outpostcivilian.lua"
-  ],
+  "displayTitle": "Hylotl Floran Hater",
 
   "scriptConfig": {
     "sb_offeredQuests": ["sb_kelpquest.gearup"],

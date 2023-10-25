@@ -1,8 +1,10 @@
 {
-  "name" : "sb_vamptech",
-  "defaultDuration" : 5,
-  "effectConfig" : {"tech":"sb_vamp"},
-  "scripts" : ["vamp.lua"],
-  "label" : "Vampiric",
-  "icon" : "/tech/starbound/vamp.png"
+  "name": "sb_vamptech",
+  "defaultDuration": 5,
+  "effectConfig": {
+    "tech": "sb_vamp"
+  },
+  "scripts": ["vamp.lua"],
+  "label": "Vampiric",
+  "icon": "/tech/starbound/vamp.png"
 }

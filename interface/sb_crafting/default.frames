@@ -1,12 +1,17 @@
-{"frameGrid":{"size":[18,19],"dimensions":[6,9],
-"names":[
-["empty","other","blocks","armor","weapons","ammo"],
-["items","smith","sit","augments","1","2"],
-["3","4","all","head","chest","legs"],
-["back","craft","bars","ore2","ore","healing"],
-["health","energy","energyregen","mobility","swimboost","warmth"],
-["glow","thorns","nova","electrified","lowgrav","bouncy"],
-["main","side","dessert","snack","drink","condiment"],
-["campfire","convert","skyrails","rails","door","light"],
-["wire","storage","decorative","instruments","planets","mechs"]
-]}}
+{
+  "frameGrid": {
+    "size": [18, 19],
+    "dimensions": [6, 11],
+    "names": [
+      ["empty", "other", "blocks", "weapons", "armor", "smith"],
+      ["items", "augments", "1", "2", "3", "4"],
+      ["all", "head", "craft", "mining", "upgrades", "healing"],
+      ["health", "energy", "energyregen", "runboost", "jumpboost", "rage"],
+      ["swimboost", "glow", "thorns", "nova", "electrified", "lowgrav"],
+      ["bouncy", "main", "side", "dessert", "snack", "drink"],
+      ["condiment", "campfire", "convert", "skyrails", "rails", "door"],
+      ["light", "wire", "storage", "decorative", "sit", "instruments"],
+      ["planets", "mechs", null, null, null, null]
+    ]
+  }
+}

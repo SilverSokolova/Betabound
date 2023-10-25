@@ -1,5 +1,0 @@
-{
-  "input" : [["paper",3],"leather"],
-  "output" : "sb_customcodex",
-  "groups" : ["sb_craftingtable","sb_tools","all"]
-}

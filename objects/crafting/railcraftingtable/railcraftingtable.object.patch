@@ -1,0 +1,4 @@
+[
+  {"op":"replace","path":"/interactData/config","value":"/interface/windowconfig/sb_railcrafting.config"},
+  {"op":"add","path":"/interactData/filter/-","value":"sb_skyrailtable"}
+]

@@ -1,0 +1,11 @@
+[
+  [
+    {"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
+    {"op":"add","path":"/learnBlueprintsOnPickup","value":[]}
+  ],
+  [
+    {"op":"test","path":"/shortdescription","value":"Ridged Block"},
+    {"op":"replace","path":"/shortdescription","value":"Ridged Brick"}
+  ],
+  [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"ridgebrick"}]
+]

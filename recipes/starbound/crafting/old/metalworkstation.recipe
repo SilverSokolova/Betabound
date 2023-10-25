@@ -1,5 +1,0 @@
-{
-  "input" : ["sb_ironanvil",["tungstenbar",5],"moltencore"],
-  "output" : "sb_metalworkstation",
-  "groups" : ["sb_stations","all"]
-}

@@ -31,10 +31,10 @@ function populateList() --We've already checked if the item exists
       widget.setData(listItem, {output.itemName, recipe.input[2]})
       local recipeData = root.recipesForItem(output.itemName:sub(1,-8))[1].output
       if player.blueprintKnown({recipeData.name, recipeData.count, recipeData.parameters}) then --recipesForItem for recipes with parameters, ie frost spear
-	local newIcon = listItem..".newIcon"
-	local oldPos = widget.getPosition(newIcon)
-	widget.setImage(newIcon, ownedIcon)
-	widget.setPosition(newIcon, {oldPos[1]+(newIconOffset),oldPos[2]})
+        local newIcon = listItem..".newIcon"
+        local oldPos = widget.getPosition(newIcon)
+        widget.setImage(newIcon, ownedIcon)
+        widget.setPosition(newIcon, {oldPos[1]+(newIconOffset),oldPos[2]})
       end
     end
   end
@@ -88,7 +88,7 @@ function itemSelected()
 end
 
 function formatIcon(icon, directory)
-  if type(icon) ~= "string" then return (#icon == 1 and formatIcon(icon[1].image, directory) or "/interface/x.png") end
+  if type(icon) ~= "string" then return (#icon == 1 and formatIcon(icon[1].image, directory) or "/items/generated/blueprintinhand.png") end
   return string.sub(icon,1,1) == "/" and icon or directory..icon
 end
 

@@ -1,0 +1,6 @@
+{
+  "input" : ["sb_butter","pearlpea"],
+  "output" : "sb_peanutbutterjar",
+  "groups" : ["craftingfood","condiments","sb_healing","sb_protection","sb_energy","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_peanutbutterjar"}
+}

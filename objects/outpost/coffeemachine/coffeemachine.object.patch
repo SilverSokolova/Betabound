@@ -1,0 +1,80 @@
+[
+  [{
+      "op": "test",
+      "path": "/interactAction",
+      "inverse": true
+    }, {
+      "op": "test",
+      "path": "/slotCount",
+      "inverse": true
+    }, {
+      "op": "test",
+      "path": "/interactData",
+      "inverse": true
+    }, {
+      "op": "test",
+      "path": "/interactive",
+      "inverse": true
+    },
+    //
+    {
+      "op": "add",
+      "path": "/uiConfig",
+      "value": "/interface/sb_objectcrafting/coffeemachine.config"
+    }, {
+      "op": "add",
+      "path": "/recipeGroup",
+      "value": "sb_coffee"
+    }, {
+      "op": "add",
+      "path": "/slotCount",
+      "value": 2
+    }, {
+      "op": "add",
+      "path": "/frameCooldown",
+      "value": 5
+    }, {
+      "op": "add",
+      "path": "/autoCloseCooldown",
+      "value": 3600
+    }, {
+      "op": "add",
+      "path": "/openSounds",
+      "value": ["/sfx/objects/chest_medium_open.ogg"]
+    }, {
+      "op": "add",
+      "path": "/closeSounds",
+      "value": ["/sfx/objects/chest_medium_close.ogg"]
+    }, {
+      "op": "copy",
+      "path": "/category",
+      "from": "/subtitle"
+    }, {
+      "op": "add",
+      "path": "/objectType",
+      "value": "container"
+    }
+  ], [{
+      "op": "test",
+      "path": "/tooltipFields",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/tooltipFields",
+      "value": {}
+    }
+  ], [{
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Coffee Machine"
+    }, {
+      "op": "add",
+      "path": "/tooltipFields/subtitle",
+      "value": "Crafting Station"
+    }, {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;Coffee Machine^reset;"
+    }
+  ]
+]

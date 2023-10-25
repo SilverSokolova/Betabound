@@ -15,9 +15,9 @@ function update(dt) updat(dt)
     for _,i in pairs(players) do
       if world.magnitude(entity.position(),world.entityPosition(i)) > 80 then --And if they're using a radio?
 	--Okay so when they enter the radius remove them from messagedPlayers??
-	world.sendEntityMessage(i,"stopAltMusic",1)
-	  else
-	world.sendEntityMessage(i,"playAltMusic",{sb_music},1)
+        world.sendEntityMessage(i,"stopAltMusic",1)
+      else
+        world.sendEntityMessage(i,"playAltMusic",{sb_music},1)
       end
     end
   end

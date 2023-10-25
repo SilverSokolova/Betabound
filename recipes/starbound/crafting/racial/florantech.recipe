@@ -1,5 +1,0 @@
-{
-  "input" : ["upgrademodule",["platinumbar",5],["wire",20],"techconsole"],
-  "output" : "sb_techstation_floran",
-  "groups" : ["sb_roboticcraftingtable","sb_stations","all"]
-}

@@ -1,21 +1,21 @@
 {
-  "name" : "sb_rocketjump",
-  "type" : "legs",
+  "name": "sb_rocketjump",
+  "type": "legs",
 
-  "rarity" : "Legendary",
-  "icon" : "/tech/starbound/rocketjump.png",
-  "description" : "Hold ^#0f0;[SPACE]^reset; to charge a rocket-boosted leap! Unleash with ^#0f0;[W]^reset;.",
-  "sb_briefDescription" : "Hold ^#0f0;[SPACE]^reset; to charge a boosted leap! Unleash with ^#0f0;[W]^reset;.",
-  "sb_longDescription" : "Watch out for fall damage!",
-  "shortDescription" : "Charge Jump",
-  "chipCost" : 12,
+  "rarity": "Legendary",
+  "icon": "/tech/starbound/rocketjump.png",
+  "description": "Hold ^#0f0;[SPACE]^reset; to charge a rocket-boosted leap! Unleash with ^#0f0;[W]^reset;.",
+  "sb_briefDescription": "Hold ^#0f0;[SPACE]^reset; to charge a boosted leap! Unleash with ^#0f0;[W]^reset;.",
+  "sb_longDescription": "Watch out for fall damage!",
+  "shortDescription": "Charge Jump",
+  "chipCost": 12,
 
-  "scripts" : ["superjump.lua"],
-  "animator" : "rocketjump.animation",
+  "scripts": ["superjump.lua"],
+  "animator": "rocketjump.animation",
 
-  "energyUsage" : 26,
-  "superjumpSpeed" : 250,
-  "superjumpControlForce" : 900,
-  "superjumpTime" : 0.13,
-  "superJumpMaxCharge" : 10
+  "energyUsage": 26,
+  "superjumpSpeed": 250,
+  "superjumpControlForce": 900,
+  "superjumpTime": 0.13,
+  "superJumpMaxCharge": 10
 }

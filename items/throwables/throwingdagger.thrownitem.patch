@@ -3,5 +3,9 @@
 [{"op":"test","path":"/price","value":3},{"op":"replace","path":"/price","value":13}],
 
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
-[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"throwingdagger"}]
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"throwingdagger"}],
+
+[{"op":"test","path":"/level","inverse":true},{"op":"add","path":"/level","value":2}],
+[{"op":"test","path":"/builder"},{"op":"move","from":"/builder","path":"/sb_builder"}],
+[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildthrowable.lua"}]
 ]

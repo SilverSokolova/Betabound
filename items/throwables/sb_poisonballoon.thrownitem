@@ -1,26 +1,25 @@
 {
-  "itemName" : "sb_poisonballoon",
-  "rarity" : "Common",
-  "category" : "throwableItem",
-  "inventoryIcon" : "sb_poisonballoonicon.png",
-  "image" : "sb_poisonballoon.png",
-  "tooltipKind" : "sb_object",
-  "shortdescription" : "Poison Balloon",
-  "description" : "Just like a water balloon, with one noticeable difference.",
-  "ammoUsage" : 1,
-  "edgeTrigger" : true,
-  "windupTime" : 0,
-  "cooldown" : 0.4,
-  "projectileType" : "poisonballoon",
-  "projectileConfig" : {
-    "speed" : 40,
-    "power" : 0,
-    "periodicActions" : [
-      {
-        "time" : 0,
-        "repeat" : false,
-        "action" : "sound",
-        "options" : ["/sfx/projectiles/throw_item_small.ogg"]
+  "itemName": "sb_poisonballoon",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "inventoryIcon": "sb_poisonballoonicon.png",
+  "image": "sb_poisonballoon.png",
+  "tooltipKind": "sb_object",
+  "shortdescription": "Poison Balloon",
+  "description": "Just like a water balloon, with one noticeable difference.",
+  "ammoUsage": 1,
+  "edgeTrigger": true,
+  "windupTime": 0,
+  "cooldown": 0.4,
+  "projectileType": "poisonballoon",
+  "projectileConfig": {
+    "speed": 40,
+    "power": 0,
+    "periodicActions": [{
+        "time": 0,
+        "repeat": false,
+        "action": "sound",
+        "options": ["/sfx/projectiles/throw_item_small.ogg"]
       }
     ]
   }

@@ -1,0 +1,6 @@
+{
+  "itemName": "sb_eyefoliageHarvest",
+  "rarity": "rare",
+  "pool": "sb_eyefoliageHarvest",
+  "builder": "/items/buildscripts/starbound/randomdrop.lua"
+}

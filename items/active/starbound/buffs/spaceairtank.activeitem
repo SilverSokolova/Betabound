@@ -1,0 +1,14 @@
+{
+  "itemName": "sb_spaceairtank",
+  "inventoryIcon": "spaceairtank.png",
+  "largeImage": "spaceairtank.png",
+  "rarity": "legendary",
+  "maxStack": 1,
+  "price": 3000,
+  "description": "This device creates a breathable field of oxygen around the wearer when held.",
+  "shortdescription": "Survival System",
+  "tooltipKind": "sb_tool",
+  "category": "tool",
+  "effects": ["sb_breathprotectiontech"],
+  "scripts": ["effect.lua"]
+}

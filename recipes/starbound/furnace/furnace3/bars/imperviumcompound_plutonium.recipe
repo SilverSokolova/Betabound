@@ -1,0 +1,6 @@
+{
+  "input" : [["refinedviolium",2],"plutoniumrod"],
+  "output" : "sb_imperviumcompound",
+  "duration" : 0.15,
+  "groups" : ["craftingfurnace3","bars","all"]
+}

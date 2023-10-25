@@ -1,3 +1,4 @@
-[[{"op":"add","path":"/baseParameters/scripts/-","value":"/scripts/companions/sb_capturable.lua"}],
+[
 [{"op":"test","path":"/dropPools","inverse":true},{"op":"add","path":"/dropPools","value":[]}],
-[{"op":"add","path":"/dropPools/-","value":{"default":"sb_tentacleTreasure","bow":"sb_tentacleHunting"}}]]
+[{"op":"add","path":"/dropPools/-","value":{"default":"sb_tentacleTreasure","bow":"sb_tentacleHunting"}}]
+]

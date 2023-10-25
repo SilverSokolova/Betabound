@@ -135,7 +135,7 @@ end
 function prepareBooking(i)
 	if isCodex(i) and registerNewCodex(i) then return elseif
 	isCustomCodex(i) and registerNewCustomCodex(i) then return elseif
-	(root.itemConfig(i).config.sb_copybook or root.itemConfig(i).config.category == "codex" or (i.parameters.interactData and i.parameters.interactAction)) and not isCodex(i) and i.name ~= "sb_customcodex" and registerNewPage(i) then end
+	(root.itemHasTag(i.name, "sb_copybook") or root.itemConfig(i).config.category == "codex" or (i.parameters.interactData and i.parameters.interactAction)) and not isCodex(i) and i.name ~= "sb_customcodex" and registerNewPage(i) then end
 end
 
 

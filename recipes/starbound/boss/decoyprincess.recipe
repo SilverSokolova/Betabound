@@ -1,6 +1,0 @@
-{
-  "input" : [["titaniumbar",5],["durasteelbar",5],["fabric",5]],//It's 2022, you gotta get this done sometime!
-//I DONT WANNA
-  "output" : "sb_decoyprincess",
-  "groups" : ["sb_roboticcraftingtable","sb_objects","all"]
-}

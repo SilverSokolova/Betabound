@@ -20,5 +20,15 @@
         "op": "add",
         "path": "/2/monsterType/-",
         "value": [0.99,"sb_poptop"]
+    }],
+    //Fix for ooglers not spawning in bone caves
+    [{
+        "op": "test",
+        "path": "/7/spawnParameters/region",
+        "value": "exposed"
+    },{
+        "op": "replace",
+        "path": "/7/spawnParameters/region",
+        "value": "all"
     }]
 ]

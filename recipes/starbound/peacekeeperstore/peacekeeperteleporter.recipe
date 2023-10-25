@@ -1,5 +1,0 @@
-{
-  "input" : [["peacecredit",18],"teleportercore"],
-  "output" : "sb_peacekeeperteleporter",
-  "groups" : ["peacekeeper2","all"]
-}

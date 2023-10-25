@@ -31,4 +31,7 @@ function build(directory, config, parameters)
   return config, parameters
 end
 
-function cropImage(a) if root.imageSize(a)[1]==16 and root.imageSize(a)[2]==16 then return a.."?crop=;4;4;12;16" else return a end end
+function cropImage(a)
+  local imageSize = root.imageSize(a)
+  if imageSize[1]==16 and imageSize[2]==16 then return a.."?crop=;4;4;12;16" else return a end
+end

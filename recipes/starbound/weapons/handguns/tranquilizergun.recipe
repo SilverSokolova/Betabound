@@ -1,5 +1,5 @@
 {
-  "input" : [["durasteelbar",4],["biosample",15],"syringe"],
+  "input" : [["durasteelbar",4],["biosample",15]],
   "output" : ["sb_tranquilizergun",1,{"seed":1,"level":4}],
   "groups" : ["craftinganvil3","weapons","all"]
 }

@@ -1,5 +1,0 @@
-{
-  "input" : ["peacecredit"],
-  "output" : ["supermatter",5],
-  "groups" : ["peacekeeper1","nouncrafting","all"]
-}

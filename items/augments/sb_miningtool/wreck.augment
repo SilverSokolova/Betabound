@@ -1,13 +1,15 @@
 {
-  "itemName" : "sb_wreck_repair",
-  "price" : 10,
-  "tooltipKind" : "sb_object",
-  "rarity" : "Common",
-  "category" : "Tool",
-  "tooltipFields" : {"subtitle":"Repair Tool"},
-  "durabilityRegen" : 40,
-  "inventoryIcon" : "wreck.png",
-  "description" : "It's a salvaged repair tool.\n^gray;Select repair tool and right-click pickaxe or drill.",
-  "shortdescription" : "Salvaged Repair Tool",
-  "scripts" : ["/scripts/augments/sb_ore.lua"]
+  "itemName": "sb_wreck_repair",
+  "price": 10,
+  "tooltipKind": "sb_object",
+  "rarity": "Common",
+  "category": "Tool",
+  "tooltipFields": {
+    "subtitle": "Repair Tool"
+  },
+  "durabilityRegen": 40,
+  "inventoryIcon": "wreck.png",
+  "description": "It's a salvaged repair tool.\n^gray;Select repair tool and right-click pickaxe or drill",
+  "shortdescription": "Salvaged Repair Tool",
+  "scripts": ["/scripts/augments/sb_repair.lua"]
 }

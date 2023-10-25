@@ -1,0 +1,29 @@
+{
+  "itemName": "sb_throwingreed",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "inventoryIcon": "/projectiles/guns/unsorted/reed/icon.png",
+  "image": "sb_throwingreed.png",
+  "tooltipKind": "sb_object",
+  "shortdescription": "Sharpened Reed",
+  "description": "A large sharpened reed, suitable for hunting. Lightweight, yet effective.",
+  "price": 3,
+  "builder": "/items/buildscripts/starbound/buildthrowable.lua",
+  "level": 2,
+  "ammoUsage": 1,
+  "edgeTrigger": true,
+  "windupTime": 0,
+  "cooldown": 1,
+  "projectileType": "reed",
+  "projectileConfig": {
+    "speed": 55,
+    "knockback": 20,
+    "periodicActions": [{
+        "time": 0,
+        "repeat": false,
+        "action": "sound",
+        "options": ["/sfx/projectiles/throw_item.ogg"]
+      }
+    ]
+  }
+}

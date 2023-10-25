@@ -1,0 +1,29 @@
+{
+  "itemName": "sb_toxicbarrel",
+  "rarity": "Uncommon",
+  "category": "throwableItem",
+  "inventoryIcon": "sb_toxicbarrel.png",
+  "image": "sb_toxicbarrel.png?replace;000=1a1c1d",
+  "tooltipKind": "sb_object4",
+  "shortdescription": "Toxic Barrel",
+  "description": "An unmarked barrel brimming with faintly glowing toxic waste. It might violate some safety standards.",
+  "price": 130,
+  "builder": "/items/buildscripts/starbound/buildthrowable.lua",
+  "level": 4,
+  "ammoUsage": 1,
+  "edgeTrigger": true,
+  "windupTime": 0,
+  "cooldown": 1.5,
+  "projectileType": "sb_toxicbarrel",
+  "projectileConfig": {
+    "speed": 15,
+    "knockback": 0,
+    "periodicActions": [{
+        "time": 0,
+        "repeat": false,
+        "action": "sound",
+        "options": ["/sfx/projectiles/throw_item.ogg"]
+      }
+    ]
+  }
+}

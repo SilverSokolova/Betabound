@@ -1,5 +1,0 @@
-{
-  "input" : ["sb_glowfibreblue","glass"],
-  "output" : "glowstickblue",
-  "groups" : ["craftingfarm","survival","all"]
-}

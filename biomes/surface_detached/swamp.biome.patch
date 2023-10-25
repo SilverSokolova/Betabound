@@ -1,0 +1,16 @@
+[
+  [
+    {"op":"add","path":"/surfacePlaceables/items/-","value":{
+      "mode":"floor",
+      "priority":2,
+      "variants":3,
+      "distribution" : "/biomes/distributions.config:scatteredLarge",
+      "type":"bush",
+      "bushes":[
+        {"name":"swampbush","baseHueShiftMax":0,"modHueShiftMax":0},
+        {"name":"swampplant","baseHueShiftMax":0,"modHueShiftMax":0},
+        {"name":"swampshrub","baseHueShiftMax":0,"modHueShiftMax":0}
+      ]}
+    }
+  ]
+]

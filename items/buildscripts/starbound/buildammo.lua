@@ -6,6 +6,9 @@ function build(directory, config, parameters)
   table.insert(config.inventoryIcon, {image = sb_assetmissing("/interface/sb_tooltips/"..parameters.projectileType..".png", "/interface/sb_tooltips/assetmissing.png")})
   if root.assetJson("/items/defaultParameters.config:defaultMaxStack") < 9999 then config.maxStack = 9999 end
   config = sb.jsonMerge(config,getDescriptor(parameters.projectileType))
+  if parameters.level then
+    parameters.level = nil
+  end
   return config, parameters
 end
 

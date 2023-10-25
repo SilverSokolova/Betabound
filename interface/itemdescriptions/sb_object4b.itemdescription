@@ -76,6 +76,14 @@
     "centered": true,
     "width": 126
   },
+  "level2Label": {
+    "type": "label",
+    "position": [118, 169],
+    "hAnchor": "left",
+    "color": "gray",
+    "centered": true,
+    "wrapWidth": 126
+  },
   "objectImage": {
     "type": "image",
     "position": [74, 125],

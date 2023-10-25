@@ -38,5 +38,13 @@
     "centered": true,
     "maxSize": [70, 45],
     "minSize": [70, 45]
+  },
+  "levelLabel": {
+    "type": "label",
+    "position": [130, 147],
+    "hAnchor": "right",
+    "color": "gray",
+    "centered": true,
+    "wrapWidth": 126
   }
 }

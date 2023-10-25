@@ -1,4 +1,5 @@
-[[{"op":"test","path":"/itemTags","inverse":true},{"op":"add","path":"/itemTags","value":[]}],
+[
+[{"op":"test","path":"/itemTags","inverse":true},{"op":"add","path":"/itemTags","value":[]}],
 [{"op":"test","path":"/fuelAmount","inverse":true},{"op":"add","path":"/fuelAmount","value":0}],
 
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],

@@ -10,8 +10,8 @@ function build(directory, config, parameters)
   if parameters.techModule then
     if parameters.inventoryIcon then
       if type(parameters.inventoryIcon) == "table" then
-	local newIcon = sb_assetmissing(root.hasTech(parameters.techModule) and root.techConfig(parameters.techModule).icon or missingImage, missingImage)
-	parameters.inventoryIcon[2].image = sb_assetmissing(parameters.inventoryIcon[2].image, newIcon)
+        local newIcon = sb_assetmissing(root.hasTech(parameters.techModule) and root.techConfig(parameters.techModule).icon or missingImage, missingImage)
+        parameters.inventoryIcon[2].image = sb_assetmissing(parameters.inventoryIcon[2].image, newIcon)
       end
     end
   end
@@ -19,9 +19,9 @@ function build(directory, config, parameters)
   if parameters.techModules and parameters.tooltipFields then
     for i = 1, 2 do
       if parameters.tooltipFields then
-	local newIcon = sb_assetmissing(root.hasTech(parameters.techModules[i]) and root.techConfig(parameters.techModules[i]).icon or missingImage, missingImage)
-	local target = "object"..(i==1 and 'B' or 'C').."Image"
-	parameters.tooltipFields[target] = sb_assetmissing(parameters.tooltipFields[target], newIcon)
+        local newIcon = sb_assetmissing(root.hasTech(parameters.techModules[i]) and root.techConfig(parameters.techModules[i]).icon or missingImage, missingImage)
+        local target = "object"..(i==1 and 'B' or 'C').."Image"
+        parameters.tooltipFields[target] = sb_assetmissing(parameters.tooltipFields[target], newIcon)
       end
     end
   end

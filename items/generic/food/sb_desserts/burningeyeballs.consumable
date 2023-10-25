@@ -1,22 +1,33 @@
 {
-  "itemName" : "sb_burningeyeballs",
-  "price" : 425,
-  "foodValue" : 45,
-  "tooltipKind" : "sb_object",
-  "rarity" : "rare",
-  "handPosition" : [-2.7, -2.6],
-  "category" : "preparedFood",
-  "inventoryIcon" : "burningeyeballs.png",
-  "effects" : [[
-	{"effect":"maxhealthscalingboostfood","duration":203},
-	{"effect":"nova","duration":203},
-	{"effect":"burning","duration":10},
-	{"effect":"weakpoison","duration":10},
-	"sb_foodheal145"
-  ]],
-  "description" : "Indulge in the eerie gooey sweetness!",
-  "shortdescription" : "Melting Eyeballs",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 8
+  "itemName": "sb_burningeyeballs",
+  "price": 425,
+  "foodValue": 45,
+  "tooltipKind": "sb_object",
+  "rarity": "rare",
+  "handPosition": [-2.7, -2.6],
+  "category": "preparedFood",
+  "inventoryIcon": "burningeyeballs.png",
+  "effects": [[{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 135
+      }, {
+        "effect": "maxenergyscalingboostfood",
+        "duration": 135
+      }, {
+        "effect": "nova",
+        "duration": 135
+      }, {
+        "effect": "burning",
+        "duration": 5
+      }, {
+        "effect": "weakpoison",
+        "duration": 5
+      },
+      "sb_foodheal145"
+    ]],
+  "description": "Indulge in the eerie gooey sweetness!",
+  "shortdescription": "Melting Eyeballs",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 8
 }

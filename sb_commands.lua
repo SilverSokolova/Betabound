@@ -5,7 +5,6 @@ local ini = init or function() end
 function init() ini() require("/scripts/sb_assetmissing.lua") sb_techType() end
 function command(a,b,d) if sb_command then if sb_command(a,b,d) ~= nil then return sb_command(a,b,d) end end if v[a] then return v[a](b,d) else return string.format(root.assetJson("/sb_commands.config").noSuchCommand,a) end end
 
---find a better way to  gsub. perferably when not exhsusted
 local function cutColors(text) return string.gsub(string.gsub(text, "(%^.-%;)", ""),("\n"),"") end
 
 local function findPlayer(id)
@@ -18,7 +17,6 @@ local function findPlayer(id)
 	return false
 end
 
---function v.spawnProjectile(clientId, arguments) return "/spawnitem copperore" end
 --[[function v.whisper(you,args) local text = root.assetJson("/sb_commands.config")
 	local them, msg = args[1], "" args[1]=""
 	for i,v in ipairs(args) do msg=msg..v.." " end
@@ -47,13 +45,7 @@ function v.itemID(_,it,detailed) local text = root.assetJson("/sb_commands.confi
 	local item = root.itemConfig(it)
 	if detailed then return sb.printJson(item,1) end
 	--todo: loop with values in keys
-	local out = string.format("\n^green;Directory:^reset; ^#fff;%s%s.%s^reset;\n^green;Rarity: ^#%s;%s^reset;\n^yellow;Name: ^reset;%s\n^yellow;Category: ^reset;%s\n^yellow;Description: ^reset;%s\n^yellow;Two-Handed: ^reset;%s\n^yellow;Type: ^reset;%s\n^green;Max Stack:^reset; %s\n^green;No. Recipes:^reset; %s\n^green;Tags:^reset; %s\n^green;Tooltip Kind:^reset; %s\n^green;Fields:^reset; %s\n^green;Scripts:^reset; %s",item.directory, item.config.itemName, text.itemTypes[root.itemType(it)] or root.itemType(it),rarities[string.lower(item.config.rarity)],item.config.rarity,item.config.shortdescription,item.config.category,item.config.description,item.config.twoHanded,root.itemType(it),item.config.maxStack or root.assetJson("/items/defaultParameters.config:defaultMaxStack").." (default)",#root.recipesForItem(it),sb.printJson(root.itemTags(it)),item.config.tooltipKind,sb.printJson(item.config.tooltipFields),sb.printJson(item.config.scripts))
-
---[[	if detailed then out=out.."\n"
-	for param,value in pairs(item.config) do
-		if type(value) ~= "string" and type(value)~="bool" and type(value)~="int" and type(value)~="float" and type(value)~="double" then value=sb.printJson(value) end--table.unpack(value) end--"" end--sb.printJson(value) or "" end
-		out=string.format(out.."^orange;%s: %s\n",param,value)
-	end end]]--
+	  local out = string.format("\n^green;Directory:^reset; ^#fff;%s%s.%s^reset;\n^green;Rarity: ^#%s;%s^reset;\n^yellow;Name: ^reset;%s\n^yellow;Category: ^reset;%s\n^yellow;Description: ^reset;%s\n^yellow;Two-Handed: ^reset;%s\n^yellow;Type: ^reset;%s\n^green;Max Stack:^reset; %s\n^green;No. Recipes:^reset; %s\n^green;Tags:^reset; %s\n^green;Tooltip Kind:^reset; %s\n^green;Fields:^reset; %s\n^green;Scripts:^reset; %s",item.directory, item.config.itemName, text.itemTypes[root.itemType(it)] or root.itemType(it),rarities[string.lower(item.config.rarity)],item.config.rarity,item.config.shortdescription,item.config.category,item.config.description,item.config.twoHanded,root.itemType(it),item.config.maxStack or root.assetJson("/items/defaultParameters.config:defaultMaxStack").." (default)",#root.recipesForItem(it),sb.printJson(root.itemTags(it)),item.config.tooltipKind,sb.printJson(item.config.tooltipFields),sb.printJson(item.config.scripts))
 	return out
   end
 end
@@ -117,19 +109,19 @@ function v.sb_rarity(_,it) local text = root.assetJson("/sb_commands.config")
 	recipe = recipe[dr].input
 	
 	local rarities = {
-	  common = 1,
-      uncommon = 2,
-      rare = 3,
-      legendary = 4,
-      essential = 5
+    common = 1,
+    uncommon = 2,
+    rare = 3,
+    legendary = 4,
+    essential = 5
 	}
 	
 	local rarityNames = {
-	  "^#f6f6f6;Common",
-      "^#77ee67;Uncommon",
-      "^#6ba8ec;Rare",
-      "^#bb5beb;Legendary",
-      "^#c3c53e;Essential"
+    "^#f6f6f6;Common",
+    "^#77ee67;Uncommon",
+    "^#6ba8ec;Rare",
+    "^#bb5beb;Legendary",
+    "^#c3c53e;Essential"
 	}
 	
 	it = root.itemConfig(it).config

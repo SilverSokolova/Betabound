@@ -1,15 +1,44 @@
 [
-[{"op":"add","path":"/sb","value":{}}],
-[{"op":"add",
-"path":"/sb/glitchtransport",
-"value":{"name":"cultist caravan",
-"tags":["generic","friendly","largespace"]}}],
-[{"op":"add",
-"path":"/sb/farm",
-"value":{"name":"abandoned farm",
-"tags":["generic","friendly","largespace"]}}],
-[{"op":"add",
-"path":"/sb/miningcamp",
-"value":{"name":"abandoned mining camp",
-"tags":["generic","friendly","largespace"]}}]
+  [{
+      "op": "add",
+      "path": "/sb",
+      "value": {}
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb/glitchtransport",
+      "value": {
+        "name": "cultist caravan",
+        "tags": ["generic", "friendly", "largespace"]
+      }
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb/farm",
+      "value": {
+        "name": "abandoned farm",
+        "tags": ["generic", "friendly", "largespace"]
+      }
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb/glitchhouse",
+      "value": {
+        "name": "executioner slaughterhouse",
+        "tags": ["generic", "friendly", "largespace"]
+      }
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb/miningcamp",
+      "value": {
+        "name": "abandoned mining camp",
+        "tags": ["generic", "friendly", "largespace"]
+      }
+    }
+  ]
 ]

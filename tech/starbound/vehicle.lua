@@ -69,7 +69,7 @@ end
 function update(args)
   local currentInput = input(args)
   for i = 1, polySize do world.debugText("^shadow;"..i,{entity.position()[1]+mechCustomMovementParameters.collisionPoly[i][1],entity.position()[2]+mechCustomMovementParameters.collisionPoly[i][2]},"green") end
-  if not active and not status.statPositive("activeMovementAbilities") and currentInput == "mechActivate" and not mcontroller.zeroG() then
+  if not active and not status.statPositive("activeMovementAbilities") and currentInput == "mechActivate" and not mcontroller.zeroG() and not tech.parentLounging() then
     mechCollisionTest = config.getParameter("mechCollisionTest")
     local entityPosition = entity.position()
     mechCollisionTest[1] = mechCollisionTest[1] + entityPosition[1]
@@ -90,7 +90,7 @@ function update(args)
     else
 --    animator.playSound("fail")
     end
-  elseif active and (currentInput == "mechDeactivate") then
+  elseif active and ((currentInput == "mechDeactivate") or tech.parentLounging()) then
     uninit()
   end
 

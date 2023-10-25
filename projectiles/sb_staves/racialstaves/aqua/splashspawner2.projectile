@@ -1,54 +1,52 @@
 {
-  "projectileName" : "sb_splashspawner2",
-  "image" : "splashspawner1.png",
-  "physics" : "gas",
-  "animationCycle" : 0,
-  "frameNumber" : 8,
-  "speed" : 1,
-  "pointLight" : false,
-  "timeToLive" : 0,
-  "actionOnReap" : [
-    {
-      "action" : "config",
-      "file" : "/projectiles/explosions/splashexplosion1/splashexplosion1.config"
+  "projectileName": "sb_splashspawner2",
+  "image": "splashspawner1.png",
+  "physics": "gas",
+  "animationCycle": 0,
+  "frameNumber": 8,
+  "speed": 1,
+  "pointLight": false,
+  "timeToLive": 0,
+  "actionOnReap": [{
+      "action": "config",
+      "file": "/projectiles/explosions/splashexplosion1/splashexplosion1.config"
+    }, {
+      "action": "projectile",
+      "type": "sb_splashdrop2",
+      "fuzzAngle": 0,
+      "inheritDamageFactor": 1,
+      "inheritSpeedFactor": 2000
     },
-    {
-      "action" : "projectile",
-      "type" : "sb_splashdrop2",
-      "fuzzAngle" : 0,
-      "inheritDamageFactor" : 1,
-      "inheritSpeedFactor" : 2000
-    },
-/*    {
-      "action" : "projectile",
-      "type" : "sb_splashdrop2",
-      "fuzzAngle" : 60,
-      "inheritDamageFactor" : 1,
-      "inheritSpeedFactor" : 2000
+    /*    {
+    "action" : "projectile",
+    "type" : "sb_splashdrop2",
+    "fuzzAngle" : 60,
+    "inheritDamageFactor" : 1,
+    "inheritSpeedFactor" : 2000
     },*/
     {
-      "action" : "projectile",
-      "type" : "sb_splashdrop2",
-      "fuzzAngle" : 120,
-      "inheritDamageFactor" : 1,
-      "inheritSpeedFactor" : 2000
+      "action": "projectile",
+      "type": "sb_splashdrop2",
+      "fuzzAngle": 120,
+      "inheritDamageFactor": 1,
+      "inheritSpeedFactor": 2000
     },
-/*    {
-      "action" : "projectile",
-      "type" : "sb_splashdrop2",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 1,
-      "inheritSpeedFactor" : 2000
+    /*    {
+    "action" : "projectile",
+    "type" : "sb_splashdrop2",
+    "fuzzAngle" : 180,
+    "inheritDamageFactor" : 1,
+    "inheritSpeedFactor" : 2000
     },*/
     {
-      "action" : "projectile",
-      "type" : "sb_splashdrop2",
-      "fuzzAngle" : 240,
-      "inheritDamageFactor" : 1,
-      "inheritSpeedFactor" : 2000
+      "action": "projectile",
+      "type": "sb_splashdrop2",
+      "fuzzAngle": 240,
+      "inheritDamageFactor": 1,
+      "inheritSpeedFactor": 2000
     }
   ],
-  "power" : 25,
-  "damageType" : "NoDamage",
-  "damageKind" : "default"
+  "power": 25,
+  "damageType": "NoDamage",
+  "damageKind": "default"
 }

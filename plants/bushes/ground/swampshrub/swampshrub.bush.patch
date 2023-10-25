@@ -1,0 +1,56 @@
+[
+    [{
+        "op": "test",
+        "path": "/shapes/0/base",
+        "value": "1.png"
+    },{
+        "op": "replace",
+        "path": "/shapes/0/base",
+        "value": "base1.png"
+    }],
+    [{
+        "op": "test",
+        "path": "/shapes/1/base",
+        "value": "2.png"
+    },{
+        "op": "replace",
+        "path": "/shapes/1/base",
+        "value": "base2.png"
+    }],
+    [{
+        "op": "test",
+        "path": "/shapes/2/base",
+        "value": "3.png"
+    },{
+        "op": "replace",
+        "path": "/shapes/2/base",
+        "value": "base3.png"
+    }],
+    [{
+        "op": "test",
+        "path": "/shapes/3/base",
+        "value": "4.png"
+    },{
+        "op": "replace",
+        "path": "/shapes/3/base",
+        "value": "base4.png"
+    }],
+    [{
+        "op": "test",
+        "path": "/shapes/4/base",
+        "value": "5.png"
+    },{
+        "op": "replace",
+        "path": "/shapes/4/base",
+        "value": "base5.png"
+    }],
+    [{
+        "op": "test",
+        "path": "/shapes/5/base",
+        "value": "6.png"
+    },{
+        "op": "replace",
+        "path": "/shapes/5/base",
+        "value": "base6.png"
+    }]
+]

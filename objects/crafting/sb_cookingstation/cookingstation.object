@@ -1,42 +1,41 @@
 {
-  "objectName" : "sb_cookingstation",
-  "colonyTags" : ["crafting","cooking"],
-  "printable" : false,
-  "price" : 1300,
-  "rarity" : "rare",
-  "interactAction" : "OpenCraftingInterface",
-  "interactData" : {
-    "config" : "/interface/windowconfig/sb_craftingfood2.config",
-    "filter" : ["sb_kitchen", "craftingfood", "campfire", "sb_coffee"]
+  "objectName": "sb_cookingstation",
+  "colonyTags": ["crafting", "cooking"],
+  "printable": false,
+  "price": 1300,
+  "rarity": "rare",
+  "interactAction": "OpenCraftingInterface",
+  "interactData": {
+    "config": "/interface/windowconfig/sb_craftingfood.config",
+    "filter": ["sb_kitchen", "craftingfood", "campfire", "sb_coffee"]
   },
-  "description" : "The best place to cook. It allows you to filter food effects.",
-  "shortdescription" : "^orange;Cooking Station^reset;",
-  "race" : "generic",
-  "category" : "crafting",
-  "tooltipKind" : "sb_object",
+  "description": "The best place to cook. It allows you to filter food effects.",
+  "shortdescription": "^orange;Cooking Station^reset;",
+  "race": "generic",
+  "category": "crafting",
+  "tooltipKind": "sb_object",
 
-  "apexDescription" : "This station contains everything one could need to create almost any dish.",
-  "avianDescription" : "Almost any Avian dish could be prepared here. And many non-Avian dishes too, for that matter!",
-  "floranDescription" : "Floran prepare food with bare handsss. But ssstation ussseful.",
-  "glitchDescription" : "Inspired. Let's create food!",
-  "humanDescription" : "A chef's station. A whole bunch of different implements for making food...",
-  "hylotlDescription" : "Food preparation is an art and this is the paintbrush.",
-  "novakidDescription" : "I could cook up a good ol' stew storm on this 'ere thing.",
+  "apexDescription": "This station contains everything one could need to create almost any dish.",
+  "avianDescription": "Almost any Avian dish could be prepared here. And many non-Avian dishes too, for that matter!",
+  "floranDescription": "Floran prepare food with bare handsss. But ssstation ussseful.",
+  "glitchDescription": "Inspired. Let's create food!",
+  "humanDescription": "A chef's station. A whole bunch of different implements for making food...",
+  "hylotlDescription": "Food preparation is an art and this is the paintbrush.",
+  "novakidDescription": "I could cook up a good ol' stew storm on this 'ere thing.",
 
-  "inventoryIcon" : "cookingstationicon.png",
-  "orientations" : [
-    {
-      "dualImage" : "cookingstation.png:<color>",
+  "inventoryIcon": "cookingstationicon.png",
+  "orientations": [{
+      "dualImage": "cookingstation.png:<color>",
 
-      "imagePosition" : [-16, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
+      "imagePosition": [-16, 0],
+      "frames": 1,
+      "animationCycle": 1.0,
 
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
 
     }
   ],
 
-  "npcToy" : {}
+  "npcToy": {}
 }

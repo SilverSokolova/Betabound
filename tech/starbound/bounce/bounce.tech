@@ -1,19 +1,19 @@
 {
-  "name" : "sb_bounce",
-  "type" : "head",
+  "name": "sb_bounce",
+  "type": "head",
 
-  "rarity" : "Legendary",
-  "icon" : "/tech/starbound/bounce.png",
-  "description" : "Generates a kinetic reversal field that reflects the ground. ^#0f0;[F]",
-  "sb_briefDescription" : "Generates a kinetic reversal field. ^#0f0;[F]",
-  "shortDescription" : "Bouncy",
-  "chipCost" : 3,
+  "rarity": "Legendary",
+  "icon": "/tech/starbound/bounce.png",
+  "description": "Generates a kinetic reversal field that reflects the ground. ^#0f0;[F]",
+  "sb_briefDescription": "Generates a kinetic reversal field. ^#0f0;[F]",
+  "shortDescription": "Bouncy",
+  "chipCost": 3,
 
-  "scripts" : ["bounce.lua"],
-  "scriptDelta" : 1,
-  "animator" : "bounce.animation",
+  "scripts": ["bounce.lua"],
+  "scriptDelta": 1,
+  "animator": "bounce.animation",
 
-  "energyUsageRate" : 8,
-  "bounceCollisionPoly" : [[-1.25, 2.5], [1.25, 2.5], [2.5, 1.25], [2.5, -1.25], [1.25, -2.5], [-1.25, -2.5], [-2.5, -1.25], [-2.5, 1.25]],
-  "bounceFactor" : 0.9
+  "energyUsageRate": 16,
+  "bounceCollisionPoly": [[-1.25, 2.5], [1.25, 2.5], [2.5, 1.25], [2.5, -1.25], [1.25, -2.5], [-1.25, -2.5], [-2.5, -1.25], [-2.5, 1.25]],
+  "bounceFactor": 0.9
 }

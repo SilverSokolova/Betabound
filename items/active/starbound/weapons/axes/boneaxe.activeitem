@@ -1,53 +1,90 @@
 {
-  "itemName" : "sb_boneaxe",
-  "price" : 750,
-  "maxStack" : 1,
-  "level" : 1,
-  "rarity" : "Legendary",
-  "shortdescription" : "Bone Axe",
-  "tooltipKind" : "sb_sword",
-  "category" : "axe",
-  "tooltipFields" : {"subtitle":"Bone Axe"},
-  "twoHanded" : false,
-  "sb_waBan" : true,
-  "itemTags" : ["weapon","melee","axe","upgradeableWeapon"],
-  "animation" : "/items/active/starbound/weapons/axe.animation",
+  "itemName": "sb_boneaxe",
+  "price": 750,
+  "maxStack": 1,
+  "level": 1,
+  "rarity": "Legendary",
+  "shortdescription": "Bone Axe",
+  "tooltipKind": "sb_sword",
+  "category": "axe",
+  "tooltipFields": {
+    "subtitle": "Bone Axe"
+  },
+  "twoHanded": false,
+  "sb_waBan": true,
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "animation": "/items/active/starbound/weapons/axe.animation",
 
-  "animationParts" : {
-    "blade" : "boneaxe.png",
-    "handle" : ""
+  "animationParts": {
+    "blade": "boneaxe.png",
+    "handle": ""
   },
 
-  "animationCustom" : {"lights":{"glow":{"color":[0,0,0]}},
-    "animatedParts":{"parts":{
-	"swoosh":{"partStates":{"swoosh":{"fire":{"properties":{"image":"axeboneswoosh.png:<frame>"}}}},"properties":{"offset":[-2,1.75]}},
-	"blade":{"properties":{"offset":[0,0.75]}},
-	"handle":{"properties":{"offset":[0,0.75]}}}
-	}
-  },
-
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
-  "aimOffset" : -1.0,
-
-  "primaryAbilityType" : "sb_axe",
-  "primaryAbility" : {
-    "fireTime" : [0.4,1.3],
-    "projectileType" : "bonechain1",
-    "baseDps" : [6.5,8.5],
-    "damageConfig" : {
-      "knockbackRange" : [25,35]
+  "animationCustom": {
+    "lights": {
+      "glow": {
+        "color": [0, 0, 0]
+      }
     },
-    "stances" : {
-      "idle" : {"weaponOffset" : [0.25, 1]},
-      "windup" : {"weaponOffset" : [0.25, 1]},
-      "fire" : {"weaponOffset" : [0.25, 1]}
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "image": "axeboneswoosh.png:<frame>"
+                }
+              }
+            }
+          },
+          "properties": {
+            "offset": [-2, 1.75]
+          }
+        },
+        "blade": {
+          "properties": {
+            "offset": [0, 0.75]
+          }
+        },
+        "handle": {
+          "properties": {
+            "offset": [0, 0.75]
+          }
+        }
+      }
     }
   },
-  "elementalType" : "physical",
-  "builderConfig" : [{
-    "nameGenerator" : "boneaxenames.config:nameGen",
-    "iconDrawables" : ["blade"]
-  }],
-  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "aimOffset": -1.0,
+
+  "primaryAbilityType": "sb_axe",
+  "primaryAbility": {
+    "fireTime": [0.4, 1.3],
+    "projectileType": "bonechain1",
+    "baseDps": [6.5, 8.5],
+    "damageConfig": {
+      "knockbackRange": [25, 35]
+    },
+    "stances": {
+      "idle": {
+        "weaponOffset": [0.25, 1]
+      },
+      "windup": {
+        "weaponOffset": [0.25, 1]
+      },
+      "fire": {
+        "weaponOffset": [0.25, 1]
+      }
+    }
+  },
+  "elementalType": "physical",
+  "builderConfig": [{
+      "nameGenerator": "boneaxenames.config:nameGen",
+      "iconDrawables": ["blade"]
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

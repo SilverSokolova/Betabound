@@ -126,15 +126,16 @@
   [{"op":"add","path":"/thrownWeapon/0/1/pool/-","value":{"weight":0.40,"item":["sb_throwingneedle",20]}}],
   [{"op":"add","path":"/thrownWeapon/0/1/pool/-","value":{"weight":0.40,"item":["sb_cutterleaf",16]}}],
 
-  [{"op":"add","path":"/thrownWeapon/2/1/pool/-","value":{"weight":0.35,"item":["sb_handgrenade",3]}}],
-  [{"op":"add","path":"/thrownWeapon/2/1/pool/-","value":{"weight":0.35,"item":["sb_smokegrenade",3]}}],
-  [{"op":"add","path":"/thrownWeapon/2/1/pool/-","value":{"weight":0.35,"item":["sb_corrosivegrenade",3]}}],
+  [{"op":"add","path":"/thrownWeapon/1/1/pool/-","value":{"weight":0.35,"item":["sb_handgrenade",3]}}],
+  [{"op":"add","path":"/thrownWeapon/1/1/pool/-","value":{"weight":0.35,"item":["sb_smokegrenade",3]}}],
+
   [{"op":"add","path":"/thrownWeapon/2/1/pool/-","value":{"weight":0.35,"item":["sb_groundfirebomb",3]}}],
+  [{"op":"add","path":"/thrownWeapon/2/1/pool/-","value":{"weight":0.35,"item":["sb_gasgrenade",3]}}],
+  [{"op":"add","path":"/thrownWeapon/2/1/pool/-","value":{"weight":0.35,"item":["sb_electrogrenade",3]}}],
+  [{"op":"add","path":"/thrownWeapon/2/1/pool/-","value":{"weight":0.35,"item":["sb_plasmagrenade",3]}}],
 
-  [{"op":"add","path":"/thrownWeapon/3/1/pool/-","value":{"weight":0.35,"item":["sb_gasgrenade",3]}}],
-  [{"op":"add","path":"/thrownWeapon/3/1/pool/-","value":{"weight":0.35,"item":["sb_electrogrenade",3]}}],
-  [{"op":"add","path":"/thrownWeapon/3/1/pool/-","value":{"weight":0.35,"item":["sb_plasmagrenade",3]}}],
-
+  [{"op":"add","path":"/thrownWeapon/3/1/pool/-","value":{"weight":0.35,"item":["sb_corrosivegrenade",3]}}],
+  
   [{"op":"add","path":"/thrownWeapon/4/1/pool/-","value":{"weight":0.70,"item":["sb_shuriken",5]}}],
 
   [{"op":"add","path":"/thrownWeapon/5/1/pool/-","value":{"weight":0.70,"item":["sb_shuriken",10]}}],
@@ -188,6 +189,7 @@
 
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_spawnertools"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"parasol"}}],
+  [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"broom"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_watch"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_hawkeyes"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_light2energy"}}],
@@ -212,7 +214,6 @@
   [{"op":"add","path":"/seed/3/1/pool/-","value":{"weight":3,"item":["crystalplantseed",3]}}],
 
 		//Rare Furniture
-  [{"op":"add","path":"/rarefurniture/0/1/pool/-","value":{"weight":0.03,"item":"sb_paintingesther"}}],
 
 		//Instruments
   [{"op":"add","path":"/instrument/0/1/pool/-","value":{"weight":0.0007,"item":"keyboard"}}],
@@ -229,7 +230,7 @@
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_techmasterlegs"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"adventurerobothead"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"adventurerobotchest"}}],
-  [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"adventurerobotlegs"}}],
+  [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"adventurerobotpants"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_oddhead"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_conehead"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_braincagehead"}}],
@@ -254,6 +255,7 @@
   [{"op":"add","path":"/produce/0/1/pool/-","value":{"weight":1,"item":"sb_rottenapple"}}],
   [{"op":"add","path":"/produce/0/1/pool/-","value":{"weight":1,"item":"sb_soylentgreen"}}],
 
+  [{"op":"add","path":"/produce/1/1/pool/-","value":{"weight":2,"item":["redapple",3]}}],
   [{"op":"add","path":"/produce/1/1/pool/-","value":{"weight":2,"item":["orange",3]}}],
   [{"op":"add","path":"/produce/1/1/pool/-","value":{"weight":1,"item":"sb_rawfleshlump"}}],
 
@@ -269,6 +271,7 @@
   [{"op":"add","path":"/produce/6/1/pool/-","value":{"weight":1,"item":"sb_soylentgreen"}}],
   [{"op":"add","path":"/produce/6/1/pool/-","value":{"weight":1,"item":"sb_rawfleshlump"}}],
   [{"op":"add","path":"/produce/6/1/pool/-","value":{"weight":3,"item":["sb_poisoncreep",3]}}],
+  [{"op":"add","path":"/produce/6/1/pool/-","value":{"weight":2,"item":["redapple",3]}}],
   [{"op":"add","path":"/produce/6/1/pool/-","value":{"weight":2,"item":["orange",3]}}],
   [{"op":"add","path":"/produce/6/1/pool/-","value":{"weight":2,"item":["crystalplant",3]}}],
 

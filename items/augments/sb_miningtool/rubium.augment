@@ -1,13 +1,15 @@
 {
-  "itemName" : "sb_rubium_repair",
-  "price" : 60,
-  "tooltipKind" : "sb_object",
-  "rarity" : "rare",
-  "category" : "Tool",
-  "tooltipFields" : {"subtitle":"Repair Tool"},
-  "durabilityRegen" : 280,
-  "inventoryIcon" : "rubium.png",
-  "description" : "It's a rubium repair tool.\n^gray;Select repair tool and right-click pickaxe or drill.",
-  "shortdescription" : "Rubium Repair Tool",
-  "scripts" : ["/scripts/augments/sb_ore.lua"]
+  "itemName": "sb_rubium_repair",
+  "price": 60,
+  "tooltipKind": "sb_object",
+  "rarity": "rare",
+  "category": "Tool",
+  "tooltipFields": {
+    "subtitle": "Repair Tool"
+  },
+  "durabilityRegen": 280,
+  "inventoryIcon": "rubium.png",
+  "description": "It's a rubium repair tool.\n^gray;Select repair tool and right-click pickaxe or drill",
+  "shortdescription": "Rubium Repair Tool",
+  "scripts": ["/scripts/augments/sb_repair.lua"]
 }

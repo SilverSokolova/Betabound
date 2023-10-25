@@ -36,7 +36,6 @@
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_alienburger"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_burrito"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_hamsandwich"}]
-,[{"op":"add","path":"/acceptItems/-","value":"sb_soup"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_butter"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_cake"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_candy"}]

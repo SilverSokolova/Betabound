@@ -1,0 +1,10 @@
+{
+  "itemName": "sb_uimessage:noSpaceForObject",
+  "shortdescription": "   Not enough free space.^clear;",
+  "currency": "sb_uimessage",
+  "rarity": "rare",
+  "value": 0,
+  "pickupSoundsSmall": [""],
+  "pickupSoundsMedium": [""],
+  "pickupSoundsLarge": [""]
+}

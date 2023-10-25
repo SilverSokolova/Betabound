@@ -1,5 +1,4 @@
 [
-
 [{"op":"test","path":"/price","value":5000},{"op":"replace","path":"/price","value":250}],
 [{"op":"test","path":"/rarity","value":"Legendary"},{"op":"replace","path":"/rarity","value":"Uncommon"}],
 [{"op":"test","path":"/inventoryIcon","value":"paperwingsicon.png"},{"op":"replace","path":"/inventoryIcon","value":"sb_icon.png"}]

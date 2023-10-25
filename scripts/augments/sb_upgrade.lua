@@ -8,10 +8,13 @@ function apply(input)
   local upgradeable = false
 
   local tags = output:instanceValue("itemTags",{})
+  local upgradeTags = config.getParameter("upgradeTags",{"weapon","shield"})
   for i = 1, #tags do
-    if tags[i] == "weapon" then
-      upgradeable = true
-      break
+    for j = 1, #upgradeTags do
+      if tags[i] == upgradeTags[j] then
+        upgradeable = true
+        break
+      end
     end
   end
 

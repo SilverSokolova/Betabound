@@ -1,0 +1,6 @@
+{
+  "input" : [["volatilepowder",4],"thornfruit","sb_steelbar"],
+  "output" : "thorngrenade",
+  "duration" : 0.6,
+  "groups" : ["craftinganvil","consumables","all"]
+}

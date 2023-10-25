@@ -1,389 +1,350 @@
 {
-  "projectileName" : "sb_petalcloud",
-  "image" : "petalcloud.png",
-  "animationCycle" : 0.3,
-  "frameNumber" : 4,
-  "power" : 5,
-  "speed" : 0,
-  "physics" : "gas",
-  "piercing" : true,
-  "timeToLive" : 2.5,
-  "periodicActions" : [
-    {
-      "action" : "sound",
-      "delaySteps" : 15,
-      "options" : [ "/sfx/sb/npc/unique/gustchime1.ogg", "/sfx/sb/npc/unique/gustchime2.ogg", "/sfx/sb/npc/unique/gustchime3.ogg" ],
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 15,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 20,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 25,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 30,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 35,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 40,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 45,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 50,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 55,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 60,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 65,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 70,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 75,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 80,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 85,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 90,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 95,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 100,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 15,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 20,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 25,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 30,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 35,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 40,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 45,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 50,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 55,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 60,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 65,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 70,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 75,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 80,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 85,
-      "time" : 0,
-      "repeat" : false
-    },
-	{
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 90,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 95,
-      "time" : 0,
-      "repeat" : false
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_cutterpetal",
-      "fuzzAngle" : 180,
-      "inheritDamageFactor" : 0.05,
-      "speed" : 350,
-      "delaySteps" : 100,
-      "time" : 0,
-      "repeat" : false
+  "projectileName": "sb_petalcloud",
+  "image": "petalcloud.png",
+  "animationCycle": 0.3,
+  "frameNumber": 4,
+  "power": 5,
+  "speed": 0,
+  "physics": "gas",
+  "piercing": true,
+  "timeToLive": 2.5,
+  "periodicActions": [{
+      "action": "sound",
+      "delaySteps": 15,
+      "options": ["/sfx/sb/npc/unique/gustchime1.ogg", "/sfx/sb/npc/unique/gustchime2.ogg", "/sfx/sb/npc/unique/gustchime3.ogg"],
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 15,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 20,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 25,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 30,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 35,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 40,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 45,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 50,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 55,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 60,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 65,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 70,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 75,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 80,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 85,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 90,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 95,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 100,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 15,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 20,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 25,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 30,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 35,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 40,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 45,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 50,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 55,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 60,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 65,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 70,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 75,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 80,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 85,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 90,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 95,
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "sb_cutterpetal",
+      "fuzzAngle": 180,
+      "inheritDamageFactor": 0.05,
+      "speed": 350,
+      "delaySteps": 100,
+      "time": 0,
+      "repeat": false
     }
   ],
-  "actionOnReap" : [
-    {
-      "action" : "config",
-      "file" : "/projectiles/explosions/leafexplosion/leafexplosion.config"
+  "actionOnReap": [{
+      "action": "config",
+      "file": "/projectiles/explosions/leafexplosion/leafexplosion.config"
     }
   ],
-
-  "lightColor" : [120, 55, 80],
-  "damageKind" : "poison"
+  "lightColor": [120, 55, 80],
+  "damageKind": "poison"
 }

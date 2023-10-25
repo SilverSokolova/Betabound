@@ -1,103 +1,132 @@
 {
-  "itemName" : "sb_uncommoncrappyhammer",
-  "price" : 25,
-  "maxStack" : 1,
-  "level" : 1,
-  "rarity" : "uncommon",
-  "description" : "",
-  "shortdescription" : "Uncommon Crappy Hammer",
-  "tooltipKind" : "sb_sword",
-  "category" : "hammer",
-  "tooltipFields" : {"subtitle":"Crappy Hammer"},
-  "twoHanded" : true,
-  "itemTags" : ["weapon","melee","hammer","crappy","upgradeableWeapon"],
-  "animation" : "/items/active/starbound/weapons/hammer.animation",
-
-  "animationCustom" : {
-    "lights":{"glow":{"color":[0,0,0]}},
-    "animatedParts" : { "parts" : {
-	"swoosh":{ "properties" : {"offset" : [-1.0, 1.75]}},
-	"blade":{"properties":{}},
-	"handle":{"properties":{}}}
-	}
+  "itemName": "sb_uncommoncrappyhammer",
+  "price": 25,
+  "maxStack": 1,
+  "level": 1,
+  "rarity": "uncommon",
+  "description": "",
+  "shortdescription": "Uncommon Crappy Hammer",
+  "tooltipKind": "sb_sword",
+  "category": "hammer",
+  "tooltipFields": {
+    "subtitle": "Crappy Hammer"
   },
+  "twoHanded": true,
+  "itemTags": ["weapon", "melee", "hammer", "crappy", "upgradeableWeapon"],
+  "animation": "/items/active/starbound/weapons/hammer.animation",
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-  "aimOffset" : -1.0,
-  "primaryAbilityType" : "sb_hammer",
-  "primaryAbility" : {
-    "fireTime" : [0.6,1.7],
-    "baseDps" : [6,8],
-    "damageConfig" : {
-      "knockbackRange" : [12,16]
+  "animationCustom": {
+    "lights": {
+      "glow": {
+        "color": [0, 0, 0]
+      }
     },
-    "stances" : {
-      "idle" : {
-	"weaponOffset" : [0.3, 1.5]
-      },
-      "windup" : {
-	"duration" : 0.2,
-	"weaponOffset" : [0.3, 1.5]
-      },
-      "fire" : {
-	"duration" : 0.4,
-	"weaponOffset" : [0.3, 1.5]
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "properties": {
+            "offset": [-1.0, 1.75]
+          }
+        },
+        "blade": {
+          "properties": {}
+        },
+        "handle": {
+          "properties": {}
+        }
       }
     }
   },
 
-  "builderConfig" : [{
-    "nameGenerator" : "crappyhammernames.config:nameGen",
-    "elementalType" : ["physical","fire","ice","electric","poison"],
-    "elementalConfig" : {
-      "fire" : {
-	"primaryAbility" : {
-	  "damageConfig" : {
-	    "damageSourceKind" : "firehammer",
-	    "statusEffects" : [{"effect":"burning","duration":1}]
-	  }
-	}
-      },
-      "ice" : {
-	"primaryAbility" : {
-	  "damageConfig" : {
-	    "statusEffects" : [{"effect":"frostslow","duration":2}],
-	    "damageSourceKind" : "icehammer"
-	  }
-	}
-      },
-      "poison" : {
-	"primaryAbility" : {
-	  "damageConfig" : {
-	    "damageSourceKind" : "poisonhammer",
-	    "statusEffects" : [{"effect":"weakpoison","duration":2}]
-	  }
-	}
-      },
-      "electric" : {
-	"primaryAbility" : {
-	  "damageConfig" : {
-	    "damageSourceKind" : "electrichammer",
-	    "statusEffects" : ["electrified"]
-	  }
-	}
-      }
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "aimOffset": -1.0,
+  "primaryAbilityType": "sb_hammer",
+  "primaryAbility": {
+    "fireTime": [0.6, 1.7],
+    "baseDps": [6, 8],
+    "damageConfig": {
+      "knockbackRange": [12, 16]
     },
-    "animationParts" : {
-      "blade" : {
-        "path" : "crappyhammer/blade/<variant>.png",
-        "variants" : 7,
-        "paletteSwap" : true
+    "stances": {
+      "idle": {
+        "weaponOffset": [0.3, 1.5]
       },
-      "handle" : {
-        "path" : "crappyhammer/handle/<variant>.png",
-        "variants" : 5,
-        "paletteSwap" : true
+      "windup": {
+        "duration": 0.2,
+        "weaponOffset": [0.3, 1.5]
+      },
+      "fire": {
+        "duration": 0.4,
+        "weaponOffset": [0.3, 1.5]
       }
-    },
-    "palette" : "/items/active/starbound/colors/crappy.weaponcolors",
-    "iconDrawables" : ["handle", "blade"]
-  }],
+    }
+  },
 
-  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+  "builderConfig": [{
+      "nameGenerator": "crappyhammernames.config:nameGen",
+      "elementalType": ["physical", "fire", "ice", "electric", "poison"],
+      "elementalConfig": {
+        "fire": {
+          "primaryAbility": {
+            "damageConfig": {
+              "damageSourceKind": "firehammer",
+              "statusEffects": [{
+                  "effect": "burning",
+                  "duration": 1
+                }
+              ]
+            }
+          }
+        },
+        "ice": {
+          "primaryAbility": {
+            "damageConfig": {
+              "statusEffects": [{
+                  "effect": "frostslow",
+                  "duration": 2
+                }
+              ],
+              "damageSourceKind": "icehammer"
+            }
+          }
+        },
+        "poison": {
+          "primaryAbility": {
+            "damageConfig": {
+              "damageSourceKind": "poisonhammer",
+              "statusEffects": [{
+                  "effect": "weakpoison",
+                  "duration": 2
+                }
+              ]
+            }
+          }
+        },
+        "electric": {
+          "primaryAbility": {
+            "damageConfig": {
+              "damageSourceKind": "electrichammer",
+              "statusEffects": ["electrified"]
+            }
+          }
+        }
+      },
+      "animationParts": {
+        "blade": {
+          "path": "crappyhammer/blade/<variant>.png",
+          "variants": 7,
+          "paletteSwap": true
+        },
+        "handle": {
+          "path": "crappyhammer/handle/<variant>.png",
+          "variants": 5,
+          "paletteSwap": true
+        }
+      },
+      "palette": "/items/active/starbound/colors/crappy.weaponcolors",
+      "iconDrawables": ["handle", "blade"]
+    }
+  ],
+
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

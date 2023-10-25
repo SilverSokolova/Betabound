@@ -1,29 +1,29 @@
 {
-  "itemName" : "sb_corrosivegrenade",
-  "rarity" : "unCommon",
-  "tooltipKind" : "sb_object",
-  "inventoryIcon" : "sb_corrosivegrenade.png",
-  "image" : "sb_corrosivegrenade.png",
-  "category" : "throwableItem",
-  "shortdescription" : "Corrosive Grenade",
-  "description" : "A grenade which explodes into corrosive particles.",
+  "itemName": "sb_corrosivegrenade",
+  "rarity": "unCommon",
+  "tooltipKind": "sb_object",
+  "inventoryIcon": "sb_corrosivegrenade.png",
+  "image": "sb_corrosivegrenade.png",
+  "category": "throwableItem",
+  "shortdescription": "Corrosive Grenade",
+  "description": "A grenade which explodes into corrosive particles.",
+  "price": 70,
+  "builder": "/items/buildscripts/starbound/buildthrowable.lua",
+  "level": 4,
+  "ammoUsage": 1,
+  "edgeTrigger": true,
+  "windupTime": 0,
+  "cooldown": 0.4,
 
-  "ammoUsage" : 1,
-
-  "edgeTrigger" : true,
-  "windupTime" : 0.0,
-  "cooldown" : 0.4,
-
-  "projectileType" : "sb_corrosivegrenade",
-  "projectileConfig" : {
-    "speed" : 40,
-    "power" : 15,
-    "periodicActions" : [
-      {
-        "time" : 0,
-        "repeat" : false,
-        "action" : "sound",
-        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+  "projectileType": "sb_corrosivegrenade",
+  "projectileConfig": {
+    "speed": 40,
+    "power": 15,
+    "periodicActions": [{
+        "time": 0,
+        "repeat": false,
+        "action": "sound",
+        "options": ["/sfx/projectiles/throw_item_small.ogg"]
       }
     ]
   }

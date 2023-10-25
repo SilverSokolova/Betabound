@@ -1,5 +1,0 @@
-{
-  "input" : [["ironbar",10],["glass",5],"sb_stonefurnace"],
-  "output" : "sb_alloyfurnace",
-  "groups" : ["sb_stations","all"]
-}

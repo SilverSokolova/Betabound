@@ -1,32 +1,31 @@
 {
-  "objectName" : "sb_meatballs2",
-  "colonyTags" : ["hylotl","hylotloceancity"],
-  "rarity" : "Common",
-  "tooltipKind" : "sb_object",
-  "category" : "decorative",
-  "price" : 25,
-  "description" : "Meatballs in a sealed can. There's no way we're getting this open.",
-  "shortdescription" : "Can of Meatballs",
-  "race" : "hylotl",
+  "objectName": "sb_meatballs2",
+  "colonyTags": ["hylotl", "hylotloceancity"],
+  "rarity": "Common",
+  "tooltipKind": "sb_object",
+  "category": "decorative",
+  "price": 25,
+  "description": "Meatballs in a sealed can. There's no way we're getting this open.",
+  "shortdescription": "Sealed Meatballs",
+  "race": "hylotl",
 
-  "apexDescription" : "A can of meatballs. Such an item is a luxury in Miniknog settlements.",
-  "avianDescription" : "Some Avians can open cans with their beaks. I'm not willing to try it.",
-  "floranDescription" : "Throw!",
-  "glitchDescription" : "Neutral. A tin can.",
-  "humanDescription" : "Meatballs in a can. Not quite homemade, but then again, we're in space.",
-  "hylotlDescription" : "A replica of a can of meatballs. A perfect example of modern art.",
-  "novakidDescription" : "Yeehaw! Target practice!",
+  "apexDescription": "A can of meatballs. Such an item is a luxury in Miniknog settlements.",
+  "avianDescription": "Some Avians can open cans with their beaks. I'm not willing to try it.",
+  "floranDescription": "Metal can for throwing!",
+  "glitchDescription": "Neutral. A tin can.",
+  "humanDescription": "Meatballs in a can. Not quite homemade, but then again, we're in space. Plus, they'll keep a lot longer.",
+  "hylotlDescription": "A replica of a can of meatballs. A perfect example of modern art.",
+  "novakidDescription": "Yeehaw! Target practice!",
 
-  "inventoryIcon" : "meatballs2.png?border=1;000",
-  "orientations" : [
-    {
-      "dualImage" : "meatballs2.png:<color>",
-      "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
-      "spaceScan" : 0.1,
-      "anchors" : ["bottom"],
-      "collision" : "platform"
+  "inventoryIcon": "icon.png",
+  "orientations": [{
+      "dualImage": "meatballs2.png:<color>",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
     }
   ]
 }

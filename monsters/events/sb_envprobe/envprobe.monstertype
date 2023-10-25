@@ -1,135 +1,137 @@
 {
-  "type" : "sb_envprobe",
-  "shortdescription" : "Environmental Probe",
-  "description" : "A probe of unknown origin, designed to protect environments.",
+  "type": "sb_envprobe",
+  "shortdescription": "Environmental Probe",
+  "description": "A probe of unknown origin, designed to protect environments.",
 
-  "categories" : [ "sb_envprobe" ],
-  "parts" : [ "body" ],
+  "categories": ["sb_envprobe"],
+  "parts": ["body"],
 
-  "animation" : "envprobe.animation",
+  "animation": "envprobe.animation",
 
-  "dropPools" : ["sb_envprobeTreasure"],
+  "dropPools": ["sb_envprobeTreasure"],
 
-  "baseParameters" : {
-    "scripts" : [
+  "baseParameters": {
+    "scripts": [
       "/monsters/events/sb_envprobe/envprobe.lua"
     ],
 
-    "dialog" : {
-      "approach" : [
+    "dialog": {
+      "approach": [
         "^#0f0;NATURE PRESERVATION DIRECTIVE INITIATED"
       ],
-      "aggro" : [
+      "aggro": [
         "^#f00;ENVIRONMENTAL HARM DETECTED - BEGIN ZAP PROTOCOL"
       ]
     },
-    
-    "animationScripts" : ["/items/active/effects/lightning.lua"],
-    "lightning" : [
-      {
-        "partStartPosition" : ["body", "electrics"],
-        "color" : [230, 220, 255, 230],
-        "displacement" : 2.0,
-        "minDisplacement" : 0.0625,
-        "forks" : 0,
-        "width" : 1
+
+    "animationScripts": ["/items/active/effects/lightning.lua"],
+    "lightning": [{
+        "partStartPosition": ["body", "electrics"],
+        "color": [230, 220, 255, 230],
+        "displacement": 2.0,
+        "minDisplacement": 0.0625,
+        "forks": 0,
+        "width": 1
       }
     ],
 
-    "touchDamage" : {
-      "poly" : [ [1.25, 0.0], [0.875, 0.875], [0.0, 1.25], [-0.875, 0.875], [-1.25, 0.0], [-0.875, -0.875], [0.0, -1.25], [0.875, -0.875] ],
-      "damage" : 10,
+    "touchDamage": {
+      "poly": [[1.25, 0.0], [0.875, 0.875], [0.0, 1.25], [-0.875, 0.875], [-1.25, 0.0], [-0.875, -0.875], [0.0, -1.25], [0.875, -0.875]],
+      "damage": 10,
 
-      "teamType" : "enemy",
-      "damageSourceKind" : "hammer",
-      "knockback" : 20,
-      "statusEffects" : [ ]
+      "teamType": "enemy",
+      "damageSourceKind": "hammer",
+      "knockback": 20,
+      "statusEffects": []
     },
 
-    "metaBoundBox" : [-4, -4, 4, 4],
-    "scale" : 1.0,
-    "behaviorConfig" : {      "followActions" : [
-        {
-          "name" : "approach-teleport",
-          "parameters" : {
-          }
-        }]},
-
-    "movementSettings" : {
-      "collisionPoly" : [ [1.25, 0.0], [0.875, 0.875], [0.0, 1.25], [-0.875, 0.875], [-1.25, 0.0], [-0.875, -0.875], [0.0, -1.25], [0.875, -0.875] ],
-
-      "mass" : 0.5,
-      "walkSpeed" : 4,
-      "runSpeed" : 12,
-      "gravityEnabled" : false,
-
-      "airFriction" : 2,
-      "airForce" : 40,
-      "flySpeed" : 18,
-      "physicsEffectCategories" : ["envprobe", "monster"]
+    "metaBoundBox": [-4, -4, 4, 4],
+    "scale": 1.0,
+    "behaviorConfig": {
+      "followActions": [{
+          "name": "approach-teleport",
+          "parameters": {}
+        }
+      ]
     },
 
-    "knockoutTime" : 0.3,
-    "knockoutAnimationStates" : {
-      "damage" : "stunned"
-    },
-    "deathParticles" : "deathPoof",
-    "knockoutEffect" : "",
+    "movementSettings": {
+      "collisionPoly": [[1.25, 0.0], [0.875, 0.875], [0.0, 1.25], [-0.875, 0.875], [-1.25, 0.0], [-0.875, -0.875], [0.0, -1.25], [0.875, -0.875]],
 
-    "statusSettings" : {
-      "statusProperties" : {
-        "targetMaterialKind" : "stone"
+      "mass": 0.5,
+      "walkSpeed": 4,
+      "runSpeed": 12,
+      "gravityEnabled": false,
+
+      "airFriction": 2,
+      "airForce": 40,
+      "flySpeed": 18,
+      "physicsEffectCategories": ["envprobe", "monster"]
+    },
+
+    "knockoutTime": 0.3,
+    "knockoutAnimationStates": {
+      "damage": "stunned"
+    },
+    "deathParticles": "deathPoof",
+    "knockoutEffect": "",
+
+    "statusSettings": {
+      "statusProperties": {
+        "targetMaterialKind": "stone"
       },
 
-      "appliesEnvironmentStatusEffects" : false,
-      "appliesWeatherStatusEffects" : true,
-      "minimumLiquidStatusEffectPercentage" : 0.1,
+      "appliesEnvironmentStatusEffects": false,
+      "appliesWeatherStatusEffects": true,
+      "minimumLiquidStatusEffectPercentage": 0.1,
 
-      "primaryScriptSources" : [
+      "primaryScriptSources": [
         "/stats/monster_primary.lua"
       ],
-      "primaryScriptDelta" : 5,
+      "primaryScriptDelta": 5,
 
-      "stats" : {
-        "knockbackStunTime" : {
-          "baseValue" : 0.25
+      "stats": {
+        "knockbackStunTime": {
+          "baseValue": 0.25
         },
-        "knockbackThreshold" : {
-          "baseValue" : 0
+        "knockbackThreshold": {
+          "baseValue": 0
         },
-        "maxHealth" : {
-          "baseValue" : 30
+        "maxHealth": {
+          "baseValue": 30
         },
-        "protection" : {
-          "baseValue" : 30.0
+        "protection": {
+          "baseValue": 30.0
         },
-        "healthRegen" : {
-          "baseValue" : 0.0
+        "healthRegen": {
+          "baseValue": 0.0
         },
-        "powerMultiplier" : {
-          "baseValue" : 1.0
+        "powerMultiplier": {
+          "baseValue": 1.0
         }
       },
 
-      "resources" : {
-        "stunned" : {
-          "deltaValue" : -1.0,
-          "initialValue" : 0.0
+      "resources": {
+        "stunned": {
+          "deltaValue": -1.0,
+          "initialValue": 0.0
         },
-        "health" : {
-          "maxStat" : "maxHealth",
-          "deltaStat" : "healthRegen",
-          "defaultPercentage" : 100
+        "health": {
+          "maxStat": "maxHealth",
+          "deltaStat": "healthRegen",
+          "defaultPercentage": 100
         }
       }
     },
 
-    "mouthOffset" : [0, 0],
-    "feetOffset" : [0, -8],
-    "relocatable" : true,
-    "capturable" : true,
-    "captureHealthFraction" : 1,
-    "capturedMonsterType" : "sb_envprobe2",
-    "captureCollectables" : {"monsters" : "sb_envprobe"}
+    "mouthOffset": [0, 0],
+    "feetOffset": [0, -8],
+    "relocatable": true,
+    "capturable": true,
+    "captureHealthFraction": 1,
+    "capturedMonsterType": "sb_envprobe2",
+    "captureCollectables": {
+      "monsters": "sb_envprobe"
+    }
   }
 }

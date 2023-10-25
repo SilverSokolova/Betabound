@@ -171,15 +171,15 @@
     }, {
       "op": "replace",
       "path": "/paneLayout/close/pressed",
-      "value": "/interface/sb_inventory/xpress.png"
+      "value": "/interface/xpress.png"
     }, {
       "op": "replace",
       "path": "/paneLayout/close/base",
-      "value": "/interface/sb_inventory/x.png"
+      "value": "/interface/x.png"
     }, {
       "op": "replace",
       "path": "/paneLayout/close/hover",
-      "value": "/interface/sb_inventory/xhover.png"
+      "value": "/interface/xhover.png"
     },
     //{"op":"remove","path":"/paneLayout/windowtitle/icon/file"},
     {
@@ -353,7 +353,7 @@
         "baseImage": "/interface/sb_crafting/categories.png:smith",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:smith",
         "data": {
-          "filter": ["sb_tools", "tools", "sb_stations"]
+          "filter": ["sb_tools", "tools", "mining", "sb_stations"]
         }
       }
     }, {

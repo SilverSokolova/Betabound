@@ -14,6 +14,9 @@
       "path": "/betabound:skip",
       "inverse": true
     }, {
+      "op": "test",
+      "path": "/audio/0" //This game is cursed. Ok so 1772263578 causes infinite loading unless we do this
+    }, {
       "op": "add",
       "path": "/panels/-",
       "value": {
@@ -26,10 +29,7 @@
         "keyframes": [{
             "timecode": 0,
             "alpha": 0,
-            "position": [
-              480,
-              220
-            ],
+            "position": [480,220],
             "zoom": 1,
             "frame": 0
           }, {
@@ -58,10 +58,7 @@
         "keyframes": [{
             "timecode": 0,
             "alpha": 0,
-            "position": [
-              480,
-              270
-            ],
+            "position": [480,270],
             "zoom": 1,
             "frame": 0
           }, {
@@ -91,7 +88,7 @@
       "path": "/panels/-",
       "value": {
         "drawables": [{
-            "image": "/cinematics/sb_busy5.png:<frame>"
+            "image": "/cinematics/busy3.png:<frame>"
           }
         ],
         "animationFrames": 8,
@@ -99,10 +96,7 @@
         "keyframes": [{
             "timecode": 0,
             "alpha": 0,
-            "position": [
-              480,
-              270
-            ],
+            "position": [480,270],
             "zoom": 1,
             "frame": 0
           }, {
@@ -134,10 +128,7 @@
         "keyframes": [{
             "timecode": 0.5,
             "alpha": 0,
-            "position": [
-              480,
-              270
-            ],
+            "position": [480,270],
             "zoom": 1,
             "frame": 0
           }, {
@@ -161,7 +152,7 @@
       "path": "/panels/-",
       "value": {
         "drawables": [{
-            "image": "/cinematics/sb_busy2.png:<frame>"
+            "image": "/cinematics/busy2.png:<frame>"
           }
         ],
         "animationFrames": 8,
@@ -169,10 +160,7 @@
         "keyframes": [{
             "timecode": 0.5,
             "alpha": 0,
-            "position": [
-              480,
-              270
-            ],
+            "position": [480,270],
             "zoom": 1,
             "frame": 0
           }, {
@@ -195,14 +183,11 @@
       "op": "add",
       "path": "/panels/-",
       "value": {
-        "text": "Wow, you sure do have a lot of content to load, huh?",
+        "text": "^shadow;Wow, you sure do have a lot of content to load, huh?",
         "startTime": 334,
         "fontSize": 14,
         "textPosition": {
-          "position": [
-            0,
-            0
-          ],
+          "position": [0,0],
           "hAnchor": "mid",
           "vAnchor": "mid",
           "wrapWidth": 500
@@ -210,10 +195,7 @@
         "keyframes": [{
             "timecode": 0.5,
             "alpha": 0,
-            "position": [
-              300,
-              130
-            ],
+            "position": [300,130],
             "zoom": 500,
             "textPercentage": 0
           }, {
@@ -227,14 +209,11 @@
       "op": "add",
       "path": "/panels/-",
       "value": {
-        "text": "This is taking awhile. Maybe you should have a cup of tea?",
+        "text": "^shadow;This is taking awhile. Maybe you should have a cup of tea?",
         "startTime": 394,
         "fontSize": 14,
         "textPosition": {
-          "position": [
-            0,
-            0
-          ],
+          "position": [0,0],
           "hAnchor": "mid",
           "vAnchor": "mid",
           "wrapWidth": 500
@@ -259,14 +238,11 @@
       "op": "add",
       "path": "/panels/-",
       "value": {
-        "text": "Maybe go for a walk?",
+        "text": "^shadow;Maybe go for a walk?",
         "startTime": 504,
         "fontSize": 14,
         "textPosition": {
-          "position": [
-            0,
-            0
-          ],
+          "position": [0,0],
           "hAnchor": "mid",
           "vAnchor": "mid",
           "wrapWidth": 500
@@ -274,10 +250,7 @@
         "keyframes": [{
             "timecode": 0.5,
             "alpha": 0,
-            "position": [
-              400,
-              70
-            ],
+            "position": [400,70],
             "zoom": 500,
             "textPercentage": 0
           }, {
@@ -291,14 +264,11 @@
       "op": "add",
       "path": "/panels/-",
       "value": {
-        "text": "Don't ask me, I wouldn't know.",
+        "text": "^shadow;Don't ask me, I wouldn't know.",
         "startTime": 604,
         "fontSize": 14,
         "textPosition": {
-          "position": [
-            0,
-            0
-          ],
+          "position": [0,0],
           "hAnchor": "mid",
           "vAnchor": "mid",
           "wrapWidth": 500
@@ -306,10 +276,7 @@
         "keyframes": [{
             "timecode": 0.5,
             "alpha": 0,
-            "position": [
-              365,
-              40
-            ],
+            "position": [365,40],
             "zoom": 500,
             "textPercentage": 0
           }, {

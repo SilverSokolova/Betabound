@@ -66,6 +66,5 @@
 ,{"op":"add","path":"/filterNameToFriendly/sb_skyrailtable","value":"Skyrail Crafting Table"}
 ,{"op":"add","path":"/filterNameToFriendly/sb_portable3dprinter","value":"Portable Pixel Printer"}
 ,{"op":"add","path":"/filterNameToFriendly/sb_techconsole","value":"Tech Development Console"}
-,{"op":"add","path":"/filterNameToFriendly/sb_coffee","value":"Coffee Machine"}
 ,{"op":"add","path":"/filterNameToFriendly/spawnerstation","value":"Employer's Station"}
 ]]

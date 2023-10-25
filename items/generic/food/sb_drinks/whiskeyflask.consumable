@@ -1,21 +1,29 @@
 {
-  "itemName" : "sb_whiskeyflask",
-  "price" : 160,
-  "foodValue" : 30,
-  "effects" : [[
-	{"effect":"ragefood","duration":270},
-	{"effect":"sb_foodslow","duration":270},
-	"sb_foodheal95"
-  ]],
-  "tooltipKind" : "sb_object",
-  "rarity" : "unCommon",
-  "inventoryIcon" : "whiskeyflask.png",
-  "category" : "drink",
-  "description" : "A flask of whiskey.",
-  "shortdescription" : "Whiskey Flask",
-  "emitters" : ["drinking"],
-  "handPosition" : [0, -2],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 10
+  "itemName": "sb_whiskeyflask",
+  "price": 160,
+  "foodValue": 30,
+  "effects": [[{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 135
+      }, {
+        "effect": "ragefood",
+        "duration": 135
+      }, {
+        "effect": "sb_foodslow",
+        "duration": 30
+      },
+      "sb_foodheal95"
+    ]],
+  "tooltipKind": "sb_object",
+  "rarity": "unCommon",
+  "inventoryIcon": "whiskeyflask.png",
+  "category": "drink",
+  "subtitle": "sb_alcohol",
+  "description": "A flask of whiskey.",
+  "shortdescription": "Whiskey Flask",
+  "emitters": ["drinking"],
+  "handPosition": [0, -2],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 10
 }

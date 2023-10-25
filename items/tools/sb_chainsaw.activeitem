@@ -1,0 +1,35 @@
+{
+  "itemName": "sb_chainsaw",
+  "price": 350,
+  "maxStack": 1,
+  "rarity": "uncommon",
+  "category": "tool",
+  "description": "Great for chopping down trees. Try to avoid massacres.",
+  "shortdescription" : "Chainsaw",
+  "tooltipKind": "sb_tool",
+  "largeImage": "chainsawbig.png",
+  "twoHanded": true,
+  "itemTags": ["tool"],
+  "inventoryIcon": "sb_chainsaw.png",
+  "animation": "/items/tools/miningtools/sb_miningtool.animation",
+  "animationParts": {
+    "tool": "chainsaw.png"
+  },
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "blockRadius": 3,
+  "tileDamageType": "plantish",
+  "tileDamage": 1.5,
+
+  "primaryAbilityType": "sb_drill",
+  "primaryAbility": {
+    "layer": "foreground",
+    "activatingFireMode": "primary"
+  },
+  "altAbilityType": "sb_drill",
+  "altAbility": {
+    "layer": "background",
+    "activatingFireMode": "alt"
+  },
+  "builder": "/items/buildscripts/buildunrandweapon.lua"
+}

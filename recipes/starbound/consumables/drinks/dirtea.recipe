@@ -1,6 +1,6 @@
 {
   "input" : ["dirturchin"],
   "output" : "sb_dirtea",
-  "groups" : ["craftingfood","drinks","sb_power","sb_healing","sb_t1food","all"],
+  "groups" : ["craftingfood","drinks","sb_health","sb_healing","sb_t1food","all"],
   "collectables" : {"cooking":"sb_dirtea"}
 }

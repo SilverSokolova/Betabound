@@ -1,0 +1,89 @@
+{
+  "itemName": "sb_rareplasmamachinepistol",
+  "maxStack": 1,
+  "rarity": "rare",
+  "baseOffset": [-0.25, 0.25],
+  "muzzleOffset": [0, 0.375],
+  "price": 620,
+  "paletteSwaps": "",
+  "tooltipKind": "sb_gun2",
+  "description": "A small fully automatic plasma pistol.",
+  "shortdescription": "Rare Plasma Machine Pistol",
+  "category": "machinePistol",
+  "twoHanded": false,
+  "level": 1,
+  "tooltipFields": {
+    "subtitle": "Plasma M. Pistol"
+  },
+  "itemTags": ["weapon", "ranged", "pistol", "upgradeableWeapon"],
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationParts": {
+    "muzzleFlash": "/animations/sb/muzzleflash/plasmamuzzle3/plasmamuzzle3.png"
+  },
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/sb/gun/mp3.ogg"]
+    }
+  },
+
+  "elementalType": "physical",
+
+  "primaryAbility": {
+    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
+    "class": "GunFire",
+    "projectileType": ["plasmabullet", "greenplasmabullet", "blueplasmabullet", "yellowplasmabullet", "stickyplasma", "plasmabouncer"],
+    "fireTime": [0.11, 0.18],
+    "baseDps": [5, 5.5],
+    "energyUsage": [22, 27.5],
+    "inaccuracy": [1, 5],
+    "projectileParameters": {
+      "knockbackRange": [0, 6]
+    },
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": false,
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "fire": {},
+      "cooldown": {
+        "duration": 0.11,
+        "armRotation": 2,
+        "weaponRotation": 2,
+        "twoHanded": false,
+        "allowRotate": true,
+        "allowFlip": true
+      }
+    }
+  },
+
+  "builderConfig": [{
+      "nameGenerator": "mpistolnames.config:nameGen",
+      "animationParts": {
+        "barrel": {
+          "path": "barrel/<variant>.png",
+          "variants": 20,
+          "paletteSwap": true
+        },
+        "butt": {
+          "path": "butt/<variant>.png",
+          "variants": 20,
+          "paletteSwap": true
+        },
+        "middle": {
+          "path": "middle/<variant>.png",
+          "variants": 20,
+          "paletteSwap": true
+        }
+      },
+      "iconDrawables": ["butt", "middle", "barrel"],
+      "gunParts": ["butt", "middle", "barrel"],
+      "palette": "/items/active/starbound/colors/sniperrifle.weaponcolors",
+      "altAbilities": []
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

@@ -1,0 +1,17 @@
+[
+  [{
+      "op": "add",
+      "path": "/scripts/-",
+      "value": "/interface/scripted/playerstationconsole/sb_playerstationconsolegui.lua"
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/gui/sb_lblGravity",
+      "value": {
+        "type": "label",
+        "position": [175, 0]
+      }
+    }
+  ]
+]

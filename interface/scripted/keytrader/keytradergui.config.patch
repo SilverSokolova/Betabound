@@ -1,1 +1,4 @@
-[{"op":"add","path":"/tradeOptions/-","value":["sb_refinedrubium",40]}]
+[
+{"op":"add","path":"/tradeOptions/-","value":["leather",10]},
+{"op":"add","path":"/tradeOptions/-","value":["sb_refinedrubium",40]}
+]

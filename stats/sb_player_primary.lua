@@ -11,7 +11,7 @@ function init() ini()
   player = math.betabound_player
   sb_shieldAlpha = {0,0,0}
   sb_lastHunger = math.floor(status.resourcePercentage("food")*100)
-  sb_lastHungerMessage = "-d100"
+  sb_lastHungerMessage = "d100"
   sb_hungerBenchmarks = {2,5,10,15,25,50,75,100}
   sb_hungerPopups = root.assetJson("/betabound.config:hungerPopups")
 end
@@ -34,7 +34,7 @@ function update(dt) updat(dt)
     if hunger ~= sb_lastHunger then
       for i = 1, #sb_hungerBenchmarks-1 do
         if hunger > sb_hungerBenchmarks[i] and hunger < sb_hungerBenchmarks[i+1] then
-          local id = "-"..(hunger > sb_lastHunger and "u" or "d")..sb_hungerBenchmarks[i+1]
+          local id = (hunger > sb_lastHunger and "u" or "d")..sb_hungerBenchmarks[i+1]
           if sb_lastHungerMessage ~= id then
             if player then sb_uiMessage(id) end
             sb_lastHungerMessage = id

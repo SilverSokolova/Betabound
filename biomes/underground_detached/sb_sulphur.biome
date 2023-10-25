@@ -1,0 +1,106 @@
+{
+  "name": "sb_sulphur",
+  "friendlyName": "Sulphuric",
+
+  //No fish because lava
+  "spawnProfile": {
+    "monsterParameters": {
+      "statusSettings": {
+        "stats": {
+          "lavaImmunity": {
+            "baseValue": 1
+          },
+          "fireStatusImmunity": {
+            "baseValue": 1
+          }
+        }
+      }
+    },
+    "groups": [{
+        "select": 4,
+        "pool": [
+          [0.5, "sb_passiveSmallBiped"],
+          [0.5, "sb_aggroSmallQuadruped"],
+          [0.5, "sb_aggroSmallBiped"],
+          [0.5, "sb_passiveSmallQuadruped"],
+          [1, "sb_aggroLargeQuadruped"]
+        ]
+      }
+    ]
+  },
+
+  "mainBlock": "rock12",
+  "subBlocks": ["ash", "rock14"],
+  "ores": "sb_sulphurDepth3",
+  "parallax": "/parallax/underground/sb_sulphur.parallax",
+  "hueShiftOptions": [0],
+
+  "sky": {
+    "topColor": [182, 204, 255],
+    "bottomColor": [224, 239, 255],
+    "nightTopColor": [0, 0, 30],
+    "nightBottomColor": [0, 0, 0]
+  },
+
+  "ambientNoises": {
+    "day": {
+      "tracks": ["/sfx/environmental/volcanic_underground.ogg"]
+    },
+    "night": {
+      "tracks": ["/sfx/environmental/volcanic_underground.ogg"]
+    }
+  },
+
+  "musicTrack": {
+    "day": {
+      "tracks": ["/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vast-immortal-suns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg", "/music/on-the-beach-at-night.ogg", "/music/sb_underground.ogg", "/music/sb_via-aurora.ogg", "/music/crystal-exploration1.ogg", "/music/crystal-exploration2.ogg"]
+    },
+    "night": {
+      "tracks": ["/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg", "/music/sb_underground.ogg", "/music/sb_via-aurora.ogg", "/music/crystal-exploration1.ogg", "/music/crystal-exploration2.ogg"]
+    }
+  },
+
+  "surfacePlaceables": {
+    "grassMod": ["charredgrass", "blackash"],
+    "grassModDensity": 0.9,
+    "items": [{
+        "mode": "floor",
+        "priority": 4,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:denseLarge",
+        "type": "grass",
+        "grasses": ["sulphurplant"]
+      }
+    ]
+  },
+
+  "undergroundPlaceables": {
+    "grassMod": ["charredgrass"],
+    "grassModDensity": 0.9,
+    "items": [{
+        "mode": "floor",
+        "priority": 4,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:denseLarge",
+        "type": "grass",
+        "grasses": ["sulphurplant"]
+      }, {
+        "mode": "floor",
+        "priority": 0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:minibiomeChests",
+
+        "type": "treasureBox",
+        "treasureBoxSets": ["basicChest"]
+      }, {
+        "mode": "floor",
+        "priority": 0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundweaponChests",
+
+        "type": "treasureBox",
+        "treasureBoxSets": ["weaponChest", "sb_gunChest"]
+      }
+    ]
+  }
+}

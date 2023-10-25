@@ -1,0 +1,5 @@
+{
+  "input" : [["peacecredit",3]],
+  "output" : ["sb_musicsheet",1,{"music":"the-peacekeepers"}],
+  "groups" : ["peacekeeper2","nouncrafting","all"]
+}

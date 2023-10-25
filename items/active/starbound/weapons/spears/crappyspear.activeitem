@@ -1,64 +1,67 @@
 {
-  "itemName" : "sb_crappyspear",
-  "level" : 1,
-  "price" : 25,
-  "maxStack" : 1,
-  "rarity" : "common",
-  "tooltipKind" : "sb_sword",
-  "category" : "spear",
-  "tooltipFields" : {"subtitle":"Crappy Spear"},
-  "description" : "",
-  "shortdescription" : "Common Crappy Spear",
-  "twoHanded" : true,
-  "itemTags" : ["weapon","melee","spear","crappy","upgradeableWeapon"],
-  "animation" : "/items/active/starbound/weapons/spear.animation",
-  "animationParts" : {},
-  "animationCustom" : {},
+  "itemName": "sb_crappyspear",
+  "level": 1,
+  "price": 25,
+  "maxStack": 1,
+  "rarity": "common",
+  "tooltipKind": "sb_sword",
+  "category": "spear",
+  "tooltipFields": {
+    "subtitle": "Crappy Spear"
+  },
+  "description": "",
+  "shortdescription": "Common Crappy Spear",
+  "twoHanded": true,
+  "itemTags": ["weapon", "melee", "spear", "crappy", "upgradeableWeapon"],
+  "animation": "/items/active/starbound/weapons/spear.animation",
+  "animationParts": {},
+  "animationCustom": {},
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "primaryAbilityType" : "sb_spear",
-  "primaryAbility" : {
-    "fireTime" : [0.8,1.01],
-    "baseDps" : [3.5,5.5],
-    "damageConfig" : {
-      "damageSourceKind" : "spear",
-      "statusEffects" : [ ],
-      "knockbackMode" : "aim",
-      "knockback" : 15,
-      "timeoutGroup" : "primary"
+  "primaryAbilityType": "sb_spear",
+  "primaryAbility": {
+    "fireTime": [0.8, 1.01],
+    "baseDps": [3.5, 5.5],
+    "damageConfig": {
+      "damageSourceKind": "spear",
+      "statusEffects": [],
+      "knockbackMode": "aim",
+      "knockback": 15,
+      "timeoutGroup": "primary"
     },
-    "stances" : {
-      "idle" : {
-        "allowFlip" : true,
-        "allowRotate" : true,
-        "weaponOffset" : [0, 0.95]
+    "stances": {
+      "idle": {
+        "allowFlip": true,
+        "allowRotate": true,
+        "weaponOffset": [0, 0.95]
       },
-      "fire" : {
-        "duration" : 0.24
+      "fire": {
+        "duration": 0.24
       },
-      "windup" : {
-        "duration" : 0.2
+      "windup": {
+        "duration": 0.2
       }
     }
   },
-  "builderConfig" : [{
-    "nameGenerator" : "crappyspearnames.config:nameGen",
-    "elementalType" : "physical",
-    "animationParts" : {
-      "blade" : {
-        "path" : "crappyspear/blade/<variant>.png",
-        "variants" : 12,
-        "paletteSwap" : true
+  "builderConfig": [{
+      "nameGenerator": "crappyspearnames.config:nameGen",
+      "elementalType": "physical",
+      "animationParts": {
+        "blade": {
+          "path": "crappyspear/blade/<variant>.png",
+          "variants": 12,
+          "paletteSwap": true
+        },
+        "handle": {
+          "path": "crappyspear/handle/<variant>.png",
+          "variants": 7,
+          "paletteSwap": true
+        }
       },
-      "handle" : {
-        "path" : "crappyspear/handle/<variant>.png",
-        "variants" : 7,
-        "paletteSwap" : true
-      }
-    },
-    "iconDrawables" : ["handle", "blade"],
-    "palette" : "/items/active/starbound/colors/crappy.weaponcolors"
-  }],
-  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+      "iconDrawables": ["handle", "blade"],
+      "palette": "/items/active/starbound/colors/crappy.weaponcolors"
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

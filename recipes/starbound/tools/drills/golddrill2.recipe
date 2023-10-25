@@ -1,5 +1,0 @@
-{
-  "input" : [["goldbar",8],"silverdrill"],
-  "output" : "golddrill",
-  "groups" : ["sb_roboticcraftingtable","tools","nouncrafting","all"]
-}

@@ -1,6 +1,6 @@
 {
-  "name" : "sb_groundsmashdamage",
-  "effectConfig" : {},
-  "defaultDuration" : 0.1,
-  "scripts" : ["groundsmashdamage.lua"]
+  "name": "sb_groundsmashdamage",
+  "effectConfig": {},
+  "defaultDuration": 0.1,
+  "scripts": ["groundsmashdamage.lua"]
 }

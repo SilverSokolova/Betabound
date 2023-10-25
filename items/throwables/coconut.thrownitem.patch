@@ -1,4 +1,8 @@
 [
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
-[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"coconutblock"}]
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"coconutblock"}],
+
+[{"op":"test","path":"/level","inverse":true},{"op":"add","path":"/level","value":1}],
+[{"op":"test","path":"/builder"},{"op":"move","from":"/builder","path":"/sb_builder"}],
+[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildthrowable.lua"}]
 ]

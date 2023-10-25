@@ -1,0 +1,5 @@
+{
+  "input" : ["stickofram","sb_gunpowder","lead"],
+  "output" : ["sb_ammo",75,{"projectileType":"sb_homingbullet"}],
+  "groups" : ["sb_ammo","craftinganvil2","all"]
+}

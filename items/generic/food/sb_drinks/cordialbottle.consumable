@@ -1,20 +1,32 @@
 {
-  "itemName" : "sb_cordialbottle",
-  "price" : 440,
-  "foodValue" : 45,
-  "tooltipKind" : "sb_object",
-  "rarity" : "rare",
-  "category" : "drink",
-  "effects" : [[
-	{"effect":"ragefood","duration":405},
-	"sb_foodheal145"
-  ]],
-  "inventoryIcon" : "cordialbottle.png",
-  "description" : "A bottle of smooth avesmingo cordial.",
-  "shortdescription" : "Avesmingo Cordial Bottle",
-  "handPosition" : [2, -3],
-  "emitters" : ["drinking"],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 10
+  "itemName": "sb_cordialbottle",
+  "price": 440,
+  "foodValue": 45,
+  "tooltipKind": "sb_object",
+  "rarity": "rare",
+  "category": "drink",
+  "subtitle": "sb_alcohol",
+  "effects": [[{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 102
+      },{
+        "effect": "sb_energyregen192",
+        "duration": 102
+      },{
+        "effect": "runboostfood",
+        "duration": 102
+      },{
+        "effect": "ragefood",
+        "duration": 102
+      },
+      "sb_foodheal145"
+    ]],
+  "inventoryIcon": "cordialbottle.png",
+  "description": "A bottle of smooth avesmingo cordial.",
+  "shortdescription": "Avesmingo Cordial Bottle",
+  "handPosition": [2, -3],
+  "emitters": ["drinking"],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 10
 }

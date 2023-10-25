@@ -1,0 +1,56 @@
+[
+  //So I need to specify the ingredients used in the recipe, the name, ID, and icon of the ingredients, the fact that, yes, the station CAN craft this item (groups), yes, the station CAN craft this item (possibleOutput), yes, the station CAN craft this item (recipesCraftFrom), and, yes, the station CAN craft this item (methods)
+  [{
+      "op": "add",
+      "path": "/possibleOutput/-",
+      "value": "sb_liquidcoffee"
+    }
+  ], [{
+      "op": "test",
+      "path": "/recipesCraftFrom/coffeebeans",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/recipesCraftFrom/coffeebeans",
+      "value": []
+    }
+  ], [{
+      "op": "add",
+      "path": "/recipesCraftFrom/coffeebeans/-",
+      "value": "sb_liquidcoffee"
+    }
+  ], [{
+      "op": "add",
+      "path": "/recipesToCraft/sb_liquidcoffee",
+      "value": {
+        "recipes": [{
+            "output": {
+              "name": "sb_liquidcoffee",
+              "count": 2
+            },
+            "displayMethods": " (COFFEE)",
+            "input": {
+              "coffeebeans": {
+                "displayName": "Coffee Beans",
+                "count": 1,
+                "icon": "coffeebeans.png",
+                "id": "coffeebeans"
+              }
+            },
+            "excludeFromRecipeBook": false,
+            "methods": {
+              "coffeeMFM": "COFFEE"
+            },
+            "groups": ["coffeeMFM"]
+          }
+        ],
+        "displayName": "Liquid Coffee",
+        "methods": {
+          "coffeeMFM": "COFFEE"
+        },
+        "displayNameWithMethods": "Liquid Coffee (COFFEE)",
+        "icon": "sb_liquidcoffee.png"
+      }
+    }
+  ]
+]

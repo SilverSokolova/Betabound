@@ -1,83 +1,132 @@
 {
-  "sb_human" : ["/startquest '\"human_mission1\"'","/completequest human_mission1"],
-  "sb_floran" : ["/startquest '\"floran_mission1\"'","/completequest floran_mission1", "/startquest '\"floran_mission2\"'","/completequest floran_mission2"],
-  "sb_hylotl" : ["/startquest '\"hylotl_mission1\"'","/completequest hylotl_mission1", "/startquest '\"hylotl_mission2\"'","/completequest hylotl_mission2"],
-  "sb_avian" : ["/startquest '\"avian_mission1\"'","/completequest avian_mission1", "/startquest '\"avian_mission2\"'","/completequest avian_mission2"],
-  "sb_apex" : ["/startquest '\"apex_mission1\"'","/completequest apex_mission1", "/startquest '\"apex_mission2\"'","/completequest apex_mission2"],
-  "sb_glitch" : ["/startquest '\"glitch_mission1\"'","/completequest glitch_mission1", "/startquest '\"glitch_mission2\"'","/completequest glitch_mission2"],
-  "sb_story" : ["/sb_human","/sb_floran","/sb_hylotl","/sb_avian","/sb_apex","/sb_glitch"],
+  //Spawning entities
+  "sb_punchy": ["^#ff0,shadow;Spawned a Punchy at the location of the cursor.", "/spawnmonster punchy"],
+  "sb_evilpunchy": ["^#ff0,shadow;Spawned an enemy Punchy at the location of the cursor.", "/spawnmonster punchy 1 '{\"damageTeamType\":\"enemy\"}'"],
+  "sb_gleap": ["^#ff0,shadow;Spawned a Gleap at the location of the cursor.", "/spawnmonster gleap"],
+  "sb_cultist": ["^#ff0,shadow;Spawned a cultist at the location of the cursor.", "/spawnnpc human cultist"],
+  "sb_npc": ["^#ff0,shadow;Spawned an NPC at the location of the cursor.", "/spawnnpc human villager"],
+  "sb_bunny": ["^#ff0,shadow;Spawned a bunny at the location of the cursor.", "/spawnmonster bunnycritter"],
+  "sb_fish": ["^#ff0,shadow;Spawned a fish at the location of the cursor.", "/spawnmonster fish"],
 
-  "sb_punchy":["^#ff0,shadow;Spawned a Punchy at the location of the cursor.","/spawnmonster punchy"],
-  "sb_evilpunchy":["^#ff0,shadow;Spawned an enemy Punchy at the location of the cursor.","/spawnmonster punchy 1 '{\"damageTeamType\":\"enemy\"}'"],
-  "sb_gleap":["^#ff0,shadow;Spawned a Gleap at the location of the cursor.","/spawnmonster gleap"],
-  "sb_cultist":["^#ff0,shadow;Spawned a cultist at the location of the cursor.","/spawnnpc human cultist"],
-  "sb_npc":["^#ff0,shadow;Spawned an NPC at the location of the cursor.","/spawnnpc human villager"],
-  "sb_bunny":["^#ff0,shadow;Spawned a bunny at the location of the cursor.","/spawnmonster bunnycritter"],
-  "sb_fish":["^#ff0,shadow;Spawned a fish at the location of the cursor.","/spawnmonster fish"],
+  //Utility
+  "sb_copyobject": ["/entityeval if object then world.spawnItem(object.name(),object.position(),1,config.getParameter(\"\")) return object.name() else return \"Couldn't find an object at the cursor.\" end"],
+  "sb_copynpc": ["/entityeval if npc then local tnme = npc.humanoidIdentity().name world.spawnItem({name=\"spawnerwizard\",count=5,parameters={shortdescription=tnme..\" Spawner\",spawner={npcTypeOptions={npc.npcType()},npcSpeciesOptions={npc.species()},npcParameterOptions={{identity=npc.humanoidIdentity()}}}}},entity.position()) return tnme end return \"Can't find NPC.\""],
+  "sb_lootpool": ["/entityeval if object then object.say(object.name()..'\\n'..math.floor(entity.position()[1])..', '..math.floor(entity.position()[2])..'\\n'..config.getParameter('treasurePools',{''})[1]) return config.getParameter('treasurePools') end"],
+  "sb_printable": ["/entityeval object and object.name().. \" - \"..tostring(root.itemConfig(object.name()).config.printable)"],
+  "sb_numbers": ["/entityeval if not world then return end for n=0,9 do world.spawnItem('number'..n,entity.position(),99) end"],
+  "sb_dyes": [
+    "/spawnitem dyeremover 30 '{\"sb_reusable\":false,\"rarity\":\"rare\"}",
+    "/entityeval if not world then return end
+    i={'black','blue','brown','green','grey','sb_greyblue','sb_lightgrey','sb_limegreen','orange','pink','purple','red','sb_teal','white','yellow'}
+    for n=1,#i do world.spawnItem(i[n]..'dye',entity.position(),30,{sb_reusable=false,rarity='rare'}) end"
+  ],
+  "sb_beamaxe": ["/spawnitem sb_beamaxe2 1 '{\"upgrades\":[\"size1\",\"size2\",\"size3\",\"range1\",\"range2\",\"range3\",\"power1\",\"power2\",\"power3\",\"liquidcollection\",\"paintmode\",\"wiremode\"],\"canCollectLiquid\":true,\"blockRadius\":5,\"tileDamage\":4.8,\"minBeamWidth\":8,\"minBeamJitter\":0.2}"],
+  "sb_repeatversioning": ["/run status.setStatusProperty('xrc_0018z',status.statusProperty('xrc_0018z')-1)"],
 
-  "sb_copyobject":["/entityeval if object then world.spawnItem(object.name(),object.position(),1,config.getParameter(\"\")) return object.name() else return \"Couldn't find an object at the cursor.\" end"],
-  "sb_copynpc":["/entityeval if npc then local tnme = npc.humanoidIdentity().name world.spawnItem({name=\"spawnerwizard\",count=5,parameters={shortdescription=tnme..\" Spawner\",spawner={npcTypeOptions={npc.npcType()},npcSpeciesOptions={npc.species()},npcParameterOptions={{identity=npc.humanoidIdentity()}}}}},entity.position()) return tnme end return \"Can't find NPC.\""],
-  "sb_toggledronespawning":["/entityeval if world then world.setProperty(\"sb_envprobe\",not world.getProperty(\"sb_envprobe\",true)) return \"Probe spawning \"..(world.getProperty(\"sb_envprobe\") and \"en\" or \"dis\")..\"abled for this world.\" else return \"Couldn't find an object at the cursor.\" end"],
-  "sb_toggleevents":["/entityeval if world then world.setProperty(\"sb_events\",not world.getProperty(\"sb_events\",true)) return \"Random events \"..(world.getProperty(\"sb_events\") and \"en\" or \"dis\")..\"abled for this world.\" else return \"Couldn't find an object at the cursor.\" end"],
+  //Completion
+  "sb_tech": ["/entityeval if not world then return end local t=root.assetJson('/tech/starbound/tech.config') for i=1,#t do world.spawnItem('sb_tech',entity.position(),1,{techModule=t[i]}) end"],
+  "sb_music": ["/entityeval if not world then return end local music=root.assetJson('/collections/sb_music.collection').collectables for k,_ in pairs(music) do world.spawnItem('sb_musicsheet',entity.position(),1,{music=k}) end"],
+  "sb_actionfigures": ["/entityeval i = root.collectables(\"actionfigures\") for j = 1, #i do world.spawnItem(i[j].name,entity.position()) end"],
+  "sb_cookingrecipes": ["/entityeval local food = root.collectables('cooking') local recipes = {} for i = 1, #food do recipes[#recipes+1] = food[i].name end world.spawnItem('paper',entity.position(),1,{learnBlueprintsOnPickup=recipes,consumeOnPickup=true})"],
 
-  "sb_givemetech" : [
-	"/spawnitem sb_tech","/spawnitem sb_tech","/spawnitem sb_tech"
+  //Warping
+  "sb_home": ["/warp CelestialWorld:-161011021:-960048166:41000317:4=1448.1027"],
+  "sb_storage": ["/warp InstanceWorld:playerstation:21df53c9aade582dfc2b38e6a28b62f0:1=cba2e7459537ec44bcfced0ab0548c99"],
+  "sb_storage2": ["/warp InstanceWorld:playerstation:6f20604db8080bfa09f17a9cd667956b:1=2acb1e351639f3d2f738182d7f86c8a3"],
+  "sb_elliot": ["/spawnitem techlabscientistshop 1 '{\"shortdescription\":\"Questless Elliot\",\"offeredQuests\":[]}"],
+  "sb_biggy": ["/spawnitem penguinweaponshop 1 '{\"selectCount\":99}"],
+  "sb_kill": ["/entityeval if status then status.setResource('health',0) end"],
+
+  //Progression
+  "sb_human": ["/startquest '\"human_mission1\"'", "/completequest human_mission1"],
+  "sb_floran": ["/startquest '\"floran_mission1\"'", "/completequest floran_mission1", "/startquest '\"floran_mission2\"'", "/completequest floran_mission2"],
+  "sb_hylotl": ["/startquest '\"hylotl_mission1\"'", "/completequest hylotl_mission1", "/startquest '\"hylotl_mission2\"'", "/completequest hylotl_mission2"],
+  "sb_avian": ["/startquest '\"avian_mission1\"'", "/completequest avian_mission1", "/startquest '\"avian_mission2\"'", "/completequest avian_mission2"],
+  "sb_apex": ["/startquest '\"apex_mission1\"'", "/completequest apex_mission1", "/startquest '\"apex_mission2\"'", "/completequest apex_mission2"],
+  "sb_glitch": ["/startquest '\"glitch_mission1\"'", "/completequest glitch_mission1", "/startquest '\"glitch_mission2\"'", "/completequest glitch_mission2"],
+  "sb_story": ["/sb_human", "/sb_floran", "/sb_hylotl", "/sb_avian", "/sb_apex", "/sb_glitch"],
+
+  "sb_swansong": ["/warp instanceworld:cultistmission1=1633.795"],
+
+  "sb_tier6kit": [
+    "/enabletech sb_targetblink",
+    "/enabletech sb_rocketboots",
+    "/enabletech sb_dash",
+    "/sb_enabletech sb_glow",
+    "/sb_beamaxe",
+    "/naked",
+
+    "/spawnitem sb_itembox 1 '{\"items\":[
+      \"shipT8\",
+      [\"fillerup\",999],
+      [\"sb_tech\",1,{\"techModule\":\"sb_glow\"}],
+      [\"sb_maxfuel1\",1,{\"customUpgradeID\":\"xrc_1\",\"shipUpgrade\":{\"shipSpeed\":999},\"shortdescription\":\"Thruster MK+\",\"description\":\"Increases thruster speed by 999.\\n^#f00;Usable once per ship.^reset;\"}],
+      \"humantier6mhead\",
+      \"humantier6mchest\",
+      \"humantier6mpants\",
+      \"heatprotectionback\",
+      \"xenonpack\",
+      [\"sb_starcleaver\",1,{\"level\":6}],
+      [\"sb_flamethrower\",1,{\"level\":6}],
+      [\"sb_freezeray\",1,{\"level\":6}],
+      [\"sb_uncommonshield\",1,{\"level\":6}],
+      \"sb_draintool\",
+      \"grapplinghook\",
+      [\"nanowrap\",999],
+      [\"sb_doping\",999],
+      [\"sb_vegetablesoup\",999],
+      \"sb_flashfreeze\"
+    ]}'",
+    "/sb_elliot"
   ],
 
-  "sb_tech" : ["/entityeval if not world then return end 
-local t=root.assetJson('/tech/starbound/tech.config')
-for i=1,#t do world.spawnItem('sb_tech',entity.position(),1,{techModule=t[i]}) end"],
-
-  "sb_music" : ["/entityeval if not world then return end 
-local music=root.assetJson('/collections/sb_music.collection').collectables
-for k,_ in pairs(music) do world.spawnItem('sb_musicsheet',entity.position(),1,{music=k}) end"],
-
-  "sb_checkblueprints" : [
-	"^yellow;Printing default blueprints to the log...",
-	"/eval local p = root.assetJson('/player.config:defaultBlueprints') sb.logInfo(sb.printJson(p,1))",
-	"^yellow;Logging the last changes to player.config to the log...",
-	"/eval local p = root.assetJson('/player.config.patch') sb.logInfo(sb.printJson(p,1))",
-	"/eval local p = root.assetJson('/player.config:defaultBlueprints') i=0 for a,b in pairs(p) do for c,d in pairs(b) do i=i+1 end end sb.logInfo(i)"
+  //Misc
+  "sb_toggleevents": ["/entityeval if world then world.setProperty(\"sb_events\",not world.getProperty(\"sb_events\",true)) return \"Random events \"..(world.getProperty(\"sb_events\") and \"en\" or \"dis\")..\"abled for this world.\" else return \"Couldn't find an object at the cursor.\" end"],
+  "sb_checkblueprints": [
+    "^yellow;Printing default blueprints to the log...",
+    "/eval local p = root.assetJson('/player.config:defaultBlueprints') sb.logInfo(sb.printJson(p,1))",
+    "^yellow;Logging the last changes to player.config to the log...",
+    "/eval local p = root.assetJson('/player.config.patch') sb.logInfo(sb.printJson(p,1))",
+    "/eval local p = root.assetJson('/player.config:defaultBlueprints') i=0 for a,b in pairs(p) do for c,d in pairs(b) do i=i+1 end end sb.logInfo(i)"
   ],
-
-
-  "sb_bars" : ["/entityeval if not world then return end i={'ironbar','tungstenbar','sb_steelbar','durasteelbar','refinedaegisalt','refinedviolium','sb_refinedrubium','sb_feroziumcompound','sb_ceruliumcompound','sb_imperviumcompound'} for n = 1, #i do world.spawnItem(i[n],entity.position(),20) end"],
-
-  "sb_lootpool" : ["/entityeval if object then object.say(object.name()..'\\n'..math.floor(entity.position()[1])..', '..math.floor(entity.position()[2])..'\\n'..config.getParameter('treasurePools',{''})[1]) return config.getParameter('treasurePools') end"],
-
-  "sb_slimehandgrapple" : [
-	"/spawnitem sb_testrevolver",
-	"/spawnitem sb_testrevolver",
-        "/spawnitem sb_slimehandgrapple 1 '{\"consumeOnUse\":false,\"rarity\":\"legendary\",\"maxStack\":1}"
-  ],
-
-  "sb_madloot" : [
-	"/spawntreasure valuableTreasure",
-	"/spawntreasure valuableTreasure 2",
-	"/spawntreasure valuableTreasure 3",
-	"/spawntreasure valuableTreasure 4",
-	"/spawntreasure valuableTreasure 5",
-	"/spawntreasure valuableTreasure 6"
-  ],
-  
-  "sb_greenscreensuit" : [
+  "sb_greenscreensuit": [
     "/spawnitem darkdisguisehead 1 '{\"directives\":\"?setcolor=0f0\",\"effectSources\":[]}]",
     "/spawnitem darkdisguisechest 1 '{\"directives\":\"?setcolor=0f0\",\"effectSources\":[]}]",
     "/spawnitem darkdisguiselegs 1 '{\"directives\":\"?setcolor=0f0\",\"effectSources\":[]}]"
   ],
+  "sb_buffs": [
+    "^yellow;Spawning IFD stuff at the cursor position.",
+    "/entityeval if not world then return end
+    i={
+      //damaging
+      'bleed','explosivepunch',
 
-  "sb_home" : ["/warp CelestialWorld:-161011021:-960048166:41000317:4=1448.1027"],
-  "sb_storage" : ["/warp InstanceWorld:playerstation:21df53c9aade582dfc2b38e6a28b62f0:1=cba2e7459537ec44bcfced0ab0548c99"],
+      'energyregen','energyregen96','energyregen192','energyregen288','energyregen384','energyregen480','energyregen672',
+      'energyregen','energyregen96','energyregen192','energyregen288','energyregen384','energyregen480','energyregen672',
+      'light2energy','light2energy96','light2energy192','light2energy288','light2energy384','light2energy480','light2energy672',
 
-  "sb_beamaxe" : ["/spawnitem sb_beamaxe2 1 '{\"upgrades\":[\"sb_generic\",\"size1\",\"size2\",\"size3\",\"range1\",\"range2\",\"range3\",\"power1\",\"power2\",\"power3\",\"liquidcollection\",\"paintmode\",\"wiremode\"],\"canCollectLiquid\":true,\"blockRadius\":5,\"tileDamage\":4.8,\"minBeamWidth\":8,\"minBeamJitter\":0.2}"],
-  "sb_beam" : ["/entityeval frame = {1,2,15} frame=frame[math.random(3)] species = root.assetJson(\"/interface/windowconfig/charcreation.config:speciesOrdering\") for i = 1, #species do world.spawnItem(\"redapple\",entity.position(),1,{timeToRot=1,inventoryIcon=\"/animations/teleport/penguinplayerwarpin.png:\"..frame..(root.assetJson(\"/species/\"..species[i]..\".species\")[\"effectDirectives\"] or \"\"),shortdescription=species[i]}) end"],
-  "sb_wickedrobotsplitter" : ["/spawnitem sb_uncommonbroadsword 1 '{\"seed\":-362604192805478673,\"level\":2,\"animationPartVariants\":{\"blade\":45,\"handle\":33}}"],
-  "sb_swansong" : ["/warp instanceworld:cultistmission1=1633.795"],
-//"sb_mttest" : ["/spawnnpc human villager 1 1 '{\"scripts\":[]}'"],
-  "sb_elliot" : ["/spawnitem techlabscientistshop 1 '{\"shortdescription\":\"Questless Elliot\",\"offeredQuests\":[]}"],
-  "sb_biggy" : ["/spawnitem penguinweaponshop 1 '{\"selectCount\":99}"],
-  "sb_kill" : ["/entityeval if status then status.setResource('health',0) end"],
-  "sb_actionfigures" : ["/entityeval i = root.collectables(\"actionfigures\") for j = 1, #i do world.spawnItem(i[j].name,entity.position()) end"],
-  "sb_cookingrecipes" : ["/entityeval local food = root.collectables('cooking') local recipes = {} for i = 1, #food do recipes[#recipes+1] = food[i].name end world.spawnItem('paper',entity.position(),1,{learnBlueprintsOnPickup=recipes,consumeOnPickup=true})"],
-  "sb_printable" : ["/entityeval object and object.name().. \" - \"..tostring(root.itemConfig(object.name()).config.printable)"]
+      'foodheal10','foodheal25','foodheal35','foodheal50','foodheal70','foodheal95',
+      'foodheal120','foodheal135','foodheal145','foodheal170','foodheal190','foodheal215',
+      'foodheal240','foodheal265','foodheal315','foodheal360','foodheal720','repairbotheal',
+      //instant
+      'directdamage','energy','food','health','restoration',
+      //movement
+      'encumbered','foodslow','glide','jellyslow','sugarrush','tranquilized',
+      //stats
+      'greystim','grit','protectionboost5','shipgreystim',
+      //unsorted
+      'airpocket','brainextractor','fooddepletionsuppressed','frozenburning','ladder','minibossspawn','outpost','poisoncreep',
+      //tech
+      'absorptiontech','sb_enhancedhealingtech','sb_forcefieldtech','sb_spikedtech','sb_tanktech','sb_vamptech',
+      'sb_explosiveprotectiontech',
+      'sb_groundsmashdamage','sb_groundsmashknockbackX','sb_groundsmashknockbackY',
+      'sb_magnet',
+      'sb_gravitytech','sb_jumptech','sb_mobilitytech','sb_speedtech',
+      'sb_energyregentech','sb_regenerationtech',
+      'sb_shield',
+      'sb_breathprotectiontech','sb_coldprotectiontech','sb_environmentalprotectiontech','sb_heatprotectiontech','sb_radiationprotectiontech',
+      'sb_berserk','sb_energytech','sb_glowtech','sb_grittech','sb_healthtech','sb_protectiontech','sb_reducefalldamagetech'
+    }
+    for n = 1, #i do world.spawnItem('soda',entity.position(),80,{maxStack=9999,shortdescription=i[n],effects={{'sb_'..i[n]}}}) end"
+  ]
 }

@@ -1,11 +1,11 @@
 {
-  "sb_itemName" : "mocha.consumable",
-  "itemName" : "mocha",
-  "shortdescription" : "Mochaccino",
-  "animation" : "/items/sb_consumable.animation",
-  "scripts" : ["/items/sb_consumable.lua"],
-  "returnItem" : "glasscoffeemug",
-  "sb_forcePlate" : true,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "builder" : "/items/buildscripts/starbound/fromsource.lua"
+  "sb_itemName": "mocha.consumable",
+  "itemName": "mocha",
+  "shortdescription": "Mochaccino",
+  "animation": "/items/sb_consumable.animation",
+  "scripts": ["/items/sb_consumable.lua"],
+  "returnItem": "glasscoffeemug",
+  "sb_forcePlate": true,
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "builder": "/items/buildscripts/starbound/fromsource.lua"
 }

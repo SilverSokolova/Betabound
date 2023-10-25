@@ -29,8 +29,8 @@
     }
   },
 
-  "baseOffset": [0.5, 0],
-  "muzzleOffset": [2.075, 0.235],
+  "baseOffset": [0.5, 0.25],
+  "muzzleOffset": [2.25, 0.235],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "elementalType": "physical",
   "primaryAbilityType": "sb_gun2",

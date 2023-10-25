@@ -1,7 +1,7 @@
 {
   "type" : "sb_rivalbountyhunter",
   "baseType" : "base",
-
+  "displayTitle": "Bounty Hunter",
   "levelVariance" : [3, 3],
   "persistent" : false,
 

@@ -1,6 +1,0 @@
-{
-  "itemName" : "sb_treeHarvest",
-  "rarity" : "rare",
-  "pool" : "sb_treeHarvest",
-  "builder" : "/items/buildscripts/starbound/randomdrop.lua"
-}

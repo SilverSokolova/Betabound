@@ -10,7 +10,7 @@
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_meatballs"}}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_copybook"}}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_customcodex"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_coffeemachine","prerequisiteQuest":"sb_coffee0.gearup"}}
+,{"op":"add","path":"/interactData/items/-","value":{"item":"coffeemachine","prerequisiteQuest":"sb_coffee0.gearup"}} //Can't print it due to category
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_airpocketback","prerequisiteQuest":"sb_outpost2.gearup"}}]
 
 
@@ -25,7 +25,7 @@
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_meatballs"}}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_copybook"}}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_customcodex"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_coffeemachine","prerequisiteQuest":"sb_coffee0.gearup"}}
+,{"op":"add","path":"/interactData/items/-","value":{"item":"coffeemachine","prerequisiteQuest":"sb_coffee0.gearup"}}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_airpocketback","prerequisiteQuest":"sb_outpost2.gearup"}}],
 
 
@@ -33,9 +33,10 @@
   [{"op":"test","path":"/animation","inverse":true},{"op":"add","path":"/scripts/-","value":"sb_infinityexpress.lua"}],
   [{"op":"test","path":"/animation","inverse":true},{"op":"add","path":"/animation","value":"sb_infinityexpress.animation"}],
   [{"op":"test","path":"/animationParts","inverse":true},{"op":"add","path":"/animationParts","value":{"shopright":"infinityexpressright.png","shopleft":"infinityexpressleft.png"}}],
-  //Yes, it NEEDS to be 0 0 because otherwise it's offset for some reason. Changing `centered` in the animation just buries it
-  [{"op":"replace","path":"/orientations/0/imagePosition","value":[-0,0]}],
-  [{"op":"replace","path":"/orientations/1/imagePosition","value":[-0,0]}],
+  //i hate this so much. i swear to god if it randomly jumps around when unloaded i will SCREAM
+  [{"op":"replace","path":"/orientations/0/imagePosition","value":[-88,0]}],
+  [{"op":"replace","path":"/orientations/1/imagePosition","value":[-88,0]}],
+  [{"op":"add","path":"/animationPosition","value":[-88,0]}],
   [{"op":"test","path":"/orientations/0/imageLayers/0/image","value":"infinityexpressleft.png:<color>"},{"op":"replace","path":"/orientations/0/imageLayers/0/image","value":"infinityexpressleft.png:<frame>.<color>"}],
   [{"op":"test","path":"/orientations/1/imageLayers/0/image","value":"infinityexpressright.png:<color>"},{"op":"replace","path":"/orientations/1/imageLayers/0/image","value":"infinityexpressright.png:<frame>.<color>"}]
 ]

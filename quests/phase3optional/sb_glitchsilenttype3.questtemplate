@@ -2,7 +2,7 @@
   "id" : "sb_glitchsilenttype3.gearup",
   "prerequisites" : [ "hylotl_mission1", "sb_bountyhunter2.gearup", "sb_glitchsilenttype2.gearup", "sb_humanexcon2.gearup", "sb_humansurvivor2.gearup" ],
   "title" : "^green;The Good Book",
-  "text" : ".........\n(This guy isn't talking. ^green;He has given me a drawing though, ^orange;perhaps this is something he wants.)",
+  "text" : ".........\n(This person isn't talking. ^green;They have given me a drawing though, ^orange;perhaps this is something they want.)",
   "completionText" : "Thankful. I can talk at last! That book contains a datachip I was able to use to restore my speech module. Thank you so much! Here, have these tech cards.",
   "speaker" : "questGiver",
   "moneyRange" : [200, 200],

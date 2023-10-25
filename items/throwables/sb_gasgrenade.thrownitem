@@ -1,29 +1,29 @@
 {
-  "itemName" : "sb_gasgrenade",
-  "rarity" : "uncommon",
-  "tooltipKind" : "sb_object",
-  "inventoryIcon" : "sb_gasgrenade.png",
-  "image" : "sb_gasgrenade.png",
-  "shortdescription" : "Gas Grenade",
-  "category" : "throwableItem",
-  "description" : "A gas grenade. It doesn't smell nice!",
-  "price" : 95,
-  "ammoUsage" : 1,
+  "itemName": "sb_gasgrenade",
+  "rarity": "uncommon",
+  "tooltipKind": "sb_object",
+  "inventoryIcon": "sb_gasgrenade.png",
+  "image": "sb_gasgrenade.png",
+  "shortdescription": "Gas Grenade",
+  "category": "throwableItem",
+  "description": "A gas grenade. It doesn't smell nice!",
+  "price": 95,
+  "builder": "/items/buildscripts/starbound/buildthrowable.lua",
+  "level": 3,
+  "ammoUsage": 1,
+  "edgeTrigger": true,
+  "windupTime": 0,
+  "cooldown": 0.4,
 
-  "edgeTrigger" : true,
-  "windupTime" : 0.0,
-  "cooldown" : 0.4,
-
-  "projectileType" : "sb_gasgrenade",
-  "projectileConfig" : {
-    "speed" : 45,
-    "power" : 15,
-    "periodicActions" : [
-      {
-        "time" : 0,
-        "repeat" : false,
-        "action" : "sound",
-        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+  "projectileType": "sb_gasgrenade",
+  "projectileConfig": {
+    "speed": 45,
+    "power": 15,
+    "periodicActions": [{
+        "time": 0,
+        "repeat": false,
+        "action": "sound",
+        "options": ["/sfx/projectiles/throw_item_small.ogg"]
       }
     ]
   }

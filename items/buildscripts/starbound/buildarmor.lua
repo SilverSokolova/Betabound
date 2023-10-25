@@ -1,4 +1,3 @@
-require "/scripts/util.lua"
 require "/items/buildscripts/starbound/definition.lua"
 
 function build(directory, config, parameters)

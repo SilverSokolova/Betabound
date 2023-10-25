@@ -1,30 +1,27 @@
 {
-  "itemName" : "sb_filledcapturepod",
-  "rarity" : "Common",
-  "tooltipKind" : "sb_object",
-  "inventoryIcon" : "sb_filledcapturepod.png",
-  "image" : "sb_filledcapturepod.png",
-  "shortdescription" : "Filled Transport Pod",
-  "category" : "throwableItem",
-  "description" : "Throw it... Who knows what'll happen?",
-  "price" : 240,
-  "maxStack" : 100,
-  "ammoUsage" : 1,
+  "itemName": "sb_filledcapturepod",
+  "rarity": "Rare",
+  "tooltipKind": "sb_object",
+  "inventoryIcon": "/items/active/unsorted/filledcapturepod/filledcapturepodicon.png",
+  "image": "/items/active/unsorted/filledcapturepod/filledcapturepodicon.png",
+  "shortdescription": "Filled Capture Pod",
+  "category": "throwableItem",
+  "description": "Throw it down to release the creature captured inside!",
+  "price": 1000,
+  "ammoUsage": 1,
 
-  "edgeTrigger" : true,
-  "windupTime" : 0.0,
-  "cooldown" : 0.4,
+  "edgeTrigger": true,
+  "windupTime": 0,
+  "cooldown": 0.4,
 
-  "projectileType" : "sb_filledcapturepod",
-  "projectileConfig" : {
-    "speed" : 70,
-    "level" : 7,
-    "periodicActions" : [
-      {
-        "time" : 0,
-        "repeat" : false,
-        "action" : "sound",
-        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+  "projectileType": "sb_filledcapturepod",
+  "projectileConfig": {
+    "speed": 70,
+    "periodicActions": [{
+        "time": 0,
+        "repeat": false,
+        "action": "sound",
+        "options": ["/sfx/projectiles/throw_item_small.ogg"]
       }
     ]
   }

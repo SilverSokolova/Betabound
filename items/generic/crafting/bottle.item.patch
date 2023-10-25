@@ -1,1 +1,5 @@
-[[{"op":"add","path":"/sb_plateHide","value":true}]]
+[
+[{"op":"add","path":"/sb_plateHide","value":true},
+{"op":"add","path":"/sb_plateImage","value":true},
+{"op":"add","path":"/sb_plateOffset","value":-0.125}]
+]

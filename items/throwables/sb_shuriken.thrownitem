@@ -1,29 +1,30 @@
 {
-  "itemName" : "sb_shuriken",
-  "rarity" : "rare",
-  "tooltipKind" : "sb_object",
-  "inventoryIcon" : "sb_shuriken.png",
-  "image" : "sb_shuriken.png",
-  "shortdescription" : "Plasma Shuriken",
-  "category" : "throwableItem",
-  "description" : "A shuriken cloaked in plasma.",
+  "itemName": "sb_shuriken",
+  "rarity": "rare",
+  "tooltipKind": "sb_object",
+  "inventoryIcon": "/projectiles/guns/unsorted/shuriken/icon.png?multiply=fffffffe",
+  "image": "/projectiles/guns/unsorted/shuriken/icon.png?multiply=fffffffe",
+  "shortdescription": "Plasma Shuriken",
+  "category": "throwableItem",
+  "description": "A shuriken made of pure energy, ideal for cutting right through foes.",
+  "builder": "/items/buildscripts/starbound/buildthrowable.lua",
+  "level": 6,
+  "ammoUsage": 1,
+  "price": 40,
+  "edgeTrigger": true,
+  "windupTime": 0,
+  "cooldown": 0.4,
 
-  "ammoUsage" : 1,
-  "price" : 40,
-  "edgeTrigger" : true,
-  "windupTime" : 0.0,
-  "cooldown" : 0.4,
-
-  "projectileType" : "shuriken",
-  "projectileConfig" : {
-    "speed" : 45,
-    "power" : 40,
-    "periodicActions" : [
-      {
-        "time" : 0,
-        "repeat" : false,
-        "action" : "sound",
-        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+  "projectileType": "shuriken",
+  "projectileConfig": {
+    "speed": 75,
+    "power": 8.5,
+    "persistentAudio": "/sfx/projectiles/throwingstar_loop.ogg",
+    "periodicActions": [{
+        "time": 0,
+        "repeat": false,
+        "action": "sound",
+        "options": ["/sfx/projectiles/throw_item_small.ogg"]
       }
     ]
   }

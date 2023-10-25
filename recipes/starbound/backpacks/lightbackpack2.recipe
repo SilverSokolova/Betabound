@@ -1,5 +1,0 @@
-{
-  "input" : ["lanternstickback","upgrademodule"],
-  "output" : "halogenpack",
-  "groups" : ["craftingfarm2","survival","all"]
-}

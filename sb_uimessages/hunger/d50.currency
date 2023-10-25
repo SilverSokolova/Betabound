@@ -1,0 +1,10 @@
+{
+  "itemName": "sb_uimessage:d50",
+  "shortdescription": "   ^#d5ab36;Getting pretty hungry...^clear;",
+  "currency": "sb_uimessage",
+  "rarity": "rare",
+  "value": 0,
+  "pickupSoundsSmall": [""],
+  "pickupSoundsMedium": [""],
+  "pickupSoundsLarge": [""]
+}

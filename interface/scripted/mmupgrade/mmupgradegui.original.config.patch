@@ -155,27 +155,5 @@
     "op": "add",
     "path": "/sb_text",
     "value": ["Can't remove that. Replace it with a similar item", "Liquid collection enabled", "Liquid collection disabled"]
-  }, {
-    "op": "add",
-    "path": "/gui/sb_generic",
-    "value": {
-      "base": "",
-      "hover": "",
-      "callback": "null",
-      "type": "button",
-      "visible": false
-    }
-  }, {
-    "op": "add",
-    "path": "/upgrades/sb_generic",
-    "value": {
-      "button": "sb_generic",
-      "prerequisites": ["sb_generic"],
-      "moduleCost": 1,
-      "highlight": "powergen",
-      "icon": "",
-      "description": "",
-      "essentialSlot": ""
-    }
   }
 ]

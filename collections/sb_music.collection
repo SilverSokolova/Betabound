@@ -1,6 +1,6 @@
 {
   "name": "sb_music",
-  "title": "Portable Radio",
+  "title": "Radio",
   "type": "generic",
 
   "collectables": {
@@ -333,6 +333,10 @@
       "icon": "sb_underground",
       "title": "Underground",
       "description": "Toby Fox"
+    },
+    "sb_weep-not-my-child": {
+      "icon": "sb_weep-not-my-child",
+      "title": "Weep Not, My Child"
     },
 
     "jukebox": {

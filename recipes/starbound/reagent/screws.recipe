@@ -1,5 +1,0 @@
-{
-  "input" : ["ironbar"],
-  "output" : ["screws",8],
-  "groups" : ["craftingfurnace2","ingredients","all"]
-}

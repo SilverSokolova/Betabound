@@ -1,5 +1,0 @@
-{
-  "input" : ["skyrailboost"],
-  "output" : "skyrailbreak",
-  "groups" : ["skyrailtable","sb_convert","nouncrafting","all"]
-}

@@ -1,0 +1,44 @@
+{
+    //See that cyan thing in the image? That's a pod for a capture pod. I think we could make this a scripted interface that takes some ancient bones, a brain, cell materia, then spit out a custom pod. Smash fossils into ancient bones and use those. Yes I know fossils arent bones
+  "objectName": "sb_capturestation",
+  "rarity": "legendary",
+  "tooltipKind": "sb_object",
+  "printable": false,
+  "objectType": "container",
+  "description": "Power up your monsters here!",
+  "shortdescription": "^orange;Monster Lab^reset;",
+  "race": "generic",
+  "category": "crafting",
+  "price": 2000,
+  "openSounds": ["/assetmissing.wav"],
+  "slotCount": 1,
+  "frameCooldown": 5,
+  "uiConfig": "/interface/scripted/sb_petstation/petstation.config",
+  "autoCloseCooldown": 3600,
+
+  "apexDescription": "I can craft capture pods here.",
+  "avianDescription": "This will allow me to craft capture pods.",
+  "floranDescription": "Floran capture creatures sssometimes!",
+  "glitchDescription": "Statement. With this, I can craft capture pods.",
+  "humanDescription": "Cool, maybe I can capture an army of angry bees.",
+  "hylotlDescription": "Capturing creatures is wrong, and yet needs must.",
+  "novakidDescription": "Tamin' wild beasts will be child's play with capture pods.",
+
+  //  "inventoryIcon" : "capturestationicon.png",
+  "inventoryIcon": [{
+      "image": "capturestationicon.png"
+    }, {
+      "image": "/interface/x.png"
+    }
+  ],
+
+  "orientations": [{
+      "dualImage": "capturestation.png:<color>.<frame>",
+      "imagePosition": [-8, -8],
+      "frames": 8,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ]
+}

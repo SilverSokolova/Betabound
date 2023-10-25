@@ -1,0 +1,5 @@
+{
+  "input" : [["greenslime",2],"climbingrope"],
+  "output" : ["sb_slimehandgrapple",2],
+  "groups" : ["plain","tools","all"]
+}

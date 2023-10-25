@@ -1,0 +1,5 @@
+{
+  "input": ["canvas"],
+  "output": "sb_blankblueprint",
+  "groups": ["craftingwheel2", "ingredients", "all"]
+}

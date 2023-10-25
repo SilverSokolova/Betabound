@@ -1,0 +1,6 @@
+{
+  "input" : [["sb_refinedrubium",2],"solariumstar"],
+  "output" : "sb_ceruliumcompound",
+  "duration" : 0.15,
+  "groups" : ["craftingfurnace3","bars","all"]
+}

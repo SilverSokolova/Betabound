@@ -1,42 +1,50 @@
 {
-  "objectName" : "sb_portable3dprinterobject",
-  "colonyTags" : ["crafting"],
-  "rarity" : "legendary",
-  "interactAction" : "OpenCraftingInterface",
-  "interactData" : {
-    "config" : "/interface/windowconfig/sb_portable3dprinter.config",
-    "paneLayoutOverride" : {
-      "windowtitle" : {
-        "title" : "Portable Pixel Printer",
-        "subtitle" : "Print small hi-tech items on-the-fly!",
-        "icon" : {
-          "file" : "/interface/sb_crafting/craftingicons.png:printingicon"
+  "objectName": "sb_portable3dprinterobject",
+  "colonyTags": ["crafting"],
+  "rarity": "legendary",
+  "interactAction": "OpenCraftingInterface",
+  "interactData": {
+    "config": "/interface/windowconfig/sb_portable3dprinter.config",
+    "paneLayoutOverride": {
+      "windowtitle": {
+        "title": "Portable Pixel Printer",
+        "subtitle": "Print small hi-tech items on-the-fly!",
+        "icon": {
+          "file": "/interface/sb_crafting/craftingicons.png:printingicon"
         }
       }
     },
-    "craftingSound" : "/sfx/interface/crafting_compress.ogg",
-    "filter" : ["sb_portable3dprinter"]
+    "craftingSound": "/sfx/interface/crafting_compress.ogg",
+    "filter": ["sb_portable3dprinter"]
   },
-  "printable" : false,
-  "lightColor" : [38,167,234],
-  "shortdescription" : "^orange;Portable Pixel Printer^reset;",
-  "description" : "Used to craft small hi-tech items on-the-fly.",
-  "race" : "generic",
-  "category" : "crafting",
-  "smashable" : true,
-  "smashParticles" : [{"count" : 4, "particle" : "protectorblade"}],
-  "tooltipKind" : "sb_object",
-  "scripts" : ["portable3dprinter.lua"],
-  "scriptDelta" : 10,
-  "breakDropOptions" : [],
-  "inventoryIcon" : [{"image":"/items/generic/unlock/sb_portable3dprinter.png"},{"image":"/interface/sb_inventory/x.png"}],
-  "orientations" : [
-    {
-      "dualImage" : "portable3dprinter.png:<frame>", //NOTE: alpha is 7
-      "imagePosition" : [-8, 0],
-      "frames" : 8,
-      "animationCycle" : 1.0,
-      "spaceScan" : 0.1
+  "printable": false,
+  "lightColor": [38, 167, 234],
+  "shortdescription": "^orange;Portable Pixel Printer^reset;",
+  "description": "Used to craft small hi-tech items on-the-fly.",
+  "race": "generic",
+  "category": "crafting",
+  "smashable": true,
+  "smashParticles": [{
+      "count": 4,
+      "particle": "protectorblade"
+    }
+  ],
+  "tooltipKind": "sb_object",
+  "scripts": ["portable3dprinter.lua"],
+  "scriptDelta": 10,
+  "breakDropOptions": [],
+  "inventoryIcon": [{
+      "image": "/items/active/starbound/portable3dprinter/portable3dprinter.png"
+    }, {
+      "image": "/interface/x.png"
+    }
+  ],
+  "orientations": [{
+      "dualImage": "portable3dprinter.png:<frame>", //NOTE: alpha is 7
+      "imagePosition": [-8, 0],
+      "frames": 8,
+      "animationCycle": 1.0,
+      "spaceScan": 0.1
     }
   ]
 }

@@ -1,17 +1,20 @@
 {
-  "itemName" : "sb_candy",
-  "rarity" : "Common",
-  "price" : 50,
-  "foodValue" : 5,
-  "tooltipKind" : "sb_object4",
-  "inventoryIcon" : "sb_candy.png",
-  "category" : "preparedFood",
-  "description" : "Hard candy. It probably won't do much for me if I'm starving, but it sure is tasty.",
-  "effects" : [[
-	"sb_foodheal10"
-  ]],
-  "shortdescription" : "Candy",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 5
+  "itemName": "sb_candy",
+  "rarity": "Common",
+  "price": 50,
+  "foodValue": 5,
+  "tooltipKind": "sb_object4",
+  "inventoryIcon": "sb_candy.png",
+  "category": "preparedFood",
+  "description": "Hard candy. It probably won't do much for me if I'm starving, but it sure is tasty.",
+  "effects": [[{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 45
+      },
+      "sb_foodheal10"
+    ]],
+  "shortdescription": "Candy",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 5
 }

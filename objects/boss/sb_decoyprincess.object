@@ -1,46 +1,52 @@
 {
-  "objectName" : "sb_decoyprincess",
-  "rarity" : "essential",
-  "description" : "A decoy princess. The perfect bait. ^gray;It could help obtain a ^#CEA867;dragon bone^gray;...^reset;",
-  "shortdescription" : "^#f00;Decoy Princess^reset;",
-  "race" : "generic",
-  "category" : "other",
-  "printable" : false,
-  "tooltipKind" : "sb_object",
-  "tooltipFields" : {"rarityLabel":"Critical"},
+  "objectName": "sb_decoyprincess",
+  "rarity": "essential",
+  "description": "A decoy princess. The perfect bait. ^gray;It could help obtain a ^#CEA867;dragon bone^gray;...^reset;",
+  "shortdescription": "^#f00;Decoy Princess^reset;",
+  "race": "generic",
+  "category": "other",
+  "printable": false,
+  "tooltipKind": "sb_object",
+  "tooltipFields": {
+    "rarityLabel": "Critical"
+  },
 
-  "price" : 500,
-  "apexDescription" : "This fake princess will serve as bait.",
-  "avianDescription" : "A cunning bait and switch.",
-  "floranDescription" : "Floran ssstab any beast that take princess!",
-  "glitchDescription" : "Proud. A cunning plan, this decoy.",
-  "humanDescription" : "This decoy will help me lure out a terrifying beast.",
-  "hylotlDescription" : "Perhaps luring a creature to me is ill-advised, but here goes.",
-  "novakidDescription" : "Ain't yer suppose ta tie 'er to a train track?",
+  "price": 500,
+  "apexDescription": "This fake princess will serve as bait.",
+  "avianDescription": "A cunning bait and switch.",
+  "floranDescription": "Floran ssstab any beast that take princess!",
+  "glitchDescription": "Proud. A cunning plan, this decoy.",
+  "humanDescription": "This decoy will help me lure out a terrifying beast.",
+  "hylotlDescription": "Perhaps luring a creature to me is ill-advised, but here goes.",
+  "novakidDescription": "Ain't yer suppose ta tie 'er to a train track?",
 
-//  "inventoryIcon" : "sb_decoyprincessicon.png",
-  "inventoryIcon" : [{"image":"sb_decoyprincessicon.png"},{"image":"/interface/sb_inventory/x.png"}],
-  "orientations" : [
-    {
-      "dualImage" : "sb_decoyprincess.png",
-      "imagePosition" : [-16, 0],
-      "frames" : 1,
-      "animationCycle" : 1,
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+  //  "inventoryIcon" : "sb_decoyprincessicon.png",
+  "inventoryIcon": [{
+      "image": "sb_decoyprincessicon.png"
+    }, {
+      "image": "/interface/x.png"
+    }
+  ],
+  "orientations": [{
+      "dualImage": "sb_decoyprincess.png",
+      "imagePosition": [-16, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
     }
   ],
 
-  "animation" : "sb_ironbeacon2.animation",
-  "animationParts" : {
-    "beacon" : "sb_decoyprincess.png"
+  "animation": "sb_ironbeacon2.animation",
+  "animationParts": {
+    "beacon": "sb_decoyprincess.png"
   },
-  "animationPosition" : [-16, 0],
+  "animationPosition": [-16, 0],
 
-  "scripts" : [ "sb_ironbeacon.lua" ],
-  "scriptDelta" : 5,
-  "hasAnimation" : true,
-  "badReception" : [0,"I should take it to the planet surface and see what it attracts."],
-  "bossType" : [["gleap",[0,30]]], //sb_dragonboss
-  "bossLevel" : 4
+  "scripts": ["sb_ironbeacon.lua"],
+  "scriptDelta": 5,
+  "hasAnimation": true,
+  "badReception": [0, "I should take it to the planet surface and see what it attracts."],
+  "bossType": [["gleap", [0, 30]]], //sb_dragonboss
+  "bossLevel": 4
 }

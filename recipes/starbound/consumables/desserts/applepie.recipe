@@ -1,6 +1,6 @@
 {
-  "input" : ["redapple","wheat","sugar"],
+  "input" : ["wheat","sugar","redapple","egg"],
   "output" : "sb_applepie",
-  "groups" : ["craftingfood","desserts","sb_healing","sb_health","sb_mobility","all"],
+  "groups" : ["craftingfood","desserts","sb_healing","sb_energy","all"],
   "collectables" : {"cooking":"sb_applepie"}
 }

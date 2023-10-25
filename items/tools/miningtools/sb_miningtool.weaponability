@@ -1,0 +1,45 @@
+{
+  "animationParts": {},
+  "animationCustom": {},
+
+  "ability": {
+    "type": "sb_miningtool",
+    "scripts": ["/items/tools/miningtools/sb_miningtool.lua"],
+    "class": "MiningTool",
+    "blockRadius": 3,
+    "altBlockRadius": 1,
+    "harvestLevel": 99,
+    
+    "tilledMods": {
+      "31": "tilled"
+    },
+
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": -25,
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true,
+        "aimAngle": 0
+      },
+      "windup": {
+        "duration": 0,
+        "armRotation": 60,
+        "weaponRotation": 50,
+        "twoHanded": true,
+        "allowRotate": false,
+        "allowFlip": true
+      },
+      "fire": {
+        "duration": 0.25,
+        "armRotation": 40,
+        "weaponRotation": 10,
+        "armAngularVelocity": -360,
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true
+      }
+    }
+  }
+}

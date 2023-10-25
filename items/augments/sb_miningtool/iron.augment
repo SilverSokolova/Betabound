@@ -1,13 +1,15 @@
 {
-  "itemName" : "sb_iron_repair",
-  "price" : 20,
-  "tooltipKind" : "sb_object",
-  "rarity" : "Common",
-  "category" : "Tool",
-  "tooltipFields" : {"subtitle":"Repair Tool"},
-  "durabilityRegen" : 90,
-  "inventoryIcon" : "iron.png",
-  "description" : "It's an iron repair tool.\n^gray;Select repair tool and right-click pickaxe or drill.",
-  "shortdescription" : "Iron Repair Tool",
-  "scripts" : ["/scripts/augments/sb_ore.lua"]
+  "itemName": "sb_iron_repair",
+  "price": 20,
+  "tooltipKind": "sb_object",
+  "rarity": "Common",
+  "category": "Tool",
+  "tooltipFields": {
+    "subtitle": "Repair Tool"
+  },
+  "durabilityRegen": 90,
+  "inventoryIcon": "iron.png",
+  "description": "It's an iron repair tool.\n^gray;Select repair tool and right-click pickaxe or drill",
+  "shortdescription": "Iron Repair Tool",
+  "scripts": ["/scripts/augments/sb_repair.lua"]
 }

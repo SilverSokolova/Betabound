@@ -30,7 +30,7 @@
     "manipulatorOptics": "/items/tools/miningtools/sb_mastermanipulatorfb.png"
   },
   //"image" : "/items/tools/miningtools/sb_gravgun2.png",
-  "endImages": ["/humanoid/any/ball2.png", "/humanoid/any/sb_tileglow.png?setcolor=66a0bb?multiply=ffffff40"],
+  "endImages": ["/humanoid/any/ball2.png", "/humanoid/any/sb_tileglow.png?setcolor=66a0bb?multiply=ffffff40"], //No, this isn't a leftover, it NEEDS those directives
   "handPosition": [-2, 0],
   "firePosition": [5, 0],
   "animationScripts": ["sb_beamaxeanimation.lua"],

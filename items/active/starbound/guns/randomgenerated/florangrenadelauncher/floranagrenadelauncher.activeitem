@@ -1,0 +1,110 @@
+{
+  "itemName": "sb_florangrenadelauncher",
+  "maxStack": 1,
+  "rarity": "common",
+  "muzzleOffset": [0, 0.25],
+  "baseOffset": [-0.375, 0.375],
+  "tooltipKind": "sb_gun",
+  "category": "grenadeLauncher",
+  "twoHanded": true,
+  "price": 620,
+  "level": 1,
+  "description": "",
+  "shortdescription": "Toxic Launcher",
+  "itemTags": ["weapon", "ranged", "floran", "grenadelauncher", "upgradeableWeapon"],
+  "tooltipFields": {
+    "subtitle": "Toxic Launcher"
+  },
+  "scripts": ["/items/active/weapons/ranged/gun.lua"],
+  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animationParts": {
+    "muzzleFlash": ""
+  },
+  "animationCustom": {
+    "particleEmitters": {
+      "muzzleFlash": {
+        "burstCount": 2,
+        "particles": [{
+            "particle": "poisondust"
+          },{
+            "particle": "poisonsicknessdust2"
+          },{
+            "particle": "poisonswoosh1"
+          }
+        ]
+      }
+    },
+    "sounds": {
+      "fire": ["/sfx/gun/grenade1.ogg"]
+    }
+  },
+
+  "elementalType": "poison",
+  "primaryAbilityType": "sb_gun2",
+  "primaryAbility": {
+    "projectileType": ["acidgrenade"],
+    "fireTime": [0.5, 2],
+    "baseDps": [5, 6.5],
+    "energyUsage": [22.5, 25.5],
+    "inaccuracy": 0,
+    "projectileParameters": {
+      "knockbackRange": [10, 30]
+    }
+  },
+
+  "altAbility": {
+    "name": "Poison Spray",
+    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
+    "class": "GunFire",
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "fire": {},
+      "cooldown": {
+        "duration": 0.11,
+        "recoil": true,
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+
+        "allowRotate": true,
+        "allowFlip": true
+      }
+    },
+    "projectileCount": 4,
+    "fireTime": 1.5,
+    "baseDps": 7.5,
+    "energyUsage": 82,
+    "inaccuracy": 0.13,
+    "fireType": "auto",
+    "projectileType": "poisonthrower"
+  },
+
+  "builderConfig": [{
+      "nameGenerator": "floranglaunchernames.config:nameGen",
+      "animationParts": {
+        "barrel": {
+          "path": "barrel/<variant>.png",
+          "variants": 2
+        },
+        "butt": {
+          "path": "butt/<variant>.png",
+          "variants": 2 //3 is wack
+        },
+        "middle": {
+          "path": "middle/<variant>.png",
+          "variants": 2
+        }
+      },
+      "iconDrawables": ["butt", "middle", "barrel"],
+      "gunParts": ["butt", "middle", "barrel"]
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

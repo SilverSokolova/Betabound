@@ -1,21 +1,29 @@
 {
-  "itemName" : "sb_meatwine",
-  "price" : 475,
-  "foodValue" : 35,
-  "effects" : [[
-	{"effect":"runboostfood","duration":158},
-	{"effect":"ragefood","duration":158},
-	"sb_foodheal120"
-  ]],
-  "tooltipKind" : "sb_object4",
-  "rarity" : "Uncommon",
-  "inventoryIcon" : "meatwine.png",
-  "category" : "drink",
-  "description" : "A drink made of fermented grapes and meat juices. Popular among Florans.",
-  "shortdescription" : "Meatwine",
-  "handPosition" : [1, -4],
-  "emitters" : ["drinking"],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 3
+  "itemName": "sb_meatwine",
+  "price": 360,
+  "foodValue": 55,
+  "effects": [[{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 165
+      }, {
+        "effect": "runboostfood",
+        "duration": 165
+      }, {
+        "effect": "ragefood",
+        "duration": 165
+      },
+      "sb_foodheal190"
+    ]],
+  "tooltipKind": "sb_object4",
+  "rarity": "Rare",
+  "inventoryIcon": "meatwine.png",
+  "category": "drink",
+  "subtitle": "sb_alcohol",
+  "description": "A drink made of fermented grapes and meat juices. Popular among Florans.",
+  "shortdescription": "Meatwine",
+  "handPosition": [1, -4],
+  "emitters": ["drinking"],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 3
 }

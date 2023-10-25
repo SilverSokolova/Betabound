@@ -1,21 +1,29 @@
 {
-  "itemName" : "sb_weyene",
-  "price" : 400,
-  "foodValue" : 35,
-  "effects" : [[
-	{"duration":158,"effect":"maxenergyscalingboostfood"},
-	{"duration":158,"effect":"ragefood"},
-	"sb_foodheal120"
-  ]],
-  "tooltipKind" : "sb_object4",
-  "rarity" : "Uncommon",
-  "category" : "drink",
-  "inventoryIcon" : "weyene.png",
-  "description" : "Weyene is thought to improve a hunter's eyesight! Superstition, of course.",
-  "shortdescription" : "Weyene",
-  "emitters" : ["drinking"],
-  "handPosition" : [1, -3],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 10
+  "itemName": "sb_weyene",
+  "price": 400,
+  "foodValue": 35,
+  "effects": [[{
+        "duration": 105,
+        "effect": "maxhealthscalingboostfood"
+      }, {
+        "duration": 105,
+        "effect": "runboostfood"
+      }, {
+        "duration": 105,
+        "effect": "ragefood"
+      },
+      "sb_foodheal120"
+    ]],
+  "tooltipKind": "sb_object4",
+  "rarity": "Uncommon",
+  "category": "drink",
+  "subtitle": "sb_alcohol",
+  "inventoryIcon": "weyene.png",
+  "description": "Weyene is thought to improve a hunter's eyesight! Superstition, of course.",
+  "shortdescription": "Weyene",
+  "emitters": ["drinking"],
+  "handPosition": [1, -3],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 10
 }

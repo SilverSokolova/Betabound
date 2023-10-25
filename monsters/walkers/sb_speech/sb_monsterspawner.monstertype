@@ -1,11 +1,8 @@
 {
   "type": "sb_monsterspawner",
-
   "categories": ["sb_speech"],
   "parts": ["body"],
-
   "animation": "sb_speech.animation",
-
   "dropPools": [{
       "default": "empty"
     }
@@ -27,7 +24,6 @@
     "touchDamage": {
       "poly": [[0, 0], [0, 0], [0, 0], [0, 0]],
       "damage": 0,
-
       "teamType": "enemy",
       "damageSourceKind": "slash",
       "knockback": 0,
@@ -39,15 +35,12 @@
 
     "movementSettings": {
       "collisionPoly": [[0, 0], [0, 0], [0, 0], [0, 0]],
-
       "mass": 0,
       "gravityEnabled": false,
       "walkSpeed": 0,
       "runSpeed": 0,
-
       "physicsEffectCategories": ["boss"],
       "airFriction": 0,
-
       "airJumpProfile": {
         "jumpSpeed": 0,
         "jumpInitialPercentage": 0,
@@ -56,25 +49,20 @@
     },
 
     "aggressive": true,
-
     "bodyMaterialKind": "organic",
-
     "knockoutTime": 0.3,
     "knockoutAnimationStates": {
       "damage": "stunned"
     },
     "deathParticles": "deathPoof",
     "knockoutEffect": "",
-
     "statusSettings": {
       "statusProperties": {
         "targetMaterialKind": "organic"
       },
-
       "appliesEnvironmentStatusEffects": false,
       "appliesWeatherStatusEffects": false,
       "minimumLiquidStatusEffectPercentage": 0.1,
-
       "primaryScriptSources": [
         "/stats/monster_primary.lua"
       ],
@@ -112,8 +100,8 @@
 
       "resources": {
         "stunned": {
-          "deltaValue": -1.0,
-          "initialValue": 0.0
+          "deltaValue": -1,
+          "initialValue": 0
         },
         "health": {
           "maxStat": "maxHealth",

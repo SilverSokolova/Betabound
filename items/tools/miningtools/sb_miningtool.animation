@@ -1,0 +1,82 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "tool": {
+        "default": "idle",
+        "states": {
+          "idle": {},
+          "inactive": {},
+          "active": {
+            "frames": 4,
+            "cycle": 0.1,
+            "mode": "loop",
+            "properties": {}
+          }
+        }
+      }
+    },
+
+    "parts": {
+      "tool": {
+        "properties": {
+          "zLevel": 0,
+          "centered": true,
+          "offset": [0.75, 0.75],
+          "transformationGroups": ["weapon"],
+          "rotationCenter": [0, 0]
+        },
+        "partStates": {
+          "tool": {
+            "idle": {
+              "properties": {
+                "image": "<partImage>"
+              }
+            },
+            "inactive": {
+              "properties": {
+                "image": "<partImage>:idle",
+                "offset": [1, -0.125],
+                "rotationCenter": [1, 0]
+              }
+            },
+            "active": {
+              "properties": {
+                "image": "<partImage>:<frame>",
+                "offset": [1, -0.125],
+                "rotationCenter": [1, 0]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups": {
+    "weapon": {},
+    "swoosh": {}
+  },
+
+  "sounds": {
+    "fire": ["/sfx/tools/pickaxe_hit.ogg"],
+    "blockSound": [], //Intentionally left empty
+    "break": ["/sfx/tools/pickaxe_break.ogg"]
+  },
+
+  "particleEmitters": {
+    "smoke": {
+      "active": false,
+      "transformationGroups": ["weapon"],
+      "emissionRate": 10,
+      "offsetRegion": [0.25, 0.5, 0.40, 0],
+      "particles": [{
+          "particle": "tinyrocketsmoke"
+        }, {
+          "particle": "burningvehiclesmokefront"
+        }, {
+          "particle": "rocketsmoke"
+        }
+      ]
+    }
+  }
+}

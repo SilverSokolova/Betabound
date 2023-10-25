@@ -1,12 +1,12 @@
 {
-  "itemName" : "sb_techchip",
-  "rarity" : "Rare",
-  "price" : 10,
-  "tooltipKind" : "sb_object",
-  "itemTags" : ["reagent"],
-  "inventoryIcon" : "techchip.png",
-  "category" : "upgradeComponent",
-  "description" : "A tech chip. I can slot a bunch of these together to make a functioning tech card!",
-  "shortdescription" : "Tech Chip",
-  "learnBlueprintsOnPickup" : ["techcard"]
+  "itemName": "sb_techchip",
+  "rarity": "Rare",
+  "price": 10,
+  "tooltipKind": "sb_object",
+  "itemTags": ["reagent"],
+  "inventoryIcon": "techchip.png",
+  "category": "upgradeComponent",
+  "description": "A tech chip. I can slot a bunch of these together to make a functioning tech card!",
+  "shortdescription": "Tech Chip",
+  "learnBlueprintsOnPickup": ["techcard"]
 }

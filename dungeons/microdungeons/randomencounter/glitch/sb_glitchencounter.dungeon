@@ -3,7 +3,7 @@
     "name" : "sb_glitchencounter",
     "species" : "glitch",
     "rules" : [["maxSpawnCount",[1]]],
-    "anchor" : [ "glitchtransport" ],
+    "anchor" : ["glitchtransport","glitchhouse"],
     "maxRadius" : 1000000,
     "maxParts" : 1
   },
@@ -13,6 +13,12 @@
       "name" : "glitchtransport",
       "rules" : [],
       "def" : ["tmx","sb_glitchtransport.json"],
+      "chance" : 1
+    },
+    {
+      "name" : "glitchhouse",
+      "rules" : [],
+      "def" : ["tmx","sb_glitchhouse.json"],
       "chance" : 1
     }
   ]

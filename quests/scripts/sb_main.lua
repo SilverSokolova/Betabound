@@ -1,10 +1,10 @@
 require "/scripts/util.lua"
 require "/quests/scripts/questutil.lua"
-require("/quests/scripts/portraits.lua")
-require('/quests/scripts/conditions/gather.lua')
-require('/quests/scripts/conditions/ship.lua')
-require('/quests/scripts/conditions/scanning.lua')
-require('/quests/scripts/messages.lua')
+require "/quests/scripts/portraits.lua"
+require "/quests/scripts/conditions/gather.lua"
+require "/quests/scripts/conditions/ship.lua"
+require "/quests/scripts/conditions/scanning.lua"
+require "/quests/scripts/messages.lua"
 
 function init()
   cinematic = config.getParameter("sb_completionCinema")
@@ -97,6 +97,17 @@ function questComplete()
   if sb_genderedItem then
     player.giveItem(string.format(sb_genderedItem,player.gender()=="male" and "m" or "f"))
   end
+
+  local giveSpeciesItems = config.getParameter("sb_giveSpeciesItems")
+  if giveSpeciesItems then
+    local items = giveSpeciesItems[player.species()] or giveSpeciesItems["default"]
+    if items then
+      for _,item in ipairs(items) do
+        player.giveItem(item)
+      end
+    end
+  end
+
   setPortraits()
 
   for _, condition in pairs(self.conditions) do
@@ -137,7 +148,7 @@ function update(dt)
     else
       quest.complete()
       if cinematic then
-	player.playCinematic(cinematic)
+        player.playCinematic(cinematic)
       end
     end
   else

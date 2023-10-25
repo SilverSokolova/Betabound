@@ -34,10 +34,7 @@
     "projectileParameters": {
       "speed": 0,
       "baseDamage": 14,
-      "color": [255, 10, 10],
-      "damageTeam": {
-        "type": "indiscriminate"
-      }
+      "color": [255, 10, 10]
     }
   },
   "altAbility": {
@@ -45,6 +42,9 @@
     "energyPerShot": 7,
     "projectileParameters": {
       "baseDamage": 0,
+      "damageTeam": {
+        "type": "indiscriminate"
+      },
       "statusEffects": [{
           "effect": "glow",
           "duration": 180

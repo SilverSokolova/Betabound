@@ -121,6 +121,22 @@
       ]
     } ]
   ],
+  "sb_fruitTreeHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.9, "item" : "plantfibre"},
+        {"weight" : 0.1, "pool" : "sb_fruitTreeHarvestFruit"}
+      ]
+    } ]
+  ],
+  "sb_fruitTreeHarvestFruit" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : "redapple"},
+        {"weight" : 1, "item" : "orange"}
+      ]
+    } ]
+  ],
   "sb_eyefoliageHarvest" : [
     [0, {
       "pool" : [

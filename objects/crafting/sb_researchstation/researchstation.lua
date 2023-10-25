@@ -15,14 +15,15 @@ function init()
     for i = 1, #v do
       local j = v[i]..append
       if sb_itemExists(j) then
-	local price = root.itemConfig(j).config.price or 0
-	data.recipes[#data.recipes+1] = {
-	  input = {
-	    "sb_blankblueprint",
-	    {"money",math.floor((price ~= 0 and price or defaultItemPrice)*BPF*buyFactor)}},
-	  output = j,
-	  groups = {k}
-	}
+        local price = root.itemConfig(j).config.price or 0
+        data.recipes[#data.recipes+1] = {
+          input = {
+            "sb_blankblueprint",
+            {"money",math.floor((price ~= 0 and price or defaultItemPrice)*BPF*buyFactor)}
+          },
+          output = j,
+          groups = {k}
+        }
       else
         sb.logInfo("Betabound: No such item for Research Station: "..j)
       end

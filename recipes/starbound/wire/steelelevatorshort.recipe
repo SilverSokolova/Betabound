@@ -1,5 +1,0 @@
-{
-  "input" : [["sb_steelbar",4],["climbingrope",5]],
-  "output" : "sb_steelelevatorshort",
-  "groups" : ["craftingwiring","mechanics","decoration","craftingfurniture2","all"]
-}

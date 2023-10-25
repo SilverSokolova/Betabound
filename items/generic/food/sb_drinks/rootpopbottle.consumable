@@ -1,21 +1,25 @@
 {
-  "itemName" : "sb_rootpopbottle",
-  "price" : 350,
-  "foodValue" : 30,
-  "effects" : [[
-	{"duration":270,"effect":"maxhealthscalingboostfood"},
-	{"duration":15,"effect":"sb_health"},
-	"sb_foodheal95"
-  ]],
-  "tooltipKind" : "sb_object",
-  "rarity" : "unCommon",
-  "inventoryIcon" : "rootpopbottle.png",
-  "category" : "drink",
-  "description" : "A bottle of dandelion root pop.",
-  "shortdescription" : "Root Pop Bottle",
-  "handPosition" : [2, -2],
-  "emitters" : ["drinking"],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 10
+  "itemName": "sb_rootpopbottle",
+  "price": 350,
+  "foodValue": 30,
+  "effects": [[{
+        "duration": 270,
+        "effect": "maxenergyscalingboostfood"
+      }, {
+        "duration": 15,
+        "effect": "sb_energy"
+      },
+      "sb_foodheal95"
+    ]],
+  "tooltipKind": "sb_object",
+  "rarity": "Uncommon",
+  "inventoryIcon": "rootpopbottle.png",
+  "category": "drink",
+  "description": "A bottle of dandelion root pop.",
+  "shortdescription": "Root Pop Bottle",
+  "handPosition": [2, -2],
+  "emitters": ["drinking"],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 10
 }

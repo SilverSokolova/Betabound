@@ -21,7 +21,7 @@
   "scriptConfig" : {"portraits" : {"default" : "questGiver"},
     "sb_genderedItem" : "sb_cinema_cold%s",
     "requireTurnIn": false,
-    "acceptItems" : [["sb_tech",1,{"techModule":"sb_coldprotection"}],"sb_techstation"],
+    "acceptItems" : [["sb_tech",1,{"techModule":"sb_coldprotection"}]],
     "turnInDescription": "Speak to the ^orange;mysterious trader^reset; at the ^orange;outpost^reset;",
     "conditions" : []
   }

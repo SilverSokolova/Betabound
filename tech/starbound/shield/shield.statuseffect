@@ -1,13 +1,13 @@
 {
-  "name" : "sb_shield",
-  "effectConfig" : {
-    "tech" : "sb_shield"
+  "name": "sb_shield",
+  "effectConfig": {
+    "tech": "sb_shield"
   },
-  "defaultDuration" : 5,
+  "defaultDuration": 5,
 
-  "scripts" : ["shield.lua"],
-  "animationConfig" : "shield.animation",
+  "scripts": ["shield.lua"],
+  "animationConfig": "shield.animation",
 
-  "label" : "Shield",
-  "icon" : "/tech/starbound/shield.png"
+  "label": "Shield",
+  "icon": "/tech/starbound/shield.png"
 }

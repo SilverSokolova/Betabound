@@ -1,5 +1,0 @@
-{
-  "input" : [["cobblestonematerial",25],"campfire"],
-  "output" : "sb_stonefurnace",
-  "groups" : ["sb_stations","all"]
-}

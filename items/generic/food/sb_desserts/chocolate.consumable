@@ -1,19 +1,24 @@
 {
-  "itemName" : "sb_chocolate",
-  "price" : 350,
-  "foodValue" : 40,
-  "tooltipKind" : "sb_object",
-  "rarity" : "uncommon",
-  "inventoryIcon" : "chocolate.png",
-  "handPosition" : [1, -3],
-  "category" : "food",
-  "effects" : [[
-	{"effect":"sb_sugarrush","duration":360},
-	"sb_foodheal135"
-  ]],
-  "description" : "Sweet chocolate that melts in your mouth.",
-  "shortdescription" : "Milk Chocolate",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 5
+  "itemName": "sb_chocolate",
+  "price": 350,
+  "foodValue": 40,
+  "tooltipKind": "sb_object",
+  "rarity": "uncommon",
+  "inventoryIcon": "chocolate.png",
+  "handPosition": [1, -3],
+  "category": "food",
+  "effects": [[{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 180
+      },{
+        "effect": "runboostfood",
+        "duration": 180
+      },
+      "sb_foodheal135"
+    ]],
+  "description": "Sweet chocolate that melts in your mouth.",
+  "shortdescription": "Milk Chocolate",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 5
 }

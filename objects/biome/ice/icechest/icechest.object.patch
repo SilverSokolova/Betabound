@@ -1,4 +1,3 @@
-//Maybe it's intentional that it doesn't preserve food.
 [
 [{"op":"test","path":"/category","value":"storage"},{"op":"replace","path":"/category","value":"fridgeStorage"}],
 [{"op":"test","path":"/itemAgeMultiplier","inverse":true},{"op":"add","path":"/itemAgeMultiplier","value":0}]

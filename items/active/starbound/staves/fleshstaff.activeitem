@@ -37,10 +37,7 @@
   "primaryAbility": {
     "projectileType": "sb_fleshseedspawn",
     "projectileParameters": {
-      "baseDamage": 8,
-      "damageTeam": {
-        "type": "indiscriminate"
-      }
+      "baseDamage": 8
     }
   },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"

@@ -15,7 +15,7 @@
   // ================
 [{"op":"add","path":"/basicmerchant/0/1/-","value":{"item":{"name":"bandage"},"rarity":0.3}}],
 [{"op":"add","path":"/basicmerchant/0/1/-","value":{"item":{"name":"medkit"},"rarity":0.3}}],
-[{"op":"add","path":"/basicmerchant/0/1/-","value":{"item":{"name":"sb_preservatives"},"rarity":0.3,"price":150}}],
+[{"op":"add","path":"/basicmerchant/0/1/-","value":{"item":{"name":"sb_preservatives"},"rarity":0.3}}],
 
   // ================
   //	   Bartender
@@ -134,7 +134,7 @@
   //	   Themed
   // ================
 [{"op":"add","path":"/glowmerchant/0/1/-","value":{"item":{"name":"glowbomb"},"rarity":0.5}}],
-[{"op":"add","path":"/glowmerchant/0/1/-","value":{"item":{"name":"sb_tech","parameters":{"techModule":"sb_glow"}},"rarity":1}}],
+[{"op":"add","path":"/glowmerchant/0/1/-","value":{"item":{"name":"sb_tech","parameters":{"techModule":"sb_glow"}},"rarity":0.2}}],
 
 [{"op":"add","path":"/geodemerchant/0/1/-","value":{"item":{"name":"biorock"},"price":15}}],
 [{"op":"add","path":"/geodemerchant/0/1/-","value":{"item":{"name":"rock01-recipe"},"price":30,"rarity":0.05}}],
@@ -172,6 +172,7 @@
 [{"op":"add","path":"/industrialmerchant/0/1/-","value":{"item":{"name":"industrialdisplay-recipe"},"rarity":0.1}}],
 [{"op":"add","path":"/industrialmerchant/0/1/-","value":{"item":{"name":"industrialcomputer-recipe"},"rarity":0.1}}],
 [{"op":"add","path":"/industrialmerchant/0/1/-","value":{"item":{"name":"industrialcanister-recipe"},"rarity":0.1}}],
+[{"op":"add","path":"/industrialmerchant/0/1/-","value":{"item":{"name":"industrialbed-recipe"},"rarity":0.1}}],
 
 
   // ================
@@ -247,8 +248,6 @@
 [{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_chilistew-recipe"},"rarity":0.01}}],
 [{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_hamsandwich"},"rarity":0.05}}],
 [{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_hamsandwich-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_soup"},"rarity":0.05}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_soup-recipe"},"rarity":0.01}}],
 [{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_vendingmachine"},"rarity":0.01}}],
 
 [{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_meatchunks"},"rarity":0.05}}],
@@ -334,7 +333,6 @@
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_alienburger"}}}],
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_burrito"}}}],
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_hamsandwich"}}}],
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_soup"}}}],
 
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_roastcacti"}}}],
 
@@ -632,26 +630,26 @@
 {"item":{"name":"sb_coolchest","parameters":{"colorIndex":9}}},{"item":{"name":"coolchest","parameters":{"colorIndex":10}}},
 {"item":{"name":"sb_coolchest","parameters":{"colorIndex":11}}},{"item":{"name":"hoodiechest","parameters":{"colorIndex":1}}},
 {"item":{"name":"hoodiechest","parameters":{"colorIndex":3}}},{"item":{"name":"hoodiechest","parameters":{"colorIndex":4}}},{"item":{"name":"hoodiechest","parameters":{"colorIndex":5}}},{"item":{"name":"hoodiechest","parameters":{"colorIndex":6}}},{"item":{"name":"hoodiechest","parameters":{"colorIndex":7}}},{"item":{"name":"hoodiechest","parameters":{"colorIndex":8}}},{"item":{"name":"hoodiechest","parameters":{"colorIndex":9}}},{"item":{"name":"hoodiechest","parameters":{"colorIndex":10}}},{"item":{"name":"hoodiechest","parameters":{"colorIndex":11}}},{"item":{"name":"coollegs","parameters":{"colorIndex":1}}},{"item":{"name":"coollegs","parameters":{"colorIndex":3}}},{"item":{"name":"coollegs","parameters":{"colorIndex":4}}},{"item":{"name":"coollegs","parameters":{"colorIndex":5}}},{"item":{"name":"coollegs","parameters":{"colorIndex":6}}},{"item":{"name":"coollegs","parameters":{"colorIndex":7}}},{"item":{"name":"coollegs","parameters":{"colorIndex":8}}},{"item":{"name":"coollegs","parameters":{"colorIndex":9}}},{"item":{"name":"coollegs","parameters":{"colorIndex":10}}},{"item":{"name":"coollegs","parameters":{"colorIndex":11}}},{"item":{"name":"jeans1legs","parameters":{"colorIndex":1}}},{"item":{"name":"jeans1legs","parameters":{"colorIndex":3}}},{"item":{"name":"jeans1legs","parameters":{"colorIndex":4}}},{"item":{"name":"jeans1legs","parameters":{"colorIndex":5}}},{"item":{"name":"jeans1legs","parameters":{"colorIndex":6}}},{"item":{"name":"jeans1legs","parameters":{"colorIndex":7}}},{"item":{"name":"jeans1legs","parameters":{"colorIndex":8}}},{"item":{"name":"jeans1legs","parameters":{"colorIndex":9}}},{"item":{"name":"jeans1legs","parameters":{"colorIndex":10}}},{"item":{"name":"jeans1legs","parameters":{"colorIndex":11}}},{"item":{"name":"jeans2legs","parameters":{"colorIndex":1}}},{"item":{"name":"jeans2legs","parameters":{"colorIndex":3}}},{"item":{"name":"jeans2legs","parameters":{"colorIndex":4}}},{"item":{"name":"jeans2legs","parameters":{"colorIndex":5}}},{"item":{"name":"jeans2legs","parameters":{"colorIndex":6}}},{"item":{"name":"jeans2legs","parameters":{"colorIndex":7}}},{"item":{"name":"jeans2legs","parameters":{"colorIndex":8}}},{"item":{"name":"jeans2legs","parameters":{"colorIndex":9}}},{"item":{"name":"jeans2legs","parameters":{"colorIndex":10}}},{"item":{"name":"jeans2legs","parameters":{"colorIndex":11}}},{"item":{"name":"jeans3legs","parameters":{"colorIndex":1}}},{"item":{"name":"jeans3legs","parameters":{"colorIndex":3}}},{"item":{"name":"jeans3legs","parameters":{"colorIndex":4}}},{"item":{"name":"jeans3legs","parameters":{"colorIndex":5}}},{"item":{"name":"jeans3legs","parameters":{"colorIndex":6}}},{"item":{"name":"jeans3legs","parameters":{"colorIndex":7}}},{"item":{"name":"jeans3legs","parameters":{"colorIndex":8}}},{"item":{"name":"jeans3legs","parameters":{"colorIndex":9}}},{"item":{"name":"jeans3legs","parameters":{"colorIndex":10}}},{"item":{"name":"jeans3legs","parameters":{"colorIndex":11}}},
-{"item":{"name":"sb_sweatervestchest","parameters":{"colorIndex":1}}},
-{"item":{"name":"sb_sweatervestchest","parameters":{"colorIndex":3}}},
-{"item":{"name":"sb_sweatervestchest","parameters":{"colorIndex":4}}},
-{"item":{"name":"sb_sweatervestchest","parameters":{"colorIndex":5}}},
-{"item":{"name":"sb_sweatervestchest","parameters":{"colorIndex":6}}},
-{"item":{"name":"sb_sweatervestchest","parameters":{"colorIndex":7}}},
-{"item":{"name":"sb_sweatervestchest","parameters":{"colorIndex":8}}},
-{"item":{"name":"sb_sweatervestchest","parameters":{"colorIndex":9}}},
-{"item":{"name":"sb_sweatervestchest","parameters":{"colorIndex":10}}},
-{"item":{"name":"sb_sweatervestchest","parameters":{"colorIndex":11}}},
-{"item":{"name":"sb_sweatervestlegs","parameters":{"colorIndex":1}}},
-{"item":{"name":"sb_sweatervestlegs","parameters":{"colorIndex":3}}},
-{"item":{"name":"sb_sweatervestlegs","parameters":{"colorIndex":4}}},
-{"item":{"name":"sb_sweatervestlegs","parameters":{"colorIndex":5}}},
-{"item":{"name":"sb_sweatervestlegs","parameters":{"colorIndex":6}}},
-{"item":{"name":"sb_sweatervestlegs","parameters":{"colorIndex":7}}},
-{"item":{"name":"sb_sweatervestlegs","parameters":{"colorIndex":8}}},
-{"item":{"name":"sb_sweatervestlegs","parameters":{"colorIndex":9}}},
-{"item":{"name":"sb_sweatervestlegs","parameters":{"colorIndex":10}}},
-{"item":{"name":"sb_sweatervestlegs","parameters":{"colorIndex":11}}},
+{"item":{"name":"sb_workchest","parameters":{"colorIndex":1}}},
+{"item":{"name":"sb_workchest","parameters":{"colorIndex":3}}},
+{"item":{"name":"sb_workchest","parameters":{"colorIndex":4}}},
+{"item":{"name":"sb_workchest","parameters":{"colorIndex":5}}},
+{"item":{"name":"sb_workchest","parameters":{"colorIndex":6}}},
+{"item":{"name":"sb_workchest","parameters":{"colorIndex":7}}},
+{"item":{"name":"sb_workchest","parameters":{"colorIndex":8}}},
+{"item":{"name":"sb_workchest","parameters":{"colorIndex":9}}},
+{"item":{"name":"sb_workchest","parameters":{"colorIndex":10}}},
+{"item":{"name":"sb_workchest","parameters":{"colorIndex":11}}},
+{"item":{"name":"sb_worklegs","parameters":{"colorIndex":1}}},
+{"item":{"name":"sb_worklegs","parameters":{"colorIndex":3}}},
+{"item":{"name":"sb_worklegs","parameters":{"colorIndex":4}}},
+{"item":{"name":"sb_worklegs","parameters":{"colorIndex":5}}},
+{"item":{"name":"sb_worklegs","parameters":{"colorIndex":6}}},
+{"item":{"name":"sb_worklegs","parameters":{"colorIndex":7}}},
+{"item":{"name":"sb_worklegs","parameters":{"colorIndex":8}}},
+{"item":{"name":"sb_worklegs","parameters":{"colorIndex":9}}},
+{"item":{"name":"sb_worklegs","parameters":{"colorIndex":10}}},
+{"item":{"name":"sb_worklegs","parameters":{"colorIndex":11}}},
 {"item":{"name":"sweatervestchest","parameters":{"colorIndex":1}}},
 {"item":{"name":"sweatervestchest","parameters":{"colorIndex":3}}},
 {"item":{"name":"sweatervestchest","parameters":{"colorIndex":4}}},
@@ -828,7 +826,7 @@
         {"item":"sb_techmasterlegs","rarity":0.1},
         {"item":"adventurerobothead","rarity":0.1},
         {"item":"adventurerobotchest","rarity":0.1},
-        {"item":"adventurerobotlegs","rarity":0.1},
+        {"item":"adventurerobotpants","rarity":0.1},
         {"item":"sb_oddhead","rarity":0.1},
         {"item":"sb_conehead","rarity":0.1},
         {"item":"sb_braincagehead","rarity":0.1},

@@ -16,7 +16,8 @@
       "damageSourceKind" : "hammer",
       "statusEffects" : [ ],
       "knockbackMode" : "aim",
-      "knockback" : 40
+      "knockback" : 40,
+      "timeout": 0.5
     },
     "smashMomentum" : [0, -45],
     "stances" : {

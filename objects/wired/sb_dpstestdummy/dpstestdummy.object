@@ -1,0 +1,33 @@
+{
+  "objectName": "sb_dpstestdummy",
+  "colonyTags": [],
+  "rarity": "Uncommon",
+  "description": "This straw dummy is filled with advanced sensors to measure incoming damage.\n^green;[E]^reset; to reset tracked damage.\n^green;[E]^red; to pick up after resetting.^reset;",
+  "inspectionDescription": "This straw dummy is filled with advanced sensors to measure incoming damage. ^green;[E]^reset; to reset tracked damage. ^green;[E]^red; to pick up after resetting.^reset;",
+  "shortdescription": "DPS Test Dummy",
+  "tooltipKind": "sb_object4b",
+  "category": "other",
+  "printable": false,
+  "price": 300,
+
+  "inventoryIcon": "icon.png",
+  "orientations": [{
+      "dualImage": "dpstestdummy.png:<color>",
+      "imagePosition": [-16, -0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ],
+
+  "smashable": true,
+  "smashDropOptions": [[["sb_dpstestdummy"]]],
+  "health": 10000,
+  "damageTeam": {
+    "type": "indiscriminate"
+  },
+  "scripts": ["recount.lua"],
+  "scriptDelta": 1,
+  "dialogue": "^green;%.1f^reset; damage over\n^green;%.1f^reset; seconds\n^green;%.1f^reset; DPS"
+}

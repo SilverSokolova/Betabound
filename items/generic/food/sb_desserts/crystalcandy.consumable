@@ -1,19 +1,24 @@
 {
-  "itemName" : "sb_crystalcandy",
-  "price" : 100,
-  "foodValue" : 10,
-  "effects" : [[
-	{"effect":"glow","duration":90},
-	"sb_foodheal25"
-  ]],
-  "tooltipKind" : "sb_object",
-  "rarity" : "Common",
-  "inventoryIcon" : "crystalcandy.png",
-  "category" : "preparedFood",
-  "description" : "Hard, large crystalline candy. Filling AND tasty!",
-  "shortdescription" : "Crystal Candy",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 5,
-  "learnBlueprintsOnPickup" : ["sb_crystalchips"]
+  "itemName": "sb_crystalcandy",
+  "price": 150,
+  "foodValue": 15,
+  "effects": [[{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 68
+      },{
+        "effect": "glow",
+        "duration": 68
+      },
+      "sb_foodheal35"
+    ]],
+  "tooltipKind": "sb_object",
+  "rarity": "Common",
+  "inventoryIcon": "crystalcandy.png",
+  "category": "preparedFood",
+  "description": "Hard, large crystalline candy. Filling AND tasty!",
+  "shortdescription": "Crystal Candy",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 5,
+  "learnBlueprintsOnPickup": ["sb_crystalchips"]
 }

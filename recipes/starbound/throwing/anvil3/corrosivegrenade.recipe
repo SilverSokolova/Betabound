@@ -1,0 +1,5 @@
+{
+  "input" : [["volatilepowder",4],["alienwoodsap",4],"durasteelbar"],
+  "output" : "sb_corrosivegrenade",
+  "groups" : ["consumables","craftinganvil3","all"]
+}

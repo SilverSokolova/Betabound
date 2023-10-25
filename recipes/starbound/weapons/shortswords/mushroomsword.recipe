@@ -1,0 +1,5 @@
+{
+  "input" : [["tungstenbar",5],["shroom",15],"phasematter"],
+  "output" : ["sb_mushroomsword",1,{"level":2,"seed":1,"shortdescription":"Magic Shroom Sword","animationPartVariants":{"blade":1,"handle":15}}],
+  "groups" : ["craftinganvil","weapons","all"]
+}

@@ -5,10 +5,10 @@
   "rarity" : "legendary",
   "itemTags" : ["weapon","ranged","revolver","pistol","gun"],
   "category" : "pistol",
-  "tooltipFields" : {"subtitle":"Other"},
+  "tooltipFields" : {"subtitle":"Weapon Upgrade Kit"},
   "newLevel" : 6,
   "inventoryIcon" : "6.png",
-  "description" : "A weapon upgrade kit. It can bring most weapons up to ^orange;level 6!^reset;\n^gray;Select kit and right-click weapon.",
+  "description" : "A weapon upgrade kit. It can bring most weapons up to ^orange;level 6!^reset;\n^gray;Select kit and right-click weapon",
   "shortdescription" : "Masterful Upgrade Kit",
   "scripts" : ["/scripts/augments/sb_upgrade.lua"]
 }

@@ -1,0 +1,12 @@
+{
+  "name": "sb_regeneration5",
+  "blockingStat": "healingStatusImmunity",
+  "effectConfig": {
+    "healTime": 20
+  },
+  "defaultDuration": 5,
+  "scripts": ["regeneration.lua"],
+  "animationConfig": "regeneration.animation",
+  "label": "Regeneration",
+  "icon": "/interface/statuses/heal.png"
+}

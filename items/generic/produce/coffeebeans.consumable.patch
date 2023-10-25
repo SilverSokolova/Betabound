@@ -2,8 +2,8 @@
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
 
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
-[{"op":"add","path":"/effects/0/-","value":"sb_energyregen96"}],
-[{"op":"add","path":"/effects/0/-","value":{"effect":"sb_maxenergyboost10","duration":90}}],
+[{"op":"add","path":"/effects/0/-","value":{"effect":"sb_maxenergyboost10","duration":34}}],
+[{"op":"add","path":"/effects/0/-","value":{"effect":"sb_energyregen96","duration":34}}],
 
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_chocolatecoffeebeans"}]

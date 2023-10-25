@@ -5,25 +5,22 @@
 
   "sb_arcticChestTreasure": [
     [1, {
-        "fill": [{
-            "pool": "valuableTreasure"
-          }
+        "fill": [
+          {"pool": "valuableTreasure"}
         ],
-        "pool": [{
-            "weight": 0.5,
-            "pool": "basicTreasure"
-          }, {
-            "weight": 0.05,
-            "pool": "sb_arcticMusic"
-          }, {
-            "weight": 0.5,
-            "pool": "oceanTreasure"
-          }, {
-            "weight": 0.5,
-            "pool": "iceTreasure"
-          }
+        "pool": [
+          {"weight": 0.5, "pool": "basicTreasure"},
+          {"weight": 0.05, "pool": "sb_arcticMusic"},
+          {"weight": 0.5, "pool": "oceanTreasure"},
+          {"weight": 0.5, "pool": "iceTreasure"}
         ],
-        "poolRounds": [[0.05, 1], [0.40, 2], [0.30, 3], [0.15, 4], [0.10, 5]],
+        "poolRounds": [
+          [0.05, 1],
+          [0.40, 2],
+          [0.30, 3],
+          [0.15, 4],
+          [0.10, 5]
+        ],
         "allowDuplication": false
       }
     ]
@@ -35,25 +32,22 @@
 
   "sb_arcticOceanFloorChestTreasure": [
     [1, {
-        "fill": [{
-            "pool": "valuableTreasure"
-          }
+        "fill": [
+          {"pool": "valuableTreasure"}
         ],
-        "pool": [{
-            "weight": 0.5,
-            "pool": "basicTreasure"
-          }, {
-            "weight": 0.05,
-            "pool": "sb_arcticMusic"
-          }, {
-            "weight": 0.5,
-            "pool": "oceanTreasure"
-          }, {
-            "weight": 0.5,
-            "pool": "iceTreasure"
-          }
+        "pool": [
+          {"weight": 0.5, "pool": "basicTreasure"},
+          {"weight": 0.05, "pool": "sb_arcticMusic"},
+          {"weight": 0.5, "pool": "oceanTreasure"},
+          {"weight": 0.5, "pool": "iceTreasure"}
         ],
-        "poolRounds": [[0.05, 1], [0.40, 2], [0.30, 3], [0.15, 4], [0.10, 5]],
+        "poolRounds": [
+          [0.05, 1],
+          [0.40, 2],
+          [0.30, 3],
+          [0.15, 4],
+          [0.10, 5]
+        ],
         "allowDuplication": false
       }
     ]
@@ -65,17 +59,12 @@
 
   "sb_rustChestTreasure": [
     [1, {
-        "fill": [{
-            "pool": "valuableTreasure"
-          }
+        "fill": [
+          {"pool": "valuableTreasure"}
         ],
-        "pool": [{
-            "weight": 0.5,
-            "pool": "basicTreasure"
-          }, {
-            "weight": 0.5,
-            "pool": "sb_rustTreasure"
-          }
+        "pool": [
+          {"weight": 0.5, "pool": "basicTreasure"},
+          {"weight": 0.5, "pool": "sb_rustTreasure"}
         ],
         "poolRounds": [
           [0.05, 1],
@@ -91,28 +80,14 @@
 
   "sb_rustTreasure": [
     [1, {
-        "pool": [{
-            "weight": 1,
-            "item": ["metallic", 20]
-          }, {
-            "weight": 0.3,
-            "item": "rustchair-recipe"
-          }, {
-            "weight": 0.3,
-            "item": "rustbed-recipe"
-          }, {
-            "weight": 0.3,
-            "item": "rustchest-recipe"
-          }, {
-            "weight": 0.3,
-            "item": "rustdoor-recipe"
-          }, {
-            "weight": 0.3,
-            "item": "rusttable-recipe"
-          }, {
-            "weight": 0.3,
-            "item": "sb_rustsword"
-          }
+        "pool": [
+          {"weight": 1, "item": ["metallic", 20]},
+          {"weight": 0.3, "item": "rustchair-recipe"},
+          {"weight": 0.3, "item": "rustbed-recipe"},
+          {"weight": 0.3, "item": "rustchest-recipe"},
+          {"weight": 0.3, "item": "rustdoor-recipe"},
+          {"weight": 0.3, "item": "rusttable-recipe"},
+          {"weight": 0.3, "item": "sb_rustsword"}
         ]
       }
     ]
@@ -124,17 +99,12 @@
 
   "sb_heckChestTreasure": [
     [1, {
-        "fill": [{
-            "pool": "valuableTreasure"
-          }
+        "fill": [
+          {"pool": "valuableTreasure"}
         ],
-        "pool": [{
-            "weight": 0.5,
-            "pool": "basicTreasure"
-          }, {
-            "weight": 0.5,
-            "pool": "sb_heckTreasure"
-          }
+        "pool": [
+          {"weight": 0.5, "pool": "basicTreasure"},
+          {"weight": 0.5, "pool": "sb_heckTreasure"}
         ],
         "poolRounds": [
           [0.05, 1],
@@ -150,49 +120,22 @@
 
   "sb_heckTreasure": [
     [1, {
-        "pool": [{
-            "weight": 1,
-            "item": "sb_fleshstaff"
-          }, {
-            "weight": 1,
-            "item": ["sb_meatchunks", 6]
-          }, {
-            "weight": 0.05,
-            "item": "bonewingsback"
-          }, {
-            "weight": 0.05,
-            "item": "goathead"
-          }, {
-            "weight": 0.2,
-            "item": "alienmeat"
-          }, {
-            "weight": 0.2,
-            "item": "alienmeat"
-          }, {
-            "weight": 0.2,
-            "item": ["bone", 4]
-          }, {
-            "weight": 0.04,
-            "item": "sb_splatterknife"
-          }, {
-            "weight": 0.03,
-            "item": "sb_splatterknife-recipe"
-          }, {
-            "weight": 0.04,
-            "item": "sb_gutterknife"
-          },
-          //      {"weight" : 0.04, "item" : "sb_heartstringbow"},
-          {
-            "weight": 0.04,
-            "item": "sb_boneassault"
-          }, {
-            "weight": 0.04,
-            "item": "sb_boneshotgun"
-          }, {
-            "weight": 0.04,
-            "item": "sb_bonepistol"
-          } //,
-          //      {"weight" : 0.03, "item" : "sb_anklegrinder"}
+        "pool": [
+          {"weight": 1, "item": "sb_fleshstaff"},
+          {"weight": 1, "item": ["sb_meatchunks", 6]},
+          {"weight": 0.05, "item": "bonewingsback"},
+          {"weight": 0.05, "item": "goathead"},
+          {"weight": 0.2, "item": "alienmeat"},
+          {"weight": 0.2, "item": "alienmeat"},
+          {"weight": 0.2, "item": ["bone", 4]},
+          {"weight": 0.04, "item": "sb_splatterknife"},
+          {"weight": 0.03, "item": "sb_splatterknife-recipe"},
+          {"weight": 0.04, "item": "sb_gutterknife"},
+//        {"weight" : 0.04, "item" : "sb_heartstringbow"},
+          {"weight": 0.04, "item": "sb_bonerifle"},
+          {"weight": 0.04, "item": "sb_boneshotgun"},
+          {"weight": 0.04, "item": "sb_bonepistol"}
+//        {"weight" : 0.03, "item" : "sb_anklegrinder"}
         ]
       }
     ]
@@ -203,17 +146,12 @@
 
   "sb_coralcaveChestTreasure": [
     [1, {
-        "fill": [{
-            "pool": "valuableTreasure"
-          }
+        "fill": [
+          {"pool": "valuableTreasure"}
         ],
-        "pool": [{
-            "weight": 0.5,
-            "pool": "basicTreasure"
-          }, {
-            "weight": 0.5,
-            "pool": "sb_coralcaveTreasure"
-          }
+        "pool": [
+          {"weight": 0.5, "pool": "basicTreasure"},
+          {"weight": 0.5, "pool": "sb_coralcaveTreasure"}
         ],
         "poolRounds": [
           [0.05, 1],
@@ -229,28 +167,14 @@
 
   "sb_coralcaveTreasure": [
     [1, {
-        "pool": [{
-            "weight": 1,
-            "item": ["coralfragment", 6]
-          }, {
-            "weight": 0.2,
-            "item": ["wheat", 6]
-          }, {
-            "weight": 0.2,
-            "item": ["carrot", 3]
-          }, {
-            "weight": 0.08,
-            "item": ["carrotseed", 3]
-          }, {
-            "weight": 0.04,
-            "item": "sb_coralcleaver"
-          }, {
-            "weight": 0.04,
-            "item": "sb_heatcleaver"
-          }, {
-            "weight": 0.04,
-            "item": "mininglantern"
-          }
+        "pool": [
+          {"weight": 1, "item": ["coralfragment", 6]},
+          {"weight": 0.2, "item": ["wheat", 6]},
+          {"weight": 0.2, "item": ["carrot", 3]},
+          {"weight": 0.08,"item": ["carrotseed", 3]},
+          {"weight": 0.04, "item": "sb_coralcleaver" },
+          {"weight": 0.04, "item": "sb_heatcleaver"},
+          {"weight": 0.04, "item": "mininglantern"}
         ]
       }
     ]
@@ -261,17 +185,12 @@
 
   "sb_geometricChestTreasure": [
     [1, {
-        "fill": [{
-            "pool": "valuableTreasure"
-          }
+        "fill": [
+          {"pool": "valuableTreasure"}
         ],
-        "pool": [{
-            "weight": 0.5,
-            "pool": "basicTreasure"
-          }, {
-            "weight": 0.5,
-            "pool": "geometricTreasure"
-          }
+        "pool": [
+          {"weight": 0.5, "pool": "basicTreasure"},
+          {"weight": 0.5, "pool": "geometricTreasure"}
         ],
         "poolRounds": [[0.05, 1], [0.40, 2], [0.30, 3], [0.15, 4], [0.10, 5]],
         "allowDuplication": false

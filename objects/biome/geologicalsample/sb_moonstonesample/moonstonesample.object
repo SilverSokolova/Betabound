@@ -1,33 +1,20 @@
 {
-  "objectName" : "sb_moonstonesample",
-  "colonyTags" : ["pretty"],
-  "rarity" : "Legendary",
-  "category" : "decorative",
-  "price" : 5000,
-  "printable" : false,
-  "tooltipKind" : "sb_object",
-  "description" : "\"A perfect sample of a moonstone ore.\"",
-  "shortdescription" : "Moonstone Sample",
+  "objectName": "sb_moonstonesample",
+  "colonyTags": ["pretty"],
+  "rarity": "Legendary",
+  "category": "decorative",
+  "price": 5000,
+  "printable": false,
+  "tooltipKind": "sb_object",
+  "description": "\"A perfect sample of a moonstone ore.\"",
+  "shortdescription": "Moonstone Sample",
 
-
-  "inventoryIcon" : "icon.png",
-  "orientations" : [
-    {
-      "image" : "moonstonesample.png:<color>",
-      "imagePosition" : [-2, 0],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "spaces" : [ [0, 0], [0, 1] ],
-      "anchors" : [ "bottom" ]
-    },
-    {
-      "image" : "moonstonesample.png:<color>",
-      "imagePosition" : [-2, 0],
-      "direction" : "right",
-
-      "spaces" : [ [0, 0], [0, 1] ],
-      "anchors" : [ "bottom" ]
+  "inventoryIcon": "icon.png",
+  "orientations": [{
+      "dualImage": "moonstonesample.png:<color>",
+      "imagePosition": [-2, 0],
+      "spaces": [[0, 0], [0, 1]],
+      "anchors": ["bottom"]
     }
   ]
 }

@@ -1,18 +1,23 @@
 {
-  "itemName" : "sb_candiedpearlpeas",
-  "price" : 235,
-  "foodValue" : 25,
-  "tooltipKind" : "sb_object4",
-  "rarity" : "Common",
-  "category" : "preparedFood",
-  "inventoryIcon" : "candiedpearlpeas.png",
-  "effects" : [[
-	{"effect":"sb_protectionboost5","duration":226},
-	"sb_foodheal70"
-  ]],
-  "description" : "Pearlpeas which are roasted in sugar and shoved on a stick.",
-  "shortdescription" : "Candied Pearlpeas",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 4
+  "itemName": "sb_candiedpearlpeas",
+  "price": 235,
+  "foodValue": 25,
+  "tooltipKind": "sb_object4",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "inventoryIcon": "candiedpearlpeas.png",
+  "effects": [[{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 123
+      }, {
+        "effect": "sb_protectionboost5",
+        "duration": 123
+      },
+      "sb_foodheal70"
+    ]],
+  "description": "Pearlpeas which are roasted in sugar and shoved on a stick.",
+  "shortdescription": "Candied Pearlpeas",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 4
 }
