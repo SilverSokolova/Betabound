@@ -2,6 +2,7 @@
   "type": "sb_moondancer",
   "categories": ["sb_moondancer"],
   "parts": ["body", "head"],
+  "shortdescription": "Moondancer",
   "animation": "moondancer.animation",
   "dropPools": [{
       "default": "empty",

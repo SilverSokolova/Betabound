@@ -1,6 +1,6 @@
 {
   "input" : ["alienmeat","boneboo"],
   "output" : "sb_meatjuice",
-  "groups" : ["craftingfood","drinks","sb_power","sb_healing","sb_health","all"],
+  "groups" : ["craftingfood","drinks","sb_rage","sb_healing","sb_health","all"],
   "collectables" : {"cooking":"sb_meatjuice"}
 }

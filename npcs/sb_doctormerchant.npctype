@@ -1,7 +1,7 @@
 {
   "type" : "sb_doctormerchant",
   "baseType" : "merchant",
-
+  "displayTitle": "Doctor",
   "dropPools" : [ "healingItem" ],
 
   "scriptConfig" : {

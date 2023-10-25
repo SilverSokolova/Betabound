@@ -1,6 +1,6 @@
 {
   "input" : ["endomorphicjelly","sugar"],
   "output" : ["sb_jelly",3],
-  "groups" : ["craftingfood","desserts","sb_healing","sb_energy","sb_bouncy","sb_mobility","all"],
+  "groups" : ["craftingfood","desserts","sb_healing","sb_energy","sb_bouncy","sb_runboost","sb_jumpboost","all"],
   "collectables" : {"cooking":"sb_jelly"}
 }

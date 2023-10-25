@@ -5,7 +5,7 @@
   "inventoryIcon": [{
       "image": "sb_iceaxebig.png"
     }, {
-      "image": "/interface/sb_inventory/x.png"
+      "image": "/interface/x.png"
     }
   ],
   "rarity": "Rare",

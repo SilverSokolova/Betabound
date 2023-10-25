@@ -186,6 +186,7 @@
 
     "statusSettings": {
       "statusProperties": {
+        "displayTitle": "Boss",
         "bossMusic": "/music/desert-battle-2.ogg",
         "targetMaterialKind": "robotic"
       },

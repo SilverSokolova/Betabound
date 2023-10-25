@@ -14,14 +14,9 @@
   "fade": "?fade=99e2f3;0.15",
   "foodValueReduction": 0.8,
   "applyParameters": {
-    "subtitle": "Preserved Food",
     "sb_preserved2": true
   },
-  "uniqueApplyParameters": {
-    "drink": {
-      "subtitle": "Preserved Drink"
-    }
-  },
+  "uniqueApplyParameters": {},
   "persistentParameters": [
     "shortdescription",
     "blockingEffects",

@@ -10,7 +10,7 @@
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_meatballs"}}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_copybook"}}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_customcodex"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_coffeemachine","prerequisiteQuest":"sb_coffee0.gearup"}}
+,{"op":"add","path":"/interactData/items/-","value":{"item":"coffeemachine","prerequisiteQuest":"sb_coffee0.gearup"}} //Can't print it due to category
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_airpocketback","prerequisiteQuest":"sb_outpost2.gearup"}}]
 
 
@@ -25,7 +25,7 @@
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_meatballs"}}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_copybook"}}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_customcodex"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_coffeemachine","prerequisiteQuest":"sb_coffee0.gearup"}}
+,{"op":"add","path":"/interactData/items/-","value":{"item":"coffeemachine","prerequisiteQuest":"sb_coffee0.gearup"}}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_airpocketback","prerequisiteQuest":"sb_outpost2.gearup"}}],
 
 

@@ -1,11 +1,11 @@
 {
-  "kind" : "sb_sprayuse",
-  "definition" : {
-    "duration" : 0.05,
-    "loops" : true,
-    "start" : {
-      "sounds" : [
-        [ "/sfx/tools/paint_splash.ogg", "/sfx/statuseffects/powerup.ogg" ]
+  "kind": "sb_sprayuse",
+  "definition": {
+    "duration": 0.05,
+    "loops": true,
+    "start": {
+      "sounds": [
+        ["/sfx/tools/paint_splash.ogg", "/sfx/statuseffects/powerup.ogg"]
       ]
     }
   }

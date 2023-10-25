@@ -1,89 +1,124 @@
 {
-  "type" : "sb_friendlyminer",
-  "baseType" : "generictenant",
-  
+  "type": "sb_friendlyminer",
+  "baseType": "generictenant",
+  "displayTitle": "Miner",
 
-  "scriptConfig" : {
-    "dialog" : {
-      "tenant" : {
-        "arrivedHome" : {
-          "rent" : "/dialog/sb_friendlyminer.config:rent"
+  "scriptConfig": {
+    "dialog": {
+      "tenant": {
+        "arrivedHome": {
+          "rent": "/dialog/sb_friendlyminer.config:rent"
         }
       },
-      "converse" : "/dialog/sb_friendlyminer.config:converse"
+      "converse": "/dialog/sb_friendlyminer.config:converse"
     }
   },
 
-  "items" : {
-    "human" : [
-      [0, [
-          {
-            "head" : ["devhead","mininghathead"],
-            "chest" : [["humantier1chest",1,{"colorIndex":5}]],
-            "legs" : [["humantier1pants",1,{"colorIndex":5}]],
-            "primary" : ["sb_stonepickaxe","pickaxe","copperpickaxe"]
+  "items": {
+    "human": [
+      [0, [{
+            "head": ["devhead", "mininghathead"],
+            "chest": [["humantier1chest", 1, {
+                  "colorIndex": 5
+                }
+              ]],
+            "legs": [["humantier1pants", 1, {
+                  "colorIndex": 5
+                }
+              ]],
+            "primary": ["sb_stonepickaxe", "pickaxe", "copperpickaxe"]
           }
-        ] ]
+        ]]
     ],
-    "apex" : [
-      [0, [
-          {
-            "head" : ["devhead","mininghathead"],
-            "chest" : [["apextier1chest",1,{"colorIndex":5}]],
-            "legs" : [["apextier1pants",1,{"colorIndex":5}]],
-            "primary" : ["sb_stonepickaxe","pickaxe","copperpickaxe"]
+    "apex": [
+      [0, [{
+            "head": ["devhead", "mininghathead"],
+            "chest": [["apextier1chest", 1, {
+                  "colorIndex": 5
+                }
+              ]],
+            "legs": [["apextier1pants", 1, {
+                  "colorIndex": 5
+                }
+              ]],
+            "primary": ["sb_stonepickaxe", "pickaxe", "copperpickaxe"]
           }
-        ] ]
+        ]]
     ],
-    "avian" : [
-      [0, [
-          {
-            "head" : ["devhead","mininghathead"],
-            "chest" : [["aviantier1chest",1,{"colorIndex":5}]],
-            "legs" : [["aviantier1pants",1,{"colorIndex":5}]],
-            "primary" : ["sb_stonepickaxe","pickaxe","copperpickaxe"]
+    "avian": [
+      [0, [{
+            "head": ["devhead", "mininghathead"],
+            "chest": [["aviantier1chest", 1, {
+                  "colorIndex": 5
+                }
+              ]],
+            "legs": [["aviantier1pants", 1, {
+                  "colorIndex": 5
+                }
+              ]],
+            "primary": ["sb_stonepickaxe", "pickaxe", "copperpickaxe"]
           }
-        ] ]
+        ]]
     ],
-    "floran" : [
-      [0, [
-          {
-            "head" : ["devhead","mininghathead"],
-            "chest" : [["florantier1chest",1,{"colorIndex":5}]],
-            "legs" : [["florantier1pants",1,{"colorIndex":5}]],
-            "primary" : ["sb_stonepickaxe","pickaxe","copperpickaxe"]
+    "floran": [
+      [0, [{
+            "head": ["devhead", "mininghathead"],
+            "chest": [["florantier1chest", 1, {
+                  "colorIndex": 5
+                }
+              ]],
+            "legs": [["florantier1pants", 1, {
+                  "colorIndex": 5
+                }
+              ]],
+            "primary": ["sb_stonepickaxe", "pickaxe", "copperpickaxe"]
           }
-        ] ]
+        ]]
     ],
-    "hylotl" : [
-      [0, [
-          {
-            "head" : ["devhead","mininghathead"],
-            "chest" : [["hylotltier1chest",1,{"colorIndex":5}]],
-            "legs" : [["hylotltier1pants",1,{"colorIndex":5}]],
-            "primary" : ["sb_stonepickaxe","pickaxe","copperpickaxe"]
+    "hylotl": [
+      [0, [{
+            "head": ["devhead", "mininghathead"],
+            "chest": [["hylotltier1chest", 1, {
+                  "colorIndex": 5
+                }
+              ]],
+            "legs": [["hylotltier1pants", 1, {
+                  "colorIndex": 5
+                }
+              ]],
+            "primary": ["sb_stonepickaxe", "pickaxe", "copperpickaxe"]
           }
-        ] ]
+        ]]
     ],
-    "glitch" : [
-      [0, [
-          {
-            "head" : ["devhead","mininghathead"],
-            "chest" : [["glitchtier1chest",1,{"colorIndex":5}]],
-            "legs" : [["glitchtier1pants",1,{"colorIndex":5}]],
-            "primary" : ["sb_stonepickaxe","pickaxe","copperpickaxe"]
+    "glitch": [
+      [0, [{
+            "head": ["devhead", "mininghathead"],
+            "chest": [["glitchtier1chest", 1, {
+                  "colorIndex": 5
+                }
+              ]],
+            "legs": [["glitchtier1pants", 1, {
+                  "colorIndex": 5
+                }
+              ]],
+            "primary": ["sb_stonepickaxe", "pickaxe", "copperpickaxe"]
           }
-        ] ]
+        ]]
     ],
-    "novakid" : [
-      [0, [
-          {
-            "head" : ["devhead","mininghathead"],
-            "chest" : [["novatier1chest",1,{"colorIndex":5}]],
-            "legs" : [["novatier1pants",1,{"colorIndex":5}]],
-            "primary" : ["sb_stonepickaxe","pickaxe","copperpickaxe"]
+    "novakid": [
+      [0, [{
+            "head": ["devhead", "mininghathead"],
+            "chest": [["novatier1chest", 1, {
+                  "colorIndex": 5
+                }
+              ]],
+            "legs": [["novatier1pants", 1, {
+                  "colorIndex": 5
+                }
+              ]],
+            "primary": ["sb_stonepickaxe", "pickaxe", "copperpickaxe"]
           }
-        ] ]
+        ]]
     ]
   }
 }

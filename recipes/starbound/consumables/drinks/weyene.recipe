@@ -1,6 +1,6 @@
 {
   "input" : ["oculemon","grapes"],
   "output" : "sb_weyene",
-  "groups" : ["craftingfood","drinks","sb_health","sb_mobility","sb_power","sb_healing","sb_t1food","all"],
+  "groups" : ["craftingfood","drinks","sb_health","sb_runboost","sb_rage","sb_healing","sb_t1food","all"],
   "collectables" : {"cooking":"sb_weyene"}
 }

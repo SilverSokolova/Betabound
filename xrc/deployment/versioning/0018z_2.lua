@@ -2,7 +2,7 @@ xrc0018 = {}
 local function blue(a)if type(a)=="string" then a={a} end for i = 1, #a do player.giveBlueprint(a[i]) end end
 local function quest(a,b) if type(b)=="string" then b={b} end if player.hasCompletedQuest(a) then for i = 1, #b do player.giveItem(b[i]) end end end
 local function boxQuest(a,b) if player.hasCompletedQuest(a) then IB[#IB+1] = b end end
-local function giveBox() if #IB > 0 then player.giveItem({"sb_itembox",1,{description="Rewards for one or more completed quests have been adjusted. (Contains "..#IB.." items.)",items=IB}}) end end
+local function giveBox() if #IB > 0 then player.giveItem({"sb_itembox",1,{description=string.format("/betabound.config:changedQuestRewardsDescription", #IB),items=IB}}) end end
 local function updateNote(a)
   local b = root.assetJson("/betabound.config")
   a = b.updateNotes[a]
@@ -24,15 +24,20 @@ xrc0018[8]=function()
 	local b = root.assetJson("/items/buildscripts/starbound/tech.config")
 	local c = status.statusProperty("sb_bioimplant") or ""
 	local e = {}
-	if a then for i = 1, #a do
-	sb.logInfo(a[i])
-	sb.logInfo(b[a[i]] or "")
-	if b[a[i]] then e[i]=b[a[i]] else e[i]=a[i] end
-	if a[i] == c then status.clearPersistentEffects("sb_bioimplant") status.setStatusProperty("sb_bioimplant",e[i])
-	local d = root.hasTech(c) and root.techConfig(c) or root.hasTech(e[i]) and root.techConfig(e[i]) or root.hasTech(b[e[i]]) and root.techConfig(b[e[i]])
-	if d then status.setPersistentEffects("sb_bioimplant",{d.sb_effect}) end
-	end
-	end status.setStatusProperty("sb_bioimplants",e) end
+	if a then
+    for i = 1, #a do
+      sb.logInfo(a[i])
+      sb.logInfo(b[a[i]] or "")
+      if b[a[i]] then e[i]=b[a[i]] else e[i]=a[i] end
+      if a[i] == c then
+        status.clearPersistentEffects("sb_bioimplant")
+        status.setStatusProperty("sb_bioimplant",e[i])
+        local d = root.hasTech(c) and root.techConfig(c) or root.hasTech(e[i]) and root.techConfig(e[i]) or root.hasTech(b[e[i]]) and root.techConfig(b[e[i]])
+        if d then status.setPersistentEffects("sb_bioimplant",{d.sb_effect}) end
+      end
+    end
+    status.setStatusProperty("sb_bioimplants",e)
+  end
 end
 --xrc0018[9]=function() if status.statusProperty("xrc_0018z",0) >= 5 then player.giveItem(root.assetJson("/xrc/deployment/versioning/0018z-9.json")) end end
 xrc0018[9]=function() if not player.hasCompletedQuest("destroyruin") then player.startQuest("sb_destroyruin") end end
@@ -41,33 +46,41 @@ xrc0018[11]=function() end
 xrc0018[12]=function() end
 xrc0018[13]=function() if player.blueprintKnown("sb_frostshield") then player.giveItem("sb_frostshield-recipe") player.addCurrency("money",5000) end end
 xrc0018[14]=function()
-	status.clearPersistentEffects("sb_entity")
-	local p = {"betabound","sb_bioimplant","sb_bioimplants"}
-	local d = {{},nil,{}}
-	for i = 1, #p do player.setProperty(p[i],status.statusProperty(p[i],d[i])) status.setStatusProperty(p[i]) end
-	if type(player.getProperty(p[2])) ~= "string" then player.setProperty(p[2],nil) end
+  status.clearPersistentEffects("sb_entity")
+  local p = {"betabound","sb_bioimplant","sb_bioimplants"}
+  local d = {{},nil,{}}
+  for i = 1, #p do player.setProperty(p[i],status.statusProperty(p[i],d[i])) status.setStatusProperty(p[i]) end
+  if type(player.getProperty(p[2])) ~= "string" then player.setProperty(p[2],nil) end
 end
 xrc0018[15]=function() quest("destroyruin","sb_beamaxe2") end
 xrc0018[16]=function() end
 xrc0018[17]=function() player.setProperty("sb_availableBioimplants",{}) if player.getProperty("sb_bioimplant","") == "sb_noprotection" then player.setProperty("sb_bioimplant") end end
 xrc0018[18]=function()
-	local a, b, e, f = player.getProperty("sb_bioimplants"), root.assetJson("/items/buildscripts/starbound/tech.config"), {}, player.getProperty("sb_availableBioimplants")
-	sb.logInfo("Owned Suits: "..sb.print(a or {}))
-	sb.logInfo("Available Suits: "..sb.print(f or {}))
-	local c = player.getProperty("sb_bioimplant") or ""
-	if a then for i = 1, #a do
-	sb.logInfo(string.format("Converting suit tech '%s' to '%s.'",a[i],b[a[i]] or a[i]))
-	if b[a[i]] then e[i]=b[a[i]] else e[i]=a[i] end
-	if a[i] == c then status.clearPersistentEffects("sb_bioimplant") player.setProperty("sb_bioimplant",e[i])
-	local d = root.hasTech(c) and root.techConfig(c) or root.hasTech(e[i]) and root.techConfig(e[i]) or root.hasTech(b[e[i]]) and root.techConfig(b[e[i]])
-	if d then status.setPersistentEffects("sb_bioimplant",type(d.sb_effect)=="string" and {d.sb_effect} or d.sb_effect) end
-	end
-	end player.setProperty("sb_bioimplants",e) end
+  local a, b, e, f = player.getProperty("sb_bioimplants"), root.assetJson("/items/buildscripts/starbound/tech.config"), {}, player.getProperty("sb_availableBioimplants")
+  sb.logInfo("Owned Suits: "..sb.print(a or {}))
+  sb.logInfo("Available Suits: "..sb.print(f or {}))
+  local c = player.getProperty("sb_bioimplant") or ""
+  if a then
+    for i = 1, #a do
+      sb.logInfo(string.format("Converting suit tech '%s' to '%s.'",a[i],b[a[i]] or a[i]))
+      if b[a[i]] then e[i]=b[a[i]] else e[i]=a[i] end
+      if a[i] == c then
+        status.clearPersistentEffects("sb_bioimplant")
+          player.setProperty("sb_bioimplant",e[i])
+          local d = root.hasTech(c) and root.techConfig(c) or root.hasTech(e[i]) and root.techConfig(e[i]) or root.hasTech(b[e[i]]) and root.techConfig(b[e[i]])
+          if d then status.setPersistentEffects("sb_bioimplant",type(d.sb_effect)=="string" and {d.sb_effect} or d.sb_effect) end
+      end
+    end
+    player.setProperty("sb_bioimplants",e)
+  end
 	e = {}
-	if f then for i = 1, #f do
-	sb.logInfo(string.format("Converting possibly unpurchased suit tech '%s' to '%s.'",f[i],b[f[i]] or f[i]))
-	if b[f[i]] then e[i]=b[f[i]] else e[i]=f[i] end
-	end player.setProperty("sb_availableBioimplants",e) end
+	if f then
+    for i = 1, #f do
+      sb.logInfo(string.format("Converting possibly unpurchased suit tech '%s' to '%s.'",f[i],b[f[i]] or f[i]))
+      if b[f[i]] then e[i]=b[f[i]] else e[i]=f[i] end
+    end
+    player.setProperty("sb_availableBioimplants",e)
+  end
 	IB = {}
 	boxQuest("sb_bountyhunter1.gearup",{"sb_uncommonbroadsword",1,{level=2}})
 	boxQuest("sb_bountyhunter3.gearup",{"sb_uncommonshotgun",1,{level=4}})

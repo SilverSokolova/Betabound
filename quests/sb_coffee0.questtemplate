@@ -18,7 +18,7 @@
   "updateDelta" : 10,
   "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
-    "acceptItems" : ["sb_coffeemachine"], //she stole the coffee machine when beta ended.
+    "acceptItems" : ["coffeemachine"], //she stole the coffee machine when beta ended.
     "portraits" : {"default" : "questGiver"},
     "requireTurnIn" : true,
     "turnInDescription" : "Speak to ^orange;the human survivor^reset; at the ^orange;outpost^reset;",

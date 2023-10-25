@@ -9,15 +9,11 @@
     }, {
       "op": "add",
       "path": "/definition/start/sounds/-",
-      "value": [
-        "/sfx/humanoid/eat2.ogg"
-      ]
+      "value": "/sfx/humanoid/eat2.ogg"
     }, {
       "op": "add",
       "path": "/definition/start/sounds/-",
-      "value": [
-        "/sfx/humanoid/eat4.ogg"
-      ]
+      "value": "/sfx/humanoid/eat4.ogg"
     }
   ]
 ]

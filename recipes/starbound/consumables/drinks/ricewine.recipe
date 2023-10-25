@@ -1,6 +1,6 @@
 {
   "input" : ["sb_ricevinegar","wheat"],
   "output" : "sb_ricewine",
-  "groups" : ["craftingfood","drinks","sb_power","sb_healing","sb_t1food","all"],
+  "groups" : ["craftingfood","drinks","sb_rage","sb_healing","sb_t1food","all"],
   "collectables" : {"cooking":"sb_ricewine"}
 }

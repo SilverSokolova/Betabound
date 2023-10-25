@@ -2,7 +2,14 @@
   "sounds": {
     "none": [],
     "drink": ["/sfx/humanoid/drink.ogg"],
-    "food": ["/sfx/humanoid/eat3.ogg"],
-    "medicine": ["/sfx/statuseffects/stimuse.ogg", "/sfx/statuseffects/powerup.ogg"]
+    "food": ["/sfx/humanoid/eat1.ogg", "/sfx/humanoid/eat2.ogg", "/sfx/humanoid/eat3.ogg", "/sfx/humanoid/eat4.ogg"],
+    "medicine": ["/sfx/statuseffects/stimuse.ogg"],
+    "medicine2": ["/sfx/statuseffects/powerup.ogg"]
+  },
+  //effectsources can play an entire list of sounds at once, whereas playSound plays a single one from the list
+  //This is my solution. I did it this way so it can be patched by multiple mods
+  //Also I don't really want to add crumbs
+  "extraSounds": {
+    "medicine": ["2"]
   }
 }

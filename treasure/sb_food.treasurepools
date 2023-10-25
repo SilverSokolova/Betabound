@@ -26,7 +26,7 @@
         {"weight" : 0.9, "item" : "cookedtomato"},
         {"weight" : 0.85, "item" : "corncob"},
         {"weight" : 0.7, "item" : "fishdumplings"},
-        {"weight" : 0.65, "item" : "fishfingers"},
+        {"weight" : 0.55, "item" : "fishfingers"},
         {"weight" : 0.5, "item" : "fishnchips"},
         {"weight" : 0.25, "item" : "fishpie"},
         {"weight" : 0.45, "item" : "fishstew"},

@@ -1,16 +1,17 @@
 {
   "frameGrid": {
     "size": [18, 19],
-    "dimensions": [6, 10],
+    "dimensions": [6, 11],
     "names": [
       ["empty", "other", "blocks", "weapons", "armor", "smith"],
       ["items", "augments", "1", "2", "3", "4"],
       ["all", "head", "craft", "mining", "upgrades", "healing"],
-      ["health", "energy", "energyregen", "mobility", "swimboost", "glow"],
-      ["thorns", "nova", "electrified", "lowgrav", "bouncy", "main"],
-      ["side", "dessert", "snack", "drink", "condiment", "campfire"],
-      ["convert", "skyrails", "rails", "door", "light", "wire"],
-      ["storage", "decorative", "sit", "instruments", "planets", "mechs"]
+      ["health", "energy", "energyregen", "runboost", "jumpboost", "rage"],
+      ["swimboost", "glow", "thorns", "nova", "electrified", "lowgrav"],
+      ["bouncy", "main", "side", "dessert", "snack", "drink"],
+      ["condiment", "campfire", "convert", "skyrails", "rails", "door"],
+      ["light", "wire", "storage", "decorative", "sit", "instruments"],
+      ["planets", "mechs", null, null, null, null]
     ]
   }
 }

@@ -1,6 +1,7 @@
 {
   "type": "sb_crewmemberchemistgrey",
   "baseType": "crewmemberchemist",
+  "displayTitle": "G. Chemist Crew Member",
 
   "scriptConfig": {
     "crew": {

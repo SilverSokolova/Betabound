@@ -1,41 +1,41 @@
 {
-  "type" : "sb_stimmerchant",
-  "baseType" : "merchant",
+  "type": "sb_stimmerchant",
+  "baseType": "merchant",
+  "displayTitle": "Stim Pack Merchant",
+  "dropPools": ["wizardtreasure"], //this, too. see doc spawner as to why don't worry about exploits
 
-  "dropPools" : [ "wizardtreasure" ], //this, too. see doc spawner as to why don't worry about exploits
-
-  "scriptConfig" : {
-    "questGenerator" : {
-      "pools" : ["common"]
+  "scriptConfig": {
+    "questGenerator": {
+      "pools": ["common"]
     },
 
-    "merchant" : {
-      "poolsFile" : "/npcs/sb_merchantpools.config",
-      "categories" : {
-        "override": [ "sb_stimmerchant" ]
+    "merchant": {
+      "poolsFile": "/npcs/sb_merchantpools.config",
+      "categories": {
+        "override": ["sb_stimmerchant"]
       },
-      "buyFactorRange" : [ 1.0, 1.0 ],
-      "sellFactorRange" : [ 0.2, 0.2 ],
-      "numItems" : 5,
-      "storeRadius" : -1,
-      "paneLayoutOverride" : {
-        "windowtitle" : {
-          "title" : "  Stim Merchant",
-          "subtitle" : "  Sells powerful medicine"
+      "buyFactorRange": [1.0, 1.0],
+      "sellFactorRange": [0.2, 0.2],
+      "numItems": 5,
+      "storeRadius": -1,
+      "paneLayoutOverride": {
+        "windowtitle": {
+          "title": "  Stim Merchant",
+          "subtitle": "  Sells powerful medicine"
         }
       }
     },
 
-    "dialog" : {
-      "merchant" : {
-        "start" : {
-          "default" : {
-            "default" : [
+    "dialog": {
+      "merchant": {
+        "start": {
+          "default": {
+            "default": [
               "Need a little pick-me-up?"
             ]
           },
-          "apex" : {
-            "default" : [
+          "apex": {
+            "default": [
               "Stay on top of things with my patented stims!",
               "Never fall to the Miniknog again with these handy stims!",
               "I've sold stims to Big Ape himself.",
@@ -43,8 +43,8 @@
               "Be strong like an ape!"
             ]
           },
-          "avian" : {
-            "default" : [
+          "avian": {
+            "default": [
               "Need a little pick-me-up?",
               "Fly without wings, with my helpful stims!",
               "Become as one with Kluex with my handy stims.",
@@ -52,8 +52,8 @@
               "One hundred percent legal stims... I left the paperwork on my ship."
             ]
           },
-          "floran" : {
-            "default" : [
+          "floran": {
+            "default": [
               "Floran sssell ssstabby medicine!",
               "Greenfinger say Floran ssstims volatile. Volatile mean sssafe.",
               "Floran ssstims best ssstims! Make feel ssstabby!",
@@ -61,8 +61,8 @@
               "Hope person like Floran ssstims. Floran like Floran ssstims."
             ]
           },
-          "glitch" : {
-            "default" : [
+          "glitch": {
+            "default": [
               "Statement. Stims for sale.",
               "Twitchy. Stims, lots of stims, buy the stims, quickly.",
               "Elusive. Mysterious stims, I have them.",
@@ -70,8 +70,8 @@
               "Ecstatic. Buy my stims, join me in joy!"
             ]
           },
-          "human" : {
-            "default" : [
+          "human": {
+            "default": [
               "Good evening. Some stims, perhaps?",
               "Perchance you will test out some of my more experimental stims one day.",
               "Soon, my shipment of snake oil will arrive. For now, I have stims.",
@@ -79,8 +79,8 @@
               "Stims! For your every need."
             ]
           },
-          "hylotl" : {
-            "default" : [
+          "hylotl": {
+            "default": [
               "Hylotl stims are unrivalled. Buy some.",
               "Improve yourself the Hylotl way. With stims!",
               "If you need a buff, I've got just the thing.",
@@ -89,49 +89,49 @@
             ]
           }
         },
-        "end" : {
-          "default" : {
-            "default" : [
+        "end": {
+          "default": {
+            "default": [
               "Just to be clear; I'm not responsible for any side-effects!"
             ]
           },
-          "apex" : {
-            "default" : [
+          "apex": {
+            "default": [
               "No refunds!",
               "Sorry in advance!",
               "Don't take too many!"
             ]
           },
-          "avian" : {
-            "default" : [
+          "avian": {
+            "default": [
               "Kluex save you.",
               "Kluex has no faith in medicine.",
               "Fly long, fly free!"
             ]
           },
-          "floran" : {
-            "default" : [
+          "floran": {
+            "default": [
               "Floran hope you not die too much!",
               "Floran sssee you sssoon. Real sssoon.",
               "Floran hope you want more ssstims!"
             ]
           },
-          "glitch" : {
-            "default" : [
+          "glitch": {
+            "default": [
               "Statement. Stims are not proven to be addictive.",
               "Evasive. Of course there are no side effects.",
               "Concern. Remember to talk to a doctor regularly."
             ]
           },
-          "human" : {
-            "default" : [
+          "human": {
+            "default": [
               "Side effects? All part of the fun!",
               "They're perfectly safe, I've been taking them for years.",
               "Come back soon! You can never have too many stims! Don't hold me to that!"
             ]
           },
-          "hylotl" : {
-            "default" : [
+          "hylotl": {
+            "default": [
               "Hylotl stims have no reported side effects.",
               "Return to me soon.",
               "May calm wash over you like an ocean."
@@ -142,19 +142,18 @@
     }
   },
 
-  "items" : {
-    "override" : [
-      [0, [
-          {
-            "chest" : [ "scientistchest" ],
-            "legs" : [ "scientistlegs" ],
-            "head" : [ "sunglasses1head" ],
-            "back" : [ "medicback" ],
-            "sheathedprimary" : [
+  "items": {
+    "override": [
+      [0, [{
+            "chest": ["scientistchest"],
+            "legs": ["scientistlegs"],
+            "head": ["sunglasses1head"],
+            "back": ["medicback"],
+            "sheathedprimary": [
               "sb_uncommonplasmashotgun"
             ]
           }
-        ] ]
+        ]]
     ]
   }
 }

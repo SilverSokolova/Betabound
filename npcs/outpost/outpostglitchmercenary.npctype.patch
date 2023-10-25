@@ -1,0 +1,22 @@
+[
+    [{
+        "op": "test",
+        "path": "/scriptConfig/dialog/converse/glitch/default/0",
+        "value": "Apologetic. Please do not be offended if my comrade in black will not speak to you. He's not much of a talker."
+    },
+    {
+        "op": "replace",
+        "path": "/scriptConfig/dialog/converse/glitch/default/0",
+        "value": "Apologetic. Please do not be offended if my comrade in black will not speak to you. They're not much of a talker."
+    }],
+    [{
+        "op": "test",
+        "path": "/scriptConfig/dialog/converse/default/default/0",
+        "value": "Apologetic. Please do not be offended if my comrade in black will not speak to you. He's not much of a talker."
+    },
+    {
+        "op": "replace",
+        "path": "/scriptConfig/dialog/converse/default/default/0",
+        "value": "Apologetic. Please do not be offended if my comrade in black will not speak to you. They're not much of a talker."
+    }]
+]

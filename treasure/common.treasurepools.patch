@@ -189,6 +189,7 @@
 
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_spawnertools"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"parasol"}}],
+  [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"broom"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_watch"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_hawkeyes"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_light2energy"}}],

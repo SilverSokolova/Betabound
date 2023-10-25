@@ -1,5 +1,14 @@
-[[{"op":"test","path":"/groups"},
-{"op":"add","path":"/groups/-","value":"sb_healing"},
-{"op":"add","path":"/groups/-","value":"sb_health"},
-{"op":"add","path":"/groups/-","value":"sb_t1food"}
-]]
+[
+  [
+    {"op":"test","path":"/groups"},
+    {"op":"add","path":"/groups/-","value":"sb_healing"},
+    {"op":"add","path":"/groups/-","value":"sb_health"},
+    {"op":"add","path":"/groups/-","value":"sb_t1food"}
+  ],
+  [
+    {"op":"test","path":"/input/2","inverse":true},
+    {"op":"test","path":"/input/1/item","value":"bread"},
+    {"op":"replace","path":"/input/1/item","value":"wheat"},
+    {"op":"add","path":"/input/-","value":{"item":"cheese","count":1}}
+  ]
+]

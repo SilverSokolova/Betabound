@@ -1,6 +1,6 @@
 {
   "input" : ["wheat","pineapple","eggshoot","feathercrown"],
   "output" : "sb_crowncake",
-  "groups" : ["craftingfood","desserts","sb_mobility","sb_healing","all"],
+  "groups" : ["craftingfood","desserts","sb_runboost","sb_jumpboost","sb_healing","all"],
   "collectables" : {"cooking":"sb_crowncake"}
 }

@@ -2,6 +2,6 @@
 {"op":"add","path":"/groups/-","value":"sb_healing"},
 {"op":"add","path":"/groups/-","value":"sb_health"},
 {"op":"add","path":"/groups/-","value":"sb_energy"},
-{"op":"add","path":"/groups/-","value":"sb_power"},
+{"op":"add","path":"/groups/-","value":"sb_rage"},
 {"op":"add","path":"/groups/-","value":"sb_bouncy"}
 ]]

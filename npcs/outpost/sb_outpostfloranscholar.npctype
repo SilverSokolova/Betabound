@@ -1,11 +1,7 @@
 {
   "type": "sb_outpostfloranscholar",
   "baseType": "outpostcivilian",
-
-  "scripts": [
-    "/npcs/bmain.lua",
-    "/npcs/sb_outpostcivilian.lua"
-  ],
+  "displayTitle": "Floran Scholar",
 
   "scriptConfig": {
     "sb_offeredQuests": ["sb_hylotlperformerE2part2.gearup"],

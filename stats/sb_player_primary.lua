@@ -11,7 +11,7 @@ function init() ini()
   player = math.betabound_player
   sb_shieldAlpha = {0,0,0}
   sb_lastHunger = math.floor(status.resourcePercentage("food")*100)
-  sb_lastHungerMessage = "-d100"
+  sb_lastHungerMessage = "d100"
   sb_hungerBenchmarks = {2,5,10,15,25,50,75,100}
   sb_hungerPopups = root.assetJson("/betabound.config:hungerPopups")
 end

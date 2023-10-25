@@ -1,17 +1,17 @@
 {
-  "type" : "sb_penguinUfo",
-  "shortdescription" : "^#f00;Dreadwing^reset;",
-  "description" : "The infamous Penguin pirate Dreadwing, in his unmistakable UFO.",
-  "categories" : [ "penguinUfo" ],
-  "parts" : [ "ufo", "pilot" ],
+  "type": "sb_penguinUfo",
+  "shortdescription": "^#f00;Dreadwing^reset;",
+  "description": "The infamous Penguin pirate Dreadwing, in his unmistakable UFO.",
+  "categories": ["penguinUfo"],
+  "parts": ["ufo", "pilot"],
 
-  "animation" : "sb_penguinUfo.animation",
-  "reversed" : true,
+  "animation": "sb_penguinUfo.animation",
+  "reversed": true,
 
-  "dropPools" : [ "dreadwingDrop" ],
+  "dropPools": ["dreadwingDrop"],
 
-  "baseParameters" : {
-    "scripts" : [
+  "baseParameters": {
+    "scripts": [
       "/monsters/boss/bossMonster.lua",
       "/monsters/simpleRangedAttack.lua",
       "/scripts/stateMachine.lua",
@@ -23,203 +23,196 @@
       "/monsters/sb_bossmonster.lua"
     ],
 
-    "skills" : ["ufoMoveFireAttack", "ufoSwoopAttack", "ufoReinforcementsAttack", "ufoSlamAttack", "ufoTeleportAttack", "ufoPulseCannonAttack"],
-    "skillCount" : 6,
+    "skills": ["ufoMoveFireAttack", "ufoSwoopAttack", "ufoReinforcementsAttack", "ufoSlamAttack", "ufoTeleportAttack", "ufoPulseCannonAttack"],
+    "skillCount": 6,
 
-    "phases" : [
-      {
-        "skills" : ["ufoMoveFireAttack", "ufoSwoopAttack"]
-      },
-      {
-        "enterPhase" : "ufoReinforcementsAttack",
-        "trigger" : "healthPercentage",
-        "healthPercentage" : 0.8,
-        "skills" : ["ufoMoveFireAttack", "ufoSwoopAttack", "ufoReinforcementsAttack", "ufoMoveFireAttack", "ufoSlamAttack", "ufoReinforcementsAttack"]
-      },
-      {
-        "enterPhase" : "ufoReinforcementsAttack",
-        "trigger" : "healthPercentage",
-        "healthPercentage" : 0.4,
-        "skills" : ["ufoMoveFireAttack", "ufoTeleportAttack", "ufoSlamAttack", "ufoReinforcementsAttack", "ufoPulseCannonAttack"]
+    "phases": [{
+        "skills": ["ufoMoveFireAttack", "ufoSwoopAttack"]
+      }, {
+        "enterPhase": "ufoReinforcementsAttack",
+        "trigger": "healthPercentage",
+        "healthPercentage": 0.8,
+        "skills": ["ufoMoveFireAttack", "ufoSwoopAttack", "ufoReinforcementsAttack", "ufoMoveFireAttack", "ufoSlamAttack", "ufoReinforcementsAttack"]
+      }, {
+        "enterPhase": "ufoReinforcementsAttack",
+        "trigger": "healthPercentage",
+        "healthPercentage": 0.4,
+        "skills": ["ufoMoveFireAttack", "ufoTeleportAttack", "ufoSlamAttack", "ufoReinforcementsAttack", "ufoPulseCannonAttack"]
       }
     ],
 
-    "universeFlagOnDeath" : "outpost_beakeasy",
+    "universeFlagOnDeath": "outpost_beakeasy",
 
-    "queryTargetDistance" : 50.0,
-    "switchTargetDistance" : 10.0,
-    "keepTargetInSight" : false,
+    "queryTargetDistance": 50.0,
+    "switchTargetDistance": 10.0,
+    "keepTargetInSight": false,
 
-    "cruiseDistance" : 25,
+    "cruiseDistance": 25,
 
-    "metaBoundBox" : [-14.0, -4.0, 14.0, 4.0],
-    "scale" : 1.0,
+    "metaBoundBox": [-14.0, -4.0, 14.0, 4.0],
+    "scale": 1.0,
 
-    "movementSettings" : {
-      "gravityEnabled" : false,
-      "collisionPoly" : [ [-14.0, -4.0], [14.0, -4.0], [14.0, 4.0], [-14.0, 4.0] ],
+    "movementSettings": {
+      "gravityEnabled": false,
+      "collisionPoly": [[-14.0, -4.0], [14.0, -4.0], [14.0, 4.0], [-14.0, 4.0]],
 
-      "mass" : 4.0,
-      "flySpeed" : 20,
-      "airForce" : 200.0,
-      "physicsEffectCategories" : ["boss"]
+      "mass": 4.0,
+      "flySpeed": 20,
+      "airForce": 200.0,
+      "physicsEffectCategories": ["boss"]
     },
 
-    "knockoutTime" : 0.1,
-    "knockoutEffect" : "blink",
-    "deathParticles" : "deathPoof",
+    "knockoutTime": 0.1,
+    "knockoutEffect": "blink",
+    "deathParticles": "deathPoof",
 
-    "touchDamage" : {
-      "poly" : [ [-14.0, -2.0], [0.0, -6.0], [14.0, -2.0], [14.0, 0.0], [0.0, 6.0], [-14.0, 0.0] ],
-      "damage" : 20,
+    "touchDamage": {
+      "poly": [[-14.0, -2.0], [0.0, -6.0], [14.0, -2.0], [14.0, 0.0], [0.0, 6.0], [-14.0, 0.0]],
+      "damage": 20,
 
-      "teamType" : "enemy",
-      "damageSourceKind" : "hammer",
-      "statusEffects" : [ ]
+      "teamType": "enemy",
+      "damageSourceKind": "hammer",
+      "statusEffects": []
     },
 
-    "statusSettings" : {
-      "statusProperties" : {
-	"bossMusic" : "/music/arctic-battle2-loop.ogg",
-        "targetMaterialKind" : "robotic"
+    "statusSettings": {
+      "statusProperties": {
+        "displayTitle": "Boss",
+        "bossMusic": "/music/arctic-battle2-loop.ogg",
+        "targetMaterialKind": "robotic"
       },
 
-      "appliesEnvironmentStatusEffects" : false,
-      "appliesWeatherStatusEffects" : false,
-      "minimumLiquidStatusEffectPercentage" : 0.1,
+      "appliesEnvironmentStatusEffects": false,
+      "appliesWeatherStatusEffects": false,
+      "minimumLiquidStatusEffectPercentage": 0.1,
 
-      "primaryScriptSources" : [
+      "primaryScriptSources": [
         "/stats/monster_primary.lua"
       ],
-      "primaryScriptDelta" : 5,
+      "primaryScriptDelta": 5,
 
-      "stats" : {
-        "knockbackStunTime" : {
-          "baseValue" : 0.25
+      "stats": {
+        "knockbackStunTime": {
+          "baseValue": 0.25
         },
-        "grit" : {
-          "baseValue" : 1.0
+        "grit": {
+          "baseValue": 1.0
         },
-        "maxHealth" : {
-          "baseValue" : 750
+        "maxHealth": {
+          "baseValue": 750
         },
-        "protection" : {
-          "baseValue" : 50.0
+        "protection": {
+          "baseValue": 50.0
         },
-        "healthRegen" : {
-          "baseValue" : 0.0
+        "healthRegen": {
+          "baseValue": 0.0
         },
-        "fireStatusImmunity" : {
-          "baseValue" : 1.0
+        "fireStatusImmunity": {
+          "baseValue": 1.0
         },
-        "iceStatusImmunity" : {
-          "baseValue" : 1.0
+        "iceStatusImmunity": {
+          "baseValue": 1.0
         },
-        "electricStatusImmunity" : {
-          "baseValue" : 1.0
+        "electricStatusImmunity": {
+          "baseValue": 1.0
         },
-        "poisonStatusImmunity" : {
-          "baseValue" : 1.0
+        "poisonStatusImmunity": {
+          "baseValue": 1.0
         },
-        "specialStatusImmunity" : {
-          "baseValue" : 1.0
+        "specialStatusImmunity": {
+          "baseValue": 1.0
         },
-        "healingStatusImmunity" : {
-          "baseValue" : 1.0
+        "healingStatusImmunity": {
+          "baseValue": 1.0
         },
-        "stunImmunity" : {
-          "baseValue" : 1.0
+        "stunImmunity": {
+          "baseValue": 1.0
         },
-        "powerMultiplier" : {
-          "baseValue" : 1.0
+        "powerMultiplier": {
+          "baseValue": 1.0
         }
       },
 
-      "resources" : {
-        "stunned" : {
-          "deltaValue" : -1.0,
-          "initialValue" : 0.0,
-          "maxValue" : 0.0
+      "resources": {
+        "stunned": {
+          "deltaValue": -1.0,
+          "initialValue": 0.0,
+          "maxValue": 0.0
         },
-        "health" : {
-          "maxStat" : "maxHealth",
-          "deltaStat" : "healthRegen",
-          "defaultPercentage" : 100
+        "health": {
+          "maxStat": "maxHealth",
+          "deltaStat": "healthRegen",
+          "defaultPercentage": 100
         }
       }
     },
 
-    "mouthOffset" : [0, 0],
-    "feetOffset" : [0, -8],
+    "mouthOffset": [0, 0],
+    "feetOffset": [0, -8],
 
-    "beamSourceOffset" : [0, -5.5],
-    "targetYOffsetRange" : [18.0, 22.0],
+    "beamSourceOffset": [0, -5.5],
+    "targetYOffsetRange": [18.0, 22.0],
 
-    "attackTime" : 5.0,
-    "fireInterval" : 0.6,
-    "cooldownTime" : 0.25,
+    "attackTime": 5.0,
+    "fireInterval": 0.6,
+    "cooldownTime": 0.25,
 
-    "projectiles" : {
-      "deathexplosion" : {
-        "type" : "regularexplosionknockback",
-        "config" : {
-          "speed" : 0.1,
-          "power" : 2,
+    "projectiles": {
+      "deathexplosion": {
+        "type": "regularexplosionknockback",
+        "config": {
+          "speed": 0.1,
+          "power": 2,
 
-          "actionOnReap" : [
-            {
-              "action" : "config",
-              "file" : "/projectiles/explosions/regularexplosion2/regularexplosionknockback.config"
-            },
-            {
-              "action" : "projectile",
-              "type" : "sb_dreadwreckage",
-              "inheritDamageFactor" : 0.2,
-              "fuzzAngle" : 30,
-              "angleAdjust" : 0
-            },
-            {
-              "action" : "projectile",
-              "type" : "sb_dreadwreckage",
-              "inheritDamageFactor" : 0.2,
-              "fuzzAngle" : 30,
-              "angleAdjust" : 45
-            },
-            {
-              "action" : "projectile",
-              "type" : "sb_dreadwreckage",
-              "inheritDamageFactor" : 0.2,
-              "fuzzAngle" : 30,
-              "angleAdjust" : -45
+          "actionOnReap": [{
+              "action": "config",
+              "file": "/projectiles/explosions/regularexplosion2/regularexplosionknockback.config"
+            }, {
+              "action": "projectile",
+              "type": "sb_dreadwreckage",
+              "inheritDamageFactor": 0.2,
+              "fuzzAngle": 30,
+              "angleAdjust": 0
+            }, {
+              "action": "projectile",
+              "type": "sb_dreadwreckage",
+              "inheritDamageFactor": 0.2,
+              "fuzzAngle": 30,
+              "angleAdjust": 45
+            }, {
+              "action": "projectile",
+              "type": "sb_dreadwreckage",
+              "inheritDamageFactor": 0.2,
+              "fuzzAngle": 30,
+              "angleAdjust": -45
             }
           ]
         },
 
-        "fireTime" : 8.0,
-        "fireInterval" : 0.2,
-        "cooldown" : 0.1
+        "fireTime": 8.0,
+        "fireInterval": 0.2,
+        "cooldown": 0.1
       },
 
-      "blockbreaker" : {
-        "type" : "invisibleprojectile",
-        "config" : {
-          "speed" : 0.1,
-          "power" : 0,
+      "blockbreaker": {
+        "type": "invisibleprojectile",
+        "config": {
+          "speed": 0.1,
+          "power": 0,
 
-          "actionOnReap" : [
-            {
-              "action" : "explosion",
-              "foregroundRadius" : 6,
-              "backgroundRadius" : 0,
-              "explosiveDamageAmount" : 100,
-              "delaySteps" : 1
+          "actionOnReap": [{
+              "action": "explosion",
+              "foregroundRadius": 6,
+              "backgroundRadius": 0,
+              "explosiveDamageAmount": 100,
+              "delaySteps": 1
             }
           ]
         },
 
-        "fireTime" : 0.2,
-        "fireInterval" : 0.1,
-        "cooldown" : 0.1
+        "fireTime": 0.2,
+        "fireInterval": 0.1,
+        "cooldown": 0.1
       }
     }
   }

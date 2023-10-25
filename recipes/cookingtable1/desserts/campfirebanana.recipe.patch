@@ -2,7 +2,7 @@
 {"op":"add","path":"/groups/-","value":"sb_healing"},
 {"op":"add","path":"/groups/-","value":"sb_energy"},
 {"op":"add","path":"/groups/-","value":"sb_energyregen"},
-{"op":"add","path":"/groups/-","value":"sb_mobility"},
+{"op":"add","path":"/groups/-","value":"sb_runboost"},
 {"op":"add","path":"/groups/-","value":"campfire"},
 {"op":"add","path":"/groups/-","value":"consumables"},
 {"op":"add","path":"/groups/-","value":"all"},

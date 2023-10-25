@@ -43,6 +43,14 @@ function apply(input)
       output:setInstanceValue("tooltipFields",fields)
     end
 
+    local subtitles = root.assetJson("/items/categories.config:labels")
+    local category = output:instanceValue("category", "other")
+    local subtitle = output:instanceValue("subtitle")
+    category = subtitle or category
+    if category == "preparedFood" then category = "food" end
+    category = string.gsub(category:gsub("sb_",""),"^%l", string.upper)
+    output.parameters.subtitle = "sb_preserved"..category
+
     local maxStack = item.maxStack or 0
     if maxStack > root.assetJson("/items/defaultParameters.config:defaultMaxStack") then
       output.parameters.maxStack = maxStack

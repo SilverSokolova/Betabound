@@ -1,6 +1,6 @@
 {
   "input" : ["wheat","pussplum","rawpoultry"],
   "output" : "sb_pussplumpie",
-  "groups" : ["craftingfood","desserts","sb_healing","sb_bouncy","sb_health","sb_power","all"],
+  "groups" : ["craftingfood","desserts","sb_healing","sb_bouncy","sb_health","sb_rage","all"],
   "collectables" : {"cooking":"sb_pussplumpie"}
 }

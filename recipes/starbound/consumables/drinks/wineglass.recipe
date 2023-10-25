@@ -1,6 +1,6 @@
 {
   "input" : ["grapes","sugar"],
   "output" : "sb_wineglass",
-  "groups" : ["craftingfood","drinks","sb_energy","sb_healing","sb_mobility","sb_power","all"],
+  "groups" : ["craftingfood","drinks","sb_energy","sb_healing","sb_runboost","sb_rage","all"],
   "collectables" : {"cooking":"sb_wineglass"}
 }

@@ -1,46 +1,50 @@
 {
-  "objectName" : "sb_fallingblock",
-  "objectType" : "physics",
-  "colonyTags" : ["wired"],
-  "printable" : false,
-  "rarity" : "Rare",
-  "description" : "Watch your step! These blocks can't hold much weight.",
-  "shortdescription" : "Falling Block",
-  "tooltipKind" : "sb_object",
-  "tooltipFields" : {"objectImage" : "/objects/wired/sb_fallingblock/fallingblock.png:5"},
+  "objectName": "sb_fallingblock",
+  "objectType": "physics",
+  "colonyTags": ["wired"],
+  "printable": false,
+  "rarity": "Rare",
+  "description": "Watch your step! These blocks can't hold much weight.",
+  "shortdescription": "Falling Block",
+  "tooltipKind": "sb_object",
+  "tooltipFields": {
+    "objectImage": "/objects/wired/sb_fallingblock/fallingblock.png:5"
+  },
 
-  "category" : "wire",
-  "price" : 50,
+  "category": "wire",
+  "price": 50,
 
-  "floranDescription" : "They ssstep, they fall.",
-  "glitchDescription" : "Cautious. I should be careful not to fall.",
-  "humanDescription" : "It's just like those video games.",
+  "floranDescription": "They ssstep, they fall.",
+  "glitchDescription": "Cautious. I should be careful not to fall.",
+  "humanDescription": "It's just like those video games.",
 
-  "inventoryIcon" : "icon.png",
-//  "inventoryIcon" : [{"image":"icon.png"},{"image":"/interface/sb_inventory/x.png"}],
-  "orientations" : [
-    {
-      "direction" : "right",
-      "image" : "fallingblock.png:<frame>",
-      "animationParts" : {"fallingblock" : "fallingblock.png"},
-      "imagePosition" : [0, 0],
-      "frames" : 5,
-      "animationCycle" : 1.0,
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
+  "inventoryIcon": "icon.png",
+  "orientations": [{
+      "direction": "right",
+      "image": "fallingblock.png:<frame>",
+      "animationParts": {
+        "fallingblock": "fallingblock.png"
+      },
+      "imagePosition": [0, 0],
+      "frames": 5,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
     }
   ],
 
-  "scripts" : [ "/objects/wired/sb_fallingblock/fallingblock.lua" ],
-  "scriptDelta" : 60,
+  "scripts": ["/objects/wired/sb_fallingblock/fallingblock.lua"],
+  "scriptDelta": 60,
 
-  "animation" : "/objects/wired/sb_fallingblock/fallingblock.animation",
+  "animation": "/objects/wired/sb_fallingblock/fallingblock.animation",
 
-  "detectArea" : [[-0.05,0],[1.05,1.25]],//[ [-0.25, 0], [0.25, 1.25] ],
+  "detectArea": [[-0.05, 0], [1.05, 1.25]], //[ [-0.25, 0], [0.25, 1.25] ],
 
-  "stayClosedTime" : 0.04,
-  "stayOpenTime" : 2.0,
+  "stayClosedTime": 0.04,
+  "stayOpenTime": 2,
 
-  "animationParts" : {"fallingblock" : "fallingblock.png"},
-  "animationPosition" : [0, 0]
+  "animationParts": {
+    "fallingblock": "fallingblock.png"
+  },
+  "animationPosition": [0, 0]
 }

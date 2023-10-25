@@ -24,13 +24,13 @@
     "jetpackParticles" : {
       "emissionRate" : 14,
       "particles" : [
-	{"particle":"defaultblue","offset":[0.2,-2]},
-	{"particle":"defaultblue","offset":[0.2,-2]},
-	{"particle":"defaultblue","offset":[0.2,-2]},
-	{"particle":"defaultblue","offset":[0.2,-2]},
-	{"particle":"defaultblue","offset":[0.2,-2]},
-	{"particle":"defaultblue","offset":[0.2,-2]},
-	{"particle":"defaultblue","offset":[0.2,-2]}
+        {"particle":"defaultblue","offset":[0.2,-2]},
+        {"particle":"defaultblue","offset":[0.2,-2]},
+        {"particle":"defaultblue","offset":[0.2,-2]},
+        {"particle":"defaultblue","offset":[0.2,-2]},
+        {"particle":"defaultblue","offset":[0.2,-2]},
+        {"particle":"defaultblue","offset":[0.2,-2]},
+        {"particle":"defaultblue","offset":[0.2,-2]}
       ]
     }
   },

@@ -36,7 +36,7 @@
   "inventoryIcon": [{
       "image": "/items/active/starbound/portable3dprinter/portable3dprinter.png"
     }, {
-      "image": "/interface/sb_inventory/x.png"
+      "image": "/interface/x.png"
     }
   ],
   "orientations": [{
