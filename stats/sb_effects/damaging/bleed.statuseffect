@@ -1,9 +1,9 @@
 {
-  "name" : "sb_bleed",
-  "effectConfig" : {},
-  "defaultDuration" : 15,
-  "animationConfig" : "bleed.animation",
-  "scripts" : ["bleed.lua"],
-  "label" : "^shadow,#f42d32;Bleeding",
-  "icon" : "/interface/statuses/sb_bleed.png"
+  "name": "sb_bleed",
+  "effectConfig": {},
+  "defaultDuration": 15,
+  "animationConfig": "bleed.animation",
+  "scripts": ["bleed.lua"],
+  "label": "Bleeding",
+  "icon": "/interface/statuses/sb_bleed.png"
 }

@@ -1,11 +1,18 @@
 {
-  "name" : "sb_berserk",
-  "type" : "head",
-  "icon" : "/tech/starbound/berserk.png",
-  "scripts" : [],
-  "sb_effect" : ["sb_berserk",{"stat":"powerMultiplier","effectiveMultiplier":1.25},{"stat":"maxEnergy","effectiveMultiplier":0.5}],
-  "sb_suitImage" : "?replace;73daff=de5454;27abff=d93a3a;117ee4=932625;1f45d4=7b201f;002b72=631a19;001522=4b1413",
-  "rarity" : "Rare",
-  "description" : "Provides the wearer with a boost in attack power, at the cost of an energy reduction.",
-  "shortDescription" : "Berserker"
+  "name": "sb_berserk",
+  "type": "head",
+  "icon": "/tech/starbound/berserk.png",
+  "scripts": [],
+  "sb_effect": ["sb_berserk", {
+      "stat": "powerMultiplier",
+      "effectiveMultiplier": 1.25
+    }, {
+      "stat": "maxEnergy",
+      "effectiveMultiplier": 0.5
+    }
+  ],
+  "sb_suitImage": "?replace;73daff=de5454;27abff=d93a3a;117ee4=932625;1f45d4=7b201f;002b72=631a19;001522=4b1413",
+  "rarity": "Rare",
+  "description": "Provides the wearer with a boost in attack power, at the cost of an energy reduction.",
+  "shortDescription": "Berserker"
 }

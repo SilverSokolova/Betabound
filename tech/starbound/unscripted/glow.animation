@@ -1,10 +1,10 @@
 {
-  "lights" : {
-    "glow" : {
-      "active" : true,
-      "position" : [0, 0],
-      "color" : [179, 179, 152],//[255, 150, 0, 255]
-      "pointLight" : true
+  "lights": {
+    "glow": {
+      "active": true,
+      "position": [0, 0],
+      "color": [179, 179, 152], //[255, 150, 0, 255]
+      "pointLight": true
     }
   }
 }

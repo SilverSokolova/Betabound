@@ -22,5 +22,5 @@ function sweep() sb_sweep()
     {pos[1]-1, pos[2]-3},
     {pos[1]+1, pos[2]-3}
   }
-  world.damageTiles(brushArea, sb_fireMode == "primary" and "foreground" or "background", pos, "tilling", 0.001, 99, activeItem.ownerEntityId())
+  world.damageTiles(brushArea, sb_fireMode == "primary" and "foreground" or "background", pos, "tilling", 0.001, 99) --don't set an owner id. npcs hate it
 end

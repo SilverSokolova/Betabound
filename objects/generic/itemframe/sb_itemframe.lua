@@ -140,6 +140,11 @@ function containerCallback()
 			end
 			newDrawables["muzzleFlash"] = nil
 			newDrawables = shrinkWeapon(newDrawables)
+--      if item.parameters.directives and type(item.parameters.directives) == "string" then
+--        sb_directives = item.parameters.directives
+--      else
+--        sb_directives = ""
+--      end
 			for i, drawable in pairs(newDrawables) do
 				local drawPos = drawable.position or {0,0}
 				table.insert(storage.drawableList, {position = drawPos, image = drawable.image, scale = drawable.scale, background = drawable.background})
@@ -208,7 +213,7 @@ function containerCallback()
 					image = itemRoot.directory..image
 				end
 				if not rawImage or not string.find(rawImage, ".png")then
-				elseif itemRoot.config.builderConfig[1].animationParts[part].paletteSwap then
+				elseif itemRoot.config.builderConfig[1].animationParts and itemRoot.config.builderConfig[1].animationParts[part].paletteSwap then
 					newDrawables[part] = {position = {0,0}, image = image..paletteSwaps}
 				else
 					newDrawables[part] = {position = {0,0}, image = image}
@@ -287,9 +292,7 @@ function containerCallback()
 			for c1, c2 in pairs(itemRoot.config.colorOptions[(item.parameters.colorIndex or 0) + 1] or {["fff"]="fff"}) do
 				storage.iconString = storage.iconString..";"..c1.."="..c2
 			end
-		end
-		if item.parameters.directives and type(item.parameters.directives) == "string" then
-			storage.iconString = storage.iconString..item.parameters.directives
+      storage.iconString = storage.iconString
 		end
 		if string.find(storage.iconString, '[:][{<(]frame[}>)]') then
 			storage.iconString = string.gsub(storage.iconString, '[:][{<(]frame[}>)]', ":0")

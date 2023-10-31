@@ -1,5 +1,5 @@
 [
-[{"op":"test","path":"/fuelAmount","inverse":true},{"op":"add","path":"/fuelAmount","value":3},
+[{"op":"test","path":"/fuelAmount","inverse":true},{"op":"add","path":"/fuelAmount","value":1},
 {"op":"replace","path":"/category","value":"fuel"}],
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}]
 ]

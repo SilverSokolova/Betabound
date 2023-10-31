@@ -35,6 +35,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"leather"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"glasscoffeemug"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"thread"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_liquidcoffee"}}],
 
 //throwing
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_handgrenade"}}],

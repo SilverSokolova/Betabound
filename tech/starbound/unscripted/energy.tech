@@ -1,13 +1,15 @@
 {
-  "name" : "sb_energy",
-  "type" : "head",
-  "icon" : "/tech/starbound/energy.png",
-  "scripts" : [],
-  "sb_effect" : ["sb_energytech",{"stat":"maxEnergy","effectiveMultiplier":1.15}],
-  "sb_suitImage" : "?replace;73daff=d9faaf;27abff=cbf892;117ee4=b1f45c;1f45d4=8fe527;002b72=80d41a;001522=70b917",
-  "rarity" : "Legendary",
-  "description" : "Provides the wearer with a boost in total energy.",
-  "shortDescription" : "Energy+",
-
-  "statIncrease" : "15%"
+  "name": "sb_energy",
+  "type": "head",
+  "icon": "/tech/starbound/energy.png",
+  "scripts": [],
+  "sb_effect": ["sb_energytech", {
+      "stat": "maxEnergy",
+      "effectiveMultiplier": 1.15
+    }
+  ],
+  "sb_suitImage": "?replace;73daff=d9faaf;27abff=cbf892;117ee4=b1f45c;1f45d4=8fe527;002b72=80d41a;001522=70b917",
+  "rarity": "Legendary",
+  "description": "Provides the wearer with a boost in total energy.",
+  "shortDescription": "Energy+"
 }

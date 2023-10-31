@@ -1,37 +1,38 @@
 {
-  "objectName" : "sb_envprobeaf",
-  "colonyTags" : ["pretty","light"],
-  "rarity" : "Legendary",
-  "tooltipKind" : "sb_object",
-  "category" : "actionFigure",
-  "collectablesOnPickup" : { "actionfigures" : "sb_envprobeaf" },
-  "price" : 5000,
-  "printable" : false,
-  "description" : "The label reads, \"A probe of unknown origin, designed to protect environments.\"",
-  "shortdescription" : "Enviro Probe Figurine",
-
-  "animationPosition" : [-2,0],
-  "animation" : "envprobeAF.animation",
-  "animationParts" : {
-    "af" : "envprobeAF.png",
-    "lit" : "envprobeAFlit.png"
+  "objectName": "sb_envprobeaf",
+  "colonyTags": ["pretty", "light"],
+  "rarity": "Legendary",
+  "tooltipKind": "sb_object",
+  "category": "actionFigure",
+  "collectablesOnPickup": {
+    "actionfigures": "sb_envprobeaf"
   },
-  "scripts" : ["envprobeAF.lua"],
-  "colors" : [
-    [81,189,59],
-    [217,58,58],
-    [226,195,68],
-    [0,0,0]
-  ],
-  "inputNodes" : [[0,0]],
+  "price": 5000,
+  "printable": false,
+  "description": "The label reads, \"A probe of unknown origin, designed to protect environments.\"",
+  "shortdescription": "Enviro Probe Figurine",
 
-  "inventoryIcon" : "envprobeAF.png:0",
-  "orientations" : [
-    {
-      "dualImage" : "envprobeAF.png:0",
-      "imagePosition" : [-2, 0],
-      "spaces" : [[0,0],[0,0],[0,0],[0,0]],
-      "anchors" : ["bottom"]
+  "animationPosition": [-2, 0],
+  "animation": "envprobeAF.animation",
+  "animationParts": {
+    "af": "envprobeAF.png",
+    "lit": "envprobeAFlit.png"
+  },
+  "scripts": ["envprobeAF.lua"],
+  "colors": [
+    [81, 189, 59],
+    [217, 58, 58],
+    [226, 195, 68],
+    [0, 0, 0]
+  ],
+  "inputNodes": [[0, 0]],
+
+  "inventoryIcon": "envprobeAF.png:0",
+  "orientations": [{
+      "dualImage": "envprobeAF.png:0",
+      "imagePosition": [-2, 0],
+      "spaces": [[0, 0], [0, 0], [0, 0], [0, 0]],
+      "anchors": ["bottom"]
     }
   ]
 }

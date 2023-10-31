@@ -1,23 +1,20 @@
 {
-  "name" : "sb_miningdrill",
-  "type" : "body",
-
-  "rarity" : "Legendary",
-  "icon" : "/tech/starbound/miningdrill.png",
-  "description" : "Double tap ^green;any direction^reset; to toggle a directional mining drill!",
-  "sb_briefDescription" : "Double tap ^green;any direction^reset; to toggle a directional drill!",
-//"sb_longDescription" : " ^green;[SHIFT]^reset; for a smaller radius.",
-  "shortDescription" : "Mining Drill",
-
-  "scripts" : ["miningdrill.lua"],
-  "scriptDelta" : 1,
-  "animator" : "miningdrill.animation",
-
-  "energyUsageRate" : 3,
-  "drillPositions" : {
-    "up" : [0, 3],
-    "down" : [0, -3],
-    "left" : [-3, 0],
-    "right" : [3, 0]
+  "name": "sb_miningdrill",
+  "type": "body",
+  "rarity": "Legendary",
+  "icon": "/tech/starbound/miningdrill.png",
+  "description": "Double tap ^green;any direction^reset; to toggle a directional mining drill!",
+  "sb_briefDescription": "Double tap ^green;any direction^reset; to toggle a directional drill!",
+  //"sb_longDescription" : " ^green;[SHIFT]^reset; for a smaller radius.",
+  "shortDescription": "Mining Drill",
+  "scripts": ["miningdrill.lua"],
+  "scriptDelta": 1,
+  "animator": "miningdrill.animation",
+  "energyUsageRate": 7,
+  "drillPositions": {
+    "up": [0, 3],
+    "down": [0, -3],
+    "left": [-3, 0],
+    "right": [3, 0]
   }
 }
