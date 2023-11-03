@@ -93,3 +93,7 @@ function update(args) doubleTap:update(args.dt, args.moves) input(args)
     disableDrills()
   end
 end
+
+function uninit()
+  disableDrills()
+end

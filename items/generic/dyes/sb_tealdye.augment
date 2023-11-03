@@ -1,0 +1,19 @@
+{
+  "itemName": "sb_tealdye",
+  "price": 25,
+  "tooltipKind": "sb_object",
+  "rarity": "Common",
+  "category": "clothingDye",
+  "inventoryIcon": "sb_tealdye.png",
+  "description": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription": "Teal Dye",
+  "dyeDirectives": {
+    "ffca8a": "a8e6e2",
+    "e0975c": "4facb2",
+    "a85636": "30636c",
+    "6f2919": "233c43"
+  }, //ferozium-- not vanilla
+  "sb_dyeDirectives": "?replace;ffca8a=a8e6e2;e0975c=4facb2;a85636=30636c;6f2919=233c43",
+  "radioMessagesOnPickup": ["pickupdye"],
+  "scripts": ["/scripts/augments/dye.lua", "/scripts/augments/sb_dye.lua"]
+}

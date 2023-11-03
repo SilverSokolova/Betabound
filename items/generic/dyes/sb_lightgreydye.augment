@@ -1,0 +1,19 @@
+{
+  "itemName": "sb_lightgreydye",
+  "price": 25,
+  "tooltipKind": "sb_object",
+  "rarity": "Common",
+  "category": "clothingDye",
+  "inventoryIcon": "sb_lightgreydye.png",
+  "description": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription": "Light Grey Dye",
+  "dyeDirectives": {
+    "ffca8a": "ccc",
+    "e0975c": "9e9e9e",
+    "a85636": "616161",
+    "6f2919": "383838"
+  }, //steel
+  "sb_dyeDirectives": "?replace;ffca8a=ccc;e0975c;9e9e9e=a85636;616161=6f2919;383838",
+  "radioMessagesOnPickup": ["pickupdye"],
+  "scripts": ["/scripts/augments/dye.lua", "/scripts/augments/sb_dye.lua"]
+}

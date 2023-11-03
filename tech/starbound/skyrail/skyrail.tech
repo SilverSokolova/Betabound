@@ -1,100 +1,100 @@
 {
-  "name" : "skyrail", //skyrail is the prefix and you cannot prove otherwise.
-  "type" : "head",
+  "name": "skyrail", //skyrail is the prefix and you cannot prove otherwise.
+  "type": "head",
 
-  "rarity" : "uncommon",
-  "chipCost" : 1,
-  "icon" : "/tech/starbound/skyrail.png",
-  "description" : "Generates a sky hook, allowing you to attach yourself to skyrails. ^#0F0;[F]",
-  "sb_briefDescription" : "Generates a sky hook, for attaching to skyrails. ^#0f0;[F]",
-  "shortDescription" : "Skyrail Rider",
+  "rarity": "uncommon",
+  "chipCost": 1,
+  "icon": "/tech/starbound/skyrail.png",
+  "description": "Generates a sky hook, allowing you to attach yourself to skyrails. ^#0F0;[F]",
+  "sb_briefDescription": "Generates a sky hook, for attaching to skyrails. ^#0f0;[F]",
+  "shortDescription": "Skyrail Rider",
 
-  "scripts" : ["skyrail.lua"],
-  "actions" : ["step"],
-  "animator" : "skyrail.animation",
+  "scripts": ["skyrail.lua"],
+  "actions": ["step"],
+  "animator": "skyrail.animation",
 
-  "hookOffset" : [0, 2.0],
-  "railtestStartOffset" : [0.0, -2.0],
-  "railtestLength" : 4.0,
-  "railLeaveTime" : 0.4,
+  "hookOffset": [0, 2.0],
+  "railtestStartOffset": [0.0, -2.0],
+  "railtestLength": 4.0,
+  "railLeaveTime": 0.4,
 
-  "minSpeed" : 1.0,
-// "minSpeed" : 0,
-  "minBounceSpeed" : 5.0,
-  "bounceFactor" : 0.25,
+  "minSpeed": 1.0,
+  // "minSpeed" : 0,
+  "minBounceSpeed": 5.0,
+  "bounceFactor": 0.25,
 
-  "railSurfaces" : ["skyrailplatform", "skyrailbreak", "skyrailboost", "skyrail_diodeR", "skyrail_diodeL", "skyrail_asc", "skyrail_desc", "compositerail", "rustyrail", "metamaterial:railsafe","metamaterial:railstop","metamaterial:railreverse","compositerail","rustyrail"],
+  "railSurfaces": ["skyrailplatform", "skyrailbreak", "skyrailboost", "skyrail_diodeR", "skyrail_diodeL", "skyrail_asc", "skyrail_desc", "compositerail", "rustyrail", "metamaterial:railsafe", "metamaterial:railstop", "metamaterial:railreverse", "compositerail", "rustyrail"],
 
-  "surfaceBehaviour" : {
-    "default" : {
-//    "maxSpeed" : 60.0,
-      "acceleration" : 15.0
+  "surfaceBehaviour": {
+    "default": {
+      //    "maxSpeed" : 60.0,
+      "acceleration": 15.0
     },
 
-    "rustyrail" : {
-      "maxSpeed" : 20.0,
-      "acceleration" : 10
+    "rustyrail": {
+      "maxSpeed": 20.0,
+      "acceleration": 10
     },
 
-    "compositerail" : {
-      "maxSpeed" : 50.0,
-      "acceleration" : 12
+    "compositerail": {
+      "maxSpeed": 50.0,
+      "acceleration": 12
     },
 
-    "metamaterial:railsafe" : {
-      "maxSpeed" : 60.0,
-      "acceleration" : 15.0
+    "metamaterial:railsafe": {
+      "maxSpeed": 60.0,
+      "acceleration": 15.0
     },
 
-    "metamaterial:railstop" : {
-      "maxSpeed" : 0,
-      "speedMulDt" : -1.0,
-      "acceleration" : -15.0
+    "metamaterial:railstop": {
+      "maxSpeed": 0,
+      "speedMulDt": -1.0,
+      "acceleration": -15.0
     },
 
-//todo: make rail reverse reverse rail
-    "metamaterial:railreverse" : {
-      "maxSpeed" : 60.0,
-      "acceleration" : 15.0
+    //todo: make rail reverse reverse rail
+    "metamaterial:railreverse": {
+      "maxSpeed": 60.0,
+      "acceleration": 15.0
     },
 
-    "skyrailplatform" : {
-      "maxSpeed" : 110.0,
-      "speedMulDt" : 10.0,
-      "speedMul" : 2 //,
-//      "speedMulDt" : 1.0,
-//      "acceleration" : 15.0
+    "skyrailplatform": {
+      "maxSpeed": 110.0,
+      "speedMulDt": 10.0,
+      "speedMul": 2 //,
+      //      "speedMulDt" : 1.0,
+      //      "acceleration" : 15.0
     },
 
-    "skyrailboost" : {
-      "speedMulDt" : 20.0,
-      "speedMul" : 2,
-      "acceleration" : 60,
-      "maxSpeed" : 210.0
+    "skyrailboost": {
+      "speedMulDt": 20.0,
+      "speedMul": 2,
+      "acceleration": 60,
+      "maxSpeed": 210.0
     },
 
-    "skyrailbreak" : {
-      "speedMulDt" : 0.05,
-      "acceleration" : -3,
-      "maxSpeed" : 10.0
+    "skyrailbreak": {
+      "speedMulDt": 0.05,
+      "acceleration": -3,
+      "maxSpeed": 10.0
     },
 
-    "skyrail_asc" : {
-      "searchOrder" : "TMB"
+    "skyrail_asc": {
+      "searchOrder": "TMB"
     },
 
-    "skyrail_desc" : {
-      "searchOrder" : "BMT"
+    "skyrail_desc": {
+      "searchOrder": "BMT"
     },
 
-    "skyrail_diodeR" : {
-      "speedMulDir" : [-1, 0.75],
-      "dirSet" : 1.0
+    "skyrail_diodeR": {
+      "speedMulDir": [-1, 0.75],
+      "dirSet": 1.0
     },
 
-    "skyrail_diodeL" : {
-      "speedMulDir" : [1, 0.75],
-      "dirSet" : -1.0
+    "skyrail_diodeL": {
+      "speedMulDir": [1, 0.75],
+      "dirSet": -1.0
     }
   }
 }

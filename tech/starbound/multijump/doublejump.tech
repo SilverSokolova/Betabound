@@ -1,18 +1,16 @@
 {
-  "name" : "sb_doublejump",
-  "type" : "legs",
+  "name": "sb_doublejump",
+  "type": "legs",
+  "rarity": "Legendary",
+  "icon": "/tech/starbound/doublejump.png",
+  "description": "Grants two additional jumps that can be used while in the air!",
+  "sb_briefDescription": "Two additional jumps that can be used while in the air!",
+  "sb_longDescription": "Refreshed upon landing.",
+  "shortDescription": "Energy Pulse Jump",
+  "chipCost": 10,
+  "scripts": ["multijump.lua"],
+  "animator": "multijump.animation",
 
-  "rarity" : "Legendary",
-  "icon" : "/tech/starbound/doublejump.png",
-  "description" : "Grants two additional jumps that can be used while in the air!",
-  "sb_briefDescription" : "Two additional jumps that can be used while in the air!",
-  "sb_longDescription" : "Refreshed upon landing.",
-  "shortDescription" : "Energy Pulse Jump",
-  "chipCost" : 10,
-
-  "scripts" : ["multijump.lua"],
-  "animator" : "multijump.animation",
-
-  "multiJumpCount" : 2,
-  "energyUsage" : 11
+  "multiJumpCount": 2,
+  "energyUsage": 11
 }

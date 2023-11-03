@@ -1,13 +1,13 @@
 {
-  "name" : "sb_jump",
-  "type" : "head",
-  "icon" : "/tech/starbound/jump.png",
-  "scripts" : [],
-  "sb_effect" : "sb_jumptech",
-//"sb_suitImage" : "?replace;73daff=6d99da;27abff=5588d4;117ee4=344495;1f45d4=1a1c51;002b72=3a3c71;001522=13143a", augment
-//"sb_suitImage" : "?replace;73daff=28daf5;27abff=0dd3ef;117ee4=0bbad4;1f45d4=09a0b7;002b72=08869a;001522=066d7d", bad
-  "sb_suitImage" : "?replace;73daff=46def5;27abff=0dd3f1;117ee4=0bbad4;1f45d4=044751;002b72=07798b;001522=032d34",
-  "rarity" : "Rare",
-  "description" : "Provides the wearer with a boost in jumping power.",
-  "shortDescription" : "Jump+"
+  "name": "sb_jump",
+  "type": "head",
+  "icon": "/tech/starbound/jump.png",
+  "scripts": [],
+  "sb_effect": "sb_jumptech",
+  //"sb_suitImage" : "?replace;73daff=6d99da;27abff=5588d4;117ee4=344495;1f45d4=1a1c51;002b72=3a3c71;001522=13143a", augment
+  //"sb_suitImage" : "?replace;73daff=28daf5;27abff=0dd3ef;117ee4=0bbad4;1f45d4=09a0b7;002b72=08869a;001522=066d7d", bad
+  "sb_suitImage": "?replace;73daff=46def5;27abff=0dd3f1;117ee4=0bbad4;1f45d4=044751;002b72=07798b;001522=032d34",
+  "rarity": "Rare",
+  "description": "Provides the wearer with a boost in jumping power.",
+  "shortDescription": "Jump+"
 }

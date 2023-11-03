@@ -1,11 +1,11 @@
 {
-  "name" : "sb_gravity",
-  "type" : "head",
-  "icon" : "/tech/starbound/gravity.png",
-  "scripts" : [],
-  "sb_effect" : "sb_gravitytech",
-  "sb_suitImage" : "?replace;73daff=646464;27abff=555;117ee4=383838;1f45d4=292929;002b72=1a1a1a;001522=0b0b0b",
-  "rarity" : "Rare",
-  "description" : "Provides the wearer with a slow descent effect.",
-  "shortDescription" : "Gravity"
+  "name": "sb_gravity",
+  "type": "head",
+  "icon": "/tech/starbound/gravity.png",
+  "scripts": [],
+  "sb_effect": "sb_gravitytech",
+  "sb_suitImage": "?replace;73daff=646464;27abff=555;117ee4=383838;1f45d4=292929;002b72=1a1a1a;001522=0b0b0b",
+  "rarity": "Rare",
+  "description": "Provides the wearer with a slow descent effect.",
+  "shortDescription": "Gravity"
 }

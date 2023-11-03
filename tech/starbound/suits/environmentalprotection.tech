@@ -1,13 +1,13 @@
 {
-  "name" : "sb_environmentalprotection",
-  "type" : "head",
-  "icon" : "/interface/crafting/tabicon_epp.png",
-  "scripts" : [],
-  "sb_effect" : "sb_environmentalprotectiontech",
-  "sb_suitImage" : "?replace;73daff=e6e6e6;27abff=b6b6b6;117ee4=7b7b7b;1f45d4=555;002b72=383838;001522=292929",
-  "rarity" : "Legendary",
-  "tooltipKind" : "sb_object4",
-  "chipCost" : 8,
-  "description" : "Provides oxygen and protects the wearer from the deadly radiation, cold, and heat found on certain planets.",
-  "shortDescription" : "Environmental Protection"
+  "name": "sb_environmentalprotection",
+  "type": "head",
+  "icon": "/interface/crafting/tabicon_epp.png",
+  "scripts": [],
+  "sb_effect": "sb_environmentalprotectiontech",
+  "sb_suitImage": "?replace;73daff=e6e6e6;27abff=b6b6b6;117ee4=7b7b7b;1f45d4=555;002b72=383838;001522=292929",
+  "rarity": "Legendary",
+  "tooltipKind": "sb_object4",
+  "chipCost": 8,
+  "description": "Provides oxygen and protects the wearer from the deadly radiation, cold, and heat found on certain planets.",
+  "shortDescription": "Environmental Protection"
 }

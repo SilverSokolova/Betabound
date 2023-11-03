@@ -30,6 +30,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_refinedrubium"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"uraniumrod"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"plutoniumrod"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_gunpowder"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"screws"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"polymer"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"leather"}}],
@@ -353,6 +354,18 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6arifle"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6mrifle"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6srifle"}}],
+
+//non-novakid weapons
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"ironshortsword"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"ironbroadsword"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tungstenaxe"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tungstenhammer"}}],
+
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"titaniumdagger"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"titaniumspear"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"durasteelbroadsword"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"durasteelshortsword"}}],
+
 
 //novakid guns
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"ironrevolver"}}],
