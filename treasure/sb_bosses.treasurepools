@@ -16,7 +16,8 @@
         {"weight" : 0.5, "item" : ["sb_steelbar",2]},
         {"weight" : 0.5, "item" : ["sb_steelbar",3]},
         {"weight" : 0.025, "item" : ["sb_musicsheet",1,{"music":"desert-battle-2"}]},
-        {"weight" : 0.025, "item" : "sb_fatalcircuitaf"}
+        {"weight" : 0.025, "item" : "sb_fatalcircuitaf"},
+        {"weight" : 0.025, "item" : "sb_fatalcircuitclaw"}
       ],
       "poolRounds" : [
         [2, 2]
@@ -41,7 +42,8 @@
       "fill" : [
         {"item" : "sb_bossjelly-codex"},
         {"item" : ["endomorphicjelly", 5]},
-        {"pool" : "sb_boss3Treasure_2"}
+        {"pool" : "sb_boss3Treasure_2"},
+        {"item" : "sb_jellywhip"}
       ],
       "poolRounds" : [
         [1, 1]
@@ -61,7 +63,8 @@
         {"weight" : 0.25, "item" : ["sb_paint", 5, {"sb_paintData":["dirtmaterial",276]}]},
         {"weight" : 0.25, "item" : ["sb_paint", 5, {"sb_paintData":["dirtmaterial",236]}]},
         {"weight" : 0.025, "item" : ["sb_musicsheet",1,{"music":"tentacle-battle1"}]},
-        {"weight" : 0.025, "item" : "sb_jellyaf"}
+        {"weight" : 0.025, "item" : "sb_jellyaf"},
+        {"weight" : 0.025, "item" : "sb_jellywhip"}
       ],
       "poolRounds" : [
         [2, 2]

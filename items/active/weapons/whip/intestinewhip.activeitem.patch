@@ -1,5 +1,7 @@
 [
 [{"op":"test","path":"/builder"},{"op":"test","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua","inverse":true},{"op":"move","from":"/builder","path":"/sb_builder"}],[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua"}],
 
+[{"op":"test","path":"/primaryAbility/chainDps","value":0.0},{"op":"replace","path":"/primaryAbility/chainDps","value":2}],
+
 [{"op":"add","path":"/fixedRarity","value":true}]
 ]

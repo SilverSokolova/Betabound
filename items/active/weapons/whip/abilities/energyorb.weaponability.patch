@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/ability/baseDamage","value":2.5},{"op":"replace","path":"/ability/baseDamage","value":7.5}],
+[{"op":"test","path":"/ability/energyUsage","value":120},{"op":"replace","path":"/ability/energyUsage","value":70}],
+[{"op":"test","path":"/ability/stances/windup/duration","value":0.25},{"op":"replace","path":"/ability/stances/windup/duration","value":0.1}]
+]
