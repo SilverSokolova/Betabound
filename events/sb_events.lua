@@ -1,6 +1,6 @@
 require "/scripts/util.lua"
 require "/scripts/rect.lua"
-require "/interface/cockpit/cockpitutil.lua"
+--require "/interface/cockpit/cockpitutil.lua"
 
 local BiomeMicrodungeonId = 65533
 local FirstMetaDungeonId = 65520
@@ -74,9 +74,9 @@ function init()
   self.spawner = nil
   
   self.lastPosition = mcontroller.position()
-  if worldIdCoordinate(player.worldId()) ~= nil then
-    invalidLocation = true
-  end
+--if worldIdCoordinate(player.worldId()) ~= nil then
+--  invalidLocation = true
+--end
 end
 
 function update(dt)
@@ -250,11 +250,11 @@ function triggerEvent(eventPool)
       local spawn = util.randomFromList(validEvents)
       local event, region = spawn[1], spawn[2]
       if spawn[4] < math.random(0, 10) then
-	spawnEventStagehand(event.stagehand, region)
+        spawnEventStagehand(event.stagehand, region)
         sb.logInfo("Spawn event stagehand %s at %s", event.stagehand, rect.center(region))
         storage.lastEvent = spawn[3]
       else
-	sb.logInfo("Skipped event stagehand %s", event.stagehand)
+        sb.logInfo("Skipped event stagehand %s", event.stagehand)
       end
       return true
     end

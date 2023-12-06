@@ -1,11 +1,10 @@
 {
-  "sb_itemName" : "bottledhealingwater.consumable",
-  "itemName" : "bottledhealingwater",
-  "animation" : "/items/sb_consumable.animation",
-  "scripts" : ["/items/sb_consumable.lua"],
-  "returnItem" : "bottle",
-  "soundSet" : "drink",
-  "sb_forcePlate" : true,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "builder" : "/items/buildscripts/starbound/fromsource.lua"
+  "sb_itemName": "bottledhealingwater.consumable",
+  "itemName": "bottledhealingwater",
+  "animation": "/items/sb_consumable.animation",
+  "scripts": ["/items/sb_consumable.lua"],
+  "returnItem": "bottle",
+  "soundSet": "drink",
+  "sb_forcePlate": true,
+  "builder": "/items/buildscripts/starbound/fromsource.lua"
 }

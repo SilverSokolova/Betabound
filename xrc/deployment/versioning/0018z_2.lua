@@ -89,6 +89,7 @@ xrc0018[18]=function()
 	giveBox()
 end
 xrc0018[19]=function()
+  if newPlayer then return end
 	local r = {"floran","hylotl","avian","apex","glitch"}
 	local q = {}
 	for i = 1, 2 do
@@ -201,6 +202,11 @@ xrc0018[27]=function()
       pv == 3 and #player.shipUpgrades().capabilities > 0 then require("/scripts/sb_assetmissing.lua") local i = "sb_"..player.species().."tier0shortsword" if sb_itemExists(i) then player.giveItem(i) end
     end
     status.setStatusProperty("xrc_0018",nil)
+  end
+end
+xrc0018[28]=function()
+  if player.hasCompletedQuest("floranarena3") then
+    player.giveItem({"sb_musicsheet",1,{music="impact-event"}})
   end
 end
 

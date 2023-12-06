@@ -1,5 +1,5 @@
 [
-[{"op":"replace","path":"/itemName","value":"starbound_bottledwate"}],
+[{"op":"replace","path":"/itemName","value":"starbound_bottledwater"}],
 
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}]
 ]

@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/gui/windowtitle/subtitle","value":"Erchius fuel repository"},
+{"op":"replace","path":"/gui/windowtitle/subtitle","value":"FTL fuel repository"}]
+]

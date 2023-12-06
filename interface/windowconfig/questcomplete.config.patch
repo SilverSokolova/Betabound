@@ -1,0 +1,22 @@
+[
+  [{
+      "op": "test",
+      "path": "/paneLayout/rewardItems/dimensions/0",
+      "value": 2
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/rewardItems/dimensions/0",
+      "value": 5
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/paneLayout/rewardItems/backingImage",
+      "value": "/interface/inventory/empty.png"
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/rewardItems/backingImage",
+      "value": "/interface/inventory/emptier.png"
+    }
+  ]
+]
