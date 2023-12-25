@@ -1,0 +1,43 @@
+[[{
+      "op": "test",
+      "path": "/particleEmitters",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/particleEmitters",
+      "value": {}
+    }
+  ], [{
+      "op": "add",
+      "path": "/particleEmitters/sb_minibossparticles",
+      "value": {
+        "active": true,
+        "emissionRate": 19,
+        "emissionVariance": 6,
+        "particles": [{
+            "particle": {
+              "type": "ember",
+              "size": 1,
+              "color": [228, 25, 25, 255],
+              "fade": 0.9,
+              "destructionAction": "shrink",
+              "destructionTime": 1,
+              "initialVelocity": [0.5, 6],
+              "finalVelocity": [-1, 5],
+              "approach": [0, 20],
+              "timeToLive": 0.8,
+              "light": [71, 8, 8],
+              "layer": "back",
+              "variance": {
+                "initialVelocity": [1, 2],
+                "finalVelocity": [-1, 2],
+                "position": [1.3, 2],
+                "size": 2
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+]

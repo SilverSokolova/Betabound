@@ -38,15 +38,19 @@
 		//Valuable Treasure
   [{"op":"add","path":"/valuableTreasure/0/1/pool/-","value":{"weight":0.02,"pool":"costume"}}],
   [{"op":"add","path":"/valuableTreasure/0/1/pool/-","value":{"weight":0.02,"pool":"instrument"}}],
+  [{"op":"add","path":"/valuableTreasure/0/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
 
   [{"op":"add","path":"/valuableTreasure/1/1/pool/-","value":{"weight":0.02,"pool":"costume"}}],
   [{"op":"add","path":"/valuableTreasure/1/1/pool/-","value":{"weight":0.02,"pool":"instrument"}}],
+  [{"op":"add","path":"/valuableTreasure/1/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
 
   [{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.02,"pool":"costume"}}],
   [{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.02,"pool":"instrument"}}],
+  [{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
 
   [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.02,"pool":"costume"}}],
   [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.02,"pool":"instrument"}}],
+  [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
 
 		//Tech
 //[{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.1,"item":"sb_tech"}}],
@@ -309,6 +313,14 @@
 
 
 		//Weapons
+  [{"op":"add","path":"/weapon/0/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
+  [{"op":"add","path":"/weapon/1/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
+  [{"op":"add","path":"/weapon/2/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
+  
+  [{"op":"add","path":"/goodWeapon/0/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
+  [{"op":"add","path":"/goodWeapon/1/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
+  [{"op":"add","path":"/goodWeapon/2/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
+
 	//mC
   [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commonaxe"}}],
   [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":0.6,"item":"sb_crappyaxe"}}],

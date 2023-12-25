@@ -30,12 +30,16 @@
   "elementalType": "physical",
   "primaryAbilityType": "sb_gun",
   "primaryAbility": {
-    "projectileType": ["bullet-1", "bullet-2", "bullet-3", "bullet-4", "fast", "bouncybullet"],
+    "projectileType": ["bullet-1", "bullet-2", "bullet-3", "bullet-4", "fast", "bouncybullet", "sb_fastflame"],
 
     "fireTime": [0.07, 0.11],
-    "baseDps": [7.5, 8],
-    "energyUsage": [11, 13],
-    "inaccuracy": [1, 5],
+    "baseDps": [5.5, 6],
+    "energyUsage": [21.5, 22],
+    "inaccuracy": [2, 7],
+    
+    "damageConfig": {
+      "timeout": 0.05
+    },
 
     "projectileParameters": {
       "knockbackRange": [0, 0.7]
@@ -47,7 +51,7 @@
       },
       "fire": {},
       "cooldown": {
-        "duration": 0.025,
+        "duration": 0.02,
         "recoil": true,
         "armRotation": 2,
         "weaponRotation": 2

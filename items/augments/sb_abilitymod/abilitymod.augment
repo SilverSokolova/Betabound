@@ -1,0 +1,18 @@
+{
+  "itemName": "sb_abilitymod",
+  "price": 1500,
+  "tooltipKind": "sb_object4",
+  "rarity": "common",
+  "itemTags": ["weapon", "ranged", "revolver", "pistol", "gun"],
+  "category": "pistol",
+  "tooltipFields": {
+    "subtitle": "Weapon Mod"
+  },
+  "description": "Replaces the %s^reset; ability of certain weapons.\n^gray;Select item and right-click weapon",
+  "primaryDescription": "^blue;primary",
+  "altDescription": "^red;special",
+  "elementalNameDescription": "Element",
+  "shortdescription": "",
+  "scripts": ["/scripts/augments/sb_ability.lua"],
+  "builder": "/items/buildscripts/starbound/buildabilitymod.lua"
+}

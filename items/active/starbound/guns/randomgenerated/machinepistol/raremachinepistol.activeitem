@@ -31,8 +31,8 @@
     "class": "GunFire",
     "projectileType": ["delayed", "fast", "sb_fastflame", "bouncybullet", "splitbullet", "piercingbullet", "marioball"],
     "fireTime": [0.11, 0.18],
-    "baseDps": [5, 5.5],
-    "energyUsage": [22, 27.5],
+    "baseDps": [6.5, 7],
+    "energyUsage": [19.5, 21],
     "inaccuracy": [1, 5],
     "projectileParameters": {
       "knockbackRange": [0, 6]

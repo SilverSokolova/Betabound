@@ -41,8 +41,6 @@
       }
     ],
 
-    "universeFlagOnDeath": "outpost_beakeasy",
-
     "queryTargetDistance": 50.0,
     "switchTargetDistance": 10.0,
     "keepTargetInSight": false,

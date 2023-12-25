@@ -1,0 +1,57 @@
+{
+  "objectName": "sb_metalworkstation",
+  "rarity": "rare",
+  "interactAction": "OpenCraftingInterface",
+  "interactData": {
+    "config": "/interface/windowconfig/sb_metalworkstation.config",
+    "paneLayoutOverride": {
+      "windowtitle": {
+        "title": "METALWORK STATION",
+        "subtitle": "Perfect for modifying weapons!",
+        "icon": {
+          "file": "/interface/sb_crafting/craftingicons.png:metalwork"
+        }
+      }
+    },
+
+    "filter": ["sb_metalworkstation"],
+    "craftingSound": "/sfx/interface/crafting_furnace.ogg"
+  },
+  "printable": false,
+  "description": "Used to produce various weapon mods, for changing the special abilities of weapons.",
+  "shortdescription": "^orange;Metalwork Station^reset;",
+  "race": "generic",
+  "category": "crafting",
+  "tooltipKind": "sb_object4",
+  "price": 600,
+  "lightColor": [255, 155, 0],
+
+  "apexDescription" : "A station for producing weapon modifications.",
+  "avianDescription" : "This station enables me to create a wide range of weapon mods.",
+  "floranDescription" : "Metal table for making weapon changersss.",
+  "glitchDescription" : "Intrigued. I can use this to alter my weapons.",
+  "humanDescription" : "With this, I can customize my weapon abilities to my liking!",
+  "hylotlDescription" : "A station which can be used to craft some good equipment modifications with.",
+  "novakidDescription" : "A good ol' tinkerin' station for modifyin' guns and whatnot.",
+
+  "inventoryIcon": "metalworkstationicon.png",
+  "orientations": [{
+      "imageLayers": [{
+          "image": "metalworkstation.png:<color>.<frame>",
+          "fullbright": true
+        }, {
+          "image": "metalworkstationlit.png:<color>.<frame>"
+        }
+      ],
+      "dualImage": "",
+
+      "imagePosition": [-8, 0],
+      "frames": 5,
+      "animationCycle": 1,
+
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ]
+}

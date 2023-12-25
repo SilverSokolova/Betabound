@@ -284,9 +284,9 @@ function build(directory, config, parameters, level, seed)
     config.tooltipFields.primaryAbilityTitleLabel = "Primary:"
     config.tooltipFields.primaryAbilityLabel = config.primaryAbility.name or "unknown"
     if parameters.primaryAbility.projectileType then
-	if type(parameters.primaryAbility.projectileType) == "string" then config.tooltipFields.damageKindImage = sb_assetmissing("/interface/sb_tooltips/"..parameters.primaryAbility.projectileType..".png","/interface/sb_tooltips/assetmissing.png")
-	elseif type(parameters.primaryAbility.projectileType) == "table" then local projectiles = parameters.primaryAbility.projectileType
---todo: loop
+      if type(parameters.primaryAbility.projectileType) == "string" then config.tooltipFields.damageKindImage = sb_assetmissing("/interface/sb_tooltips/"..parameters.primaryAbility.projectileType..".png","/interface/sb_tooltips/assetmissing.png")
+      elseif type(parameters.primaryAbility.projectileType) == "table" then local projectiles = parameters.primaryAbility.projectileType
+      --todo: loop
         if #projectiles >= 1 then config.tooltipFields.damageKindImage = sb_assetmissing("/interface/sb_tooltips/"..projectiles[1]..".png","/interface/sb_tooltips/assetmissing.png") end
         if #projectiles >= 2 then config.tooltipFields.damageKindBImage = sb_assetmissing("/interface/sb_tooltips/"..projectiles[2]..".png","/interface/sb_tooltips/assetmissing.png") end
         if #projectiles >= 3 then config.tooltipFields.damageKindCImage = sb_assetmissing("/interface/sb_tooltips/"..projectiles[3]..".png","/interface/sb_tooltips/assetmissing.png") end

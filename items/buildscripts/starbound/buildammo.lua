@@ -5,7 +5,7 @@ function build(directory, config, parameters)
   table.insert(config.inventoryIcon, {image = "sb_ammo.png"})
   table.insert(config.inventoryIcon, {image = sb_assetmissing("/interface/sb_tooltips/"..parameters.projectileType..".png", "/interface/sb_tooltips/assetmissing.png")})
   if root.assetJson("/items/defaultParameters.config:defaultMaxStack") < 9999 then config.maxStack = 9999 end
-  config = sb.jsonMerge(config,getDescriptor(parameters.projectileType))
+  config = sb.jsonMerge(config, getDescriptor(parameters.projectileType) or {})
   if parameters.level then
     parameters.level = nil
   end
@@ -17,7 +17,7 @@ function randomProjectile(a)
 end
 
 function getDescriptor(a)
-  local descriptor = root.assetJson("/sb_projectiles.config")[a] or nil
+  local descriptor = root.assetJson("/sb_projectiles.config")[a]
   if descriptor then
     if type(descriptor) == "string" then
       return {shortdescription=descriptor}

@@ -7,8 +7,8 @@
   "tooltipFields": {
     "damageKindImage": "/interface/sb_tooltips/sb_corrosiveparticle.png"
   },
-  "itemTags": ["weapon", "ranged", "assaultrifle", "upgradeableWeapon"],
-  "category": "assaultRifle",
+  "itemTags": ["weapon", "ranged", "unique", "upgradeableWeapon"],
+  "category": "uniqueWeapon",
   "rarity": "Rare",
   "fixedRarity": false,
   "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",

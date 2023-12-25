@@ -33,13 +33,13 @@ function addAbility(config, parameters, abilitySlot, abilitySource)
     if abilitySlot == "primary" then
       local rotate = parameters.allowRotate or root.assetJson("/items/active/weapons/melee/abilities/broadsword/broadswordcombo.weaponability").ability.stances.fire1.allowRotate or false
       if config.primaryAbility.stances and rotate then
-	for k, v in pairs(config.primaryAbility.stances) do
-	  if k == "idle" then
-	    config.primaryAbility.stances[k].aimAngle = 0
-	  else
-	    util.mergeTable(config.primaryAbility.stances[k], {allowRotate = true, allowFlip = true})
-	  end
-	end
+        for k, v in pairs(config.primaryAbility.stances) do
+          if k == "idle" then
+            config.primaryAbility.stances[k].aimAngle = 0
+          else
+            util.mergeTable(config.primaryAbility.stances[k], {allowRotate = true, allowFlip = true})
+          end
+        end
       end
     end
 

@@ -69,6 +69,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"mechcraftingtable"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_wrappingtable"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_researchstation"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_metalworkstation"}}],
 
 //bosses
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_ironbeacon"}}],

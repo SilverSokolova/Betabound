@@ -9,3 +9,7 @@ function init()
     {effect = "ghostlyglow", duration = 3}
   })
 end
+
+function onExpire()
+  status.setPersistentEffects("sb_minibossglow", {"minibossglow"})
+end

@@ -1,447 +1,447 @@
 {
-  "animatedParts" : {
-    "stateTypes" : {
-      "body" : {
-        "priority" : 0,
-        "default" : "idle",
-        "states" : {
-          "idle" : {
-            "frames" : 1
+  "animatedParts": {
+    "stateTypes": {
+      "body": {
+        "priority": 0,
+        "default": "idle",
+        "states": {
+          "idle": {
+            "frames": 1
           },
-          "jump" : {
-            "frames" : 8
+          "jump": {
+            "frames": 8
           },
-          "walk" : {
-            "frames" : 8,
-            "cycle" : 1.0,
-            "mode" : "loop"
+          "walk": {
+            "frames": 8,
+            "cycle": 1.0,
+            "mode": "loop"
           },
-          "run" : {
-            "frames" : 8,
-            "cycle" : 0.75,
-            "mode" : "loop"
+          "run": {
+            "frames": 8,
+            "cycle": 0.75,
+            "mode": "loop"
           },
-          "chargewindup" : {
-            "frames" : 8,
-            "cycle" : 0.5,
-            "mode" : "loop"
+          "chargewindup": {
+            "frames": 8,
+            "cycle": 0.5,
+            "mode": "loop"
           },
-          "fire" : {
-            "frames" : 8,
-            "cycle" : 1.0,
-            "mode" : "loop"
+          "fire": {
+            "frames": 8,
+            "cycle": 1.0,
+            "mode": "loop"
           },
-          "firewindup" : {
-            "frames" : 2,
-            "cycle" : 0.5,
-	    "mode": "transition",
-	    "transition" : "fire"
-          },
-          "firewinddown" : {
-            "frames" : 3,
-            "cycle" : 0.5,
+          "firewindup": {
+            "frames": 2,
+            "cycle": 0.5,
             "mode": "transition",
-	    "transition" : "idle"
+            "transition": "fire"
           },
-          "charge" : {
-            "frames" : 8,
-            "cycle" : 0.5,
-            "mode" : "loop"
+          "firewinddown": {
+            "frames": 3,
+            "cycle": 0.5,
+            "mode": "transition",
+            "transition": "idle"
           },
-          "die" : {
-            "frames" : 8,
-            "cycle" : 0.5,
-            "mode" : "loop"
+          "charge": {
+            "frames": 8,
+            "cycle": 0.5,
+            "mode": "loop"
           },
-          "chargewinddown" : {
-            "frames" : 1
+          "die": {
+            "frames": 8,
+            "cycle": 0.5,
+            "mode": "loop"
+          },
+          "chargewinddown": {
+            "frames": 1
           }
         }
       },
-      "damage" : {
-        "priority" : 3,
-        "default" : "none",
-        "states" : {
-          "none" : {
-            "frames" : 1
+      "damage": {
+        "priority": 3,
+        "default": "none",
+        "states": {
+          "none": {
+            "frames": 1
           },
-          "stunned" : {
-            "frames" : 8
+          "stunned": {
+            "frames": 8
           }
         }
       },
-      "releaseParticles" : {
-        "default" : "off",
-        "states" : {
-          "off" : {
-            "frames" : 1,
-            "properties" : {
-              "particleEmittersOff" : [ "releaseParticles" ]
+      "releaseParticles": {
+        "default": "off",
+        "states": {
+          "off": {
+            "frames": 1,
+            "properties": {
+              "particleEmittersOff": ["releaseParticles"]
             }
           },
-          "on" : {
-            "frames" : 1,
-            "cycle" : 0.1,
-            "mode" : "transition",
-            "transition" : "off",
-            "properties" : {
-              "particleEmittersOn" : [ "releaseParticles" ]
+          "on": {
+            "frames": 1,
+            "cycle": 0.1,
+            "mode": "transition",
+            "transition": "off",
+            "properties": {
+              "particleEmittersOn": ["releaseParticles"]
             }
           }
         }
       }
     },
 
-    "parts" : {
-      "barm" : {
-        "properties" : {
-          "transformationGroups" : [ "body" ],
-          "zLevel" : 0
+    "parts": {
+      "barm": {
+        "properties": {
+          "transformationGroups": ["body"],
+          "zLevel": 0
         },
 
-        "partStates" : {
-          "body" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:idle"
+        "partStates": {
+          "body": {
+            "idle": {
+              "properties": {
+                "image": "<partImage>:idle"
               }
             },
-            "jump" : {
-              "properties" : {
-                "image" : "<partImage>:jump.<frame>"
+            "jump": {
+              "properties": {
+                "image": "<partImage>:jump.<frame>"
               }
             },
-            "walk" : {
-              "properties" : {
-                "image" : "<partImage>:walk.<frame>"
+            "walk": {
+              "properties": {
+                "image": "<partImage>:walk.<frame>"
               }
             },
-            "run" : {
-              "properties" : {
-                "image" : "<partImage>:walk.<frame>"
+            "run": {
+              "properties": {
+                "image": "<partImage>:walk.<frame>"
               }
             },
-            "chargewindup" : {
-              "properties" : {
-                "image" : "<partImage>:melee.<frame>"
+            "chargewindup": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>"
               }
             },
-            "firewindup" : {
-              "properties" : {
-                "image" : "<partImage>:firewindup.<frame>"
+            "firewindup": {
+              "properties": {
+                "image": "<partImage>:firewindup.<frame>"
               }
             },
-            "fire" : {
-              "properties" : {
-                "image" : "<partImage>:fire.<frame>"
+            "fire": {
+              "properties": {
+                "image": "<partImage>:fire.<frame>"
               }
             },
-            "firewinddown" : {
-              "properties" : {
-                "image" : "<partImage>:firewinddown.<frame>"
+            "firewinddown": {
+              "properties": {
+                "image": "<partImage>:firewinddown.<frame>"
               }
             },
-            "charge" : {
-              "properties" : {
-                "image" : "<partImage>:melee.<frame>"
+            "charge": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>"
               }
             },
-            "die" : {
-              "properties" : {
-                "image" : "<partImage>:die.<frame>"
+            "die": {
+              "properties": {
+                "image": "<partImage>:die.<frame>"
               }
             },
-            "chargewinddown" : {
-              "properties" : {
-                "image" : "<partImage>:die.<frame>"
+            "chargewinddown": {
+              "properties": {
+                "image": "<partImage>:die.<frame>"
               }
             }
           },
-          "damage" : {
-            "stunned" : {
-              "properties" : {
-                "image" : "<partImage>:die.<frame>"
+          "damage": {
+            "stunned": {
+              "properties": {
+                "image": "<partImage>:die.<frame>"
               }
             }
           }
         }
       },
 
-      "farm" : {
-        "properties" : {
-          "transformationGroups" : [ "body" ],
-          "zLevel" : 4
+      "farm": {
+        "properties": {
+          "transformationGroups": ["body"],
+          "zLevel": 4
         },
 
-        "partStates" : {
-          "body" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:idle"
+        "partStates": {
+          "body": {
+            "idle": {
+              "properties": {
+                "image": "<partImage>:idle"
               }
             },
-            "jump" : {
-              "properties" : {
-                "image" : "<partImage>:jump.<frame>"
+            "jump": {
+              "properties": {
+                "image": "<partImage>:jump.<frame>"
               }
             },
-            "walk" : {
-              "properties" : {
-                "image" : "<partImage>:walk.<frame>"
+            "walk": {
+              "properties": {
+                "image": "<partImage>:walk.<frame>"
               }
             },
-            "run" : {
-              "properties" : {
-                "image" : "<partImage>:walk.<frame>"
+            "run": {
+              "properties": {
+                "image": "<partImage>:walk.<frame>"
               }
             },
-            "chargewindup" : {
-              "properties" : {
-                "image" : "<partImage>:melee.<frame>"
+            "chargewindup": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>"
               }
             },
-            "firewindup" : {
-              "properties" : {
-                "image" : "<partImage>:firewindup.<frame>"
+            "firewindup": {
+              "properties": {
+                "image": "<partImage>:firewindup.<frame>"
               }
             },
-            "fire" : {
-              "properties" : {
-                "image" : "<partImage>:fire.<frame>"
+            "fire": {
+              "properties": {
+                "image": "<partImage>:fire.<frame>"
               }
             },
-            "firewinddown" : {
-              "properties" : {
-                "image" : "<partImage>:firewinddown.<frame>"
+            "firewinddown": {
+              "properties": {
+                "image": "<partImage>:firewinddown.<frame>"
               }
             },
-            "charge" : {
-              "properties" : {
-                "image" : "<partImage>:melee.<frame>"
+            "charge": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>"
               }
             },
-            "chargewinddown" : {
-              "properties" : {
-                "image" : "<partImage>:die.<frame>"
+            "chargewinddown": {
+              "properties": {
+                "image": "<partImage>:die.<frame>"
               }
             }
           },
-          "damage" : {
-            "stunned" : {
-              "properties" : {
-                "image" : "<partImage>:jump.<frame>"
+          "damage": {
+            "stunned": {
+              "properties": {
+                "image": "<partImage>:jump.<frame>"
               }
             },
-            "die" : {
-              "properties" : {
-                "image" : "<partImage>:die.<frame>"
+            "die": {
+              "properties": {
+                "image": "<partImage>:die.<frame>"
               }
             }
           }
         }
       },
 
-      "body" : {
-        "properties" : {
-          "transformationGroups" : [ "body" ],
-          "zLevel" : 2
+      "body": {
+        "properties": {
+          "transformationGroups": ["body"],
+          "zLevel": 2
         },
 
-        "partStates" : {
-          "body" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:idle"
+        "partStates": {
+          "body": {
+            "idle": {
+              "properties": {
+                "image": "<partImage>:idle"
               }
             },
-            "jump" : {
-              "properties" : {
-                "image" : "<partImage>:jump.<frame>"
+            "jump": {
+              "properties": {
+                "image": "<partImage>:jump.<frame>"
               }
             },
-            "walk" : {
-              "properties" : {
-                "image" : "<partImage>:walk.<frame>"
+            "walk": {
+              "properties": {
+                "image": "<partImage>:walk.<frame>"
               }
             },
-            "run" : {
-              "properties" : {
-                "image" : "<partImage>:walk.<frame>"
+            "run": {
+              "properties": {
+                "image": "<partImage>:walk.<frame>"
               }
             },
-            "chargewindup" : {
-              "properties" : {
-                "image" : "<partImage>:melee.<frame>"
+            "chargewindup": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>"
               }
             },
-            "firewindup" : {
-              "properties" : {
-                "image" : "<partImage>:firewindup.<frame>"
+            "firewindup": {
+              "properties": {
+                "image": "<partImage>:firewindup.<frame>"
               }
             },
-            "fire" : {
-              "properties" : {
-                "image" : "<partImage>:fire.<frame>"
+            "fire": {
+              "properties": {
+                "image": "<partImage>:fire.<frame>"
               }
             },
-            "firewinddown" : {
-              "properties" : {
-                "image" : "<partImage>:firewinddown.<frame>"
+            "firewinddown": {
+              "properties": {
+                "image": "<partImage>:firewinddown.<frame>"
               }
             },
-            "charge" : {
-              "properties" : {
-                "image" : "<partImage>:melee.<frame>"
+            "charge": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>"
               }
             },
-            "chargewinddown" : {
-              "properties" : {
-                "image" : "<partImage>:die.<frame>"
+            "chargewinddown": {
+              "properties": {
+                "image": "<partImage>:die.<frame>"
               }
             }
           },
-          "damage" : {
-            "stunned" : {
-              "properties" : {
-                "image" : "<partImage>:die.<frame>"
+          "damage": {
+            "stunned": {
+              "properties": {
+                "image": "<partImage>:die.<frame>"
               }
             }
           }
         }
       },
 
-      "tail" : {
-        "properties" : {
-          "transformationGroups" : [ "body" ],
-          "zLevel" : 1
+      "tail": {
+        "properties": {
+          "transformationGroups": ["body"],
+          "zLevel": 1
         },
 
-        "partStates" : {
-          "body" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:idle"
+        "partStates": {
+          "body": {
+            "idle": {
+              "properties": {
+                "image": "<partImage>:idle"
               }
             },
-            "jump" : {
-              "properties" : {
-                "image" : "<partImage>:jump.<frame>"
+            "jump": {
+              "properties": {
+                "image": "<partImage>:jump.<frame>"
               }
             },
-            "walk" : {
-              "properties" : {
-                "image" : "<partImage>:walk.<frame>"
+            "walk": {
+              "properties": {
+                "image": "<partImage>:walk.<frame>"
               }
             },
-            "run" : {
-              "properties" : {
-                "image" : "<partImage>:walk.<frame>"
+            "run": {
+              "properties": {
+                "image": "<partImage>:walk.<frame>"
               }
             },
-            "chargewindup" : {
-              "properties" : {
-                "image" : "<partImage>:melee.<frame>"
+            "chargewindup": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>"
               }
             },
-            "firewindup" : {
-              "properties" : {
-                "image" : "<partImage>:firewindup.<frame>"
+            "firewindup": {
+              "properties": {
+                "image": "<partImage>:firewindup.<frame>"
               }
             },
-            "fire" : {
-              "properties" : {
-                "image" : "<partImage>:fire.<frame>"
+            "fire": {
+              "properties": {
+                "image": "<partImage>:fire.<frame>"
               }
             },
-            "firewinddown" : {
-              "properties" : {
-                "image" : "<partImage>:firewinddown.<frame>"
+            "firewinddown": {
+              "properties": {
+                "image": "<partImage>:firewinddown.<frame>"
               }
             },
-            "charge" : {
-              "properties" : {
-                "image" : "<partImage>:melee.<frame>"
+            "charge": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>"
               }
             },
-            "chargewinddown" : {
-              "properties" : {
-                "image" : "<partImage>:die.<frame>"
+            "chargewinddown": {
+              "properties": {
+                "image": "<partImage>:die.<frame>"
               }
             }
           },
-          "damage" : {
-            "stunned" : {
-              "properties" : {
-                "image" : "<partImage>:die.<frame>"
+          "damage": {
+            "stunned": {
+              "properties": {
+                "image": "<partImage>:die.<frame>"
               }
             }
           }
         }
       },
 
-      "head" : {
-        "properties" : {
-          "transformationGroups" : [ "body", "aim" ],
-          "zLevel" : 3
+      "head": {
+        "properties": {
+          "transformationGroups": ["body", "aim"],
+          "zLevel": 3
         },
 
-        "partStates" : {
-          "body" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:idle"
+        "partStates": {
+          "body": {
+            "idle": {
+              "properties": {
+                "image": "<partImage>:idle"
               }
             },
-            "jump" : {
-              "properties" : {
-                "image" : "<partImage>:jump.<frame>"
+            "jump": {
+              "properties": {
+                "image": "<partImage>:jump.<frame>"
               }
             },
-            "walk" : {
-              "properties" : {
-                "image" : "<partImage>:walk.<frame>"
+            "walk": {
+              "properties": {
+                "image": "<partImage>:walk.<frame>"
               }
             },
-            "run" : {
-              "properties" : {
-                "image" : "<partImage>:walk.<frame>"
+            "run": {
+              "properties": {
+                "image": "<partImage>:walk.<frame>"
               }
             },
-            "chargewindup" : {
-              "properties" : {
-                "image" : "<partImage>:melee.<frame>"
+            "chargewindup": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>"
               }
             },
-            "firewindup" : {
-              "properties" : {
-                "image" : "<partImage>:firewindup.<frame>"
+            "firewindup": {
+              "properties": {
+                "image": "<partImage>:firewindup.<frame>"
               }
             },
-            "fire" : {
-              "properties" : {
-                "image" : "<partImage>:fire.<frame>"
+            "fire": {
+              "properties": {
+                "image": "<partImage>:fire.<frame>"
               }
             },
-            "firewinddown" : {
-              "properties" : {
-                "image" : "<partImage>:firewinddown.<frame>"
+            "firewinddown": {
+              "properties": {
+                "image": "<partImage>:firewinddown.<frame>"
               }
             },
-            "charge" : {
-              "properties" : {
-                "image" : "<partImage>:melee.<frame>"
+            "charge": {
+              "properties": {
+                "image": "<partImage>:melee.<frame>"
               }
             },
-            "chargewinddown" : {
-              "properties" : {
-                "image" : "<partImage>:die.<frame>"
+            "chargewinddown": {
+              "properties": {
+                "image": "<partImage>:die.<frame>"
               }
             }
           },
-          "damage" : {
-            "stunned" : {
-              "properties" : {
-                "image" : "<partImage>:die.<frame>"
+          "damage": {
+            "stunned": {
+              "properties": {
+                "image": "<partImage>:die.<frame>"
               }
             }
           }
@@ -450,70 +450,96 @@
     }
   },
 
-  "transformationGroups" : {
-    "body" : {"interpolated" : true},
-    "aim" : {"interpolated" : true}
+  "transformationGroups": {
+    "body": {
+      "interpolated": true
+    },
+    "aim": {
+      "interpolated": true
+    }
   },
 
-  "particleEmitters" : {
-    "deathPoof" : {
-      "particles" : [
-        { "particle" : "monstersplosion" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathfizz1left" },
-        { "particle" : "deathfizz1right" },
-        { "particle" : "deathfizz2left" },
-        { "particle" : "deathfizz2right" },
-        { "particle" : "deathfizz3left" },
-        { "particle" : "deathfizz3right" },
-        { "particle" : "deathfizz4left" },
-        { "particle" : "deathfizz4right" }
+  "particleEmitters": {
+    "deathPoof": {
+      "particles": [{
+          "particle": "monstersplosion"
+        }, {
+          "particle": "deathember"
+        }, {
+          "particle": "deathember"
+        }, {
+          "particle": "deathember"
+        }, {
+          "particle": "deathember"
+        }, {
+          "particle": "deathember"
+        }, {
+          "particle": "deathember"
+        }, {
+          "particle": "deathember"
+        }, {
+          "particle": "deathember"
+        }, {
+          "particle": "deathfizz1left"
+        }, {
+          "particle": "deathfizz1right"
+        }, {
+          "particle": "deathfizz2left"
+        }, {
+          "particle": "deathfizz2right"
+        }, {
+          "particle": "deathfizz3left"
+        }, {
+          "particle": "deathfizz3right"
+        }, {
+          "particle": "deathfizz4left"
+        }, {
+          "particle": "deathfizz4right"
+        }
       ]
     },
-    "captureParticles" : {
-      "particles" : [
-        { "particle" : "monstercapture" }
+    "captureParticles": {
+      "particles": [{
+          "particle": "monstercapture"
+        }
       ]
     },
-    "releaseParticles" : {
-      "particles" : [
-        { "particle" : "monsterrelease" }
+    "releaseParticles": {
+      "particles": [{
+          "particle": "monsterrelease"
+        }
       ]
     },
-    "teleportOut" : {
-      "particles" : [
-        { "particle" : "monstercapture" }
+    "teleportOut": {
+      "particles": [{
+          "particle": "monstercapture"
+        }
       ]
     },
-    "teleportIn" : {
-      "particles" : [
-        { "particle" : "monsterrelease" }
+    "teleportIn": {
+      "particles": [{
+          "particle": "monsterrelease"
+        }
       ]
     },
-    "levelUp" : {
-      "particles" : [
-        { "particle" : "monsterlevelup" }
+    "levelUp": {
+      "particles": [{
+          "particle": "monsterlevelup"
+        }
       ]
     }
   },
 
-  "sounds" : {
-    "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ],
-    "fire" : [ ]
+  "sounds": {
+    "aggroHop": ["/sfx/npc/monsters/monster_surprise.ogg"],
+    "deathPuff": ["/sfx/npc/enemydeathpuff.ogg"],
+    "fire": []
   },
-  "effects" : {
-    "blink" : {
-      "type" : "flash",
-      "time" : 0.25,
-      "directives" : "fade=ffffff;0.5"
+  "effects": {
+    "blink": {
+      "type": "flash",
+      "time": 0.25,
+      "directives": "fade=ffffff;0.5"
     }
   }
 }

@@ -103,19 +103,20 @@ function overheadBars()
   sb.setLogMap("sb_shields","%s (%s), %s (%s), %s",status.resource("sb_shieldStaminaL"),status.stat("sb_shieldHealthL"),status.resource("sb_shieldStaminaR"),status.stat("sb_shieldHealthR"),status.resource("sb_forceFieldStrength"))
   sb.setLogMap("sb_techtier","%s",player and player.getProperty("sb_techTier","-") or "UNAVAILABLE")
 
-  --TODO: loops?
   sb_shieldAlpha[1] = status.resourcePercentage("sb_shieldStaminaL") == 1 and math.max(0,sb_shieldAlpha[1]-15) or 255
   sb_shieldAlpha[2] = status.resourcePercentage("sb_shieldStaminaR") == 1 and math.max(0,sb_shieldAlpha[2]-15) or 255
   sb_shieldAlpha[3] = status.resourcePercentage("sb_shieldStaminaT") == 0 and math.max(0,sb_shieldAlpha[3]-15) or 255
 
   if sb_shieldAlpha[1] > 0 or status.statPositive("sb_shieldHealthL") or status.resourcePercentage("sb_shieldStaminaL") < 1 then
     table.insert(bars, {
+      icon = "/interface/sb_shieldL.png?multiply=FFFFFF"..string.format("%02X", sb_shieldAlpha[1]),
       percentage = status.resource("sb_shieldStaminaL"),
       color = {30, 121, status.resourcePositive("sb_perfectBlockL") and 255 or 188, sb_shieldAlpha[1]}
     })
   end
   if sb_shieldAlpha[2] > 0 or status.statPositive("sb_shieldHealthR") or status.resourcePercentage("sb_shieldStaminaR") < 1 then
     table.insert(bars, {
+      icon = "/interface/sb_shieldR.png?multiply=FFFFFF"..string.format("%02X", sb_shieldAlpha[2]),
       percentage = status.resource("sb_shieldStaminaR"),
       color = {status.resourcePositive("sb_perfectBlockR") and 255 or 177, 42, 48, sb_shieldAlpha[2]}
     })

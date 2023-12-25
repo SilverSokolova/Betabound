@@ -34,7 +34,7 @@
     "class": "GunFire",
     "projectileType": ["plasmabullet", "greenplasmabullet", "blueplasmabullet", "yellowplasmabullet"],
     "fireTime": [0.11, 0.18],
-    "baseDps": [3, 3.5],
+    "baseDps": [6, 6.5],
     "energyUsage": [18, 19.5],
     "inaccuracy": [1, 5],
     "projectileParameters": {

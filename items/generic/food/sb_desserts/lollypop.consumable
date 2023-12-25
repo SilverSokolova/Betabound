@@ -5,7 +5,7 @@
   "tooltipKind": "sb_object4",
   "rarity": "unCommon",
   "inventoryIcon": "lollypop.png",
-  "handPosition": [-2.7, -2.6],
+  "handPosition": [-2.5, -2.6],
   "category": "preparedFood",
   "effects": [[{
         "effect": "maxhealthscalingboostfood",

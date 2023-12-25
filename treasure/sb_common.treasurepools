@@ -39,20 +39,22 @@
       "pool" : [
         {"weight" : 0.10, "pool" : "commonGun"},
         {"weight" : 0.5, "pool" : "uncommonGun"},
-        {"weight" : 0.03, "pool" : "rareGun"}
+        {"weight" : 0.03, "pool" : "rareGun"},
+        {"weight" : 0.5, "pool" : "sb_gunAbilityMod"}
       ]
     }],
     [4.9, {
       "pool" : [
         {"weight" : 0.10, "pool" : "commonGun"},
         {"weight" : 0.6, "pool" : "uncommonGun"},
-        {"weight" : 0.03, "pool" : "rareGun"}
+        {"weight" : 0.03, "pool" : "rareGun"},
+        {"weight" : 0.6, "pool" : "sb_gunAbilityMod"}
       ]
     }]
   ],
 
   // ================================
-  //            Repair Pools
+  //            Repair Tools
   // ================================
 
 
@@ -171,7 +173,7 @@
     }]
   ],
 
-  "sb_brain" : [ //unused i think
+  "sb_brain" : [ //TODO: unused i think
     [0, {
       "pool" : [
         {"weight" : 0.6, "item" : "brain"},
