@@ -1,15 +1,15 @@
 {
-  "itemName" : "sb_hawkeyes",
-  "inventoryIcon" : "hawkeyes.png",
-  "rarity" : "legendary",
-  "maxStack" : 1,
-  "price" : 3000,
-  "description" : "A cape that sees all. Press the mouse button to see further than ever!",
-  "shortdescription" : "All-Seeing Cape",
-  "tooltipKind" : "sb_tool",
-  "largeImage" : "hawkeyes.png",
-  "category" : "tool",
-  "range" : 40,
-  "scriptDelta" : 1,
-  "scripts" : ["hawkeyes.lua"]
+  "itemName": "sb_hawkeyes",
+  "inventoryIcon": "hawkeyes.png",
+  "rarity": "legendary",
+  "maxStack": 1,
+  "price": 3000,
+  "description": "A cape that sees all. Press the mouse button to see further than ever!",
+  "shortdescription": "All-Seeing Cape",
+  "tooltipKind": "sb_tool",
+  "largeImage": "hawkeyes.png",
+  "category": "tool",
+  "range": 80,
+  "scriptDelta": 1,
+  "scripts": ["hawkeyes.lua"]
 }

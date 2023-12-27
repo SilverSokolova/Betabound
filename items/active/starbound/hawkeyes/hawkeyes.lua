@@ -20,12 +20,25 @@ function activate()
 end
 
 function update(dt)
-  if world.magnitude(entity.position(),activeItem.ownerAimPosition()) < r then
-    activeItem.setCursor(string.format("/cursors/charge%s.cursor",id and "invalid" or "ready"))
-    if id and world.entityExists(id) then
-     world.sendEntityMessage(id,"updateProjectile",activeItem.ownerAimPosition())
-    end
-  else
-    activeItem.setCursor("/cursors/chargeidle.cursor")
+  activeItem.setCursor(string.format("/cursors/charge%s.cursor",id and "invalid" or "ready"))
+  if id and world.entityExists(id) then
+    local pos = withinBounds(activeItem.ownerAimPosition())
+    world.sendEntityMessage(id, "updateProjectile", pos)
+    lastPos = pos
   end
+end
+
+function withinBounds(pos)
+  local playerPos = entity.position()
+  local newPos = {}
+  lastPos = lastPos or pos
+  for i = 1, 2 do
+    local testedPos = pos[i]
+    if testedPos < playerPos[i] - r then
+      pos[i] = lastPos[i]
+    elseif testedPos > playerPos[i] + r then
+      pos[i] = lastPos[i]
+    end
+  end
+  return pos
 end

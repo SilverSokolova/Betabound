@@ -73,12 +73,6 @@
 
 //bosses
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_ironbeacon"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_robot"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_robotheadempty"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"robothead"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"robotarms"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"robotchest"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"robotlegs"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"artificialbrain"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_peanutbutter"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_peanutbutterjar"}}],

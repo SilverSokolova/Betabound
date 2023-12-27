@@ -1,11 +1,11 @@
 {
-  "itemName" : "sb_robotheadempty",
-  "price" : 374,
-  "rarity" : "Uncommon",
-  "category" : "craftingMaterial",
-  "inventoryIcon" : "sb_robotheadempty.png",
-  "description" : "A robot head missing its brain.",
-  "itemTags" : ["reagent"],
-  "shortdescription" : "Empty Robot Head",
-  "tooltipKind" : "sb_object"
+  "itemName": "sb_robotheadempty",
+  "price": 300,
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "inventoryIcon": "sb_robotheadempty.png",
+  "description": "A robot head missing its brain.",
+  "itemTags": ["reagent"],
+  "shortdescription": "Empty Robot Head",
+  "tooltipKind": "sb_object"
 }

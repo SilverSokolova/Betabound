@@ -1,7 +1,7 @@
 {
   "objectName": "sb_robot",
   "rarity": "essential",
-  "description": "An inactive robot! Who knows what happens if it's switched on. ^gray;It could help obtain a ^#CEA867;processor^gray;...^reset;",
+  "description": "An inactive robot! Who knows what happens if it's switched on. ^gray;Craft robot parts at an ^#CEA867;iron tool table^gray;.^reset;",
   "shortdescription": "^#f00;Inactive Robot^reset;",
   "race": "generic",
   "category": "other",
@@ -19,9 +19,9 @@
   "humanDescription": "All the other robots I've met have been mostly friendly, I bet this is too!",
   "hylotlDescription": "Even if this robot is hostile, I can no doubt use diplomacy to reason with it.",
 
-  "inventoryIcon": "sb_robothead.png",
+  "inventoryIcon": "sb_roboticon.png",
   "orientations": [{
-      "dualImage": "sb_sleepingrobot.png",
+      "dualImage": "sb_robot.png",
       "imagePosition": [-16, 0],
       "frames": 1,
       "animationCycle": 1,
@@ -32,7 +32,7 @@
 
   "animation": "sb_ironbeacon2.animation",
   "animationParts": {
-    "beacon": "sb_sleepingrobot.png"
+    "beacon": "sb_robot.png"
   },
   "animationPosition": [-16, 0],
   "sounds": ["/sfx/interface/clickon_error.ogg"],
