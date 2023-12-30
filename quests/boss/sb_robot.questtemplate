@@ -29,8 +29,7 @@
       }
     },
     "requireTurnIn": true,
-    "acceptItems": ["sb_robot-recipe"],
-    "sb_acceptBlueprints": ["sb_robotheadempty", "robothead", "robotarms", "robotchest", "robotlegs"],
+    "sb_acceptBlueprints": ["sb_robot", "sb_robotheadempty", "robothead", "robotarms", "robotchest", "robotlegs"],
     "turnInDescription": "Return to ^orange;Dr. Akaggy^reset; at the ^orange;Outpost^reset;",
     "conditions": [{
         "type": "gatherItem",

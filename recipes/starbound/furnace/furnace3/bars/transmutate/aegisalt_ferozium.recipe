@@ -2,5 +2,5 @@
   "input" : [["refinedaegisalt",2],"platinumbar"],
   "output" : "refinedferozium",
   "duration" : 0.15,
-  "groups" : ["craftingfurnace3","bars","all"]
+  "groups" : ["craftingfurnace3","bars","all","nouncrafting"]
 }

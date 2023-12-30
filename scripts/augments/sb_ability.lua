@@ -36,9 +36,9 @@ function apply(input)
 
   if valid and newAbility ~= currentAbility then
     output:setInstanceValue(slot, newAbility)
---  if output:instanceValue("altAbility") then
---    otuput:setInstanceValue("altAbility", nil)
---  end
+--    if output:instanceValue("altAbility") then
+--      output:setInstanceValue("altAbility", {name="test"})
+--    end
     return output:descriptor(), 1
   end
 end

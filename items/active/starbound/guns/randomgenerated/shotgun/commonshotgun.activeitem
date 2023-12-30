@@ -88,7 +88,8 @@
         "grenadelauncher",
         "stickyshot",
         "shrapnelbomb",
-        "burstshot"
+        "burstshot",
+        "sb_physicallance"
       ]
     }
   ],

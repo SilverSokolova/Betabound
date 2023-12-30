@@ -9,7 +9,7 @@
   "tooltipKind": "sb_tool",
   "largeImage": "hawkeyes.png",
   "category": "tool",
-  "range": 80,
+  "range": 40,
   "scriptDelta": 1,
   "scripts": ["hawkeyes.lua"]
 }

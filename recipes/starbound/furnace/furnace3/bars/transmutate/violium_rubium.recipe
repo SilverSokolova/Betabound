@@ -2,5 +2,5 @@
   "input" : [["refinedviolium",2],"platinumbar"],
   "output" : "sb_refinedrubium",
   "duration" : 0.15,
-  "groups" : ["craftingfurnace3","bars","all"]
+  "groups" : ["craftingfurnace3","bars","all","nouncrafting"]
 }

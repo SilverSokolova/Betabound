@@ -1,0 +1,108 @@
+{
+  "animationParts": {},
+  "animationCustom": {
+    "animatedParts": {
+      "stateTypes": {
+        "lance": {
+          "default": "idle",
+          "states": {
+            "idle": {},
+            "fire": {
+              "frames": 4,
+              "cycle": 0.12,
+              "mode": "transition",
+              "transition": "idle"
+            }
+          }
+        }
+      },
+      "parts": {
+        "lance": {
+          "properties": {
+            "zLevel": 3,
+            "centered": true,
+            "fullbright": true,
+            "offset": [2.5, 0],
+            "transformationGroups": ["muzzle"],
+            "damageArea": [[-3, 0], [-2, 0.5], [2.5, 0], [-2, -0.5]]
+          },
+          "partStates": {
+            "lance": {
+              "idle": {
+                "properties": {
+                  "image": ""
+                }
+              },
+              "fire": {
+                "properties": {
+                  "image": "/items/active/weapons/ranged/abilities/lance/laserlance.png:<frame>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "lights": {
+      "physicalflash": {
+        "active": false,
+        "position": [3, 0],
+        "color": [140, 40, 40]
+      }
+    },
+    "particleEmitters": {
+      "physicalblast": {
+        "active": false,
+        "transformationGroups": ["weapon"],
+        "emissionRate": 25,
+        "offsetRegion": [0, -0.5, 3, 0.5],
+        "particles": [{
+            "particle": "energy"
+          }, {
+            "particle": "energyblade"
+          }, {
+            "particle": "energyblade2"
+          }, {
+            "particle": "energy"
+          }, {
+            "particle": "energyblade"
+          }, {
+            "particle": "energyblade2"
+          }
+        ]
+      }
+    },
+    "sounds": {
+      "physicallancefire": ["/sfx/gun/elemental_lance.ogg"]
+    }
+  },
+
+  "ability": {
+    "name": "Energy Lance",
+    "type": "sb_physicallance",
+    "scripts": ["/items/active/weapons/ranged/abilities/lance/lance.lua"],
+    "class": "LanceAttack",
+
+    "cooldownTime": 1,
+    "energyUsage": 50,
+    "damageConfig": {
+      "damageSourceKind": "plasma",
+      "baseDamage": 10,
+      "knockback": 40,
+      "timeoutGroup": "alt",
+      "timeout": 0.5
+    },
+
+    "stances": {
+      "fire": {
+        "duration": 0.3,
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+
+        "allowRotate": false,
+        "allowFlip": false
+      }
+    }
+  }
+}

@@ -6,6 +6,8 @@
 [{"op":"add","path":"/sb_shotgun","value":"/items/active/starbound/guns/abilities/shotgun.weaponability"}],
 [{"op":"add","path":"/sb_burst","value":"/items/active/starbound/guns/abilities/burst.weaponability"}],
 
+[{"op":"add","path":"/sb_physicallance","value":"/items/active/weapons/ranged/abilities/lance/sb_physicallance.weaponability"}],
+
 [{"op":"add","path":"/sb_axe","value":"/items/active/starbound/weapons/axe.weaponability"}],
 [{"op":"add","path":"/sb_hammer","value":"/items/active/starbound/weapons/hammer.weaponability"}],
 [{"op":"add","path":"/sb_meleeslash","value":"/items/active/starbound/weapons/meleeslash.weaponability"}],

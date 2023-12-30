@@ -15,13 +15,13 @@
 
   "canBeAbandoned" : true,
   "updateDelta" : 10,
-  "script" : "/quests/scripts/main.lua",
+  "script" : "/quests/scripts/sb_main.lua",
   "scriptConfig" : {
     "portraits" : {
       "default" : "questGiver"
     },
     "requireTurnIn" : true,
-    "acceptItems" : ["paperwingsback-recipe"],
+    "sb_acceptBlueprints" : ["paperwingsback"],
     "turnInDescription" : "Speak to ^orange;the Avian refugee ^reset; at the ^orange;outpost^reset;",
     "conditions" : [
       {

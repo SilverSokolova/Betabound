@@ -9,8 +9,10 @@
     "class": "AltFireAttack",
     "projectileCount": 4,
     "energyUsage": 19.75,
-    "baseDamage": 7,
-    "baseDps": 13.25,
+    "damageConfig": {
+      "baseDamage": 7,
+      "baseDps": 13.25
+    },
     "fireTime": 1.5,
     "inaccuracy": 0.13,
     "fireType": "auto",
