@@ -1,6 +1,24 @@
 [
   [{
       "op": "add",
+      "path": "/scripts/-",
+      "value": "/interface/cockpit/sb_cockpit.lua"
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb_jumpFuelCostCap",
+      "value": 1000
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb_fuelJumpCostDivision",
+      "value": 1
+    }
+  ],
+  [{
+      "op": "add",
       "path": "/visitableTypeDescription/ancientgateway/-",
       "value": "A strange ^#571cff;gate^white; of incalculably ancient origin."
     }
