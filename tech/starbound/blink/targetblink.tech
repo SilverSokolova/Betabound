@@ -12,6 +12,9 @@
   "animator": "blink.animation",
 
   "energyUsage": 50,
+  "maxEnergyUsage": 110,
+  "energyEfficiency": 2,
+  "energyUsageType": "scaling",
   "blinkCollisionCheckDiameter": 2,
   "blinkVerticalGroundCheck": 10,
   "blinkFootOffset": -2.5,
