@@ -13,12 +13,6 @@
   ],
   [{
       "op": "add",
-      "path": "/sb_fuelJumpCostDivision",
-      "value": 1
-    }
-  ],
-  [{
-      "op": "add",
       "path": "/visitableTypeDescription/ancientgateway/-",
       "value": "A strange ^#571cff;gate^white; of incalculably ancient origin."
     }

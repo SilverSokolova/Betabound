@@ -4,6 +4,9 @@ function init()
   targetPosition = nil
   inputSpecial = false
   energyUsage = config.getParameter("energyUsage")
+  maxEnergyUsage = config.getParameter("maxEnergyUsage", energyUsage) - energyUsage
+  energyUsageType = config.getParameter("energyUsageType", "")
+  energyEfficiency = config.getParameter("energyEfficiency", 1)
   blinkMode = config.getParameter("blinkMode")
   blinkOutTime = config.getParameter("blinkOutTime")
   blinkInTime = config.getParameter("blinkInTime")
@@ -16,6 +19,17 @@ function init()
   blinkHeadOffset = config.getParameter("blinkHeadOffset")
   randomBlinkTries = config.getParameter("randomBlinkTries")
   randomBlinkDiameter = config.getParameter("randomBlinkDiameter")
+
+  if config.getParameter("energyUsageType", "") == "scaling" then
+    consumeEnergy = function(blinkPosition)
+      local current = mcontroller.position()
+      local dest = blinkPosition
+      local newEnergyUsage = energyUsage + math.min(math.sqrt(((dest[1] - current[1]) ^ 2) + ((dest[2] - current[2]) ^ 2)) / energyEfficiency, maxEnergyUsage)
+      return status.overConsumeResource("energy", newEnergyUsage)
+    end
+  else
+    consumeEnergy = function() return status.overConsumeResource("energy", energyUsage) end
+  end
 end
 
 function blinkAdjust(position, doPathCheck, doCollisionCheck, doLiquidCheck, doStandCheck)
@@ -126,7 +140,7 @@ function update(args)
     end
 
     if not status.statPositive("activeMovementAbilities") then
-      if blinkPosition and status.overConsumeResource("energy", energyUsage) then
+      if blinkPosition and consumeEnergy(blinkPosition) then
         targetPosition = blinkPosition
         mode = "start"
       else
