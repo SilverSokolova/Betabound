@@ -33,7 +33,9 @@ function init()
       }
     end
     vacuum[1].outerRadius = vacuum[1].outerRadius + 6
+    vacuum[2].center[1] = 0.25
     vacuum[1].targetRadialVelocity = vacuum[1].targetRadialVelocity * 2
+    activeItem.setItemForceRegions(vacuum)
   end
 end
 
@@ -43,12 +45,6 @@ function update(dt, fireMode, shifting)
   activeItem.setFacingDirection(aimDirection or 0)
   activeItem.setScriptedAnimationParameter("radius", shifting and altRadius or radius)
 
-  if magnetEnabled then
-    local forceVector = vec2.rotate(magnet.coneSpeed, aimAngle)
-    forceVector[1] = forceVector[1] * aimDirection
-    forceVector[2] = forceVector[2] * aimDirection
-    activeItem.setItemForceRegions(vacuum)
-  end
 --inRange = world.magnitude(mcontroller.position(),activeItem.ownerAimPosition()) <= range
 --activeItem.setScriptedAnimationParameter("inRange",inRange)
 --if inRange then
@@ -97,7 +93,8 @@ end
 
 function fillRadius(radius)
   local base = activeItem.ownerAimPosition()
-  base[1] = math.floor(math.floor(base[1])) base[2] = math.floor(math.floor(base[2]))
+  base[1] = math.floor(math.floor(base[1]))
+  base[2] = math.floor(math.floor(base[2]))
   if radius % 2 == 0 then base = {base[1]+0.4,base[2]+0.4} end
   if radius == 1 then return {base} end
   local t = {}

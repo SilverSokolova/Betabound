@@ -60,7 +60,6 @@
     "length": 4,
     "targetRadialVelocity": -10,
     "controlForce": 250,
-    "coneSpeed": [-20, 5],
     "categoryWhitelist": ["itemdrop"]
   }
 }

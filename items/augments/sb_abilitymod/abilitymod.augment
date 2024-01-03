@@ -8,7 +8,7 @@
   "tooltipFields": {
     "subtitle": "Weapon Mod"
   },
-  "description": "Replaces the %s^reset; ability of certain weapons.\n^gray;Select item and right-click weapon",
+  "description": "Replaces the %s^reset; ability of certain weapons.\n^gray;Apply to weapon with right-click",
   "primaryDescription": "^blue;primary",
   "altDescription": "^red;special",
   "elementalNameDescription": "Element",
