@@ -5,12 +5,18 @@
         {"pool" : "bookTreasure"}
       ],
       "pool" : [
-        {"weight" : 0.5, "item" : ["sb_customcodex",1,{"inventoryIcon":"/codex/sb_humanbunkerbook.png","codexIcon":"/codex/sb_humanbunkerbook.png"}]}
+//      {"weight" : 0.5, "item" : ["sb_customcodex",1,{"inventoryIcon":"/codex/sb_humanbunkerbook.png","codexIcon":"/codex/sb_humanbunkerbook.png"}]},
+        {"weight" : 0.5, "item" : "sb_bunkerlog1-codex"},
+        {"weight" : 0.5, "item" : "sb_bunkerlog2-codex"},
+        {"weight" : 0.5, "item" : "sb_bunkerlog3-codex"},
+        {"weight" : 0.5, "item" : "sb_bunkerlog4-codex"},
+        {"weight" : 0.5, "item" : "sb_bunkerlog5-codex"},
+        {"weight" : 0.5, "item" : "sb_bunkerlog6-codex"},
+        {"weight" : 0.5, "item" : "sb_bunkerorders-codex"},
+        {"weight" : 0.5, "item" : "sb_bunkerpolicy-codex"},
+        {"weight" : 0.5, "item" : "sb_bunkerhandbook-codex"}
       ],
-      "poolRounds" : [
-        [0.05, 0],
-        [0.05, 1]
-      ],
+      "poolRounds" : 1,
       "allowDuplication" : false
     }]
   ],

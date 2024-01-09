@@ -19,21 +19,21 @@ function init()
 
   if magnetEnabled then
     magnet = config.getParameter("magnet")
-    magnet.length = math.min(12, (radius * 1.5) + magnet.length - 1) --TODO: return to this horrible, horrible magneticism and find out why its polarity reverses (HINT: it's controlForce probably)
+    magnet.length = radius * 1.5 + magnet.length
     vacuum = {}
     for i = 1, magnet.length do
       vacuum[i] = {
         type = "RadialForceRegion",
         categoryWhitelist = magnet.categoryWhitelist,
-        innerRadius = 0.5,
+        innerRadius = 0,
         outerRadius = magnet.length - i * 0.25,
-        controlForce = 500 - (i * 50),
+        controlForce = math.max(50, 500 - (i * 50)),
         targetRadialVelocity = -20,
-        center = {(i - 1) * 1.5, 0}
+        center = {(i - 3) * 1.5, 0}
       }
     end
-    vacuum[1].outerRadius = vacuum[1].outerRadius + 6
-    vacuum[2].center[1] = 0.25
+    vacuum[1].outerRadius = 2
+    vacuum[1].center[1] = 0
     vacuum[1].targetRadialVelocity = vacuum[1].targetRadialVelocity * 2
     activeItem.setItemForceRegions(vacuum)
   end

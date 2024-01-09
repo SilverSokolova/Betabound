@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/icon","value":"colonystory.png"},{"op":"replace","path":"/icon","value":"sb_colonystory2.png"}],
+[{"op":"add","path":"/itemConfig/sb_unnumberedCodexIcon","value":"colonystory.png"}]
+]

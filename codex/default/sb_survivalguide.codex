@@ -1,0 +1,48 @@
+{
+  "id": "sb_survivalguide",
+  "title": "Survival Guide",
+  "description": "A guide to surviving the universe.",
+  "icon": "sb_survivalguide.png",
+  "contentPages": [
+"So you want to survive long enough to see your first sunset, right?
+
+Good luck. Seriously.
+There are some handy tips and tricks that you might want to consider before rushing headlong into the wilderness.
+So many adventurers have set out filled with bravado, only to be decimated as soon as night falls.
+
+That won't be you, right? Right?",
+"First up, and this one's important: TOOLS TOOLS TOOLS.
+
+Your handy Matter Manipulator is great if you're in a tight spot, but you can't beat proper tools.
+All you need to make them is cobblestone and wood!
+Wonderful, right?
+
+Before you go charging into alien lands, craft some basic tools on the wooden tool table.
+They'll help. Trust us.",
+
+"\"But what if those tools wear out\", you ask?
+
+Well, many ores can be turned into repair tools by hand, which allow you to sharpen said tools, making them as good as new. When you find an ore, be sure to check if it can be used in that way!
+
+It's the difference between crafting a masterpiece, and being eaten alive by sentient radishes.",
+
+"Making a shelter is pretty handy, too. The nights are dark and full of terrors, and also things that don't LOOK terrifying but really are.
+
+Be sure to build a base with a campfire, even if it looks like a mud hut. You'll thank us when the monsters are clawing at your door, and you're inside, safe, and not freezing to death.",
+
+"Don't forget to upgrade! You might THINK you look the bomb swinging a mouldy stick and wearing your basic rags, but your foes won't think the same. They'll think you look silly, and then eat you.
+
+Craft better weapons, armour, and clothing before taking on more dangerous beasts.",
+
+"Stock up on salves and bandages. They're easy to make, and they'll get you out of a tight spot. It's not always possible to sleep and recuperate, so a good supply of salves can be a life-saver.
+
+Everyone knows salves can heal every type of injury, so there's no excuse to be unprepared.",
+
+"Finally; BIRDS ARE NOT YOUR FRIENDS. Ever. Even if they look cute, they'll kill you as soon as you turn your back. All birds. Not Avians, of course. They're lovely. Proper flying, spitting, burning birds. You know the type. Never trust a bird."
+  ],
+  "itemConfig": {
+    "rarity": "uncommon",
+    "tooltipKind": "sb_object",
+    "price": 25
+  }
+}

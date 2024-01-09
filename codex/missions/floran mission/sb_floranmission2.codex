@@ -1,0 +1,20 @@
+{
+  "id": "sb_floranmission2",
+  "species": "floran",
+  "title": "Trapped in the Caves II",
+  "description": "Notes left in the Ceremonial Hunting Caverns.",
+  "icon": "sb_floranmission2.png",
+  "contentPages": [
+"The Floran hunters seem to form groups - traps and settlements designed to catch their prey - in this case, me. They seemed to have also formed traps using a thick, green poisonous substance.
+
+An interesting feature I've noticed is the remnants of old brick ruins here, interwined in the caverns. I theorise that this place was once governed by a different people - perhaps my fellow Glitch?",
+
+"In my hiding, I stumbled upon a stone trench with a chest. Inside was some elaborate Floran clothing. Perhaps the hunters are rewarded for finding these? Either that, or someone stashed it here for safekeeping."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object",
+    "sb_unnumberedCodexIcon": "sb_floranmission.png"
+  }
+}
