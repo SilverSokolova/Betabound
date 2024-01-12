@@ -11,7 +11,7 @@
 	{"effect":"sb_health","duration":25},
 	"sb_foodheal145"
   ]],
-  "description" : "A bean and cheese burrito. Deliciously unhealthy!",
+  "description" : "A beef and cheese burrito. Deliciously unhealthy!",
   "shortdescription" : "Burrito",
   "builder" : "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
