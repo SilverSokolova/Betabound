@@ -7,7 +7,7 @@
   "speaker": "questGiver",
   "moneyRange": [300, 300],
   "canBeAbandoned": true,
-  "rewards": [[["salvagebody", 10], ["salvagelegs", 10], ["salvagebooster", 10], ["rewardbag", 1, {"level":2}]]],
+  "rewards": [[["salvagebody", 10], ["salvagelegs", 10], ["salvagebooster", 10], ["rewardbag", 1, {"level":3}]]],
 
   "guiConfigs": {
     "questComplete": "/interface/windowconfig/sb_questcomplete.config",
