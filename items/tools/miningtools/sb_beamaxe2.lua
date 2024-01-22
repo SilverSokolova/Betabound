@@ -19,14 +19,14 @@ function init()
 
   if magnetEnabled then
     magnet = config.getParameter("magnet")
-    magnet.length = radius * 1.5 + magnet.length
+    magnet.length = radius * 2.5 + magnet.length
     vacuum = {}
     for i = 1, magnet.length do
       vacuum[i] = {
         type = "RadialForceRegion",
         categoryWhitelist = magnet.categoryWhitelist,
         innerRadius = 0,
-        outerRadius = magnet.length - i * 0.25,
+        outerRadius = magnet.length - i * 0.25, --I'd love to divide this by 2 but then it gets wonky at certain diagonal angles
         controlForce = math.max(50, 500 - (i * 50)),
         targetRadialVelocity = -20,
         center = {(i - 3) * 1.5, 0}

@@ -1,0 +1,5 @@
+{
+  "input" : ["scorchedcore","ironbar",["glass",2]],
+  "output" : "sb_heatingbag",
+  "groups" : ["craftingmedical2","healing","all"]
+}

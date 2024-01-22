@@ -41,6 +41,7 @@
       }
     ],
 
+    "universeFlagOnDeath": "sb_dreadwingUfo", //script requires a universe flag
     "queryTargetDistance": 50.0,
     "switchTargetDistance": 10.0,
     "keepTargetInSight": false,

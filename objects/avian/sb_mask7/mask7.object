@@ -1,33 +1,38 @@
 {
-  "objectName" : "sb_mask7",
-  "colonyTags" : ["avian","aviantomb","pretty","odd"],
-  "rarity" : "Rare",
-  "category" : "decorative",
-  "price" : 55,
-  "tooltipKind" : "sb_object",
+  "objectName": "sb_mask7",
+  "colonyTags": ["avian", "aviantomb", "pretty", "odd"],
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 55,
+  "tooltipKind": "sb_object",
 
-  "description" : "This guy looks handsome.",
-  "shortdescription" : "Decorative Troll Mask",
-  "race" : "avian",
+  "description": "This guy looks handsome.",
+  "shortdescription": "Decorative Troll Mask",
+  "race": "avian",
 
-  "apexDescription" : "It looks like a... I don't know.",
-  "avianDescription" : "This mask is a warning to trolls.",
-  "floranDescription" : "Birdmen make strange creature look happy.",
-  "glitchDescription" : "Puzzled. This creature is unknown to the Glitch.",
-  "humanDescription" : "I have no idea who that is.",
-  "hylotlDescription" : "This troll mask is very accurate.",
-  "novakidDescription" : "A strange lookin' face. But a happy lookin' one.",
+  "apexDescription": "It looks like a... I don't know.",
+  "avianDescription": "This mask is a warning to trolls.",
+  "floranDescription": "Birdmen make strange creature look happy.",
+  "glitchDescription": "Puzzled. This creature is unknown to the Glitch.",
+  "humanDescription": "I have no idea who that is.",
+  "hylotlDescription": "This troll mask is very accurate.",
+  "novakidDescription": "A strange lookin' face. But a happy lookin' one.",
 
-  "inventoryIcon" : "mask7icon.png",
-  "orientations" : [
-    {
-      "imageLayers" : [ { "image" : "mask7.png:<color>" }, {"image" : "mask7fullbright.png", "fullbright" : true } ],
-      "imagePosition" : [-8, -8],
-      "frames" : 1,
-      "animationCycle" : 0.5,
+  "inventoryIcon": "mask7icon.png",
+  "orientations": [{
+      "imageLayers": [{
+          "image": "mask7.png:<color>"
+        }, {
+          "image": "mask7fullbright.png",
+          "fullbright": true
+        }
+      ],
+      "imagePosition": [-8, -8],
+      "frames": 1,
+      "animationCycle": 0.5,
 
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
+      "spaceScan": 0.1,
+      "anchors": ["background"]
 
     }
   ]

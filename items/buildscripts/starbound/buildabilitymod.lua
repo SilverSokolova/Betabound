@@ -20,8 +20,9 @@ function build(directory, config, parameters)
     if config.rarity == "common" then config.rarity = "uncommon" end
     local acceptedElements = {}
     for k, v in pairs(elementalConfig) do
-      if #v > 0 then
+      for _, _ in pairs(v) do --we have to do this because there's no table.size and one *elemental* vanilla ability has a blank elemental config for *physical*
         acceptedElements[#acceptedElements+1] = k
+        break
       end
     end
     config.acceptedElements = acceptedElements

@@ -4,8 +4,12 @@
   "foodValue": 25,
   "tooltipKind": "sb_object4",
   "rarity": "common",
-  "itemTags": ["sb_cake", "sb_plate_flipx"],
-  "sb_plateWidth": 2,
+  "itemTags": ["sb_cake"],
+  "sb_plate": {
+    "width": 4,
+    "image": true,
+    "flipImage": true
+  },
   "handPosition": [1.4, -1.85],
   "category": "preparedFood",
   "inventoryIcon": "carrotcake.png",

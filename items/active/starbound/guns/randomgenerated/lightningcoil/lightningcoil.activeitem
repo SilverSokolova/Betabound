@@ -34,6 +34,7 @@
     "class": "GunFire",
     "projectileType": ["lightning2", "electro", "teslaboltsmall", "teslabolt", "electriccrutterlightning"],
     "projectileParameters": {
+      "statusEffects": ["electrified"],
       "knockbackRange": [0, 0],
       "bounces": 4
     },

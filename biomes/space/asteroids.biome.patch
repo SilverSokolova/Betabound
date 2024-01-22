@@ -1,38 +1,83 @@
 [
-  [
-    {"op":"test","path":"/hueShiftOptions/0","value":0},
-    {"op":"test","path":"/hueShiftOptions/1","inverse":true},
-    {"op":"replace","path":"/hueShiftOptions","value":[-5,-10,-15,-20,-30,0,5,10,15,20,30]}
+  [{
+      "op": "test",
+      "path": "/hueShiftOptions/0",
+      "value": 0
+    }, {
+      "op": "test",
+      "path": "/hueShiftOptions/1",
+      "inverse": true
+    }, {
+      "op": "replace",
+      "path": "/hueShiftOptions",
+      "value": [-180, -25, -5, -10, -15, -20, -30, 0, 5, 10, 15, 20, 25, 30]
+    }
   ],
 
-  [
-    {"op":"test","path":"/surfacePlaceables","inverse":true},
-	{"op":"add","path":"/surfacePlaceables","value":{"items":[]}}
+  /*[{
+      "op": "test",
+      "path": "/weather",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/weather",
+      "value": [
+        [0, [
+            "/weather.config:asteroids",
+            "/weather.config:asteroidsMeteor"
+          ]]]
+    }
+  ],*/
+
+  [{
+      "op": "add",
+      "path": "/subBlocks/-",
+      "value": "rock19"
+    }
   ],
 
-  [
-    {"op":"add","path":"/surfacePlaceables/items/-","value":
-	  {
-		"mode":"floor",
-		"priority":1,
-		"variants":1,
-		"distribution":"/biomes/distributions.config:mainBiomeMicrodungeon",
-		"type":"microdungeon",
-		"microdungeons":["sb_asteroidencounter"]
-	  }
-	}
+  [{
+      "op": "test",
+      "path": "/surfacePlaceables",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/surfacePlaceables",
+      "value": {
+        "items": []
+      }
+    }
   ],
 
-  [
-    {"op":"add","path":"/surfacePlaceables/items/-","value":
-	  {
-		"mode":"floor",
-		"priority":1,
-		"variants":1,
-		"distribution":"/biomes/distributions.config:scatteredSmall",
-		"type":"object",
-		"objectSets":[{"pool":[[0.35,"capsulespace"]],"parameters":{}}]
-	  }
-	}
+  [{
+      "op": "add",
+      "path": "/surfacePlaceables/items/-",
+      "value": {
+        "mode": "floor",
+        "priority": 1,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:mainBiomeMicrodungeon",
+        "type": "microdungeon",
+        "microdungeons": ["sb_asteroidencounter"]
+      }
+    }
+  ],
+
+  [{
+      "op": "add",
+      "path": "/surfacePlaceables/items/-",
+      "value": {
+        "mode": "floor",
+        "priority": 1,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:scatteredSmall",
+        "type": "object",
+        "objectSets": [{
+            "pool": [[0.35, "capsulespace"]],
+            "parameters": {}
+          }
+        ]
+      }
+    }
   ]
 ]

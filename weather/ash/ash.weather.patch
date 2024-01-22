@@ -1,0 +1,16 @@
+[{
+    "op": "add",
+    "path": "/projectiles/-",
+    "value": {
+      "projectile": "settlinglightash",
+      "parameters": {
+        "power": 0
+      },
+      "velocity": [0, 0],
+      "ratePerX": 0.01,
+      "spawnAboveRegion": 10,
+      "spawnHorizontalPad": 10,
+      "windAffectAmount": 1
+    }
+  }
+]

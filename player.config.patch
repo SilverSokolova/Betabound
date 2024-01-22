@@ -258,6 +258,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"fungusstim"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"grassremedy"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"shroomremedy"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_heatingbag"}}],
 
 
 //weapons

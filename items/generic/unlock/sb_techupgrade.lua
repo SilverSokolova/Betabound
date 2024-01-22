@@ -8,7 +8,7 @@ function init() swingInit()
 end
 
 function reset()
-  reusable, consume, used = config.getParameter("reusable",false), false, false
+  reusable, consume, used = config.getParameter("reusable", false), false, false
 end
 
 function swingAction()

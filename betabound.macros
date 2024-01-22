@@ -22,6 +22,7 @@
   ],
   "sb_beamaxe": ["/spawnitem sb_beamaxe2 1 '{\"upgrades\":[\"size1\",\"size2\",\"size3\",\"range1\",\"range2\",\"range3\",\"power1\",\"power2\",\"power3\",\"liquidcollection\",\"paintmode\",\"wiremode\"],\"canCollectLiquid\":true,\"blockRadius\":5,\"tileDamage\":4.8,\"minBeamWidth\":8,\"minBeamJitter\":0.2}"],
   "sb_repeatversioning": ["/run status.setStatusProperty('xrc_0018z',status.statusProperty('xrc_0018z')-1)"],
+  "sb_kill": ["/entityeval if status then status.setResource('health',0) end"],
 
   //Completion
   "sb_tech": ["/entityeval if not world then return end local t=root.assetJson('/tech/starbound/tech.config') for i=1,#t do world.spawnItem('sb_tech',entity.position(),1,{techModule=t[i]}) end"],
@@ -33,9 +34,8 @@
   "sb_home": ["/warp CelestialWorld:-161011021:-960048166:41000317:4=1448.1027"],
   "sb_storage": ["/warp InstanceWorld:playerstation:21df53c9aade582dfc2b38e6a28b62f0:1=cba2e7459537ec44bcfced0ab0548c99"],
   "sb_storage2": ["/warp InstanceWorld:playerstation:6f20604db8080bfa09f17a9cd667956b:1=2acb1e351639f3d2f738182d7f86c8a3"],
-  "sb_elliot": ["/spawnitem techlabscientistshop 1 '{\"shortdescription\":\"Questless Elliot\",\"offeredQuests\":[]}"],
-  "sb_biggy": ["/spawnitem penguinweaponshop 1 '{\"selectCount\":99}"],
-  "sb_kill": ["/entityeval if status then status.setResource('health',0) end"],
+
+  "sb_swansong": ["/warp instanceworld:cultistmission1=1633.795"],
 
   //Progression
   "sb_human": ["/startquest '\"human_mission1\"'", "/completequest human_mission1"],
@@ -45,8 +45,6 @@
   "sb_apex": ["/startquest '\"apex_mission1\"'", "/completequest apex_mission1", "/startquest '\"apex_mission2\"'", "/completequest apex_mission2"],
   "sb_glitch": ["/startquest '\"glitch_mission1\"'", "/completequest glitch_mission1", "/startquest '\"glitch_mission2\"'", "/completequest glitch_mission2"],
   "sb_story": ["/sb_human", "/sb_floran", "/sb_hylotl", "/sb_avian", "/sb_apex", "/sb_glitch"],
-
-  "sb_swansong": ["/warp instanceworld:cultistmission1=1633.795"],
 
   "sb_tier6kit": [
     "/enabletech sb_targetblink",
@@ -81,6 +79,8 @@
   ],
 
   //Misc
+  "sb_elliot": ["/spawnitem techlabscientistshop 1 '{\"shortdescription\":\"Questless Elliot\",\"offeredQuests\":[]}"],
+  "sb_biggy": ["/spawnitem penguinweaponshop 1 '{\"selectCount\":99}"],
   "sb_toggleevents": ["/entityeval if world then world.setProperty(\"sb_events\",not world.getProperty(\"sb_events\",true)) return \"Random events \"..(world.getProperty(\"sb_events\") and \"en\" or \"dis\")..\"abled for this world.\" else return \"Couldn't find an object at the cursor.\" end"],
   "sb_checkblueprints": [
     "^yellow;Printing default blueprints to the log...",
@@ -93,40 +93,5 @@
     "/spawnitem darkdisguisehead 1 '{\"directives\":\"?setcolor=0f0\",\"effectSources\":[]}]",
     "/spawnitem darkdisguisechest 1 '{\"directives\":\"?setcolor=0f0\",\"effectSources\":[]}]",
     "/spawnitem darkdisguiselegs 1 '{\"directives\":\"?setcolor=0f0\",\"effectSources\":[]}]"
-  ],
-  "sb_buffs": [
-    "^yellow;Spawning IFD stuff at the cursor position.",
-    "/entityeval if not world then return end
-    i={
-      //damaging
-      'bleed','explosivepunch',
-
-      'energyregen','energyregen96','energyregen192','energyregen288','energyregen384','energyregen480','energyregen672',
-      'energyregen','energyregen96','energyregen192','energyregen288','energyregen384','energyregen480','energyregen672',
-      'light2energy','light2energy96','light2energy192','light2energy288','light2energy384','light2energy480','light2energy672',
-
-      'foodheal10','foodheal25','foodheal35','foodheal50','foodheal70','foodheal95',
-      'foodheal120','foodheal135','foodheal145','foodheal170','foodheal190','foodheal215',
-      'foodheal240','foodheal265','foodheal315','foodheal360','foodheal720','repairbotheal',
-      //instant
-      'directdamage','energy','food','health','restoration',
-      //movement
-      'encumbered','foodslow','glide','jellyslow','sugarrush','tranquilized',
-      //stats
-      'greystim','grit','protectionboost5','shipgreystim',
-      //unsorted
-      'airpocket','brainextractor','fooddepletionsuppressed','frozenburning','ladder','minibossspawn','outpost','poisoncreep',
-      //tech
-      'absorptiontech','sb_enhancedhealingtech','sb_forcefieldtech','sb_spikedtech','sb_tanktech','sb_vamptech',
-      'sb_explosiveprotectiontech',
-      'sb_groundsmashdamage','sb_groundsmashknockbackX','sb_groundsmashknockbackY',
-      'sb_magnet',
-      'sb_gravitytech','sb_jumptech','sb_mobilitytech','sb_speedtech',
-      'sb_energyregentech','sb_regenerationtech',
-      'sb_shield',
-      'sb_breathprotectiontech','sb_coldprotectiontech','sb_environmentalprotectiontech','sb_heatprotectiontech','sb_radiationprotectiontech',
-      'sb_berserk','sb_energytech','sb_glowtech','sb_grittech','sb_healthtech','sb_protectiontech','sb_reducefalldamagetech'
-    }
-    for n = 1, #i do world.spawnItem('soda',entity.position(),80,{maxStack=9999,shortdescription=i[n],effects={{'sb_'..i[n]}}}) end"
   ]
 }

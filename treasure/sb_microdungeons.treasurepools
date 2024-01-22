@@ -100,5 +100,101 @@
         {"weight" : 0.5, "item" : "glitchfossil3"}
       ]
     }]
+  ],
+  
+  "sb_wreckLoungeTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "vendingtreasure"}
+      ],
+      "pool" : [
+        {"weight" : 1, "pool" : "sb_wreckLoungeAvianTreasure"},
+        {"weight" : 1, "pool" : "sb_wreckLoungeGlitchTreasure"},
+        {"weight" : 1, "pool" : "sb_wreckLoungeHumanTreasure"},
+        {"weight" : 1, "pool" : "sb_wreckLoungeFloranTreasure"},
+        {"weight" : 1, "pool" : "sb_wreckLoungeApexTreasure"},
+        {"weight" : 1, "pool" : "sb_wreckLoungeHylotlTreasure"},
+        {"weight" : 1, "pool" : "sb_wreckLoungeNovakidTreasure"}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+  
+  "sb_wreckLoungeAvianTreasure" : [
+    [0, {
+      "fill" : [
+//        {"item" : "sb_avianprologue-codex"},
+        {"item" : "flagavian"},
+        {"item" : ["sb_scandata",1,{"recipe":"avianshipdoor"}]},
+        {"item" : ["sb_scandata",1,{"recipe":"avianshiphatch"}]}
+      ]
+    }]
+  ],
+  
+  "sb_wreckLoungeGlitchTreasure" : [
+    [0, {
+      "fill" : [
+//        {"item" : "sb_glitchprologue-codex"},
+        {"item" : "flagglitch"},
+        {"item" : ["sb_scandata",1,{"recipe":"glitchshipdoor"}]},
+        {"item" : ["sb_scandata",1,{"recipe":"glitchshiphatch"}]}
+      ]
+    }]
+  ],
+  
+  "sb_wreckLoungeHumanTreasure" : [
+    [0, {
+      "fill" : [
+//        {"item" : "sb_avianprologue-codex"},
+        {"item" : "flaghuman"},
+        {"item" : ["sb_scandata",1,{"recipe":"humanshipdoor"}]},
+        {"item" : ["sb_scandata",1,{"recipe":"humanshiphatch"}]}
+      ]
+    }]
+  ],
+  
+  "sb_wreckLoungeFloranTreasure" : [
+    [0, {
+      "fill" : [
+//        {"item" : "sb_floranprologue-codex"},
+        {"item" : "flagfloran"},
+        {"item" : ["sb_scandata",1,{"recipe":"floranshipdoor"}]},
+        {"item" : ["sb_scandata",1,{"recipe":"floranshiphatch"}]}
+      ]
+    }]
+  ],
+  
+  "sb_wreckLoungeApexTreasure" : [
+    [0, {
+      "fill" : [
+//        {"item" : "sb_avianprologue-codex"},
+        {"item" : "flagapex"},
+        {"item" : ["sb_scandata",1,{"recipe":"apexshipdoor"}]},
+        {"item" : ["sb_scandata",1,{"recipe":"apexshiphatch"}]}
+      ]
+    }]
+  ],
+  
+  "sb_wreckLoungeHylotlTreasure" : [
+    [0, {
+      "fill" : [
+//        {"item" : "sb_hylotlprologue-codex"},
+        {"item" : "flaghylotl"},
+        {"item" : ["sb_scandata",1,{"recipe":"hylotlshipdoor"}]},
+        {"item" : ["sb_scandata",1,{"recipe":"hylotlshiphatch"}]}
+      ]
+    }]
+  ],
+  
+  "sb_wreckLoungeNovakidTreasure" : [
+    [0, {
+      "fill" : [
+//        {"item" : "sb_novakidprologue-codex"},
+        {"item" : "flagnovakid"},
+        {"item" : ["sb_scandata",1,{"recipe":"novakidshipdoor"}]},
+        {"item" : ["sb_scandata",1,{"recipe":"novakidshiphatch"}]}
+      ]
+    }]
   ]
 }

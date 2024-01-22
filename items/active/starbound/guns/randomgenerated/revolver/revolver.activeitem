@@ -17,7 +17,7 @@
     "subtitle": "Revolver"
   },
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "animationScripts": ["/items/active/starbound/guns/ammo.lua"],
+  "animationScripts": ["/items/active/starbound/guns/abilities/ammo.lua"],
   "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
   "animationParts": {
     "muzzleFlash": "/animations/sb/muzzleflash/bulletmuzzle4/bulletmuzzle4.png"
@@ -31,7 +31,7 @@
   "elementalType": "physical",
 
   "primaryAbility": {
-    "scripts": ["/items/active/starbound/guns/ammogunfire.lua"],
+    "scripts": ["/items/active/starbound/guns/abilities/ammogunfire.lua"],
     "class": "sb_AmmoGunFire",
     "projectileType": ["bullet-2"],
 

@@ -1,14 +1,80 @@
 {
-"globalTagDefaults":{"item":"","plate":"/objects/generic/sb_plate/plate.png"},
-"animatedParts":{"stateTypes":
-{"item":{"priority":0,"default":"item","states":{"item":{}}},
-"plate":{"priority":0,"default":"plate","states":{
-"plate":{}
-,"perfectlygenericitem":{}
-,"sb_plate":{}
-}}},"parts":{"item":{"properties":{"centered":true,"offset":[0.875,1],"transformationGroups":["item"]},"partStates":{"item":{"item":{"properties":{"zLevel":5,"image":"<item>"}}}}},"plate":{"properties":{"position":[5,5],"centered":false},"partStates":{"plate":{
-"plate":{"properties":{"image":"<plate>"}}
-,"item":{"properties":{"image":"<item>"}}
-,"perfectlygenericitem":{"properties":{"image":"perfectlygenericitem.png"}}
-,"sb_plate":{"properties":{"image":"sb_plate.png"}}
-}}}}},"transformationGroups":{"item":{}}}
+  "globalTagDefaults": {
+    "item": "",
+    "plate": "/objects/generic/sb_plate/plate.png"
+  },
+  "animatedParts": {
+    "stateTypes": {
+      "item": {
+        "priority": 0,
+        "default": "item",
+        "states": {
+          "item": {}
+        }
+      },
+      "plate": {
+        "priority": 0,
+        "default": "plate",
+        "states": {
+          "plate": {},
+          "perfectlygenericitem": {},
+          "sb_plate": {}
+        }
+      }
+    },
+    "parts": {
+      "item": {
+        "properties": {
+          "centered": true,
+          "offset": [0.875, 1],
+          "transformationGroups": ["item"]
+        },
+        "partStates": {
+          "item": {
+            "item": {
+              "properties": {
+                "zLevel": 5,
+                "image": "<item>"
+              }
+            }
+          }
+        }
+      },
+      "plate": {
+        "properties": {
+          "position": [5, 5],
+          "centered": false,
+          "transformationGroups": ["plate"]
+        },
+        "partStates": {
+          "plate": {
+            "plate": {
+              "properties": {
+                "image": "<plate>"
+              }
+            },
+            "item": {
+              "properties": {
+                "image": "<item>"
+              }
+            },
+            "perfectlygenericitem": {
+              "properties": {
+                "image": "perfectlygenericitem.png"
+              }
+            },
+            "sb_plate": {
+              "properties": {
+                "image": "sb_plate.png"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "transformationGroups": {
+    "item": {},
+    "plate": {}
+  }
+}

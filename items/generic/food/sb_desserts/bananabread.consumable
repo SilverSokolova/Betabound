@@ -10,10 +10,10 @@
   "shortdescription": "Banana Bread",
   "effects": [[{
         "effect": "maxenergyscalingboostfood",
-        "duration": 113
+        "duration": 225
       }, {
         "effect": "sb_energyregen96",
-        "duration": 113
+        "duration": 225
       },
       "sb_foodheal70"
     ]],
