@@ -26,12 +26,13 @@ function MiningTool:init()
   animator.setSoundVolume("fire", sfx.miningToolVolume)
   animator.setSoundVolume("blockSound", sfx.miningBlockVolume)
 
+  animationActive = self.animated and "inactive" or "idle"
   self.weapon:setStance(self.stances.idle)
-  animator.setAnimationState("tool", self.animated and "inactive" or "idle")
+  animator.setAnimationState("tool", animationActive)
 
   self.weapon.onLeaveAbility = function()
     self.weapon:setStance(self.stances.idle)
-    animator.setAnimationState("tool", self.animated and "inactive" or "idle")
+    animator.setAnimationState("tool", animationActive)
   end
 end
 
@@ -58,7 +59,7 @@ end
 
 function MiningTool:fire()
   if self.animated then animator.setAnimationState("tool", "active") end
-  local entityPosition = world.entityPosition(activeItem.ownerEntityId())
+  entityPosition = world.entityPosition(activeItem.ownerEntityId())
   self.hitPosition = activeItem.ownerAimPosition()
   local distance = vec2.mag(world.distance(entityPosition, self.hitPosition))
   if distance > (player.isAdmin() and distance + 1 or self.toolRange) then
@@ -74,19 +75,13 @@ function MiningTool:fire()
   end
   if not valid then return end
 
-  --I could make the hoe not damage tilled soil... But on the other hand, I could like, *not* do that...
-  local unprotected = world.damageTiles(brushArea, self.layer, entityPosition, self.tileDamageType, self:getTileDamage(), self.harvestLevel, activeItem.ownerEntityId())
-  if not unprotected then
-    coroutine.yield()
-    return
+  if self.tileDamageType == "tilling" then
+    self:till(brushArea)
   else
-    if self.tileDamageType == "tilling" then
-      self:till(brushArea)
-    else
-      self:changeDurability()
-      --so 'perUse' was literal... I thought it meant 'perHit'... since you can hit multiple blocks in one use...
-      --Anyway, only take durability for hoes if they actually till something
-    end
+    world.damageTiles(brushArea, self.layer, entityPosition, self.tileDamageType, self:getTileDamage(), self.harvestLevel, activeItem.ownerEntityId())
+    self:changeDurability()
+    --so 'perUse' was literal... I thought it was per block, since you use it on multiple blocks at once...
+    --Anyway, hoes take damage in the till function
   end
 
   animator.setSoundPool("blockSound", {self:getBlockSound(brushArea)})
@@ -112,13 +107,17 @@ end
 function MiningTool:till(brushArea)
   for i = 1, #brushArea do
     if not world.material({brushArea[1][1], brushArea[1][2]+1}, self.layer) then
-      if not world.mod(brushArea[i], self.layer) then --placeMod erases whatever was there
-        local target = world.material(brushArea[i], self.layer)
-        if target and target:sub(1, 13) ~= "metamaterial:" then
-          target = root.materialConfig(target).config
-          if target.tillableMod and target.soil then --root.modConfig only accepts strings while root.liquidConfig accepts strings and ID's my BELOATHED
-            world.placeMod(brushArea[i], self.layer, self.tilledMods[tostring(target.tillableMod)] or "tilleddry", 0, true)
-            self:changeDurability()
+      local target = world.material(brushArea[i], self.layer)
+      if target and target:sub(1, 13) ~= "metamaterial:" then
+        target = root.materialConfig(target).config
+        local newMod = self.tilledMods[tostring(target.tillableMod)] or "tilleddry"
+        if (world.mod(brushArea[i], self.layer) or "") ~= newMod then
+          world.damageTiles({brushArea[i]}, self.layer, entityPosition, self.tileDamageType, self:getTileDamage(), self.harvestLevel, activeItem.ownerEntityId())
+          if not world.mod(brushArea[i], self.layer) then --placeMod erases whatever was there, so make sure whatever was there is now gone
+            if target.tillableMod and target.soil then --root.modConfig only accepts strings while root.liquidConfig accepts strings and ID's my BELOATHED
+              world.placeMod(brushArea[i], self.layer, newMod, 0, true)
+              self:changeDurability()
+            end
           end
         end
       end
@@ -166,5 +165,5 @@ end
 
 function MiningTool:uninit()
   self.weapon:setStance(self.stances.idle)
-  animator.setAnimationState("tool", self.animated and "inactive" or "idle")
+  animator.setAnimationState("tool", animationActive)
 end

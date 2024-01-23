@@ -118,9 +118,6 @@
 [{"op":"add","path":"/oremerchant/0/1/-","value":{"item":{"name":"sb_refinedrubium"},"prerequisiteQuest":"avian_mission2"}}],
 
 [{"op":"add","path":"/deadbeatmerchant/0/1/-","value":{"item":{"name":"sb_explosivebarrel"},"rarity":0.5}}],
-[{"op":"add","path":"/deadbeatmerchant/0/1/-","value":{"item":{"name":"sb_handgrenade"},"rarity":0.1}}],
-[{"op":"add","path":"/deadbeatmerchant/0/1/-","value":{"item":{"name":"sb_smokegrenade"},"rarity":0.1}}],
-[{"op":"add","path":"/deadbeatmerchant/0/1/-","value":{"item":{"name":"sb_gunpowder"},"rarity":0.1}}],
 
 [{"op":"add","path":"/foundrymerchant/0/1/-","value":{"item":{"name":"platinumbar"},"prerequisiteQuest":"human_mission1"}}],
 [{"op":"add","path":"/foundrymerchant/0/1/-","value":{"item":{"name":"sb_copper_repair"},"rarity":0.5}}],
@@ -133,6 +130,7 @@
   // ================
   //	   Themed
   // ================
+[{"op":"add","path":"/glowmerchant/0/1/-","value":{"item":{"name":"yellowstim"},"rarity":0.5}}],
 [{"op":"add","path":"/glowmerchant/0/1/-","value":{"item":{"name":"glowbomb"},"rarity":0.5}}],
 [{"op":"add","path":"/glowmerchant/0/1/-","value":{"item":{"name":"sb_tech","parameters":{"techModule":"sb_glow"}},"rarity":0.2}}],
 

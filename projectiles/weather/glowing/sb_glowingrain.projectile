@@ -1,13 +1,13 @@
 {
-  "projectileName" : "sb_glowingrain",
-  "image" : "sb_glowingrain.png",
-  "animationCycle" : 0.25,
-  "frameNumber" : 1,
-  "damageKindImage" : "icon.png",
-  "pointLight" : true,
-  "power" : 0,
-  "lightColor" : [134, 111, 41],
-  "emitters" : ["sparkles"],
-  "onlyHitTerrain" : true,
-  "hydrophobic" : true
+  "projectileName": "sb_glowingrain",
+  "image": "sb_glowingrain.png",
+  "animationCycle": 0.25,
+  "frameNumber": 1,
+  "damageKindImage": "icon.png",
+  "pointLight": true,
+  "power": 0,
+  "lightColor": [134, 111, 41],
+  "emitters": ["sparkles"],
+  "onlyHitTerrain": true,
+  "hydrophobic": true
 }
