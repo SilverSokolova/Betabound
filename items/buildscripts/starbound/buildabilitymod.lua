@@ -27,7 +27,7 @@ function build(directory, config, parameters)
     end
     config.acceptedElements = acceptedElements
   end
-  config.shortdescription = string.gsub((config.rarity ~= "common" and "^yellow;" or "")..abilityData.name.."^reset;", "<elementalName>", config.elementalNameDescription)
+  config.shortdescription = string.gsub((config.rarity ~= "common" and "^yellow;" or "")..(not config.weaponTypes and "^green;" or "")..abilityData.name.."^reset;", "<elementalName>", config.elementalNameDescription)
   config.description = string.format(config.description, config[(config.slot and "primary" or "alt").."Description"])
 
   if parameters.level then

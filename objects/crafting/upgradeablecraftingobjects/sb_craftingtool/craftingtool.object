@@ -1,0 +1,187 @@
+{
+  "objectName": "sb_craftingtool",
+  "colonyTags": ["crafting"],
+  "rarity": "Uncommon",
+  "race": "generic",
+  "category": "crafting",
+  "tooltipKind": "sb_object",
+
+  "breakDropOptions": [], //handled by script
+
+  "price": 35,
+  "printable": false,
+
+  //Have to define lights here because beamAngle doesn't work if the light is in the animation file, no matter where or which file I put beamAngle
+  //And because of it, the robotic table has a light that can't turn off. Hopefully it's not noticeable
+  "lightColor": [176, 176, 121],
+  "pointLight": true,
+  "pointBeam": 2,
+  "beamAmbience": 0.35,
+
+  "scripts": ["/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua"],
+
+  "animation": "craftingtool.animation",
+  "animationPosition": [0, 16],
+
+  "inventoryIcon": "icon1.png",
+  "placementImage": "tool1.png:default.default",
+  "placementImagePosition": [-16, 0],
+
+  "description": "I can use this to craft things I couldn't make with just my bare hands!",
+  "shortdescription": "^orange;Wooden Tool Table^reset;",
+
+  "apexDescription": "A table with a bunch of tools for a craftsman.",
+  "avianDescription": "A chance to display one's ability to create.",
+  "floranDescription": "Floran ussse table. Make nice thingss.",
+  "glitchDescription": "Inspired. Crafting time!",
+  "humanDescription": "I can use materials I've found here to create new things.",
+  "hylotlDescription": "A chance to create.",
+  "novakidDescription": "I can use materials I've found here to create new things.",
+
+  "startingUpgradeStage": 1,
+  "maxUpgradeStage": 3,
+
+  "interactAction": "OpenCraftingInterface",
+
+  "upgradeStages": [{
+      "animationState": "stage1",
+
+      "itemSpawnParameters": {
+        "inventoryIcon": "icon1.png",
+        "placementImage": "tool1.png:default.default"
+      },
+
+      "interactData": {
+        "config": "/interface/windowconfig/sb_crafting.config",
+        "paneLayoutOverride": {
+          "windowtitle": {
+            "title": "Tool Table",
+            "subtitle": "Crafting, with a table!",
+            "icon": {
+              "file": "/interface/sb_crafting/craftingicons.png:table1"
+            }
+          }
+        },
+
+        "filter": ["sb_craftingtable"],
+        "craftingSound": "/sfx/interface/crafting_general1.ogg",
+        "upgradeMaterials": [{
+            "item": "ironbar",
+            "count": 6
+          }, {
+            "item": "copperbar",
+            "count": 3
+          }
+        ]
+      },
+
+      "upgradeSoundEffect": "fanfare",
+      "upgradeParticleEffect": "dust"
+    }, {
+      "animationState": "stage2",
+
+      "itemSpawnParameters": {
+        "rarity": "rare",
+        "price": 400,
+        "inventoryIcon": "icon2.png",
+        "placementImage": "tool2.png:default.default",
+
+        "description": "One could build some very sophisticated equipment on this table.",
+        "shortdescription": "^orange;Iron Tool Table^reset;",
+
+        "apexDescription": "A crafting table for ironwork.",
+        "avianDescription": "This crafting table enables me to create a wide range of equipment.",
+        "floranDescription": "Iron table for making thingsss.",
+        "glitchDescription": "Interested. It's an iron crafting table. It's better than a wooden one.",
+        "humanDescription": "I'm not scared of some DIY. Let's do this.",
+        "hylotlDescription": "An iron crafting table can be used to craft some good equipment with.",
+        "novakidDescription": "A good ol' iron crafting table. It's better than a wooden one."
+      },
+
+      "interactData": {
+        "config": "/interface/windowconfig/sb_crafting.config",
+        "paneLayoutOverride": {
+          "windowtitle": {
+            "title": "Iron Tool Table",
+            "subtitle": "Heavy duty crafting!",
+            "icon": {
+              "file": "/interface/sb_crafting/craftingicons.png:table2"
+            }
+          }
+        },
+        "filter": ["sb_craftingtable", "sb_ironcraftingtable"],
+        "upgradeMaterials": [{
+            "item": "titaniumbar",
+            "count": 6
+          }, {
+            "item": "sb_steelbar",
+            "count": 3
+          }, {
+            "item": "processor",
+            "count": 5
+          }
+        ]
+      },
+
+      "upgradeSoundEffect": "fanfare2",
+      "upgradeParticleEffect": "dust"
+    }, {
+      "animationState": "stage3",
+
+      "itemSpawnParameters": {
+        "rarity": "legendary",
+        "inventoryIcon": "icon3.png",
+        "placementImage": "tool3/tool3.png:default.default",
+
+        "description": "This table has arms! The extra precision allows me to craft some seriously advanced stuff!",
+        "shortdescription": "^orange;Robotic Tool Table^reset;",
+        "tooltipKind": "sb_object4",
+        "price": 1750,
+
+        "apexDescription": "A robotic crafting table. This enables me to craft better things.",
+        "avianDescription": "A mechanical crafting table.",
+        "floranDescription": "Floran once get in a fight with table like thiss.",
+        "glitchDescription": "Curious. A mechanical crafting table.",
+        "humanDescription": "A robot table! The revolution begins!",
+        "hylotlDescription": "How strange. A robotic crafting table.",
+        "novakidDescription": "A robot crafting table. Must be better than an iron crafting table."
+      },
+
+      "colonyTags": ["crafting", "mechanical"],
+      "interactData": {
+        "config": "/interface/windowconfig/sb_crafting.config",
+        "paneLayoutOverride": {
+          "windowtitle": {
+            "title": "Robotic Tool Table",
+            "subtitle": "High-tech crafting!",
+            "icon": {
+              "file": "/interface/sb_crafting/craftingicons.png:table3"
+            }
+          }
+        },
+        "filter": ["sb_craftingtable", "sb_ironcraftingtable", "sb_roboticcraftingtable"],
+        "craftingSound": "/sfx/interface/crafting_tech2.ogg"
+      }
+    }
+  ],
+
+  "orientations": [{
+      "image": "tool1.png:<color>.<frame>",
+      "imagePosition": [-16, 0],
+      "direction": "left",
+      "flipImages": true,
+      "spaces": [[-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 1], [-1, 1], [0, 1], [1, 1], [-2, 2], [-1, 2], [0, 2], [1, 2], [-2, 3], [-1, 3], [0, 3], [1, 3]],
+      "anchors": ["bottom"],
+      "lightPosition": [0.5, 2],
+      "beamAngle": 270
+    }, {
+      "image": "tool1.png:<color>.<frame>",
+      "imagePosition": [-16, 0],
+      "direction": "right",
+      "spaces": [[-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 1], [-1, 1], [0, 1], [1, 1], [-2, 2], [-1, 2], [0, 2], [1, 2], [-2, 3], [-1, 3], [0, 3], [1, 3]],
+      "anchors": ["bottom"],
+      "lightPosition": [-0.5, 2],
+      "beamAngle": 270
+    }
+  ]
+}

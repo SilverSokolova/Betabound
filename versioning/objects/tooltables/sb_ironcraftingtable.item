@@ -1,0 +1,1 @@
+{"builder":"/items/buildscripts/starbound/convert3.lua","convertTo":[["sb_craftingtool",1,{"startingUpgradeStage":2,"placementImage": "tool2.png:default.default","description":"One could build some very sophisticated equipment on this table.","shortdescription":"^orange;Iron Tool Table^reset;","inventoryIcon":"icon2.png"}]],"itemName":"sb_ironcraftingtable"}

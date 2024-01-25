@@ -35,13 +35,14 @@ function update(dt, fireMode, shiftHeld)
     local items = config.getParameter("items")
     if player then
       if items then
-	if type(items) == "string" then items = {items} end
-	for i = 1, #items do
-	  player.giveItem(items[i])
-	end
+        if type(items) == "string" then items = {items} end
+        for i = 1, #items do
+          player.giveItem(items[i])
+        end
       end
-     end
+    end
     storage.firing = false
+    storage.fireTimer = 0
     return
   end
 end

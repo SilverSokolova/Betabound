@@ -57,8 +57,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_solidrailplatform"}}],
 
 //crafting
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_woodencraftingtable"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_roboticcraftingtable"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_craftingtool"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_woodencookingtable"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_cookingstation"}}],
 

@@ -1,0 +1,116 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "stage": {
+        "default": "stage1",
+        "states": {
+          "stage1": {
+            "frames": 1,
+            "cycle": 1,
+            "mode": "loop"
+          },
+          "stage2": {
+            "frames": 1,
+            "cycle": 1,
+            "mode": "loop"
+          },
+          "stage3": {
+            "frames": 22,
+            "cycle": 2,
+            "mode": "loop",
+            "properties": {
+              "lightsOn": ["scifiglow"]
+            }
+          }
+        }
+      }
+    },
+
+    "parts": {
+      "chassis": {
+        "properties": {
+          "centered": true
+        },
+        "partStates": {
+          "stage": {
+            "stage1": {
+              "properties": {
+                "image": "tool1lit.png:<color>.<frame>"
+              }
+            },
+
+            "stage2": {
+              "properties": {
+                "image": "tool2lit.png:<color>.<frame>"
+              }
+            },
+
+            "stage3": {
+              "properties": {
+                "image": "tool3/tool3lit.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+      "light": {
+        "properties": {
+          "centered": true,
+          "fullbright": true
+        },
+        "partStates": {
+          "stage": {
+            "stage1": {
+              "properties": {
+                "image": "tool1.png:<color>.<frame>"
+              }
+            },
+
+            "stage2": {
+              "properties": {
+                "image": "tool2.png:<color>.<frame>"
+              }
+            },
+
+            "stage3": {
+              "properties": {
+                "image": "tool3/tool3.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds": {
+    "fanfare": ["/sfx/cinematics/mission_unlock_event.ogg"],
+    "fanfare2": ["/sfx/cinematics/license_acquired_event.ogg"]
+  },
+
+  "lights": {
+    "scifiglow": {
+      "active": false,
+      "position": [0, 2],
+      "color": [76, 125, 153],
+      "flickerPeriod": 0.8,
+      "flickerMinIntensity": 0.95,
+      "flickerMaxIntensity": 1.0,
+      "flickerPeriodVariance": 0,
+      "flickerIntensityVariance": 0
+    }
+  },
+
+  "particleEmitters": {
+    "dust": {
+      "emissionRate": 0,
+      "burstCount": 10,
+      "offsetRegion": [-2, -2, 2, 2],
+      "particles": [{
+          "particle": "dust2"
+        }
+      ]
+    }
+  }
+}

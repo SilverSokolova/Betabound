@@ -1,0 +1,22 @@
+{
+  "objectName": "sb_ironcraftingtable",
+  "hasObjectItem": false,
+  "breakDropOptions":[[["sb_ironcraftingtable",1,{}]]],
+  "rarity": "rare",
+  "interactAction": "OpenCraftingInterface",
+  "interactData": {
+    "config": "/interface/windowconfig/sb_crafting.config",
+    "filter": ["sb_craftingtable","sb_ironcraftingtable"]
+  },
+  "printable": false,
+  "inventoryIcon": "/objects/crafting/upgradeablecraftingobjects/sb_craftingtool/icon2.png",
+  "orientations": [{
+      "dualImage": "/objects/crafting/upgradeablecraftingobjects/sb_craftingtool/tool2.png:default.default",
+      "imagePosition": [-16, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ]
+}

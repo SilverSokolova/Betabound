@@ -162,7 +162,7 @@ function consumeEnergy(amount)
   if storage.energy <= 0 or blockEnergyUsage then
     return false
   end
-  storage.energy = storage.energy - amount
+  storage.energy = storage.energy - ((storage.ammoUsage > 0 and amount/2) or amount)
   regenBlockTimer = energyRegenBlock
   return true
 end
@@ -213,25 +213,29 @@ function containerCallback()
     end
 
     --activeitem
-    --TODO: find some way to make it use the weapon's seed
     if itemType == "activeitem" then
       local configAbility = itemConfig.primaryAbility or {}
       local parameterAbility = contents.primaryAbility or {}
 
       local count = 0
       for _, v in pairs(configAbility) do count = count + 1 break end; for _, v in pairs(parameterAbility) do count = count + 1 break end --god forbid we have a built-in way to check size for these
-      if count > 0 and (parameterAbility.projectileType or configAbility.projectileType) then
+      if itemConfig.projectileType then count = count + 1 end
+      if count > 0 and (parameterAbility.projectileType or configAbility.projectileType or itemConfig.projectileType) then
         validItem = true
       end
 
-      storage.projectileType = parameterAbility.projectileType or configAbility.projectileType or storage.projectileType
-      storage.projectileParameters = parameterAbility.projectileParameters or configAbility.projectileParameters or storage.projectileParameters
+      --checks without abilities are for boomerangs
+      storage.projectileType = parameterAbility.projectileType or configAbility.projectileType or itemConfig.projectileType or storage.projectileType
+      storage.projectileParameters = parameterAbility.projectileParameters or configAbility.projectileParameters or itemConfig.projectileParameters or storage.projectileParameters
       storage.ammoUsage = parameterAbility.ammoUsage or configAbility.ammoUsage or storage.ammoUsage
 
-      defaultPower = parameterAbility.baseDps or configAbility.baseDps or 3
-      if defaultPower < 1 then defaultPower = defaultPower * 10 end
+      defaultPower = parameterAbility.baseDpsFactor or configAbility.baseDpsFactor or 3
+      if defaultPower < 5 then defaultPower = defaultPower * 5 end
       EUF = parameterAbility.energyUsageFactor or configAbility.energyUsageFactor
 
+      if not storage.projectileParameters.power then
+        storage.projectileParameters.power = storage.power
+      end
       local speed = storage.projectileParameters.speed
       if speed and type(speed) ~= "number" then
         storage.projectileParameters.speed = (speed[1]+speed[2])/2 --bubblegun fix
@@ -239,11 +243,12 @@ function containerCallback()
     end
 
     --throwable
+    --TODO: maybe use ammo too? like the revolver ammo
     if itemType == "thrownitem" then
       validItem = true
-      storage.projectileType = contents.parameters.projectileType or contents.config.projectileType
-      storage.projectileParameters = contents.parameters.projectileConfig or contents.config.projectileConfig
-      storage.ammoUsage = contents.parameters.ammoUsage or contents.config.ammoUsage
+      storage.projectileType = itemConfig.projectileType or contents.projectileType
+      storage.projectileParameters = itemConfig.projectileConfig or contents.projectileConfig
+      storage.ammoUsage = itemConfig.ammoUsage or contents.ammoUsage
     end
   else
     validItem = "maybe"
@@ -281,7 +286,7 @@ function autoFire()
       world.containerTakeNumItemsAt(entity.id(), 0, storage.ammoUsage)
     end
     animator.playSound("fire")
-    util.wait(1)
+    util.wait(0.25)
   end
 end
 

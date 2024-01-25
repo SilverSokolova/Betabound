@@ -19,6 +19,12 @@
 {"op":"add","path":"/bonebirdTreasure/0/1/pool/0/pool","value":"sb_bonebirdBones"},
 {"op":"add","path":"/bonebirdTreasure/0/1/pool/-","value":{"weight":1,"pool":"noMeatMonsterTreasure"}}]
 
+
+,[{"op":"test","path":"/narfinTreasure/0/1/fill","inverse":true},{"op":"add","path":"/narfinTreasure/0/1/fill","value":[]}]
+,[{"op":"add","path":"/narfinTreasure/0/1/fill/-","value":{"pool":"sb_narfinTreasure"}}]
+
+
+
 ,[{"op":"add","path":"/poptopTreasure/0/1/pool/-","value":{"weight":0.15,"pool":"sb_poptopMusic"}}]
 ,[{"op":"add","path":"/poptopVaultTreasure/0/1/pool/-","value":{"weight":0.3,"pool":"sb_poptopMusic"}}]
 

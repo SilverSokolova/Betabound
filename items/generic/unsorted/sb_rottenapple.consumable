@@ -1,7 +1,7 @@
 {
   "itemName": "sb_rottenapple",
   "price": 10,
-  "foodValue": 4.7,
+  "foodValue": 3,
   "tooltipKind": "sb_object",
   "rarity": "Common",
   "inventoryIcon": "sb_rottenapple.png",
@@ -10,6 +10,11 @@
   "tooltipFields": {
     "subtitle": "Food"
   },
+  "effects": [[{
+        "effect": "foodpoison",
+        "duration": 5
+      }
+    ]],
   "shortdescription": "Rotten Apple",
   "handPosition": [2, 0],
   "learnBlueprintsOnPickup": ["sb_rottenapple"],

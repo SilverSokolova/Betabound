@@ -1,16 +1,23 @@
 {
-  "itemName" : "sb_revoltingstew",
-  "price" : 10,
-  "foodValue" : 7.4,
-  "tooltipKind" : "sb_object",
-  "rarity" : "Common",
-  "sb_plateHide" : true,
-  "inventoryIcon" : "sb_revoltingstew.png",
-  "category" : "foodJunk",
-  "tooltipFields" : {"subtitle" : "Food"},
-  "description" : "...Whoever made this screwed it up. They screwed it up baaad.",
-  "shortdescription" : "Revolting Stew",
-  "handPosition" : [0, -3],
-  "learnBlueprintsOnPickup" : ["sb_revoltingstew"],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua"
+  "itemName": "sb_revoltingstew",
+  "price": 10,
+  "foodValue": 5,
+  "tooltipKind": "sb_object",
+  "rarity": "Common",
+  "sb_plateHide": true,
+  "inventoryIcon": "sb_revoltingstew.png",
+  "category": "foodJunk",
+  "tooltipFields": {
+    "subtitle": "Food"
+  },
+  "effects": [[{
+        "effect": "foodpoison",
+        "duration": 5
+      }
+    ]],
+  "description": "...Whoever made this screwed it up. They screwed it up baaad.",
+  "shortdescription": "Revolting Stew",
+  "handPosition": [0, -3],
+  "learnBlueprintsOnPickup": ["sb_revoltingstew"],
+  "builder": "/items/buildscripts/starbound/buildfood.lua"
 }
