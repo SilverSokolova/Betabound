@@ -1,0 +1,5 @@
+{
+  "input" : [["durasteelbar",3],["biosample",15],"venomsample"],
+  "output" : ["sb_poisondagger",1,{"level":4,"seed":1}],
+  "groups" : ["craftinganvil2","weapons","all"]
+}

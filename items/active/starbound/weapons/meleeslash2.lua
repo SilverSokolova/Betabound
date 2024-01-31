@@ -1,5 +1,6 @@
---require "/scripts/util.lua"
+--meleeslash without combo
 require "/items/active/weapons/weapon.lua"
+require "/items/active/starbound/weapons/projectile.lua"
 
 MeleeSlash = WeaponAbility:new()
 
@@ -7,17 +8,14 @@ function MeleeSlash:init()
   self.damageConfig = self.damageConfig or {}
   self.damageConfig.baseDamage = self.baseDps * self.fireTime
   self.projectilePower = self.damageConfig.baseDamage * config.getParameter("damageLevelMultiplier",1) * config.getParameter("projectileDamageMultiplier",0.6)
-  local primaryAbility = config.getParameter("primaryAbility")
-  self.projectileType = primaryAbility.projectileType or false
-  if self.projectileType then projectileOffset = primaryAbility.projectileOffset or {0,0.1} end
   self.energyUsage = self.energyUsage or 0
-  self.projectileCount = self.projectileCount or 1
   self.inaccuracy = self.inaccuracy or 0
 
   self.weapon:setStance(self.stances.idle)
 
   self.cooldownTimer = self.fireTime - self.stances.windup.duration - self.stances.fire.duration
 
+  projectileInit(self, config.getParameter("primaryAbility"))
   self.weapon.onLeaveAbility = function()
     self.weapon:setStance(self.stances.idle)
   end
@@ -68,24 +66,9 @@ function MeleeSlash:preslash()
   self:setState(self.fire)
 end
 
-function MeleeSlash:aimVector()
-  local aimVector = vec2.rotate({1, 0}, self.weapon.aimAngle + sb.nrand(self.inaccuracy, 0))
-  aimVector[1] = aimVector[1] * mcontroller.facingDirection()
-  return aimVector
-end
-
 -- State: fire
 function MeleeSlash:fire()
-  if self.projectileType then
-    for i = 1, self.projectileCount do
-      local position = vec2.add(mcontroller.position(), {projectileOffset[1] * mcontroller.facingDirection(), (-1.5 + projectileOffset[2])})
-      local params = {
-	powerMultiplier = activeItem.ownerPowerMultiplier(),
-	power = self.projectilePower
-      }
-      world.spawnProjectile(self.projectileType, position, activeItem.ownerEntityId(), self:aimVector(), false,params)
-    end
-  end
+  projectileFire(self)
   self.weapon:setStance(self.stances.fire)
   self.weapon:updateAim()
   animator.setAnimationState("swoosh", "fire")

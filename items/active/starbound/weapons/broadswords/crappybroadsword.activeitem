@@ -4,12 +4,12 @@
   "price": 25,
   "maxStack": 1,
   "rarity": "common",
-  "tooltipKind": "sb_sword",
+  "tooltipKind": "sb_sword2",
   "category": "broadsword",
   "tooltipFields": {
     "subtitle": "Crappy Broadsword"
   },
-  "description": "",
+  "description": "A two-handed sword.",
   "shortdescription": "Common Crappy Broadsword",
   "twoHanded": true,
   "itemTags": ["weapon", "melee", "broadsword", "crappy", "upgradeableWeapon"],

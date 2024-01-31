@@ -1,0 +1,17 @@
+{
+  "id": "sb_avianprologue",
+  "species": "avian",
+  "title": "Taking Flight",
+  "description": "A personal log from an adventurer. Their tale was never finished...",
+  "icon": "sb_avian.png",
+  "contentPages": [
+"I escaped the wrath of the Stargazers! ...Barely. My ship has run out of fuel and is orbiting some unknown planet. I long for the day I can find other Grounded, to join with likeminded people. If only I wasn't stuck floating in space.
+
+I can't help but feel some sort of irony in this - a Grounded, stuck in the sky. Sometimes I wonder, just vaguely and in the depths of my mind, if being in space will make it easier for Kluex to find me. Then I remember I'm an atheist and feel reassured. Enough rambling - it's time to begin my quest."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

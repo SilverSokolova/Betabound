@@ -1,0 +1,11 @@
+{
+  "itemName": "sb_townheadline",
+  "rarity": "Common",
+  "category": "other",
+  "price": 25,
+  "tooltipKind": "sb_object",
+  "inventoryIcon": "sb_apexcover4.png",
+  "description": "\"Core Resistance cell captured - Big Ape triumphs again!\"",
+  "shortdescription": "News Headline Clipping",
+  "itemTags": ["sb_copybook"]
+}

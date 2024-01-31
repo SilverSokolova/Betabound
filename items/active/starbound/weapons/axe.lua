@@ -9,9 +9,6 @@ AxeCleave = MeleeSlash:new()
 function AxeCleave:init()
   local primaryAbility = config.getParameter("primaryAbility")
   self.damageConfig.baseDamage = self.baseDps * self.fireTime
-  self.projectilePower = self.damageConfig.baseDamage * config.getParameter("damageLevelMultiplier",1) * config.getParameter("projectileDamageMultiplier",0.6)
-  self.projectileType = primaryAbility.projectileType or false
-  if self.projectileType then projectileOffset = primaryAbility.projectileOffset or {0,0.1} end
   self.stances.windup.duration = self.fireTime - self.stances.fire.duration
 
   MeleeSlash.init(self)
@@ -24,16 +21,12 @@ function AxeCleave:windup(windupProgress)
   local windupProgress = windupProgress or 0
   local bounceProgress = 0
   if self.fireMode == "primary" and (self.allowHold ~= false or windupProgress < 1) then
-while windupProgress < 1 do
---    if windupProgress < 1 then
+    while windupProgress < 1 do
       windupProgress = math.min(1, windupProgress + (self.dt / self.stances.windup.duration))
       self.weapon.relativeWeaponRotation, self.weapon.relativeArmRotation = self:windupAngle(windupProgress)
-  --  else
-    --  bounceProgress = math.min(1, bounceProgress + (self.dt / self.stances.windup.bounceTime))
-    --  self.weapon.relativeWeaponRotation = self:bounceWeaponAngle(bounceProgress)
-    --end
-    coroutine.yield()
-  end end
+      coroutine.yield()
+    end
+  end
 
   if windupProgress >= 1.0 then
     if self.stances.preslash then
@@ -62,15 +55,7 @@ function AxeCleave:winddown(windupProgress)
 end
 
 function AxeCleave:fire()
-if self.projectileType then
-  local position = vec2.add(mcontroller.position(), activeItem.handPosition({0,-0.4}))
---local position = vec2.add(mcontroller.position(), {projectileOffset[1] * mcontroller.facingDirection(), (-1.5 + projectileOffset[2])})
-  local params = {
-    powerMultiplier = activeItem.ownerPowerMultiplier(),
-    power = self.projectilePower
-  }
-  world.spawnProjectile(self.projectileType, position, activeItem.ownerEntityId(), self:aimVector(), false,params)
-end
+  projectileFire(self)
   self.weapon:setStance(self.stances.fire)
   self.weapon:updateAim()
 

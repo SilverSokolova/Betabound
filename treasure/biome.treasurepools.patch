@@ -52,6 +52,8 @@
 ,[{"op":"add","path":"/jungleTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_toxicbroadsword"}}]
 ,[{"op":"add","path":"/jungleTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_tranquilizergun"}}]
 ,[{"op":"add","path":"/jungleTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_tranquilizergun-recipe"}}]
+,[{"op":"add","path":"/jungleTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_poisondagger"}}]
+,[{"op":"add","path":"/jungleTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_poisondagger-recipe"}}]
 
   // ================================
   //            Alien

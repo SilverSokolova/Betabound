@@ -59,8 +59,7 @@
     },
     "stances": {
       "fire": {
-        "duration": 0.05,
-        "recoil": true
+        "duration": 0.05
       },
       "cooldown": {
         "armRotation": 10,

@@ -1,0 +1,19 @@
+{
+  "id": "sb_floranambition",
+  "species": "floran",
+  "title": "Goal",
+  "description": "A Floran describes their desires, while another has expressed disgust.",
+  "icon": "/codex/missions/floran mission/floranmission2.png",
+  "contentPages": [
+"Ssstab. Ssstab, sssmash, hunt. Find glory, make good Floran. Ssstab. Get best kill. Win all of Florans. Sssow ssseeds of discord. Punch all of the prey.
+
+Making friends would be nice too.
+
+^green;The savagery of my kin disgusts me...^reset;"
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

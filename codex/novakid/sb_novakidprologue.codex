@@ -1,0 +1,17 @@
+{
+  "id": "sb_novakidprologue",
+  "species": "other",
+  "title": "Adventure Awaits",
+  "description": "A personal log from an adventurer. Their tale was never finished...",
+  "icon": "sb_novakid.png",
+  "contentPages": [
+"I awoke on this broken and battered ship, orbiting an unfamiliar planet, with no memories to call my own. What happened? How did I arrive here?
+
+With a sparkling shrug, I decide to pick myself up by the bootstraps and venture to the planet below. Maybe answers lay in wait ahead!"
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

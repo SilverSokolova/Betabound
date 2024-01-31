@@ -37,13 +37,6 @@
     "energyUsage": 60
   },
   "primaryAbility": {
-    "stances": {
-      "cooldown": {
-        "recoil": true,
-        "armRotation": 0,
-        "weaponRotation": 0
-      }
-    },
     "projectileCount": 5,
     "fireTime": 0.85,
     "baseDps": 13.25,

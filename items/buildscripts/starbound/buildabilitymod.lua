@@ -5,7 +5,7 @@ function build(directory, config, parameters)
   parameters.ability = parameters.ability or randomAbility()
   config = sb.jsonMerge(config, getAbilityConfig(parameters.ability))
   config.inventoryIcon = jarray()
-  table.insert(config.inventoryIcon, {image = "sb_backingicon.png"})
+  table.insert(config.inventoryIcon, {image = "/interface/sb_backingicon.png"})
   --decided against `config.icon and (config.icon..".png") in order to support directives
   local icon = config.icon
   if icon then

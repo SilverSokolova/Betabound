@@ -1,0 +1,19 @@
+{
+  "id": "sb_hylotlprologue",
+  "species": "hylotl",
+  "title": "Compromise",
+  "description": "A personal log from an adventurer. Their tale was never finished...",
+  "icon": "sb_hylotl.png",
+  "contentPages": [
+"I've been drifting in space for quite some time, thanks to all these planets being unsuited for exploration. Despite all evidence to the contrary, my ship insists it has ran out of fuel and refuses to move from its orbit around this backwater planet.
+
+This planet, obviously, is not what I was looking for, and scans indicate the indigenous species are nowhere near as cultured as myself, though that has been the case for the last four hundred and three planets.",
+
+"With a sigh, I suppose I must help enlighten the savages below. It's a hard life, what with being oh-so stylish."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

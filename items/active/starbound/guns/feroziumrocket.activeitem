@@ -63,8 +63,13 @@
       "acceleration": 150
     },
     "stances": {
+      "fire": {
+        "weaponOffset": [-0.2, 0]
+      },
       "cooldown": {
-        "recoil": true
+        "weaponOffset": [-0.2, 0],
+        "armRotation": 0,
+        "weaponRotation": 0
       }
     }
   },

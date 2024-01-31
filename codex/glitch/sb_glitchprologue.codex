@@ -1,0 +1,19 @@
+{
+  "id": "sb_glitchprologue",
+  "species": "glitch",
+  "title": "Outcast No More",
+  "description": "A personal log from an adventurer. Their tale was never finished...",
+  "icon": "sb_glitch.png",
+  "contentPages": [
+"As one of the few Glitch to achieve self-awareness, I was forced to flee my home. With little preperation, no less. As a result, my ship has ran out of fuel in orbit of an unknown planet.
+
+Being an outcast in unsympathetic territory is difficult. Being an outcast stuck in space, even more so, I find.",
+
+"But with self-awareness comes new perspectives. I am no mere machine unable to see myself for what I am; I have the capability to act independently of my original programming, and I can get myself out of this mess. At least, in theory. It's time to find out just how useful 'organic thought' can be."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

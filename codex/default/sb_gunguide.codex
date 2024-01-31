@@ -12,7 +12,7 @@
     - All types of ammo are universally accepted"
   ],
   "itemConfig": {
-    "rarity": "common",
+    "rarity": "uncommon",
     "tooltipKind": "sb_object",
     "price": 25
   }

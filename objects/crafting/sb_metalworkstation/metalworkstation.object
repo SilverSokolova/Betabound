@@ -18,7 +18,7 @@
     "craftingSound": "/sfx/interface/crafting_furnace.ogg"
   },
   "printable": false,
-  "description": "Used to produce various weapon mods, for changing the special abilities of weapons.",
+  "description": "Used to produce various weapon mods, for changing the elements and special abilities of weapons.",
   "shortdescription": "^orange;Metalwork Station^reset;",
   "race": "generic",
   "category": "crafting",

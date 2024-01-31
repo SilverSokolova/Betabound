@@ -56,11 +56,13 @@
         "allowRotate": true,
         "allowFlip": true
       },
-      "fire": {},
+      "fire": {
+        "weaponOffset": [-0.2, 0]},
       "cooldown": {
+        "weaponOffset": [-0.2, 0],
         "duration": 0.25,
-        "armRotation": 5,
-        "weaponRotation": 5,
+        "armRotation": 0,
+        "weaponRotation": 0,
         "twoHanded": true,
 
         "allowRotate": false,

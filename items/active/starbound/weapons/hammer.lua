@@ -9,12 +9,7 @@ sb_hammer = MeleeSlash:new()
 
 function sb_hammer:init()
   self.stances.windup.duration = self.fireTime - self.stances.preslash.duration - self.stances.fire.duration
-  local primaryAbility = config.getParameter("primaryAbility")
   self.damageConfig.baseDamage = self.baseDps * self.fireTime
-  self.projectilePower = self.damageConfig.baseDamage * config.getParameter("damageLevelMultiplier",1) * config.getParameter("projectileDamageMultiplier",0.6)
-  self.projectileType = primaryAbility.projectileType or false
-  if self.projectileType then projectileOffset = primaryAbility.projectileOffset or {0,0.1} end
-
   MeleeSlash.init(self)
   self:setupInterpolation()
 end
@@ -92,18 +87,11 @@ function sb_hammer:fire()
     if smashTimer > 0 then
       local groundImpact = world.polyCollision(poly.translate(poly.handPosition(animator.partPoly("blade", "groundImpactPoly")), mcontroller.position()))
       if mcontroller.onGround() or groundImpact then
-	smashTimer = 0
-	if groundImpact then
-	  animator.burstParticleEmitter("groundImpact")
-	  animator.playSound("groundImpact")
-	  if self.projectileType then
-	    local position = vec2.add(mcontroller.position(), {projectileOffset[1] * mcontroller.facingDirection(), (-1.5 + projectileOffset[2])})
-	    local params = {
-	      powerMultiplier = activeItem.ownerPowerMultiplier(),
-	      power = self.projectilePower
-	    }
-	    world.spawnProjectile(self.projectileType, position, activeItem.ownerEntityId(), self:aimVector(), false,params)
-	  end
+        smashTimer = 0
+        if groundImpact then
+          animator.burstParticleEmitter("groundImpact")
+          animator.playSound("groundImpact")
+          projectileFire(self)
         end
       end
     end

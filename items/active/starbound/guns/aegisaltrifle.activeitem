@@ -38,6 +38,14 @@
   "altAbility": {
     "projectileParameters": {
       "speed": 250
+    },
+    "stances": {
+      "cooldown": {
+        "duration": 0.03,
+        "recoil": true,
+        "armRotation": 0,
+        "weaponRotation": 0
+      }
     }
   },
   "primaryAbility": {
@@ -52,8 +60,8 @@
       "cooldown": {
         "duration": 0.03,
         "recoil": true,
-        "armRotation": 2,
-        "weaponRotation": 2
+        "armRotation": 0,
+        "weaponRotation": 0
       }
     }
   },

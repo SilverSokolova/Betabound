@@ -1,137 +1,124 @@
 {
-  "projectileName" : "sb_gasgrenade",
-  "physics" : "grenadezbomb",
-  "bounces" : 0,
-  "timeToLive" : 8,
-  "image" : "gasgrenade.png",
-  "animationCycle" : 0.4,
-  "lightColor" : [253, 160, 57],
-  "frameNumber" : 8,
-  "actionOnReap" : [
-    {"action":"sound","options":["/sfx/gun/molotov_impact.ogg"],"time":0,"repeat":false},
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : -20,
-      "inheritDamageFactor" : 0.1
-    },
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : -40,
-      "inheritDamageFactor" : 0.1
-    },
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : 60,
-      "inheritDamageFactor" : 0.1
-    },
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : -80,
-      "inheritDamageFactor" : 0.1
-    },
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : -100,
-      "inheritDamageFactor" : 0.1
-    },
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : -120,
-      "inheritDamageFactor" : 0.1
-    },
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : -140,
-      "inheritDamageFactor" : 0.1
-    },
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : -180,
-      "inheritDamageFactor" : 0.1
-    },
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : 0,
-      "inheritDamageFactor" : 0.1
-    },
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : 20,
-      "inheritDamageFactor" : 0.1
-    },
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : 40,
-      "inheritDamageFactor" : 0.1
-    },
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : 60,
-      "inheritDamageFactor" : 0.1
-    },
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : 80,
-      "inheritDamageFactor" : 0.1
-    },
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : 100,
-      "inheritDamageFactor" : 0.1
-    },
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : 120,
-      "inheritDamageFactor" : 0.1
-    },
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : 140,
-      "inheritDamageFactor" : 0.1
-    },
-    {
-      "action" : "projectile",
-      "type" : "gas2",
-      "fuzzAngle" : 0,
-      "angleAdjust" : 180,
-      "inheritDamageFactor" : 0.1
+  "projectileName": "sb_gasgrenade",
+  "physics": "grenadezbomb",
+  "bounces": 0,
+  "timeToLive": 8,
+  "image": "gasgrenade.png",
+  "animationCycle": 0.4,
+  "lightColor": [253, 160, 57],
+  "frameNumber": 8,
+  "actionOnReap": [{
+      "action": "sound",
+      "options": ["/sfx/gun/molotov_impact.ogg"],
+      "time": 0,
+      "repeat": false
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": -20,
+      "inheritDamageFactor": 0.1
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": -40,
+      "inheritDamageFactor": 0.1
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": 60,
+      "inheritDamageFactor": 0.1
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": -80,
+      "inheritDamageFactor": 0.1
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": -100,
+      "inheritDamageFactor": 0.1
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": -120,
+      "inheritDamageFactor": 0.1
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": -140,
+      "inheritDamageFactor": 0.1
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": -180,
+      "inheritDamageFactor": 0.1
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": 0,
+      "inheritDamageFactor": 0.1
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": 20,
+      "inheritDamageFactor": 0.1
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": 40,
+      "inheritDamageFactor": 0.1
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": 60,
+      "inheritDamageFactor": 0.1
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": 80,
+      "inheritDamageFactor": 0.1
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": 100,
+      "inheritDamageFactor": 0.1
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": 120,
+      "inheritDamageFactor": 0.1
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": 140,
+      "inheritDamageFactor": 0.1
+    }, {
+      "action": "projectile",
+      "type": "gas2",
+      "fuzzAngle": 0,
+      "angleAdjust": 180,
+      "inheritDamageFactor": 0.1
     }
   ],
-  "power" : 10,
-  "damageType" : "NoDamage",
-  "damageKind" : "default",
-  "damagePoly" : [[-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6]],
-  "emitters" : ["sparks"]
+  "power": 10,
+  "damageType": "NoDamage",
+  "damageKind": "default",
+  "damagePoly": [[-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6]],
+  "emitters": ["sparks"]
 }

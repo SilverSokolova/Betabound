@@ -51,6 +51,7 @@
   [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.02,"pool":"costume"}}],
   [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.02,"pool":"instrument"}}],
   [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
+  [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.08,"item":"sb_elementmod"}}],
 
 		//Tech
 //[{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.1,"item":"sb_tech"}}],
@@ -442,6 +443,7 @@
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_cutarrh"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_katarrhna"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uraniumrodstaff"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_poisondagger"}}],
 
 
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_shiv"}}],

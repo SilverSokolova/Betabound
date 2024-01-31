@@ -1,66 +1,152 @@
 [
-{"op":"add","path":"/apexcityChestTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"apexcityLore"}},
-{"op":"add","path":"/apexcityTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"apexcityLore"}},
-
-/*
-avian tower
-*/
-
-{"op":"add","path":"/novakidvillageLore/0/1/pool/1","value":{"weight":0.25,"pool":"sb_novakidBlueprints"}},
-
-{"op":"add","path":"/hylotlcityLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_hylotlBlueprints"}},
-{"op":"add","path":"/hylotloceancityLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_hylotlBlueprints"}},
-{"op":"add","path":"/hylotlruinedcastleLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_hylotlBlueprints"}},
-{"op":"add","path":"/hylotlruinedcityLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_hylotlBlueprints"}},
-
-{"op":"add","path":"/humancampLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_humanBlueprints"}},
-{"op":"add","path":"/humanprisonLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_humanBlueprints"}},
-
-{"op":"add","path":"/glitchvillageLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_glitchBlueprints"}},
-{"op":"add","path":"/glitchcastleLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_glitchBlueprints"}},
-//{"op":"add","path":"/glitchcastleLore/0/1/pool/-","value":{"weight":0.2,"item":["sb_customcodex",1,{"inventoryIcon":"/codex/sb_glitchcastlebook.png","codexIcon":"/codex/sb_glitchcastlebook.png"}]}},
-{"op":"add","path":"/evilfortressLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_glitchBlueprints"}},
-//{"op":"add","path":"/evilfortressLore/0/1/pool/-","value":{"weight":0.2,"item":["sb_customcodex",1,{"inventoryIcon":"/codex/sb_glitchcastlebook.png","codexIcon":"/codex/sb_glitchcastlebook.png"}]}},
-{"op":"add","path":"/dungeoncrawlerLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_glitchBlueprints"}},
-{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_glitchBlueprints"}},
-//{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":["sb_customcodex",1,{"inventoryIcon":"/codex/sb_glitchsewerbook.png","codexIcon":"/codex/sb_glitchsewerbook.png"}]}},
-
-{"op":"add","path":"/floranhutvillageLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_floranBlueprints"}},
-//{"op":"add","path":"/floranhutvillageLore/0/1/pool/-","value":{"weight":0.2,"item":["sb_customcodex",1,{"inventoryIcon":"/codex/sb_floranvillagebook.png","codexIcon":"/codex/sb_floranvillagebook.png"}]}},
-{"op":"add","path":"/floranvillagetowerLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_floranBlueprints"}},
-//{"op":"add","path":"/floranvillagetowerLore/0/1/pool/-","value":{"weight":0.2,"item":["sb_customcodex",1,{"inventoryIcon":"/codex/sb_floranvillagebook.png","codexIcon":"/codex/sb_floranvillagebook.png"}]}},
-{"op":"add","path":"/florancanyonLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_floranBlueprints"}},
-//{"op":"add","path":"/florancanyonLore/0/1/pool/-","value":{"weight":0.2,"item":["sb_customcodex",1,{"inventoryIcon":"/codex/sb_shroombook.png","codexIcon":"/codex/sb_shroombook.png"}]}}, //because mushroomhead in florancanyonChestTreasure
-{"op":"add","path":"/floranhuntinggroundsLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_floranBlueprints"}},
-//{"op":"add","path":"/floranhuntinggroundsLore/0/1/pool/-","value":{"weight":0.25,"item":["sb_customcodex",1,{"inventoryIcon":"/codex/sb_floranhuntinggroundsbook.png","codexIcon":"/codex/sb_floranhuntinggroundsbook.png"}]}},
-
-{"op":"add","path":"/avianairshipLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_avianBlueprints"}},
-//{"op":"add","path":"/avianairshipLore/0/1/pool/-","value":{"weight":0.5,"item":["sb_customcodex",1,{"inventoryIcon":"/codex/sb_avianairshipbook.png","codexIcon":"/codex/sb_avianairshipbook.png"}]}},
-{"op":"add","path":"/aviannativevillageLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_avianBlueprints"}},
-//{"op":"add","path":"/aviannativevillageLore/0/1/pool/-","value":{"weight":0.33,"item":["sb_customcodex",1,{"inventoryIcon":"/codex/avian/aviancover6.png","codexIcon":"/codex/avian/aviancover6.png"}]}},
-{"op":"add","path":"/avianvillageLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_avianBlueprints"}},
-//{"op":"add","path":"/avianvillageLore/0/1/pool/-","value":{"weight":0.25,"item":["sb_customcodex",1,{"inventoryIcon":"/codex/avian/aviancover6.png","codexIcon":"/codex/avian/aviancover6.png"}]}},
-{"op":"add","path":"/aviantombLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_avianBlueprints"}},
-//{"op":"add","path":"/aviantombLore/0/1/pool/-","value":{"weight":0.2,"item":["sb_customcodex",1,{"inventoryIcon":"/codex/sb_aviantombbook.png","codexIcon":"/codex/sb_aviantombbook.png"}]}},
-{"op":"add","path":"/aviantempleLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_avianBlueprints"}},
-//{"op":"add","path":"/aviantempleLore/0/1/pool/-","value":{"weight":0.2,"item":["sb_customcodex",1,{"inventoryIcon":"/codex/sb_aviantemplebook.png","codexIcon":"/codex/sb_aviantemplebook.png"}]}},
-
-{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_apexBlueprints"}},
-{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_townadvert-codex"}},
-//{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.2,"item":["sb_customcodex",1,{"inventoryIcon":"/codex/sb_apexvillagebook.png","codexIcon":"/codex/sb_apexvillagebook.png"}]}},
-
-{"op":"add","path":"/apexcampLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_apexBlueprints"}},
-{"op":"add","path":"/apexbaseLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_apexBlueprints"}},
-{"op":"add","path":"/apextestfacilityLore/0/1/pool/-","value":{"weight":0.25,"pool":"sb_apexBlueprints"}},
+[{"op":"add","path":"/apexcityChestTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"apexcityLore"}}],
+[{"op":"add","path":"/apexcityTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"apexcityLore"}}],
 
 
-{"op":"add","path":"/naturalcaveTreasure/0/1/pool/-","value":{"weight":0.0025,"pool":"sb_crappyweapons"}},
-{"op":"add","path":"/naturalcaveTreasure/0/1/pool/-","value":{"weight":0.01,"item":"sb_stonepickaxe"}},
-{"op":"add","path":"/naturalcaveTreasure/0/1/pool/-","value":{"weight":0.03,"item":"sb_rootpopflask"}},
-{"op":"add","path":"/naturalcaveTreasure/0/1/pool/-","value":{"weight":0.03,"item":["coalore",5]}},
-{"op":"add","path":"/naturalcaveTreasure/0/1/pool/-","value":{"weight":0.03,"item":"sb_unrefinedwood"}},
-{"op":"add","path":"/naturalcaveTreasure/0/1/pool/-","value":{"weight":0.02,"item":["sb_unrefinedwood",3]}},
-{"op":"add","path":"/naturalcaveTreasure/0/1/pool/-","value":{"weight":0.04,"item":["darkwoodmaterial",10]}},
-{"op":"add","path":"/naturalcaveTreasure/0/1/pool/-","value":{"weight":0.03,"item":["cobblestonematerial",10]}},
-{"op":"add","path":"/naturalcaveTreasure/0/1/pool/-","value":{"weight":0.01,"item":["cobblestonematerial",25]}}
+  // ================================
+  //        Apex Test Facility
+  // ================================
+[{"op":"add","path":"/apextestfacilityTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_apexBlueprints"}}],
+  
+  // ================================
+  //        Apex Miniknog Base
+  // ================================
+[{"op":"add","path":"/apexbaseTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_apexBlueprints"}}],
+
+  // ================================
+  //        Apex Rebel Camp
+  // ================================
+[{"op":"add","path":"/apexcampTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_apexBlueprints"}}],
+
+  // ================================
+  //       Apex City Apartments
+  // ================================
+[{"op":"test","path":"/apexcityRareTreasure/0/1/fill","inverse":true},{"op":"add","path":"/apexcityRareTreasure/0/1/fill","value":[]}],
+[{"op":"add","path":"/apexcityTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_apexBlueprints"}}],
+[{"op":"add","path":"/apexcityRareTreasure/0/1/fill/-","value":{"item":"sb_townproblems-codex"}}],
+[{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_townadvert-codex"}}],
+[{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_apexorigins-codex"}}],
+[{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_townheadline-codex"}}],
+[{"op":"add","path":"/apexcityRareTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_townproblems-codex"}}],
+  
+  
+  // ================================
+  //          Avian Temple
+  // ================================
+[{"op":"add","path":"/aviantempleTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_avianBlueprints"}}],
+
+  // ================================
+  //           Avian Tomb
+  // ================================
+[{"op":"add","path":"/aviantombTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_avianBlueprints"}}],
+[{"op":"add","path":"/aviantombLore/0/1/pool/-","value":{"weight":0.33,"item":"sb_tombwords"}}],
+
+  // ================================
+  //      Avian Grounded Village
+  // ================================
+[{"op":"add","path":"/avianvillageTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_avianBlueprints"}}],
+
+  // ================================
+  //       Avian Native Village
+  // ================================
+[{"op":"add","path":"/aviannativevillageTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_avianBlueprints"}}],
+
+  // ================================
+  //          Avian Airship
+  // ================================
+[{"op":"add","path":"/avianairshipTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_avianBlueprints"}}],
+
+  // ================================
+  //      Floran Hunting Grounds
+  // ================================
+[{"op":"add","path":"/floranhuntinggroundsTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_floranBlueprints"}}],
+
+  // ================================
+  //          Floran Canyon
+  // ================================
+[{"op":"add","path":"/florancanyonTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_floranBlueprints"}}],
+
+  // ================================
+  //      Floran Treetop Village
+  // ================================
+[{"op":"add","path":"/floranvillagetowerTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_floranBlueprints"}}],
+
+  // ================================
+  //        Floran Hut Village
+  // ================================
+[{"op":"add","path":"/floranhutvillageTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_floranBlueprints"}}],
+
+  // ================================
+  //      Glitch Dungeon Crawler
+  // ================================
+[{"op":"add","path":"/dungeoncrawlerTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_glitchBlueprints"}}],
+
+  // ================================
+  //       Glitch Evil Fortress
+  // ================================
+[{"op":"add","path":"/evilfortressTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_glitchBlueprints"}}],
+
+  // ================================
+  //         Glitch Castle
+  // ================================
+[{"op":"add","path":"/glitchcastleTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_glitchBlueprints"}}],
+
+  // ================================
+  //        Glitch Village
+  // ================================
+[{"op":"add","path":"/glitchvillageTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_glitchBlueprints"}}],
+
+  // ================================
+  //          Human Prison
+  // ================================
+[{"op":"add","path":"/humanprisonTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_humanBlueprints"}}],
+
+  // ================================
+  //          Human Campsite
+  // ================================
+[{"op":"add","path":"/humancampTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_humanBlueprints"}}],
+
+  // ================================
+  //     Hylotl Underwater Ruins
+  // ================================
+[{"op":"add","path":"/hylotlruinedcityTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_hylotlBlueprints"}}],
+
+  // ================================
+  //      Hylotl Ruined Castle
+  // ================================
+[{"op":"add","path":"/hylotlruinedcastleTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_hylotlBlueprints"}}],
+
+  // ================================
+  //      Hylotl Underwater City
+  // ================================
+[{"op":"add","path":"/hylotloceancityTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_hylotlBlueprints"}}],
+
+  // ================================
+  //       Hylotl Surface City
+  // ================================
+[{"op":"add","path":"/hylotlcityTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_hylotlBlueprints"}}],
+
+  // ================================
+  //      Novakid Town
+  // ================================
+[{"op":"add","path":"/novakidvillageTreasure/0/1/pool/1","value":{"weight":0.05,"pool":"sb_novakidBlueprints"}}],
+[{"op":"add","path":"/novakidvillageLore/0/1/pool/1","value":{"weight":0.33,"item":"sb_novakidorigins-codex"}}],
+
+  // ================================
+  //           Old Sewer
+  // ================================
+//[{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":["sb_customcodex",1,{"inventoryIcon":"/codex/sb_glitchsewerbook.png","codexIcon":"/codex/sb_glitchsewerbook.png"}]}},
+[{"op":"add","path":"/glitchsewerTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_glitchBlueprints"}}],
+
+
+  // ================================
+  //          Natural Cave
+  // ================================
+[{"op":"add","path":"/naturalcaveTreasure/0/1/pool/-","value":{"weight":0.5,"pool":"novakidvillageMiningTreasure"}}],
+[{"op":"add","path":"/naturalcaveTreasure/0/1/pool/-","value":{"weight":0.0025,"pool":"sb_crappyweapons"}}],
+[{"op":"add","path":"/naturalcaveTreasure/0/1/pool/-","value":{"weight":0.01,"item":"sb_stonepickaxe"}}],
+[{"op":"add","path":"/naturalcaveTreasure/0/1/pool/-","value":{"weight":0.03,"item":"sb_rootpopflask"}}],
+[{"op":"add","path":"/naturalcaveTreasure/0/1/pool/-","value":{"weight":0.03,"item":["coalore",5]}}],
+[{"op":"add","path":"/naturalcaveTreasure/0/1/pool/-","value":{"weight":0.03,"item":"sb_unrefinedwood"}}],
+[{"op":"add","path":"/naturalcaveTreasure/0/1/pool/-","value":{"weight":0.02,"item":["sb_unrefinedwood",3]}}]
 ]

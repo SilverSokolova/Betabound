@@ -38,7 +38,10 @@
         "twoHanded": true
       },
       "cooldown": {
-        "twoHanded": true
+        "twoHanded": true,
+        "recoil": true,
+        "armRotation": 0,
+        "weaponRotation": 0
       }
     },
     "fireTime": 0.2,

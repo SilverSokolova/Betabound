@@ -1,0 +1,17 @@
+{
+  "id": "sb_townproblems",
+  "species": "apex",
+  "title": "Reported Problems",
+  "description": "A torn entry from a Miniknog guard's journal.",
+  "icon": "sb_apexcover3.png",
+  "contentPages": [
+"Not only do we have to deal with sightings of a hulking figure on the streets at night, but now the Resistance has set up shop in our little town as well. Why can't they just let us do our jobs? All Big Ape wants is total and absolute control, is that so much to ask?
+
+We have a platoon of armed guards just waiting to descend on their hideout should we find it. Free-spirited free-thinkers are NOT welcome here. If we don't find them soon, we'll have to poison the water supply again, and then EVERYONE suffers."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "sb_hylotldirective",
+  "species": "hylotl",
+  "title": "Spread Your Peace",
+  "description": "An aged pamphlet, written when the Hylotl first began space travel.",
+  "icon": "sb_hylotlcover1.png",
+  "contentPages": [
+"Dearest Hylotl missionary,
+You have ventured out into the unforgiving universe to spread word of our species and to help all those in need. For this, we thank you.
+
+May the Hylotl spread peace throughout the universe. Be discerning, polite, and remember ^red;Directive 0451^reset;. If you do not remember what ^red;Directive 0451^reset; is, then do not worry about it. Or ask about it. Or think about it. Just do your job, okay?"
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

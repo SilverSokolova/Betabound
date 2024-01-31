@@ -23,7 +23,7 @@ function apply(input)
 
   local acceptedElements = config.getParameter("acceptedElements")
   if acceptedElements then
-    isValidElement = false
+    local isValidElement = false
     local element = output:instanceValue("elementalType", "physical")
     for i = 1, #acceptedElements do
       if element == acceptedElements[i] then

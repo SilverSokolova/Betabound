@@ -4,12 +4,12 @@
   "price": 25,
   "maxStack": 1,
   "rarity": "common",
-  "tooltipKind": "sb_sword",
+  "tooltipKind": "sb_sword2",
   "category": "spear",
   "tooltipFields": {
     "subtitle": "Crappy Spear"
   },
-  "description": "",
+  "description": "This spear is perfect for enemies just out of reach.",
   "shortdescription": "Common Crappy Spear",
   "twoHanded": true,
   "itemTags": ["weapon", "melee", "spear", "crappy", "upgradeableWeapon"],

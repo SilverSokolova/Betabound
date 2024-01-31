@@ -4,12 +4,12 @@
   "price": 25,
   "maxStack": 1,
   "rarity": "uncommon",
-  "tooltipKind": "sb_sword",
+  "tooltipKind": "sb_sword2",
   "category": "broadsword",
   "tooltipFields": {
     "subtitle": "Crappy Broadsword"
   },
-  "description": "",
+  "description": "A two-handed sword.",
   "shortdescription": "Uncommon Crappy Broadsword",
   "twoHanded": true,
   // "sb_dyeable" : true,
