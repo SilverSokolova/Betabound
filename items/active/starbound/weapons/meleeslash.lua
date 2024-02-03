@@ -10,7 +10,7 @@ function MeleeSlash:init()
   self.energyUsage = self.energyUsage or 0
   self.inaccuracy = self.inaccuracy or 0
   self.comboStep = 1
-  elementalType = self.elementalType or self.weapon.elementalType
+  elementalType = self.elementalType or self.weapon.elementalType --no contingency case because other things check for element
 
   --THIS IS STUPID I HATE IT WHY ARENT STANCES MERGED WITH THE DEFAULTS
   windupDuration = 0.1

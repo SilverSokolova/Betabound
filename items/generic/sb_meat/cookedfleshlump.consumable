@@ -4,7 +4,7 @@
   "price": 25,
   "foodValue": 20,
   "tooltipKind": "sb_object",
-  "category": "preparedFood",
+  "category": "food",
   "inventoryIcon": "cookedfleshlump.png",
   "description": "It's a cooked hunk of flesh of questionable origin.",
   "shortdescription": "Cooked Flesh Lump",

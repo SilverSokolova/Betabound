@@ -324,6 +324,9 @@ function build(directory, config, parameters, level, seed)
     end
   end
 
+  local tags = configParameter("tags")
+  if tags then for k, v in pairs(tags) do replacePatternInData(config, nil, k, v) end end
+
   return config, parameters
 end
 

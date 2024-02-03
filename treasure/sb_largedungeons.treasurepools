@@ -74,32 +74,32 @@
     }],
     [2.9, {
       "pool" : [
-        {"weight" : 0.5, "item" : ["sb_unrefinedwood",20]},
+        {"weight" : 0.5, "item" : ["sb_unrefinedwood",5]},
         {"weight" : 0.5, "item" : ["sb_unrefinedwood",10]},
-        {"weight" : 0.5, "item" : ["coalore",10]},
         {"weight" : 0.5, "item" : ["coalore",5]},
-        {"weight" : 0.2, "item" : ["liquidfuel",20]},
+        {"weight" : 0.5, "item" : ["coalore",10]},
         {"weight" : 0.2, "item" : ["liquidfuel",10]},
-        {"weight" : 0.2, "item" : ["solidfuel",20]},
+        {"weight" : 0.2, "item" : ["liquidfuel",20]},
         {"weight" : 0.2, "item" : ["solidfuel",10]},
-        {"weight" : 0.07, "item" : ["supermatter",5]},
+        {"weight" : 0.2, "item" : ["solidfuel",20]},
         {"weight" : 0.07, "item" : ["supermatter",2]},
-        {"weight" : 0.15, "item" : ["liquidoil",6]},
+        {"weight" : 0.07, "item" : ["supermatter",5]},
         {"weight" : 0.15, "item" : ["liquidoil",12]},
-        {"weight" : 0.07, "item" : ["uraniumore",6]},
-        {"weight" : 0.07, "item" : ["uraniumore",3]}
+        {"weight" : 0.15, "item" : ["liquidoil",18]},
+        {"weight" : 0.07, "item" : ["uraniumore",3]},
+        {"weight" : 0.07, "item" : ["uraniumore",6]}
       ]
     }],
     [4.9, {
       "pool" : [
-        {"weight" : 0.3, "item" : ["supermatter",5]},
         {"weight" : 0.3, "item" : ["supermatter",2]},
-        {"weight" : 0.2, "item" : ["uraniumrod",4]},
+        {"weight" : 0.3, "item" : ["supermatter",5]},
         {"weight" : 0.2, "item" : ["uraniumrod",2]},
-        {"weight" : 0.07, "item" : ["plutoniumore",4]},
+        {"weight" : 0.2, "item" : ["uraniumrod",4]},
         {"weight" : 0.07, "item" : ["plutoniumore",2]},
-        {"weight" : 0.05, "item" : ["plutoniumrod",4]},
-        {"weight" : 0.05, "item" : ["plutoniumrod",2]}
+        {"weight" : 0.07, "item" : ["plutoniumore",4]},
+        {"weight" : 0.05, "item" : ["plutoniumrod",2]},
+        {"weight" : 0.05, "item" : ["plutoniumrod",4]}
       ]
     }]
   ],

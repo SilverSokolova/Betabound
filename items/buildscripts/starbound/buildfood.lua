@@ -27,7 +27,7 @@ function build(directory, config, parameters)
 
   if not config.itemAgingScripts then
     fields.rotTimeLabel = ""
-  elseif root.assetJson("/betabound.config:rotFood") == false then
+  elseif (root.assetJson("/betabound.config:rotFood") == false) or not config.itemAgingScripts then
     fields.rotTimeLabel = ""
     parameters.timeToRot = nil --root.assetJson("/items/rotting.config:baseTimeToRot")
   end

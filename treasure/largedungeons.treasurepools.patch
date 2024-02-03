@@ -7,6 +7,7 @@
   //        Apex Test Facility
   // ================================
 [{"op":"add","path":"/apextestfacilityTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_apexBlueprints"}}],
+[{"op":"add","path":"/apextestfacilityTreasure/0/1/pool/-","value":{"weight":0.04,"item":["sb_plasmagrenade", 3]}}],
   
   // ================================
   //        Apex Miniknog Base
@@ -129,8 +130,13 @@
   // ================================
   //      Novakid Town
   // ================================
-[{"op":"add","path":"/novakidvillageTreasure/0/1/pool/1","value":{"weight":0.05,"pool":"sb_novakidBlueprints"}}],
-[{"op":"add","path":"/novakidvillageLore/0/1/pool/1","value":{"weight":0.33,"item":"sb_novakidorigins-codex"}}],
+[{"op":"add","path":"/novakidvillageTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_novakidBlueprints"}}],
+[{"op":"add","path":"/novakidvillageLore/0/1/pool/-","value":{"weight":0.003,"item":"harmonica"}}],
+
+  // ================================
+  //           Novakid Mining
+  // ================================
+[{"op":"add","path":"/novakidvillageMiningTreasure/0/1/pool/-","value":{"weight":0.33,"item":"sb_novakidorigins-codex"}}],
 
   // ================================
   //           Old Sewer

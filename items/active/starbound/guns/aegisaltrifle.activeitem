@@ -37,7 +37,8 @@
   "altAbilityType": "bouncingshot",
   "altAbility": {
     "projectileParameters": {
-      "speed": 250
+      "speed": 250,
+      "knockback": 0
     },
     "stances": {
       "cooldown": {
@@ -54,7 +55,8 @@
     "energyUsage": 18,
     "inaccuracy": 0.025,
     "projectileParameters": {
-      "speed": 150
+      "speed": 150,
+      "knockback": 0
     },
     "stances": {
       "cooldown": {

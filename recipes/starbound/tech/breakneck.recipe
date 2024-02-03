@@ -1,0 +1,9 @@
+{
+  "input":[
+    ["sb_tech",1,{"techModule":"sprint"}],
+    ["sb_tech",1,{"techModule":"sb_speed"}]
+  ],
+  "matchInputParameters" : true,
+  "output" : ["sb_tech",1,{"techModule":"sb_breakneck"}],
+  "groups" : ["sb_techconsole","sb_tech_4","nouncrafting","all"]
+}

@@ -1,0 +1,45 @@
+{
+  "itemName": "sb_testshortsword2",
+  "level": 1,
+  "rarity": "rare",
+  "twoHanded": false,
+  "maxStack": 1,
+  "description": "It's a secret to everyone.",
+  "shortdescription": "Slave Sword",
+  "tooltipKind": "sb_sword2",
+  "category": "shortsword",
+  "price": 660,
+  "sb_waBan": true,
+  "tooltipFields": {
+    "subtitle": "Slave Sword"
+  },
+  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "inventoryIcon": "slavesword.png<directives>",
+  "animationParts": {
+    "blade": "slavesword.png",
+    "handle": ""
+  },
+  "animationCustom": {
+    "sounds": {
+      "physicalfire1": ["/sfx/melee/sb_slavesword_swing.ogg"], //TODO: see if this sound exists under a different name in vanilla
+      "physicalfire2": ["/sfx/melee/sb_slavesword_swing.ogg"]
+    }
+  },
+  "animation": "/items/active/starbound/weapons/comboshortsword.animation",
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType": "physical",
+  "primaryAbilityType": "sb_shortswordcombo",
+  "primaryAbility": {
+    "projectileType": "sb_swordshot",
+    "projectileOffset":[0, 0.5],
+    "fireTime": [0.4, 1.2],
+    "baseDps": [3.5, 12.5]
+  },
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+  "builderConfig": [{
+      "nameGenerator": "slaveswordnames.config:nameGen",
+      "palette": "/items/active/starbound/colors/slavesword.weaponcolors"
+    }
+  ],
+  "nameGenerator": "slaveswordnames.config:nameGen"
+}

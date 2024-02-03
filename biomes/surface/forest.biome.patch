@@ -36,7 +36,7 @@
       "path": "/surfacePlaceables/items/-",
       "value": {
         "mode": "floor",
-        "priority": 1,
+        "priority": 0.5,
         "variants": 1,
         "distribution": "/biomes/distributions.config:mainBiomeEncounterDungeon",
         "type": "microdungeon",

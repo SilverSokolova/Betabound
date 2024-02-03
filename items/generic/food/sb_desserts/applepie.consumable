@@ -7,15 +7,15 @@
   "shortdescription": "Apple Pie",
   "effects": [[{
         "effect": "maxenergyscalingboostfood",
-        "duration": 405
+        "duration": 495
       }, {
         "effect": "sb_energy",
-        "duration": 25
+        "duration": 30
       },
-      "sb_foodheal145"
+      "sb_foodheal190"
     ]],
-  "price": 320,
-  "foodValue": 45,
+  "price": 380,
+  "foodValue": 55,
   "tooltipKind": "sb_object",
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],

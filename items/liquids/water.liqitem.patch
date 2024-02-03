@@ -1,2 +1,7 @@
-[[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
-[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"waterballoon"}]]
+[
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"waterballoon"}],
+
+[{"op":"test","path":"/description","value":"A measure of cool, clear water."},
+{"op":"replace","path":"/description","value":"A measure of cool, clear water. Decanter not included."}]
+]

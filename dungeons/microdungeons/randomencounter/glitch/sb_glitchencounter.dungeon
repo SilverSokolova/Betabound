@@ -1,25 +1,28 @@
 {
-  "metadata" : {
-    "name" : "sb_glitchencounter",
-    "species" : "glitch",
-    "rules" : [["maxSpawnCount",[1]]],
-    "anchor" : ["glitchtransport","glitchhouse"],
-    "maxRadius" : 1000000,
-    "maxParts" : 1
+  "metadata": {
+    "name": "sb_glitchencounter",
+    "species": "glitch",
+    "rules": [["maxSpawnCount", [1]]],
+    "anchor": ["glitchtransport", "glitchhouse", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1", "glitchtower1"],
+    "maxRadius": 1000000,
+    "maxParts": 1
   },
 
-  "parts" : [
-    {
-      "name" : "glitchtransport",
-      "rules" : [],
-      "def" : ["tmx","sb_glitchtransport.json"],
-      "chance" : 1
-    },
-    {
-      "name" : "glitchhouse",
-      "rules" : [],
-      "def" : ["tmx","sb_glitchhouse.json"],
-      "chance" : 1
+  "parts": [{
+      "name": "glitchtransport",
+      "rules": [],
+      "def": ["tmx", "sb_glitchtransport.json"],
+      "chance": 0.8
+    }, {
+      "name": "glitchhouse",
+      "rules": [],
+      "def": ["tmx", "sb_glitchhouse.json"],
+      "chance": 0.8
+    }, {
+      "name": "glitchtower1",
+      "rules": [],
+      "def": ["tmx", "sb_glitchtower1.json"],
+      "chance": 0.8
     }
   ]
 }

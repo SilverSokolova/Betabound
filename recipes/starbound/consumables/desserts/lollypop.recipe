@@ -1,6 +1,6 @@
 {
-  "input" : ["sugar","oculemon"],
+  "input" : ["sugar","banana"],
   "output" : "sb_lollypop",
-  "groups" : ["craftingfood","desserts","sb_healing","sb_health","sb_energy","sb_t1food","all"],
+  "groups" : ["craftingfood","desserts","sb_healing","sb_energy","sb_energyregen","sb_t1food","all"],
   "collectables" : {"cooking":"sb_lollypop"}
 }

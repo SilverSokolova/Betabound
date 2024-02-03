@@ -12,6 +12,7 @@
 [{"op":"add","path":"/sb_hammer","value":"/items/active/starbound/weapons/hammer.weaponability"}],
 [{"op":"add","path":"/sb_meleeslash","value":"/items/active/starbound/weapons/meleeslash.weaponability"}],
 [{"op":"add","path":"/sb_meleeslash2","value":"/items/active/starbound/weapons/meleeslash2.weaponability"}],
+[{"op":"add","path":"/sb_shortswordcombo","value":"/items/active/starbound/weapons/shortswordcombo.weaponability"}],
 [{"op":"add","path":"/sb_dagger","value":"/items/active/starbound/weapons/dagger.weaponability"}],
 [{"op":"add","path":"/sb_spear","value":"/items/active/starbound/weapons/spear.weaponability"}],
 

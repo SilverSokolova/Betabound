@@ -2,8 +2,6 @@
   "sb_itemName": "rice.item",
   "itemName": "rice",
   "shortdescription": "Rice",
-  //"category" : "food",
   "foodValue": 2.5,
-  //"tooltipKind" : "sb_object4",
   "builder": "/items/buildscripts/starbound/fromsource.lua"
 }

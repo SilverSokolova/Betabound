@@ -44,7 +44,7 @@
 
         ,{"weight" : 0.6, "item" : "sb_vegetablesoup"}
 
-        ,{"weight" : 0.55, "item" : "sb_applepie"}
+        ,{"weight" : 0.45, "item" : "sb_applepie"}
         ,{"weight" : 0.75, "item" : "sb_candiedpearlpeas"}
 
         ,{"weight" : 0.85, "item" : "sb_ricevinegar"}
@@ -189,7 +189,7 @@
 
         ,{"weight" : 0.6, "item" : "sb_automatostew"}
         ,{"weight" : 0.5, "item" : "sb_crystalnachos"}
-        ,{"weight" : 0.65, "item" : "sb_meatandmarrow"}
+        ,{"weight" : 0.6, "item" : "sb_meatandmarrow"}
         ,{"weight" : 0.45, "item" : "sb_meatwich"}
         ,{"weight" : 0.5, "item" : "sb_oculemonstew"}
         ,{"weight" : 0.45, "item" : "sb_roastpoultry"}
@@ -283,7 +283,7 @@
         ,{"weight" : 0.55, "item" : "sb_copperkeypie"}
         ,{"weight" : 0.5, "item" : "sb_sweettime"}
 
-        ,{"weight" : 0.8, "item" : "sb_boltedmilk"}
+        ,{"weight" : 0.7, "item" : "sb_boltedmilk"}
         ,{"weight" : 0.65, "item" : "sb_oculemonade"}
 
         ,{"weight" : 0.985, "item" : "soda"}

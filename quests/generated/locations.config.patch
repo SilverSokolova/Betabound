@@ -18,7 +18,7 @@
       "op": "add",
       "path": "/sb/farm",
       "value": {
-        "name": "abandoned farm",
+        "name": "abandoned farmhouse",
         "tags": ["generic", "friendly", "largespace"]
       }
     }
@@ -38,6 +38,24 @@
       "value": {
         "name": "abandoned mining camp",
         "tags": ["generic", "friendly", "largespace"]
+      }
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb/wreck",
+      "value": {
+        "name": "wrecked starship",
+        "tags": ["generic", "friendly"]
+      }
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb/glitchtower1",
+      "value": {
+        "name": "wizard's tower",
+        "tags": ["generic", "friendly"]
       }
     }
   ]

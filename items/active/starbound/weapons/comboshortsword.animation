@@ -1,0 +1,178 @@
+{
+  //Unfortunately globalTags do not support globalTags
+  "globalTagDefaults": {
+    "paletteSwaps": ""
+  },
+
+  "animatedParts": {
+    "stateTypes": {
+      "swoosh": {
+        "default": "idle",
+        "states": {
+          "idle": {},
+          "fire": {
+            "frames": 3,
+            "cycle": 0.1,
+            "mode": "transition",
+            "transition": "idle"
+          },
+          "fire2": {
+            "frames": 3,
+            "cycle": 0.1,
+            "mode": "transition",
+            "transition": "idle"
+          }
+        }
+      }
+    },
+    "parts": {
+      "blade": {
+        "properties": {
+          "zLevel": 0,
+          "centered": true,
+          "image": "<partImage><paletteSwaps>?<bladeDirectives>",
+          "transformationGroups": ["weapon"],
+          "rotationCenter": [0, 0]
+        }
+      },
+      "handle": {
+        "properties": {
+          "zLevel": 1,
+          "centered": true,
+          "image": "<partImage><paletteSwaps>",
+          "transformationGroups": ["weapon"],
+          "rotationCenter": [0, 0]
+        }
+      },
+      "swoosh": {
+        "properties": {
+          "zLevel": -1,
+          "centered": true,
+          "transformationGroups": ["swoosh"],
+          "rotationCenter": [0, 0]
+        },
+
+        "partStates": {
+          "swoosh": {
+            "idle": {
+              "properties": {
+                "image": ""
+              }
+            },
+            "fire": {
+              "properties": {
+                "image": "/items/active/weapons/melee/shortsword/swoosh/<elementalType>swoosh.png:<frame>",
+                "offset": [1, 1],
+                "damageArea": [[-2.25, 1.125], [0.25, 1.125], [1.625, 0.75], [2.5, 0], [2.5, -0.5], [2.125, -0.875], [1, -1.375], [-2.25, -1.375]]
+              }
+            },
+            "fire2": {
+              "properties": {
+                "image": "/items/active/weapons/melee/spear/swoosh/<elementalType>swoosh.png:<frame>",
+                "offset": [0.25, 0.125],
+                "damageArea": [[-3, 1], [3, 1], [3, -1], [-3, -1]]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups": {
+    "weapon": {},
+    "swoosh": {}
+  },
+
+  "particleEmitters": {
+    "physicalswoosh": {
+      "active": false,
+      "transformationGroups": ["swoosh"],
+      "emissionRate": 1,
+      "burstCount": 1,
+      "particles": []
+    },
+    "fireswoosh": {
+      "active": false,
+      "transformationGroups": ["swoosh"],
+      "emissionRate": 50,
+      "burstCount": 4,
+      "particles": [{
+          "particle": "fireswoosh1"
+        }, {
+          "particle": "fireswoosh2"
+        }, {
+          "particle": "fireswoosh3"
+        }
+      ]
+    },
+    "electricswoosh": {
+      "active": false,
+      "transformationGroups": ["swoosh"],
+      "emissionRate": 50,
+      "burstCount": 3,
+      "particles": [{
+          "particle": "electricswoosh1"
+        }, {
+          "particle": "electricswoosh2"
+        }, {
+          "particle": "electricswoosh2"
+        }
+      ]
+    },
+    "poisonswoosh": {
+      "active": false,
+      "transformationGroups": ["swoosh"],
+      "emissionRate": 50,
+      "burstCount": 3,
+      "particles": [{
+          "particle": "poisonswoosh1"
+        }, {
+          "particle": "poisonswoosh2"
+        }, {
+          "particle": "fireswoosh2"
+        }
+      ]
+    },
+    "iceswoosh": {
+      "active": false,
+      "transformationGroups": ["swoosh"],
+      "emissionRate": 50,
+      "burstCount": 3,
+      "particles": [{
+          "particle": "iceswoosh1"
+        }, {
+          "particle": "iceswoosh2"
+        }, {
+          "particle": "iceswoosh3"
+        }
+      ]
+    }
+  },
+  "lights": {
+    "glow": {
+      "active": true,
+      "position": [0, 0],
+      "color": [0, 0, 0],
+      "flickerPeriod": 1,
+      "flickerMinIntensity": 0.65,
+      "flickerMaxIntensity": 0.9,
+      "flickerPeriodVariance": 0,
+      "flickerIntensityVariance": 0
+    }
+  },
+
+  "sounds": {
+    "physicalfire1": ["/sfx/melee/swing_shortsword.ogg"],
+    "firefire1": ["/sfx/melee/swing_shortsword_fire1.ogg", "/sfx/melee/swing_shortsword_fire2.ogg", "/sfx/melee/swing_shortsword_fire3.ogg"],
+    "electricfire1": ["/sfx/melee/swing_shortsword_electric1.ogg", "/sfx/melee/swing_shortsword_electric2.ogg", "/sfx/melee/swing_shortsword_electric3.ogg"],
+    "poisonfire1": ["/sfx/melee/swing_shortsword_poison1.ogg", "/sfx/melee/swing_shortsword_poison2.ogg", "/sfx/melee/swing_shortsword_poison3.ogg"],
+    "icefire1": ["/sfx/melee/swing_shortsword_ice1.ogg", "/sfx/melee/swing_shortsword_ice2.ogg", "/sfx/melee/swing_shortsword_ice3.ogg"],
+
+    "physicalfire2": ["/sfx/melee/swing_spear.ogg"],
+    "firefire2": ["/sfx/melee/swing_spear_fire1.ogg", "/sfx/melee/swing_spear_fire2.ogg", "/sfx/melee/swing_spear_fire3.ogg"],
+    "electricfire2": ["/sfx/melee/swing_spear_electric1.ogg", "/sfx/melee/swing_spear_electric2.ogg", "/sfx/melee/swing_spear_electric3.ogg"],
+    "poisonfire2": ["/sfx/melee/swing_spear_poison1.ogg", "/sfx/melee/swing_spear_poison2.ogg", "/sfx/melee/swing_spear_poison3.ogg"],
+    "icefire2": ["/sfx/melee/swing_spear_ice1.ogg", "/sfx/melee/swing_spear_ice2.ogg", "/sfx/melee/swing_spear_ice3.ogg"]
+  }
+}
