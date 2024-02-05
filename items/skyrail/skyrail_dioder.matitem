@@ -1,11 +1,14 @@
 {
-  "itemName" : "skyrail_diodeR",
-  "price" : 8,
-  "rarity" : "uncommon",
-  "tooltipKind" : "sb_object",
-  "category" : "rail",
-  "inventoryIcon" : "skyrailicon_diodeR.png",
-  "description" : "Grooved metal platform. Enforces single direction of motion.",
-  "shortdescription" : "Skyrail Diode (Right)",
-  "materialId" : 400179
+  "itemName": "skyrail_diodeR",
+  "price": 8,
+  "rarity": "uncommon",
+  "tooltipKind": "sb_object",
+  "category": "rail",
+  "tooltipFields": {
+    "subtitle": "Skyrail"
+  },
+  "inventoryIcon": "skyrailicon_diodeR.png",
+  "description": "Enforces single direction of motion. ^red;Affects skyrail hooks only; not rail riders.^reset;",
+  "shortdescription": "Skyrail Diode (Right)",
+  "materialId": 400179
 }

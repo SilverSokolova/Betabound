@@ -6,7 +6,7 @@ function init()
   velocityDecrease = -(techConfig["velocityDecrease"] or 0.05)
   airVelocityDecrease = techConfig["airVelocityDecrease"] or 0.005
   turnVelocityDecrease = techConfig["turnVelocityDecrease"] or 3
-  groundFrictionFactor = techConfig["groundFrictionFactor"] or 5
+  groundFrictionFactor = techConfig["groundFrictionFactor"] or 10
   velocity = 0
   highestSprint = 0
   airTime = 0
@@ -57,6 +57,9 @@ function toggleAnimation(bool, highest, xVelocity)
   animator.setAnimationState("sound", bool and "on" or "off")
   for i = 1, maximumAnimatedVelocity do
     bool = airTime < 15 and i <= highest
+    if status.statPositive("activeMovementAbilities") then
+      bool = false
+    end
     local target = "particles"..i
     if offsettedEmitters and offsettedEmitters[target] then
       animator.setParticleEmitterActive(target, mcontroller.onGround() and bool)

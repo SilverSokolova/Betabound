@@ -1,64 +1,82 @@
 {
-  "animatedParts" : {
-    "stateTypes" : {
-      "jetpack" : {
-	"default" : "off",
-	"states" : {
-	  "off" : {
-	    "properties" : {
-	      "particleEmittersOff" : ["jetpackParticles"]
-	    }
-	  },
-	  "on" : {
-	    "frames" : 5,
-	    "cycle" : 0.5,
-	    "mode" : "loop",
-	    "properties" : {
-	      "persistentSound" : "/sfx/objects/plasmadisc.ogg",
-	      "particleEmittersOn" : ["jetpackParticles"]
-	    }
-	  }
-	}
+  "animatedParts": {
+    "stateTypes": {
+      "jetpack": {
+        "default": "off",
+        "states": {
+          "off": {
+            "properties": {
+              "particleEmittersOff": ["jetpackParticles"]
+            }
+          },
+          "on": {
+            "frames": 5,
+            "cycle": 0.5,
+            "mode": "loop",
+            "properties": {
+              "persistentSound": "/sfx/objects/plasmadisc.ogg",
+              "particleEmittersOn": ["jetpackParticles"]
+            }
+          }
+        }
       }
     },
 
-    "parts" : {
-      "bubble" : {
-	"properties" : {
-	  "zLevel" : 40
-	},
-	"partStates" : {
-	  "jetpack" : {
-	    "on" : {
-	      "properties" : {
-		"centered" : true,
-		"image" : "/animations/gravitybubble/gravitybubble.png:<frameIndex>"
-	      }
-	    }
-	  }
-	}
+    "parts": {
+      "bubble": {
+        "properties": {
+          "zLevel": 40
+        },
+        "partStates": {
+          "jetpack": {
+            "on": {
+              "properties": {
+                "centered": true,
+                "image": "/animations/gravitybubble/gravitybubble.png:<frameIndex>"
+              }
+            }
+          }
+        }
       }
     }
   },
 
-  "particleEmitters" : {
-    "jetpackParticles" : {
-      "emissionRate" : 14,
-      "particles" : [
-	{"particle":"gravitybubbledot","offset":[-1,0]},
-	{"particle":"gravitybubbledot","offset":[-1,1]},
-	{"particle":"gravitybubbledot","offset":[-1,2]},
-	{"particle":"gravitybubbledot","offset":[0,0]},
-	{"particle":"gravitybubbledot","offset":[0,1]},
-	{"particle":"gravitybubbledot","offset":[0,2]},
-	{"particle":"gravitybubbledot","offset":[1,0]},
-	{"particle":"gravitybubbledot","offset":[1,1]},
-	{"particle":"gravitybubbledot","offset":[1,2]}
+  "particleEmitters": {
+    "jetpackParticles": {
+      "emissionRate": 14,
+      "particles": [{
+          "particle": "gravitybubbledot",
+          "offset": [-1, 0]
+        }, {
+          "particle": "gravitybubbledot",
+          "offset": [-1, 1]
+        }, {
+          "particle": "gravitybubbledot",
+          "offset": [-1, 2]
+        }, {
+          "particle": "gravitybubbledot",
+          "offset": [0, 0]
+        }, {
+          "particle": "gravitybubbledot",
+          "offset": [0, 1]
+        }, {
+          "particle": "gravitybubbledot",
+          "offset": [0, 2]
+        }, {
+          "particle": "gravitybubbledot",
+          "offset": [1, 0]
+        }, {
+          "particle": "gravitybubbledot",
+          "offset": [1, 1]
+        }, {
+          "particle": "gravitybubbledot",
+          "offset": [1, 2]
+        }
       ]
     }
   },
 
-  "sounds" : {
-    "activate" : []
+  "sounds": {
+    "activate": []
   }
 }

@@ -1,7 +1,7 @@
 {
   "animatedParts": {
     "stateTypes": {
-      "skyrail": {
+      "skyrailhook": {
         "default": "off",
         "states": {
           "off": {},
@@ -22,19 +22,48 @@
             "mode": "loop"
           }
         }
+      },
+      "skyrailfg": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "on": {
+            "frames": 4,
+            "cycle": 0.4,
+            "mode": "loop"
+          }
+        }
       }
     },
     "parts": {
-      "raileffect": {
+      "raileffecthook": {
         "properties": {
           "centered": true,
+          "fullbright": true,
+          "offset": [0, 1.25]
+        },
+        "partStates": {
+          "skyrailhook": {
+            "on": {
+              "properties": {
+                "image": "hook.png:<frameIndex>"
+              }
+            }
+          }
+        }
+      },
+      "raileffectfg": {
+        "properties": {
+          "centered": true,
+          "fullbright": true,
           "offset": [0, 1.5]
         },
         "partStates": {
-          "skyrail": {
+          "skyrailfg": {
             "on": {
               "properties": {
-                "image": "raileffect.png:<frameIndex>"
+                "zLevel": 1,
+                "image": "fg.png:<frameIndex>"
               }
             }
           }
@@ -43,6 +72,7 @@
       "raileffectbg": {
         "properties": {
           "centered": true,
+          "fullbright": true,
           "offset": [0, 1.5]
         },
         "partStates": {
@@ -50,12 +80,31 @@
             "on": {
               "properties": {
                 "zLevel": -1,
-                "image": "raileffectbg.png:<frameIndex>"
+                "image": "bg.png:<frameIndex>"
               }
             }
           }
         }
       }
+    }
+  },
+
+  "sounds": {
+    "engage": ["/sfx/blocks/footstep_composite.ogg"],
+    "grind": ["/sfx/rails/rail_grind_loop.ogg"]
+  },
+
+  "particleEmitters": {
+    "sparks": {
+      "emissionRate": 70,
+      "particles": [{
+          "particle": "defaultblue",
+          "offset": [0.2, 2.5]
+        }, {
+          "particle": "defaultblue",
+          "offset": [0.2, 2.5]
+        }
+      ]
     }
   }
 }

@@ -90,10 +90,17 @@ function build(directory, config, parameters, level, seed)
 
   -- preprocess melee primary attack config
   if not config.primaryAbility.projectileParameters then
-    if config.primaryAbility.damageConfig and config.primaryAbility.damageConfig.knockbackRange then config.primaryAbility.damageConfig.knockback = scaleConfig(parameters.primaryAbility.fireTimeFactor, config.primaryAbility.damageConfig.knockbackRange) end
-    if not configParameter("noCooldownTimer") then parameters.primaryAbility.cooldownTime = config.primaryAbility.fireTime end
-    if config.primaryAbility.class == "MeleeSlash" then parameters.primaryAbility.projectileType = config.primaryAbility.projectileType or randomFromList(config.primaryAbility.projectileTypes, seed, "projectileTypes") or false else
-    parameters.primaryAbility.projectileType = config.primaryAbility.projectileType or randomFromList(config.primaryAbility.projectileTypes, seed, "projectileTypes") end 
+    if config.primaryAbility.damageConfig and config.primaryAbility.damageConfig.knockbackRange then
+      config.primaryAbility.damageConfig.knockback = scaleConfig(parameters.primaryAbility.fireTimeFactor, config.primaryAbility.damageConfig.knockbackRange)
+    end
+    if not configParameter("noCooldownTimer") then
+      parameters.primaryAbility.cooldownTime = config.primaryAbility.fireTime
+    end
+    if config.primaryAbility.class == "MeleeSlash" then
+      parameters.primaryAbility.projectileType = config.primaryAbility.projectileType or randomFromList(config.primaryAbility.projectileTypes, seed, "projectileTypes") or false
+    else
+      parameters.primaryAbility.projectileType = config.primaryAbility.projectileType or randomFromList(config.primaryAbility.projectileTypes, seed, "projectileTypes")
+    end 
 
   -- preprocess ranged primary attack config
   else
@@ -106,9 +113,9 @@ function build(directory, config, parameters, level, seed)
 
     --nerf for shotguns
     if config.primaryAbility.projectileCount > 1 then
-	if config.primaryAbility.energyUsage > 0 then
-		config.primaryAbility.energyUsage = config.primaryAbility.energyUsage+(config.primaryAbility.projectileCount*1.4)
-	end
+      if config.primaryAbility.energyUsage > 0 then
+        config.primaryAbility.energyUsage = config.primaryAbility.energyUsage+(config.primaryAbility.projectileCount*1.4)
+      end
     end
     if config.primaryAbility.projectileParameters.knockbackRange then
       config.primaryAbility.projectileParameters.knockback = scaleConfig(parameters.primaryAbility.fireTimeFactor, config.primaryAbility.projectileParameters.knockbackRange)
@@ -120,8 +127,11 @@ function build(directory, config, parameters, level, seed)
   if primary and primary.class == "GunFire" then
     if primary.stances and primary.stances.cooldown and primary.stances.cooldown.duration then
       local fireTime = parameters.primaryAbility.fireTime or config.primaryAbility.fireTime or 1.0
-      if primary.stances.cooldown.duration > fireTime then primary.stances.cooldown.duration = fireTime
-	if config.primaryAbility.energyUsage then config.primaryAbility.energyUsage = config.primaryAbility.energyUsage * 3 end
+      if primary.stances.cooldown.duration > fireTime then
+        primary.stances.cooldown.duration = fireTime
+        if config.primaryAbility.energyUsage then
+          config.primaryAbility.energyUsage = config.primaryAbility.energyUsage * 3
+        end
       end
     end
   end
@@ -130,17 +140,12 @@ function build(directory, config, parameters, level, seed)
   config.paletteSwaps = "?replace"
   if builderConfig.palette then
     local palette = root.assetJson(util.absolutePath(directory, builderConfig.palette))
---[[local selectedSwaps = randomFromList(newPalette, seed, "paletteSwaps")
-    for k, v in pairs(selectedSwaps) do
-      config.paletteSwaps = string.format("%s;%s=%s",config.paletteSwaps,k,v)
-    end]]
-
     for k, v in pairs(palette) do
       if type(v) == "table" then --since weaponcolors have a name string for some odd reason
         local selectedSwaps = randomFromList(palette[k], seed, "paletteSwaps-"..k)
         for k2, v2 in pairs(selectedSwaps) do
-	  config.paletteSwaps = string.format("%s;%s=%s",config.paletteSwaps,k2,v2)
-	end
+          config.paletteSwaps = string.format("%s;%s=%s",config.paletteSwaps,k2,v2)
+        end
       end
     end
   end
@@ -148,20 +153,14 @@ function build(directory, config, parameters, level, seed)
   config.directives = parameters.directives or config.directives or ""
   replacePatternInData(config, nil, "<directives>", config.directives..(builderConfig.palette and config.paletteSwaps or ""))
   if config.directives ~= "" then
-  --config.sb_extraDirectives = parameters.sb_extraDirectives or config.sb_extraDirectives or ""
-  --config.sb_backingDirectives = parameters.sb_backingDirectives or config.sb_backingDirectives or ""
-  if parameters.colorIndex then
-    config.directives = "?replace"
-    local selectedSwaps = config.colorOptions[parameters.colorIndex+1]
-    for k, v in pairs(selectedSwaps) do
-	config.directives = string.format("%s;%s=%s",config.directives,k,v)
+    if parameters.colorIndex then
+      config.directives = "?replace"
+      local selectedSwaps = config.colorOptions[parameters.colorIndex+1]
+      for k, v in pairs(selectedSwaps) do
+        config.directives = string.format("%s;%s=%s",config.directives,k,v)
+      end
     end
   end
-  --if config.directives ~= config.sb_backingDirectives..config.directives..config.sb_extraDirectives then
-  --config.directives = config.sb_backingDirectives..config.directives..config.sb_extraDirectives end
-  --replacePatternInData(config, nil, "<directives>", config.directives)
-  end
-  --if config.directives ~= "" then config.paletteSwaps = config.directives..config.paletteSwaps end
 
   -- merge extra animationCustom
   if builderConfig.animationCustom then
@@ -178,14 +177,14 @@ function build(directory, config, parameters, level, seed)
           parameters.animationPartVariants[k] = randomIntInRange({1, v.variants}, seed, "animationPart"..k)
         end
         config.animationParts[k] = util.absolutePath(directory, string.gsub(v.path, "<variant>", parameters.animationPartVariants[k] or ""))
-	if v.fullbrights then
-	  for i = 1, #v.fullbrights do
-	    if parameters.animationPartVariants[k] == v.fullbrights[i] then
-	      config.animationCustom.animatedParts.parts[k].properties.fullbright = true
-	      glows = true
-	    end
-	  end
-	end
+        if v.fullbrights then
+          for i = 1, #v.fullbrights do
+            if parameters.animationPartVariants[k] == v.fullbrights[i] then
+              config.animationCustom.animatedParts.parts[k].properties.fullbright = true
+              glows = true
+            end
+          end
+        end
         if v.paletteSwap then
           config.animationParts[k] = config.animationParts[k] .. config.directives .. config.paletteSwaps
         end
@@ -195,32 +194,19 @@ function build(directory, config, parameters, level, seed)
     end
   end
 
-  -- glow color
+  -- glow color. default to red if no color change found
   if glows and config.paletteSwaps then
     local glow = config.paletteSwaps
     local colour = glow:find("F32200=")
-    if colour then glow=glow:sub(colour+7,colour+12)
-      if #glow < 6 then colour = {tonumber("0x"..glow:sub(1,1)),tonumber("0x"..glow:sub(2,2)),tonumber("0x"..glow:sub(3,3))}
-      else colour = {tonumber("0x"..glow:sub(1,2)),tonumber("0x"..glow:sub(3,4)),tonumber("0x"..glow:sub(5,6))} end
-    else colour = {243,34,0} end
+    if colour then
+      glow = glow:sub(colour+7, colour+12)
+      local rgb = #glow < 6 and {1, 1, 2, 2, 3, 3} or {1, 2, 3, 4, 5, 6}
+      colour = {tonumber("0x"..glow:sub(rgb[1], rgb[2])), tonumber("0x"..glow:sub(rgb[3], rgb[4])), tonumber("0x"..glow:sub(rgb[5], rgb[6]))}
+    else
+      colour = {243, 34, 0}
+    end
     config.animationCustom.lights.glow.color = colour
   end
-
---[[
-  if glows and config.paletteSwaps then
-    local glow = config.paletteSwaps
-    local limit = 2
-    if glow:sub(glow:find(";")+1,glow:find("=")-1) ~= "F32200" then colour = {243,34,0} else
-      glow = glow:sub(glow:find("=")+1,(glow:find(";",glow:find(";")+1) or glow:find("=")+3)-1)
-    if #glow < 5 then limit = 1 end
-    colour = {}
-    for i = 1, 3 do colour[i] = tonumber("0x"..glow:sub(i*limit-1,(limit+limit*i)-2))
-      glow:sub(i*limit-1,(limit+limit*i)-2)
-    end end
-    config.animationCustom.lights.glow.color = parameters.glowColor or colour
-    parameters.glowColor = parameters.glowColor or colour
-  end
-]]
 
   -- set gun part offsets
   local partImagePositions = {}
@@ -245,7 +231,7 @@ function build(directory, config, parameters, level, seed)
   if config.fireSounds then
     construct(config, "animationCustom", "sounds", "fire")
     local sound = randomFromList(config.fireSounds, seed, "fireSound")
-    config.animationCustom.sounds.fire = type(sound) == "table" and sound or { sound }
+    config.animationCustom.sounds.fire = type(sound) == "table" and sound or {sound}
   end
 
   -- build inventory icon
@@ -284,8 +270,10 @@ function build(directory, config, parameters, level, seed)
     config.tooltipFields.primaryAbilityTitleLabel = "Primary:"
     config.tooltipFields.primaryAbilityLabel = config.primaryAbility.name or "unknown"
     if parameters.primaryAbility.projectileType then
-      if type(parameters.primaryAbility.projectileType) == "string" then config.tooltipFields.damageKindImage = sb_assetmissing("/interface/sb_tooltips/"..parameters.primaryAbility.projectileType..".png","/interface/sb_tooltips/assetmissing.png")
-      elseif type(parameters.primaryAbility.projectileType) == "table" then local projectiles = parameters.primaryAbility.projectileType
+      if type(parameters.primaryAbility.projectileType) == "string" then
+        config.tooltipFields.damageKindImage = sb_assetmissing("/interface/sb_tooltips/"..parameters.primaryAbility.projectileType..".png", "/interface/sb_tooltips/assetmissing.png")
+      elseif type(parameters.primaryAbility.projectileType) == "table" then
+        local projectiles = parameters.primaryAbility.projectileType
       --todo: loop
         if #projectiles >= 1 then config.tooltipFields.damageKindImage = sb_assetmissing("/interface/sb_tooltips/"..projectiles[1]..".png","/interface/sb_tooltips/assetmissing.png") end
         if #projectiles >= 2 then config.tooltipFields.damageKindBImage = sb_assetmissing("/interface/sb_tooltips/"..projectiles[2]..".png","/interface/sb_tooltips/assetmissing.png") end

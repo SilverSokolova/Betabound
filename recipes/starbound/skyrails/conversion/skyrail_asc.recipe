@@ -1,5 +1,5 @@
 {
   "input" : ["skyrail_desc"],
   "output" : "skyrail_asc",
-  "groups" : ["skyrailtable","sb_convert","nouncrafting","all"]
+  "groups" : ["disabled"]//"sb_skyrailtable","sb_skyrails","all"]
 }

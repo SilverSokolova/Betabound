@@ -1,5 +1,0 @@
-{
-  "input" : ["coalore",["liquidwater",3],["liquidoil",10]],
-  "output" : "sb_fuelmixture",
-  "groups" : ["craftingfurnace2","ingredients","all"]
-}

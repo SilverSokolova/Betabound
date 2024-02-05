@@ -1,29 +1,29 @@
 {
-  "animatedParts" : {
-    "stateTypes" : {
-      "jetpack" : {
-	"default" : "off",
-	"states" : {
-	  "off" : {
-	    "properties" : {
-	      "particleEmittersOff" : ["jetpackParticles"]
-	    }
-	  },
-	  "on" : {
-	    "properties" : {
-	      "persistentSound" : "/sfx/tech/tech_hoverloop.ogg",
-	      "particleEmittersOn" : ["jetpackParticles"]
-	    }
-	  }
-	}
+  "animatedParts": {
+    "stateTypes": {
+      "jetpack": {
+        "default": "off",
+        "states": {
+          "off": {
+            "properties": {
+              "particleEmittersOff": ["jetpackParticles"]
+            }
+          },
+          "on": {
+            "properties": {
+              "persistentSound": "/sfx/tech/tech_hoverloop.ogg",
+              "particleEmittersOn": ["jetpackParticles"]
+            }
+          }
+        }
       }
     }
   },
 
-  "particleEmitters" : {
-    "jetpackParticles" : {
-      "emissionRate" : 14,
-      "particles" : [
+  "particleEmitters": {
+    "jetpackParticles": {
+      "emissionRate": 14,
+      "particles": [
         {"particle":"defaultblue","offset":[0.2,-2]},
         {"particle":"defaultblue","offset":[0.2,-2]},
         {"particle":"defaultblue","offset":[0.2,-2]},
@@ -35,7 +35,7 @@
     }
   },
 
-  "sounds" : {
-    "activate" : []
+  "sounds": {
+    "activate": []
   }
 }

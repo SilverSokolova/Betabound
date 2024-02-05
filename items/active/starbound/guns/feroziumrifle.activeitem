@@ -37,8 +37,8 @@
   "primaryAbilityType": "sb_gun2",
   "primaryAbility": {
     "fireTime": 0.08,
-    "baseDps": 8.5,
-    "energyUsage": 32,
+    "baseDps": 9.5,
+    "energyUsage": 38,
     "inaccuracy": 0.02,
     "projectileParameters": {
       "speed": 150,

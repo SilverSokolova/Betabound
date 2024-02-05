@@ -1,11 +1,14 @@
 {
-  "itemName" : "skyrailboost",
-  "price" : 7,
-  "rarity" : "uncommon",
-  "tooltipKind" : "sb_object",
-  "category" : "rail",
-  "inventoryIcon" : "skyrailicon_boost.png",
-  "description" : "A skyrail for speeding things up.",
-  "shortdescription" : "Skyrail Booster",
-  "materialId" : 400180
+  "itemName": "skyrailboost",
+  "price": 7,
+  "rarity": "uncommon",
+  "tooltipKind": "sb_object",
+  "category": "rail",
+  "tooltipFields": {
+    "subtitle": "Skyrail"
+  },
+  "inventoryIcon": "skyrailicon_boost.png",
+  "description": "A skyrail for speeding things up. ^red;Affects skyrail hooks only; not rail riders.^reset;",
+  "shortdescription": "Skyrail Booster",
+  "materialId": 400180
 }

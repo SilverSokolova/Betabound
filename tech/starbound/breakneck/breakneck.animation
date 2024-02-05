@@ -17,27 +17,15 @@
 
   "particleEmitters": {
     "particles1": {
-      "emissionRate": 30,
+      "emissionRate": 60,
       "particles": [{
           "particle": "rocketsmoke"
+        },{
+          "particle": "tinyrockettrail"
         }
       ]
     },
     "particles2": {
-      "emissionRate": 30,
-      "particles": [{
-          "particle": "gravitybubbledot",
-          "offset": [-1, -1]
-        }, {
-          "particle": "gravitybubbledot",
-          "offset": [-1, 0]
-        }, {
-          "particle": "gravitybubbledot",
-          "offset": [-1, 1]
-        }
-      ]
-    },
-    "particles3": {
       "emissionRate": 40,
       "particles": [{
           "particle": {
@@ -57,6 +45,20 @@
               "position": [0, 1]
             }
           }
+        }
+      ]
+    },
+    "particles3": {
+      "emissionRate": 30,
+      "particles": [{
+          "particle": "gravitybubbledot",
+          "offset": [-1, -1]
+        }, {
+          "particle": "gravitybubbledot",
+          "offset": [-1, 0]
+        }, {
+          "particle": "gravitybubbledot",
+          "offset": [-1, 1]
         }
       ]
     }

@@ -53,18 +53,11 @@
     "class": "sb_AmmoGunFire",
     "scripts": ["/items/active/starbound/guns/abilities/ammogunfire.lua"],
     "fireTime": 0.88,
-    "baseDps": 6.25,
+    "baseDps": 7,
     "energyUsage": 25.5,
     "inaccuracy": 0.004,
     "projectileParameters": {
       "speed": 180
-    },
-    "stances": {
-      "cooldown": {
-        "recoil": true,
-        "armRotation": 0,
-        "weaponRotation": 0
-      }
     }
   },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"

@@ -1,11 +1,14 @@
 {
-  "itemName" : "skyrailbreak",
-  "price" : 7,
-  "rarity" : "uncommon",
-  "tooltipKind" : "sb_object",
-  "category" : "rail",
-  "inventoryIcon" : "skyrailicon_break.png",
-  "description" : "A skyrail for slowing things down.",
-  "shortdescription" : "Skyrail Breaker",
-  "materialId" : 400181
+  "itemName": "skyrailbreak",
+  "price": 7,
+  "rarity": "uncommon",
+  "tooltipKind": "sb_object",
+  "category": "rail",
+  "tooltipFields": {
+    "subtitle": "Skyrail"
+  },
+  "inventoryIcon": "skyrailicon_break.png",
+  "description": "A skyrail for slowing things down. ^red;Affects skyrail hooks only; not rail riders.^reset;",
+  "shortdescription": "Skyrail Breaker",
+  "materialId": 400181
 }

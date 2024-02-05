@@ -12,8 +12,8 @@ function apply(input)
     for i = 1, #pp do
       output:setInstanceValue(pp[i], output:instanceValue(pp[i]))
     end
+    output.parameters.originalItemName = output.name
     output.name = "sb_preservedfood"
-    output.parameters.originalItemName = item.name
 
     local icon = output.parameters.inventoryIcon
     local fade = config.getParameter("fade","?fade=f9ed88;0.05")

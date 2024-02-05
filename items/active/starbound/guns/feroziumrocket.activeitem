@@ -53,7 +53,7 @@
     }
   },
   "primaryAbility": {
-    "fireTime": 1.25,
+    "fireTime": 0.85,
     "baseDps": 10,
     "energyUsage": 35,
     "inaccuracy": 0.02,
