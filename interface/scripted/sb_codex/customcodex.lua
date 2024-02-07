@@ -116,8 +116,7 @@ function changeIcon(i)
       return
     end
     local directory = item.directory
-    item = item.config
-    local newIcon = item.sb_unnumberedCodexIcon or item.codexIcon
+    local newIcon = item.config.sb_unnumberedCodexIcon or item.config.codexIcon or (root.itemHasTag(item.config.itemName, "sb_copybook") and (item.parameters.inventoryIcon or item.config.inventoryIcon))
     if newIcon then
       if newIcon:sub(1, 1) ~= "/" then newIcon = directory..newIcon end
       miscData = miscData or config.getParameter("miscData")

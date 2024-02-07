@@ -3,7 +3,7 @@
   "species": "human",
   "title": "Supervisor's Records 1",
   "description": "A record from the Erchius Mining Facility.",
-  "icon": "sb_lunarrecord1.png",
+  "icon": "sb_lunarrecord.png:1",
   "contentPages": [
 "I have been on this moon for three days now. The miners don't trust me, and rightly so: I'm ex-USCM, here to supervise this facility and keep everything above regulation. I've had to enforce the compulsory wearing of these high-vis jackets, something which hasn't won me any favours.
 
@@ -17,6 +17,6 @@ I've been deployed to similar moons when the USCM did these kinds of things, but
     "rarity": "common",
     "price": 25,
     "tooltipKind": "sb_object",
-    "sb_unnumberedCodexIcon": "sb_lunarrecord.png"
+    "sb_unnumberedCodexIcon": "sb_lunarrecord.png:0"
   }
 }

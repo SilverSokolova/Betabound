@@ -3,7 +3,7 @@
   "species": "floran",
   "title": "Trapped in the Caves III",
   "description": "Notes left in the Ceremonial Hunting Caverns.",
-  "icon": "sb_floranmission3.png",
+  "icon": "sb_floranmission.png:3",
   "contentPages": [
 "Today I fought back! Well, I say fought - I discovered a grappling rope in a rotten chest, and using myself as bait, lured a particularly dim-witted Floran into a pit of the poisonous fluid that rests in this cavern.
 
@@ -13,6 +13,6 @@ However, my decision may have been made out of desperation instead of logic, as 
     "rarity": "common",
     "price": 25,
     "tooltipKind": "sb_object",
-    "sb_unnumberedCodexIcon": "sb_floranmission.png"
+    "sb_unnumberedCodexIcon": "sb_floranmission.png:0"
   }
 }

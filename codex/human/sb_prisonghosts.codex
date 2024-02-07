@@ -1,0 +1,17 @@
+{
+  "id": "sb_prisonghosts",
+  "species": "human",
+  "title": "Ghosts in the Walls",
+  "description": "An excerpt from a USCM prisoner's journal, written when off-planet prisons were first established.",
+  "icon": "humancover1.png",
+  "contentPages": [
+"We heard 'em, back when we was locked up. They was everywhere. This place, all the places like this, evil to the core. We thought we left that suffering back on Earth, in the belly of a beast, but no.
+
+There's Mad Mary, searching for her lost baby. Dominic Darmanin, the axe murderer. Killer Betty Simpson, who loved a Floran. Anthony Muldoon, with his hook for a hand. And Harkaway Jones, the killer of the Apex. We hears 'em all. Most nights, they come out to play."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object4"
+  }
+}

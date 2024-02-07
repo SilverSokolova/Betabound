@@ -1,4 +1,4 @@
 [
-[{"op":"test","path":"/icon","value":"colonystory.png"},{"op":"replace","path":"/icon","value":"sb_colonystory5.png"}],
-[{"op":"add","path":"/itemConfig/sb_unnumberedCodexIcon","value":"colonystory.png"}]
+[{"op":"test","path":"/icon","value":"colonystory.png"},{"op":"replace","path":"/icon","value":"sb_colonystory.png:5"}],
+[{"op":"add","path":"/itemConfig/sb_unnumberedCodexIcon","value":"sb_colonystory.png:0"}]
 ]

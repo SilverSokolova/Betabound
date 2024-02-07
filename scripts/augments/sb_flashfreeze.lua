@@ -23,9 +23,29 @@ function apply(input)
         for i = 1, #icon do
           icon[i].image = sb_pathToImage(icon[i].image, directory)..fade
         end
+        if icon[2] and icon[3] then
+          local foodRotBars = {"/interface/durability","/interface/foodrotbar.png"}
+          for i = 1, #foodRotBars do
+            if icon[2].image:find(foodRotBars[i]) and icon[3].image:find(foodRotBars[i]) then
+              icon[2] = nil
+              icon[3] = nil
+              local icons = 0
+              for j = 1, #icon do
+                icons = icons + 1
+                if icons > 1 then
+                  return
+                end
+              end
+              if icons == 1 then
+                icon = icon[1].image
+              end
+              break
+            end
+          end
+        end
       end
     end
-    output:setInstanceValue("inventoryIcon",icon)
+    output:setInstanceValue("inventoryIcon", icon)
     local newParams = config.getParameter("applyParameters",{})
     for k, v in pairs(newParams) do output:setInstanceValue(k,v) end
     newParams = config.getParameter("uniqueApplyParameters")[item.category or "other"]

@@ -101,6 +101,11 @@
   //          Human Prison
   // ================================
 [{"op":"add","path":"/humanprisonTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_humanBlueprints"}}],
+[{"op":"add","path":"/humanprisonLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_prisoncasebook1-codex"}}],
+[{"op":"add","path":"/humanprisonLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_prisoncasebook2-codex"}}],
+[{"op":"add","path":"/humanprisonLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_prisoncasebook3-codex"}}],
+[{"op":"add","path":"/humanprisonLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_prisoncasebook4-codex"}}],
+[{"op":"add","path":"/humanprisonLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_prisoncasebook5-codex"}}],
 
   // ================================
   //          Human Campsite
@@ -141,8 +146,11 @@
   // ================================
   //           Old Sewer
   // ================================
-//[{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":["sb_customcodex",1,{"inventoryIcon":"/codex/sb_glitchsewerbook.png","codexIcon":"/codex/sb_glitchsewerbook.png"}]}},
 [{"op":"add","path":"/glitchsewerTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_glitchBlueprints"}}],
+[{"op":"add","path":"/glitchsewerChestTreasure/0/1/pool/-","value":{"weight":0.02,"item":"gasmaskhead"}}],
+[{"op":"add","path":"/glitchsewerChestTreasure/0/1/pool/-","value":{"weight":0.02,"item":["craftsmenchest",1,{"colorIndex":1}]}}],
+[{"op":"add","path":"/glitchsewerChestTreasure/0/1/pool/-","value":{"weight":0.02,"item":["craftsmenlegs",1,{"colorIndex":1}]}}],
+[{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":"sb_sewerconstructfree-codex"}}],
 
 
   // ================================

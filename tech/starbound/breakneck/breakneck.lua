@@ -11,6 +11,7 @@ function init()
   highestSprint = 0
   airTime = 0
   lastMovementDirection = mcontroller.movingDirection()
+  baseParameters = mcontroller.baseParameters()
 
   offsettedEmitters = config.getParameter("particleEmitterOffset")
   if offsettedEmitters then
@@ -24,8 +25,7 @@ end
 
 function update()
 --world.debugText("^shadow;%s", airTime, mcontroller.position(), "green")
-  if not player then player = math.betabound_player return end
-  if not player.loungingIn() then
+  if not mcontroller.anchorState() then
     local xVelocity = mcontroller.xVelocity()
     if mcontroller.onGround() then
       airTime = 0
@@ -42,7 +42,7 @@ function update()
       velocity = math.max(0, velocity/turnVelocityDecrease)
     end
     lastMovementDirection = newMovementDirection
-    mcontroller.controlParameters({normalGroundFriction = mcontroller.baseParameters().normalGroundFriction - (velocity * groundFrictionFactor)})
+    mcontroller.controlParameters({normalGroundFriction = baseParameters.normalGroundFriction - (velocity * groundFrictionFactor)})
     mcontroller.controlModifiers({speedModifier = 1 + velocity})
 
     toggleAnimation(velocity >= 1 and velocity <= maximumVelocity, math.floor(velocity), math.floor(xVelocity))

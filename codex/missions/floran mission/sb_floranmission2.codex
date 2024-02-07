@@ -3,7 +3,7 @@
   "species": "floran",
   "title": "Trapped in the Caves II",
   "description": "Notes left in the Ceremonial Hunting Caverns.",
-  "icon": "sb_floranmission2.png",
+  "icon": "sb_floranmission.png:2",
   "contentPages": [
 "The Floran hunters seem to form groups - traps and settlements designed to catch their prey - in this case, me. They seemed to have also formed traps using a thick, green poisonous substance.
 
@@ -15,6 +15,6 @@ An interesting feature I've noticed is the remnants of old brick ruins here, int
     "rarity": "common",
     "price": 25,
     "tooltipKind": "sb_object",
-    "sb_unnumberedCodexIcon": "sb_floranmission.png"
+    "sb_unnumberedCodexIcon": "sb_floranmission.png:0"
   }
 }

@@ -15,7 +15,7 @@
 
   "energyUsage": 26,
   "superjumpSpeed": 250,
-  "superjumpControlForce": 900,
+  "superjumpControlForce": 820,
   "superjumpTime": 0.13,
   "superJumpMaxCharge": 10
 }

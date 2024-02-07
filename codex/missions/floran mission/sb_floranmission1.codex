@@ -3,7 +3,7 @@
   "species": "floran",
   "title": "Trapped in the Caves I",
   "description": "Notes left in the Ceremonial Hunting Caverns.",
-  "icon": "sb_floranmission1.png",
+  "icon": "sb_floranmission.png:1",
   "contentPages": [
 "Following a distress signal on a nearby planet, I beamed down to what appeared to be a trap set by Floran hunters. I was cast into this tunnel system, carved deep beneath the surface. This is not a great start to the day.
 
@@ -15,6 +15,6 @@ Quickly I hid in a shallow pool, narrowly avoiding a passing rabble of hunters. 
     "rarity": "common",
     "price": 25,
     "tooltipKind": "sb_object",
-    "sb_unnumberedCodexIcon": "sb_floranmission.png"
+    "sb_unnumberedCodexIcon": "sb_floranmission.png:0"
   }
 }

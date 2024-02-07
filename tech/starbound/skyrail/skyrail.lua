@@ -5,6 +5,7 @@ railFunctions = {}
 --nextNode = {position: {1: 1878.5, 2: 696.5}, direction: 5, material: skyrailbreak, type: continue}
 --how about making the switchers cause the player to jump/fall and automatically reactivate their skyrail?
 function init()
+  script.setUpdateDelta(1)
   local railConfig = config.getParameter("railConfig")
   railConfig.onEngage = function() animator.playSound("engage") end
   self.railRider = Rails.createRider(railConfig)
@@ -25,6 +26,7 @@ function init()
   jumpHeightBoost = config.getParameter("jumpHeightBoost")
   acsensionJumpHeight = config.getParameter("acsensionJumpHeight")
   bounceFactor = config.getParameter("bounceFactor")
+  collisionSearchSet = config.getParameter("collisionSearchSet", {"Null", "Block", "Dynamic", "Platform"})
 
   active = false
   lastAction = false
@@ -169,7 +171,7 @@ function rider_update(_, dt, moves)
       if not vec2.eq(pos, self.railRider.lastFallCheck) then
         -- if we might cross multiple tiles, use a more thorough search
         if vec2.mag(vel) >= 1.0 / dt then
-          local searchSet = world.collisionBlocksAlongLine(self.railRider.lastFallCheck, pos, {"None"})
+          local searchSet = world.collisionBlocksAlongLine(self.railRider.lastFallCheck, pos, collisionSearchSet)
           if #searchSet >= 2 then
             for i = 2, #searchSet do
               -- search inclusively to avoid passing through diagonal rails
@@ -231,14 +233,6 @@ function rider_update(_, dt, moves)
       if self.railRider.nextNode.direction == 3 or self.railRider.nextNode.direction == 7 then
         self.railRider.nextNode.type = "end"
       end
-
-      --[[NEW: check for switchers
-      if self.railRider.nextNode.material == "skyrail_asc" then
-        shouldGoUp = true
-        --Rails.standardSearchOrder = Rails.sb_ascSearchOrder
-      elseif self.railRider.nextNode.material == "skyrail_desc" then
-        self.railRider.nextNode.type = "turn"
-      end]]
 
       if self.railRider.nextNode.type ~= "stop" then
         world.debugLine(self.railRider.nextNode.position, vec2.add(self.railRider.nextNode.position, Rails.dirVectors[self.railRider.nextNode.direction]), "cyan")

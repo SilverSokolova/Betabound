@@ -3,7 +3,7 @@
   "species": "human",
   "title": "Supervisor's Records 3",
   "description": "A record from the Erchius Mining Facility.",
-  "icon": "sb_lunarrecord3.png",
+  "icon": "sb_lunarrecord.png:3",
   "contentPages": [
 "There is something terribly wrong with this moon. The crew are disappearing. They aren't telling me anything, but I can just tell that there's going to be so much paperwork to do.",
 
@@ -15,6 +15,6 @@ I'm going to lock down the facility - Close the entrance to the mine and turn of
     "rarity": "common",
     "price": 25,
     "tooltipKind": "sb_object",
-    "sb_unnumberedCodexIcon": "sb_lunarrecord.png"
+    "sb_unnumberedCodexIcon": "sb_lunarrecord.png:0"
   }
 }

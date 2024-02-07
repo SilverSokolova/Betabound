@@ -1,11 +1,16 @@
 [
 [{"op":"add","path":"/1/-","value":"sb_musicsheet"}],
+[{"op":"add","path":"/1/-","value":"sb_townheadline"}],
+[{"op":"add","path":"/1/-","value":"sb_tombwords"}],
+
 [{"op":"add","path":"/2/-","value":"sb_healthbomb"}],
 [{"op":"add","path":"/2/-","value":"sb_runbomb"}],
 [{"op":"add","path":"/2/-","value":"sb_jumpbomb"}],
 [{"op":"add","path":"/2/-","value":"sb_ragebomb"}],
 [{"op":"add","path":"/2/-","value":"sb_protectionbomb"}],
+
 [{"op":"add","path":"/3/-","value":"sb_refinedrubium"}],
 [{"op":"add","path":"/3/-","value":"sb_ceruliumcompound"}],
+
 [{"op":"add","path":"/4/-","value":"sb_ammo"}]
 ]

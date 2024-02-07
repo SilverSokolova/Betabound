@@ -1,3 +1,4 @@
+--this and the animation patch can be safely removed
 local ini = init or function() end
 function init() ini()
      local races = {"apex","avian","glitch","human","floran","hylotl"}

@@ -3,7 +3,7 @@
   "species": "human",
   "title": "Supervisor's Records 2",
   "description": "A record from the Erchius Mining Facility.",
-  "icon": "sb_lunarrecord2.png",
+  "icon": "sb_lunarrecord.png:2",
   "contentPages": [
 "The crew here mine for materials - Some crystal ore that is used to create warp drives.
 
@@ -19,6 +19,6 @@ The glowing crystals made me feel quite sick - I'm surprised the crew haven't co
     "rarity": "common",
     "price": 25,
     "tooltipKind": "sb_object",
-    "sb_unnumberedCodexIcon": "sb_lunarrecord.png"
+    "sb_unnumberedCodexIcon": "sb_lunarrecord.png:0"
   }
 }

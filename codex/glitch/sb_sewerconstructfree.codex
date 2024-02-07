@@ -1,0 +1,17 @@
+{
+  "id": "sb_sewerconstructfree",
+  "species": "glitch",
+  "title": "Constructed Free",
+  "description": "An entry from the journal of Platium Ace, Outcast Leader.",
+  "icon": "sb_glitchcover5.png",
+  "contentPages": [
+"It has been many years since I separated myself from the Glitch way of life, and I am still amazed by how liberated and free we are! Those above strut up in their castles, swinging their maces and polishing their silverware.
+
+Meanwhile, we reach for the stars; we build our own constructs and advance the species. Who, truly, are the outcasts now? We have surpassed our kin in so many ways. Yet, still we are exiled steel pariahs crawling through sewer and swamp just for the chance to truly live."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

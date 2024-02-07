@@ -1,0 +1,20 @@
+{
+  "id": "sb_prisoncasebook3",
+  "species": "glitch",
+  "title": "Prisoners 3",
+  "description": "A journal entry from the Steel Casebook, by Hewlett Deckard, Glitch Bounty Hunter.",
+  "icon": "sb_glitchcover3.png:3",
+  "contentPages": [
+"Something is watching me. I've descended so deep into this prison that the lights no longer work, and I am forced to navigate using night vision. As I made my way down a corridor, my scanner flickered into action, alerting me to a life sign just behind me. I whirled around, and saw nothing. Every ounce of logic I possess wants to believe it is my quarry, hiding from me in plain sight, perhaps taking stock of his pursuer, yet something- an intuition I only gained after becoming self-aware- tells me it is not him. I do not think my quarry has been alive for a long time.",
+
+"I awoke in the night to the sounds of wailing. There were two strange things about this. One, I had been asleep. My progress through the prison has been so slow such that there has been no need to rest in order to recharge, and yet I was overcome with fatigue.
+
+Two, no life signs detected. None. And yet the wailing was clearly coming from within the room I found myself in. A low, tortured cry, unlike anything I've heard before. Unlike any species I've heard before. I am on the verge of abandoning my mission and turning back."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object",
+    "sb_unnumberedCodexIcon": "sb_glitchcover3.png:0"
+  }
+}

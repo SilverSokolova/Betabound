@@ -1,0 +1,17 @@
+{
+  "id": "sb_sewerlament",
+  "species": "apex",
+  "title": "Lament",
+  "description": "A journal entry. The pages are stained brown.",
+  "icon": "sb_glitchcover4.png",
+  "contentPages": [
+"^shadow,#62573c;These dark tunnels hide my grim visage; I am greatful for the respite it has provided over the years, but still, I long to be out in the sunlight, to feel the breeze upon my face, to greet my family once more.
+
+Memories, melting away, dripping from my mind like tears from my eyes as I stalk these corridors simply hoping, praying, that one day things will be different.^reset;"
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}
