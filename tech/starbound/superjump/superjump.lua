@@ -28,15 +28,15 @@ function update(args)
 
     if superJumpTimer[1] > 0 then
       mcontroller.controlApproachYVelocity(superJumpSpeed+(superJumpCharge*(superJumpCharge*3)), superJumpControlForce+(superJumpCharge*superJumpCharge*3) + world.gravity(mcontroller.position()))
-      animator.setParticleEmitterActive("jumpParticles", true)
       superJumpTimer[1] = superJumpTimer[1] - args.dt
     else
-      animator.setParticleEmitterActive("jumpParticles", false)
     end
     if superJumpTimer[2] > 0 then
+      animator.setParticleEmitterActive("jumpParticles", true)
       animator.setParticleEmitterActive("rocketParticles", true)
       superJumpTimer[2] = superJumpTimer[2] - args.dt
     else
+      animator.setParticleEmitterActive("jumpParticles", false)
       animator.setParticleEmitterActive("rocketParticles", false)
     end
   else

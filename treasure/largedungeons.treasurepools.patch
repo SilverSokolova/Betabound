@@ -136,12 +136,12 @@
   //      Novakid Town
   // ================================
 [{"op":"add","path":"/novakidvillageTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_novakidBlueprints"}}],
-[{"op":"add","path":"/novakidvillageLore/0/1/pool/-","value":{"weight":0.003,"item":"harmonica"}}],
+[{"op":"add","path":"/novakidvillageTreasure/0/1/pool/-","value":{"weight":0.003,"item":"harmonica"}}],
+[{"op":"add","path":"/novakidvillageLore/0/1/pool/-","value":{"weight":0.33,"item":"sb_novakidorigins-codex"}}],
 
   // ================================
-  //           Novakid Mining
+  //           Novakid Mining. Also appears in some mushroom houses + natural cave
   // ================================
-[{"op":"add","path":"/novakidvillageMiningTreasure/0/1/pool/-","value":{"weight":0.33,"item":"sb_novakidorigins-codex"}}],
 
   // ================================
   //           Old Sewer

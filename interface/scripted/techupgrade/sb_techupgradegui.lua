@@ -209,6 +209,7 @@ end
 function sb_toggleButtons()
   local tech = self.selectedTech and (self.selectedSlot ~= "sb_suit" and player.equippedTech(self.selectedSlot) or self.selectedSlot == "sb_suit" and sb_suit) or false
   --yknow what fuck it it doesnt matter if the unequip/download buttons are visible for locked techs. they cant even download it. i tried string.find-ing "--" in the cost amount text but it didnt work for some reason
+  --hi hello yes this is me from the future you need to %-%- ahahahaha that's also why the food rot bar detection didnt work
   widget.setButtonEnabled("sb_download", tech and true or false)
   widget.setButtonEnabled("sb_unequip", tech and true or false)
 end
