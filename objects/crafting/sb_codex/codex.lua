@@ -39,7 +39,6 @@ function init()
     for k, v in pairs(items) do
       hasItems = true
       if root.itemDescriptorsMatch(item, v, true) then
-        object.say("Found a stack")
         addedItem = true
         items[k].count = items[k].count + item.count
         saveItems()
@@ -49,14 +48,55 @@ function init()
 
     if not addedItem then
       if hasItems then
-        object.say("has stuff")
         items[#items+1] = item
         saveItems()
       else
-        object.say("making new")
         items = {item}
         saveItems()
       end
+    end
+  end)
+
+  message.setHandler("sb_lectern:remove", function(_, _, item)
+    if not item.name then
+      item.name = item.config.itemName --god forbid anything be consistent anywhere ever
+    end
+    local hasItems = false
+    local count = 0
+    local itemIndexToRemove
+    local itemToRemove
+    local newItems = {}
+    for k, v in pairs(items) do
+      hasItems = true
+      if root.itemDescriptorsMatch(item, v, true) then
+        itemToRemove = v
+        itemIndexToRemove = k
+      else
+        if count == 0 then
+          newItems = {v}
+        else
+          newItems[#newItems+1] = v
+        end
+        count = count + 1
+      end
+    end
+    if itemToRemove then
+      items = newItems
+      local itemData = root.itemConfig(itemToRemove)
+      local maxStack = itemData.parameters and itemData.parameters.maxStack or itemData.config.maxStack or root.assetJson("/items/defaultParameters.config:defaultMaxStack")
+      local stackSize = itemToRemove.count
+      if stackSize > maxStack then
+      --TODO: pass it to a function also make it actually give 1500 if maxstack is 1000 and they have 1500
+        while stackSize > maxStack do
+          stackSize = stackSize - maxStack
+          world.spawnItem({name = itemToRemove.name, count = maxStack, parameters = itemToRemove.parameters, config = itemToRemove.config}, world.entityPosition(id))
+        end
+        stackSize = stackSize - maxStack
+        world.spawnItem({name = itemToRemove.name, count = maxStack, parameters = itemToRemove.parameters, config = itemToRemove.config}, world.entityPosition(id))
+      else
+        world.spawnItem(itemToRemove, world.entityPosition(id))
+      end
+      saveItems()
     end
   end)
 

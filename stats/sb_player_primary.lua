@@ -1,5 +1,3 @@
-require "/scripts/status.lua"
-require "/scripts/achievements.lua"
 require "/scripts/sb_uimessage.lua"
 
 local ini = init or function() end
