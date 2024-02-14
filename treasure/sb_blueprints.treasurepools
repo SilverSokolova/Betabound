@@ -5,7 +5,7 @@
         {"weight" : 0.1, "item" : "sb_musicsheet"},
         {"weight" : 0.1, "item" : "sb_poachedavesmingo-recipe"},
         {"weight" : 0.1, "item" : "sb_crowncake-recipe"},
-	      {"weight" : 0.1, "item" : "sb_cordialglass-recipe"},
+        {"weight" : 0.1, "item" : "sb_cordialglass-recipe"},
         {"weight" : 0.1, "item" : "sb_cordialbottle-recipe"},
         {"weight" : 0.1, "item" : "sb_wartjuice-recipe"},
         {"weight" : 0.1, "item" : "sb_wartwine-recipe"},
@@ -20,7 +20,7 @@
       ],
       "poolRounds" : [
         [0.55, 1],
-	      [0.40, 2],
+        [0.40, 2],
         [0.20, 3]
       ],
       "allowDuplication" : false
@@ -40,7 +40,7 @@
       ],
       "poolRounds" : [
         [0.55, 1],
-	        [0.40, 2],
+          [0.40, 2],
         [0.20, 3]
       ],
       "allowDuplication" : false

@@ -1,7 +1,7 @@
 {
   "itemName": "sb_blueprint",
   "rarity": "uncommon",
-  "tooltipKind": "sb_object4b",
+  "tooltipKind": "sb_object",
   "shortdescription": "Blueprint",
   "category": "Blueprint",
   "twoHanded": false,

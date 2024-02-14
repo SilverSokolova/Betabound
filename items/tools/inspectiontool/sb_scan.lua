@@ -1,28 +1,28 @@
 require "/scripts/activeitem/sb_cursors.lua"
 
 function init()
-	activeItem.setHoldingItem(false)
-	sb_cursor("inspect")
-	target, defaults, str, desc = nil, nil, {"...","..."}, ""
-	c = {"",".^reset;"}
+  activeItem.setHoldingItem(false)
+  sb_cursor("inspect")
+  target, defaults, str, desc = nil, nil, {"...","..."}, ""
+  c = {"",".^reset;"}
 
-	nouns = config.getParameter("nouns")
-	defaultPlayerDescription = config.getParameter("defaultPlayerDescription")
-	defaultNpcDescription = config.getParameter("defaultNpcDescription")
-	defaultPassiveMonsterDescription = config.getParameter("defaultPassiveMonsterDescription")
-	defaultAggressiveMonsterDescription = config.getParameter("defaultAggressiveMonsterDescription")
+  nouns = config.getParameter("nouns")
+  defaultPlayerDescription = config.getParameter("defaultPlayerDescription")
+  defaultNpcDescription = config.getParameter("defaultNpcDescription")
+  defaultPassiveMonsterDescription = config.getParameter("defaultPassiveMonsterDescription")
+  defaultAggressiveMonsterDescription = config.getParameter("defaultAggressiveMonsterDescription")
 
-	nothingThereText = root.assetJson("/items/tools/inspectiontool/inspectionmode.inspectiontool:nothingThereText")
-	race = world.entitySpecies(activeItem.ownerEntityId()) or "default"
-	prefix = config.getParameter(race.."Prefix","")
-	local NTTR = nothingThereText[race]
-	if not NTTR then race = "default" end
-	nothingThereText = NTTR and NTTR or nothingThereText["default"]
-	scannables = {"itemDrop","npc","monster","player"}
-	scanKeys = {}
-	for i = 1, #scannables do
-		scanKeys[scannables[i]] = scannables[i]
-	end
+  nothingThereText = root.assetJson("/items/tools/inspectiontool/inspectionmode.inspectiontool:nothingThereText")
+  race = world.entitySpecies(activeItem.ownerEntityId()) or "default"
+  prefix = config.getParameter(race.."Prefix","")
+  local NTTR = nothingThereText[race]
+  if not NTTR then race = "default" end
+  nothingThereText = NTTR and NTTR or nothingThereText["default"]
+  scannables = {"itemDrop","npc","monster","player"}
+  scanKeys = {}
+  for i = 1, #scannables do
+    scanKeys[scannables[i]] = scannables[i]
+  end
 end
 
 function update() target = world.entityQuery(activeItem.ownerAimPosition(), 0,{includedTypes=scannables})[1] end
@@ -74,9 +74,9 @@ scan["monster"] = function()
   if world.entityDescription(target) ~= nil then
     str[2] = world.entityDescription(target) or ""
       if str[2] == "Some indescribable horror" then
-	if not world.entityAggressive(target) then
-	  str[2] = defaultPassiveMonsterDescription
-	else str[2] = defaultAggressiveMonsterDescription end
+  if not world.entityAggressive(target) then
+    str[2] = defaultPassiveMonsterDescription
+  else str[2] = defaultAggressiveMonsterDescription end
       else str[2] = world.entityDescription(target)..""
     end
   end
@@ -96,11 +96,11 @@ scan["player"] = function()
 end
 
 function nothingThere()
-	desc = nothingThereText[math.random(#nothingThereText)]
+  desc = nothingThereText[math.random(#nothingThereText)]
 end
 
 function formatDesc()
-	if str[1] == c[1]..c[2] then str[1] = "" end
-	if str[1] == "" then str[1] = str[2] str[2] = "" end
-	if str[1]..str[2] ~= "" then desc = str[1].." "..str[2] else nothingThere() end
+  if str[1] == c[1]..c[2] then str[1] = "" end
+  if str[1] == "" then str[1] = str[2] str[2] = "" end
+  if str[1]..str[2] ~= "" then desc = str[1].." "..str[2] else nothingThere() end
 end

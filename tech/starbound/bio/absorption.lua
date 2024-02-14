@@ -11,7 +11,7 @@ function update(dt)
   for _, notification in ipairs(damageNotifications) do
     if notification.targetEntityId then
       if notification.sourceEntityId ~= notification.targetEntityId and (notification.healthLost > minimumDamage) and (notification.healthLost*multiplier) > 0 then
-	status.addEphemeralEffect(effect,notification.healthLost*multiplier)
+  status.addEphemeralEffect(effect,notification.healthLost*multiplier)
       end
     end
   end

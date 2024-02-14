@@ -1,4 +1,6 @@
 function init()
+  widget.playSound("/sfx/objects/bookcase_open.ogg")
+  skipPageSound = true
   pageContents = config.getParameter("contentPages", {{""}})
   local customData = config.getParameter("customData")
   baseData = root.itemConfig("sb_customcodex").config
@@ -36,6 +38,7 @@ function init()
 end
 
 function uninit()
+  widget.playSound("/sfx/objects/bookcase_close.ogg")
   signedData = {string.gsub(signedData[1], "(%^.-%;)", ""), string.gsub(signedData[2], "(%^.-%;)", "")}
   if string.len(string.gsub(signedData[1], "(% )", "")) == 0 then signedData[1] = baseData.shortdescriptionBlank end
   if string.len(string.gsub(signedData[2], "(% )", "")) == 0 then signedData[2] = baseData.descriptionBlank end
@@ -60,6 +63,12 @@ function uninit()
 end
 
 function readPage()
+  if skipPageSound then
+    skipPageSound = false
+  else
+    widget.playSound("/sfx/tech/tech_walljump.ogg")
+  end
+
   widget.setButtonEnabled("prevButton", currentPage > 1)
   widget.setText("pageNum", string.format(config.getParameter("pageFormat", "%s/%s"), currentPage, #pageContents))
    --"P. "..currentPage.." of "..#pageContents)

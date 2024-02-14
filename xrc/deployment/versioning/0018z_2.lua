@@ -20,11 +20,11 @@ xrc0018[5]=function() quest("sb_kelpquest.gearup","sb_techconsole") end
 xrc0018[6]=function() end
 xrc0018[7]=function() end
 xrc0018[8]=function()
-	local a = status.statusProperty("sb_bioimplants")
-	local b = root.assetJson("/items/buildscripts/starbound/tech.config")
-	local c = status.statusProperty("sb_bioimplant") or ""
-	local e = {}
-	if a then
+  local a = status.statusProperty("sb_bioimplants")
+  local b = root.assetJson("/items/buildscripts/starbound/tech.config")
+  local c = status.statusProperty("sb_bioimplant") or ""
+  local e = {}
+  if a then
     for i = 1, #a do
       sb.logInfo(a[i])
       sb.logInfo(b[a[i]] or "")
@@ -73,85 +73,85 @@ xrc0018[18]=function()
     end
     player.setProperty("sb_bioimplants",e)
   end
-	e = {}
-	if f then
+  e = {}
+  if f then
     for i = 1, #f do
       sb.logInfo(string.format("Converting possibly unpurchased suit tech '%s' to '%s.'",f[i],b[f[i]] or f[i]))
       if b[f[i]] then e[i]=b[f[i]] else e[i]=f[i] end
     end
     player.setProperty("sb_availableBioimplants",e)
   end
-	IB = {}
-	boxQuest("sb_bountyhunter1.gearup",{"sb_uncommonbroadsword",1,{level=2}})
-	boxQuest("sb_bountyhunter3.gearup",{"sb_uncommonshotgun",1,{level=4}})
-	boxQuest("sb_floranhunter4.gearup",{"sb_uncommonspear",1,{level=5}})
-	boxQuest("sb_humanexcon4.gearup",{"sb_uncommonaxe",1,{level=5}})
-	giveBox()
+  IB = {}
+  boxQuest("sb_bountyhunter1.gearup",{"sb_uncommonbroadsword",1,{level=2}})
+  boxQuest("sb_bountyhunter3.gearup",{"sb_uncommonshotgun",1,{level=4}})
+  boxQuest("sb_floranhunter4.gearup",{"sb_uncommonspear",1,{level=5}})
+  boxQuest("sb_humanexcon4.gearup",{"sb_uncommonaxe",1,{level=5}})
+  giveBox()
 end
 xrc0018[19]=function()
   if newPlayer then return end
-	local r = {"floran","hylotl","avian","apex","glitch"}
-	local q = {}
-	for i = 1, 2 do
-		for j = 1, #r do
-			q[#q+1] = r[j].."_mission"..i
-		end
-	end
-	IB = {}
-	local t = {2,3,4,5,6} for i = 1, #t do t[#t+1]=t[i] end
-	boxQuest("destroyruin",{"superrewardbag",1,{treasure={level=6}}})
-	for i = 1, #q do
-		boxQuest(q[i],{"rewardbag",1,{treasure={level=t[i]}}})
-	end
-	q = {
-		{"sb_outpost0","sb_outpost1","sb_outpost2","sb_humanscientist1","sb_floranfan1"},
-		{"sb_outpostSkin","sb_coffee2","sb_bountyhunter1"},
-		{"sb_kelpquest","sb_bountyhunter2","sb_humanexcon2","sb_humansurvivor2"},
-		{"sb_glitchsilenttype3","sb_avianexplorer3","sb_bountyhunter3"},
-		{"sb_humanexcon4","sb_avianexplorer4","sb_avianmercenary4","sb_apexrefugee4","sb_floranhunter4","sb_bountyhunter4"},
-		{"sb_avianrefugeeE1","sb_humanscientistE1","sb_avianrefugeeE2","sb_hylotlwarriorE2","sb_hylotlwarriorE1","sb_penguinpromoterE1"}
-	}
-	for i = 1, #q do for j = 1, #q[i] do boxQuest(q[i][j]..".gearup",{"rewardbag",1,{treasure={level=i}}}) end end
-	giveBox()
+  local r = {"floran","hylotl","avian","apex","glitch"}
+  local q = {}
+  for i = 1, 2 do
+    for j = 1, #r do
+      q[#q+1] = r[j].."_mission"..i
+    end
+  end
+  IB = {}
+  local t = {2,3,4,5,6} for i = 1, #t do t[#t+1]=t[i] end
+  boxQuest("destroyruin",{"superrewardbag",1,{treasure={level=6}}})
+  for i = 1, #q do
+    boxQuest(q[i],{"rewardbag",1,{treasure={level=t[i]}}})
+  end
+  q = {
+    {"sb_outpost0","sb_outpost1","sb_outpost2","sb_humanscientist1","sb_floranfan1"},
+    {"sb_outpostSkin","sb_coffee2","sb_bountyhunter1"},
+    {"sb_kelpquest","sb_bountyhunter2","sb_humanexcon2","sb_humansurvivor2"},
+    {"sb_glitchsilenttype3","sb_avianexplorer3","sb_bountyhunter3"},
+    {"sb_humanexcon4","sb_avianexplorer4","sb_avianmercenary4","sb_apexrefugee4","sb_floranhunter4","sb_bountyhunter4"},
+    {"sb_avianrefugeeE1","sb_humanscientistE1","sb_avianrefugeeE2","sb_hylotlwarriorE2","sb_hylotlwarriorE1","sb_penguinpromoterE1"}
+  }
+  for i = 1, #q do for j = 1, #q[i] do boxQuest(q[i][j]..".gearup",{"rewardbag",1,{treasure={level=i}}}) end end
+  giveBox()
 end
 xrc0018[20]=function()
-	local q = {"sb_floranfan1","sb_hylotlwarriorE2"}
-	for i = 1, #q do
-		if player.hasCompletedQuest(q[i]..".gearup") then
-			player.setUniverseFlag(q[i])
-		end
-	end
+  local q = {"sb_floranfan1","sb_hylotlwarriorE2"}
+  for i = 1, #q do
+    if player.hasCompletedQuest(q[i]..".gearup") then
+      player.setUniverseFlag(q[i])
+    end
+  end
 end
 xrc0018[21]=function()
-	if player.blueprintKnown("sb_steelbar") then
-		updateNote("090")
-		updateNote("090b")
-	end
+  if player.blueprintKnown("sb_steelbar") then
+    updateNote("090")
+    updateNote("090b")
+  end
 end
 xrc0018[22]=function()
-	if player.blueprintKnown("sb_sweetcorn") then --could cause issues if we add sweetcorn back
-		updateNote("96")
-	end
+  if player.blueprintKnown("sb_sweetcorn") then --could cause issues if we add sweetcorn back
+    updateNote("96")
+  end
 end
 xrc0018[23]=function()
-	local a = player.getProperty("eesTransmutations")
-	if a and a.EES_farmemc then
-		local b = {EES_farmemc={}}
-		local c = {"sb_avesmingo","sb_banana","sb_beakseed","sb_boltbulb","sb_coffeebeans","sb_pearlpea","sb_pussplum"}
-		for k, v in pairs(a.EES_farmemc) do
-			local keep = true
-			for i = 1, #c do
-				if (k == c[i]) then
-					keep = false
-					break
-				end
-			end
-			if keep then
-				b.EES_farmemc[k] = v
-			end
-		end
-		player.setProperty("eesTransmutations", b)
-	end
+  local a = player.getProperty("eesTransmutations")
+  if a and a.EES_farmemc then
+    local b = {EES_farmemc={}}
+    local c = {"sb_avesmingo","sb_banana","sb_beakseed","sb_boltbulb","sb_coffeebeans","sb_pearlpea","sb_pussplum"}
+    for k, v in pairs(a.EES_farmemc) do
+      local keep = true
+      for i = 1, #c do
+        if (k == c[i]) then
+          keep = false
+          break
+        end
+      end
+      if keep then
+        b.EES_farmemc[k] = v
+      end
+    end
+    player.setProperty("eesTransmutations", b)
+  end
 end
 xrc0018[24]=function() player.startQuest("sb_techunlocks") end
 xrc0018[25]=function()
@@ -159,15 +159,15 @@ xrc0018[25]=function()
   if player.blueprintKnown("sb_mushroomshield") then player.giveItem("mushroomshield-recipe") end
 end
 xrc0018[26]=function()
-	local a = root.assetJson("/species/sb_recipes.config")
-	local b = a.species
+  local a = root.assetJson("/species/sb_recipes.config")
+  local b = a.species
   local c = false
   for i = 1, #b do
     if player.species() == b[i] then
       c = true
     end
   end
-	if c == false then
+  if c == false then
     b = a.unknownSpeciesRecipes
     local d = a.weaponTiers
     local e = a.weapons
@@ -176,14 +176,14 @@ xrc0018[26]=function()
     for m = 1, #e do
       for i = d[1], d[2] do
         player.giveBlueprint(string.format(e[m],b,i))
-	    end
+      end
     end
     for i = 1, f do
       for m = 1, #e do
         for j = 1, #g do
           player.giveBlueprint(string.format(e[m],b,i+d[2]..g[j]))
         end
-	    end
+      end
     end
   end
 end

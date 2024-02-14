@@ -1,37 +1,38 @@
 {
-  "id" : "sb_tutorial4.gearup",
-  "prerequisites" : ["sb_tutorial3b.gearup" ],
-  "mainQuest" : true,
-  "title" : "^#9be3d6;Food Fight",
-  "text" : "By now you're likely beginning to feel hungry. Food can be found in a variety of places but in a pinch ^green;hunting is your best option. Obtain some alien meat by killing a monster with a ^orange;bow^green; ^#f00;(crafted at a foraging table, at your wooden crafting table)^reset; and cook it on a campfire^reset; to produce ^orange;cooked alien meat.^reset; You can make everything you need at a ^orange;wooden crafting table.",
-  "completionText" : "Enjoy! If you're a vegetarian toss it away and start planting crops.",
-  "speaker" : "questGiver",
-  "moneyRange" : [50, 50],
-  "canBeAbandoned" : true,
+  "id": "sb_tutorial4.gearup",
+  "prerequisites": ["sb_tutorial3b.gearup"],
+  "mainQuest": true,
+  "title": "^#9be3d6;Food Fight",
+  "text": "By now you're likely beginning to feel hungry. Food can be found in a variety of places but in a pinch ^green;hunting is your best option. Obtain some alien meat by killing a monster with a ^orange;bow^green; ^#f00;(crafted at a foraging table, at your wooden crafting table)^reset; and cook it on a campfire^reset; to produce ^orange;cooked alien meat.^reset; You can make everything you need at a ^orange;wooden crafting table.",
+  "completionText": "Enjoy! If you're a vegetarian toss it away and start planting crops.",
+  "speaker": "questGiver",
+  "moneyRange": [50, 50],
+  "canBeAbandoned": true,
 
-  "guiConfigs" : {
-    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
-    "newQuest" : "/interface/windowconfig/sb_newquestnorewards.config",
-    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquestnorewards.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
   },
 
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/sb_main.lua",
-  "scriptConfig" : {
-    "title" : "^#9be3d6;Food Fight",
-    "missable" : true,
-    "itemIcon" : "/interface/sb_numbers.png:5",
-    "followUp" : "sb_tutorial5.gearup",
-    "giveBlueprints" : ["campfire","bow","craftingfarm"],
-    "portraits" : {"default" : "player"},
-    "requireTurnIn" : false,
-    "conditions" : [
-      {
-        "type" : "gatherTag",
-        "tag" : "sb_meat",
-        "count" : 1,
-	"description" : "Cook ^orange;raw meat^reset; at a ^green;campfire",
-        "consume" : false
+  "updateDelta": 10,
+  "script": "/quests/scripts/sb_main.lua",
+  "scriptConfig": {
+    "title": "^#9be3d6;Food Fight",
+    "missable": true,
+    "itemIcon": "/interface/sb_numbers.png:5",
+    "followUp": "sb_tutorial5.gearup",
+    "giveBlueprints": ["campfire", "bow", "craftingfarm"],
+    "portraits": {
+      "default": "player"
+    },
+    "requireTurnIn": false,
+    "conditions": [{
+        "type": "gatherTag",
+        "tag": "sb_meat",
+        "count": 1,
+        "description": "Cook ^orange;raw meat^reset; at a ^green;campfire",
+        "consume": false
       }
     ]
   }

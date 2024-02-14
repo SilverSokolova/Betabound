@@ -6,9 +6,9 @@
 [{"op":"test","path":"/altAbilityType","inverse":true},{"op":"test","path":"/altAbility","inverse":true},
 {"op":"add","path":"/altAbilityType","value":"sb_shotgun"},
 {"op":"add","path":"/altAbility","value":{
-	"projectileType":"sb_plasmapulse",
-	"usePrimaryFireSound":false,
-	"projectileParameters":{"speed":100}
+  "projectileType":"sb_plasmapulse",
+  "usePrimaryFireSound":false,
+  "projectileParameters":{"speed":100}
 }},
 {"op":"add","path":"/animationCustom/sounds/altFire","value":["/sfx/gun/plasma_shotgun3.ogg","/sfx/gun/plasma_shotgun4.ogg"]}
 ]

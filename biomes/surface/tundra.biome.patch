@@ -119,10 +119,10 @@
       ]
       }
     }
-	],
-	
+  ],
+  
   [
-	  {"op":"add","path":"/surfacePlaceables/items/-","value":{
+    {"op":"add","path":"/surfacePlaceables/items/-","value":{
       "mode":"floor",
       "priority":0,
       "variants":1,
@@ -130,16 +130,16 @@
       "type":"treasureBox",
       "treasureBoxSets":["sb_geometricChest"]}
     }
-	],
+  ],
 
   [
-	  {"op":"add","path":"/surfacePlaceables/items/-","value":{
-	    "mode":"floor",
-	    "priority":3,
-	    "variants":1,
-	    "distribution":"/biomes/distributions.config:scatteredLarge",
-	    "type":"grass",
-	    "grasses":["geometricflower"]}
-	  }
-	]
+    {"op":"add","path":"/surfacePlaceables/items/-","value":{
+      "mode":"floor",
+      "priority":3,
+      "variants":1,
+      "distribution":"/biomes/distributions.config:scatteredLarge",
+      "type":"grass",
+      "grasses":["geometricflower"]}
+    }
+  ]
 ]

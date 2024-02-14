@@ -79,7 +79,7 @@
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aviantier6mshortsword"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aviantier6sshortsword"}},
 
-//		-=- OBJECTS	-=-
+//    -=- OBJECTS  -=-
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_techstation_avian"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_avianfuelhatch"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"avianshiplocker"}}

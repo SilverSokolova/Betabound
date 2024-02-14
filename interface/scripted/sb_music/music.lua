@@ -76,10 +76,10 @@ function populateList()
     if admin or (song and knownSongs[songName.name]) then
       local title = song.title
       if (not query and true) or (query and song.title:lower():find(query)) then
-	local listItem = widget.addListItem(songList)
-	widget.setText(string.format("%s.%s.songName", songList, listItem), title)
-	widget.setData(string.format("%s.%s", songList, listItem), k)
-	--local icon = song.icon; if icon then widget.setImage(string.format("%s.%s.songIcon", songList, listItem), icon) end
+  local listItem = widget.addListItem(songList)
+  widget.setText(string.format("%s.%s.songName", songList, listItem), title)
+  widget.setData(string.format("%s.%s", songList, listItem), k)
+  --local icon = song.icon; if icon then widget.setImage(string.format("%s.%s.songIcon", songList, listItem), icon) end
       end
     end
   end

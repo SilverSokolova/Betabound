@@ -1,54 +1,88 @@
 {
-  "itemName" : "sb_heatcleaver",
-  "price" : 800,
-  "maxStack" : 1,
-  "level" : 1,
-  "rarity" : "rare",
-  "description" : "Overloaded with solarium, the ember coral in this axe reaches the temperature of suns.",
-  "shortdescription" : "Heat Cleaver",
-  "tooltipKind" : "sb_sword2",
-  "category" : "axe",
-  "twoHanded" : false,
-  "sb_waBan" : true,
-  "itemTags" : ["weapon","melee","axe","upgradeableWeapon"],
-  "animation" : "/items/active/starbound/weapons/axe.animation",
+  "itemName": "sb_heatcleaver",
+  "price": 800,
+  "maxStack": 1,
+  "level": 1,
+  "rarity": "rare",
+  "description": "Overloaded with solarium, the ember coral in this axe reaches the temperature of suns.",
+  "shortdescription": "Heat Cleaver",
+  "tooltipKind": "sb_sword2",
+  "category": "axe",
+  "twoHanded": false,
+  "sb_waBan": true,
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "animation": "/items/active/starbound/weapons/axe.animation",
 
-  "sb_dyeable" : true,
-  "directives" : "",
-  "sb_backingDirectives" : "?replace;838383=ffca8a;555=e0975c;383838=a85636;151515=6f2919",
-  "inventoryIcon" : "heatcleaver.png<directives>",
-  "animationParts" : {
-    "blade" : "heatcleaver.png?replace;d2d2d2=0000;989898=0000;6d6d6d=0000;555=0000;383838=0000;838383=0000;151515=0000",
-    "handle" : "heatcleaver.png<directives>"
+  "sb_dyeable": true,
+  "directives": "",
+  "sb_backingDirectives": "?replace;838383=ffca8a;555=e0975c;383838=a85636;151515=6f2919",
+  "inventoryIcon": "heatcleaver.png<directives>",
+  "animationParts": {
+    "blade": "heatcleaver.png?replace;d2d2d2=0000;989898=0000;6d6d6d=0000;555=0000;383838=0000;838383=0000;151515=0000",
+    "handle": "heatcleaver.png<directives>"
   },
-  "animationCustom" : {"lights":{"glow":{"color":[255, 145, 28]}},
-    "animatedParts" : {"parts":{
-	"handle":{"properties":{"offset":[0,1.4]}},
-	"blade":{"properties":{"offset":[0,1.4],"fullbright":true}},
-	"swoosh":{"partStates":{"swoosh":{"fire":{"properties":{"image":"coralswooshx.png:<frame>"}}}},"properties" : {
-      "offset" : [-1.0, 1.75]
-    }}}}
-  },
-
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
-  "elementalType" : "fire",
-  "aimOffset" : -1,
-  "primaryAbilityType" : "sb_axe",
-  "primaryAbility" : {
-    "fireTime" : [0.9,1.5],
-    "projectileType" : "sb_coralswooshx",
-    "baseDps" : [4,10],
-    "damageConfig" : {
-	"damageSourceKind" : "fireaxe",
-	"knockback" : 30,
-	"statusEffects" : ["burning"]
+  "animationCustom": {
+    "lights": {
+      "glow": {
+        "color": [255, 145, 28]
+      }
     },
-    "stances" : {
-      "idle" : {"weaponOffset" : [0.3, 1.5]},
-      "windup" : {"weaponOffset" : [0.3, 1.5]},
-      "fire" : {"weaponOffset" : [0.3, 1.5]}
+    "animatedParts": {
+      "parts": {
+        "handle": {
+          "properties": {
+            "offset": [0, 1.4]
+          }
+        },
+        "blade": {
+          "properties": {
+            "offset": [0, 1.4],
+            "fullbright": true
+          }
+        },
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "image": "coralswooshx.png:<frame>"
+                }
+              }
+            }
+          },
+          "properties": {
+            "offset": [-1, 1.75]
+          }
+        }
+      }
     }
   },
-  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType": "fire",
+  "aimOffset": -1,
+  "primaryAbilityType": "sb_axe",
+  "primaryAbility": {
+    "fireTime": [0.9, 1.5],
+    "projectileType": "sb_coralswooshx",
+    "baseDps": [4, 10],
+    "damageConfig": {
+      "damageSourceKind": "fireaxe",
+      "knockback": 30,
+      "statusEffects": ["burning"]
+    },
+    "stances": {
+      "idle": {
+        "weaponOffset": [0.3, 1.5]
+      },
+      "windup": {
+        "weaponOffset": [0.3, 1.5]
+      },
+      "fire": {
+        "weaponOffset": [0.3, 1.5]
+      }
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

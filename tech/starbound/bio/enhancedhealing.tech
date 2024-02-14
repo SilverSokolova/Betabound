@@ -1,11 +1,11 @@
 {
-  "name" : "sb_enhancedhealing",
-  "type" : "head",
-  "icon" : "/tech/starbound/enhancedhealing.png",
-  "scripts" : [],
-  "sb_effect" : "sb_enhancedhealingtech",
-  "sb_suitImage" : "?replace;73daff=f9a2a4;27abff=f78588;117ee4=ed2033;1f45d4=dd1225;002b72=bd0016;001522=9e0012",
-  "rarity" : "rare",
-  "description" : "Increases the effectiveness of health restoration effects.",
-  "shortDescription" : "Enhanced Healing"
+  "name": "sb_enhancedhealing",
+  "type": "head",
+  "icon": "/tech/starbound/enhancedhealing.png",
+  "scripts": [],
+  "sb_effect": "sb_enhancedhealingtech",
+  "sb_suitImage": "?replace;73daff=f9a2a4;27abff=f78588;117ee4=ed2033;1f45d4=dd1225",
+  "rarity": "rare",
+  "description": "Increases the effectiveness of health restoration effects.",
+  "shortDescription": "Enhanced Healing"
 }

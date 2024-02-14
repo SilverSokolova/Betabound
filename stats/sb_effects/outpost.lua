@@ -12,14 +12,18 @@ function init()
     world.spawnNpc(positions[i], npc[1], npc[2], 1, npc[3])
   end
 
-	if month(2) then world.spawnItem("heartforge-recipe",positions[10]) elseif month(12) then world.spawnNpc(positions[11],"human","santa",100) end
-	if world.objectAt(positions[12]) then
-	  if world.containerAddItems(world.objectAt(positions[12]),"comedyscript") == {} then
-	    world.spawnItem("comedyscript",positions[10])
-	  end
-	end
+  if month(2) then
+    world.spawnNpc(positions[10], "human", "sb_cupid", 1)
+  elseif month(12) then
+    world.spawnNpc(positions[11], "human", "santa", 1)
+  end
+  if world.objectAt(positions[12]) then
+    if world.containerAddItems(world.objectAt(positions[12]),"comedyscript") == {} then
+      world.spawnItem("comedyscript",positions[10])
+    end
+  end
 
-	status.setStatusProperty("sb_outpostnpcspawner",true) end
+  status.setStatusProperty("sb_outpostnpcspawner",true) end
 end
 
 function update()

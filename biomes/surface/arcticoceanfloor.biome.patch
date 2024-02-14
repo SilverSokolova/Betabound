@@ -9,6 +9,6 @@
       "distribution":"/biomes/distributions.config:overgroundChests",
       "type":"treasureBox",
       "treasureBoxSets":["sb_arcticChest"]}
-	}
+  }
   ]
 ]

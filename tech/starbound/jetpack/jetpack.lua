@@ -16,14 +16,14 @@ function input(args)
     holdingJump = false
   end
   return
-	  args.moves["jump"] and
-	  not args.moves["down"] and
-	  not mcontroller.canJump() and
-  	not holdingJump and
-  	(enableZeroG or not mcontroller.zeroG()) and
-	  not mcontroller.liquidMovement() and
-	  not status.statPositive("activeMovementAbilities") and
-	  "jetpack" or nil
+    args.moves["jump"] and
+    not args.moves["down"] and
+    not mcontroller.canJump() and
+    not holdingJump and
+    (enableZeroG or not mcontroller.zeroG()) and
+    not mcontroller.liquidMovement() and
+    not status.statPositive("activeMovementAbilities") and
+    "jetpack" or nil
 end
 
 function update(args)

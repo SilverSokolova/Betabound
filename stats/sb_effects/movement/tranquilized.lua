@@ -8,9 +8,9 @@ end
 
 function update(dt)
   mcontroller.controlModifiers({
-	speedModifier=modifier,
-	airJumpModifier=modifier,
-	runningSuppressed=modifier<suppress
+  speedModifier=modifier,
+  airJumpModifier=modifier,
+  runningSuppressed=modifier<suppress
   })
   modifier = math.max(min,modifier-tick)
 end

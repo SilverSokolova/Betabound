@@ -1,0 +1,17 @@
+{
+  "id": "sb_sewerlonely",
+  "species": "apex",
+  "title": "Loneliness",
+  "description": "A journal entry. The pages are stained brown.",
+  "icon": "sb_apexcover5.png",
+  "contentPages": [
+"^shadow,#62573c;Down here, it is lonely. I curse the day I drank that delicious-looking liquid. All I long for is acceptance and friendship. Many travellers come down here, and I do my best to protect them from the fly, the spider, and the many other horrors that lurk in these waters.
+
+And yet, when I approach to offer my aid, these travellers turn on me with swords and guns, disintegrating my body until I have the strength to form again.^reset;"
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

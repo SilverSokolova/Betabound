@@ -49,14 +49,14 @@ function Parry:parry()
   animator.playSound("guard")
 
   message.setHandler("sb_applyShieldDamage"..(activeItem.hand() == "alt" and "R" or "L"), function(_,hand)
-	animator.burstParticleEmitter("parryParticle")
+  animator.burstParticleEmitter("parryParticle")
         animator.setAnimationState("parryShield", "block")
         if not status.resourcePositive("sb_shieldStamina"..(activeItem.hand() == "alt" and "R" or "L")) then
-	  animator.burstParticleEmitter("guardbroken")
+    animator.burstParticleEmitter("guardbroken")
           animator.playSound("break")
-	else
+  else
           animator.playSound("parry")
-	end
+  end
   end)
   util.wait(self.parryTime, function(dt)
     if not status.resourcePositive("sb_shieldStamina"..(activeItem.hand() == "alt" and "R" or "L")) then return true end

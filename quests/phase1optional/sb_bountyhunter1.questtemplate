@@ -1,34 +1,41 @@
 {
-  "id" : "sb_bountyhunter1.gearup",
-  "prerequisites" : ["sb_outpost1.gearup"],
-  "title" : "^#0f0;Butcher, Baker, Widow Maker",
-  "text" : "Being a Bounty Hunter is hard sometimes. I have feelings too! If I had a cake I could apologise to the widow of my last victim. ^green;Bring me a ^orange;cake ^reset;and I'll give you a cool sword and a little something extra for your trouble.",
-  "completionText" : "Perfect! It even says 'sorry I killed your husband' on it in icing! Enjoy your sword, it might need a clean.",
-  "speaker" : "questGiver",
-  "moneyRange" : [0, 0],
-  "rewards" : [[["sb_uncommonbroadsword",1,{"level":2}],["upgrademodule",3],["rewardbag",1,{"treasure":{"level":2}}]]],
-  "guiConfigs" : {
-    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
-    "newQuest" : "/interface/windowconfig/sb_newquest.config",
-    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  "id": "sb_bountyhunter1.gearup",
+  "prerequisites": ["sb_outpost1.gearup"],
+  "title": "^#0f0;Butcher, Baker, Widow Maker",
+  "text": "Being a Bounty Hunter is hard sometimes. I have feelings too! If I had a cake I could apologise to the widow of my last victim. ^green;Bring me a ^orange;cake ^reset;and I'll give you a cool sword and a little something extra for your trouble.",
+  "completionText": "Perfect! It even says 'sorry I killed your husband' on it in icing! Enjoy your sword, it might need a clean.",
+  "speaker": "questGiver",
+  "moneyRange": [0, 0],
+  "rewards": [[["sb_uncommonbroadsword", 1, {
+          "level": 2
+        }
+      ], ["upgrademodule", 3], ["rewardbag", 1, {
+          "treasure": {
+            "level": 2
+          }
+        }
+      ]]],
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquest.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
   },
 
-  "canBeAbandoned" : true,
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/main.lua",
-  "scriptConfig" : {
-    "portraits" : {
-      "default" : "questGiver"
+  "canBeAbandoned": true,
+  "updateDelta": 10,
+  "script": "/quests/scripts/main.lua",
+  "scriptConfig": {
+    "portraits": {
+      "default": "questGiver"
     },
-    "requireTurnIn" : true,
-    "turnInDescription" : "Speak to ^orange;the Bounty Hunter^reset; at the ^orange;outpost^reset;",
-    "conditions" : [
-      {
-        "type" : "gatherTag",
-        "tag" : "sb_cake",
-        "count" : 1,
-	"description" : "Obtain ^orange;cake^reset;",
-        "consume" : true
+    "requireTurnIn": true,
+    "turnInDescription": "Speak to ^orange;the Bounty Hunter^reset; at the ^orange;outpost^reset;",
+    "conditions": [{
+        "type": "gatherTag",
+        "tag": "sb_cake",
+        "count": 1,
+        "description": "Obtain ^orange;cake^reset;",
+        "consume": true
       }
     ]
   }

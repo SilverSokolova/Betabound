@@ -1,0 +1,19 @@
+{
+  "id": "sb_sewerpometheus",
+  "species": "apex",
+  "title": "The Modern Po-metheus",
+  "description": "A journal entry. The pages are stained brown.",
+  "icon": "sb_apexcover5.png",
+  "contentPages": [
+"^shadow,#62573c;As I mark down these words, brown tears spill from my eyes. I think back to that day, that fateful day when, fleeing my Miniknog captors, I descended into this sewer. For days I hid, as Big Ape's guards searched for me.
+
+Hungry, thirsty, I eventually succumbed, finding some yellow, glowing goo that reminded me of a mushed banana.^reset;",
+
+"^shadow,#62573c;No sooner had I eaten it, my body began to change; my very molecules reassembled, merging with my surroundings - the sewer's fith. And now, years later, I am Apex no longer, but instead a golem of filth, longing simply for an escape.^reset;"
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

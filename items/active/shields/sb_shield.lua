@@ -62,8 +62,8 @@ function init() ini()
     end
     if not status.sb_resourcePositive("sb_shieldStamina"..sb_hand) then
       animator.playSound("break")
-	  else
-	    animator.playSound("block")
+    else
+      animator.playSound("block")
     end
   end)
   sb_init = true

@@ -10,10 +10,10 @@ end
 function update(dt)
   if math.floor(mcontroller.velocity()[1]) == 0 and not mcontroller.falling() and not mcontroller.jumping() then
     effect.setParentDirectives(glow)
-    animator.setParticleEmitterActive("boost",true)
+    animator.setParticleEmitterActive("boost", true)
     effect.setStatModifierGroup(groupId, statModifierGroup)
   else
-    animator.setParticleEmitterActive("boost",false)
+    animator.setParticleEmitterActive("boost", false)
     effect.setParentDirectives()
     effect.setStatModifierGroup(groupId, {})
   end

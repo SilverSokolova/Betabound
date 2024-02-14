@@ -2,6 +2,8 @@
 [{"op":"add","path":"/dreadwingDrop/0/1/fill/-","value":{"item":["moltencore",5]}}]
 ,[{"op":"add","path":"/dreadwingDrop/0/1/pool/-","value":{"weight":0.3,"item":["sb_musicsheet",1,{"music":"arctic-battle2"}]}}]
 
+,[{"op":"add","path":"/shockhopperDrop/0/1/fill/-","value":{"item":"sb_bossshockhopper-codex"}}]
+
 ,[{"op":"test","path":"/asranoxTreasure/0/1/fill","inverse":true},{"op":"add","path":"/asranoxTreasure/0/1/fill","value":[]}]
 ,[{"op":"add","path":"/asranoxTreasure/0/1/fill/-","value":{"item":["sb_tech",1,{"techModule":"sb_shield"}]}}]
 

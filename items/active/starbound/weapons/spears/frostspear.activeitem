@@ -1,75 +1,76 @@
 {
-  "itemName" : "sb_frostspear",
-  "level" : 1,
-  "fixedLevel" : false,
-  "price" : 800,
-  "maxStack" : 1,
-  "rarity" : "rare",
-  "sb_waBan" : true,
-  "tooltipKind" : "sb_sword2",
-  "category" : "spear",
-  "description" : "The tip of this spear is made from crystallised ice, chilling your enemies to the core!",
-  "shortdescription" : "Frost Spear",
-  "twoHanded" : true,
-  "itemTags" : ["weapon","melee","spear","geometric","upgradeableWeapon"],
-  "animation" : "/items/active/starbound/weapons/spear.animation",
-  "inventoryIcon" : "frostspear.png",
-  "animationParts" : {
-    "blade" : "frostspear.png",
-    "handle" : ""
+  "itemName": "sb_frostspear",
+  "level": 1,
+  "fixedLevel": false,
+  "price": 800,
+  "maxStack": 1,
+  "rarity": "rare",
+  "sb_waBan": true,
+  "tooltipKind": "sb_sword2",
+  "category": "spear",
+  "description": "The tip of this spear is made from crystallised ice, chilling your enemies to the core!",
+  "shortdescription": "Frost Spear",
+  "twoHanded": true,
+  "itemTags": ["weapon", "melee", "spear", "geometric", "upgradeableWeapon"],
+  "animation": "/items/active/starbound/weapons/spear.animation",
+  "inventoryIcon": "frostspear.png",
+  "animationParts": {
+    "blade": "frostspear.png",
+    "handle": ""
   },
 
-  "animationCustom" : {
-    "animatedParts" : {
-      "parts" : {
-	"swoosh" : {
-	  "partStates" : {
-	    "swoosh" : {
-	      "fire" : {
-		"properties" : {
-		  "image" : "frostspearswoosh.png:<frame>"
-		}
-	      }
-	    }
-	  }
-	}
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "image": "frostspearswoosh.png:<frame>"
+                }
+              }
+            }
+          }
+        }
       }
     }
   },
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-  "elementalType" : "ice",
-  "builderConfig" : [{
-    "altAbilities" : ["flurry","elementalspin"]
-  }],
-  "altAbility" : {
-    "damageConfig" : {
-      "damageSourceKind" : "icespear",
-      "statusEffects" : ["frostslow"]
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType": "ice",
+  "builderConfig": [{
+      "altAbilities": ["flurry", "elementalspin"]
+    }
+  ],
+  "altAbility": {
+    "damageConfig": {
+      "damageSourceKind": "icespear",
+      "statusEffects": ["frostslow"]
     }
   },
-  "primaryAbilityType" : "sb_spear",
-  "primaryAbility" : {
-    "damageConfig" : {
-      "damageSourceKind" : "icespear",
-      "statusEffects" : ["frostslow"]
+  "primaryAbilityType": "sb_spear",
+  "primaryAbility": {
+    "damageConfig": {
+      "damageSourceKind": "icespear",
+      "statusEffects": ["frostslow"]
     },
-    "fireTime" : [0.5,0.7],
-    "baseDps" : [8.5,12.5],
-    "stances" : {
-      "idle" : {
-        "allowFlip" : true,
-        "allowRotate" : true,
-        "weaponOffset" : [0, 0.95]
+    "fireTime": [0.5, 0.7],
+    "baseDps": [8.5, 12.5],
+    "stances": {
+      "idle": {
+        "allowFlip": true,
+        "allowRotate": true,
+        "weaponOffset": [0, 0.95]
       },
-      "fire" : {
-        "duration" : 0.24
+      "fire": {
+        "duration": 0.24
       },
-      "windup" : {
-        "duration" : 0.2,
-        "weaponOffset" : [0, 0.95]
+      "windup": {
+        "duration": 0.2,
+        "weaponOffset": [0, 0.95]
       }
     }
   },
-  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

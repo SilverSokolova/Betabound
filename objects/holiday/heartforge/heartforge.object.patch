@@ -1,6 +1,6 @@
 [
 [{"op":"test","inverse":true,"path":"/tooltipKind"},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
-[{"op":"test","value":0,"path":"/price"},{"op":"replace","path":"/price","value":780}],
+[{"op":"test","value":0,"path":"/price"},{"op":"replace","path":"/price","value":2140}],
 [{"op":"test","value":"Heart Forge","path":"/shortdescription"},{"op":"replace","path":"/shortdescription","value":"^orange;Heart Forge^reset;"}],
 [{"op":"test","value":"  Heart Forge","path":"/interactData/paneLayoutOverride/windowtitle/title"},{"op":"add","path":"/interactData/paneLayoutOverride/windowtitle/title","value":"Heart Forge"}],
 [{"op":"test","value":"  Share the love","path":"/interactData/paneLayoutOverride/windowtitle/subtitle"},{"op":"add","path":"/interactData/paneLayoutOverride/windowtitle/subtitle","value":"Share the love!"}]

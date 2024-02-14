@@ -1,13 +1,13 @@
 {
-  "name" : "sb_absorption",
-  "type" : "head",
-  "icon" : "/tech/starbound/absorption.png",
-  "scripts" : [],
-  "sb_effect" : ["sb_absorptiontech"],
-  "sb_suitImage" : "?replace;73daff=e36e6e;27abff=d93a3a;117ee4=932625;1f45d4=601119;002b72=460d11;001522=2c080b",
-  "rarity" : "Rare",
-  "description" : "Restores the wearer's energy when attacked.",
-  "shortDescription" : "Absorption",
+  "name": "sb_absorption",
+  "type": "head",
+  "icon": "/tech/starbound/absorption.png",
+  "scripts": [],
+  "sb_effect": ["sb_absorptiontech"],
+  "sb_suitImage": "?replace;73daff=e36e6e;27abff=d93a3a;117ee4=932625;1f45d4=601119",
+  "rarity": "Rare",
+  "description": "Replenishes energy upon taking damage.",
+  "shortDescription": "Absorption",
 
-  "multiplier" : 2.75
+  "multiplier": 2.75
 }

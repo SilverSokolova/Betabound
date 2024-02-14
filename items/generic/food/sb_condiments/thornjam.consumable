@@ -1,22 +1,26 @@
 {
-  "itemName" : "sb_thornjam",
-  "rarity" : "unCommon",
-  "price" : 325,
-  "category" : "preparedFood",
-  "inventoryIcon" : "thornjam.png",
-  "description" : "More thorn than jam.",
-  "shortdescription" : "Thorn Jam",
-  "effects" : [[
-	{"effect":"maxenergyscalingboostfood","duration":158},
-	{"effect":"thorns","duration":158},
-	"sb_foodheal120"
-  ]],
-  "sb_plateImage" : true,
-  "sb_plateHide" : true,
-  "foodValue" : 35,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 10,
-  "emitters" : ["drinking"]
+  "itemName": "sb_thornjam",
+  "rarity": "unCommon",
+  "price": 325,
+  "category": "preparedFood",
+  "inventoryIcon": "thornjam.png",
+  "description": "More thorn than jam.",
+  "shortdescription": "Thorn Jam",
+  "effects": [[{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 158
+      }, {
+        "effect": "thorns",
+        "duration": 158
+      },
+      "sb_foodheal120"
+    ]],
+  "sb_plateImage": true,
+  "sb_plateHide": true,
+  "foodValue": 35,
+  "tooltipKind": "food",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 10,
+  "emitters": ["drinking"]
 }

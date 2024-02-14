@@ -1,53 +1,88 @@
 {
-  "itemName" : "sb_coralcleaver",
-  "price" : 800,
-  "maxStack" : 1,
-  "level" : 1,
-  "rarity" : "rare",
-  "description" : "Encrusted with sharp, heat-infused fragments of coral.",
-  "shortdescription" : "Coral Cleaver",
-  "tooltipKind" : "sb_sword2",
-  "category" : "axe",
-  "twoHanded" : false,
-  "sb_waBan" : true,
-  "itemTags" : ["weapon","melee","axe","upgradeableWeapon"],
-  "animation" : "/items/active/starbound/weapons/axe.animation",
+  "itemName": "sb_coralcleaver",
+  "price": 800,
+  "maxStack": 1,
+  "level": 1,
+  "rarity": "rare",
+  "description": "Encrusted with sharp, heat-infused fragments of coral.",
+  "shortdescription": "Coral Cleaver",
+  "tooltipKind": "sb_sword2",
+  "category": "axe",
+  "twoHanded": false,
+  "sb_waBan": true,
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "animation": "/items/active/starbound/weapons/axe.animation",
 
-  "sb_dyeable" : true,
-  "directives" : "",
-  "sb_backingDirectives" : "?replace;96cbe7=ffca8a;5588d4=e0975c;344495=a85636;1a1c51=6f2919",
-  "inventoryIcon" : "coralcleaver.png<directives>",
-  "animationParts" : {
-    "blade" : "coralcleaver.png?replace;96cbe7=0000;5588d4=0000;344495=0000;1a1c51=0000;6d6d6d=0000;494949=0000;272727=0000", //"e0702a=0000;b64e00=0000;ff9b2b=0000;ffc744=0000",
-    "handle" : "coralcleaver.png<directives>"
+  "sb_dyeable": true,
+  "directives": "",
+  "sb_backingDirectives": "?replace;96cbe7=ffca8a;5588d4=e0975c;344495=a85636;1a1c51=6f2919",
+  "inventoryIcon": "coralcleaver.png<directives>",
+  "animationParts": {
+    "blade": "coralcleaver.png?replace;96cbe7=0000;5588d4=0000;344495=0000;1a1c51=0000;6d6d6d=0000;494949=0000;272727=0000", //"e0702a=0000;b64e00=0000;ff9b2b=0000;ffc744=0000",
+    "handle": "coralcleaver.png<directives>"
   },
-  "animationCustom" : {"lights":{"glow":{"color":[240, 120, 0]}},
-    "animatedParts" : {"parts":{
-	"blade":{"properties":{"offset":[0,1.4],"fullbright":true}},
-	"handle":{"properties":{"offset":[0,1.4]}},
-	"swoosh":{"partStates":{"swoosh":{"fire":{"properties":{"image":"coralswoosh.png:<frame>"}}}},"properties":{"offset" : [-1.0, 1.75]
-    }}}}
-  },
-
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
-  "elementalType" : "fire",
-  "aimOffset" : -1,
-  "primaryAbilityType" : "sb_axe",
-  "primaryAbility" : {
-    "fireTime" : [0.7,1.3],
-    "projectileType" : "sb_coralswoosh",
-    "baseDps" : [4,8],
-    "damageConfig" : {
-	"damageSourceKind" : "fireaxe",
-	"knockback" : 30,
-	"statusEffects" : ["burning"]
+  "animationCustom": {
+    "lights": {
+      "glow": {
+        "color": [240, 120, 0]
+      }
     },
-    "stances" : {
-      "idle" : {"weaponOffset" : [0.3, 1.5]},
-      "windup" : {"weaponOffset" : [0.3, 1.5]},
-      "fire" : {"weaponOffset" : [0.3, 1.5]}
+    "animatedParts": {
+      "parts": {
+        "blade": {
+          "properties": {
+            "offset": [0, 1.4],
+            "fullbright": true
+          }
+        },
+        "handle": {
+          "properties": {
+            "offset": [0, 1.4]
+          }
+        },
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "image": "coralswoosh.png:<frame>"
+                }
+              }
+            }
+          },
+          "properties": {
+            "offset": [-1, 1.75]
+          }
+        }
+      }
     }
   },
-  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType": "fire",
+  "aimOffset": -1,
+  "primaryAbilityType": "sb_axe",
+  "primaryAbility": {
+    "fireTime": [0.7, 1.3],
+    "projectileType": "sb_coralswoosh",
+    "baseDps": [4, 8],
+    "damageConfig": {
+      "damageSourceKind": "fireaxe",
+      "knockback": 30,
+      "statusEffects": ["burning"]
+    },
+    "stances": {
+      "idle": {
+        "weaponOffset": [0.3, 1.5]
+      },
+      "windup": {
+        "weaponOffset": [0.3, 1.5]
+      },
+      "fire": {
+        "weaponOffset": [0.3, 1.5]
+      }
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

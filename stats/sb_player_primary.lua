@@ -28,7 +28,8 @@ function update(dt) updat(dt)
   end
 
   if sb_hungerPopups then
-    local hunger = math.floor(status.resourcePercentage("food")*100)
+    local maxHunger = status.resourceMax("food") --grab this in update in case it changes
+    local hunger = math.floor(status.resourcePercentage("food")*maxHunger)
     if hunger ~= sb_lastHunger then
       for i = 1, #sb_hungerBenchmarks-1 do
         if hunger > sb_hungerBenchmarks[i] and hunger < sb_hungerBenchmarks[i+1] then
@@ -40,7 +41,7 @@ function update(dt) updat(dt)
         end
       end
     end
-    sb_lastHunger = math.floor(status.resourcePercentage("food")*100)
+    sb_lastHunger = math.floor(status.resourcePercentage("food")*maxHunger)
   end
 end
 

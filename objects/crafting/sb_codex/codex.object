@@ -1,6 +1,6 @@
 {
   "objectName": "sb_codex",
-  "rarity": "Uncommon",//If you change this, make sure the first letter is uppercase
+  "rarity": "Uncommon", //If you change this, make sure the first letter is uppercase
   "objectType": "container",
   "colonyTags": ["knowledge", "storage"],
   "radioMessagesOnPickup": ["sb_pickuplibrary"],
@@ -14,13 +14,14 @@
   "tooltipFields": {
     "subtitle": "Storage"
   },
-  "openSounds": ["/assetmissing.wav"],
+  "openSounds": ["/sfx/objects/bookcase_open.ogg"],
+  "closeSounds": ["/sfx/objects/bookcase_close.ogg"],
   "slotCount": 1,
   "frameCooldown": 5,
-  "uiConfig": "/interface/scripted/sb_codex/codex2.config",
+  "uiConfig": "/interface/scripted/sb_codex/codex.config",
   "autoCloseCooldown": 3600,
   "retainObjectParametersInItem": true,
-  "scripts": ["/objects/crafting/sb_codex/codex.lua"],
+  "scripts": ["codex.lua"],
 
   "apexDescription": "A sturdy wooden stand.",
   "avianDescription": "A solid piece of carved wood. Perhaps used to display items.",

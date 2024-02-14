@@ -8,6 +8,9 @@ function init()
     for k, v in pairs(oldData) do
       size = size + 1
       local newItem = {}
+      if string.find(v[1], "sb_customcodex%-") then
+        v[1] = "sb_customcodex"
+      end
       newItem.name = v[1]
       newItem.count = v[2]
       if v[3] then newItem.parameters = v[3] end
@@ -86,54 +89,18 @@ function init()
       local maxStack = itemData.parameters and itemData.parameters.maxStack or itemData.config.maxStack or root.assetJson("/items/defaultParameters.config:defaultMaxStack")
       local stackSize = itemToRemove.count
       if stackSize > maxStack then
-      --TODO: pass it to a function also make it actually give 1500 if maxstack is 1000 and they have 1500
         while stackSize > maxStack do
           stackSize = stackSize - maxStack
-          world.spawnItem({name = itemToRemove.name, count = maxStack, parameters = itemToRemove.parameters, config = itemToRemove.config}, world.entityPosition(id))
+          world.spawnItem({name = itemToRemove.name, count = stackSize, parameters = itemToRemove.parameters, config = itemToRemove.config}, world.entityPosition(id))
         end
         stackSize = stackSize - maxStack
-        world.spawnItem({name = itemToRemove.name, count = maxStack, parameters = itemToRemove.parameters, config = itemToRemove.config}, world.entityPosition(id))
+        world.spawnItem({name = itemToRemove.name, count = stackSize, parameters = itemToRemove.parameters, config = itemToRemove.config}, world.entityPosition(id))
       else
         world.spawnItem(itemToRemove, world.entityPosition(id))
       end
       saveItems()
     end
   end)
-
-  message.setHandler("xrc_omnicrafter:add", function(_,_,a,b)
-    if not contains(stations, a) then
-      if #stations == 0 then
-        stations = {a}
-      else
-        stations[#stations+1] = a
-      end
-    end
-    if b then stages[a] = b end
-    object.setConfigParameter("stations", stations)
-    object.setConfigParameter("stages", stages)
-    markAsUsed()
-  end)
- 
-  message.setHandler("xrc_omnicrafter:remove", function(_,_,a)
-    local b, c = stations, {}
-    for i = 1, #b do
-      if b[i] ~= a then c[#c+1] = b[i] end
-    end
-    if stages[a] then
-      stages[a] = nil
-      object.setConfigParameter("stages", stages)
-    end
-    object.setConfigParameter("stations", c)
-    markAsUsed()
-  end)
-end
-
-function onInEteraction(args)
-  local data = root.assetJson(config.getParameter("interactData"))
-  data.stages = stages or {}
-  data.stations = stations or {}
-  data.id = id
-  return {config.getParameter("interactAction"),data}
 end
 
 function saveItems(item)

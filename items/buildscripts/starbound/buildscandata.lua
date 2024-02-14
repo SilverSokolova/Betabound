@@ -1,14 +1,14 @@
 require("/scripts/sb_assetmissing.lua")
 function build(directory, config, parameters)
-  recipeList = config.recipeList or parameters.recipeList
+  local recipeList = config.recipeList or parameters.recipeList
   parameters.recipe = parameters.recipe or (recipeList and recipeList[math.random(#recipeList)]) or "apexshiplight"
-  itemConfig = root.itemConfig(parameters.recipe)
-  if (not itemConfig) or (tostring(itemConfig.config.printable or false) == "false") then
+  local itemConfig = root.itemConfig(parameters.recipe)
+  if (not itemConfig) or (itemConfig and (tostring(itemConfig.config.printable or false) == "false")) then
     sb.logError("[Betabound] Tried to make scandata item with unprintable item: "..parameters.recipe)
     parameters.recipe = "apexshiplight"
     itemConfig = root.itemConfig(parameters.recipe)
   end
-  directory = itemConfig.directory; itemConfig = itemConfig.config
+  local directory = itemConfig.directory; itemConfig = itemConfig.config
   --I'd do something for sb_objectName here but I'll figure that out when it becomes relevant. Which is hopefully never.
 
   config.inventoryIcon = jarray()
@@ -20,9 +20,8 @@ function build(directory, config, parameters)
   table.insert(config.inventoryIcon, icon and {image = icon})
   table.insert(config.inventoryIcon, {image = "sb_scandata.png", position = {5.5, -3}})
 
-  local shortdesc = itemConfig.shortdescription or "Unknown Item"
-  config.shortdescription = string.format(config.shortdescription, shortdesc)
-  config.description = string.format(config.description, shortdesc)
+  config.shortdescription = string.format(config.shortdescription, itemConfig.shortdescription or "Unknown Item")
+  config.description = string.format(config.description, config.shortdescription)
   config.rarity = itemConfig.rarity or config.rarity
 
   if parameters.level then

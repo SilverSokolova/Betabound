@@ -102,18 +102,18 @@ function update(args)
     if not mcontroller.onGround() then
       if mcontroller.jumping() then
         animator.setAnimationState("movement", "jump")
-	--tech.setParentOffset(parentOffset["jump"] or {0,0})
+  --tech.setParentOffset(parentOffset["jump"] or {0,0})
       elseif mcontroller.falling() then
         animator.setAnimationState("movement", "fall")
-	--tech.setParentOffset(parentOffset["fall"] or {0,0})
+  --tech.setParentOffset(parentOffset["fall"] or {0,0})
       end
     elseif mcontroller.walking() or mcontroller.running() then
       if flipped and mcontroller.facingDirection() == 1 or not flipped and mcontroller.facingDirection() == -1 then
         animator.setAnimationState("movement", "backWalk")
-	--tech.setParentOffset(parentOffset["backWalk"] or {0,0})
+  --tech.setParentOffset(parentOffset["backWalk"] or {0,0})
       else
         animator.setAnimationState("movement", "walk")
-	--tech.setParentOffset(parentOffset["walk"] or {0,0})
+  --tech.setParentOffset(parentOffset["walk"] or {0,0})
       end
     else
       animator.setAnimationState("movement", "idle")

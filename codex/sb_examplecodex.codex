@@ -1,15 +1,14 @@
 {
-  "id" : "sb_examplecodex",
-  "title" : "BART RHYMES WITH FART",
-  "description" : "...",
-  "icon" : "sb_icon.png",
-  "contentPages" : [
+  "id": "sb_examplecodex",
+  "title": "BART RHYMES WITH FART",
+  "description": "...",
+  "icon": "sb_icon.png",
+  "contentPages": [
     "Once upon a midnight dreary While I pondered, weak and weary Twas brillig and his slithy toes Did Gyren Gimble in the wabe Thus mimsey were his borowgroves There was once a dinosaur named Fred\nHe was thought to be dead\nHe used to eat flowers\nBut now he devours\nAll humans instead.\n\nThis is a book by Pirinine Took\nBiblo knew him as Pirinine Brook Hobbits danced around with glee As Pirinine Took fell and broke his knee.\nQuote the Raven, \"Never More!\"."
-
   ],
-    "itemConfig" : {
-    "rarity" : "common",
-    "tooltipKind" : "sb_object",
-    "price" : 25
+  "itemConfig": {
+    "rarity": "common",
+    "tooltipKind": "sb_object",
+    "price": 25
   }
 }

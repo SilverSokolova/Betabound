@@ -100,11 +100,11 @@ function populateTechList(slot)
     for i = 1, 2 do
       local currentList = i == 1 and sb_ownedImplants or sb_availableImplants
       for suit = 1, #currentList do
-	      local tech = currentList[suit]
-	      player.makeTechUnavailable(tech)
-	      if root.hasTech(tech) and not contains(listedTechs, tech) then
-	        listedTechs[#listedTechs+1] = tech
-	        if not self.techs[tech] then self.techs[tech] = root.techConfig(tech) end
+        local tech = currentList[suit]
+        player.makeTechUnavailable(tech)
+        if root.hasTech(tech) and not contains(listedTechs, tech) then
+          listedTechs[#listedTechs+1] = tech
+          if not self.techs[tech] then self.techs[tech] = root.techConfig(tech) end
           local config = self.techs[tech]
           --Some mod setups can cause techs to end up in the wrong place... somehow. Check for it.
           if root.techType(tech) == "Suit" then
@@ -133,8 +133,8 @@ function populateTechList(slot)
             player.makeTechAvailable(tech)
             player.sb_enableTech(tech)
             sb_prepareSuits()
-	        end
-	      end
+          end
+        end
       end
     end
   end

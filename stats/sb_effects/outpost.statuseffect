@@ -24,7 +24,7 @@
         [404, 611], //hater (was 508,610)
         [412, 614], //mercenary (seed was 14)
         [328, 611], //scholar
-        [377, 614], //forge + backup comedy script location
+        [377, 614], //cupid + backup comedy script location
         [286, 611], //santa
         [356, 641], //garbage
         [200, 616]//kennel
@@ -39,7 +39,7 @@
         [710, 611], //hater
         [412, 614], //mercenary
         [412, 614], //scholar
-        [377, 614], //forge
+        [377, 612], //cupid
         [0, 0], //santa
         [444, 580], //garbage
         [0, 0]//kennel

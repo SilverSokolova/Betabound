@@ -13,6 +13,7 @@ function update(dt)
     end
   end
 
+  --WHY ARENT BLUEPRINTS FUCKING STACKABLE ANYMORE I HATE IT SO MUCH I JUST WANT ICONUNDERLAY TO BE A THING I CAN USE WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHH
   local swapSlotItem = player.swapSlotItem()
   if swapSlotItem and root.itemType(swapSlotItem.name) == "blueprint" then
     local s = swapSlotItem.name
@@ -34,13 +35,13 @@ function update(dt)
         for i = 1, #recipe.config.inventoryIcon do
           table.insert(s.parameters.inventoryIcon, {
             image = sb_assetmissing(sb_pathToImage(recipe.config.inventoryIcon[i].image, recipe.directory),
-            root.assetJson("/items/defaultParameters.config:missingIcon") or "/objects/generic/perfectlygenericitem/perfectlygenericitemicon.png")
+            root.assetJson("/items/defaultParameters.config:missingIcon"))
           })
         end
       else
         table.insert(s.parameters.inventoryIcon, {
           image = sb_assetmissing(sb_pathToImage(recipe.config.inventoryIcon, recipe.directory),
-          root.assetJson("/items/defaultParameters.config:missingIcon") or "/objects/generic/perfectlygenericitem/perfectlygenericitemicon.png")
+          root.assetJson("/items/defaultParameters.config:missingIcon"))
         })
       end
 

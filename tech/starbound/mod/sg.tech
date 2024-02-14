@@ -5,7 +5,7 @@
   "scripts": [],
   "sb_conditions": "sgshieldback",
   "sb_effect": "sgenergyshield",
-  "sb_suitImage": "?replace;73daff=ffc17c;27abff=ff964c;117ee4=ff720e;1f45d4=ff1414;002b72=d50000;001522=970000",
+  "sb_suitImage": "?replace;73daff=ffc17c;27abff=ff964c;117ee4=ff720e;1f45d4=ff1414",
   "rarity": "Legendary",
   "description": "Creates shield drones that circle around the wearer and block shots.",
   "shortDescription": "Shield Drone"

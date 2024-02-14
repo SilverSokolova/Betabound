@@ -4,10 +4,9 @@
   "icon": "/tech/starbound/heat.png",
   "scripts": [],
   "sb_effect": "sb_heatprotectiontech",
-  "sb_suitImage": "?replace;73daff=f7d700;27abff=e99400;117ee4=c65d00;1f45d4=8a2400;002b72=430000;001522=230000",
+  "sb_suitImage": "?replace;73daff=f7d700;27abff=e99400;117ee4=c65d00;1f45d4=8a2400",
   "rarity": "Legendary",
-  "tooltipKind": "sb_object4",
   "chipCost": 8,
-  "description": "Protects the wearer from the extreme heat found on certain planets and provides fire resistance.",
+  "description": "Provides fire resistance and protection from the extreme heat found on certain planets.",
   "shortDescription": "Heat Protection"
 }

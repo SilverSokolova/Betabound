@@ -1,11 +1,11 @@
 {
-  "name" : "sb_spiked",
-  "type" : "head",
-  "icon" : "/tech/starbound/spiked.png",
-  "scripts" : [],
-  "sb_effect" : ["sb_spikedtech"],
-  "sb_suitImage" : "?replace;73daff=e6e6e6;27abff=b6b6b6;117ee4=7b7b7b;1f45d4=555;002b72=464646;001522=373737",
-  "rarity" : "Rare",
-  "description" : "Provides the wearer with the ability to reflect damage back at enemies.",
-  "shortDescription" : "Spikes"
+  "name": "sb_spiked",
+  "type": "head",
+  "icon": "/tech/starbound/spiked.png",
+  "scripts": [],
+  "sb_effect": ["sb_spikedtech"],
+  "sb_suitImage": "?replace;73daff=e6e6e6;27abff=b6b6b6;117ee4=7b7b7b;1f45d4=555",
+  "rarity": "Rare",
+  "description": "Reflects damage back at enemies.",
+  "shortDescription": "Spikes"
 }

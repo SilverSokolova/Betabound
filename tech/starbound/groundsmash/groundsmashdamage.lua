@@ -1,9 +1,9 @@
 function init()
   status.applySelfDamageRequest({
-	--damageType = "IgnoresDef",
-	damage = effect.duration(),
-	damageSourceKind = "impact",
-	sourceEntityId = entity.id()
+  --damageType = "IgnoresDef",
+  damage = effect.duration(),
+  damageSourceKind = "impact",
+  sourceEntityId = entity.id()
       })
   effect.expire()
   update=updat updat=nil

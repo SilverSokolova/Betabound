@@ -11,8 +11,8 @@
       "effectiveMultiplier": 0.5
     }
   ],
-  "sb_suitImage": "?replace;73daff=de5454;27abff=d93a3a;117ee4=932625;1f45d4=7b201f;002b72=631a19;001522=4b1413",
+  "sb_suitImage": "?replace;73daff=de5454;27abff=d93a3a;117ee4=932625;1f45d4=7b201f",
   "rarity": "Rare",
-  "description": "Provides the wearer with a boost in attack power, at the cost of an energy reduction.",
+  "description": "Provides a boost in attack power, at the cost of an energy reduction.",
   "shortDescription": "Berserker"
 }

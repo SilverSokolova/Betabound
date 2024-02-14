@@ -1,59 +1,58 @@
 {
-  "transformationGroups" : {
-    "guns" : {}
+  "transformationGroups": {
+    "guns": {}
   },
-  "globalTagDefaults" : {
-    "mechType" : "",
-    "mechGunType" : ""
+  "globalTagDefaults": {
+    "mechType": "",
+    "mechGunType": ""
   },
-  "rotationGroups" : {
-    "guns" : {
-      "angularVelocity" : 10
+  "rotationGroups": {
+    "guns": {
+      "angularVelocity": 10
     }
   },
   "animatedParts": {
     "stateTypes": {
-      "frontFiring" : {
-        "states" : {
-          "fire" : {
-            "frames" : 3,
-            "cycle" : 0.15,
-            "mode" : "transition",
-            "transition" : "off"
+      "frontFiring": {
+        "states": {
+          "fire": {
+            "frames": 3,
+            "cycle": 0.15,
+            "mode": "transition",
+            "transition": "off"
           },
 
-          "off" : { }
+          "off": {}
         }
       },
 
-      "backFiring" : {
-        "states" : {
-          "fire" : {
-            "frames" : 3,
-            "cycle" : 0.15,
-            "mode" : "transition",
-            "transition" : "off"
+      "backFiring": {
+        "states": {
+          "fire": {
+            "frames": 3,
+            "cycle": 0.15,
+            "mode": "transition",
+            "transition": "off"
           },
 
-          "off" : { }
+          "off": {}
         }
       },
       "movement": {
         "default": "idle",
         "states": {
           "idle": {
-            "properties": {
-            }
+            "properties": {}
           },
           "jump": {
             "frames": 4,
             "cycle": 0.5,
             "mode": "end",
             "properties": {
-                "immediateSound" : "/sfx/tech/mech_jump3.ogg"
+              "immediateSound": "/sfx/tech/mech_jump3.ogg"
             },
             "frameProperties": {
-              "offset" : [ [0, 0.5], [0, 0.5], [0, 0.375], [0, 0.375] ]
+              "offset": [[0, 0.5], [0, 0.5], [0, 0.375], [0, 0.375]]
             }
           },
           "fall": {
@@ -61,17 +60,16 @@
             "cycle": 0.5,
             "mode": "end",
             "frameProperties": {
-              "offset" : [ [0, 0.25], [0, 0.25], [0, 0.125], [0, 0] ]
+              "offset": [[0, 0.25], [0, 0.25], [0, 0.125], [0, 0]]
             }
           },
           "walk": {
             "frames": 10,
             "cycle": 1.0,
             "mode": "loop",
-            "properties": {
-            },
+            "properties": {},
             "frameProperties": {
-              "offset" : [ [0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25], [0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25] ]
+              "offset": [[0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25], [0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25]]
             }
           },
           "backWalk": {
@@ -82,7 +80,7 @@
               "persistentSound": "/sfx/tech/hoverbike_drive_loop.ogg"
             },
             "frameProperties": {
-              "offset" : [ [0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25], [0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25] ]
+              "offset": [[0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25], [0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25]]
             }
           }
         }
@@ -93,7 +91,7 @@
         "properties": {
           "centered": true,
           "zLevel": -1,
-	  "back" : true
+          "back": true
         },
         "partStates": {
           "movement": {
@@ -101,29 +99,26 @@
               "properties": {
                 "image": "<mechType>/mechbackground.png:idle"
               },
-              "frameProperties": {
-              }
+              "frameProperties": {}
             },
             "jump": {
               "properties": {
                 "image": "<mechType>/mechbackground.png:idle"
               },
-              "frameProperties": {
-              }
+              "frameProperties": {}
             },
             "fall": {
               "properties": {
                 "image": "<mechType>/mechbackground.png:idle"
               },
-              "frameProperties": {
-              }
+              "frameProperties": {}
             },
             "walk": {
               "properties": {
                 "image": "<mechType>/mechbackground.png:idle"
               },
               "frameProperties": {
-             //   "offset" : [ [0, 0.05], [0, 0.07], [0, 0.275], [0, 0.175] ] player doesn't move with chair
+                //   "offset" : [ [0, 0.05], [0, 0.07], [0, 0.275], [0, 0.175] ] player doesn't move with chair
               }
             },
             "backWalk": {
@@ -131,90 +126,90 @@
                 "image": "<mechType>/mechbackground.png:idle"
               },
               "frameProperties": {
-           //     "offset" : [ [0, 0.05], [0, 0.07], [0, 0.275], [0, 0.175] ] player doesn't move with chair
+                //     "offset" : [ [0, 0.05], [0, 0.07], [0, 0.275], [0, 0.175] ] player doesn't move with chair
               }
             }
           }
         }
       },
-      "backGun" : {
-        "properties" : {
-          "centered" : true,
-          "zLevel" : 2,
-          "rotationGroup" : "guns",
-          "transformationGroups" : ["guns"],
-          "offset" : [0, 0],
-          "rotationCenter" : [0.4, 0],
-          "backGunFirePoint" : [4.5, -0.35]
+      "backGun": {
+        "properties": {
+          "centered": true,
+          "zLevel": 2,
+          "rotationGroup": "guns",
+          "transformationGroups": ["guns"],
+          "offset": [0, 0],
+          "rotationCenter": [0.4, 0],
+          "backGunFirePoint": [4.5, -0.35]
         },
 
-        "partStates" : {
-          "movement" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<mechGunType>/mechgun.png:idle"
+        "partStates": {
+          "movement": {
+            "idle": {
+              "properties": {
+                "image": "<mechGunType>/mechgun.png:idle"
               }
             },
-            "jump" : {
-              "properties" : {
-                "image" : "<mechGunType>/mechgun.png:idle"
+            "jump": {
+              "properties": {
+                "image": "<mechGunType>/mechgun.png:idle"
               }
             },
-            "fall" : {
-              "properties" : {
-                "image" : "<mechGunType>/mechgun.png:idle"
+            "fall": {
+              "properties": {
+                "image": "<mechGunType>/mechgun.png:idle"
               }
             },
-            "walk" : {
-              "properties" : {
-                "image" : "<mechGunType>/mechgun.png:idle"
+            "walk": {
+              "properties": {
+                "image": "<mechGunType>/mechgun.png:idle"
               }
             },
-            "backWalk" : {
-              "properties" : {
-                "image" : "<mechGunType>/mechgun.png:idle"
+            "backWalk": {
+              "properties": {
+                "image": "<mechGunType>/mechgun.png:idle"
               }
             }
           }
         }
       },
 
-      "frontGun" : {
-        "properties" : {
-          "centered" : true,
-          "zLevel" : 4,
-          "rotationGroup" : "guns",
-          "transformationGroups" : ["guns"],
-          "offset" : [-2.4, 0],
-          "rotationCenter" : [-2.4, -0.25],
-          "frontGunFirePoint" : [2.5, -0.35]
+      "frontGun": {
+        "properties": {
+          "centered": true,
+          "zLevel": 4,
+          "rotationGroup": "guns",
+          "transformationGroups": ["guns"],
+          "offset": [-2.4, 0],
+          "rotationCenter": [-2.4, -0.25],
+          "frontGunFirePoint": [2.5, -0.35]
         },
 
-        "partStates" : {
-          "movement" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<mechGunType>/mechgun.png:idle"
+        "partStates": {
+          "movement": {
+            "idle": {
+              "properties": {
+                "image": "<mechGunType>/mechgun.png:idle"
               }
             },
-            "jump" : {
-              "properties" : {
-                "image" : "<mechGunType>/mechgun.png:idle"
+            "jump": {
+              "properties": {
+                "image": "<mechGunType>/mechgun.png:idle"
               }
             },
-            "fall" : {
-              "properties" : {
-                "image" : "<mechGunType>/mechgun.png:idle"
+            "fall": {
+              "properties": {
+                "image": "<mechGunType>/mechgun.png:idle"
               }
             },
-            "walk" : {
-              "properties" : {
-                "image" : "<mechGunType>/mechgun.png:idle"
+            "walk": {
+              "properties": {
+                "image": "<mechGunType>/mechgun.png:idle"
               }
             },
-            "backWalk" : {
-              "properties" : {
-                "image" : "<mechGunType>/mechgun.png:idle"
+            "backWalk": {
+              "properties": {
+                "image": "<mechGunType>/mechgun.png:idle"
               }
             }
           }
@@ -231,29 +226,26 @@
               "properties": {
                 "image": "<mechType>/mechbody.png:idle"
               },
-              "frameProperties": {
-              }
+              "frameProperties": {}
             },
             "jump": {
               "properties": {
                 "image": "<mechType>/mechbody.png:idle"
               },
-              "frameProperties": {
-              }
+              "frameProperties": {}
             },
             "fall": {
               "properties": {
                 "image": "<mechType>/mechbody.png:idle"
               },
-              "frameProperties": {
-              }
+              "frameProperties": {}
             },
             "walk": {
               "properties": {
                 "image": "<mechType>/mechbody.png:idle"
               },
               "frameProperties": {
-         //       "offset" : [ [0, 0.05], [0, 0.07], [0, 0.275], [0, 0.175] ] player doesn't move with chair
+                //       "offset" : [ [0, 0.05], [0, 0.07], [0, 0.275], [0, 0.175] ] player doesn't move with chair
               }
             },
             "backWalk": {
@@ -261,7 +253,7 @@
                 "image": "<mechType>/mechbody.png:idle"
               },
               "frameProperties": {
-         //       "offset" : [ [0, 0.05], [0, 0.07], [0, 0.275], [0, 0.175] ] player doesn't move with chair
+                //       "offset" : [ [0, 0.05], [0, 0.07], [0, 0.275], [0, 0.175] ] player doesn't move with chair
               }
             }
           }
@@ -278,15 +270,14 @@
               "properties": {
                 "image": "<mechType>/mechfleg.png:idle"
               },
-              "frameProperties": {
-              }
+              "frameProperties": {}
             },
             "jump": {
               "properties": {
                 "image": "<mechType>/mechfleg.png:jump.<frame>"
               },
               "frameProperties": {
-                "offset" : [ [0, -0.5], [0, -0.5], [0, -0.375], [0, -0.375] ]
+                "offset": [[0, -0.5], [0, -0.5], [0, -0.375], [0, -0.375]]
               }
             },
             "fall": {
@@ -294,7 +285,7 @@
                 "image": "<mechType>/mechfleg.png:fall.<frame>"
               },
               "frameProperties": {
-                "offset" : [ [0, -0.25], [0, -0.25], [0, -0.125], [0, 0] ]
+                "offset": [[0, -0.25], [0, -0.25], [0, -0.125], [0, 0]]
               }
             },
             "walk": {
@@ -302,7 +293,7 @@
                 "image": "<mechType>/mechfleg.png:move.<frame>"
               },
               "frameProperties": {
-                "offset" : [ [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25], [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25] ]
+                "offset": [[0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25], [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25]]
               }
             },
             "backWalk": {
@@ -310,7 +301,7 @@
                 "image": "<mechType>/mechfleg.png:bmove.<frame>"
               },
               "frameProperties": {
-                "offset" : [ [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25], [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25] ]
+                "offset": [[0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25], [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25]]
               }
             }
           }
@@ -320,7 +311,7 @@
         "properties": {
           "centered": true,
           "zLevel": -2,
-          "back" : true
+          "back": true
         },
         "partStates": {
           "movement": {
@@ -334,7 +325,7 @@
                 "image": "<mechType>/mechbleg.png:jump.<frame>"
               },
               "frameProperties": {
-                "offset" : [ [0, -0.5], [0, -0.5], [0, -0.375], [0, -0.375] ]
+                "offset": [[0, -0.5], [0, -0.5], [0, -0.375], [0, -0.375]]
               }
             },
             "fall": {
@@ -342,7 +333,7 @@
                 "image": "<mechType>/mechbleg.png:fall.<frame>"
               },
               "frameProperties": {
-                "offset" : [ [0, -0.25], [0, -0.25], [0, -0.125], [0, 0] ]
+                "offset": [[0, -0.25], [0, -0.25], [0, -0.125], [0, 0]]
               }
             },
             "walk": {
@@ -350,7 +341,7 @@
                 "image": "<mechType>/mechbleg.png:move.<frame>"
               },
               "frameProperties": {
-                "offset" : [ [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25], [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25] ]
+                "offset": [[0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25], [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25]]
               }
             },
             "backWalk": {
@@ -358,7 +349,7 @@
                 "image": "<mechType>/mechbleg.png:bmove.<frame>"
               },
               "frameProperties": {
-                "offset" : [ [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25], [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25] ]
+                "offset": [[0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25], [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25]]
               }
             }
           }
@@ -366,11 +357,11 @@
       }
     }
   },
-  "lights" : {
+  "lights": {
     "headlightBeam": {
       "active": false,
-      "position": [2,1.2],
-      "color": [250,250,200],
+      "position": [2, 1.2],
+      "color": [250, 250, 200],
       "pointLight": true,
       "pointAngle": -5,
       "pointBeam": 5
@@ -378,15 +369,13 @@
   },
   "particleEmitters": {
     "mechActivateParticles": {
-      "particles": [
-        {
+      "particles": [{
           "particle": "sb_warpin_jeep"
         }
       ]
     },
     "mechDeactivateParticles": {
-      "particles": [
-        {
+      "particles": [{
           "particle": "sb_warpout_jeep"
         }
       ]
@@ -400,17 +389,13 @@
         -2,
         -3.1
       ],
-      "particles": [
-        {
+      "particles": [{
           "particle": "tinyrocketsmoke"
-        },
-        {
+        }, {
           "particle": "tinyrocketsmoke"
-        },
-        {
+        }, {
           "particle": "tinyrocketsmoke"
-        },
-        {
+        }, {
           "particle": "tinyrocketsmoke"
         }
       ]
@@ -424,17 +409,13 @@
         1.05,
         -3.1
       ],
-      "particles": [
-        {
+      "particles": [{
           "particle": "tinyrocketsmoke"
-        },
-        {
+        }, {
           "particle": "tinyrocketsmoke"
-        },
-        {
+        }, {
           "particle": "tinyrocketsmoke"
-        },
-        {
+        }, {
           "particle": "tinyrocketsmoke"
         }
       ]
@@ -448,11 +429,9 @@
         3.05,
         -1.4
       ],
-      "particles": [
-        {
+      "particles": [{
           "particle": "burningvehiclesmokefront"
-        },
-        {
+        }, {
           "particle": "burningvehiclesmokefront"
         }
       ]

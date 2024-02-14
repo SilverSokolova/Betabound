@@ -1,20 +1,24 @@
 {
-  "itemName" : "sb_icecream",
-  "price" : 190,
-  "foodValue" : 25,
-  "tooltipKind" : "sb_object4",
-  "rarity" : "Common",
-  "handPosition" : [0, -2.6],
-  "category" : "preparedFood",
-  "inventoryIcon" : "icecream.png",
-  "effects" : [[
-	{"effect":"maxenergyscalingboostfood","duration":225},
-	{"effect":"sb_energy","duration":15},
-	"sb_foodheal70"
-  ]],
-  "description" : "I scream, you scream, we all scream for-- oh, you get the point.",
-  "shortdescription" : "Vanilla Ice Cream",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.5
+  "itemName": "sb_icecream",
+  "price": 190,
+  "foodValue": 25,
+  "tooltipKind": "sb_object4",
+  "rarity": "Common",
+  "handPosition": [0, -2.6],
+  "category": "preparedFood",
+  "inventoryIcon": "icecream.png",
+  "effects": [[{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 225
+      }, {
+        "effect": "sb_energy",
+        "duration": 15
+      },
+      "sb_foodheal70"
+    ]],
+  "description": "I scream, you scream, we all scream for-- oh, you get the point.",
+  "shortdescription": "Vanilla Ice Cream",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 1.5
 }

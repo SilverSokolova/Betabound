@@ -1,20 +1,24 @@
 {
-  "itemName" : "sb_crystaltart",
-  "rarity" : "unCommon",
-  "price" : 440,
-  "category" : "preparedFood",
-  "inventoryIcon" : "crystaltart.png",
-  "description" : "A somewhat crunchy tart with an eerie green glow. It isn't radioactive, don't be ridiculous!",
-  "shortdescription" : "Crystal Tart",
-  "effects" : [[
-	{"effect":"maxenergyscalingboostfood","duration":180},
-	{"effect":"glow","duration":180},
-	"sb_foodheal135"
-  ]],
-  "foodValue" : 40,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 3
+  "itemName": "sb_crystaltart",
+  "rarity": "unCommon",
+  "price": 440,
+  "category": "preparedFood",
+  "inventoryIcon": "crystaltart.png",
+  "description": "A somewhat crunchy tart with an eerie green glow. It isn't radioactive, don't be ridiculous!",
+  "shortdescription": "Crystal Tart",
+  "effects": [[{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 180
+      }, {
+        "effect": "glow",
+        "duration": 180
+      },
+      "sb_foodheal135"
+    ]],
+  "foodValue": 40,
+  "tooltipKind": "food",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "maxStack": 1,
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 3
 }

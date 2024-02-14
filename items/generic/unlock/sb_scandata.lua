@@ -1,5 +1,4 @@
 require "/scripts/sb_uimessage.lua"
-require "/scripts/util.lua"
 require "/scripts/activeitem/sb_swing.lua"
 
 function init() swingInit()
