@@ -1,0 +1,6 @@
+{
+  "type": "sb_beamoutanddie",
+  "baseType": "villager",
+  "dropPools": ["empty"],
+  "innateStatusEffects": ["sb_beamoutanddie"]
+}

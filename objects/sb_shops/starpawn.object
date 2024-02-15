@@ -1,0 +1,91 @@
+{
+  "objectName": "sb_starpawn",
+  "colonyTags": ["outpost", "commerce"],
+  "rarity": "Common",
+  "category": "other",
+  "description": "For all your farming and terraforming needs!",
+  "shortdescription": "Star  Pawn",
+  "race": "generic",
+  "printable": false,
+  "interactAction" : "ScriptPane",
+  "interactData": {
+    "config": "/interface/windowconfig/sb_starpawn.config",
+    "paneLayoutOverride": {
+      "windowtitle": {
+        "title": "Star  Pawn",
+        "subtitle": "^#b9b5b2;A new selection each day"
+      }
+    },
+    "buyFactor": 1.5,
+    "sellFactor": 0.25,
+    "items": [
+      ["sb_techchip", 5],
+      ["techcard"],
+      ["manipulatormodule"],
+      ["upgrademodule"]
+    ]
+  },
+
+  "apexDescription": "A farm shop selling supplies. Delightful.",
+  "avianDescription": "The best place to buy farm supplies, bar none.",
+  "floranDescription": "Floran can buy pet presentss here! Also other things...",
+  "glitchDescription": "Pleased. A great place to buy farm supplies.",
+  "humanDescription": "Terrormart? I'm already shaking! Wait, oh. Terr-a-mart. Okay.",
+  "hylotlDescription": "A place to purchase farming supplies.",
+  "novakidDescription": "I always wanted to retire to an ol' farmstead.",
+
+  "smashSounds": ["/sfx/melee/kill_robotic1.ogg"],
+  "health": 250,
+  "smashDropPool": "empty",
+  "smashOnBreak": true,
+  "rooting": true,
+
+  "smashParticles": [{
+      "count": 50,
+      "particle": "generatorshard"
+    }, {
+      "count": 50,
+      "particle": "generatorredshard"
+    }, {
+      "count": 10,
+      "particle": "generatorglassshard"
+    }
+  ],
+
+  "inventoryIcon": "/interface/merchant/merchanticon.png",
+  "scripts": ["shop.lua"],
+  "animation": "shop.animation",
+  "animationParts": {
+    "shop": "starpawn.png",
+    "employee": "glitch.png"
+  },
+  "animationPosition": [0, 0],
+  "orientations": [{
+      "image": "starpawn.png:0",
+      "direction": "left",
+      "spaceScan": 0.1,
+      "interactiveSpaces": [
+        [6, 1], [5, 1], [4, 1], [3, 1], [2, 1], [1, 1], [0, 1], [-1, 1],
+        [4, 2], [3, 2], [2, 2], [1, 2], [0, 2],
+        [3, 3], [2, 3], [1, 3],
+        [3, 4], [2, 4], [1, 4],
+        [5, 5], [4, 5], [3, 5], [2, 5], [1, 5], [0, 5], [-1, 5],
+        [5, 6], [4, 6], [3, 6], [2, 6], [1, 6], [0, 6], [-1, 6]
+      ],
+      "anchors": ["bottom"]
+    }, {
+      "image": "starpawn.png:1",
+      "direction": "right",
+      "spaceScan": 0.1,
+      "interactiveSpaces": [
+        [-5, 1], [-4, 1], [-3, 1], [-2, 1], [-1, 1], [0, 1],
+        [-5, 2], [-4, 2], [-3, 2], [-2, 2], [-1, 2],
+        [-4, 3], [-3, 3], [-2, 3],
+        [-4, 4], [-3, 4], [-2, 4],
+        [-6, 5], [-5, 5], [-4, 5], [-3, 5], [-2, 5], [-1, 5], [0, 5],
+        [-6, 6], [-5, 6], [-4, 6], [-3, 6], [-2, 6], [-1, 6], [0, 6]
+      ],
+      "anchors": ["bottom"]
+    }
+  ]
+}
