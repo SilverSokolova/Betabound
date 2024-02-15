@@ -8,7 +8,7 @@ function build(directory, config, parameters); sb_techType()
   config.rarity = tech.rarity or "rare"
   config.tooltipKind = tech.tooltipKind or config.tooltipKind
   config.inventoryIcon = jarray(); config.tooltipFields = tech.tooltipFields or config.tooltipFields
-  config.tooltipFields.subtitle = string.format(config.subtitle,root.techType(tech.name))
+  config.tooltipFields.subtitle = string.format(config.subtitle, root.techType(tech.name))
   table.insert(config.inventoryIcon, {image = "/tech/starbound/banana.png"})
   table.insert(config.inventoryIcon, {image = sb_assetmissing(tech.icon, "/interface/sb_tooltips/assetmissing.png")})
   return config, parameters

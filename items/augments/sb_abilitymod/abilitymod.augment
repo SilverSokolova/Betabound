@@ -8,7 +8,8 @@
   "tooltipFields": {
     "subtitle": "Weapon Mod"
   },
-  "description": "Replaces the %s^reset; ability of non-unique weapons.\n^gray;Apply to weapon with right-click",
+  "subtitle": "Weapon Mod (%s)",
+  "description": "Replaces the %s^reset; ability of non-unique weapons.\n^gray;Apply to weapon with right-click", //Unfortunately we can't add 'certain' because that, plus 'primary', is too long. It'd work perfectly if we had our own version of the codex tooltip
   "primaryDescription": "^blue;primary",
   "altDescription": "^red;special",
   "elementalNameDescription": "Element",

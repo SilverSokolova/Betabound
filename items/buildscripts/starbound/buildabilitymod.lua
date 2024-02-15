@@ -1,6 +1,8 @@
 require("/scripts/sb_assetmissing.lua")
 function build(directory, config, parameters)
   abilities = root.assetJson("/sb_abilitymods.config")
+  weaponNames = abilities.weaponNames
+  abilities = abilities.abilities
   abilityList = config.abilityList or parameters.abilityList
   parameters.ability = parameters.ability or randomAbility()
   config = sb.jsonMerge(config, getAbilityConfig(parameters.ability))
@@ -29,6 +31,13 @@ function build(directory, config, parameters)
   end
   config.shortdescription = string.gsub((config.rarity ~= "common" and "^yellow;" or "")..(not config.weaponTypes and "^green;" or "")..abilityData.name.."^reset;", "<elementalName>", config.elementalNameDescription)
   config.description = string.format(config.description, config[(config.slot and "primary" or "alt").."Description"])
+
+  config.tooltipFields = parameters.tooltipFields or config.tooltipFields or {}
+  local weaponName = abilities[parameters.ability].weaponName
+  if weaponName then
+    weaponName = weaponNames[weaponName] or weaponName
+    config.tooltipFields.subtitle = string.format(config.subtitle, weaponName:gsub("^%l", string.upper))
+  end
 
   if parameters.level then
     parameters.level = nil

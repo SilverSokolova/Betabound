@@ -1,5 +1,3 @@
 [
-[{"op":"test","path":"/builder"},{"op":"test","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua","inverse":true},{"op":"move","from":"/builder","path":"/sb_builder"}],[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua"}],
-
-[{"op":"add","path":"/builderConfig/0/altAbilities/-","value":"sb_physicallance"}]
+[{"op":"test","path":"/builder"},{"op":"test","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua","inverse":true},{"op":"move","from":"/builder","path":"/sb_builder"}],[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua"}]
 ]
