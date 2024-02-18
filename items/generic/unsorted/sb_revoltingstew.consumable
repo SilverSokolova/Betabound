@@ -1,7 +1,7 @@
 {
   "itemName": "sb_revoltingstew",
-  "price": 10,
-  "foodValue": 5,
+  "price": 0,
+  "foodValue": -10,
   "tooltipKind": "sb_object",
   "rarity": "Common",
   "sb_plateHide": true,
@@ -12,7 +12,7 @@
   },
   "effects": [[{
         "effect": "foodpoison",
-        "duration": 5
+        "duration": 60
       }
     ]],
   "description": "...Whoever made this screwed it up. They screwed it up baaad.",

@@ -1,7 +1,7 @@
 {
   "itemName": "sb_rottenapple",
-  "price": 10,
-  "foodValue": 3,
+  "price": 0,
+  "foodValue": -5,
   "tooltipKind": "sb_object",
   "rarity": "Common",
   "inventoryIcon": "sb_rottenapple.png",
@@ -12,11 +12,10 @@
   },
   "effects": [[{
         "effect": "foodpoison",
-        "duration": 5
+        "duration": 60
       }
     ]],
   "shortdescription": "Rotten Apple",
   "handPosition": [2, 0],
-  "learnBlueprintsOnPickup": ["sb_rottenapple"],
   "builder": "/items/buildscripts/starbound/buildfood.lua"
 }
