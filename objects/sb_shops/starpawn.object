@@ -20,13 +20,13 @@
     "sellFactor": 0.25
   },
 
-  "apexDescription": "A farm shop selling supplies. Delightful.",
+  "apexDescription": "A shop selling supplies. Delightful.",
   "avianDescription": "The best place to buy farm supplies, bar none.",
   "floranDescription": "Floran can buy pet presentss here! Also other things...",
   "glitchDescription": "Pleased. A great place to buy farm supplies.",
-  "humanDescription": "Terrormart? I'm already shaking! Wait, oh. Terr-a-mart. Okay.",
+  "humanDescription": "I guess there IS a market for all that random junk I've sold to merchants after all!",
   "hylotlDescription": "A place to purchase farming supplies.",
-  "novakidDescription": "I always wanted to retire to an ol' farmstead.",
+  "novakidDescription": "Lotsa odd bits and bops.",
 
   "rotationTime": 86400,
   "smashSounds": ["/sfx/melee/kill_robotic1.ogg"],
@@ -47,9 +47,12 @@
     }
   ],
 
+  "pools": ["sb_starpawnPools"],
+  "poolRounds": 3,
   "shopInUseText": "Apologetic. I am sorry; you must wait for my current customer before I can assist you.",
   "inventoryIcon": "/interface/merchant/merchanticon.png",
   "scripts": ["shop.lua", "starpawn.lua"],
+  "speechSoundPool": ["/sfx/humanoid/glitch_chatter_male1.ogg", "/sfx/humanoid/glitch_chatter_male2.ogg", "/sfx/humanoid/glitch_chatter_male3.ogg"],
   "animation": "shop.animation",
   "animationParts": {
     "shop": "starpawn.png",
@@ -60,27 +63,11 @@
       "image": "starpawn.png:0",
       "direction": "left",
       "spaceScan": 0.1,
-      "interactiveSpaces": [
-        [6, 1], [5, 1], [4, 1], [3, 1], [2, 1], [1, 1], [0, 1], [-1, 1],
-        [4, 2], [3, 2], [2, 2], [1, 2], [0, 2],
-        [3, 3], [2, 3], [1, 3],
-        [3, 4], [2, 4], [1, 4],
-        [5, 5], [4, 5], [3, 5], [2, 5], [1, 5], [0, 5], [-1, 5],
-        [5, 6], [4, 6], [3, 6], [2, 6], [1, 6], [0, 6], [-1, 6]
-      ],
       "anchors": ["bottom"]
     }, {
       "image": "starpawn.png:1",
       "direction": "right",
       "spaceScan": 0.1,
-      "interactiveSpaces": [
-        [6, 1], [5, 1], [4, 1], [3, 1], [2, 1], [1, 1], [0, 1], [-1, 1],
-        [4, 2], [3, 2], [2, 2], [1, 2], [0, 2],
-        [3, 3], [2, 3], [1, 3],
-        [3, 4], [2, 4], [1, 4],
-        [5, 5], [4, 5], [3, 5], [2, 5], [1, 5], [0, 5], [-1, 5],
-        [5, 6], [4, 6], [3, 6], [2, 6], [1, 6], [0, 6], [-1, 6]
-      ],
       "anchors": ["bottom"]
     }
   ]

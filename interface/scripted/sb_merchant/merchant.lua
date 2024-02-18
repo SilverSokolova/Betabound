@@ -54,7 +54,7 @@ function init()
     }
   end
   if not inited then
-    toggleInteractable()
+    world.sendEntityMessage(id, "toggleInteractable", player.id())
   end
   inited = true
 end
@@ -68,6 +68,7 @@ end
 spinCount = {}
 spinCount["up"] = function() incrementCount(1) end
 spinCount["down"] = function() incrementCount(-1) end
+
 function incrementCount(n)
   if hasItemSelected then
     if type(n) == "string" then
@@ -86,16 +87,15 @@ function incrementCount(n)
   end
 end
 
-function sell() end
-
-
 function buy()
   if player.consumeCurrency("money", buyTotal) then
-    world.sendEntityMessage(id, "itemPurchased", itemData)
+    world.sendEntityMessage(id, "itemPurchased", itemData, count)
+
     local data = widget.getData(string.format("%s.%s", itemList, selectedItem))
     data.count = data.count - count
     player.giveItem({data.name, count, data.parameters or {}})
     widget.setData(string.format("%s.%s", itemList, selectedItem), data)
+
     local inStock = data.count > 0
     widget.setText(string.format("%s.%s.sb_itemSubtitle", itemList, selectedItem), inStock and string.format(itemQuantityText, data.count) or soldOutText)
     listedItems[data.order].inStock = inStock
@@ -116,18 +116,9 @@ function parseCountText()
   countChanged()
 end
 
-function tbCount()
---[[  local tb = widget.getText(tbCount)
-  tb:gsub("x", "")
-  player.say(tb)
-  if tb:len() == 0 then
-    tb = "0"
-    player.giveItem("copperbar")
-  end
-  --count = tonumber(tb)
-  countChanged(0)]]
-end
-
+--The game needs these due to our inherited context
+function sell() end
+function tbCount() end
 function itemGrid() end
 
 function configParameter(item, keyName, defaultValue) return item.parameters and item.parameters[keyName] or item.config and item.config[keyName] or defaultValue end
@@ -158,10 +149,6 @@ function update()
   updatePrice()
 end
 
-function toggleInteractable()
-  world.sendEntityMessage(id, "toggleInteractable")
-end
-
 function uninit()
-  toggleInteractable()
+  world.sendEntityMessage(id, "toggleInteractable")
 end

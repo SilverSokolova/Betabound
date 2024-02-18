@@ -1,0 +1,102 @@
+{
+  "sb_starpawnPools" : [
+    [0, {
+      "fill" : [
+        {"pool" : "basicTreasure"},
+        {"pool" : "valuableTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 1, "pool" : "vendingtreasure"},
+        {"weight" : 1, "pool" : "basicTreasure"},
+        {"weight" : 1, "pool" : "sb_mattermodule"},
+        {"weight" : 1, "pool" : "sb_techchip"},
+        {"weight" : 1, "pool" : "sb_dye"},
+        {"weight" : 1.5, "pool" : "nonTieredOre"},
+        {"weight" : 1.5, "pool" : "ore"},
+        {"weight" : 1, "pool" : "tool"},
+        {"weight" : 1, "pool" : "weapon"},
+        {"weight" : 1, "pool" : "costume"},
+        {"weight" : 1, "pool" : "instrument"},
+        {"weight" : 1, "pool" : "augments"},
+        {"weight" : 1, "pool" : "naturalcaveTreasure"},
+        {"weight" : 1.5, "pool" : "hunting"},
+        {"weight" : 1.5, "pool" : "sb_starpawnMonsterDrop"},
+        {"weight" : 1, "pool" : "sb_starpawnItems"},
+        {"weight" : 1, "pool" : "lowValueQuestRewards"},
+        {"weight" : 1.5, "pool" : "sb_starpawnBlocks"}
+      ],
+      "poolRounds" : [
+        [0.2, 1],
+        [0.3, 2],
+        [0.4, 3],
+        [0.6, 4]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "sb_starpawnItems" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : "techcard"},
+        {"weight" : 1, "item" : "manipulatormodule"},
+        {"weight" : 1, "item" : "upgrademodule"}
+      ],
+      "poolRounds" : [
+        [0.2, 1],
+        [0.3, 2],
+        [0.4, 3]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "sb_starpawnMonsterDrop" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : "cryonicextract"},
+        {"weight" : 1, "item" : "hardenedcarapace"},
+        {"weight" : 1, "item" : "livingroot"},
+        {"weight" : 1, "item" : "phasematter"},
+        {"weight" : 1, "item" : "scorchedcore"},
+        {"weight" : 1, "item" : "sharpenedclaw"},
+        {"weight" : 1, "item" : "staticcell"},
+        {"weight" : 1, "item" : "stickofram"},
+        {"weight" : 1, "item" : "venomsample"},
+
+        {"weight" : 1, "pool" : "defaultFluffaloHarvest"},
+        {"weight" : 1, "pool" : "henHarvest"},
+        {"weight" : 1, "pool" : "robothenHarvest"},
+        {"weight" : 1, "pool" : "mooshiHarvest"}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+  "sb_starpawnBlocks" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : ["sand", 75]},
+        {"weight" : 1, "item" : ["sand2", 75]},
+        {"weight" : 1, "item" : ["rustymetal", 75]},
+        {"weight" : 1, "item" : ["rustyblock", 75]},
+        {"weight" : 1, "item" : ["rockbrickmaterial", 75]},
+        {"weight" : 1, "item" : ["plantmatter", 75]},
+        {"weight" : 1, "item" : ["mud", 75]},
+        {"weight" : 1, "item" : ["moonstone", 75]},
+        {"weight" : 1, "item" : ["moonrock", 75]},
+        {"weight" : 1, "item" : ["moondust", 75]},
+        {"weight" : 1, "item" : ["meteoriterock", 75]},
+        {"weight" : 1, "item" : ["junktech", 75]},
+        {"weight" : 1, "item" : ["junk", 75]},
+        {"weight" : 1, "item" : ["iceblock", 75]},
+        {"weight" : 1, "item" : ["gravelmaterial", 75]},
+        {"weight" : 1, "item" : ["drysand", 75]},
+        {"weight" : 1, "item" : ["dirtmaterial", 75]},
+        {"weight" : 1, "item" : ["cobblestonematerial", 75]},
+        {"weight" : 1, "item" : ["clay", 75]},
+        {"weight" : 1, "item" : ["moondust", 75]}
+      ],
+      "poolRounds" : 3,
+      "allowDuplication" : false
+    }]
+  ]
+}
