@@ -60,7 +60,7 @@
                 "image": "<partImage>:<color>.<frame>",
                 "fullbright": false,
                 "zLevel": 2,
-                "offset": [3, 2]
+                "offset": [3.25, 2.125]
               }
             }
           }

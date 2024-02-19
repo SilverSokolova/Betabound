@@ -20,14 +20,15 @@
     "sellFactor": 0.25
   },
 
-  "apexDescription": "A shop selling supplies. Delightful.",
+  "apexDescription": "A shop selling supplies of questionable utility.",
   "avianDescription": "The best place to buy farm supplies, bar none.",
-  "floranDescription": "Floran can buy pet presentss here! Also other things...",
-  "glitchDescription": "Pleased. A great place to buy farm supplies.",
+  "floranDescription": "Floran can buy... junk here?",
+  "glitchDescription": "Excited. I hope they sell retro video games.",
   "humanDescription": "I guess there IS a market for all that random junk I've sold to merchants after all!",
-  "hylotlDescription": "A place to purchase farming supplies.",
+  "hylotlDescription": "A place to purchase second-hand goods.",
   "novakidDescription": "Lotsa odd bits and bops.",
 
+  "lightColor" : [188, 188, 188],
   "rotationTime": 86400,
   "smashSounds": ["/sfx/melee/kill_robotic1.ogg"],
   "health": 250,
@@ -48,7 +49,7 @@
   ],
 
   "pools": ["sb_starpawnPools"],
-  "poolRounds": 3,
+  "poolRounds": 4,
   "shopInUseText": "Apologetic. I am sorry; you must wait for my current customer before I can assist you.",
   "inventoryIcon": "/interface/merchant/merchanticon.png",
   "scripts": ["shop.lua", "starpawn.lua"],
@@ -62,11 +63,13 @@
   "orientations": [{
       "image": "starpawn.png:0",
       "direction": "left",
+      "lightPosition" : [3, 6],
       "spaceScan": 0.1,
       "anchors": ["bottom"]
     }, {
       "image": "starpawn.png:1",
       "direction": "right",
+      "lightPosition" : [3, 6],
       "spaceScan": 0.1,
       "anchors": ["bottom"]
     }

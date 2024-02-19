@@ -11,17 +11,19 @@
         {"weight" : 1, "pool" : "sb_mattermodule"},
         {"weight" : 1, "pool" : "sb_techchip"},
         {"weight" : 1, "pool" : "sb_dye"},
-        {"weight" : 1.5, "pool" : "nonTieredOre"},
-        {"weight" : 1.5, "pool" : "ore"},
+        {"weight" : 2.5, "pool" : "nonTieredOre"},
+        {"weight" : 2.5, "pool" : "ore"},
         {"weight" : 1, "pool" : "tool"},
         {"weight" : 1, "pool" : "weapon"},
         {"weight" : 1, "pool" : "costume"},
         {"weight" : 1, "pool" : "instrument"},
         {"weight" : 1, "pool" : "augments"},
-        {"weight" : 1, "pool" : "naturalcaveTreasure"},
+        {"weight" : 1.5, "pool" : "naturalcaveTreasure"},
         {"weight" : 1.5, "pool" : "hunting"},
         {"weight" : 1.5, "pool" : "sb_starpawnMonsterDrop"},
-        {"weight" : 1, "pool" : "sb_starpawnItems"},
+        {"weight" : 1.5, "pool" : "sb_starpawnCraftingMaterials"},
+        {"weight" : 1, "pool" : "sb_starpawnUpgradeComponents"},
+        {"weight" : 1.5, "pool" : "sb_starpawnJunk"},
         {"weight" : 1, "pool" : "lowValueQuestRewards"},
         {"weight" : 1.5, "pool" : "sb_starpawnBlocks"}
       ],
@@ -34,17 +36,52 @@
       "allowDuplication" : true
     }]
   ],
-  "sb_starpawnItems" : [
+  "sb_starpawnUpgradeComponents" : [
     [0, {
       "pool" : [
         {"weight" : 1, "item" : "techcard"},
         {"weight" : 1, "item" : "manipulatormodule"},
-        {"weight" : 1, "item" : "upgrademodule"}
+        {"weight" : 1, "item" : "upgrademodule"},
+        {"weight" : 1, "item" : "teleportercore"}
       ],
       "poolRounds" : [
-        [0.2, 1],
-        [0.3, 2],
-        [0.4, 3]
+        [0.75, 1],
+        [0.25, 2]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "sb_starpawnCraftingMaterials" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : "string"},
+        {"weight" : 1, "item" : "basic"},
+        {"weight" : 1, "item" : "firedclay"}
+      ],
+      "poolRounds" : [
+        [0.1, 2],
+        [0.2, 4],
+        [0.2, 6],
+        [0.1, 8],
+        [0.2, 10],
+        [0.2, 12]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  "sb_starpawnJunk" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : "rottenfood"},
+        {"weight" : 1, "item" : "soggypaper"}
+      ],
+      "poolRounds" : [
+        [0.1, 2],
+        [0.2, 4],
+        [0.2, 6],
+        [0.1, 8],
+        [0.2, 10],
+        [0.2, 12]
       ],
       "allowDuplication" : true
     }]
@@ -93,9 +130,34 @@
         {"weight" : 1, "item" : ["dirtmaterial", 75]},
         {"weight" : 1, "item" : ["cobblestonematerial", 75]},
         {"weight" : 1, "item" : ["clay", 75]},
-        {"weight" : 1, "item" : ["moondust", 75]}
+        {"weight" : 1, "item" : ["moondust", 75]},
+
+        {"weight" : 1, "item" : ["sandstoneblock", 75]}
       ],
       "poolRounds" : 3,
+      "allowDuplication" : false
+    }]
+  ],
+  "sb_starpawnFurniture" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : "woodentable"},
+        {"weight" : 1, "item" : "poisonsign"},
+        {"weight" : 1, "item" : "techchest"},
+        {"weight" : 1, "item" : "techchest2"},
+        {"weight" : 1, "item" : "ironchest"},
+        {"weight" : 1, "item" : "woodenchest"},
+        {"weight" : 1, "item" : "bunkercorner"},
+        {"weight" : 1, "item" : "gunchest"},
+        {"weight" : 1, "item" : "weaponchest"},
+        {"weight" : 1, "item" : "smallwoodencrate"},
+        {"weight" : 1, "item" : "oillantern1"},
+        {"weight" : 1, "item" : "podchest"},
+        {"weight" : 1, "item" : "woodencrate1"},
+        {"weight" : 1, "item" : ["hazardtapeh", 5]},
+        {"weight" : 1, "item" : "box1"}
+      ],
+      "poolRounds" : 2,
       "allowDuplication" : false
     }]
   ]

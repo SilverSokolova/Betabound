@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "name": "sb_shopencounter",
+    "species": "dummy",
+    "rules": [["maxSpawnCount", [1]]],
+    "anchor": ["starpawnL", "starpawnR"],
+    "maxRadius": 1000000,
+    "maxParts": 1
+  },
+
+  "parts": [{
+      "name": "starpawnL",
+      "rules": [],
+      "def": ["tmx", "starpawnL.json"],
+      "chance": 0.8
+    }, {
+      "name": "starpawnR",
+      "rules": [],
+      "def": ["tmx", "starpawnR.json"],
+      "chance": 0.8
+    }
+  ]
+}
