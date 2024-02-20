@@ -1,4 +1,3 @@
-require("/scripts/sb_assetmissing.lua")
 function build(directory, config, parameters)
   local recipeList = config.recipeList or parameters.recipeList
   parameters.recipe = parameters.recipe or (recipeList and recipeList[math.random(#recipeList)]) or "apexshiplight"

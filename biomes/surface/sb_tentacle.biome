@@ -241,7 +241,7 @@
         "distribution": "/biomes/distributions.config:mainBiomeEncounterDungeon",
 
         "type": "microdungeon",
-        "microdungeons": ["sb_glitchencounter", "sb_randomencounter", "sb_miniboss"]
+        "microdungeons": ["sb_randomencounter-wreck", "sb_miniboss"]
       }, {
         "mode": "floor",
         "priority": 3.0,

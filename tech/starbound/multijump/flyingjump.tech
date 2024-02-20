@@ -6,7 +6,7 @@
   "description": "Grants four additional jumps that can be used while in the air!",
   "sb_briefDescription": "Four additional jumps that can be used while in the air!",
   "sb_longDescription": "Refreshed upon landing.",
-  "shortDescription": "Flying Jump",
+  "shortDescription": "Flying Energy Jump",
   "chipCost": 16,
   "scripts": ["multijump.lua"],
   "animator": "multijump.animation",

@@ -30,5 +30,5 @@ function build(directory, config, parameters)
 end
 
 function getTech(a)
-  return root.assetJson("/items/buildscripts/starbound/tech.config")[a] or a or ""
+  return root.assetJson("/versioning/sb_tech.config")[a] or a or ""
 end

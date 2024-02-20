@@ -32,5 +32,24 @@ function build(directory, config, parameters)
     parameters.timeToRot = nil --root.assetJson("/items/rotting.config:baseTimeToRot")
   end
 
+  local icon = parameters.inventoryIcon
+  if icon and type(icon) == "string" and not root.nonEmptyRegion(icon) then
+    local directives = icon:match(".*(%?.*)") or ""
+    icon = icon:match("(.-)%?.*")
+    local foodIconList = root.assetJson("/versioning/sb_food.config")[icon]
+    if foodIconList then
+      local newIcon = root.itemConfig(foodIconList)
+      local directory = newIcon.directory
+      newIcon = newIcon.parameters.inventoryIcon or newIcon.config.inventoryIcon
+      if type(newIcon) == "string" then
+        if newIcon:sub(1, 1) ~= "/" then
+          newIcon = directory..newIcon
+        end
+        newIcon = newIcon..directives
+      end
+      parameters.inventoryIcon = newIcon
+    end
+  end
+
   return config, parameters
 end

@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "name": "sb_randomencounter-wreck",
+    "species": "dummy",
+    "rules": [["maxSpawnCount", [1]]],
+    "anchor": ["wreck"],
+    "maxRadius": 1000000,
+    "maxParts": 1
+  },
+
+  "parts": [{
+      "name": "wreck",
+      "rules": [],
+      "def": ["tmx", "sb_wreck.json"],
+      "chance": 0.2
+    }
+  ]
+}

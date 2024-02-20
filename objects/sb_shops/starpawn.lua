@@ -3,6 +3,7 @@ local ini = init or function() end
 function init()
   ini()
   interactable = interactable or true
+  object.setConfigParameter("mouthPosition", config.getParameter("mouthPositions")[direction == "right" and 1 or 2])
   shopInUseText = config.getParameter("shopInUseText")
   animator.setSoundPool("speech", config.getParameter("speechSoundPool"))
   interactAction = config.getParameter("interactAction")
@@ -73,10 +74,17 @@ function onInteraction(args)
       sellSound = merchant.sellSound
     }
   end
-  if interactable or interactable == args.sourceId then
-    return {interactAction, interactData}
+  if interactable == true then
+    return setInteractable(args.sourceId) and {interactAction, interactData}
   else
-    object.say(shopInUseText)
-    animator.playSound("speech")
+    if interactable ~= args.sourceId then
+      object.say(shopInUseText)
+      animator.playSound("speech")
+    end
   end
+end
+
+function setInteractable(sourceId)
+  interactable = sourceId
+  return true
 end

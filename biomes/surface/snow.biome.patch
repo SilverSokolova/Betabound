@@ -18,7 +18,7 @@
       "variants":1,
       "distribution":"/biomes/distributions.config:mainBiomeEncounterDungeon",
       "type":"microdungeon",
-      "microdungeons":["sb_glitchencounter","sb_randomencounter","sb_miniboss"]}
+      "microdungeons":["sb_glitchencounter","sb_randomencounter","sb_miniboss", "sb_shopencounter"]}
     }
   ]
 ]

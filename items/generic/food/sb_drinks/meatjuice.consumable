@@ -17,7 +17,7 @@
   "category": "drink",
   "description": "A drink made of meat juices and boneboo. Popular among Florans.",
   "shortdescription": "Meatjuice",
-  "handPosition": [0, -2.5],
+  "handPosition": [0, -2],
   "emitters": ["drinking"],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],

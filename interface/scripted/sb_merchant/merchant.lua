@@ -53,9 +53,6 @@ function init()
       inStock = itemQuantity > 0
     }
   end
-  if not inited then
-    world.sendEntityMessage(id, "toggleInteractable", player.id())
-  end
   inited = true
 end
 

@@ -1,7 +1,4 @@
 require "/scripts/sb_assetmissing.lua"
-function init()
-  object.setProcessingDirectives("?flipx")
-end
 
 function containerCallback() --By the way, is this called if something other than a player takes an item?
   local item = world.containerItemAt(entity.id(), 0)
@@ -51,7 +48,7 @@ function containerCallback() --By the way, is this called if something other tha
       animator.setGlobalTag(
         "item",
         string.format(
-          "%s?replace;000=0000;151515=0000;020202=0000;45421e=0000",
+          plateImage and "%s" or "%s?replace;000=0000;151515=0000;020202=0000;45421e=0000",
           image,
           flipImage and "?flipx" or ""
         )
@@ -105,7 +102,6 @@ function containerCallback() --By the way, is this called if something other tha
     resetDescription()
   end
   animator.setAnimationState("plate", "plate")
-  init()
 end
 
 function resetDescription()

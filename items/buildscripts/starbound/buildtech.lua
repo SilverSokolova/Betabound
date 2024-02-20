@@ -20,5 +20,5 @@ end
 
 function randomTech(a)
   local tech = root.assetJson("/tech/starbound/tech.config")
-  return root.assetJson("/items/buildscripts/starbound/tech.config")[a] or tech[math.random(#tech)]
+  return root.assetJson("/versioning/sb_tech.config")[a] or tech[math.random(#tech)]
 end

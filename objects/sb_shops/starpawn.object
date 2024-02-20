@@ -59,6 +59,7 @@
     "shop": "starpawn.png",
     "employee": "glitch.png"
   },
+  "mouthPositions": [[-3, -9], [-1, -9]],
   "animationPosition": [0, 0],
   "orientations": [{
       "image": "starpawn.png:0",

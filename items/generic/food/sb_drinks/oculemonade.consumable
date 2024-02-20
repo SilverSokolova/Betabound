@@ -21,7 +21,7 @@
   "description": "Nothing better on a hot day than a cool, refreshing glass of homemade Oculemonade.",
   "shortdescription": "Oculemonade Glass",
   "emitters": ["drinking"],
-  "handPosition": [1, -3],
+  "handPosition": [1, -2],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "learnBlueprintsOnPickup": ["sb_weyene"],
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
