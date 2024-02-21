@@ -1,0 +1,12 @@
+[
+  [{
+      "op": "add",
+      "path": "/scriptConfig/sb_offeredQuests",
+      "value": ["sb_ironbeacon"]
+    }, {
+      "op": "add",
+      "path": "/scriptConfig/sb_turnInQuests",
+      "value": ["sb_ironbeacon"]
+    }
+  ]
+]

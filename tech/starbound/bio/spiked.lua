@@ -13,9 +13,9 @@ function update(dt)
     if notification.targetEntityId then
       if notification.sourceEntityId ~= notification.targetEntityId and (notification.damageDealt > minimumDamage) and (notification.damageDealt/percentage > 0) then
         world.sendEntityMessage(notification.sourceEntityId, "applyStatusEffect", "sb_directdamage", notification.damageDealt/percentage, entity.id())
-	if math.random(100) <= bleedChance then
+        if math.random(100) <= bleedChance then
           world.sendEntityMessage(notification.sourceEntityId, "applyStatusEffect", "sb_bleed", notification.damageDealt*percentage, entity.id())
-	end
+        end
       end
     end
   end

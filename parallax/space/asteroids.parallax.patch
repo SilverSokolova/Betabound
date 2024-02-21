@@ -1,0 +1,84 @@
+[
+  [{
+      "op": "add",
+      "path": "/layers/-",
+      "value": {
+        "kind": "asteroidfront",
+        "repeatY": true,
+        "parallax": 5
+      }
+    }, {
+      "op": "add",
+      "path": "/layers/-",
+      "value": {
+        "kind": "asteroidfront",
+        "baseCount": 4,
+        "offset": [133, 0],
+        "repeatY": true,
+        "parallax": 7
+      }
+    }, {
+      "op": "add",
+      "path": "/layers/-",
+      "value": {
+        "kind": "asteroidback",
+        "baseCount": 4,
+        "repeatY": true,
+        "parallax": 5
+      }
+    }, {
+      "op": "add",
+      "path": "/layers/-",
+      "value": {
+        "kind": "asteroidback",
+        "baseCount": 4,
+        "offset": [133, 0],
+        "repeatY": true,
+        "parallax": 5
+      }
+    }, {
+      "op": "add",
+      "path": "/layers/-",
+      "value": {
+        "kind": "asteroidback2",
+        "baseCount": 4,
+        "repeatY": true,
+        "parallax": 2
+      }
+    }, {
+      "op": "add",
+      "path": "/layers/-",
+      "value": {
+        "kind": "asteroidback2",
+        "baseCount": 4,
+        "offset": [133, 0],
+        "repeatY": true,
+        "parallax": 5
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/layers/2/nohueshift"
+    }, {
+      "op": "remove",
+      "path": "/layers/2/nohueshift"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/layers/1/nohueshift"
+    }, {
+      "op": "remove",
+      "path": "/layers/1/nohueshift"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/layers/0/nohueshift"
+    }, {
+      "op": "remove",
+      "path": "/layers/0/nohueshift"
+    }
+  ]
+]

@@ -1,0 +1,44 @@
+{
+  "animationParts": {},
+  "animationCustom": {},
+
+  "ability": {
+    "name": "Gun Fire",
+    "type": "sb_gun",
+    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
+    "class": "GunFire",
+    "projectileType": "standardbullet",
+    "projectileCount": 1,
+    "energyUsage": 6,
+    "baseDps": 6.25,
+    "fireTime": 0.5,
+    "inaccuracy": 0.016,
+    "fireType": "auto",
+
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": false,
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "fire": {
+        "duration": 0,
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": false,
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "cooldown": {
+        "duration": 0.15,
+        "armRotation": 10,
+        "weaponRotation": 10,
+        "twoHanded": false,
+        "allowRotate": true,
+        "allowFlip": true
+      }
+    }
+  }
+}

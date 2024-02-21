@@ -5,19 +5,19 @@
   "colonyTagCriteria": {
     "light": 1,
     "door": 1,
-    "commerce" : 8,
+    "commerce": 8,
     "christmas": 24
   },
 
-  "tenants": [
-    {
+  "tenants": [{
       "spawn": "npc",
       "species": "human",
       "type": "santa",
       "overrides": {
-       }
-     }
-   ],
+        "dropPools": []
+      }
+    }
+  ],
 
   "rent": {
     "periodRange": [900, 1800],

@@ -56,8 +56,8 @@ function invasion()
           monsterLevel = world.threatLevel(),
           onGround = false,
           damageTeam = {type = "enemy"},
-	  aggressive = true,
-	  arguments = {aggressive = true},
+          aggressive = true,
+          arguments = {aggressive = true},
           speed = distance / timeToLive,
           timeToLive = timeToLive,
         })

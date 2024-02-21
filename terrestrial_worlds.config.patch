@@ -133,9 +133,9 @@
           "secondaryRegions" : [],
           "dungeons" : []
         },
-		
+    
         "subsurface" : {
-          "primaryRegion" : [ "sb_tentacle" ]
+          "primaryRegion" : ["sb_tentacleunderground"]
         },"core":{"primaryRegion":["core"]
         }
       }
@@ -153,6 +153,17 @@
       "bgCaveSelector": ["empty"],
       "biome": [[0,["sb_tentacle"]]],
       "subRegion" : ["forest", "desert", "garden", "jungle", "savannah", "snow", "tundra", "volcanic"] //2=arid
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/sb_tentacleunderground",
+    "value": {
+      "caveLiquid": ["sb_tentaclejuice"],
+      "blockSelector": ["sb_normalSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0,["sb_tentacleunderground"]]]
     }
   }]
 ]

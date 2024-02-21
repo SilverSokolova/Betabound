@@ -1,10 +1,10 @@
 [
-[{"op":"test","path":"/interactData/items/21"}
+[{"op":"test","path":"/interactData/items/20"}
 ,{"op":"add","path":"/interactData/items/6","value":{"item":"supermatter","prerequisiteQuest":"human_mission1"}}
-,{"op":"add","path":"/interactData/items/9","value":{"item":"processor","prerequisiteQuest":"apex_mission1"}}
-,{"op":"add","path":"/interactData/items/11","value":{"item":"cottonwool"}}
-,{"op":"add","path":"/interactData/items/23","value":{"item":"rawham"}}
-,{"op":"add","path":"/interactData/items/25","value":{"item":"orange"}}
+//,{"op":"add","path":"/interactData/items/9","value":{"item":"processor","prerequisiteQuest":"apex_mission1"}}
+,{"op":"add","path":"/interactData/items/10","value":{"item":"cottonwool"}}
+,{"op":"add","path":"/interactData/items/22","value":{"item":"rawham"}}
+,{"op":"add","path":"/interactData/items/24","value":{"item":"orange"}}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sugar"}}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_candy"}}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_meatballs"}}
@@ -16,7 +16,7 @@
 
 ,[{"op":"test","path":"/interactData/items/21","inverse":true}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"supermatter","prerequisiteQuest":"human_mission1"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"processor","prerequisiteQuest":"apex_mission1"}}
+//,{"op":"add","path":"/interactData/items/-","value":{"item":"processor","prerequisiteQuest":"apex_mission1"}}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"cottonwool"}}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"rawham"}}
 ,{"op":"add","path":"/interactData/items/-","value":{"item":"orange"}}

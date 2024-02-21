@@ -15,7 +15,7 @@ end
 function activate(fireMode)
   local placePos = activeItem.ownerAimPosition()
   if placementValid(placePos) then
-    if world.placeObject(ladder.name, placePos, 1, {length=ladderCount-1}) then
+    if world.placeObject(ladder.name, placePos, 1, {length=ladderCount-1}) and not player.isAdmin() then
       player.consumeItem({name=ladder.name,count=ladderCount},true)
     end
   end
@@ -41,10 +41,9 @@ function update(dt, fireMode, shiftHeld)
 end
 
 function placementValid(pos)
-  if
-    world.isTileProtected(pos) or
+  if world.isTileProtected(pos) or
     world.magnitude(mcontroller.position(), pos) > placementRange or
-    world.lineCollision(mcontroller.position(), pos, {"Null", "Block", "Dynamic", "Slippery", "Platform"}) --TODO: actually check for blocks at the CURSOR
+    world.lineCollision(mcontroller.position(), pos, {"Null", "Block", "Dynamic", "Slippery"}) --TODO: actually check for blocks at the CURSOR
   then return false end
 
 --for i = 1, #placementBounds do placementBounds[i]=floor(placementBounds[i]) end
@@ -52,7 +51,7 @@ function placementValid(pos)
   return
     ladder
     and not world.objectAt(pos)
-    and not world.rectCollision(placementRect, {"Null", "Block", "Dynamic", "Slippery", "Platform"})
+    and not world.rectCollision(placementRect, {"Null", "Block", "Dynamic", "Slippery"})
     and not world.tileIsOccupied(pos,true)
     and not world.tileIsOccupied({pos[1]+1,pos[2]},true)
     and world.tileIsOccupied({pos[1],pos[2]-1},true)

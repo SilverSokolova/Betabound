@@ -1,0 +1,17 @@
+{
+  "id": "sb_sewergrowfly",
+  "species": "floran",
+  "title": "Growfly",
+  "description": "An entry from the Compiled Bestiary, written by the Rogue Greenfinger.",
+  "icon": "sb_florancover5.png",
+  "contentPages": [
+"My Glitch contacts tell me of a creature lurking in the sewers. It is not found elsewhere, and as such poses an interesting question: how can we get hold of one so we can truly test its mettle? It is a giant fly, grown to epic proportions, and extremely aggressive in nature.
+
+The Glitch tell me that it was created when a fly and a slightly larger fly got into a random teleportation accident, although this does not account for its huge size. Perhaps there is something in the water down there."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

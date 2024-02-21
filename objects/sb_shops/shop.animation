@@ -1,0 +1,74 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "shop": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "left": {},
+          "right": {}
+        }
+      },
+      "employee": {
+        "default": "on",
+        "states": {
+          "off": {},
+          "on": {
+            "frames": 18,
+            "mode": "loop",
+            "cycle": 1.7
+          }
+        }
+      }
+    },
+    "parts": {
+      "shop": {
+        "properties": {
+          "centered": false
+        },
+        "partStates": {
+          "shop": {
+            "off": {
+              "properties": {}
+            },
+            "left": {
+              "properties": {
+                "image": "<partImage>:0",
+                "fullbright": false
+              }
+            },
+            "right": {
+              "properties": {
+                "image": "<partImage>:1",
+                "fullbright": false
+              }
+            }
+          }
+        }
+      },
+      "employee": {
+        "properties": {
+          "centered": false
+        },
+        "partStates": {
+          "employee": {
+            "off": {
+              "properties": {}
+            },
+            "on": {
+              "properties": {
+                "image": "<partImage>:<color>.<frame>",
+                "fullbright": false,
+                "zLevel": 2,
+                "offset": [3.25, 2.125]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "sounds": {
+    "speech": []
+  }
+}

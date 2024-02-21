@@ -5,7 +5,10 @@
   "tooltipKind": "sb_object",
   "rarity": "common",
   "itemTags": ["sb_cake"],
-  "sb_plateImage": true,
+  "sb_plate": {
+    "width": 4,
+    "image": true
+  },
   "category": "preparedFood",
   "inventoryIcon": "cake.png",
   "effects": [[{

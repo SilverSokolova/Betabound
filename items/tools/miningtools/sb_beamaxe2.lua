@@ -1,3 +1,4 @@
+require "/scripts/vec2.lua"
 function init()
   id = activeItem.ownerEntityId()
   radius = config.getParameter("blockRadius")
@@ -6,7 +7,7 @@ function init()
 --range = config.getParameter("interactRadius",root.assetJson("/player.config:interactRadius") or 5) + status.statusProperty("bonusBeamGunRadius",0)
 --inRange = false
 
---magnetEnabled = config.getParameter("magnetEnabled",true)
+  magnetEnabled = config.getParameter("magnetEnabled",true)
   liquidEnabled = config.getParameter("canCollectLiquid",false)
 --lightEnabled = config.getParameter("lightEnabled",true)
 
@@ -16,8 +17,25 @@ function init()
   notifyDamage = ((config.getParameter("tileDamage") / config.getParameter("fireTime") * notifyTime)+0.5)*1.1
   notifyQueryParams = {includedTypes={"vehicle"},boundMode="position"}
 
-  if config.getParameter("magnetEnabled",true) then
-    activeItem.setItemForceRegions({{type = "RadialForceRegion", categoryWhitelist = {"itemdrop"}, outerRadius = (radius > 6 and 40 or radius*10), innerRadius = 2, controlForce = 200, targetRadialVelocity = -60}})
+  if magnetEnabled then
+    magnet = config.getParameter("magnet")
+    magnet.length = radius * 2.5 + magnet.length
+    vacuum = {}
+    for i = 1, magnet.length do
+      vacuum[i] = {
+        type = "RadialForceRegion",
+        categoryWhitelist = magnet.categoryWhitelist,
+        innerRadius = 0,
+        outerRadius = magnet.length - i * 0.25, --I'd love to divide this by 2 but then it gets wonky at certain diagonal angles
+        controlForce = math.max(50, 500 - (i * 50)),
+        targetRadialVelocity = -20,
+        center = {(i - 3) * 1.5, 0}
+      }
+    end
+    vacuum[1].outerRadius = 2
+    vacuum[1].center[1] = 0
+    vacuum[1].targetRadialVelocity = vacuum[1].targetRadialVelocity * 2
+    activeItem.setItemForceRegions(vacuum)
   end
 end
 
@@ -25,7 +43,8 @@ function update(dt, fireMode, shifting)
   local aimAngle, aimDirection = activeItem.aimAngleAndDirection(firePosition[2], activeItem.ownerAimPosition())
   activeItem.setArmAngle(aimAngle)
   activeItem.setFacingDirection(aimDirection or 0)
-  activeItem.setScriptedAnimationParameter("radius",shifting and altRadius or radius)
+  activeItem.setScriptedAnimationParameter("radius", shifting and altRadius or radius)
+
 --inRange = world.magnitude(mcontroller.position(),activeItem.ownerAimPosition()) <= range
 --activeItem.setScriptedAnimationParameter("inRange",inRange)
 --if inRange then
@@ -74,7 +93,8 @@ end
 
 function fillRadius(radius)
   local base = activeItem.ownerAimPosition()
-  base[1] = math.floor(math.floor(base[1])) base[2] = math.floor(math.floor(base[2]))
+  base[1] = math.floor(math.floor(base[1]))
+  base[2] = math.floor(math.floor(base[2]))
   if radius % 2 == 0 then base = {base[1]+0.4,base[2]+0.4} end
   if radius == 1 then return {base} end
   local t = {}

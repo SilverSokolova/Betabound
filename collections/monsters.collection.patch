@@ -86,13 +86,26 @@
     }
   ], [{
       "op": "test",
+      "path": "/collectables/glitchspider",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/collectables/glitchspider",
+      "value": {
+        "order": 70,
+        "monsterType": "glitchspider",
+        "icon": "/monsters/dungeon/glitchspider/glitchspider.png:idle.1"
+      }
+    }
+  ], [{
+      "op": "test",
       "path": "/collectables/swarpion",
       "inverse": true
     }, {
       "op": "add",
       "path": "/collectables/swarpion",
       "value": {
-        "order": 70,
+        "order": 71,
         "monsterType": "swarpion",
         "icon": "/monsters/dungeon/swarpion/swarpion.png:idle.1"
       }
@@ -105,7 +118,7 @@
       "op": "add",
       "path": "/collectables/bonebird",
       "value": {
-        "order": 71,
+        "order": 72,
         "monsterType": "bonebird",
         "icon": "/monsters/generated/flying/bonebird/sb_portrait.png"
       }

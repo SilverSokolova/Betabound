@@ -74,7 +74,7 @@
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_glitchtier6mshortsword"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_glitchtier6sshortsword"}},
 
-//		-=- OBJECTS	-=-
+//    -=- OBJECTS  -=-
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_techstation_glitch"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_glitchfuelhatch"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"glitchshiplocker"}}

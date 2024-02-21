@@ -45,11 +45,7 @@ function init() sb_init()
   widget.setPosition("sb_btnSuit",{pos[1]+10, pos[2]-16})
 --widget.setPosition("sb_btnSuit",{widget.getPosition("lblSlot")[1]-2, widget.getPosition("close")[2]-16})
 --widget.setPosition("sb_btnSuit",{pos[1] - (widget.getChildAt({321, 236}) and 72 or 90),pos[2]-2}) --width of button plus 18/36
-  sb_ownedImplants, sb_availableImplants = player.getProperty("sb_bioimplants",{}), player.getProperty("sb_availableBioimplants",{})
-  if #sb_ownedImplants > 1 then table.sort(sb_ownedImplants,function(a,b) return a<b end) end
-  if #sb_availableImplants > 1 then table.sort(sb_availableImplants,function(a,b) return a<b end) end
-  widget.setButtonEnabled("sb_btnSuit", #sb_ownedImplants + #sb_availableImplants > 0)
-
+  sb_prepareSuits()
   sb_selectTechDescription = config.getParameter("sb_selectTechDescription")
   sb_downloadTechDescription = config.getParameter("sb_downloadTechDescription")
   sb_downloadCost = config.getParameter("sb_downloadCost", 1)
@@ -104,21 +100,41 @@ function populateTechList(slot)
     for i = 1, 2 do
       local currentList = i == 1 and sb_ownedImplants or sb_availableImplants
       for suit = 1, #currentList do
-	      local tech = currentList[suit]
-	      player.makeTechUnavailable(tech)
-	      if root.hasTech(tech) and not contains(listedTechs, tech) then
-	        listedTechs[#listedTechs+1] = tech
-	        local config = root.techConfig(tech)
-	        if not self.techs[tech] then self.techs[tech] = config end
-	        local listItem = widget.addListItem(self.techList)
-	        widget.setText(string.format("%s.%s.techName", self.techList, listItem), config.shortDescription)
-	        widget.setData(string.format("%s.%s", self.techList, listItem), tech)
-	        widget.setImage(string.format("%s.%s.techIcon", self.techList, listItem), i == 1 and config.icon or self.techLockedIcon)
+        local tech = currentList[suit]
+        player.makeTechUnavailable(tech)
+        if root.hasTech(tech) and not contains(listedTechs, tech) then
+          listedTechs[#listedTechs+1] = tech
+          if not self.techs[tech] then self.techs[tech] = root.techConfig(tech) end
+          local config = self.techs[tech]
+          --Some mod setups can cause techs to end up in the wrong place... somehow. Check for it.
+          if root.techType(tech) == "Suit" then
+            local listItem = widget.addListItem(self.techList)
+            widget.setText(string.format("%s.%s.techName", self.techList, listItem), config.shortDescription)
+            widget.setData(string.format("%s.%s", self.techList, listItem), tech)
+            widget.setImage(string.format("%s.%s.techIcon", self.techList, listItem), i == 1 and config.icon or self.techLockedIcon)
 
-	        if sb_suit == tech then
-	          widget.setListSelected(self.techList, listItem)
-	        end
-	      end
+            if sb_suit == tech then
+              widget.setListSelected(self.techList, listItem)
+            end
+          else
+            local newOwned, newAvailable = {}, {}
+            for i = 1, #sb_ownedImplants do
+              if tech ~= sb_ownedImplants[i] then
+                newOwned[#newOwned+1] = sb_ownedImplants[i]
+              end
+            end
+            for i = 1, #sb_availableImplants do
+              if tech ~= sb_availableImplants[i] then
+                newAvailable[#newAvailable+1] = sb_availableImplants[i]
+              end
+            end
+            player.setProperty("sb_bioimplants", newOwned)
+            player.setProperty("sb_availableImplants", newAvailable)
+            player.makeTechAvailable(tech)
+            player.sb_enableTech(tech)
+            sb_prepareSuits()
+          end
+        end
       end
     end
   end
@@ -193,8 +209,16 @@ end
 function sb_toggleButtons()
   local tech = self.selectedTech and (self.selectedSlot ~= "sb_suit" and player.equippedTech(self.selectedSlot) or self.selectedSlot == "sb_suit" and sb_suit) or false
   --yknow what fuck it it doesnt matter if the unequip/download buttons are visible for locked techs. they cant even download it. i tried string.find-ing "--" in the cost amount text but it didnt work for some reason
+  --hi hello yes this is me from the future you need to %-%- ahahahaha that's also why the food rot bar detection didnt work
   widget.setButtonEnabled("sb_download", tech and true or false)
   widget.setButtonEnabled("sb_unequip", tech and true or false)
+end
+
+function sb_prepareSuits()
+  sb_ownedImplants, sb_availableImplants = player.getProperty("sb_bioimplants",{}), player.getProperty("sb_availableBioimplants",{})
+  if #sb_ownedImplants > 1 then table.sort(sb_ownedImplants,function(a,b) return a<b end) end
+  if #sb_availableImplants > 1 then table.sort(sb_availableImplants,function(a,b) return a<b end) end
+  widget.setButtonEnabled("sb_btnSuit", #sb_ownedImplants + #sb_availableImplants > 0)
 end
 
 function createTooltip(p)

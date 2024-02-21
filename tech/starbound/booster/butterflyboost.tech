@@ -1,18 +1,18 @@
 {
-  "name" : "sb_butterflyboost",
-  "type" : "legs",
+  "name": "sb_butterflyboost",
+  "type": "legs",
 
-  "rarity" : "Legendary",
-  "icon" : "/tech/starbound/butterflyboost.png",
-  "description" : "Hold ^#0f0;[SPACE]^reset; and a direction in the air to fly around with the power of butterflies!",
-  "sb_briefDescription" : "Hold ^#0f0;[SPACE]^reset; and a direction in the air to fly around!",
-  "shortDescription" : "Butterfly Boost",
+  "rarity": "Legendary",
+  "icon": "/tech/starbound/butterflyboost.png",
+  "description": "Hold ^#0f0;[SPACE]^reset; and a direction in the air to fly around with the power of butterflies!",
+  "sb_briefDescription": "Hold ^#0f0;[SPACE]^reset; and a direction in the air to fly around!",
+  "shortDescription": "Butterfly Boost",
 
-  "scripts" : ["booster.lua"],
-  "animator" : "butterflyboost.animation",
-  "chipCost" : 10,
+  "scripts": ["booster.lua"],
+  "animator": "butterflyboost.animation",
+  "chipCost": 10,
 
-  "boostControlForce" : 750,
-  "boostSpeed" : 30,
-  "energyUsagePerSecond" : 58
+  "boostControlForce": 750,
+  "boostSpeed": 30,
+  "energyUsagePerSecond": 70
 }

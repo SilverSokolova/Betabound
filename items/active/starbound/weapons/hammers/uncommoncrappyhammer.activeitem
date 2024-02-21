@@ -4,9 +4,9 @@
   "maxStack": 1,
   "level": 1,
   "rarity": "uncommon",
-  "description": "",
+  "description": "Slow, heavy, and effective.",
   "shortdescription": "Uncommon Crappy Hammer",
-  "tooltipKind": "sb_sword",
+  "tooltipKind": "sb_sword2",
   "category": "hammer",
   "tooltipFields": {
     "subtitle": "Crappy Hammer"

@@ -1,0 +1,11 @@
+{
+  "itemName": "sb_tombwords",
+  "rarity": "Common",
+  "category": "other",
+  "price": 25,
+  "tooltipKind": "sb_object",
+  "inventoryIcon": "sb_aviancover5.png",
+  "description": "\"Do not stand at my grave and weep. Get me out of here, you fools; I was merely asleep!\"",
+  "shortdescription": "Scrawled Note",
+  "itemTags": ["sb_copybook"]
+}

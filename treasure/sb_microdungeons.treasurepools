@@ -100,5 +100,33 @@
         {"weight" : 0.5, "item" : "glitchfossil3"}
       ]
     }]
+  ],
+  
+  "sb_glitchTower1ChestTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "valuableTreasure"},
+        {"pool" : "stim"}
+      ],
+      "pool" : [
+        {"weight" : 0.5, "pool" : "basicTreasure"},
+        {"weight" : 0.5, "pool" : "sb_glitchTower1Treasure"}
+      ],
+      "poolRounds" : [
+        [0.05, 1],
+        [0.40, 2],
+        [0.30, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "sb_glitchTower1Treasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "pool" : "royaltreasure"},
+        {"weight" : 1, "pool" : "bookTreasure"}
+      ]
+    }]
   ]
 }

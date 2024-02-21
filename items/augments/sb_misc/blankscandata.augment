@@ -1,0 +1,18 @@
+{
+  "itemName": "sb_blankscandata",
+  "price": 25,
+  "tooltipKind": "sb_object4",
+  "rarity": "common",
+  "category": "blueprint",
+  "tooltipFields": {
+    "subtitle": "Other"
+  },
+  "inventoryIcon": "/items/generic/unlock/sb_scandata.png",
+  "description": "It's a blank scanchip. Use it to copy another scanchip's data.\n^gray;Select item and right-click scanchip",
+  "shortdescription": "Blank Scanchip",
+  "sb_uncopyable": true,
+  "sb_copybookConditions": {
+    "itemTags": ["sb_scandata"]
+  },
+  "scripts": ["/scripts/augments/sb_copybook.lua"]
+}

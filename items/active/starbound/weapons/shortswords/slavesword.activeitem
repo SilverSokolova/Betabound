@@ -55,7 +55,6 @@
         "twoHanded": false
       },
       "windup": {
-        "hold": false, //is hold used?
         "duration": 0.3,
         "armRotation": -24.5,
         "weaponRotation": -24.5,
@@ -63,7 +62,6 @@
         "allowRotate": true
       },
       "fire": {
-        "hold": true, //is hold--
         "duration": 0.4,
         "armRotation": -125,
         "weaponRotation": 32,

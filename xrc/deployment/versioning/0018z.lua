@@ -1,6 +1,6 @@
 local ini = init or function() end
 function init() ini()
-	local currentVersion = 27
+  local currentVersion = 28
   if player.introComplete() then
     if status.statusProperty("xrc_0018z") == nil then status.setStatusProperty("xrc_0018z",0) end
     local yv = status.statusProperty("xrc_0018z")
@@ -9,5 +9,5 @@ function init() ini()
       status.setStatusProperty("xrc_0018z",currentVersion)
       xrc0018z_2(currentVersion,yv)
     end
-	end
+  end
 end

@@ -1,0 +1,12 @@
+[
+    [{
+        "op": "test",
+        "path": "/metadata/anchor/15",
+        "value": "geodeprison7"
+    },
+    {
+        "op": "replace",
+        "path": "/metadata/anchor/15",
+        "value": "geodeprison6"
+    }]
+]

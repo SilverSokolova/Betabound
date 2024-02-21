@@ -1,0 +1,32 @@
+{
+  "itemName": "sb_scandata",
+  "price": 25,
+  "tooltipKind": "sb_object",
+  "rarity": "uncommon",
+  "inventoryIcon": "sb_scandata.png",
+  "category": "blueprint",
+  "tooltipFields": {
+    "subtitle": "Scanchip"
+  },
+  "description": "Unlocks the %s data for the Pixel Printer.",
+  "shortdescription": "%s",
+  "learnBlueprintsOnPickup": ["sb_blankscandata"],
+  "itemTags": ["sb_scandata"],
+  "scripts": ["sb_scandata.lua"],
+  "animation": "sb_techupgrade.animation",
+  "animationCustom": {
+    "sounds": {
+      "success": ["/sfx/interface/scan.ogg"]
+    },
+    "animatedParts": {
+      "parts": {
+        "blueprint": {
+          "properties": {
+            "image": "/items/generic/unlock/sb_scandata.png"
+          }
+        }
+      }
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildscandata.lua"
+}

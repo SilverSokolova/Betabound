@@ -1,73 +1,65 @@
 {
-  "projectileName" : "sb_slimeblobx",
-  "physics" : "grenadezbomb",
-  "lightColor" : [0, 50, 40],
-  "pointLight" : true,
-  "image" : "slimeblobx.png",
-  "timeToLive" : 0.8,
-  "speed" : 25,
-  "animationCycle" : 0.5,
-  "frameNumber" : 2,
-  "power" : 16,
-  "supportsProcessing" : true,
-  "orientationLocked" : true,
-  "flippable" : true,
-  "periodicActions" : [
-    {
-	"action" : "sound",
-	"options" : ["/sfx/projectiles/goo_spit1.ogg", "/sfx/projectiles/goo_spit2.ogg"],
-	"time" : 0,
-	"repeat" : false
+  "projectileName": "sb_slimeblobx",
+  "physics": "grenadezbomb",
+  "lightColor": [0, 50, 40],
+  "pointLight": true,
+  "image": "slimeblobx.png",
+  "timeToLive": 0.8,
+  "speed": 25,
+  "animationCycle": 0.5,
+  "frameNumber": 2,
+  "power": 16,
+  "supportsProcessing": true,
+  "orientationLocked": true,
+  "flippable": true,
+  "periodicActions": [{
+      "action": "sound",
+      "options": ["/sfx/projectiles/goo_spit1.ogg", "/sfx/projectiles/goo_spit2.ogg"],
+      "time": 0,
+      "repeat": false
     }
   ],
-  "actionOnReap" : [
-    {
-	"action" : "projectile",
-	"type" : "sb_slimeclusterx",
-	"fuzzAngle" : 45,
-	"angleAdjust" : 45,
-	"inheritDamageFactor" : 0.166
-    },
-    {
-	"action" : "projectile",
-	"type" : "sb_slimeclusterx",
-	"fuzzAngle" : 45,
-	"angleAdjust" : -45,
-	"inheritDamageFactor" : 0.166
-    },
-    {
-	"action" : "projectile",
-	"type" : "sb_slimeclusterx",
-	"fuzzAngle" : 180,
-	"angleAdjust" : 180,
-	"inheritDamageFactor" : 0.166
-    },
-    {
-	"action" : "projectile",
-	"type" : "sb_slimeclusterx",
-	"fuzzAngle" : 180,
-	"angleAdjust" : 0,
-	"inheritDamageFactor" : 0.166
-    },
-    {
-	"action" : "projectile",
-	"type" : "sb_slimeclusterx",
-	"fuzzAngle" : 180,
-	"angleAdjust" : 0,
-	"inheritDamageFactor" : 0.166
-    },
-    {
-	"action" : "projectile",
-	"type" : "sb_slimeclusterx",
-	"fuzzAngle" : 180,
-	"angleAdjust" : -75,
-	"inheritDamageFactor" : 0.166
-    },
-    {
-	"action" : "sound",
-	"options" : ["/sfx/projectiles/goocluster_pop.ogg"]
+  "actionOnReap": [{
+      "action": "projectile",
+      "type": "sb_slimeclusterx",
+      "fuzzAngle": 45,
+      "angleAdjust": 45,
+      "inheritDamageFactor": 0.166
+    }, {
+      "action": "projectile",
+      "type": "sb_slimeclusterx",
+      "fuzzAngle": 45,
+      "angleAdjust": -45,
+      "inheritDamageFactor": 0.166
+    }, {
+      "action": "projectile",
+      "type": "sb_slimeclusterx",
+      "fuzzAngle": 180,
+      "angleAdjust": 180,
+      "inheritDamageFactor": 0.166
+    }, {
+      "action": "projectile",
+      "type": "sb_slimeclusterx",
+      "fuzzAngle": 180,
+      "angleAdjust": 0,
+      "inheritDamageFactor": 0.166
+    }, {
+      "action": "projectile",
+      "type": "sb_slimeclusterx",
+      "fuzzAngle": 180,
+      "angleAdjust": 0,
+      "inheritDamageFactor": 0.166
+    }, {
+      "action": "projectile",
+      "type": "sb_slimeclusterx",
+      "fuzzAngle": 180,
+      "angleAdjust": -75,
+      "inheritDamageFactor": 0.166
+    }, {
+      "action": "sound",
+      "options": ["/sfx/projectiles/goocluster_pop.ogg"]
     }
   ],
-  "statusEffects" : ["weakpoison"],
-  "damageKind" : "acid"
+  "statusEffects": ["weakpoison"],
+  "damageKind": "acid"
 }

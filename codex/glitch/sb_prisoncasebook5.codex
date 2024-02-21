@@ -1,0 +1,26 @@
+{
+  "id": "sb_prisoncasebook5",
+  "species": "glitch",
+  "title": "Prisoners 5",
+  "description": "A journal entry from the Steel Casebook, by Hewlett Deckard, Glitch Bounty Hunter.",
+  "icon": "sb_glitchcover3.png:5",
+  "contentPages": [
+"I opened the door. The room was empty, save for a single chair, upon which sat the doll. I picked the thing up, and with a surge of anger, threw it on the ground and stomped on it. The plastic shattered beneath my foot.
+
+As I glanced up, a shadow passed across the wall, and the door behind me slammed shut. I fumbled, trying to get out, and as I finally did so, I caught sight of a figure disappearing around the corner up ahead.",
+
+"I followed the shadow all throughout the complex. It led me on a merry chase, always one step ahead. But finally, I caught up with it. It took a dead end; there was nowhere to hide. Now I wait outside of its sanctuary, building up my courage.
+
+This ends now. I am a Glitch, I do not believe in souls nor spirits. I will prove this thing is flesh and blood, and if necessary, I will take it in.
+
+Hewlett Deckard will not be toyed with.",
+
+"This entry in the Steel Casebook is considered closed. No further details will be provided in this case. The mission is regarded as a failure, and the client has been refunded."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object",
+    "sb_unnumberedCodexIcon": "sb_glitchcover3.png:0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "sb_ironbeacon",
+  "prerequisites": [],
+  "title": "^#9be3d6;First Contact",
+  "text": "Hey there! You seem pretty lost. How about we help each other out? I'm in need of a ^green;Molten Core^reset;. If you can get one for me, I'll share some of my survival resources with you. Eh? How to get a ^green;Molten Core^reset;? Easy! Just ^green;craft a ^orange;Distress Beacon ^green;and maybe you'll be able to make contact with a larger ship. ^reset;Make sure you're ready for anything before you do though; you never know who'll receive your signal.",
+  "completionText": "Nicely done. This will be a great help for my studies. As promised, here's your share of my stash! ...Eh? What to do with the other ^green;Molten Cores^reset;? I'm sure you'll figure something out!",
+  "speaker": "questGiver",
+  "moneyRange": [300, 300],
+  "canBeAbandoned": true,
+  "rewards": [["sb_meatballs", "medkit", "bottledwater", "rewardbag"]],
+
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquestnorewards.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta": 10,
+  "script": "/quests/scripts/main.lua",
+  "scriptConfig": {
+    "portraits": {
+      "default": "questGiver"
+    },
+    "requireTurnIn": true,
+    "turnInDescription": "Speak to the ^orange;traveller^reset; at the ^orange;mineshaft entrance^reset;",
+    "conditions": [{
+        "type": "gatherItem",
+        "itemName": "moltencore",
+        "count": 1,
+        "consume": true
+      }
+    ]
+  }
+}

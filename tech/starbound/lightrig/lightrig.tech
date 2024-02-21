@@ -1,17 +1,14 @@
 {
-  "name" : "sb_lightrig",
-  "type" : "body",
-
-  "rarity" : "Legendary",
-  "icon" : "/tech/starbound/lightrig.png",
-  "description" : "Double tap ^green;any direction^reset; to toggle a directional spotlight!",
-//"sb_longDescription" : "Disables energy regeneration while active.",
-  "shortDescription" : "Light Rig",
-  "chipCost" : 3,
-
-  "scripts" : ["lightrig.lua"],
-  "animator" : "lightrig.animation",
-
-  "maxDoubleTapTime" : 0.2,
-  "energyUsageRate" : 2
+  "name": "sb_lightrig",
+  "type": "body",
+  "rarity": "Legendary",
+  "icon": "/tech/starbound/lightrig.png",
+  "description": "Double tap ^green;any direction^reset; to toggle a directional spotlight!",
+  //"sb_longDescription" : "Disables energy regeneration while active.",
+  "shortDescription": "Light Rig",
+  "chipCost": 3,
+  "scripts": ["lightrig.lua"],
+  "animator": "lightrig.animation",
+  "maxDoubleTapTime": 0.2,
+  "energyUsageRate": 2
 }

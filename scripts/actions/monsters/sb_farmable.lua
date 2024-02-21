@@ -1,7 +1,7 @@
 require "/scripts/vec2.lua"
 local ini = init or function() end
 function init() ini()
-		message.setHandler("sb_feedFluffalo",function(_,_,feed)
+    message.setHandler("sb_feedFluffalo",function(_,_,feed)
       local spawnPosition = vec2.add(mcontroller.position(), vec2.mul({0,0}, {mcontroller.facingDirection(), 1}))
       local s = feed.."fluffalo"..(config.getParameter("behavior","") == "farmablebaby" and "baby" or "")
       if s == monster.type() then
@@ -13,6 +13,6 @@ function init() ini()
       monster.setDeathParticleBurst(nil)
       monster.setDeathSound(nil)
       status.setResource("health", 0)
-		return true
-	end)
+    return true
+  end)
 end

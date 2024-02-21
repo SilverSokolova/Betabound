@@ -2,6 +2,7 @@ local ini = init
 --disabled naming for mushroom/eye shields since merchants would keep regenerating them while the menu was open
 function init() ini()
   if player and not sb_init then
+    sb_resourceNames = {shieldStamina = 1, shieldStaminaRegenBlock = 1, shieldHealth = 1, perfectBlock = 1, perfectBlockLimit = 1} --TODO: move to config?
     sb_hand = activeItem.hand() == "alt" and "R" or "L"
     sb_statusEffects = config.getParameter("statusEffects")
   
@@ -61,8 +62,8 @@ function init() ini()
     end
     if not status.sb_resourcePositive("sb_shieldStamina"..sb_hand) then
       animator.playSound("break")
-	  else
-	    animator.playSound("block")
+    else
+      animator.playSound("block")
     end
   end)
   sb_init = true
@@ -70,13 +71,5 @@ function init() ini()
 end
 
 function sb_resource(resourceName)
-  if resourceName == "shieldStamina"
-    or resourceName == "shieldStaminaRegenBlock"
-    or resourceName == "shieldHealth"
-    or resourceName == "perfectBlock"
-    or resourceName == "perfectBlockLimit"
-  then
-    resourceName = "sb_"..resourceName..sb_hand
-  end
-  return resourceName
+  return sb_resourceNames[resourceName] and "sb_"..resourceName..sb_hand or resourceName
 end

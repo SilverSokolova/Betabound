@@ -1,31 +1,7 @@
 [
-  [
-    {"op":"test","path":"/defaultItemConfig/rarity","inverse":true},
-    {"op":"add","path":"/defaultItemConfig/rarity","value":"common"}
-  ],
-
+  //We need this in case someone has one of those mods that breaks codices
   [
     {"op":"test","path":"/defaultItemConfig/category","inverse":true},
     {"op":"add","path":"/defaultItemConfig/category","value":"codex"}
-  ],
-
-  [
-    {"op":"test","path":"/defaultItemConfig/price","inverse":true},
-    {"op":"add","path":"/defaultItemConfig/price","value":50}
-  ],
-
-  [
-    {"op":"test","path":"/defaultItemConfig/tooltipKind","inverse":true},
-    {"op":"add","path":"/defaultItemConfig/tooltipKind","value":"codex"}
-  ],
-
-  [
-    {"op":"test","path":"/defaultItemConfig/windupTime","inverse":true},
-    {"op":"add","path":"/defaultItemConfig/windupTime","value":0.1}
-  ],
-
-  [
-    {"op":"test","path":"/defaultItemConfig/cooldown","inverse":true},
-    {"op":"add","path":"/defaultItemConfig/cooldown","value":0}
   ]
 ]

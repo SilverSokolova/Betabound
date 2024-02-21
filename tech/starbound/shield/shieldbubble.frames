@@ -1,23 +1,23 @@
 {
-  "frameGrid" : {
-    "size" : [41, 41],
-    "dimensions" : [6, 1],
+  "frameGrid": {
+    "size": [41, 41],
+    "dimensions": [6, 1],
 
-    "names" : [
-      [ "on.1", "on.2", "off" ]
+    "names": [
+      ["on.1", "on.2", "off"]
     ]
   },
 
-  "aliases" : {
-    "flicker.1" : "on.1",
-    "flicker.2" : "off",
-    "flicker.3" : "on.1",
-    "flicker.4" : "off",
-    "flicker.5" : "on.2",
-    "flicker.6" : "off",
-    "flicker.7" : "on.2",
-    "flicker.8" : "off",
-    "flicker.9" : "on.1",
-    "flicker.10" : "off"
+  "aliases": {
+    "flicker.1": "on.1",
+    "flicker.2": "off",
+    "flicker.3": "on.1",
+    "flicker.4": "off",
+    "flicker.5": "on.2",
+    "flicker.6": "off",
+    "flicker.7": "on.2",
+    "flicker.8": "off",
+    "flicker.9": "on.1",
+    "flicker.10": "off"
   }
 }

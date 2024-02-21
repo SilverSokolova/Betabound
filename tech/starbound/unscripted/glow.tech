@@ -4,8 +4,8 @@
   "icon": "/tech/starbound/glow.png",
   "scripts": [],
   "sb_effect": "sb_glowtech",
-  "sb_suitImage": "?replace;73daff=ffffe6;27abff=ffffc7;117ee4=fff03f;1f45d4=c9be06;002b72=A19320;001522=625800",
+  "sb_suitImage": "?replace;73daff=ffffe6;27abff=ffffc7;117ee4=fff03f;1f45d4=c9be06",
   "rarity": "Rare",
-  "description": "Provides the wearer with a strong light.",
+  "description": "Causes the wearer to emit light.",
   "shortDescription": "Glow"
 }

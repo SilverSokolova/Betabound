@@ -1,0 +1,23 @@
+{
+  "objectName": "sb_woodencraftingtable",
+  "hasObjectItem": false,
+  "breakDropOptions":[[["sb_woodencraftingtable",1,{}]]],
+  "rarity": "rare",
+  "interactAction": "OpenCraftingInterface",
+  "interactData": {
+    "config": "/interface/windowconfig/sb_crafting.config",
+    "filter": ["sb_craftingtable"]
+  },
+  "printable": false,
+  "inventoryIcon": "/objects/crafting/upgradeablecraftingobjects/sb_craftingtool/icon1.png",
+  "orientations": [{
+      "dualImage": "/objects/crafting/upgradeablecraftingobjects/sb_craftingtool/tool1.png:default.default",
+      "imagePosition": [-16, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ]
+}

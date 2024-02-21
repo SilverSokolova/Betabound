@@ -1,23 +1,21 @@
 {
-  "projectileName" : "sb_twistedspearchain3",
-  "image" : "twistedspearchain3.png",
-  "animationCycle" : 0.2,
-  "level" : 3,
-  "frameNumber" : 6,
-  "speed" : 50,
-  "fallSpeed" : 10,
-  "damagePoly" : [[-36,0],[-24,-20],[0,-24],[24,-20],[36,0],[24,16],[0,20],[-24,16]],
-  "animationLoops" : false,
-  "piercing" : true,
-  "flippable" : true,
-  "universalDamage" : false,
-  "damageKind" : "default",
-  "periodicActions" : [
-    {
-	"action" : "sound",
-	"options" : ["/sfx/gun/shotgun4.ogg"],
-	"time" : 0,
-	"repeat" : false
+  "projectileName": "sb_twistedspearchain3",
+  "image": "twistedspearchain3.png",
+  "animationCycle": 0.2,
+  "frameNumber": 6,
+  "speed": 50,
+  "fallSpeed": 10,
+  "damagePoly": [[-36, 0], [-24, -20], [0, -24], [24, -20], [36, 0], [24, 16], [0, 20], [-24, 16]],
+  "animationLoops": false,
+  "piercing": true,
+  "flippable": true,
+  "universalDamage": false,
+  "damageKind": "default",
+  "periodicActions": [{
+      "action": "sound",
+      "options": ["/sfx/gun/shotgun4.ogg"],
+      "time": 0,
+      "repeat": false
     }
   ]
 }

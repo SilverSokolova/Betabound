@@ -1,3 +1,5 @@
 [
-[{"op":"add","path":"/spaceInstrument/0/1/pool/-","value":{"weight":1,"pool":"sb_spaceMusic"}}]
+[{"op":"add","path":"/spaceInstrument/0/1/pool/-","value":{"weight":1,"pool":"sb_spaceMusic"}}],
+[{"op":"add","path":"/spaceObject/0/1/pool/-","value":{"weight":1,"item":["sb_scandata",1,{"recipe":"spacebarbottom"}]}}],
+[{"op":"add","path":"/spaceObject/1/1/pool/-","value":{"weight":1,"item":["sb_scandata",1,{"recipe":"spacebarbottom"}]}}]
 ]

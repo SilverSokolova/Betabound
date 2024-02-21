@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/description","value":"A trap door disguised as a metal platform."},{"op":"replace","path":"/description","value":"A trap door disguised as a metal platform.\n^red;Destroyed when broken.^reset;"}]
+]

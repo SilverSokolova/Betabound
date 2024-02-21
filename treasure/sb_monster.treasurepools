@@ -80,5 +80,18 @@
         [0.2, 3]
       ]
     }]
+  ],
+  "sb_narfinTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : "prisiliteore"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.2, 1],
+        [0.1, 2],
+        [0.1, 3]
+      ]
+    }]
   ]
 }

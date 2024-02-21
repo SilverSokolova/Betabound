@@ -1,5 +1,0 @@
-{
-  "input" : [["titaniumbar",5],"processor"],
-  "output" : "sb_roboticcraftingtable",
-  "groups" : ["inventorstable2","craftingstations","all"]
-}

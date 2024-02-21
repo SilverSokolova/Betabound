@@ -1,0 +1,5 @@
+avian sword = common short
+glitch small mace = common short
+mushroom sword = uncommmon shortsword
+nightstick = common shortsword
+rust sword = uncommon shortsword

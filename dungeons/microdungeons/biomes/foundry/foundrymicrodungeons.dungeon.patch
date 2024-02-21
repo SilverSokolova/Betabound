@@ -1,0 +1,50 @@
+[
+    {
+        "op": "add",
+        "path": "/parts/-",
+        "value": {
+            "name": "sb_cliffleft1",
+            "rules": [
+                [
+                    "maxSpawnCount",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "def": [
+                "tmx",
+                "cliffleft1.json"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/parts/-",
+        "value": {
+            "name": "sb_cliffright1",
+            "rules": [
+                [
+                    "maxSpawnCount",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "def": [
+                "tmx",
+                "cliffright1.json"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/metadata/anchor/-",
+        "value": "sb_cliffleft1"
+    },
+    {
+        "op": "add",
+        "path": "/metadata/anchor/-",
+        "value": "sb_cliffright1"
+    }
+]

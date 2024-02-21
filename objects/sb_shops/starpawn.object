@@ -1,0 +1,78 @@
+{
+  "objectName": "sb_starpawn",
+  "colonyTags": ["outpost", "commerce"],
+  "rarity": "Common",
+  "category": "other",
+  "description": "One person's trash is another's treasure!",
+  "shortdescription": "Star  Pawn",
+  "race": "generic",
+  "printable": false,
+  "interactAction": "ScriptPane",
+  "interactData": {
+    "config": ["/interface/scripted/sb_merchant/merchant.config", "/interface/windowconfig/vendingmachine.config"],
+    "paneLayoutOverride": {
+      "windowtitle": {
+        "title": "Star  Pawn",
+        "subtitle": "^#b9b5b2;A new selection each day"
+      }
+    },
+    "buyFactor": 1.5,
+    "sellFactor": 0.25
+  },
+
+  "apexDescription": "A shop selling supplies of questionable utility.",
+  "avianDescription": "The best place to buy farm supplies, bar none.",
+  "floranDescription": "Floran can buy... junk here?",
+  "glitchDescription": "Excited. I hope they sell retro video games.",
+  "humanDescription": "I guess there IS a market for all that random junk I've sold to merchants after all!",
+  "hylotlDescription": "A place to purchase second-hand goods.",
+  "novakidDescription": "Lotsa odd bits and bops.",
+
+  "lightColor" : [188, 188, 188],
+  "rotationTime": 86400,
+  "smashSounds": ["/sfx/melee/kill_robotic1.ogg"],
+  "health": 250,
+  "smashDropPool": "empty",
+  "smashOnBreak": true,
+  "rooting": true,
+
+  "smashParticles": [{
+      "count": 50,
+      "particle": "generatorshard"
+    }, {
+      "count": 50,
+      "particle": "generatorredshard"
+    }, {
+      "count": 10,
+      "particle": "generatorglassshard"
+    }
+  ],
+
+  "pools": ["sb_starpawnPools"],
+  "poolRounds": 4,
+  "shopInUseText": "Apologetic. I am sorry; you must wait for my current customer before I can assist you.",
+  "inventoryIcon": "/interface/merchant/merchanticon.png",
+  "scripts": ["shop.lua", "starpawn.lua"],
+  "speechSoundPool": ["/sfx/humanoid/glitch_chatter_male1.ogg", "/sfx/humanoid/glitch_chatter_male2.ogg", "/sfx/humanoid/glitch_chatter_male3.ogg"],
+  "animation": "shop.animation",
+  "animationParts": {
+    "shop": "starpawn.png",
+    "employee": "glitch.png"
+  },
+  "mouthPositions": [[-3, -9], [-1, -9]],
+  "animationPosition": [0, 0],
+  "orientations": [{
+      "image": "starpawn.png:0",
+      "direction": "left",
+      "lightPosition" : [3, 6],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }, {
+      "image": "starpawn.png:1",
+      "direction": "right",
+      "lightPosition" : [3, 6],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ]
+}

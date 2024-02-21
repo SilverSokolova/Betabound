@@ -1,0 +1,5 @@
+{
+  "input" : ["staticcell","diamond"],
+  "output" : ["sb_elementmod",1,{"element":"electric"}],
+  "groups" : ["sb_metalworkstation","sb_elements","all"]
+}

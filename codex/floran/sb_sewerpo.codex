@@ -1,0 +1,17 @@
+{
+  "id": "sb_sewerpo",
+  "species": "floran",
+  "title": "Po",
+  "description": "An entry from the Compiled Bestiary, written by the Rogue Greenfinger.",
+  "icon": "sb_florancover5.png",
+  "contentPages": [
+"And so it transpires, within the sewers, that there is a creature formed entirely of waste. Bodily waste. This distasteful beast is less dangerous than it is disgusting, and travellers are advised not to get too close.
+
+The beast seemingly cannot be killed, simply reforming after destruction. My Glitch contacts shudder as they tell me of this creature, and I do not blame them. I'm not sure I'd task even the most bloodthirsty killer with dealing with this mess."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

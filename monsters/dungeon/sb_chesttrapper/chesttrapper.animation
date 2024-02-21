@@ -1,197 +1,222 @@
 {
-  "animatedParts" : {
-    "stateTypes" : {
-      "body" : {
-        "priority" : 0,
-        "default" : "idle",
-        "states" : {
-          "idle" : {
-	    "frames" : 1,
-	    "cycle" : 2.5,
-	    "mode" : "loop"
+  "animatedParts": {
+    "stateTypes": {
+      "body": {
+        "priority": 0,
+        "default": "idle",
+        "states": {
+          "idle": {
+            "frames": 1,
+            "cycle": 2.5,
+            "mode": "loop"
           },
-          "blink" : {
-	    "frames" : 1,
-	    "mode" : "transition",
-	    "transition" : "idle"
+          "blink": {
+            "frames": 1,
+            "mode": "transition",
+            "transition": "idle"
           },
-          "hop" : {
-	    "frames":4,
-	    "cycle":0.425,
-	    "mode" : "transition",
-	    "transition" : "hopfull",
-	    "properties" : {
-	      "immediateSoundRangeMultiplier" : 0.5
-	    },
-	    "frameProperties" : {
-	      "immediateSound" : [ "", "/sfx/npc/monsters/gleap_hop.ogg" ]
-	    }
+          "hop": {
+            "frames": 4,
+            "cycle": 0.425,
+            "mode": "transition",
+            "transition": "hopfull",
+            "properties": {
+              "immediateSoundRangeMultiplier": 0.5
+            },
+            "frameProperties": {
+              "immediateSound": ["", "/sfx/npc/monsters/gleap_hop.ogg"]
+            }
           },
-          "hopfull" : {
-	    "cycle":0.425,
-	    "frames":4
+          "hopfull": {
+            "cycle": 0.425,
+            "frames": 4
           },
-          "fall" : {
-	    "cycle":0.425,
-	    "frames":4
+          "fall": {
+            "cycle": 0.425,
+            "frames": 4
           },
-          "land" : {
-	    "cycle":0.425,
-	    "frames":4,
-	    "mode" : "transition",
-	    "transition" : "idle"
+          "land": {
+            "cycle": 0.425,
+            "frames": 4,
+            "mode": "transition",
+            "transition": "idle"
           }
         }
       },
-      "damage" : {
-        "priority" : 8,
-        "default" : "none",
-        "states" : {
-          "none" : {
-	    "frames" : 1
+      "damage": {
+        "priority": 8,
+        "default": "none",
+        "states": {
+          "none": {
+            "frames": 1
           },
-          "stunned" : {
-	    "frames" : 1
+          "stunned": {
+            "frames": 1
           }
         }
       },
-      "releaseParticles" : {
-        "default" : "off",
-        "states" : {
-          "off" : {
-	    "frames" : 1,
-	    "properties" : {
-	      "particleEmittersOff" : [ "releaseParticles" ]
-	    }
+      "releaseParticles": {
+        "default": "off",
+        "states": {
+          "off": {
+            "frames": 1,
+            "properties": {
+              "particleEmittersOff": ["releaseParticles"]
+            }
           },
-          "on" : {
-	    "frames" : 1,
-	    "cycle" : 0.1,
-	    "mode" : "loop",
-	    "transition" : "off",
-	    "properties" : {
-	      "particleEmittersOn" : [ "releaseParticles" ]
-	    }
+          "on": {
+            "frames": 1,
+            "cycle": 0.1,
+            "mode": "loop",
+            "transition": "off",
+            "properties": {
+              "particleEmittersOn": ["releaseParticles"]
+            }
           }
         }
       }
     },
 
-    "parts" : {
-      "body" : {
-        "properties" : {
-          "transformationGroups" : [ "body" ],
-          "offset" : [-0.0625, 0]
+    "parts": {
+      "body": {
+        "properties": {
+          "transformationGroups": ["body"],
+          "offset": [-0.0625, 0]
         },
-        "partStates" : {
-          "body" : {
-	    "idle" : {
-	      "properties" : {
-	        "image" : "<partImage>:aggro.<frame>"
-	      }
-	    },
-	    "blink" : {
-	      "properties" : {
-	        "image" : "<partImage>:aggro.2"
-	      }
-	    },
-	    "hop" : {
-	      "properties" : {
-	        "image" : "<partImage>:aggro.<frame>"
-	      }
-	    },
-	    "hopfull" : {
-	      "properties" : {
-	        "image" : "<partImage>:aggro.<frame>"
-	      }
-	    },
-	    "fall" : {
-	      "properties" : {
-	        "image" : "<partImage>:aggro.<frame>"
-	      }
-	    },
-	    "land" : {
-	      "properties" : {
-	        "image" : "<partImage>:aggro.<frame>"
-	      }
-	    }
+        "partStates": {
+          "body": {
+            "idle": {
+              "properties": {
+                "image": "<partImage>:aggro.<frame>"
+              }
+            },
+            "blink": {
+              "properties": {
+                "image": "<partImage>:aggro.2"
+              }
+            },
+            "hop": {
+              "properties": {
+                "image": "<partImage>:aggro.<frame>"
+              }
+            },
+            "hopfull": {
+              "properties": {
+                "image": "<partImage>:aggro.<frame>"
+              }
+            },
+            "fall": {
+              "properties": {
+                "image": "<partImage>:aggro.<frame>"
+              }
+            },
+            "land": {
+              "properties": {
+                "image": "<partImage>:aggro.<frame>"
+              }
+            }
           },
-          "damage" : {
-	    "stunned" : {
-	      "properties" : {
-	        "image" : "<partImage>:spin.<frame>"
-	      }
-	    }
+          "damage": {
+            "stunned": {
+              "properties": {
+                "image": "<partImage>:spin.<frame>"
+              }
+            }
           }
         }
       }
     }
   },
 
-  "transformationGroups" : {
-    "body" : { "interpolated" : true }
-  },
-
-  "effects" : {
-    "blink" : {
-      "type" : "flash",
-      "time" : 0,
-      "directives" : "fade=ffffff;0.5"
+  "transformationGroups": {
+    "body": {
+      "interpolated": true
     }
   },
 
-  "particleEmitters" : {
-    "deathPoof" : {
-      "particles" : [
-        { "particle" : "monstersplosion" },
-        { "particle" : "gleapsplat" },
-        { "particle" : "gleapsplat" },
-        { "particle" : "gleapsplat" },
-        { "particle" : "gleapsplat" },
-        { "particle" : "gleapsplat" },
-        { "particle" : "gleapsplat" },
-        { "particle" : "gleapsplat" },
-        { "particle" : "gleapsplat" },
-        { "particle" : "gleapsplat" },
-        { "particle" : "deathfizz1left" },
-        { "particle" : "deathfizz1right" },
-        { "particle" : "deathfizz2left" },
-        { "particle" : "deathfizz2right" },
-        { "particle" : "deathfizz3left" },
-        { "particle" : "deathfizz3right" },
-        { "particle" : "deathfizz4left" },
-        { "particle" : "deathfizz4right" }
+  "effects": {
+    "blink": {
+      "type": "flash",
+      "time": 0,
+      "directives": "fade=ffffff;0.5"
+    }
+  },
+
+  "particleEmitters": {
+    "deathPoof": {
+      "particles": [{
+          "particle": "monstersplosion"
+        }, {
+          "particle": "gleapsplat"
+        }, {
+          "particle": "gleapsplat"
+        }, {
+          "particle": "gleapsplat"
+        }, {
+          "particle": "gleapsplat"
+        }, {
+          "particle": "gleapsplat"
+        }, {
+          "particle": "gleapsplat"
+        }, {
+          "particle": "gleapsplat"
+        }, {
+          "particle": "gleapsplat"
+        }, {
+          "particle": "gleapsplat"
+        }, {
+          "particle": "deathfizz1left"
+        }, {
+          "particle": "deathfizz1right"
+        }, {
+          "particle": "deathfizz2left"
+        }, {
+          "particle": "deathfizz2right"
+        }, {
+          "particle": "deathfizz3left"
+        }, {
+          "particle": "deathfizz3right"
+        }, {
+          "particle": "deathfizz4left"
+        }, {
+          "particle": "deathfizz4right"
+        }
       ]
     },
-    "captureParticles" : {
-      "particles" : [
-        { "particle" : "monstercapture" }
+    "captureParticles": {
+      "particles": [{
+          "particle": "monstercapture"
+        }
       ]
     },
-    "releaseParticles" : {
-      "particles" : [
-        { "particle" : "monsterrelease" }
+    "releaseParticles": {
+      "particles": [{
+          "particle": "monsterrelease"
+        }
       ]
     },
-    "teleportOut" : {
-      "particles" : [
-        { "particle" : "monstercapture" }
+    "teleportOut": {
+      "particles": [{
+          "particle": "monstercapture"
+        }
       ]
     },
-    "teleportIn" : {
-      "particles" : [
-        { "particle" : "monsterrelease" }
+    "teleportIn": {
+      "particles": [{
+          "particle": "monsterrelease"
+        }
       ]
     },
-    "levelUp" : {
-      "particles" : [
-        { "particle" : "monsterlevelup" }
+    "levelUp": {
+      "particles": [{
+          "particle": "monsterlevelup"
+        }
       ]
     }
   },
 
-  "sounds" : {
-    "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
+  "sounds": {
+    "aggroHop": ["/sfx/npc/monsters/monster_surprise.ogg"],
+    "deathPuff": ["/sfx/npc/enemydeathpuff.ogg"]
   }
 }

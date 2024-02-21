@@ -1,0 +1,26 @@
+[
+    {
+        "op": "add",
+        "path": "/parts/-",
+        "value": {
+            "name": "sb_oceanship",
+            "rules": [
+                [
+                    "maxSpawnCount",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "def": [
+                "tmx",
+                "sb_oceanship.json"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/metadata/anchor/-",
+        "value": "sb_oceanship"
+    }
+]

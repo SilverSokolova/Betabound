@@ -1,0 +1,11 @@
+{
+  "name": "sb_killcount-lunarmission1",
+  "effectConfig": {
+    "items": {
+      "23": "sb_lunarrecord1-codex",
+      "39": "sb_lunarrecord2-codex",
+      "50": "sb_lunarrecord3-codex"
+    }
+  },
+  "scripts": ["killcount.lua"]
+}

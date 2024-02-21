@@ -30,12 +30,12 @@ function input(args)
 
     if args.moves[dir] then
       if not inputs[dir] then
-	if doubleTapTimers[dir] > 0 then
-	  inputs[dir] = true
-	  return actions[dir]
-	else
-	  doubleTapTimers[dir] = config.getParameter("maxDoubleTapTime")
-	end
+  if doubleTapTimers[dir] > 0 then
+    inputs[dir] = true
+    return actions[dir]
+  else
+    doubleTapTimers[dir] = config.getParameter("maxDoubleTapTime")
+  end
       end
       inputs[dir] = true
     else

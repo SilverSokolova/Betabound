@@ -1,11 +1,15 @@
 {
-  "name" : "sb_reducefalldamage",
-  "type" : "head",
-  "icon" : "/interface/statuses/nofalldamage.png",
-  "scripts" : [],
-  "sb_effect" : ["sb_reducefalldamagetech",{"stat":"fallDamageMultiplier","effectiveMultiplier":0.6}],
-  "sb_suitImage" : "?replace;73daff=f8f8f8;27abff=d7d7d7;117ee4=acacac;1f45d4=9d9d9d;002b72=8e8e8e;001522=7f7f7f",
-  "rarity" : "Legendary",
-  "description" : "Provides the wearer with resistance to fall damage.",
-  "shortDescription" : "Fall Dampener"
+  "name": "sb_reducefalldamage",
+  "type": "head",
+  "icon": "/interface/statuses/nofalldamage.png",
+  "scripts": [],
+  "sb_effect": ["sb_reducefalldamagetech", {
+      "stat": "fallDamageMultiplier",
+      "effectiveMultiplier": 0.6
+    }
+  ],
+  "sb_suitImage": "?replace;73daff=f8f8f8;27abff=d7d7d7;117ee4=acacac;1f45d4=9d9d9d",
+  "rarity": "Legendary",
+  "description": "Provides resistance to fall damage.",
+  "shortDescription": "Fall Dampener"
 }

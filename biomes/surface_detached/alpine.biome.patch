@@ -1,8 +1,8 @@
 [
   [
     {"op":"test","path":"/undergroundPlaceables/items"},
-	  {"op":"add","path":"/undergroundPlaceables/items/-","value":{
-	    "mode":"floor",
+    {"op":"add","path":"/undergroundPlaceables/items/-","value":{
+      "mode":"floor",
       "priority":1.5,
       "variants":1,
       "distribution":"/biomes/distributions.config:mainBiomeEncounterDungeon",

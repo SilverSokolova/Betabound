@@ -1,14 +1,13 @@
 {
-  "name" : "sb_explosiveprotection",
-  "type" : "head",
-  "icon" : "/tech/starbound/explosiveprotection.png",
-  "scripts" : [],
-  "sb_effect" : ["sb_explosiveprotectiontech"],
-  "sb_suitImage" : "?replace;73daff=f9a763;27abff=f89646;117ee4=f78529;1f45d4=c62a00;002b72=a72400;001522=881d00",
-  "rarity" : "Rare",
-  "tooltipKind" : "sb_object4",
-  "description" : "Any damage taken by the wearer will be released in an explosion after a few seconds.",
-  "shortDescription" : "Explosive Protection",
+  "name": "sb_explosiveprotection",
+  "type": "head",
+  "icon": "/tech/starbound/explosiveprotection.png",
+  "scripts": [],
+  "sb_effect": ["sb_explosiveprotectiontech"],
+  "sb_suitImage": "?replace;73daff=f9a763;27abff=f89646;117ee4=f78529;1f45d4=c62a00",
+  "rarity": "Rare",
+  "description": "Any damage taken will be released in an explosion after a few seconds.",
+  "shortDescription": "Explosive Protection",
 
-  "rechargeTime" : 5
+  "rechargeTime": 5
 }

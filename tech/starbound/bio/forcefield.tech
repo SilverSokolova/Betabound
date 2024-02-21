@@ -1,13 +1,12 @@
 {
-  "name" : "sb_forcefield",
-  "type" : "head",
-  "icon" : "/tech/starbound/forcefield.png",
-  "scripts" : [],
-  "sb_effect" : "sb_forcefieldtech",
-  "sb_suitImage" : "?replace;73daff=9bccff;27abff=5dadff;117ee4=1f8dff;1f45d4=0060c1;002b72=003364;001522=002345",
-  "rarity" : "Legendary",
-  "tooltipKind" : "sb_object4",
-  "description" : "Provides the wearer with a constant force field which uses energy to absorb damage.",
-  "sb_longDescription" : "The strength of the force field is related to the wearer's current energy.",
-  "shortDescription" : "Force Field"
+  "name": "sb_forcefield",
+  "type": "head",
+  "icon": "/tech/starbound/forcefield.png",
+  "scripts": [],
+  "sb_effect": "sb_forcefieldtech",
+  "sb_suitImage": "?replace;73daff=9bccff;27abff=5dadff;117ee4=1f8dff;1f45d4=0060c1",
+  "rarity": "Legendary",
+  "description": "A constant force field which uses energy to absorb damage.",
+  "sb_longDescription": "The strength of the force field is related to the wearer's current energy.",
+  "shortDescription": "Force Field"
 }

@@ -1,0 +1,24 @@
+{
+  "id": "sb_lunarrecord2",
+  "species": "human",
+  "title": "Supervisor's Records 2",
+  "description": "A record from the Erchius Mining Facility.",
+  "icon": "sb_lunarrecord.png:2",
+  "contentPages": [
+"The crew here mine for materials - Some crystal ore that is used to create warp drives.
+
+To be honest, I am not concerned with the technical details - Science isn't my department. I'm more concerned with the wellbeing of the crew.
+
+They took me on a complimentary tour of the mines today. I was glad to see everyone wearing their regulation safety helmets! Hopefully we'll have no accidents - The amount of paperwork involved would be stressful.",
+
+"There were some strange noises coming from the mines when I visited. The crew assured me that it was probably just the machinery.
+
+The glowing crystals made me feel quite sick - I'm surprised the crew haven't complained about it themselves."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object",
+    "sb_unnumberedCodexIcon": "sb_lunarrecord.png:0"
+  }
+}

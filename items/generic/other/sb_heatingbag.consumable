@@ -1,0 +1,14 @@
+{
+  "itemName": "sb_heatingbag",
+  "price": 100,
+  "rarity": "Uncommon",
+  "category": "medicine",
+  "inventoryIcon": "sb_heatingbag.png",
+  "tooltipKind": "sb_object",
+  "description": "Protect your body from frost.",
+  "shortdescription": "Heating Bag",
+  "effects": [["sb_heatingbag"]],
+  "emote": "",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "emitters": ["stimuse"]
+}

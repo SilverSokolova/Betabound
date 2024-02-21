@@ -1,0 +1,15 @@
+[
+  [{
+      "op": "test",
+      "path": "/statusEffects/0",
+      "value": "glow"
+    }, {
+      "op": "replace",
+      "path": "/statusEffects/0",
+      "value": {
+        "effect": "glow",
+        "duration": 180
+      }
+    }
+  ]
+]

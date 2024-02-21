@@ -1,67 +1,67 @@
 {
-  "animatedParts" : {
-    "stateTypes" : {
-      "shield" : {
-        "priority" : 2,
-        "default" : "fulloff",
-        "states" : {
-          "off" : {
-            "frames" : 10,
-            "cycle" : 0.5,
-            "mode" : "transition",
-            "transition" : "fulloff"
+  "animatedParts": {
+    "stateTypes": {
+      "shield": {
+        "priority": 2,
+        "default": "fulloff",
+        "states": {
+          "off": {
+            "frames": 10,
+            "cycle": 0.5,
+            "mode": "transition",
+            "transition": "fulloff"
           },
-          "fulloff" : {
-            "frames" : 1
+          "fulloff": {
+            "frames": 1
           },
-          "recharge" : {
-            "frames" : 4,
-            "cycle" : 0.2,
-            "mode" : "transition",
-            "transition" : "fulloff",
-            "properties" : {
-              "immediateSound" : "/sfx/tech/tech_dash_cooldown2.ogg"
+          "recharge": {
+            "frames": 4,
+            "cycle": 0.2,
+            "mode": "transition",
+            "transition": "fulloff",
+            "properties": {
+              "immediateSound": "/sfx/tech/tech_dash_cooldown2.ogg"
             }
           },
-          "on" : {
-            "frames" : 2,
-            "cycle" : 0.2,
-            "mode" : "loop",
-            "properties" : {
-            //"persistentSound" : "/sfx/tech/tech_hoverloop.ogg"
+          "on": {
+            "frames": 2,
+            "cycle": 0.2,
+            "mode": "loop",
+            "properties": {
+              //"persistentSound" : "/sfx/tech/tech_hoverloop.ogg"
             }
           }
         }
       }
     },
-    "parts" : {      
-      "shield" : {
-        "properties" : {
-          "zLevel" : 5,
-          "centered" : true,
-          "offset" : [0, 0]
+    "parts": {
+      "shield": {
+        "properties": {
+          "zLevel": 5,
+          "centered": true,
+          "offset": [0, 0]
         },
 
-        "partStates" : {
-          "shield" : {
-            "on" : {
-              "properties" : {
-                "image" : "/tech/starbound/shield/shieldbubble.png:on.<frame>"
+        "partStates": {
+          "shield": {
+            "on": {
+              "properties": {
+                "image": "/tech/starbound/shield/shieldbubble.png:on.<frame>"
               }
             },
-            "recharge" : {
-              "properties" : {
-                "image" : "/tech/starbound/dash/recharge.png:<frame>"
+            "recharge": {
+              "properties": {
+                "image": "/tech/starbound/dash/recharge.png:<frame>"
               }
             },
-            "off" : {
-              "properties" : {
-                "image" : "/tech/starbound/shield/shieldbubble.png:flicker.<frame>"
+            "off": {
+              "properties": {
+                "image": "/tech/starbound/shield/shieldbubble.png:flicker.<frame>"
               }
             },
-            "fulloff" : {
-              "properties" : {
-                "image" : "/tech/starbound/shield/shieldbubble.png:off"
+            "fulloff": {
+              "properties": {
+                "image": "/tech/starbound/shield/shieldbubble.png:off"
               }
             }
           }
@@ -69,10 +69,10 @@
       }
     }
   },
-  
-  "sounds" : {
-    "activate" : ["/sfx/tech/tech_doublejump.ogg"],
-    "block" : ["/sfx/npc/boss/cultistboss_shield.ogg"],
-    "beep" : ["/sfx/npc/boss/apeboss_missile.ogg"]
+
+  "sounds": {
+    "activate": ["/sfx/tech/tech_doublejump.ogg"],
+    "block": ["/sfx/npc/boss/cultistboss_shield.ogg"],
+    "beep": ["/sfx/npc/boss/apeboss_missile.ogg"]
   }
 }

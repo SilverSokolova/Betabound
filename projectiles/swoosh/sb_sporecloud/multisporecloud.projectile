@@ -1,53 +1,48 @@
 {
-  "projectileName" : "sb_multisporecloud",
-  "image" : "multisporecloud.png",
-  "animationCycle" : 1,
-  "frameNumber" : 1,
-  "timeToLive" : 0.01,
-  "speed" : 100,
-  "physics" : "laser",
-  "flippable" : true,
-  "pointLight" : false,
-  "periodicActions" : [
-    {
-	"action" : "sound",
-	"options" : ["/sfx/melee/bouquet_hit_organic.ogg"],
-	"time" : 0,
-	"repeat" : false
+  "projectileName": "sb_multisporecloud",
+  "image": "multisporecloud.png",
+  "animationCycle": 1,
+  "frameNumber": 1,
+  "timeToLive": 0.01,
+  "speed": 100,
+  "physics": "laser",
+  "flippable": true,
+  "pointLight": false,
+  "periodicActions": [{
+      "action": "sound",
+      "options": ["/sfx/melee/bouquet_hit_organic.ogg"],
+      "time": 0,
+      "repeat": false
     }
   ],
-  "actionOnReap" : [
-    {
-      "action" : "projectile",
-      "type" : "sb_sporecloud",
-      "firePosition" : [-10, 5],
-      "fuzzAngle" : 360,
-      "angleAdjust" : 0,
-      "inheritDamageFactor" : 0.24
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_sporecloud",
-      "inheritSpeedFactor" : 0.08,
-      "firePosition" : [-10, 5],
-      "fuzzAngle" : 180,
-      "angleAdjust" : 0,
-      "inheritDamageFactor" : 0.24
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_sporecloud",
-      "inheritSpeedFactor" : 0.1,
-      "firePosition" : [-10, 5],
-      "fuzzAngle" : 30,
-      "angleAdjust" : 0,
-      "inheritDamageFactor" : 0.24
-    },
-    {
-      "action" : "sound",
-      "options" : ["/sfx/projectiles/fire_out_louder.ogg"]
+  "actionOnReap": [{
+      "action": "projectile",
+      "type": "sb_sporecloud",
+      "firePosition": [-10, 5],
+      "fuzzAngle": 360,
+      "angleAdjust": 0,
+      "inheritDamageFactor": 0.24
+    }, {
+      "action": "projectile",
+      "type": "sb_sporecloud",
+      "inheritSpeedFactor": 0.08,
+      "firePosition": [-10, 5],
+      "fuzzAngle": 180,
+      "angleAdjust": 0,
+      "inheritDamageFactor": 0.24
+    }, {
+      "action": "projectile",
+      "type": "sb_sporecloud",
+      "inheritSpeedFactor": 0.1,
+      "firePosition": [-10, 5],
+      "fuzzAngle": 30,
+      "angleAdjust": 0,
+      "inheritDamageFactor": 0.24
+    }, {
+      "action": "sound",
+      "options": ["/sfx/projectiles/fire_out_louder.ogg"]
     }
   ],
-  "damagePoly" : [[-14, 0], [-10, -10], [0, -14], [10, -10], [14, 0], [10, 10], [0, 14], [-10, 10]],
-  "damageKind" : "poison"
+  "damagePoly": [[-14, 0], [-10, -10], [0, -14], [10, -10], [14, 0], [10, 10], [0, 14], [-10, 10]],
+  "damageKind": "poison"
 }

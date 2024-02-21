@@ -1,0 +1,7 @@
+[
+    {
+        "op": "add",
+        "path": "/paneLayout/pageText/lineSpacing",
+        "value": 1.2
+    }
+]

@@ -52,6 +52,8 @@
 ,[{"op":"add","path":"/jungleTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_toxicbroadsword"}}]
 ,[{"op":"add","path":"/jungleTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_tranquilizergun"}}]
 ,[{"op":"add","path":"/jungleTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_tranquilizergun-recipe"}}]
+,[{"op":"add","path":"/jungleTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_poisondagger"}}]
+,[{"op":"add","path":"/jungleTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_poisondagger-recipe"}}]
 
   // ================================
   //            Alien
@@ -87,6 +89,8 @@
 
 
 //scorched city
+,[{"op":"add","path":"/scorchedcityTreasure/0/1/pool/-","value":{"weight":0.1,"item":"vrheadset"}}]
+
 //tentacle
 
 
@@ -115,14 +119,14 @@
 ,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":0.3,"item":"flowerstatue-recipe"}}]
 
   // ================================
-  //		  Oasis
+  //      Oasis
   // ================================
 ,[{"op":"test","path":"/oasisTreasure/0/1/pool/9/weight","value":0.01},{"op":"test","path":"/oasisTreasure/0/1/pool/9/item","value":"oasisbed"},{"op":"replace","path":"/oasisTreasure/0/1/pool/9/weight","value":0.3}]
 ,[{"op":"add","path":"/oasisTreasure/0/1/pool/-","value":{"weight":0.3,"item":"deckchair"}}]
 ,[{"op":"add","path":"/oasisTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_throwingreed",5]}}]
 
   // ================================
-  //		  Tar
+  //      Tar
   // ================================
 ,[{"op":"add","path":"/tarTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_tarhammer"}}]
 ,[{"op":"add","path":"/tarTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_tarhammer-recipe"}}]
@@ -150,7 +154,7 @@
 ,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.5,"item":"rainbowpainting-recipe"}}]
 
   // ================================
-  //		Bone
+  //    Bone
   // ================================
 ,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.05,"item":["bonematerial",10]}}] //already in bone caves
 //,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_bonesword"}}]
@@ -161,7 +165,7 @@
 
 
   // ================================
-  //	         Alpine
+  //           Alpine
   // ================================
 ,[{"op":"add","path":"/alpineTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_boulderstaff"}}]
 //,[{"op":"add","path":"/alpineTreasure/0/1/pool/-","value":{"weight":0.15,"item":"sb_iceaxe"}}]
@@ -169,7 +173,7 @@
 
 
   // ================================
-  //	    Bio Luminescent
+  //      Bio Luminescent
   // ================================
 ,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_glowchest-recipe"}}]
 ,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_firesword"}}]
@@ -254,7 +258,7 @@
 ,[{"op":"add","path":"/wildernessTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_swingingvine"}}]
 
   // ================================
-  //	Underground Gnome Village
+  //  Underground Gnome Village
   // ================================
 //,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.003,"item":"sb_rock02-recipe"}}]
 //,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.003,"item":"sb_rock03-recipe"}}]
@@ -282,7 +286,7 @@
 //underground tar
 
   // ================================
-  //		Bone Cave
+  //    Bone Cave
   // ================================
 ,[{"op":"add","path":"/boneCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_bonerifle"}}]
 ,[{"op":"add","path":"/boneCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_boneshotgun"}}]
@@ -291,7 +295,7 @@
 
 
   // ================================
-  //		Ice Cave
+  //    Ice Cave
   // ================================
 ,[{"op":"add","path":"/iceCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_icechucker"}}]
 ,[{"op":"add","path":"/iceCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"frozenbow"}}]
@@ -301,7 +305,7 @@
 
 
   // ================================
-  //		Stone Cave
+  //    Stone Cave
   // ================================
 //,[{"op":"test","path":"/stoneCaveTreasure/0/1/pool/0/item/0","value":"limestone"},{"op":"test","path":"/stoneCaveTreasure/0/1/pool/0/weight","value":1.0},{"op":"replace","path":"/stoneCaveTreasure/0/1/pool/0/weight","value":0.5}]
 //,[{"op":"add","path":"/stoneCaveTreasure/0/1/pool/-","value":{"weight":1,"item":["rock01",15]}}]
@@ -310,7 +314,7 @@
 ,[{"op":"add","path":"/stoneCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_cavehammer"}}]
 
   // ================================
-  //		Luminous Cave
+  //    Luminous Cave
   // ================================
 ,[{"op":"add","path":"/luminousCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_biostaff"}}]
 ,[{"op":"add","path":"/luminousCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_biostaff-recipe"}}]
@@ -318,20 +322,20 @@
 
 
   // ================================
-  //	    Underground Flesh
+  //      Underground Flesh
   // ================================
 ,[{"op":"add","path":"/fleshTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_fleshstaff"}}]
 ,[{"op":"add","path":"/fleshTreasure/0/1/pool/-","value":{"weight":0.3,"item":"fleshbed-recipe"}}]
 
 
   // ================================
-  //	    Underground Cell
+  //      Underground Cell
   // ================================
 ,[{"op":"add","path":"/cellTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_chromosword"}}]
 ,[{"op":"add","path":"/cellTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_chromosword-recipe"}}]
 
   // ================================
-  //		Slime Cave
+  //    Slime Cave
   // ================================
 ,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.05,"item":"sb_slimehide-recipe"}}]
 ,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.2,"item":["sb_slimehandgrapple",5]}}]
@@ -344,7 +348,7 @@
 
 
   // ================================
-  //	OLD AND BUSTED - Sandstone
+  //  OLD AND BUSTED - Sandstone
   // ================================
 //,[{"op":"test","path":"/sandstoneTreasure/0/1/poolRounds/0/1","value":1},{"op":"replace","path":"/sandstoneTreasure/0/1/poolRounds/0/1","value":2}]
 //,[{"op":"test","path":"/sandstoneTreasure/0/1/poolRounds/1/1","value":2},{"op":"replace","path":"/sandstoneTreasure/0/1/poolRounds/1/1","value":3}]
@@ -357,7 +361,7 @@
 
 
   // ================================
-  //	OLD AND BUSTED - Geometric
+  //  OLD AND BUSTED - Geometric
   // ================================
 ,[{"op":"test","path":"/geometricTreasure/0/1/pool/0/item","value":"geometricchair-recipe"},{"op":"replace","path":"/geometricTreasure/0/1/pool/0/item","value":"sb_geometricchair-recipe"}]
 ,[{"op":"test","path":"/geometricTreasure/0/1/pool/1/item","value":"geometricchest-recipe"},{"op":"replace","path":"/geometricTreasure/0/1/pool/1/item","value":"sb_geometricchest-recipe"}]

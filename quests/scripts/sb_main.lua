@@ -90,6 +90,13 @@ function questStart()
   if associatedMission then
     player.enableMission(associatedMission)
   end
+
+  local giveBlueprints = config.getParameter("sb_acceptBlueprints")
+  if giveBlueprints then
+    for _,blueprint in ipairs(giveBlueprints) do
+      player.giveBlueprint(blueprint)
+    end
+  end
 end
 
 function questComplete()

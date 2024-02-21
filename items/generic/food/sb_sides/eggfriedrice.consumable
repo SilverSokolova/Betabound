@@ -1,20 +1,24 @@
 {
-  "itemName" : "sb_eggfriedrice",
-  "price" : 190,
-  "foodValue" : 25,
-  "tooltipKind" : "sb_object",
-  "effects" : [[
-	{"effect":"maxhealthscalingboostfood","duration":225},
-	{"effect":"sb_health","duration":15},
-	"sb_foodheal70"
-  ]],
-  "rarity" : "Common",
-  "sb_plateHide" : true,
-  "inventoryIcon" : "eggfriedrice.png",
-  "category" : "preparedFood",
-  "description" : "Fried rice, a Hylotl staple.",
-  "shortdescription" : "Eggshoot Fried Rice",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 3
+  "itemName": "sb_eggfriedrice",
+  "price": 190,
+  "foodValue": 25,
+  "tooltipKind": "sb_object",
+  "effects": [[{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 225
+      }, {
+        "effect": "sb_health",
+        "duration": 15
+      },
+      "sb_foodheal70"
+    ]],
+  "rarity": "Common",
+  "sb_plateHide": true,
+  "inventoryIcon": "eggfriedrice.png",
+  "category": "preparedFood",
+  "description": "Fried rice, a Hylotl staple.",
+  "shortdescription": "Eggshoot Fried Rice",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 3
 }

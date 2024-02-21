@@ -30,10 +30,14 @@
           }
         },
         "blade": {
-          "properties": {}
+          "properties": {
+            "offset": [-0.125, 0.25]
+          }
         },
         "handle": {
-          "properties": {}
+          "properties": {
+            "offset": [-0.125, 0.25]
+          }
         }
       }
     },

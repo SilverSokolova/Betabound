@@ -1,0 +1,5 @@
+{
+  "input": ["siliconboard", "goldbar"],
+  "output": "sb_blankscandata",
+  "groups": ["sb_roboticcraftingtable", "tools", "all"]
+}

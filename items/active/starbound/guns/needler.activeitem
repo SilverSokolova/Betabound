@@ -11,6 +11,7 @@
   "category": "assaultRifle",
   "twoHanded": true,
   "sb_waBan": true,
+  "sb_disallowAbilityMods": true,
   "level": 1,
   "itemTags": ["weapon", "ranged", "assaultrifle", "needler", "floran", "upgradeableWeapon"],
   "tooltipFields": {

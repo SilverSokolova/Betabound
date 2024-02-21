@@ -1,0 +1,20 @@
+{
+  "projectileName": "sb_electrogrenadeelectric",
+  "physics": "grenade",
+  "image": "/projectiles/activeitems/staff/elementstickyspikes/electricspikes.png",
+  "animationCycle": 0.3,
+  "lightColor": [90, 60, 110],
+  "frameNumber": 5,
+  "windupFrames": 5,
+  "power": 5,
+  "speed": 20,
+  "timeToLive": 1.5,
+  "bounces": -1,
+  "piercing": true,
+  "damageTeam": {"type" : "indiscriminate"},
+  "damageKind": "electricbarrier",
+  "damagePoly": [[-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6]],
+  "damageRepeatTimeout": 0.5,
+  "statusEffects": ["electrified"],
+  "emitters": ["electricplasmapurple","lightningthrowertrail"]
+}

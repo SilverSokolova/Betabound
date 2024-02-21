@@ -33,19 +33,12 @@
   "level": 2,
   "primaryAbilityType": "sb_gun",
   "primaryAbility": {
-    "stances": {
-      "cooldown": {
-        "armRotation": 3,
-        "weaponRotation": 3,
-        "recoil": false
-      }
-    },
     "fireTime": 0.6,
     "energyUsage": 9.75,
     "inaccuracy": 0.025,
     "projectileType": "sb_brainshock",
     "projectileParameters": {
-      "speed": 5
+      "speed": 20
     }
   },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"

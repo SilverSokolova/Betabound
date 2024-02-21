@@ -1,100 +1,63 @@
 {
-  "name" : "skyrail", //skyrail is the prefix and you cannot prove otherwise.
-  "type" : "head",
+  "name": "skyrail", //skyrail is the prefix and you cannot prove otherwise.
+  "type": "head",
 
-  "rarity" : "uncommon",
-  "chipCost" : 1,
-  "icon" : "/tech/starbound/skyrail.png",
-  "description" : "Generates a sky hook, allowing you to attach yourself to skyrails. ^#0F0;[F]",
-  "sb_briefDescription" : "Generates a sky hook, for attaching to skyrails. ^#0f0;[F]",
-  "shortDescription" : "Skyrail Rider",
+  "rarity": "uncommon",
+  "chipCost": 1,
+  "icon": "/tech/starbound/skyrail.png",
+  "description": "Generates a sky hook, for attaching to skyrails. ^#0f0;[F]",
+  "shortDescription": "Skyrail Rider",
 
-  "scripts" : ["skyrail.lua"],
-  "actions" : ["step"],
-  "animator" : "skyrail.animation",
+  "scripts": ["skyrail.lua"],
+  "animator": "skyrail.animation",
 
-  "hookOffset" : [0, 2.0],
-  "railtestStartOffset" : [0.0, -2.0],
-  "railtestLength" : 4.0,
-  "railLeaveTime" : 0.4,
+  "hookOffset": [0, 2],
+  "railLeaveTimeAscension": 0.4,
+  "railLeaveTimeDescension": 0.2,
 
-  "minSpeed" : 1.0,
-// "minSpeed" : 0,
-  "minBounceSpeed" : 5.0,
-  "bounceFactor" : 0.25,
+  "jumpHeightBoost": 2.2,
+  "acsensionJumpHeight": 125,
+  "bounceFactor": 0.25,
 
-  "railSurfaces" : ["skyrailplatform", "skyrailbreak", "skyrailboost", "skyrail_diodeR", "skyrail_diodeL", "skyrail_asc", "skyrail_desc", "compositerail", "rustyrail", "metamaterial:railsafe","metamaterial:railstop","metamaterial:railreverse","compositerail","rustyrail"],
+  "railConfig": {
+    "useGravity": true,
+    "gravityMultiplier": 0.5,
+    "speed": 20
+  },
 
-  "surfaceBehaviour" : {
-    "default" : {
-//    "maxSpeed" : 60.0,
-      "acceleration" : 15.0
+  //hey so dont tell anybody but if you remove this table you get a tech that can ride regular rails. also add `"collisionSearchSet": ["None"]` so it sees rails while you're falling
+  "railTypes": {
+    "skyrailplatform": {
+      "speedLimit": 40,
+      "speedIncrement": 0.1,
+      "friction": 1
     },
-
-    "rustyrail" : {
-      "maxSpeed" : 20.0,
-      "acceleration" : 10
+    "skyrailboost": {
+      "speedIncrement": 0.5,
+      "speedLimit": 110,
+      "friction": -1
     },
-
-    "compositerail" : {
-      "maxSpeed" : 50.0,
-      "acceleration" : 12
+    "skyrailbreak": {
+      "speedLimit": 10,
+      "friction": 3
     },
-
-    "metamaterial:railsafe" : {
-      "maxSpeed" : 60.0,
-      "acceleration" : 15.0
+    "skyrail_diodeL": {
+      "speedLimit": 40,
+      "friction": 1
     },
-
-    "metamaterial:railstop" : {
-      "maxSpeed" : 0,
-      "speedMulDt" : -1.0,
-      "acceleration" : -15.0
+    "skyrail_diodeR": {
+      "speedLimit": 40,
+      "friction": 1
     },
-
-//todo: make rail reverse reverse rail
-    "metamaterial:railreverse" : {
-      "maxSpeed" : 60.0,
-      "acceleration" : 15.0
+    "skyrail_asc": {
+      "speedLimit": 40,
+      "friction": 1,
+      "function": "jump"
     },
-
-    "skyrailplatform" : {
-      "maxSpeed" : 110.0,
-      "speedMulDt" : 10.0,
-      "speedMul" : 2 //,
-//      "speedMulDt" : 1.0,
-//      "acceleration" : 15.0
-    },
-
-    "skyrailboost" : {
-      "speedMulDt" : 20.0,
-      "speedMul" : 2,
-      "acceleration" : 60,
-      "maxSpeed" : 210.0
-    },
-
-    "skyrailbreak" : {
-      "speedMulDt" : 0.05,
-      "acceleration" : -3,
-      "maxSpeed" : 10.0
-    },
-
-    "skyrail_asc" : {
-      "searchOrder" : "TMB"
-    },
-
-    "skyrail_desc" : {
-      "searchOrder" : "BMT"
-    },
-
-    "skyrail_diodeR" : {
-      "speedMulDir" : [-1, 0.75],
-      "dirSet" : 1.0
-    },
-
-    "skyrail_diodeL" : {
-      "speedMulDir" : [1, 0.75],
-      "dirSet" : -1.0
+    "skyrail_desc": {
+      "speedLimit": 40,
+      "friction": 1,
+      "function": "fall"
     }
   }
 }

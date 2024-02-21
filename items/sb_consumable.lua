@@ -2,7 +2,7 @@ function init()
   animationConfig = config.getParameter("animation")
   if animationConfig then
     local itemConfig = root.itemConfig(config.getParameter("itemName"))
-    animationConfig = root.assetJson(animationConfig:sub(1,1) == "/" and animationConfig or itemConfig.directory..itemConfig.config.animation).extraSounds
+    animationConfig = root.assetJson(animationConfig:sub(1,1) == "/" and animationConfig or itemConfig.directory..animationConfig).extraSounds
   end
   activeItem.setArmAngle(-math.pi / 2)
   swingStart = config.getParameter("swingStart", -60) * math.pi / 180
@@ -10,24 +10,22 @@ function init()
   currentSwing = swingStart
   currentAngle = -swingStart
 
-  useTime = config.getParameter("useTime",0.1)
-  foodValue = config.getParameter("foodValue",0)
-  ammoUsage = config.getParameter("ammoUsage",1)
-  resource = config.getParameter("resource","food")
+  useTime = config.getParameter("useTime", 0.1)
+  foodValue = config.getParameter("foodValue", 0)
+  ammoUsage = config.getParameter("ammoUsage", 1)
+  resource = config.getParameter("resource", "food")
+  giveWellfed = config.getParameter("giveWellfed", true) and resource == "food"
   returnItem = config.getParameter("returnItem")
-
   possibleEffects = config.getParameter("effects")
-  selectEffects()
   blockingEffects = config.getParameter("blockingEffects")
+  autoFire = config.getParameter("autoFire")
+  selectEffects()
 
-  local category = config.getParameter("category","")
+  local category = config.getParameter("category", "")
   if category == "preparedFood" then category = "food" end
   soundSet = config.getParameter("soundSet", animator.hasSound(category) and category or "none")
   emote = config.getParameter("emote", (category == "food" or category == "drink") and "eat" or nil)
   if emote == "" then emote = nil end
-
-  giveWellfed = config.getParameter("giveWellfed",true) and resource == "food"
-  autoFire = config.getParameter("autoFire")
 
   justUsed = false
 
@@ -47,7 +45,7 @@ function update(dt, fireMode)
 
   if useTimer then
     useTimer = useTimer - dt
-    currentAngle = ((currentSwing - swingFinish) * useTimer / 0.15 * 1)/2.4
+    currentAngle = ((currentSwing - swingFinish) * useTimer / 0.15 * 1) / 2.4
     activeItem.setArmAngle(currentAngle)
 
     if currentAngle >= swingFinish then -- and useTimer <= 0 then
@@ -61,16 +59,17 @@ function update(dt, fireMode)
       else
         animator.playSound(selectedSoundSet)
       end
-      if emote then activeItem.emote(emote[math.random(#emote)]) end
+
       if status.isResource(resource) then
         if giveWellfed and status.resourceMax(resource) <= foodValue + status.resource(resource) then
           status.addEphemeralEffect("wellfed")
         end
-        status.modifyResource(resource,foodValue)
+        status.modifyResource(resource, foodValue)
       elseif giveWellfed then
         status.addEphemeralEffect("wellfed")
       end
 
+      if emote then activeItem.emote(emote[math.random(#emote)]) end
       if effects then status.addEphemeralEffects(effects) end
 
       item.consume(ammoUsage)
@@ -92,4 +91,5 @@ function selectEffects()
     effects = effects[math.random(#effects)]
   end
 end
-function applyAdditionalEffects() end
+
+function applyAdditionalEffects() end --intentionally left blank for hooking

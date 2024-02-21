@@ -1,0 +1,11 @@
+{
+  "name": "sb_killcount-floranmission1",
+  "effectConfig": {
+    "items": {
+      "12": "sb_floranmission1-codex",
+      "24": "sb_floranmission2-codex",
+      "34": "sb_floranmission3-codex"
+    }
+  },
+  "scripts": ["killcount.lua"]
+}

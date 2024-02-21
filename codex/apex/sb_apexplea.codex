@@ -1,0 +1,18 @@
+{
+  "id": "sb_apexplea",
+  "species": "apex",
+  "title": "Resistance Plea",
+  "description": "A final request from the Resistance against the Miniknog.",
+  "icon": "apexcover6.png",
+  "contentPages": [
+    "To our comrade,
+The Resistance is counting on you. Even now, the Miniknog descend on our secret base. You're our last, best hope, and only partly because you're the sole member of our cell who can fly a spaceship.
+
+Go now, brave Apex. Go, spread the plight of our people to the universe at large. Call for help! Return with an army so that we may crush Big Ape once and for all! And pick up some bananas on your way back. Just be sure not to run out of fuel."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

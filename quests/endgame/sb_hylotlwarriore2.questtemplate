@@ -15,13 +15,13 @@
   },
 
   "updateDelta" : 10,
-  "script" : "/quests/scripts/main.lua",
+  "script" : "/quests/scripts/sb_main.lua",
   "scriptConfig" : {
     "portraits" : {
       "default" : "questGiver"
     },
     "requireTurnIn" : true,
-    "acceptItems" : ["kennel-recipe"],
+    "sb_acceptBlueprints" : ["kennel"],
     "setUniverseFlags" : ["sb_hylotlwarriorE2"],
     "turnInDescription" : "Speak to ^orange;the Hylotl warrior^reset; at the ^orange;outpost^reset;",
     "conditions" : [

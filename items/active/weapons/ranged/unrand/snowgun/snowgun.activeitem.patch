@@ -18,8 +18,8 @@
 [{"op":"test","path":"/altAbilityType","inverse":true},{"op":"test","path":"/altAbility","inverse":true},
 {"op":"add","path":"/altAbilityType","value":"sb_shotgun"},
 {"op":"add","path":"/altAbility","value":{
-	"name":"Explosive Snowballs",
-	"projectileType":"icecrabcanosnowball",
-	"usePrimaryFireSound":true
+  "name":"Explosive Snowballs",
+  "projectileType":"icecrabcanosnowball",
+  "usePrimaryFireSound":true
 }}]
 ]

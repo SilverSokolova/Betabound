@@ -1,0 +1,8 @@
+{
+  "name": "sb_heatingbag",
+  "effectConfig": {},
+  "defaultDuration": 300,
+  "scripts": ["iceblock.lua"],
+  "label": "Ice Resistance",
+  "icon": "/interface/statuses/iceblock.png"
+}

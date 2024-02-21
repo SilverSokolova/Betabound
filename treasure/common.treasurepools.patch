@@ -1,5 +1,5 @@
 [
-		//Upgrade Components + Misc
+    //Upgrade Components + Misc
   [
     {"op":"test","path":"/basicTreasure/0/1/pool/7/item","value":"techcard"},
     {"op":"remove","path":"/basicTreasure/0/1/pool/7/item"},
@@ -31,24 +31,29 @@
   [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.05,"item":"sb_musicsheet"}}],
 
 
-		//Basic Treasure
+    //Basic Treasure
   [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.01,"pool":"sb_dye"}}],
   [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"seed"}}],
 
-		//Valuable Treasure
+    //Valuable Treasure
   [{"op":"add","path":"/valuableTreasure/0/1/pool/-","value":{"weight":0.02,"pool":"costume"}}],
   [{"op":"add","path":"/valuableTreasure/0/1/pool/-","value":{"weight":0.02,"pool":"instrument"}}],
+  [{"op":"add","path":"/valuableTreasure/0/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
 
   [{"op":"add","path":"/valuableTreasure/1/1/pool/-","value":{"weight":0.02,"pool":"costume"}}],
   [{"op":"add","path":"/valuableTreasure/1/1/pool/-","value":{"weight":0.02,"pool":"instrument"}}],
+  [{"op":"add","path":"/valuableTreasure/1/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
 
   [{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.02,"pool":"costume"}}],
   [{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.02,"pool":"instrument"}}],
+  [{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
 
   [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.02,"pool":"costume"}}],
   [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.02,"pool":"instrument"}}],
+  [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
+  [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.08,"item":"sb_elementmod"}}],
 
-		//Tech
+    //Tech
 //[{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.1,"item":"sb_tech"}}],
 //[{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.3,"item":"sb_tech"}}],
 
@@ -57,7 +62,7 @@
   
   [{"op":"add","path":"/techTreasure/0/1/pool/-","value":{"weight":0.02,"item":"sb_tech"}}],
 
-		//Augments
+    //Augments
   [{"op":"add","path":"/augments/0/1/pool/-","value":{"weight":0.5,"item":"sb_energyregenaugment1"}}],
   
   [{"op":"add","path":"/augments/1/1/pool/-","value":{"weight":0.5,"item":"sb_energyregenaugment1"}}],
@@ -76,7 +81,7 @@
   [{"op":"add","path":"/augments/5/1/pool/-","value":{"weight":0.3,"item":"sb_energyregenaugment2"}}],
   [{"op":"add","path":"/augments/5/1/pool/-","value":{"weight":0.5,"item":"sb_energyregenaugment3"}}],
 
-		//Collars
+    //Collars
   [{"op":"add","path":"/petcollars/1/1/pool/-","value":{"weight":0.6,"item":"sb_thornscollar"}}],
   [{"op":"add","path":"/petcollars/2/1/pool/-","value":{"weight":0.3,"item":"sb_thornscollar"}}],
   [{"op":"add","path":"/petcollars/3/1/pool/-","value":{"weight":0.3,"item":"sb_thornscollar"}}],
@@ -84,7 +89,7 @@
   [{"op":"add","path":"/petcollars/5/1/pool/-","value":{"weight":0.1,"item":"sb_thornscollar"}}],
 
 
-		//Ores
+    //Ores
   [{"op":"add","path":"/valuableTreasure/0/1/pool/-","value":{"weight":0.10,"item":["sb_diamondore",2]}}],
   
   [{"op":"add","path":"/valuableTreasure/1/1/pool/-","value":{"weight":0.05,"item":["sb_diamondore",2]}}],
@@ -122,7 +127,7 @@
   [{"op":"add","path":"/ore/3/1/pool/-","value":{"weight":0.1,"item":["durasteelbar",2]}}],
 
 
-		//Throwing
+    //Throwing
   [{"op":"add","path":"/thrownWeapon/0/1/pool/-","value":{"weight":0.40,"item":["sb_throwingneedle",20]}}],
   [{"op":"add","path":"/thrownWeapon/0/1/pool/-","value":{"weight":0.40,"item":["sb_cutterleaf",16]}}],
 
@@ -142,7 +147,7 @@
   [{"op":"add","path":"/thrownWeapon/5/1/pool/-","value":{"weight":0.70,"item":["sb_phoenixemblem",10]}}],
 
 
-		//Buffs
+    //Buffs
   [{"op":"add","path":"/healingItem/1/1/pool/-","value":{"weight":0.20,"item":"sb_gauze"}}],
   [{"op":"add","path":"/healingItem/1/1/pool/-","value":{"weight":0.25,"item":["sb_gauze",2]}}],
   [{"op":"add","path":"/healingItem/1/1/pool/-","value":{"weight":0.08,"item":"sb_spawnerdoctor"}}],
@@ -166,7 +171,7 @@
   [{"op":"add","path":"/stim/1/1/pool/-","value":{"weight":0.25,"item":["sb_protectionbomb",3]}}],
 
 
-		//Geodes - untiered ores only
+    //Geodes - untiered ores only
   [{"op":"add","path":"/geodeRewards/0/1/pool/-","value":{"weight":0.0025,"item":"lead"}}],
   [{"op":"add","path":"/geodeRewards/0/1/pool/-","value":{"weight":0.0025,"item":"sulphur"}}],
 
@@ -181,7 +186,7 @@
   [{"op":"add","path":"/geodeRewards/0/1/pool/-","value":{"weight":0.0025,"item":"sb_rubiumsample"}}],
 
 
-		//Tools
+    //Tools
   [{"op":"add","path":"/valuableTreasure/0/1/pool/-","value":{"weight":0.35,"pool":"tool"}}],
   [{"op":"add","path":"/valuableTreasure/1/1/pool/-","value":{"weight":0.35,"pool":"tool"}}],
   [{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.35,"pool":"tool"}}],
@@ -198,7 +203,7 @@
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.01,"item":"flashlight"}}],
 
 
-		//Repair Tools
+    //Repair Tools
   [{"op":"add","path":"/diggingTool/0/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
   [{"op":"add","path":"/diggingTool/1/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
   [{"op":"add","path":"/diggingTool/2/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
@@ -207,19 +212,19 @@
   [{"op":"add","path":"/diggingTool/5/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
   [{"op":"add","path":"/diggingTool/6/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
 
-		//Seeds
+    //Seeds
   [{"op":"add","path":"/seed/0/1/pool/-","value":{"weight":3,"item":["mushroomseed",3]}}],
   
   [{"op":"add","path":"/seed/3/1/pool/-","value":{"weight":3,"item":["sb_poisoncreepseed",3]}}],
   [{"op":"add","path":"/seed/3/1/pool/-","value":{"weight":3,"item":["crystalplantseed",3]}}],
 
-		//Rare Furniture
+    //Rare Furniture
 
-		//Instruments
+    //Instruments
   [{"op":"add","path":"/instrument/0/1/pool/-","value":{"weight":0.0007,"item":"keyboard"}}],
   [{"op":"add","path":"/instrument/0/1/pool/-","value":{"weight":0.0007,"item":"sb_jukebox"}}],
 
-		//Costumes
+    //Costumes
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_cultisthead"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"barrelhead"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"barrelchest"}}],
@@ -236,7 +241,7 @@
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_braincagehead"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_scraphead"}}],
 
-		//Food
+    //Food
   [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.03,"pool":"food"}}],
   
   [{"op":"add","path":"/valuableTreasure/0/1/pool/-","value":{"weight":0.03,"pool":"food"}}],
@@ -275,14 +280,14 @@
   [{"op":"add","path":"/produce/6/1/pool/-","value":{"weight":2,"item":["orange",3]}}],
   [{"op":"add","path":"/produce/6/1/pool/-","value":{"weight":2,"item":["crystalplant",3]}}],
 
-		//Vaults
+    //Vaults
   [{"op":"test","path":"/essenceBurst/0/1/poolRounds/0/0","value":1.0},{"op":"replace","path":"/essenceBurst/0/1/poolRounds/0/0","value":10}],
   [{"op":"test","path":"/essenceBurst/0/1/poolRounds/0/1","value":10},{"op":"replace","path":"/essenceBurst/0/1/poolRounds/0/1","value":30}],
   [{"op":"add","path":"/essenceBurst/0/1/pool/-","value":{"weight":0.02,"pool":"microformerTreasure"}}],
   [{"op":"add","path":"/essenceBurst/0/1/pool/-","value":{"weight":0.03,"item":"vaultkey"}}],
   [{"op":"add","path":"/essenceBurst/0/1/pool/-","value":{"weight":0.03,"item":"sb_ancientbigchest"}}],
 
-		//Microformers
+    //Microformers
   [{"op":"add","path":"/microformerTreasure/0/1/pool/-","value":{"weight":1,"item":"sb_microformerheck"}}],
   [{"op":"add","path":"/microformerTreasure/0/1/pool/-","value":{"weight":1,"item":"sb_microformercoralcave"}}],
   [{"op":"add","path":"/microformerTreasure/0/1/pool/-","value":{"weight":1,"item":"sb_microformercrystalcave"}}],
@@ -290,7 +295,7 @@
   [{"op":"add","path":"/microformerTreasure/0/1/pool/-","value":{"weight":1,"item":"sb_microformerrust"}}],
 
 
-		//Time
+    //Time
   [{"op":"add","path":"/money/0/1/pool/-","value":{"weight":1,"pool":"sb_holidaySpirit"}}],
   [{"op":"add","path":"/money/1/1/pool/-","value":{"weight":1,"pool":"sb_holidaySpirit"}}],
   [{"op":"add","path":"/money/2/1/pool/-","value":{"weight":1,"pool":"sb_holidaySpirit"}}],
@@ -308,92 +313,65 @@
   [{"op":"add","path":"/chestMoney/6/1/pool/-","value":{"weight":1,"pool":"sb_holidaySpirit"}}],
 
 
-		//Weapons
-	//mC
-  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commonaxe"}}],
+    //Mods
+  [{"op":"add","path":"/weapon/0/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
+  [{"op":"add","path":"/weapon/1/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
+  [{"op":"add","path":"/weapon/2/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
+  
+  [{"op":"add","path":"/goodWeapon/0/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
+  [{"op":"add","path":"/goodWeapon/1/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
+  [{"op":"add","path":"/goodWeapon/2/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
+
+/*
+ULTIMATE WEAPON CLASSIFICATION GUIDE:
+• is it a weapon (ie NOT a shield)
+• is colored differently than vanilla procedural weapons and is not crappy/crossbow/pulse rifle
+IF BOTH ARE YES, THEN CONGRATS! SHOVE IT UNDER 'RARE'
+*/
+
+  //Common Melee
   [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":0.6,"item":"sb_crappyaxe"}}],
-  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commondagger"}}],
-  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commonhammer"}}],
   [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":0.6,"item":"sb_crappyhammer"}}],
-//[{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commononehandedsword"}}],
-  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commonspear"}}],
   [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":0.6,"item":"sb_crappyspear"}}],
-  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commonbroadsword"}}],
   [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":0.6,"item":"sb_crappybroadsword"}}],
 
-/*
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_anklegrinder"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_avianspear"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_bonesword"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_crystalspear"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_eyeaxe"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_rainbowspear"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_rustsword"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_twistedspear"}}],
-*/
+  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commonaxe"}}],
+  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commondagger"}}],
+  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commonhammer"}}],
+//[{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commonshortsword"}}],
+  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commonspear"}}],
+  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commonbroadsword"}}],
 
-	//mU
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonaxe"}}],
+  //Uncommon Melee
   [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.003,"item":"sb_uncommoncrappyaxe"}}],
+  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.003,"item":"sb_uncommoncrappybroadsword"}}],
+  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.003,"item":"sb_uncommoncrappyspear"}}],
+  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.003,"item":"sb_uncommoncrappyhammer"}}],
+//[{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.003,"item":"sb_uncommoncrappyshortsword"}}],
+
+  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonaxe"}}],
   [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommondagger"}}],
   [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonbroadsword"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.003,"item":"sb_uncommoncrappybroadsword"}}],
   [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonspear"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.003,"item":"sb_uncommoncrappyspear"}}],
   [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonhammer"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.003,"item":"sb_uncommoncrappyhammer"}}],
+//[{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonshortsword"}}],
 
-/*
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommononehandedsword"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.003,"item":"sb_uncommoncrappysword"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommontwohandedsword"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommontier2axe"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommontier2dagger"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommontier2hammer"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommontier2onehandedsword"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommontier2spear"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommontier2twohandedsword"}}],
-*/
-
-/*
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_anklegrinder"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_avianspear"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_bonesword"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_crystalspear"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_eyeaxe"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_rainbowspear"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_rustsword"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_twistedspear"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonaxe"}}],
-*/
-
-	//mR
-//[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommoncrappyaxe"}}],
+  //Rare Melee
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"seashellshield"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"mushroomshield"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"frostshield"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"eyeshield"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonshield"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonaxe"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommondagger"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonbroadsword"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonspear"}}],
-//[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommoncrappyspear"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonhammer"}}],
-//[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommoncrappyhammer"}}],
-/*comment out crappy before uncommenting this
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommononehandedsword"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommoncrappysword"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommontwohandedsword"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommontier2axe"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommontier2dagger"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommontier2hammer"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommontier2onehandedsword"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommontier2spear"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommontier2twohandedsword"}}],
-*/
+//[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonshortsword"}}],
+//[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_twistedspear"}}],
 
 
-//WEAPONS THAT ARE USUALLY FOUND IN SPECIFIC PLACES (ie: dungeons/biomes)
+//Biome Melee
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_firesword"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_watersword"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_boneaxe"}}],
@@ -422,51 +400,48 @@
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_gutterknife"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_hackman"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_hackmanight"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_oceantrident"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_fleshstaff"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_biostaff"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_boulderstaff"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_slimestaff"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_cutarrh"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_katarrhna"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uraniumrodstaff"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_poisondagger"}}],
+//[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_bonesword"}}],
+//[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_crystalspear"}}],
+//[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_eyeaxe"}}],
+//[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_rainbowspear"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_rustsword"}}],
 
-
+//Dungeon Melee
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_shiv"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_steelchair"}}],
 //[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_floranmace"}}],
-//[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_teslastaff"}}],
+//[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_teslastaff"}}], <-- which dungeon?
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_glitchsmallmace"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_glitchlargemace"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_nightstick"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_fryingpan"}}],
 //[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"fryingpan"}}],
+//[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_anklegrinder"}}],
+//[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_avianspear"}}],
 
 
 
-	//rC
+  //Common Ranged (Pistols only)
   [{"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_crossbowwood"}}],
   [{"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_commonplasmapistol"}}],
   [{"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_commonplasmamachinepistol"}}],
   [{"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_commonmachinepistol"}}],
   [{"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_commonpistol"}}],
-  [{"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_commonplasmasniperrifle"}}],
-  [{"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_commonsniperrifle"}}],
-  [{"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_commonplasmaassaultrifle"}}],
-//[{"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":1.0,"item":"sb_commonassaultrifle"}}],
-  [{"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_commongrenadelauncher"}}],
-  [{"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_commonrocketlauncher"}}],
-  [{"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_commonplasmashotgun"}}],
-  [{"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_commonshotgun"}}],
   [{"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_uzi"}}],
-  [{"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_commonburstrifle"}}],
+  [{"op":"add","path":"/commonGun/0/1/pool/-","value":{"weight":0.7,"pool":"sb_revolver"}}],
 
-	//rC2
+  //Common Ranged (All)
   [{"op":"add","path":"/commonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_crossbowwood"}}],
   [{"op":"add","path":"/commonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_commonplasmapistol"}}],
   [{"op":"add","path":"/commonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_commonplasmamachinepistol"}}],
   [{"op":"add","path":"/commonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_commonmachinepistol"}}],
   [{"op":"add","path":"/commonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_commonpistol"}}],
+  [{"op":"add","path":"/commonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_uzi"}}],
+  [{"op":"add","path":"/commonGun/1/1/pool/-","value":{"weight":0.7,"pool":"sb_revolver"}}],
+
   [{"op":"add","path":"/commonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_commonplasmasniperrifle"}}],
   [{"op":"add","path":"/commonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_commonsniperrifle"}}],
   [{"op":"add","path":"/commonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_commonplasmaassaultrifle"}}],
@@ -475,58 +450,26 @@
   [{"op":"add","path":"/commonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_commonrocketlauncher"}}],
   [{"op":"add","path":"/commonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_commonplasmashotgun"}}],
   [{"op":"add","path":"/commonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_commonshotgun"}}],
-  [{"op":"add","path":"/commonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_uzi"}}],
   [{"op":"add","path":"/commonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_pulserifle"}}],
   [{"op":"add","path":"/commonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_commonburstrifle"}}],
 
-
-
-	//rU
+  //Uncommon Ranged (Pistols only)
   [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonmachinepistol"}}],
   [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonpistol"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonplasmasniperrifle"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonsniperrifle"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_lightningcoil"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_crossbowspecial"}}],
   [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_crossbow"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_bonepistol"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_bonerifle"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_boneshotgun"}}],
   [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"pool":"sb_revolver"}}],
-//[{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonplasmaassaultrifle"}}],
-//[{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonassaultrifle"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_uncommongrenadelauncher"}}],
-//[{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonrocketlauncher"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonplasmashotgun"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonshotgun"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_flamethrower"}}],
   [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_uzi"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_pulserifle"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_corrosivegun"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_alienlaser"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_thornyneedler"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_cellzapper"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_shattergun"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_globelauncher"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_freezeray"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_firebow"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_buster"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_tranquilizergun"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"harpoongun"}}],
-  [{"op":"add","path":"/uncommonGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_irradiatedlauncher"}}],
 
-	//rU2
+  //Uncommon Ranged (All)
   [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonmachinepistol"}}],
   [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonpistol"}}],
+  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_crossbow"}}],
+  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"pool":"sb_revolver"}}],
+  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_uzi"}}],
+
   [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonplasmasniperrifle"}}],
   [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonsniperrifle"}}],
   [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_lightningcoil"}}],
-  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_crossbowspecial"}}],
-  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_crossbow"}}],
-  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_bonepistol"}}],
-  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_bonerifle"}}],
-  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_boneshotgun"}}],
-  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"pool":"sb_revolver"}}],
 //[{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonplasmaassaultrifle"}}],
 //[{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonassaultrifle"}}],
   [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_uncommongrenadelauncher"}}],
@@ -534,79 +477,52 @@
   [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonplasmashotgun"}}],
   [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_uncommonshotgun"}}],
   [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_flamethrower"}}],
-  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_uzi"}}],
   [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_pulserifle"}}],
-  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_corrosivegun"}}],
-  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_alienlaser"}}],
-  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_thornyneedler"}}],
   [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_cellzapper"}}],
   [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_shattergun"}}],
   [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_globelauncher"}}],
-  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_freezeray"}}],
-  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_firebow"}}],
-  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_buster"}}],
-  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_tranquilizergun"}}],
-  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"harpoongun"}}],
-  [{"op":"add","path":"/uncommonGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_irradiatedlauncher"}}],
 
 
-	//rR
+  //Rare Ranged (Pistols only)
   [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_raremachinepistol"}}],
   [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_rareplasmapistol"}}],
   [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_rareplasmamachinepistol"}}],
   [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_rarepistol"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_rareplasmasniperrifle"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_raresniperrifle"}}],
   [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_crossbowspecial"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_avianblaster"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_aviangun"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_flamethrower"}}],
-//[{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_rareassaultrifle"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_raregrenadelauncher"}}],
-//[{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_rarerocketlauncher"
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_rareplasmashotgun"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_rareshotgun"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_icechucker"}}],
+  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"pool":"sb_revolver"}}],
   [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_uzi"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_pulserifle"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_corrosivegun"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_alienlaser"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_thornyneedler"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_cellzapper"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_shattergun"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_globelauncher"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_freezeray"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_firebow"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_buster"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_tranquilizergun"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"harpoongun"}}],
-  [{"op":"add","path":"/rareGun/0/1/pool/-","value":{"weight":0.7,"item":"sb_irradiatedlauncher"}}],
 
-	//rR2
+  //Rare Ranged (All)
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_raremachinepistol"}}],
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_rareplasmapistol"}}],
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_rareplasmamachinepistol"}}],
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_rarepistol"}}],
+  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_crossbowspecial"}}],
+  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"pool":"sb_revolver"}}],
+  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_uzi"}}],
+
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_rareplasmasniperrifle"}}],
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_raresniperrifle"}}],
-  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_crossbowspecial"}}],
-  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_avianblaster"}}],
-  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_aviangun"}}],
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_flamethrower"}}],
 //[{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_rareassaultrifle"}}],
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_raregrenadelauncher"}}],
 //[{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_rarerocketlauncher"
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_rareplasmashotgun"}}],
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_rareshotgun"}}],
-  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_icechucker"}}],
-  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_uzi"}}],
-  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_pulserifle"}}],
-  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_corrosivegun"}}],
-  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_alienlaser"}}],
-  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_thornyneedler"}}],
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_cellzapper"}}],
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_shattergun"}}],
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_globelauncher"}}],
+  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_pulserifle"}}],
+
+  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_bonepistol"}}],
+  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_bonerifle"}}],
+  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_boneshotgun"}}],
+  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_avianblaster"}}],
+  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_aviangun"}}],
+  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_icechucker"}}],
+  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_corrosivegun"}}],
+  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_alienlaser"}}],
+  [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_thornyneedler"}}],
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_freezeray"}}],
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_firebow"}}],
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_buster"}}],
@@ -614,36 +530,21 @@
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"harpoongun"}}],
   [{"op":"add","path":"/rareGun/1/1/pool/-","value":{"weight":0.7,"item":"sb_irradiatedlauncher"}}],
 
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_oceantrident"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_fleshstaff"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_biostaff"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_boulderstaff"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_slimestaff"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uraniumrodstaff"}}],
 
-	//rL 
+
+    //Unique 
   [{"op":"add","path":"/uniqueWeapon/0/1/pool/-","value":{"weight":1,"item":"brassknuckles"}}],
-//[{"op":"add","path":"/uniqueWeapon/1/1/pool/-","value":{"weight":1,"item":"sb_legendarypistol"}}],
-//no[{"op":"add","path":"/uniqueWeapon/1/1/pool/-","value":{"weight":1,"item":"sb_legendaryplasmashotgun"}}],
-//[{"op":"add","path":"/uniqueWeapon/1/1/pool/-","value":{"weight":1,"item":"sb_legendarysniperrifle"}}],
-//[{"op":"add","path":"/uniqueWeapon/1/1/pool/-","value":{"weight":1,"item":"sb_legendaryshotgun"}}],
-//[{"op":"add","path":"/uniqueWeapon/1/1/pool/-","value":{"weight":1,"item":"sb_legendaryrocketlauncher"}}],
-//[{"op":"add","path":"/uniqueWeapon/1/1/pool/-","value":{"weight":1,"item":"sb_legendarygrenadelauncher"}}],
-//[{"op":"add","path":"/uniqueWeapon/1/1/pool/-","value":{"weight":1,"item":"sb_legendaryplasmamachinepistol"}}],
-//[{"op":"add","path":"/uniqueWeapon/1/1/pool/-","value":{"weight":1,"item":"sb_legendaryassaultrifle"}}],
-//[{"op":"add","path":"/uniqueWeapon/1/1/pool/-","value":{"weight":1,"item":"sb_legendaryplasmaassaultrifle"}}],
-//[{"op":"add","path":"/uniqueWeapon/1/1/pool/-","value":{"weight":1,"item":"sb_legendarymachinepistol"}}],
 
-//[{"op":"add","path":"/uniqueWeapon/2/1/pool/-","value":{"weight":1,"item":"sb_legendarypistol"}}],
-//no[{"op":"add","path":"/uniqueWeapon/2/1/pool/-","value":{"weight":1,"item":"sb_legendaryplasmashotgun"}}],
-//[{"op":"add","path":"/uniqueWeapon/2/1/pool/-","value":{"weight":1,"item":"sb_legendarysniperrifle"}}],
-//[{"op":"add","path":"/uniqueWeapon/2/1/pool/-","value":{"weight":1,"item":"sb_legendaryshotgun"}}],
-//[{"op":"add","path":"/uniqueWeapon/2/1/pool/-","value":{"weight":1,"item":"sb_legendaryrocketlauncher"}}],
-//[{"op":"add","path":"/uniqueWeapon/2/1/pool/-","value":{"weight":1,"item":"sb_legendarygrenadelauncher"}}],
-//[{"op":"add","path":"/uniqueWeapon/2/1/pool/-","value":{"weight":1,"item":"sb_legendaryplasmamachinepistol"}}],
-//[{"op":"add","path":"/uniqueWeapon/2/1/pool/-","value":{"weight":1,"item":"sb_legendaryassaultrifle"}}],
-//[{"op":"add","path":"/uniqueWeapon/2/1/pool/-","value":{"weight":1,"item":"sb_legendaryplasmaassaultrifle"}}],
-//[{"op":"add","path":"/uniqueWeapon/2/1/pool/-","value":{"weight":1,"item":"sb_legendarymachinepistol"}}],
-
-
-		//Unique Recipes
+    //Unique Recipes
   [{"op":"add","path":"/uniqueWeaponRecipe/0/1/pool/-","value":{"weight":1,"item":"wormerang-recipe"}}],
   [{"op":"add","path":"/uniqueWeaponRecipe/0/1/pool/-","value":{"weight":1,"item":"sb_explosiveglove-recipe"}}],
 
-		//End Game
+    //End Game
   [{"op":"add","path":"/endTreasure/0/1/fill/-","value":{"item":["sb_musicsheet",1,{"music":"stellar-acclimation"}]}}]
 ]

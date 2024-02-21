@@ -1,13 +1,15 @@
 {
-  "name" : "sb_health",
-  "type" : "head",
-  "icon" : "/tech/starbound/health.png",
-  "scripts" : [],
-  "sb_effect" : ["sb_healthtech",{"stat":"maxHealth","effectiveMultiplier":1.15}],
-  "sb_suitImage" : "?replace;73daff=f78588;27abff=f5686c;117ee4=ed2033;1f45d4=bd0016;002b72=9e0012;001522=7f000f",
-  "rarity" : "Legendary",
-  "description" : "Provides the wearer with a boost in total health.",
-  "shortDescription" : "Health+",
-
-  "statIncrease" : "15%"
+  "name": "sb_health",
+  "type": "head",
+  "icon": "/tech/starbound/health.png",
+  "scripts": [],
+  "sb_effect": ["sb_healthtech", {
+      "stat": "maxHealth",
+      "effectiveMultiplier": 1.15
+    }
+  ],
+  "sb_suitImage": "?replace;73daff=f78588;27abff=f5686c;117ee4=ed2033;1f45d4=bd0016",
+  "rarity": "Legendary",
+  "description": "Provides a boost in total health.",
+  "shortDescription": "Health+"
 }

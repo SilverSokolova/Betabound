@@ -22,7 +22,7 @@
   "description": "A flask of whiskey.",
   "shortdescription": "Whiskey Flask",
   "emitters": ["drinking"],
-  "handPosition": [0, -2],
+  "handPosition": [0, -1],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
   "rottingMultiplier": 10

@@ -1,0 +1,17 @@
+{
+  "id": "sb_bunkerpolicy",
+  "species": "human",
+  "title": "New Policy",
+  "description": "A memo to all USCM bunkers, issued when the USCM was still around.",
+  "icon": "sb_humancover3.png",
+  "contentPages": [
+    "After seven long years, the USCM has decreed that our bunkers shall be opened to friendly life from the outside. As I'm sure many of you are aware, numerous species turn up at our door, and we refuse them entry.
+    
+It is apparent that many of them believe our bunkers to be some kind of shop. As such, we have decided to allow them access to take a look around. Perhaps we can even enlist a few new members, should the need arise."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

@@ -1,42 +1,42 @@
 {
-  "objectName" : "sb_hylotlfuelhatch",
-  "colonyTags" : ["hylotl"],
-  "printable" : false,
-  "price" : 700,
-  "rarity" : "uncommon",
-  "objectType" : "container",
-  "category" : "other",
-  "tooltipKind" : "sb_object",
-  "description" : "Accepts a bunch of different kinds of fuel for the ship's FTL drive.",
-  "shortdescription" : "^orange;Hylotl FTL Fuel Hatch^reset;",
-  "race" : "hylotl",
+  "objectName": "sb_hylotlfuelhatch",
+  "colonyTags": ["hylotl"],
+  "printable": false,
+  "price": 700,
+  "rarity": "uncommon",
+  "objectType": "container",
+  "tooltipKind": "sb_object",
+  "description": "Accepts a bunch of different kinds of fuel for the ship's FTL drive.",
+  "shortdescription": "^orange;Hylotl FTL Fuel Hatch^reset;",
+  "race": "hylotl",
 
-  "apexDescription" : "A fuel hatch. Not the easiest design for pouring fuel into.",
-  "avianDescription" : "I'm surprised the Hylotl haven't adopted one of the numerous other fuel hatch designs. This is impractical.",
-  "floranDescription" : "Frogman fuel hatch.",
-  "glitchDescription" : "Critical. The Hylotl even manage to make their fuel hatches cumbersome and awkward. It's almost impressive.",
-  "humanDescription" : "I'm pretty sure I'll spill as much fuel as I pour, thanks to the odd design.",
-  "hylotlDescription" : "Hopefully other species will take cues from our practical fuel hatch designs.",
-  "novakidDescription" : "Does fuel go in here? How?",
+  "apexDescription": "A fuel hatch. Not the easiest design for pouring fuel into.",
+  "avianDescription": "I'm surprised the Hylotl haven't adopted one of the numerous other fuel hatch designs. This is impractical.",
+  "floranDescription": "Frogman fuel hatch.",
+  "glitchDescription": "Critical. The Hylotl even manage to make their fuel hatches cumbersome and awkward. It's almost impressive.",
+  "humanDescription": "I'm pretty sure I'll spill as much fuel as I pour, thanks to the odd design.",
+  "hylotlDescription": "Hopefully other species will take cues from our practical fuel hatch designs.",
+  "novakidDescription": "Does fuel go in here? How?",
 
-  "inventoryIcon" : "hylotlicon.png",
-  "orientations" : [
-    {
-      "imageLayers" : [ { "image" : "hylotl.png:<color>.<frame>" } ],
+  "inventoryIcon": "hylotlicon.png",
+  "orientations": [{
+      "imageLayers": [{
+          "image": "hylotl.png:<color>.<frame>"
+        }
+      ],
 
-      "imagePosition" : [-8, -8],
-      "frames" : 1,
-      "animationCycle" : 0.7,
+      "imagePosition": [-8, -8],
+      "frames": 1,
+      "animationCycle": 0.7,
 
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
+      "spaceScan": 0.1,
+      "anchors": ["background"]
     }
   ],
 
-  "hasWindowIcon" : false,
-  "recipeGroup" : "fuel",
-  "slotCount" : 6,
-  "uiConfig" : "/interface/sb_fuel/fuel.config",
-  "autoCloseCooldown" : 3600,
-  "frameCooldown" : 5
+"hasWindowIcon": false,
+"slotCount": 6,
+"uiConfig": "/interface/fuel/fuel.config",
+"autoCloseCooldown": 3600,
+"frameCooldown": 5
 }

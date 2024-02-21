@@ -2,6 +2,7 @@
   "itemName": "sb_whiskeybottle",
   "rarity": "uncommon",
   "inventoryIcon": "whiskeybottle.png",
+  "sb_plateImage": true,
   "description": "A strong bottle of whiskey.",
   "shortdescription": "Whiskey Bottle",
   "price": 220,
@@ -21,7 +22,7 @@
       },
       "sb_foodheal135"
     ]],
-  "handPosition": [2, -3],
+  "handPosition": [1, -3],
   "emitters": ["drinking"],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],

@@ -1,0 +1,17 @@
+{
+  "id": "sb_floranprologue",
+  "species": "floran",
+  "title": "For Honour",
+  "description": "A personal log from an adventurer. Their tale was never finished...",
+  "icon": "sb_floran.png",
+  "contentPages": [
+"I'm tired of the savagery of my kin, so I took to the stars in pursuit of a more honourable hunt. For far too long, my people have been content with hunting small prey. Not me, however. Alas, my ship has ran out of fuel in orbit of an unknown planet.
+
+I long to stab, though not to stab any ordinary thing. I have honour, integrity, and a basic level of literacy. I want more out of life! And when I return triumphant, my kin will no longer call me weird and hiss my way. I can feel it."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

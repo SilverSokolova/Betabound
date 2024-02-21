@@ -1,0 +1,10 @@
+{
+  "itemName": "sb_uimessage:scandataKnown",
+  "shortdescription": "   Scan data already known.^clear;",
+  "currency": "sb_uimessage",
+  "rarity": "rare",
+  "value": 0,
+  "pickupSoundsSmall": [""],
+  "pickupSoundsMedium": [""],
+  "pickupSoundsLarge": [""]
+}

@@ -1,5 +1,0 @@
-{
-  "input" : [["darkwoodmaterial",35]],
-  "output" : "sb_woodencraftingtable",
-  "groups" : ["inventorstable","craftingstations","all"]
-}

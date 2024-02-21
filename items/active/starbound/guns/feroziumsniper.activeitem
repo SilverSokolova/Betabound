@@ -43,7 +43,7 @@
   "muzzleOffset": [2.575, 0],
 
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "animationScripts": ["/items/active/starbound/guns/ammo.lua"],
+  "animationScripts": ["/items/active/starbound/guns/abilities/ammo.lua"],
 
   "elementalType": "physical",
 
@@ -51,20 +51,13 @@
   "primaryAbilityType": "sb_gun2",
   "primaryAbility": {
     "class": "sb_AmmoGunFire",
-    "scripts": ["/items/active/starbound/guns/ammogunfire.lua"],
+    "scripts": ["/items/active/starbound/guns/abilities/ammogunfire.lua"],
     "fireTime": 0.88,
-    "baseDps": 6.25,
+    "baseDps": 7,
     "energyUsage": 25.5,
     "inaccuracy": 0.004,
     "projectileParameters": {
       "speed": 180
-    },
-    "stances": {
-      "cooldown": {
-        "recoil": true,
-        "armRotation": 0,
-        "weaponRotation": 0
-      }
     }
   },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"

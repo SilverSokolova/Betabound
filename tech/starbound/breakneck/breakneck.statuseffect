@@ -1,0 +1,14 @@
+{
+  "name": "sb_breaknecktech",
+  "defaultDuration": 5,
+  "effectConfig": {
+    "tech": "sb_breakneck",
+    "particleEmitterOffset": {
+      "particles1": 1
+    }
+  },
+  "scripts": ["breakneck.lua"],
+  "label": "Breakneck Sprint",
+  "animationConfig": "breakneck.animation",
+  "icon": "/tech/starbound/breakneck.png"
+}

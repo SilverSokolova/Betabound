@@ -1,31 +1,31 @@
 [
-	[{"op":"test","inverse":true,"path":"/recipes/platinumore"},
-	{"op":"add","path":"/recipes/platinumore",
-	"value":{
-	"count":2,"result":[{"name":"platinumbar"},{"name":"platinumbar","chance":0.075}]}}]
+  [{"op":"test","inverse":true,"path":"/recipes/platinumore"},
+  {"op":"add","path":"/recipes/platinumore",
+  "value":{
+  "count":2,"result":[{"name":"platinumbar"},{"name":"platinumbar","chance":0.075}]}}]
 
-	,[{"op":"test","inverse":true,"path":"/recipes/sb_diamondore"},
-	{"op":"add","path":"/recipes/sb_diamondore",
-	"value":{
-	"count":2,"result":[{"name":"diamond"},{"name":"diamond","chance":0.05}]}}]
+  ,[{"op":"test","inverse":true,"path":"/recipes/sb_diamondore"},
+  {"op":"add","path":"/recipes/sb_diamondore",
+  "value":{
+  "count":2,"result":[{"name":"diamond"},{"name":"diamond","chance":0.05}]}}]
 
-	,[{"op":"test","inverse":true,"path":"/recipes/uraniumore"},
-	{"op":"add","path":"/recipes/uraniumore",
-	"value":{
-	"count":2,"result":[{"name":"uraniumrod"}]}}]
+  ,[{"op":"test","inverse":true,"path":"/recipes/uraniumore"},
+  {"op":"add","path":"/recipes/uraniumore",
+  "value":{
+  "count":2,"result":[{"name":"uraniumrod"}]}}]
 
-	,[{"op":"test","inverse":true,"path":"/recipes/plutoniumore"},
-	{"op":"add","path":"/recipes/plutoniumore",
-	"value":{
-	"count":2,"result":[{"name":"plutoniumrod"}]}}]
+  ,[{"op":"test","inverse":true,"path":"/recipes/plutoniumore"},
+  {"op":"add","path":"/recipes/plutoniumore",
+  "value":{
+  "count":2,"result":[{"name":"plutoniumrod"}]}}]
 
-	,[{"op":"test","inverse":true,"path":"/recipes/sb_rubiumore"},
-	{"op":"add","path":"/recipes/sb_rubiumore",
-	"value":{
-	"count":2,"result":[{"name":"sb_refinedrubium"},{"name":"startech:resoniteore","chance":0.05}]}}]
+  ,[{"op":"test","inverse":true,"path":"/recipes/sb_rubiumore"},
+  {"op":"add","path":"/recipes/sb_rubiumore",
+  "value":{
+  "count":2,"result":[{"name":"sb_refinedrubium"},{"name":"startech:resoniteore","chance":0.05}]}}]
 
-	,[{"op":"test","inverse":true,"path":"/recipes/sb_ceruliumore"},
-	{"op":"add","path":"/recipes/sb_ceruliumore",
-	"value":{
-	"count":2,"result":[{"name":"sb_ceruliumcompound"},{"name":"startech:resoniteore","chance":0.25}]}}]
+  ,[{"op":"test","inverse":true,"path":"/recipes/sb_ceruliumore"},
+  {"op":"add","path":"/recipes/sb_ceruliumore",
+  "value":{
+  "count":2,"result":[{"name":"sb_ceruliumcompound"},{"name":"startech:resoniteore","chance":0.25}]}}]
 ]

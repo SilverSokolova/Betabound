@@ -1,42 +1,42 @@
 {
-  "objectName" : "sb_avianfuelhatch",
-  "colonyTags" : ["avian"],
-  "printable" : false,
-  "price" : 700,
-  "rarity" : "uncommon",
-  "objectType" : "container",
-  "category" : "other",
-  "tooltipKind" : "sb_object",
-  "description" : "Accepts a bunch of different kinds of fuel for the ship's FTL drive.",
-  "shortdescription" : "^orange;Avian FTL Fuel Hatch^reset;",
-  "race" : "avian",
+  "objectName": "sb_avianfuelhatch",
+  "colonyTags": ["avian"],
+  "printable": false,
+  "price": 700,
+  "rarity": "uncommon",
+  "objectType": "container",
+  "tooltipKind": "sb_object",
+  "description": "Accepts a bunch of different kinds of fuel for the ship's FTL drive.",
+  "shortdescription": "^orange;Avian FTL Fuel Hatch^reset;",
+  "race": "avian",
 
-  "apexDescription" : "An Avian fuel hatch.",
-  "avianDescription" : "The fuel hatch.",
-  "floranDescription" : "Ssstick in the fuel.",
-  "glitchDescription" : "Indifferent. A fuel hatch.",
-  "humanDescription" : "A fuel hatch.",
-  "hylotlDescription" : "For fueling the ship.",
-  "novakidDescription" : "Fuel goes in here.",
+  "apexDescription": "An Avian fuel hatch.",
+  "avianDescription": "The fuel hatch.",
+  "floranDescription": "Ssstick in the fuel.",
+  "glitchDescription": "Indifferent. A fuel hatch.",
+  "humanDescription": "A fuel hatch.",
+  "hylotlDescription": "For fueling the ship.",
+  "novakidDescription": "Fuel goes in here.",
 
-  "inventoryIcon" : "avianicon.png",
-  "orientations" : [
-    {
-      "imageLayers" : [ { "image" : "avian.png:<color>.<frame>" } ],
+  "inventoryIcon": "avianicon.png",
+  "orientations": [{
+      "imageLayers": [{
+          "image": "avian.png:<color>.<frame>"
+        }
+      ],
 
-      "imagePosition" : [-8, -8],
-      "frames" : 1,
-      "animationCycle" : 0.7,
+      "imagePosition": [-8, -8],
+      "frames": 1,
+      "animationCycle": 0.7,
 
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
+      "spaceScan": 0.1,
+      "anchors": ["background"]
     }
   ],
 
-  "hasWindowIcon" : false,
-  "recipeGroup" : "fuel",
-  "slotCount" : 6,
-  "uiConfig" : "/interface/sb_fuel/fuel.config",
-  "autoCloseCooldown" : 3600,
-  "frameCooldown" : 5
+  "hasWindowIcon": false,
+  "slotCount": 6,
+  "uiConfig": "/interface/fuel/fuel.config",
+  "autoCloseCooldown": 3600,
+  "frameCooldown": 5
 }

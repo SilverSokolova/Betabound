@@ -1,18 +1,21 @@
 {
-  "id" : "sb_bossfatalcircuit",
-  "title" : "Fatal Circuit",
-  "description" : "Information on Fatal Circuit, the 'Glitch' with a glitch.",
-  "icon" : "bossbook.png",
-  "contentPages" : [
-"An outcast Glitch, desperate to strengthen their numbers, came up with a plan. Outcast leader Platinum Ace approached a particularly volatile Glitch scientist, and together they drew up blueprints for a new form of Glitch; a better, more powerful being.",
-    "Thus, the first Fatal Circuit was born. Initially, everything was okay. Then two seconds passed and Fatal Circuit malfunctioned, trying to kill every living being in the immediate area.",
-    "After a lengthy chase, Platinum smashed Fatal Circuit with a handy nearby hammer, and inspected the wreckage. She was horrified to discover that the scientist had transplanted a monster brain into the robot, thus rendering it uncontrollably murderous.",
-    "Deciding Fatal Circuit should never be recreated, Platinum buried the plans in a landfill in the desert, but recent sightings have suggested that someone has found and duplicated the Fatal Circuit blueprint online."
-//,"Fun Fatal Circuit Fact: Big Ape and Greenfinger once tried to improve the design by using a Floran brain, but for some reason the robot was just as savage and uncontrollable."
+  "id": "sb_bossfatalcircuit",
+  "title": "Fatal Circuit",
+  "description": "Information on Fatal Circuit, the 'Glitch' with a glitch.",
+  "icon": "bossbook.png",
+  "contentPages": [
+"An outcast Glitch, desperate to strengthen their numbers, came up with a plan. Outcast leader Platinum Ace approached a particularly volatile Glitch scientist, and together they drew up blueprints for a new form of Glitch; a better, more powerful being.
+
+Thus, the first Fatal Circuit was born. Initially, everything was okay. Then two seconds passed and Fatal Circuit malfunctioned, trying to kill every living being in the immediate area.",
+
+"After a lengthy chase, Platinum smashed Fatal Circuit with a handy nearby hammer, and inspected the wreckage. She was horrified to discover that the scientist had transplanted a monster brain into the robot, thus rendering it uncontrollably murderous.
+
+Deciding Fatal Circuit should never be recreated, Platinum buried the plans in a landfill in the desert, but recent sightings have suggested that someone has found the Fatal Circuit blueprint."
+//,"Fun Fatal Circuit Fact: Big Ape and the Rogue Greenfinger once tried to improve the design by using a Floran brain, but for some reason the robot was just as savage and uncontrollable."
   ],
-    "itemConfig" : {
-    "rarity" : "common",
-    "tooltipKind" : "sb_object",
-    "price" : 25
+  "itemConfig": {
+    "rarity": "common",
+    "tooltipKind": "sb_object",
+    "price": 25
   }
 }

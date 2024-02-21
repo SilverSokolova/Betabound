@@ -25,10 +25,11 @@
   },
   "animationCustom": {
     "sounds": {
-      "fire": ["/sfx/gun/ar4.ogg"]
+      "fire": ["/sfx/gun/ar4.ogg"],
+      "altFire": ["/sfx/gun/ar4.ogg"]
     }
   },
-  "baseOffset": [0.5, 0.0],
+  "baseOffset": [0.5, 0],
   "muzzleOffset": [2.25, 0.235],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "elementalType": "physical",
@@ -36,18 +37,34 @@
   "primaryAbilityType": "sb_gun2",
   "primaryAbility": {
     "fireTime": 0.08,
-    "baseDps": 8.5,
-    "energyUsage": 32,
+    "baseDps": 9.5,
+    "energyUsage": 38,
     "inaccuracy": 0.02,
     "projectileParameters": {
-      "speed": 150
+      "speed": 150,
+      "knockback": 0
     },
     "stances": {
       "cooldown": {
         "duration": 0.02,
         "recoil": true,
-        "armRotation": 2,
-        "weaponRotation": 2
+        "armRotation": 0,
+        "weaponRotation": 0
+      }
+    }
+  },
+  "altAbility": {
+    "stances": {
+      "fire": {
+        "recoil": true,
+        "armRotation": 0,
+        "weaponRotation": 0
+      },
+      "cooldown": {
+        "duration": 0.02,
+        "recoil": true,
+        "armRotation": 0,
+        "weaponRotation": 0
       }
     }
   },

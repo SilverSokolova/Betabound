@@ -32,7 +32,7 @@
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "elementalType": "ice",
   "primaryAbility": { //TODO: beamfire ability?
-    "scripts": ["/items/active/starbound/guns/beamfire.lua"],
+    "scripts": ["/items/active/starbound/guns/abilities/beamfire.lua"],
     "class": "BeamFire",
     "fireTime": 0.2,
     "baseDps": 5.5,

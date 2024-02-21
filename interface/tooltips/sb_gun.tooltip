@@ -29,25 +29,25 @@
     "centered": true,
     "wrapWidth": 126
   },
-  "speedTitleLabel": {
+  "damagePerShotTitleLabel": {
     "type": "label",
     "position": [9, 59],
     "hAnchor": "left",
-    "value": "Rate of Fire:"
+    "value": "Damage Per Shot:"
   },
-  "speedLabel": {
+  "damagePerShotLabel": {
     "type": "label",
     "position": [130, 59],
     "hAnchor": "right",
     "wrapWidth": 126
   },
-  "damagePerShotTitleLabel": {
+  "speedTitleLabel": {
     "type": "label",
     "position": [9, 50],
     "hAnchor": "left",
-    "value": "Damage Per Shot:"
+    "value": "Rate of Fire:"
   },
-  "damagePerShotLabel": {
+  "speedLabel": {
     "type": "label",
     "position": [130, 50],
     "hAnchor": "right",

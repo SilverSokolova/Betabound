@@ -1,13 +1,13 @@
 {
-  "name" : "sb_speed",
-  "type" : "head",
-  "icon" : "/tech/starbound/speed.png",
-  "scripts" : [],
-  "sb_effect" : "sb_speedtech",
-  "sb_suitImage" : "?replace;73daff=7bf04c;27abff=66ee30;117ee4=34ad14;1f45d4=0b6804;002b72=2b8824;001522=084b03",
-//"sb_suitImage" : "?replace;73daff=5aef9f;27abff=3eef8c;117ee4=22ea7b;1f45d4=15d96c;002b72=12bd5e;001522=0fa150", bad
-//"sb_suitImage" : "?replace;73daff=92f5bf;27abff=5af09d;117ee4=22ea7b;1f45d4=0c8542;002b72=12bd5e;001522=096934",
-  "rarity" : "Rare",
-  "description" : "Provides the wearer with a boost in movement speed.",
-  "shortDescription" : "Speed+"
+  "name": "sb_speed",
+  "type": "head",
+  "icon": "/tech/starbound/speed.png",
+  "scripts": [],
+  "sb_effect": "sb_speedtech",
+  "sb_suitImage": "?replace;73daff=7bf04c;27abff=66ee30;117ee4=34ad14;1f45d4=0b6804",
+  //"sb_suitImage" : "?replace;73daff=5aef9f;27abff=3eef8c;117ee4=22ea7b;1f45d4=15d96c", bad
+  //"sb_suitImage" : "?replace;73daff=92f5bf;27abff=5af09d;117ee4=22ea7b;1f45d4=0c8542",
+  "rarity": "Rare",
+  "description": "Provides a boost in movement speed.",
+  "shortDescription": "Speed+"
 }

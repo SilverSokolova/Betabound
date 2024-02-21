@@ -8,6 +8,7 @@
   "category": "shotgun",
   "twoHanded": true,
   "sb_waBan": true,
+  "sb_disallowAbilityMods": true,
   "price": 620,
   "paletteSwaps": "",
   "level": 1,

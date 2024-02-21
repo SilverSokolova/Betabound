@@ -4,6 +4,7 @@
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_rottenapple"}],
 
-[{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":1.5}]
+[{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":1.5}],
 
+[{"op":"test","path":"/shortdescription","value":"Red Apple"},{"op":"replace","path":"/shortdescription","value":"Apple"}]
 ]

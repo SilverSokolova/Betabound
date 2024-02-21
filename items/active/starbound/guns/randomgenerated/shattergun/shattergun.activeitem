@@ -15,7 +15,7 @@
   "level": 1,
   "description": "",
   "shortdescription": "Shattergun",
-  "itemTags": ["weapon", "ranged", "shattergun", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "shotgun", "shattergun", "upgradeableWeapon"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
   "animationParts": {

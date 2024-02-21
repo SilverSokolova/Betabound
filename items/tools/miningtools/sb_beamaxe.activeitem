@@ -54,5 +54,12 @@
   "animation": "/items/tools/miningtools/sb_beamaxe.animation",
   "scripts": ["/items/tools/miningtools/sb_beamaxe2.lua"],
   "scriptDelta": 1,
-  "notifyEntityTime": 0.5
+  "notifyEntityTime": 0.5,
+
+  "magnet": {
+    "length": 4,
+    "targetRadialVelocity": -10,
+    "controlForce": 250,
+    "categoryWhitelist": ["itemdrop"]
+  }
 }

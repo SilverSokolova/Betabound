@@ -1,19 +1,23 @@
 {
-  "itemName" : "sb_corntent",
-  "price" : 145,
-  "foodValue" : 45,
-  "effects" : [[
-	{"effect":"maxhealthscalingboostfood","duration":405},
-	{"effect":"sb_health","duration":25},
-	"sb_foodheal145"
-  ]],
-  "tooltipKind" : "sb_object4b",
-  "rarity" : "rare",
-  "category" : "preparedFood",
-  "inventoryIcon" : "corntent.png",
-  "description" : "The famous Glitch chef behind Smash and Bolt-O's also invented Corntent, and nobody is quite sure why.",
-  "shortdescription" : "Corntent",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 2
+  "itemName": "sb_corntent",
+  "price": 145,
+  "foodValue": 45,
+  "effects": [[{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 405
+      }, {
+        "effect": "sb_health",
+        "duration": 25
+      },
+      "sb_foodheal145"
+    ]],
+  "tooltipKind": "sb_object4b",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "inventoryIcon": "corntent.png",
+  "description": "The famous Glitch chef behind Smash and Bolt-O's also invented Corntent, and nobody is quite sure why.",
+  "shortdescription": "Corntent",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 2
 }

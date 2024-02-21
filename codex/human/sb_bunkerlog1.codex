@@ -1,0 +1,19 @@
+{
+  "id": "sb_bunkerlog1",
+  "species": "human",
+  "title": "Transmission #912572",
+  "description": "A transmission received by dilapidated USCM stations, sent from Earth as disaster struck.",
+  "icon": "sb_humancover2.png",
+  "contentPages": [
+  "^yellow;UNENCRYPTED QUANTUM TRANSMISSION RECEIVED^reset;
+FROM: USCMCENTCOM EARTH
+BEGIN MESSAGE:
+ALL STATIONS. EARTH UNDER HEAVY ATTACK. ORDERS ARE TO HOLD FAST. GOOD LUCK
+END MESSAGE"
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object4"
+  }
+}

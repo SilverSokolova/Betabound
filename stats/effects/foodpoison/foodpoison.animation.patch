@@ -1,0 +1,11 @@
+[{"op":"add","path":"/particleEmitters/sb_poisonsicknessparticles",
+        "value" : {
+            "active" : true,
+            "emissionRate" : 0.25,
+            "particles" : [
+                {"particle":"poisonsicknessdust"},
+                {"particle":"poisonsicknessdust2"}
+            ]
+        }
+    }
+]

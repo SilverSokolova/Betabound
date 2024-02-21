@@ -1,0 +1,16 @@
+{
+  "itemName": "sb_elementmod",
+  "price": 1500,
+  "tooltipKind": "sb_object4",
+  "rarity": "uncommon",
+  "itemTags": ["weapon", "ranged", "revolver", "pistol", "gun"],
+  "category": "pistol",
+  "tooltipFields": {
+    "subtitle": "Weapon Mod"
+  },
+  "description": "Replaces the element of non-unique weapons.\n^gray;Apply to weapon with right-click",
+  "shortdescription": "^yellow;%s^reset;",
+  "elementList": ["electric", "fire", "ice", "poison"],
+  "scripts": ["/scripts/augments/sb_element.lua"],
+  "builder": "/items/buildscripts/starbound/buildelementmod.lua"
+}

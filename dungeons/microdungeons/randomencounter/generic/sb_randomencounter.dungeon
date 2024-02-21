@@ -1,25 +1,23 @@
 {
-  "metadata" : {
-    "name" : "sb_randomencounter",
-    "species" : "dummy",
-    "rules" : [["maxSpawnCount",[1]]],
-    "anchor" : ["farm","wreck"],
-    "maxRadius" : 1000000,
-    "maxParts" : 1
+  "metadata": {
+    "name": "sb_randomencounter",
+    "species": "dummy",
+    "rules": [["maxSpawnCount", [1]]],
+    "anchor": ["farm", "wreck"],
+    "maxRadius": 1000000,
+    "maxParts": 1
   },
 
-  "parts" : [
-    {
-      "name" : "farm",
-      "rules" : [],
-      "def" : ["tmx","sb_farm.json"]
-//      "chance" : 0.5
-    },
-    {
-      "name" : "wreck",
-      "rules" : [],
-      "def" : ["tmx","sb_wreck.json"]
-//      "chance" : 0.5
+  "parts": [{
+      "name": "farm",
+      "rules": [],
+      "def": ["tmx", "sb_farm.json"],
+      "chance": 0.8
+    }, {
+      "name": "wreck",
+      "rules": [],
+      "def": ["tmx", "sb_wreck.json"],
+      "chance": 0.8
     }
   ]
 }

@@ -18,7 +18,7 @@
   "projectileType": "sb_electrogrenade",
   "projectileConfig": {
     "speed": 45,
-    "power": 17.5,
+    "power": 7.5,
     "periodicActions": [{
         "time": 0,
         "repeat": false,

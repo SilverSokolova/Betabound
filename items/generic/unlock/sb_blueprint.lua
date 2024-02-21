@@ -16,8 +16,8 @@ function swingAction(_, _, shiftHeld)
   end
   if not player.blueprintKnown(recipe) then
     player.giveBlueprint(recipe)
+    animator.playSound("success")
     item.consume(1)
-    animator.playSound("learnBlueprint")
   else
     sb_uiMessage("blueprintKnown")
   end

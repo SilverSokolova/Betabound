@@ -1,22 +1,21 @@
 {
-  "materialId" : 6968,
-  "materialName" : "skyrailplatform",
-  "platform" : true,
-  "transparent" : true,
-  "collisionKind" : "platform",
-  "itemDrop" : "skyrailplatform",
-  "shortdescription" : "Skyrail",
-  "description" : "A metalic platform with a strange groove in the middle.",
-  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
-  "category" : "supports",
-  "renderTemplate" : "/tiles/skyrailtemplate.config",
-  "renderParameters" : {
-    "texture" : "skyrailplatform.png",
-    "variants" : 1,
-    "lightTransparent" : true,
-    "occludesBelow" : false,
-    "multiColored" : false,
-    "zLevel" : 0,
-    "platform" : true
+  "materialId": 6968,
+  "materialName": "skyrailplatform",
+  "transparent": true,
+  "collisionKind": "platform",
+  "itemDrop": "skyrailplatform",
+  "shortdescription": "Skyrail",
+  "description": "A metalic platform with a strange groove in the middle.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "supports",
+  "renderTemplate": "/tiles/skyrailtemplate.config",
+  "renderParameters": {
+    "texture": "skyrailplatform.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": false,
+    "zLevel": 0,
+    "platform": true
   }
 }

@@ -6,40 +6,40 @@
 
   [
     {"op":"add","path":"/surfacePlaceables/items/-","value":{
-	  "mode":"floor",
-	  "priority":0,
-	  "variants":1,
-	  "distribution":"/biomes/distributions.config:surfaceCrops",
-	  "type":"object",
-	  "objectSets":[{"pool":[[1,"sb_poisoncreepseed"]],"parameters":{"startingStage":3,"orientations":[{"requireTilledAnchors":false}]}}]}
-	}
+    "mode":"floor",
+    "priority":0,
+    "variants":1,
+    "distribution":"/biomes/distributions.config:surfaceCrops",
+    "type":"object",
+    "objectSets":[{"pool":[[1,"sb_poisoncreepseed"]],"parameters":{"startingStage":3,"orientations":[{"requireTilledAnchors":false}]}}]}
+  }
   ],
 
   [
     {"op":"add","path":"/surfacePlaceables/items/-","value":{
-	  "mode":"floor",
-	  "priority":2,
-	  "variants":2,
-	  "distribution":"/biomes/distributions.config:denseLarge",
-	  "type":"tree",
+    "mode":"floor",
+    "priority":2,
+    "variants":2,
+    "distribution":"/biomes/distributions.config:denseLarge",
+    "type":"tree",
       "treeFoliageHueShiftMax":0,
-	  "treeStemHueShiftMax":15,
-	  "treeStemList":["sb_alienweird"],
-	  "treeFoliageList":["alienbigleaf","aliencircle"]}
-	}
+    "treeStemHueShiftMax":15,
+    "treeStemList":["sb_alienweird"],
+    "treeFoliageList":["alienbigleaf","aliencircle"]}
+  }
   ],
 
   [
     {"op":"add","path":"/surfacePlaceables/items/-","value":{
       "mode":"floor",
-	  "priority":3,
-	  "variants":1,
-	  "distribution":"/biomes/distributions.config:denseLarge",
-	  "type":"tree",
-	  "treeFoliageHueShiftMax":0,
-	  "treeStemHueShiftMax":15,
-	  "treeStemList":["sb_alienbubble"],
-	  "treeFoliageList":[""]}
-	}
+    "priority":3,
+    "variants":1,
+    "distribution":"/biomes/distributions.config:denseLarge",
+    "type":"tree",
+    "treeFoliageHueShiftMax":0,
+    "treeStemHueShiftMax":15,
+    "treeStemList":["sb_alienbubble"],
+    "treeFoliageList":[""]}
+  }
   ]
 ]

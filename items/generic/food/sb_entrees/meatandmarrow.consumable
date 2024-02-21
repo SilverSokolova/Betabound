@@ -1,19 +1,19 @@
 {
   "itemName": "sb_meatandmarrow",
-  "price": 220,
-  "foodValue": 40,
+  "price": 310,
+  "foodValue": 50,
   "tooltipKind": "sb_object4",
-  "rarity": "uncommon",
+  "rarity": "rare",
   "inventoryIcon": "meatandmarrow.png",
   "category": "preparedFood",
   "effects": [[{
         "effect": "maxhealthscalingboostfood",
-        "duration": 180
+        "duration": 225
       }, {
         "effect": "ragefood",
-        "duration": 180
+        "duration": 225
       },
-      "sb_foodheal135"
+      "sb_foodheal170"
     ]],
   "description": "It's exactly what it says on the tin, if only it had come in a tin.",
   "shortdescription": "Meat n' Marrow",

@@ -5,6 +5,10 @@
   "tooltipKind": "sb_object",
   "rarity": "rare",
   "itemTags": ["sb_cake"],
+  "sb_plate": {
+    "width": 4,
+    "image": true
+  },
   "category": "preparedFood",
   "inventoryIcon": "crowncake.png",
   "effects": [[{

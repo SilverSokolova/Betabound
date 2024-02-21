@@ -1,20 +1,24 @@
 {
-  "itemName" : "sb_boltedmilk",
-  "price" : 145,
-  "foodValue" : 20,
-  "effects" : [[
-	{"effect":"maxenergyscalingboostfood","duration":90},
-	{"effect":"electrified","duration":90},
-	"sb_foodheal50"
-  ]],
-  "tooltipKind" : "sb_object",
-  "rarity" : "Common",
-  "inventoryIcon" : "boltedmilk.png?saturation=20",
-  "description" : "It's milk with a twist!",
-  "category" : "drink",
-  "shortdescription" : "Bolted Milk",
-  "emitters" : ["drinking"],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 5
+  "itemName": "sb_boltedmilk",
+  "price": 240,
+  "foodValue": 30,
+  "effects": [[{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 135
+      }, {
+        "effect": "electrified",
+        "duration": 135
+      },
+      "sb_foodheal95"
+    ]],
+  "tooltipKind": "sb_object",
+  "rarity": "uncommon",
+  "inventoryIcon": "boltedmilk.png?saturation=20",
+  "description": "It's milk with a twist!",
+  "category": "drink",
+  "shortdescription": "Bolted Milk",
+  "emitters": ["drinking"],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 5
 }

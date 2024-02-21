@@ -1,0 +1,18 @@
+{
+  "id": "sb_humanescape",
+  "species": "human",
+  "title": "The Problem With Monsters",
+  "description": "An early recruitment ad, written before the height of the USCM's power.",
+  "icon": "sb_humancover2.png",
+  "contentPages": [
+"^cornflowerblue;We need YOU! Sign up TODAY for the USCM space program and explore the stars! Just listen to this happy volunteer... IN SPACE:^reset;
+\"So, turns out little monsters are just as murderous and deadly as the huge ones. Who knew? Should've settled for a kitten after all. Anyway, the rest of the crew is dead, which sucks, but no point dwelling on it.
+
+Guess I'd better keep looking for a decent planet, then. One without tentacles. Or killer plant people. Or giant spiders. Or taxes. Yeah, it's time for mankind to claim the stars!\""
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

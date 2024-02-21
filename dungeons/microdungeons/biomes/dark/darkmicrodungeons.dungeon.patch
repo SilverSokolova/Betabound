@@ -1,0 +1,26 @@
+[
+    {
+        "op": "add",
+        "path": "/parts/-",
+        "value": {
+            "name": "sb_darkpit1statue",
+            "rules": [
+                [
+                    "maxSpawnCount",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "def": [
+                "tmx",
+                "darkpit1statue.json"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/metadata/anchor/-",
+        "value": "sb_darkpit1statue"
+    }
+]

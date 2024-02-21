@@ -1,0 +1,19 @@
+{
+  "id": "sb_sewerstrange",
+  "species": "hylotl",
+  "title": "A Strange Encounter",
+  "description" : "An excerpt from Hylotl Adventurer Hiraki Corale's journal.",
+  "icon": "hirakicoralejournal2.png",
+  "contentPages": [
+    "by Hiraki Corale, Hylotl Adventurer
+
+I found myself face-to-face with a giant flying creature, so naturally I ran as fast as my adventurous legs would carry me. I could feel the beast gaining on me, the air from its wings tickling the back of my neck, when a hand reached out from the shadows and grabbed me, whisking me to safety.
+
+I found myself in a small room, clearly living quarters. A smell hung in the air, unpleasant and strange. I gazed upon my saviour and my jaw dropped."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

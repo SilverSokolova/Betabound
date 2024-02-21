@@ -1,0 +1,19 @@
+{
+  "id": "sb_glitchnotes",
+  "species": "glitch",
+  "title": "My Future",
+  "description": "A journal entry from a Glitch who gained self-awareness.",
+  "icon": "sb_glitchcover2.png",
+  "contentPages": [
+"Thanks to my self-awareness, I feel more liberated than I ever have. But... I am alone. Alone, yet hopeful, for there are others like myself out there. I know I will find them.
+
+But, now that I can see my kin for who we are, something bothers me. Who created us? Where do we come from? What, exactly, ARE we? Perhaps, on my journey, I will find the answers.
+
+After I find a ship."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

@@ -1,0 +1,21 @@
+[
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Rare"}],
+[{"op":"test","path":"/price","value":125},{"op":"replace","path":"/price","value":500}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+
+  [
+    {"op":"test","path":"/orientations/0/fgAnchors"},
+    {"op":"test","path":"/orientations/0/anchors","inverse":true},
+    {"op":"test","path":"/orientations/0/spaces","inverse":true},
+    {"op":"test","path":"/orientations/1/fgAnchors"},
+    {"op":"test","path":"/orientations/1/anchors","inverse":true},
+    {"op":"test","path":"/orientations/1/spaces","inverse":true},
+
+    {"op":"remove","path":"/orientations/0/fgAnchors"},
+    {"op":"remove","path":"/orientations/1/fgAnchors"},
+    {"op":"add","path":"/orientations/0/anchors","value":["top","bottom"]},
+    {"op":"add","path":"/orientations/1/anchors","value":["top","bottom"]},
+    {"op":"add","path":"/orientations/0/spaces","value":[[-1,5],[0,5],[-1,0],[0,0]]},
+    {"op":"add","path":"/orientations/1/spaces","value":[[-1,5],[0,5],[-1,0],[0,0]]}
+  ]
+]

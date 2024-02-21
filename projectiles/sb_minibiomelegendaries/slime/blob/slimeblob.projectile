@@ -1,51 +1,46 @@
 {
-  "projectileName" : "sb_slimeblob",
-  "physics" : "grenadezbomb",
-  "lightColor" : [0, 50, 40],
-  "pointLight" : true,
-  "image" : "slimeblob.png",
-  "timeToLive" : 5,
-  "speed" : 20,
-  "animationCycle" : 0.5,
-  "frameNumber" : 2,
-  "power" : 12,
-  "supportsProcessing" : true,
-  "orientationLocked" : true,
-  "flippable" : true,
-  "periodicActions" : [
-    {
-	"action" : "sound",
-	"options" : ["/sfx/projectiles/goo_spit1.ogg", "/sfx/projectiles/goo_spit2.ogg"],
-	"time" : 0,
-	"repeat" : false
+  "projectileName": "sb_slimeblob",
+  "physics": "grenadezbomb",
+  "lightColor": [0, 50, 40],
+  "pointLight": true,
+  "image": "slimeblob.png",
+  "timeToLive": 5,
+  "speed": 20,
+  "animationCycle": 0.5,
+  "frameNumber": 2,
+  "power": 12,
+  "supportsProcessing": true,
+  "orientationLocked": true,
+  "flippable": true,
+  "periodicActions": [{
+      "action": "sound",
+      "options": ["/sfx/projectiles/goo_spit1.ogg", "/sfx/projectiles/goo_spit2.ogg"],
+      "time": 0,
+      "repeat": false
     }
   ],
-  "actionOnReap" : [
-    {
-	"action" : "projectile",
-	"type" : "sb_slimecluster",
-	"fuzzAngle" : 45,
-	"angleAdjust" : 45,
-	"inheritDamageFactor" : 0.333
-    },
-    {
-	"action" : "projectile",
-	"type" : "sb_slimecluster",
-	"fuzzAngle" : 45,
-	"angleAdjust" : -45,
-	"inheritDamageFactor" : 0.333
-    },
-    {
-	"action" : "projectile",
-	"type" : "sb_slimecluster",
-	"fuzzAngle" : 45,
-	"angleAdjust" : -45,
-	"inheritDamageFactor" : 0.333
-    },
-    {
-	"action" : "sound",
-	"options" : ["/sfx/projectiles/goocluster_pop.ogg"]
+  "actionOnReap": [{
+      "action": "projectile",
+      "type": "sb_slimecluster",
+      "fuzzAngle": 45,
+      "angleAdjust": 45,
+      "inheritDamageFactor": 0.333
+    }, {
+      "action": "projectile",
+      "type": "sb_slimecluster",
+      "fuzzAngle": 45,
+      "angleAdjust": -45,
+      "inheritDamageFactor": 0.333
+    }, {
+      "action": "projectile",
+      "type": "sb_slimecluster",
+      "fuzzAngle": 45,
+      "angleAdjust": -45,
+      "inheritDamageFactor": 0.333
+    }, {
+      "action": "sound",
+      "options": ["/sfx/projectiles/goocluster_pop.ogg"]
     }
   ],
-  "damageKind" : "acid"
+  "damageKind": "acid"
 }

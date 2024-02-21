@@ -31,7 +31,7 @@
     "class": "GunFire",
     "projectileType": ["bullet-1", "bullet-2", "bullet-3", "bullet-4"],
     "fireTime": [0.11, 0.18],
-    "baseDps": [3, 3.5],
+    "baseDps": [6, 6.5],
     "energyUsage": [18, 19.5],
     "inaccuracy": [1, 5],
     "projectileParameters": {

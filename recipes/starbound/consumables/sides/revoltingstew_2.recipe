@@ -1,5 +1,5 @@
 {
-  "input" : ["rottenfood"],
+  "input" : [["rottenfood",3]],
   "output" : "sb_revoltingstew",
   "groups" : ["craftingfood","sides","sb_other","nouncrafting","sb_t1food","all"],
   "collectables" : {"cooking":"sb_revoltingstew"}

@@ -1,64 +1,118 @@
 {
-  "animatedParts" : {
-    "stateTypes" : {
-      "jetpack" : {
-	"default" : "off",
-	"states" : {
-	  "off" : {
-	    "properties" : {
-	      "particleEmittersOff" : ["jetpackParticles"]
-	    }
-	  },
-	  "on" : {
-	    "frames" : 5,
-	    "cycle" : 0.5,
-	    "mode" : "loop",
-	    "properties" : {
-	      "persistentSound" : "/sfx/tech/tech_rocketboots.ogg",
-	      "particleEmittersOn" : ["jetpackParticles"]
-	    }
-	  }
-	}
+  "animatedParts": {
+    "stateTypes": {
+      "jetpack": {
+        "default": "off",
+        "states": {
+          "off": {
+            "properties": {
+              "particleEmittersOff": ["jetpackParticles"]
+            }
+          },
+          "on": {
+            "frames": 5,
+            "cycle": 0.5,
+            "mode": "loop",
+            "properties": {
+              "persistentSound": "/sfx/tech/tech_rocketboots.ogg",
+              "particleEmittersOn": ["jetpackParticles"]
+            }
+          }
+        }
       }
     }
   },
 
-  "particleEmitters" : {
-    "jetpackParticles" : {
-      "emissionRate" : 28,
-      "particles" : [
-	{"particle":"sb_jetboots2","offset":[-0.45,-2]},
-	{"particle":"sb_jetboots2","offset":[-0.45,-2]},
-	{"particle":"sb_jetboots2","offset":[-0.45,-2]},
-	{"particle":"sb_jetboots2","offset":[-0.45,-2]},
-	{"particle":"sb_jetboots2","offset":[0.55,-2]},
-	{"particle":"sb_jetboots2","offset":[0.55,-2]},
-	{"particle":"sb_jetboots2","offset":[0.55,-2]},
-	{"particle":"sb_jetboots2","offset":[0.55,-2]},
-	{"particle":"sb_jetboots2","offset":[0.55,-2]},
-	{"particle":"sb_jetboots","offset":[-0.45,-2]},
-	{"particle":"sb_jetboots","offset":[-0.45,-2]},
-	{"particle":"sb_jetboots","offset":[-0.45,-2]},
-	{"particle":"sb_jetboots","offset":[-0.45,-2]},
-	{"particle":"sb_jetboots","offset":[0.55,-2]},
-	{"particle":"sb_jetboots","offset":[0.55,-2]},
-	{"particle":"sb_jetboots","offset":[0.55,-2]},
-	{"particle":"sb_jetboots","offset":[0.55,-2]},
-	{"particle":"sb_jetboots","offset":[0.55,-2]},
-	{"particle":"sb_jetboots3","offset":[-0.45,-2]},
-	{"particle":"sb_jetboots3","offset":[-0.45,-2]},
-	{"particle":"sb_jetboots3","offset":[-0.45,-2]},
-	{"particle":"sb_jetboots3","offset":[-0.45,-2]},
-	{"particle":"sb_jetboots3","offset":[0.55,-2]},
-	{"particle":"sb_jetboots3","offset":[0.55,-2]},
-	{"particle":"sb_jetboots3","offset":[0.55,-2]},
-	{"particle":"sb_jetboots3","offset":[0.55,-2]},
-	{"particle":"sb_jetboots3","offset":[0.55,-2]}
+  "particleEmitters": {
+    "jetpackParticles": {
+      "emissionRate": 28,
+      "particles": [{
+          "particle": "sb_jetboots2",
+          "offset": [-0.45, -2]
+        }, {
+          "particle": "sb_jetboots2",
+          "offset": [-0.45, -2]
+        }, {
+          "particle": "sb_jetboots2",
+          "offset": [-0.45, -2]
+        }, {
+          "particle": "sb_jetboots2",
+          "offset": [-0.45, -2]
+        }, {
+          "particle": "sb_jetboots2",
+          "offset": [0.55, -2]
+        }, {
+          "particle": "sb_jetboots2",
+          "offset": [0.55, -2]
+        }, {
+          "particle": "sb_jetboots2",
+          "offset": [0.55, -2]
+        }, {
+          "particle": "sb_jetboots2",
+          "offset": [0.55, -2]
+        }, {
+          "particle": "sb_jetboots2",
+          "offset": [0.55, -2]
+        }, {
+          "particle": "sb_jetboots",
+          "offset": [-0.45, -2]
+        }, {
+          "particle": "sb_jetboots",
+          "offset": [-0.45, -2]
+        }, {
+          "particle": "sb_jetboots",
+          "offset": [-0.45, -2]
+        }, {
+          "particle": "sb_jetboots",
+          "offset": [-0.45, -2]
+        }, {
+          "particle": "sb_jetboots",
+          "offset": [0.55, -2]
+        }, {
+          "particle": "sb_jetboots",
+          "offset": [0.55, -2]
+        }, {
+          "particle": "sb_jetboots",
+          "offset": [0.55, -2]
+        }, {
+          "particle": "sb_jetboots",
+          "offset": [0.55, -2]
+        }, {
+          "particle": "sb_jetboots",
+          "offset": [0.55, -2]
+        }, {
+          "particle": "sb_jetboots3",
+          "offset": [-0.45, -2]
+        }, {
+          "particle": "sb_jetboots3",
+          "offset": [-0.45, -2]
+        }, {
+          "particle": "sb_jetboots3",
+          "offset": [-0.45, -2]
+        }, {
+          "particle": "sb_jetboots3",
+          "offset": [-0.45, -2]
+        }, {
+          "particle": "sb_jetboots3",
+          "offset": [0.55, -2]
+        }, {
+          "particle": "sb_jetboots3",
+          "offset": [0.55, -2]
+        }, {
+          "particle": "sb_jetboots3",
+          "offset": [0.55, -2]
+        }, {
+          "particle": "sb_jetboots3",
+          "offset": [0.55, -2]
+        }, {
+          "particle": "sb_jetboots3",
+          "offset": [0.55, -2]
+        }
       ]
     }
   },
 
-  "sounds" : {
-    "activate" : ["/sfx/tech/tech_rocketboots_thrust1.ogg","/sfx/tech/tech_rocketboots_thrust2.ogg"]
+  "sounds": {
+    "activate": ["/sfx/tech/tech_rocketboots_thrust1.ogg", "/sfx/tech/tech_rocketboots_thrust2.ogg"]
   }
 }

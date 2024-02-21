@@ -36,7 +36,7 @@ function input(args)
       if dashTapLast == 1 and dashTapTimer > 0 then
         dashTapLast = 0
         dashTapTimer = 0
-	if status.overConsumeResource("energy", energyUsage) then return 1 end
+  if status.overConsumeResource("energy", energyUsage) then return 1 end
       else
         dashTapLast = 1
         dashTapTimer = maximumDoubleTapTime
@@ -48,7 +48,7 @@ function input(args)
       if dashTapLast == -1 and dashTapTimer > 0 then
         dashTapLast = 0
         dashTapTimer = 0
-	if status.overConsumeResource("energy", energyUsage) then return -1 end
+  if status.overConsumeResource("energy", energyUsage) then return -1 end
       else
         dashTapLast = -1
         dashTapTimer = maximumDoubleTapTime
@@ -93,7 +93,7 @@ function update(args)
     mcontroller.controlApproachXVelocity(dashSpeed * dashDirection, dashControlForce)
 
     if airDashing then
-	mcontroller.setYVelocity(0)
+  mcontroller.setYVelocity(0)
     end
     mcontroller.controlFace(dashDirection)
     animator.setFlipped(mcontroller.facingDirection() == -1)

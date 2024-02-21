@@ -1,0 +1,4 @@
+avian spear = common spear
+floran prod = uncommon spear
+rainbow spear = uncommon spear
+tesla spear = rare spear

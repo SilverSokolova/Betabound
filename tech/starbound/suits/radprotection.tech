@@ -3,12 +3,11 @@
   "type": "head",
   "icon": "/tech/starbound/rad.png",
   "scripts": [],
-  //"sb_effect" : [{"stat":"biomeradiationImmunity","amount":1}],
   "sb_effect": "sb_radiationprotectiontech",
-  "sb_suitImage": "?replace;73daff=fffa64;27abff=ffd429;117ee4=e2b61a;1f45d4=ba7e17;002b72=131313;001522=000",
+  "sb_suitImage": "?replace;73daff=fffa64;27abff=ffd429;117ee4=e2b61a;1f45d4=ba7e17",
   "rarity": "Legendary",
   "tooltipKind": "sb_object4",
   "chipCost": 8,
-  "description": "Protects the wearer from the deadly radiation found on certain planets and provides poison resistance.",
+  "description": "Provides poison resistance and protects the wearer from the deadly radiation found on certain planets.",
   "shortDescription": "Radiation Protection"
 }

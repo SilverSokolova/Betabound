@@ -1,19 +1,18 @@
 {
-  "metadata" : {
-    "name" : "sb_miniboss",
-    "species" : "dummy",
-    "rules" : [["maxSpawnCount",[1]]],
-    "anchor" : [ "miniboss" ],
-    "maxRadius" : 1000000,
-    "maxParts" : 1
+  "metadata": {
+    "name": "sb_miniboss",
+    "species": "dummy",
+    "rules": [["maxSpawnCount", [1]]],
+    "anchor": ["miniboss"],
+    "maxRadius": 1000000,
+    "maxParts": 1
   },
 
-  "parts" : [
-    {
-      "name" : "miniboss",
-      "rules" : [],
-      "def" : ["tmx","sb_miniboss.json"],
-      "chance" : 0.02
+  "parts": [{
+      "name": "miniboss",
+      "rules": [],
+      "def": ["tmx", "sb_miniboss.json"],
+      "chance": 0.02
     }
   ]
 }

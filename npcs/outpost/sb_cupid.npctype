@@ -1,0 +1,101 @@
+{
+  "type": "sb_cupid",
+  "baseType": "santa",
+
+  "identity": {
+    "name": "Cupid",
+    "gender": "male"
+  },
+
+  "scriptConfig": {
+    "merchant": {
+      "poolsFile": "/npcs/sb_merchantpools.config",
+      "categories": {
+        "override": ["sb_cupidmerchant"]
+      },
+      "paneLayoutOverride": {
+        "windowtitle": {
+          "title": "  Valentines Merchant",
+          "subtitle": "  Love is in the air!"
+        }
+      }
+    },
+
+    "dialog": {
+      "merchant": {
+        "start": {
+          "default": {
+            "default": [
+              "Got someone special in mind, <entityname>?"
+            ]
+          }
+        },
+        "end": {
+          "default": {
+            "default": [
+              "And to all, a good rest!"
+            ]
+          }
+        },
+        "follow": {
+          "default": {
+            "default": [
+              "Come with me, and help spread the love!"
+            ]
+          }
+        },
+        "welcome": {
+          "default": {
+            "default": [
+              "Got someone special in mind, <entityname>?"
+            ]
+          }
+        },
+        "tout": {
+          "default": {
+            "default": [
+              "Love is in the air!"
+            ]
+          }
+        }
+      },
+      "tenant": {
+        "grumbles": {
+          "tagCriteria": "/dialog/merchant.config:tagCriteria",
+          "enclosedArea": "/dialog/merchant.config:enclosedArea",
+          "otherDeed": "/dialog/merchant.config:otherDeed",
+          "severe": "/dialog/merchant.config:severe",
+          "final": "/dialog/merchant.config:final"
+        },
+        "arrivedHome": {
+          "beacon": "/dialog/merchant.config:beacon",
+          "rent": "/dialog/merchant.config:rent"
+        }
+      }
+    }
+  },
+
+  "items": {
+    "override": [
+      [0, [{
+            "head": [{
+                "name": "cupidshead"
+              }
+            ],
+            "chest": [{
+                "name": "cupidschest"
+              }
+            ],
+            "legs": [{
+                "name": "cupidslegs"
+              }
+            ],
+            "back": [{
+                "name": "cupidsback"
+              }
+            ]
+          }
+        ]]
+    ]
+  }
+}

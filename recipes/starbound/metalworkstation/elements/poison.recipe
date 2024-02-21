@@ -1,0 +1,5 @@
+{
+  "input" : ["venomsample","diamond"],
+  "output" : ["sb_elementmod",1,{"element":"poison"}],
+  "groups" : ["sb_metalworkstation","sb_elements","all"]
+}

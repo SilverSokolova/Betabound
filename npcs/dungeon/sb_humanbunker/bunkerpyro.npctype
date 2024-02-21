@@ -1,7 +1,7 @@
 {
-  "type" : "sb_bunkerpyro",
-  "baseType" : "hostile",
-  "dropPools" : ["sb_bunkerpyroTreasure"],
+  "type": "sb_bunkerpyro",
+  "baseType": "hostile",
+  "dropPools": ["sb_bunkerpyroTreasure"],
   "displayTitle": "USCM Pyromaniac",
 
   "scripts": [
@@ -9,16 +9,16 @@
     "/npcs/sb_bmain.lua"
   ],
 
-  "scriptConfig" : {
-    "dialog" : {
-      "attack" : {
-        "default" : {
-          "default" : [
+  "scriptConfig": {
+    "dialog": {
+      "attack": {
+        "default": {
+          "default": [
             "Intruder!"
           ]
         },
-        "human" : {
-          "default" : [
+        "human": {
+          "default": [
             "Intruder!",
             "We've got a hostile!",
             "Take 'em down!",
@@ -43,45 +43,68 @@
     }
   },
 
-  "items" : {
-    "override" : [
-      [0, [
-          {
-            "head" : [{"name":"pathfinderhead","parameters":{"colorIndex":4}}],
-            "chest" : [{"name":"pathfinderchest","parameters":{"colorIndex":4}}],
-            "legs" : [{"name":"pathfinderlegs","parameters":{"colorIndex":4}}],
-            "back" : [{"name":"hazmatback","parameters":{"colorIndex":4}}],
-            "primary" : [
+  "items": {
+    "override": [
+      [0, [{
+            "head": [{
+                "name": "pathfinderhead",
+                "parameters": {
+                  "colorIndex": 4
+                }
+              }
+            ],
+            "chest": [{
+                "name": "pathfinderchest",
+                "parameters": {
+                  "colorIndex": 4
+                }
+              }
+            ],
+            "legs": [{
+                "name": "pathfinderlegs",
+                "parameters": {
+                  "colorIndex": 4
+                }
+              }
+            ],
+            "back": [{
+                "name": "hazmatback",
+                "parameters": {
+                  "colorIndex": 4
+                }
+              }
+            ],
+            "primary": [
               "sb_flamethrower",
               "flamethrower"
             ],
-            "sheathedalt" : [
+            "sheathedalt": [
               "riotshield"
             ]
           }
-        ] ]
+        ]]
     ]
   },
 
-  "statusControllerSettings" : {
-    "resources" : {
-      "energy" : {
-	"maxValue" : 400,
-        "initialValue" : 400
+  "statusControllerSettings": {
+    "resources": {
+      "energy": {
+        "maxValue": 400,
+        "initialValue": 400
       }
     },
-    "stats" : {
-      "maxHealth" : {
-        "baseValue" : 70
+    "stats": {
+      "maxHealth": {
+        "baseValue": 70
       },
-      "maxEnergy" : {
-        "baseValue" : 200
+      "maxEnergy": {
+        "baseValue": 200
       },
-      "powerMultiplier" : {
-        "baseValue" : 3
+      "powerMultiplier": {
+        "baseValue": 3
       },
-      "protection" : {
-        "baseValue" : 1.0
+      "protection": {
+        "baseValue": 1.0
       }
     }
   }

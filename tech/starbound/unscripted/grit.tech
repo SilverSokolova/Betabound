@@ -1,11 +1,15 @@
 {
-  "name" : "sb_grit",
-  "type" : "head",
-  "icon" : "/tech/starbound/grit.png",
-  "scripts" : [],
-  "sb_effect" : ["sb_grittech",{"stat":"grit","amount":0.5}],
-  "sb_suitImage" : "?replace;73daff=dbbfa4;27abff=bda38b;117ee4=c9a178;1f45d4=a78464;002b72=816955;001522=6f5a49",
-  "rarity" : "Rare",
-  "description" : "Provides the wearer with a boost in knockback resistance.",
-  "shortDescription" : "Grit+"
+  "name": "sb_grit",
+  "type": "head",
+  "icon": "/tech/starbound/grit.png",
+  "scripts": [],
+  "sb_effect": ["sb_grittech", {
+      "stat": "grit",
+      "amount": 0.5
+    }
+  ],
+  "sb_suitImage": "?replace;73daff=dbbfa4;27abff=bda38b;117ee4=c9a178;1f45d4=a78464",
+  "rarity": "Rare",
+  "description": "Provides a boost in knockback resistance.",
+  "shortDescription": "Grit+"
 }

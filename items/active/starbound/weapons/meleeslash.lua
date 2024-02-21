@@ -1,18 +1,16 @@
--- Melee primary ability
+require "/items/active/starbound/weapons/projectile.lua"
+
+--broadsword combo
 MeleeSlash = WeaponAbility:new()
 
 function MeleeSlash:init()
   self.damageConfig = self.damageConfig or {}
   self.damageConfig.baseDamage = self.baseDps * self.fireTime
   self.projectilePower = self.damageConfig.baseDamage * config.getParameter("damageLevelMultiplier",1) * config.getParameter("projectileDamageMultiplier",0.6)
-  local primaryAbility = config.getParameter("primaryAbility")
-  self.projectileType = primaryAbility.projectileType or false
-  if self.projectileType then projectileOffset = primaryAbility.projectileOffset or {0,0.1} end
   self.energyUsage = self.energyUsage or 0
-  self.projectileCount = self.projectileCount or 1
   self.inaccuracy = self.inaccuracy or 0
   self.comboStep = 1
-  elementalType = self.elementalType or self.weapon.elementalType
+  elementalType = self.elementalType or self.weapon.elementalType --no contingency case because other things check for element
 
   --THIS IS STUPID I HATE IT WHY ARENT STANCES MERGED WITH THE DEFAULTS
   windupDuration = 0.1
@@ -29,6 +27,7 @@ function MeleeSlash:init()
 
   self.animKeyPrefix = self.animKeyPrefix or ""
 
+  projectileInit(self, config.getParameter("primaryAbility"))
   self.weapon.onLeaveAbility = function()
     self.weapon:setStance(self.stances.idle)
   end
@@ -138,16 +137,8 @@ function MeleeSlash:fire()
   animator.burstParticleEmitter(swooshKey)
 
 
-  if self.comboStep == 1 and self.projectileType then
-    if animator.hasSound("projectileFire") then animator.playSound("projectileFire") end
-    for i = 1, self.projectileCount do
-      local position = vec2.add(mcontroller.position(), {projectileOffset[1] * mcontroller.facingDirection(), (-1.5 + projectileOffset[2])})
-      local params = {
-	powerMultiplier = activeItem.ownerPowerMultiplier(),
-	power = self.projectilePower
-      }
-      world.spawnProjectile(self.projectileType, position, activeItem.ownerEntityId(), self:aimVector(), false,params)
-    end
+  if self.comboStep == 1 then
+    projectileFire(self)
   end
 
   util.wait(stance.duration, function()
@@ -206,12 +197,6 @@ function MeleeSlash:computeDamageAndCooldowns()
     local speedFactor = 1.0 * (self.comboSpeedFactor ^ i)
     table.insert(self.cooldowns, (targetTime - totalAttackTime) * speedFactor)
   end
-end
-
-function MeleeSlash:aimVector()
-  local aimVector = vec2.rotate({1, 0}, self.weapon.aimAngle + sb.nrand(self.inaccuracy, 0))
-  aimVector[1] = aimVector[1] * mcontroller.facingDirection()
-  return aimVector
 end
 
 function MeleeSlash:uninit()

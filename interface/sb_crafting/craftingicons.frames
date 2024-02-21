@@ -4,8 +4,8 @@
     "dimensions": [5, 3],
     "names": [
       ["table1", "table2", "table3", "culinaryarts", "heartforge"],
-      ["holiday", "printingicon", "spawnerstation", "techconsole", "researchstation"],
-      [null, null, "music", "tech", "closedbook"]
+      ["holiday", "printing", "spawnerstation", "techconsole", "research"],
+      [null, "metalwork", "music", "tech", "closedbook"]
     ]
   }
 }

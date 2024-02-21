@@ -1,21 +1,25 @@
 {
-  "itemName" : "sb_hamsandwich",
-  "price" : 125,
-  "rarity" : "uncommon",
-  "foodValue" : 40,
-  "tooltipKind" : "sb_object4",
-  "itemTags" : ["sb_plate_flipx"],
-  "sb_plateWidth" : 2,
-  "inventoryIcon" : "hamsandwich.png",
-  "category" : "preparedFood",
-  "description" : "Whoever thought to stick ham between two slices of bread was a genius.",
-  "effects" : [[
-	{"effect":"maxhealthscalingboostfood","duration":360},
-	{"effect":"sb_health","duration":20},
-	"sb_foodheal135"
-  ]],
-  "shortdescription" : "Ham Sandwich",
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 2
+  "itemName": "sb_hamsandwich",
+  "price": 125,
+  "rarity": "uncommon",
+  "foodValue": 40,
+  "tooltipKind": "sb_object4",
+  "itemTags": ["sb_plate_flipx"],
+  "sb_plateWidth": 4,
+  "inventoryIcon": "hamsandwich.png",
+  "category": "preparedFood",
+  "description": "Whoever thought to stick ham between two slices of bread was a genius.",
+  "effects": [[{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 360
+      }, {
+        "effect": "sb_health",
+        "duration": 20
+      },
+      "sb_foodheal135"
+    ]],
+  "shortdescription": "Ham Sandwich",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 2
 }

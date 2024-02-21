@@ -6,8 +6,7 @@
   "collectables": {
     "accretion-disc": {
       "icon": "/music/accretion-disc.ogg",
-      "title": "Accretion Disc",
-      "special": true
+      "title": "Accretion Disc"
     },
     "arctic-battle1": {
       "icon": "arctic-battle1-loop",

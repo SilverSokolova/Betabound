@@ -1,0 +1,13 @@
+[
+[{"op":"test","inverse":true,"path":"/sounds/fire"}],[{"op":"add","path":"/sounds/fire","value":[]}],
+[{"op":"test","inverse":true,"path":"/animatedParts/parts/frontWings/partStates/body/firewindup"}],[{"op":"add","path":"/animatedParts/parts/frontWings/partStates/body/firewindup","value":{"properties":{"image":"<partImage>:fly.<frame>"}}}],
+[{"op":"test","inverse":true,"path":"/animatedParts/parts/frontWings/partStates/body/firewinddown"}],[{"op":"add","path":"/animatedParts/parts/frontWings/partStates/body/firewinddown","value":{"properties":{"image":"<partImage>:fly.<frame>"}}}],
+[{"op":"test","inverse":true,"path":"/animatedParts/parts/head/partStates/body/firewindup"}],[{"op":"add","path":"/animatedParts/parts/head/partStates/body/firewindup","value":{"properties":{"image":"<partImage>:fly.<frame>"}}}],
+[{"op":"test","inverse":true,"path":"/animatedParts/parts/head/partStates/body/firewinddown"}],[{"op":"add","path":"/animatedParts/parts/head/partStates/body/firewinddown","value":{"properties":{"image":"<partImage>:fly.<frame>"}}}],
+[{"op":"test","inverse":true,"path":"/animatedParts/parts/body/partStates/body/firewindup"}],[{"op":"add","path":"/animatedParts/parts/body/partStates/body/firewindup","value":{"properties":{"image":"<partImage>:fly.<frame>"}}}],
+[{"op":"test","inverse":true,"path":"/animatedParts/parts/body/partStates/body/firewinddown"}],[{"op":"add","path":"/animatedParts/parts/body/partStates/body/firewinddown","value":{"properties":{"image":"<partImage>:fly.<frame>"}}}],
+[{"op":"test","inverse":true,"path":"/animatedParts/parts/backWings/partStates/body/firewindup"}],[{"op":"add","path":"/animatedParts/parts/backWings/partStates/body/firewindup","value":{"properties":{"image":"<partImage>:fly.<frame>"}}}],
+[{"op":"test","inverse":true,"path":"/animatedParts/parts/backWings/partStates/body/firewinddown"}],[{"op":"add","path":"/animatedParts/parts/backWings/partStates/body/firewinddown","value":{"properties":{"image":"<partImage>:fly.<frame>"}}}],
+[{"op":"test","inverse":true,"path":"/animatedParts/stateTypes/body/states/firewindup"}],[{"op":"add","path":"/animatedParts/stateTypes/body/states/firewindup","value":{"frames":4,"cycle":0.25,"mode":"loop"}}],
+[{"op":"test","inverse":true,"path":"/animatedParts/stateTypes/body/states/firewinddown"}],[{"op":"add","path":"/animatedParts/stateTypes/body/states/firewinddown","value":{"frames":4,"cycle":0.4,"mode":"loop"}}]
+]

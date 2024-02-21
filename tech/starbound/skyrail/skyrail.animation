@@ -1,61 +1,110 @@
 {
-  "animatedParts" : {
-    "stateTypes" : {
-      "skyrail" : {
-        "default" : "off",
-        "states" : {
-          "off" : {},
-          "on" : {
-            "frames" : 4,
-            "cycle" : 0.4,
-            "mode" : "loop"
+  "animatedParts": {
+    "stateTypes": {
+      "skyrailhook": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "on": {
+            "frames": 4,
+            "cycle": 0.4,
+            "mode": "loop"
           }
         }
       },
-      "skyrailbg" : {
-        "default" : "off",
-        "states" : {
-          "off" : {},
-          "on" : {
-            "frames" : 4,
-            "cycle" : 0.4,
-            "mode" : "loop"
+      "skyrailbg": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "on": {
+            "frames": 4,
+            "cycle": 0.4,
+            "mode": "loop"
+          }
+        }
+      },
+      "skyrailfg": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "on": {
+            "frames": 4,
+            "cycle": 0.4,
+            "mode": "loop"
           }
         }
       }
     },
-    "parts" : {
-      "raileffect" : {
-        "properties" : {
-          "centered" : true,
-          "offset" : [0, 1.5]
+    "parts": {
+      "raileffecthook": {
+        "properties": {
+          "centered": true,
+          "fullbright": true,
+          "offset": [0, 1.25]
         },
-        "partStates" : {
-          "skyrail" : {
-            "on" : {
-              "properties" : {
-                "image" : "raileffect.png:<frameIndex>"
+        "partStates": {
+          "skyrailhook": {
+            "on": {
+              "properties": {
+                "image": "hook.png:<frameIndex>"
               }
             }
           }
         }
       },
-      "raileffectbg" : {
-        "properties" : {
-          "centered" : true,
-          "offset" : [0, 1.5]
+      "raileffectfg": {
+        "properties": {
+          "centered": true,
+          "fullbright": true,
+          "offset": [0, 1.5]
         },
-        "partStates" : {
-          "skyrailbg" : {
-            "on" : {
-              "properties" : {
-		"zLevel"  : -1,
-                "image" : "raileffectbg.png:<frameIndex>"
+        "partStates": {
+          "skyrailfg": {
+            "on": {
+              "properties": {
+                "zLevel": 1,
+                "image": "fg.png:<frameIndex>"
+              }
+            }
+          }
+        }
+      },
+      "raileffectbg": {
+        "properties": {
+          "centered": true,
+          "fullbright": true,
+          "offset": [0, 1.5]
+        },
+        "partStates": {
+          "skyrailbg": {
+            "on": {
+              "properties": {
+                "zLevel": -1,
+                "image": "bg.png:<frameIndex>"
               }
             }
           }
         }
       }
+    }
+  },
+
+  "sounds": {
+    "engage": ["/sfx/blocks/footstep_composite.ogg"],
+    "grind": ["/sfx/rails/rail_grind_loop.ogg"]
+  },
+
+  "particleEmitters": {
+    "sparks": {
+      "emissionRate": 70,
+      "particles": [{
+          "particle": "defaultblue",
+          "offset": [0.2, 2.5]
+        }, {
+          "particle": "defaultblue",
+          "offset": [0.2, 2.5]
+        }
+      ]
     }
   }
 }

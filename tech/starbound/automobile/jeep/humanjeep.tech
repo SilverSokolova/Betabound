@@ -8,6 +8,13 @@
   "description": "^#0F0;[F]^reset; Traverses rough terrain quicker. It can also jump!",
   "shortDescription": "Jeep",
 
+  "liquidStatsSubmersionLevel": 0.5,
+  "liquidMechStats": [{
+      "stat": "fallDamageMultiplier",
+      "effectiveMultiplier": 0
+    }
+  ],
+
   "mechCustomMovementParameters": {
     "collisionPoly": [[-2.35, -2.5], [-1.95, -3], [3.45, -3], [3.85, -2.5], [3.85, 0.45], [3.45, 0.85], [-1.95, 0.85], [-2.35, 0.45]],
     "mass": 5,
@@ -26,10 +33,11 @@
       "jumpHoldTime": 0.15
     },
     "liquidJumpProfile": {
-      "jumpSpeed": 8,
-      "jumpControlForce": 400,
-      "jumpInitialPercentage": 0.75,
-      "jumpHoldTime": 0.1
+      "jumpSpeed": 20,
+      "jumpControlForce": 600,
+      "jumpInitialPercentage": 0.45,
+      "jumpHoldTime": 0.15,
+      "multiJump": false
     }
   },
 

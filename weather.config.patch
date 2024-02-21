@@ -1,13 +1,59 @@
-[{
-    "op": "add",
-    "path": "/sb_tentacle",
-    "value": [
-      [0.1, "rain"],
-      [0.05, "storm"],
-      [0.025, "glowingrain"],
-      [0.125, "drizzle"],
-      [0.055, "acidrain"],
-      [0.7, "clear"]
-    ]
-  }
+[
+  [{
+      "op": "add",
+      "path": "/sb_tentacle",
+      "value": [
+        [0.1, "rain"],
+        [0.05, "storm"],
+        [0.025, "glowingrain"],
+        [0.125, "drizzle"],
+        [0.055, "acidrain"],
+        [0.7, "clear"]
+      ]
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/moon/-",
+      "value": [0.07, "spacedustshower"]
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/volcanic/-",
+      "value": [0.02, "ash"]
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/tundra/-",
+      "value": [0.2, "hailstones"]
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/arctic/-",
+      "value": [0.2, "hailstones"]
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/asteroidsMeteor/1/1",
+      "value": "spacedust"
+    }, {
+      "op": "replace",
+      "path": "/asteroidsMeteor/1/1",
+      "value": "spacedustshower"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/asteroids/1/1",
+      "value": "spacedust"
+    }, {
+      "op": "replace",
+      "path": "/asteroids/1/1",
+      "value": "spacedustshower"
+    }
+  ]
 ]

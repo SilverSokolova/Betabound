@@ -22,9 +22,10 @@
       "sb_foodheal145"
     ]],
   "inventoryIcon": "winebottle.png",
+  "sb_plateImage": true,
   "description": "A bottle of smooth red wine.",
   "shortdescription": "Wine Bottle",
-  "handPosition": [2, -3],
+  "handPosition": [1, -3],
   "emitters": ["drinking"],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],

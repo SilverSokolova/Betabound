@@ -1,37 +1,38 @@
 {
-  "id" : "sb_tutorial5.gearup",
-  "prerequisites" : ["sb_tutorial4.gearup" ],
-  "mainQuest" : true,
-  "title" : "^#9be3d6;Forging Ahead (I)",
-  "text" : "^green;Next we need to get you some armour.^reset; Working with metal requires an anvil but before we can craft one you'll need to melt some iron ore. ^green;Obtain 2x iron ore and smelt it in a furnace to obtain an ^orange;iron bar.",
-  "completionText" : "Good job! You'll need a whole bunch of iron bars to craft an anvil.",
-  "speaker" : "questGiver",
-  "moneyRange" : [60, 60],
-  "canBeAbandoned" : true,
+  "id": "sb_tutorial5.gearup",
+  "prerequisites": ["sb_tutorial4.gearup"],
+  "mainQuest": true,
+  "title": "^#9be3d6;Forging Ahead (I)",
+  "text": "^green;Next we need to get you some armour.^reset; Working with metal requires an anvil but before we can craft one you'll need to melt some iron ore. ^green;Obtain 2x iron ore and smelt it in a furnace to obtain an ^orange;iron bar.",
+  "completionText": "Good job! You'll need a whole bunch of iron bars to craft an anvil.",
+  "speaker": "questGiver",
+  "moneyRange": [60, 60],
+  "canBeAbandoned": true,
 
-  "guiConfigs" : {
-    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
-    "newQuest" : "/interface/windowconfig/sb_newquestnorewards.config",
-    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquestnorewards.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
   },
 
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/sb_main.lua",
-  "scriptConfig" : {
-    "title" : "^#9be3d6;Forging Ahead (I)",
-    "missable" : true,
-    "itemIcon" : "/interface/sb_numbers.png:6",
-    "followUp" : "sb_tutorial6.gearup",
-    "giveBlueprints" : ["ironbar"],
-    "portraits" : {"default" : "player"},
-    "requireTurnIn" : false,
-    "conditions" : [
-      {
-        "type" : "gatherItem",
-        "itemName" : "ironbar",
-        "count" : 1,
-	"description" : "Smelt ^orange;2x iron ore^reset; at a ^green;furnace",
-        "consume" : false
+  "updateDelta": 10,
+  "script": "/quests/scripts/sb_main.lua",
+  "scriptConfig": {
+    "title": "^#9be3d6;Forging Ahead (I)",
+    "missable": true,
+    "itemIcon": "/interface/sb_numbers.png:6",
+    "followUp": "sb_tutorial6.gearup",
+    "giveBlueprints": ["ironbar"],
+    "portraits": {
+      "default": "player"
+    },
+    "requireTurnIn": false,
+    "conditions": [{
+        "type": "gatherItem",
+        "itemName": "ironbar",
+        "count": 1,
+        "description": "Smelt ^orange;2x iron ore^reset; at a ^green;furnace",
+        "consume": false
       }
     ]
   }

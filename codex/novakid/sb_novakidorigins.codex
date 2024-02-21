@@ -1,0 +1,25 @@
+{
+  "id": "sb_novakidorigins",
+  "species": "other",
+  "title": "History of the Novakid",
+  "description": "Information regarding the Novakids, written before the Protectorate's formation.",
+  "icon": "sb_novakidcover1.png",
+  "contentPages": [
+"Believed by many to have been forged aeons ago in the fusion furnaces of a now-dead star, the Novakids are a perfect example of nature's emergent beauty.
+
+These creatures, described by a human astronomer as 'interstellar gas-bag people,' have no known single origin point: That information is long lost, as the Novakids have little to no desire to record their history, or even pass it on to their offspring.",
+
+"Though they are generally more intelligent and intuitive than the 'fleshy' races, their attention spans are lacking - this does not make them any less effective in combat, but has the effect of restricting their technology research (and any groundbreaking research is forgotten within a few generations).",
+
+"The force that drives the Novakids is contained within the brand on their faces.
+
+Charged with huge amounts of energy, these pieces of metal generate the hard plasma 'shells' which stop their constituent gases from leaking - if a Novakid is depleted of their vital gases, the energy contained within their brand is instantly vented into the very fabric of space-time, leaving only a twisted metal symbol and a nearly undetectable warping of light around the area of death.",
+
+"Since the Novakids have a short memory (and attention span), diplomatic relations can be strained at times; because of their completely different composition to other lifeforms, Novakids are sometimes unable to grasp the nuances of interracial social interactions, and have thus attained a slightly dubious reputation amongst other races. In particular, an Avian diplomat reportedly described a Novakid he met as 'dense', and elaborated upon his statement by mentioning that the Novakid in question had cheerily asked him if his god, Kluex, was real."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

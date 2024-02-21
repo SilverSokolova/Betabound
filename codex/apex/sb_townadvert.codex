@@ -1,0 +1,15 @@
+{
+  "id": "sb_townadvert",
+  "species": "apex",
+  "title": "Miniknog Advert",
+  "description": "A flyer advertising bananas.",
+  "icon": "sb_apexcover2.png",
+  "contentPages": [
+"Try Big Ape's patented Miniknog Bananas! 100% Mind Control-free, guaranteed! Absolutely no risk of death, or your money back! Eat one today! Not to be consumed while operating vehicles."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

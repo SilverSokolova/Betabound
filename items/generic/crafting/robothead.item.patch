@@ -1,6 +1,6 @@
 [
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":1}],
 [{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":0}],
-[{"op":"replace","path":"/price","value":458},
+[{"op":"replace","path":"/price","value":455},
 {"op":"replace","path":"/tooltipKind","value":"sb_object"},
 {"op":"replace","path":"/rarity","value":"uncommon"}]]

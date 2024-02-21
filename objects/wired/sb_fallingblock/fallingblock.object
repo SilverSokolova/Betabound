@@ -2,7 +2,6 @@
   "objectName": "sb_fallingblock",
   "objectType": "physics",
   "colonyTags": ["wired"],
-  "printable": false,
   "rarity": "Rare",
   "description": "Watch your step! These blocks can't hold much weight.",
   "shortdescription": "Falling Block",

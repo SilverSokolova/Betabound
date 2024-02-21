@@ -1,11 +1,14 @@
 {
-  "itemName" : "skyrail_asc",
-  "price" : 7,
-  "rarity" : "uncommon",
-  "tooltipKind" : "sb_object",
-  "category" : "rail",
-  "inventoryIcon" : "skyrailicon_asc.png",
-  "description" : "Gives priority to higher rails.",
-  "shortdescription" : "Skyrail Switcher +",
-  "materialId" : 400182
+  "itemName": "skyrail_asc",
+  "price": 7,
+  "rarity": "uncommon",
+  "tooltipKind": "sb_object",
+  "category": "rail",
+  "tooltipFields": {
+    "subtitle": "Skyrail"
+  },
+  "inventoryIcon": "skyrailicon_asc.png",
+  "description": "Launches skyrail riders upwards. ^red;Affects skyrail hooks only; not rail riders.^reset;",
+  "shortdescription": "Skyrail Ascender",
+  "materialId": 400182
 }

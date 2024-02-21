@@ -1,22 +1,25 @@
 {
-  "name" : "sb_targetblink",
-  "type" : "head",
+  "name": "sb_targetblink",
+  "type": "head",
 
-  "rarity" : "Legendary",
-  "icon" : "/tech/starbound/blink.png",
-  "description" : "Teleport to any location in sight! ^#0f0;[F]",
-  "shortDescription" : "Targeted Blink",
-  "chipCost" : 14,
+  "rarity": "Legendary",
+  "icon": "/tech/starbound/blink.png",
+  "description": "Teleport to any location in sight! ^#0f0;[F]",
+  "shortDescription": "Targeted Blink",
+  "chipCost": 14,
 
-  "scripts" : ["blink.lua"],
-  "animator" : "blink.animation",
+  "scripts": ["blink.lua"],
+  "animator": "blink.animation",
 
-  "energyUsage" : 36,
-  "blinkCollisionCheckDiameter" : 2,
-  "blinkVerticalGroundCheck" : 10,
-  "blinkFootOffset" : -2.5,
-  "blinkHeadOffset" : 1,
-  "blinkOutTime" : 0.15,
-  "blinkInTime" : 0.15,
-  "blinkMode" : "cursor"
+  "energyUsage": 50,
+  "maxEnergyUsage": 110,
+  "energyEfficiency": 2,
+  "energyUsageType": "scaling",
+  "blinkCollisionCheckDiameter": 2,
+  "blinkVerticalGroundCheck": 10,
+  "blinkFootOffset": -2.5,
+  "blinkHeadOffset": 1,
+  "blinkOutTime": 0.15,
+  "blinkInTime": 0.15,
+  "blinkMode": "cursor"
 }

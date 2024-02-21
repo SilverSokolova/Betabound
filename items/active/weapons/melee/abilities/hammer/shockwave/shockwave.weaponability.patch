@@ -1,0 +1,1 @@
+[{"op":"test","path":"/ability/name","value":"Energy Wave"},{"op":"replace","path":"/ability/name","value":"<elementalName> Wave"}]

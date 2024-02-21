@@ -1,0 +1,4 @@
+[
+[{"op":"add","path":"/scripts/-","value":"sb_invisiblemonsterspawner.lua"}],
+[{"op":"test","path":"/spawner/monsterLevel"},{"op":"remove","path":"/spawner/monsterLevel"}]
+]

@@ -4,40 +4,40 @@
 
   [
     {"op":"add","path":"/surfacePlaceables/items/-","value":{
-	  "mode":"floor",
-	  "priority":0,
-	  "variants":1,
-	  "distribution":"/biomes/distributions.config:surfaceCrops",
-	  "type":"object",
-	  "objectSets":[{"pool":[[1,"sb_wildpoisoncreepseed"]],"parameters":{"startingStage":3}}]}
-	}
+    "mode":"floor",
+    "priority":0,
+    "variants":1,
+    "distribution":"/biomes/distributions.config:surfaceCrops",
+    "type":"object",
+    "objectSets":[{"pool":[[1,"sb_wildpoisoncreepseed"]],"parameters":{"startingStage":3}}]}
+  }
   ],
 
   [
     {"op":"add","path":"/surfacePlaceables/items/-","value":{
       "mode":"floor",
-	  "priority":2,
-	  "variants":2,
-	  "distribution":"/biomes/distributions.config:denseLarge",
-	  "type":"tree",
-	  "treeFoliageHueShiftMax":15,
-	  "treeStemHueShiftMax":15,
-	  "treeStemList":["kelp"],
-	  "treeFoliageList":["flowy","kelpy","leafy","wavy"]}
-	}
+    "priority":2,
+    "variants":2,
+    "distribution":"/biomes/distributions.config:denseLarge",
+    "type":"tree",
+    "treeFoliageHueShiftMax":15,
+    "treeStemHueShiftMax":15,
+    "treeStemList":["kelp"],
+    "treeFoliageList":["flowy","kelpy","leafy","wavy"]}
+  }
   ],
 
   [
     {"op":"add","path":"/surfacePlaceables/items/-","value":{
       "mode":"floor",
-	  "priority":2,
-	  "variants":2,
-	  "distribution":"/biomes/distributions.config:denseLarge",
-	  "type":"tree",
-	  "treeFoliageHueShiftMax":15,
-	  "treeStemHueShiftMax":15,
-	  "treeStemList":["seaweed"],
-	  "treeFoliageList":["flowy","kelpy","leafy","wavy"]}
-	}
+    "priority":2,
+    "variants":2,
+    "distribution":"/biomes/distributions.config:denseLarge",
+    "type":"tree",
+    "treeFoliageHueShiftMax":15,
+    "treeStemHueShiftMax":15,
+    "treeStemList":["seaweed"],
+    "treeFoliageList":["flowy","kelpy","leafy","wavy"]}
+  }
   ]
 ]

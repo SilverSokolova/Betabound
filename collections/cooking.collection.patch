@@ -20,7 +20,7 @@
 [{"op":"add","path":"/collectables/sb_burningeyeballs","value":{"order":46.9,"item":"sb_burningeyeballs"}}],
 [{"op":"add","path":"/collectables/sb_offal","value":{"order":47,"item":"sb_offal"}}],
 [{"op":"add","path":"/collectables/sb_revoltingstew","value":{"order":48,"item":"sb_revoltingstew"}}],
-[{"op":"add","path":"/collectables/sb_rottenapple","value":{"order":49,"item":"sb_rottenapple"}}],
+//[{"op":"add","path":"/collectables/sb_rottenapple","value":{"order":49,"item":"sb_rottenapple"}}],
 [{"op":"add","path":"/collectables/sb_toast","value":{"order":52,"item":"sb_toast"}}],
 
 [{"op":"add","path":"/collectables/sb_sweetmeat","value":{"order":70.9,"item":"sb_sweetmeat"}}],

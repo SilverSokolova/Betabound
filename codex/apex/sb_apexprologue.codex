@@ -1,0 +1,17 @@
+{
+  "id": "sb_apexprologue",
+  "species": "apex",
+  "title": "My Journey Begins",
+  "description": "A personal log from an adventurer. Their tale was never finished...",
+  "icon": "sb_apex.png",
+  "contentPages": [
+"The Miniknog has crushed our portion of the Apex Rebellion. My friends, family, everything I've known... I escaped with my life intact by hijacking a Miniknog ship, but it has ran out of fuel in orbit of an unknown planet.
+    
+Gunfire, screaming Apex, squelching bananas... These sounds still ring in my ears, but I am free. Free, and floating in space. I have decided it is probably time to do something about that latter half. If I encounter any Miniknog, well... This time, I'm going ape."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

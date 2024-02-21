@@ -87,6 +87,13 @@
         "stickyshot",
         "shrapnelbomb",
         "burstshot"
+      ],
+      "altAbilities_physical": [
+        "flashlight",
+        "grenadelauncher",
+        "stickyshot",
+        "shrapnelbomb",
+        "burstshot"
       ]
     }
   ],

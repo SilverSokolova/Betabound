@@ -69,7 +69,7 @@
       "value": "/interface/sb_crafting/amount.png"
     }
   ],
-  //	{"op":"replace","path":"/paneLayout/imgAmountInput/position","value":[208,39]},
+  //  {"op":"replace","path":"/paneLayout/imgAmountInput/position","value":[208,39]},
 
   [{
       "op": "test",
@@ -250,11 +250,11 @@
     }, {
       "op": "replace",
       "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/moneyIcon/position",
-      "value": [123, 9.8]
+      "value": [119, 9.8]
     }, {
       "op": "replace",
       "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/position",
-      "value": [138, 9]
+      "value": [134, 9]
     }, {
       "op": "replace",
       "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/newIcon/position",

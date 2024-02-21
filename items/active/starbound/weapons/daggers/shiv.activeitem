@@ -37,7 +37,7 @@
     "damageConfig": {
       "damageSourceKind": "slash",
       "statusEffects": ["sb_bleed"],
-      "knockback": [6, 9]
+      "knockbackRange": [6, 9]
     },
     "stances": {
       "idle": {

@@ -15,12 +15,12 @@
 
     "merchant": {
       "categories": {
-        "default": ["apexclothes", "avianclothes", "floranclothes", "glitchclothes", "sb_humanclothes", "hylotlclothes", "novakidclothes", "sb_costumes"],
+        "default": ["apexclothes", "avianclothes", "floranclothes", "glitchclothes", "humanclothes", "hylotlclothes", "novakidclothes", "sb_costumes"],
         "apex": ["apexclothes", "sb_costumes"],
         "avian": ["avianclothes", "sb_costumes"],
         "floran": ["floranclothes", "sb_costumes"],
         "glitch": ["glitchclothes", "sb_costumes"],
-        "human": ["sb_humanclothes", "sb_costumes"],
+        "human": ["humanclothes", "sb_costumes"],
         "hylotl": ["hylotlclothes", "sb_costumes"],
         "novakid": ["novakidclothes", "sb_costumes"]
       },

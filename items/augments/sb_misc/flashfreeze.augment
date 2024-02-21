@@ -8,7 +8,7 @@
     "subtitle": "Other"
   },
   "inventoryIcon": "flashfreeze.png",
-  "description": "Completely prevents food from rotting, but renders it unusable for cooking.\n^gray;Select preservatives and right-click item",
+  "description": "Completely prevents food from rotting, but renders it unusable for cooking.\n^gray;Select spray and right-click item",
   "shortdescription": "Flash Freeze Spray",
 
   "fade": "?fade=99e2f3;0.15",

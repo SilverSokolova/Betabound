@@ -19,7 +19,7 @@
       "sb_foodheal70"
     ]],
   "emitters": ["drinking"],
-  "handPosition": [1, -3],
+  "handPosition": [1, -2],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
   "rottingMultiplier": 10

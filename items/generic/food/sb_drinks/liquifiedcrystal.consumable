@@ -1,20 +1,22 @@
 {
-  "itemName" : "sb_liquifiedcrystal",
-  "price" : 150,
-  "foodValue" : 15,
-  "effects" : [[
-	{"effect":"glow","duration":135},
-	"sb_foodheal35"
-  ]],
-  "tooltipKind" : "sb_object",
-  "rarity" : "Common",
-  "inventoryIcon" : "liquifiedcrystal.png",
-  "category" : "drink",
-  "description" : "A bottle of smooth, glowing liquidised crystal plant.",
-  "shortdescription" : "Liquified Crystal",
-  "emitters" : ["drinking"],
-  "builder" : "/items/buildscripts/starbound/buildfood.lua",
-  "learnBlueprintsOnPickup" : ["sb_crystalcandy"],
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 2.5
+  "itemName": "sb_liquifiedcrystal",
+  "price": 150,
+  "foodValue": 15,
+  "effects": [[{
+        "effect": "glow",
+        "duration": 135
+      },
+      "sb_foodheal35"
+    ]],
+  "tooltipKind": "sb_object",
+  "rarity": "Common",
+  "inventoryIcon": "liquifiedcrystal.png",
+  "category": "drink",
+  "description": "A bottle of smooth, glowing liquidised crystal plant.",
+  "shortdescription": "Liquified Crystal",
+  "emitters": ["drinking"],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "learnBlueprintsOnPickup": ["sb_crystalcandy"],
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 2.5
 }

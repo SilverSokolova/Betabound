@@ -1,0 +1,11 @@
+{
+  "name": "sb_breakneck",
+  "type": "head",
+  "icon": "/tech/starbound/breakneck.png",
+  "scripts": [],
+  "sb_effect": ["sb_breaknecktech"],
+  "sb_suitImage": "?replace;73daff=fbefcc;27abff=f1c957;117ee4=ba8c0c;1f45d4=9d760a",
+  "rarity": "Rare",
+  "description": "A sustained sprint which is activated by maintaining running speed.",
+  "shortDescription": "Breakneck Sprint"
+}

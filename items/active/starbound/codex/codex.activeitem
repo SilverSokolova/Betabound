@@ -12,5 +12,5 @@
   "shortdescription": "Blank Book",
   "shortdescriptionBlank": "Untitled Book",
   "scripts": ["codex.lua"],
-  "contentPages": [[]]
+  "builder": "/items/buildscripts/starbound/updatecustomcodex.lua"
 }

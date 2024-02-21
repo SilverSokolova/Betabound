@@ -1,0 +1,24 @@
+{
+  "id": "sb_prisoncasebook1",
+  "species": "glitch",
+  "title": "Prisoners 1",
+  "description": "A journal entry from the Steel Casebook, by Hewlett Deckard, Glitch Bounty Hunter.",
+  "icon": "sb_glitchcover3.png:1",
+  "contentPages": [
+"It's not often a Glitch bounty hunter finds themselves tasked with visiting a human settlement, and yet here I am. I will be honest; I'm not fond of humans. They appear Glitch-like but fleshy, though without the hardy muscular physique of the Apex.
+
+Here, though... In this place, I can't help but pity them as a species. Misery and torment seems to exude from every surface. Graffiti marks the walls; cries for help and sinister warnings. Something terrible once walked these halls and I would be blind to deny it.",
+
+"I am here on the behest of Platinum Ace, tracking down an Apex whom stole the locations of a number of Glitch outcast camps. This Apex, I was told, had disguised himself as a human and promptly been thrown into prison.
+
+If he was here, however, he isn't any more. This place is desolate and ruined-- Was it a mistake to come here? Were I not in control of my body, I imagine I'd be feeling chills run down my spine.
+
+I do not like this place."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object",
+    "sb_unnumberedCodexIcon": "sb_glitchcover3.png:0"
+  }
+}

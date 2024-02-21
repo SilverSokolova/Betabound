@@ -30,6 +30,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_refinedrubium"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"uraniumrod"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"plutoniumrod"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_gunpowder"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"screws"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"polymer"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"leather"}}],
@@ -56,8 +57,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_solidrailplatform"}}],
 
 //crafting
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_woodencraftingtable"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_roboticcraftingtable"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_craftingtool"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_woodencookingtable"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_cookingstation"}}],
 
@@ -68,15 +68,10 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"mechcraftingtable"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_wrappingtable"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_researchstation"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_metalworkstation"}}],
 
 //bosses
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_ironbeacon"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_robot"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_robotheadempty"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"robothead"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"robotarms"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"robotchest"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"robotlegs"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"artificialbrain"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_peanutbutter"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_peanutbutterjar"}}],
@@ -262,6 +257,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"fungusstim"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"grassremedy"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"shroomremedy"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_heatingbag"}}],
 
 
 //weapons
@@ -353,6 +349,18 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6arifle"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6mrifle"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6srifle"}}],
+
+//non-novakid weapons
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"ironshortsword"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"ironbroadsword"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tungstenaxe"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tungstenhammer"}}],
+
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"titaniumdagger"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"titaniumspear"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"durasteelbroadsword"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"durasteelshortsword"}}],
+
 
 //novakid guns
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"ironrevolver"}}],
