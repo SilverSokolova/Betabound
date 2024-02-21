@@ -209,6 +209,11 @@ xrc0018[28]=function()
     player.giveItem({"sb_musicsheet",1,{music="impact-event"}})
   end
 end
+xrc0018[29]=function()
+  if not player.getProperty("sb_bioimplants") then
+    player.setProperty("sb_bioimplants", {})
+  end
+end
 
 function xrc0018z_2(cv,yv)
   newPlayer = yv == 0
