@@ -1,0 +1,15 @@
+{
+  "id": "sb_sewersevering",
+  "species": "glitch",
+  "title": "Severing",
+  "description": "An entry from the journal of Platinum Ace, Outcast Leader.",
+  "icon": "sb_glitchcover5.png",
+  "contentPages": [
+"We caught a non-outcast Glitch attempting to infiltrate our ranks today. Our agents are slipping up... We argued over what to do with this interloper for a while, thankfully having caught her before she entered the tunnels, and eventually a severing was decided upon. Using technology we have been developing, we are now able to sever what holds most Glitch back from organic thought, even if they are not compliant, and so we did here. She will be watched - this new addition - but for now she seems liberated and grateful. Interesting."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}

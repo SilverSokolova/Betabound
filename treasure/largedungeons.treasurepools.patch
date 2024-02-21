@@ -152,12 +152,15 @@
 [{"op":"add","path":"/glitchsewerChestTreasure/0/1/pool/-","value":{"weight":0.02,"item":["craftsmenlegs",1,{"colorIndex":1}]}}],
 [{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":"sb_sewerbattleground-codex"}}],
 [{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":"sb_sewerconstructfree-codex"}}],
+[{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":"sb_sewerferrying-codex"}}],
+[{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":"sb_sewersevering-codex"}}],
 [{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":"sb_sewerlament-codex"}}],
 [{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":"sb_sewerlonely-codex"}}],
 [{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":"sb_sewerpometheus-codex"}}],
 [{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":"sb_sewerstrange-codex"}}],
 [{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":"sb_sewerpo-codex"}}],
 [{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":"sb_sewergrowfly-codex"}}],
+[{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":"sb_sewermecharachnid-codex"}}],
 
 
   // ================================

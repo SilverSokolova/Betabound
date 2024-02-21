@@ -1,7 +1,7 @@
 {
   "type": "sb_robotboss",
   "shortdescription": "^#f00;Fatal Circuit^reset;",
-  "description": "Although intended to be a top-secret upgraded version of the Glitch, the blueprints can easily be found online.",
+  "description": "A top-secret upgraded form of the Glitch gone horribly wrong.",
 
   "categories": ["sb_robotboss"],
   "parts": ["body", "arms", "lit"],

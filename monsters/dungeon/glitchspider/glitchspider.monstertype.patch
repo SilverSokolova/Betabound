@@ -1,0 +1,7 @@
+[
+[{"op":"test","path":"/baseParameters/captureCollectables","inverse":true},{"op":"add","path":"/baseParameters/captureCollectables","value":{"monsters":"glitchspider"}}],
+
+[{"op":"test","path":"/description","inverse":true},{"op":"add","path":"/description","value":"Created by desperate Glitch outcasts to protect their territory, it has turned against its creators."}],
+[{"op":"test","path":"/shortdescription","value":"Glitch Spider"},{"op":"add","path":"/shortdescription","value":"Mecharachnid"}],
+[{"op":"test","path":"/shortdescription","inverse":true},{"op":"add","path":"/shortdescription","value":"Mecharachnid"}]
+]

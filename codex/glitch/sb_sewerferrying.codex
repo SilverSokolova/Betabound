@@ -1,0 +1,15 @@
+{
+  "id": "sb_sewerferrying",
+  "species": "glitch",
+  "title": "Ferrying",
+  "description": "An entry from the journal of Platinum Ace, Outcast Leader.",
+  "icon": "sb_glitchcover5.png",
+  "contentPages": [
+"More and more these days, we're called into these sewers to help other outcasts escape from the city above. We've got our routine down; if it wasn't for those giant flies, and the... other things, it'd be completely smooth. Once we exit the tunnels, I see those Glitch relax and understand their freedom... Well, that makes up for everything. But I ask you: what kind of society, what kind of family, would leave their kin feeling this way? The society above is as toxic as the fumes from the stinking sewer water we're forced to wade through."
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}
