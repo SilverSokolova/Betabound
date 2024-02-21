@@ -5,8 +5,6 @@
 //[{"op":"replace","path":"/tooltipKind","value":"sb_object4"}],
 
 //[{"op":"test","path":"/builder","inverse":true},{"op":"add","path":"/builder","value":0}],[{"op":"replace","path":"/builder","value":"/items/buildscripts/starbound/buildfood.lua"}],
-[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
-[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_rottenapple"}],
 
 [{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":1.5}]
 
