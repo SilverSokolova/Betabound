@@ -7,6 +7,12 @@ function init() ini()
   local quests = {config.getParameter("sb_offeredQuests"),config.getParameter("sb_turnInQuests")}
   if quests[1] then npc.setOfferedQuests(sb_mergeQuests(quests[1],config.getParameter("offeredQuests",{}))) end
   if quests[2] then npc.setTurnInQuests(sb_mergeQuests(quests[2],config.getParameter("turnInQuests",{}))) end --though it'd be cool to just use [1] if [2] is a number, that'd screw over people trying to add quests since it wouldn't add ours
+
+  sb_beamIn = config.getParameter("sb_beamIn") and not status.statusProperty("sb_beamedIn")
+  if sb_beamIn then
+    status.setStatusProperty("sb_beamedIn", 1)
+    status.addEphemeralEffect("beamin")
+  end
 end
 
 function update(...) updat(...)

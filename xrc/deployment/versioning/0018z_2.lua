@@ -13,15 +13,11 @@ local function updateNote(a)
 end
 
 xrc0018[1]=function() local b = root.assetJson("/betabound.config:defaultItems") for i = 1, #b do player.giveItem(b[i]) end end
-xrc0018[2]=function() end
-xrc0018[3]=function() end
 xrc0018[4]=function() quest("sb_kelpquest.gearup","refinery") end
 xrc0018[5]=function() quest("sb_kelpquest.gearup","sb_techconsole") end
-xrc0018[6]=function() end
-xrc0018[7]=function() end
 xrc0018[8]=function()
   local a = status.statusProperty("sb_bioimplants")
-  local b = root.assetJson("/items/buildscripts/starbound/tech.config")
+  local b = root.assetJson("/versioning/sb_tech.config")
   local c = status.statusProperty("sb_bioimplant") or ""
   local e = {}
   if a then
@@ -41,9 +37,6 @@ xrc0018[8]=function()
 end
 --xrc0018[9]=function() if status.statusProperty("xrc_0018z",0) >= 5 then player.giveItem(root.assetJson("/xrc/deployment/versioning/0018z-9.json")) end end
 xrc0018[9]=function() if not player.hasCompletedQuest("destroyruin") then player.startQuest("sb_destroyruin") end end
-xrc0018[10]=function() end
-xrc0018[11]=function() end
-xrc0018[12]=function() end
 xrc0018[13]=function() if player.blueprintKnown("sb_frostshield") then player.giveItem("sb_frostshield-recipe") player.addCurrency("money",5000) end end
 xrc0018[14]=function()
   status.clearPersistentEffects("sb_entity")
@@ -53,10 +46,9 @@ xrc0018[14]=function()
   if type(player.getProperty(p[2])) ~= "string" then player.setProperty(p[2],nil) end
 end
 xrc0018[15]=function() quest("destroyruin","sb_beamaxe2") end
-xrc0018[16]=function() end
 xrc0018[17]=function() player.setProperty("sb_availableBioimplants",{}) if player.getProperty("sb_bioimplant","") == "sb_noprotection" then player.setProperty("sb_bioimplant") end end
 xrc0018[18]=function()
-  local a, b, e, f = player.getProperty("sb_bioimplants"), root.assetJson("/items/buildscripts/starbound/tech.config"), {}, player.getProperty("sb_availableBioimplants")
+  local a, b, e, f = player.getProperty("sb_bioimplants"), root.assetJson("/versioning/sb_tech.config"), {}, player.getProperty("sb_availableBioimplants")
   sb.logInfo("Owned Suits: "..sb.print(a or {}))
   sb.logInfo("Available Suits: "..sb.print(f or {}))
   local c = player.getProperty("sb_bioimplant") or ""
@@ -209,13 +201,17 @@ xrc0018[28]=function()
     player.giveItem({"sb_musicsheet",1,{music="impact-event"}})
   end
 end
-xrc0018[29]=function()
-  if not player.getProperty("sb_bioimplants") then
+xrc0018[30]=function()
+  if type(player.getProperty("sb_bioimplants")) ~= "table" then
     player.setProperty("sb_bioimplants", {})
   end
 end
 
 function xrc0018z_2(cv,yv)
   newPlayer = yv == 0
-  for i = yv, cv-1 do xrc0018[i+1]() end
+  for i = yv, cv-1 do
+    if xrc0018[i+1] then
+      xrc0018[i+1]()
+    end
+  end
 end
