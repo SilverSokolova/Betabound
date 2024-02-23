@@ -17,7 +17,7 @@ xrc0018[4]=function() quest("sb_kelpquest.gearup","refinery") end
 xrc0018[5]=function() quest("sb_kelpquest.gearup","sb_techconsole") end
 xrc0018[8]=function()
   local a = status.statusProperty("sb_bioimplants")
-  local b = root.assetJson("/items/buildscripts/starbound/tech.config")
+  local b = root.assetJson("/versioning/sb_tech.config")
   local c = status.statusProperty("sb_bioimplant") or ""
   local e = {}
   if a then
@@ -48,7 +48,7 @@ end
 xrc0018[15]=function() quest("destroyruin","sb_beamaxe2") end
 xrc0018[17]=function() player.setProperty("sb_availableBioimplants",{}) if player.getProperty("sb_bioimplant","") == "sb_noprotection" then player.setProperty("sb_bioimplant") end end
 xrc0018[18]=function()
-  local a, b, e, f = player.getProperty("sb_bioimplants"), root.assetJson("/items/buildscripts/starbound/tech.config"), {}, player.getProperty("sb_availableBioimplants")
+  local a, b, e, f = player.getProperty("sb_bioimplants"), root.assetJson("/versioning/sb_tech.config"), {}, player.getProperty("sb_availableBioimplants")
   sb.logInfo("Owned Suits: "..sb.print(a or {}))
   sb.logInfo("Available Suits: "..sb.print(f or {}))
   local c = player.getProperty("sb_bioimplant") or ""
