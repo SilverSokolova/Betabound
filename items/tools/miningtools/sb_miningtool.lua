@@ -106,7 +106,7 @@ end
 
 function MiningTool:till(brushArea)
   for i = 1, #brushArea do
-    if not world.material({brushArea[1][1], brushArea[1][2]+1}, self.layer) then
+    if not world.material({brushArea[1][1], brushArea[1][2] + 1}, self.layer) then
       local target = world.material(brushArea[i], self.layer)
       if target and target:sub(1, 13) ~= "metamaterial:" then
         target = root.materialConfig(target).config

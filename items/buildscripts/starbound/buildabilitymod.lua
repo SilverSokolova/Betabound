@@ -30,7 +30,7 @@ function build(directory, config, parameters)
     config.acceptedElements = acceptedElements
   end
   config.shortdescription = string.gsub((config.rarity ~= "common" and "^yellow;" or "")..abilityData.name.."^reset;", "<elementalName>", config.elementalNameDescription)
-  config.description = string.format(config.description, config[(config.slot and "primary" or "alt").."Description"])
+  config.description = string.format(config.description, config[(config.slot and "primary" or "alt").."Description" or "???"])
 
   config.tooltipFields = parameters.tooltipFields or config.tooltipFields or {}
   local weaponName = abilities[parameters.ability].weaponName

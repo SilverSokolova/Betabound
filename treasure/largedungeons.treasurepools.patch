@@ -27,7 +27,7 @@
 [{"op":"add","path":"/apexcityRareTreasure/0/1/fill/-","value":{"item":"sb_townproblems-codex"}}],
 [{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_townadvert-codex"}}],
 [{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_apexorigins-codex"}}],
-[{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_townheadline-codex"}}],
+[{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_townheadline"}}],
 [{"op":"add","path":"/apexcityRareTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_townproblems-codex"}}],
   
   
@@ -106,6 +106,7 @@
 [{"op":"add","path":"/humanprisonLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_prisoncasebook3-codex"}}],
 [{"op":"add","path":"/humanprisonLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_prisoncasebook4-codex"}}],
 [{"op":"add","path":"/humanprisonLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_prisoncasebook5-codex"}}],
+[{"op":"add","path":"/humanprisonLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_prisonghosts-codex"}}],
 
   // ================================
   //          Human Campsite

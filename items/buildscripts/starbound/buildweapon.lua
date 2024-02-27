@@ -7,8 +7,11 @@ require "/items/buildscripts/starbound/definition.lua"
 require "/scripts/sb_assetmissing.lua"
 
 function build(directory, config, parameters, level, seed)
+  require "/items/buildscripts/starbound/updateweapon.lua"
+  config, parameters = build(directory, config, parameters, level, seed)
+
   local configParameter = function(keyName, defaultValue) return parameters[keyName] or config[keyName] or defaultValue end
-  local definition = configParameter("definition",configParameter("sb_definition"))
+  local definition = configParameter("definition", configParameter("sb_definition"))
   if definition then
     config = applyDefinition(config, definition, configParameter("configOverrides"))
   end
@@ -35,7 +38,17 @@ function build(directory, config, parameters, level, seed)
 
   -- elemental type
   if not parameters.elementalType and builderConfig.elementalType then
-    parameters.elementalType = randomFromList(builderConfig.elementalType, seed, "elementalType")
+    if config.itemName == "sb_flamethrower" then
+      local projectileMap = {
+        flamethrower = "fire",
+        icethrower = "ice",
+        poisonthrower = "poison",
+        lightningthrower = "electric"
+      }
+      parameters.elementalType = projectileMap[parameters.primaryAbility and parameters.primaryAbility.projectileType or "flamethrower"]
+    else
+      parameters.elementalType = randomFromList(builderConfig.elementalType, seed, "elementalType")
+    end
   end
   local elementalType = configParameter("elementalType", "physical")
 
@@ -292,25 +305,6 @@ function build(directory, config, parameters, level, seed)
     config.rarity = rarities[root.evalFunction("sb_rarity", math.floor(configParameter("level", 1)))] or config.rarity or "legendary"
   end
   if config.rarity == "essential" then config.tooltipFields.rarityLabel = "Epic" end
-
-  --logic for outdated weapons
-  if not parameters.customItem then
-    if config.itemName == "sb_bonehammer" and parameters.primaryAbilityType == "axecleave" then
-      parameters.primaryAbilityType = "sb_hammer"
-    end
-
-    if parameters.primaryAbilityType == "axecleave" then
-      parameters.primaryAbilityType = "sb_axe"
-    end
-
-    if parameters.primaryAbilityType == "sb_starcleaver" then
-      parameters.primaryAbilityType = "sb_meleeslash"
-    end
-
-    if parameters.animation == "/items/active/starbound/weapons/broadswords/starcleaversword.animation" then
-      parameters.animation = "/items/active/starbound/weapons/broadsword.animation"
-    end
-  end
 
   local tags = configParameter("tags")
   if tags then for k, v in pairs(tags) do replacePatternInData(config, nil, k, v) end end
