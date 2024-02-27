@@ -8,13 +8,36 @@
   [{
       "op": "add",
       "path": "/sb_jumpFuelCostCap",
-      "value": 1000
+      "value": 300
     }
   ],
   [{
       "op": "add",
       "path": "/visitableTypeDescription/ancientgateway/-",
       "value": "A strange ^#571cff;gate^white; of incalculably ancient origin."
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/sb_fuelScalingModItems",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/sb_fuelScalingModItems",
+      "value": []
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb_fuelScalingModItems/-",
+      "value": "ceftlthruster"
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb_fuelScalingModItems/-",
+      "value": "fu_carbon"
     }
   ],
 

@@ -1,0 +1,11 @@
+{
+  "itemName" : "sb_testshortsword3",
+  "definition" : "crayon2",
+  "shortdescription" : "Striking Blue Crayon",
+  "tags" : {
+    "<color>" : "blue",
+    "<swaps>" : "?replace;ffca8a=99afff;eb9550=658cfa;b55f30=3367c4;843114=184c8b"
+  },
+  "itemTags" : ["weapon","melee","shortsword","upgradeableWeapon"],
+  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

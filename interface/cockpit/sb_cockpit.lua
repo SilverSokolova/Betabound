@@ -2,7 +2,7 @@ require "/scripts/sb_assetmissing.lua"
 local ini = init
 
 function init() ini()
-  if root.assetJson("/betabound.config:fuelScaling") and not sb_itemExists("ceftlthruster") and not sb_itemExists("fu_carbon") then
+  if root.assetJson("/betabound.config:fuelScaling") and not sb_hasOtherFuelScalingMod() then
     sb_jumpFuelCostCap = config.getParameter("sb_jumpFuelCostCap")
     --sb_fuelJumpCostDivision = config.getParameter("sb_fuelJumpCostDivision")
     config.sb_getParameter = config.getParameter
@@ -19,4 +19,16 @@ function init() ini()
       end
     end
   end
+end
+
+function sb_hasOtherFuelScalingMod()
+  local items = config.getParameter("sb_fuelScalingModItems")
+  local valid = false
+  for i = 1, #items do
+    if sb_itemExists(items[i]) then
+      valid = true
+      break
+    end
+  end
+  return valid
 end
