@@ -1,5 +1,5 @@
 {
   "input" : [["moonstoneore",5],["platinumbar",5],["wire",10]],
   "output" : "sb_floranfuelhatch",
-  "groups" : ["sb_roboticcraftingtable","sb_stations","all"]
+  "groups" : ["sb_roboticcraftingtable","craftingstations","all"]
 }

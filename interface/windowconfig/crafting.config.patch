@@ -95,22 +95,21 @@
       "op": "add",
       "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/vAnchor",
       "value": "mid"
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/betabound",
+      "inverse": true
     }, {
-      "op": "replace",
-      "path": "/paneLayout/windowtitle/title",
-      "value": "BASIC CRAFTING"
+      "op": "test",
+      "path": "/paneLayout/windowtitle/subtitle",
+      "value": " ^#b9b5b2;Just you, your ingredients and your hands ^green;[C]"
     }, {
       "op": "replace",
       "path": "/paneLayout/windowtitle/subtitle",
-      "value": "^#b9b5b2;Just you, your ingredients, and your hands! ^#0f0;[C]"
-    }, {
-      "op": "replace",
-      "path": "/paneLayout/lblSchematics/value",
-      "value": "SCHEMATICS"
-    }, {
-      "op": "replace",
-      "path": "/paneLayout/lblProducttitle/value",
-      "value": "PRODUCT"
+      "value": " ^#b9b5b2;Just you, your ingredients, and your hands! ^green;[C]"
     }
   ],
 
@@ -194,19 +193,18 @@
       "op": "replace",
       "path": "/paneLayout/btnFilterHaveMaterials/baseImageChecked",
       "value": "/interface/sb_crafting/checkboxcheck.png"
-    },
-    {
+    }, {
       "op": "replace",
       "path": "/paneLayout/close/position/1",
-      "value": 263
+      "value": 261
     }, {
       "op": "replace",
       "path": "/paneLayout/lblSchematics/position/1",
-      "value": 243
+      "value": 244
     }, {
       "op": "replace",
       "path": "/paneLayout/lblProducttitle/position/1",
-      "value": 243
+      "value": 244
     }, {
       "op": "replace",
       "path": "/paneLayout/spinCount/upOffset",
@@ -309,7 +307,7 @@
         "baseImage": "/interface/sb_crafting/categories.png:blocks",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:blocks",
         "data": {
-          "filter": ["sb_materials", "materials"]
+          "filter": ["materials"]
         }
       }
     }, {
@@ -320,7 +318,7 @@
         "baseImage": "/interface/sb_crafting/categories.png:armor",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:armor",
         "data": {
-          "filter": ["sb_armors", "armors", "sb_armours", "armours"]
+          "filter": ["armours"]
         }
       }
     }, {
@@ -331,7 +329,7 @@
         "baseImage": "/interface/sb_crafting/categories.png:weapons",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:weapons",
         "data": {
-          "filter": ["sb_weapons", "weapons"]
+          "filter": ["weapons"]
         }
       }
     }, {
@@ -342,7 +340,7 @@
         "baseImage": "/interface/sb_crafting/categories.png:items",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:items",
         "data": {
-          "filter": ["sb_consumables", "consumables", "healing"]
+          "filter": ["consumables", "healing"]
         }
       }
     }, {
@@ -353,7 +351,7 @@
         "baseImage": "/interface/sb_crafting/categories.png:smith",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:smith",
         "data": {
-          "filter": ["sb_tools", "tools", "mining", "sb_stations"]
+          "filter": ["tools", "mining", "craftingstations"]
         }
       }
     }, {
@@ -364,7 +362,7 @@
         "baseImage": "/interface/sb_crafting/categories.png:sit",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:sit",
         "data": {
-          "filter": ["sb_objects", "objects", "sb_stations", "decoration"]
+          "filter": ["objects", "decoration"]
         }
       }
     }, {

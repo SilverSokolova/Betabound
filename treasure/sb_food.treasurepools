@@ -200,7 +200,7 @@
         ,{"weight" : 0.55, "item" : "sb_corntent"}
         ,{"weight" : 0.8, "item" : "sb_crystalchips"}
 
-        ,{"weight" : 0.75, "item" : "sb_bananabread"}
+        ,{"weight" : 0.875, "item" : "sb_bananabread"}
         ,{"weight" : 0.5, "item" : "sb_brineapple"}
         ,{"weight" : 0.4, "item" : "sb_crowncake"}
         ,{"weight" : 0.85, "item" : "sb_crystalcandy"}
@@ -226,6 +226,7 @@
         ,{"weight" : 0.65, "item" : "sb_weyene"}
         ,{"weight" : 0.6, "item" : "sb_whiskeybottle"}
         ,{"weight" : 0.7, "item" : "sb_whiskeyflask"}
+        ,{"weight" : 0.7, "item" : "sb_pickledpoisoncreep"}
 
         ,{"weight" : 0.985, "item" : "soda"}
         ,{"weight" : 0.985, "item" : "reefcola"}

@@ -83,5 +83,10 @@
     "projectileType": "sb_uraniumorb"
   },
 
-  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+
+  "craftedParameters": {
+    "level": 5,
+    "seed": 1
+  }
 }

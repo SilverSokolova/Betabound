@@ -1,127 +1,132 @@
 {
-  "animatedParts" : {
-    "stateTypes" : {
-      "cog" : {
-        "default" : "off",
-        "states" : {
-          "off" : {},
-          "on" : {
-            "frames" : 3,
-            "cycle" : 0.3,
-            "mode" : "loop"
+  "animatedParts": {
+    "stateTypes": {
+      "cog": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "on": {
+            "frames": 3,
+            "cycle": 0.3,
+            "mode": "loop"
           }
         }
       }
     },
 
-    "parts" : {
-      "bg" : {
-        "properties" : {
-          "zLevel" : 1,
-          "centered" : true,
-          "offset" : [0.0, -2.0],
-          "image" : "extractordrillbg.png"
+    "parts": {
+      "bg": {
+        "properties": {
+          "zLevel": 1,
+          "centered": true,
+          "offset": [0, -2],
+          "image": "extractordrillbg.png"
         }
       },
-      "drill" : {
-        "properties" : {
-          "zLevel" : 2,
-          "centered" : true,
-          "offset" : [0.0, -0.75],
-          "image" : "extractordrill.png",
-          "transformationGroups" : ["drill"]
+      "drill": {
+        "properties": {
+          "zLevel": 2,
+          "centered": true,
+          "offset": [0, -0.75],
+          "image": "extractordrill.png",
+          "transformationGroups": ["drill"]
         }
       },
-      "cog" : {
-        "properties" : {
-          "zLevel" : 3,
-          "centered" : true,
-          "offset" : [0.0, 0.375],
-          "transformationGroups" : ["cog"]
+      "cog": {
+        "properties": {
+          "zLevel": 3,
+          "centered": true,
+          "offset": [0, 0.375],
+          "transformationGroups": ["cog"]
         },
 
-        "partStates" : {
-          "cog" : {
-            "off" : {
-              "properties" : {
-                "image" : "extractordrillcog.png:<frame>"
+        "partStates": {
+          "cog": {
+            "off": {
+              "properties": {
+                "image": "extractordrillcog.png:1"
               }
             },
-            "on" : {
-              "properties" : {
-                "image" : "extractordrillcog.png:<frame>"
+            "on": {
+              "properties": {
+                "image": "extractordrillcog.png:<frame>"
               }
             }
           }
         }
       },
-      "fg" : {
-        "properties" : {
-          "centered" : true,
-          "zLevel" : 4,
-          "image" : "extractordrillrack.png"
+      "fg": {
+        "properties": {
+          "centered": true,
+          "zLevel": 4,
+          "image": "extractordrillrack.png"
         }
       }
     }
   },
 
-  "transformationGroups" : {
-    "drill" : {
-      "interpolated" : true
+  "transformationGroups": {
+    "drill": {
+      "interpolated": true
     },
-    "cog" : {
-      "interpolated" : false
+    "cog": {
+      "interpolated": false
     }
   },
 
-  "particleEmitters" : {
-    "damageShards" : {
-      "transformationGroups" : [],
-      "emissionRate" : 0.0,
-      "burstCount"  : 30,
-      "offsetRegion" : [-1.875, -3.25, 1.875, 1.25],
-      "particles" : [
-        { "particle" : "metalshard", "count" : 3 },
-        { "particle" : "fireshard"}
+  "particleEmitters": {
+    "damageShards": {
+      "transformationGroups": [],
+      "emissionRate": 5,
+      "burstCount": 30,
+      "offsetRegion": [-1.875, -3.25, 1.875, 1.25],
+      "particles": [{
+          "particle": "metalshard",
+          "count": 3
+        }, {
+          "particle": "fireshard"
+        }
       ]
     },
-    "smoke" : {
-      "emissionRate" : 6,
-      "offsetRegion" : [1.5, 2.875, 1.75, 3.125],
-      "particles" : [
-        { "particle" : "rocketbarrelpuff" }
+    "smoke": {
+      "enabled": false,
+      "emissionRate": 6,
+      "offsetRegion": [1.5, 2.875, 1.75, 3.125],
+      "particles": [{
+          "particle": "rocketbarrelpuff"
+        }
       ]
     },
-    "smash" : {
-      "burstCount" : 1,
-      "offsetRegion" : [-0.5, 0.0, 0.5, 0.0],
-      "particles" : [
-        { "particle" : "dust2", "offset" : [-1.875, -3.25] },
-        { "particle" : "dust2", "offset" : [-1.5, -3.25] },
-        { "particle" : "dust2", "offset" : [-1.25, -3.25] },
-        { "particle" : "dust2", "offset" : [-1.0, -3.25] },
-        { "particle" : "dust2", "offset" : [-0.75, -3.25] },
-        { "particle" : "dust2", "offset" : [-0.5, -3.25] },
-        { "particle" : "dust2", "offset" : [-0.25, -3.25] },
-        { "particle" : "dust2", "offset" : [0, -3.25] },
-        { "particle" : "dust2", "offset" : [0.25, -3.25] },
-        { "particle" : "dust2", "offset" : [0.5, -3.25] },
-        { "particle" : "dust2", "offset" : [0.75, -3.25] },
-        { "particle" : "dust2", "offset" : [1.0, -3.25] },
-        { "particle" : "dust2", "offset" : [1.25, -3.25] },
-        { "particle" : "dust2", "offset" : [1.5, -3.25] },
-        { "particle" : "dust2", "offset" : [1.875, -3.25] }
+    "smash": {
+      "burstCount": 1,
+      "offsetRegion": [-0.5, 0, 0.5, 0],
+      "particles": [
+         {"particle": "dust2", "offset": [-1.875, -3.25]},
+         {"particle": "dust2", "offset": [-1.5, -3.25]},
+         {"particle": "dust2", "offset": [-1.25, -3.25]},
+         {"particle": "dust2", "offset": [-1.0, -3.25]},
+         {"particle": "dust2", "offset": [-0.75, -3.25]},
+         {"particle": "dust2", "offset": [-0.5, -3.25]},
+         {"particle": "dust2", "offset": [-0.25, -3.25]},
+         {"particle": "dust2", "offset": [0, -3.25]},
+         {"particle": "dust2", "offset": [0.25, -3.25]},
+         {"particle": "dust2", "offset": [0.5, -3.25]},
+         {"particle": "dust2", "offset": [0.75, -3.25]},
+         {"particle": "dust2", "offset": [1.0, -3.25]},
+         {"particle": "dust2", "offset": [1.25, -3.25]},
+         {"particle": "dust2", "offset": [1.5, -3.25]},
+         {"particle": "dust2", "offset": [1.875, -3.25]}
       ]
     },
-    "smash2" : {
-      "burstCount" : 20,
-      "offsetRegion" : [-0.5, -3.5, 0.5, -3.0],
-      "particles" : [
-        { "particle" : "dust2" }
+    "smash2": {
+      "burstCount": 20,
+      "offsetRegion": [-0.5, -3.5, 0.5, -3.0],
+      "particles": [{
+          "particle": "dust2"
+        }
       ]
     }
   },
 
-  "sounds" : {
-  }
+  "sounds": {}
 }

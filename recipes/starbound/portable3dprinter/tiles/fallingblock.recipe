@@ -1,5 +1,5 @@
 {
   "input" : [["money",250]],
   "output" : ["sb_fallingblock",5],
-  "groups" : ["sb_portable3dprinter","sb_materials","all"]
+  "groups" : ["sb_portable3dprinter","materials","all"]
 }

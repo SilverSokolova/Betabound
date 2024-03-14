@@ -1,6 +1,7 @@
 function init()
-  local e, s = "foodpoison", world.entitySpecies(entity.id()) or ""
-  if s == "hylotl" or s == "glitch" then e = "sb_foodheal10" end
-  status.addEphemeralEffect(e,30)
+  local immune = status.statPositive("sb_poisoncreepImmunity")
+  local newEffect = config.getParameter(immune and "healEffect" or "poisonEffect")
+  newEffect = immune and newEffect..(math.floor(effect.duration())) or newEffect
+  status.addEphemeralEffect(newEffect)
   effect.expire()
 end

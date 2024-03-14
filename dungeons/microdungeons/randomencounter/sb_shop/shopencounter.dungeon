@@ -3,21 +3,25 @@
     "name": "sb_shopencounter",
     "species": "dummy",
     "rules": [["maxSpawnCount", [1]]],
-    "anchor": ["starpawnL", "starpawnR"],
+    "anchor": ["empty", "starpawnL", "starpawnR"],
     "maxRadius": 1000000,
     "maxParts": 1
   },
 
   "parts": [{
+      "name": "empty",
+      "rules": [],
+      "def": ["tmx", "/dungeons/sb_empty.json"]
+    }, {
       "name": "starpawnL",
       "rules": [],
       "def": ["tmx", "starpawnL.json"],
-      "chance": 0.8
+      "chance": 0.25
     }, {
       "name": "starpawnR",
       "rules": [],
       "def": ["tmx", "starpawnR.json"],
-      "chance": 0.8
+      "chance": 0.25
     }
   ]
 }

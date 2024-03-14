@@ -26,7 +26,7 @@
         "config": "/interface/windowconfig/craftingfood.config",
         "paneLayoutOverride": {
           "windowtitle": {
-            "title": " Cooking Table"
+            "title": " Primative Countertop"
           }
         },
         "filter": ["sb_t1food"]

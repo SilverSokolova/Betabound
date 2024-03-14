@@ -79,8 +79,8 @@ function itemSelected()
       widget.setItemSlotItem("currentRecipeIconInput1","sb_blankblueprint")
       widget.setVisible("currentRecipeIconOutput2", true)
       widget.setVisible("currentRecipeIconOutput3", true)
-      widget.setVisible("lblInput",true)
-      widget.setVisible("lblOutput",true)
+      widget.setVisible("lblInput", true)
+      widget.setVisible("lblOutput", true)
       widget.setVisible("lblDetails", true)
       selectedAnything = true
     end
@@ -89,7 +89,7 @@ end
 
 function formatIcon(icon, directory)
   if type(icon) ~= "string" then return (#icon == 1 and formatIcon(icon[1].image, directory) or "/items/generated/blueprintinhand.png") end
-  return string.sub(icon,1,1) == "/" and icon or directory..icon
+  return string.sub(icon, 1, 1) == "/" and icon or directory..icon
 end
 
 function categories(_, index)

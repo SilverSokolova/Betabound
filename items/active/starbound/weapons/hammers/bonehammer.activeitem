@@ -89,5 +89,11 @@
     "projectileType": "sb_boneswoosh"
   },
 
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "shortdescription": "Bone Hammer",
+    "seed": 2,
+    "level": 4
+  }
 }

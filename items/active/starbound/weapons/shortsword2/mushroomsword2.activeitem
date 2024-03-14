@@ -27,5 +27,10 @@
       "damageSourceKind": "poisonshortsword"
     }
   },
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "level": 2,
+    "seed": 1
+  }
 }

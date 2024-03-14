@@ -25,9 +25,10 @@ function init()
       object.setConfigParameter("sb_codex", nil)
     end
   end
+
   id = entity.id()
   items = config.getParameter("items", {})
-  
+
   message.setHandler("sb_lectern:rename", function(_, _, name)
     name = string.gsub(name, "(%^.-%;)", "")
     if string.gsub(name, "(% )", "") == "" then
@@ -66,14 +67,12 @@ function init()
     end
     local hasItems = false
     local count = 0
-    local itemIndexToRemove
     local itemToRemove
     local newItems = {}
     for k, v in pairs(items) do
       hasItems = true
       if root.itemDescriptorsMatch(item, v, true) then
         itemToRemove = v
-        itemIndexToRemove = k
       else
         if count == 0 then
           newItems = {v}
@@ -99,6 +98,16 @@ function init()
         world.spawnItem(itemToRemove, world.entityPosition(id))
       end
       saveItems()
+    else
+      for k, v in pairs(items) do
+        if v.name == "sb_musicsheet" then
+          if v.parameters then
+            v.parameters.shortdescription = nil
+            v.parameters.rarity = nil
+          end
+        end
+        saveItems()
+      end
     end
   end)
 end

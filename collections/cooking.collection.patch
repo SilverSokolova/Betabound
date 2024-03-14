@@ -41,6 +41,7 @@
 [{"op":"add","path":"/collectables/sb_pussplumpie","value":{"order":83,"item":"sb_pussplumpie"}}],
 [{"op":"add","path":"/collectables/sb_sweettime","value":{"order":84,"item":"sb_sweettime"}}],
 [{"op":"add","path":"/collectables/sb_brineapple","value":{"order":84.9,"item":"sb_brineapple"}}],
+[{"op":"add","path":"/collectables/sb_pickledpoisoncreep","value":{"order":84.9,"item":"sb_pickledpoisoncreep"}}],
 [{"op":"add","path":"/collectables/sb_toffee","value":{"order":85,"item":"sb_toffee"}}],
 [{"op":"add","path":"/collectables/sb_toffeeapple","value":{"order":86,"item":"sb_toffeeapple"}}],
 [{"op":"add","path":"/collectables/sb_cake","value":{"order":86.9,"item":"sb_cake"}}],

@@ -84,5 +84,10 @@
       }
     }
   },
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "seed": 1,
+    "level": 5
+  }
 }

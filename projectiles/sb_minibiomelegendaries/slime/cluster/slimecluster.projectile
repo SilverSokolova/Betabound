@@ -14,10 +14,8 @@
   "flippable": true,
   "bounces": 1,
   "actionOnReap": [{
-      "action": "projectile",
-      "type": "smallregularexplosion",
-      "inheritDamageFactor": 0.5,
-      "angle": 5
+      "action": "config",
+      "file": "/projectiles/explosions/poisonsmoke/poisonsmoke.config"
     }, {
       "action": "sound",
       "options": ["/sfx/projectiles/goocluster_pop.ogg"]

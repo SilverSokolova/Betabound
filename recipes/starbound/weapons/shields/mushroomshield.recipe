@@ -1,5 +1,5 @@
 {
   "input" : [["tungstenbar",5],["shroom",15]],
-  "output" : ["mushroomshield",1,{"level":2,"shortdescription":"Mushroom Shield"}],
+  "output" : ["mushroomshield",1,{"sb_crafted":true}],
   "groups" : ["craftinganvil","weapons","all"]
 }

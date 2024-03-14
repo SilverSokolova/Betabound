@@ -1,7 +1,7 @@
 {
   "itemName": "sb_poisoncreep",
   "price": 100,
-  "foodValue": 2.5,
+  "foodValue": 5,
   "effects": [["sb_poisoncreep"]],
   "tooltipKind": "sb_object4",
   "eventCategory": "eventCrop",
@@ -11,7 +11,7 @@
   "description": "These berries are poisonous to anyone but those of aquatic disposition.",
   "shortdescription": "Poisoncreep",
   "emitters": ["eating"],
-  "learnBlueprintsOnPickup": ["sb_brineapple"],
+  "learnBlueprintsOnPickup": ["sb_brineapple", "sb_pickledpoisoncreep"],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
   "rottingMultiplier": 1.5

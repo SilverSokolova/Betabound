@@ -161,6 +161,8 @@
 ,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_bonepistol"}}]
 ,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_bonehammer"}}]
 ,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_bonehammer-recipe"}}]
+,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_boneaxe"}}]
+,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_boneaxe-recipe"}}]
 
 
 

@@ -1,7 +1,7 @@
 {
   "itemName": "sb_bananabread",
-  "price": 215,
-  "foodValue": 25,
+  "price": 110,
+  "foodValue": 12.5,
   "tooltipKind": "sb_object",
   "rarity": "Common",
   "inventoryIcon": "bananabread.png",
@@ -10,12 +10,12 @@
   "shortdescription": "Banana Bread",
   "effects": [[{
         "effect": "maxenergyscalingboostfood",
-        "duration": 225
+        "duration": 113
       }, {
-        "effect": "sb_energyregen96",
-        "duration": 225
+        "effect": "sb_energyregen5",
+        "duration": 113
       },
-      "sb_foodheal70"
+      "sb_foodheal35"
     ]],
   "sb_plateImage": true,
   "builder": "/items/buildscripts/starbound/buildfood.lua",

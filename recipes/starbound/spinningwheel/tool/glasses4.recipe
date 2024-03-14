@@ -1,5 +1,5 @@
 {
   "input" : [["glass",2],["screws",2]],
   "output" : "glasses4head",
-  "groups" : ["sb_craftingtable","sb_armors","all"]
+  "groups" : ["sb_craftingtable","armours","all"]
 }

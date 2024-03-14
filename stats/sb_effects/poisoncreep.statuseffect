@@ -1,7 +1,9 @@
 {
-  "name" : "sb_poisoncreep",
-  "blockingStat" : "sb_poisoncreepImmunity",
-  "effectConfig" : {},
-  "defaultDuration" : 1,
-  "scripts" : ["poisoncreep.lua"]
+  "name": "sb_poisoncreep",
+  "effectConfig": {
+    "poisonEffect": "foodpoison",
+    "healEffect": "sb_foodheal"
+  },
+  "defaultDuration": 10,
+  "scripts": ["poisoncreep.lua"]
 }

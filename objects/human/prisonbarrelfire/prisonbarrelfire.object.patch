@@ -37,5 +37,115 @@
       "path": "/category",
       "value": "crafting"
     }
+  ],
+  [{
+      "op": "test",
+      "path": "/particleEmitter",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/particleEmitter",
+      "value": {
+        "emissionRate": 1,
+        "emissionVariance": 0.5,
+        "particle": {
+          "type": "ember",
+          "position": [-0.5, 2.3],
+          "size": 1,
+          "color": [255, 100, 0, 255],
+          "light": [150, 50, 50],
+          "fade": 0.9,
+          "initialVelocity": [0, 5],
+          "finalVelocity": [0, 3],
+          "approach": [0, 20],
+          "timeToLive": 2,
+          "layer": "middle"
+        },
+        "particleVariance": {
+          "initialVelocity": [0.5, 2],
+          "position": [0.4, 0]
+        }
+      }
+    }
+  ],
+
+  //Nuggubs
+  [{
+      "op": "test",
+      "path": "/lightColor",
+      "value": [204, 189, 173]
+    }, {
+      "op": "replace",
+      "path": "/lightColor",
+      "value": [188, 146, 103]
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/flickerPeriod",
+      "value": 0.3
+    }, {
+      "op": "add",
+      "path": "/flickerMinIntensity",
+      "value": 0.95
+    }, {
+      "op": "add",
+      "path": "/flickerMaxIntensity",
+      "value": 1
+    }, {
+      "op": "add",
+      "path": "/flickerPeriodVariance",
+      "value": 0.075
+    }, {
+      "op": "add",
+      "path": "/flickerIntensityVariance",
+      "value": 0.025
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/orientations/0/dualImage"
+    }, {
+      "op": "test",
+      "path": "/orientations/1",
+      "inverse": true
+    }, {
+      "op": "remove",
+      "path": "/orientations/0/dualImage"
+    }, {
+      "op": "add",
+      "path": "/orientations/0/imageLayers",
+      "value": [{
+          "image": "prisonbarrelfire.png:<color>.<frame>",
+          "fullbright": true
+        }, {
+          "image": "prisonbarrelfirelit.png:<color>.<frame>"
+        }
+      ]
+    }, {
+      "op": "add",
+      "path": "/orientations/0/direction",
+      "value": "right"
+    }, {
+      "op": "add",
+      "path": "/orientations/1",
+      "value": {
+        "imageLayers": [{
+          "image": "prisonbarrelfire.png:<color>.<frame>",
+          "fullbright": true
+        }, {
+          "image": "prisonbarrelfirelit.png:<color>.<frame>"
+        
+          }
+        ],
+        "direction": "left",
+        "flipImages": true,
+        "imagePosition": [-8, 0],
+        "frames": 4,
+        "animationCycle": 0.5,
+        "spaceScan": 0.1,
+        "anchors": ["bottom"]
+      }
+    }
   ]
 ]

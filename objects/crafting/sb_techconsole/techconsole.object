@@ -10,16 +10,6 @@
   "interactAction": "OpenCraftingInterface",
   "interactData": {
     "config": "/interface/windowconfig/sb_craftingtechconsole.config",
-    "paneLayoutOverride": {
-      "windowtitle": {
-        "title": "TECH DEVELOPMENT CONSOLE",
-        "subtitle": "Develop specialized tech!",
-        "icon": {
-          "file": "/interface/sb_crafting/craftingicons.png:techconsole"
-        }
-      }
-    },
-    "requiresBlueprint": false,
     "filter": ["sb_techconsole"]
   },
 

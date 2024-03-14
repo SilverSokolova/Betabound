@@ -12,7 +12,7 @@
   "rarity": "Common",
   "inventoryIcon": "ricevinegar.png",
   "category": "drink",
-  "description": "A traditional Hylotl drink with a very strong flavor.",
+  "description": "A traditional Hylotl condiment with a rather sweet flavor.",
   "shortdescription": "Rice Vinegar",
   "emitters": ["drinking"],
   "builder": "/items/buildscripts/starbound/buildfood.lua",

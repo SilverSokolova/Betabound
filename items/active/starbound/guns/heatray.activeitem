@@ -52,5 +52,10 @@
       "processing": "?scalenearest=0.5;1?fade=bc2b2b;0.7?hueshift=30"
     }
   },
-  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+
+  "craftedParameters": {
+    "seed": 1,
+    "level": 6
+  }
 }

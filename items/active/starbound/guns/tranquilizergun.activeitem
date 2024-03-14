@@ -36,5 +36,10 @@
     "inaccuracy": 0,
     "projectileType": "sb_tranquilizerdart"
   },
-  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+
+  "craftedParameters": {
+    "seed": 1,
+    "level": 4
+  }
 }

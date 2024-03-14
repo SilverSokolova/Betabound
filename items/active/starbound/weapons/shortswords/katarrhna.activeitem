@@ -42,6 +42,7 @@
   },
 
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType": "poison",
   "primaryAbilityType": "sb_meleeslash2",
   "primaryAbility": {
     "projectileType": "sb_slimeblobx",

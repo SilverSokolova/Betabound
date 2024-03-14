@@ -1,5 +1,5 @@
 xrc0018 = {}
-local function blue(a)if type(a)=="string" then a={a} end for i = 1, #a do player.giveBlueprint(a[i]) end end
+local function blue(a) if type(a)=="string" then a={a} end for i = 1, #a do player.giveBlueprint(a[i]) end end
 local function quest(a,b) if type(b)=="string" then b={b} end if player.hasCompletedQuest(a) then for i = 1, #b do player.giveItem(b[i]) end end end
 local function boxQuest(a,b) if player.hasCompletedQuest(a) then IB[#IB+1] = b end end
 local function giveBox() if #IB > 0 then player.giveItem({"sb_itembox",1,{description=string.format("/betabound.config:changedQuestRewardsDescription", #IB),items=IB}}) end end
@@ -10,6 +10,30 @@ local function updateNote(a)
   i.parameters.description = a[2] or b.removedItemDescription
   i.parameters.shortdescription = a[1].." "..b.updateNote
   player.giveItem(i)
+end
+local function reunlockRecipes(a)
+  if type(a) == "string" then a = {a} end
+  for i = 1, #a do
+    sb.logInfo("Attempting to update recipe for: "..a[i][1])
+    if player.blueprintKnown(a[i]) then
+      local recipes = root.recipesForItem(a[i][1])
+      for j = 1, #recipes do
+        player.giveBlueprint(recipes[j].output)
+        sb.logInfo("Updated!")
+      end
+    end
+  end
+--[[  for k, v in pairs(a) do
+    for k2, v2 in pairs(v) do
+      sb.logInfo(sb.print(v2))
+      if player.blueprintKnown(v2) then
+        local recipes = root.recipesForItem(v2)
+        for j = 1, #recipes do
+          player.giveBlueprint(recipes[j])
+        end
+      end
+    end
+  end]]
 end
 
 xrc0018[1]=function() local b = root.assetJson("/betabound.config:defaultItems") for i = 1, #b do player.giveItem(b[i]) end end
@@ -147,7 +171,7 @@ xrc0018[23]=function()
 end
 xrc0018[24]=function() player.startQuest("sb_techunlocks") end
 xrc0018[25]=function()
-  if player.blueprintKnown("sb_frostshield") then player.giveItem("frostshield-recipe")  end
+  if player.blueprintKnown("sb_frostshield") then player.giveItem("frostshield-recipe") end
   if player.blueprintKnown("sb_mushroomshield") then player.giveItem("mushroomshield-recipe") end
 end
 xrc0018[26]=function()
@@ -205,6 +229,9 @@ xrc0018[30]=function()
   if type(player.getProperty("sb_bioimplants")) ~= "table" then
     player.setProperty("sb_bioimplants", {})
   end
+end
+xrc0018[31]=function()
+  reunlockRecipes(root.assetJson("/xrc/deployment/versioning/0018z-31.json"))
 end
 
 function xrc0018z_2(cv,yv)

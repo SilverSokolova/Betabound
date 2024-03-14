@@ -72,11 +72,16 @@
   // ================
 [{"op":"add","path":"/avianfurniture/0/1/-","value":{"item":{"name":"sb_mask7"},"rarity":0.06}}],
 [{"op":"add","path":"/avianfurniture/0/1/-","value":{"item":{"name":"sb_tribaloven2"},"rarity":0.06}}],
+[{"op":"add","path":"/avianfurniture/0/1/-","value":{"item":{"name":"obsidianbookcase"},"rarity":0.06}}],
+
 [{"op":"add","path":"/hylotlfurniture/0/1/-","value":{"item":{"name":"shopline"},"rarity":0.06}}],
 [{"op":"add","path":"/hylotlfurniture/0/1/-","value":{"item":{"name":"sb_hylotlpost"},"rarity":0.06}}],
 [{"op":"add","path":"/hylotlfurniture/0/1/-","value":{"item":{"name":"hylotlcounter"},"rarity":0.06}}],
+
 [{"op":"add","path":"/humanfurniture/0/1/-","value":{"item":{"name":"basicbathdripping"},"rarity":0.06}}],
 [{"op":"add","path":"/humanfurniture/0/1/-","value":{"item":{"name":"prisonexitsign"},"rarity":0.06}}],
+
+[{"op":"add","path":"/apexfurniture/0/1/-","value":{"item":{"name":"apexwoodpanel"},"rarity":0.06}}],
 
 
   // ================
@@ -378,6 +383,7 @@
 [{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_weyene"}}}],
 [{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_whiskeybottle"}}}],
 [{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_whiskeyflask"}}}],
+[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_pickledpoisoncreep"}}}],
 
 //T4
 [{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":{"name":"sb_poachedavesmingo"}}}],

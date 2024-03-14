@@ -86,5 +86,11 @@
     "fireTime": [0.6, 0.9],
     "baseDps": [10.5, 11.5]
   },
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "level": 3,
+    "seed": 1,
+    "shortdescription": "Fire Sword"
+  }
 }

@@ -15,7 +15,7 @@ function init() ini()
 end
 
 function update(dt) updat(dt)
-  if player then
+  if player and not starExtensions then
     animator.setAnimationState("sb_flames", not player.isLounging() and not mcontroller.zeroG() and mcontroller.yVelocity() <= -170 and "flames" or "none")
   end
   if not status.resourcePositive("sb_shieldStaminaRegenBlockL") then

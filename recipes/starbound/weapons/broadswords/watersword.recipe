@@ -1,5 +1,5 @@
 {
   "input" : [["titaniumbar",10],["liquidwater",30],["kelp",15]],
-  "output" : ["sb_watersword",1,{"level":3,"seed":9,"shortdescription":"Water Sword"}],
+  "output" : ["sb_watersword",1,{"crafted":true}],
   "groups" : ["craftinganvil2","weapons","all"]
 }

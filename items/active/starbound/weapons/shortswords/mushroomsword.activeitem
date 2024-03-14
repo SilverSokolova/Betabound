@@ -17,19 +17,8 @@
   "animation": "/items/active/starbound/weapons/shortsword.animation",
   "animationParts": {},
   "animationCustom": {
-    "lights": {
-      "glow": {
-        "color": [0, 0, 0]
-      }
-    },
     "animatedParts": {
       "parts": {
-        "blade": {
-          "properties": {}
-        },
-        "handle": {
-          "properties": {}
-        },
         "swoosh": {
           "partStates": {
             "swoosh": {
@@ -47,7 +36,7 @@
 
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "aimOffset": 0.0,
+  "aimOffset": 0,
   "primaryAbilityType": "sb_meleeslash2",
   "primaryAbility": {
     "projectileTypes": ["sb_fireswirl", "electricexplosion"],
@@ -76,9 +65,19 @@
         }
       },
       "iconDrawables": ["handle", "blade"],
-      "palette": "/items/active/starbound/colors/melee.weaponcolors",
+      "palette": "/items/active/starbound/colors/mushroomsword.weaponcolors",
       "altAbilities": []
     }
   ],
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "level": 2,
+    "seed": 1,
+    "shortdescription": "Magic Shroom Sword",
+    "animationPartVariants": {
+      "blade": 1,
+      "handle": 15
+    }
+  }
 }

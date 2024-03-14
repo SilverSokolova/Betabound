@@ -58,5 +58,10 @@
       "knockback": 10
     }
   },
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "level": 3,
+    "seed": 1
+  }
 }

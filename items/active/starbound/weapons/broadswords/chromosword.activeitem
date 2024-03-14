@@ -74,5 +74,10 @@
     "projectileType": "cellblast",
     "inaccuracy": 0.02
   },
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "level": 5,
+    "seed": 1
+  }
 }

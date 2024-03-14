@@ -56,5 +56,13 @@
       "path": "/itemTags/-",
       "value": "upgradeableWeapon"
     }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb_craftedParameters",
+      "value": {
+        "level": 3
+      }
+    }
   ]
 ]

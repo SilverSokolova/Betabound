@@ -42,7 +42,7 @@
   },
 
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
-  "aimOffset": 0.0,
+  "aimOffset": 0,
   "primaryAbilityType": "sb_meleeslash2",
   "primaryAbility": {
     "projectileType": "sb_multisporecloud",
@@ -53,5 +53,10 @@
       "damageSourceKind": "poisonshortsword"
     }
   },
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "level": 2,
+    "seed": 1
+  }
 }

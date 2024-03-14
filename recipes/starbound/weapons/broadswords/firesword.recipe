@@ -1,5 +1,5 @@
 {
   "input" : [["titaniumbar",10],["corefragmentore",7],["glowfibre",7]],
-  "output" : ["sb_firesword",1,{"level":3,"seed":1,"shortdescription":"Fire Sword"}],
+  "output" : ["sb_firesword",1,{"crafted":true}],
   "groups" : ["craftinganvil2","weapons","all"]
 }

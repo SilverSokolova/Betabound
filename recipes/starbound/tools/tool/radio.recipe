@@ -1,5 +1,5 @@
 {
   "input" : ["ironbar","copperbar"],
   "output" : "sb_radio",
-  "groups" : ["all","sb_craftingtable","sb_objects","craftingstations"]
+  "groups" : ["all","sb_craftingtable","objects","craftingstations"]
 }

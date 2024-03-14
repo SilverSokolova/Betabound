@@ -4,15 +4,6 @@
   "interactAction": "OpenCraftingInterface",
   "interactData": {
     "config": "/interface/windowconfig/sb_metalworkstation.config",
-    "paneLayoutOverride": {
-      "windowtitle": {
-        "title": "METALWORK STATION",
-        "subtitle": "Perfect for modifying weapons!",
-        "icon": {
-          "file": "/interface/sb_crafting/craftingicons.png:metalwork"
-        }
-      }
-    },
 
     "filter": ["sb_metalworkstation"],
     "craftingSound": "/sfx/interface/crafting_furnace.ogg"
@@ -43,11 +34,10 @@
           "image": "metalworkstationlit.png:<color>.<frame>"
         }
       ],
-      "dualImage": "",
 
       "imagePosition": [-8, 0],
       "frames": 5,
-      "animationCycle": 1,
+      "animationCycle": 0.5,
 
       "spaceScan": 0.1,
       "anchors": ["bottom"],

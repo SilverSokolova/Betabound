@@ -1,0 +1,26 @@
+{
+  "itemName": "sb_pickledpoisoncreep",
+  "rarity": "uncommon",
+  "inventoryIcon": "pickledpoisoncreep.png",
+  "foodValue": 30,
+  "description": "Poisoncreep preserved in a potent vinegar. It's still poisonous to non-aquatic species.",
+  "shortdescription": "Pickled Poisoncreep",
+  "category": "drink",
+  "price": 270,
+  "tooltipKind": "sb_object",
+  "effects": [
+    [{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 270
+      }, {
+        "effect": "sb_poisoncreep",
+        "duration": 70
+      }
+    ]
+  ],
+  "emitters": ["drinking"],
+  "handPosition": [1, -2],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 10
+}

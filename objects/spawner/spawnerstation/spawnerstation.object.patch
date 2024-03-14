@@ -1,13 +1,84 @@
 [
-[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":""}],
-[{"op":"test","path":"/radioMessagesOnPickup","inverse":true},{"op":"add","path":"/radioMessagesOnPickup","value":[]}],
+  [{
+      "op": "test",
+      "path": "/tooltipKind",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/tooltipKind",
+      "value": ""
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/radioMessagesOnPickup",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/radioMessagesOnPickup",
+      "value": []
+    }
+  ],
 
-[{"op":"test","path":"/shortdescription","value":"^orange;Employer's Station^white;"},{"op":"replace","path":"/shortdescription","value":"^orange;Employer's Station^reset;"}],
-[{"op":"test","path":"/interactData/paneLayoutOverride/windowtitle/title","value":" Employer's Station"},{"op":"replace","path":"/interactData/paneLayoutOverride/windowtitle/title","value":"Employer's Station"}],
-[{"op":"test","path":"/interactData/paneLayoutOverride/windowtitle/subtitle","value":" Use employment beacons to call in help"},{"op":"replace","path":"/interactData/paneLayoutOverride/windowtitle/subtitle","value":"Use employment beacons to call in help!"}],
+  [{
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Employer's Station^white;"
+    }, {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;Employer's Station^reset;"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " Employer's Station"
+    }, {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "Employer's Station"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " Use employment beacons to call in help"
+    }, {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "Use employment beacons to call in help!"
+    }
+  ],
 
-[{"op":"replace","path":"/tooltipKind","value":"sb_object"}],
-[{"op":"add","path":"/radioMessagesOnPickup/-","value":"sb_pickupspawnerstation"}],
-[{"op":"test","path":"/interactData/config"},{"op":"replace","path":"/interactData/config","value":"/interface/windowconfig/sb_spawnerstation.config"}],
-[{"op":"test","path":"/interactData/paneLayoutOverride/windowtitle/icon/file"},{"op":"replace","path":"/interactData/paneLayoutOverride/windowtitle/icon/file","value":"/interface/sb_crafting/craftingicons.png:spawnerstation"}]
+  [{
+      "op": "replace",
+      "path": "/tooltipKind",
+      "value": "sb_object"
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/radioMessagesOnPickup/-",
+      "value": "sb_pickupspawnerstation"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/interactData/config"
+    }, {
+      "op": "replace",
+      "path": "/interactData/config",
+      "value": "/interface/windowconfig/sb_spawnerstation.config"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/icon/file"
+    }, {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/icon/file",
+      "value": "/interface/sb_crafting/craftingicons.png:spawnerstation"
+    }
+  ]
 ]

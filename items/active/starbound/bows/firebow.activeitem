@@ -32,5 +32,9 @@
   "altAbility": {
     "projectileType": "flamearrow"
   },
-  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+
+  "craftedParameters": {
+    "level": 3
+  }
 }

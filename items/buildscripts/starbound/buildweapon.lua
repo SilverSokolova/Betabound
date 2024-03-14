@@ -3,7 +3,6 @@ require "/scripts/vec2.lua"
 require "/scripts/versioningutils.lua"
 require "/scripts/staticrandom.lua"
 require "/items/buildscripts/starbound/abilities.lua"
-require "/items/buildscripts/starbound/definition.lua"
 require "/scripts/sb_assetmissing.lua"
 
 function build(directory, config, parameters, level, seed)
@@ -13,7 +12,13 @@ function build(directory, config, parameters, level, seed)
   local configParameter = function(keyName, defaultValue) return parameters[keyName] or config[keyName] or defaultValue end
   local definition = configParameter("definition", configParameter("sb_definition"))
   if definition then
+    require "/items/buildscripts/starbound/definition.lua"
     config = applyDefinition(config, definition, configParameter("configOverrides"))
+  end
+
+  if parameters.crafted then
+    parameters = util.mergeTable(configParameter("craftedParameters", {}), parameters)
+    parameters.crafted = nil
   end
 
   if level and not configParameter("fixedLevel", false) then parameters.level = level end

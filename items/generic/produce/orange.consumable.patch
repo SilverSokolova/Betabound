@@ -13,5 +13,7 @@
 [{"op":"test","path":"/builder","value":"/items/buildscripts/buildfood.lua"},{"op":"replace","path":"/builder","value":"/items/buildscripts/starbound/buildfood.lua"}],
 
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
-[{"op":"add","path":"/effects/0/-","value":{"effect":"maxhealthboost10","duration":45}}]
+[{"op":"add","path":"/effects/0/-","value":{"effect":"maxhealthboost10","duration":45}}],
+
+[{"op":"test","path":"/price","value":20},{"op":"replace","path":"/price","value":60}]
 ]

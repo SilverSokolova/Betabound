@@ -44,5 +44,23 @@
     "targetRadialVelocity": -10,
     "controlForce": 250,
     "categoryWhitelist": ["itemdrop"]
-  }
+  },
+
+  //vanilla beamaxe values. unused but present for mods that assume all beamaxes have them
+  "segmentsPerUnit": 1,
+  "nearControlPointElasticity": 1,
+  "farControlPointElasticity": 1,
+  "nearControlPointDistance": 1,
+  "targetSegmentRun": 1,
+  "innerBrightnessScale": 1,
+  "firstStripeThickness": 1,
+  "secondStripeThickness": 1,
+  "minBeamWidth": 1,
+  "maxBeamWidth": 1,
+  "maxBeamJitter": 1,
+  "minBeamJitter": 1,
+  "minBeamTrans": 1,
+  "maxBeamTrans": 1,
+  "minBeamLines": 1,
+  "maxBeamLines": 1
 }

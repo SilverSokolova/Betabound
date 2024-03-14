@@ -80,5 +80,11 @@
     "baseDps": [10.5, 11.5],
     "projectileType": "sb_watersword"
   },
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "level": 3,
+    "seed": 9,
+    "shortdescription": "Water Sword"
+  }
 }

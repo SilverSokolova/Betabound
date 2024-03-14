@@ -5,15 +5,6 @@
   "interactAction": "OpenCraftingInterface",
   "interactData": {
     "config": "/interface/windowconfig/sb_portable3dprinter.config",
-    "paneLayoutOverride": {
-      "windowtitle": {
-        "title": "Portable Pixel Printer",
-        "subtitle": "Print small hi-tech items on-the-fly!",
-        "icon": {
-          "file": "/interface/sb_crafting/craftingicons.png:printing"
-        }
-      }
-    },
     "craftingSound": "/sfx/interface/crafting_compress.ogg",
     "filter": ["sb_portable3dprinter"]
   },

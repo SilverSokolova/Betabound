@@ -4,8 +4,9 @@
   "maxStack": 1,
   "level": 1,
   "rarity": "Legendary",
+  "description": "Summon a flying skull with each swing!",
   "shortdescription": "Bone Axe",
-  "tooltipKind": "sb_sword",
+  "tooltipKind": "sb_sword2",
   "category": "axe",
   "tooltipFields": {
     "subtitle": "Bone Axe"
@@ -21,11 +22,6 @@
   },
 
   "animationCustom": {
-    "lights": {
-      "glow": {
-        "color": [0, 0, 0]
-      }
-    },
     "animatedParts": {
       "parts": {
         "swoosh": {
@@ -58,12 +54,13 @@
 
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "aimOffset": -1.0,
+  "aimOffset": 2,
 
   "primaryAbilityType": "sb_axe",
   "primaryAbility": {
+    "projectileOffset": [0, 3],
     "fireTime": [0.4, 1.3],
-    "projectileType": "bonechain1",
+    "projectileTypes": ["bonechain1", "bonechain2", "bonechain3"],
     "baseDps": [6.5, 8.5],
     "damageConfig": {
       "knockbackRange": [25, 35]
@@ -86,5 +83,11 @@
       "iconDrawables": ["blade"]
     }
   ],
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "shortdescription": "Bone Axe",
+    "seed": 1,
+    "level": 4
+  }
 }
