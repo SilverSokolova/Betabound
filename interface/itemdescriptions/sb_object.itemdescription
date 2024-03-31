@@ -19,11 +19,10 @@
   },
   "objectImage": {
     "type": "image",
-    "position": [74, 125],
-    "file": "",
+    "position": [75, 122],
     "centered": true,
     "maxSize": [70, 45],
-    "minSize": [70, 45]
+    "minSize": [70, 40]
   },
   "title": {
     "type": "label",
@@ -85,17 +84,25 @@
   },
   "foodValueLabel": {
     "type": "label",
-    "position": [14, 152],
+    "position": [16, 152],
     "hAnchor": "left",
-    "centered": true,
+    "vAnchor": "top",
     "width": 126
   },
   "foodAmountLabel": {
     "type": "label",
-    "position": [14, 152],
+    "position": [16, 152],
+    "hAnchor": "left",
+    "vAnchor": "top",
+    "width": 126
+  },
+  "rotTimeLabel": {
+    "type": "label",
+    "position": [16, 152],
     "hAnchor": "left",
     "centered": true,
-    "width": 126
+    "lineSpacing": 1.1,
+    "wrapWidth": 122
   },
   "subTitle": {
     "type": "label",

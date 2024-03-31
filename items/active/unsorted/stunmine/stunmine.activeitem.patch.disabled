@@ -1,1 +1,0 @@
-[[{"op":"test","path":"/tooltipKind","value":"base"},{"op":"replace","path":"/tooltipKind","value":"back"}],[{"op":"replace","path":"/scripts/0","value":"sb_stunmine.lua"}]]

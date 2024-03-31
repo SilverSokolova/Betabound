@@ -1,8 +1,0 @@
-{
-  "name" : "sb_absorptiontech",
-  "defaultDuration" : 5,
-  "effectConfig" : {"tech":"sb_absorption"},
-  "scripts" : ["absorption.lua"],
-  "label" : "Absorption",
-  "icon" : "/tech/starbound/absorption.png"
-}

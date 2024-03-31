@@ -18,7 +18,7 @@
   "sb_plateImage": true,
   "sb_plateHide": true,
   "foodValue": 30,
-  "tooltipKind": "food",
+  "tooltipKind": "sb_object4b",
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
   "rottingMultiplier": 10,

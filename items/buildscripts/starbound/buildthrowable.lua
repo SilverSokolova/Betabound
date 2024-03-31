@@ -6,7 +6,7 @@ function build(directory, config, parameters, level, seed)
     config, parameters = build(directory, config, parameters, level, seed)
   end
   config.tooltipFields = config.tooltipFields or {}
-  local level = string.format("%.0f",configParameter("level", 1))
+  local level = string.format("%.0f", configParameter("level", 1))
   if string.find((config.tooltipKind or "base"), "sb_") then
     config.tooltipFields.levelLabel = "^shadow;Lvl "..level
     config.tooltipFields.level2Label = "Lvl "..level

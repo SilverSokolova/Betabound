@@ -7,7 +7,7 @@ local overheadBar = overheadBars or function() end
 
 function init() ini()
   player = math.betabound_player
-  sb_shieldAlpha = {0,0,0}
+  sb_shieldAlpha = {0,0,0,0}
   sb_lastHunger = math.floor(status.resourcePercentage("food")*100)
   sb_lastHungerMessage = "d100"
   sb_hungerBenchmarks = {2,5,10,15,25,50,75,100}
@@ -46,7 +46,7 @@ function update(dt) updat(dt)
 end
 
 function applyDamageRequest(damageRequest)
-  if (world.getProperty("invinciblePlayers",false) or world.getProperty("nonCombat",false)) then return {} end
+  if (world.getProperty("invinciblePlayers", false) or world.getProperty("nonCombat", false)) then return {} end
   if not player then player = math.betabound_player end
   if status.resource("sb_forceFieldStrength") > 0 and status.resourcePositive("energy") and not status.resourceLocked("energy") then --resourcePositive rounds or smth
     local forceFieldStrength = status.resource("sb_forceFieldStrength")

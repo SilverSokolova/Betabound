@@ -8,8 +8,8 @@ function build(directory, config, parameters)
     config.tooltipKind = "sb_food"
   end
   if not (not not foodTooltip.foodAmountLabel or not not foodTooltip.foodValueLabel) then --check for other food label mods
-    fields.foodValueLabel = ""
-    foodTooltip.foodAmountLabel = ""
+    if fields.foodValueLabel then fields.foodValueLabel = "" end
+    if fields.foodAmountLabel then fields.foodAmountLabel = "" end
   else
     local foodValue = parameters.foodValue or config.foodValue
     if foodValue then
@@ -33,7 +33,7 @@ function build(directory, config, parameters)
   end
 
   local icon = parameters.inventoryIcon
-  if icon and type(icon) == "string" and not root.nonEmptyRegion(icon) then
+  if icon and type(icon) == "string" and icon:sub(1, 1) == "/" and not root.nonEmptyRegion(icon) then
     local directives = icon:match(".*(%?.*)") or ""
     icon = icon:match("(.-)%?.*")
     local foodIconList = root.assetJson("/versioning/sb_food.config")[icon]

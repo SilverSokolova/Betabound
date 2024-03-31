@@ -1,43 +1,44 @@
 {
-  "animatedParts" : {
-    "stateTypes" : {
-      "blinking" : {
-        "default" : "off",
-        "states" : {
-          "off" : {},
-          "in" : {
-            "frames" : 5,
-            "cycle" : 0.15,
-            "mode" : "transition",
-            "transition" : "off"
+  "animatedParts": {
+    "stateTypes": {
+      "blinking": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "in": {
+            "frames": 5,
+            "cycle": 0.15,
+            "mode": "transition",
+            "transition": "off"
           },
-          "out" : {
-            "frames" : 5,
-            "cycle" : 0.15,
-            "mode" : "transition",
-            "transition" : "off"
+          "out": {
+            "frames": 5,
+            "cycle": 0.15,
+            "mode": "transition",
+            "transition": "off"
           }
         }
       }
     },
 
-    "parts" : {
-      "blinkeffect" : {
-        "properties" : {
-          "centered" : true
+    "parts": {
+      "blinkeffect": {
+        "properties": {
+          "centered": true,
+          "fullbright": true
         },
 
-        "partStates" : {
-          "blinking" : {
-            "in" : {
-              "properties" : {
-                "image" : "blinkin.png:<frameIndex>"
+        "partStates": {
+          "blinking": {
+            "in": {
+              "properties": {
+                "image": "blinkin.png:<frameIndex>"
               }
             },
 
-            "out" : {
-              "properties" : {
-                "image" : "blinkout.png:<frameIndex>"
+            "out": {
+              "properties": {
+                "image": "blinkout.png:<frameIndex>"
               }
             }
           }
@@ -45,9 +46,9 @@
       }
     }
   },
-  
-  "sounds" : {
-    "activate" : ["/sfx/tech/tech_blink1.ogg"],
-    "fail" : ["/sfx/interface/clickon_error.ogg"]
+
+  "sounds": {
+    "activate": ["/sfx/tech/tech_blink1.ogg"],
+    "fail": ["/sfx/interface/clickon_error.ogg"]
   }
 }

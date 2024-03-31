@@ -6,7 +6,7 @@
   "baseOffset": [-0.25, 0.25],
   "muzzleOffset": [0, 0.25],
   "tooltipKind": "sb_gun",
-  "category": "pistol",
+  "category": "machinePistol",
   "twoHanded": false,
   "level": 1,
   "paletteSwaps": "",
@@ -15,7 +15,7 @@
   "tooltipFields": {
     "subtitle": "Avian Blaster"
   },
-  "itemTags": ["weapon", "ranged", "pistol", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "machinepistol", "upgradeableWeapon"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
   "animationParts": {

@@ -15,7 +15,7 @@
     "position": [16, 91],
     "hAnchor": "left",
     "vAnchor": "top",
-    //    "lineSpacing" : 0.9,
+    "lineSpacing" : 1.1,
     "wrapWidth": 122
   },
   "objectImage": {
@@ -45,6 +45,14 @@
     "hAnchor": "mid",
     "centered": true,
     "width": 126
+  },
+  "rotTimeLabel": {
+    "type": "label",
+    "position": [16, 50],
+    "hAnchor": "left",
+    "centered": true,
+    "lineSpacing": 1.1,
+    "wrapWidth": 122
   },
   "subTitle": {
     "type": "label",

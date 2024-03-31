@@ -1,5 +1,5 @@
 {
   "input" : [["money",75]],
   "output" : "shiplight",
-  "groups" : ["sb_portable3dprinter","sb_lights","all"]
+  "groups" : ["sb_portable3dprinter","lights","all"]
 }

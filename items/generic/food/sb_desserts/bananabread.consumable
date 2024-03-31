@@ -12,7 +12,7 @@
         "effect": "maxenergyscalingboostfood",
         "duration": 113
       }, {
-        "effect": "sb_energyregen5",
+        "effect": "sb_energyregen",
         "duration": 113
       },
       "sb_foodheal35"

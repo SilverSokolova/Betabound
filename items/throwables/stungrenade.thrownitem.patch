@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":150}]
+]

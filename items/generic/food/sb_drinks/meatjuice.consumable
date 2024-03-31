@@ -11,7 +11,7 @@
       },
       "sb_foodheal135"
     ]],
-  "tooltipKind": "sb_object",
+  "tooltipKind": "sb_object4",
   "rarity": "Uncommon",
   "inventoryIcon": "meatjuice.png",
   "category": "drink",

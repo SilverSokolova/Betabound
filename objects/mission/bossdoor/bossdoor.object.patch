@@ -1,5 +1,7 @@
 [
 [{"op":"test","path":"/printable","value":false},{"op":"replace","path":"/printable","value":true}],
 [{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Rare"}],
-[{"op":"test","path":"/shortdescription","value":"Force Field"},{"op":"replace","path":"/description","value":"One-way Door"}]
+[{"op":"test","path":"/shortdescription","value":"Force Field"},{"op":"replace","path":"/shortdescription","value":"One-way Door"}],
+[{"op":"test","path":"/inventoryIcon","value":"bossdoor.png:closed"},{"op":"replace","path":"/inventoryIcon","value":"sb_icon.png"}],
+[{"op":"test","path":"/price","value":15},{"op":"replace","path":"/price","value":500}]
 ]

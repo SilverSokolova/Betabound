@@ -1,0 +1,5 @@
+{
+  "input" : ["peacecredit"],
+  "output" : ["stunmine",2],
+  "groups" : ["peacekeeper2","nouncrafting","all"]
+}

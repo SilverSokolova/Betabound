@@ -6,5 +6,7 @@
 
 [{"op":"test","path":"/shortdescription","value":"Red Apple"},{"op":"replace","path":"/shortdescription","value":"Apple"}],
 
+[{"op":"test","path":"/description","value":"A ripe red apple."},{"op":"replace","path":"/description","value":"A crisp red apple, ripe for baking or consuming with your face!"}],
+
 [{"op":"test","path":"/price","value":4},{"op":"replace","path":"/price","value":130}]
 ]

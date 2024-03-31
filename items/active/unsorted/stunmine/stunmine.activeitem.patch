@@ -1,0 +1,69 @@
+//I'm keeping it as a tool because boomerangs aren't classified as throwables...? Also ropes!
+[
+  [{
+      "op": "test",
+      "path": "/tooltipKind",
+      "value": "base"
+    }, {
+      "op": "replace",
+      "path": "/tooltipKind",
+      "value": "sb_object"
+    }
+  ], [{
+      "op": "test",
+      "path": "/description",
+      "value": "This remotely-triggered inertial inhibitor keep subjects briefly locked in place."
+    }, {
+      "op": "replace",
+      "path": "/description",
+      "value": "This remotely-triggered inertial inhibitor will freeze hostiles in their tracks."
+    }
+  ], [{
+      "op": "add",
+      "path": "/scripts/-",
+      "value": "sb_stunmine.lua"
+    }
+  ], [{
+      "op": "test",
+      "path": "/retainScriptStorageInItem",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/retainScriptStorageInItem",
+      "value": true
+    }
+  ], [{
+      "op": "test",
+      "path": "/price",
+      "value": 500
+    }, {
+      "op": "replace",
+      "path": "/price",
+      "value": 300
+    }
+  ], [{
+      "op": "test",
+      "path": "/stances/afterTrigger/duration",
+      "value": 0.1
+    },{
+      "op": "replace",
+      "path": "/stances/afterTrigger/duration",
+      "value": 0.4
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/builder"
+    }, {
+      "op": "move",
+      "from": "/builder",
+      "path": "/sb_builder"
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/builder",
+      "value": "/items/buildscripts/starbound/buildstunmine.lua"
+    }
+  ]
+]
