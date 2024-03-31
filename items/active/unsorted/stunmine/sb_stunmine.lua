@@ -1,4 +1,5 @@
 local ini = init or function() end
+local updat = update or function() end
 
 function init()
   item.sb_consume = item.consume
@@ -11,4 +12,12 @@ function init()
     return item.sb_consume(count)
   end
   ini()
+end
+
+function update(...)
+  if storage.projectileId and world.entityType(storage.projectileId) ~= "projectile" then
+    item.consume(0)
+    return
+  end
+  updat(...)
 end

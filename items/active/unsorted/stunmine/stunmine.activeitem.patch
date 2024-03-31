@@ -16,7 +16,7 @@
     }, {
       "op": "replace",
       "path": "/description",
-      "value": "This remotely-triggered inertial inhibitor will freeze hostiles in their tracks."
+      "value": "This remotely-triggered inertia inhibitor will freeze hostiles in their tracks."
     }
   ], [{
       "op": "add",
@@ -40,15 +40,6 @@
       "op": "replace",
       "path": "/price",
       "value": 300
-    }
-  ], [{
-      "op": "test",
-      "path": "/stances/afterTrigger/duration",
-      "value": 0.1
-    },{
-      "op": "replace",
-      "path": "/stances/afterTrigger/duration",
-      "value": 0.4
     }
   ],
   [{
