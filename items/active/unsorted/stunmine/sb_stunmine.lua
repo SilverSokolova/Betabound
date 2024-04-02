@@ -4,9 +4,9 @@ local updat = update or function() end
 function init()
   item.sb_consume = item.consume
   item.consume = function(count)
-    storage.projectileId = false
-    storage.launched = false
-    storage.triggered = false
+    storage.projectileId = nil
+    storage.launched = nil
+    storage.triggered = nil
     activeItem.setInventoryIcon(self.icons.full)
     setStance("idle")
     return item.sb_consume(count)
