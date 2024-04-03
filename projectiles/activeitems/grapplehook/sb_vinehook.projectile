@@ -18,5 +18,12 @@
 
   "onlyHitTerrain" : true,
 
-  "scripts" : [ "grapplehook.lua" ]
+  "scripts" : [ "grapplehook.lua" ],
+  "actionOnCollide": [{
+      "action": "sound",
+      "options": [
+        "/sfx/blocks/footstep_tallgrass.ogg"
+      ]
+    }
+  ]
 }

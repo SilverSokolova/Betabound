@@ -12,7 +12,18 @@
 
   "scripts": ["/items/active/grapplinghooks/grapplinghook.lua"],
   "animationScripts": ["/items/active/effects/renderrope.lua"],
-  "animation": "sb_grapplinghook.animation",
+  "animation": "climbingrope/climbingrope.animation",
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "rope": {
+          "properties": {
+            "image": "sb_slimehandgrapple.png"
+          }
+        }
+      }
+    }
+  },
 
   "fireOffset": [0, 0],
   "ropeOffset": [-1.75, 0],

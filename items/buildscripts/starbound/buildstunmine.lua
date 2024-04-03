@@ -8,7 +8,7 @@ function build(directory, config, parameters, level, seed)
   if config.retainScriptStorageInItem then
     if not parameters.scriptStorage then
       parameters.scriptStorage = {}
-      parameters.inventoryIcon = config.icons.full --Don't check for an existing icon because custom items that change it are going to use the same icon for both
+      parameters.inventoryIcon = config.icons.full --Don't check for an existing icon because they should be the same
     end
   end
   return config, parameters

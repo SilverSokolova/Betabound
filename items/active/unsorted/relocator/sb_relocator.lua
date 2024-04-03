@@ -2,7 +2,7 @@ local ini = init or function() end
 local updat = update or function() end
 
 function init() ini()
-  if config.getParameter("sb_skip") then
+  if config.getParameter("sb_doNotUpdateInventoryIcon") then
     update = updat
     return
   end
@@ -18,11 +18,7 @@ function update(...) updat(...)
     --So activeItem.setInventoryIcon, along with not accepting anything but strings, also requires an absolute path, even though inventory icons can use local paths
     --https://www.youtube.com/watch?v=S-ZeYX53ZY0 <- I listened to this while programming this part
     if icon then
-      if icon:sub(1, 1) ~= "/" then
-        sb_path = root.itemConfig(config.getParameter("itemName")).directory
-      end
-      activeItem.setInventoryIcon((sb_path or "")..icon:gsub(":"..sb_lastSize, ":"..currentSize))
-      sb_path = nil
+      activeItem.setInventoryIcon((icon:sub(1, 1) ~= "/" and root.itemConfig(config.getParameter("itemName")).directory or "")..icon:gsub(":"..sb_lastSize, ":"..currentSize))
     end
   end
   sb_lastSize = currentSize

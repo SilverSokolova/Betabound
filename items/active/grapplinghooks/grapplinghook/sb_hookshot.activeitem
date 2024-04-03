@@ -1,0 +1,54 @@
+{
+  "itemName": "sb_hookshot",
+  "price": 3000,
+  "inventoryIcon": "grapplehookicon.png",
+  "rarity": "Legendary",
+  "maxStack": 1,
+  "description": "It pulls you up automatically! Why bother platforming when you can just use ropes?",
+  "shortdescription": "Hookshot",
+  "largeImage": "grapplehookbig.png?replace;e7c474=97a5b0;c88b28=646d7e;8d581c=3b4054",
+  "category": "tool",
+  "tooltipKind": "sb_tool",
+  "twoHanded": false,
+
+  "scripts": ["/items/active/grapplinghooks/grapplinghook.lua", "sb_grapplinghook.lua", "sb_hookshot.lua"],
+  "animationScripts": ["/items/active/effects/renderrope.lua"],
+  "animation": "grapplinghook.animation",
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "rope": {
+          "properties": {
+            "image": "grapplegun.png?replace;e7c474=97a5b0;c88b28=646d7e;8d581c=3b4054"
+          }
+        }
+      }
+    }
+  },
+
+  "fireOffset": [0, 0.3],
+  "ropeOffset": [-1.75, 0.3],
+  "ropeVisualOffset": [0.75, 0.3],
+
+  "consumeOnUse": false,
+
+  "projectileType": "grapplehook",
+  "projectileParameters": {
+    "speed": 150,
+    "timeToLive": 0.35
+  },
+
+  "ropeWidth": 0.8,
+  "ropeColor": [120, 80, 30, 255],
+
+  "reelInDistance": 3.5,
+  "reelOutLength": 50,
+  "breakLength": 60,
+
+  "minSwingDistance": 1.5,
+
+  "reelSpeed": 22,
+  "controlForce": 500,
+
+  "groundLagTime": 0.2
+}

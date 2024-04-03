@@ -13,13 +13,13 @@
 
   "scripts": ["/items/active/grapplinghooks/grapplinghook.lua"],
   "animationScripts": ["/items/active/effects/renderrope.lua"],
-  "animation": "sb_grapplinghook.animation",
+  "animation": "climbingrope/climbingrope.animation",
   "animationCustom": {
     "animatedParts": {
       "parts": {
         "rope": {
           "properties": {
-            "image": "vinehandle.png"
+            "image": "/items/tools/vinehandle.png"
           }
         }
       }
