@@ -1,0 +1,147 @@
+{
+  "ability": {
+    "name": "Vacuum",
+    "type": "sb_vacuum",
+    "scripts": ["/items/active/starbound/guns/abilities/vacuum/vacuum.lua"],
+    "class": "SB_Vacuum",
+    "cooldownTime": 0.5,
+
+    "walkWhileFiring": true,
+    "categoryWhitelist": ["monster", "player", "npc", "vehicle", "itemdrop"],
+
+    "coneSpeed": [-20, 5],
+    "coneForce": 400,
+    "pointSpeed": -10,
+    "pointForce": 500,
+
+    "outerRadius": 1.5,
+    "innerRadius": 0.5,
+
+    "_forceRegions": [
+      [[3, 0.5], 400],
+      [[4, 0.5], 300],
+      [[5, 0.5], 200],
+      [[3, 0.5], 400],
+      [[3, 0.5], 400],
+      [[3, 0.5], 400],
+      [[3, 0.5], 400],
+      [[3, 0.5], 400],
+      [[3, 0.5], 400]
+    ],
+
+    "forceRegions": [{
+        "type": "RadialForceRegion",
+        "categoryWhitelist": ["monster", "player", "npc", "vehicle", "itemdrop"],
+        "innerRadius": 0.5,
+        "outerRadius": 1.5,
+        "controlForce": 400,
+        "targetRadialVelocity": -10,
+        "center": [3, 0.5]
+      }, {
+        "type": "RadialForceRegion",
+        "categoryWhitelist": ["monster", "player", "npc", "vehicle", "itemdrop"],
+        "innerRadius": 0.5,
+        "outerRadius": 2,
+        "controlForce": 300,
+        "targetRadialVelocity": -10,
+        "center": [4, 0.5]
+      }, {
+        "type": "RadialForceRegion",
+        "categoryWhitelist": ["monster", "player", "npc", "vehicle", "itemdrop"],
+        "innerRadius": 0.5,
+        "outerRadius": 2.5,
+        "controlForce": 200,
+        "targetRadialVelocity": -10,
+        "center": [5, 0.5]
+      }, {
+        "type": "RadialForceRegion",
+        "categoryWhitelist": ["monster", "player", "npc", "vehicle", "itemdrop"],
+        "innerRadius": 0.5,
+        "outerRadius": 2.5,
+        "controlForce": 175,
+        "targetRadialVelocity": -10,
+        "center": [7, 0.5]
+      }, {
+        "type": "RadialForceRegion",
+        "categoryWhitelist": ["monster", "player", "npc", "vehicle", "itemdrop"],
+        "innerRadius": 0.5,
+        "outerRadius": 2.75,
+        "controlForce": 150,
+        "targetRadialVelocity": -10,
+        "center": [8, 0.5]
+      }
+    ],
+    "baseDps": 2.5,
+    "energyUsage": 20,
+
+    "damageConfig": {
+      "damageSourceKind": "breath",
+      "statusEffects": ["windswept"],
+      "knockbackMode": "facing",
+      "knockback": -20,
+      "timeout": 0.5
+    },
+
+    "stances": {
+      "fire": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+
+        "allowRotate": false,
+        "allowFlip": true
+      }
+    }
+  },
+  "animationCustom": {
+    "animatedParts": {
+      "stateTypes": {
+        "vacuum": {
+          "default": "idle",
+          "states": {
+            "idle": {},
+            "active": {
+              "frames": 3,
+              "cycle": 0.3,
+              "mode": "loop"
+            }
+          }
+        }
+      },
+      "parts": {
+        "vacuumCone": {
+          "properties": {
+            "zLevel": -1,
+            "centered": true,
+            "offset": [6, 0],
+            "transformationGroups": ["muzzle"],
+          //Using two is a good idea... if you can't aim down. Or up. Or at angles. Only allow up to 45 degree angles?
+          //Or just keep clearing the physicsField then making a new one with different angles??
+            "vacuumPolyTop": [[-4.5, 0], [-4.5, 1.5], [6, 4], [6, 0]],
+            "vacuumPolyBottom": [[-4.5, -1.5], [-4.5, 0], [6, 0], [6, -4]],
+            "vacuumPoly": [[-4.5, 1.5], [-4.5,-1.5], [6,-4], [6,4]],
+            "vacuumPoint": [-3, 0.25]
+          },
+          "partStates": {
+            "vacuum": {
+              "idle": {
+                "properties": {
+                  "image": ""
+                }
+              },
+              "active": {
+                "properties": {
+                  "image": "/items/active/starbound/guns/abilities/vacuum/vacuum.png:<frame>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds": {
+      "vacuumStart": ["/sfx/projectiles/gust1.ogg", "/sfx/projectiles/gust2.ogg", "/sfx/projectiles/gust3.ogg"],
+      "vacuumLoop": ["/sfx/npc/boss/kluexboss_vortex_windy.ogg"]
+    }
+  }
+}

@@ -1,23 +1,65 @@
 {
-  "objectName" : "sb_researchstation",
-  "colonyTags" : [],
-  "printable" : false,
-  "rarity" : "legendary",
-  "price" : 6000,
-  "tooltipKind" : "sb_object",
-  "interactAction" : "ScriptPane",
-  "interactData" : "/interface/windowconfig/sb_craftingresearch.config",
-  "categoryButton" : {
-  "pressedOffset" : [0,-1],
-  "position" : [22, 44], //-10,22,33,51,58,78 increasing by 11 seems good
-  "baseImage" : "/interface/sb_crafting/categories.png:%s",
-  "baseImageChecked" : "/interface/sb_crafting/categoriesselected.png:%s",
-  "data" : {}
+  "objectName": "sb_researchstation",
+  "colonyTags": [],
+  "printable": false,
+  "rarity": "legendary",
+  "price": 6000,
+  "tooltipKind": "sb_object",
+  "interactAction": "ScriptPane",
+  "interactData": "/interface/windowconfig/sb_craftingresearch.config",
+  "categoryButton": {
+    "pressedOffset": [0,-1],
+    "position": [22, 44], //-10,22,33,51,58,78 increasing by 11 seems good
+    "baseImage": "/interface/sb_crafting/categories.png:%s",
+    "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:%s",
+    "data": {}
   },
-  "scripts" : ["researchstation.lua"],
-//"offeredItems" : {"main":["copperbar"],"mechs":["goldbar"]},
-  "offeredItems" : {
-     "main" : [
+  "scripts": ["researchstation.lua"],
+  "description": "With some pixels and blank blueprints, I can develop hard-to-find blueprints here!",
+  "shortdescription": "^orange;Research Station^reset;",
+  "race": "generic",
+  "category": "crafting",
+  "lightColor": [77, 103, 128],
+
+  "flickerPeriod": 0.2,
+  "flickerMinIntensity": 0.68,
+  "flickerMaxIntensity": 0.7,
+  "flickerPeriodVariance": 0,
+  "flickerIntensityVariance": 0,
+
+  "apexDescription": "I can create blueprints with this.",
+  "avianDescription": "A research station for making blueprints.",
+  "floranDescription": "Floran can create blueprintsss with stationsss like this.",
+  "glitchDescription": "Observation. This station is well-suited to research and development of recipes.",
+  "humanDescription": "I can craft blueprints here!",
+  "hylotlDescription": "This station seems well equipped for the development of blueprints.",
+
+  "inventoryIcon": "researchstationicon.png",
+  "orientations": [
+    {
+      "imageLayers": [{"image":"researchstation.png:<color>.<frame>","fullbright":true},{"image":"researchstationlit.png:<color>.<frame>"}],
+      "imagePosition": [-16,0],
+      "frames": 8,
+      "animationCycle": 1,
+      "direction": "left",
+      "flipImages": true,
+      "lightPosition": [-1,2],
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    },
+    {
+      "imageLayers": [{"image":"researchstation.png:<color>.<frame>","fullbright":true}, {"image":"researchstationlit.png:<color>.<frame>"}],
+      "imagePosition": [-16,0],
+      "frames": 8,
+      "animationCycle": 1,
+      "direction": "right",
+      "lightPosition": [0,2],
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ],
+  "offeredItems": {
+     "main": [
       //avian
       "sb_poachedavesmingo"
       ,"sb_crowncake"
@@ -77,13 +119,14 @@
       ,"sb_cornontheblob"
     ],
     
-    "craft" : [
+    "craft": [
       //seasonal
       "heartforge"
       ,"holidaycraftingtable"
+      ,"sb_iceaxe"
     ],
     
-    "weapons" : [
+    "weapons": [
       //desert
       "sb_cactislammer"
     
@@ -197,7 +240,7 @@
       ,"sb_explosiveglove"
     ],
 
-    "mechs" : [
+    "mechs": [
       //mech3
       "mechbodypirate"
       ,"mechbodyreactor"
@@ -258,7 +301,7 @@
       ,"mechbodypenguin"
     ],
 
-    "head" : [
+    "head": [
       //mushroom
       "mushroomhead"
     
@@ -274,7 +317,7 @@
       ,"eyehead"
      
     ],
-    "blocks" : [
+    "blocks": [
       "wallpaper"
       ,"slopedrustypanel"
       ,"temple1"
@@ -355,7 +398,7 @@
       ,"sb_smoothconcrete"
       ,"cloudblock"
     ],
-    "planets" : [
+    "planets": [
       //garden
       //forest
       //desert
@@ -668,49 +711,6 @@
       ,"industrialcomputer"
       ,"industrialcanister"
       ,"industrialbed"
-     ]
-   },
-  "description" : "With some pixels and blank blueprints, I can develop hard-to-find blueprints here!",
-  "shortdescription" : "^orange;Research Station^reset;",
-  "race" : "generic",
-  "category" : "crafting",
-  "lightColor" : [77, 103, 128],
-
-  "flickerPeriod" : 0.2,
-  "flickerMinIntensity" : 0.68,
-  "flickerMaxIntensity" : 0.7,
-  "flickerPeriodVariance" : 0.0,
-  "flickerIntensityVariance" : 0.0,
-
-  "apexDescription" : "I can create blueprints with this.",
-  "avianDescription" : "A research station for making blueprints.",
-  "floranDescription" : "Floran can create blueprintsss with stationsss like this.",
-  "glitchDescription" : "Observation. This station is well-suited to research and development of recipes.",
-  "humanDescription" : "I can craft blueprints here!",
-  "hylotlDescription" : "This station seems well equipped for the development of blueprints.",
-
-  "inventoryIcon" : "researchstationicon.png",
-  "orientations" : [
-    {
-      "imageLayers" : [{"image":"researchstation.png:<color>.<frame>","fullbright":true},{"image":"researchstationlit.png:<color>.<frame>"}],
-      "imagePosition" : [-16,0],
-      "frames" : 8,
-      "animationCycle" : 1,
-      "direction" : "left",
-      "flipImages" : true,
-      "lightPosition" : [-1,2],
-      "spaceScan" : 0.1,
-      "anchors" : ["background"]
-    },
-    {
-      "imageLayers" : [{"image":"researchstation.png:<color>.<frame>","fullbright":true}, {"image":"researchstationlit.png:<color>.<frame>"}],
-      "imagePosition" : [-16,0],
-      "frames" : 8,
-      "animationCycle" : 1,
-      "direction" : "right",
-      "lightPosition" : [0,2],
-      "spaceScan" : 0.1,
-      "anchors" : ["background"]
-    }
-  ]
+    ]
+  }
 }

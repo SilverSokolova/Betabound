@@ -115,6 +115,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_healthmonitor"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_flashfreeze"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_partypopper"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_hookshot"}}],
 
 //upgrades
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"upgrademodule"}}],

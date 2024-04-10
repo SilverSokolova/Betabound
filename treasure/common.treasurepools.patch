@@ -151,6 +151,7 @@
   [{"op":"add","path":"/healingItem/1/1/pool/-","value":{"weight":0.20,"item":"sb_gauze"}}],
   [{"op":"add","path":"/healingItem/1/1/pool/-","value":{"weight":0.25,"item":["sb_gauze",2]}}],
   [{"op":"add","path":"/healingItem/1/1/pool/-","value":{"weight":0.08,"item":"sb_spawnerdoctor"}}],
+  [{"op":"add","path":"/healingItem/1/1/pool/-","value":{"weight":0.12,"pool":"sb_levitationpowder"}}],
 
   [{"op":"add","path":"/stim/0/1/pool/-","value":{"weight":0.25,"item":["orangestim",2]}}],
   [{"op":"add","path":"/stim/0/1/pool/-","value":{"weight":0.25,"item":["sb_greystim",2]}}],

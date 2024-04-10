@@ -7,7 +7,7 @@
   },
   "objectImage": {
     "type": "image",
-    "position": [67, 109],
+    "position": [69, 109],
     "file": "",
     "centered": true,
     "maxSize": [70, 45],

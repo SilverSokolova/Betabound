@@ -2,13 +2,13 @@
   [{
       "op": "test",
       "path": "/statusEffects/0",
-      "value": "glow"
+      "value": "jumpboost"
     }, {
       "op": "replace",
       "path": "/statusEffects/0",
       "value": {
-        "effect": "glow",
-        "duration": 180
+        "effect": "jumpboost",
+        "duration": 60
       }
     }
   ],

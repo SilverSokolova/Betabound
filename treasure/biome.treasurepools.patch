@@ -172,7 +172,8 @@
   //           Alpine
   // ================================
 ,[{"op":"add","path":"/alpineTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_boulderstaff"}}]
-//,[{"op":"add","path":"/alpineTreasure/0/1/pool/-","value":{"weight":0.15,"item":"sb_iceaxe"}}]
+,[{"op":"add","path":"/alpineTreasure/0/1/pool/-","value":{"weight":0.15,"item":"sb_iceaxe"}}]
+,[{"op":"add","path":"/alpineTreasure/0/1/pool/-","value":{"weight":0.15,"item":"sb_iceaxe-recipe"}}]
 
 
 

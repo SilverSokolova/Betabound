@@ -5,6 +5,7 @@
 [{"op":"add","path":"/sb_gun2","value":"/items/active/starbound/guns/abilities/gun2.weaponability"}],
 [{"op":"add","path":"/sb_shotgun","value":"/items/active/starbound/guns/abilities/shotgun.weaponability"}],
 [{"op":"add","path":"/sb_burst","value":"/items/active/starbound/guns/abilities/burst.weaponability"}],
+[{"op":"add","path":"/sb_vacuum","value":"/items/active/starbound/guns/abilities/vacuum/vacuum.weaponability"}],
 
 [{"op":"add","path":"/sb_physicallance","value":"/items/active/weapons/ranged/abilities/lance/sb_physicallance.weaponability"}],
 

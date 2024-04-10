@@ -1,14 +1,18 @@
 [
   [{
       "op": "test",
-      "path": "/statusEffects/0",
-      "value": "glow"
+      "path": "/actionOnReap/0/body/0/specification",
+      "value": "redgas"
     }, {
       "op": "replace",
-      "path": "/statusEffects/0",
+      "path": "/actionOnReap/0",
       "value": {
-        "effect": "glow",
-        "duration": 180
+        "action": "projectile",
+        "type": "sb_ragebomb",
+        "config": {
+          "timeToLive": 0,
+          "speed": 0
+        }
       }
     }
   ],

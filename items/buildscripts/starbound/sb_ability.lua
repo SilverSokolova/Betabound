@@ -19,6 +19,15 @@ function apply(input)
       currentRarity = i
     end
   end
+sb.logInfo("1")
+  if output:instanceValue("randomize") then
+    sb.logInfo("RANDOMIZER")
+    currentAbility = getRandomizedAbilities(itemName)
+    currentAbility = #currentAbility > 0 and currentAbility[math.random(#currentAbility)] or nil
+    if not currentAbility then
+      valid = false
+    end
+  end
 
   for i = 1, currentRarity and #rarities or 1 do
     if valid then
@@ -65,4 +74,23 @@ function checkPossibleAbilities(itemName)
       end
     end
   end
+end
+
+function getRandomizedAbilities(itemName)
+  local builderConfig = root.itemConfig(itemName)
+  builderConfig = builderConfig and builderConfig.config.builderConfig or nil
+  local filteredAbilities = {}
+  if builderConfig then
+    for i = 1, #builderConfig do
+      local possibleAbilities = builderConfig[i][slotName]
+      if possibleAbilities then
+        for j = 1, #possibleAbilities do
+          if possibleAbilities[j] ~= currentAbility then
+            filteredAbilities[#filteredAbilities+1] = possibleAbilities[j]
+          end
+        end
+      end
+    end
+  end
+  return filteredAbilities
 end
