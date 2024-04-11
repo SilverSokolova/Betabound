@@ -10,9 +10,10 @@ function SB_Vacuum:init()
       targetRadialVelocity = self.pointSpeed,
       outerRadius = self.outerRadius,
       innerRadius = self.innerRadius,
-      controlForce = self.pointForce
+      controlForce = self.pointForce,
+      categoryWhitelist = self.categoryWhitelist
     }
-    self.damageConfig.baseDamage = self.baseDps
+    self.damageConfigDamage.baseDamage = self.baseDps
     self.cooldownTimer = 0
     self:reset()
 end
@@ -53,26 +54,48 @@ function SB_Vacuum:fire()
     forceVector[1] = forceVector[1] * self.weapon.aimDirection
 
     if world.isTileProtected(mcontroller.position()) then
-      self.weapon:setDamage(self.damageConfig, animator.partPoly("vacuumCone", "vacuumPoly"), 0.25)
+      self.weapon:setDamage(self.damageConfigDamage, animator.partPoly("vacuumCone", "vacuumPoly"), 0.25)
     else
+      --self.weapon:setDamage(self.damageConfigVacuum, animator.partPoly("vacuumCone", "vacuumPoly"), 0.25)
+      --world.spawnProjectile(self.projectileType, vec2.add(mcontroller.position(), activeItem.handPosition(self.weapon.muzzleOffset)))
+      local aimAngle, facingDir = activeItem.aimAngleAndDirection(0, vec2.add(mcontroller.position(), activeItem.handPosition(self.weapon.muzzleOffset)))
+      local originalAimAngle = aimAngle
+      aimAngle = aimAngle * facingDir
+      local vacuumEnd = vec2.add(mcontroller.position(), {(self.weapon.muzzleOffset[1] + 13) * facingDir, self.weapon.muzzleOffset[2]})
+      world.debugText("^shadow,red;%s", "*", vacuumEnd, "red")
+    local agony = vec2.withAngle(aimAngle)
+      local xVector = (forceVector[1] - agony[1])
+      local yVector = (-forceVector[2] + agony[2]) * (originalAimAngle < 0 and 1 or -1)
+      if aimAngle < 0 and yVector <= 0 then
+        yVector = -yVector
+      elseif aimAngle < 0 and yVector <= 0 and facingDir == -1 then
+        --yVector = -yVector
+      end
+      if facingDir == -1 then
+        yVector = -yVector
+      end
+      world.debugText("^shadow,red;Aim: %s\nX: %s\nY: %s\nF: %s", originalAimAngle, xVector, yVector, facingDir, {mcontroller.position()[1]-2, mcontroller.position()[2]+2}, "red")
     --What do you MEAN GradientForceRegions don't work for activeItems
     activeItem.setItemForceRegions({
       {
         type = "DirectionalForceRegion",
         polyRegion = animator.partPoly("vacuumCone", "vacuumPolyTop"),
-        xTargetVelocity = forceVector[1],
-        yTargetVelocity = -forceVector[2],
+        xTargetVelocity = xVector,
+        yTargetVelocity = yVector,
         controlForce = self.coneForce,
         categoryWhitelist = self.categoryWhitelist
-      },{
+      }
+      --[[{
         type = "DirectionalForceRegion",
         polyRegion = animator.partPoly("vacuumCone", "vacuumPolyBottom"),
         xTargetVelocity = forceVector[1],
         yTargetVelocity = forceVector[2],
         controlForce = self.coneForce,
         categoryWhitelist = self.categoryWhitelist
-      },
-      self.vacuumPoint})
+      }]]
+      --self.vacuumPoint
+      }
+      )
     end
 
     coroutine.yield()

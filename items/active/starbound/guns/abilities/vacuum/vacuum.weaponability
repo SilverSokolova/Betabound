@@ -5,6 +5,7 @@
     "scripts": ["/items/active/starbound/guns/abilities/vacuum/vacuum.lua"],
     "class": "SB_Vacuum",
     "cooldownTime": 0.5,
+    "projectileType": "sb_vacuum",
 
     "walkWhileFiring": true,
     "categoryWhitelist": ["monster", "player", "npc", "vehicle", "itemdrop"],
@@ -14,20 +15,8 @@
     "pointSpeed": -10,
     "pointForce": 500,
 
-    "outerRadius": 1.5,
+    "outerRadius": 2,
     "innerRadius": 0.5,
-
-    "_forceRegions": [
-      [[3, 0.5], 400],
-      [[4, 0.5], 300],
-      [[5, 0.5], 200],
-      [[3, 0.5], 400],
-      [[3, 0.5], 400],
-      [[3, 0.5], 400],
-      [[3, 0.5], 400],
-      [[3, 0.5], 400],
-      [[3, 0.5], 400]
-    ],
 
     "forceRegions": [{
         "type": "RadialForceRegion",
@@ -74,11 +63,18 @@
     "baseDps": 2.5,
     "energyUsage": 20,
 
-    "damageConfig": {
+    "damageConfigDamage": {
       "damageSourceKind": "breath",
       "statusEffects": ["windswept"],
       "knockbackMode": "facing",
       "knockback": -20,
+      "timeout": 0.5
+    },
+
+    "damageConfigVacuum": {
+      "baseDamage": 0,
+      "damageSourceKind": "applystatus",
+      "statusEffects": ["windswept"],
       "timeout": 0.5
     },
 
@@ -88,7 +84,7 @@
         "weaponRotation": 0,
         "twoHanded": true,
 
-        "allowRotate": false,
+        "allowRotate": true,
         "allowFlip": true
       }
     }
