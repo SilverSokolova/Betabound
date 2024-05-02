@@ -1,0 +1,32 @@
+[
+  [{
+      "op": "test",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/wrapWidth",
+      "value": 116
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/wrapWidth",
+      "value": 100
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/vAnchor",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/vAnchor",
+      "value": "mid"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/position/1",
+      "value": 5
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/position/1",
+      "value": 10
+    }
+  ]
+]

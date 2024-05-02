@@ -15,6 +15,7 @@
 [{"op":"add","path":"/statusControllerSettings/resources/sb_shieldStaminaRegenBlockL","value":{"maxValue":2,"deltaValue":-1,"initialPercentage":0}}],
 [{"op":"add","path":"/statusControllerSettings/resources/sb_shieldStaminaRegenBlockR","value":{"maxValue":2,"deltaValue":-1,"initialPercentage":0}}],
 [{"op":"add","path":"/statusControllerSettings/resources/sb_forceFieldStrength","value":{"baseValue":0}}],
+[{"op":"test","path":"/statusControllerSettings/resources/stunned","inverse":true},{"op":"add","path":"/statusControllerSettings/resources/stunned","value":{"baseValue":0}}],
 
 //misc
 [{"op":"test","path":"/ageItemsEvery","value":10},{"op":"replace","path":"/ageItemsEvery","value":300}],
@@ -62,6 +63,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_cookingstation"}}],
 
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_codex"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_techconsole"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"fossilpod"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"spawnerstation"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"mechassemblystation"}}],

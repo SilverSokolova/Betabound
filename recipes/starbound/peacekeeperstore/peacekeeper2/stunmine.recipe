@@ -1,5 +1,5 @@
 {
-  "input" : ["peacecredit"],
-  "output" : ["stunmine",2],
-  "groups" : ["peacekeeper2","all"]
+  "input": ["peacecredit"],
+  "output": ["stunmine",3],
+  "groups": ["peacekeeper2","all"]
 }

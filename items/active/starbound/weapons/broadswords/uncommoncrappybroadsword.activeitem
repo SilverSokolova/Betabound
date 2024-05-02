@@ -94,9 +94,29 @@
           "paletteSwap": true
         }
       },
+      "altAbilities_physical": [
+        "bladecharge",
+        "downstab",
+        "parry",
+        "risingslash",
+        "spinslash",
+        "superspinslash"
+      ],
+      "altAbilities": [
+        "bladecharge",
+        "downstab",
+        "parry",
+        "risingslash",
+        "spinslash",
+        "superspinslash",
+        "travelingslash",
+        "blinkexplosion",
+        "blinkslash",
+        "traildash",
+        "giantsword"
+      ],
       "iconDrawables": ["handle", "blade"],
-      "palette": "/items/active/starbound/colors/crappy.weaponcolors",
-      "altAbilities": ["parry"]
+      "palette": "/items/active/starbound/colors/crappy.weaponcolors"
     }
   ],
   "builder": "/items/buildscripts/starbound/buildweapon.lua"

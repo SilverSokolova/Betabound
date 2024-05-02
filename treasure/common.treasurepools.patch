@@ -250,10 +250,10 @@
   [{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.03,"pool":"foodTreasureMedium"}}],
   [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.03,"pool":"foodTreasureMedium"}}],
   
-  [{"op":"add","path":"/food/0/1/pool/-","value":{"weight":0.7,"pool":"sb_food"}}],
+  [{"op":"add","path":"/food/0/1/pool/-","value":{"weight":0.2,"pool":"sb_food"}}],
   [{"op":"add","path":"/food/0/1/pool/-","value":{"weight":0.018,"item":"spawnerchef"}}],
   
-  [{"op":"add","path":"/foodTreasureMedium/0/1/pool/-","value":{"weight":0.8,"pool":"sb_food"}}],
+  [{"op":"add","path":"/foodTreasureMedium/0/1/pool/-","value":{"weight":0.3,"pool":"sb_food"}}],
   [{"op":"add","path":"/foodTreasureMedium/0/1/pool/-","value":{"weight":0.018,"item":"spawnerchef"}}],
 
   [{"op":"add","path":"/produce/0/1/pool/-","value":{"weight":2,"item":["rottenfood",8]}}],

@@ -7,7 +7,7 @@ sb_AmmoGunFire = WeaponAbility:new()
 function sb_AmmoGunFire:init()
   self.weapon:setStance(self.stances.idle)
   self.cooldownTimer = self.fireTime
-  self.energyProjectileType = config.getParameter("projectileType", "standardbullet")
+  self.energyProjectileType = self.projectileType or "standardbullet"
   self.usingAmmo = false
   if not player then
     activeItem.setScriptedAnimationParameter("npc", true)

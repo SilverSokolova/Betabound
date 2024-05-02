@@ -15,22 +15,5 @@
 {"op":"add","path":"/interactData/items/-","value":{"item":"sb_firefluffalofeed"}},
 {"op":"add","path":"/interactData/items/-","value":{"item":"sb_icefluffalofeed"}},
 {"op":"add","path":"/interactData/items/-","value":{"item":"sb_poisonfluffalofeed"}},
-{"op":"add","path":"/interactData/items/-","value":{"item":"sb_electricfluffalofeed"}}],
-[{"op":"test","path":"/animation","inverse":true},{"op":"add","path":"/animation","value":"sb_terramart.animation"}],[
-{"op":"add","path":"/animationParts","value":{
-"apexleft":"sb_terramart/apexleft.png",
-"apexright":"sb_terramart/apexright.png",
-"floranleft":"terramartleft.png",
-"floranright":"terramartright.png",
-"avianleft":"sb_terramart/avianleft.png",
-"avianright":"sb_terramart/avianright.png",
-"hylotlleft":"sb_terramart/hylotlleft.png",
-"hylotlright":"sb_terramart/hylotlright.png",
-"humanleft":"sb_terramart/humanleft.png",
-"humanright":"sb_terramart/humanright.png",
-"glitchleft":"sb_terramart/glitchleft.png",
-"glitchright":"sb_terramart/glitchright.png"}},
-{"op":"add","path":"/animationPosition","value":[-64,0]}],
-[{"op":"test","path":"/scripts","inverse":true},{"op":"add","path":"/scripts","value":[]},
-{"op":"add","path":"/scripts/-","value":"sb_terramart.lua"}] //TODO: does this break if the animation isn't added?
-]
+{"op":"add","path":"/interactData/items/-","value":{"item":"sb_electricfluffalofeed"}}
+]]

@@ -1,6 +1,4 @@
-require "/scripts/poly.lua"
 require "/scripts/vec2.lua"
-
 SB_Vacuum = WeaponAbility:new()
 
 function SB_Vacuum:init()
@@ -50,24 +48,25 @@ function SB_Vacuum:fire()
       mcontroller.controlModifiers({runningSuppressed = true})
     end
 
-    local forceVector = vec2.rotate(self.coneSpeed, self.weapon.aimAngle)
-    forceVector[1] = forceVector[1] * self.weapon.aimDirection
-
     if world.isTileProtected(mcontroller.position()) then
-      self.weapon:setDamage(self.damageConfigDamage, animator.partPoly("vacuumCone", "vacuumPoly"), 0.25)
+      self.weapon:setDamage(self.damageConfigDamage, animator.partPoly("vacuumCone", "vacuumStatusEffectPoly"), 0.25)
     else
-      self.weapon:setDamage(self.damageConfigVacuum, animator.partPoly("vacuumCone", "vacuumPoly"), 0.25)
-      local aimAngle, facingDir = activeItem.aimAngleAndDirection(0, vec2.add(mcontroller.position(), activeItem.handPosition(self.weapon.muzzleOffset)))
-      local withAngle = vec2.withAngle(aimAngle)
-      local xVelocity = forceVector[1] - withAngle[1]
-      local yVelocity = (-forceVector[2] + withAngle[2]) * aimAngle < 0 and 1 or -1
-      aimAngle = aimAngle * facingDir
 
-      if aimAngle < 0 and yVelocity <= 0 then
+      local forceVector = vec2.rotate(self.coneSpeed, self.weapon.aimAngle)
+      forceVector[1] = forceVector[1] * self.weapon.aimDirection
+
+      local aimAngle, facingDir = activeItem.aimAngleAndDirection(0, vec2.add(mcontroller.position(), activeItem.handPosition(self.weapon.muzzleOffset)))
+      local facingAimAngle = aimAngle * facingDir
+      local withAngle = vec2.withAngle(facingAimAngle)
+      local xVelocity = (forceVector[1] - withAngle[1])
+      local yVelocity = (-forceVector[2] + withAngle[2]) * (aimAngle < 0 and 1 or -1)
+      if facingAimAngle < 0 and yVelocity <= 0 then
         yVelocity = -yVelocity
       end
-      yVelocity = yVelocity * facingDir
-      --world.debugText("^shadow,red;Aim: %s\nX: %s\nY: %s\nF: %s", aimAngle, xVelocity, yVelocity, facingDir, {mcontroller.position()[1]-2, mcontroller.position()[2]+2}, "red")
+      if facingDir == -1 then
+        yVelocity = -yVelocity
+      end
+      world.debugText("^shadow,red;Aim: %s\nX: %s\nY: %s\nF: %s", aimAngle, xVelocity, yVelocity, facingDir, {mcontroller.position()[1]-2, mcontroller.position()[2]+2}, "red")
       activeItem.setItemForceRegions({
         {
           type = "DirectionalForceRegion",
@@ -78,6 +77,7 @@ function SB_Vacuum:fire()
           categoryWhitelist = self.categoryWhitelist
         }, self.vacuumPoint
       })
+      self.weapon:setDamage(self.damageConfigVacuum, animator.partPoly("vacuumCone", "vacuumStatusEffectPoly"), 0.25)
     end
 
     coroutine.yield()

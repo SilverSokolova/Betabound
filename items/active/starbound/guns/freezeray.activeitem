@@ -31,8 +31,8 @@
   "muzzleOffset": [1.875, 0.375],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "elementalType": "ice",
-  "primaryAbility": { //TODO: beamfire ability?
-    "scripts": ["/items/active/starbound/guns/abilities/beamfire.lua"],
+  "primaryAbility": {
+    "scripts": ["/items/active/weapons/ranged/beamfire.lua"],
     "class": "BeamFire",
     "fireTime": 0.2,
     "baseDps": 5.5,

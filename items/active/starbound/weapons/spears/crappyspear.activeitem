@@ -59,6 +59,10 @@
           "paletteSwap": true
         }
       },
+      "altAbilities": [
+        "flurry",
+        "spearspin"
+      ],
       "iconDrawables": ["handle", "blade"],
       "palette": "/items/active/starbound/colors/crappy.weaponcolors"
     }

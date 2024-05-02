@@ -123,6 +123,19 @@
           "paletteSwap": true
         }
       },
+      "altAbilities_physical": [
+        "uppercut",
+        "physicalshockwave",
+        "groundslam"
+      ],
+      "altAbilities": [
+        "uppercut",
+        "groundslam",
+        "blinkexplosion",
+        "shockwave",
+        "elementalaura",
+        "elementalpillar"
+      ],
       "palette": "/items/active/starbound/colors/crappy.weaponcolors",
       "iconDrawables": ["handle", "blade"]
     }

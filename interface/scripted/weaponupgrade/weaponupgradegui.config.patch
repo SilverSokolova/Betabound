@@ -1,4 +1,5 @@
-[[{
+[
+  [{
       "op": "test",
       "path": "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/wrapWidth",
       "value": 116
@@ -7,4 +8,5 @@
       "path": "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/wrapWidth",
       "value": 126
     }
-  ]]
+  ]
+]

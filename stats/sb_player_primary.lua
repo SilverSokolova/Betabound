@@ -51,11 +51,8 @@ function applyDamageRequest(damageRequest)
   if status.resource("sb_forceFieldStrength") > 0 and status.resourcePositive("energy") and not status.resourceLocked("energy") then --resourcePositive rounds or smth
     local forceFieldStrength = status.resource("sb_forceFieldStrength")
     local maxReduction = math.min(damageRequest.damage, (status.resource("energy")/2) * forceFieldStrength)
-    if maxReduction ~= damageRequest.damage then
-      maxReduction = maxReduction/forceFieldStrength
-      damageRequest.damage = damageRequest.damage - maxReduction
-      status.overConsumeResource("energy", maxReduction)
-    end
+    status.overConsumeResource("energy", maxReduction)
+    damageRequest.damage = damageRequest.damage - maxReduction
     return applyDamageReques(damageRequest)
   end
 
@@ -69,7 +66,7 @@ function applyDamageRequest(damageRequest)
   end
   if damageRequest.hitType ~= "ShieldHit" or damageRequest.sourceEntityId == -65536 then return applyDamageReques(damageRequest) end
   local oldDamage = damageRequest.damage
-    damageRequest.damage = damageRequest.damage + root.evalFunction2("protection", damageRequest.damage, status.stat("protection"))/4
+  damageRequest.damage = damageRequest.damage + root.evalFunction2("protection", damageRequest.damage, status.stat("protection"))/4
   if damageRequest.damage <= 0 then return {} end
   if status.statPositive("sb_shieldHealthL") then
     return sb_applyShieldDamage("L",damageRequest)

@@ -19,7 +19,7 @@ function containerCallback() --By the way, is this called if something other tha
       if type(plateImage) == "boolean" then
         plateImage = item.name
       end
-      if plateImage:sub(0, 1) ~= "/" then
+      if type(plateImage) ~= "boolean" and plateImage:sub(0, 1) ~= "/" then
         plateImage = string.format("/objects/generic/sb_plate/%s.png", plateImage)
       end
     end
@@ -48,9 +48,9 @@ function containerCallback() --By the way, is this called if something other tha
       animator.setGlobalTag(
         "item",
         string.format(
-          plateImage and "%s" or "%s?replace;000=0000;151515=0000;020202=0000;45421e=0000",
+          (plateImage and "%s" or "%s?replace;000=0000;151515=0000;020202=0000;45421e=0000").."%s",
           image,
-          flipImage and "?flipx" or ""
+          flipImage and "" or "?flipx" --So funny story, it's kinda already flipped. Well, the item is, anyway, not the plate.
         )
       )
       animator.setGlobalTag("plate", "/objects/generic/sb_plate/plate.png")

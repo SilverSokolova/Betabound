@@ -1,9 +1,0 @@
-{
-  "input":[
-    ["sb_tech",1,{"techModule":"dash"}],
-    ["sb_tech",1,{"techModule":"airdash"}]
-  ],
-  "matchInputParameters" : true,
-  "output" : ["sb_tech",1,{"techModule":"sb_dash"}],
-  "groups" : ["sb_techconsole","sb_tech_2","nouncrafting","all"]
-}

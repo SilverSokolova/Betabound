@@ -85,6 +85,11 @@
           "paletteSwap": true
         }
       },
+      "altAbilities": [
+        "uppercut",
+        "physicalshockwave",
+        "groundslam"
+      ],
       "palette": "/items/active/starbound/colors/crappy.weaponcolors",
       "iconDrawables": ["handle", "blade"]
     }

@@ -6,13 +6,15 @@
   "objectType": "container",
   "tooltipKind": "sb_container",
   "category": "fridgeStorage",
-  "sb_plateImage": true,
   "price": 10,
   "description": "A plate for showcasing food and other consumables. Nifty!",
   "shortdescription": "Plate",
   "race": "generic",
   "health": 1.5,
   "printable": false,
+  "sb_plate": {
+    "image": "sb_plate"
+  },
 
   "inventoryIcon": "plate.png?flipx?border=1;000",
   "orientations": [{

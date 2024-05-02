@@ -9,7 +9,7 @@ function init()
   beepStart = techConfig["beepStart"] or -1
   beepDelay = techConfig["beepDelay"] or 1
   minDamage = techConfig["minDamage"]
-  shieldHits = 1
+  shieldHits = 0
 end
 
 function update(dt)
@@ -19,20 +19,17 @@ function update(dt)
     for _, notification in ipairs(damageNotifications) do
       if active then
         animator.playSound("block")
-        status.overConsumeResource("energy", status.resourceMax("energy") / (8 - shieldHits))
-        shieldHits = shieldHits * 2
-        if shieldHits >= 8 then
-          shieldHits = 6
-        end
+        status.overConsumeResource("energy", 25 + shieldHits)
+        shieldHits = shieldHits + 2.5
         break
       end
-      if
-        notification.healthLost > minDamage and animator.animationState("shield") ~= "recharge" and
-          notification.sourceEntityId ~= notification.targetEntityId and
-          cooldownTimer <= 0
-       then
-        status.overConsumeResource("energy", 50)
+      if notification.healthLost >= minDamage and animator.animationState("shield") ~= "recharge" and
+        notification.sourceEntityId ~= notification.targetEntityId and
+        cooldownTimer <= 0
+      then
         activate()
+        animator.playSound("block")
+        status.overConsumeResource("energy", 25)
         break
       end
     end
@@ -41,6 +38,7 @@ function update(dt)
   end
 
   if active then
+    status.setResourcePercentage("energyRegenBlock", 1)
     status.setResourcePercentage("sb_shieldStaminaT", shieldDuration / maxShieldDuration)
     if shieldDuration <= 0 then
       deactivate()
@@ -70,7 +68,7 @@ function activate()
   shieldDuration = maxShieldDuration
   status.setResourcePercentage("sb_shieldStaminaT", 1)
   animator.setAnimationState("shield", "on")
-  shieldHits = 1
+  shieldHits = 0
   active = true
 end
 

@@ -1,5 +1,5 @@
 {
   "input" : [["money",90]],
   "output" : "teslaspike",
-  "groups" : ["sb_portable3dprinter","sb_other","all"]
+  "groups" : ["sb_portable3dprinter","other","all"]
 }

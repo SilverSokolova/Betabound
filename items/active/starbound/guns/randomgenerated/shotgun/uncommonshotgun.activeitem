@@ -95,7 +95,8 @@
         "grenadelauncher",
         "stickyshot",
         "shrapnelbomb",
-        "burstshot"
+        "burstshot",
+        "sb_vacuum"
       ]
     }
   ],

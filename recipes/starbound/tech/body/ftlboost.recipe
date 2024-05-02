@@ -1,0 +1,9 @@
+{
+  "input":[
+    ["sb_tech",1,{"techModule":"blinkdash"}],
+    ["sb_tech",1,{"techModule":"rocketjump"}]
+  ],
+  "matchInputParameters": true,
+  "output": ["sb_tech",1,{"techModule":"sb_ftlboost"}],
+  "groups": ["sb_techconsole","sb_tech_2","nouncrafting","all"]
+}

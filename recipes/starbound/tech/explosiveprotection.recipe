@@ -1,9 +1,0 @@
-{
-  "input":[
-    ["sb_tech",1,{"techModule":"sb_absorption"}],
-    ["sb_tech",1,{"techModule":"sb_spiked"}]
-  ],
-  "matchInputParameters" : true,
-  "output" : ["sb_tech",1,{"techModule":"sb_explosiveprotection"}],
-  "groups" : ["sb_techconsole","sb_tech_4","nouncrafting","all"]
-}

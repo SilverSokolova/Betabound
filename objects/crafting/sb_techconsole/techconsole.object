@@ -6,7 +6,6 @@
   "price": 6000,
   "tooltipKind": "sb_object",
   "radioMessagesOnPickup": ["sb_pickuptechconsole"],
-  "learnBlueprintsOnPickup": ["sb_techconsole"],
   "interactAction": "OpenCraftingInterface",
   "interactData": {
     "config": "/interface/windowconfig/sb_craftingtechconsole.config",

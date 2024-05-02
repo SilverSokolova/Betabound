@@ -7,7 +7,7 @@
   "image": "sb_levitationpowder.png",
   "shortdescription": "Feather Powder",
   "category": "throwableItem",
-  "description": "Lighter than the atmosphere itself, this powder will make those nearby briefly float above the ground.",
+  "description": "Lighter than the atmosphere itself, this powder will make you and others nearby briefly float above the ground.",
   "ammoUsage": 1,
   "edgeTrigger": true,
   "windupTime": 0,

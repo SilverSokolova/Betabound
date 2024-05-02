@@ -1,0 +1,6 @@
+//Alien wood sap instead of alien fruit
+{
+  "input": [["alienwoodsap",3],"phasematter"],
+  "output": ["sb_levitationpowder",10],
+  "groups": ["craftingmedical2","buffs","all"]
+}

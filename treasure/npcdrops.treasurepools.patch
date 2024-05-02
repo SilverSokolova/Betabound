@@ -30,4 +30,11 @@
 ,[{"op":"add","path":"/banditTreasure/0/1/pool/-","value":{"weight":0.01,"item":"sb_rootpopflask"}}]
 ,[{"op":"test","path":"/banditTreasure/0/1/poolRounds","value":1},
 {"op":"replace","path":"/banditTreasure/0/1/poolRounds","value":2}]
+
+,[{"op":"test","path":"/gangmemberTreasure/0/1/poolRounds/0/1","value":0},
+{"op":"test","path":"/gangmemberTreasure/0/1/poolRounds/1/1","value":1},
+{"op":"replace","path":"/gangmemberTreasure/0/1/poolRounds/0/1","value":1},
+{"op":"replace","path":"/gangmemberTreasure/0/1/poolRounds/1/1","value":2}]
+
+,[{"op":"add","path":"/gangmemberTreasure/0/1/pool/-","value":{"weight":0.01,"item":"handcuffs"}}]
 ]

@@ -1,0 +1,9 @@
+{
+  "input": [
+    ["sb_tech",1,{"techModule":"distortionsphere"}],//not morphball: no bombs
+    ["sb_tech",1,{"techModule":"sb_groundsmash"}]
+  ],
+  "matchInputParameters": true,
+  "output": ["sb_tech",1,{"techModule":"sb_waterball"}],
+  "groups": ["sb_techconsole","sb_tech_1","nouncrafting","all"]
+}

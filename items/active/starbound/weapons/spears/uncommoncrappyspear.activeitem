@@ -110,6 +110,17 @@
           "paletteSwap": true
         }
       },
+      "altAbilities_physical": [
+        "flurry",
+        "spearspin"
+      ],
+      "altAbilities": [
+        "flurry",
+        "blinkexplosion",
+        "barrier",
+        "elementalspin",
+        "rocketspear"
+      ],
       "iconDrawables": ["handle", "blade"],
       "palette": "/items/active/starbound/colors/crappy.weaponcolors"
     }
