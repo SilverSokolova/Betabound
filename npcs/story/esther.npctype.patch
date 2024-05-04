@@ -1,0 +1,12 @@
+[
+  [{
+      "op": "test",
+      "path": "/scriptConfig/dialog/arkOpened/default/default/0",
+      "value": "The ark is open! You know what awaits, dear."
+    }, {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/arkOpened/default/default/0",
+      "value": "The Ark is open! You know what awaits, dear."
+    }
+  ]
+]

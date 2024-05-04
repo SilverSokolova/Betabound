@@ -59,8 +59,7 @@ xrc0018[8]=function()
     status.setStatusProperty("sb_bioimplants",e)
   end
 end
---xrc0018[9]=function() if status.statusProperty("xrc_0018z",0) >= 5 then player.giveItem(root.assetJson("/xrc/deployment/versioning/0018z-9.json")) end end
-xrc0018[9]=function() if not player.hasCompletedQuest("destroyruin") then player.startQuest("sb_destroyruin") end end
+
 xrc0018[13]=function() if player.blueprintKnown("sb_frostshield") then player.giveItem("sb_frostshield-recipe") player.addCurrency("money",5000) end end
 xrc0018[14]=function()
   status.clearPersistentEffects("sb_entity")
