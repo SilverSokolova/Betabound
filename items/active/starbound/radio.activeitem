@@ -13,6 +13,6 @@
     "sb_music": "jukebox"
   },
   "scriptDelta": 0,
-  "scripts": ["interface.lua"], //maybe move it to the scripts folder, like cursor and swingable?
+  "scripts": ["interface.lua"], //maybe move it to the scripts folder, like cursor and swingable? Holding the radio would be kinda cool. Just gotta get it to play particles when, uh, playing?
   "interactAction": ["scriptPane", "/interface/scripted/sb_music/music.config"]
 }

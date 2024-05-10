@@ -2,4 +2,8 @@
 {"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
 {"op":"add","path":"/learnBlueprintsOnPickup","value":[]}
 ],
-[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"organictorch"}]]
+[
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"organictorch"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"tentaclepipe"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"dermisblock"}
+]]

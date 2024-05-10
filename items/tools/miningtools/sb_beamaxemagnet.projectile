@@ -1,27 +1,27 @@
 {
-  "projectileName" : "sb_beamaxemagnet",
-  "physics" : "illusion",
-  "timeToLive" : 0.3,
-  "image" : "/projectiles/throwable/sb_statusapplier/statusapplier.png",
-  "frameNumber" : 1,
-  "animationLoops" : false,
-  "pointLight" : true,
-  "scripts" : ["sb_beamaxemagnet.lua"],
-  "boundBox" : [-10, -10, 10, 10],
-  "physicsForces" : {
-    "beam1" : {
-      "type" : "RadialForceRegion", //GradientForceRegion
-      "categoryWhitelist" : ["itemdrop"],
-      "outerRadius" : 14,
-      "innerRadius" : 1,
-      "targetRadialVelocity" : -5,
-      "controlForce" : 250,
-      "active" : true
-    }},
-  "power" : 0,
-  "damageType" : "NoDamage",
-  "damageKind" : "default",
-  "damagePoly" : [ [0,0] ],
-  "onlyHitTerrain" : true
-//  "clientEntityMode" : "ClientSlaveOnly"
+  "projectileName": "sb_beamaxemagnet",
+  "physics": "illusion",
+  "timeToLive": 0.3,
+  "image": "/projectiles/throwable/sb_statusapplier/statusapplier.png",
+  "frameNumber": 1,
+  "animationLoops": false,
+  "pointLight": true,
+  "scripts": ["sb_beamaxemagnet.lua"],
+  "boundBox": [-10, -10, 10, 10],
+  "physicsForces": {
+    "beam1": {
+      "type": "RadialForceRegion",
+      "categoryWhitelist": ["itemdrop"],
+      "outerRadius": 14,
+      "innerRadius": 1,
+      "targetRadialVelocity": -5,
+      "controlForce": 250,
+      "active": true
+    }
+  },
+  "power": 0,
+  "damageType": "NoDamage",
+  "damageKind": "default",
+  "damagePoly": [[0, 0]],
+  "onlyHitTerrain": true
 }
