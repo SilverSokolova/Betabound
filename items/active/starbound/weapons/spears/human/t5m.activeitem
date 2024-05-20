@@ -1,1 +1,1 @@
-{"definition":["colors/t5m","spears/t5m"],"itemName":"sb_humantier5mspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear","upgradeableWeapon"],"shortdescription":"Backstabber","description":"A large spear perfect for stabbing."}
+{"definition":["colors/t5m","spears/t5m"],"itemName":"sb_humantier5mspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear"],"shortdescription":"Backstabber","description":"A large spear perfect for stabbing."}

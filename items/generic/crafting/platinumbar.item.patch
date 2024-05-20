@@ -1,10 +1,82 @@
-[[{"op":"test","path":"/itemTags","inverse":true},{"op":"add","path":"/itemTags","value":[]}],
-[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":""}],
-[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
-[{"op":"replace","path":"/category","value":"craftingMaterial"},
-{"op":"replace","path":"/price","value":100},
-{"op":"replace","path":"/tooltipKind","value":"sb_object"},
-{"op":"add","path":"/itemTags/-","value":"reagent"},
-{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"platinumblock"},
-{"op":"replace","path":"/rarity","value":"Uncommon"}],
-[{"op":"test","path":"/description","value":"It's a platinum bar."},{"op":"replace","path":"/description","value":"Ore for platinum bars is found at great depths on most planets around all stars."}]]
+[
+  [{
+      "op": "test",
+      "path": "/itemTags",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/itemTags",
+      "value": []
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/tooltipKind",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/tooltipKind",
+      "value": "sb_object"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/category",
+      "value": "Junk"
+    }, {
+      "op": "replace",
+      "path": "/category",
+      "value": "craftingMaterial"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/price",
+      "value": 0
+    }, {
+      "op": "replace",
+      "path": "/price",
+      "value": 100
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/rarity",
+      "value": "Common"
+    }, {
+      "op": "replace",
+      "path": "/rarity",
+      "value": "Uncommon"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/learnBlueprintsOnPickup",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/learnBlueprintsOnPickup",
+      "value": []
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/itemTags/-",
+      "value": "reagent"
+    }, {
+      "op": "add",
+      "path": "/learnBlueprintsOnPickup/-",
+      "value": "platinumblock"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/description",
+      "value": "It's a platinum bar."
+    }, {
+      "op": "replace",
+      "path": "/description",
+      "value": "Ore for platinum bars is found at great depths on most planets around all stars."
+    }
+  ]
+]

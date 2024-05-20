@@ -10,7 +10,7 @@
     //  "damageKindImage" : "/interface/elements/fire.png",
     //  "damageKindBImage" : "/interface/elements/electric.png"
   },
-  "itemTags": ["weapon", "ranged", "pistol", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "pistol"],
   "category": "pistol",
   "rarity": "Rare",
   "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",

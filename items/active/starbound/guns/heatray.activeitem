@@ -5,7 +5,7 @@
   "price": 640,
   "tooltipKind": "sb_gun2",
   //"tooltipFields" : {"damageKindImage":"/interface/elements/fire.png"},
-  "itemTags": ["weapon", "ranged", "unique", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "unique"],
   "category": "uniqueWeapon",
   "rarity": "Rare",
   "fixedRarity": false,

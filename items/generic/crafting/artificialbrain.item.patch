@@ -1,11 +1,8 @@
 [
-[{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":0}],
-[{"op":"test","path":"/rarity","inverse":true},{"op":"add","path":"/rarity","value":0}],
+[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":64}],
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}],
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object4"}],
 
 [{"op":"test","path":"/description","value":"An enhanced brain, perfect for transplanting."},
-{"op":"replace","path":"/description","value":"An enhanced brain, perfect for transplanting. Obtain brains with a Brain Extractor, crafted at an anvil."}],
-
-[{"op":"replace","path":"/price","value":64},
-{"op":"replace","path":"/rarity","value":"uncommon"}]
+{"op":"replace","path":"/description","value":"An enhanced brain, perfect for transplanting. Obtain brains with a ^orange;Brain Extractor^reset;, crafted at an anvil."}]
 ]

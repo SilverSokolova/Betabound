@@ -4,5 +4,5 @@
   "shortdescription": "Tiny Tomahawk",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "definition": "axes/t1",
-  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+  "itemTags": ["weapon", "melee", "axe"]
 }

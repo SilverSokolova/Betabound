@@ -1,7 +1,7 @@
 {
   "itemName": "sb_boulderstaff",
   "definition": "staff",
-  "itemTags": ["weapon", "staff", "upgradeableWeapon"],
+  "itemTags": ["weapon", "staff"],
   "tags": {
     "<staff>": "boulder",
     "<glow>": "/items/active/weapons/staff/generated/glow/physical"

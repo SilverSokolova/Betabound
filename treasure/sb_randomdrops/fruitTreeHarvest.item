@@ -1,6 +1,5 @@
 {
   "itemName": "sb_fruitTreeHarvest",
   "rarity": "rare",
-  "pool": "sb_fruitTreeHarvest",
   "builder": "/items/buildscripts/starbound/randomdrop.lua"
 }

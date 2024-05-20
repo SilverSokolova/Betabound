@@ -1,7 +1,7 @@
 {
   "itemName": "sb_glitchtier4spear",
   "description": "A spear that can hook things towards you.",
-  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "spear"],
   "definition": "spears/t4",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Friend Request"

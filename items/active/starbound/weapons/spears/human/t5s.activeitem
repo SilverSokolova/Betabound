@@ -1,1 +1,1 @@
-{"definition":["colors/t5s","spears/t5s"],"itemName":"sb_humantier5sspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear","upgradeableWeapon"],"shortdescription":"Cattlekiller","description":"A spear shaped like a cattle prod, but deadlier."}
+{"definition":["colors/t5s","spears/t5s"],"itemName":"sb_humantier5sspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear"],"shortdescription":"Cattlekiller","description":"A spear shaped like a cattle prod, but deadlier."}

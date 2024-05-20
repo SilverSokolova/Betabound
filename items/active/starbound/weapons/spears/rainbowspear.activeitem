@@ -12,7 +12,7 @@
   "description": "Perfect for parades.",
   "shortdescription": "Rainbow Spear",
   "twoHanded": true,
-  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "spear"],
   "animation": "/items/active/starbound/weapons/spear.animation",
   "animationParts": {},
 

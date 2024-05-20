@@ -1,44 +1,40 @@
 {
-  "objectName" : "sb_slimehide",
-  "colonyTags" : ["slime","storage","odd"],
-  "printable" : false,
-  "rarity" : "Common",
-  "objectType" : "container",
-  "tooltipKind" : "sb_container",
-  "builder" : "/items/buildscripts/starbound/buildcontainer.lua",
-  "scripts" : ["/scripts/sb_container.lua"],
-  "category" : "storage",
-  "price" : 70,
-  "description" : "An orb made of a thick slime substance. It looks like there's room to store things inside.",
-  "shortdescription" : "Slime Orb",
-  "race" : "generic",
-  "health" : 5,
+  "objectName": "sb_slimehide",
+  "colonyTags": ["slime", "storage", "odd"],
+  "printable": false,
+  "rarity": "Common",
+  "objectType": "container",
+  "tooltipKind": "sb_container",
+  "builder": "/items/buildscripts/starbound/buildcontainer.lua",
+  "scripts": ["/scripts/sb_container.lua"],
+  "category": "storage",
+  "price": 70,
+  "description": "An orb made of a thick slime substance. It looks like there's room to store things inside.",
+  "shortdescription": "Slime Orb",
+  "race": "generic",
+  "health": 5,
 
-  "apexDescription" : "A vile ball of slime.",
-  "avianDescription" : "A hollow ball of slime.",
-  "floranDescription" : "Is there sssomething inssside?",
-  "glitchDescription" : "Curious. It appears to have storage space.",
-  "humanDescription" : "There's room to store quite a few things inside this little ball.",
-  "hylotlDescription" : "I see the Florans have found a worthy container for their designs.",
-  "novakidDescription" : "It don't look like much, but you never know what's hidin' inside.",
+  "apexDescription": "A vile ball of slime.",
+  "avianDescription": "A hollow ball of slime.",
+  "floranDescription": "Is there sssomething inssside?",
+  "glitchDescription": "Curious. It appears to have storage space.",
+  "humanDescription": "There's room to store quite a few things inside this little ball.",
+  "hylotlDescription": "I see the Florans have found a worthy container for their designs.",
+  "novakidDescription": "It don't look like much, but you never know what's hidin' inside.",
 
-  "inventoryIcon" : "slimehide2icon.png",
-  "orientations" : [
-    {
-      "dualImage" : "slimehide2.png:<color>.<key>",
-      "imagePosition" : [-8, 0],
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+  "inventoryIcon": "slimehide2icon.png",
+  "orientations": [{
+      "dualImage": "slimehide2.png:<color>.<key>",
+      "imagePosition": [-8, 0],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
     }
-
   ],
 
-  "openSounds" : [ "/sfx/objects/fleshdoor_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/fleshdoor_close.ogg" ],
-  "slotCount" : 16,
-  "tooltipFields":{"slotCountLabel":"Holds 16 Items"},
-  "uiConfig" : "/interface/sb_chests/chest<slots>.config",
-  "frameCooldown" : 5,
-  "autoCloseCooldown" : 3600
+  "openSounds": ["/sfx/objects/fleshdoor_open.ogg"],
+  "closeSounds": ["/sfx/objects/fleshdoor_close.ogg"],
+  "slotCount": 16,
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "autoCloseCooldown": 3600
 }

@@ -1,47 +1,43 @@
 {
-  "objectName" : "sb_heckaltar",
-  "colonyTags" : ["flesh","odd"],
-  "printable" : false,
-  "rarity" : "Common",
-  "objectType" : "container",
-  "tooltipKind" : "sb_container",
-  "category" : "storage",
-  "price" : 625,
-  "description" : "An altar dedicated to some unspeakable horror.",
-  "shortdescription" : "Heck Altar",
-  "race" : "generic", //it said floran, but... most say apex.
-  "health" : 1.5,
-  "builder" : "/items/buildscripts/starbound/buildcontainer.lua",
-  "scripts" : ["/scripts/sb_container.lua"],
+  "objectName": "sb_heckaltar",
+  "colonyTags": ["flesh", "odd"],
+  "printable": false,
+  "rarity": "Common",
+  "objectType": "container",
+  "tooltipKind": "sb_container",
+  "category": "storage",
+  "price": 625,
+  "description": "An altar dedicated to some unspeakable horror.",
+  "shortdescription": "Heck Altar",
+  "race": "generic", //it said floran, but... most say apex.
+  "health": 1.5,
+  "builder": "/items/buildscripts/starbound/buildcontainer.lua",
+  "scripts": ["/scripts/sb_container.lua"],
 
-  "apexDescription" : "What manner of horrendous worshippers gather here?",
-  "avianDescription" : "The god this altar pays tribute to does not bear thinking of.",
-  "floranDescription" : "Floran only worship ssstabbing. Floran like table though.",
-  "glitchDescription" : "Anxious. This altar is stained with the blood of innocents, or maybe just birds.",
-  "humanDescription" : "What eldritch horrors are worshipped here? And when did I learn the word eldritch?",
-  "hylotlDescription" : "This horrifying altar of the damned has such basic, crude construction. Shameful.",
-  "novakidDescription" : "It smells of flesh. Sickenin', I tell ya.",
+  "apexDescription": "What manner of horrendous worshippers gather here?",
+  "avianDescription": "The god this altar pays tribute to does not bear thinking of.",
+  "floranDescription": "Floran only worship ssstabbing. Floran like table though.",
+  "glitchDescription": "Anxious. This altar is stained with the blood of innocents, or maybe just birds.",
+  "humanDescription": "What eldritch horrors are worshipped here? And when did I learn the word eldritch?",
+  "hylotlDescription": "This horrifying altar of the damned has such basic, crude construction. Shameful.",
+  "novakidDescription": "It smells of flesh. Sickenin', I tell ya.",
 
-  "lightColor" : [173, 46, 61],
+  "lightColor": [173, 46, 61],
 
-  "inventoryIcon" : "heckaltaricon.png",
-  "orientations" : [
-    {
-      "dualImage" : "heckaltar.png:<color>.<frame>",
-      "imagePosition" : [-24, 0],
-      "frames" : 3,
-      "animationCycle" : 0.5,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-
+  "inventoryIcon": "heckaltaricon.png",
+  "orientations": [{
+      "dualImage": "heckaltar.png:<color>.<frame>",
+      "imagePosition": [-24, 0],
+      "frames": 3,
+      "animationCycle": 0.5,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
     }
   ],
-  "openSounds" : [ "/sfx/objects/fleshdoor_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/fleshdoor_close.ogg" ],
-  "slotCount" : 24,
-  "tooltipFields":{"slotCountLabel":"Holds 24 Items"},
-  "uiConfig" : "/interface/sb_chests/chest<slots>.config",
-  "frameCooldown" : 5,
-  "autoCloseCooldown" : 3600
+  "openSounds": ["/sfx/objects/fleshdoor_open.ogg"],
+  "closeSounds": ["/sfx/objects/fleshdoor_close.ogg"],
+  "slotCount": 24,
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "autoCloseCooldown": 3600
 }

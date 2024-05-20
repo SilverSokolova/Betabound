@@ -12,7 +12,7 @@
     "subtitle": "Magic Shroom Sword"
   },
   "twoHanded": false,
-  "itemTags": ["weapon", "melee", "shortsword", "mushroom", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword", "mushroom"],
   "handGrip": "inside",
   "animation": "/items/active/starbound/weapons/shortsword.animation",
   "animationParts": {},

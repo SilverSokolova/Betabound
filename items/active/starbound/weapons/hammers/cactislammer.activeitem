@@ -10,7 +10,7 @@
   "tooltipKind": "sb_sword2",
   "category": "hammer",
   "twoHanded": true,
-  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "hammer"],
   "animation": "/items/active/starbound/weapons/hammer.animation",
 
   "sb_dyeable": false,

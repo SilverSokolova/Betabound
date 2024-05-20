@@ -9,7 +9,7 @@
   "price": 540,
   "category": "dagger",
   "twoHanded": false,
-  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "dagger"],
   "sb_dyeable": true,
   "sb_backingDirectives": "?replace;838383=ffca8a;555=e0975c;383838=a85636;151515=6f2919",
   "animation": "/items/active/starbound/weapons/dagger.animation",

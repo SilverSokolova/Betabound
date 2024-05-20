@@ -24,21 +24,5 @@
       "path": "/scripts/-",
       "value": "sb_shield.lua"
     }
-  ],
-  [{
-      "op": "test",
-      "path": "/itemTags",
-      "inverse": true
-    }, {
-      "op": "add",
-      "path": "/itemTags",
-      "value": []
-    }
-  ],
-  [{
-      "op": "add",
-      "path": "/itemTags/-",
-      "value": "upgradeableWeapon"
-    }
   ]
 ]

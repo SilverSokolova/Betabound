@@ -12,7 +12,7 @@
   "description": "A two-handed sword.",
   "shortdescription": "Common Crappy Broadsword",
   "twoHanded": true,
-  "itemTags": ["weapon", "melee", "broadsword", "crappy", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "broadsword", "crappy"],
   "animation": "/items/active/starbound/weapons/broadsword.animation",
   "animationParts": {},
   "animationCustom": {},

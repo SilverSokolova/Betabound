@@ -1,1 +1,1 @@
-{"description":"For picking teeth, or stabbing people.","shortdescription":"Toothpick","itemName":"sb_apextier5adagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t5a","daggers/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"For picking teeth, or stabbing people.","shortdescription":"Toothpick","itemName":"sb_apextier5adagger","itemTags":["weapon","melee","dagger"],"definition":["colors/t5a","daggers/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

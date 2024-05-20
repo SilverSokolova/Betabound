@@ -1,7 +1,7 @@
 {
   "itemName": "sb_glitchtier2broadsword",
   "description": "A solid Glitch broadsword.",
-  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "broadsword"],
   "shortdescription": "Upgrade 2.0",
   "definition": "broadswords/t2",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",

@@ -2,8 +2,12 @@
 [{"op":"test","path":"/builder"},{"op":"test","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua","inverse":true},{"op":"move","from":"/builder","path":"/sb_builder"}],[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua"}],
 
 [{"op":"test","path":"/level","value":1},{"op":"replace","path":"/level","value":3}],
+
 [{"op":"test","path":"/itemTags/0","value":"toy"},{"op":"remove","path":"/itemTags/0"}],
-[{"op":"add","path":"/itemTags/-","value":"weapon"},{"op":"add","path":"/itemTags/-","value":"ranged"},{"op":"add","path":"/itemTags/-","value":"assaultRifle"}],
+[{"op":"add","path":"/itemTags/-","value":"weapon"},
+{"op":"add","path":"/itemTags/-","value":"ranged"},
+{"op":"add","path":"/itemTags/-","value":"assaultRifle"}],
+
 [{"op":"test","path":"/category","value":"toy"},{"op":"replace","path":"/category","value":"uniqueWeapon"}],
 [{"op":"test","path":"/description","value":"Powered by snow, it's fully automatic and keeps your gloves dry."},{"op":"replace","path":"/description","value":"Made for advanced snowball warfare. It's powered by snow, fully automatic, and keeps your gloves dry."}],
 [{"op":"test","path":"/shortdescription","value":"Snowball Shooter"},{"op":"replace","path":"/shortdescription","value":"Blizzard Blaster"}],

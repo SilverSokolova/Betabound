@@ -10,7 +10,7 @@
   "category": "shortsword",
   "twoHanded": false,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "shortsword", "slime", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword", "slime"],
   "handGrip": "inside",
   "inventoryIcon": "cutarrh.png<directives>",
   "animation": "/items/active/starbound/weapons/shortsword.animation",

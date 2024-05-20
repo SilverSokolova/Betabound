@@ -1,7 +1,7 @@
 {
   "itemName": "sb_humanplasmastaff2",
   "definition": "racialstaff",
-  "itemTags": ["weapon", "staff", "upgradeableWeapon"],
+  "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "human",
     "<staff>": "plasmastaff",

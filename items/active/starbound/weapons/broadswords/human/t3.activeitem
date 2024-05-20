@@ -1,7 +1,7 @@
 {
   "itemName": "sb_humantier3broadsword",
   "description": "A regular broadsword made to look awesome.",
-  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "broadsword"],
   "definition": "broadswords/t3",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Awesome Broadsword"

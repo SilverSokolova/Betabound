@@ -6,7 +6,7 @@
   "rarity": "rare",
   "fixedRarity": false,
   "category": "pistol",
-  "itemTags": ["weapon", "ranged", "pistol", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "pistol"],
   "tooltipKind": "sb_gun2",
   "tooltipFields": {
     "damageKindImage": "/projectiles/material/sb_icematerial.png",

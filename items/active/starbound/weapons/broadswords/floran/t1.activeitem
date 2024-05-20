@@ -1,7 +1,7 @@
 {
   "itemName": "sb_florantier1broadsword",
   "description": "A basic broadsword.",
-  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "broadsword"],
   "shortdescription": "Big Slicer",
   "definition": "broadswords/t1",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",

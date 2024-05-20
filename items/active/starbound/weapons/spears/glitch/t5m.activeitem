@@ -1,1 +1,1 @@
-{"definition":["colors/t5m","spears/t5m"],"itemName":"sb_glitchtier5mspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear","upgradeableWeapon"],"shortdescription":"Spike This","description":"A spiky spear."}
+{"definition":["colors/t5m","spears/t5m"],"itemName":"sb_glitchtier5mspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear"],"shortdescription":"Spike This","description":"A spiky spear."}

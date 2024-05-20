@@ -1,1 +1,1 @@
-{"description":"A short, grooved, curved sword.","shortdescription":"Mandrill","itemName":"sb_apextier6ashortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t6a","shortswords/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A short, grooved, curved sword.","shortdescription":"Mandrill","itemName":"sb_apextier6ashortsword","itemTags":["weapon","melee","shortsword"],"definition":["colors/t6a","shortswords/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

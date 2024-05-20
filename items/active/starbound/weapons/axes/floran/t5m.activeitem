@@ -1,1 +1,1 @@
-{"description":"An axe decorated with a skull. Chilling.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_florantier5maxe","definition":["colors/t5m","axes/m"],"shortdescription":"Bonechopper","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"An axe decorated with a skull. Chilling.","itemTags":["weapon","melee","axe"],"itemName":"sb_florantier5maxe","definition":["colors/t5m","axes/m"],"shortdescription":"Bonechopper","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

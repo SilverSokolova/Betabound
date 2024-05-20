@@ -9,7 +9,7 @@
   "price": 495,
   "category": "dagger",
   "twoHanded": false,
-  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "dagger"],
 
   "inventoryIcon": "steelspoon.png",
   "animation": "/items/active/starbound/weapons/dagger.animation",

@@ -6,5 +6,7 @@
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
 [{"op":"test","path":"/effects/0/0/duration","value":180},{"op":"replace","path":"/effects/0/0/duration","value":90}],
 [{"op":"add","path":"/effects/0/-","value":{"effect":"electrified","duration":90}}],
-[{"op":"add","path":"/effects/0/-","value":"sb_foodheal70"}]
+[{"op":"add","path":"/effects/0/-","value":"sb_foodheal70"}],
+
+[{"op":"add","path":"/sb_plate","value":{"image":true,"offset":-0.05}}]
 ]

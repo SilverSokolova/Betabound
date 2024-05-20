@@ -4,7 +4,7 @@
   "colonyTags": ["storage", "cooking"],
   "rarity": "Common",
   "objectType": "container",
-  "tooltipKind": "sb_container",
+  "tooltipKind": "sb_object",
   "category": "fridgeStorage",
   "price": 10,
   "description": "A plate for showcasing food and other consumables. Nifty!",
@@ -13,30 +13,15 @@
   "health": 1.5,
   "printable": false,
   "sb_plate": {
-    "image": "sb_plate"
+    "image": true
   },
 
   "inventoryIcon": "plate.png?flipx?border=1;000",
   "orientations": [{
-      "image": "plate.png",
+      "dualImage": "plate.png",
       "imagePosition": [-1, 0],
       "animationPosition": [-1, 0],
-      "direction": "left",
-      "flipImages": true,
-
-      "spaces": [[0, 0]],
-      "anchors": ["bottom"],
-      "directions": ["right"]
-    }, {
-      "image": "plate.png",
-      "imagePosition": [-1, 0],
-      "animationPosition": [-1, 0],
-      "direction": "right",
-      "flipImages": false,
-
-      "spaces": [[0, 0]],
-      "anchors": ["bottom"],
-      "directions": ["left"]
+      "anchors": ["bottom"]
     }
   ],
 
@@ -46,13 +31,8 @@
   },
   "scripts": ["plate.lua"],
   "scriptDelta": 5,
-  "openSounds": ["/sfx/objects/chest_small_open.ogg"],
-  "closeSounds": ["/sfx/objects/chest_small_close.ogg"],
   "slotCount": 1,
-  "tooltipFields": {
-    "slotCountLabel": "Holds 1 Item"
-  },
-  "uiConfig": "/interface/sb_chests/chest<slots>.config",
+  "uiConfig": "/interface/chests/sb_plate.config",
   "frameCooldown": 5,
   "autoCloseCooldown": 3600,
   "itemAgeMultiplier": 0

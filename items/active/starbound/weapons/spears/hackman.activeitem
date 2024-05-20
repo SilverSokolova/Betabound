@@ -11,7 +11,7 @@
   "description": "A spontoon equipped with energy-charged crystals.",
   "shortdescription": "Hackman",
   "twoHanded": true,
-  "itemTags": ["weapon", "melee", "spear", "crystal", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "spear", "crystal"],
   "animation": "/items/active/starbound/weapons/spear.animation",
   "inventoryIcon": "hackman.png",
   "animationParts": {

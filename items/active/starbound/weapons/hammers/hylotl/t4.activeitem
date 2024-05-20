@@ -1,7 +1,7 @@
 {
   "itemName": "sb_hylotltier4hammer",
   "description": "A hammer that will take down any fish.",
-  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "hammer"],
   "definition": "hammers/t4",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Fishfighter"

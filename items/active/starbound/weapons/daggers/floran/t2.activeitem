@@ -1,7 +1,7 @@
 {
   "itemName": "sb_florantier2dagger",
   "description": "A small, stabby dagger with a hook.",
-  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "dagger"],
   "definition": "daggers/t2",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Hookslicer"

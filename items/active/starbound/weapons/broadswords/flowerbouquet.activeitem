@@ -9,7 +9,7 @@
   "description": "Hit them with your love!",
   "shortdescription": "Flower Bouquet",
   "twoHanded": true,
-  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "broadsword"],
   "animation": "/items/active/starbound/weapons/broadsword.animation",
   "inventoryIcon": "flowerbouquet.png",
   "animationParts": {

@@ -1,7 +1,7 @@
 {
   "itemName": "sb_novatier5srevolver",
   "definition": "revolver",
-  "itemTags": ["weapon", "ranged", "pistol", "revolver", "novakid", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "pistol", "revolver", "novakid"],
   "tags": {
     "<t>": "5s"
   },

@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"A very heavy ball on a stick.","itemTags":["weapon","melee","hammer","upgradeableWeapon"],"definition":["colors/t5s","hammers/t5s"],"itemName":"sb_hylotltier5shammer","shortdescription":"Wilson"}
+{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"A very heavy ball on a stick.","itemTags":["weapon","melee","hammer"],"definition":["colors/t5s","hammers/t5s"],"itemName":"sb_hylotltier5shammer","shortdescription":"Wilson"}

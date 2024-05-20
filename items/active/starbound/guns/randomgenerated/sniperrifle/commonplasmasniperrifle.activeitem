@@ -12,7 +12,7 @@
   "tooltipKind": "sb_gun2",
   "description": "Powerfully strong to cover long distances.",
   "shortdescription": "Common Plasma Sniper Rifle",
-  "itemTags": ["weapon", "ranged", "sniperrifle", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "sniperrifle"],
   "tooltipFields": {
     "subtitle": "Plasma Sniper Rifle"
   },

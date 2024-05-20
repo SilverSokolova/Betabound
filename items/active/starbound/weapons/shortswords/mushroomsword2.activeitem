@@ -10,7 +10,7 @@
   "category": "shortsword",
   "twoHanded": false,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "shortsword", "mushroom", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword", "mushroom"],
   "handGrip": "inside",
   "inventoryIcon": "mushroomsword.png",
   "animation": "/items/active/starbound/weapons/shortsword.animation",

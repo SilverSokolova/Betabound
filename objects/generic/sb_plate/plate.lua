@@ -17,10 +17,10 @@ function containerCallback() --By the way, is this called if something other tha
 
     if plateImage then
       if type(plateImage) == "boolean" then
-        plateImage = item.name
+        plateImage = item.name..".png"
       end
       if type(plateImage) ~= "boolean" and plateImage:sub(0, 1) ~= "/" then
-        plateImage = string.format("/objects/generic/sb_plate/%s.png", plateImage)
+        plateImage = string.format("/objects/generic/sb_plate/%s", plateImage)
       end
     end
     if
@@ -42,7 +42,10 @@ function containerCallback() --By the way, is this called if something other tha
       animator.resetTransformationGroup("item")
       animator.resetTransformationGroup("plate")
       if plateOffset then
-        animator.translateTransformationGroup("item", {-plateOffset, 0})
+        if type(plateOffset) == "number" then
+          plateOffset = {plateOffset, 0}
+        end
+        animator.translateTransformationGroup("item", {-plateOffset[1], plateOffset[2]})
       end
       animator.translateTransformationGroup("item", {0, plateImage and 0.25 or 0.133}) --Yeah, yeah, it floats a few subpixels above the plate. I'm not very good with math
       animator.setGlobalTag(

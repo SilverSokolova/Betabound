@@ -2,8 +2,7 @@
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_jelly"}],
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
-[{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":500}],
-[{"op":"test","path":"/rarity","inverse":true},{"op":"add","path":"/rarity","value":0}],
-[{"op":"replace","path":"/rarity","value":"rare"}],
+[{"op":"test","path":"/price","value":10},{"op":"replace","path":"/price","value":500}],
+[{"op":"test","path":"/rarity","value":"Uncommon"},{"op":"replace","path":"/rarity","value":"Rare"}],
 [{"op":"test","path":"/description","value":"A strange jelly that seems to react to touch."},{"op":"replace","path":"/description","value":"A strange jelly that seems to react to touch. Can be used to craft a ^orange;compounding upgrade!^reset;"}]
 ]

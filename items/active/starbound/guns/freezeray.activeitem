@@ -11,7 +11,7 @@
   "level": 1,
   "fixedLevel": false,
   "category": "uniqueWeapon",
-  "itemTags": ["weapon", "ranged", "unique", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "unique"],
 
   "animation": "freezeray.animation",
   "animationParts": {

@@ -16,7 +16,7 @@
   "sb_backingDirectives": "?replace;e35f5d=ffca8a;b22042=e0975c;871132=a85636",
   "sb_extraDirectives": "?replace;ffca8a=e35f5d;e0975c=b22042;a85636=871132",
   "level": 1,
-  "itemTags": ["weapon", "ranged", "assaultrifle", "pulserifle", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "assaultrifle", "pulserifle"],
   "tooltipFields": {
     "subtitle": "Pulse Rifle"
   },

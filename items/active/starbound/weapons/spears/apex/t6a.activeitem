@@ -1,1 +1,1 @@
-{"definition":["colors/t6a","spears/t6a"],"itemName":"sb_apextier6aspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear","upgradeableWeapon"],"shortdescription":"Lethal Injection","description":"A spear that also function as a syringe."}
+{"definition":["colors/t6a","spears/t6a"],"itemName":"sb_apextier6aspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear"],"shortdescription":"Lethal Injection","description":"A spear that also function as a syringe."}

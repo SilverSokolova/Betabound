@@ -13,7 +13,7 @@
     "subtitle": "Bone Hammer"
   },
   "twoHanded": true,
-  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "hammer"],
 
   "inventoryIcon": "bonehammer.png",
   "animationParts": {

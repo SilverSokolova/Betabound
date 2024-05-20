@@ -1,1 +1,1 @@
-[[{"op":"test","path":"/dropConfig","inverse":true},{"op":"add","path":"/dropConfig","value":{"drops":[[]]}}],[{"op":"add","path":"/dropConfig/drops/0/-","value":{"item":"sb_liquidtentaclejuice", "count":3}}]]
+[[{"op":"test","path":"/dropConfig","inverse":true},{"op":"add","path":"/dropConfig","value":{"drops":[[]]}}],[{"op":"add","path":"/dropConfig/drops/0/-","value":{"item":"sb_tentacletreeHarvest","count":2}}]]

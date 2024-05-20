@@ -1,7 +1,7 @@
 {
   "itemName": "sb_apextier2shortsword",
   "description": "A relatively decent fencing shortsword.",
-  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword"],
   "definition": "shortswords/t2",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "The Neckscratcher"

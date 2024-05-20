@@ -1,1 +1,1 @@
-{"description":"A grooved, curved sword.","shortdescription":"Gorilldrill","itemName":"sb_apextier6abroadsword","definition":["colors/t6a","broadswords/t6a"],"itemTags":["weapon","melee","broadsword","upgradeableWeapon"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A grooved, curved sword.","shortdescription":"Gorilldrill","itemName":"sb_apextier6abroadsword","definition":["colors/t6a","broadswords/t6a"],"itemTags":["weapon","melee","broadsword"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

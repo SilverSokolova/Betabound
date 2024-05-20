@@ -1,7 +1,7 @@
 {
   "itemName": "sb_aviantier3shortsword",
   "description": "A shortsword shaped like an Avian wing bone.",
-  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword"],
   "definition": "shortswords/t3",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Wingdinger"

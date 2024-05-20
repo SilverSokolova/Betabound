@@ -8,7 +8,7 @@
   "description": "Behold! The power of the sun, in a gun!",
   "shortdescription": "Sunblaster",
   "level": 6,
-  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid"],
   "configOverrides": {
     "baseOffset": [0.5, 0.375],
     "primaryAbility": {

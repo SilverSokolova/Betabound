@@ -8,7 +8,7 @@
   "description": "An interstellar take on a fabled Earth rifle.",
   "shortdescription": "Winchestar",
   "level": 1,
-  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid"],
   "muzzleOffset": [2, 0.25],
   "altAbilityType": "piercingshot",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"

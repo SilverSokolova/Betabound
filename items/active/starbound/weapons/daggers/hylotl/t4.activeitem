@@ -1,7 +1,7 @@
 {
   "itemName": "sb_hylotltier4dagger",
   "description": "A small but sturdy dagger.",
-  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "dagger"],
   "definition": "daggers/t4",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Oysteriser"

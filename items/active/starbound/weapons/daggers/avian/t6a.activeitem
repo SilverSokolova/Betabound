@@ -1,1 +1,1 @@
-{"description":"A small knife with good air resistance.","shortdescription":"Fly-By-Knife","itemName":"sb_aviantier6adagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t6a","daggers/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A small knife with good air resistance.","shortdescription":"Fly-By-Knife","itemName":"sb_aviantier6adagger","itemTags":["weapon","melee","dagger"],"definition":["colors/t6a","daggers/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

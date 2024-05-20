@@ -1,7 +1,7 @@
 {
   "itemName": "sb_aviancrystalstaff2",
   "definition": "racialstaff",
-  "itemTags": ["weapon", "staff", "upgradeableWeapon"],
+  "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "avian",
     "<staff>": "crystalstaff",

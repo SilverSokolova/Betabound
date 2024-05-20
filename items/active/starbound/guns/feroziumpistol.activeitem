@@ -7,7 +7,7 @@
   "tooltipFields": {
     "damageKindImage": "/interface/sb_tooltips/standardbullet.png"
   },
-  "itemTags": ["weapon", "ranged", "pistol", "ferozium", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "pistol", "ferozium"],
   "category": "pistol",
   "fixedRarity": true,
   "rarity": "legendary",

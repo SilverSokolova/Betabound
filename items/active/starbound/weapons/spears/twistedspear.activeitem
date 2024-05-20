@@ -9,7 +9,7 @@
   "description": "",
   "shortdescription": "Twisted Spear",
   "twoHanded": true,
-  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "spear"],
   "animation": "/items/active/starbound/weapons/spear.animation",
   "inventoryIcon": "twistedspear.png",
   "animationParts": {

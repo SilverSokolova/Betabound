@@ -8,7 +8,7 @@
   "tooltipKind": "sb_sword2",
   "price": 660,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "shortsword", "mushroom", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword", "mushroom"],
   "inventoryIcon": "mushroomsword.png",
   "animationParts": {
     "blade": "mushroomsword.png",

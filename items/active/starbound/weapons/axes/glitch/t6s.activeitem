@@ -1,6 +1,6 @@
 {
   "description": "An axe that might just be sentient.",
-  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "axe"],
   "itemName": "sb_glitchtier6saxe",
   "configOverrides": {
     "animationCustom": {

@@ -1,44 +1,40 @@
 {
-  "objectName" : "sb_heckchest",
-  "colonyTags" : ["flesh","odd"],
-  "printable" : false,
-  "rarity" : "Common",
-  "objectType" : "container",
-  "tooltipKind" : "sb_container",
-  "builder" : "/items/buildscripts/starbound/buildcontainer.lua",
-  "scripts" : ["/scripts/sb_container.lua"],
-  "category" : "storage",
-  "price" : 350,
-  "description" : "A chest made of hardened flesh.",
-  "shortdescription" : "Heck Chest",
-  "race" : "generic",
-  "health" : 1.5,
+  "objectName": "sb_heckchest",
+  "colonyTags": ["flesh", "odd"],
+  "printable": false,
+  "rarity": "Common",
+  "objectType": "container",
+  "tooltipKind": "sb_container",
+  "builder": "/items/buildscripts/starbound/buildcontainer.lua",
+  "scripts": ["/scripts/sb_container.lua"],
+  "category": "storage",
+  "price": 350,
+  "description": "A chest made of hardened flesh.",
+  "shortdescription": "Heck Chest",
+  "race": "generic",
+  "health": 1.5,
 
-  "apexDescription" : "A pretty vile chest.",
-  "avianDescription" : "This chest sounds shivers down my spine.",
-  "floranDescription" : "Floran want to eat chest.",
-  "glitchDescription" : "Disgust. A fleshy, pulsating chest.",
-  "humanDescription" : "A pretty gross chest made of flesh.",
-  "hylotlDescription" : "What an abhorrent chest.",
-  "novakidDescription" : "It even smells of flesh. Sickenin', I tell ya.",
+  "apexDescription": "A pretty vile chest.",
+  "avianDescription": "This chest sounds shivers down my spine.",
+  "floranDescription": "Floran want to eat chest.",
+  "glitchDescription": "Disgust. A fleshy, pulsating chest.",
+  "humanDescription": "A pretty gross chest made of flesh.",
+  "hylotlDescription": "What an abhorrent chest.",
+  "novakidDescription": "It even smells of flesh. Sickenin', I tell ya.",
 
-  "inventoryIcon" : "heckchesticon.png",
-  "orientations" : [
-    {
-      "dualImage" : "heckchest.png:<color>.<key>",
-      "imagePosition" : [-8, 0],
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+  "inventoryIcon": "heckchesticon.png",
+  "orientations": [{
+      "dualImage": "heckchest.png:<color>.<key>",
+      "imagePosition": [-8, 0],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
     }
-
   ],
 
-  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
-  "slotCount" : 16,
-  "tooltipFields":{"slotCountLabel":"Holds 16 Items"},
-  "uiConfig" : "/interface/sb_chests/chest<slots>.config",
-  "frameCooldown" : 5,
-  "autoCloseCooldown" : 3600
+  "openSounds": ["/sfx/objects/chest_small_open.ogg"],
+  "closeSounds": ["/sfx/objects/chest_small_close.ogg"],
+  "slotCount": 16,
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "autoCloseCooldown": 3600
 }

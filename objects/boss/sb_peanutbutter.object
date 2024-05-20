@@ -18,6 +18,7 @@
   "glitchDescription": "Skeptical. Surely only a tiny creature will be lured in by this.",
   "humanDescription": "If I'm not careful, I'll get caught in this trap myself.",
   "hylotlDescription": "A peanut butter trap. I bet this won't attract a thing.",
+  "novakidDescription": "What creature would fall for a trap like this? I guess we'll just wait and find out.",
 
   "inventoryIcon": "sb_peanutbuttericon.png",
   "orientations": [{

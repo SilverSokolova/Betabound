@@ -1,1 +1,1 @@
-{"description":"A sword made of thorny vines.","shortdescription":"The Cuttening","itemName":"sb_florantier6sshortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t6s","shortswords/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A sword made of thorny vines.","shortdescription":"The Cuttening","itemName":"sb_florantier6sshortsword","itemTags":["weapon","melee","shortsword"],"definition":["colors/t6s","shortswords/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

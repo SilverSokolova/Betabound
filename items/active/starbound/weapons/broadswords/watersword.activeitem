@@ -13,7 +13,7 @@
   "tooltipKind": "sb_sword2",
   "twoHanded": true,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "broadsword"],
   "animation": "/items/active/starbound/weapons/broadsword.animation",
   "animationParts": {
     "blade": "watersword.png",

@@ -1,7 +1,7 @@
 {
   "itemName": "sb_aviantier4spear",
   "description": "A sleek, stylised spear.",
-  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "spear"],
   "definition": "spears/t4",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Swallowtail"

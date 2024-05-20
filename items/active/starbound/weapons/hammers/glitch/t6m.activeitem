@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"A very solid mallet.","itemTags":["weapon","melee","hammer","upgradeableWeapon"],"definition":["colors/t6m","hammers/t6m"],"itemName":"sb_glitchtier6mhammer","shortdescription":"Bruteforce Prime"}
+{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"A very solid mallet.","itemTags":["weapon","melee","hammer"],"definition":["colors/t6m","hammers/t6m"],"itemName":"sb_glitchtier6mhammer","shortdescription":"Bruteforce Prime"}

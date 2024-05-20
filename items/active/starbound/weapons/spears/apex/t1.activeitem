@@ -1,7 +1,7 @@
 {
   "itemName": "sb_apextier1spear",
   "description": "A small blade on a stick.",
-  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "spear"],
   "definition": "spears/t1",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "The Prodder"

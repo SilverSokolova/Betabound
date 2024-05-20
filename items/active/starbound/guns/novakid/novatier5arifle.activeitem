@@ -8,7 +8,7 @@
   "description": "Packs a punch!",
   "shortdescription": "Red Giant",
   "level": 5,
-  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid"],
   "configOverrides": {
     "baseOffset": [0.5, 0.25],
     "primaryAbility": {

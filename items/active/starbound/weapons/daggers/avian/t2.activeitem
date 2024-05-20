@@ -1,7 +1,7 @@
 {
   "itemName": "sb_aviantier2dagger",
   "description": "A tiny dagger that feels like a nibble.",
-  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "dagger"],
   "definition": "daggers/t2",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "The Nibbler"

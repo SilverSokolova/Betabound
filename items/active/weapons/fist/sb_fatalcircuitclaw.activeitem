@@ -9,7 +9,7 @@
   "tooltipKind": "sb_fistweapon",
   "category": "fistWeapon",
   "twoHanded": false,
-  "itemTags": ["weapon", "upgradeableWeapon"],
+  "itemTags": ["weapon"],
 
   "inventoryIcon": "sb_fatalcircuitclaw.png:front",
   "animation": "fistweapon.animation",

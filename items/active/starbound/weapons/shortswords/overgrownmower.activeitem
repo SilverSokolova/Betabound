@@ -10,7 +10,7 @@
   "category": "shortsword",
   "twoHanded": false,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "shortsword", "wilderness", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword", "wilderness"],
   "sb_dyeable": true,
   "sb_backingDirectives": "?replace;838383=ffca8a;555=e0975c;383838=a85636;151515=6f2919",
   "handGrip": "inside",

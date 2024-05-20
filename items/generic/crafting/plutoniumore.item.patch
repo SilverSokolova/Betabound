@@ -1,12 +1,80 @@
 [
-[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
-[{"op":"test","path":"/itemTags","inverse":true},{"op":"add","path":"/itemTags","value":[]}],
+  [{
+      "op": "test",
+      "path": "/learnBlueprintsOnPickup",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/learnBlueprintsOnPickup",
+      "value": []
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/itemTags",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/itemTags",
+      "value": []
+    }
+  ],
 
-[{"op":"test","path":"/fuelAmount","inverse":true},{"op":"add","path":"/fuelAmount","value":6}],
-[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
-[{"op":"test","path":"/category","value":"craftingMaterial"},{"op":"replace","path":"/category","value":"fuel"}],
-[{"op":"test","path":"/description","value":"It's pretty, but extremely radioactive."},{"op":"replace","path":"/description","value":"It's plutonium. Pretty, extremely radioctive, and a great source of fuel."}],
-[{"op":"test","path":"/rarity","value":"common"},{"op":"replace","path":"/rarity","value":"uncommon"}],//fix for FU rarity changes
+  [{
+      "op": "test",
+      "path": "/fuelAmount",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/fuelAmount",
+      "value": 6
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/tooltipKind",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/tooltipKind",
+      "value": "sb_object"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/category",
+      "value": "craftingMaterial"
+    }, {
+      "op": "replace",
+      "path": "/category",
+      "value": "fuel"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/description",
+      "value": "It's pretty, but extremely radioactive."
+    }, {
+      "op": "replace",
+      "path": "/description",
+      "value": "It's plutonium. Pretty, extremely radioctive, and a great source of fuel."
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/rarity",
+      "value": "common"
+    }, {
+      "op": "replace",
+      "path": "/rarity",
+      "value": "Uncommon"
+    }
+  ], //fix for FU rarity changes
 
-[{"op":"add","path":"/itemTags/-","value":"reagent"}]
+  [{
+      "op": "add",
+      "path": "/itemTags/-",
+      "value": "reagent"
+    }
+  ]
 ]

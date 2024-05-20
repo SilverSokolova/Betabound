@@ -1,1 +1,1 @@
-{"definition":["colors/t6m","spears/t6m"],"itemName":"sb_humantier6mspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear","upgradeableWeapon"],"shortdescription":"Headspiker","description":"A swift, adaptable spear."}
+{"definition":["colors/t6m","spears/t6m"],"itemName":"sb_humantier6mspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear"],"shortdescription":"Headspiker","description":"A swift, adaptable spear."}

@@ -13,7 +13,7 @@
   "tooltipFields": {
     "subtitle": "Slave Sword"
   },
-  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword"],
   "inventoryIcon": "slavesword.png<directives>",
   "animationParts": {
     "blade": "slavesword.png",

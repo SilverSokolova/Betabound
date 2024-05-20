@@ -1,7 +1,7 @@
 {
   "itemName": "sb_firebow",
   "definition": "bow",
-  "itemTags": ["weapon", "ranged", "bow", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "bow"],
   "tags": {
     "<bow>": "fire"
   },

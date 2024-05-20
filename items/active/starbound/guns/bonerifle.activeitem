@@ -17,7 +17,7 @@
   "tooltipFields": {
     "subtitle": "Bone Rifle"
   },
-  "itemTags": ["weapon", "ranged", "assaultrifle", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "assaultrifle"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
   "inventoryIcon": "bonerifle.png",

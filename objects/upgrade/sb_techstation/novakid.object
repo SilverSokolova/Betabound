@@ -7,7 +7,7 @@
   "price": 6000,
   "tooltipKind": "sb_object",
   "tooltipFields": {
-    "objectImage": "/objects/crafting/sb_techstation/novakid.png:default.2"
+    "objectImage": "/objects/upgrade/sb_techstation/novakid.png:default.2"
   },
   "description": "A tech binding station. For binding awesome tech!",
   "shortdescription": "^orange;Novakid Tech Binder^reset;",

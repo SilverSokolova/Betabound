@@ -1,1 +1,1 @@
-{"description":"A dagger that'll get right to the heart of a plant.","shortdescription":"Rootcutter","itemName":"sb_hylotltier6sdagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t6s","daggers/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A dagger that'll get right to the heart of a plant.","shortdescription":"Rootcutter","itemName":"sb_hylotltier6sdagger","itemTags":["weapon","melee","dagger"],"definition":["colors/t6s","daggers/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

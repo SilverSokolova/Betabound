@@ -9,7 +9,7 @@
   "tooltipKind": "sb_sword2",
   "category": "whip",
   "twoHanded": false,
-  "itemTags": ["weapon", "upgradeableWeapon"],
+  "itemTags": ["weapon"],
 
   "inventoryIcon": "sb_jellywhip.png:idle",
   "animation": "whip.animation",

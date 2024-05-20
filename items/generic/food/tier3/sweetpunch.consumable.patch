@@ -6,5 +6,7 @@
 [{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":1.5}],
 
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
-[{"op":"add","path":"/effects/0/-","value":"sb_foodheal190"}]
+[{"op":"add","path":"/effects/0/-","value":"sb_foodheal190"}],
+
+[{"op":"add","path":"/sb_plate","value":{"image":true,"offset":-0.05}}]
 ]

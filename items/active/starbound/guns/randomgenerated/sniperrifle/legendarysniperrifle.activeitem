@@ -12,7 +12,7 @@
   "paletteSwaps": "",
   "twoHanded": true,
   "level": 1,
-  "itemTags": ["weapon", "ranged", "sniperrifle", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "sniperrifle"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
   "animationParts": {

@@ -1,7 +1,7 @@
 [
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
 [{"op":"test","path":"/description","value":"Spooky."},
-{"op":"replace","path":"/description","value":"Mmm crumbly, spooky."}],
+{"op":"replace","path":"/description","value":"Mmm crumbly. Spooky, even."}],
 
 [{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":3}],
 

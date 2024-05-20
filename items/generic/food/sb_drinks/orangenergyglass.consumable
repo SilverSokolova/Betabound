@@ -23,5 +23,9 @@
   "emitters": ["drinking"],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
-  "rottingMultiplier": 2
+  "rottingMultiplier": 2,
+  "sb_plate": {
+    "image": true,
+    "offset": -0.05
+  }
 }

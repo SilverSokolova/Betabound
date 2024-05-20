@@ -4,5 +4,5 @@
   "shortdescription": "Finhacker",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "definition": "axes/t3",
-  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+  "itemTags": ["weapon", "melee", "axe"]
 }

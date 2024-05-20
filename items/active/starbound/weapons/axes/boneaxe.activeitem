@@ -13,7 +13,7 @@
   },
   "twoHanded": false,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "axe"],
   "animation": "/items/active/starbound/weapons/axe.animation",
 
   "animationParts": {

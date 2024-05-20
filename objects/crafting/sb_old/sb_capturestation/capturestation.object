@@ -1,5 +1,5 @@
 {
-    //See that cyan thing in the image? That's a pod for a capture pod. I think we could make this a scripted interface that takes some ancient bones, a brain, cell materia, then spit out a custom pod. Smash fossils into ancient bones and use those. Yes I know fossils arent bones
+  //See that cyan thing in the image? That's a pod for a capture pod. I think we could make this a scripted interface that takes some ancient bones, a brain, cell materia, then spit out a custom pod. Smash fossils into ancient bones and use those. Yes I know fossils arent bones
   "objectName": "sb_capturestation",
   "rarity": "legendary",
   "tooltipKind": "sb_object",

@@ -1,7 +1,7 @@
 {
   "itemName": "sb_hylotltier3broadsword",
   "description": "A sturdy katana.",
-  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "broadsword"],
   "definition": "broadswords/t3",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Katfish"

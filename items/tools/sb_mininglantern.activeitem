@@ -6,7 +6,12 @@
     "bg": "/objects/generic/oillantern1/oillantern1.png",
     "fg": "/objects/generic/oillantern1/oillantern1lit.png"
   },
-  "inventoryIcon": "/objects/generic/oillantern1/oillantern1.png:default.off",
+  "inventoryIcon": [{
+      "image": "/objects/generic/oillantern1/oillantern1.png:default.1?multiply=fffffffe"
+    }, {
+      "image": "/objects/generic/oillantern1/oillantern1lit.png:default.1"
+    }
+  ],
   "animation": "sb_mininglantern.animation",
   "scripts": ["sb_mininglantern.lua"]
 }

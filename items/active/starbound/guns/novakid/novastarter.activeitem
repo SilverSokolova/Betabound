@@ -1,7 +1,7 @@
 {
   "itemName": "sb_novastarter",
   "definition": "revolver",
-  "itemTags": ["weapon", "ranged", "pistol", "revolver", "novakid", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "pistol", "revolver", "novakid"],
   "rarity": "legendary",
   "configOverrides": {
     "inventoryIcon": "novastarter.png",

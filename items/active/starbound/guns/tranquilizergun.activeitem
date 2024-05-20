@@ -6,7 +6,7 @@
   "fixedRarity": false,
   "rarity": "Rare",
   "category": "uniqueWeapon",
-  "itemTags": ["weapon", "ranged", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged"],
   "tooltipKind": "sb_gun2",
   "tooltipFields": {
     "damageKindImage": "/interface/statuses/tranquilizer.png"

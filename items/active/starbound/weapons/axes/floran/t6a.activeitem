@@ -1,1 +1,1 @@
-{"description":"An axe with a flower on it.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_florantier6aaxe","definition":["colors/t6a","axes/a"],"shortdescription":"Chopflower","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"An axe with a flower on it.","itemTags":["weapon","melee","axe"],"itemName":"sb_florantier6aaxe","definition":["colors/t6a","axes/a"],"shortdescription":"Chopflower","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

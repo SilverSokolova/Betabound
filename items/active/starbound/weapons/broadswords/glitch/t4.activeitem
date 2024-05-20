@@ -1,7 +1,7 @@
 {
   "itemName": "sb_glitchtier4broadsword",
   "description": "A sword useful for taking out pests.",
-  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "broadsword"],
   "shortdescription": "Antivirus",
   "definition": "broadswords/t4",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",

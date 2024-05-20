@@ -20,5 +20,9 @@
   "emitters": ["drinking"],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
-  "rottingMultiplier": 5
+  "rottingMultiplier": 5,
+  "sb_plate": {
+    "image": "milk.png?replace;97ddf7=8ee7be;59a5c1=5c987c?saturation=20",
+    "offset": -0.05
+  }
 }

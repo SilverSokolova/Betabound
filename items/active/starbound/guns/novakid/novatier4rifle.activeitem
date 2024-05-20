@@ -8,7 +8,7 @@
   "description": "A favourite of many, this gun has a rich and vibrant history.",
   "shortdescription": "The Apache",
   "level": 4,
-  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid"],
   "configOverrides": {
     "baseOffset": [0.875, 0.375]
   },

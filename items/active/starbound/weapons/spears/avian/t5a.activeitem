@@ -2,7 +2,7 @@
   "definition": ["colors/t5a", "spears/t5a"],
   "itemName": "sb_aviantier5aspear",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
-  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "spear"],
   "shortdescription": "Last Action Heron",
   "description": "A spear perfect for quick, rapid stabs."
 }

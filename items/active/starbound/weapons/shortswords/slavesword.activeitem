@@ -11,7 +11,7 @@
   "tooltipFields": {
     "subtitle": "Slave Sword"
   },
-  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword"],
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "animation": "/items/active/starbound/weapons/shortsword.animation",
   "inventoryIcon": "slavesword.png<directives>",

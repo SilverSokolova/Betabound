@@ -1,1 +1,1 @@
-{"definition":["colors/t5s","spears/t5s"],"itemName":"sb_apextier5sspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear","upgradeableWeapon"],"shortdescription":"See No Evil","description":"A trident-like spear."}
+{"definition":["colors/t5s","spears/t5s"],"itemName":"sb_apextier5sspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear"],"shortdescription":"See No Evil","description":"A trident-like spear."}

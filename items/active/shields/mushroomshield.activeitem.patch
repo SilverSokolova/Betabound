@@ -59,22 +59,6 @@
     }
   ],
   [{
-      "op": "test",
-      "path": "/itemTags",
-      "inverse": true
-    }, {
-      "op": "add",
-      "path": "/itemTags",
-      "value": []
-    }
-  ],
-  [{
-      "op": "add",
-      "path": "/itemTags/-",
-      "value": "upgradeableWeapon"
-    }
-  ],
-  [{
       "op": "add",
       "path": "/sb_craftedParameters",
       "value": {

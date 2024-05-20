@@ -1,1 +1,1 @@
-{"definition":["colors/t6a","spears/t6a"],"itemName":"sb_humantier6aspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear","upgradeableWeapon"],"shortdescription":"The Menacer","description":"An intimidating spear."}
+{"definition":["colors/t6a","spears/t6a"],"itemName":"sb_humantier6aspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear"],"shortdescription":"The Menacer","description":"An intimidating spear."}

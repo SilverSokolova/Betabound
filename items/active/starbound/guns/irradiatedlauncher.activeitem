@@ -7,7 +7,7 @@
   "tooltipFields": {
     "damageKindImage": "/projectiles/guns/grenades/impactgrenade/poisonicon.png"
   },
-  "itemTags": ["weapon", "ranged", "grenadelauncher", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "grenadelauncher"],
   "category": "grenadeLauncher",
   "rarity": "Rare",
   "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",

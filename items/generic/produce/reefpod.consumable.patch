@@ -2,7 +2,7 @@
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
 
 [{"op":"test","path":"/description","value":"Fruit of the ocean."},
-{"op":"replace","path":"/description","value":"Fruit of the ocean. Tastes like a crunchy smoothy made from every fruit you can imagine."}],
+{"op":"replace","path":"/description","value":"This oceanic fruit tastes like a crunchy smoothie made from every fruit you can imagine."}],
 
 [{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":1.5}],
 

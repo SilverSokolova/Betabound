@@ -6,7 +6,7 @@
   },
   "description": "Don't look it in the eye!",
   "shortdescription": "Eye Blaster",
-  "itemTags": ["weapon", "ranged", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged"],
   "level": 1,
   "primaryAbility": {
     "inaccuracy": 0.025,

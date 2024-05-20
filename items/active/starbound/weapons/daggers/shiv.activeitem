@@ -17,7 +17,7 @@
   //  "sb_dyeable" : true,
   //  "sb_backingDirectives" : "?replace;e6e6e6=ffca8a;b6b6b6=e0975c;7b7b7b=a85636;373737=ffca8a",
   //  "sb_extraDirectives" : "?replace;ffca8a=e6e6e6;e0975c=b6b6b6;a85636=7b7b7b;ffca8a=373737",
-  "itemTags": ["weapon", "melee", "dagger", "shiv", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "dagger", "shiv"],
   "handGrip": "inside",
   "animation": "/items/active/starbound/weapons/dagger.animation",
   "animationParts": {},

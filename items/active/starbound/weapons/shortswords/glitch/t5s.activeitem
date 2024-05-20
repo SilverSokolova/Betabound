@@ -1,1 +1,1 @@
-{"description":"A shortsword great for offence.","shortdescription":"Malware","itemName":"sb_glitchtier5sshortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t5s","shortswords/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A shortsword great for offence.","shortdescription":"Malware","itemName":"sb_glitchtier5sshortsword","itemTags":["weapon","melee","shortsword"],"definition":["colors/t5s","shortswords/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

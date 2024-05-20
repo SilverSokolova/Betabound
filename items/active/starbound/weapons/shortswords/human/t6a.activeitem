@@ -1,1 +1,1 @@
-{"description":"A sword so heavy it could chip the moon.","shortdescription":"Moonchipper","itemName":"sb_humantier6ashortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t6a","shortswords/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A sword so heavy it could chip the moon.","shortdescription":"Moonchipper","itemName":"sb_humantier6ashortsword","itemTags":["weapon","melee","shortsword"],"definition":["colors/t6a","shortswords/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

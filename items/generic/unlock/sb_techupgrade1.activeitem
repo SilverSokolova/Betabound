@@ -7,7 +7,7 @@
     "subtitle": "Tech Upgrade"
   },
   "tooltipKind": "sb_object",
-  "shortdescription": "^#ff0;Metalworking Upgrade^reset;",
+  "shortdescription": "^#ff0;Steelworks Upgrade^reset;",
   "description": "Unlocks the ability to create steel, an alloy made with iron at an ^orange;Industrial Furnace^reset;.",
   "category": "upgradeComponent",
   "animation": "sb_techupgrade.animation",

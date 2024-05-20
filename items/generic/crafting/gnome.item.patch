@@ -1,5 +1,4 @@
 [[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
-[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":0}],
-[{"op":"test","path":"/rarity","value":"Uncommon"},{"op":"replace","path":"/rarity","value":"common"}],
-[{"op":"replace","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/rarity","value":"Uncommon"},{"op":"replace","path":"/rarity","value":"Common"}],
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"throwinggnome"}]]

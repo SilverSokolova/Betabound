@@ -8,7 +8,7 @@
   "description": "This rifle has a bad attitude.",
   "shortdescription": "Fierce Repeater",
   "level": 2,
-  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid"],
   "configOverrides": {
     "baseOffset": [0.5, 0.25]
   },
