@@ -1,3 +1,3 @@
 function flip()
-  sb.logInfo("H")
+  world.sendEntityMessage(pane.containerEntityId(), "sb_flipPlate")
 end

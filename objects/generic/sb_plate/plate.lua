@@ -1,5 +1,12 @@
 require "/scripts/sb_assetmissing.lua"
 
+function init()
+  message.setHandler("sb_flipPlate", function()
+    storage.flipped = not storage.flipped
+    containerCallback()
+  end)
+end
+
 function containerCallback() --By the way, is this called if something other than a player takes an item?
   local item = world.containerItemAt(entity.id(), 0)
   if item then
@@ -13,14 +20,17 @@ function containerCallback() --By the way, is this called if something other tha
     plateOffset = plateConfig.offset or itemConfig.sb_plateOffset
     plateWidth = plateConfig.width or itemConfig.sb_plateWidth
     plateHidden = plateConfig.hidePlate or itemConfig.sb_plateHide or root.itemHasTag(item.name, "sb_plate_hide")
-    flipImage = plateConfig.flipImage or root.itemHasTag(item.name, "sb_plate_flipx")
+    flipImage = storage.flipped and true or plateConfig.flipImage or root.itemHasTag(item.name, "sb_plate_flipx")
 
     if plateImage then
       if type(plateImage) == "boolean" then
-        plateImage = item.name..".png"
+        plateImage = item.name
       end
       if type(plateImage) ~= "boolean" and plateImage:sub(0, 1) ~= "/" then
         plateImage = string.format("/objects/generic/sb_plate/%s", plateImage)
+      end
+      if not plateImage:find(".png") then
+        plateImage = plateImage..".png"
       end
     end
     if
@@ -52,6 +62,7 @@ function containerCallback() --By the way, is this called if something other tha
         "item",
         string.format(
           (plateImage and "%s" or "%s?replace;000=0000;151515=0000;020202=0000;45421e=0000").."%s",
+          --(plateImage and "%s" or "%s?replace;000=00000019;151515=15151519;020202=02020219;45421e=45421e19").."%s",
           image,
           flipImage and "" or "?flipx" --So funny story, it's kinda already flipped. Well, the item is, anyway, not the plate.
         )
@@ -92,21 +103,20 @@ function containerCallback() --By the way, is this called if something other tha
       animator.setAnimationState("plate", "perfectlygenericitem")
       animator.setGlobalTag("item", "")
       animator.setGlobalTag("plate", "/objects/generic/sb_plate/plate.png")
-      animator.resetTransformationGroup("item")
-      animator.resetTransformationGroup("plate")
-      resetDescription()
+      resetPlate()
       return
     end
   else
     animator.setGlobalTag("item", "")
     animator.setGlobalTag("plate", "plate.png")
-    animator.resetTransformationGroup("item")
-    animator.resetTransformationGroup("plate")
-    resetDescription()
+    resetPlate()
   end
   animator.setAnimationState("plate", "plate")
 end
 
-function resetDescription()
+function resetPlate()
+  storage.flipped = false
+  animator.resetTransformationGroup("item")
+  animator.resetTransformationGroup("plate")
   object.setConfigParameter("description", root.itemConfig("sb_plate").config.description) --Better to just grab it as needed instead of storing 20 copies for each plate in that guy's base...
 end
