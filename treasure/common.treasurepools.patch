@@ -199,8 +199,7 @@
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_watch"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_hawkeyes"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_light2energy"}}],
-  [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.01,"item":"sb_parachutepack"}}],
-  [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.01,"item":"parachutepackback"}}],
+  [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"parachutepackback"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.01,"item":"flashlight"}}],
 
 

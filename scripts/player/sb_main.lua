@@ -1,5 +1,6 @@
 function init()
   math.betabound_player = _ENV.player
+
 --  if not entity then status.addPersistentEffect("sb_entity","sb_entity") end
 --  entity = math.betabound_entity
 

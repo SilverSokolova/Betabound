@@ -11,13 +11,12 @@ function init()
 end
 
 function processWireInput()
-  if not object.isInputNodeConnected(0) then else
-  object.setConfigParameter("active",object.getInputNodeLevel(0))
-  end init()
+  if object.isInputNodeConnected(0) then 
+    object.setConfigParameter("active", object.getInputNodeLevel(0))
+  end
+  init()
 end
 
 function onInteraction(args)
-    local interactData = root.assetJson(config.getParameter("interactData"))
-    interactData.uniqueId = entity.uniqueId()
-    return {config.getParameter("interactAction"),interactData}
+  return {config.getParameter("interactAction"), config.getParameter("interactData")}
 end

@@ -1,5 +1,47 @@
 require "/scripts/sb_assetmissing.lua"
-function init() script.setUpdateDelta(20) end
+function init()
+  script.setUpdateDelta(20)
+  sb_checkClient()
+
+  updateHeldBlueprint = math.betabound_client == "OpenSB" and function() end or function()
+    local swapSlotItem = player.swapSlotItem()
+    if swapSlotItem and root.itemType(swapSlotItem.name) == "blueprint" then
+      local s = swapSlotItem.name
+      if s:sub(s:len()-6) == "-recipe" and not s:find("-codex") then
+        local f = s:sub(0,s:len()-7)
+        local recipe = root.itemConfig(f.."-recipe")
+        local s = swapSlotItem; swapSlotItem = nil
+        s.name = "sb_blueprint"
+        s.parameters = {
+          sb_recipe = recipe.config.recipe,
+          price = (recipe.config.price or root.assetJson("/items/defaultParameters.config:defaultPrice")) * root.assetJson("/items/defaultParameters.config:blueprintPriceFactor") or 0.5,
+          shortdescription = recipe.config.shortdescription or "Blueprint",
+          description = recipe.config.description or "Used for crafting.",
+          rarity = recipe.config.rarity or "uncommon",
+          inventoryIcon = jarray()
+        }
+
+        if type(recipe.config.inventoryIcon) == "table" then
+          for i = 1, #recipe.config.inventoryIcon do
+            table.insert(s.parameters.inventoryIcon, {
+              image = sb_assetmissing(sb_pathToImage(recipe.config.inventoryIcon[i].image, recipe.directory),
+              root.assetJson("/items/defaultParameters.config:missingIcon"))
+            })
+          end
+        else
+          table.insert(s.parameters.inventoryIcon, {
+            image = sb_assetmissing(sb_pathToImage(recipe.config.inventoryIcon, recipe.directory),
+            root.assetJson("/items/defaultParameters.config:missingIcon"))
+          })
+        end
+
+        table.insert(s.parameters.inventoryIcon, {position = {5.5,-4}, image = "/items/generic/unlock/sb_blueprints.png:"..string.lower(s.parameters.rarity)})
+        player.setSwapSlotItem(s)
+      end
+    end
+  end
+end
+
 function update(dt)
   local beamaxe = player.essentialItem("beamaxe")
   if beamaxe then
@@ -12,41 +54,5 @@ function update(dt)
       player.giveEssentialItem("beamaxe",{name="sb_empty",parameters={upgrades=beamaxe.parameters.upgrades or {}}})
     end
   end
-
-  --WHY ARENT BLUEPRINTS FUCKING STACKABLE ANYMORE I HATE IT SO MUCH I JUST WANT ICONUNDERLAY TO BE A THING I CAN USE WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHH
-  local swapSlotItem = player.swapSlotItem()
-  if swapSlotItem and root.itemType(swapSlotItem.name) == "blueprint" then
-    local s = swapSlotItem.name
-    if s:sub(s:len()-6) == "-recipe" and not s:find("-codex") then
-      local f = s:sub(0,s:len()-7)
-      local recipe = root.itemConfig(f.."-recipe")
-      local s = swapSlotItem; swapSlotItem = nil
-      s.name = "sb_blueprint"
-      s.parameters = {
-        sb_recipe = recipe.config.recipe,
-        price = (recipe.config.price or root.assetJson("/items/defaultParameters.config:defaultPrice")) * root.assetJson("/items/defaultParameters.config:blueprintPriceFactor") or 0.5,
-        shortdescription = recipe.config.shortdescription or "Blueprint",
-        description = recipe.config.description or "Used for crafting.",
-        rarity = recipe.config.rarity or "uncommon",
-        inventoryIcon = jarray()
-      }
-
-      if type(recipe.config.inventoryIcon) == "table" then
-        for i = 1, #recipe.config.inventoryIcon do
-          table.insert(s.parameters.inventoryIcon, {
-            image = sb_assetmissing(sb_pathToImage(recipe.config.inventoryIcon[i].image, recipe.directory),
-            root.assetJson("/items/defaultParameters.config:missingIcon"))
-          })
-        end
-      else
-        table.insert(s.parameters.inventoryIcon, {
-          image = sb_assetmissing(sb_pathToImage(recipe.config.inventoryIcon, recipe.directory),
-          root.assetJson("/items/defaultParameters.config:missingIcon"))
-        })
-      end
-
-      table.insert(s.parameters.inventoryIcon, {position = {5.5,-4}, image = "/items/generic/unlock/sb_blueprints.png:"..string.lower(s.parameters.rarity)})
-      player.setSwapSlotItem(s)
-    end
-  end
+  updateHeldBlueprint()
 end

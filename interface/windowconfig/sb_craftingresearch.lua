@@ -1,6 +1,6 @@
 function init()
   recipes = config.getParameter("recipes")
-  table.sort(recipes, function(a, b) return root.itemConfig(a.output).config.shortdescription < root.itemConfig(b.output).config.shortdescription end)
+  table.sort(recipes, function(a, b) return cutColors(root.itemConfig(a.output).config.shortdescription) < cutColors(root.itemConfig(b.output).config.shortdescription) end)
   ownedIcon = config.getParameter("ownedIcon")
   subtitles = root.assetJson("/items/categories.config:labels")
   iconUnderlay = root.assetJson("/blueprint.config").iconUnderlay.image
@@ -95,4 +95,8 @@ end
 function categories(_, index)
   category = category == index and "all" or index
   populateList()
+end
+
+function cutColors(text)
+  return string.gsub(string.gsub(text, "(%^.-%;)", ""),("\n"),"")
 end

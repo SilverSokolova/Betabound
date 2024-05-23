@@ -6,6 +6,6 @@ function updateShipUpgrades() if updateShipUpgrade then updateShipUpgrade() end
     for k, v in pairs(ship) do
       if type(ship[k]) ~= "table" and upgrades[k] < v then ship[k] = v end
     end
-  player.upgradeShip(ship)
+    player.upgradeShip(ship)
   end
 end

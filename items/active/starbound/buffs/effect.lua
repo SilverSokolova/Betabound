@@ -1,5 +1,4 @@
 function init()
-  activeItem.setHoldingItem(false)
 --a = config.getParameter(activeItem.hand().."Effects",config.getParameter("effects",{}))
   a = config.getParameter("effects",{})
   local b = {}

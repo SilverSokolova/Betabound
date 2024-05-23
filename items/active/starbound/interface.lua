@@ -1,5 +1,4 @@
 function init()
-  activeItem.setHoldingItem(false)
   action = config.getParameter("interactAction")
 end
 

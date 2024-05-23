@@ -11,6 +11,6 @@
   "category": "tool",
   "scriptDelta": 1,
   "itemTags": ["sb_info"],
-  "animationScripts": ["gps.lua"],
-  "scripts": ["gps2.lua"]
+  "animationScripts": ["animation.lua", "/scripts/animations/sb_info.lua"],
+  "scripts": ["/scripts/activeitem/sb_info.lua", "/scripts/activeitem/sb_held.lua"]
 }
