@@ -1,51 +1,50 @@
 {
-  "objectName" : "sb_spawnerdoctor",
-  "colonyTags" : ["misc"],
-  "rarity" : "Common",
-  "description" : "Spawn your very own doctor!",
-  "shortdescription" : "^yellow;Doctor Spawner^reset;",
-  "race" : "human",
-  "printable" : false,
-  "category" : "spawner",
-  "price" : 100,
-  "tooltipKind" : "sb_object",
+  "objectName": "sb_spawnerdoctor",
+  "colonyTags": ["misc"],
+  "rarity": "Common",
+  "description": "Spawn your very own doctor!",
+  "shortdescription": "^yellow;Doctor Spawner^reset;",
+  "race": "human",
+  "printable": false,
+  "category": "spawner",
+  "price": 100,
+  "tooltipKind": "sb_object",
 
-  "apexDescription" : "A doctor could be handy to have around.",
-  "avianDescription" : "I guess the doctors are on-call.",
-  "floranDescription" : "Floran want medicine man to fix ssstabs!",
-  "glitchDescription" : "Interested. Perhaps I can learn of the wonders of medicine.",
-  "humanDescription" : "An unlimited supply of doctors. Thanks, Obama!",
-  "hylotlDescription" : "These doctors had better have received the correct training.",
+  "apexDescription": "A doctor could be handy to have around.",
+  "avianDescription": "I guess the doctors are on-call.",
+  "floranDescription": "Floran want medicine man to fix ssstabs!",
+  "glitchDescription": "Interested. Perhaps I can learn of the wonders of medicine.",
+  "humanDescription": "An unlimited supply of doctors. Thanks, Obama!",
+  "hylotlDescription": "These doctors had better have received the correct training.",
+  "novakidDescription": "I could buy all sorts o' medical supplies with this.",
 
-  "inventoryIcon" : "defaulticon.png",
-  "orientations" : [
-    {
-      "image" : "sb_spawner_doctor.png",
-      "imagePosition" : [-8, 0],
-      "direction" : "right",
+  "inventoryIcon": "defaulticon.png",
+  "orientations": [{
+      "image": "sb_spawner_doctor.png",
+      "imagePosition": [-8, 0],
+      "direction": "right",
 
-      "spaceScan" : 0.1,
-      "anchors" : ["bottom"]
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
     }
   ],
 
-  "scripts" : ["/objects/spawner/spawners/spawner.lua", "sb_spawner.lua"],
-  "scriptDelta" : 0,
+  "scripts": ["/objects/spawner/spawners/spawner.lua", "sb_spawner.lua"],
+  "scriptDelta": 0,
 
-  "animation" : "/objects/spawner/spawners/sb_spawner.animation",
-  "animationParts" : {
-    "switch" : "sb_spawner_doctor.png"
+  "animation": "/objects/spawner/spawners/sb_spawner.animation",
+  "animationParts": {
+    "switch": "sb_spawner_doctor.png"
   },
-  "animationPosition" : [-8, 0],
-  "inputNodes" : [],
-  "outputNodes" : [],
-  "spawner" : {
-    "searchRadius" : 32,
-    "npcSpeciesOptions" : ["apex", "avian", "floran", "glitch", "human", "hylotl", "novakid"],
-    "npcTypeOptions" : ["sb_doctormerchant"],
-    "npcParameterOptions" : [
-      {
-        "dropPools" : []
+  "animationPosition": [-8, 0],
+  "inputNodes": [],
+  "outputNodes": [],
+  "spawner": {
+    "searchRadius": 32,
+    "npcSpeciesOptions": ["apex", "avian", "floran", "glitch", "human", "hylotl", "novakid"],
+    "npcTypeOptions": ["sb_doctormerchant"],
+    "npcParameterOptions": [{
+        "dropPools": []
       }
     ]
   }

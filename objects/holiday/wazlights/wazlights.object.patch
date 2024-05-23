@@ -1,1 +1,4 @@
-[[{"op":"test","inverse":true,"path":"/tooltipKind"},{"op":"add","path":"/tooltipKind","value":"sb_object"}]]
+[
+[{"op":"test","inverse":true,"path":"/tooltipKind"},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/novakidDescription","inverse":true},{"op":"add","path":"/novakidDescription","value":"Waz."}]
+]

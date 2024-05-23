@@ -1,51 +1,50 @@
 {
-  "objectName" : "sb_spawnertools",
-  "colonyTags" : ["misc"],
-  "rarity" : "Common",
-  "description" : "For when you need to dig a hole.",
-  "shortdescription" : "^yellow;Tool Spawner^reset;",
-  "race" : "human",
-  "printable" : false,
-  "category" : "spawner",
-  "price" : 100,
-  "tooltipKind" : "sb_object",
+  "objectName": "sb_spawnertools",
+  "colonyTags": ["misc"],
+  "rarity": "Common",
+  "description": "For when you need to dig a hole.",
+  "shortdescription": "^yellow;Tool Spawner^reset;",
+  "race": "human",
+  "printable": false,
+  "category": "spawner",
+  "price": 100,
+  "tooltipKind": "sb_object",
 
-  "apexDescription" : "A tool seller is just what I need.",
-  "avianDescription" : "Buying tools is a necessity.",
-  "floranDescription" : "Floran buy tools to sssmash rivals!",
-  "glitchDescription" : "Statement. I would like to buy some tools.",
-  "humanDescription" : "This is even easier than ordering online.",
-  "hylotlDescription" : "The tools they sell better not be rusted.",
+  "apexDescription": "A tool seller is just what I need.",
+  "avianDescription": "Buying tools is a necessity.",
+  "floranDescription": "Floran buy tools to sssmash rivals!",
+  "glitchDescription": "Statement. I would like to buy some tools.",
+  "humanDescription": "This is even easier than ordering online.",
+  "hylotlDescription": "The tools they sell better not be rusted.",
+  "novakidDescription": "Lamp oil, rope, bombs... I want 'em, and they're mine if I have enough Pixels!",
 
-  "inventoryIcon" : "defaulticon.png",
-  "orientations" : [
-    {
-      "image" : "sb_spawner_tools.png",
-      "imagePosition" : [-8, 0],
-      "direction" : "right",
-      "spaceScan" : 0.1,
-      "anchors" : ["bottom"]
+  "inventoryIcon": "defaulticon.png",
+  "orientations": [{
+      "image": "sb_spawner_tools.png",
+      "imagePosition": [-8, 0],
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
     }
   ],
 
-  "scripts" : ["/objects/spawner/spawners/spawner.lua", "sb_spawner.lua"],
-  "scriptDelta" : 0,
+  "scripts": ["/objects/spawner/spawners/spawner.lua", "sb_spawner.lua"],
+  "scriptDelta": 0,
 
-  "animation" : "/objects/spawner/spawners/sb_spawner.animation",
+  "animation": "/objects/spawner/spawners/sb_spawner.animation",
 
-  "animationParts" : {
-    "switch" : "sb_spawner_tools.png"
+  "animationParts": {
+    "switch": "sb_spawner_tools.png"
   },
-  "animationPosition" : [-8, 0],
-  "inputNodes" : [],
-  "outputNodes" : [],
-  "spawner" : {
-    "searchRadius" : 32,
-    "npcSpeciesOptions" : ["apex", "avian", "floran", "glitch", "human", "hylotl", "novakid"],
-    "npcTypeOptions" : ["sb_toolmerchant"],
-    "npcParameterOptions" : [
-      {
-        "dropPools" : []
+  "animationPosition": [-8, 0],
+  "inputNodes": [],
+  "outputNodes": [],
+  "spawner": {
+    "searchRadius": 32,
+    "npcSpeciesOptions": ["apex", "avian", "floran", "glitch", "human", "hylotl", "novakid"],
+    "npcTypeOptions": ["sb_toolmerchant"],
+    "npcParameterOptions": [{
+        "dropPools": []
       }
     ]
   }

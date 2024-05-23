@@ -29,6 +29,7 @@
   "glitchDescription": "Informative. The Glitch craft all sorts of weapons on these anvils. They even craft anvils on these anvils.",
   "humanDescription": "An anvil. Humans haven't used these since early in their history.",
   "hylotlDescription": "Probably used in metal work.",
+  "novakidDescription": "An anvil, always nice to have around.",
 
   "inventoryIcon": "ironanvilicon.png",
   "orientations": [{
