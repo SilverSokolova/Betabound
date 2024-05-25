@@ -1,6 +1,7 @@
 require "/scripts/sb_assetmissing.lua"
 
 function init()
+  storage.transformationGroupData = storage.transformationGroupData or {plate = {0, 0}, item = {0, 0}}
   animator.resetTransformationGroup("item")
   animator.resetTransformationGroup("plate")
   message.setHandler("sb_flipPlate", function()
@@ -12,6 +13,7 @@ end
 function containerCallback() --By the way, is this called if something other than a player takes an item?
   local item = world.containerItemAt(entity.id(), 0)
   if item then
+    thisIsUtterlyFuckingRetarded()
     itemConfig = root.itemConfig(item.name)
     directory = itemConfig.directory
     itemConfig = itemConfig.config
@@ -51,14 +53,16 @@ function containerCallback() --By the way, is this called if something other tha
         plateImage or item.parameters.inventoryIcon and sb_pathToImage(item.parameters.inventoryIcon, directory) or
         sb_pathToImage(itemConfig.inventoryIcon, directory)
       local points = root.nonEmptyRegion(image) or {0, 0, 16, 16}
-      --animator.resetTransformationGroup("item")
-      --animator.resetTransformationGroup("plate")
+      animator.resetTransformationGroup("item")
+      animator.resetTransformationGroup("plate")
       if plateOffset then
         if type(plateOffset) == "number" then
           plateOffset = {plateOffset, 0}
         end
+        updateTransformationGroup("item", -plateOffset[1], plateOffset[2])
         --animator.translateTransformationGroup("item", {-plateOffset[1], plateOffset[2]})
       end
+        updateTransformationGroup("item", 0, plateImage and 0.25 or 0.133)
       --animator.translateTransformationGroup("item", {0, plateImage and 0.25 or 0.133}) --Yeah, yeah, it floats a few subpixels above the plate. I'm not very good with math
       animator.setGlobalTag(
         "item",
@@ -71,12 +75,12 @@ function containerCallback() --By the way, is this called if something other tha
       )
       animator.setGlobalTag("plate", "/objects/generic/sb_plate/plate.png")
       if plateWidth then
---        object.say("Setting plate width")
-  --[[      animator.setGlobalTag(
+        animator.setGlobalTag(
           "plate",
           "/objects/generic/sb_plate/plate.png?scalenearest=1." .. plateWidth .. ";1"
-        )]]
-        --animator.translateTransformationGroup("plate",{-0.125*(plateWidth/2),0})
+        )
+        object.say("H")
+        animator.translateTransformationGroup("plate",{-0.125*(plateWidth/2),0})
         --animator.translateTransformationGroup("item",{0.125*(plateWidth/2),0})
         --[[animator.translateTransformationGroup(
           "item",
@@ -103,7 +107,6 @@ function containerCallback() --By the way, is this called if something other tha
         --animator.translateTransformationGroup("item", {-0.125 * 2, -0.125 * math.min(points[2], points[4])})
       end
     else
-      --Why not just set the item to PGI??
       animator.setAnimationState("plate", "perfectlygenericitem")
       animator.setGlobalTag("item", "")
       animator.setGlobalTag("plate", "/objects/generic/sb_plate/plate.png")
@@ -116,11 +119,34 @@ function containerCallback() --By the way, is this called if something other tha
     resetPlate()
   end
   animator.setAnimationState("plate", "plate")
+  translateTransformationGroups()
 end
 
 function resetPlate()
+  storage.transformationGroupData = {plate = {0, 0}, item = {0, 0}}
   storage.flipped = false
   animator.resetTransformationGroup("item")
   animator.resetTransformationGroup("plate")
-  object.setConfigParameter("description", root.itemConfig("sb_plate").config.description) --Better to just grab it as needed instead of storing a ton of copies
+  object.setConfigParameter("description", root.itemConfig("sb_plate").config.description) --Better to just grab it as needed instead of storing 20 copies for each plate in that guy's base...
+end
+
+--This is for a stupid workaround for the plates shifting one pixel to the right after reloading the planet >:(
+function translateTransformationGroups()
+  local groupData = storage.transformationGroupData
+  for k, v in pairs(groupData) do
+    animator.translateTransformationGroup(k, v)
+  end
+end
+
+function updateTransformationGroup(group, x, y)
+  storage.transformationGroupData[group][1] = storage.transformationGroupData[group][1] + x
+  storage.transformationGroupData[group][2] = storage.transformationGroupData[group][2] + y
+end
+
+function thisIsUtterlyFuckingRetarded()
+  local groupData = storage.transformationGroupData
+  for k, v in pairs(groupData) do
+    animator.translateTransformationGroup(k, {-v[1], -v[2]})
+  end
+  storage.transformationGroupData = {plate = {0, 0}, item = {0, 0}}
 end
