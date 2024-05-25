@@ -27,10 +27,10 @@ function containerCallback() --By the way, is this called if something other tha
         plateImage = item.name
       end
       if type(plateImage) ~= "boolean" and plateImage:sub(0, 1) ~= "/" then
-        plateImage = string.format("/objects/generic/sb_plate/%s", plateImage)
+        plateImage = string.format("/objects/generic/sb_plate/%s?", plateImage) --Must be absolute for a later image check
       end
       if not plateImage:find(".png") then
-        plateImage = plateImage..".png"
+        plateImage = plateImage..".png?replace;0000=00000020"
       end
     end
     if
@@ -55,7 +55,7 @@ function containerCallback() --By the way, is this called if something other tha
         if type(plateOffset) == "number" then
           plateOffset = {plateOffset, 0}
         end
-        animator.translateTransformationGroup("item", {-plateOffset[1], plateOffset[2]})
+        animator.translateTransformationGroup("item", {0, plateOffset[2]})
       end
       animator.translateTransformationGroup("item", {0, plateImage and 0.25 or 0.133}) --Yeah, yeah, it floats a few subpixels above the plate. I'm not very good with math
       animator.setGlobalTag(
@@ -67,12 +67,11 @@ function containerCallback() --By the way, is this called if something other tha
           flipImage and "" or "?flipx" --So funny story, it's kinda already flipped. Well, the item is, anyway, not the plate.
         )
       )
-  animator.setAnimationState("object", "visible")
+      animator.setGlobalTag("plate", "plate.png")
       if plateWidth then
---        object.say("Setting plate width")
         animator.setGlobalTag(
           "plate",
-          "/objects/generic/sb_plate/plate.png?scalenearest=1." .. plateWidth .. ";1"
+          "plate.png?scalenearest=1." .. plateWidth .. ";1"
         )
         animator.translateTransformationGroup("plate",{-0.125*(plateWidth/2),0})
         animator.translateTransformationGroup("item",{0.125*(plateWidth/2),0})
@@ -92,31 +91,27 @@ function containerCallback() --By the way, is this called if something other tha
         return
       end
       if itemConfig.category == "drink" or itemConfig.category == "medicine" or plateHidden then
-        animator.setAnimationState("object", "hidden")
-        animator.translateTransformationGroup(
-          "item",
-          {-0.125 * 2.5, -0.125 * (points[2] == 1 and 3 or 2 + points[2])}
-        )
+        animator.setGlobalTag("plate", "sb_empty.png")
+        animator.translateTransformationGroup("item", {-0.125 * 2.5, -0.125 * (points[2] == 1 and 3 or 2 + points[2])})
       else
-        animator.translateTransformationGroup("item", {-0.125 * 2, -0.125 * math.min(points[2], points[4])})
+        animator.translateTransformationGroup("item", {-0.25, -0.125 * math.min(points[2], points[4])})
       end
     else
       animator.setGlobalTag("item", "perfectlygenericitem.png")
-      animator.setGlobalTag("plate", "/objects/generic/sb_plate/plate.png")
+      animator.setGlobalTag("plate", "plate.png")
       resetPlate()
       return
     end
   else
-    animator.setGlobalTag("item", "")
+    animator.setGlobalTag("item", "sb_empty.png")
     animator.setGlobalTag("plate", "plate.png")
     resetPlate()
   end
 end
 
 function resetPlate()
-  animator.setAnimationState("object", "visible")
   storage.flipped = false
   animator.resetTransformationGroup("item")
   animator.resetTransformationGroup("plate")
-  object.setConfigParameter("description", root.itemConfig("sb_plate").config.description) --Better to just grab it as needed instead of storing a ton of copies
+  object.setConfigParameter("description", root.itemConfig("sb_plate").config.description) --Better to just grab it as needed instead of storing 20 copies for each plate in that guy's base...
 end

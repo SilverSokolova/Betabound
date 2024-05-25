@@ -20,14 +20,14 @@
   "orientations": [{
       "dualImage": "plate.png",
       "imagePosition": [-1, 0],
-      "animationPosition": [-1, 0],
       "anchors": ["bottom"]
     }
   ],
 
   "animation": "plate.animation",
   "animationParts": {
-    "plate": "plate.png"
+    "plate": "plate.png",
+    "item": "sb_empty.png"
   },
   "scripts": ["plate.lua"],
   "scriptDelta": 5,
