@@ -17,9 +17,11 @@
   },
 
   "inventoryIcon": "plate.png?flipx?border=1;000",
+  //Are you here to make plates rotateable without having to use the UI? Yes, I know how to do it, but for some items (cannedfood), the plate visually offsets itself (even if just a pixel, but canned food does it like 6 pixels) when you leave and come back >:( I HATE IT I HATE IT please fix
   "orientations": [{
       "dualImage": "plate.png",
       "imagePosition": [-1, 0],
+      "animationPosition": [-1, 0],
       "anchors": ["bottom"]
     }
   ],

@@ -1,4 +1,5 @@
 require("/scripts/sb_assetmissing.lua")
+require("/scripts/animations/sb_info.lua")
 
 function update(dt)
   if animationConfig.animationParameter("npc") then script.setUpdateDelta(0) localAnimator.clearDrawables() return end
