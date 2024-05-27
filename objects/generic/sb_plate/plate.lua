@@ -8,11 +8,11 @@ function init()
 
   --This helps counter the stupid plate offset thing
   animator.sb_translateTransformationGroup = animator.translateTransformationGroup
-  animator.translateTransformationGroup = function(transformationGroup, translate)
-    if plateHidden and transformationGroup == "item" then
+  animator.translateTransformationGroup = function(transformationGroup, translate, movePlate)
+    movePlate = movePlate or false
+    if plateHidden and transformationGroup == "item" and movePlate then
       animator.sb_translateTransformationGroup("item", translate)
       animator.sb_translateTransformationGroup("plate", translate)
-        animator.setAnimationState("object", "visible")
     else
       animator.sb_translateTransformationGroup(transformationGroup, translate)
     end
@@ -33,7 +33,7 @@ function containerCallback()
     plateOffset = plateConfig.offset or itemConfig.sb_plateOffset
     plateWidth = plateConfig.width or itemConfig.sb_plateWidth
     plateHidden = plateConfig.hidePlate or itemConfig.sb_plateHide or root.itemHasTag(item.name, "sb_plate_hide")
-    flipImage = plateConfig.flipImage or root.itemHasTag(item.name, "sb_plate_flipx")
+    flipImage = (storage.flipped and true) or plateConfig.flipImage or root.itemHasTag(item.name, "sb_plate_flipx")
 
     if plateImage then
       if type(plateImage) == "boolean" then
@@ -106,8 +106,8 @@ function containerCallback()
       end
       if itemConfig.category == "drink" or itemConfig.category == "medicine" or plateHidden then
         animator.setAnimationState("object", "hidden")
-        animator.setGlobalTag("plate", plateImage) --Setting the plate image to the item's image helps prevent it from being rendered TOO FAR away from its actual tile position upon reloading the world i hate this bug so fucking much this doesn't completely fix it it still moves a few subpixels i fucking hate it die die die die
-        animator.translateTransformationGroup("item", {-0.125 * 2.5, -0.125 * (points[2] == 1 and 3 or 2 + points[2])})
+        --animator.setGlobalTag("plate", plateImage) --Setting the plate image to the item's image helps prevent it from being rendered TOO FAR away from its actual tile position upon reloading the world i hate this bug so fucking much this doesn't completely fix it it still moves a few subpixels for some items i fucking hate it die die die die
+        animator.translateTransformationGroup("item", {-0.125 * 2.5, -0.125 * (points[2] == 1 and 3 or 2 + points[2]), true})
         --animator.translateTransformationGroup("plate", {-4.125, -4}) --Fix for stupid plate issue
       else
         animator.translateTransformationGroup("item", {-0.125 * 2, -0.125 * math.min(points[2], points[4])})
