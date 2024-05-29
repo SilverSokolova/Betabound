@@ -4,8 +4,9 @@
   "rarity": "uncommon",
   "foodValue": 40,
   "tooltipKind": "sb_object4",
-  "itemTags": ["sb_plate_flipx"],
-  "sb_plateWidth": 4,
+  "sb_plate": {
+    "image": true
+  },
   "inventoryIcon": "hamsandwich.png",
   "category": "preparedFood",
   "description": "Whoever thought to stick ham between two slices of bread was a genius.",

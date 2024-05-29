@@ -6,7 +6,7 @@ function init()
   ini()
 end
 
-function addText(text, position, backingDirectives, textOffset, drawable)
+function addText(text, position, backingDirectives, textOffset, color)
   drawable = drawable or {}
   local textOffset = textOffset or 1
   for i = 1, #text do
@@ -15,7 +15,6 @@ function addText(text, position, backingDirectives, textOffset, drawable)
       localAnimator.addDrawable(
         {
           image = string.format("/interface/sb_font.png:%s%s%s", character, backingDirectives or "", textDirectives),
-          table.unpack(drawable),
           fullbright = true,
           position = {position[1] + (textOffset/1.6), position[2] + handOffset}
         },

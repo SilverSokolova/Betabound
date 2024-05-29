@@ -6,7 +6,7 @@ local function giveBox() if #IB > 0 then player.giveItem({"sb_itembox",1,{descri
 local function updateNote(a)
   local b = root.assetJson("/betabound.config")
   a = b.updateNotes[a]
-  local i = root.assetJson("/xrc/deployment/versioning/0018z-un.json")
+  local i = root.assetJson("/scripts/sb_versioning/updateNote.json")
   i.parameters.description = a[2] or b.removedItemDescription
   i.parameters.shortdescription = a[1].." "..b.updateNote
   player.giveItem(i)
@@ -230,10 +230,22 @@ xrc0018[30]=function()
   end
 end
 xrc0018[31]=function()
-  reunlockRecipes(root.assetJson("/xrc/deployment/versioning/0018z-31.json"))
+  reunlockRecipes(root.assetJson("/scripts/sb_versioning/procgenWeaponRecipes.json"))
+end
+xrc0018[32]=function()
+  if not newPlayer then
+    status.setStatusProperty("xrc_0018z", nil)
+  end
+  local ship = player.getProperty("sb_shipUpgrades")
+  if ship then
+    local betaboundStorage = player.getProperty("betabound", {})
+    betaboundStorage.shipUpgrades = ship
+    player.setProperty("betabound", betaboundStorage)
+    player.setProperty("sb_shipUpgrades", nil)
+  end
 end
 
-function xrc0018z_2(cv,yv)
+function sb_doVersioning(cv,yv)
   newPlayer = yv == 0
   for i = yv, cv-1 do
     if xrc0018[i+1] then

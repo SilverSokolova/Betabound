@@ -1,62 +1,55 @@
 {
   "globalTagDefaults": {
     "item": "",
-    "plate": "/objects/generic/sb_plate/plate.png"
-  },
-  "transformationGroups": {
-    "item": {},
-    "plate": {}
+    "plate": "plate.png"
   },
   "animatedParts": {
     "stateTypes": {
-      "object": {
-        "default": "visible",
+      "item": {
+        "default": "item",
         "states": {
-          "visible": {},
-          "hidden": {}
+          "item": {}
+        }
+      },
+      "plate": {
+        "default": "plate",
+        "states": {
+          "plate": {}
         }
       }
     },
-
     "parts": {
-      "plate": {
-        "properties": {
-          "position": [5, 5],
-          "centered": false,
-          "transformationGroups": ["plate"]
-        },
-
-        "partStates": {
-          "object": {
-            "visible": {
-              "properties": {
-                "image": "<plate>"
-              }
-            },
-            "hidden": {
-              "properties": {
-                "image": "sb_empty.png"
-              }
-            }
-          }
-        }
-      },
       "item": {
         "properties": {
           "centered": true,
           "offset": [0.875, 1],
           "transformationGroups": ["item"]
         },
-
         "partStates": {
-          "object": {
-            "visible": {
+          "item": {
+            "item": {
               "properties": {
+                "zLevel": 1,
                 "image": "<item>"
               }
+            }
+          }
+        }
+      },
+      "plate": {
+        "properties": {
+          "position": [5, 5],
+          "centered": false,
+          "transformationGroups": ["plate"]
+        },
+        "partStates": {
+          "plate": {
+            "plate": {
+              "properties": {
+                "image": "<plate>"
+              }
             },
-
-            "hidden": {
+            "item": {
               "properties": {
                 "image": "<item>"
               }
@@ -65,5 +58,9 @@
         }
       }
     }
+  },
+  "transformationGroups": {
+    "item": {},
+    "plate": {}
   }
 }

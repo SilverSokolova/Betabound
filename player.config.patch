@@ -395,8 +395,8 @@
 
 //end
 [{"op":"add","path":"/genericScriptContexts/sb_main","value":"/scripts/player/sb_main.lua"}],
-[{"op":"add","path":"/deploymentConfig/scripts/-","value":"/xrc/deployment/versioning/tech.lua"}],
-[{"op":"add","path":"/deploymentConfig/scripts/-","value":"/xrc/deployment/versioning/0018z.lua"}],
+[{"op":"add","path":"/genericScriptContexts/sb_versioning","value":"/scripts/sb_versioning/versioncheck.lua"}],
+//[{"op":"add","path":"/deploymentConfig/scripts/-","value":"/xrc/deployment/versioning/tech.lua"}],
 [{"op":"add","path":"/genericScriptContexts/sb_blueprints","value":"/scripts/player/sb_blueprints.lua"}],
 [{"op":"add","path":"/genericScriptContexts/sb_events","value":"/events/sb_events.lua"}],
 [{"op":"add","path":"/statusControllerSettings/primaryScriptSources/-","value":"/stats/sb_player_primary.lua"}],

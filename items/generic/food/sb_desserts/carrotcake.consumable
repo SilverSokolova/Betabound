@@ -7,8 +7,7 @@
   "itemTags": ["sb_cake"],
   "sb_plate": {
     "width": 4,
-    "image": true,
-    "flipImage": true
+    "image": true
   },
   "handPosition": [1.4, -1.85],
   "category": "preparedFood",
