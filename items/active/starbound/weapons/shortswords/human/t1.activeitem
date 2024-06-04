@@ -1,7 +1,7 @@
 {
   "itemName": "sb_humantier1shortsword",
   "description": "A normal, unremarkable shortsword.",
-  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword"],
   "definition": "shortswords/t1",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Regular Shortsword"

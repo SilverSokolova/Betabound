@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/category","value":"tool"},{"op":"replace","path":"/category","value":"other"}]
+]

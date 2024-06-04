@@ -16,7 +16,8 @@
 
   "floranDescription": "Wind!",
   "glitchDescription": "Cautious. These pads could prove fatal if used recklessly.",
-  "humanDescription": "I bet the guy that invented these got rich from it!",
+  "humanDescription": "Oh my god, these things are so much fun!",
+  "novakidDescription": "This little thing's making some darn powerful wind!",
 
   "inventoryIcon": "icon.png",
   "orientations": [{

@@ -12,7 +12,6 @@
   "collectablesOnPickup": {
     "sb_music": "jukebox"
   },
-  "scriptDelta": 0,
-  "scripts": ["interface.lua"], //maybe move it to the scripts folder, like cursor and swingable?
+  "scripts": ["interface.lua", "/scripts/activeitem/sb_held.lua"], //maybe move it to `/scripts/activeitem`
   "interactAction": ["scriptPane", "/interface/scripted/sb_music/music.config"]
 }

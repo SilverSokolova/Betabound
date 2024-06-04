@@ -1,5 +1,5 @@
 [
-//This is justified: I only want to target certain races. Plus, I could do this in the deployment, but the shiplocker is nicer.
+//This is justified: I only want to target certain races. Plus, I could do this in the versioning, but the shiplocker is nicer.
 [{"op":"add","path":"/avianStarterTreasure/0/1/fill/-","value":{"item":["feathercrownseed",3]}}],
 [{"op":"add","path":"/avianStarterTreasure/0/1/fill/-","value":{"item":["wheatseed",3]}}],
 [{"op":"add","path":"/avianStarterTreasure/0/1/fill/-","value":{"item":"sb_avianstarter"}}],

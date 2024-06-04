@@ -6,6 +6,6 @@
     "<color>" : "orange",
     "<swaps>" : ""
   },
-  "itemTags" : ["weapon","melee","shortsword","upgradeableWeapon"],
+  "itemTags" : ["weapon","melee","shortsword"],
   "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

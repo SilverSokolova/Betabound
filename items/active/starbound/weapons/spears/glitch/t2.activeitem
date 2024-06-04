@@ -1,1 +1,1 @@
-{"itemName":"sb_glitchtier2spear","description":"A decent spear.","itemTags":["weapon","melee","spear","upgradeableWeapon"],"definition":"spears/t2","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","shortdescription":"Nudge"}
+{"itemName":"sb_glitchtier2spear","description":"A decent spear.","itemTags":["weapon","melee","spear"],"definition":"spears/t2","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","shortdescription":"Nudge"}

@@ -1,0 +1,5 @@
+{
+  "input": ["grapplinghook", "siliconboard", ["liquidoil", 15]], //Board for the 'hook has landed, start reeling' mechanism, oil for lubrication (faster reel)
+  "output": "sb_hookshot",
+  "groups": ["craftingfarm2", "survival", "all"]
+}

@@ -1,4 +1,5 @@
 [
+  //Fix pressedOffsets
   [{
       "op": "test",
       "path": "/betabound",
@@ -41,6 +42,8 @@
       "value": [0, 0]
     }
   ],
+
+  //Move btnUpgrade
   [{
       "op": "test",
       "path": "/betabound",
@@ -54,8 +57,8 @@
       "value": [194, 58]
     }
   ],
-  //[{"op":"test","path":"/paneLayout/imgCraftBg"},{"op":"replace","path":"/paneLayout/imgCraftBg/file","value":""}],
 
+  //Change imgAmountInput
   [{
       "op": "test",
       "path": "/betabound",
@@ -69,51 +72,43 @@
       "value": "/interface/sb_crafting/amount.png"
     }
   ],
-  //  {"op":"replace","path":"/paneLayout/imgAmountInput/position","value":[208,39]},
 
+  //Replace itemName
   [{
       "op": "test",
       "path": "/betabound",
       "inverse": true
     }, {
-      "op": "add",
-      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/moneyIcon/hAnchor",
-      "value": "left"
-    }, {
-      "op": "add",
-      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/wrapWidth",
-      "value": 100
-    }, {
-      "op": "add",
-      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/position",
-      "value": [21, 10]
-    }, {
-      "op": "add",
-      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/size",
-      "value": [156, 80]
-    }, {
-      "op": "add",
-      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/vAnchor",
-      "value": "mid"
-    }, {
       "op": "replace",
-      "path": "/paneLayout/windowtitle/title",
-      "value": "BASIC CRAFTING"
-    }, {
-      "op": "replace",
-      "path": "/paneLayout/windowtitle/subtitle",
-      "value": "^#b9b5b2;Just you, your ingredients, and your hands! ^#0f0;[C]"
-    }, {
-      "op": "replace",
-      "path": "/paneLayout/lblSchematics/value",
-      "value": "SCHEMATICS"
-    }, {
-      "op": "replace",
-      "path": "/paneLayout/lblProducttitle/value",
-      "value": "PRODUCT"
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName",
+      "value": {
+        "type": "label",
+        "position": [21, 10],
+        "size": [156, 80],
+        "hAnchor": "left",
+        "vAnchor": "mid",
+        "wrapWidth": 100
+      }
     }
   ],
 
+  //Oxford comma
+  [{
+      "op": "test",
+      "path": "/betabound",
+      "inverse": true
+    }, {
+      "op": "test",
+      "path": "/paneLayout/windowtitle/subtitle",
+      "value": " ^#b9b5b2;Just you, your ingredients and your hands ^green;[C]"
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/windowtitle/subtitle",
+      "value": " ^#b9b5b2;Just you, your ingredients, and your hands! ^green;[C]"
+    }
+  ],
+
+  //Remove FU filters
   [{
       "op": "test",
       "path": "/betabound",
@@ -152,61 +147,36 @@
     }
   ],
 
+  //Change background, shine. Restore original positions in case mods change them
   [{
       "op": "test",
       "path": "/betabound",
       "inverse": true
     }, {
       "op": "replace",
-      "path": "/paneLayout/background/fileHeader",
-      "value": "/interface/sb_crafting/craftingheader.png"
+      "path": "/paneLayout/background",
+      "value": {
+        "type": "background",
+        "fileHeader": "/interface/sb_crafting/craftingheader.png",
+        "fileBody": "/interface/sb_crafting/craftingbody.png",
+        "fileFooter": "/interface/sb_crafting/craftingfooter.png"
+      }
     }, {
-      "op": "replace",
-      "path": "/paneLayout/background/fileBody",
-      "value": "/interface/sb_crafting/craftingbody.png"
-    }, {
-      "op": "replace",
-      "path": "/paneLayout/background/fileFooter",
-      "value": "/interface/sb_crafting/craftingfooter.png"
-    }, {
-      "op": "replace",
-      "path": "/paneLayout/close/pressed",
-      "value": "/interface/xpress.png"
-    }, {
-      "op": "replace",
-      "path": "/paneLayout/close/base",
-      "value": "/interface/x.png"
-    }, {
-      "op": "replace",
-      "path": "/paneLayout/close/hover",
-      "value": "/interface/xhover.png"
-    },
-    //{"op":"remove","path":"/paneLayout/windowtitle/icon/file"},
-    {
       "op": "replace",
       "path": "/paneLayout/bgShine/file",
       "value": "/interface/sb_crafting/shine.png"
     }, {
       "op": "replace",
-      "path": "/paneLayout/btnFilterHaveMaterials/base",
-      "value": "/interface/sb_crafting/checkboxnocheck.png"
+      "path": "/paneLayout/close/position",
+      "value": [321, 261]
     }, {
       "op": "replace",
-      "path": "/paneLayout/btnFilterHaveMaterials/baseImageChecked",
-      "value": "/interface/sb_crafting/checkboxcheck.png"
-    },
-    {
-      "op": "replace",
-      "path": "/paneLayout/close/position/1",
-      "value": 263
+      "path": "/paneLayout/lblSchematics/position",
+      "value": [88, 244]
     }, {
       "op": "replace",
-      "path": "/paneLayout/lblSchematics/position/1",
-      "value": 243
-    }, {
-      "op": "replace",
-      "path": "/paneLayout/lblProducttitle/position/1",
-      "value": 243
+      "path": "/paneLayout/lblProducttitle/position",
+      "value": [265, 244]
     }, {
       "op": "replace",
       "path": "/paneLayout/spinCount/upOffset",
@@ -217,44 +187,28 @@
       "value": 18
     }, {
       "op": "replace",
-      "path": "/paneLayout/lblProduct/position/1",
-      "value": 83
+      "path": "/paneLayout/lblProduct/position",
+      "value": [51, 83]
     }, {
       "op": "replace",
-      "path": "/paneLayout/scrollArea/rect/1",
-      "value": 94
+      "path": "/paneLayout/scrollArea/rect",
+      "value": [5, 94, 174, 230]
     }, {
       "op": "replace",
-      "path": "/paneLayout/scrollArea/rect/3",
-      "value": 230
+      "path": "/paneLayout/scrollArea/children/itemList/schema/memberSize",
+      "value": [156, 20]
     }, {
-      "op": "replace",
-      "path": "/paneLayout/scrollArea/children/itemList/schema/memberSize/0",
-      "value": 156
-    },
-
-    //{"op":"replace","path":"/paneLayout/spinCount/position","value":[201,40]},
-    //{"op":"replace","path":"/paneLayout/tbSpinCount/position","value":[230,46]},
-    {
       "op": "replace",
       "path": "/paneLayout/tbSpinCount/position",
       "value": [230, 46]
-    },
-    //{"op":"replace","path":"/paneLayout/btnCraft/position","value":[274,38]},
-    //{"op":"replace","path":"/paneLayout/btnStopCraft/position","value":[274,38]},
-    //{"op":"replace","path":"/paneLayout/currentRecipeIcon/position","value":[252,38]},
-    {
+    }, {
       "op": "replace",
       "path": "/paneLayout/btnFilterHaveMaterials/position",
       "value": [26, 84]
     }, {
-      "op": "replace",
-      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/moneyIcon/position",
-      "value": [119, 9.8]
-    }, {
-      "op": "replace",
-      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/position",
-      "value": [134, 9]
+      "op": "add",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/moneyIcon/hAnchor",
+      "value": "left"
     }, {
       "op": "replace",
       "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/newIcon/position",
@@ -263,18 +217,6 @@
       "op": "replace",
       "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/background/position/0",
       "value": 0
-    }, {
-      "op": "replace",
-      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/position/0",
-      "value": 21
-    }, {
-      "op": "replace",
-      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/position/1",
-      "value": 11
-    }, {
-      "op": "replace",
-      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value",
-      "value": ""
     }, {
       "op": "replace",
       "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemIcon/position/0",
@@ -297,6 +239,7 @@
     }
   ],
 
+  //Add filters
   [{
       "op": "test",
       "path": "/betabound",
@@ -309,7 +252,7 @@
         "baseImage": "/interface/sb_crafting/categories.png:blocks",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:blocks",
         "data": {
-          "filter": ["sb_materials", "materials"]
+          "filter": ["materials"]
         }
       }
     }, {
@@ -320,7 +263,7 @@
         "baseImage": "/interface/sb_crafting/categories.png:armor",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:armor",
         "data": {
-          "filter": ["sb_armors", "armors", "sb_armours", "armours"]
+          "filter": ["armours"]
         }
       }
     }, {
@@ -331,7 +274,7 @@
         "baseImage": "/interface/sb_crafting/categories.png:weapons",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:weapons",
         "data": {
-          "filter": ["sb_weapons", "weapons"]
+          "filter": ["weapons"]
         }
       }
     }, {
@@ -342,7 +285,7 @@
         "baseImage": "/interface/sb_crafting/categories.png:items",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:items",
         "data": {
-          "filter": ["sb_consumables", "consumables", "healing"]
+          "filter": ["consumables", "healing"]
         }
       }
     }, {
@@ -353,7 +296,7 @@
         "baseImage": "/interface/sb_crafting/categories.png:smith",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:smith",
         "data": {
-          "filter": ["sb_tools", "tools", "mining", "sb_stations"]
+          "filter": ["tools", "mining", "craftingstations"]
         }
       }
     }, {
@@ -364,7 +307,7 @@
         "baseImage": "/interface/sb_crafting/categories.png:sit",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:sit",
         "data": {
-          "filter": ["sb_objects", "objects", "sb_stations", "decoration"]
+          "filter": ["objects", "decoration"]
         }
       }
     }, {

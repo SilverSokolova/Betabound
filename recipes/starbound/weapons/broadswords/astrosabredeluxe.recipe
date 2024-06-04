@@ -1,0 +1,5 @@
+{
+  "input": [["solariumstar",6],["refinedviolium",4],"upgrademodule"],
+  "output": "astrosabredeluxe",
+  "groups": ["craftingseparator","weapons","all"]
+}

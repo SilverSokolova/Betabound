@@ -1,6 +1,6 @@
 {
   "description": "A scythe shaped like an anchor.",
-  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "axe"],
   "itemName": "sb_hylotltier5maxe",
   "definition": ["colors/t5m", "axes/m"],
   "shortdescription": "The Anchorer",

@@ -8,7 +8,7 @@
 
   "descriptionLabel": {
     "type": "label",
-    "position": [11, 66],
+    "position": [11, 63],
     "hAnchor": "left",
     "vAnchor": "top",
     "wrapWidth": 120

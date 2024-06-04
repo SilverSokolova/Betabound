@@ -1,18 +1,18 @@
 {
-  "projectileName" : "sb_hawkeyes",
-  "physics" : "illusion",
-  "timeToLive" : 600,
-  "image" : "hawkeyes.png",
-  "actionOnReap" : [],
-  "speed" : 0,
-  "power" : 0,
+  "projectileName": "sb_hawkeyes",
+  "physics": "illusion",
+  "timeToLive": 600,
+  "image": "hawkeyes.png",
+  "actionOnReap": [],
+  "speed": 0,
+  "power": 0,
 
-  "onlyHitTerrain" : true,
-  "fullbright" : true,
-  "orientationLocked" : true,
+  "onlyHitTerrain": true,
+  "fullbright": true,
+  "orientationLocked": true,
 
-  "piercing" : true,
-  "bounces" : -1,
+  "piercing": true,
+  "bounces": -1,
 
-  "scripts" : ["hawkeyes2.lua"]
+  "scripts": ["hawkeyesprojectile.lua"]
 }

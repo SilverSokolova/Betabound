@@ -1,30 +1,41 @@
 doPlay = {}
 function init()
   songList = "songScrollArea.songList"
-  songs = root.collectables("sb_music"); table.sort(songs, function(a, b) return a.title < b.title end)
+  songs = root.collectables("sb_music")
   knownSongs, KS = {}, player.collectables("sb_music"); for _,v in pairs(KS) do knownSongs[v] = true end
-  widget.setText("lblCount","^#ddd;"..#KS.."/"..#songs)
-  widget.setText("lblDescription", config.getParameter("descriptions")[#KS == 0 and 1 or 2])
+  widget.setText("lblCount", "^#ddd;"..math.min(#KS, #songs).."/"..#songs)
   KS, query, lastQuery, admin = nil, nil, nil, player.isAdmin() or config.getParameter("everythingUnlocked")
-  description, mode, id = config.getParameter("description"), config.getParameter("mode",1), config.getParameter("id")
+  description, objectStorage, id = config.getParameter("description"), config.getParameter("objectStorage", {}), config.getParameter("id")
 --local musicData = root.assetJson("/collections/sb_music.collection").collectables
 --for k,v in pairs(songs) do if musicData[v.name].special then songs[k].title = songs[k].title.." ^yellow;^reset;" end end
+  radioType = config.getParameter("radioType", "portable")
+  defaultArtist = config.getParameter("defaultArtistName")
 
-  local DS = config.getParameter("defaultSongs"); table.sort(DS, function(a, b) return a.title < b.title end) --This seems to run more than #DS
+  local DS = config.getParameter("defaultSongs")
   for i = 1, #DS do
-    local UUID = sb.makeUuid()
-    DS[i].name = UUID; songs[UUID] = DS[i]
-    knownSongs[UUID] = true
+    local uuid = sb.makeUuid()
+    DS[i].name = uuid
+    DS[i].title = string.format("^yellow;%s^reset;", DS[i].title)
+    songs[#songs+1] = DS[i]
+    knownSongs[uuid] = true
   end
 
-  if mode == 2 then
-    local r = config.getParameter("range",60)
-    widget.setText("lblRange",r); widget.setSliderValue("range",r)
-    local w = {"lblR","imgR","r"}; for i = 1, #w do widget.setVisible(w[i].."ange",true) end
-    w = {"searchBarBG","searchBar"}
+  table.sort(songs, function(a, b)
+    a.icon = doPath(a.icon)
+    b.icon = doPath(b.icon)
+    return cutColors(a.title) < cutColors(b.title)
+  end)
+
+  widget.setText("lblDescription", config.getParameter("descriptions")[#songs == 0 and 1 or 2])
+
+  if radioType == "stationary" then
+    local r = objectStorage.range
+    widget.setText("lblRange", r); widget.setSliderValue("range", r)
+    local w = {"lblR", "imgR", "r"}; for i = 1, #w do widget.setVisible(w[i].."ange", true) end
+    w = {"searchBarBG", "searchBar"}
     for i = 1, #w do
       local p = widget.getPosition(w[i])
-      widget.setPosition(w[i],{p[1]-35,p[2]})
+      widget.setPosition(w[i], {p[1]-35, p[2]})
     end
   end
   populateList()
@@ -34,29 +45,26 @@ function itemSelected()
   local listItem = widget.getListSelected(songList)
   if listItem then
     selectedSong = widget.getData(string.format("%s.%s", songList, listItem))
-    local desc = songs[selectedSong].description; desc = desc ~= "" and desc or "Curtis Schweitzer"
-    widget.setText("lblDescription",string.format(description,songs[selectedSong].title,desc))
+    local desc = songs[selectedSong].description; desc = desc ~= "" and desc or defaultArtist
+    widget.setText("lblDescription", string.format(description, cutColors(songs[selectedSong].title), desc))
   end
 end
 
-function play(a) doPlay[mode](a) end
-doPlay[1] = function(a)
+function play(a) doPlay[radioType](a) end
+doPlay["portable"] = function(a)
   local stop = a == "stop"
   if not stop and not selectedSong then return end
-  world.sendEntityMessage(player.id(),stop and "stopAltMusic" or "playAltMusic",stop and 1 or {doPath(songs[selectedSong].icon)},1)
+  world.sendEntityMessage(player.id(),stop and "stopAltMusic" or "playAltMusic",stop and 1 or {songs[selectedSong].icon},1)
 end
 
-doPlay[2] = function(a)
+doPlay["stationary"] = function(a)
   local stop = a == "stop"
   if not stop and not selectedSong then return end
-  if not stop then
-    world.sendEntityMessage(id,"sb_radio",{doPath(songs[selectedSong].icon)},widget.getSliderValue("range"))
-  else
-    world.sendEntityMessage(id,"sb_radioStop")
-  end
+  local song = selectedSong and songs[selectedSong].icon
+  world.sendEntityMessage(id, "sb_radio:update", {song = stop and "" or song, range = widget.getSliderValue("range")})
 end
 
-function doPath(a) return a:sub(1,1) == "/" and a or "/music/"..a..".ogg" end --wav?
+function doPath(directory) return directory:sub(1,1) == "/" and directory or "/music/"..directory..".ogg" end
 function searchBar() query = widget.getText("searchBar"):lower() end
 
 function setRange()
@@ -74,13 +82,19 @@ function populateList()
   for k, songName in pairs(songs) do
     local song = songs[k]
     if admin or (song and knownSongs[songName.name]) then
-      local title = song.title
       if (not query and true) or (query and song.title:lower():find(query)) then
-  local listItem = widget.addListItem(songList)
-  widget.setText(string.format("%s.%s.songName", songList, listItem), title)
-  widget.setData(string.format("%s.%s", songList, listItem), k)
-  --local icon = song.icon; if icon then widget.setImage(string.format("%s.%s.songIcon", songList, listItem), icon) end
+        local listItem = widget.addListItem(songList)
+        widget.setText(string.format("%s.%s.songName", songList, listItem), song.title)
+        widget.setData(string.format("%s.%s", songList, listItem), k)
+        if objectStorage.song == song.icon then
+          widget.setListSelected(songList, listItem)
+        end
+        --local icon = song.icon; if icon then widget.setImage(string.format("%s.%s.songIcon", songList, listItem), icon) end
       end
     end
   end
+end
+
+function cutColors(str)
+  return str:gsub("(%^.-%;)", "")
 end

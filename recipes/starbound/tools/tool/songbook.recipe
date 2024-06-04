@@ -1,5 +1,5 @@
 {
   "input" : ["ironbar","copperbar"],
   "output" : "sb_songbook",
-  "groups" : ["all","sb_craftingtable","sb_tools","sb_instruments"]
+  "groups" : ["all","sb_craftingtable","tools","sb_instruments"]
 }

@@ -1,0 +1,47 @@
+{
+  "itemName": "sb_swingingvine",
+  "price": 250,
+  "inventoryIcon": "sb_swingingvineicon.png",
+  "rarity": "uncommon",
+  "maxStack": 1,
+  "description": "Swing around as much as you like!",
+  "shortdescription": "Swinging Vine",
+  "category": "tool",
+  "twoHanded": false,
+  "tooltipKind": "sb_tool",
+  "largeImage": "sb_swingingvineicon.png",
+
+  "scripts": ["/items/active/grapplinghooks/grapplinghook.lua"],
+  "animationScripts": ["/items/active/effects/renderrope.lua"],
+  "animation": "climbingrope/climbingrope.animation",
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "rope": {
+          "properties": {
+            "image": "/items/tools/vinehandle.png"
+          }
+        }
+      }
+    }
+  },
+
+  "fireOffset": [0, 0],
+  "ropeOffset": [-1.75, 0],
+  "ropeVisualOffset": [-0.5, 0.0],
+  "consumeOnUse": false,
+  "projectileType": "sb_vinehook",
+  "projectileParameters": {
+    "speed": 50,
+    "timeToLive": 2.5
+  },
+  "ropeWidth": 0.8,
+  "ropeColor": [72, 130, 47, 255],
+  "reelInDistance": 2.5,
+  "reelOutLength": 50,
+  "breakLength": 60,
+  "minSwingDistance": 1.5,
+  "reelSpeed": 4,
+  "controlForce": 2000,
+  "groundLagTime": 0.2
+}

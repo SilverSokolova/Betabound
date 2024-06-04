@@ -1,5 +1,4 @@
 function init()
-  activeItem.setHoldingItem(false)
   id = nil
   r = config.getParameter("range")
 end

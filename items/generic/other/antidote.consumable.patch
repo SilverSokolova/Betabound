@@ -2,8 +2,6 @@
 [{"op":"replace","path":"/itemName","value":"starbound_antidote"}],
 
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
-
 [{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}],
-
 [{"op":"test","path":"/blockingEffects/0","value":"antidote"},{"op":"remove","path":"/blockingEffects/0"}]
 ]

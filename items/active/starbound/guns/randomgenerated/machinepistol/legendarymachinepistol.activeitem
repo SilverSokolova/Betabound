@@ -12,7 +12,7 @@
   "price": 620,
   "twoHanded": false,
   "level": 1,
-  "itemTags": ["weapon", "ranged", "pistol", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "machinepistol"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
   "animationParts": {

@@ -1,8 +1,21 @@
 [
+//Adjust reward bag level
 [{"op":"test","path":"/rewards/0/0/0","value":"superrewardbag"},{"op":"test","path":"/rewards/0/0/2","inverse":true},
 {"op":"add","path":"/rewards/0/0/2","value":{}}],
 [{"op":"test","path":"/rewards/0/0/0","value":"superrewardbag"},{"op":"test","path":"/rewards/0/0/2"},{"op":"test","path":"/rewards/0/0/2/treasure","inverse":true},
 {"op":"add","path":"/rewards/0/0/2/treasure","value":{}}],
 [{"op":"test","path":"/rewards/0/0/0","value":"superrewardbag"},{"op":"test","path":"/rewards/0/0/2"},{"op":"test","path":"/rewards/0/0/2/treasure/level","inverse":true},
-{"op":"add","path":"/rewards/0/0/2/treasure/level","value":6}]
+{"op":"add","path":"/rewards/0/0/2/treasure/level","value":6}],
+
+//Radio messages + questActive tag
+[{"op":"copy","path":"/scriptConfig/sb_script","from":"/script"}],
+[{"op":"replace","path":"/script","value":"/quests/scripts/story/sb_destroyruin.lua"}],
+[{"op":"add","path":"/scriptConfig/sb_radioMessages","value":["tentaclemission-arrived2","tentaclemission-arrived3","tentaclemission-bottom2","sb_tentaclemission-brain","tentaclemission-bossroom2"]}],
+//Need to offset this so Koichi doesn't comment on SAIL's warning before they say it
+[{"op":"add","path":"/scriptConfig/sb_brainMessageHeightOffset","value":20}], //vanilla brain leads into bottom2
+[{"op":"add","path":"/scriptConfig/sb_brain2MessageHeight","value":267}],
+[{"op":"add","path":"/scriptConfig/sb_bossroom2MessageHeight","value":166}],
+[{"op":"add","path":"/scriptConfig/sb_questItemSpawnHeight","value":480}],
+[{"op":"add","path":"/scriptConfig/sb_instanceWorld","value":"InstanceWorld:tentaclemission"}]
+
 ]

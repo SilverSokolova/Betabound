@@ -33,7 +33,7 @@ function build(directory, config, parameters)
   config.description = string.format(config.description, config[(config.slot and "primary" or "alt").."Description" or "???"])
 
   config.tooltipFields = parameters.tooltipFields or config.tooltipFields or {}
-  local weaponName = abilities[parameters.ability].weaponName
+  local weaponName = (abilities[parameters.ability] or {}).weaponName
   if weaponName then
     weaponName = weaponNames[weaponName] or weaponName
     config.tooltipFields.subtitle = string.format(config.subtitle, weaponName:gsub("^%l", string.upper))

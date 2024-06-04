@@ -1,1 +1,1 @@
-{"definition":["colors/t5s","spears/t5s"],"itemName":"sb_hylotltier5sspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear","upgradeableWeapon"],"shortdescription":"Whaleailer","description":"A spear that could ail a whale."}
+{"definition":["colors/t5s","spears/t5s"],"itemName":"sb_hylotltier5sspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear"],"shortdescription":"Whaleailer","description":"A spear that could ail a whale."}

@@ -13,6 +13,7 @@
       ["glitch", "outpostglitchmercenary", 41], //was 14
       ["floran", "sb_outpostfloranscholar", 57]
     ],
+
     "positions": {
       "default": [
         [412, 614], //excon
@@ -27,7 +28,7 @@
         [377, 614], //cupid + backup comedy script location
         [286, 611], //santa
         [356, 641], //garbage
-        [200, 616]//kennel
+        [200, 616] //kennel
       ],
       "anom": [
         [412, 612], //excon
@@ -42,8 +43,20 @@
         [377, 612], //cupid
         [0, 0], //santa
         [444, 580], //garbage
-        [0, 0]//kennel
+        [0, 0] //kennel
       ]
+    },
+
+    "skipNpcConditions": {
+      //Project Redemption
+      "r-imperviumore": {
+        "outpostapexscientist": true,
+        "outpostavianrefugee": true,
+        "outpostglitchmechanic": true,
+        "outpostglitchmercenary": true,
+        "outposthumanexcon": true,
+        "outposthylotlwarrior": true
+      }
     }
   },
   "defaultDuration": 1,

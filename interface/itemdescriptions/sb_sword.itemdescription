@@ -19,7 +19,7 @@
   },
   "objectImage": {
     "type": "image",
-    "position": [74, 125],
+    "position": [104, 125],
     "file": "",
     "centered": true,
     "maxSize": [70, 45],
@@ -30,36 +30,6 @@
     "position": [35, 179],
     "hAnchor": "left",
     "value": ""
-  },
-  "subTitle": {
-    "type": "label",
-    "position": [35, 169],
-    "hAnchor": "left",
-    "color": [185, 181, 178],
-    "value": ""
-  },
-  "damageKindImage": {
-    "type": "image",
-    "position": [125, 104],
-    "file": "",
-    "centered": true,
-    "maxSize": [16, 16],
-    "minSize": [16, 16]
-  },
-  "damageKindBImage": {
-    "type": "image",
-    "position": [125, 124],
-    "file": "",
-    "centered": true,
-    "maxSize": [16, 16],
-    "minSize": [16, 16]
-  },
-  "rarityLabel": {
-    "type": "label",
-    "position": [12, 30],
-    "hAnchor": "left",
-    "centered": true,
-    "wrapWidth": 126
   },
   "damagePerShotTitleLabel": {
     "type": "label",
@@ -110,6 +80,36 @@
     "position": [118, 169],
     "hAnchor": "left",
     "color": "gray",
+    "centered": true,
+    "wrapWidth": 126
+  },
+  "subTitle": {
+    "type": "label",
+    "position": [35, 169],
+    "hAnchor": "left",
+    "color": [185, 181, 178],
+    "value": ""
+  },
+  "damageKindImage": {
+    "type": "image",
+    "position": [125, 104],
+    "file": "",
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "damageKindBImage": {
+    "type": "image",
+    "position": [125, 124],
+    "file": "",
+    "centered": true,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "rarityLabel": {
+    "type": "label",
+    "position": [12, 30],
+    "hAnchor": "left",
     "centered": true,
     "wrapWidth": 126
   },

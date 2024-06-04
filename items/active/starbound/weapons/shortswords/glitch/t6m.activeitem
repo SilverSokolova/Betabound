@@ -1,1 +1,1 @@
-{"description":"A hefty shortsword.","shortdescription":"Scriptkiddie","itemName":"sb_glitchtier6mshortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t6m","shortswords/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A hefty shortsword.","shortdescription":"Scriptkiddie","itemName":"sb_glitchtier6mshortsword","itemTags":["weapon","melee","shortsword"],"definition":["colors/t6m","shortswords/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

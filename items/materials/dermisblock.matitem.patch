@@ -1,0 +1,6 @@
+[
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"add","path":"/rarity","value":"Uncommon"}],
+[{"op":"test","path":"/description","value":"A fleshy mass with some thick, tough looking skin."},
+{"op":"replace","path":"/description","value":"A fleshy mass with some thick, tough-looking skin."}]
+]

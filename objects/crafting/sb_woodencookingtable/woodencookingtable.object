@@ -9,7 +9,7 @@
     "config": "/interface/windowconfig/craftingfood.config",
     "paneLayoutOverride": {
       "windowtitle": {
-        "title": " Cooking Table"
+        "title": " Wooden Cooking Table"
       }
     },
     "filter": ["sb_t1food"]

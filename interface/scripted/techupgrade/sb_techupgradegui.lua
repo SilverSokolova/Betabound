@@ -31,7 +31,7 @@ function init() sb_init()
         sb_ownedImplants = {tech}
       else
         sb_ownedImplants[#sb_ownedImplants+1] = tech
-        table.sort(sb_ownedImplants,function(a,b) return a<b end)
+        table.sort(sb_ownedImplants, function(a,b) return a<b end)
       end
       world.sendEntityMessage(player.id(), "sb_implant", tech)
       sb_suit = tech

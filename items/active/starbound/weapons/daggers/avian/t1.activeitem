@@ -1,7 +1,7 @@
 {
   "itemName": "sb_aviantier1dagger",
   "description": "A tiny dagger that feels like a peck.",
-  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "dagger"],
   "definition": "daggers/t1",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "The Pecker"

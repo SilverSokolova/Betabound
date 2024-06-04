@@ -1,7 +1,7 @@
 {
   "itemName": "sb_aviantier4shortsword",
   "description": "A shortsword with a gem encased in it.",
-  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword"],
   "definition": "shortswords/t4",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Eye of the Needle"

@@ -1,9 +1,15 @@
 {
-  "frameGrid" : {
-    "size" : [16, 8],
-    "dimensions" : [3, 1],
-    "names" : [
+  "frameGrid": {
+    "size": [16, 8],
+    "dimensions": [3, 1],
+    "names": [
       ["top", "middle", "bottom"]
     ]
+  },
+
+  "aliases": {
+    "topdefault": "top",
+    "middledefault": "middle",
+    "bottomdefault": "bottom"
   }
 }

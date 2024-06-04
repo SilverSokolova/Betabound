@@ -1,7 +1,7 @@
 {
   "itemName": "sb_apexsteelstaff1",
   "definition": "racialstaff",
-  "itemTags": ["weapon", "staff", "upgradeableWeapon"],
+  "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "apex",
     "<staff>": "steelstaff",

@@ -139,6 +139,8 @@
 ,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"bubblegun"}}]
 ,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_rainbowsword"}}]
 ,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_rainbowsword-recipe"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_rainbowspear"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_rainbowspear-recipe"}}]
 ,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayonred-recipe"}}]
 ,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayonblue-recipe"}}]
 ,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayonyellow-recipe"}}]
@@ -161,6 +163,8 @@
 ,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_bonepistol"}}]
 ,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_bonehammer"}}]
 ,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_bonehammer-recipe"}}]
+,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_boneaxe"}}]
+,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_boneaxe-recipe"}}]
 
 
 
@@ -168,7 +172,8 @@
   //           Alpine
   // ================================
 ,[{"op":"add","path":"/alpineTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_boulderstaff"}}]
-//,[{"op":"add","path":"/alpineTreasure/0/1/pool/-","value":{"weight":0.15,"item":"sb_iceaxe"}}]
+,[{"op":"add","path":"/alpineTreasure/0/1/pool/-","value":{"weight":0.15,"item":"sb_iceaxe"}}]
+,[{"op":"add","path":"/alpineTreasure/0/1/pool/-","value":{"weight":0.15,"item":"sb_iceaxe-recipe"}}]
 
 
 

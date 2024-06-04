@@ -1,1 +1,1 @@
-{"description":"A flamboyant, wing-like dagger.","shortdescription":"Lil Icarus","itemName":"sb_aviantier5mdagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t5m","daggers/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A flamboyant, wing-like dagger.","shortdescription":"Lil Icarus","itemName":"sb_aviantier5mdagger","itemTags":["weapon","melee","dagger"],"definition":["colors/t5m","daggers/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

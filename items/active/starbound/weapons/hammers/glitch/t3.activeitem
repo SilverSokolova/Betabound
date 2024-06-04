@@ -1,7 +1,7 @@
 {
   "itemName": "sb_glitchtier3hammer",
   "description": "Forged of steel, forges steel. Steel.",
-  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "hammer"],
   "definition": "hammers/t3",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Steelforger"

@@ -1,0 +1,6 @@
+{
+  "input" : ["sb_ricevinegar","sb_poisoncreep"],
+  "output" : "sb_pickledpoisoncreep",
+  "groups" : ["craftingfood","drinks","sb_healing","sb_t1food","all"],
+  "collectables" : {"cooking":"sb_pickledpoisoncreep"}
+}

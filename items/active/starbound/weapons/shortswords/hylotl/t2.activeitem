@@ -1,7 +1,7 @@
 {
   "itemName": "sb_hylotltier2shortsword",
   "description": "A decent pirate shortsword.",
-  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword"],
   "definition": "shortswords/t2",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Swishbuckler Lite"

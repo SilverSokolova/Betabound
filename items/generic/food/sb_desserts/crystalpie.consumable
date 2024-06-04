@@ -16,7 +16,7 @@
       "sb_foodheal120"
     ]],
   "foodValue": 35,
-  "tooltipKind": "food",
+  "tooltipKind": "sb_object4b",
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "maxStack": 1,
   "itemAgingScripts": ["/scripts/items/rotting.lua"],

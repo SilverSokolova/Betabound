@@ -151,6 +151,7 @@
   [{"op":"add","path":"/healingItem/1/1/pool/-","value":{"weight":0.20,"item":"sb_gauze"}}],
   [{"op":"add","path":"/healingItem/1/1/pool/-","value":{"weight":0.25,"item":["sb_gauze",2]}}],
   [{"op":"add","path":"/healingItem/1/1/pool/-","value":{"weight":0.08,"item":"sb_spawnerdoctor"}}],
+  [{"op":"add","path":"/healingItem/1/1/pool/-","value":{"weight":0.12,"pool":"sb_levitationpowder"}}],
 
   [{"op":"add","path":"/stim/0/1/pool/-","value":{"weight":0.25,"item":["orangestim",2]}}],
   [{"op":"add","path":"/stim/0/1/pool/-","value":{"weight":0.25,"item":["sb_greystim",2]}}],
@@ -198,8 +199,7 @@
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_watch"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_hawkeyes"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_light2energy"}}],
-  [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.01,"item":"sb_parachutepack"}}],
-  [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.01,"item":"parachutepackback"}}],
+  [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"parachutepackback"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.01,"item":"flashlight"}}],
 
 
@@ -249,10 +249,10 @@
   [{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.03,"pool":"foodTreasureMedium"}}],
   [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.03,"pool":"foodTreasureMedium"}}],
   
-  [{"op":"add","path":"/food/0/1/pool/-","value":{"weight":0.7,"pool":"sb_food"}}],
+  [{"op":"add","path":"/food/0/1/pool/-","value":{"weight":0.2,"pool":"sb_food"}}],
   [{"op":"add","path":"/food/0/1/pool/-","value":{"weight":0.018,"item":"spawnerchef"}}],
   
-  [{"op":"add","path":"/foodTreasureMedium/0/1/pool/-","value":{"weight":0.8,"pool":"sb_food"}}],
+  [{"op":"add","path":"/foodTreasureMedium/0/1/pool/-","value":{"weight":0.3,"pool":"sb_food"}}],
   [{"op":"add","path":"/foodTreasureMedium/0/1/pool/-","value":{"weight":0.018,"item":"spawnerchef"}}],
 
   [{"op":"add","path":"/produce/0/1/pool/-","value":{"weight":2,"item":["rottenfood",8]}}],
@@ -357,10 +357,6 @@ IF BOTH ARE YES, THEN CONGRATS! SHOVE IT UNDER 'RARE'
 //[{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonshortsword"}}],
 
   //Rare Melee
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"seashellshield"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"mushroomshield"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"frostshield"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"eyeshield"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonshield"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonaxe"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommondagger"}}],
@@ -369,9 +365,15 @@ IF BOTH ARE YES, THEN CONGRATS! SHOVE IT UNDER 'RARE'
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonhammer"}}],
 //[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonshortsword"}}],
 //[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_twistedspear"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_arcsword"}}],
 
 
 //Biome Melee
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"seashellshield"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"mushroomshield"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"frostshield"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"eyeshield"}}],
+
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_firesword"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_watersword"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_boneaxe"}}],
@@ -406,7 +408,7 @@ IF BOTH ARE YES, THEN CONGRATS! SHOVE IT UNDER 'RARE'
 //[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_bonesword"}}],
 //[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_crystalspear"}}],
 //[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_eyeaxe"}}],
-//[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_rainbowspear"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_rainbowspear"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_rustsword"}}],
 
 //Dungeon Melee

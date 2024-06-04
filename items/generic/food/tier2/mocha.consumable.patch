@@ -11,5 +11,7 @@
 [{"op":"test","path":"/effects/0/0/duration","value":360},{"op":"replace","path":"/effects/0/0/duration","value":180}],
 [{"op":"add","path":"/effects/0/-","value":{"effect":"sb_energyregen480","duration":180}}],
 [{"op":"add","path":"/effects/0/-","value":{"effect":"runboostfood","duration":180}}],
-[{"op":"add","path":"/effects/0/-","value":"sb_foodheal135"}]
+[{"op":"add","path":"/effects/0/-","value":"sb_foodheal135"}],
+
+[{"op":"add","path":"/sb_plateImage","value":true}]
 ]

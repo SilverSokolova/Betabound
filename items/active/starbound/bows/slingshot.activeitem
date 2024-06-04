@@ -22,7 +22,7 @@
   },
   "description": "A basic, easily concealed ranged weapon.",
   "shortdescription": "Slingshot",
-  "itemTags": ["weapon", "ranged", "bow", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "bow"],
   "primaryAbility": {
     "fireOffset": [1, 0.8],
     "fireTime": 0.4,

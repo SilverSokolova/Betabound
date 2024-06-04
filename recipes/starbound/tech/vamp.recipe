@@ -1,9 +1,0 @@
-{
-  "input" : [
-    ["sb_tech",1,{"techModule":"sb_regeneration"}],
-    ["sb_tech",1,{"techModule":"sb_berserk"}]
-  ],
-  "matchInputParameters" : true,
-  "output" : ["sb_tech",1,{"techModule":"sb_vamp"}],
-  "groups" : ["sb_techconsole","sb_tech_4","nouncrafting","all"]
-}

@@ -1,5 +1,5 @@
 {
   "input" : [["money",50]],
   "output" : "smoothmetal",
-  "groups" : ["sb_portable3dprinter","sb_materials","all"]
+  "groups" : ["sb_portable3dprinter","materials","all"]
 }

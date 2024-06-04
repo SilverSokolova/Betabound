@@ -1,0 +1,26 @@
+{
+  "itemName": "sb_levitationpowder",
+  "rarity": "Uncommon",
+  "price": 25,
+  "tooltipKind": "sb_object4",
+  "inventoryIcon": "sb_levitationpowdericon.png",
+  "image": "sb_levitationpowder.png",
+  "shortdescription": "Feather Powder",
+  "category": "throwableItem",
+  "description": "Lighter than the atmosphere itself, this powder will make you and others nearby briefly float above the ground.",
+  "ammoUsage": 1,
+  "edgeTrigger": true,
+  "windupTime": 0,
+  "cooldown": 0.2,
+  "projectileType": "levitationstatusprojectile",
+  "projectileConfig": {
+    "speed": 0,
+    "periodicActions": [{
+        "time": 0,
+        "repeat": false,
+        "action": "sound",
+        "options": ["/sfx/projectiles/throw_item_small.ogg"]
+      }
+    ]
+  }
+}

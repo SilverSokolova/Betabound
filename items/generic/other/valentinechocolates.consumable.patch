@@ -6,7 +6,7 @@
     }, {
       "op": "add",
       "path": "/tooltipKind",
-      "value": ""
+      "value": "sb_object4"
     }
   ],
   [{
@@ -94,11 +94,6 @@
     }, {
       "op": "add",
       "path": "/builder",
-      "value": 0
-    }
-  ], [{
-      "op": "replace",
-      "path": "/builder",
       "value": "/items/buildscripts/starbound/buildfood.lua"
     }
   ],
@@ -106,12 +101,6 @@
       "op": "add",
       "path": "/learnBlueprintsOnPickup/-",
       "value": "valentinechocolates"
-    }
-  ],
-  [{
-      "op": "replace",
-      "path": "/tooltipKind",
-      "value": "sb_object4"
     }
   ],
   [{

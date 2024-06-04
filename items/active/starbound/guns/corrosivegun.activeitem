@@ -7,7 +7,7 @@
   "tooltipFields": {
     "damageKindImage": "/interface/sb_tooltips/sb_corrosiveparticle.png"
   },
-  "itemTags": ["weapon", "ranged", "unique", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "unique"],
   "category": "uniqueWeapon",
   "rarity": "Rare",
   "fixedRarity": false,
@@ -75,5 +75,9 @@
       "power": 5
     }
   },
-  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+
+  "craftedParameters": {
+    "level": 4
+  }
 }

@@ -16,7 +16,7 @@
   "sb_dyeable": true,
   "sb_backingDirectives": "?replace;616161=ffca8a;383838=e0975c;1a1a1a=a85636",
   "sb_extraDirectives": "?replace;ffca8a=616161;e0975c=383838;a85636=1a1a1a",
-  "itemTags": ["weapon", "melee", "dagger", "nightstick", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "dagger", "nightstick"],
   "handGrip": "inside",
   "animation": "/items/active/starbound/weapons/dagger.animation",
   "inventoryIcon": "nightstick.png<directives>",

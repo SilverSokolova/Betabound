@@ -7,5 +7,7 @@
 
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
 [{"op":"add","path":"/effects/0/-","value":{"effect":"sb_energyregen480","duration":210}}],
-[{"op":"add","path":"/effects/0/-","value":"sb_foodheal265"}]
+[{"op":"add","path":"/effects/0/-","value":"sb_foodheal265"}],
+
+[{"op":"add","path":"/sb_plate","value":{"image":true,"offset":-0.05}}]
 ]

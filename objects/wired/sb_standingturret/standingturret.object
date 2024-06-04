@@ -10,14 +10,13 @@
   "uiConfig": "/interface/sb_turret/standingturret.config",
   "frameCooldown": 5,
   "autoCloseCooldown": 3600,
-  "tooltipKind": "sb_container",
-  "description": "Turret for your protection! Can only be placed once.",
+  "tooltipKind": "sb_object",
+  "description": "Turret for your protection! Can be given a gun to use. ^red;Can only be placed once.^reset;",
   "shortdescription": "Modular Defense Turret",
   "race": "generic",
   "category": "Automatic Base Defense",
   "tooltipFields": {
-    "subtitle": "Wire",
-    "slotCountLabel": "Holds 1 gun"
+    "subtitle": "Wire"
   },
   "breakDropOptions": [[["siliconboard", 1, {}]]],
 
@@ -32,7 +31,6 @@
   "inventoryIcon": "icon.png",
   "orientations": [{
       "dualImage": "turretstand.png:bottom",
-
       "imagePosition": [-16, 0],
       "imageLayers": [{
           "image": "turretstand.png:bottom"

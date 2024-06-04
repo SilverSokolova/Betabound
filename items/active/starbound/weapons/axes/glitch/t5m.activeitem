@@ -1,1 +1,1 @@
-{"description":"A lethal, terrifying axe that can cut domes.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_glitchtier5maxe","definition":["colors/t5m","axes/m"],"shortdescription":"Domecutter","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A lethal, terrifying axe that can cut domes.","itemTags":["weapon","melee","axe"],"itemName":"sb_glitchtier5maxe","definition":["colors/t5m","axes/m"],"shortdescription":"Domecutter","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

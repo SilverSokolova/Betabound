@@ -7,7 +7,7 @@
   "tooltipFields": {
     "damageKindImage": "/interface/sb_tooltips/standardbullet.png"
   },
-  "itemTags": ["weapon", "ranged", "pistol", "aegisalt", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "pistol", "aegisalt"],
   "category": "pistol",
   "fixedRarity": true,
   "rarity": "rare",

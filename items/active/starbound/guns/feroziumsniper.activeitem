@@ -13,7 +13,7 @@
     "damageKindImage": "/interface/sb_tooltips/standardbullet.png"
   },
   "category": "sniperRifle",
-  "itemTags": ["weapon", "ranged", "rifle", "sb_scintillium", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "rifle", "sb_scintillium"],
   "twoHanded": true,
 
   "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",

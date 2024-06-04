@@ -15,7 +15,7 @@
   "sb_dyeable": true,
   "sb_backingDirectives": "?replace;b6b6b6=ffca8a;7b7b7b=e0975c;373737=6f2919",
   "sb_extraDirectives": "?replace;ffca8a=b6b6b6;e0975c=7b7b7b;6f2919=373737",
-  "itemTags": ["weapon", "melee", "mace", "dagger", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "mace", "dagger"],
   "animation": "/items/active/starbound/weapons/dagger.animation",
   "animationParts": {},
   "animationCustom": {

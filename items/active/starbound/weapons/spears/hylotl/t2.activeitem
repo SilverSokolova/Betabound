@@ -1,7 +1,7 @@
 {
   "itemName": "sb_hylotltier2spear",
   "description": "A decent spear.",
-  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "spear"],
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "definition": "spears/t2",
   "shortdescription": "Seaslice"

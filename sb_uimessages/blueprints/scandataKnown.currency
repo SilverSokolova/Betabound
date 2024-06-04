@@ -4,7 +4,7 @@
   "currency": "sb_uimessage",
   "rarity": "rare",
   "value": 0,
-  "pickupSoundsSmall": [""],
+  "pickupSoundsSmall": ["/sfx/interface/energy_out2.ogg"],
   "pickupSoundsMedium": [""],
   "pickupSoundsLarge": [""]
 }

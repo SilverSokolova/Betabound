@@ -1,6 +1,6 @@
 {
   "description": "A ridged scythe shaped like dual fins.",
-  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "axe"],
   "itemName": "sb_hylotltier5aaxe",
   "definition": ["colors/t5a", "axes/a"],
   "shortdescription": "Doublefin",

@@ -1,7 +1,7 @@
 {
   "itemName": "sb_florantier2broadsword",
   "description": "For slicing and stabbing.",
-  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "broadsword"],
   "shortdescription": "Big Slicestabber",
   "definition": "broadswords/t2",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",

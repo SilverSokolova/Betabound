@@ -1,0 +1,22 @@
+[
+  [{
+      "op": "test",
+      "path": "/statusEffects/0/duration",
+      "value": 60 //I sure hope no mods rely on tormenting the player by levitating them for 60 seconds
+    }, {
+      "op": "replace",
+      "path": "/statusEffects/0/duration",
+      "value": 15
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/damageKind",
+      "value": "default"
+    }, {
+      "op": "replace",
+      "path": "/damageKind",
+      "value": "nodamage"
+    }
+  ]
+]

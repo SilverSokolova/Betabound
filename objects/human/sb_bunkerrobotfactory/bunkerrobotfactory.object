@@ -1,50 +1,49 @@
 {
-  "objectName" : "sb_humanbunkerrobotfactory",
-  "colonyTags" : ["human","humanbunker","commerce","mechanical"],
-  "rarity" : "Common",
-  "tooltipKind" : "sb_object",
-  "description" : "A factory capable of creating the 'latest' in urban robot technology.",
-  "shortdescription" : "Robot Factory",
-  "race" : "human",
-  "category" : "spawner",
-  "price" : 2000,
+  "objectName": "sb_humanbunkerrobotfactory",
+  "colonyTags": ["human", "humanbunker", "commerce", "mechanical"],
+  "rarity": "Common",
+  "tooltipKind": "sb_object",
+  "description": "A factory capable of creating the 'latest' in urban robot technology.",
+  "shortdescription": "Robot Factory",
+  "race": "human",
+  "category": "spawner",
+  "price": 2000,
 
-  "apexDescription" : "Such an inefficient design; with merely a single assembly line.",
-  "avianDescription" : "Warm thermals escape the vent. Warm, but so dirty.",
-  "floranDescription" : "What comesss forth?",
-  "glitchDescription" : "Awe. Thus my brethren are spawned.",
-  "humanDescription" : "New robots roll off the conveyor belt continuously.",
-  "hylotlDescription" : "Does not appear to be water-tight.",
+  "apexDescription": "Such an inefficient design with merely a single assembly line.",
+  "avianDescription": "Warm thermals escape the vent. Warm, but so dirty.",
+  "floranDescription": "What comesss forth?",
+  "glitchDescription": "Awe. Thus my brethren are spawned.",
+  "humanDescription": "New robots roll off the conveyor belt continuously.",
+  "hylotlDescription": "Does not appear to be water-tight.",
+  "novakidDescription": "This is straight outta one of those old robot movies.",
 
-
-  "inventoryIcon" : "bunkerrobotfactoryicon.png",
-  "orientations" : [
-    {
-      "dualImage" : "bunkerrobotfactory.png:idle.8",
-      "imagePosition" : [-48, 0],
-      "spaceScan" : 0.01,
-      "anchors" : [ "bottom" ]
+  "inventoryIcon": "bunkerrobotfactoryicon.png",
+  "orientations": [{
+      "dualImage": "bunkerrobotfactory.png:idle.8",
+      "imagePosition": [-48, 0],
+      "spaceScan": 0.01,
+      "anchors": ["bottom"]
     }
   ],
 
-  "animation" : "animation.config",
-  "animationParts" : {
-    "body" : "bunkerrobotfactory.png"
+  "animation": "animation.config",
+  "animationParts": {
+    "body": "bunkerrobotfactory.png"
   },
 
-  "scripts" : [
+  "scripts": [
     "behavior.lua",
     "/scripts/stateMachine.lua"
   ],
-  "scriptDelta" : 60,
+  "scriptDelta": 60,
 
-  "inputNodes" : [ [0, 2] ],
-  "interactive" : true,
+  "inputNodes": [[0, 2]],
+  "interactive": true,
 
-  "maxSpawnedRobots" : 4,
-  "spawnCooldownTime" : 5.0,
-  "spawnTime" : 0.8,
-  "serpentdroidSpawnOffset" : [11.25, 1.875],
-  "repairbotSpawnOffset" : [11.0, 1.875],
-  "cleaningbotSpawnOffset" : [11.25, 0.75]
+  "maxSpawnedRobots": 4,
+  "spawnCooldownTime": 5.0,
+  "spawnTime": 0.8,
+  "serpentdroidSpawnOffset": [11.25, 1.875],
+  "repairbotSpawnOffset": [11.0, 1.875],
+  "cleaningbotSpawnOffset": [11.25, 0.75]
 }

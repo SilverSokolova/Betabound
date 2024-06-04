@@ -1,1 +1,1 @@
-{"description":"A hooked axe trimmed with gold.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_humantier6maxe","definition":["colors/t6m","axes/m"],"shortdescription":"Charitable Axe","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A hooked axe trimmed with gold.","itemTags":["weapon","melee","axe"],"itemName":"sb_humantier6maxe","definition":["colors/t6m","axes/m"],"shortdescription":"Charitable Axe","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

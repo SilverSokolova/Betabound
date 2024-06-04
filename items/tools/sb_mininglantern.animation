@@ -1,6 +1,6 @@
 {
   "globalTagDefaults": {
-    "color": "black"
+    "color": "default"
   },
   "animatedParts": {
     "stateTypes": {

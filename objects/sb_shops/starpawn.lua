@@ -38,6 +38,7 @@ function createItemList(pools)
       for k, v in pairs(draw) do
         if root.itemType(v.name) ~= "currency" then
           local stackedItem = false
+          v.count = math.random(v.count)
           for k2, v2 in pairs(newItems) do
             if root.itemDescriptorsMatch(v2, v, true) then
               newItems[k2].count = newItems[k2].count + v.count

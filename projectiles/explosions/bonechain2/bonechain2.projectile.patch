@@ -1,0 +1,43 @@
+[
+  [{
+      "op": "test",
+      "path": "/movementSettings",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/movementSettings",
+      "value": {}
+    }
+  ], [{
+      "op": "test",
+      "path": "/movementSettings/collisionPoly",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/movementSettings/collisionPoly",
+      "value": [[-1.8, 0], [-2.4, -2.4], [0, -3.6], [2.4, -2.4], [1.8, 0]]
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/actionOnReap/0/type",
+      "value": "bonechain3"
+    }, {
+      "op": "replace",
+      "path": "/actionOnReap/0",
+      "value": {
+        "action": "config",
+        "file": "/projectiles/explosions/bonechain2/bonechain2.config"
+      }
+    }
+  ], [{
+      "op": "test",
+      "path": "/frameNumber",
+      "value": 6
+    }, {
+      "op": "replace",
+      "path": "/frameNumber",
+      "value": 4
+    }
+  ]
+]

@@ -1,7 +1,7 @@
 {
   "itemName": "sb_aviantier1spear",
   "description": "A regular, basic spear.",
-  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "spear"],
   "definition": "spears/t1",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "The Hatchling"

@@ -1,9 +1,0 @@
-{
-  "input":[
-    ["sb_tech",1,{"techModule":"sprint"}],
-    ["sb_tech",1,{"techModule":"distortionsphere"}]
-  ],
-  "matchInputParameters" : true,
-  "output" : ["sb_tech",1,{"techModule":"sb_balldash"}],
-  "groups" : ["sb_techconsole","sb_tech_2","nouncrafting","all"]
-}

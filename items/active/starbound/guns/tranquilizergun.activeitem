@@ -6,7 +6,7 @@
   "fixedRarity": false,
   "rarity": "Rare",
   "category": "uniqueWeapon",
-  "itemTags": ["weapon", "ranged", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged"],
   "tooltipKind": "sb_gun2",
   "tooltipFields": {
     "damageKindImage": "/interface/statuses/tranquilizer.png"
@@ -36,5 +36,10 @@
     "inaccuracy": 0,
     "projectileType": "sb_tranquilizerdart"
   },
-  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+
+  "craftedParameters": {
+    "seed": 1,
+    "level": 4
+  }
 }

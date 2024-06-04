@@ -62,14 +62,7 @@
   "mouthPositions": [[-3, -9], [-1, -9]],
   "animationPosition": [0, 0],
   "orientations": [{
-      "image": "starpawn.png:0",
-      "direction": "left",
-      "lightPosition" : [3, 6],
-      "spaceScan": 0.1,
-      "anchors": ["bottom"]
-    }, {
-      "image": "starpawn.png:1",
-      "direction": "right",
+      "dualImage": "starpawn.png:0",
       "lightPosition" : [3, 6],
       "spaceScan": 0.1,
       "anchors": ["bottom"]

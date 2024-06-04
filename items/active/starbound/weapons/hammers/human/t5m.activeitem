@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"A hammer that could also be a child's toy.","itemTags":["weapon","melee","hammer","upgradeableWeapon"],"definition":["colors/t5m","hammers/t5m"],"itemName":"sb_humantier5mhammer","shortdescription":"Hobbyhammer"}
+{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"A hammer that could also be a child's toy.","itemTags":["weapon","melee","hammer"],"definition":["colors/t5m","hammers/t5m"],"itemName":"sb_humantier5mhammer","shortdescription":"Hobbyhammer"}

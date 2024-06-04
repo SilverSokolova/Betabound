@@ -13,12 +13,16 @@
     ]],
   "tooltipKind": "sb_object",
   "rarity": "uncommon",
-  "inventoryIcon": "boltedmilk.png?saturation=20",
+  "inventoryIcon": "boltedmilk.png",
   "description": "It's milk with a twist!",
   "category": "drink",
   "shortdescription": "Bolted Milk",
   "emitters": ["drinking"],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
-  "rottingMultiplier": 5
+  "rottingMultiplier": 5,
+  "sb_plate": {
+    "image": true,
+    "offset": -0.05
+  }
 }

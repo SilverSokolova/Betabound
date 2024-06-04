@@ -12,7 +12,7 @@
         "duration": 10
       }
     ]],
-  "tooltipKind": "food",
+  "tooltipKind": "sb_object",
   "rarity": "Common",
   "inventoryIcon": "orangenergycan.png",
   "sb_plateImage": true,

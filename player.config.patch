@@ -5,9 +5,9 @@
 
 [{"op":"add","path":"/statusControllerSettings/stats/sb_shieldHealthL","value":{"baseValue":0}}],
 [{"op":"add","path":"/statusControllerSettings/stats/sb_shieldHealthR","value":{"baseValue":0}}],
-[{"op":"add","path":"/statusControllerSettings/resources/sb_shieldStaminaT","value":{"maxValue":1,"initialPercentage":0}}],
 [{"op":"add","path":"/statusControllerSettings/resources/sb_shieldStaminaL","value":{"maxValue":1,"initialPercentage":1}}],
 [{"op":"add","path":"/statusControllerSettings/resources/sb_shieldStaminaR","value":{"maxValue":1,"initialPercentage":1}}],
+[{"op":"add","path":"/statusControllerSettings/resources/sb_shieldStaminaT","value":{"maxValue":1,"initialPercentage":0}}],
 [{"op":"add","path":"/statusControllerSettings/resources/sb_perfectBlockL","value":{"maxValue":1,"deltaValue":-1,"initialValue":0}}],
 [{"op":"add","path":"/statusControllerSettings/resources/sb_perfectBlockR","value":{"maxValue":1,"deltaValue":-1,"initialValue":0}}],
 [{"op":"add","path":"/statusControllerSettings/resources/sb_perfectBlockLimitL","value":{"maxValue":1,"initialPercentage":1}}],
@@ -15,6 +15,7 @@
 [{"op":"add","path":"/statusControllerSettings/resources/sb_shieldStaminaRegenBlockL","value":{"maxValue":2,"deltaValue":-1,"initialPercentage":0}}],
 [{"op":"add","path":"/statusControllerSettings/resources/sb_shieldStaminaRegenBlockR","value":{"maxValue":2,"deltaValue":-1,"initialPercentage":0}}],
 [{"op":"add","path":"/statusControllerSettings/resources/sb_forceFieldStrength","value":{"baseValue":0}}],
+[{"op":"test","path":"/statusControllerSettings/resources/stunned","inverse":true},{"op":"add","path":"/statusControllerSettings/resources/stunned","value":{"baseValue":0}}],
 
 //misc
 [{"op":"test","path":"/ageItemsEvery","value":10},{"op":"replace","path":"/ageItemsEvery","value":300}],
@@ -62,6 +63,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_cookingstation"}}],
 
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_codex"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_techconsole"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"fossilpod"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"spawnerstation"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"mechassemblystation"}}],
@@ -115,6 +117,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_healthmonitor"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_flashfreeze"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_partypopper"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_hookshot"}}],
 
 //upgrades
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"upgrademodule"}}],
@@ -264,7 +267,8 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_slingshot"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_huntingknife"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_brainextractor"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_firebow",1,{"seed":1,"level":3}]}], //you cant do this kind of recipe in learnBlueprintsOnPickup
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_firebow",1,{"crafted":true}]}], //you cant do this kind of recipe in learnBlueprintsOnPickup
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_arcsword",1,{"crafted":true}]}], //you cant do this kind of recipe in learnBlueprintsOnPickup
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltpistol"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltrifle"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltshotgun"}}],
@@ -392,8 +396,8 @@
 
 //end
 [{"op":"add","path":"/genericScriptContexts/sb_main","value":"/scripts/player/sb_main.lua"}],
-[{"op":"add","path":"/deploymentConfig/scripts/-","value":"/xrc/deployment/versioning/tech.lua"}],
-[{"op":"add","path":"/deploymentConfig/scripts/-","value":"/xrc/deployment/versioning/0018z.lua"}],
+[{"op":"add","path":"/genericScriptContexts/sb_versioning","value":"/scripts/sb_versioning/versioncheck.lua"}],
+//[{"op":"add","path":"/deploymentConfig/scripts/-","value":"/xrc/deployment/versioning/tech.lua"}],
 [{"op":"add","path":"/genericScriptContexts/sb_blueprints","value":"/scripts/player/sb_blueprints.lua"}],
 [{"op":"add","path":"/genericScriptContexts/sb_events","value":"/events/sb_events.lua"}],
 [{"op":"add","path":"/statusControllerSettings/primaryScriptSources/-","value":"/stats/sb_player_primary.lua"}],

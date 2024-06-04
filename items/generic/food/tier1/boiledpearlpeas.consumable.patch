@@ -1,6 +1,6 @@
 [
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
-[{"op":"add","path":"/sb_plateHide","value":true}],
+[{"op":"add","path":"/sb_plate","value":{"hidePlate":true,"image":true}}],
 
 [{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":2}],
 

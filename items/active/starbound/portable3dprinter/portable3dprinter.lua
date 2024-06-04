@@ -1,12 +1,12 @@
 require "/scripts/sb_uimessage.lua"
 require "/scripts/activeitem/sb_cursors.lua"
+require "/scripts/activeitem/sb_swing.lua"
 
-function init()
+function init() swingInit()
   sb_cursor("power")
-  activeItem.setHoldingItem(false)
 end
 
-function activate()
+function swingAction()
   local pos = world.entityPosition(activeItem.ownerEntityId())
   if world.isTileProtected(pos) then
     sb_uiMessage("areaProtected")

@@ -10,7 +10,7 @@
   "description": "This beautiful blade shines with a striking iridescence that catches the eye.", //bends light around it like a prism,
   "shortdescription": "Rainbow Rapier",
   "twoHanded": true,
-  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "broadsword"],
   "animation": "/items/active/starbound/weapons/broadsword.animation",
   "inventoryIcon": "rainbowsword.png",
   "animationParts": {
@@ -58,5 +58,10 @@
       "knockback": 10
     }
   },
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "level": 3,
+    "seed": 1
+  }
 }

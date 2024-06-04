@@ -1,147 +1,65 @@
 {
-  "sb_poisoncreepHarvest" : [
+  "sb_poisoncreepHarvest": [
     [0, {
-      "pool" : [
-        {"weight" : 0.89, "item" : "sb_poisoncreep"},
-        {"weight" : 0.08, "item" : "sb_poisoncreepseed"},
-        {"weight" : 0.1, "item" : "plantfibre"}
+      "pool": [
+        {"weight": 0.89, "item": "sb_poisoncreep"},
+        {"weight": 0.08, "item": "sb_poisoncreepseed"},
+        {"weight": 0.1, "item": "plantfibre"}
       ],
-      "poolRounds" : [
+      "poolRounds": [
         [0.6, 2],
         [0.4, 4]
       ]
     } ]
   ],
-  "sb_swordstoneHarvest" : [ //it doesn't level the blades if we don't do this
+  "sb_swordstoneHarvest": [
     [0, {
-      "fill" : [
-        {"item" : "cobblestonematerial"}
+      "fill": [
+        {"item": ["cobblestonematerial",15]}
       ],
-      "pool" : [
-        {"weight" : 0.7, "item" : "stoneblade"},
-        {"weight" : 0.5, "item" : "legendblade"}
-      ]
-    } ],
-    [1, {
-      "fill" : [
-        {"item" : ["cobblestonematerial",5]}
-      ],
-      "pool" : [
-        {"weight" : 0.7, "item" : ["stoneblade",1,{"level":2}]},
-        {"weight" : 0.5, "item" : ["legendblade",1,{"level":2}]}
-      ]
-    } ],
-    [2, {
-      "fill" : [
-        {"item" : ["cobblestonematerial",10]}
-      ],
-      "pool" : [
-        {"weight" : 0.7, "item" : ["stoneblade",1,{"level":3}]},
-        {"weight" : 0.5, "item" : ["legendblade",1,{"level":3}]}
-      ]
-    } ],
-    [3, {
-      "fill" : [
-        {"item" : ["cobblestonematerial",15]}
-      ],
-      "pool" : [
-        {"weight" : 0.7, "item" : ["stoneblade",1,{"level":4}]},
-        {"weight" : 0.5, "item" : ["legendblade",1,{"level":4}]}
-      ]
-    } ],
-    [4, {
-      "fill" : [
-        {"item" : ["cobblestonematerial",20]}
-      ],
-      "pool" : [
-        {"weight" : 0.7, "item" : ["stoneblade",1,{"level":5}]},
-        {"weight" : 0.5, "item" : ["legendblade",1,{"level":5}]}
-      ]
-    } ],
-    [5, {
-      "fill" : [
-        {"item" : ["cobblestonematerial",25]}
-      ],
-      "pool" : [
-        {"weight" : 0.7, "item" : ["stoneblade",1,{"level":6}]},
-        {"weight" : 0.5, "item" : ["legendblade",1,{"level":6}]}
-      ]
-    } ],
-    [6, {
-      "fill" : [
-        {"item" : ["cobblestonematerial",30]}
-      ],
-      "pool" : [
-        {"weight" : 0.7, "item" : ["stoneblade",1,{"level":6}]},
-        {"weight" : 0.5, "item" : ["legendblade",1,{"level":6}]}
-      ]
-    } ],
-    [7, {
-      "fill" : [
-        {"item" : ["cobblestonematerial",35]}
-      ],
-      "pool" : [
-        {"weight" : 0.7, "item" : ["stoneblade",1,{"level":7}]},
-        {"weight" : 0.5, "item" : ["legendblade",1,{"level":7}]}
-      ]
-    } ],
-    [8, {
-      "fill" : [
-        {"item" : ["cobblestonematerial",40]}
-      ],
-      "pool" : [
-        {"weight" : 0.7, "item" : ["stoneblade",1,{"level":8}]},
-        {"weight" : 0.5, "item" : ["legendblade",1,{"level":8}]}
-      ]
-    } ],
-    [9, {
-      "fill" : [
-        {"item" : ["cobblestonematerial",45]}
-      ],
-      "pool" : [
-        {"weight" : 0.7, "item" : ["stoneblade",1,{"level":9}]},
-        {"weight" : 0.5, "item" : ["legendblade",1,{"level":9}]}
-      ]
-    } ],
-    [10, {
-      "fill" : [
-        {"item" : ["cobblestonematerial",50]}
-      ],
-      "pool" : [
-        {"weight" : 0.7, "item" : ["stoneblade",1,{"level":10}]},
-        {"weight" : 0.5, "item" : ["legendblade",1,{"level":10}]}
+      "pool": [
+        {"weight": 0.7, "item": "stoneblade"},
+        {"weight": 0.5, "item": "legendblade"}
       ]
     } ]
   ],
-  "sb_treeHarvest" : [
+  "sb_treeHarvest": [
     [0, {
-      "pool" : [
-        {"weight" : 0.85, "item" : "logblock"},
-        {"weight" : 0.15, "item" : "sb_unrefinedwood"}
+      "pool": [
+        {"weight": 0.85, "item": "logblock"},
+        {"weight": 0.15, "item": "sb_unrefinedwood"}
       ]
     } ]
   ],
-  "sb_fruitTreeHarvest" : [
+  "sb_fruitTreeHarvest": [
     [0, {
-      "pool" : [
-        {"weight" : 0.9, "item" : "plantfibre"},
-        {"weight" : 0.1, "pool" : "sb_fruitTreeHarvestFruit"}
+      "pool": [
+        {"weight": 0.9, "item": "plantfibre"},
+        {"weight": 0.1, "pool": "sb_fruitTreeHarvestFruit"}
       ]
     } ]
   ],
-  "sb_fruitTreeHarvestFruit" : [
+  "sb_fruitTreeHarvestFruit": [
     [0, {
-      "pool" : [
-        {"weight" : 1, "item" : "redapple"},
-        {"weight" : 1, "item" : "orange"}
+      "pool": [
+        {"weight": 1, "item": "redapple"},
+        {"weight": 1, "item": "orange"}
       ]
     } ]
   ],
-  "sb_eyefoliageHarvest" : [
+  "sb_eyefoliageHarvest": [
     [0, {
-      "pool" : [
-        {"weight" : 0.75, "item" : ["eyepiles",3]},
-        {"weight" : 0.25, "item" : "oculemon"}
+      "pool": [
+        {"weight": 0.75, "item": ["eyepiles",3]},
+        {"weight": 0.25, "item": "oculemon"}
+      ]
+    } ]
+  ],
+  "sb_tentacletreeHarvest": [
+    [0, {
+      "pool": [
+        {"weight": 0.9, "item": ["sb_liquidtentaclejuice",3]},
+        {"weight": 0.1, "item": "rawtentacle"}
       ]
     } ]
   ]

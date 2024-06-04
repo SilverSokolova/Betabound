@@ -1,7 +1,7 @@
 {
   "itemName": "sb_hylotltier1hammer",
   "description": "A simple hammer.",
-  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "hammer"],
   "definition": "hammers/t1",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Rockstriker"

@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"tool"}],
+[{"op":"add","path":"/scripts/-","value":"sb_grapplinghook.lua"}]
+]

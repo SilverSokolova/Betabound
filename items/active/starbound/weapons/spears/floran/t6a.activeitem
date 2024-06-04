@@ -1,1 +1,1 @@
-{"definition":["colors/t6a","spears/t6a"],"itemName":"sb_florantier6aspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear","upgradeableWeapon"],"shortdescription":"Treeshredder","description":"A serrated spear with a leaf on it."}
+{"definition":["colors/t6a","spears/t6a"],"itemName":"sb_florantier6aspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear"],"shortdescription":"Treeshredder","description":"A serrated spear with a leaf on it."}

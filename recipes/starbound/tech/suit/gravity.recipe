@@ -1,0 +1,9 @@
+{
+  "input":[
+    ["sb_tech",1,{"techModule":"sb_hover"}],
+    ["sb_tech",1,{"techModule":"sb_jump"}]
+  ],
+  "matchInputParameters": true,
+  "output": ["sb_tech",1,{"techModule":"sb_gravity"}],
+  "groups": ["sb_techconsole","sb_tech_4","nouncrafting","all"]
+}

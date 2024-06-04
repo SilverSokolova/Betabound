@@ -1,24 +1,20 @@
 {
   "globalTagDefaults": {
     "item": "",
-    "plate": "/objects/generic/sb_plate/plate.png"
+    "plate": "plate.png"
   },
   "animatedParts": {
     "stateTypes": {
       "item": {
-        "priority": 0,
         "default": "item",
         "states": {
           "item": {}
         }
       },
       "plate": {
-        "priority": 0,
         "default": "plate",
         "states": {
-          "plate": {},
-          "perfectlygenericitem": {},
-          "sb_plate": {}
+          "plate": {}
         }
       }
     },
@@ -33,7 +29,7 @@
           "item": {
             "item": {
               "properties": {
-                "zLevel": 5,
+                "zLevel": 1,
                 "image": "<item>"
               }
             }
@@ -56,16 +52,6 @@
             "item": {
               "properties": {
                 "image": "<item>"
-              }
-            },
-            "perfectlygenericitem": {
-              "properties": {
-                "image": "perfectlygenericitem.png"
-              }
-            },
-            "sb_plate": {
-              "properties": {
-                "image": "sb_plate.png"
               }
             }
           }

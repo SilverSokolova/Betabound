@@ -2,7 +2,7 @@
   "definition": ["colors/t5m", "spears/t5m"],
   "itemName": "sb_aviantier5mspear",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
-  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "spear"],
   "shortdescription": "The Roaster",
   "description": "A spear shaped like a Christmas turkey."
 }

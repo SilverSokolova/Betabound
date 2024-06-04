@@ -9,6 +9,6 @@
   "sb_tentaclemission-artifact": {
     "unique": false,
     "type": "mission",
-    "text": "I have detected nearby energy readings from the ^orange;Master Manipulator^reset;."
+    "text": "I have detected nearby energy readings from the ^orange;Master Manipulator^reset;. It is advised to retrieve the artifact while the opportunity is available."
   }
 }

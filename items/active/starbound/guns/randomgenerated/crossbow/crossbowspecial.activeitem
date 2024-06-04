@@ -3,7 +3,7 @@
   "sb_definition": "crossbow",
   "rarity": "uncommon",
   "shortdescription": "Elemental Crossbow",
-  "itemTags": ["weapon", "ranged", "crossbow", "bow", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "crossbow", "bow"],
   "configOverrides": {
     "primaryAbility": {
       "projectileType": ["woodenbolt", "flamebolt", "icebolt", "poisonbolt", "electricbolt", "explosivebolt"]

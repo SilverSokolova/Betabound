@@ -1,1 +1,1 @@
-{"description":"A spiny dagger.","shortdescription":"Spinux","itemName":"sb_glitchtier5mdagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t5m","daggers/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A spiny dagger.","shortdescription":"Spinux","itemName":"sb_glitchtier5mdagger","itemTags":["weapon","melee","dagger"],"definition":["colors/t5m","daggers/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

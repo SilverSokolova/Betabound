@@ -1,13 +1,13 @@
 [
+[
+{"op":"test","path":"/rotTimeDescriptions/4/1","value":"^green;Extremely well preserved^reset;"},
+{"op":"replace","path":"/rotTimeDescriptions/4/1","value":"^green;Extremely well-preserved^reset;"}
+],
 [{"op":"test","path":"/rotTimeDescriptions/4/0","value":999999},
 {"op":"move","from":"/rotTimeDescriptions/4","path":"/sb"},
-{"op":"add","path":"/rotTimeDescriptions/-","value":[21600,"^green;Has a decent shelf life^reset;"]},
-{"op":"add","path":"/rotTimeDescriptions/-","value":[32400,"^green;Fresh for an extended time^reset;"]},
-{"op":"add","path":"/rotTimeDescriptions/-","value":[43200,"^green;Will last considerably long^reset;"]},
-{"op":"add","path":"/rotTimeDescriptions/-","value":[54000,"^green;Resists spoiling significantly^reset;"]},
-{"op":"add","path":"/rotTimeDescriptions/-","value":[64800,"^green;Retains freshness very well^reset;"]},
-{"op":"add","path":"/rotTimeDescriptions/-","value":[75600,"^green;Remains fresh for a long time^reset;"]},
-{"op":"add","path":"/rotTimeDescriptions/-","value":[86400,"^green;Edible for a prolonged period^reset;"]},
-{"op":"add","path":"/rotTimeDescriptions/-","value":[97200,"^green;Has an extended shelf life^reset;"]},
+{"op":"add","path":"/rotTimeDescriptions/-","value":[32400,"^green;Has a long shelf life^reset;"]},
+{"op":"add","path":"/rotTimeDescriptions/-","value":[54000,"^green;Will last considerably long^reset;"]},
+{"op":"add","path":"/rotTimeDescriptions/-","value":[75600,"^green;Decentedly preserved^reset;"]},
+{"op":"add","path":"/rotTimeDescriptions/-","value":[86400,"^green;Well-preserved^reset;"]},
 {"op":"move","from":"/sb","path":"/rotTimeDescriptions/-"}]
 ]

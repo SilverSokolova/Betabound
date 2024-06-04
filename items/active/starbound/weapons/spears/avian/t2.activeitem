@@ -1,7 +1,7 @@
 {
   "itemName": "sb_aviantier2spear",
   "description": "A decorated, basic spear.",
-  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "spear"],
   "definition": "spears/t2",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "The Early Bird"

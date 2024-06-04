@@ -1,0 +1,93 @@
+{
+  "ability": {
+    "name": "Vacuum",
+    "type": "sb_vacuum",
+    "scripts": ["/items/active/starbound/guns/abilities/vacuum/vacuum.lua"],
+    "class": "SB_Vacuum",
+    "cooldownTime": 0.75,
+
+    "walkWhileFiring": true,
+    "categoryWhitelist": ["monster", "player", "npc", "vehicle", "itemdrop"],
+    "coneSpeed": [-30, 5], //hi dont change this please
+    "coneForce": 400,
+    "pointSpeed": -10,
+    "pointForce": 500,
+    "outerRadius": 2,
+    "innerRadius": 0.5,
+
+    "baseDps": 2.5,
+    "energyUsage": 20,
+
+    "damageConfigDamage": {
+      "damageSourceKind": "breath",
+      "knockbackMode": "facing",
+      "knockback": -20,
+      "timeout": 0.5
+    },
+
+    "damageConfigVacuum": {
+      "baseDamage": 0,
+      "damageSourceKind": "applystatus",
+      "statusEffects": [{"effect":"ufobeamstun","duration":0.5}],
+      "timeout": 0.05
+    },
+
+    "stances": {
+      "fire": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+
+        "allowRotate": true,
+        "allowFlip": true
+      }
+    }
+  },
+  "animationCustom": {
+    "animatedParts": {
+      "stateTypes": {
+        "vacuum": {
+          "default": "idle",
+          "states": {
+            "idle": {},
+            "active": {
+              "frames": 3,
+              "cycle": 0.3,
+              "mode": "loop"
+            }
+          }
+        }
+      },
+      "parts": {
+        "vacuumCone": {
+          "properties": {
+            "zLevel": -1,
+            "centered": true,
+            "offset": [6, 0],
+            "transformationGroups": ["muzzle"],
+            "vacuumPoly": [[-4.5, 1.5], [-4.5, -1.5], [6,-4], [6,4]],
+            "vacuumStatusEffectPoly": [[-6.5, 1.5], [-6.5, -1.5], [6,-4], [6,4]]
+          },
+          "partStates": {
+            "vacuum": {
+              "idle": {
+                "properties": {
+                  "image": ""
+                }
+              },
+              "active": {
+                "properties": {
+                  "image": "/items/active/starbound/guns/abilities/vacuum/vacuum.png:<frame>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds": {
+      "vacuumStart": ["/sfx/projectiles/gust1.ogg", "/sfx/projectiles/gust2.ogg", "/sfx/projectiles/gust3.ogg"],
+      "vacuumLoop": ["/sfx/npc/boss/kluexboss_vortex_windy.ogg"]
+    }
+  }
+}

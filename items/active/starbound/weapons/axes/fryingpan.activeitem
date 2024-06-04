@@ -12,7 +12,7 @@
     "subtitle": "Frying Pan"
   },
   "twoHanded": false,
-  "itemTags": ["weapon", "melee", "axe", "fryingpan", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "axe", "fryingpan"],
   "animation": "/items/active/starbound/weapons/axe.animation",
 
   "animationCustom": {

@@ -1,4 +1,4 @@
 [
 [{"op":"test","path":"/description","value":"A razor sharp monster claw. Can be used for crafting."},
-{"op":"replace","path":"/description","value":"A razor sharp monster claw."}]
+{"op":"replace","path":"/description","value":"A razor-sharp monster claw."}]
 ]

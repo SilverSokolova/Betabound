@@ -3,5 +3,6 @@
 [{"op":"test","path":"/lightColor","value":[90, 90, 90]},
 {"op":"replace","path":"/lightColor","value":[179, 155, 107]}],
 [{"op":"test","path":"/price","value":800},{"op":"replace","path":"/price","value":400}],
-[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}]
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}],
+[{"op":"test","path":"/tooltipKind","value":"tool"},{"op":"remove","path":"/tooltipKind"}]
 ]

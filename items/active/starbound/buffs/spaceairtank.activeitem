@@ -10,5 +10,5 @@
   "tooltipKind": "sb_tool",
   "category": "tool",
   "effects": ["sb_breathprotectiontech"],
-  "scripts": ["effect.lua"]
+  "scripts": ["effect.lua", "/scripts/activeitem/sb_held.lua"]
 }

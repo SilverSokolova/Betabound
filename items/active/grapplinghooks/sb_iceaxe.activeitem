@@ -1,0 +1,63 @@
+{
+  "itemName": "sb_iceaxe",
+  "price": 250,
+  "inventoryIcon": "sb_iceaxeicon.png",
+  "rarity": "Rare",
+  "maxStack": 1,
+  "description": "A miniature ice axe with a rope attached. Good for climbing.",
+  "shortdescription": "Ice Piton",
+  "category": "tool",
+  "twoHanded": false,
+  "tooltipKind": "sb_object",
+
+  "scripts": ["/items/active/grapplinghooks/grapplinghook.lua", "grapplinghook/sb_grapplinghook.lua"],
+  "animationScripts": ["/items/active/effects/renderrope.lua"],
+  "animation": "grapplinghook/grapplinghook.animation",
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "rope": {
+          "properties": {
+            "image": ""
+          }
+        },
+        "sb_hook": {
+          "partStates": {
+            "sb_hook": {
+              "on": {
+                "properties": {
+                  "image": "sb_iceaxe.png",
+                  "offset": [-0.5, -1]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds": {
+      "fire": ["/sfx/projectiles/throw_item.ogg"]
+    }
+  },
+  "fireOffset": [0.1, 0.2],
+  "ropeOffset": [0, 0],
+  "ropeVisualOffset": [-1, 0.0],
+
+  "consumeOnUse": false,
+
+  "projectileType": "sb_iceaxehook",
+
+  "ropeWidth": 1.4,
+  "ropeColor": [85, 85, 85, 255],
+
+  "reelInDistance": 1.5,
+  "reelOutLength": 30,
+  "breakLength": 35,
+
+  "minSwingDistance": 0,
+
+  "reelSpeed": 8,
+  "controlForce": 4000,
+
+  "groundLagTime": 0.6
+}

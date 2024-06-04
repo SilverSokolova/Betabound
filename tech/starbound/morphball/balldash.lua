@@ -30,12 +30,12 @@ function input(args)
 
     if args.moves[dir] then
       if not inputs[dir] then
-  if doubleTapTimers[dir] > 0 then
-    inputs[dir] = true
-    return actions[dir]
-  else
-    doubleTapTimers[dir] = config.getParameter("maxDoubleTapTime")
-  end
+        if doubleTapTimers[dir] > 0 then
+          inputs[dir] = true
+          return actions[dir]
+        else
+          doubleTapTimers[dir] = config.getParameter("maxDoubleTapTime")
+        end
       end
       inputs[dir] = true
     else
@@ -56,10 +56,10 @@ function update(args)
     elseif active and inputs[dashDirection] and status.overConsumeResource("energy", energyPerSecond * args.dt) then
       local dir = 1
       if dashDirection == "left" then dir = -1 end
-      mcontroller.controlParameters(transformedMovementParameters)
-      mcontroller.controlApproachXVelocity(dir * dashSpeed, dashControlForce)
-      updateAngularVelocity(args.dt)
-      updateRotationFrame(args.dt)
+        mcontroller.controlParameters(transformedMovementParameters)
+        mcontroller.controlApproachXVelocity(dir * dashSpeed, dashControlForce)
+        updateAngularVelocity(args.dt)
+        updateRotationFrame(args.dt)
     else deactivate() end
   updateTransformFade(args.dt)
   lastPosition = mcontroller.position()

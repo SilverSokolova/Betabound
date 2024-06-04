@@ -1,4 +1,5 @@
 [
+[{"op":"add","path":"/sb_craftedParameters","value":{"level":3}}],
 //cave and frozen bows don't get the beta tooltip, so the harpoon gun doesn't either. If we change our mind, have the vbuilder check for 'sb_' in the tooltip (if it has a tooltip)
 [{"op":"test","path":"/level"},{"op":"remove","path":"/level"}],
 [{"op":"test","path":"/fixedLevel","inverse":true},{"op":"add","path":"/fixedLevel","value":false}],

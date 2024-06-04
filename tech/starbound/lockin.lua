@@ -5,7 +5,7 @@ require "/scripts/sb_assetmissing.lua"
 
 function init() sb_techType()
   if not config.getParameter("version") and not player.getProperty("betabound",{}).gotUMR then
-    player.giveItem(root.assetJson("/xrc/deployment/versioning/0018z-urm.json"))
+    player.giveItem(root.assetJson("/scripts/sb_versioning/upgrademoduleremover.json"))
     player.setProperty("betabound",sb.jsonMerge(player.getProperty("betabound",{}),{gotUMR=true}))
   end
   script.setUpdateDelta(20)

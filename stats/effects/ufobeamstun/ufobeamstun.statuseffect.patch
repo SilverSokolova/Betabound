@@ -1,0 +1,22 @@
+[
+  [{
+      "op": "test",
+      "path": "/label",
+      "value": "Ufo Abduction"
+    }, {
+      "op": "replace",
+      "path": "/label",
+      "value": "Stunned"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/label",
+      "value": "UFO Abduction"
+    }, {
+      "op": "replace",
+      "path": "/label",
+      "value": "Stunned"
+    }
+  ]
+]

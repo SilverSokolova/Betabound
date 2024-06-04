@@ -9,7 +9,7 @@
   "price": 120,
   "category": "shortsword",
   "twoHanded": false,
-  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword"],
 
   "inventoryIcon": "huntingknife.png",
   "animation": "/items/active/starbound/weapons/shortsword.animation",

@@ -1,1 +1,4 @@
-[{"op":"add","path":"/sb_uimessage","value":{"representativeItem":"sb_uimessage1","playerMax":0,"sail_secret":true}}]
+[
+{"op":"add","path":"/sb_uimessage","value":{"representativeItem":"sb_uimessage1","playerMax":0,"sail_secret":true}},
+{"op":"add","path":"/sb_questActive:destroyruin","value":{"representativeItem":"sb_uimessage1","playerMax":1,"sail_secret":true}}
+]

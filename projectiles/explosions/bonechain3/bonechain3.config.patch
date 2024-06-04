@@ -1,0 +1,24 @@
+[
+  [{
+      "op": "test",
+      "path": "/list/2/explosiveDamageAmount"
+    }, {
+      "op": "add",
+      "path": "/list/2/harvestLevel",
+      "value": 99
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/list/0/action",
+      "value": "projectile"
+    }, {
+      "op": "test",
+      "path": "/list/0/type",
+      "value": "bonechain3"
+    }, {
+      "op": "remove",
+      "path": "/list/0"
+    }
+  ]
+]

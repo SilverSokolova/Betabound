@@ -1,1 +1,1 @@
-{"definition":["colors/t6m","spears/t6m"],"itemName":"sb_apextier6mspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear","upgradeableWeapon"],"shortdescription":"Speak No Evil","description":"A malevolent, spiked spear."}
+{"definition":["colors/t6m","spears/t6m"],"itemName":"sb_apextier6mspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear"],"shortdescription":"Speak No Evil","description":"A malevolent, spiked spear."}

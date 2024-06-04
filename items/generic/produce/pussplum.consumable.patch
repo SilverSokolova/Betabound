@@ -2,7 +2,7 @@
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
 
 [{"op":"test","path":"/description","value":"Pussplum, some claim it is delicious!"},
-{"op":"replace","path":"/description","value":"Pussplum! Some claim this juicy fruit is delicious!"}],
+{"op":"replace","path":"/description","value":"Some claim this juicy fruit is delicious!"}],
 
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
 [{"op":"add","path":"/effects/0/-","value":{"effect":"ragefood","duration":68}}],

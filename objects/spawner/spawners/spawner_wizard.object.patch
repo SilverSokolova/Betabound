@@ -1,8 +1,8 @@
 [
-[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":""}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
 [{"op":"test","path":"/orientations/0/anchors/0","value":"bottom"},{"op":"test","path":"/orientations/0/anchors/1","value":"background"},{"op":"remove","path":"/orientations/0/anchors/1"}],
 
 [{"op":"test","path":"/shortdescription","value":"Wizard Spawner"},{"op":"replace","path":"/shortdescription","value":"^yellow;Wizard Spawner^reset;"}],
-[{"op":"replace","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/novakidDescription","inverse":true},{"op":"add","path":"/novakidDescription","value":"Do ya think a wizard could give me some kinda magic bullets?"}],
 [{"op":"add","path":"/scripts/-","value":"sb_spawner.lua"}]
 ]

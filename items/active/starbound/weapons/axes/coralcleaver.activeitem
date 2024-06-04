@@ -10,7 +10,7 @@
   "category": "axe",
   "twoHanded": false,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "axe"],
   "animation": "/items/active/starbound/weapons/axe.animation",
 
   "sb_dyeable": true,
@@ -84,5 +84,10 @@
       }
     }
   },
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "seed": 1,
+    "level": 5
+  }
 }

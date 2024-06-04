@@ -12,7 +12,7 @@
   "level": 1,
   "description": "Fires a spread that's lethal at close range.",
   "shortdescription": "Legendary Shotgun",
-  "itemTags": ["weapon", "ranged", "shotgun", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "shotgun"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
   "animationParts": {
@@ -93,7 +93,8 @@
         "grenadelauncher",
         "stickyshot",
         "shrapnelbomb",
-        "burstshot"
+        "burstshot",
+        "sb_vacuum"
       ]
     }
   ],

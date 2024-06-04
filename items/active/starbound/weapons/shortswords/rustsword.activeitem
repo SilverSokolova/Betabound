@@ -12,7 +12,7 @@
   "description": "",
   "shortdescription": "Rust Sword",
   "twoHanded": false,
-  "itemTags": ["weapon", "melee", "shortsword", "rust", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword", "rust"],
   "animation": "/items/active/starbound/weapons/shortsword.animation",
 
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],

@@ -7,7 +7,7 @@
   "tooltipFields": {
     "damageKindImage": "/interface/sb_tooltips/electric.png"
   },
-  "itemTags": ["weapon", "ranged", "pistol", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "pistol"],
   "category": "pistol",
   "fixedRarity": true,
   "rarity": "Rare",

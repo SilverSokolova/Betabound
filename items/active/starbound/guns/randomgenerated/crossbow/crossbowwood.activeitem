@@ -3,7 +3,7 @@
   "sb_definition": "crossbow",
   "rarity": "common",
   "shortdescription": "Wooden Crossbow",
-  "itemTags": ["weapon", "ranged", "crossbow", "bow", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "crossbow", "bow"],
   "configOverrides": {
     "builderConfig": [{
         "palette": "/items/active/starbound/colors/crossbowwood.weaponcolors"

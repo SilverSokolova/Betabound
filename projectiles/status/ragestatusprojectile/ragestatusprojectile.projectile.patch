@@ -1,0 +1,29 @@
+[
+  [{
+      "op": "test",
+      "path": "/actionOnReap/0/body/0/specification",
+      "value": "redgas"
+    }, {
+      "op": "replace",
+      "path": "/actionOnReap/0",
+      "value": {
+        "action": "projectile",
+        "type": "sb_ragebomb",
+        "config": {
+          "timeToLive": 0,
+          "speed": 0
+        }
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/damageKind",
+      "value": "default"
+    }, {
+      "op": "replace",
+      "path": "/damageKind",
+      "value": "nodamage"
+    }
+  ]
+]

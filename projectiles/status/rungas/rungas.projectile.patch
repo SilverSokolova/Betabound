@@ -1,0 +1,25 @@
+[
+  [{
+      "op": "test",
+      "path": "/statusEffects/0",
+      "value": "runboost"
+    }, {
+      "op": "replace",
+      "path": "/statusEffects/0",
+      "value": {
+        "effect": "runboost",
+        "duration": 60
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/damageKind",
+      "value": "default"
+    }, {
+      "op": "replace",
+      "path": "/damageKind",
+      "value": "nodamage"
+    }
+  ]
+]

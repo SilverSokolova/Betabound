@@ -4,15 +4,15 @@
   "rarity": "rare",
   "maxStack": 1,
   "price": 100,
-  "description": "This device displays your current health, energy, and hunger as numeric values.",
+  "description": "This gadget displays your current health, energy, and hunger as numeric values.",
   "shortdescription": "Health Monitor",
   "tooltipKind": "sb_tool",
   "largeImage": "healthmonitor.png",
   "category": "tool",
-  "scriptDelta": 1,
   "itemTags": ["sb_info"],
-  "animationScripts": ["healthmonitor.lua"],
-  "scripts": ["healthmonitor2.lua"],
+  "animationScripts": ["animation.lua", "/scripts/animations/sb_info.lua"],
+  "scripts": ["healthmonitor.lua", "/scripts/activeitem/sb_held.lua"],
+
   "colors": [["f72929", "3bc431", "d5ab36"], ["ffa5a5", "7bdc73", "dfc068"]],
   "resources": ["health", "energy", "food"]
 }

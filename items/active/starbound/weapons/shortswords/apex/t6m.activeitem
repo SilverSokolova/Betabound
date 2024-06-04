@@ -1,1 +1,1 @@
-{"description":"A lethal, pointed blade.","shortdescription":"Shrieker","itemName":"sb_apextier6mshortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t6m","shortswords/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A lethal, pointed blade.","shortdescription":"Shrieker","itemName":"sb_apextier6mshortsword","itemTags":["weapon","melee","shortsword"],"definition":["colors/t6m","shortswords/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

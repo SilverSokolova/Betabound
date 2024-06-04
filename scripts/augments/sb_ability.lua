@@ -7,6 +7,7 @@ function apply(input)
     or string.find(output:instanceValue("tooltipKind", "base"), "sup") --Supper's Combat Overhaul weapons tend to just eat the ability items. Possibly for the same reason as the Thorny Needler...?
   then return output:descriptor(), 0 end
   local slot = config.getParameter("slot", "alt").."AbilityType"
+  slotName = slot:match("[a-z]+").."Abilities"
   local currentAbility = output:instanceValue(slot, "1")
   newAbility = config.getParameter("ability", "0")
   valid = false
@@ -53,7 +54,7 @@ function checkPossibleAbilities(itemName)
   builderConfig = builderConfig and builderConfig.config.builderConfig or nil
   if builderConfig then
     for i = 1, #builderConfig do
-      local possibleAbilities = builderConfig[i].altAbilities
+      local possibleAbilities = builderConfig[i][slotName]
       if possibleAbilities then
         for j = 1, #possibleAbilities do
           if possibleAbilities[j] == newAbility then

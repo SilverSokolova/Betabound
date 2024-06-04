@@ -1,1 +1,1 @@
-{"itemName":"sb_glitchtier3spear","description":"A good spear.","itemTags":["weapon","melee","spear","upgradeableWeapon"],"definition":"spears/t3","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","shortdescription":"Poke"}
+{"itemName":"sb_glitchtier3spear","description":"A good spear.","itemTags":["weapon","melee","spear"],"definition":"spears/t3","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","shortdescription":"Poke"}

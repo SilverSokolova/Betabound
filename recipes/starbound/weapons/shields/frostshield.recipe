@@ -1,5 +1,5 @@
 {
   "input" : [["titaniumbar",5],["snowflake",15]],
-  "output" : ["frostshield",1,{"level":3}],
+  "output" : ["frostshield",1,{"sb_crafted":true}],
   "groups" : ["craftinganvil2","weapons","all"]
 }

@@ -1,13 +1,23 @@
 {
-  "itemName" : "sb_doping",
-  "rarity" : "legendary",
-  "inventoryIcon" : [{"image":"greenstim.png","position":[-1,1]},{"image":"bluestim.png","position":[3,1]},{"image":"medkit.png","position":[0,8]}],
-  "category" : "medicine",
-  "description" : "Not really a med kit. For when you absolutely, positively have to be 100% cheaty.",
-  "shortdescription" : "Doping Kit",
-  "tooltipKind" : "sb_object",
-  "price" : 260,
-  "effects" : [
+  "itemName": "sb_doping",
+  "rarity": "legendary",
+  "inventoryIcon": [{
+      "image": "greenstim.png",
+      "position": [-1, 1]
+    }, {
+      "image": "bluestim.png",
+      "position": [3, 1]
+    }, {
+      "image": "medkit.png",
+      "position": [0, 8]
+    }
+  ],
+  "category": "medicine",
+  "description": "Not really a med kit. For when you absolutely, positively have to be 100% cheaty.",
+  "shortdescription": "Doping Kit",
+  "tooltipKind": "sb_object",
+  "price": 260,
+  "effects": [
       [{"effect":"jumpboost","duration":120},{"effect":"runboost","duration":120}],
       [{"effect":"jumpboost20","duration":120},{"effect":"runboost20","duration":120}],
       [{"effect":"jumpboostaugment","duration":120},{"effect":"runboostaugment","duration":120}],
@@ -15,6 +25,6 @@
       [{"effect":"sb_jumptech","duration":120},{"effect":"sb_speedtech","duration":120}],
       [{"effect":"sb_mobilitytech","duration":120}],
       [{"effect":"sb_sugarrush","duration":120}]
-    ],
-  "emote" : ""
+  ],
+  "emote": ""
 }

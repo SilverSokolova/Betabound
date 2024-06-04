@@ -1,7 +1,7 @@
 {
   "itemName": "sb_florantier3spear",
   "description": "A spear on a fancy stick.",
-  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "spear"],
   "definition": "spears/t3",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Strippoker"

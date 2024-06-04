@@ -1,6 +1,10 @@
 [[
 {"op":"test","path":"/description","value":"These naturally occurring crystals produce energy."},
 {"op":"replace","path":"/description","value":"These naturally occurring crystals produce energy. They're surprisingly useful."}],
+
+[{"op":"test","path":"/fuelAmount","inverse":true},{"op":"add","path":"/fuelAmount","value":6}],
+[{"op":"replace","path":"/category","value":"fuel"}],
+
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
 {"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"upgrademodule"}]

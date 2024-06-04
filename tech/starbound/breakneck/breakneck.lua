@@ -42,7 +42,7 @@ function update()
       velocity = math.max(0, velocity/turnVelocityDecrease)
     end
     lastMovementDirection = newMovementDirection
-    mcontroller.controlParameters({normalGroundFriction = baseParameters.normalGroundFriction - (velocity * groundFrictionFactor)})
+    mcontroller.controlParameters({normalGroundFriction = baseParameters.normalGroundFriction + (mcontroller.crouching() and 2 or 0) - (velocity * groundFrictionFactor)})
     mcontroller.controlModifiers({speedModifier = 1 + velocity})
 
     toggleAnimation(velocity >= 1 and velocity <= maximumVelocity, math.floor(velocity), math.floor(xVelocity))

@@ -1,5 +1,5 @@
 {
   "input" : [["money",150]],
   "output" : "sb_walllight",
-  "groups" : ["sb_portable3dprinter","sb_lights","all"]
+  "groups" : ["sb_portable3dprinter","lights","all"]
 }

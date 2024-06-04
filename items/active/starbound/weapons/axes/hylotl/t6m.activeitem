@@ -1,6 +1,6 @@
 {
   "description": "A ridged scythe suited for coral mining.",
-  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "axe"],
   "itemName": "sb_hylotltier6maxe",
   "definition": ["colors/t6m", "axes/m"],
   "shortdescription": "Coralchipper",

@@ -341,7 +341,8 @@
     "jukebox": {
       "icon": "/sfx/objects/jukebox.ogg",
       "title": "Jukebox",
-      "special": true
+      "special": true,
+      "description": "Toby Fox"
     },
     "jungleloveall": {
       "description": "Big Ape",
@@ -379,10 +380,9 @@
     },
     "clubdecks2": {
       "icon": "/sfx/objects/clubdecks2.ogg",
-      "title": "Underground (Club)",
+      "title": "Underground - Club Decks",
       "description": "Toby Fox"
     },
-
     "poptop": {
       "icon": "/sfx/npc/monsters/poptop_sing_loop.ogg",
       "title": "Poptop Humming",

@@ -42,19 +42,11 @@
     }
   ],
   [{
-      "op": "test",
-      "path": "/itemTags",
-      "inverse": true
-    }, {
       "op": "add",
-      "path": "/itemTags",
-      "value": []
-    }
-  ],
-  [{
-      "op": "add",
-      "path": "/itemTags/-",
-      "value": "upgradeableWeapon"
+      "path": "/sb_craftedParameters",
+      "value": {
+        "level": 3
+      }
     }
   ]
 ]

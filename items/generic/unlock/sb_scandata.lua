@@ -11,6 +11,7 @@ function reset()
 end
 
 function swingAction()
+  world.sendEntityMessage(entity.id(), "objectScanned", recipe) --This is here so players that deleted the object from their printer via the Lagless Pixel Printer mod can relearn it
   if player.addScannedObject(recipe) then
     consume = not reusable
     used = true
@@ -19,7 +20,6 @@ function swingAction()
   if used then
     animator.playSound("success")
     sb_uiMessage("scandataLearned")
-    world.sendEntityMessage(entity.id(), "objectScanned", recipe)
   else
     sb_uiMessage("scandataKnown")
   end

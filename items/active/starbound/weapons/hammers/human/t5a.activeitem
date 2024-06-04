@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"Like Hammertime, but twice as strong.","itemTags":["weapon","melee","hammer","upgradeableWeapon"],"definition":["colors/t5a","hammers/t5a"],"itemName":"sb_humantier5ahammer","shortdescription":"Double Hammertime"}
+{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"Like Hammertime, but twice as strong.","itemTags":["weapon","melee","hammer"],"definition":["colors/t5a","hammers/t5a"],"itemName":"sb_humantier5ahammer","shortdescription":"Double Hammertime"}

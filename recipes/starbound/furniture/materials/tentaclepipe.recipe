@@ -1,0 +1,6 @@
+{
+  "input": ["tentacleblock"],
+  "output": ["tentaclepipe",10],
+  "duration": 0.25,
+  "groups": ["craftingfurniture","materials","all"]
+}

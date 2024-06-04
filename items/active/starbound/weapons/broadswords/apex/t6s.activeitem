@@ -1,1 +1,1 @@
-{"description":"A hefty, chunky broadsword.","shortdescription":"Gorillatooth","itemName":"sb_apextier6sbroadsword","definition":["colors/t6s","broadswords/t6s"],"itemTags":["weapon","melee","broadsword","upgradeableWeapon"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A hefty, chunky broadsword.","shortdescription":"Gorillatooth","itemName":"sb_apextier6sbroadsword","definition":["colors/t6s","broadswords/t6s"],"itemTags":["weapon","melee","broadsword"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

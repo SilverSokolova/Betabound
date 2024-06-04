@@ -22,7 +22,7 @@
       "sb_foodheal145"
     ]],
   "inventoryIcon": "/objects/hylotl/smashabledrink1/smashabledrink1icon.png",
-  "sb_plateImage": "/objects/hylotl/smashabledrink1/smashabledrink1.png",
+  "sb_plateImage": "/objects/hylotl/smashabledrink1/smashabledrink1.png?flipx",
   "description": "A bottle of smooth avesmingo cordial.",
   "shortdescription": "Avesmingo Cordial Bottle",
   "handPosition": [1, -3],

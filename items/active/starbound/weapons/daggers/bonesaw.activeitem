@@ -14,7 +14,7 @@
   },
   "twoHanded": false,
   "sb_dyeable": true,
-  "itemTags": ["weapon", "melee", "dagger", "bonesaw", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "dagger", "bonesaw"],
   "handGrip": "inside",
   "animation": "/items/active/starbound/weapons/dagger.animation",
   "animationParts": {},

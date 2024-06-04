@@ -1,1 +1,1 @@
-{"description":"A hugely strong axe.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_apextier5maxe","definition":["colors/t5m","axes/m"],"shortdescription":"Miniknog Berserker","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A hugely strong axe.","itemTags":["weapon","melee","axe"],"itemName":"sb_apextier5maxe","definition":["colors/t5m","axes/m"],"shortdescription":"Miniknog Berserker","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

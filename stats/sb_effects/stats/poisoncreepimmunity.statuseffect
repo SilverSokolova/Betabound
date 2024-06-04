@@ -1,0 +1,7 @@
+{
+  "name": "sb_poisoncreepimmunity",
+  "effectConfig": {
+    "stat": "sb_poisoncreepImmunity"
+  },
+  "scripts": ["a.lua"]
+}

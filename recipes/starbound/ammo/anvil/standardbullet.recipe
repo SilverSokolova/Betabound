@@ -1,5 +1,5 @@
 {
   "input" : ["sb_gunpowder","lead"],
   "output" : ["sb_ammo",50,{"projectileType":"standardbullet"}],
-  "groups" : ["sb_ammo","craftinganvil","all"]
+  "groups" : ["consumables","craftinganvil","all"]
 }

@@ -1,1 +1,1 @@
-{"description":"A two-pronged axe.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_apextier5saxe","definition":["colors/t5s","axes/s"],"shortdescription":"Orangufang","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A two-pronged axe.","itemTags":["weapon","melee","axe"],"itemName":"sb_apextier5saxe","definition":["colors/t5s","axes/s"],"shortdescription":"Orangufang","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

@@ -1,11 +1,11 @@
 {
-  "itemName" : "sb_aegisaltbar",
-  "price" : 12,
-  "tooltipKind" : "sb_object",
-  "rarity" : "Rare",
-  "category" : "craftingMaterial",
-  "itemTags" : ["reagent"],
-  "inventoryIcon" : "sb_aegisaltbar.png",
-  "description" : "This bar is primarily used for crafting serene furniture.",
-  "shortdescription" : "Aegisalt Bar"
+  "itemName": "sb_aegisaltbar",
+  "price": 12,
+  "tooltipKind": "sb_object",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "itemTags": ["reagent"],
+  "inventoryIcon": "sb_aegisaltbar.png",
+  "description": "This bar is primarily used for crafting serene furniture.",
+  "shortdescription": "Aegisalt Bar"
 }

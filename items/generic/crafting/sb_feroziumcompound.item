@@ -1,12 +1,12 @@
 {
-  "itemName" : "sb_feroziumcompound",
-  "price" : 300,
-  "tooltipKind" : "sb_object4",
-  "rarity" : "Legendary",
-  "category" : "craftingMaterial",
-  "itemTags" : ["reagent"],
-  "learnBlueprintsOnPickup" : ["sb_feroziumbar"],
-  "inventoryIcon" : "sb_feroziumcompound.png",
-  "description" : "This compound shines with an almost otherworldly quality. Weapons made from this prioritize attack speed.",
-  "shortdescription" : "Scintillium Compound"
+  "itemName": "sb_feroziumcompound",
+  "price": 300,
+  "tooltipKind": "sb_object4",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "itemTags": ["reagent"],
+  "learnBlueprintsOnPickup": ["sb_feroziumbar"],
+  "inventoryIcon": "sb_feroziumcompound.png",
+  "description": "This compound shines with an almost otherworldly quality. Weapons made from this prioritize attack speed.",
+  "shortdescription": "Scintillium Compound"
 }

@@ -1,38 +1,42 @@
 {
-  "objectName" : "sb_modernladder",
-  "rarity" : "unCommon",
-  "tooltipKind" : "sb_object",
-  "category" : "other",
-  "tooltipFields" : {"subtitle" : "Ladder"},
-  "price" : 10,
-  "description" : "Made from a modern material, this ladder is smooth to the touch.",
-  "shortdescription" : "Modern Ladder",
-  "race" : "generic",
-  "health" : 1.5,
-  "printable" : false,
-  "radioMessagesOnPickup" : ["sb_pickupladder"],
+  "objectName": "sb_modernladder",
+  "rarity": "unCommon",
+  "tooltipKind": "sb_object",
+  "category": "other",
+  "tooltipFields": {
+    "subtitle": "Ladder",
+    "objectImage": "/objects/sb_ladders/modernladderlarge.png"
+  },
+  "price": 10,
+  "description": "Made from a modern material, this ladder is smooth to the touch.",
+  "shortdescription": "Modern Ladder",
+  "race": "generic",
+  "health": 1.5,
+  "printable": false,
+  "radioMessagesOnPickup": ["sb_pickupladder"],
 
-  "glitchDescription" : "Satisfied. This smooth ladder is attractive and sturdy.",
-  "floranDescription" : "Ssmooth modern ladder.",
-  "novakidDescription" : "Some fancy lookin' metal ladder.",
+  "glitchDescription": "Satisfied. This smooth ladder is attractive and sturdy.",
+  "floranDescription": "Ssmooth modern ladder.",
+  "novakidDescription": "Some fancy lookin' metal ladder.",
 
-  "inventoryIcon" : "modernladdericon.png",
-  "orientations" : [
-    {
-      "image" : "modernladder.png:bottom",
-      "imagePosition" : [0, 0],
-      "animationPosition" : [0, 0],
-      "flipImages" : false,
+  "inventoryIcon": "modernladdericon.png",
+  "orientations": [{
+      "image": "modernladder.png:bottom",
+      "imagePosition": [0, 0],
+      "animationPosition": [0, 0],
+      "flipImages": false,
 
-      "spaces" : [[0, 0], [1, 0]],
-      "anchors" : ["bottom"],
-      "collision" : "platform"
+      "spaces": [[0, 0], [1, 0]],
+      "anchors": ["bottom"],
+      "collision": "platform"
     }
   ],
 
-  "animation" : "ladder.animation",
-  "animationParts" : {"ladder" : "modernladder.png"},
-  "statusEffects" : ["sb_ladder"],
-  "scripts" : ["ladder.lua"],
-  "scriptDelta" : 60
+  "animation": "ladder.animation",
+  "animationParts": {
+    "ladder": "modernladder.png"
+  },
+  "statusEffects": ["sb_ladder"],
+  "scripts": ["ladder.lua"],
+  "scriptDelta": 60
 }

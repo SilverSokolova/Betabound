@@ -1,1 +1,1 @@
-{"description":"A serrated shortsword.","shortdescription":"Small White","itemName":"sb_hylotltier6ashortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t6a","shortswords/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A serrated shortsword.","shortdescription":"Small White","itemName":"sb_hylotltier6ashortsword","itemTags":["weapon","melee","shortsword"],"definition":["colors/t6a","shortswords/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

@@ -1,1 +1,1 @@
-{"definition":["colors/t6m","spears/t6m"],"itemName":"sb_hylotltier6mspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear","upgradeableWeapon"],"shortdescription":"Trident","description":"A striking trident spear."}
+{"definition":["colors/t6m","spears/t6m"],"itemName":"sb_hylotltier6mspear","builder":"/items/buildscripts/starbound/buildunrandweapon.lua","itemTags":["weapon","melee","spear"],"shortdescription":"Trident","description":"A striking trident spear."}

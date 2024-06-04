@@ -1,8 +1,9 @@
 require "/scripts/augments/item.lua"
+require "/scripts/sb_assetmissing.lua"
 
 function apply(input)
   local output = Item.new(input)
-  if output:instanceValue("sb_uncopyable") or string.sub(output.name, -7) == "-recipe" then return output:descriptor(), 0 end --Blueprints aren't stackable nor do they have a maxStack value
+  if output:instanceValue("sb_uncopyable") or (string.sub(output.name, -7) == "-recipe" and sb_checkClient() ~= "OpenSB") then return output:descriptor(), 0 end --Blueprints aren't stackable nor do they have a maxStack value
   local count = 0
   local maxStack = output:instanceValue("maxStack", root.assetJson("/items/defaultParameters.config:defaultMaxStack"))
   local conditions = config.getParameter("sb_copybookConditions")

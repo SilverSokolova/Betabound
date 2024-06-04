@@ -1,7 +1,7 @@
 {
   "itemName": "sb_apextier3hammer",
   "description": "A precise hammer.",
-  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "hammer"],
   "definition": "hammers/t3",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "The Riveter"

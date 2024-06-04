@@ -1,6 +1,6 @@
 {
   "description": "A rotary-style scythe.",
-  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "axe"],
   "itemName": "sb_hylotltier5saxe",
   "definition": ["colors/t5s", "axes/s"],
   "shortdescription": "The Propeller",

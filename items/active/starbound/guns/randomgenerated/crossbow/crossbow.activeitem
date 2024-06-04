@@ -2,6 +2,6 @@
   "itemName": "sb_crossbow",
   "sb_definition": "crossbow",
   "shortdescription": "Crossbow",
-  "itemTags": ["weapon", "ranged", "crossbow", "bow", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "crossbow", "bow"],
   "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

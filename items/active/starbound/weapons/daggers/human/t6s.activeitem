@@ -2,7 +2,7 @@
   "description": "A gilded dagger fit for a king (to be stabbed with).",
   "shortdescription": "King's Ruin",
   "itemName": "sb_humantier6sdagger",
-  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "dagger"],
   "definition": ["colors/t6s", "daggers/s"],
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

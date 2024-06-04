@@ -1,7 +1,7 @@
 {
   "itemName": "sb_humantier2shortsword",
   "description": "A regular shortsword modified to look cooler.",
-  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword"],
   "definition": "shortswords/t2",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Cool Shortsword"

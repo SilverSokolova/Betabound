@@ -1,1 +1,1 @@
-{"description":"An easy to conceal dagger.","shortdescription":"The Plucker","itemName":"sb_aviantier5sdagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t5s","daggers/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"An easy to conceal dagger.","shortdescription":"The Plucker","itemName":"sb_aviantier5sdagger","itemTags":["weapon","melee","dagger"],"definition":["colors/t5s","daggers/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

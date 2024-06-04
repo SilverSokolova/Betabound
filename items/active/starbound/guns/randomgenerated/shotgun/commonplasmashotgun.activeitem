@@ -12,7 +12,7 @@
   "level": 1,
   "description": "Fires a plasma spread that's lethal at close range.",
   "shortdescription": "Common Plasma Shotgun",
-  "itemTags": ["weapon", "ranged", "shotgun", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "shotgun"],
   "tooltipFields": {
     "subtitle": "Plasma Shotgun"
   },
@@ -90,7 +90,8 @@
         "grenadelauncher",
         "stickyshot",
         "shrapnelbomb",
-        "burstshot"
+        "burstshot",
+        "sb_vacuum"
       ]
     }
   ],

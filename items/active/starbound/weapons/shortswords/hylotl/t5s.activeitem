@@ -1,1 +1,1 @@
-{"description":"A small gutting sword.","shortdescription":"Skittlefish","itemName":"sb_hylotltier5sshortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t5s","shortswords/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A small gutting sword.","shortdescription":"Skittlefish","itemName":"sb_hylotltier5sshortsword","itemTags":["weapon","melee","shortsword"],"definition":["colors/t5s","shortswords/s"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

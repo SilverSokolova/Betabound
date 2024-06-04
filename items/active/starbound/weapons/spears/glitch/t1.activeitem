@@ -1,7 +1,7 @@
 {
   "itemName": "sb_glitchtier1spear",
   "description": "A basic spear.",
-  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "spear"],
   "definition": "spears/t1",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Ping"

@@ -1,0 +1,59 @@
+{
+  "objectName": "sb_techstation_floran",
+  "rarity": "legendary",
+  "learnBlueprintsOnPickup": ["sb_techstation_floran"],
+  "radioMessagesOnPickup": ["sb_pickuptechstation"],
+  "category": "techManagement",
+  "price": 6000,
+  "tooltipKind": "sb_object",
+  "tooltipFields": {
+    "objectImage": "/objects/upgrade/sb_techstation/floran.png:default.2"
+  },
+  "description": "A tech binding station. For binding awesome tech!",
+  "shortdescription": "^orange;Floran Tech Binder^reset;",
+  "race": "floran",
+  "printable": false,
+  "lightColor": [173, 0, 185],
+  "lightPosition": [-1, 0],
+  "interactAction": "ScriptPane",
+  "interactData": "/interface/scripted/sb_techselection/techselection.config",
+
+  "apexDescription": "This complex machine allows me to bind useful techs.",
+  "avianDescription": "This console lets me bind techs! Useful devices, once you get over the weirdness.",
+  "floranDescription": "This consssole lets Floran bind techs! New techsss always very exciting.",
+  "glitchDescription": "Excited. This console allows me to bind techs.",
+  "humanDescription": "I can bind techs here! What a handy machine.",
+  "hylotlDescription": "Techs are a fascinating advancement in bioengineering. I can bind them here.",
+  "novakidDescription": "With a little know-how, I can use this machine to bind techs.",
+
+  "inputNodes": [[-2, -1]],
+  "scripts": ["techstation.lua"],
+  "animation": "techstation.animation",
+  "animationParts": {
+    "station0": "floran0.png",
+    "lit0": "floranlit0.png",
+    "station": "floran.png",
+    "lit": "floranlit.png"
+  },
+  "animationPosition": [-16, -8],
+  "active": true,
+
+  "placementImage": "floran.png:default.2",
+  "placementImagePosition": [-16, -8],
+  "inventoryIcon": "icons.png:3",
+  "orientations": [{
+      "imageLayers": [{
+          "image": "floran.png:<color>.<frame>",
+          "fullbright": true
+        }, {
+          "image": "floranlit.png:<color>.<frame>"
+        }
+      ],
+      "imagePosition": [-16, -8],
+      "frames": 8,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ]
+}

@@ -37,5 +37,35 @@
       "path": "/category",
       "value": "crafting"
     }
+  ],
+  [{
+      "op": "test",
+      "path": "/particleEmitter",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/particleEmitter",
+      "value": {
+        "emissionRate": 1,
+        "emissionVariance": 0.5,
+        "particle": {
+          "type": "ember",
+          "position": [-0.5, 2.3],
+          "size": 1,
+          "color": [255, 100, 0, 255],
+          "light": [150, 50, 50],
+          "fade": 0.9,
+          "initialVelocity": [0, 5],
+          "finalVelocity": [0, 3],
+          "approach": [0, 20],
+          "timeToLive": 2,
+          "layer": "middle"
+        },
+        "particleVariance": {
+          "initialVelocity": [0.5, 2],
+          "position": [0.4, 0]
+        }
+      }
+    }
   ]
 ]

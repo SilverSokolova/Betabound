@@ -2,7 +2,7 @@
   "description": "A large, hard-to-conceal dagger.",
   "shortdescription": "Unsubtle Knife",
   "itemName": "sb_humantier5mdagger",
-  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "dagger"],
   "definition": ["colors/t5m", "daggers/m"],
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

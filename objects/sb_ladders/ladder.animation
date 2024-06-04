@@ -25,17 +25,17 @@
           "ladder": {
             "top": {
               "properties": {
-                "image": "<partImage>:top"
+                "image": "<partImage>:top<color>"
               }
             },
             "middle": {
               "properties": {
-                "image": "<partImage>:middle"
+                "image": "<partImage>:middle<color>"
               }
             },
             "bottom": {
               "properties": {
-                "image": "<partImage>:bottom"
+                "image": "<partImage>:bottom<color>"
               }
             }
           }

@@ -1,20 +1,20 @@
 [
-/*  [{
-      "op": "test",
-      "path": "/builder",
-      "value": "/items/buildscripts/buildunrandshield.lua"
-    }, {
-      "op": "replace",
-      "path": "/builder",
-      "value": "/items/buildscripts/buildshield.lua"
-    }, {
-      "op": "add",
-      "path": "/builderConfig",
-      "value": [{
-          "nameGenerator": "sb_eyeshieldnames.config:nameGen"
-        }
-      ]
-    }
+  /*  [{
+  "op": "test",
+  "path": "/builder",
+  "value": "/items/buildscripts/buildunrandshield.lua"
+  }, {
+  "op": "replace",
+  "path": "/builder",
+  "value": "/items/buildscripts/buildshield.lua"
+  }, {
+  "op": "add",
+  "path": "/builderConfig",
+  "value": [{
+  "nameGenerator": "sb_eyeshieldnames.config:nameGen"
+  }
+  ]
+  }
   ],*/
   [{
       "op": "test",
@@ -44,24 +44,18 @@
   ],
   [{
       "op": "test",
-      "path": "/itemTags",
+      "path": "/fixedLevel",
       "inverse": true
     }, {
       "op": "add",
-      "path": "/itemTags",
-      "value": []
-    }
-  ],
-  [{
-      "op": "add",
-      "path": "/itemTags/-",
-      "value": "upgradeableWeapon"
+      "path": "/fixedLevel",
+      "value": false
     }
   ]
-//  [{
-//      "op": "add",
-//      "path": "/sb_subtitle",
-//      "value": "Eye Shield"
-//    }
-//  ]
+  //  [{
+  //      "op": "add",
+  //      "path": "/sb_subtitle",
+  //      "value": "Eye Shield"
+  //    }
+  //  ]
 ]

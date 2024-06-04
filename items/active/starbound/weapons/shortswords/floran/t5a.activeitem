@@ -1,1 +1,1 @@
-{"description":"A shortsword bound in vines.","shortdescription":"Bindslicer","itemName":"sb_florantier5ashortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t5a","shortswords/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A shortsword bound in vines.","shortdescription":"Bindslicer","itemName":"sb_florantier5ashortsword","itemTags":["weapon","melee","shortsword"],"definition":["colors/t5a","shortswords/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

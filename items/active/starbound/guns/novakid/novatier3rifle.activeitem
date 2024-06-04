@@ -8,7 +8,7 @@
   "description": "The gun that won't be tamed.",
   "shortdescription": "Kablammity Jane",
   "level": 3,
-  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid"],
   "configOverrides": {
     "baseOffset": [0.75, 0.125]
   },

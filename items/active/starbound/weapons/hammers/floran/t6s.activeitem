@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"The best of all hammers.","itemTags":["weapon","melee","hammer","upgradeableWeapon"],"definition":["colors/t6s","hammers/t6s"],"itemName":"sb_florantier6shammer","shortdescription":"Smash Everything"}
+{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"The best of all hammers.","itemTags":["weapon","melee","hammer"],"definition":["colors/t6s","hammers/t6s"],"itemName":"sb_florantier6shammer","shortdescription":"Smash Everything"}

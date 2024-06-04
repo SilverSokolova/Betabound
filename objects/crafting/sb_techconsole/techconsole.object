@@ -6,20 +6,9 @@
   "price": 6000,
   "tooltipKind": "sb_object",
   "radioMessagesOnPickup": ["sb_pickuptechconsole"],
-  "learnBlueprintsOnPickup": ["sb_techconsole"],
   "interactAction": "OpenCraftingInterface",
   "interactData": {
     "config": "/interface/windowconfig/sb_craftingtechconsole.config",
-    "paneLayoutOverride": {
-      "windowtitle": {
-        "title": "TECH DEVELOPMENT CONSOLE",
-        "subtitle": "Develop specialized tech!",
-        "icon": {
-          "file": "/interface/sb_crafting/craftingicons.png:techconsole"
-        }
-      }
-    },
-    "requiresBlueprint": false,
     "filter": ["sb_techconsole"]
   },
 
@@ -33,6 +22,7 @@
   "glitchDescription": "Pleased. A console that will allow me to create new tech.",
   "humanDescription": "The first time I used one of these to create new tech, it blew my mind. Then blew up my backpack, but that's besides the point.",
   "hylotlDescription": "A convenient, impressive way to create new tech.",
+  "novakidDescription": "I can make all sorts of tech here.",
 
   "category": "crafting",
   "lightColor": [54, 77, 89],

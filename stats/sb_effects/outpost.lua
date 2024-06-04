@@ -5,11 +5,20 @@ function init()
 
   positions = config.getParameter("positions")
   positions = sb_itemExists("anom_outpostelliotassistant") and positions["anom"] or positions["default"]
+  local skipNpcConditions = config.getParameter("skipNpcConditions")
+  local npcsToSkip = {}
+  for k, v in pairs(skipNpcConditions) do
+    if sb_itemExists(k) then
+      npcsToSkip = sb.jsonMerge(npcsToSkip, skipNpcConditions[k])
+    end
+  end
 
   local npcs = config.getParameter("npcs")
   for i = 1, #npcs do
     local npc = npcs[i]
-    world.spawnNpc(positions[i], npc[1], npc[2], 1, npc[3])
+    if not npcsToSkip[npc[2]] then
+      world.spawnNpc(positions[i], npc[1], npc[2], 1, npc[3])
+    end
   end
 
   if month(2) then

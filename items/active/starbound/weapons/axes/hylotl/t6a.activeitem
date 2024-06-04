@@ -1,6 +1,6 @@
 {
   "description": "A severely curved scythe.",
-  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "axe"],
   "itemName": "sb_hylotltier6aaxe",
   "definition": ["colors/t6a", "axes/a"],
   "shortdescription": "Fishing Hook",

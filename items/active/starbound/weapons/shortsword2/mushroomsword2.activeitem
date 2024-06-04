@@ -8,7 +8,7 @@
   "tooltipKind": "sb_sword2",
   "price": 660,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "shortsword", "mushroom", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword", "mushroom"],
   "inventoryIcon": "mushroomsword.png",
   "animationParts": {
     "blade": "mushroomsword.png",
@@ -27,5 +27,10 @@
       "damageSourceKind": "poisonshortsword"
     }
   },
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "level": 2,
+    "seed": 1
+  }
 }

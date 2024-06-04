@@ -1,4 +1,5 @@
-[[{
+[
+  [{
       "op": "test",
       "path": "/effectLabel"
     }, {
@@ -10,4 +11,60 @@
       "path": "/effectLabel/lineSpacing",
       "value": 0.9
     }
-  ]]
+  ],
+  //move FU's food label
+  [{
+      "op": "test",
+      "path": "/foodValueLabel"
+    }, {
+      "op": "test",
+      "path": "/foodValueLabel/position",
+      "value": [100, 156]
+    }, {
+      "op": "replace",
+      "path": "/foodValueLabel",
+      "value": {
+        "type": "label",
+        "position": [16, 152],
+        "hAnchor": "left",
+        "vAnchor": "top",
+        "width": 126
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/rotTimeLabel",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/rotTimeLabel",
+      "value": {
+        "type": "label",
+        "position": [16, 152],
+        "hAnchor": "left",
+        "centered": true,
+        "lineSpacing": 1.1,
+        "wrapWidth": 122
+      }
+    }
+  ],
+  //move rot label if IFD is present
+  [{
+      "op": "test",
+      "path": "/rotTimeLabel"
+    }, {
+      "op": "test",
+      "path": "/foodAmountLabel/position",
+      "value": [40, 150]
+    }, {
+      "op": "replace",
+      "path": "/rotTimeLabel/position",
+      "value": [16, 50]
+    }, {
+      "op": "add",
+      "path": "/descriptionLabel/lineSpacing",
+      "value": 1.1
+    }
+  ]
+]

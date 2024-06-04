@@ -8,7 +8,7 @@
   "description" : "No one really knows how this gun works, or why it's so remarkably purple.",
   "shortdescription" : "Almighty Magnetar",
   "level": 5,
-  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid"],
   "configOverrides": {
     "baseOffset": [0.625, 0.375],
     "primaryAbility": {

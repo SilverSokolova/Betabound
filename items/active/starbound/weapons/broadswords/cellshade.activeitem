@@ -10,7 +10,7 @@
   "tooltipKind": "sb_sword2",
   "twoHanded": true,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "broadsword"],
   "animation": "/items/active/starbound/weapons/broadsword.animation",
   "sb_dyeable": true,
   "sb_backingDirectives": "?replace;49ffd1=ffca8a;3fd3c0=e0975c;2082a0=a85636",

@@ -1,6 +1,0 @@
-{
-  "input" : [["refinedferozium",2],"platinumbar"],
-  "output" : "refinedviolium",
-  "duration" : 0.15,
-  "groups" : ["craftingfurnace3","bars","all","nouncrafting"]
-}

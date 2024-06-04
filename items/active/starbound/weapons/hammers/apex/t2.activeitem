@@ -1,7 +1,7 @@
 {
   "itemName": "sb_apextier2hammer",
   "description": "A hammer shaped like a huge tooth.",
-  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "hammer"],
   "definition": "hammers/t2",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Monkey's Molar"

@@ -19,6 +19,7 @@
   "glitchDescription": "Analysis. This distress beacon is transmitting at a number of frequencies.",
   "humanDescription": "This beacon's sending out a distress call.",
   "hylotlDescription": "Someone needs help. Protecting the weak is a worthwhile pursuit.",
+  "novakidDescription": "A distress beacon. I wonder who activated it.",
 
   "inventoryIcon": "sb_ironbeaconicon.png",
   "orientations": [{

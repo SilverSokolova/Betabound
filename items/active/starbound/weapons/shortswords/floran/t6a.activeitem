@@ -1,1 +1,1 @@
-{"description":"A dangerous, serrated shortsword.","shortdescription":"Leafslasher","itemName":"sb_florantier6ashortsword","itemTags":["weapon","melee","shortsword","upgradeableWeapon"],"definition":["colors/t6a","shortswords/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A dangerous, serrated shortsword.","shortdescription":"Leafslasher","itemName":"sb_florantier6ashortsword","itemTags":["weapon","melee","shortsword"],"definition":["colors/t6a","shortswords/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

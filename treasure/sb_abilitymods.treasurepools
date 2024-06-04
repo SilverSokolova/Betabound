@@ -21,7 +21,7 @@
     [0, {
       "pool" : [
         {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["explosiveshot","bouncingshot","flashlight","grenadelauncher","spray"]}]},
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["flashlight","grenadelauncher","shrapnelbomb","burstshot"]}]},
+        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["flashlight","grenadelauncher","shrapnelbomb","burstshot","sb_vacuum"]}]},
         {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["homingrocket","guidedrocket","rocketburst","stickyshot"]}]},
         {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["flashlight","grenadelauncher","explosiveshot","bouncingshot","piercingshot"]}]}
       ]

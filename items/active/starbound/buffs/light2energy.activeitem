@@ -5,10 +5,10 @@
   "rarity": "legendary",
   "maxStack": 1,
   "price": 3000,
-  "description": "A large toxic flower which converts light into energy when held.",
-  "shortdescription": "Toxic Flower",
+  "description": "A solar panel enhanced with toxic vines. It converts light into energy when held.",
+  "shortdescription": "Photosynthesis Panel",
   "tooltipKind": "sb_tool",
   "category": "tool",
   "effects": ["sb_light2energy192"],
-  "scripts": ["effect.lua"]
+  "scripts": ["effect.lua", "/scripts/activeitem/sb_held.lua"]
 }

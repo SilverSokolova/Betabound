@@ -1,5 +1,5 @@
 {
   "input" : [["refinedferozium",5],["coralfragment",7],["coalore",7]],
-  "output" : ["sb_coralcleaver",1,{"level":5,"seed":1}],
+  "output" : ["sb_coralcleaver",1,{"crafted":true}],
   "groups" : ["craftingseparator","weapons","all"]
 }

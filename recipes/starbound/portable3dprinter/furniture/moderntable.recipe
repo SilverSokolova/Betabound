@@ -1,5 +1,5 @@
 {
   "input" : [["money",160]],
   "output" : "moderntable",
-  "groups" : ["sb_portable3dprinter","sb_furniture","all"]
+  "groups" : ["sb_portable3dprinter","furniture","all"]
 }

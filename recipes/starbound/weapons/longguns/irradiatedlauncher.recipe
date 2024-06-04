@@ -1,5 +1,5 @@
 {
   "input" : [["durasteelbar",6],["uraniumrod",4],["toxicwaste",15]],
-  "output" : ["sb_irradiatedlauncher",1,{"seed":1,"level":4}],
+  "output" : ["sb_irradiatedlauncher",1,{"crafted":true}],
   "groups" : ["craftinganvil3","weapons","all"]
 }

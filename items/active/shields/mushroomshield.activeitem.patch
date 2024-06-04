@@ -1,20 +1,20 @@
 [
-/*  [{
-      "op": "test",
-      "path": "/builder",
-      "value": "/items/buildscripts/buildunrandshield.lua"
-    }, {
-      "op": "replace",
-      "path": "/builder",
-      "value": "/items/buildscripts/buildshield.lua"
-    }, {
-      "op": "add",
-      "path": "/builderConfig",
-      "value": [{
-          "nameGenerator": "sb_mushroomshieldnames.config:nameGen"
-        }
-      ]
-    }
+  /*  [{
+  "op": "test",
+  "path": "/builder",
+  "value": "/items/buildscripts/buildunrandshield.lua"
+  }, {
+  "op": "replace",
+  "path": "/builder",
+  "value": "/items/buildscripts/buildshield.lua"
+  }, {
+  "op": "add",
+  "path": "/builderConfig",
+  "value": [{
+  "nameGenerator": "sb_mushroomshieldnames.config:nameGen"
+  }
+  ]
+  }
   ],*/
   [{
       "op": "test",
@@ -59,19 +59,12 @@
     }
   ],
   [{
-      "op": "test",
-      "path": "/itemTags",
-      "inverse": true
-    }, {
       "op": "add",
-      "path": "/itemTags",
-      "value": []
-    }
-  ],
-  [{
-      "op": "add",
-      "path": "/itemTags/-",
-      "value": "upgradeableWeapon"
+      "path": "/sb_craftedParameters",
+      "value": {
+        "level": 2,
+        "shortdescription": "Mushroom Shield"
+      }
     }
   ]
 ]

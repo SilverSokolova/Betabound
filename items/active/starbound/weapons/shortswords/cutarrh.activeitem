@@ -10,7 +10,7 @@
   "category": "shortsword",
   "twoHanded": false,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "shortsword", "slime", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "shortsword", "slime"],
   "handGrip": "inside",
   "inventoryIcon": "cutarrh.png<directives>",
   "animation": "/items/active/starbound/weapons/shortsword.animation",
@@ -42,13 +42,23 @@
   },
 
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType": "poison",
   "primaryAbilityType": "sb_meleeslash2",
   "primaryAbility": {
     "projectileType": "sb_slimeblob",
     "projectileOffset": [1, 0.5],
-    "fireTime": [0.333, 0.666],
+    "fireTime": [0.5, 0.67],
     "baseDps": [2.5, 5.5],
-    "baseDamage": [2.5, 5.5]
+    "baseDamage": [2.5, 5.5],
+    "damageConfig": {
+      "damageSourceKind": "acid",
+      "timeout": 0.0
+    }
   },
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "level": 5,
+    "seed": 1
+  }
 }

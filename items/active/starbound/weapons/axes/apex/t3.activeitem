@@ -5,5 +5,5 @@
   "directives": "?replace;ffca8a=e6e6e6;e0975c=b6b6b6;a85636=7b7b7b;6f2919=373737",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "definition": "axes/t3",
-  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"]
+  "itemTags": ["weapon", "melee", "axe"]
 }

@@ -12,7 +12,7 @@
   "level": 1,
   "description": "It's a revolver.",
   "shortdescription": "Revolver",
-  "itemTags": ["weapon", "ranged", "revolver", "pistol", "gun", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "revolver", "pistol", "gun"],
   "tooltipFields": {
     "subtitle": "Revolver"
   },

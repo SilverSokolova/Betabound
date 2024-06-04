@@ -9,7 +9,7 @@
   "sb_subtitle": "Royal Shield",
   "tooltipKind": "sb_shield",
   "twoHanded": false,
-  "itemTags": ["shield", "upgradeableweapon"],
+  "itemTags": ["shield"],
 
   "inventoryIcon": "images/sb_glitchlord.png:nearidle",
 

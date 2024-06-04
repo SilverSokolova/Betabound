@@ -1,0 +1,51 @@
+[
+  [{
+      "op": "add",
+      "path": "/animatedParts/parts/sb_hook",
+      "value": {
+        "properties": {
+          "zLevel": -1,
+          "centered": false,
+          "offset": [-0.6, -0.25]
+        },
+
+        "partStates": {
+          "sb_hook": {
+            "on": {
+              "properties": {
+                "image": "/projectiles/activeitems/grapplehook/grapplehook.png"
+              }
+            },
+            "off": {
+              "properties": {
+                "image": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/animatedParts/stateTypes",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/animatedParts/stateTypes",
+      "value": {}
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/animatedParts/stateTypes/sb_hook",
+      "value": {
+        "default": "off",
+        "states": {
+          "on": {},
+          "off": {}
+        }
+      }
+    }
+  ]
+]

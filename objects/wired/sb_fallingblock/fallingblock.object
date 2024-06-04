@@ -16,6 +16,7 @@
   "floranDescription": "They ssstep, they fall.",
   "glitchDescription": "Cautious. I should be careful not to fall.",
   "humanDescription": "It's just like those video games.",
+  "novakidDescription": "A tricky block that'll fall when I walk over it!",
 
   "inventoryIcon": "icon.png",
   "orientations": [{

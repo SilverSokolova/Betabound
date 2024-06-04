@@ -11,5 +11,5 @@
   "category": "tool",
   "range": 40,
   "scriptDelta": 1,
-  "scripts": ["hawkeyes.lua"]
+  "scripts": ["hawkeyes.lua", "/scripts/activeitem/sb_held.lua"]
 }

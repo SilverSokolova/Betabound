@@ -1,7 +1,7 @@
 {
   "itemName": "sb_firebow",
   "definition": "bow",
-  "itemTags": ["weapon", "ranged", "bow", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "bow"],
   "tags": {
     "<bow>": "fire"
   },
@@ -32,5 +32,9 @@
   "altAbility": {
     "projectileType": "flamearrow"
   },
-  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+
+  "craftedParameters": {
+    "level": 3
+  }
 }

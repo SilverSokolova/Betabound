@@ -17,20 +17,20 @@
   "tooltipFields": {
     "subtitle": "Bone Shotgun"
   },
-  "itemTags": ["weapon", "ranged", "shotgun", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "shotgun"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
   "inventoryIcon": "boneshotgun.png",
   "animationParts": {
-  //"muzzleFlash" : "/animations/muzzleflash/bloodvomitmuzzle/bloodvomitmuzzle.png",
-    "muzzleFlash": "/animations/muzzleflash/bulletmuzzle4/bulletmuzzle4.png",
+    "muzzleFlash" : "/animations/muzzleflash/bloodvomitmuzzle/bloodvomitmuzzle.png",
     "middle": "boneshotgun.png",
     "barrel": "",
     "butt": ""
   },
   "animationCustom": {
     "sounds": {
-      "fire": ["/sfx/gun/boneshotgun.ogg"]
+      "fire": ["/sfx/gun/boneshotgun.ogg"],
+      "altFire": ["/sfx/projectiles/bloodvomit1.ogg", "/sfx/projectiles/bloodvomit2.ogg", "/sfx/projectiles/bloodvomit3.ogg", "/sfx/projectiles/bloodvomit4.ogg", "/sfx/projectiles/bloodvomit5.ogg", "/sfx/projectiles/bloodvomit6.ogg", "/sfx/projectiles/bloodvomit7.ogg"]
     },
     "animatedParts": {
       "parts": {
@@ -48,7 +48,7 @@
   "primaryAbility": {
     "projectileType": ["bonethorn", "throwingbone"],
     "fireTime": [0.4, 1.4],
-    "baseDps": [5, 9],
+    "baseDps": [8, 9],
     "projectileCount": [3, 8],
     "energyUsage": [22.5, 25.5],
     "inaccuracy": [5, 15],
@@ -56,10 +56,29 @@
       "knockbackRange": [10, 30]
     }
   },
+  "altAbilityType": "sb_burst",
+  "altAbility": {
+    "name": "Bloody Vomit",
+    "projectileType": "bloodvomit",
+    "burstCount": 3,
+    "burstSpeed" : 0.066,
+    "energyUsage": 9,
+    "usePrimaryFireSound": false,
+    "projectileParameters": {
+      "speed": 30,
+      "power": 8
+    }
+  },
 
   "builderConfig": [{
       "nameGenerator": "bonenames.config:nameGen"
     }
   ],
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "seed": 2,
+    "level": 3,
+    "shortdescription": "Bone Shotgun"
+  }
 }

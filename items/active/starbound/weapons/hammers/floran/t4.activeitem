@@ -1,7 +1,7 @@
 {
   "itemName": "sb_florantier4hammer",
   "description": "A hammer made from a tree trunk.",
-  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "hammer"],
   "definition": "hammers/t4",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Trunkthunk"

@@ -11,7 +11,7 @@
   "description": "The tip of this spear is made from crystallised ice, chilling your enemies to the core!",
   "shortdescription": "Frost Spear",
   "twoHanded": true,
-  "itemTags": ["weapon", "melee", "spear", "geometric", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "spear", "geometric"],
   "animation": "/items/active/starbound/weapons/spear.animation",
   "inventoryIcon": "frostspear.png",
   "animationParts": {
@@ -72,5 +72,10 @@
       }
     }
   },
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "level": 3,
+    "seed": 1
+  }
 }

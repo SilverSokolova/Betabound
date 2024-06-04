@@ -13,7 +13,7 @@
   "sb_waBan": true,
   "sb_disallowAbilityMods": true,
   "level": 1,
-  "itemTags": ["weapon", "ranged", "assaultrifle", "needler", "floran", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "assaultrifle", "needler", "floran"],
   "tooltipFields": {
     "subtitle": "Thorny Needler"
   },
@@ -150,5 +150,11 @@
       "nameGenerator": "needlernames.config:nameGen"
     }
   ],
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "craftedParameters": {
+    "seed": 34,
+    "level": 3,
+    "shortdescription": "Thorny Needler"
+  }
 }

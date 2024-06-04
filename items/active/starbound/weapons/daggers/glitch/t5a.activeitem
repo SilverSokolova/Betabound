@@ -1,1 +1,1 @@
-{"description":"A dagger that'll shave the top off anything.","shortdescription":"Prunix","itemName":"sb_glitchtier5adagger","itemTags":["weapon","melee","dagger","upgradeableWeapon"],"definition":["colors/t5a","daggers/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"A dagger that'll shave the top off anything.","shortdescription":"Prunix","itemName":"sb_glitchtier5adagger","itemTags":["weapon","melee","dagger"],"definition":["colors/t5a","daggers/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

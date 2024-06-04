@@ -1,1 +1,1 @@
-{"description":"An axe that looks like it's trying to wiggle away.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_humantier5maxe","definition":["colors/t5m","axes/m"],"shortdescription":"The Wiggler","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"An axe that looks like it's trying to wiggle away.","itemTags":["weapon","melee","axe"],"itemName":"sb_humantier5maxe","definition":["colors/t5m","axes/m"],"shortdescription":"The Wiggler","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

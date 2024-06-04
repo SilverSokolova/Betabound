@@ -5,9 +5,9 @@
   "price": 75,
   "foodValue": 30,
   "tooltipKind": "sb_object4b",
-/*  "effects": [[
-      "sb_foodheal95"
-    ]],*/
+  /*  "effects": [[
+  "sb_foodheal95"
+  ]],*/
   "inventoryIcon": "sb_meatballs.png",
   "category": "food",
   "description": "Meatballs in a can. Not quite homemade, but then again, we're in space. Plus, they'll keep a lot longer.",
@@ -15,5 +15,9 @@
   "handPosition": [0, -2],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
-  "rottingMultiplier": 10
+  "rottingMultiplier": 10,
+  "sb_plate": {
+    "image": true,
+    "offset": -0.05
+  }
 }

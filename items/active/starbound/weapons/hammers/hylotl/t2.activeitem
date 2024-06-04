@@ -1,7 +1,7 @@
 {
   "itemName": "sb_hylotltier2hammer",
   "description": "A decent hammer.",
-  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "hammer"],
   "definition": "hammers/t2",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Coralcrusher"

@@ -1,7 +1,7 @@
 {
   "itemName": "sb_apextier4dagger",
   "description": "A dagger perfect for cutting bananas.",
-  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "dagger"],
   "definition": "daggers/t4",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Banana Splitter"

@@ -18,6 +18,7 @@
   "glitchDescription": "Alarm. I detect a hostile logarithm in this robot's programming.",
   "humanDescription": "All the other robots I've met have been mostly friendly, I bet this is too!",
   "hylotlDescription": "Even if this robot is hostile, I can no doubt use diplomacy to reason with it.",
+  "novakidDescription": "This robot ain't turned on. Looks like it could slice through tomatoes like nobody's business!",
 
   "inventoryIcon": "sb_roboticon.png",
   "orientations": [{

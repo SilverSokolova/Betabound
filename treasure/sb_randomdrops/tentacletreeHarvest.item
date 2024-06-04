@@ -1,0 +1,5 @@
+{
+  "itemName": "sb_tentacletreeHarvest",
+  "rarity": "rare",
+  "builder": "/items/buildscripts/starbound/randomdrop.lua"
+}

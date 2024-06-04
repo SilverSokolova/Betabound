@@ -4,13 +4,16 @@
   "foodValue": 20,
   "tooltipKind": "sb_object",
   "rarity": "common",
-  "sb_plateHide": true,
+  "sb_plate": {
+    "image": true,
+    "hidePlate": true
+  },
   "inventoryIcon": "peanutbutterjar.png",
   "category": "food",
   "effects": [[{
         "effect": "maxenergyscalingboostfood",
         "duration": 90
-      },{
+      }, {
         "effect": "sb_protectionboost5",
         "duration": 90
       },

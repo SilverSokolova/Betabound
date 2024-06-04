@@ -1,7 +1,7 @@
 {
   "itemName": "sb_aviantier4dagger",
   "description": "A small dagger shaped like a talon.",
-  "itemTags": ["weapon", "melee", "dagger", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "dagger"],
   "definition": "daggers/t4",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Talon"

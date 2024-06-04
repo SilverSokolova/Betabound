@@ -9,7 +9,7 @@
 {"op":"replace","path":"/description","value":"A throwing axe, for chopping things down at a distance or for people who are way outta line."}],
 
 [{"op":"test","path":"/tooltipKind","inverse":true},
-{"op":"add","path":"/tooltipKind","value":"fossil"}],
+{"op":"add","path":"/tooltipKind","value":"codex"}],
 
 [{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"uncommon"}],
 

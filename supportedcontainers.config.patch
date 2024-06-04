@@ -1,7 +1,7 @@
 [
 {"op":"add","path":"/supportedContainers/sb_eyechest","value":"/objects/biome/sb_eyepatch/eyechest.object"},
 {"op":"add","path":"/supportedContainers/sb_geometricchest","value":"/objects/biome/sb_geometric/geometricchest.object"},
-{"op":"add","path":"/supportedContainers/sb_glowchest","value":"/objects/biome/bioluminescence/glowchest.object"},
+{"op":"add","path":"/supportedContainers/sb_glowchest","value":"/objects/biome/bioluminescence/sb_glowchest/glowchest.object"},
 {"op":"add","path":"/supportedContainers/sb_heckaltar","value":"/objects/biome/sb_heck/heckaltar.object"},
 {"op":"add","path":"/supportedContainers/sb_heckchest","value":"/objects/biome/sb_heck/heckchest.object"},
 {"op":"add","path":"/supportedContainers/sb_metalcrate","value":"/objects/generic/sb_metalcrate/metalcrate.object"},

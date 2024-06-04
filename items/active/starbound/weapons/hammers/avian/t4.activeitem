@@ -1,7 +1,7 @@
 {
   "itemName": "sb_aviantier4hammer",
   "description": "A hammer that looks like a piece of candy.",
-  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "hammer"],
   "definition": "hammers/t4",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Candy Crusher"

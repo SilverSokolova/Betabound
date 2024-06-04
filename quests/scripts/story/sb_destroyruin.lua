@@ -1,101 +1,87 @@
-require "/scripts/util.lua"
-require "/scripts/vec2.lua"
-require "/quests/scripts/portraits.lua"
-require "/quests/scripts/questutil.lua"
-
 function init()
-  if player.hasCompletedQuest(config.getParameter("completionQuest",quest.templateId())) then
-    script.setUpdateDelta(0) return
-  end
-  self.messageTime = config.getParameter("messageTime",10)
-  self.compassUpdate = config.getParameter("compassUpdate", 0.5)
-  self.radioMessages = config.getParameter("radioMessages",{})
-  self.skipRadioMessages = config.getParameter("skipRadioMessages",{})
-  self.currentRadioMessage = 1
-  self.instanceWorld = config.getParameter("instanceWorld")
-  self.state = FSM:new()
-
-  storage.gotQuestItem = storage.gotQuestItem or false
-  storage.stage = storage.stage or 1
-  self.stages = {
-    destroyRuin,
-    turnIn
-  }
-  self.state:set(self.stages[storage.stage])
-  self.waitTime = self.messageTime
-end
-
-function update(dt)
-  local s = player.worldId()
-  if not s:find(self.instanceWorld) then
-    script.setUpdateDelta(0)
-  end
-  if self.waitTime < 0 then
-    self.state:update(dt)
-  else
-    self.waitTime = self.waitTime - dt
-  end
-end
-
-function questStart()
-  storage.stage = 1
-  self.state:set(self.stages[storage.stage])
-end
-
-function destroyRuin()
-  local findBoss = util.uniqueEntityTracker(config.getParameter("bossUid"), self.compassUpdate)
-  while not findBoss() do
-    coroutine.yield()
-  end
-
-  sb_radioMessage() --Esther
-  sb_radioMessage() --Lana
+  self.sb_onInstanceWorld = player.worldId():find(config.getParameter("sb_instanceWorld"))
   
-  while entity.position()[2] > config.getParameter("mmMessageHeight",480) do
-    coroutine.yield()
-  end
-  if player.hasQuest("destroyruin") and not storage.gotQuestItem then
-    player.giveItem("sb_beamaxe2")
-    storage.gotQuestItem = true
-    player.radioMessage("sb_tentaclemission-artifact")
+  if self.sb_onInstanceWorld then
+    self.sb_radioMessages = config.getParameter("sb_radioMessages",{})
+    self.sb_brainMessageHeight = config.getParameter("brainMessageHeight") - config.getParameter("sb_brainMessageHeightOffset")
+    self.sb_brain2MessageHeight = config.getParameter("sb_brain2MessageHeight")
+    self.sb_bossroom2MessageHeight = config.getParameter("sb_bossroom2MessageHeight")
+    self.sb_questItemSpawnHeight = config.getParameter("sb_questItemSpawnHeight")
+    self.sb_checkpointRange = config.getParameter("checkpointRange", 10)
+    self.sb_currentRadioMessage = 1
+    storage.sb_gotQuestItem = storage.sb_gotQuestItem or false
+    sb_step = 1
   end
 
-  while entity.position()[2] > config.getParameter("brainMessageHeight",380) do
-    coroutine.yield()
-  end
-  self.waitTime = self.messageTime
-  sb_radioMessage() --Koichi
+  init = nil
+  require(config.getParameter("sb_script"))
 
-  while entity.position()[2] > config.getParameter("onBrainMessageHeight",267) do
-    coroutine.yield()
-  end
-  sb_radioMessage() --Baron
+  sb_update = update or function(...) end
+  update = function(...) sb_update(...) sb_update2(...) end
 
-  local foundCheckpoint = false
-  local checkpointRange = config.getParameter("checkpointRange",10)
-  local queryCheckpoints = util.interval(0.5, function()
-    local nearObjects = world.entityQuery(entity.position(), checkpointRange, {includedTypes = {"object"}})
-    if util.find(nearObjects, function(entityId) return world.entityName(entityId) == "checkpoint" end) then
-      foundCheckpoint = true
+  sb_questStart = questStart or function() end
+  questStart = function(...) sb_questStart(...)
+    player.addCurrency("sb_questActive:destroyruin", 1)
+  end
+
+  sb_questComplete = questComplete or function() end
+  questComplete = function(...) sb_questComplete(...)
+    player.consumeCurrency("sb_questActive:destroyruin", 1)
+  end
+
+  if init then
+    init()
+  end
+end
+
+--This whole 'step' thing is taunting me in some way, but corrotines refuse to work here
+function sb_update2()
+  if self.sb_onInstanceWorld then
+    if sb_step == 1 then
+      sb_radioMessage() --Esther
+      sb_radioMessage() --Lana
+      sb_step = sb_step + 1
     end
-  end)
-  while not foundCheckpoint do
-    queryCheckpoints(script.updateDt())
-    coroutine.yield()
+
+    local height = entity.position()[2]
+
+    if sb_step == 2 then
+      if height < self.sb_questItemSpawnHeight then
+        if not storage.sb_gotQuestItem then
+          storage.sb_gotQuestItem = true
+          player.radioMessage("sb_tentaclemission-artifact")
+          player.giveItem("sb_beamaxe2")
+        end
+        sb_step = sb_step + 1
+      end
+    end
+
+    if sb_step == 3 then
+      if height < self.sb_brainMessageHeight then
+        sb_radioMessage() --Koichi
+        sb_step = sb_step + 1
+      end
+    end
+
+    if sb_step == 4 then
+      if height < self.sb_brain2MessageHeight then
+        sb_radioMessage() --Baron
+        sb_step = sb_step + 1
+      end
+    end
+
+    if sb_step == 5 then
+      if height < self.sb_bossroom2MessageHeight then
+        sb_radioMessage() --Tonauac
+        sb_step = sb_step + 1
+      end
+    end
   end
-
-  sb_radioMessage() --Tonauac
-
-  while storage.stage == 1 do
-    coroutine.yield()
-  end
-
---  self.state:set(self.stages[storage.stage])
 end
 
 function sb_radioMessage()
-  if self.radioMessages[self.currentRadioMessage] and not self.skipRadioMessages[self.currentRadioMessage] then
-    player.radioMessage(self.radioMessages[self.currentRadioMessage])
+  if self.sb_radioMessages[self.sb_currentRadioMessage] then
+    player.radioMessage(self.sb_radioMessages[self.sb_currentRadioMessage])
   end
-  self.currentRadioMessage = self.currentRadioMessage + 1
+  self.sb_currentRadioMessage = self.sb_currentRadioMessage + 1
 end

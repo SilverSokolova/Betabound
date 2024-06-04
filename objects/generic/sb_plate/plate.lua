@@ -1,4 +1,12 @@
 require "/scripts/sb_assetmissing.lua"
+--Yes, left-facing plates ARE sometimes visually shifted to the right. I give up trying to fix it. I wish it was fixed, but it's not. fuck this game :( this shit is cursed
+
+function init()
+  message.setHandler("sb_flipPlate", function()
+    storage.flipped = not storage.flipped
+    containerCallback()
+  end)
+end
 
 function containerCallback() --By the way, is this called if something other than a player takes an item?
   local item = world.containerItemAt(entity.id(), 0)
@@ -13,16 +21,20 @@ function containerCallback() --By the way, is this called if something other tha
     plateOffset = plateConfig.offset or itemConfig.sb_plateOffset
     plateWidth = plateConfig.width or itemConfig.sb_plateWidth
     plateHidden = plateConfig.hidePlate or itemConfig.sb_plateHide or root.itemHasTag(item.name, "sb_plate_hide")
-    flipImage = plateConfig.flipImage or root.itemHasTag(item.name, "sb_plate_flipx")
+    flipImage = (storage.flipped and true) or plateConfig.flipImage or root.itemHasTag(item.name, "sb_plate_flipx")
 
     if plateImage then
       if type(plateImage) == "boolean" then
         plateImage = item.name
       end
-      if plateImage:sub(0, 1) ~= "/" then
-        plateImage = string.format("/objects/generic/sb_plate/%s.png", plateImage)
+      if type(plateImage) ~= "boolean" and plateImage:sub(0, 1) ~= "/" then
+        plateImage = string.format("/objects/generic/sb_plate/%s", plateImage)
+      end
+      if not plateImage:find(".png") then
+        plateImage = plateImage..".png" --..(storage.flipped and "?flipx" or "")
       end
     end
+
     if
       plateImage or root.itemType(item.name) == "consumable" or root.itemType(item.name) == "generic" or
         hasPlateConfig or
@@ -42,15 +54,18 @@ function containerCallback() --By the way, is this called if something other tha
       animator.resetTransformationGroup("item")
       animator.resetTransformationGroup("plate")
       if plateOffset then
-        animator.translateTransformationGroup("item", {-plateOffset, 0})
+        if type(plateOffset) == "number" then
+          plateOffset = {plateOffset, 0}
+        end
+        animator.translateTransformationGroup("item", {-plateOffset[1], plateOffset[2]})
       end
       animator.translateTransformationGroup("item", {0, plateImage and 0.25 or 0.133}) --Yeah, yeah, it floats a few subpixels above the plate. I'm not very good with math
       animator.setGlobalTag(
         "item",
         string.format(
-          plateImage and "%s" or "%s?replace;000=0000;151515=0000;020202=0000;45421e=0000",
+          (plateImage and "%s" or "%s?replace;000=0000;151515=0000;020202=0000;45421e=0000").."%s",
           image,
-          flipImage and "?flipx" or ""
+          flipImage and "" or "?flipx" --So funny story, it's kinda already flipped. Well, the item is, anyway, not the plate.
         )
       )
       animator.setGlobalTag("plate", "/objects/generic/sb_plate/plate.png")
@@ -86,24 +101,22 @@ function containerCallback() --By the way, is this called if something other tha
         animator.translateTransformationGroup("item", {-0.125 * 2, -0.125 * math.min(points[2], points[4])})
       end
     else
-      animator.setAnimationState("plate", "perfectlygenericitem")
-      animator.setGlobalTag("item", "")
+      animator.setGlobalTag("item", "perfectlygenericitem.png")
       animator.setGlobalTag("plate", "/objects/generic/sb_plate/plate.png")
-      animator.resetTransformationGroup("item")
-      animator.resetTransformationGroup("plate")
-      resetDescription()
+      resetPlate()
       return
     end
   else
     animator.setGlobalTag("item", "")
     animator.setGlobalTag("plate", "plate.png")
-    animator.resetTransformationGroup("item")
-    animator.resetTransformationGroup("plate")
-    resetDescription()
+    resetPlate()
   end
   animator.setAnimationState("plate", "plate")
 end
 
-function resetDescription()
+function resetPlate()
+  storage.flipped = false
+  animator.resetTransformationGroup("item")
+  animator.resetTransformationGroup("plate")
   object.setConfigParameter("description", root.itemConfig("sb_plate").config.description) --Better to just grab it as needed instead of storing 20 copies for each plate in that guy's base...
 end

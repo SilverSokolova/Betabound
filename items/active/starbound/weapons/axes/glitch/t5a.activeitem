@@ -1,1 +1,1 @@
-{"description":"Suitable for heavy machine-work.","itemTags":["weapon","melee","axe","upgradeableWeapon"],"itemName":"sb_glitchtier5aaxe","definition":["colors/t5a","axes/a"],"shortdescription":"Cogsmasher","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"Suitable for heavy machine-work.","itemTags":["weapon","melee","axe"],"itemName":"sb_glitchtier5aaxe","definition":["colors/t5a","axes/a"],"shortdescription":"Cogsmasher","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

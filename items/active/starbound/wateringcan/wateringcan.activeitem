@@ -13,6 +13,11 @@
   "animationCustom": {
     "sounds": {
       "fire": ["/sfx/tools/wateringcan2.ogg", "/sfx/tools/wateringcan3.ogg"]
+    },
+    "lights": {
+      "muzzleFlash": {
+        "color": [0, 0, 0]
+      }
     }
   },
   "animationParts": {
@@ -36,7 +41,9 @@
   "primaryAbility": {
     "stances": {
       "cooldown": {
-        "recoil": false
+        "recoil": false,
+        "armRotation": 0,
+        "weaponRotation": 0
       }
     },
     "projectileCount": 2,

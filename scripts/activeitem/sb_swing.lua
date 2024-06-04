@@ -9,7 +9,7 @@ function swingInit()
 end
 
 function update(dt, fireMode, shiftHeld)
-  aimAngle, aimDirection = activeItem.aimAngleAndDirection(0, activeItem.ownerAimPosition())
+  local aimAngle, aimDirection = activeItem.aimAngleAndDirection(0, activeItem.ownerAimPosition())
   activeItem.setFacingDirection(aimDirection)
 
   if not useTimer and fireMode == "primary" and not justUsed then

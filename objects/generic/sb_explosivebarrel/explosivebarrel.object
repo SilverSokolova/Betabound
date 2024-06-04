@@ -1,45 +1,40 @@
 {
-  "objectName" : "sb_explosivebarrel",
-  "colonyTags" : ["human","humanbunker","storage"],
-  "rarity" : "Common",
-  "category" : "breakable",
-  "price" : 55,
-  "description" : "An explosive metal barrel. It looks dangerous.",
-  "shortdescription" : "Explosive Barrel",
-  "race" : "human",
-  "tooltipKind" : "sb_object",
+  "objectName": "sb_explosivebarrel",
+  "colonyTags": ["human", "humanbunker", "storage"],
+  "rarity": "Common",
+  "category": "breakable",
+  "price": 55,
+  "description": "An explosive metal barrel. It looks dangerous.",
+  "shortdescription": "Explosive Barrel",
+  "race": "human",
+  "tooltipKind": "sb_object",
 
-  "apexDescription" : "An explosive barrel. It's sealed.",
-  "avianDescription" : "Explosive container. I can't get into it.",
-  "floranDescription" : "Looksss like fire. Floran keepsss away.",
-  "glitchDescription" : "Observation. This barrel contains a highly explosive Nitromethane substance.",
-  "humanDescription" : "The explosive label on the front implies that I probably shouldn't try to open it...",
-  "hylotlDescription" : "Looks like a metal container full of explosives. It's sealed shut for a reason.",
-  "novakidDescription" : "Looks like new-fangled dynamite, in barrel form.",
+  "apexDescription": "An explosive barrel. It's sealed.",
+  "avianDescription": "Explosive container. I can't get into it.",
+  "floranDescription": "Looksss like fire. Floran keepsss away.",
+  "glitchDescription": "Observant. This barrel contains a highly explosive Nitromethane substance.",
+  "humanDescription": "The explosive label on the front implies that I probably shouldn't try to open it...",
+  "hylotlDescription": "Looks like a metal container full of explosives. It's sealed shut for a reason.",
+  "novakidDescription": "Looks like new-fangled dynamite, in barrel form.",
 
-  "inventoryIcon" : "explosivebarrelicon.png",
-  "orientations" : [
-    {
-      "dualImage" : "explosivebarrel.png:<color>",
-
-      "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
-
-      "spaceScan" : 0.1,
-      "anchors" : ["bottom"],
-      "collision" : "platform"
+  "inventoryIcon": "explosivebarrelicon.png",
+  "orientations": [{
+      "dualImage": "explosivebarrel.png:<color>",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
     }
   ],
 
-  "smashable" : true,
-  "smashOnBreak" : false,
-  "smashSounds" : [ "/sfx/gun/grenadeblast1.ogg", "/sfx/gun/grenadeblast2.ogg", "/sfx/gun/grenadeblast3.ogg" ],
-  "smashDropPool" : "empty",
-  
-  "scripts" : [
-    "/objects/scripts/explodingsmashable.lua"
-  ],
-  "explosionProjectile" : "explosivebarrel",
-  "explosionOffset" : [1, 2]
+  "smashable": true,
+  "smashOnBreak": false,
+  "smashSounds": ["/sfx/gun/grenadeblast1.ogg", "/sfx/gun/grenadeblast2.ogg", "/sfx/gun/grenadeblast3.ogg"],
+  "smashDropPool": "empty",
+
+  "scripts": ["/objects/scripts/explodingsmashable.lua"],
+  "explosionProjectile": "explosivebarrel",
+  "explosionOffset": [1, 2]
 }

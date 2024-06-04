@@ -12,7 +12,7 @@
   "level": 1,
   "description": "For when your grenades need some distance.",
   "shortdescription": "Uncommon Grenade Launcher",
-  "itemTags": ["weapon", "ranged", "grenadelauncher", "upgradeableWeapon"],
+  "itemTags": ["weapon", "ranged", "grenadelauncher"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
   "animationParts": {

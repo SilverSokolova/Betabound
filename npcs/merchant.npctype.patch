@@ -1,4 +1,4 @@
 [
 [{"op":"test","path":"/scripts/0","value":"/npcs/bmain.lua"},
-{"op":"add","path":"/scripts/-","value":"/npcs/sb_outpostcivilian.lua"}]
+{"op":"add","path":"/scripts/-","value":"/npcs/sb_bmain.lua"}]
 ]

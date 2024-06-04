@@ -1,7 +1,7 @@
 {
   "itemName": "sb_humantier2spear",
   "description": "A popular spear.",
-  "itemTags": ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "spear"],
   "definition": "spears/t2",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "shortdescription": "Spear Today"

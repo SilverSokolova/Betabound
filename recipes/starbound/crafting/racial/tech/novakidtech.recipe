@@ -1,5 +1,0 @@
-{
-  "input" : [["platinumbar",5],["wire",5],"siliconboard","stickofram"],
-  "output" : "sb_techstation_novakid",
-  "groups" : ["sb_roboticcraftingtable","sb_stations","all"]
-}

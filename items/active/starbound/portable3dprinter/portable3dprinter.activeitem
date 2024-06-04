@@ -8,5 +8,6 @@
   "animation": "portable3dprinter.animation",
   "shortdescription": "^orange;Portable Pixel Printer^reset;",
   "description": "Used to print small hi-tech items on-the-fly.",
-  "scripts": ["portable3dprinter.lua"]
+  "scripts": ["portable3dprinter.lua"],
+  "useTime": 0.005
 }
