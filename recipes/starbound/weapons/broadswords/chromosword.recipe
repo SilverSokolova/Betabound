@@ -1,6 +1,6 @@
 {
-  "input" : [["refinedferozium",10],["cellmatter",25]],
+  "input": [["refinedferozium",10],["cellmatter",25]],
   //5 cellmateria
-  "output" : ["sb_chromosword",1,{"crafted":true}],
-  "groups" : ["craftingseparator","weapons","all"]
+  "output": ["sb_chromosword",1,{"crafted":true}],
+  "groups": ["craftingseparator","weapons","all"]
 }

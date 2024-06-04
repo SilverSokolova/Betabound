@@ -6,7 +6,7 @@
     }, {
       "op": "add",
       "path": "/tooltipKind",
-      "value": ""
+      "value": "sb_object"
     }
   ],
   [{
@@ -50,11 +50,14 @@
       "value": "Use employment beacons to call in help!"
     }
   ],
-
   [{
-      "op": "replace",
-      "path": "/tooltipKind",
-      "value": "sb_object"
+      "op": "test",
+      "path": "/novakidDescription",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/novakidDescription",
+      "value": "I could call almost any kind of specialist with this."
     }
   ],
   [{

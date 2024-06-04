@@ -1,4 +1,32 @@
 [
-[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":""}],
-[{"op":"replace","path":"/tooltipKind","value":"sb_object"}]
+  [{
+      "op": "test",
+      "path": "/tooltipKind",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/tooltipKind",
+      "value": "sb_object"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/description",
+      "value": "A random fountain. The most unpredictable of fountains."
+    }, {
+      "op": "replace",
+      "path": "/description",
+      "value": "The most unpredictable of fountains."
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/novakidDescription",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/novakidDescription",
+      "value": "It's just a fountain."
+    }
+  ]
 ]

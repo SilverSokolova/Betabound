@@ -33,6 +33,7 @@
   "glitchDescription": "Observation. This station is well-suited to research and development of recipes.",
   "humanDescription": "I can craft blueprints here!",
   "hylotlDescription": "This station seems well equipped for the development of blueprints.",
+  "novakidDescription": "I can create all kinda blueprints here!",
 
   "inventoryIcon": "researchstationicon.png",
   "orientations": [

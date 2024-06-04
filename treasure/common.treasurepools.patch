@@ -357,10 +357,6 @@ IF BOTH ARE YES, THEN CONGRATS! SHOVE IT UNDER 'RARE'
 //[{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonshortsword"}}],
 
   //Rare Melee
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"seashellshield"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"mushroomshield"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"frostshield"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"eyeshield"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonshield"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonaxe"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommondagger"}}],
@@ -369,9 +365,15 @@ IF BOTH ARE YES, THEN CONGRATS! SHOVE IT UNDER 'RARE'
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonhammer"}}],
 //[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonshortsword"}}],
 //[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_twistedspear"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_arcsword"}}],
 
 
 //Biome Melee
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"seashellshield"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"mushroomshield"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"frostshield"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.004,"item":"eyeshield"}}],
+
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_firesword"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_watersword"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_boneaxe"}}],

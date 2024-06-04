@@ -13,7 +13,7 @@
     ]],
   "tooltipKind": "sb_object",
   "rarity": "uncommon",
-  "inventoryIcon": "boltedmilk.png?saturation=20",
+  "inventoryIcon": "boltedmilk.png",
   "description": "It's milk with a twist!",
   "category": "drink",
   "shortdescription": "Bolted Milk",
@@ -22,7 +22,7 @@
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
   "rottingMultiplier": 5,
   "sb_plate": {
-    "image": "milk.png?replace;97ddf7=8ee7be;59a5c1=5c987c?saturation=20",
+    "image": true,
     "offset": -0.05
   }
 }

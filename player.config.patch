@@ -267,7 +267,8 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_slingshot"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_huntingknife"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_brainextractor"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_firebow",1,{"seed":1,"level":3}]}], //you cant do this kind of recipe in learnBlueprintsOnPickup
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_firebow",1,{"crafted":true}]}], //you cant do this kind of recipe in learnBlueprintsOnPickup
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_arcsword",1,{"crafted":true}]}], //you cant do this kind of recipe in learnBlueprintsOnPickup
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltpistol"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltrifle"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltshotgun"}}],
