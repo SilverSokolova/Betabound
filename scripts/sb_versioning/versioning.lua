@@ -243,6 +243,9 @@ xrc0018[32]=function()
     player.setProperty("betabound", betaboundStorage)
     player.setProperty("sb_shipUpgrades", nil)
   end
+  if player.hasCompletedQuest("destroyruin") then
+    player.consumeCurrency("sb_questActive:destroyruin", 1)
+  end
 end
 
 function sb_doVersioning(cv,yv)
