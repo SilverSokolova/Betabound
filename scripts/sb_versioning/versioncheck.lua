@@ -9,7 +9,6 @@ function init() ini()
     local playerVersion = player.getProperty("betabound", {}).version or status.statusProperty("xrc_0018z", 0)
     if playerVersion < currentVersion then
       sb.logInfo(string.format("[Betabound] Updating this character from %s to %s!", playerVersion, currentVersion))
-      player.setProperty("betabound", sb.jsonMerge(player.getProperty("betabound", {}), {version = currentVersion}))
       require("/scripts/sb_versioning/versioning.lua")
       sb_doVersioning(currentVersion, playerVersion)
     end

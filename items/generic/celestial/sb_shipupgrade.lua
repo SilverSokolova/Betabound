@@ -10,7 +10,7 @@ end
 
 function swingAction()
   local betabound = player.getProperty("betabound", {})
-  local upgrades = betabound.shipUpgrades
+  local upgrades = betabound.shipUpgrades or {}
 
   if contains(upgrades, upgradeName) and onlyOnce then
     sb_uiMessage("enhancementApplied")
@@ -29,7 +29,6 @@ function swingAction()
     end
   end
   player.setProperty("betabound", sb.jsonMerge(betabound, {ship = sb.jsonMerge(betabound.ship, upgrade), shipUpgrades = upgrades}))
-  sb.logInfo(sb.print(upgrades))
   animator.playSound("success")
   player.upgradeShip(upgrade)
   item.consume(1)
