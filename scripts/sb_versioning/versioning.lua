@@ -62,11 +62,12 @@ end
 
 xrc0018[13]=function() if player.blueprintKnown("sb_frostshield") then player.giveItem("sb_frostshield-recipe") player.addCurrency("money",5000) end end
 xrc0018[14]=function()
+  player.setProperty("betabound", sb.jsonMerge(status.statusProperty("betabound", {}), player.getProperty("betabound", {})))
   status.clearPersistentEffects("sb_entity")
-  local p = {"betabound","sb_bioimplant","sb_bioimplants"}
+  local p = {"sb_bioimplant","sb_bioimplants"}
   local d = {{},nil,{}}
   for i = 1, #p do player.setProperty(p[i],status.statusProperty(p[i],d[i])) status.setStatusProperty(p[i]) end
-  if type(player.getProperty(p[2])) ~= "string" then player.setProperty(p[2],nil) end
+  if type(player.getProperty(p[1])) ~= "string" then player.setProperty(p[1],nil) end
 end
 xrc0018[15]=function() quest("destroyruin","sb_beamaxe2") end
 xrc0018[17]=function() player.setProperty("sb_availableBioimplants",{}) if player.getProperty("sb_bioimplant","") == "sb_noprotection" then player.setProperty("sb_bioimplant") end end
@@ -237,9 +238,10 @@ xrc0018[32]=function()
     status.setStatusProperty("xrc_0018z", nil)
   end
   local ship = player.getProperty("sb_shipUpgrades")
-  if ship then
+  if type(ship) ~= "nil" then
     local betaboundStorage = player.getProperty("betabound", {})
     betaboundStorage.shipUpgrades = ship
+    sb.logInfo(sb.printJson(betaboundStorage))
     player.setProperty("betabound", betaboundStorage)
     player.setProperty("sb_shipUpgrades", nil)
   end
@@ -255,4 +257,5 @@ function sb_doVersioning(cv,yv)
       xrc0018[i+1]()
     end
   end
+  player.setProperty("betabound", sb.jsonMerge(player.getProperty("betabound", {}), {version = cv}))
 end
