@@ -20,10 +20,6 @@ function init()
 end
 
 function update(dt)
-  local vel = mcontroller.velocity()
-  if math.floor(vel[1]) == 0 and math.floor(vel[2]) == 0 then
-    mcontroller.setVelocity({0,0})
-  end
   if aimPosition then
     if controlMovement then
       controlTo(aimPosition)
