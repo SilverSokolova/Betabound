@@ -22,7 +22,7 @@ function update(dt)
   activeItem.setCursor(string.format("/cursors/charge%s.cursor",id and "invalid" or "ready"))
   if id and world.entityExists(id) then
     local pos = withinBounds(activeItem.ownerAimPosition())
-    world.sendEntityMessage(id, "updateProjectile", pos)
+    world.sendEntityMessage(id, "setTargetPosition", pos)
     lastPos = pos
   end
 end

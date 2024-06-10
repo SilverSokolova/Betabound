@@ -4,7 +4,9 @@
   "maxStack": 1,
   "price": 640,
   "tooltipKind": "sb_gun2",
-  //"tooltipFields" : {"damageKindImage":"/interface/elements/fire.png"},
+  "tooltipFields": {
+    "objectImage": "/items/active/starbound/guns/heatray.png"
+  },
   "itemTags": ["weapon", "ranged", "unique"],
   "category": "uniqueWeapon",
   "rarity": "Rare",
@@ -40,6 +42,7 @@
   "twoHanded": false,
   "fixedLevel": false,
   "level": 1,
+  "elementalType": "fire",
 
   "primaryAbilityType": "sb_gun",
   "primaryAbility": {

@@ -1,0 +1,98 @@
+{
+  "itemName": "sb_deathstick",
+  "price": 800,
+  "maxStack": 1,
+  "fixedLevel": false,
+  "rarity": "rare",
+  "category": "broadsword",
+  "description": "OH NO NOT THE BEES NO NO ARGH MY EYES!",
+  "shortdescription": "Death Stick",
+  "tooltipKind": "sb_sword2",
+  "tooltipFields": {
+    "damageKindImage": "/items/throwables/hivebombicon.png",
+    "objectImage": "/items/active/starbound/weapons/broadswords/deathstick.png"
+  },
+  "twoHanded": true,
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "inventoryIcon": "deathstickicon.png",
+  "animation": "/items/active/starbound/weapons/broadsword.animation",
+  "animationParts": {
+    "blade": "deathstick.png",
+    "handle": ""
+  },
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [-0.25, 2]
+                }
+              },
+              "fire2": {
+                "properties": {
+                  "offset": [5, 0.25]
+                }
+              },
+              "fire3": {
+                "properties": {
+                  "offset": [3.5, -0.5]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType": "physical",
+  "altAbilityType": "spinslash",
+  "primaryAbilityType": "sb_meleeslash",
+  "primaryAbility": {
+    "fireTime": 0.9,
+    "baseDps": 11,
+    "projectileType": "hivebomb",
+    "projectileConfig": {
+      "speed": 60,
+      "power": 1.5,
+      "actionOnReap": [{
+          "action": "sound",
+          "options": ["/sfx/projectiles/hivebomb_impact.ogg"]
+        }, {
+          "action": "sound",
+          "options": ["/sfx/projectiles/bugswarm1.ogg"]
+        }, {
+          "action": "projectile",
+          "inheritDamageFactor": 1,
+          "type": "hiveswarm",
+          "config": {
+            "damageTeam": {
+              "type": "friendly"
+            }
+          },
+          "fuzzAngle": 90
+        }, {
+          "action": "particle",
+          "specification": {
+            "type": "animated",
+            "animation": "/animations/dusttest/dusttest.animation",
+            "approach": [0.5, 0.5],
+            "timeToLive": 0.85,
+            "variance": {
+              "rotation": 180
+            }
+          }
+        }
+      ]
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+
+  "craftedParameters": {
+    "level": 3
+  }
+}

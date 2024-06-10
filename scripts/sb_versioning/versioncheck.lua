@@ -11,6 +11,7 @@ function init() ini()
       sb.logInfo(string.format("[Betabound] Updating this character from %s to %s!", playerVersion, currentVersion))
       require("/scripts/sb_versioning/versioning.lua")
       sb_doVersioning(currentVersion, playerVersion)
+      sb.logInfo(string.format("[Betabound] Updated this character from %s to %s!", playerVersion, currentVersion))
     end
   end
 end

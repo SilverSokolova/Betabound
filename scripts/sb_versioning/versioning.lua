@@ -2,7 +2,7 @@ xrc0018 = {}
 local function blue(a) if type(a)=="string" then a={a} end for i = 1, #a do player.giveBlueprint(a[i]) end end
 local function quest(a,b) if type(b)=="string" then b={b} end if player.hasCompletedQuest(a) then for i = 1, #b do player.giveItem(b[i]) end end end
 local function boxQuest(a,b) if player.hasCompletedQuest(a) then IB[#IB+1] = b end end
-local function giveBox() if #IB > 0 then player.giveItem({"sb_itembox",1,{description=string.format("/betabound.config:changedQuestRewardsDescription", #IB),items=IB}}) end end
+local function giveBox() if #IB > 0 then player.giveItem({"sb_itembox",1,{description=string.format(root.assetJson("/betabound.config:changedQuestRewardsDescription"), #IB),items=IB}}) end end
 local function updateNote(a)
   local b = root.assetJson("/betabound.config")
   a = b.updateNotes[a]
@@ -14,12 +14,11 @@ end
 local function reunlockRecipes(a)
   if type(a) == "string" then a = {a} end
   for i = 1, #a do
-    sb.logInfo("Attempting to update recipe for: "..a[i][1])
     if player.blueprintKnown(a[i]) then
       local recipes = root.recipesForItem(a[i][1])
       for j = 1, #recipes do
         player.giveBlueprint(recipes[j].output)
-        sb.logInfo("Updated!")
+        sb.logInfo("Updated recipe for: "..a[i][1])
       end
     end
   end

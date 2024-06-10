@@ -410,6 +410,7 @@ IF BOTH ARE YES, THEN CONGRATS! SHOVE IT UNDER 'RARE'
 //[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_eyeaxe"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_rainbowspear"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_rustsword"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_deathstick"}}],
 
 //Dungeon Melee
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_shiv"}}],

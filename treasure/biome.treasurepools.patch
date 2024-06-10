@@ -5,6 +5,8 @@
   //            Forest
   // ================================
 [{"op":"add","path":"/forestTreasure/0/1/pool/-","value":{"weight":0.03,"pool":"sb_forestMusic"}}]
+,[{"op":"add","path":"/forestTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_deathstick"}}]
+,[{"op":"add","path":"/forestTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_deathstick-recipe"}}]
 
   // ================================
   //            Desert

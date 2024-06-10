@@ -129,8 +129,11 @@
     ],
     
     "weapons": [
+      //forest
+      "sb_deathstick"
+
       //desert
-      "sb_cactislammer"
+      ,"sb_cactislammer"
     
       //savannah
       ,"sb_thornyneedler"

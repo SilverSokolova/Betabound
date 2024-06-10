@@ -80,6 +80,7 @@
 
   //Data Manipulation
   "sb_repeatversioning": ["/run player.setProperty('betabound',sb.jsonMerge(player.getProperty('betabound',{}),{version=player.getProperty('betabound').version -1}))"],
+  "sb_resetversioning": ["/run player.setProperty('betabound',sb.jsonMerge(player.getProperty('betabound',{}),{version=0}))"], //Do not use this on characters you care about
   "sb_data": ["/run return sb.printJson(player.getProperty('betabound'), 1)"],
 
   //Misc
