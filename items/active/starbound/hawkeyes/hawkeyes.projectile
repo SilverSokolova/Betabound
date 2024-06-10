@@ -4,7 +4,7 @@
   "timeToLive": 600,
   "image": "hawkeyes.png",
   "actionOnReap": [],
-  "speed": 25,
+  "speed": 40,
   "power": 0,
 
   "fullbright": true,
@@ -12,8 +12,8 @@
   "orientationLocked": true,
 
   "controlMovement": {
-    "maxSpeed": 25,
-    "controlForce": 80
+    "maxSpeed": 40,
+    "controlForce": 120
   },
 
   "piercing": true,

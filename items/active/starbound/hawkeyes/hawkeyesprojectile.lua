@@ -11,8 +11,9 @@ function init()
   oldPosition = {0, 0}
 
   message.setHandler("updateProjectile", function(_, _, newPosition)
-    if world.magnitude(aimPosition, oldPosition) > 2 then
-      aimPosition = newPosition
+    if world.magnitude(aimPosition, oldPosition) > 4 then
+      local vel = mcontroller.velocity()
+      aimPosition = {newPosition[1] - vel[1]/2, newPosition[2] - vel[2]/2}
     end
   end)
   message.setHandler("kill", function() projectile.die() end)
