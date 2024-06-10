@@ -10,7 +10,7 @@ end
 
 function activate()
   if not id then
-    id = world.spawnProjectile("sb_hawkeyes",entity.position(),entity.id(),{0,0},false,{processing="?multiply=0000"})
+    id = world.spawnProjectile("sb_hawkeyes",entity.position(),entity.id(),{0,0},false,{processing="?multiply=000f"})
     activeItem.setCameraFocusEntity(id)
   else
     world.sendEntityMessage(id,"kill")
@@ -22,7 +22,7 @@ function update(dt)
   activeItem.setCursor(string.format("/cursors/charge%s.cursor",id and "invalid" or "ready"))
   if id and world.entityExists(id) then
     local pos = withinBounds(activeItem.ownerAimPosition())
-    world.sendEntityMessage(id, "setTargetPosition", pos)
+    world.sendEntityMessage(id, "updateProjectile", pos)
     lastPos = pos
   end
 end
@@ -39,5 +39,5 @@ function withinBounds(pos)
       pos[i] = lastPos[i]
     end
   end
-  return pos
+  return {math.floor(pos[1]), math.floor(pos[2])}
 end
