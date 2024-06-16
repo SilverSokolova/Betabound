@@ -5,12 +5,12 @@ function init()
   subtitles = root.assetJson("/items/categories.config:labels")
   iconUnderlay = root.assetJson("/blueprint.config").iconUnderlay.image
   itemList, query, lastQuery, category, selectedItem = "scrollArea.itemList", nil, nil, "all", nil --(config.getParameter("gui").categories.buttons)[1].data
-  newIconOffset = (root.imageSize(root.assetJson("/interface/windowconfig/sb_craftingresearch.config").gui.scrollArea.children.itemList.schema.listTemplate.newIcon.file)[1] - root.imageSize(ownedIcon)[1])/2.5
+  newIconOffset = (root.imageSize(config.getParameter("gui.scrollArea.children.itemList.schema.listTemplate.newIcon.file"))[1] - root.imageSize(ownedIcon)[1])/2.5
   populateList()
 end
 
 function update(dt)
-  widget.setText("lblPlayerMoney",tostring(player.currency("money")))
+  widget.setText("lblPlayerMoney", tostring(player.currency("money")))
   widget.setButtonEnabled("btnCraft", selectedItem and hasItems())
   if (query ~= lastQuery) then populateList(category) end
   lastQuery = query
@@ -55,28 +55,33 @@ function craft()
 end
 
 function hasItems()
-  if player.isAdmin() then return true end
-  return player.hasItem("sb_blankblueprint") and player.currency("money") > selectedItem[2][2]
+  return player.isAdmin() or (player.hasItem("sb_blankblueprint") and player.currency("money") >= selectedItem[2][2])
 end
 
 function itemSelected()
   local listItem = widget.getListSelected(itemList)
   if listItem then
     selectedItem = widget.getData(itemList.."."..listItem)
-    local item = root.itemConfig(selectedItem[1]); local directory = item.directory; item = sb.jsonMerge(item.config,item.parameters)
+    local item = root.itemConfig(selectedItem[1])
+    local directory = item.directory
+    item = sb.jsonMerge(item.config, item.parameters)
+
     widget.setText("description", item.description or "This item needs to have a description set.")
     widget.setText("shortdescription", item.shortdescription or "Unnamed Item")
-    local category = item.category or "other"; widget.setText("itemSubtitle", "^gray;"..(subtitles[item.category] or item.category))
+    --This is funny because this station only deals in blueprints, so it will always be "Blueprint". Other languages exist, so don't hardcode it to say 'Blueprint'!
+    local category = item.category or "other"
+    widget.setText("itemSubtitle", "^gray;"..(subtitles[category] or category))
+    
     widget.setImage("objectImage", formatIcon(item.inventoryIcon, directory))
-    widget.setItemSlotItem("currentRecipeIconInput2",selectedItem[2])
-    widget.setItemSlotItem("currentRecipeIconOutput1",selectedItem[1])
-    widget.setItemSlotItem("currentRecipeIconOutput2",{selectedItem[1],1,{tooltipKind="simpletooltip"}})
+    widget.setItemSlotItem("currentRecipeIconInput2", selectedItem[2])
+    widget.setItemSlotItem("currentRecipeIconOutput1", selectedItem[1])
+    widget.setItemSlotItem("currentRecipeIconOutput2", {selectedItem[1], 1, {tooltipKind="simpletooltip"}})
     local recipeData = root.recipesForItem(selectedItem[1]:sub(1,-8))[1].output
     widget.setItemSlotItem("currentRecipeIconOutput3",{recipeData.name, 1, recipeData.parameters})
 
     if not selectedAnything then
       widget.setImage("objectUnderlay", iconUnderlay)
-      widget.setItemSlotItem("currentRecipeIconInput1","sb_blankblueprint")
+      widget.setItemSlotItem("currentRecipeIconInput1", "sb_blankblueprint")
       widget.setVisible("currentRecipeIconOutput2", true)
       widget.setVisible("currentRecipeIconOutput3", true)
       widget.setVisible("lblInput", true)
@@ -87,6 +92,7 @@ function itemSelected()
   end
 end
 
+--TODO: Can image widgets use drawables? If so, grab the weapon's drawable icon from the 'Hover for details' slot
 function formatIcon(icon, directory)
   if type(icon) ~= "string" then return (#icon == 1 and formatIcon(icon[1].image, directory) or "/items/generated/blueprintinhand.png") end
   return string.sub(icon, 1, 1) == "/" and icon or directory..icon

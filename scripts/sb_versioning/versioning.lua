@@ -168,7 +168,6 @@ xrc0018[23]=function()
     player.setProperty("eesTransmutations", b)
   end
 end
-xrc0018[24]=function() player.startQuest("sb_techunlocks") end
 xrc0018[25]=function()
   if player.blueprintKnown("sb_frostshield") then player.giveItem("frostshield-recipe") end
   if player.blueprintKnown("sb_mushroomshield") then player.giveItem("mushroomshield-recipe") end
@@ -247,6 +246,7 @@ xrc0018[32]=function()
   if player.hasCompletedQuest("destroyruin") then
     player.consumeCurrency("sb_questActive:destroyruin", 1)
   end
+  player.startQuest("sb_techunlocks")
 end
 
 function sb_doVersioning(cv,yv)

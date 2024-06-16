@@ -6,7 +6,7 @@
   "price": 6000,
   "tooltipKind": "sb_object",
   "interactAction": "ScriptPane",
-  "interactData": "/interface/windowconfig/sb_craftingresearch.config",
+  "interactData": "/interface/scripted/sb_research/research.config",
   "categoryButton": {
     "pressedOffset": [0,-1],
     "position": [22, 44], //-10,22,33,51,58,78 increasing by 11 seems good

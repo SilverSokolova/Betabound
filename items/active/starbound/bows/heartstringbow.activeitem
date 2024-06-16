@@ -1,3 +1,4 @@
+//TODO: fix the bottom two(?) pixels being cropped off. also add an arrow
 {
   "itemName": "sb_heartstringbow",
   "definition": "bow",
@@ -6,7 +7,8 @@
     "<bow>": "heartstring"
   },
   "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/sb_heckarrow.png"
+    "damageKindImage": "/interface/sb_tooltips/sb_heckarrow.png",
+    "objectImage": "/items/active/starbound/bows/heartstringbowfull.png:0"
   },
   "description": "Harvests meat and other goods from monsters.",
   "shortdescription": "Heartstring Bow",

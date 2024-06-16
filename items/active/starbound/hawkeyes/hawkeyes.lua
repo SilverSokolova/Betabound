@@ -10,7 +10,7 @@ end
 
 function activate()
   if not id then
-    id = world.spawnProjectile("sb_hawkeyes",entity.position(),entity.id(),{0,0},false,{processing="?multiply=000f"})
+    id = world.spawnProjectile("sb_hawkeyes",entity.position(),entity.id(),{0,0},false,{processing="?multiply=0000"})
     activeItem.setCameraFocusEntity(id)
   else
     world.sendEntityMessage(id,"kill")

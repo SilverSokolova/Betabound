@@ -8,7 +8,8 @@
   "fixedRarity": true,
   "rarity": "legendary",
   "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/purplearrow.png"
+    "damageKindImage": "/interface/sb_tooltips/purplearrow.png",
+    "objectImage": "/items/active/starbound/bows/feroziumbowfull.png:0"
   },
   "description": "Harvests meat and other goods from monsters.",
   "shortdescription": "Scintillium Bow",

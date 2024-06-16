@@ -18,7 +18,7 @@ end
 function unlockTech(tier)
   local techTier = player.getProperty("sb_techTier",0)
 --if techTier >= tier then return end
-  player.setProperty("sb_techTier",tier)
+  player.setProperty("sb_techTier", tier)
   if not techTiers then techTiers = config.getParameter("techTiers") end
   local techs, suits = techTiers[tier], 0
   techs, suits = techs[1], techs[2]
@@ -41,10 +41,10 @@ function unlockTech(tier)
 end
 
 function player_makeSuitAvailable(suit)
-  suits = player.getProperty("sb_availableBioimplants")
+  suits = player.getProperty("sb_availableBioimplants", {})
   if #suits == 0 then suits = {suit} else suits[#suits+1] = suit end
   player.setProperty("sb_availableBioimplants",suits)
 end
 
 function ownsTech(tech) return contains(player.availableTechs(), tech) end
-function ownsSuit(tech) return (contains(player.getProperty("sb_bioimplants",{}), tech) or contains(player.getProperty("sb_availableBioimplants",{}), tech)) end
+function ownsSuit(tech) return (contains(player.getProperty("sb_bioimplants") or {}, tech) or contains(player.getProperty("sb_availableBioimplants") or {}, tech)) end --player.getProperty not returning the second value if the property exists even if it's nil :(
