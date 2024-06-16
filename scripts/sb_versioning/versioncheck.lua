@@ -8,10 +8,10 @@ function init() ini()
   if player.introComplete() then
     local playerVersion = player.getProperty("betabound", {}).version or status.statusProperty("xrc_0018z", 0)
     if playerVersion < currentVersion then
-      sb.logInfo(string.format("[Betabound] Updating this character from %s to %s!", playerVersion, currentVersion))
+      sb.logInfo(string.format("[Betabound] Okay! Updating this character from %s to %s!", playerVersion, currentVersion))
       require("/scripts/sb_versioning/versioning.lua")
       sb_doVersioning(currentVersion, playerVersion)
-      sb.logInfo(string.format("[Betabound] Updated this character from %s to %s!", playerVersion, currentVersion))
+      sb.logInfo(string.format("[Betabound] Done! Updated this character from %s to %s!", playerVersion, currentVersion))
     end
   end
 end

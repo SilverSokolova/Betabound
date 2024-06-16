@@ -251,6 +251,12 @@ end
 
 function sb_doVersioning(cv,yv)
   newPlayer = yv == 0
+  --player.getProperty doesn't return the default if the saved value exists as nil, so set it
+  local betaboundStorage = player.getProperty("betabound")
+  if type(betaboundStorage) == "nil" then
+    player.setProperty("betabound", {})
+  end
+
   for i = yv, cv-1 do
     if xrc0018[i+1] then
       xrc0018[i+1]()
