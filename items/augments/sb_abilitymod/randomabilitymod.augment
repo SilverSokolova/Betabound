@@ -1,0 +1,21 @@
+{
+  "itemName": "sb_randomabilitymod",
+  "price": 1500,
+  "tooltipKind": "sb_object4",
+  "rarity": "common",
+  "itemTags": ["weapon", "ranged", "revolver", "pistol", "gun"],
+  "category": "pistol",
+  "tooltipFields": {
+    "subtitle": "Weapon Mod"
+  },
+  "description": "Replaces the abilities of non-unique weapons.\n^gray;Apply to weapon with right-click",
+  "shortdescription": "Randomize",
+  "slots": ["primary", "alt"],
+  "inventoryIcon": [{
+      "image": "/interface/sb_backingicon.png"
+    }, {
+      "image": "sb_random.png"
+    }
+  ],
+  "scripts": ["/scripts/augments/sb_randomability.lua"]
+}

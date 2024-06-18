@@ -13,7 +13,7 @@ function build(directory, config, parameters)
   if icon then
     if icon:sub(0, 1) ~= "/" then icon = directory..icon end
   end
-  table.insert(config.inventoryIcon, icon and {image = icon} or {image = sb_assetmissing(directory..parameters.ability..".png", "/interface/sb_tooltips/assetmissing.png")})
+  table.insert(config.inventoryIcon, icon and {image = icon} or {image = sb_assetmissing(directory..parameters.ability..".png", "sb_default.png")})
 --table.insert(config.inventoryIcon, {image = "/interface/sb_tooltips/assetmissing.png"})
   abilityData = root.assetJson(root.assetJson("/items/buildscripts/weaponabilities.config")[parameters.ability]).ability
 

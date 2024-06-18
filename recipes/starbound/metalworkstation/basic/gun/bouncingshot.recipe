@@ -1,5 +1,5 @@
 {
-  "input" : ["platinumbar","diamond"],
-  "output" : ["sb_abilitymod",1,{"ability":"bouncingshot"}],
-  "groups" : ["sb_metalworkstation","sb_gun","all"]
+  "input": ["platinumbar","diamond"],
+  "output": ["sb_abilitymod",1,{"ability":"bouncingshot"}],
+  "groups": ["sb_metalworkstation","sb_gun","all"]
 }

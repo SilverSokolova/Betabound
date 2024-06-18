@@ -1,5 +1,5 @@
 {
-  "input" : ["cryonicextract","diamond"],
-  "output" : ["sb_elementmod",1,{"element":"ice"}],
-  "groups" : ["sb_metalworkstation","sb_elements","all"]
+  "input": ["cryonicextract","diamond"],
+  "output": ["sb_elementmod",1,{"element":"ice"}],
+  "groups": ["sb_metalworkstation","sb_elements","all"]
 }

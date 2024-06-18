@@ -1,5 +1,5 @@
 {
-  "input" : ["platinumbar","diamond"],
-  "output" : ["sb_abilitymod",1,{"ability":"elementportal"}],
-  "groups" : ["sb_metalworkstation","sb_wand","all"]
+  "input": ["platinumbar","diamond"],
+  "output": ["sb_abilitymod",1,{"ability":"elementportal"}],
+  "groups": ["sb_metalworkstation","sb_wand","all"]
 }
