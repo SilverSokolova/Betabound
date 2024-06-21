@@ -93,5 +93,31 @@
         [0.1, 3]
       ]
     }]
+  ],
+  "sb_crabcanoTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : "volatilepowder"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.2, 1],
+        [0.1, 2],
+        [0.1, 3]
+      ]
+    }]
+  ],
+  "sb_trictusTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : "cacti"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.2, 1],
+        [0.1, 2],
+        [0.1, 3]
+      ]
+    }]
   ]
 }
