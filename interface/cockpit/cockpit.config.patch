@@ -183,6 +183,7 @@
       }
     }
   ],
+  /* dont think we'll ever need this. just comment it out so Planet Search doesnt know about it solely from us
   [{
       "op": "test",
       "path": "/displayOres/trianglium",
@@ -195,7 +196,8 @@
         "icon": "/items/generic/crafting/triangliumore.png"
       }
     }
-  ],
+  ],*/
+  /*
   [{
       "op": "test",
       "path": "/displayOres/prisilite",
@@ -209,7 +211,7 @@
       }
     }
   ],
-
+*/
   [{
       "op": "add",
       "path": "/displayOres/sb_rubium",
@@ -329,6 +331,14 @@
       "op": "copy",
       "path": "/displayDungeons/sb_humanbunker",
       "from": "/displayDungeons/humanbunker"
+    }, {
+      "op": "add",
+      "path": "/displayDungeons/sb_humanbunker/ps_name",
+      "value": "Decrepit U.S.C.M. Bunker"
+    }, {
+      "op": "add",
+      "path": "/displayDungeons/sb_humanbunker/ps_icon",
+      "value": "/items/active/starbound/guns/randomgenerated/pulserifle/pulserifleicon.png?replace;e35f5d=809778;b22042=516d47;871132=214516;818181=5f5540;606060=3f3624;404040=231c10" //green
     }
   ],
 
