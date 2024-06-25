@@ -1,20 +1,20 @@
 {
-  "projectileName": "sb_sunray",
+  "projectileName": "sb_supersunray",
   "physics": "hover",
   "bounces": -1,
   "speed": 10,
-  "timeToLive": 1.0,
-  "lightColor": [165, 25, 0],
+  "timeToLive": 1,
+  "lightColor": [25, 100, 180],
   "piercing": true,
-  "image": "sunray.png",
+  "image": "supersunray.png",
   "animationCycle": 1,
   "frameNumber": 5,
-  "power": 0,
   "statusEffects": [{
       "effect": "burning",
-      "duration": 0.5
+      "duration": 0.4
     }
   ],
+  "power": 0,
   "damagePoly": [[15, 5], [60, 10], [60, -10], [15, -5]],
   "damageKind": "plasma"
 }

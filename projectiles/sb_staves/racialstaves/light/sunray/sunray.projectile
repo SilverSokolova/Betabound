@@ -1,17 +1,17 @@
 {
-  "projectileName": "sb_supersunray",
+  "projectileName": "sb_sunray",
   "physics": "hover",
   "bounces": -1,
   "speed": 10,
-  "timeToLive": 1.0,
-  "lightColor": [25, 100, 180],
+  "timeToLive": 1,
+  "lightColor": [165, 25, 0],
   "piercing": true,
-  "image": "supersunray.png",
+  "image": "sunray.png",
   "animationCycle": 1,
   "frameNumber": 5,
   "statusEffects": [{
       "effect": "burning",
-      "duration": 0.4
+      "duration": 0.5
     }
   ],
   "power": 0,

@@ -11,7 +11,7 @@
   "periodicActions": [{
       "action": "sound",
       "delaySteps": 15,
-      "options": ["/sfx/sb/npc/unique/gustchime1.ogg", "/sfx/sb/npc/unique/gustchime2.ogg", "/sfx/sb/npc/unique/gustchime3.ogg"],
+      "options": ["/sfx/projectiles/gustchime1.ogg", "/sfx/projectiles/gustchime2.ogg", "/sfx/projectiles/gustchime3.ogg"],
       "time": 0,
       "repeat": false
     }, {

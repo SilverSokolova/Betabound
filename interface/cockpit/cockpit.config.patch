@@ -334,7 +334,7 @@
     }, {
       "op": "add",
       "path": "/displayDungeons/sb_humanbunker/ps_name",
-      "value": "Decrepit U.S.C.M. Bunker"
+      "value": "U.S.C.M. Bunker"
     }, {
       "op": "add",
       "path": "/displayDungeons/sb_humanbunker/ps_icon",

@@ -1,131 +1,122 @@
 [
   //just ignore dense. it means something completely different now (x2 spawnchance)
   {
-    "name" : "sb_passiveSmallBiped",
-    "spawnParameters" : {
-      "area" : "surface",
-      "region" : "all",
-      "time" : "all"
+    "name": "sb_passiveSmallBiped",
+    "spawnParameters": {
+      "area": "surface",
+      "region": "all",
+      "time": "all"
     },
 
-    "groupSize" : [1, 2],
-    "spawnChance" : 0.03,
-    "monsterType" : [
+    "groupSize": [1, 2],
+    "spawnChance": 0.03,
+    "monsterType": [
       [1, "smallbiped"]
     ],
-    "monsterParameters" : {
-      "aggressive" : false
+    "monsterParameters": {
+      "aggressive": false
     }
   },
-
-
   {
-    "name" : "sb_aggroSmallBiped",
-    "spawnParameters" : {
-      "area" : "surface",
-      "region" : "all",
-      "time" : "all"
+    "name": "sb_aggroSmallBiped",
+    "spawnParameters": {
+      "area": "surface",
+      "region": "all",
+      "time": "all"
     },
 
-    "groupSize" : [1, 2],
-    "spawnChance" : 0.03,
-    "monsterType" : [
+    "groupSize": [1, 2],
+    "spawnChance": 0.03,
+    "monsterType": [
       [1, "smallbiped"]
     ],
-    "monsterParameters" : {
-      "aggressive" : true
+    "monsterParameters": {
+      "aggressive": true
     }
   },
-
   {
-    "name" : "sb_passiveSmallQuadruped",
-    "spawnParameters" : {
-      "area" : "surface",
-      "region" : "all",
-      "time" : "all"
+    "name": "sb_passiveSmallQuadruped",
+    "spawnParameters": {
+      "area": "surface",
+      "region": "all",
+      "time": "all"
     },
 
-    "groupSize" : [1, 2],
-    "spawnChance" : 0.03,
-    "monsterType" : [
+    "groupSize": [1, 2],
+    "spawnChance": 0.03,
+    "monsterType": [
       [1, "smallquadruped"]
     ],
-    "monsterParameters" : {
-      "aggressive" : false
+    "monsterParameters": {
+      "aggressive": false
     }
   },
-
   {
-    "name" : "sb_aggroSmallQuadruped",
-    "spawnParameters" : {
-      "area" : "surface",
-      "region" : "all",
-      "time" : "all"
+    "name": "sb_aggroSmallQuadruped",
+    "spawnParameters": {
+      "area": "surface",
+      "region": "all",
+      "time": "all"
     },
 
-    "groupSize" : [1, 2],
-    "spawnChance" : 0.03,
-    "monsterType" : [
+    "groupSize": [1, 2],
+    "spawnChance": 0.03,
+    "monsterType": [
       [1, "smallquadruped"]
     ],
-    "monsterParameters" : {
-      "aggressive" : true
+    "monsterParameters": {
+      "aggressive": true
     }
   },
-
-
   {
-    "name" : "sb_aggroLargeQuadruped",
-    "spawnParameters" : {
-      "area" : "surface",
-      "region" : "all",
-      "time" : "all"
+    "name": "sb_aggroLargeQuadruped",
+    "spawnParameters": {
+      "area": "surface",
+      "region": "all",
+      "time": "all"
     },
 
-    "groupSize" : [1, 2],
-    "spawnChance" : 0.03,
-    "monsterType" : [
+    "groupSize": [1, 2],
+    "spawnChance": 0.03,
+    "monsterType": [
       [1, "largequadruped"]
     ],
-    "monsterParameters" : {
-      "aggressive" : true
+    "monsterParameters": {
+      "aggressive": true
     }
   },
-
   {
-    "name" : "sb_aggroHugeBiped",
-    "spawnParameters" : {
-      "area" : "surface",
-      "region" : "exposed",
-      "time" : "all"
+    "name": "sb_aggroHugeBiped",
+    "spawnParameters": {
+      "area": "surface",
+      "region": "exposed",
+      "time": "all"
     },
 
-    "groupSize" : [1, 1],
-    "spawnChance" : 1,
-    "monsterType" : [
+    "groupSize": [1, 1],
+    "spawnChance": 1,
+    "monsterType": [
       [1, "sb_hugebiped"]
     ],
-    "monsterParameters" : {
-      "aggressive" : true
+    "monsterParameters": {
+      "aggressive": true
     }
   },
-
-
   {
-    "name" : "sb_smallFishCave",
-    "spawnParameters" : {
-      "area" : "liquid",
-      "region" : "all",
-      "time" : "all"
+    "name": "sb_smallFishCave",
+    "spawnParameters": {
+      "area": "liquid",
+      "region": "all",
+      "time": "all"
     },
 
-    "groupSize" : [1, 2],
-    "spawnChance" : 0.03,
-    "monsterType" : [
+    "groupSize": [1, 2],
+    "spawnChance": 0.03,
+    "monsterType": [
       [1, "fish"]
     ],
-    "monsterParameters" : {
-      "aggressive" : false
+    "monsterParameters": {
+      "aggressive": false
     }
   }
 ]

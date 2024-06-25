@@ -1,5 +1,5 @@
 {
-  "projectileName": "sb_glitchtear",
+  "projectileName": "sb_gamebreakertear",
   "physics": "hover",
   "bounces": -1,
   "speed": 25,
@@ -7,7 +7,7 @@
   "lightColor": [40, 85, 100],
   "pointLight": true,
   "piercing": true,
-  "image": "glitchtear.png",
+  "image": "gamebreakertear.png",
   "animationCycle": 0.6,
   "orientationLocked": true,
   "flippable": true,
@@ -16,14 +16,13 @@
   "damagePoly": [[-16, 16], [-8, -8], [16, -16], [8, 8]],
   "supportsProcessing": true,
   "actionOnReap": [{
+      "action": "sound",
+      "options": ["/sfx/melee/tesla_shock_kill.ogg"]
+    }, {
       "action": "config",
       "file": "/projectiles/explosions/glitchexplosion/glitchexplosion.config"
     }
   ],
-
-  "statusEffects": [
-    "crash"
-  ],
-
+  "statusEffects": ["crash"],
   "damageKind": "plasma"
 }

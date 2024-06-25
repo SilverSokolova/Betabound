@@ -2,7 +2,7 @@
   "projectileName": "sb_glitchsword",
   "physics": "stickybomb",
   "image": "glitchsword.png",
-  "animationCycle": 0.2,
+  "animationCycle": 1,
   "bounces": -1,
   "timeToLive": 2.5,
   "frameNumber": 6,

@@ -12,7 +12,7 @@
       "delaySteps": 15,
       "repeat": false,
       "time": 0,
-      "options": ["/sfx/sb/npc/unique/gust1.ogg", "/sfx/sb/npc/unique/gust2.ogg", "/sfx/sb/npc/unique/gust3.ogg"]
+      "options": ["/sfx/projectiles/gust1.ogg", "/sfx/projectiles/gust2.ogg", "/sfx/projectiles/gust3.ogg"]
     }, {
       "action": "projectile",
       "type": "sb_cutterleaf",

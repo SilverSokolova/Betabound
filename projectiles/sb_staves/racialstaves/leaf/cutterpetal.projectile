@@ -15,7 +15,7 @@
       "file": "/projectiles/explosions/leafexplosion/leafexplosion.config"
     }
   ],
-  "power": 1.0,
+  "power": 1,
   "damagePoly": [[-2, 2], [-2, -2], [2, -2], [2, 2]],
   "damageKind": "default",
   "emitters": ["lighttrailfast"]
