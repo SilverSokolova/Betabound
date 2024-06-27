@@ -50,7 +50,12 @@ function build(directory, config, parameters, level, seed)
         poisonthrower = "poison",
         lightningthrower = "electric"
       }
-      parameters.elementalType = projectileMap[parameters.primaryAbility and parameters.primaryAbility.projectileType or "flamethrower"]
+      local previousProjectile = projectileMap[parameters.primaryAbility and parameters.primaryAbility.projectileType]
+      if previousProjectile then
+        parameters.elementalType = previousProjectile
+      else
+        parameters.elementalType = randomFromList(builderConfig.elementalType, seed, "elementalType")
+      end
     else
       parameters.elementalType = randomFromList(builderConfig.elementalType, seed, "elementalType")
     end
@@ -135,8 +140,13 @@ function build(directory, config, parameters, level, seed)
         config.primaryAbility.energyUsage = config.primaryAbility.energyUsage+(config.primaryAbility.projectileCount*1.4)
       end
     end
+
+    --various ranges
     if config.primaryAbility.projectileParameters.knockbackRange then
       config.primaryAbility.projectileParameters.knockback = scaleConfig(parameters.primaryAbility.fireTimeFactor, config.primaryAbility.projectileParameters.knockbackRange)
+    end
+    if config.primaryAbility.projectileParameters.speedRange then
+      config.primaryAbility.projectileParameters.speed = randomIntInRange(config.primaryAbility.projectileParameters.speedRange, seed, "speed")
     end
   end
 

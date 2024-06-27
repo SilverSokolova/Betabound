@@ -119,6 +119,7 @@
 ,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":0.3,"item":"pollenpump"}}]
 ,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":0.3,"item":"pollenpump-recipe"}}]
 ,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":0.3,"item":"flowerstatue-recipe"}}]
+,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_naturecapeback"}}]
 
   // ================================
   //      Oasis

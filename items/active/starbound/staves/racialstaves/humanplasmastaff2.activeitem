@@ -13,7 +13,7 @@
   "shortdescription": "Boom Blast Staff",
   "tooltipFields": {
     "subtitle": "Plasma Staff",
-    "damageKindImage": "/interface/sb_tooltips/plasmapulse.png"
+    "damageKindImage": "/interface/sb_tooltips/sb_plasmapulse.png"
   },
   "elementalType": "fire",
   "altAbilityType": "plasmabarrage",

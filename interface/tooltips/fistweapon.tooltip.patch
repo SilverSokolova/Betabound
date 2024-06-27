@@ -20,7 +20,7 @@
     }, {
       "op": "replace",
       "path": "/sb_levelLabel/position/1",
-      "value": 156
+      "value": 154
     }
   ]
 ]

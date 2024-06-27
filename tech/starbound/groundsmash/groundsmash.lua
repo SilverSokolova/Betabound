@@ -64,7 +64,7 @@ function update(args) updat(args)
     lastVelocity = 0
 --mcontroller.addMomentum({0,-lastVelocity+groundsmashSpeed})
 
-    --TODO: Use force region here when/if we have radial ones. Is there a way for us to be immune to it?
+    --CF TODO: Use force region here when/if we have radial ones. Is there a way for us to be immune to it?
     local position = vec2.add(mcontroller.position(), knockbackOffset)
 
     local nearEntities = world.entityQuery(position, knockbackRadius, {validTargetOf = entity.id(), includedTypes = {"monster", "npc", "player"}})

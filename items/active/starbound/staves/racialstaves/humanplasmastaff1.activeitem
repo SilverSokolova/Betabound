@@ -13,7 +13,7 @@
   "shortdescription": "Plasma Pulse Staff",
   "tooltipFields": {
     "subtitle": "Plasma Staff",
-    "damageKindImage": "/interface/sb_tooltips/boomblast.png"
+    "damageKindImage": "/interface/sb_tooltips/sb_boomblast.png"
   },
   "elementalType": "electric",
   "altAbilityType": "plasmabarrage",
