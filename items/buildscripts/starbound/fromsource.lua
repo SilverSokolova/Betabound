@@ -1,6 +1,6 @@
 function build(directory, config, parameters)
   config.builder = nil
-  config = sb.jsonMerge(root.assetJson(config.sb_itemName:sub(1,1) == "/" and config.sb_itemName or (directory..config.sb_itemName)),config)
+  config = sb.jsonMerge(root.assetJson(config.originalItemName:sub(1,1) == "/" and config.originalItemName or (directory..config.originalItemName)),config)
 
   if config.builder then
     require(config.builder)

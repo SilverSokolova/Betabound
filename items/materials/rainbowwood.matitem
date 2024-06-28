@@ -1,5 +1,5 @@
 {
-  "sb_itemName": "/items/generic/crafting/rainbowwood.item",
+  "originalItemName": "/items/generic/crafting/rainbowwood.item",
   "itemName": "rainbowwood",
   "inventoryIcon": "/items/generic/crafting/rainbowwood.png",
   "tooltipKind": "sb_object",

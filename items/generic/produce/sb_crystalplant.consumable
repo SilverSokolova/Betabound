@@ -1,6 +1,6 @@
-//TODO: rename this file after Sayter accepts my pull request and uploads to Steam
+//TODO: rename this file after FU is updated. Thank you, Sayter!
 {
-  "sb_itemName": "crystalplant.item",
+  "originalItemName": "crystalplant.item",
   "itemName": "crystalplant",
   "shortdescription": "Crystal Plant",
   "category": "food",

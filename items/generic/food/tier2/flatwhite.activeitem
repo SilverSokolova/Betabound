@@ -1,5 +1,5 @@
 {
-  "sb_itemName": "flatwhite.consumable",
+  "originalItemName": "flatwhite.consumable",
   "itemName": "flatwhite",
   "shortdescription": "Flat White Coffee",
   "animation": "/items/sb_consumable.animation",

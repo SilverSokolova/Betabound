@@ -1,5 +1,5 @@
 {
-  "sb_itemName": "antidote.consumable",
+  "originalItemName": "antidote.consumable",
   "itemName": "antidote",
   "animation": "/items/sb_consumable.animation",
   "scripts": ["/items/sb_consumable.lua"],

@@ -1,5 +1,5 @@
 {
-  "sb_itemName": "rice.item",
+  "originalItemName": "rice.item",
   "itemName": "rice",
   "shortdescription": "Rice",
   "foodValue": 2.5,
