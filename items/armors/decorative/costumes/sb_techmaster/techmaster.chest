@@ -8,6 +8,7 @@
   "price" : 5000,
   "description": "This jacket is usually worn by those privy to some of the universe's best kept secrets.",
   "shortdescription": "Tech Master's Techjacket",
+  "builder": "/items/buildscripts/starbound/buildarmor.lua",
   "maleFrames": {
     "body": "chest.png",
     "backSleeve": "bsleeve.png",
