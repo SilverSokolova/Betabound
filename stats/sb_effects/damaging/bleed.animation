@@ -1,43 +1,41 @@
 {
-  "particleEmitters" : {
-    "blood" : {
-      "active" : true,
-      "emissionRate" : 60,
-      "particles" : [
-        {
-          "particle" : {
-            "type" : "ember",
-            "color" : [255, 0, 0, 255],
-            "position" : [0.25, 0.1],
-            "initialVelocity" : [3, 0],
-            "finalVelocity" : [0, -50],
-            "approach" : [0, 50],
-            "size" : 1,
-            "layer" : "middle",
-            "timeToLive" : 0.2,
-            "variance" : {
-              "position" : [0, 0],
-              "initialVelocity" : [3, 0]
+  "particleEmitters": {
+    "blood": {
+      "active": true,
+      "emissionRate": 60,
+      "particles": [{
+          "particle": {
+            "type": "ember",
+            "color": [255, 0, 0, 255],
+            "position": [0.25, 0.1],
+            "initialVelocity": [3, 0],
+            "finalVelocity": [0, -50],
+            "approach": [0, 50],
+            "size": 1,
+            "layer": "middle",
+            "timeToLive": 0.2,
+            "variance": {
+              "position": [0, 0],
+              "initialVelocity": [3, 0]
             },
-            "flippable" : true
+            "flippable": true
           }
-        },
-        {
-          "particle" : {
-            "type" : "ember",
-            "color" : [255, 0, 0, 255],
-            "position" : [0.25, 0.1],
-            "initialVelocity" : [0.1, -5],
-            "finalVelocity" : [0, 0],
-            "approach" : [0, -20],
-            "size" : 1,
-            "layer" : "middle",
-            "timeToLive" : 0.2,
-            "variance" : {
-              "position" : [0, 0],
-              "initialVelocity" : [0, 3]
+        }, {
+          "particle": {
+            "type": "ember",
+            "color": [255, 0, 0, 255],
+            "position": [0.25, 0.1],
+            "initialVelocity": [0.1, -5],
+            "finalVelocity": [0, 0],
+            "approach": [0, -20],
+            "size": 1,
+            "layer": "middle",
+            "timeToLive": 0.2,
+            "variance": {
+              "position": [0, 0],
+              "initialVelocity": [0, 3]
             },
-            "flippable" : true
+            "flippable": true
           }
         }
       ]

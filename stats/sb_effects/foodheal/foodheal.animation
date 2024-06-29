@@ -1,25 +1,24 @@
 {
-  "particleEmitters" : {
-    "healing" : {
-      "active" : true,
-      "emissionRate" : 3,
-      "particles" : [
-        {
-          "particle" : {
-            "type" : "animated",
-            "mode" : "LoopForever",
-            "animation" : "/animations/statuseffects/heal/heal.animation",
-            "size" : 1,
-            "color" : [250, 30, 30, 230],
-            "fade" : 0.9,
-            "position" : [0, 0],
-            "offsetRegion" : [0, 0, 0, 0],
-            "initialVelocity" : [0, 1],
-            "finalVelocity" : [0, 5],
-            "approach" : [0, 10],
-            "timeToLive" : 0.6,
-            "variance" : {
-              "initialVelocity" : [0.5, 1.0]
+  "particleEmitters": {
+    "healing": {
+      "active": true,
+      "emissionRate": 3,
+      "particles": [{
+          "particle": {
+            "type": "animated",
+            "mode": "LoopForever",
+            "animation": "/animations/statuseffects/heal/heal.animation",
+            "size": 1,
+            "color": [250, 30, 30, 230],
+            "fade": 0.9,
+            "position": [0, 0],
+            "offsetRegion": [0, 0, 0, 0],
+            "initialVelocity": [0, 1],
+            "finalVelocity": [0, 5],
+            "approach": [0, 10],
+            "timeToLive": 0.6,
+            "variance": {
+              "initialVelocity": [0.5, 1.0]
             }
           }
         }

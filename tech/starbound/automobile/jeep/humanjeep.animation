@@ -1,159 +1,148 @@
 {
-  "animatedParts" : {
-    "stateTypes" : {
-      "movement" : {
-        "default" : "idle",
-        "states" : {
-          "idle" : {
-            "properties" : {
-              "persistentSound" : "/sfx/tech/hoverbike_idle_loop.ogg"
+  "animatedParts": {
+    "stateTypes": {
+      "movement": {
+        "default": "idle",
+        "states": {
+          "idle": {
+            "properties": {
+              "persistentSound": "/sfx/tech/hoverbike_idle_loop.ogg"
             }
           },
-          "jump" : {
-            "frames" : 2,
-            "cycle" : 0.5,
-            "mode" : "end",
-            "properties" : {
-              "immediateSound" : "/sfx/tech/mech_jump3.ogg"
-            },
-            "frameProperties" : {
-              "stateNudge" : [ [0.8, -1.25], [0.8, -1.25], [0, 0.376], [0, 0.376] ]
+          "jump": {
+            "frames": 2,
+            "cycle": 0.5,
+            "mode": "end",
+            "properties": {
+              "immediateSound": "/sfx/tech/mech_jump3.ogg"
             }
           },
 
-          "fall" : {
-            "frames" : 2,
-            "cycle" : 0.5,
-            "mode" : "end",
-            "frameProperties" : {
-              "stateNudge" : [ [0.8, -1.25], [0.8, -1.25], [0, 0.126], [0, 0] ]
+          "fall": {
+            "frames": 2,
+            "cycle": 0.5,
+            "mode": "end"
+          },
+
+          "walk": {
+            "frames": 4,
+            "cycle": 0.5,
+            "mode": "loop",
+            "properties": {
+              "persistentSound": "/sfx/tech/hoverbike_drive_loop.ogg"
             }
           },
 
-          "walk" : {
-            "frames" : 4,
-            "cycle" : 0.5,
-            "mode" : "loop",
-            "properties" : {
-              "persistentSound" : "/sfx/tech/hoverbike_drive_loop.ogg"
-            },
-            "frameProperties" : {
-              "stateNudge" : [ [0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25] ]
-            }
-          },
-
-          "backWalk" : {
-            "frames" : 4,
-            "cycle" : 0.5,
-            "mode" : "loop",
-            "properties" : {
-              "persistentSound" : "/sfx/tech/hoverbike_drive_loop.ogg"
-            },
-            "frameProperties" : {
-              "stateNudge" : [ [0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25] ]
+          "backWalk": {
+            "frames": 4,
+            "cycle": 0.5,
+            "mode": "loop",
+            "properties": {
+              "persistentSound": "/sfx/tech/hoverbike_drive_loop.ogg"
             }
           }
         }
-      }},
-    "parts" : {
-      "background" : {
-        "properties" : {
-          "centered" : true,
-          "zLevel" : -1
+      }
+    },
+    "parts": {
+      "background": {
+        "properties": {
+          "centered": true,
+          "zLevel": -1
         },
 
-        "partStates" : {
-          "movement" : {
-            "idle" : {
-              "properties" : {
-                "image" : "background.png:move.<frame>"
+        "partStates": {
+          "movement": {
+            "idle": {
+              "properties": {
+                "image": "background.png:move.<frame>"
               },
-              "frameProperties" : {
-                "offset" : [ [0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25] ]
+              "frameProperties": {
+                "offset": [[0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25]]
               }
             },
-            "jump" : {
-              "properties" : {
-                "image" : "background.png:jump.<frame>"
+            "jump": {
+              "properties": {
+                "image": "background.png:jump.<frame>"
               },
-              "frameProperties" : {
-                "offset" : [ [0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25] ]
+              "frameProperties": {
+                "offset": [[0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25]]
               }
             },
-            "fall" : {
-              "properties" : {
-                "image" : "background.png:fall.<frame>"
+            "fall": {
+              "properties": {
+                "image": "background.png:fall.<frame>"
               },
-              "frameProperties" : {
-                "offset" : [ [0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25] ]
+              "frameProperties": {
+                "offset": [[0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25]]
               }
             },
-            "walk" : {
-              "properties" : {
-                "image" : "background.png:move.<frame>"
+            "walk": {
+              "properties": {
+                "image": "background.png:move.<frame>"
               },
-              "frameProperties" : {
-                "offset" : [ [0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25] ]
+              "frameProperties": {
+                "offset": [[0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25]]
               }
             },
-            "backWalk" : {
-              "properties" : {
-                "image" : "background.png:bmove.<frame>"
+            "backWalk": {
+              "properties": {
+                "image": "background.png:bmove.<frame>"
               },
-              "frameProperties" : {
-                "offset" : [ [0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25] ]
+              "frameProperties": {
+                "offset": [[0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25]]
               }
             }
           }
         }
       },
 
-      "foreground" : {
-        "properties" : {
-          "centered" : true,
-          "zLevel" : 5
+      "foreground": {
+        "properties": {
+          "centered": true,
+          "zLevel": 5
         },
 
-        "partStates" : {
-          "movement" : {
-            "idle" : {
-              "properties" : {
-                "image" : "foreground.png:move.<frame>"
+        "partStates": {
+          "movement": {
+            "idle": {
+              "properties": {
+                "image": "foreground.png:move.<frame>"
               },
-              "frameProperties" : {
-                "offset" : [ [0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25] ]
+              "frameProperties": {
+                "offset": [[0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25]]
               }
             },
-            "jump" : {
-              "properties" : {
-                "image" : "foreground.png:jump.<frame>"
+            "jump": {
+              "properties": {
+                "image": "foreground.png:jump.<frame>"
               },
-              "frameProperties" : {
-                "offset" : [ [0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25] ]
+              "frameProperties": {
+                "offset": [[0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25]]
               }
             },
-            "fall" : {
-              "properties" : {
-                "image" : "foreground.png:fall.<frame>"
+            "fall": {
+              "properties": {
+                "image": "foreground.png:fall.<frame>"
               },
-              "frameProperties" : {
-                "offset" : [ [0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25] ]
+              "frameProperties": {
+                "offset": [[0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25]]
               }
             },
-            "walk" : {
-              "properties" : {
-                "image" : "foreground.png:move.<frame>"
+            "walk": {
+              "properties": {
+                "image": "foreground.png:move.<frame>"
               },
-              "frameProperties" : {
-                "offset" : [ [0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25] ]
+              "frameProperties": {
+                "offset": [[0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25]]
               }
             },
-            "backWalk" : {
-              "properties" : {
-                "image" : "foreground.png:bmove.<frame>"
+            "backWalk": {
+              "properties": {
+                "image": "foreground.png:bmove.<frame>"
               },
-              "frameProperties" : {
-                "offset" : [ [0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25] ]
+              "frameProperties": {
+                "offset": [[0.8, -1.25], [0.8, -1.25], [0.8, -1.25], [0.8, -1.25]]
               }
             }
           }
@@ -161,69 +150,85 @@
       }
     }
   },
- "lights" : {
-   "dashboardGlow" : {
-      "active" : true,
-      "position" : [0, -1],
-      "color" : [250, 250, 200],
-      "pointLight" : true,
-      "pointAngle" : -5,
-      "pointBeam" : 5
+  "lights": {
+    "dashboardGlow": {
+      "active": true,
+      "position": [0, -1],
+      "color": [250, 250, 200],
+      "pointLight": true,
+      "pointAngle": -5,
+      "pointBeam": 5
     },
-    "headlightBeam" : {
-      "active" : true,
-      "position" : [2, -1],
-      "color" : [250, 250, 200],
-      "pointLight" : true,
-      "pointAngle" : -5,
-      "pointBeam" : 5
+    "headlightBeam": {
+      "active": true,
+      "position": [2, -1],
+      "color": [250, 250, 200],
+      "pointLight": true,
+      "pointAngle": -5,
+      "pointBeam": 5
     }
   },
-  "particleEmitters" : {
-    "mechActivateParticles" : {
-      "active" : false,
-      "offsetRegion" : [0.05, -0.68, 0.05, -0.68],
-      "particles" : [{"particle":"sb_warpin_jeep"}]
-    },
-    "mechDeactivateParticles" : {
-      "active" : false,
-      "offsetRegion" : [0, -0.6, 0, -0.6],
-      "particles" : [{"particle":"sb_warpout_jeep"}]
-    },
-    "mechSmokeB" : {
-      "active" : false,
-      "emissionRate" : 15,
-      "offsetRegion" : [-2.25, -2.70, -2.0, -3.10],
-      "particles" : [
-        { "particle" : "tinyrocketsmoke"},
-        { "particle" : "tinyrocketsmoke"},
-        { "particle" : "tinyrocketsmoke"},
-        { "particle" : "tinyrocketsmoke"}
+  "particleEmitters": {
+    "mechActivateParticles": {
+      "active": false,
+      "offsetRegion": [0.05, -0.68, 0.05, -0.68],
+      "particles": [{
+          "particle": "sb_warpin_jeep"
+        }
       ]
     },
-    "mechSmokeF" : {
-      "active" : false,
-      "emissionRate" : 15,
-      "offsetRegion" : [0.8, -2.70, 1.05, -3.10],
-      "particles" : [
-        { "particle" : "tinyrocketsmoke"},
-        { "particle" : "tinyrocketsmoke"},
-        { "particle" : "tinyrocketsmoke"},
-        { "particle" : "tinyrocketsmoke"}
+    "mechDeactivateParticles": {
+      "active": false,
+      "offsetRegion": [0, -0.6, 0, -0.6],
+      "particles": [{
+          "particle": "sb_warpout_jeep"
+        }
       ]
     },
-    "mechNoEnergy" : {
-      "active" : false,
-      "emissionRate" : 15,
-      "offsetRegion" : [2.8, -0.90, 3.05, -1.40],
-      "particles" : [
-        { "particle" : "burningvehiclesmokefront"},
-        { "particle" : "burningvehiclesmokefront"}
+    "mechSmokeB": {
+      "active": false,
+      "emissionRate": 15,
+      "offsetRegion": [-2.25, -2.70, -2.0, -3.10],
+      "particles": [{
+          "particle": "tinyrocketsmoke"
+        }, {
+          "particle": "tinyrocketsmoke"
+        }, {
+          "particle": "tinyrocketsmoke"
+        }, {
+          "particle": "tinyrocketsmoke"
+        }
+      ]
+    },
+    "mechSmokeF": {
+      "active": false,
+      "emissionRate": 15,
+      "offsetRegion": [0.8, -2.70, 1.05, -3.10],
+      "particles": [{
+          "particle": "tinyrocketsmoke"
+        }, {
+          "particle": "tinyrocketsmoke"
+        }, {
+          "particle": "tinyrocketsmoke"
+        }, {
+          "particle": "tinyrocketsmoke"
+        }
+      ]
+    },
+    "mechNoEnergy": {
+      "active": false,
+      "emissionRate": 15,
+      "offsetRegion": [2.8, -0.90, 3.05, -1.40],
+      "particles": [{
+          "particle": "burningvehiclesmokefront"
+        }, {
+          "particle": "burningvehiclesmokefront"
+        }
       ]
     }
   },
-  "sounds" : {
-    "warp" : [ "/sfx/tech/vehicle_disappear1.ogg" ],
-    "fail" : [ "/sfx/interface/clickon_error.ogg" ]
+  "sounds": {
+    "warp": ["/sfx/tech/vehicle_disappear1.ogg"],
+    "fail": ["/sfx/interface/clickon_error.ogg"]
   }
 }

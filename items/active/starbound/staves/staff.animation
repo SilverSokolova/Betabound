@@ -38,7 +38,7 @@
           "zLevel": 0,
           "centered": true,
           "image": "<partImage>",
-          "offset": [0.0, 1.0],
+          "offset": [0, 1],
           "focalPoint": [0, 2.5],
           "transformationGroups": ["weapon"]
         }
@@ -49,8 +49,8 @@
           "centered": true,
           "fullbright": true,
           "image": "<partImage>",
-          "offset": [0.0, 1.0],
-          "focalPoint": [0.0, 2.5],
+          "offset": [0, 1],
+          "focalPoint": [0, 2.5],
           "transformationGroups": ["weapon"]
         }
       },
@@ -60,7 +60,7 @@
           "centered": true,
           "fullbright": false,
           "image": "",
-          "offset": [0.0, 2],
+          "offset": [0, 2],
           "focalPoint": [0, 0],
           "transformationGroups": ["weapon"]
         }
@@ -109,7 +109,7 @@
   "lights": {
     "glow": {
       "active": false,
-      "position": [0, 3.0],
+      "position": [0, 3],
       "color": [0, 0, 0],
       "transformationGroups": ["weapon"]
     }

@@ -17,9 +17,6 @@
             "properties": {
               "immediateSound": "/sfx/gun/grenadeblast1.ogg",
               "particleEmittersOff": ["confetti"]
-            },
-            "frameProperties": {
-              "stateNudge": [[-0.125, 0], [0, 0]]
             }
           },
           "confetti": {

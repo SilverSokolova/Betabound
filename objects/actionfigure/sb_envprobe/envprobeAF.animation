@@ -56,5 +56,5 @@
     }
   },
 
-  "sounds" : {"interact":["/sfx/tools/flashlight_toggle.ogg"]}
+  "sounds": {"interact":["/sfx/tools/flashlight_toggle.ogg"]}
 }

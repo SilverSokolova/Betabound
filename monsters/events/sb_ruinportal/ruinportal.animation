@@ -1,95 +1,95 @@
 {
-  "animatedParts" : {
-    "stateTypes" : {
-      "music" : {
-        "default" : "on",
-        "states" : {
-          "off" : {},
-          "on" : {
-            "mode" : "loop",
-            "properties" : {
-            "persistentSound": "",
-            "persistentSoundStopTime" : 6,
-            "persistentSoundRangeMultiplier" : 7
+  "animatedParts": {
+    "stateTypes": {
+      "music": {
+        "default": "on",
+        "states": {
+          "off": {},
+          "on": {
+            "mode": "loop",
+            "properties": {
+              "persistentSound": "",
+              "persistentSoundStopTime": 6,
+              "persistentSoundRangeMultiplier": 7
             }
           }
         }
       },
-      "portal" : {
-        "default" : "open",
-        "states" : {
-          "closed" : {},
-          "open" : {
-            "frames" : 9,
-            "cycle" : 0.3,
-            "mode" : "transition",
-            "transition" : "openloop"
+      "portal": {
+        "default": "open",
+        "states": {
+          "closed": {},
+          "open": {
+            "frames": 9,
+            "cycle": 0.3,
+            "mode": "transition",
+            "transition": "openloop"
           },
-          "openloop" : {
-            "frames" : 2,
-            "cycle" : 0.1,
-            "mode" : "loop"
+          "openloop": {
+            "frames": 2,
+            "cycle": 0.1,
+            "mode": "loop"
           },
-          "close" : {
-            "frames" : 9,
-            "cycle" : 0.3,
-            "mode" : "transition",
-            "transition" : "closed"
+          "close": {
+            "frames": 9,
+            "cycle": 0.3,
+            "mode": "transition",
+            "transition": "closed"
           }
         }
       }
     },
 
-    "parts" : {
-      "portalbg" : {
-        "properties" : {
-          "centered" : true,
-          "zLevel" : 3,
-          "fullbright" : true
+    "parts": {
+      "portalbg": {
+        "properties": {
+          "centered": true,
+          "zLevel": 3,
+          "fullbright": true
         },
 
-        "partStates" : {
-          "portal" : {
-            "open" : {
-              "properties" : {
-                "image" : "<partImage>:open.<frame>"
+        "partStates": {
+          "portal": {
+            "open": {
+              "properties": {
+                "image": "<partImage>:open.<frame>"
               }
             },
-            "openloop" : {
-              "properties" : {
-                "image" : "<partImage>:openloop.<frame>"
+            "openloop": {
+              "properties": {
+                "image": "<partImage>:openloop.<frame>"
               }
             },
-            "close" : {
-              "properties" : {
-                "image" : "<partImage>:close.<frame>"
+            "close": {
+              "properties": {
+                "image": "<partImage>:close.<frame>"
               }
             }
           }
         }
       },
-      "portal" : {
-        "properties" : {
-          "centered" : true,
-          "zLevel" : 4,
-          "fullbright" : true
+      "portal": {
+        "properties": {
+          "centered": true,
+          "zLevel": 4,
+          "fullbright": true
         },
 
-        "partStates" : {
-          "portal" : {
-            "open" : {
-              "properties" : {
-                "image" : "<partImage>:open.<frame>"
+        "partStates": {
+          "portal": {
+            "open": {
+              "properties": {
+                "image": "<partImage>:open.<frame>"
               }
             },
-            "openloop" : {
-              "properties" : {
-                "image" : "<partImage>:openloop.<frame>"
+            "openloop": {
+              "properties": {
+                "image": "<partImage>:openloop.<frame>"
               }
             },
-            "close" : {
-              "properties" : {
-                "image" : "<partImage>:close.<frame>"
+            "close": {
+              "properties": {
+                "image": "<partImage>:close.<frame>"
               }
             }
           }
@@ -98,15 +98,15 @@
     }
   },
 
-  "effects" : {
-    "blink" : {
-      "type" : "flash",
-      "time" : 0,
-      "directives" : ""
+  "effects": {
+    "blink": {
+      "type": "flash",
+      "time": 0,
+      "directives": ""
     }
   },
 
-  "particleEmitters" : {},
+  "particleEmitters": {},
 
-  "sounds" : {}
+  "sounds": {}
 }
