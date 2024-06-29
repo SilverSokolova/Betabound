@@ -1,8 +1,8 @@
 {
-  "id": "sb_jelly",
+  "id": "sb_peanutbutter",
   "prerequisites": ["sb_humanexcon4.gearup"],
   "title": "^#9be3d6;The Missing Ingredient",
-  "text": "Oh, it's you again! Back when I was a USCM inmate, I overheard some guards talking about a 'Brian' incident... Curiosity got the best of me, and they spilled the beans for me! The USCM found a way to summon a giant jelly-jam monster by using some ^orange;peanut butter^reset, and I've got a craving for a good ol' ^orange;PB&J^reset, but I just can't seem to find any jelly. ^green;Please make a ^orange;Peanut Butter Trap^green; at an ^orange;Architect's Table^green; and bring me some jelly!^reset; But be careful- ^orange;they call it a monster for a reason!^reset;",
+  "text": "Oh, it's you again! Back when I was a USCM inmate, I overheard some guards talking about a 'Brian' incident... In a nutshell, the USCM found a way to summon a jelly monster by using some ^orange;peanut butter^reset;, and I've got a craving for a classic ^orange;PB&J^reset;, but I just can't seem to find any jelly. ^green;Please make a ^orange;Peanut Butter Trap^green; at an ^orange;Architect's Table^green; and bring me some jelly! You can make ^orange;Peanut Butter^green; at a ^orange;Kitchen Counter^green;!^reset;",
   "completionText": "You've helped me yet again, I can't thank you enough! Here- These are for you!",
   "speaker": "questGiver",
   "moneyRange": [300, 300],
@@ -25,6 +25,7 @@
       "default": "questGiver"
     },
     "requireTurnIn": true,
+    "sb_acceptBlueprints": ["sb_butter", "sb_peanutbutterjar", "sb_peanutbutter"],
     "turnInDescription": "Speak to ^orange;the ex-convict^reset; at the ^orange;outpost^reset;",
     "conditions": [{
         "description": "Craft ^orange;Peanut Butter Trap^reset; to obtain ^orange;Endomorphic Jelly^reset;",

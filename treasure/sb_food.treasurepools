@@ -212,7 +212,7 @@
         ,{"weight" : 0.7, "item" : "sb_orangejam"}
         ,{"weight" : 0.65, "item" : "sb_orangepie"}
         ,{"weight" : 0.6, "item" : "sb_orangetart"}
-        ,{"weight" : 0.65, "item" : "sb_peanutbutterjar"}
+        ,{"weight" : 0.7, "item" : "sb_peanutbutterjar"}
         ,{"weight" : 0.55, "item" : "sb_pussplumpie"}
         ,{"weight" : 0.65, "item" : "sb_thornjam"}
         ,{"weight" : 0.75, "item" : "sb_toffee"}

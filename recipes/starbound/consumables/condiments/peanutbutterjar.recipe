@@ -1,5 +1,5 @@
 {
-  "input" : ["sb_butter","pearlpea"],
+  "input" : ["sb_butter","pearlpea",["shroom", 5]],
   "output" : "sb_peanutbutterjar",
   "groups" : ["craftingfood","condiments","sb_healing","sb_protection","sb_energy","sb_t1food","all"],
   "collectables" : {"cooking":"sb_peanutbutterjar"}

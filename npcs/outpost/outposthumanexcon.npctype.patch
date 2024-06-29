@@ -2,11 +2,11 @@
   [{
       "op": "add",
       "path": "/scriptConfig/sb_offeredQuests",
-      "value": ["sb_humanexcon2.gearup", "sb_humanexcon4.gearup"]
+      "value": ["sb_humanexcon2.gearup", "sb_humanexcon4.gearup", "sb_peanutbutter"]
     }, {
       "op": "add",
       "path": "/scriptConfig/sb_turnInQuests",
-      "value": ["sb_humanexcon2.gearup", "sb_humanexcon4.gearup"]
+      "value": ["sb_humanexcon2.gearup", "sb_humanexcon4.gearup", "sb_peanutbutter"]
     }
   ]
 ]
