@@ -1,0 +1,38 @@
+{
+  "id": "sb_jelly",
+  "prerequisites": ["sb_humanexcon4.gearup"],
+  "title": "^#9be3d6;The Missing Ingredient",
+  "text": "Oh, it's you again! Back when I was a USCM inmate, I overheard some guards talking about a 'Brian' incident... Curiosity got the best of me, and they spilled the beans for me! The USCM found a way to summon a giant jelly-jam monster by using some ^orange;peanut butter^reset, and I've got a craving for a good ol' ^orange;PB&J^reset, but I just can't seem to find any jelly. ^green;Please make a ^orange;Peanut Butter Trap^green; at an ^orange;Architect's Table^green; and bring me some jelly!^reset; But be careful- ^orange;they call it a monster for a reason!^reset;",
+  "completionText": "You've helped me yet again, I can't thank you enough! Here- These are for you!",
+  "speaker": "questGiver",
+  "moneyRange": [300, 300],
+  "canBeAbandoned": true,
+  "rewards": [[["salvagebody", 10], ["salvagelegs", 10], ["salvagebooster", 10], ["rewardbag", 1, {
+          "level": 5
+        }
+      ]]],
+
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquestnorewards.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta": 10,
+  "script": "/quests/scripts/main.lua",
+  "scriptConfig": {
+    "portraits": {
+      "default": "questGiver"
+    },
+    "requireTurnIn": true,
+    "turnInDescription": "Speak to ^orange;the ex-convict^reset; at the ^orange;outpost^reset;",
+    "conditions": [{
+        "description": "Craft ^orange;Peanut Butter Trap^reset; to obtain ^orange;Endomorphic Jelly^reset;",
+        "type": "gatherItem",
+        "itemName": "endomorphicjelly",
+        "count": 1,
+        "consume": true
+      }
+    ]
+  }
+}

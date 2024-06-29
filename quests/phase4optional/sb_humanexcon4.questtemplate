@@ -1,33 +1,40 @@
 {
-  "id" : "sb_humanexcon4.gearup",
-  "prerequisites" : [ "hylotl_mission2", "sb_hylotlperformer3.gearup", "sb_bountyhunter3.gearup", "sb_avianexplorer3.gearup" ],
-  "title" : "^green;Jail House Rock",
-  "text" : "Hey again! My firework display was a big success! ^green;Do you think you could find me a ^orange;stone USCM Penal Colony sign? ^reset;I want it to remind me of where I came from.",
-  "completionText" : "This is just what I wanted! Thank you so much! Here, take these...",
-  "speaker" : "questGiver",
-  "moneyRange" : [400, 800],
-  "rewards" : [["techcard",["sb_uncommonaxe",1,{"level":5}],["rewardbag",1,{"treasure":{"level":5}}]]],
+  "id": "sb_humanexcon4.gearup",
+  "prerequisites": ["hylotl_mission2", "sb_hylotlperformer3.gearup", "sb_bountyhunter3.gearup", "sb_avianexplorer3.gearup"],
+  "title": "^green;Jail House Rock",
+  "text": "Hey again! My firework display was a big success! ^green;Do you think you could find me a ^orange;stone USCM Penal Colony sign? ^reset;I want it to remind me of where I came from.",
+  "completionText": "This is just what I wanted! Thank you so much! Here, take these...",
+  "speaker": "questGiver",
+  "moneyRange": [400, 800],
+  "rewards": [["techcard", ["sb_uncommonaxe", 1, {
+          "level": 5
+        }
+      ], ["rewardbag", 1, {
+          "treasure": {
+            "level": 5
+          }
+        }
+      ]]],
 
-  "guiConfigs" : {
-    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
-    "newQuest" : "/interface/windowconfig/sb_newquest.config",
-    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquest.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
   },
 
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/main.lua",
-  "scriptConfig" : {
-    "portraits" : {
-      "default" : "questGiver"
+  "updateDelta": 10,
+  "script": "/quests/scripts/main.lua",
+  "scriptConfig": {
+    "portraits": {
+      "default": "questGiver"
     },
-    "requireTurnIn" : true,
-    "turnInDescription" : "Speak to ^orange;the ex-convict^reset; at the ^orange;outpost^reset;",
-    "conditions" : [
-      {
-        "type" : "gatherItem",
-        "itemName" : "prisonstonesign",
-        "count" : 1,
-        "consume" : true
+    "requireTurnIn": true,
+    "turnInDescription": "Speak to ^orange;the ex-convict^reset; at the ^orange;outpost^reset;",
+    "conditions": [{
+        "type": "gatherItem",
+        "itemName": "prisonstonesign",
+        "count": 1,
+        "consume": true
       }
     ]
   }
