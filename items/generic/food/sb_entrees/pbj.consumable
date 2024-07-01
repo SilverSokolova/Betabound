@@ -1,0 +1,30 @@
+{
+  "itemName": "sb_pbj",
+  "price": 450,
+  "rarity": "uncommon",
+  "foodValue": 35,
+  "tooltipKind": "sb_object4",
+  "inventoryIcon": "pbj.png",
+  "category": "preparedFood",
+  "description": "A classic homemade meal enjoyed by many. Perfect for the spacefarer on the go.",
+  "effects": [[{
+        "effect": "sb_protectionboost5",
+        "duration": 105
+      },{
+        "effect": "jumpboostfood",
+        "duration": 105
+      },{
+        "effect": "runboostfood",
+        "duration": 105
+      },{
+        "effect": "sb_health",
+        "duration": 20
+      },
+      "sb_foodheal120"
+    ]],
+  "shortdescription": "PB&J Sandwich",
+  "learnBlueprintsOnPickup": ["sb_pbj"],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 2
+}
