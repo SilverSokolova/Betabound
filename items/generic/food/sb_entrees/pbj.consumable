@@ -23,7 +23,6 @@
       "sb_foodheal120"
     ]],
   "shortdescription": "PB&J Sandwich",
-  "learnBlueprintsOnPickup": ["sb_pbj"],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
   "rottingMultiplier": 2

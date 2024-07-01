@@ -1,6 +1,7 @@
 [
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
-[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_jelly"}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_jelly"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_pbj"}],
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
 [{"op":"test","path":"/price","value":10},{"op":"replace","path":"/price","value":500}],
 [{"op":"test","path":"/rarity","value":"Uncommon"},{"op":"replace","path":"/rarity","value":"Rare"}],

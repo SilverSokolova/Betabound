@@ -7,7 +7,7 @@
   "speaker": "questGiver",
   "moneyRange": [300, 300],
   "canBeAbandoned": true,
-  "rewards": [["sb_pbj", ["salvagelegs", 10], ["salvagebooster", 10], ["rewardbag", 1, {
+  "rewards": [["sb_pbj", "upgrademodule", ["techcard", 3], ["rewardbag", 1, {
         "level": 5
       }
     ]]],

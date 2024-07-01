@@ -2,7 +2,7 @@
   "itemName": "sb_peanutbutterjar",
   "price": 165,
   "foodValue": 30,
-  "tooltipKind": "sb_object",
+  "tooltipKind": "sb_object4",
   "rarity": "uncommon",
   "sb_plate": {
     "image": true,
@@ -20,7 +20,7 @@
       "sb_foodheal95"
     ]],
   "learnBlueprintsOnPickup": ["sb_peanutbutter"],
-  "description": "A rich, creamy spread enhanced with butter. It tastes as expected, despite some ingredient substitutions.",
+  "description": "A rich, creamy spread enhanced with actual butter. It offers a nutty flavor.",
   "shortdescription": "Peanut Butter",
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
