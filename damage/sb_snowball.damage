@@ -1,5 +1,6 @@
 {
   //They couldn't have made a `softball` damageType and give that to every throwable, could they?
+  //The vanilla snowball damage type is used by multiple throwables, and we only want snowballs to do ice damage
   "kind": "sb_snowball",
   "elementalType": "ice",
   "effects": {

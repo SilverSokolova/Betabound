@@ -53,7 +53,7 @@
     "grassModDensity": 0.9,
     "items": [{
         "mode": "floor",
-        "priority": 2.0,
+        "priority": 2,
         "variants": 1,
         "distribution": "/biomes/distributions.config:potsRare",
 
@@ -67,7 +67,7 @@
         ]
       }, {
         "mode": "floor",
-        "priority": 1.0,
+        "priority": 1,
         "variants": 1,
         "distribution": "/biomes/distributions.config:denseLarge",
 
@@ -86,7 +86,7 @@
     "grassModDensity": 0.9,
     "items": [{
         "mode": "floor",
-        "priority": 2.0,
+        "priority": 2,
         "variants": 1,
         "distribution": "/biomes/distributions.config:potsRare",
 
@@ -100,7 +100,7 @@
         ]
       }, {
         "mode": "floor",
-        "priority": 0.0,
+        "priority": 0,
         "variants": 1,
         "distribution": "/biomes/distributions.config:minibiomeChests",
 
@@ -108,7 +108,7 @@
         "treasureBoxSets": ["barrelChest", "sb_coralcaveChest"]
       }, {
         "mode": "floor",
-        "priority": 0.0,
+        "priority": 0,
         "variants": 1,
         "distribution": "/biomes/distributions.config:minibiomeChests",
 
@@ -116,7 +116,7 @@
         "microdungeons": ["sb_coraltemple"]
       }, {
         "mode": "floor",
-        "priority": 1.0,
+        "priority": 1,
         "variants": 1,
         "distribution": "/biomes/distributions.config:denseLarge",
 
@@ -128,7 +128,7 @@
         ]
       }, {
         "mode": "floor",
-        "priority": 0.0,
+        "priority": 0,
         "variants": 4,
         "distribution": "/biomes/distributions.config:scatteredLarge",
 

@@ -1,28 +1,28 @@
 {
-  "kind" : "sb_frozenfiretrail",
-  "definition" : {
-    "duration" : 0.035,
-    "loops" : true,
-    "start" : {
-      "particles" : [
-        [ ]
+  "kind": "sb_frozenfiretrail",
+  "definition": {
+    "duration": 0.035,
+    "loops": true,
+    "start": {
+      "particles": [
+        []
       ],
-      "sounds" : [
-        [ ]
+      "sounds": [
+        []
       ]
     },
-    "particles" : [
-      [ "sb_frozenfiretrail" ]
+    "particles": [
+      ["sb_frozenfiretrail"]
     ],
-    "sounds" : [
-      [ ]
+    "sounds": [
+      []
     ],
-    "stop" : {
-      "particles" : [
-        [ ]
+    "stop": {
+      "particles": [
+        []
       ],
-      "sounds" : [
-        [ ]
+      "sounds": [
+        []
       ]
     }
   }

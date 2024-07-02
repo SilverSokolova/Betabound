@@ -100,7 +100,7 @@
         ]
       }, {
         "mode": "floor",
-        "priority": 0.0,
+        "priority": 0,
         "variants": 1,
         "distribution": "/biomes/distributions.config:minibiomeChests",
 
@@ -108,7 +108,7 @@
         "treasureBoxSets": ["crystalChest"]
       }, {
         "mode": "floor",
-        "priority": 0.0,
+        "priority": 0,
         "variants": 4,
         "distribution": "/biomes/distributions.config:scatteredLarge",
 

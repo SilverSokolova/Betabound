@@ -1,28 +1,28 @@
 {
-  "kind" : "sb_frozenburning",
-  "definition" : {
-    "duration" : 0.2,
-    "loops" : true,
-    "start" : {
-      "particles" : [
-        [ ]
+  "kind": "sb_frozenburning",
+  "definition": {
+    "duration": 0.2,
+    "loops": true,
+    "start": {
+      "particles": [
+        []
       ],
-      "sounds" : [
-        [ ]
+      "sounds": [
+        []
       ]
     },
-    "particles" : [
-      [ "sb_frozenburningdust" ]
+    "particles": [
+      ["sb_frozenburningdust"]
     ],
-    "sounds" : [
-      [ ]
+    "sounds": [
+      []
     ],
-    "stop" : {
-      "particles" : [
-        [ "burningdust2", "burningdust2", "burningdust2", "burningdust2" ]
+    "stop": {
+      "particles": [
+        ["burningdust2", "burningdust2", "burningdust2", "burningdust2"]
       ],
-      "sounds" : [
-        [ ]
+      "sounds": [
+        []
       ]
     }
   }
