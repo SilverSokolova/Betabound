@@ -37,7 +37,6 @@
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_candyapple"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_icecream"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_lollypop"}},
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_butter"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_toffeeapple"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_alienburger"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_burrito"}},
