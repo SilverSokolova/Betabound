@@ -9,7 +9,8 @@
     - Uses energy when ammo is depleted or when ^#71f2f6;SHIFT^reset; is held
     - Ammo is automatically used when in the inventory
     - Craft ammo at an anvil
-    - All types of ammo are universally accepted"
+    - All ammos are universally accepted
+    - Bullet icons on weapons are their projectile when no ammo is used"
   ],
   "itemConfig": {
     "rarity": "uncommon",
