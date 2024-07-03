@@ -8,7 +8,7 @@
   },
 
   "description": "Gives nearby foes an icy reception at your command.",
-  "shortdescription": "Sci-Cryo Staff",
+  "shortdescription": "Cryo Staff", //Sci Staff is a weird name. All staves are sciency
   "staffHasFullbright": true,
 
   "animationCustom": {

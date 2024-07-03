@@ -4,14 +4,13 @@
   "maxStack": 1,
   "paletteSwaps": "",
   "rarity": "uncommon",
-  "description": "A homemade weapon from prison.",
+  "description": "A homemade weapon from prison. It can cause some targets to bleed.",
   "shortdescription": "Shiv",
   "tooltipKind": "sb_sword2",
   "price": 495,
   "category": "dagger",
   "tooltipFields": {
-    "subtitle": "Shiv",
-    "damageKindImage": "/interface/statuses/sb_bleed.png"
+    "subtitle": "Shiv"
   },
   "twoHanded": false,
   //  "sb_dyeable" : true,
