@@ -4,18 +4,16 @@
   "itemTags": ["weapon", "staff"],
   "tags": {
     "<staff>": "sci",
-    "<glow>": "/items/active/weapons/staff/generated/glow/physical"
+    "<glow>": "racialstaves/crystalstaffglow"
   },
 
   "description": "Gives nearby foes an icy reception at your command.",
   "shortdescription": "Sci-Cryo Staff",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/icethrower.png"
-  },
   "staffHasFullbright": true,
 
   "animationCustom": {
     "animatedParts": {
+//    "stateTypes": {"charge":{"states":{"charge":{"cycle":0.7}}}},
       "parts": {
         "chargeEffect": {
           "properties": {
@@ -33,7 +31,14 @@
     "projectileType": "icebreath",
     "projectileParameters": {
       "speed": 0,
-      "baseDamage": 8
+      "baseDamage": 14
+    }
+  },
+  "altAbility": {
+    "name": "Cold Front",
+    "projectileType": "icebreath",
+    "projectileParameters": {
+      "speed": 0
     }
   },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",

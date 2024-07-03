@@ -4,12 +4,6 @@
   "maxStack": 1,
   "price": 1500,
   "tooltipKind": "sb_gun2",
-  "tooltipFields": {
-    "damageKindImage": "/projectiles/guns/plasmabullets/fireplasma/icon.png",
-    "damageKindBImage": "/projectiles/guns/plasmabullets/electricplasma/icon.png"
-    //  "damageKindImage" : "/interface/elements/fire.png",
-    //  "damageKindBImage" : "/interface/elements/electric.png"
-  },
   "itemTags": ["weapon", "ranged", "pistol"],
   "category": "pistol",
   "rarity": "Rare",
@@ -43,16 +37,18 @@
   "twoHanded": false,
   "fixedLevel": false,
   "level": 1,
+  "elementalType": "electric",
   "primaryAbilityType": "sb_gun",
   "primaryAbility": {
     "fireTime": 0.8,
     "baseDps": 12.25,
     "energyUsage": 19.5,
     "inaccuracy": 0.01,
-    "projectileType": ["electricplasma", "fireplasma"],
+    "projectileType": "electricplasma",
     "projectileParameters": {
       "speed": 75,
-      "timeToLive": 3
+      "timeToLive": 3,
+      "statusEffects": ["electrified"]
     }
   },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"

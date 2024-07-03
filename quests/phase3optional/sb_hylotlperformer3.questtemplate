@@ -1,31 +1,32 @@
 {
-  "id" : "sb_hylotlperformer3.gearup",
-  "prerequisites" : ["hylotl_mission1", "sb_bountyhunter2.gearup", "sb_glitchsilenttype2.gearup", "sb_humanexcon2.gearup", "sb_humansurvivor2.gearup"],
-  "title" : "^green;This is my Song!",
-  "text" : "I've had a great idea! I want to add music to my act! I have this wonderful guitar but ^green;one of the strings is broken. ^orange;Find me some string ^green;and I'll reward you!",
-  "completionText" : "Hmm... Actually, I can't play this at all! I don't know what I was thinking. Here, you may as well have this guitar.",
-  "speaker" : "questGiver",
-  "moneyRange" : [80, 80],
-  "rewards" : [["nylonguitar"]],
+  "id": "sb_hylotlperformer3.gearup",
+  "prerequisites": ["hylotl_mission1", "sb_bountyhunter2.gearup", "sb_glitchsilenttype2.gearup", "sb_humanexcon2.gearup", "sb_humansurvivor2.gearup"],
+  "title": "^green;This is my Song!",
+  "text": "I've had a great idea! I want to add music to my act! I have this wonderful guitar but ^green;one of the strings is broken. ^orange;Find me some string ^green;and I'll reward you!",
+  "completionText": "Hmm... Actually, I can't play this at all! I don't know what I was thinking. Here, you may as well have this guitar.",
+  "speaker": "questGiver",
+  "moneyRange": [80, 80],
+  "rewards": [["nylonguitar"]],
 
-  "guiConfigs" : {
-    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
-    "newQuest" : "/interface/windowconfig/sb_newquest.config",
-    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquest.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
   },
 
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/main.lua",
-  "scriptConfig" : {
-    "portraits" : {"default" : "questGiver"},
-    "requireTurnIn" : true,
-    "turnInDescription" : "Speak to ^orange;the comedian^reset; at the ^orange;outpost^reset;",
-    "conditions" : [
-      {
-        "type" : "gatherItem",
-        "itemName" : "string",
-        "count" : 1,
-        "consume" : true
+  "updateDelta": 10,
+  "script": "/quests/scripts/main.lua",
+  "scriptConfig": {
+    "portraits": {
+      "default": "questGiver"
+    },
+    "requireTurnIn": true,
+    "turnInDescription": "Speak to ^orange;the comedian^reset; at the ^orange;outpost^reset;",
+    "conditions": [{
+        "type": "gatherItem",
+        "itemName": "string",
+        "count": 1,
+        "consume": true
       }
     ]
   }

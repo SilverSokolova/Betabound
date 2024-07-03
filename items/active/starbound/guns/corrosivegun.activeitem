@@ -4,9 +4,6 @@
   "maxStack": 1,
   "price": 800,
   "tooltipKind": "sb_gun2",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/sb_corrosiveparticle.png"
-  },
   "itemTags": ["weapon", "ranged", "unique"],
   "category": "uniqueWeapon",
   "rarity": "Rare",
@@ -31,6 +28,7 @@
 
   "twoHanded": true,
   "level": 1,
+  "elementalType": "fire",
   "primaryAbilityType": "sb_gun",
   "primaryAbility": {
     "stances": {

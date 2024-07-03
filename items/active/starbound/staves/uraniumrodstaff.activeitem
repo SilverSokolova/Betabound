@@ -9,9 +9,6 @@
 
   "description": "Sometimes a simple fireball just isn't enough.",
   "shortdescription": "Uranium Rod Staff",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/poisonthrower.png"
-  },
   "fuelAmount": 50,
 
   "animationCustom": {

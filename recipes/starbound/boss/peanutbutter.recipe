@@ -2,5 +2,5 @@
 {
   "input" : [["paper",18],"sb_peanutbutterjar"],
   "output" : "sb_peanutbutter",
-  "groups" : ["inventorstable3","craftingstations","all"]
+  "groups" : ["inventorstable2","craftingstations","all"]
 }

@@ -23,7 +23,7 @@ function build(directory, config, parameters, level, seed)
     config.directives = "?replace"
     local selectedSwaps = config.colorOptions[parameters.colorIndex+1]
     for k, v in pairs(selectedSwaps) do
-  config.directives = string.format("%s;%s=%s",config.directives,k,v)
+      config.directives = string.format("%s;%s=%s",config.directives,k,v)
     end
   end
   config.directives = config.directives..config.sb_extraDirectives
@@ -37,9 +37,9 @@ function build(directory, config, parameters, level, seed)
   if config.primaryAbility and config.primaryAbility.stances and rotate then
     for k, v in pairs(config.primaryAbility.stances) do
       if k == "idle" then
-  config.primaryAbility.stances[k].aimAngle = 0
+        config.primaryAbility.stances[k].aimAngle = 0
       else
-  util.mergeTable(config.primaryAbility.stances[k], {allowRotate = true, allowFlip = true})
+        util.mergeTable(config.primaryAbility.stances[k], {allowRotate = true, allowFlip = true})
       end
     end
   end

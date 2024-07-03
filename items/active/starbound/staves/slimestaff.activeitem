@@ -9,9 +9,6 @@
 
   "description": "Casts a spread of sticky slime at your target.",
   "shortdescription": "Slime Staff",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/slimeexplosion.png"
-  },
 
   "animationCustom": {
     "animatedParts": {
@@ -30,15 +27,30 @@
   },
 
   "elementalType": "poison",
-  "altAbilityType": "elementbouncer",
+  "altAbilityType": "elementswarm",
   "primaryAbility": {
     "projectileType": "slimeexplosion",
     "projectileParameters": {
       "speed": 0,
-      "baseDamage": 8,
+      "baseDamage": 12,
       "statusEffects": [{
           "effect": "slimeslow",
           "duration": 5
+        }
+      ]
+    }
+  },
+  "altAbility": {
+    "name": "Toxic Bubbles",
+    "projectileType": "poisonbubble",
+    "projectileDistance": 0.75,
+    "projectileParameters": {
+      "animationCycle": 2,
+      "timeToLive": 1.9,
+      "speed": 7.5,
+      "statusEffects": [{
+          "effect": "slimeslow",
+          "duration": 2.5
         }
       ]
     }
