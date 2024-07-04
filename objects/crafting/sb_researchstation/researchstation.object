@@ -213,6 +213,9 @@
       //slime
       ,"sb_slimestaff"
       ,"sb_cutarrh"
+
+      //geometric
+      ,"sb_scistaff"
     
       //crystal
       ,"sb_hackman"
@@ -688,8 +691,7 @@
       ,"slimebed"
       ,"slimehide"
       ,"slimetorch"
-     
-      //OLD AND BUSTED
+
       //sandstone
       ,"sandstonebed"
       ,"sandstonechair"

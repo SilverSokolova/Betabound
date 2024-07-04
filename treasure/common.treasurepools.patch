@@ -539,6 +539,7 @@ IF BOTH ARE YES, THEN CONGRATS! SHOVE IT UNDER 'RARE'
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_boulderstaff"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_slimestaff"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uraniumrodstaff"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_scistaff"}}],
 
 
     //Unique 

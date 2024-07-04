@@ -29,6 +29,7 @@
   "primaryAbilityType": "plasmabarrage",
   "primaryAbility": {
     "projectileType": "icebreath",
+    "energyCost": 20,
     "projectileParameters": {
       "speed": 0,
       "baseDamage": 14
@@ -36,6 +37,7 @@
   },
   "altAbility": {
     "name": "Cold Front",
+    "energyCost": 80,
     "projectileType": "icebreath",
     "projectileParameters": {
       "speed": 0

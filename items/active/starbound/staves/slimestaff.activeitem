@@ -33,6 +33,7 @@
   "altAbilityType": "elementswarm",
   "primaryAbility": {
     "projectileType": "slimeexplosion",
+    "energyCost": 30,
     "projectileParameters": {
       "speed": 0,
       "baseDamage": 12,

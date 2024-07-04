@@ -18,7 +18,7 @@
     //    "sounds" : {"zoneactivate" : ["/sfx/blocks/water_puddlemod.ogg","/sfx/blocks/water_swim.ogg"]}
   },
 
-  "elementalType": "ice",
+  "elementalType": "physical",
   "altAbilityType": "forcecage",
   "primaryAbility": {
     "projectileType": "randomfish",
