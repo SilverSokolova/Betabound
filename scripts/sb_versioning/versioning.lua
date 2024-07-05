@@ -22,7 +22,8 @@ local function reunlockRecipes(a)
       end
     end
   end
---[[  for k, v in pairs(a) do
+--[[
+  for k, v in pairs(a) do
     for k2, v2 in pairs(v) do
       sb.logInfo(sb.print(v2))
       if player.blueprintKnown(v2) then
@@ -202,7 +203,7 @@ xrc0018[26]=function()
   end
 end
 
---The tech binding stations no longer allow players to equip techs. Give them a techconsole so they have one
+--27: The tech binding stations no longer allow players to equip techs. Give them a techconsole so they have one
 --Give players an ammo guide if they missed it (returning player)
 --We use to have two scripts like this. One was shitty, so I'm ditching it completely now. If there are returning players from when that script was still used, run its code before deleting the version tracker
 xrc0018[27]=function()
@@ -228,9 +229,7 @@ xrc0018[30]=function()
     player.setProperty("sb_bioimplants", {})
   end
 end
-xrc0018[31]=function()
-  reunlockRecipes(root.assetJson("/scripts/sb_versioning/procgenWeaponRecipes.json"))
-end
+--32: Merge Betabound status properties to a single player property
 xrc0018[32]=function()
   if not newPlayer then
     status.setStatusProperty("xrc_0018z", nil)
@@ -249,9 +248,15 @@ xrc0018[32]=function()
   player.startQuest("sb_techunlocks")
 end
 
+--31: Convert parametered weapon recipes to new format
+--33: Convert harpoon gun
+xrc0018[33]=function()
+  reunlockRecipes(root.assetJson("/scripts/sb_versioning/procgenWeaponRecipes.json"))
+end
+
 function sb_doVersioning(cv,yv)
   newPlayer = yv == 0
-  --player.getProperty doesn't return the default if the saved value exists as nil, so set it
+  --player.getProperty doesn't return the default if the saved value exists as nil, so set it so the tech unlock quest doesnt break
   local betaboundStorage = player.getProperty("betabound")
   if type(betaboundStorage) == "nil" then
     player.setProperty("betabound", {})
