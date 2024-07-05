@@ -12,7 +12,6 @@
   "description": "Channels the energy of human spirit.",
   "shortdescription": "Plasma Pulse Staff",
   "tooltipFields": {
-    "subtitle": "Plasma Staff",
     "damageKindImage": "/interface/sb_tooltips/sb_boomblast.png"
   },
   "elementalType": "electric",

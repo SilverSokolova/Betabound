@@ -1,5 +1,5 @@
 {
-  "input" : ["upgrademodule",["refinedaegisalt",2],["sb_refinedrubium",2],["refinedferozium",2],["refinedviolium",2]],
-  "output" : "sb_weaponupgrade5",
-  "groups" : ["sb_roboticcraftingtable","upgrades","all"]
+  "input": ["upgrademodule",["refinedaegisalt",2],["refinedferozium",2],["refinedviolium",2]],
+  "output": "sb_weaponupgrade5",
+  "groups": ["sb_roboticcraftingtable","upgrades","all"]
 }

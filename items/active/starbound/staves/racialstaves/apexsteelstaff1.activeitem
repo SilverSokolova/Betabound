@@ -12,7 +12,6 @@
   "description": "Deploys a small drone that shoots lasers.",
   "shortdescription": "Monkey Nut Staff",
   "tooltipFields": {
-    "subtitle": "Steel Staff",
     "damageKindImage": "/interface/sb_tooltips/sb_monkeynut.png"
   },
   "elementalType": "electric",

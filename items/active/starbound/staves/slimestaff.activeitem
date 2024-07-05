@@ -35,6 +35,9 @@
     "projectileType": "slimeexplosion",
     "energyCost": 30,
     "projectileParameters": {
+      "damageTeam": {
+        "type": "friendly"
+      },
       "speed": 0,
       "baseDamage": 12,
       "statusEffects": [{
@@ -62,7 +65,6 @@
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
 
   "craftedParameters": {
-    "level": 5,
-    "seed": 1
+    "level": 5
   }
 }

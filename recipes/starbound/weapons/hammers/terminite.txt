@@ -1,6 +1,6 @@
 {
-  "input" : [["sb_refinedrubium",10],["bugshell",25]],
+  "input": [["violiumcompound",10],["bugshell",25]],
   //500 hive
-  "output" : ["sb_terminite",1,{"level":5,"seed":1}],
-  "groups" : ["craftingseparator","weapons","all"]
+  "output": ["sb_terminite",1,{"level":5,"seed":1}],
+  "groups": ["craftingseparator","weapons","all"]
 }

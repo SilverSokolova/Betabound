@@ -1,5 +1,5 @@
 {
-  "input" : [
+  "input": [
   ["sb_glitchglitchstaff1",0],
   ["smallbattery",0,{"shortdescription":"44-84773|2\\|/","inventoryIcon":"smallbattery.png?flipxy?hueshift=8?scale=1.1"}],
   ["syntheticmaterial",0,{"shortdescription":"{\"itemName\":\"syntheticmaterial\",\"price\":200,\"rarity\":\"Uncommon\",\"category\":\"craftingMaterial\",\"inventoryIcon\":\"syntheticmaterial.png\",\"description\":\"A square of synthetic material.\",\"shortdescription\":\"Synthetic Material\",\"itemTags\":[\"reagent\"]}","inventoryIcon":"syntheticmaterial.png?flipxy?hueshift=28?scale=0.9"}],
@@ -11,6 +11,6 @@
 //  ["perfectlygenericitem",0,{"rarity":"common","shortdescription":"/interface/windowconfig/playerinventory.config","inventoryIcon":"/interface/inventory.png"}],
   ["perfectlygenericitem",0,{"rarity":"common","shortdescription":"commonuncommonrarelegendaryessentialredgray","inventoryIcon":[{"position":[0,4],"image":"/interface/inventory/itemborderuncommon.png"},{"position":[4,0],"image":"/interface/inventory/itemborderrare.png"},{"position":[4,4],"image":"/interface/inventory/itemborderlegendary.png"},{"position":[4,-4],"image":"/interface/inventory/itemborderessential.png"},{"position":[-4,4],"image":"/interface/inventory/redborder.png"},{"position":[-4,-4],"image":"/interface/inventory/grayborder.png"},{"position":[-1,1],"image":"/interface/inventory/itembordercommon.png"}]}]
   ],
-  "output" : "sb_glitchglitchstaff2",
-  "groups" : ["craftingmanipulator","weapons","all"]
+  "output": "sb_glitchglitchstaff2",
+  "groups": ["craftingmanipulator","weapons","all"]
 }

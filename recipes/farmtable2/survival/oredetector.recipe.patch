@@ -1,6 +1,0 @@
-[
-  [
-    {"op":"test","path":"/input/0/item","value":"refinedferozium"},
-    {"op":"add","path":"/input/0","value":{"name":"sb_refinedrubium","count":5}}
-  ]
-]

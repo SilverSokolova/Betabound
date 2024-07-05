@@ -40,13 +40,13 @@
     "energyCost": 80,
     "projectileType": "icebreath",
     "projectileParameters": {
-      "speed": 0
+      "speed": 0,
+      "power": 7.5
     }
   },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
 
   "craftedParameters": {
-    "level": 5,
-    "seed": 1
+    "level": 5
   }
 }
