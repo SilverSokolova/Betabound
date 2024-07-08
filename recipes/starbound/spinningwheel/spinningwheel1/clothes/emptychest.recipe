@@ -1,5 +1,5 @@
 {
-  "input" : [["fabric",5]],
-  "output" : "sb_emptychest",
-  "groups" : ["craftingwheel","clothes","all"]
+  "input": [["fabric",5]],
+  "output": "sb_emptychest",
+  "groups": ["craftingwheel","clothes","all"]
 }

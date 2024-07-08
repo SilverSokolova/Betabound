@@ -1,5 +1,5 @@
 {
-  "input" : [["darkwoodmaterial",8],["logblock",2]],
-  "output" : "sb_woodenendtable",
-  "groups" : ["craftingfurniture","decoration","all"]
+  "input": [["darkwoodmaterial",8],["logblock",2]],
+  "output": "sb_woodenendtable",
+  "groups": ["craftingfurniture","decoration","all"]
 }

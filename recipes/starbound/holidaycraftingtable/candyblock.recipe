@@ -1,6 +1,6 @@
 {
-  "input" : ["holidayspirit"],
-  "output" : ["candyblock",50],
-  "duration" : 0,
-  "groups" : ["holidaycraftingtable","materials","all"]
+  "input": ["holidayspirit"],
+  "output": ["candyblock",50],
+  "duration": 0,
+  "groups": ["holidaycraftingtable","materials","all"]
 }

@@ -1,6 +1,6 @@
 {
-  "input" : ["titaniumbar"],
-  "output" : ["sb_modernladder",65],
-  "duration" : 0.25,
-  "groups"  : ["craftingfurniture2","materials","all"]
+  "input": ["titaniumbar"],
+  "output": ["sb_modernladder",65],
+  "duration": 0.25,
+  "groups": ["craftingfurniture2","materials","all"]
 }

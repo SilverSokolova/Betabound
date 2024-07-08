@@ -1,6 +1,6 @@
 {
-  "currencyInputs" : {"money":3000},
-  "input" : ["teleportercore"],
-  "output" : "mechplatform",
-  "groups" : ["teleshop","all"]
+  "currencyInputs": {"money":3000},
+  "input": ["teleportercore"],
+  "output": "mechplatform",
+  "groups": ["teleshop","all"]
 }

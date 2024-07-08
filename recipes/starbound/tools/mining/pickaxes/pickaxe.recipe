@@ -1,5 +1,5 @@
 {
-  "input" : [["ironbar",8],"sb_stonepickaxe"],
-  "output" : "pickaxe",
-  "groups" : ["sb_craftingtable","mining","all"]
+  "input": [["ironbar",8],"sb_stonepickaxe"],
+  "output": "pickaxe",
+  "groups": ["sb_craftingtable","mining","all"]
 }

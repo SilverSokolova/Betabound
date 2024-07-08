@@ -1,6 +1,6 @@
 {
-  "input" : [["toxicwaste",3]],
-  "output" : ["waste",20],
-  "duration" : 0.25,
-  "groups"  : ["craftingfurniture","materials","all"]
+  "input": [["toxicwaste",3]],
+  "output": ["waste",20],
+  "duration": 0.25,
+  "groups": ["craftingfurniture","materials","all"]
 }

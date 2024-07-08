@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_refinedrubium",3],["durasteelbar",2]],
-  "output" : "sb_humantier5maxe",
-  "groups" : ["craftingseparator","weapons","all"]
+  "input": [["sb_refinedrubium",3],["durasteelbar",2]],
+  "output": "sb_humantier5maxe",
+  "groups": ["craftingseparator","weapons","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "input" : [["ironbar",6],["darkwoodmaterial",4]],
-  "output" : "sb_humantier1spear",
-  "groups" : ["craftinganvil","weapons","all"]
+  "input": [["ironbar",6],["darkwoodmaterial",4]],
+  "output": "sb_humantier1spear",
+  "groups": ["craftinganvil","weapons","all"]
 }

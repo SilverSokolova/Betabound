@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_feroziumcompound",2],["solariumstar",1]],
-  "output" : "sb_glitchtier6adagger",
-  "groups" : ["craftingseparator","weapons","all"]
+  "input": [["sb_feroziumcompound",2],["solariumstar",1]],
+  "output": "sb_glitchtier6adagger",
+  "groups": ["craftingseparator","weapons","all"]
 }

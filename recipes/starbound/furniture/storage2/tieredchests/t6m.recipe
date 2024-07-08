@@ -1,5 +1,5 @@
 {
-  "input" : ["sb_ceruliumbar"],
-  "output" : "sb_tier6mtechchest",
-  "groups" : ["craftingfurniture2","storage","all"]
+  "input": ["sb_ceruliumbar"],
+  "output": "sb_tier6mtechchest",
+  "groups": ["craftingfurniture2","storage","all"]
 }

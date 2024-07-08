@@ -1,6 +1,6 @@
 {
-  "input" : ["pearlpea","sugar"],
-  "output" : "sb_candiedpearlpeas",
-  "groups" : ["craftingfood","desserts","sb_energy","sb_protection","sb_healing","sb_t1food","all"],
-  "collectables" : {"cooking":"sb_candiedpearlpeas"}
+  "input": ["pearlpea","sugar"],
+  "output": "sb_candiedpearlpeas",
+  "groups": ["craftingfood","desserts","sb_energy","sb_protection","sb_healing","sb_t1food","all"],
+  "collectables": {"cooking":"sb_candiedpearlpeas"}
 }

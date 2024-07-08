@@ -1,5 +1,5 @@
 {
-  "input" : ["staticcell"],
-  "output" : ["smallbattery",5],
-  "groups" : ["craftingfurnace3","ingredients","all"]
+  "input": ["staticcell"],
+  "output": ["smallbattery",5],
+  "groups": ["craftingfurnace3","ingredients","all"]
 }

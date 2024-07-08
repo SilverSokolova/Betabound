@@ -1,5 +1,5 @@
 {
-  "input" : [["volatilepowder",4],"string","scorchedcore","titaniumbar"],
-  "output" : "sb_groundfirebomb",
-  "groups" : ["craftinganvil2","consumables","all"]
+  "input": [["volatilepowder",4],"string","scorchedcore","titaniumbar"],
+  "output": "sb_groundfirebomb",
+  "groups": ["craftinganvil2","consumables","all"]
 }

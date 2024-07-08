@@ -1,6 +1,6 @@
 {
-  "input" : ["tomato","boneboo","alienmeat"],
-  "output" : "sb_meatandmarrow",
-  "groups" : ["craftingfood","mains","sb_healing","sb_health","sb_rage","all"],
-  "collectables" : {"cooking":"sb_meatandmarrow"}
+  "input": ["tomato","boneboo","alienmeat"],
+  "output": "sb_meatandmarrow",
+  "groups": ["craftingfood","mains","sb_healing","sb_health","sb_rage","all"],
+  "collectables": {"cooking":"sb_meatandmarrow"}
 }

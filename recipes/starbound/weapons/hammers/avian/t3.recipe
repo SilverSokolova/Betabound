@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_steelbar",6],["copperbar",4]],
-  "output" : "sb_aviantier3hammer",
-  "groups" : ["craftinganvil2","weapons","all"]
+  "input": [["sb_steelbar",6],["copperbar",4]],
+  "output": "sb_aviantier3hammer",
+  "groups": ["craftinganvil2","weapons","all"]
 }

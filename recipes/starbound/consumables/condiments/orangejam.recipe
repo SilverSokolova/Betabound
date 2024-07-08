@@ -1,6 +1,6 @@
 {
-  "input" : ["orange","sugar"],
-  "output" : "sb_orangejam",
-  "groups" : ["craftingfood","condiments","sb_healing","sb_health","sb_energy","sb_t1food","all"],
-  "collectables" : {"cooking":"sb_orangejam"}
+  "input": ["orange","sugar"],
+  "output": "sb_orangejam",
+  "groups": ["craftingfood","condiments","sb_healing","sb_health","sb_energy","sb_t1food","all"],
+  "collectables": {"cooking":"sb_orangejam"}
 }

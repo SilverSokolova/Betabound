@@ -1,5 +1,5 @@
 {
-  "input" : [["copperbar",6],["ironbar",6]],
-  "output" : "mechanicalelevatorlong",
-  "groups" : ["craftingwiring","mechanics","decoration","craftingfurniture","all"]
+  "input": [["copperbar",6],["ironbar",6]],
+  "output": "mechanicalelevatorlong",
+  "groups": ["craftingwiring","mechanics","decoration","craftingfurniture","all"]
 }

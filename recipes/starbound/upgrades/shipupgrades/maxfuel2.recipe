@@ -1,5 +1,5 @@
 {
-  "input" : ["upgrademodule",["moonstoneore",20],["plutoniumrod",20],["durasteelbar",20]],
-  "output" : "sb_maxfuel2",
-  "groups" : ["sb_roboticcraftingtable","upgrades","all"]
+  "input": ["upgrademodule",["moonstoneore",20],["plutoniumrod",20],["durasteelbar",20]],
+  "output": "sb_maxfuel2",
+  "groups": ["sb_roboticcraftingtable","upgrades","all"]
 }

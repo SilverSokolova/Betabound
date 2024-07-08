@@ -1,5 +1,5 @@
 {
-  "input" : [["diamond",12],"sb_handdrill"],
-  "output" : "diamonddrill",
-  "groups" : ["sb_roboticcraftingtable","mining","all"]
+  "input": [["diamond",12],"sb_handdrill"],
+  "output": "diamonddrill",
+  "groups": ["sb_roboticcraftingtable","mining","all"]
 }

@@ -1,6 +1,6 @@
 {
-  "input" : ["sb_violiumbar"],
-  "output" : ["money",6],
-  "duration" : 0.2,
-  "groups" : ["refinery","all"]
+  "input": ["sb_violiumbar"],
+  "output": ["money",6],
+  "duration": 0.2,
+  "groups": ["refinery","all"]
 }

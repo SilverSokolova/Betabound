@@ -1,5 +1,5 @@
 {
-  "input" : ["manipulatormodule","bottle","goldbar","wire"],
-  "output" : "sb_draintool",
-  "groups" : ["sb_roboticcraftingtable","tools","all"]
+  "input": ["manipulatormodule","bottle","goldbar","wire"],
+  "output": "sb_draintool",
+  "groups": ["sb_roboticcraftingtable","tools","all"]
 }

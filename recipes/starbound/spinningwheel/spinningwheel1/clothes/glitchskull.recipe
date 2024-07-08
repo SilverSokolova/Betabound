@@ -1,5 +1,5 @@
 {
-  "input" : ["glitchfossil1"],
-  "output" : "glitchskullhead",
-  "groups" : ["craftingwheel","clothes","all"]
+  "input": ["glitchfossil1"],
+  "output": "glitchskullhead",
+  "groups": ["craftingwheel","clothes","all"]
 }

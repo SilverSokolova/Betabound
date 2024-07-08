@@ -1,4 +1,5 @@
 [
+//add new weather
   [{
       "op": "add",
       "path": "/sb_tentacle",
@@ -12,6 +13,8 @@
       ]
     }
   ],
+
+//modify existing weather
   [{
       "op": "add",
       "path": "/moon/-",

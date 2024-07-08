@@ -1,5 +1,5 @@
 {
-  "input" : [
+  "input": [
     "snorkelhead",
     "valoroushead",
     "valorouschest",
@@ -9,6 +9,6 @@
     "hylotlmission4-codex",
     "hylotlmission1-codex"
   ],
-  "output" : "soluskatana",
-  "groups" : ["sb_treasuredtrophies_outpost_mission3","nouncrafting","all"]
+  "output": "soluskatana",
+  "groups": ["sb_treasuredtrophies_outpost_mission3","nouncrafting","all"]
 }

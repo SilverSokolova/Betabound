@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_violiumbar",2],["wire",5],["smallbattery",2]],
-  "output" : "opulentswitch",
-  "groups" : ["craftingwiring","switches","all"]
+  "input": [["sb_violiumbar",2],["wire",5],["smallbattery",2]],
+  "output": "opulentswitch",
+  "groups": ["craftingwiring","switches","all"]
 }

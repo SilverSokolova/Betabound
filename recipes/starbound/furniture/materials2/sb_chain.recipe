@@ -1,6 +1,6 @@
 {
-  "input" : ["sb_steelbar"],
-  "output" : ["sb_chain",20],
-  "duration" : 0.5,
-  "groups"  : ["craftingfurniture2","materials","all"]
+  "input": ["sb_steelbar"],
+  "output": ["sb_chain",20],
+  "duration": 0.5,
+  "groups": ["craftingfurniture2","materials","all"]
 }

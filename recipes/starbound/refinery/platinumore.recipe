@@ -1,6 +1,6 @@
 {
-  "input" : ["platinumore"],
-  "output" : ["money",25],
-  "duration" : 0.5,
-  "groups" : ["refinery","all"]
+  "input": ["platinumore"],
+  "output": ["money",25],
+  "duration": 0.5,
+  "groups": ["refinery","all"]
 }

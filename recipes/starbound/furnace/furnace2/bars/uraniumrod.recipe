@@ -1,6 +1,6 @@
 {
-  "input" : [["uraniumore",2]],
-  "output" : "uraniumrod",
-  "duration" : 0.15,
-  "groups" : ["craftingfurnace2","bars","all"]
+  "input": [["uraniumore",2]],
+  "output": "uraniumrod",
+  "duration": 0.15,
+  "groups": ["craftingfurnace2","bars","all"]
 }

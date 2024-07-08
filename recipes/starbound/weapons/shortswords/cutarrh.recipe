@@ -1,5 +1,5 @@
 {
-  "input" : [["refinedaegisalt",5],["greenslime",15]],
-  "output" : ["sb_cutarrh",1,{"crafted":true}],
-  "groups" : ["craftingseparator","weapons","all"]
+  "input": [["refinedaegisalt",5],["greenslime",15]],
+  "output": ["sb_cutarrh",1,{"crafted":true}],
+  "groups": ["craftingseparator","weapons","all"]
 }

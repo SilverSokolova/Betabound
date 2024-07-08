@@ -1,5 +1,5 @@
 {
-  "input" : ["cottonwool"],
-  "output" : "sb_gauze",
-  "groups" : ["craftingmedical","healing","all"]
+  "input": ["cottonwool"],
+  "output": "sb_gauze",
+  "groups": ["craftingmedical","healing","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "input" : [["silk",6]],
-  "output" : "wedding1legs",
-  "groups" : ["craftingwheel2","clothes","all"]
+  "input": [["silk",6]],
+  "output": "wedding1legs",
+  "groups": ["craftingwheel2","clothes","all"]
 }

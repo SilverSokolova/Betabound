@@ -1,5 +1,5 @@
 {
-  "input" : [["darkwoodmaterial",4],"ironbar"],
-  "output" : "sb_codex",
-  "groups" : ["inventorstable","craftingstations","all"]
+  "input": [["darkwoodmaterial",4],"ironbar"],
+  "output": "sb_codex",
+  "groups": ["inventorstable","craftingstations","all"]
 }

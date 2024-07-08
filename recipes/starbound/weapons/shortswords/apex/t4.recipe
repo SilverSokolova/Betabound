@@ -1,5 +1,5 @@
 {
-  "input" : [["durasteelbar",3],["copperbar",2]],
-  "output" : "sb_apextier4shortsword",
-  "groups" : ["craftinganvil3","weapons","all"]
+  "input": [["durasteelbar",3],["copperbar",2]],
+  "output": "sb_apextier4shortsword",
+  "groups": ["craftinganvil3","weapons","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "input" : [["corefragmentore",30],["diamond",3]],
-  "output" : "upgrademodule",
-  "groups" : ["sb_craftingtable","other","plain","upgrades","all"]
+  "input": [["corefragmentore",30],["diamond",3]],
+  "output": "upgrademodule",
+  "groups": ["sb_craftingtable","other","plain","upgrades","all"]
 }

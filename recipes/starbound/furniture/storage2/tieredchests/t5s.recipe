@@ -1,5 +1,5 @@
 {
-  "input" : ["sb_violiumbar"],
-  "output" : "sb_tier5stechchest",
-  "groups" : ["craftingfurniture2","storage","all"]
+  "input": ["sb_violiumbar"],
+  "output": "sb_tier5stechchest",
+  "groups": ["craftingfurniture2","storage","all"]
 }

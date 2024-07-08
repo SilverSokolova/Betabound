@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_mattermodulecomponent",10],"diamond"],
-  "output" : "manipulatormodule",
-  "groups" : ["sb_craftingtable","other","plain","upgrades","all"]
+  "input": [["sb_mattermodulecomponent",10],"diamond"],
+  "output": "manipulatormodule",
+  "groups": ["sb_craftingtable","other","plain","upgrades","all"]
 }

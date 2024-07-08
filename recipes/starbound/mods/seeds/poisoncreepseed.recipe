@@ -1,5 +1,5 @@
 {
-  "input" : ["sb_poisoncreep",["plantfibre",4]],
-  "output" : "sb_poisoncreepseed",
-  "groups" : ["seedmaker","seedsMods","all"]
+  "input": ["sb_poisoncreep",["plantfibre",4]],
+  "output": "sb_poisoncreepseed",
+  "groups": ["seedmaker","seedsMods","all"]
 }

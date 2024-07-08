@@ -1,5 +1,5 @@
 {
-  "input" : [["perfectlygenericitem",5]],
-  "output" : ["rewardbag",1,{"sb_useTechTier":true}],
-  "groups" : ["treasuredtrophies","nouncrafting","all"]
+  "input": [["perfectlygenericitem",5]],
+  "output": ["rewardbag",1,{"sb_useTechTier":true}],
+  "groups": ["treasuredtrophies","nouncrafting","all"]
 }

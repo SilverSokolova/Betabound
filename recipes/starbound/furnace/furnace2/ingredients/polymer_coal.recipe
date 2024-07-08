@@ -1,5 +1,5 @@
 {
-  "input" : ["copperbar",["coalore",2]],
-  "output" : "polymer",
-  "groups" : ["craftingfurnace2","ingredients","all"]
+  "input": ["copperbar",["coalore",2]],
+  "output": "polymer",
+  "groups": ["craftingfurnace2","ingredients","all"]
 }

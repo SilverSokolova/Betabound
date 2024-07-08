@@ -14,8 +14,6 @@
 
 [{"op":"test","path":"/useSecondaryEnvironmentBiomeIndex","value":false},{"op":"replace","path":"/useSecondaryEnvironmentBiomeIndex","value":true}] //My final design decision is YES because I'm not sure why it's stupid aside from the lag spikes!
 
-//,[{"op":"add","path":"/regionTypes/tentacle/caveLiquid/-","value":"sb_tentaclejuice"}] No poison conflicts with bg and is too easy
-
 
 //MAKE BIOMES SPAWN
 ,[{"op":"add","path":"/regionTypes/volcanic/subRegion/-","value":"sb_crystalline"}]

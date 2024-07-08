@@ -1,5 +1,5 @@
 {
-  "input" : ["boomerang","upgrademodule",["sharpenedclaw",15]],
-  "output" : "wormerang",
-  "groups" : ["craftinganvil","weapons","all"]
+  "input": ["boomerang","upgrademodule",["sharpenedclaw",15]],
+  "output": "wormerang",
+  "groups": ["craftinganvil","weapons","all"]
 }

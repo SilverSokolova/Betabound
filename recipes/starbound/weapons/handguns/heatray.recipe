@@ -1,5 +1,5 @@
 {
-  "input" : [["refinedaegisalt",2],["solariumstar",2],"smallbattery"],
-  "output" : ["sb_heatray",1,{"crafted":true}],
-  "groups" : ["craftingaccelerator","weapons","all"]
+  "input": [["refinedaegisalt",2],["solariumstar",2],"smallbattery"],
+  "output": ["sb_heatray",1,{"crafted":true}],
+  "groups": ["craftingaccelerator","weapons","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_steelbar",5],["glass",5],["corefragmentore",10]],
-  "output" : "sb_metalworkstation",
-  "groups" : ["inventorstable2","craftingstations","all"]
+  "input": [["sb_steelbar",5],["glass",5],["corefragmentore",10]],
+  "output": "sb_metalworkstation",
+  "groups": ["inventorstable2","craftingstations","all"]
 }

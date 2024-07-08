@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_ceruliumbar",2]],
-  "output" : "wavetable",
-  "groups" : ["craftingfurniture2","decoration","all"]
+  "input": [["sb_ceruliumbar",2]],
+  "output": "wavetable",
+  "groups": ["craftingfurniture2","decoration","all"]
 }

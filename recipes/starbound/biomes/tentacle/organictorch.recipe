@@ -1,5 +1,5 @@
 {
-  "input" : [["tentacleblock",2],"torch"],
-  "output" : "organictorch",
-  "groups" : ["craftingfurniture","lights","objects","all"]
+  "input": [["tentacleblock",2],"torch"],
+  "output": "organictorch",
+  "groups": ["craftingfurniture","lights","objects","all"]
 }

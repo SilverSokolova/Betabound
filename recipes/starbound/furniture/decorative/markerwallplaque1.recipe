@@ -1,5 +1,5 @@
 {
-  "input" : ["ironbar"],
-  "output" : "markerwallplaque1",
-  "groups" : ["objects","all","decoration","craftingfurniture"]
+  "input": ["ironbar"],
+  "output": "markerwallplaque1",
+  "groups": ["objects","all","decoration","craftingfurniture"]
 }

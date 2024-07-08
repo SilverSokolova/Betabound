@@ -1,6 +1,6 @@
 {
-  "input" : ["wartweed","grapes"],
-  "output" : "sb_wartwine",
-  "groups" : ["craftingfood","drinks","sb_runboost","sb_rage","sb_healing","sb_t1food","all"],
-  "collectables" : {"cooking":"sb_wartwine"}
+  "input": ["wartweed","grapes"],
+  "output": "sb_wartwine",
+  "groups": ["craftingfood","drinks","sb_runboost","sb_rage","sb_healing","sb_t1food","all"],
+  "collectables": {"cooking":"sb_wartwine"}
 }

@@ -1,5 +1,5 @@
 {
-  "input" : ["upgrademodule",["moonstoneore",20],["corefragmentore",20]],
-  "output" : "sb_shipspeed2",
-  "groups" : ["sb_roboticcraftingtable","upgrades","all"]
+  "input": ["upgrademodule",["moonstoneore",20],["corefragmentore",20]],
+  "output": "sb_shipspeed2",
+  "groups": ["sb_roboticcraftingtable","upgrades","all"]
 }

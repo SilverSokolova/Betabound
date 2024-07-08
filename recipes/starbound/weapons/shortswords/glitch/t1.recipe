@@ -1,5 +1,5 @@
 {
-  "input" : [["ironbar",3],["darkwoodmaterial",2]],
-  "output" : "sb_glitchtier1shortsword",
-  "groups" : ["craftinganvil","weapons","all"]
+  "input": [["ironbar",3],["darkwoodmaterial",2]],
+  "output": "sb_glitchtier1shortsword",
+  "groups": ["craftinganvil","weapons","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "input" : ["silverbar"],
-  "output" : "flute",
-  "groups" : ["sb_ironcraftingtable","sb_instruments","all"]
+  "input": ["silverbar"],
+  "output": "flute",
+  "groups": ["sb_ironcraftingtable","sb_instruments","all"]
 }

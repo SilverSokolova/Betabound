@@ -1,5 +1,5 @@
 {
-  "input" : ["robothead","robotchest","robotlegs","robotarms"],
-  "output" : "sb_robot",
-  "groups" : ["sb_ironcraftingtable","sb_other","inventorstable2","all"]
+  "input": ["robothead","robotchest","robotlegs","robotarms"],
+  "output": "sb_robot",
+  "groups": ["sb_ironcraftingtable","sb_other","inventorstable2","all"]
 }

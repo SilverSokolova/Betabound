@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_aegisaltbar",2]],
-  "output" : "serenedoor",
-  "groups" : ["craftingfurniture2","doors","all"]
+  "input": [["sb_aegisaltbar",2]],
+  "output": "serenedoor",
+  "groups": ["craftingfurniture2","doors","all"]
 }

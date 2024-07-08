@@ -1,5 +1,5 @@
 {
-  "input" : [["refinedaegisalt",6],"thread",["liquidoil",3]],
-  "output" : "sb_aegisaltbow",
-  "groups" : ["craftingaccelerator","weapons","all"]
+  "input": [["refinedaegisalt",6],"thread",["liquidoil",3]],
+  "output": "sb_aegisaltbow",
+  "groups": ["craftingaccelerator","weapons","all"]
 }

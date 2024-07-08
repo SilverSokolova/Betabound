@@ -1,5 +1,5 @@
 {
-  "input" : ["refinedaegisalt"],
-  "output" : ["sb_aegisaltbar",10],
-  "groups" : ["craftingfurnace3","ingredients","all"]
+  "input": ["refinedaegisalt"],
+  "output": ["sb_aegisaltbar",10],
+  "groups": ["craftingfurnace3","ingredients","all"]
 }

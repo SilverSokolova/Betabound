@@ -1,5 +1,5 @@
 {
-  "input" : [["icecrystal",30],"ironbar"],
-  "output" : "sb_geometrictable",
-  "groups" : ["craftingfurniture","decoration","all"]
+  "input": [["icecrystal",30],"ironbar"],
+  "output": "sb_geometrictable",
+  "groups": ["craftingfurniture","decoration","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_ceruliumcompound",3],"solariumstar"],
-  "output" : "sb_novatier6mrevolver",
-  "groups" : ["craftingaccelerator","weapons","all"]
+  "input": [["sb_ceruliumcompound",3],"solariumstar"],
+  "output": "sb_novatier6mrevolver",
+  "groups": ["craftingaccelerator","weapons","all"]
 }

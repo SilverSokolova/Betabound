@@ -1,6 +1,6 @@
 {
-  "input" : ["durasteelore"],
-  "output" : "sb_durasteel_repair",
-  "duration" : 0,
-  "groups" : ["plain","sb_augment","all"]
+  "input": ["durasteelore"],
+  "output": "sb_durasteel_repair",
+  "duration": 0,
+  "groups": ["plain","sb_augment","all"]
 }

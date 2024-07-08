@@ -1,5 +1,5 @@
 {
-  "input" : [["darkwoodmaterial",5],["string",4],"ironbar"],
-  "output" : "sb_ladderdeployer",
-  "groups" : ["sb_craftingtable","tools","all"]
+  "input": [["darkwoodmaterial",5],["string",4],"ironbar"],
+  "output": "sb_ladderdeployer",
+  "groups": ["sb_craftingtable","tools","all"]
 }

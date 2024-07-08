@@ -1,5 +1,5 @@
 {
-  "input" : ["titaniumbar",["wire",2]],
-  "output" : "fossiltool",
-  "groups" : ["craftingfossils","consumables","nouncrafting","all"]
+  "input": ["titaniumbar",["wire",2]],
+  "output": "fossiltool",
+  "groups": ["craftingfossils","consumables","nouncrafting","all"]
 }

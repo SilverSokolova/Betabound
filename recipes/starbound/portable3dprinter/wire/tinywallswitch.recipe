@@ -1,5 +1,5 @@
 {
-  "input" : [["money",80]],
-  "output" : "tinywallswitch",
-  "groups" : ["sb_portable3dprinter","wire","all"]
+  "input": [["money",80]],
+  "output": "tinywallswitch",
+  "groups": ["sb_portable3dprinter","wire","all"]
 }

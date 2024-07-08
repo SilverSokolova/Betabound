@@ -1,6 +1,6 @@
 {
-  "input" : ["wheat","crystalplant","sb_butter"],
-  "output" : "sb_crystalpie",
-  "groups" : ["craftingfood","desserts","sb_glow","sb_healing","sb_energy","all"],
-  "collectables" : {"cooking":"sb_crystalpie"}
+  "input": ["wheat","crystalplant","sb_butter"],
+  "output": "sb_crystalpie",
+  "groups": ["craftingfood","desserts","sb_glow","sb_healing","sb_energy","all"],
+  "collectables": {"cooking":"sb_crystalpie"}
 }

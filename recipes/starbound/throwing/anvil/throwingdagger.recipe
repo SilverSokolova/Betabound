@@ -1,6 +1,6 @@
 {
-  "input" : ["tungstenbar"],
-  "output" : ["throwingdagger",15],
-  "duration" : 0.3,
-  "groups" : ["craftinganvil","consumables","all"]
+  "input": ["tungstenbar"],
+  "output": ["throwingdagger",15],
+  "duration": 0.3,
+  "groups": ["craftinganvil","consumables","all"]
 }

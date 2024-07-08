@@ -1,6 +1,6 @@
 {
-  "input" : [["gnome",7]],
-  "output" : "throwinggnome",
-  "duration" : 0,
-  "groups" : ["plain","consumables","all"]
+  "input": [["gnome",7]],
+  "output": "throwinggnome",
+  "duration": 0,
+  "groups": ["plain","consumables","all"]
 }

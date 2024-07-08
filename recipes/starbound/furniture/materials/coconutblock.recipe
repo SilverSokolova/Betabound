@@ -1,6 +1,6 @@
 {
-  "input" : [["sand2",5],["coconut",5]],
-  "output" : ["coconutblock",20],
-  "duration" : 0.25,
-  "groups"  : ["craftingfurniture","materials","all"]
+  "input": [["sand2",5],["coconut",5]],
+  "output": ["coconutblock",20],
+  "duration": 0.25,
+  "groups": ["craftingfurniture","materials","all"]
 }

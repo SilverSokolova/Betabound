@@ -1,5 +1,5 @@
 {
-  "input" : [["titaniumbar",10],["snowflake",25]],
-  "output" : ["sb_frostspear",1,{"crafted":true}],
-  "groups" : ["weapons","craftinganvil2","all"]
+  "input": [["titaniumbar",10],["snowflake",25]],
+  "output": ["sb_frostspear",1,{"crafted":true}],
+  "groups": ["weapons","craftinganvil2","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "input" : ["siliconboard",["glass",5],["wire",5],["platinumbar",5]],
-  "output" : "sb_techconsole",
-  "groups" : ["inventorstable3","craftingstations","all"]
+  "input": ["siliconboard",["glass",5],["wire",5],["platinumbar",5]],
+  "output": "sb_techconsole",
+  "groups": ["inventorstable3","craftingstations","all"]
 }

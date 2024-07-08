@@ -1,6 +1,6 @@
 {
-  "input" : [//"lightbulb3",
+  "input": [//"lightbulb3",
 "ironbar"],
-  "output" : "smalllamppost",
-  "groups" : ["craftingfurniture","decoration","all"]
+  "output": "smalllamppost",
+  "groups": ["craftingfurniture","decoration","all"]
 }

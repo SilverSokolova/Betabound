@@ -1,6 +1,6 @@
 {
-  "input" : ["milk","sugar"],
-  "output" : "sb_icecream",
-  "groups" : ["craftingfood","desserts","sb_energy","sb_healing","sb_t1food","all"],
-  "collectables" : {"cooking":"sb_icecream"}
+  "input": ["milk","sugar"],
+  "output": "sb_icecream",
+  "groups": ["craftingfood","desserts","sb_energy","sb_healing","sb_t1food","all"],
+  "collectables": {"cooking":"sb_icecream"}
 }

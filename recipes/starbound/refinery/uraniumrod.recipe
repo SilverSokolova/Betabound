@@ -1,6 +1,6 @@
 {
-  "input" : ["uraniumrod"],
-  "output" : ["money",10],
-  "duration" : 0.5,
-  "groups" : ["refinery","all"]
+  "input": ["uraniumrod"],
+  "output": ["money",10],
+  "duration": 0.5,
+  "groups": ["refinery","all"]
 }

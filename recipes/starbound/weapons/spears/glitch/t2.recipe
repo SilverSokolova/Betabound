@@ -1,5 +1,5 @@
 {
-  "input" : [["tungstenbar",6],["copperbar",4]],
-  "output" : "sb_glitchtier2spear",
-  "groups" : ["craftinganvil","weapons","all"]
+  "input": [["tungstenbar",6],["copperbar",4]],
+  "output": "sb_glitchtier2spear",
+  "groups": ["craftinganvil","weapons","all"]
 }

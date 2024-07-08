@@ -1,5 +1,5 @@
 {
-  "input" : ["silverbar"],
-  "output" : ["sb_plate",3],
-  "groups" : ["craftingfurniture","decoration","all"]
+  "input": ["silverbar"],
+  "output": ["sb_plate",3],
+  "groups": ["craftingfurniture","decoration","all"]
 }

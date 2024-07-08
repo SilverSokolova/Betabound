@@ -1,5 +1,5 @@
 {
-  "input" : [["refinedviolium",3],["durasteelbar",2]],
-  "output" : "sb_apextier5saxe",
-  "groups" : ["craftingseparator","weapons","all"]
+  "input": [["refinedviolium",3],["durasteelbar",2]],
+  "output": "sb_apextier5saxe",
+  "groups": ["craftingseparator","weapons","all"]
 }

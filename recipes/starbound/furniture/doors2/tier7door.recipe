@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_ceruliumbar",2]],
-  "output" : "wavedoor",
-  "groups" : ["craftingfurniture2","doors","all"]
+  "input": [["sb_ceruliumbar",2]],
+  "output": "wavedoor",
+  "groups": ["craftingfurniture2","doors","all"]
 }

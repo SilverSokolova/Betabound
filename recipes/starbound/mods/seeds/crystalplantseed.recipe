@@ -1,5 +1,5 @@
 {
-  "input" : ["crystalplant",["plantfibre",4]],
-  "output" : "crystalplantseed",
-  "groups" : ["seedmaker","seedsMods","all"]
+  "input": ["crystalplant",["plantfibre",4]],
+  "output": "crystalplantseed",
+  "groups": ["seedmaker","seedsMods","all"]
 }

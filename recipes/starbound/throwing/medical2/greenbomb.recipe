@@ -1,5 +1,5 @@
 {
-  "input" : ["greenstim","bottle"],
-  "output" : "sb_runbomb",
-  "groups" : ["craftingmedical2","buffs","all"]
+  "input": ["greenstim","bottle"],
+  "output": "sb_runbomb",
+  "groups": ["craftingmedical2","buffs","all"]
 }

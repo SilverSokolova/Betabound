@@ -1,5 +1,5 @@
 {
-  "input" : [["darkwoodmaterial",15],["logblock",4],["copperbar",4]],
-  "output" : "sb_woodencookingtable",
-  "groups" : ["inventorstable","craftingstations","all"]
+  "input": [["darkwoodmaterial",15],["logblock",4],["copperbar",4]],
+  "output": "sb_woodencookingtable",
+  "groups": ["inventorstable","craftingstations","all"]
 }

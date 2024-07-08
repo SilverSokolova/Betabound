@@ -1,17 +1,17 @@
 {
-  "name" : "sb_gravitybubble",
-  "type" : "legs",
+  "name": "sb_gravitybubble",
+  "type": "legs",
 
-  "rarity" : "Legendary",
-  "icon" : "/tech/starbound/gravityball.png",
-  "description" : "Press and hold ^#0f0;[SPACE]^reset; midair to freeze gravity.",
-  "sb_longDescription" : "Useful for building!",
-  "shortDescription" : "Gravity Bubble",
+  "rarity": "Legendary",
+  "icon": "/tech/starbound/gravityball.png",
+  "description": "Press and hold ^#0f0;[SPACE]^reset; midair to freeze gravity.",
+  "sb_longDescription": "Useful for building!",
+  "shortDescription": "Gravity Bubble",
 
-  "scripts" : ["jetpack.lua"],
-  "animator" : "gravitybubble.animation",
+  "scripts": ["jetpack.lua"],
+  "animator": "gravitybubble.animation",
 
-  "jetpackSpeed" : 0,
-  "jetpackControlForce" : 2000,
-  "energyUsagePerSecond" : 20
+  "jetpackSpeed": 0,
+  "jetpackControlForce": 2000,
+  "energyUsagePerSecond": 20
 }

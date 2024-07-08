@@ -1,6 +1,6 @@
 {
-  "input" : [["shadowblock",10]],
-  "output" : ["blackblock",5],
-  "duration" : 0.25,
-  "groups"  : ["craftingfurniture","materials","all"]
+  "input": [["shadowblock",10]],
+  "output": ["blackblock",5],
+  "duration": 0.25,
+  "groups": ["craftingfurniture","materials","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "input" : [["money",75]],
-  "output" : "apexfightlantern",
-  "groups" : ["sb_portable3dprinter","lights","all"]
+  "input": [["money",75]],
+  "output": "apexfightlantern",
+  "groups": ["sb_portable3dprinter","lights","all"]
 }

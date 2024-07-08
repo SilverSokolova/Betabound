@@ -1,5 +1,5 @@
 {
-  "input" : [["darkwoodmaterial",50],["climbingrope",10]],
-  "output" : "woodenelevatorlong",
-  "groups" : ["craftingwiring","mechanics","decoration","craftingfurniture","all"]
+  "input": [["darkwoodmaterial",50],["climbingrope",10]],
+  "output": "woodenelevatorlong",
+  "groups": ["craftingwiring","mechanics","decoration","craftingfurniture","all"]
 }

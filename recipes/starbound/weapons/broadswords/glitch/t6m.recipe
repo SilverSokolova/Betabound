@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_ceruliumcompound",6],["solariumstar",4]],
-  "output" : "sb_glitchtier6mbroadsword",
-  "groups" : ["craftingseparator","weapons","all"]
+  "input": [["sb_ceruliumcompound",6],["solariumstar",4]],
+  "output": "sb_glitchtier6mbroadsword",
+  "groups": ["craftingseparator","weapons","all"]
 }

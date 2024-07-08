@@ -1,5 +1,5 @@
 {
-  "input" : [["fabric",20],["cottonwool",2]],
-  "output" : "sb_shirtlong1chest",
-  "groups" : ["craftingwheel","clothes","all"]
+  "input": [["fabric",20],["cottonwool",2]],
+  "output": "sb_shirtlong1chest",
+  "groups": ["craftingwheel","clothes","all"]
 }

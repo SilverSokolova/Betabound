@@ -1,5 +1,5 @@
 {
-  "input" : ["livingroot","string"],
-  "output" : "thread",
-  "groups" : ["craftingwheel2","ingredients","all"]
+  "input": ["livingroot","string"],
+  "output": "thread",
+  "groups": ["craftingwheel2","ingredients","all"]
 }

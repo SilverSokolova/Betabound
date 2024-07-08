@@ -1,6 +1,6 @@
 {
-  "input" : ["boltbulb","wheat","eggshoot","sugar"],
-  "output" : "sb_blackcurrentcrumble",
-  "groups" : ["craftingfood","desserts","sb_healing","sb_energy","sb_electrified","all"],
-  "collectables" : {"cooking":"sb_blackcurrentcrumble"}
+  "input": ["boltbulb","wheat","eggshoot","sugar"],
+  "output": "sb_blackcurrentcrumble",
+  "groups": ["craftingfood","desserts","sb_healing","sb_energy","sb_electrified","all"],
+  "collectables": {"cooking":"sb_blackcurrentcrumble"}
 }

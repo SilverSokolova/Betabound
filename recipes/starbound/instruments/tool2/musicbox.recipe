@@ -1,5 +1,5 @@
 {
-  "input" : [["darkwoodmaterial",5],["polymer",5],"ironbar"],
-  "output" : "musicbox",
-  "groups" : ["sb_ironcraftingtable","sb_instruments","all"]
+  "input": [["darkwoodmaterial",5],["polymer",5],"ironbar"],
+  "output": "musicbox",
+  "groups": ["sb_ironcraftingtable","sb_instruments","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "input" : [["sand",2]],
-  "output" : "glass",
-  "groups" : ["craftingfurnace","ingredients","all"]
+  "input": [["sand",2]],
+  "output": "glass",
+  "groups": ["craftingfurnace","ingredients","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "input" : [["titaniumbar",10],["thornfruit",3]],
-  "output" : ["sb_thornyneedler",1,{"crafted":true}],
-  "groups" : ["craftinganvil2","weapons","all"]
+  "input": [["titaniumbar",10],["thornfruit",3]],
+  "output": ["sb_thornyneedler",1,{"crafted":true}],
+  "groups": ["craftinganvil2","weapons","all"]
 }

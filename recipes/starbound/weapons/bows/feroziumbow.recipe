@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_feroziumcompound",6],"syntheticmaterial"],
-  "output" : "sb_feroziumbow",
-  "groups" : ["craftingaccelerator","weapons","all"]
+  "input": [["sb_feroziumcompound",6],"syntheticmaterial"],
+  "output": "sb_feroziumbow",
+  "groups": ["craftingaccelerator","weapons","all"]
 }

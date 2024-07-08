@@ -1,6 +1,6 @@
 {
-  "input" : ["wheat","sb_crystaljam"],
-  "output" : "sb_crystaltart",
-  "groups" : ["craftingfood","desserts","sb_glow","sb_energy","sb_healing","sb_t1food","all"],
-  "collectables" : {"cooking":"sb_crystaltart"}
+  "input": ["wheat","sb_crystaljam"],
+  "output": "sb_crystaltart",
+  "groups": ["craftingfood","desserts","sb_glow","sb_energy","sb_healing","sb_t1food","all"],
+  "collectables": {"cooking":"sb_crystaltart"}
 }

@@ -1,5 +1,5 @@
 {
-  "input" : ["sb_steelbar","smallbattery",["wire",5]],
-  "output" : "sb_apexcoolverticaldoor",
-  "groups" : ["craftingfurniture2","doors","all"]
+  "input": ["sb_steelbar","smallbattery",["wire",5]],
+  "output": "sb_apexcoolverticaldoor",
+  "groups": ["craftingfurniture2","doors","all"]
 }

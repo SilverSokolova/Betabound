@@ -1,6 +1,6 @@
 {
-  "input" : ["crystalplant","sugar"],
-  "output" : "sb_crystaljam",
-  "groups" : ["craftingfood","condiments","sb_healing","sb_glow","sb_energy","sb_t1food","all"],
-  "collectables" : {"cooking":"sb_crystaljam"}
+  "input": ["crystalplant","sugar"],
+  "output": "sb_crystaljam",
+  "groups": ["craftingfood","condiments","sb_healing","sb_glow","sb_energy","sb_t1food","all"],
+  "collectables": {"cooking":"sb_crystaljam"}
 }

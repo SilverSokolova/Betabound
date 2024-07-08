@@ -1,6 +1,6 @@
 {
-  "input" : ["orange"],
-  "output" : "sb_orangejuice",
-  "groups" : ["craftingfood","drinks","sb_health","sb_healing","sb_t1food","all"],
-  "collectables" : {"cooking":"sb_orangejuice"}
+  "input": ["orange"],
+  "output": "sb_orangejuice",
+  "groups": ["craftingfood","drinks","sb_health","sb_healing","sb_t1food","all"],
+  "collectables": {"cooking":"sb_orangejuice"}
 }

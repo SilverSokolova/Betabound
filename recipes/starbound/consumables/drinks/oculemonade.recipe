@@ -1,6 +1,6 @@
 {
-  "input" : ["oculemon","sugar"],
-  "output" : "sb_oculemonade",
-  "groups" : ["craftingfood","drinks","sb_energy","sb_healing","sb_health","sb_t1food","all"],
-  "collectables" : {"cooking":"sb_oculemonade"}
+  "input": ["oculemon","sugar"],
+  "output": "sb_oculemonade",
+  "groups": ["craftingfood","drinks","sb_energy","sb_healing","sb_health","sb_t1food","all"],
+  "collectables": {"cooking":"sb_oculemonade"}
 }

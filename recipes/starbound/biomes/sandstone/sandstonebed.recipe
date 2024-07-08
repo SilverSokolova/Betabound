@@ -1,5 +1,5 @@
 {
-  "input" : [["sandstoneblock",45],["leather",3]],
-  "output" : "sandstonebed",
-  "groups" : ["craftingfurniture","beds","objects","all"]
+  "input": [["sandstoneblock",45],["leather",3]],
+  "output": "sandstonebed",
+  "groups": ["craftingfurniture","beds","objects","all"]
 }

@@ -1,6 +1,6 @@
 {
-  "input" : ["sb_rubiumore"],
-  "output" : ["money",30],
-  "duration" : 0.5,
-  "groups" : ["refinery","all"]
+  "input": ["sb_rubiumore"],
+  "output": ["money",30],
+  "duration": 0.5,
+  "groups": ["refinery","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "input" : [["bone",5],["plantfibre",5]],
-  "output" : "bones",
-  "groups" : ["sb_craftingtable","sb_instruments","all"]
+  "input": [["bone",5],["plantfibre",5]],
+  "output": "bones",
+  "groups": ["sb_craftingtable","sb_instruments","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "input" : ["skyrail_diodeL"],
-  "output" : "skyrail_diodeR",
-  "groups" : ["sb_skyrailtable","sb_convert","nouncrafting","all"]
+  "input": ["skyrail_diodeL"],
+  "output": "skyrail_diodeR",
+  "groups": ["sb_skyrailtable","sb_convert","nouncrafting","all"]
 }

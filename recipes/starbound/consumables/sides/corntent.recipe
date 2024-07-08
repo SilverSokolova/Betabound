@@ -1,6 +1,6 @@
 {
-  "input" : ["corn","rawtentacle"],
-  "output" : "sb_corntent",
-  "groups" : ["craftingfood","sides","sb_health","sb_healing","sb_t1food","all"],
-  "collectables" : {"cooking":"sb_corntent"}
+  "input": ["corn","rawtentacle"],
+  "output": "sb_corntent",
+  "groups": ["craftingfood","sides","sb_health","sb_healing","sb_t1food","all"],
+  "collectables": {"cooking":"sb_corntent"}
 }

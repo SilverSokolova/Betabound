@@ -1,5 +1,5 @@
 {
-  "input" : ["sb_robotheadempty","artificialbrain"],
-  "output" : "robothead",
-  "groups" : ["sb_ironcraftingtable","sb_other","all"]
+  "input": ["sb_robotheadempty","artificialbrain"],
+  "output": "robothead",
+  "groups": ["sb_ironcraftingtable","sb_other","all"]
 }

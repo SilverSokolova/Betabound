@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_techchip",3]],
-  "output" : "techcard",
-  "groups" : ["sb_craftingtable","other","plain","sb_techconsole","upgrades","all"]
+  "input": [["sb_techchip",3]],
+  "output": "techcard",
+  "groups": ["sb_craftingtable","other","plain","sb_techconsole","upgrades","all"]
 }

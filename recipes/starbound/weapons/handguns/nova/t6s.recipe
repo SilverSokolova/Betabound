@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_imperviumcompound",3],"solariumstar"],
-  "output" : "sb_novatier6srevolver",
-  "groups" : ["craftingaccelerator","weapons","all"]
+  "input": [["sb_imperviumcompound",3],"solariumstar"],
+  "output": "sb_novatier6srevolver",
+  "groups": ["craftingaccelerator","weapons","all"]
 }

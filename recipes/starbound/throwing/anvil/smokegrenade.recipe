@@ -1,5 +1,5 @@
 {
-  "input" : [["volatilepowder",2],"string","ironbar"],
-  "output" : "sb_smokegrenade",
-  "groups" : ["consumables","craftinganvil","all"]
+  "input": [["volatilepowder",2],"string","ironbar"],
+  "output": "sb_smokegrenade",
+  "groups": ["consumables","craftinganvil","all"]
 }

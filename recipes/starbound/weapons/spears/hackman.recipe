@@ -1,5 +1,5 @@
 {
-  "input" : [["refinedviolium",10],["crystal",12],["crystalplant",12]],
-  "output" : ["sb_hackman",1,{"crafted":true}],
-  "groups" : ["craftingseparator","weapons","all"]
+  "input": [["refinedviolium",10],["crystal",12],["crystalplant",12]],
+  "output": ["sb_hackman",1,{"crafted":true}],
+  "groups": ["craftingseparator","weapons","all"]
 }

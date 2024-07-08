@@ -1,6 +1,6 @@
 {
-  "input" : ["oculemon","toxictop","chili"],
-  "output" : "sb_burningeyeballs",
-  "groups" : ["craftingfood","desserts","sb_healing","sb_health","sb_energy","sb_nova","sb_other","all"],
-  "collectables" : {"cooking":"sb_burningeyeballs"}
+  "input": ["oculemon","toxictop","chili"],
+  "output": "sb_burningeyeballs",
+  "groups": ["craftingfood","desserts","sb_healing","sb_health","sb_energy","sb_nova","sb_other","all"],
+  "collectables": {"cooking":"sb_burningeyeballs"}
 }
