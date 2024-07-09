@@ -6,7 +6,7 @@
   "link" : "steam://urlCommunityFilePage/2010607826",
   "name" : "XRC_BETA_STARBOUND",
   "scripts" : {
-    "onLoad" : ["/scripts/assets/sb_postload.lua"]
+    "postLoad" : ["/scripts/assets/sb_postload.lua"]
   },
   "steamContentId" : "2010607826",
   "steamTitle" : "Betabound!",

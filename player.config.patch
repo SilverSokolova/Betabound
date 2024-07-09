@@ -17,19 +17,13 @@
 [{"op":"add","path":"/statusControllerSettings/resources/sb_forceFieldStrength","value":{"baseValue":0}}],
 [{"op":"test","path":"/statusControllerSettings/resources/stunned","inverse":true},{"op":"add","path":"/statusControllerSettings/resources/stunned","value":{"baseValue":0}}],
 
-//misc
+//inventory
 [{"op":"test","path":"/ageItemsEvery","value":10},{"op":"replace","path":"/ageItemsEvery","value":300}],
 [{"op":"test","path":"/inventoryFilters/autoAddToCustomBar/categoryBlacklist/0","value":"food"},{"op":"remove","path":"/inventoryFilters/autoAddToCustomBar/categoryBlacklist/0"}],
 [{"op":"add","path":"/inventoryFilters/autoAddToCustomBar/typeWhitelist/-","value":"beamminingtool"}],
 [{"op":"add","path":"/inventoryFilters/autoAddToCustomBar/typeWhitelist/-","value":"wiretool"}],
 [{"op":"add","path":"/inventoryFilters/autoAddToCustomBar/typeWhitelist/-","value":"paintingbeamtool"}],
 [{"op":"add","path":"/inventoryFilters/autoAddToCustomBar/typeWhitelist/-","value":"inspectiontool"}],
-
-//make paint go into blocks tab
-[{"op":"add","path":"/inventoryFilters/mainBag/categoryBlacklist/-","value":"block"}],
-[{"op":"add","path":"/inventoryFilters/materialBag/typeWhitelist/-","value":"augmentitem"}],
-[{"op":"test","path":"/inventoryFilters/materialBag/categoryWhitelist","inverse":true},{"op":"add","path":"/inventoryFilters/materialBag/categoryWhitelist","value":[]}],
-[{"op":"add","path":"/inventoryFilters/materialBag/categoryWhitelist/-","value":"block"}],
 
 
 //reagent

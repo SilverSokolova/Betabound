@@ -1,6 +1,7 @@
 {
   "name": "sb_tentacle",
   "friendlyName": "Tentacle",
+  "statusEffects": ["biomeheat"],
 
   "spawnProfile": {
     "groups": [{
