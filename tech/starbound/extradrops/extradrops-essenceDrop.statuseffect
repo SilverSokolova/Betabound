@@ -1,0 +1,9 @@
+{
+  "name": "sb_extradrops-essenceDrop",
+  "effectConfig": {
+    "treasurePool": "essenceDrop",
+    "rolls": 1
+  },
+  "defaultDuration": 10,
+  "scripts": ["extradrops-drops.lua"]
+}

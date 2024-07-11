@@ -1,0 +1,8 @@
+{
+  "name": "sb_extradrops-items",
+  "effectConfig": {
+    "defaultTreasurePool": "noMeatMonsterTreasure"
+  },
+  "defaultDuration": 10,
+  "scripts": ["extradrops-drops.lua"]
+}
