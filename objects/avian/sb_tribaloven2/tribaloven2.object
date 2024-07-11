@@ -1,7 +1,7 @@
 {
   "objectName": "sb_tribaloven2",
   "colonyTags": ["cooking", "light", "avian"],
-  "rarity": "Uncommon",
+  "rarity": "Common",
   "description": "Crackling quietly, the smell of hickory smoke wafts from its grate.",
   "shortdescription": "^orange;Stout Oven^reset;",
   "category": "crafting",

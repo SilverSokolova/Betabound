@@ -1,16 +1,6 @@
 [
   [{
       "op": "test",
-      "value": "Uncommon",
-      "path": "/rarity"
-    }, {
-      "op": "add",
-      "path": "/rarity",
-      "value": "legendary"
-    }
-  ],
-  [{
-      "op": "test",
       "inverse": true,
       "path": "/tooltipKind"
     }, {

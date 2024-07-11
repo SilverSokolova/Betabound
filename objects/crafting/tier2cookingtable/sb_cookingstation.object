@@ -3,7 +3,7 @@
   "colonyTags": ["crafting", "cooking"],
   "printable": false,
   "price": 1300,
-  "rarity": "rare",
+  "rarity": "legendary",
   "interactAction": "OpenCraftingInterface",
   "interactData": {
     "config": "/interface/windowconfig/sb_craftingfood.config",
@@ -23,19 +23,14 @@
   "hylotlDescription": "Food preparation is an art and this is the paintbrush.",
   "novakidDescription": "I could cook up a good ol' stew storm on this 'ere thing.",
 
-  "inventoryIcon": "cookingstationicon.png",
+  "inventoryIcon": "tier2cookingtableicon.png",
   "orientations": [{
-      "dualImage": "cookingstation.png:<color>",
-
+      "dualImage": "tier2cookingtable.png:<color>",
       "imagePosition": [-16, 0],
       "frames": 1,
-      "animationCycle": 1.0,
-
+      "animationCycle": 1,
       "spaceScan": 0.1,
       "anchors": ["bottom"]
-
     }
-  ],
-
-  "npcToy": {}
+  ]
 }
