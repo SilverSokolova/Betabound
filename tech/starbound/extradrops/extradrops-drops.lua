@@ -6,12 +6,18 @@ function init()
   end
   treasurePool = config.getParameter("treasurePool", entityTypeName.."Treasure")
   treasurePool = root.isTreasurePool(treasurePool) and treasurePool or findTreasurePool()
-  rolls = config.getParameter("rolls", 3)
+  rolls = config.getParameter("rolls", 2)
   weight = config.getParameter("weight", 40)
   level = math.max(1, world.threatLevel())
 end
 
-function update(dt)
+function uninit()
+  --You can kill Small Po from a larger po with a flamethrower before they're fully initialized, which specifically breaks world.entityHealth but not world.entityExists?
+  --But world.entityHealth doesn't seem to work in uninit anyway, so we can only check for a value set in init
+  if not rolls then
+    return
+  end
+
   if not status.resourcePositive("health") then
     for i = 1, rolls do
       if math.random(100) <= weight then

@@ -40,6 +40,7 @@
   //           Avian Tomb
   // ================================
 [{"op":"add","path":"/aviantombTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_avianBlueprints"}}],
+[{"op":"add","path":"/aviantombTreasure/0/1/pool/-","value":{"weight":0.025,"pool":"aviantombLore"}}], //Boost lore drop because it's absurdly low in vanilla
 [{"op":"add","path":"/aviantombLore/0/1/pool/-","value":{"weight":0.33,"item":"sb_tombwords"}}],
 
   // ================================

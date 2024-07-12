@@ -8,6 +8,7 @@ function init()
   effect.addStatModifierGroup({{stat = "healthRegen", effectiveMultiplier = 0}})
 end
 
+--The code works how it is since it checks for a value set in init, but keep in mind the comment in extradrops-drops.lua for the extradrops tech
 function uninit()
   if not status.resourcePositive("health") then
     if brain then

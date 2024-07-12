@@ -1,3 +1,5 @@
 [
 [{"op":"add","path":"/florantreasurelore/0/1/fill/-","value":{"pool":"sb_florantreasureMusic"}}],
-[{"op":"test","path":"/florantreasurelore/0/1/pool/1/item/0","value":"durasteelbar"},{"op":"replace","path":"/florantreasurelore/0/1/pool/1/item/0","value":"tungstenbar"}]]
+[{"op":"test","path":"/florantreasurelore/0/1/pool/1/item/0","value":"durasteelbar"},{"op":"replace","path":"/florantreasurelore/0/1/pool/1/item/0","value":"titaniumbar"}],
+[{"op":"add","path":"/florangladiatortreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_bonehammer"}}]
+]

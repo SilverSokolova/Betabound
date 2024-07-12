@@ -1,4 +1,25 @@
+//TODO: remove this once Patch Project accepts it
 [
-[{"op":"test","path":"/category","inverse":true},
-{"op":"add","path":"/category","value":"currency"}]
+  [
+    {
+      "op": "test",
+      "path": "/category",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/category",
+      "value": "currency"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipKind",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/tooltipKind",
+      "value": "codex"
+    }
+  ]
 ]
