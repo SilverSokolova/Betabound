@@ -1,7 +1,7 @@
 {
   "name": "sb_heck",
-  "friendlyName": "Heck",
-  "description": "A Heck biome.", //this string appears in biome data when dumping worlds
+  "friendlyName": "Heck Caves",
+//  "description": "A Heck biome.", //this string appears in biome data when dumping worlds
 
   "spawnProfile": {
     "groups": [{
