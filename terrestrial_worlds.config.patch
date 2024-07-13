@@ -38,7 +38,6 @@
         "caveLiquid": ["lava"],
         "blockSelector": ["remixedMildSurface"],
         "fgCaveSelector": ["surfaceCaves"],
-        "subRegion": [],
         "bgCaveSelector": ["empty"]
       }
     }
@@ -50,7 +49,6 @@
         "biome": [[0, ["sb_rust"]]],
         "blockSelector": ["remixedMildSurface"],
         "fgCaveSelector": ["surfaceCaves"],
-        "subRegion": [],
         "bgCaveSelector": ["empty"]
       }
     }
@@ -150,6 +148,8 @@
       "fgCaveSelector": ["surfaceCaves"],
       "bgCaveSelector": ["empty"],
       "biome": [[0,["sb_tentacle"]]],
+      //I played around with moving subRegion to the main planet, and even making a sb_tentacle2 in this file, but Planet Search refuses to acknowledge it
+      //Anyway, we'll have to move this to the planet definition if we make tentacle surface minibiomes
       "subRegion" : ["forest", "desert", "garden", "jungle", "savannah", "snow", "tundra", "volcanic"] //2=arid
     }
   },
