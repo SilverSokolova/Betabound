@@ -6,6 +6,7 @@
   "scriptConfig": {
     "crew": {
       "role": {
+        "name": "Grey Chemist",
         "benefits": [{
             "type": "EphemeralEffect",
             "effect": "sb_greystim",

@@ -2,7 +2,10 @@ require "/scripts/util.lua"
 require "/scripts/vec2.lua"
 require "/scripts/companions/capturable.lua"
 
+--Not prefixing the probe functions seems fine for now but it'll probably cause problems later. See you in 2034
+local sb_init = init or function() end
 function init()
+  sb_init()
   self.dialog = config.getParameter("dialog")
 
   mcontroller.controlFace(1)
@@ -15,10 +18,11 @@ function init()
   self.attack = FSM:new()
 
   self.lightning = config.getParameter("lightning")
-  capturable.init()
 end
 
+local sb_update = update or function() end
 function update(dt)
+  sb_update(dt)
   capturable.update(dt)
   mcontroller.controlFace(1)
   

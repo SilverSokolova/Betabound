@@ -1,5 +1,43 @@
-[[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
-[{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":0}],
-[{"op":"replace","path":"/price","value":5}]
-//,[{"op":"replace","path":"/category","value":"smallFossil"}]
+[
+  [{
+      "op": "test",
+      "path": "/tooltipKind",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/tooltipKind",
+      "value": "sb_object"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/price",
+      "value": 0
+    }, {
+      "op": "replace",
+      "path": "/price",
+      "value": 25
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/description",
+      "value": "It's a fossil. I wonder what kind it is."
+    }, {
+      "op": "replace",
+      "path": "/description",
+      "value": "An unidentified fossil. I wonder what kind it is. Bring it to a Fossil Station to find out!"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/category",
+      "value": "craftingMaterial"
+    }, {
+      "op": "replace",
+      "path": "/category",
+      "value": "other"
+    }
+  ]
+  //,[{"op":"replace","path":"/category","value":"smallFossil"}]
 ]
