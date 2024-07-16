@@ -1,7 +1,7 @@
 [
-[{"op":"test","path":"/description","value":"Describe things in the world and scan objects for printing. ^green;Quick select with [N] key."},{"op":"replace","path":"/description","value":"Describe things in the world and scan objects for printing."}],
+[{"op":"test","path":"/description","value":"Inspect the world around you. ^green;Quick select with [N] key."},{"op":"replace","path":"/description","value":"Describe things in the world and scan objects for printing."}]
 
-[{"op":"test","path":"/description","value":"Describe things in the world and scan objects for printing. ^green;Quick select with [N] key.^reset;"},{"op":"replace","path":"/description","value":"Describe things in the world and scan objects for printing."}], //patch project
+[{"op":"test","path":"/description","value":"Inspect the world around you. ^green;Quick select with [N] key."},{"op":"replace","path":"/description","value":"Describe things in the world and scan objects for printing."}] //patch project
 
 [{"op":"test","path":"/nothingThereText/human","inverse":true},{"op":"add","path":"/nothingThereText/human","value":[]}],
 [{"op":"add","path":"/nothingThereText/human/-","value":"Nope, didn't find anything."},

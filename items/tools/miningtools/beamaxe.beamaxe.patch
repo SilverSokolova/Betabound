@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/description","value":"Manipulates anything that matters. ^green;Quick select with [R] key."},{"op":"replace","path":"/description","value":"Manipulates anything that matters."}],
+
+[{"op":"test","path":"/description","value":"Manipulates anything that matters. ^green;Quick select with [R] key.^reset;"},{"op":"replace","path":"/description","value":"Manipulates anything that matters."}] //patch project
+]

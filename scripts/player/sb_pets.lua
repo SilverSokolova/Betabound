@@ -1,12 +1,12 @@
 local ini = init
 function init() ini()
-  sb_petsToTeleport = {}
+  sb_pets = {}
   message.setHandler("pets.sb_callPodPets", function()
     local pets = playerCompanions.getCompanions("pets")
     for i = 1, #pets do
       local podUuid = pets[i].podUuid
       petSpawner.pods[podUuid]:recall()
-      sb_petsToTeleport[#sb_petsToTeleport+1] = podUuid
+      sb_pets[#sb_pets+1] = podUuid
     end
     sb_skipUpdate = true
   end)
@@ -19,13 +19,12 @@ function update(dt)
     sb_skipUpdate = false
   else
     updat(dt)
-    if #sb_petsToTeleport > 0 then
+    if #sb_pets > 0 then
       local playerPosition = world.entityPosition(player.id())
-      local clearList = false
-      for i = 1, #sb_petsToTeleport do
-        petSpawner.pods[sb_petsToTeleport[i]]:release(world.entityPosition(player.id()))
+      for i = 1, #sb_pets do
+        petSpawner.pods[sb_pets[i]]:release(playerPosition)
       end
-      sb_petsToTeleport = {}
+      sb_pets = {}
     end
   end
 end
