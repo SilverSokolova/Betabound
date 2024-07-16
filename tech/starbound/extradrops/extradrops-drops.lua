@@ -1,6 +1,7 @@
 function init()
   entityTypeName = world.entityTypeName(entity.id())
-  if world.entityHealth(entity.id())[2] < config.getParameter("minimumHealth", 3.5) or not entityTypeName then
+  local health = world.entityHealth(entity.id())
+  if (health and world.entityHealth(entity.id())[2] < config.getParameter("minimumHealth", 3.5)) or not entityTypeName or not health then
     effect.expire()
     return
   end

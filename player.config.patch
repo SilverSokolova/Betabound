@@ -26,6 +26,16 @@
 [{"op":"add","path":"/inventoryFilters/autoAddToCustomBar/typeWhitelist/-","value":"inspectiontool"}],
 
 
+//scripts
+[{"op":"add","path":"/genericScriptContexts/sb_main","value":"/scripts/player/sb_main.lua"}],
+[{"op":"add","path":"/genericScriptContexts/sb_versioning","value":"/scripts/sb_versioning/versioncheck.lua"}],
+[{"op":"add","path":"/genericScriptContexts/sb_items","value":"/scripts/player/sb_items.lua"}],
+[{"op":"add","path":"/genericScriptContexts/sb_events","value":"/events/sb_events.lua"}],
+[{"op":"add","path":"/statusControllerSettings/primaryScriptSources/-","value":"/stats/sb_player_primary.lua"}],
+[{"op":"add","path":"/companionsConfig/scripts/-","value":"/scripts/player/sb_ship.lua"}],
+[{"op":"add","path":"/companionsConfig/scripts/-","value":"/scripts/player/sb_pets.lua"}],
+
+//recipes
 //reagent
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"coalore"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"platinumbar"}}],
@@ -56,6 +66,8 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"skyrailbreak"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"skyrailplatform"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_tech","count":1,"parameters":{"techModule":"skyrail"}}}],
+
+//rails
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_solidrailplatform"}}],
 
 //crafting
@@ -63,15 +75,16 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_woodencookingtable"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_cookingstation"}}],
 
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_codex"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_techconsole"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"fossilpod"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"spawnerstation"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"mechassemblystation"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"mechcraftingtable"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_wrappingtable"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_researchstation"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_metalworkstation"}}],
+
+//misc stations
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_wrappingtable"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"mechassemblystation"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_codex"}}],
 
 //bosses
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_ironbeacon"}}],
@@ -116,6 +129,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_flashfreeze"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_partypopper"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_hookshot"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_whistle"}}],
 
 //upgrades
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"upgrademodule"}}],
@@ -132,6 +146,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_weaponupgrade5"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_weaponupgrade6"}}],
 
+//fu prevents other mods from using player.upgradeShip so disable ship upgrades if it's present
 [{"op":"test","path":"/defaultCodexes/fumantizi","inverse":true},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_shipspeed1"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_maxfuel1"}},
@@ -217,7 +232,6 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"executiveswitch"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"executivebed"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_tier6stechchest"}}],
-
 
 //wire
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_forcepad"}}],
@@ -392,12 +406,6 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novakidlightstaff1"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novakidlightstaff2"}}],
 
-//end
-[{"op":"add","path":"/genericScriptContexts/sb_main","value":"/scripts/player/sb_main.lua"}],
-[{"op":"add","path":"/genericScriptContexts/sb_versioning","value":"/scripts/sb_versioning/versioncheck.lua"}],
-//[{"op":"add","path":"/deploymentConfig/scripts/-","value":"/xrc/deployment/versioning/tech.lua"}],
-[{"op":"add","path":"/genericScriptContexts/sb_blueprints","value":"/scripts/player/sb_blueprints.lua"}],
-[{"op":"add","path":"/genericScriptContexts/sb_events","value":"/events/sb_events.lua"}],
-[{"op":"add","path":"/statusControllerSettings/primaryScriptSources/-","value":"/stats/sb_player_primary.lua"}],
-[{"op":"add","path":"/companionsConfig/scripts/-","value":"/scripts/player/sb_ship.lua"}]
+//unsorted
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"fossilpod"}}]
 ]

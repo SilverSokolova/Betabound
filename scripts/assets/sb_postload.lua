@@ -9,3 +9,5 @@ for i = 1, #files do
     assets.patch(files[i], path)
   end
 end
+
+--food buff recipe groups (TODO)
