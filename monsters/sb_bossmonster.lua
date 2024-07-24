@@ -1,7 +1,8 @@
-local ini = init or function() end
-local updat = update or function() end
-local di = die or function() end
-function init() ini() monster.setAggressive(true)
+local originalInit = init or function() end
+local originalUpdate = update or function() end
+local originalDie = die or function() end
+
+function init() originalInit() monster.setAggressive(true)
   sb_music = status.statusProperty("bossMusic","")
   self.players = {} --???
   sb_noMusic = config.getParameter("podUuid")
@@ -9,7 +10,7 @@ function init() ini() monster.setAggressive(true)
   animator.setAnimationState("music","off")
 end
 
-function update(dt) updat(dt)
+function update(dt) originalUpdate(dt)
 --local nearPlayers = world.playerQuery(entity.position(),80)
   if not sb_noMusic then
     local players = world.players()
@@ -24,7 +25,7 @@ function update(dt) updat(dt)
   end
 end
 
-function die() di()
+function die() originalDie()
   local players = world.players()
   if not sb_noMusic then
     for _,i in pairs(players) do world.sendEntityMessage(i,"stopAltMusic",1) end

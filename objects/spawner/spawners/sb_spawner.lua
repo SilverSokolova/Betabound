@@ -1,7 +1,11 @@
-local ini = init or function() end
-local sb_onInteraction = onInteraction or function() end
+--[[Documentation
+Change behavior of NPC spawner objects to spawn the NPC on interaction rather than on unload
+]]
+--I think it might be better to hook rather than change which script the object runs since other mods may try to hook into the object, expecting the original script
+local originalInit = init or function() end
+local originalOnInteraction = onInteraction or function() end
 
-function init() ini()
+function init() originalInit()
   script.setUpdateDelta(0)
   object.setInteractive(true)
   sb_scriptConfig = config.getParameter("spawner.sb_scriptConfig")
@@ -25,6 +29,6 @@ function init() ini()
 end
 
 function onInteraction(args)
-  sb_onInteraction(args) 
+  originalOnInteraction(args) 
   update()
 end

@@ -1,5 +1,5 @@
-local ini = init or function() end
-function init() ini()
+local originalInit = init or function() end
+function init() originalInit()
   local i = config.getParameter("interactData")
   local r = config.getParameter("sb_treasuredtrophies")
   for n = 1, #r do

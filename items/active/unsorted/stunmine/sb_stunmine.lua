@@ -1,5 +1,5 @@
-local ini = init or function() end
-local updat = update or function() end
+local originalInit = init or function() end
+local originalUpdate = update or function() end
 
 function init()
   item.sb_consume = item.consume
@@ -11,7 +11,7 @@ function init()
     setStance("idle")
     return item.sb_consume(count)
   end
-  ini()
+  originalInit()
 end
 
 function update(...)
@@ -19,5 +19,5 @@ function update(...)
     item.consume(0)
     return
   end
-  updat(...)
+  originalUpdate(...)
 end

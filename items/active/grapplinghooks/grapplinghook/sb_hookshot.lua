@@ -1,7 +1,7 @@
-local swin = swing or function() end
+local originalSwing = swing or function() end
 
 function swing(moves)
   moves.up = true
   moves.down = false
-  swin(moves)
+  originalSwing(moves)
 end

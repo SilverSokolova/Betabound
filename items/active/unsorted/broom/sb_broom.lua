@@ -1,19 +1,19 @@
-local sb_sweep = sweep or function() end
-local sb_activate = activate or function() end
-local sb_update = update or function() end
+local originalSweep = sweep or function() end
+local originalActivate = activate or function() end
+local originalUpdate = update or function() end
 
 function activate(fireMode, shiftHeld)
   sb_fireMode = fireMode
-  sb_activate(fireMode, shiftHeld)
+  originalActivate(fireMode, shiftHeld)
 end
 
 function update(dt, fireMode, shiftHeld)
   aimAngle, aimDirection = activeItem.aimAngleAndDirection(0, activeItem.ownerAimPosition())
   activeItem.setFacingDirection(aimDirection)
-  sb_update(dt, fireMode, shiftHeld)
+  originalUpdate(dt, fireMode, shiftHeld)
 end
 
-function sweep() sb_sweep()
+function sweep() originalSweep()
   if not player then return end
   local pos = mcontroller.position()
   pos = {math.floor(pos[1]), math.floor(pos[2])}

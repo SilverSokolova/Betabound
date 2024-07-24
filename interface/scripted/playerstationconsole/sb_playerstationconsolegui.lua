@@ -1,10 +1,10 @@
-local sb_init = init or function() end
-local sb_update = update or function() end
+local originalInit = init or function() end
+local originalUpdate = update or function() end
 
-function init() sb_init()
+function init() originalInit()
   widget.setPosition("sb_lblGravity", {widget.getPosition("sb_lblGravity")[1], widget.getPosition("lblGravity")[2]})
 end
 
-function update(...) sb_update(...)
+function update(...) originalUpdate(...)
   widget.setText("sb_lblGravity", widget.getSliderValue("sldGravity"))
 end

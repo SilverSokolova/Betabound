@@ -1,14 +1,12 @@
-require "/scripts/vec2.lua"
+local originalInit = init or function() end
+local originalUpdate = update or function() end
 
-local ini = init or function() end
-local updat = update or function() end
-
-function init() ini()
+function init() originalInit()
   sb_knownPlayers = {}
   sb_radioMessage = config.getParameter("sb_radioMessage")
 end
 
-function update(dt) updat(dt)
+function update(dt) originalUpdate(dt)
   if not self.isOutpostGate then
     local players = world.players()
     if #players > 0 then

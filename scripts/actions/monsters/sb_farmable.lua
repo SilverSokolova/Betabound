@@ -1,6 +1,6 @@
 require "/scripts/vec2.lua"
-local ini = init or function() end
-function init() ini()
+local originalInit = init or function() end
+function init() originalInit()
     message.setHandler("sb_feedFluffalo",function(_,_,feed)
       local spawnPosition = vec2.add(mcontroller.position(), vec2.mul({0,0}, {mcontroller.facingDirection(), 1}))
       local s = feed.."fluffalo"..(config.getParameter("behavior","") == "farmablebaby" and "baby" or "")

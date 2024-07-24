@@ -1,13 +1,8 @@
-local ini = init or function() end
-local updat = update or function() end
+local originalInit = init or function() end
 
-function init() ini()
+function init() originalInit()
   rotationFrame = 1
   playedSplashSound = false
-end
-
-function update(args)
-  updat(args)
 end
 
 function updateRotationFrame(dt)

@@ -1,7 +1,7 @@
-local ini = init or function() end
-local updat = update or function() end
+local originalInit = init or function() end
+local originalUpdate = update or function() end
 
-function init() ini()
+function init() originalInit()
   sb_npcType = npc.npcType()
   sb_crouching = config.getParameter("sb_crouching")
 
@@ -57,7 +57,7 @@ function init() ini()
   end
 end
 
-function update(dt) updat(dt)
+function update(dt) originalUpdate(dt)
   --NPC type checks. We need them in update since the player can update quest/universe state while in the target world
   if sb_npcType == "outpostfloranfan" then
     if world.universeFlagSet("sb_floranfan1") then

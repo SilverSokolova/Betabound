@@ -1,5 +1,5 @@
-local ini = init
-function init() if ini and type(ini)=="function" then ini() end
+local originalInit = init
+function init() if ini and type(ini)=="function" then originalInit() end
   tick = config.getParameter("tick",0.002)
   modifier = config.getParameter("start",1)
   min = config.getParameter("min",0.35)

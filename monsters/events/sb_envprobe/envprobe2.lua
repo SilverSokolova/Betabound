@@ -2,10 +2,10 @@ require "/scripts/util.lua"
 require "/scripts/vec2.lua"
 require "/scripts/companions/capturable.lua"
 
---Not prefixing the probe functions seems fine for now but it'll probably cause problems later. See you in 2034
-local sb_init = init or function() end
+--TODO: Not prefixing the probe functions seems fine for now but it'll probably cause problems later. See you in 2034
+local originalInit = init or function() end
 function init()
-  sb_init()
+  originalInit()
   self.dialog = config.getParameter("dialog")
 
   mcontroller.controlFace(1)

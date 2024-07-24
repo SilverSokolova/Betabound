@@ -1,13 +1,13 @@
-local ini = init or function() end
-local updat = update or function() end
+local originalInit = init or function() end
+local originalUpdate = update or function() end
 
 function init()
-  ini()
+  originalInit()
   activeItem.setArmAngle(root.assetJson("/betabound.config:heldItemArmAngle"))
 end
 
 function update(...)
-  updat(...)
+  originalUpdate(...)
   local _, aimDirection = activeItem.aimAngleAndDirection(0, activeItem.ownerAimPosition())
   activeItem.setFacingDirection(aimDirection)
 end

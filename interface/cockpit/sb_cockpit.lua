@@ -1,7 +1,7 @@
 require "/scripts/sb_assetmissing.lua"
-local ini = init
+local originalInit = init
 
-function init() ini()
+function init() originalInit()
   if root.assetJson("/betabound.config:fuelScaling") and not sb_hasOtherFuelScalingMod() then
     sb_jumpFuelCostCap = config.getParameter("sb_jumpFuelCostCap")
     --sb_fuelJumpCostDivision = config.getParameter("sb_fuelJumpCostDivision")

@@ -1,9 +1,9 @@
 local v = {}
-local sb_command = command or function() return nil end
-local ini = init or function() end
+local originalCommand = command or function() return nil end
+local originalInit = init or function() end
 
-function init() ini() require("/scripts/sb_assetmissing.lua") sb_techType() end
-function command(a,b,d) if sb_command then if sb_command(a,b,d) ~= nil then return sb_command(a,b,d) end end if v[a] then return v[a](b,d) else return string.format(root.assetJson("/sb_commands.config").noSuchCommand,a) end end
+function init() originalInit() require("/scripts/sb_assetmissing.lua") sb_techType() end
+function command(a,b,d) if originalCommand then if originalCommand(a,b,d) ~= nil then return originalCommand(a,b,d) end end if v[a] then return v[a](b,d) else return string.format(root.assetJson("/sb_commands.config").noSuchCommand,a) end end
 
 local function cutColors(text) return string.gsub(string.gsub(text, "(%^.-%;)", ""),("\n"),"") end
 

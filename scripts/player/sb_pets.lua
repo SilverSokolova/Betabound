@@ -1,5 +1,5 @@
-local ini = init
-function init() ini()
+local originalInit = init
+function init() originalInit()
   sb_pets = {}
   message.setHandler("pets.sb_callPodPets", function()
     local pets = playerCompanions.getCompanions("pets")

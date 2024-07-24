@@ -16,6 +16,7 @@ function init()
   init = nil
   require(config.getParameter("sb_script"))
 
+  --These aren't local, so don't rename them to originalUpdate. We need prefixes here
   sb_update = update or function(...) end
   update = function(...) sb_update(...) sb_update2(...) end
 

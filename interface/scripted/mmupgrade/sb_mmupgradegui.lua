@@ -1,6 +1,6 @@
-local ini = init or function() end
-local updateGu = updateGui or function() end
-local performUpgrad = performUpgrade or function() end
+local originalInit = init or function() end
+local originalUpdateGui = updateGui or function() end
+local originalPerformUpgrade = performUpgrade or function() end
 
 function sb_moveGui()
   local w = {{"LiquidCollection","Beamaxe","PaintMode","WireMode","ScanMode"},root.assetJson("/betabound.config:posMMUI")}
@@ -8,7 +8,7 @@ function sb_moveGui()
   for i = 0, 6 do widget.setImage("imgSbLine"..i,"/assetmissing.png") end
 end
 
-function init() ini()
+function init() originalInit()
   if (root.assetJson("/betabound.config:forceMoveMMUI") --betabound
     or (#config.getParameter("upgrades",{}).paintmode.prerequisites < 1) --EnhancedMatterManipulator
     or betterResetTools) --moremmupgrades
@@ -28,7 +28,7 @@ function init() ini()
   end
 end
 
-function updateGui() updateGu()
+function updateGui() originalUpdateGui()
   local upgrades = sb_getUpgrades()
   if not sb_mmChecked and contains(upgrades, "sb_generic") then
     local mm = player.essentialItem("beamaxe").parameters.upgrades
@@ -119,7 +119,7 @@ function performUpgrade(widgetName, widgetData)
       player.giveItem(oldItem)
     end
   end
-  return performUpgrad(widgetName, widgetData)
+  return originalPerformUpgrade(widgetName, widgetData)
 end
 
 function sb_setWidgetsVisible(w,b) for i=1, #w do widget.setVisible(w[i],b) end end

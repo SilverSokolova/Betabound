@@ -1,5 +1,5 @@
 require "/tech/starbound/morphball/distortionsphere.lua"
-local updat = update or function() end
+local originalUpdate = update or function() end
 
 function init()
   initCommonParameters()
@@ -11,7 +11,7 @@ function init()
 end
 
 function update(args)
-  updat(args)
+  originalUpdate(args)
   bombCooldownTimer = bombCooldownTimer - args.dt
   if active and args.moves["primaryFire"] and bombCooldownTimer <= 0 and status.overConsumeResource("energy", energyCostPerBomb) then
     world.spawnProjectile(bombProjectile,entity.position(),entity.id(),{0,0},false,bombParameters)

@@ -1,6 +1,6 @@
-local ini = init
+local originalInit = init or function() end
 --disabled naming for mushroom/eye shields since merchants would keep regenerating them while the menu was open
-function init() ini()
+function init() originalInit()
   if player and not sb_init then
     sb_resourceNames = {shieldStamina = 1, shieldStaminaRegenBlock = 1, shieldHealth = 1, perfectBlock = 1, perfectBlockLimit = 1} --TODO: move to config?
     sb_hand = activeItem.hand() == "alt" and "R" or "L"
@@ -40,8 +40,8 @@ function init() ini()
       return status.sb_modifyResource(resourceName, value)
     end
 
-  activeItem.sb_setItemDamageSources = activeItem.setItemDamageSources
-  activeItem.setItemDamageSources = function(damageSources)
+    activeItem.sb_setItemDamageSources = activeItem.setItemDamageSources
+    activeItem.setItemDamageSources = function(damageSources)
     if sb_statusEffects and damageSources then
       for i = 1, #damageSources do
         damageSources[i].statusEffects = damageSources[i].statusEffects or {}
