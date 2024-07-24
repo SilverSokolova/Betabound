@@ -28,6 +28,7 @@
 
   "sounds": {
     "activate": ["/sfx/tech/tech_doublejump.ogg"],
-    "deactivate": ["/sfx/tech/tech_blink2.ogg"]
+    "deactivate": ["/sfx/tech/tech_blink2.ogg"],
+    "bounce": ["/sfx/projectiles/petball_bounce.ogg"]
   }
 }

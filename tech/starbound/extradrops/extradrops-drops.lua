@@ -22,7 +22,7 @@ function uninit()
   if not status.resourcePositive("health") then
     for i = 1, rolls do
       if math.random(100) <= weight then
-        local items = root.createTreasure(treasurePool, level)
+        local items = root.createTreasure(treasurePool, level, sb.staticRandomI32(os.clock()))
         if #items > 0 then
           world.spawnItem(items[math.random(#items)], entity.position())
         end

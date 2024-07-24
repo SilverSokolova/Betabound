@@ -12,7 +12,7 @@
   [{
       "op": "test",
       "path": "/price",
-      "inverse": true
+      "value": 0
     }, {
       "op": "add",
       "path": "/price",

@@ -41,11 +41,11 @@
     "class": "GunFire",
     "projectileType": ["bonethorn"], //,"throwingbone"],
     "projectileParameters": {
-      "knockbackRange": [3, 11]
+      "knockbackRange": [3, 6]
     },
-    "fireTime": [0.12, 0.22],
+    "fireTime": [0.11, 0.18],
     "fireType": "auto",
-    "baseDps": [9.25, 13.75],
+    "baseDps": [9.25, 10.25],
     "energyUsage": [25, 30],
     "inaccuracy": 0.025,
     "stances": {

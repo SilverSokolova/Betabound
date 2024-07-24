@@ -3,6 +3,7 @@
   "effectConfig": {
     "color": "fade=BE89B4=0.5",
     "brainPool": "sb_brain",
+    //A brainMap entry can be either a number (to use the value in `brainPool`) or a pool name
     "brainMap": {
       "sb_robotboss": "artificialbrain",
       "smallflying": 1,

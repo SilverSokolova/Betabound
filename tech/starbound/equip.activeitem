@@ -1,17 +1,24 @@
 {
-  "itemName" : "sb_equip",
-  "price" : 50,
-  "tooltipKind" : "sb_object",
-  "tooltipFields" : {"rarityLabel":""},
-  "category" : "tech",
-  "animation" : "lockin.animation",
-  "inventoryIcon" : [{"image":"/tech/starbound/banana3.png"},{"image":"/tech/starbound/convert.png"}],
-  "rarity" : "uncommon",
-  "durability" : 5,
-  "durabilityHit" : 5,
-  "techModule" : "",
-  "description" : "A specialised tech drive used for quickly equipping specific tech.",
-  "shortdescription" : "Tech Equipper",
-  "scripts" : ["equip.lua"],
-  "builder" : "/items/buildscripts/starbound/updatetech.lua"
+  "itemName": "sb_equip",
+  "price": 50,
+  "tooltipKind": "sb_object",
+  "tooltipFields": {
+    "rarityLabel": ""
+  },
+  "category": "tech",
+  "animation": "lockin.animation",
+  "inventoryIcon": [{
+      "image": "/tech/starbound/banana3.png"
+    }, {
+      "image": "/tech/starbound/convert.png"
+    }
+  ],
+  "rarity": "uncommon",
+  "durability": 5,
+  "durabilityHit": 5,
+  "techModule": "",
+  "description": "A specialised tech drive used for quickly equipping specific tech.",
+  "shortdescription": "Tech Equipper",
+  "scripts": ["equip.lua"],
+  "builder": "/items/buildscripts/starbound/updatetech.lua"
 }

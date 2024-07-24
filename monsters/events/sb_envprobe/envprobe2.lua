@@ -25,6 +25,7 @@ function update(dt)
   sb_update(dt)
   capturable.update(dt)
   mcontroller.controlFace(1)
+  mcontroller.controlDown()
   
   if status.resourcePositive("stunned") then
     animator.setAnimationState("damage", "stunned")

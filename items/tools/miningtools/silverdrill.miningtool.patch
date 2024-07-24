@@ -3,6 +3,7 @@
 [{"op":"test","path":"/blockRadius","value":2},{"op":"replace","path":"/blockRadius","value":4}],
 [{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"uncommon"}],
 [{"op":"test","path":"/durability","value":1000},{"op":"replace","path":"/durability","value":1500}],
+[{"op":"test","path":"/price","value":225},{"op":"replace","path":"/price","value":625}],
 [{"op":"test","path":"/description","value":"Drills fast but breaks quickly. A temporary alternative to the matter manipulator."},
 {"op":"replace","path":"/description","value":"A silver drill! This is more like it."}],
 

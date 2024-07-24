@@ -1,0 +1,25 @@
+{
+  "sb_venomSample": [
+    [0, {
+      "pool": [
+        {"weight": 0.2, "item": "venomsample"}
+      ],
+      "poolRounds": [
+        [0.20, 0],
+        [0.80, 1]
+      ]
+    }]
+  ],
+  "sb_weaklingVenomSample": [
+    [0, {
+      "fill": [
+        {"pool": "sb_venomSample"}
+      ],
+      "poolRounds": [
+        [0.75, 0],
+        [0.25, 1]
+      ],
+      "allowDuplication": false
+    }]
+  ]
+}
