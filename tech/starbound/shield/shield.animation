@@ -46,25 +46,25 @@
           "shield": {
             "on": {
               "properties": {
-                "image": "/tech/starbound/shield/shieldbubble.png:on.<frame>",
+                "image": "shieldbubble.png:on.<frame>",
                 "fullbright": true
               }
             },
             "recharge": {
               "properties": {
-                "image": "/tech/starbound/dash/recharge.png:<frame>",
+                "image": "/tech/dash/recharge.png:<frame>",
                 "fullbright": true
               }
             },
             "off": {
               "properties": {
-                "image": "/tech/starbound/shield/shieldbubble.png:flicker.<frame>",
+                "image": "shieldbubble.png:flicker.<frame>",
                 "fullbright": true
               }
             },
             "fulloff": {
               "properties": {
-                "image": "/tech/starbound/shield/shieldbubble.png:off"
+                "image": "shieldbubble.png:off"
               }
             }
           }

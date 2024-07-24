@@ -11,6 +11,39 @@
             }
           }
         }
+      },
+      "recharge": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "on": {
+            "frames": 5,
+            "cycle": 0.15,
+            "mode": "transition",
+            "transition": "off"
+          }
+        }
+      }
+    },
+
+    "parts": {
+      "recharge": {
+        "properties": {
+          "centered": true,
+          "fullbright": true
+        },
+
+        "partStates": {
+          "recharge": {
+            "on": {
+              "properties": {
+                "image": "/tech/dash/recharge.png:<frameIndex>"
+              }
+            },
+
+            "off": {}
+          }
+        }
       }
     }
   },
@@ -78,8 +111,7 @@
         }, {
           "particle": "gravitybubbledot",
           "offset": [1, 1]
-        },
-        {
+        }, {
           "particle": "gravitybubbledotwhite",
           "offset": [-1, -1]
         }, {

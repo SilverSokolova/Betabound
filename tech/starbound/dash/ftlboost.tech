@@ -19,5 +19,6 @@
   "dashCooldown": 1.3,
   "groundOnly": true,
   "stopAfterDash": true,
-  "rechargeDirectives": "?fade=CCCCFFFF=0.25"
+  "rechargeDirectives": "?fade=CCCCFFFF=0.25",
+  "hasRechargeAnimation": true
 }
