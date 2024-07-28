@@ -1,4 +1,3 @@
-require "/scripts/vec2.lua"
 local originalInit = init or function() end
 function init() originalInit()
     message.setHandler("sb_feedFluffalo",function(_,_,feed)

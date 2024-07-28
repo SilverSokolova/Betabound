@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/scripts","inverse":true},{"op":"add","path":"/scripts","value":[]}],
+[{"op":"add","path":"/scripts/-","value":"/scripts/weaponassembly/betabound_painter.lua"}]
+]

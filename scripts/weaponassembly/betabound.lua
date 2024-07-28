@@ -4,7 +4,7 @@ local originalBuildShortDescription = buildShortDescription or function() return
 function isValidWeapon(weapon)
   if weapon then
     local sb_itemConfig = root.itemConfig(weapon).config
-    if ((sb_itemConfig.builder == "/items/buildscripts/starbound/buildweapon.lua" or sb_itemConfig.sb_builder == "/items/buildscripts/buildweapon.lua") and not root.itemConfig(weapon).config.sb_waBan) or sbisValidWeapon(weapon) then
+    if ((sb_itemConfig.builder == "/items/buildscripts/starbound/buildweapon.lua" or sb_itemConfig.sb_builder == "/items/buildscripts/buildweapon.lua") and not root.itemConfig(weapon).config.sb_waBan) or originalIsValidWeapon(weapon) then
       return true
     end
   end

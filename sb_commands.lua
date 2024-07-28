@@ -50,17 +50,9 @@ function v.itemID(_,it,detailed) local text = root.assetJson("/sb_commands.confi
   end
 end
 
-function v.sb_foodvalue(_,it) local text = root.assetJson("/sb_commands.config")
-  it=it[1] or "alienmeat"
-  if not sb_itemExists(it) then return string.format(text.itemID.noItem,it) else
-  local item = root.itemConfig(it)
-  return (item.config.shortdescription or "???")..": "..(item.config.foodValue or 0).." (Price: "..(item.config.price or 0)..")"
-  end
-end
-
 function v.sb_foodweight(_,it) local text = root.assetJson("/sb_commands.config")
   s="^#ff0;"
-  it=it or {"aliensteak"}
+  it=it or {"cookedalienmeat"}
   it=type(it)=="table" and it or {it}
   for i = 1, #it do
     if not sb_itemExists(it[i]) then s = s..string.format(text.itemID.noItem,it[i]).."\n^#ff0;" else
