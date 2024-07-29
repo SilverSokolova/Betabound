@@ -35,9 +35,6 @@
   "sb_storage": ["/warp InstanceWorld:playerstation:21df53c9aade582dfc2b38e6a28b62f0:1=cba2e7459537ec44bcfced0ab0548c99"],
   "sb_storage2": ["/warp InstanceWorld:playerstation:6f20604db8080bfa09f17a9cd667956b:1=2acb1e351639f3d2f738182d7f86c8a3"],
 
-  "sb_asranox": ["/warp instanceworld:hylotlmission1=786.673"],
-  "sb_swansong": ["/warp instanceworld:cultistmission1=1633.795"],
-
   //Progression
   "sb_human": ["/startquest '\"human_mission1\"'", "/completequest human_mission1"],
   "sb_floran": ["/startquest '\"floran_mission1\"'", "/completequest floran_mission1", "/startquest '\"floran_mission2\"'", "/completequest floran_mission2"],

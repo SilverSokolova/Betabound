@@ -1,5 +1,5 @@
 {
-  "input": ["platinumbar","diamond"],
+  "input": [["platinumbar",3],"diamond"],
   "output": "sb_randomabilitymod",
-  "groups": ["sb_metalworkstation","sb_melee","sb_gun","sb_staff","sb_wand","all"]
+  "groups": ["sb_metalworkstation","sb_melee","sb_gun","sb_wand","sb_staff","all"]
 }

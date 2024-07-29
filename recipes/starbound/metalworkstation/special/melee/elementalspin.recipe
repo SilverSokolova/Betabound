@@ -1,5 +1,5 @@
 {
-  "input": ["platinumbar","diamond"],
+  "input": [["platinumbar",3],"diamond"],
   "output": ["sb_abilitymod",1,{"ability":"elementalspin"}],
   "groups": ["sb_metalworkstation","sb_melee","all"]
 }
