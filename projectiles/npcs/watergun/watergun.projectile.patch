@@ -1,0 +1,23 @@
+[
+  [{
+      "op": "test",
+      "path": "/actionOnReap",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/actionOnReap",
+      "value": []
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/actionOnReap/-",
+      "value": {
+        "action": "projectile",
+        "type": "watersprinkledroplet",
+        "inheritDamageFactor": 0,
+        "inheritSpeedFactor": 0
+      }
+    }
+  ]
+]

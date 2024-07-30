@@ -37,8 +37,8 @@ function update(args)
     --[[if colliding and not wasColliding then
       animator.playSound("bounce")
     end
-    wasColliding = colliding
-  end]]
+    wasColliding = colliding]]
+  end
   lastAction = args.moves["special1"]
 end
 

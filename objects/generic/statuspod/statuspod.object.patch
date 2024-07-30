@@ -1,14 +1,17 @@
 [
+[{"op":"test","path":"/scripts"},{"op":"add","path":"/scripts/-","value":"/scripts/sb_statusProjectileObject.lua"}],
+
 //levitation/bouncy/lowgrav status projectiles have issues spawning. Tested out of hitbox range and on platforms
 [{"op":"add","path":"/projectileOptions/-","value":{"levelRange":[5,10],"projectileType":"platinumbombstatusprojectile"}}],
 [{"op":"add","path":"/projectileOptions/-","value":{"projectileType":"runstatusprojectile"}}],
 [{"op":"add","path":"/projectileOptions/-","value":{"projectileType":"jumpstatusprojectile"}}],
 [{"op":"add","path":"/projectileOptions/-","value":{"projectileType":"glowstatusprojectile"}}],
 [{"op":"add","path":"/projectileOptions/-","value":{"projectileType":"ragestatusprojectile"}}],
-[{"op":"add","path":"/projectileOptions/-","value":{"projectileType":"sb_protectionbomb","projectileParams":{"speed":0,"timeToLive":0}}}]
+[{"op":"add","path":"/projectileOptions/-","value":{"projectileType":"sb_protectionbomb","projectileParams":{"speed":0,"timeToLive":0}}}],
 //[{"op":"add","path":"/projectileOptions/-","value":{"projectileType":"lowgravstatusprojectile"}}], //seems like it could work but i think there were issues
 //[{"op":"add","path":"/projectileOptions/-","value":{"projectileType":"bouncystatusprojectile"}}], //seems unfun + pussplum exists
 //[{"op":"add","path":"/projectileOptions/-","value":{"projectileType":"levitationstatusprojectile","projectileParams":{"statusEffects":[{"effect":"levitation","duration":1.5}]}}}], //replaced by feather powder
 //[{"op":"add","path":"/projectileOptions/-","value":{"projectileType":"clusterstatusprojectile"}}] //basically just insta-kills you if you're not at 100% health. bombs are better since they're not instant. I might change this one into a timed shrapnel bomb later
 //[{"op":"replace","path":"/projectileOptions","value":[{"projectileType":"bouncystatusprojectile"}]}]
+[{"op":"add","path":"/projectileOptions/-","value":{"projectileType":"waterstatusprojectile","projectileParams":{"sb_positionOffset":[0,2]}}}]
 ]

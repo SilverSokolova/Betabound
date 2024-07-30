@@ -49,6 +49,20 @@ function init()
     player.interact(b[1],interactData,b[3])
   end)
 
+  --Random Fountain
+  message.setHandler("sb_randomfountain", function(_, _, args)
+    if args then
+      if type(args) == "string" then
+        status.addEphemeralEffect(args)
+      else
+        status.addEphemeralEffect(args[1], args[2])
+      end
+      if player.emote then
+        player.emote("eat")
+      end
+    end
+  end)
+
   --SE commands
   message.setHandler("/sb_maketechavailable", function(_, fromSelf, b)
     if fromSelf == false then return end

@@ -1,0 +1,26 @@
+[
+  [{
+      "op": "test",
+      "path": "/sounds",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/sounds",
+      "value": {}
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/sounds/sb_use1",
+      "value": ["/sfx/humanoid/drink.ogg"]
+    },{
+      "op": "add",
+      "path": "/sounds/sb_use2",
+      "value": ["/sfx/statuseffects/stimuse.ogg"]
+    },{
+      "op": "add",
+      "path": "/sounds/sb_use3",
+      "value": ["/sfx/statuseffects/powerup.ogg"]
+    }
+  ]
+]

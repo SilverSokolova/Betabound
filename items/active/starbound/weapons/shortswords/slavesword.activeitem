@@ -9,12 +9,13 @@
   "category": "shortsword",
   "sb_waBan": true,
   "tooltipFields": {
-    "subtitle": "Slave Sword"
+    "subtitle": "Slave Sword",
+    "objectImage": "/items/active/starbound/weapons/shortswords/slavesword.png<directives>"
   },
   "itemTags": ["weapon", "melee", "shortsword"],
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "animation": "/items/active/starbound/weapons/shortsword.animation",
-  "inventoryIcon": "slavesword.png<directives>",
+  "inventoryIcon": "slaveswordicon.png<directives>",
   "animationParts": {
     "handle": "",
     "blade": "slavesword.png"
