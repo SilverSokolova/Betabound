@@ -1,5 +1,5 @@
 {
-  "input" : ["durasteelbar"],
-  "output" : "sb_tier4techchest",
-  "groups" : ["craftingfurniture2","storage","all"]
+  "input": ["durasteelbar"],
+  "output": "sb_tier4techchest",
+  "groups": ["craftingfurniture2","storage","all"]
 }

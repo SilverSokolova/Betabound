@@ -24,11 +24,11 @@ function update(dt)
     if notification.targetEntityId then
       local damage = notification.damageDealt
       if notification.sourceEntityId ~= notification.targetEntityId and cooldown <= 0 and damage > 0 then
-  if storedDamage <= 0 then
-    animator.setParticleEmitterActive("energy", true)
-    animator.playSound("activate")
-  end
-  storedDamage = storedDamage + damage
+        if storedDamage <= 0 then
+          animator.setParticleEmitterActive("energy", true)
+          animator.playSound("activate")
+        end
+        storedDamage = storedDamage + damage
       end
     end
   end

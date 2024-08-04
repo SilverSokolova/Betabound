@@ -1,5 +1,5 @@
 {
-  "input" : [["money",200]],
-  "output" : "nanostove",
-  "groups" : ["sb_portable3dprinter","other","all"]
+  "input": [["money",200]],
+  "output": "nanostove",
+  "groups": ["sb_portable3dprinter","other","all"]
 }

@@ -1,7 +1,7 @@
-require("/scripts/util.lua")
-local ini = init or function() end
+require("/scripts/util.lua") --Yes, we are using this. It provides `copy`
+local originalInit = init or function() end
 function init()
-  ini()
+  originalInit()
   interactable = interactable or true
   object.setConfigParameter("mouthPosition", config.getParameter("mouthPositions")[direction == "right" and 1 or 2])
   shopInUseText = config.getParameter("shopInUseText")

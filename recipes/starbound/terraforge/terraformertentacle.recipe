@@ -1,7 +1,7 @@
 {
-  "currencyInputs" : {"essence":3000},
-  "input" : [["sb_liquidtentaclejuice",50]],
-  "output" : "sb_terraformertentacle",
-  "duration" : 0,
-  "groups" : ["terraforge","all"]
+  "currencyInputs": {"essence":3000},
+  "input": [["sb_liquidtentaclejuice",50]],
+  "output": "sb_terraformertentacle",
+  "duration": 0,
+  "groups": ["terraforge","all"]
 }

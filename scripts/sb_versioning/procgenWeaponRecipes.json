@@ -28,5 +28,6 @@
   ["sb_slimestaff",1,{"level":5,"seed":1}],
   ["sb_uraniumrodstaff",1,{"level":5,"seed":1}],
   ["harpoongun",1,{"level":3}],
+  ["harpoongun",1,{"crafted":true}],
   ["sb_firebow",1,{"seed":1,"level":3}]
 ]

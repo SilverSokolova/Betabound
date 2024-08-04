@@ -25,9 +25,9 @@
           "zLevel": 1,
           "centered": true,
           "image": "<partImage><paletteSwaps>",
-          "offset": [0.0, 0.0],
+          "offset": [0, 0],
           "transformationGroups": ["weapon"],
-          "damageArea": [[0, -0.5], [-0.75, 1.0], [-0.75, 2.75], [0, 4.25], [0.75, 2.75], [0.75, 1.0]]
+          "damageArea": [[0, -0.5], [-0.75, 1], [-0.75, 2.75], [0, 4.25], [0.75, 2.75], [0.75, 1]]
         }
       },
       "handle": {
@@ -35,7 +35,7 @@
           "zLevel": 0,
           "centered": true,
           "image": "<partImage><paletteSwaps>",
-          "offset": [0.0, 0.0],
+          "offset": [0, 0],
           "transformationGroups": ["weapon"]
         }
       },
@@ -43,7 +43,7 @@
         "properties": {
           "zLevel": -1,
           "centered": true,
-          "offset": [3.0, 0.0],
+          "offset": [3, 0],
           "transformationGroups": ["swoosh"]
         },
 
@@ -76,14 +76,14 @@
       "active": false,
       "transformationGroups": ["swoosh"],
       "emissionRate": 60,
-      "offsetRegion": [3.5, -1.0, 7.5, 1.0],
+      "offsetRegion": [3.5, -1, 7.5, 1],
       "particles": []
     },
     "fireswoosh": {
       "active": false,
       "transformationGroups": ["swoosh"],
       "emissionRate": 60,
-      "offsetRegion": [3.5, -1.0, 7.5, 1.0],
+      "offsetRegion": [3.5, -1, 7.5, 1],
       "particles": [{
           "particle": "fireswoosh1"
         }, {
@@ -103,7 +103,7 @@
       "active": false,
       "transformationGroups": ["swoosh"],
       "emissionRate": 60,
-      "offsetRegion": [3.5, -1.0, 7.5, 1.0],
+      "offsetRegion": [3.5, -1, 7.5, 1],
       "particles": [{
           "particle": "electricswoosh1"
         }, {
@@ -117,7 +117,7 @@
       "active": false,
       "transformationGroups": ["swoosh"],
       "emissionRate": 60,
-      "offsetRegion": [3.5, -1.0, 7.5, 1.0],
+      "offsetRegion": [3.5, -1, 7.5, 1],
       "particles": [{
           "particle": "iceswoosh1"
         }, {
@@ -137,7 +137,7 @@
       "active": false,
       "transformationGroups": ["swoosh"],
       "emissionRate": 60,
-      "offsetRegion": [3.5, -1.0, 7.5, 1.0],
+      "offsetRegion": [3.5, -1, 7.5, 1],
       "particles": [{
           "particle": "poisonswoosh1"
         }, {
@@ -157,12 +157,12 @@
   "lights": {
     "glow": {
       "active": true,
-      "position": [0.0, 0.0],
+      "position": [0, 0],
       "color": [0, 0, 0],
       "flickerPeriod": 1,
       "flickerMinIntensity": 0.65,
       "flickerMaxIntensity": 0.9,
-      "flickerPeriodVariance": 0.0,
+      "flickerPeriodVariance": 0,
       "flickerIntensityVariance": 0.0
     }
   },

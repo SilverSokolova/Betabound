@@ -1,5 +1,5 @@
 {
-  "input" : ["yellowstim","bottle"],
-  "output" : "glowbomb",
-  "groups" : ["craftingmedical","buffs","all"]
+  "input": ["yellowstim","bottle"],
+  "output": "glowbomb",
+  "groups": ["craftingmedical","buffs","all"]
 }

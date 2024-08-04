@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_refinedrubium",6],["durasteelbar",4],"scorchedcore"],
-  "output" : "sb_hylotltier5mspear",
-  "groups" : ["craftingseparator","weapons","all"]
+  "input": [["sb_refinedrubium",6],["durasteelbar",4],"scorchedcore"],
+  "output": "sb_hylotltier5mspear",
+  "groups": ["craftingseparator","weapons","all"]
 }

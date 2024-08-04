@@ -1,6 +1,6 @@
 {
-  "input" : ["paper"],
-  "output" : "paperplane",
-  "duration" : 0,
-  "groups" : ["plain","consumables","all"]
+  "input": ["paper"],
+  "output": "paperplane",
+  "duration": 0,
+  "groups": ["plain","consumables","all"]
 }

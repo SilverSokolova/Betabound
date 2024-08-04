@@ -1,5 +1,5 @@
-local ini = init or function() end
-function init() ini()
+local originalInit = init or function() end
+function init() originalInit()
   local fade = config.getParameter("sb_fadeColor")
   local border = config.getParameter("border")
   local directives = ""

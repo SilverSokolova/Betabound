@@ -1,74 +1,74 @@
 {
-  "animatedParts" : {
-    "stateTypes" : {
-      "pumping" : {
-        "priority" : 0,
-        "default" : "idle",
+  "animatedParts": {
+    "stateTypes": {
+      "pumping": {
+        "priority": 0,
+        "default": "idle",
 
-        "states" : {
-          "idle" : {
-            "frames" : 1
+        "states": {
+          "idle": {
+            "frames": 1
           },
-          "error" : {
-            "frames" : 1
+          "error": {
+            "frames": 1
           },
-          "pump" : {
-            "frames" : 10,
-            "cycle" : 0.5,
-            "mode" : "loop"
+          "pump": {
+            "frames": 10,
+            "cycle": 0.5,
+            "mode": "loop"
           }
         }
       }
     },
-    "parts" : {
-      "pump" : {
-        "properties" : {
-          "offset" : [0, 0],
-          "centered" : false,
-          "fullbright" : true,
-          "zLevel" : 3
+    "parts": {
+      "pump": {
+        "properties": {
+          "offset": [0, 0],
+          "centered": false,
+          "fullbright": true,
+          "zLevel": 3
         },
-        "partStates" : {
-          "pumping" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:idle"
+        "partStates": {
+          "pumping": {
+            "idle": {
+              "properties": {
+                "image": "<partImage>:idle"
               }
             },
-            "error" : {
-              "properties" : {
-                "image" : "<partImage>:error"
+            "error": {
+              "properties": {
+                "image": "<partImage>:error"
               }
             },
-            "pump" : {
-              "properties" : {
-                "image" : "<partImage>:pump.<frame>"
+            "pump": {
+              "properties": {
+                "image": "<partImage>:pump.<frame>"
               }
             }
           }
         }
       },
-      "pumplit" : {
-        "properties" : {
-          "offset" : [0, 0],
-          "centered" : false,
-          "zLevel" : 4
+      "pumplit": {
+        "properties": {
+          "offset": [0, 0],
+          "centered": false,
+          "zLevel": 4
         },
-        "partStates" : {
-          "pumping" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:idle"
+        "partStates": {
+          "pumping": {
+            "idle": {
+              "properties": {
+                "image": "<partImage>:idle"
               }
             },
-            "error" : {
-              "properties" : {
-                "image" : "<partImage>:error"
+            "error": {
+              "properties": {
+                "image": "<partImage>:error"
               }
             },
-            "pump" : {
-              "properties" : {
-                "image" : "<partImage>:pump.<frame>"
+            "pump": {
+              "properties": {
+                "image": "<partImage>:pump.<frame>"
               }
             }
           }
@@ -77,7 +77,7 @@
     }
   },
 
-  "sounds" : {
-    "switch" : ["/sfx/objects/tinywallswitch.ogg"]
+  "sounds": {
+    "switch": ["/sfx/objects/tinywallswitch.ogg"]
   }
 }

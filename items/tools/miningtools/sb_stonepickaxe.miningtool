@@ -3,7 +3,7 @@
   "inventoryIcon": "sb_stonepickaxeicon.png",
   "maxStack": 1,
   "rarity": "common",
-  "price": 80,
+  "price": 30,
   "tooltipKind": "sb_tool",
   "category": "tool",
   "description": "Pickaxes are so last millennium!",

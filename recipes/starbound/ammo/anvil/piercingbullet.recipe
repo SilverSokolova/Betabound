@@ -1,5 +1,5 @@
 {
-  "input" : ["sharpenedclaw","sb_gunpowder","lead"],
-  "output" : ["sb_ammo",75,{"projectileType":"piercingbullet"}],
-  "groups" : ["consumables","craftinganvil","all"]
+  "input": ["sharpenedclaw","sb_gunpowder","lead"],
+  "output": ["sb_ammo",75,{"projectileType":"piercingbullet"}],
+  "groups": ["consumables","craftinganvil","all"]
 }

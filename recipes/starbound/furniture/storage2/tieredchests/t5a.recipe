@@ -1,5 +1,5 @@
 {
-  "input" : ["sb_aegisaltbar"],
-  "output" : "sb_tier5atechchest",
-  "groups" : ["craftingfurniture2","storage","all"]
+  "input": ["sb_aegisaltbar"],
+  "output": "sb_tier5atechchest",
+  "groups": ["craftingfurniture2","storage","all"]
 }

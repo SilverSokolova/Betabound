@@ -1,5 +1,5 @@
 {
-  "input" : [["refinedaegisalt",2],["durasteelbar",1]],
-  "output" : "sb_apextier5adagger",
-  "groups" : ["craftingseparator","weapons","all"]
+  "input": [["refinedaegisalt",2],["durasteelbar",1]],
+  "output": "sb_apextier5adagger",
+  "groups": ["craftingseparator","weapons","all"]
 }

@@ -1,6 +1,6 @@
 {
-  "input" : ["filledcapturepod"],
-  "output" : "capturepod",
-  "duration" : 0.8,
-  "groups" : ["refinery","nouncrafting","all"]
+  "input": ["filledcapturepod"],
+  "output": "capturepod",
+  "duration": 0.8,
+  "groups": ["refinery","nouncrafting","all"]
 }

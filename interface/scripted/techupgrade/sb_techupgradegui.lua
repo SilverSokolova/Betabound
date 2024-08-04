@@ -1,14 +1,14 @@
 require("/scripts/sb_assetmissing.lua")
-local sb_init = init or function() end
-local sb_setSelectedTech = setSelectedTech or function() end
-local sb_animateSelection = animateSelection or function() end
-local sb_populateTechList = populateTechList or function() end
-local sb_equipTech = equipTech or function() end
-local sb_createTooltip = createTooltip or function() end
-local sb_techSlotGroup = techSlotGroup or function() end
-local sb_pat_remove = pat_remove or function() end
+local originalInit = init or function() end
+local originalSetSelectedTech = setSelectedTech or function() end
+local originalAnimateSelection = animateSelection or function() end
+local originalPopulateTechList = populateTechList or function() end
+local originalEquipTech = equipTech or function() end
+local originalCreateTooltip = createTooltip or function() end
+local originalTechSlotGroup = techSlotGroup or function() end
+local originalPat_remove = pat_remove or function() end
 
-function init() sb_init()
+function init() originalInit()
   if sb_didInit then return end --prevent stack overflow when removing techs with Patman's mod
   sb_didInit = true
 
@@ -60,7 +60,7 @@ end
 
 function setSelectedTech(techName)
   if self.selectedSlot ~= "sb_suit" then
-    sb_setSelectedTech(techName)
+    originalSetSelectedTech(techName)
     local config = root.techConfig(techName)
     if config.sb_briefDescription then
       widget.setText("lblDescription", config.sb_briefDescription)
@@ -79,7 +79,7 @@ function setSelectedTech(techName)
 end
 
 function animateSelection(dt)
-  if self.selectedSlot ~= "sb_suit" then sb_animateSelection(dt) else
+  if self.selectedSlot ~= "sb_suit" then originalAnimateSelection(dt) else
     self.animationTimer = self.animationTimer + dt
     while self.animationTimer > self.selectionPulse do
       self.animationTimer = self.animationTimer - self.selectionPulse
@@ -94,7 +94,7 @@ end
 
 function populateTechList(slot)
   self.selectedTech = nil
-  if slot ~= "sb_suit" then sb_populateTechList(slot) else
+  if slot ~= "sb_suit" then originalPopulateTechList(slot) else
     widget.clearListItems(self.techList)
     local listedTechs = {}
     for i = 1, 2 do
@@ -146,12 +146,12 @@ end
 --end
 
 function techSlotGroup(button, slot)
-  sb_techSlotGroup(button, slot)
+  originalTechSlotGroup(button, slot)
   sb_toggleButtons()
 end
 
 function equipTech(tech)
-  if self.selectedSlot ~= "sb_suit" then sb_equipTech(tech) end
+  if self.selectedSlot ~= "sb_suit" then originalEquipTech(tech) end
   sb_toggleButtons()
 end
 
@@ -202,7 +202,7 @@ end
 function pat_remove()
   if self.selectedSlot ~= "sb_suit" then
     sb_toggleButtons()
-    return sb_pat_remove()
+    return originalPat_remove()
   end
 end
 
@@ -222,7 +222,7 @@ function sb_prepareSuits()
 end
 
 function createTooltip(p)
-  if self.selectedSlot ~= "sb_suit" then return sb_createTooltip(p) else
+  if self.selectedSlot ~= "sb_suit" then return originalCreateTooltip(p) else
     name = widget.getChildAt(p)
     name = name and name:sub(2,(name:find("%.", 26) or 3)-1) or nil
     name = name and widget.getData(name)

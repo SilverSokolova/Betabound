@@ -1,6 +1,6 @@
 {
   "itemName": "sb_handdrill",
-  "price": 150,
+  "price": 500,
   "category": "tool",
   "inventoryIcon": "handdrillicon.png",
   "maxStack": 1,

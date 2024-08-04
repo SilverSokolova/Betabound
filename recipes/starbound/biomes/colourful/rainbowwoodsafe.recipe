@@ -1,5 +1,5 @@
 {
-  "input" : [["rainbowwood",30],"silverbar"],
-  "output" : "rainbowwoodsafe",
-  "groups" : ["craftingfurniture","storage","all"]
+  "input": [["rainbowwood",30],"silverbar"],
+  "output": "rainbowwoodsafe",
+  "groups": ["craftingfurniture","storage","all"]
 }

@@ -10,7 +10,7 @@
   "tooltipKind": "sb_gun2",
   "tooltipFields": {
     "damageKindImage": "/projectiles/material/sb_icematerial.png",
-    "objectImage":"/items/active/starbound/guns/icechucker.png"
+    "objectImage": "/items/active/starbound/guns/icechucker.png"
   },
   "animation": "/items/active/weapons/ranged/gun.animation",
   "animationCustom": {
@@ -38,6 +38,7 @@
 
   "twoHanded": false,
   "fixedLevel": false,
+  "elementalType": "ice",
 
   "primaryAbilityType": "sb_gun",
   "primaryAbility": {

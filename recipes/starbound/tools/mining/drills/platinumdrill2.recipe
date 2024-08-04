@@ -1,5 +1,5 @@
 {
-  "input" : [["platinumbar",8],"golddrill"],
-  "output" : "platinumdrill",
-  "groups" : ["sb_roboticcraftingtable","mining","nouncrafting","all"]
+  "input": [["platinumbar",8],"golddrill"],
+  "output": "platinumdrill",
+  "groups": ["sb_roboticcraftingtable","mining","nouncrafting","all"]
 }

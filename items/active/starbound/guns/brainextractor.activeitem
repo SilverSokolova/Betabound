@@ -5,7 +5,8 @@
   "price": 300,
   "tooltipKind": "sb_gun2",
   "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/electric.png"
+    "damageKindImage": "/interface/sb_tooltips/electric.png",
+    "objectImage": "/items/active/starbound/guns/brainextractor.png"
   },
   "itemTags": ["weapon", "ranged", "pistol"],
   "category": "pistol",
@@ -14,7 +15,7 @@
   "animation": "/items/active/weapons/ranged/gun.animation",
   "animationCustom": {
     "sounds": {
-      "fire": ["/sfx/gun/lightningcoil1.ogg","/sfx/gun/lightningcoil2.ogg","/sfx/gun/lightningcoil3.ogg"]
+      "fire": ["/sfx/gun/lightningcoil1.ogg", "/sfx/gun/lightningcoil2.ogg", "/sfx/gun/lightningcoil3.ogg"]
     }
   },
   "animationParts": {

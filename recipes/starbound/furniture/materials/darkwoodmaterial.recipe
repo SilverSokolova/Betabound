@@ -1,6 +1,6 @@
 {
-  "input" : ["sb_unrefinedwood"],
-  "output" : ["darkwoodmaterial",5],
-  "groups" : ["plain","materials","craftingfurniture","all"],
-  "duration" : 0.05
+  "input": ["sb_unrefinedwood"],
+  "output": ["darkwoodmaterial",5],
+  "groups": ["plain","materials","craftingfurniture","all"],
+  "duration": 0.05
 }

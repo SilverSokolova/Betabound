@@ -183,33 +183,35 @@
       }
     }
   ],
+  /* dont think we'll ever need this. just comment it out so Planet Search doesnt know about it solely from us
   [{
-      "op": "test",
-      "path": "/displayOres/trianglium",
-      "inverse": true
-    }, {
-      "op": "add",
-      "path": "/displayOres/trianglium",
-      "value": {
-        "displayName": "Trianglium",
-        "icon": "/items/generic/crafting/triangliumore.png"
-      }
-    }
-  ],
+  "op": "test",
+  "path": "/displayOres/trianglium",
+  "inverse": true
+  }, {
+  "op": "add",
+  "path": "/displayOres/trianglium",
+  "value": {
+  "displayName": "Trianglium",
+  "icon": "/items/generic/crafting/triangliumore.png"
+  }
+  }
+  ],*/
+  /*
   [{
-      "op": "test",
-      "path": "/displayOres/prisilite",
-      "inverse": true
-    }, {
-      "op": "add",
-      "path": "/displayOres/prisilite",
-      "value": {
-        "displayName": "Prisilite",
-        "icon": "/items/generic/crafting/prisiliteore.png"
-      }
-    }
+  "op": "test",
+  "path": "/displayOres/prisilite",
+  "inverse": true
+  }, {
+  "op": "add",
+  "path": "/displayOres/prisilite",
+  "value": {
+  "displayName": "Prisilite",
+  "icon": "/items/generic/crafting/prisiliteore.png"
+  }
+  }
   ],
-
+   */
   [{
       "op": "add",
       "path": "/displayOres/sb_rubium",
@@ -261,14 +263,13 @@
     }
   ],
 
+  //Fix for MPI calling Crystalline biomes "Crystallineline"
   [{
       "op": "test",
-      "path": "/wordsList",
-      "inverse": true
+      "path": "/wordsList/crystal"
     }, {
-      "op": "add",
-      "path": "/wordsList",
-      "value": {}
+      "op": "remove",
+      "path": "/wordsList/crystal"
     }
   ],
   [{
@@ -300,25 +301,8 @@
       }
     }
   ],
-  [{
-      "op": "add",
-      "path": "/wordsList/sb_crystallineline",
-      "value": {
-        "word": "inel",
-        "friendlyWord": ""
-      }
-    }
-  ], //Futile attempt to prevent the 'crystal' in 'crystalline' from being replaced with 'crystalline'
-  [{
-      "op": "add",
-      "path": "/namesList/sb_crystallineline",
-      "value": {
-        "word": "inel",
-        "friendlyWord": ""
-      }
-    }
-  ],
 
+  //MPI & Planet Search dungeons
   [{
       "op": "test",
       "path": "/displayDungeons"
@@ -329,9 +313,51 @@
       "op": "copy",
       "path": "/displayDungeons/sb_humanbunker",
       "from": "/displayDungeons/humanbunker"
+    }, {
+      "op": "add",
+      "path": "/displayDungeons/sb_humanbunker/ps_name",
+      "value": "U.S.C.M. Bunker"
+    }, {
+      "op": "add",
+      "path": "/displayDungeons/sb_humanbunker/ps_icon",
+      "value": "/items/active/starbound/guns/randomgenerated/pulserifle/pulserifleicon.png?replace;e35f5d=809778;b22042=516d47;871132=214516;818181=5f5540;606060=3f3624;404040=231c10" //green
     }
   ],
 
+  //Planet Search biomes
+  [{
+      "op": "test",
+      "path": "/displayBiomes"
+    }, {//surface
+      "op": "add","path": "/displayBiomes/sb_crystalline",
+      "value": {"name": "Crystalline", "icon": "/items/generic/crafting/crystal.png"}
+    }, {
+      "op": "add","path": "/displayBiomes/sb_rust",
+      "value": {"name": "Rust Fields", "icon": "/items/generic/crafting/metallic.png"}
+    }, {//underground
+      "op": "add","path": "/displayBiomes/sb_coralcave",
+      "value": {"name": "Coral Caves", "icon": "/items/generic/crafting/coralfragment.png"}
+    }, {
+      "op": "add","path": "/displayBiomes/sb_crystalcave",
+      "value": {"name": "Crystal Caves", "icon": "/items/materials/crystalblock.png"}
+    }, {
+      "op": "add","path": "/displayBiomes/sb_heck",
+      "value": {"name": "Heck Caves", "icon": "/items/materials/hellstone.png"}
+    }
+  ],
+
+  //Planet Search biome blacklist
+  [{
+      "op": "test",
+      "path": "/planetSearch_ignore"
+    }, {
+      "op": "add",
+      "path": "/planetSearch_ignore/biomes/-",
+      "value": "sb_tentacleunderground"
+    }
+  ],
+
+  //Our planets
   [{
       "op": "add",
       "path": "/visitableTypeDescription/sb_tentacle",

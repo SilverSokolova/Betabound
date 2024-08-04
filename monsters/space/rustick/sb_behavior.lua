@@ -1,4 +1,4 @@
-local ini = init or function() end
+local originalInit = init or function() end
 
 function init()
   if world.type() == "cultistmission1" then
@@ -9,5 +9,5 @@ function init()
       mcontroller.setPosition({pos[1]-1,pos[2]-1})
     end
   end
-  ini()
+  originalInit()
 end

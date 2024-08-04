@@ -19,6 +19,7 @@ function update(dt, fireMode, shiftHeld) updat(dt, fireMode, shiftHeld)
       item.consume(1)
       animator.playSound("eat")
       promised = nil
+      target = nil
     end
   end
 end

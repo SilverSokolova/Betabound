@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_violiumbar",2]],
-  "output" : "opulenttable",
-  "groups" : ["craftingfurniture2","decoration","all"]
+  "input": [["sb_violiumbar",2]],
+  "output": "opulenttable",
+  "groups": ["craftingfurniture2","decoration","all"]
 }

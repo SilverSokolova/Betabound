@@ -1,6 +1,6 @@
 {
-  "input" : ["currentcorn"],
-  "output" : "sb_batteryacid",
-  "groups" : ["craftingfood","drinks","sb_energy","sb_electrified","sb_t1food","all"],
-  "collectables" : {"cooking":"sb_batteryacid"}
+  "input": ["currentcorn"],
+  "output": "sb_batteryacid",
+  "groups": ["craftingfood","drinks","sb_energy","sb_electrified","sb_t1food","all"],
+  "collectables": {"cooking":"sb_batteryacid"}
 }

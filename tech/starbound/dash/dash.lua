@@ -6,7 +6,6 @@ function init()
   dashLastInput = 0
   dashTapLast = 0
   dashTapTimer = 0
-  dashCooldown = 0
   dashCooldownTimer = 0
   rechargeEffectTimer = 0
   dashControlForce = config.getParameter("dashControlForce", 5)
@@ -16,6 +15,7 @@ function init()
   energyUsage = config.getParameter("energyUsage", 0)
   groundOnly = config.getParameter("groundOnly", true)
   canCrouchDash = config.getParameter("canCrouchDash", false)
+  hasRechargeAnimation = config.getParameter("hasRechargeAnimation")
   rechargeDirectives = config.getParameter("rechargeDirectives", "")
   rechargeEffectTime = config.getParameter("rechargeEffectTime", 0.1)
   maximumDoubleTapTime = config.getParameter("maximumDoubleTapTime", 0.2)
@@ -70,10 +70,11 @@ function update(args)
 
   if dashCooldownTimer > 0 then
     dashCooldownTimer = dashCooldownTimer - args.dt 
-    if dashCooldownTimer <= 0 then
+    if dashCooldownTimer <= 0 and hasRechargeAnimation then
       rechargeEffectTimer = rechargeEffectTime
       tech.setParentDirectives(rechargeDirectives)
       animator.playSound("recharge")
+      animator.setAnimationState("recharge", "on")
     end
   end
 

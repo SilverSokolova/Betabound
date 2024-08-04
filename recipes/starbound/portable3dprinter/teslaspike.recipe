@@ -1,5 +1,5 @@
 {
-  "input" : [["money",90]],
-  "output" : "teslaspike",
-  "groups" : ["sb_portable3dprinter","other","all"]
+  "input": [["money",90]],
+  "output": "teslaspike",
+  "groups": ["sb_portable3dprinter","other","all"]
 }

@@ -1,6 +1,6 @@
 {
-  "input" : ["ironbar",["darkwoodmaterial",3]],
-  "output" : ["throwingspear",5],
-  "duration" : 0.3,
-  "groups" : ["craftingfarm","hunting","all"]
+  "input": ["ironbar",["darkwoodmaterial",3]],
+  "output": ["throwingspear",5],
+  "duration": 0.3,
+  "groups": ["craftingfarm","hunting","all"]
 }

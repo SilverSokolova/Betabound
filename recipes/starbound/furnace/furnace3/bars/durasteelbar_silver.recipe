@@ -1,6 +1,6 @@
 {
-  "input" : ["titaniumbar",["silverbar",2]],
-  "output" : "durasteelbar",
-  "duration" : 0.15,
-  "groups" : ["craftingfurnace3","bars","all"]
+  "input": ["titaniumbar",["silverbar",2]],
+  "output": "durasteelbar",
+  "duration": 0.15,
+  "groups": ["craftingfurnace3","bars","all"]
 }

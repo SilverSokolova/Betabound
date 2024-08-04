@@ -1,5 +1,5 @@
 {
-  "input" : [["durasteelbar",8],["wire",10],"smallbattery"],
-  "output" : "durasteelelevatorlong",
-  "groups" : ["craftingwiring","mechanics","decoration","craftingfurniture2","all"]
+  "input": [["durasteelbar",8],["wire",10],"smallbattery"],
+  "output": "durasteelelevatorlong",
+  "groups": ["craftingwiring","mechanics","decoration","craftingfurniture2","all"]
 }

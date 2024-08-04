@@ -1,6 +1,6 @@
 {
-  "input" : ["liquidwater","rice"],
-  "output" : "sb_ricevinegar",
-  "groups" : ["craftingfood","condiments","sb_health","sb_healing","sb_t1food","all"],
-  "collectables" : {"cooking":"sb_ricevinegar"}
+  "input": ["liquidwater","rice"],
+  "output": "sb_ricevinegar",
+  "groups": ["craftingfood","condiments","sb_health","sb_healing","sb_t1food","all"],
+  "collectables": {"cooking":"sb_ricevinegar"}
 }

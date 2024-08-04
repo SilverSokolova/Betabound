@@ -1,5 +1,5 @@
 {
-  "input" : [["sandstoneblock",2],"torch"],
-  "output" : "sandstonetorch",
-  "groups" : ["craftingfurniture","lights","objects","all"]
+  "input": [["sandstoneblock",2],"torch"],
+  "output": "sandstonetorch",
+  "groups": ["craftingfurniture","lights","objects","all"]
 }

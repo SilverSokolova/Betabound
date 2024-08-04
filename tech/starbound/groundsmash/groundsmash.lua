@@ -1,21 +1,23 @@
-local ini = init or function() end
-local updat = update or function() end
+--These hooks are here for the waterball tech
+local originalInit = init or function() end
+local originalUpdate = update or function() end
 
-function init() ini()
-  lastVelocity = 0
-  doubleTapTimer = 0
+function init()
+  originalInit()
+
   groundsmashActive = false
   inputDown = false
+  lastVelocity = 0
+  doubleTapTimer = 0
   landingTimer = 0
-  groundsmashSpeed = config.getParameter("groundsmashSpeed",250)
-  groundsmashControlForce = config.getParameter("groundsmashControlForce",400)
-  knockbackSpeed = config.getParameter("knockbackSpeed",50)
-  knockbackRadius = config.getParameter("knockbackRadius",5)
-  maxDoubleTapTime = config.getParameter("maxDoubleTapTime",0.2)
-  knockbackOffset = config.getParameter("knockbackOffset",{0,-2})
-  energyUsage = config.getParameter("energyCostPerSmash",0)
+  groundsmashSpeed = config.getParameter("groundsmashSpeed", 250)
+  groundsmashControlForce = config.getParameter("groundsmashControlForce", 400)
+  knockbackSpeed = config.getParameter("knockbackSpeed", 50)
+  knockbackRadius = config.getParameter("knockbackRadius", 5)
+  maxDoubleTapTime = config.getParameter("maxDoubleTapTime", 0.2)
+  energyUsage = config.getParameter("energyCostPerSmash", 0)
+  knockbackOffset = config.getParameter("knockbackOffset", {0, -2})
 
-  --script.setUpdateDelta(1)
   animator.setParticleEmitterOffsetRegion("landParticles", {0, -2, 0, -2}) --Dust cloud near feet
 end
 
@@ -36,15 +38,16 @@ function input(args)
   end
 end
 
-function update(args) updat(args)
+function update(args)
+  originalUpdate(args)
   if input(args) == "groundsmash"
-      and not mcontroller.onGround()
-      and not groundsmashActive
-      and not mcontroller.liquidMovement()
-      and not mcontroller.flying()
-      and not mcontroller.zeroG()
-      and status.overConsumeResource("energy",energyUsage) then
-
+    and not groundsmashActive
+    and not mcontroller.onGround()
+    and not mcontroller.liquidMovement()
+    and not mcontroller.flying()
+    and not mcontroller.zeroG()
+    and status.overConsumeResource("energy", energyUsage)
+  then
     animator.playSound("falling")
     groundsmashActive = true
   end
@@ -55,20 +58,22 @@ function update(args) updat(args)
     animator.setParticleEmitterActive("fallParticles", true)
     status.addEphemeralEffect("nofalldamage")
     status.addEphemeralEffect("sb_grit")
-      if mcontroller.yVelocity() < lastVelocity then lastVelocity = mcontroller.yVelocity() end
-      if mcontroller.yVelocity() > lastVelocity then groundsmashActive = false end
-  elseif groundsmashActive or (groundsmashActive and (lastVelocity+30 > mcontroller.yVelocity()) and not mcontroller.isNullColliding()) then
+    local currentVelocity = mcontroller.yVelocity()
+    if currentVelocity < lastVelocity then
+      lastVelocity = mcontroller.yVelocity()
+    elseif mcontroller.yVelocity() > lastVelocity then
+      groundsmashActive = false
+    end
+  elseif groundsmashActive or (groundsmashActive and (lastVelocity + 30 > mcontroller.yVelocity()) and not mcontroller.isNullColliding()) then --what the fuck is this `lastVelocity + 30` shit
     animator.burstParticleEmitter("landParticles", true)
     animator.playSound("landing")
     groundsmashActive = false
     lastVelocity = 0
---mcontroller.addMomentum({0,-lastVelocity+groundsmashSpeed})
 
-    --TODO: Use force region here when/if we have radial ones. Is there a way for us to be immune to it?
+    --CF TODO: Use force region here when/if we have radial ones. Is there a way for us to be immune to it?
     local position = vec2.add(mcontroller.position(), knockbackOffset)
 
     local nearEntities = world.entityQuery(position, knockbackRadius, {validTargetOf = entity.id(), includedTypes = {"monster", "npc", "player"}})
-  --  if mcontroller.velocity()[2] > lastVelocity then groundsmashActive = false end
     for _, entityId in pairs(nearEntities) do
       local entityPosition = world.entityPosition(entityId)
       local toEntity = world.distance(entityPosition, position)

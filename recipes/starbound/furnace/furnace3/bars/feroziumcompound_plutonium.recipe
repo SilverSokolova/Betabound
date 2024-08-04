@@ -1,6 +1,6 @@
 {
-  "input" : [["refinedferozium",2],"plutoniumrod"],
-  "output" : "sb_feroziumcompound",
-  "duration" : 0.15,
-  "groups" : ["craftingfurnace3","bars","all"]
+  "input": [["refinedferozium",2],"plutoniumrod"],
+  "output": "sb_feroziumcompound",
+  "duration": 0.15,
+  "groups": ["craftingfurnace3","bars","all"]
 }

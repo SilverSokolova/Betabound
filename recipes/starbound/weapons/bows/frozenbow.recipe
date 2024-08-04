@@ -1,5 +1,5 @@
 {
-  "input" : [["titaniumbar",6],"thread",["snowflake",15]],
-  "output" : "frozenbow",
-  "groups" : ["craftinganvil2","weapons","all"]
+  "input": [["titaniumbar",6],"thread",["snowflake",15]],
+  "output": "frozenbow",
+  "groups": ["craftinganvil2","weapons","all"]
 }

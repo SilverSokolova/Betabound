@@ -1,5 +1,5 @@
 {
-  "input" : [["eyepiles",30]],
-  "output" : "sb_eyechest",
-  "groups" : ["craftingfurniture","storage","objects","all"]
+  "input": [["eyepiles",30]],
+  "output": "sb_eyechest",
+  "groups": ["craftingfurniture","storage","objects","all"]
 }

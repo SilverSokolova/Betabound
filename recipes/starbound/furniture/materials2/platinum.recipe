@@ -1,5 +1,5 @@
 {
-  "input" : ["platinumbar"],
-  "output" : ["platinumblock",50],
-  "groups" : ["craftingfurniture2","all","materials"]
+  "input": ["platinumbar"],
+  "output": ["platinumblock",50],
+  "groups": ["craftingfurniture2","all","materials"]
 }

@@ -39,5 +39,5 @@ function withinBounds(pos)
       pos[i] = lastPos[i]
     end
   end
-  return pos
+  return {math.floor(pos[1]), math.floor(pos[2])}
 end

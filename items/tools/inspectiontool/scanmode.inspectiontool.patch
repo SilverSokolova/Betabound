@@ -1,13 +1,13 @@
 [
+[{"op":"test","path":"/description","value":"Describe things in the world and scan objects for printing. ^green;Quick select with [N] key."},{"op":"replace","path":"/description","value":"Describe things in the world and scan objects for printing."}],
+
+[{"op":"test","path":"/description","value":"Describe things in the world and scan objects for printing. ^green;Quick select with [N] key.^reset;"},{"op":"replace","path":"/description","value":"Describe things in the world and scan objects for printing."}], //patch project
+
 [{"op":"test","path":"/nothingThereText/human","inverse":true},{"op":"add","path":"/nothingThereText/human","value":[]}],
-[{"op":"add","path":"/nothingThereText/human/-","value":"Nothing of interest here."},
-{"op":"add","path":"/nothingThereText/human/-","value":"Nothing to see here."},
-{"op":"add","path":"/nothingThereText/human/-","value":"This isn't really anything."},
-{"op":"add","path":"/nothingThereText/human/-","value":"Nothing much to speak of."},
-{"op":"add","path":"/nothingThereText/human/-","value":"Nope, didn't find anything."},
+[{"op":"add","path":"/nothingThereText/human/-","value":"Nope, didn't find anything."},
 {"op":"add","path":"/nothingThereText/human/-","value":"Oh. My. God! It's a... wait... nope sorry, nothing."},
 {"op":"add","path":"/nothingThereText/human/-","value":"My god, it's full of nothing."},
-{"op":"add","path":"/nothingThereText/human/-","value":"If at first you don't succeed keep looking at the nothing."},
-{"op":"add","path":"/nothingThereText/human/-","value":"You try hard to make something out there, but fail."},
+{"op":"add","path":"/nothingThereText/human/-","value":"If at first you don't succeed, keep looking at the nothing."},
+{"op":"add","path":"/nothingThereText/human/-","value":"I tried hard to make something out over there, but failed."},
 {"op":"add","path":"/nothingThereText/human/-","value":"Nada, nothing, zilch, zip."}]
 ]

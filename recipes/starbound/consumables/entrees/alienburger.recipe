@@ -1,6 +1,6 @@
 {
-  "input" : ["alienmeat","bread"],
-  "output" : "sb_alienburger",
-  "groups" : ["craftingfood","mains","sb_health","sb_healing","sb_t1food","all"],
-  "collectables" : {"cooking":"sb_alienburger"}
+  "input": ["alienmeat","bread"],
+  "output": "sb_alienburger",
+  "groups": ["craftingfood","mains","sb_health","sb_healing","sb_t1food","all"],
+  "collectables": {"cooking":"sb_alienburger"}
 }

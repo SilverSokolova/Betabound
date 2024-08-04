@@ -1,6 +1,6 @@
 {
-  "input" : ["copperbar"],
-  "output" : ["sb_copperladder",75],
-  "duration" : 0.25,
-  "groups"  : ["craftingfurniture","materials","all"]
+  "input": ["copperbar"],
+  "output": ["sb_copperladder",75],
+  "duration": 0.25,
+  "groups": ["craftingfurniture","materials","all"]
 }

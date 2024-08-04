@@ -1,6 +1,6 @@
 {
-  "input" : ["carrot","potato","tomato"],
-  "output" : "sb_vegetablesoup",
-  "groups" : ["craftingfood","mains","sb_health","sb_healing","all"],
-  "collectables" : {"cooking":"sb_vegetablesoup"}
+  "input": ["carrot","potato","tomato"],
+  "output": "sb_vegetablesoup",
+  "groups": ["craftingfood","mains","sb_health","sb_healing","all"],
+  "collectables": {"cooking":"sb_vegetablesoup"}
 }

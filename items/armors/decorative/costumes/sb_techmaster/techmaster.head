@@ -2,6 +2,7 @@
   "itemName": "sb_techmasterhead",
   "description": "This helm contains a voice box changer. Side effects may include picking up any heavy breathing.",
   "shortdescription": "Tech Master's Techhelm",
+  "builder": "/items/buildscripts/starbound/buildarmor.lua",
   "maleFrames": "head.png",
   "femaleFrames": "head.png",
   "mask": "mask.png",

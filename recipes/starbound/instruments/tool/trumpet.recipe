@@ -1,5 +1,5 @@
 {
-  "input" : [["copperbar",2]],
-  "output" : "trumpet",
-  "groups" : ["sb_craftingtable","sb_instruments","all"]
+  "input": [["copperbar",2]],
+  "output": "trumpet",
+  "groups": ["sb_craftingtable","sb_instruments","all"]
 }

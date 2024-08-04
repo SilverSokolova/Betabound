@@ -1,5 +1,5 @@
 {
-  "input" : ["fossilore"],
-  "output" : "fossilpod",
-  "groups" : ["craftingfossils","consumables","all"]
+  "input": ["fossilore"],
+  "output": "fossilpod",
+  "groups": ["craftingfossils","consumables","all"]
 }

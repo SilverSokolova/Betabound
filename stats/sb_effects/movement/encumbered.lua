@@ -1,6 +1,6 @@
 local controlModifiers, p
-local ini = init
-function init() if ini and type(ini)=="function" then ini() end
+local originalInit = init
+function init() if ini and type(ini)=="function" then originalInit() end
   controlModifiers = mcontroller.controlModifiers
   p = {runningSuppressed=true,speedModifier=config.getParameter("percentage",0.7)}
 end

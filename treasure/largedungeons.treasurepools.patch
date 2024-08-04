@@ -1,6 +1,4 @@
 [
-[{"op":"add","path":"/apexcityChestTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"apexcityLore"}}],
-[{"op":"add","path":"/apexcityTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"apexcityLore"}}],
 
 
   // ================================
@@ -22,13 +20,17 @@
   // ================================
   //       Apex City Apartments
   // ================================
+[{"op":"add","path":"/apexcityChestTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"apexcityLore"}}],
+[{"op":"add","path":"/apexcityTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"apexcityLore"}}],
+
 [{"op":"test","path":"/apexcityRareTreasure/0/1/fill","inverse":true},{"op":"add","path":"/apexcityRareTreasure/0/1/fill","value":[]}],
-[{"op":"add","path":"/apexcityTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_apexBlueprints"}}],
 [{"op":"add","path":"/apexcityRareTreasure/0/1/fill/-","value":{"item":"sb_townproblems-codex"}}],
+
+[{"op":"add","path":"/apexcityTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_apexBlueprints"}}],
+
 [{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_townadvert-codex"}}],
 [{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_apexorigins-codex"}}],
 [{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_townheadline"}}],
-[{"op":"add","path":"/apexcityRareTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_townproblems-codex"}}],
   
   
   // ================================
@@ -40,6 +42,7 @@
   //           Avian Tomb
   // ================================
 [{"op":"add","path":"/aviantombTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_avianBlueprints"}}],
+[{"op":"add","path":"/aviantombTreasure/0/1/pool/-","value":{"weight":0.025,"pool":"aviantombLore"}}], //Boost lore drop because it's absurdly low in vanilla
 [{"op":"add","path":"/aviantombLore/0/1/pool/-","value":{"weight":0.33,"item":"sb_tombwords"}}],
 
   // ================================
@@ -101,6 +104,7 @@
   //          Human Prison
   // ================================
 [{"op":"add","path":"/humanprisonTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_humanBlueprints"}}],
+
 [{"op":"add","path":"/humanprisonLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_prisoncasebook1-codex"}}],
 [{"op":"add","path":"/humanprisonLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_prisoncasebook2-codex"}}],
 [{"op":"add","path":"/humanprisonLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_prisoncasebook3-codex"}}],
@@ -138,6 +142,7 @@
   // ================================
 [{"op":"add","path":"/novakidvillageTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_novakidBlueprints"}}],
 [{"op":"add","path":"/novakidvillageTreasure/0/1/pool/-","value":{"weight":0.003,"item":"harmonica"}}],
+
 [{"op":"add","path":"/novakidvillageLore/0/1/pool/-","value":{"weight":0.33,"item":"sb_novakidorigins-codex"}}],
 
   // ================================
@@ -148,9 +153,11 @@
   //           Old Sewer
   // ================================
 [{"op":"add","path":"/glitchsewerTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_glitchBlueprints"}}],
+
 [{"op":"add","path":"/glitchsewerChestTreasure/0/1/pool/-","value":{"weight":0.02,"item":"gasmaskhead"}}],
 [{"op":"add","path":"/glitchsewerChestTreasure/0/1/pool/-","value":{"weight":0.02,"item":["craftsmenchest",1,{"colorIndex":1}]}}],
 [{"op":"add","path":"/glitchsewerChestTreasure/0/1/pool/-","value":{"weight":0.02,"item":["craftsmenlegs",1,{"colorIndex":1}]}}],
+
 [{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":"sb_sewerbattleground-codex"}}],
 [{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":"sb_sewerconstructfree-codex"}}],
 [{"op":"add","path":"/glitchsewerLore/0/1/pool/-","value":{"weight":0.5,"item":"sb_sewerferrying-codex"}}],

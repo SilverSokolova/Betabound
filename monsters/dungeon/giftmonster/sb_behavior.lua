@@ -1,4 +1,4 @@
-local unini = uninit or function() end
+local originalUninit = uninit or function() end
 
 function uninit()
   if status.isResource("health") and status.resource("health") <= 0 then
@@ -11,6 +11,5 @@ function uninit()
       end
     end
   end
-
-  unini()
+  originalUninit()
 end

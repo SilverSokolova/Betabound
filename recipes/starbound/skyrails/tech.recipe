@@ -1,5 +1,5 @@
 {
-  "input" : ["techcard"],
-  "output" : ["sb_tech",1,{"techModule":"skyrail"}],
-  "groups" : ["sb_skyrailtable","sb_skyrails","sb_techconsole","sb_tech_1","nouncrafting","all"]
+  "input": ["techcard"],
+  "output": ["sb_tech",1,{"techModule":"skyrail"}],
+  "groups": ["sb_skyrailtable","sb_skyrails","sb_techconsole","sb_tech_1","nouncrafting","all"]
 }

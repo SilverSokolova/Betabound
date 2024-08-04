@@ -1,6 +1,6 @@
 {
-  "input" : ["sb_scandata"],
-  "output" : "sb_blankscandata",
-  "duration" : 0.15,
-  "groups" : ["refinery","nouncrafting","all"]
+  "input": ["sb_scandata"],
+  "output": "sb_blankscandata",
+  "duration": 0.15,
+  "groups": ["refinery","nouncrafting","all"]
 }

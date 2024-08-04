@@ -1,5 +1,5 @@
 {
-  "input" : [["greenslime",20]],
-  "output" : "sb_slimehide",
-  "groups" : ["craftingfurniture","storage","all"]
+  "input": [["greenslime",20]],
+  "output": "sb_slimehide",
+  "groups": ["craftingfurniture","storage","all"]
 }

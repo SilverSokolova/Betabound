@@ -85,7 +85,7 @@
 
     "items": [{
         "mode": "floor",
-        "priority": 0.0,
+        "priority": 0,
         "variants": 1,
         "distribution": "/biomes/distributions.config:overgroundChests",
 
@@ -93,7 +93,7 @@
         "treasureBoxSets": ["basicChest"]
       }, {
         "mode": "floor",
-        "priority": 0.0,
+        "priority": 0,
         "variants": 1,
         "distribution": "/biomes/distributions.config:overgroundChests",
 
@@ -101,7 +101,7 @@
         "treasureBoxSets": ["weaponChest"]
       }, {
         "mode": "floor",
-        "priority": 1.0,
+        "priority": 1,
         "variants": 1,
         "distribution": "/biomes/distributions.config:overgroundChests",
 
@@ -113,7 +113,7 @@
         ]
       }, {
         "mode": "floor",
-        "priority": 1.0,
+        "priority": 1,
         "variants": 1,
         "distribution": "/biomes/distributions.config:potsRare",
 
@@ -133,7 +133,7 @@
         "microdungeons": ["sb_glitchencounter", "sb_randomencounter", "sb_miniboss"]
       }, {
         "mode": "floor",
-        "priority": 3.0,
+        "priority": 3,
         "variants": 1,
         "distribution": "/biomes/distributions.config:tiyDist",
 
@@ -141,7 +141,7 @@
         "microdungeons": ["block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none"]
       }, {
         "mode": "floor",
-        "priority": 3.0,
+        "priority": 3,
         "variants": 1,
         "distribution": "/biomes/distributions.config:scatteredSmall",
 
@@ -149,7 +149,7 @@
         "grasses": ["pebbles"]
       }, {
         "mode": "floor",
-        "priority": 3.0,
+        "priority": 3,
         "variants": 1,
         "distribution": "/biomes/distributions.config:tiyDistTerrainfeatures",
 
@@ -157,7 +157,7 @@
         "microdungeons": ["terrainfeatures"]
       }, {
         "mode": "floor",
-        "priority": 3.0,
+        "priority": 3,
         "variants": 1,
         "distribution": "/biomes/distributions.config:tiyDistPlatform",
 
@@ -165,7 +165,7 @@
         "microdungeons": ["aridplatforming"]
       }, {
         "mode": "floor",
-        "priority": 2.0,
+        "priority": 2,
         "variants": 1,
         "distribution": "/biomes/distributions.config:scatteredSmall",
 
@@ -178,7 +178,7 @@
         ]
       }, {
         "mode": "floor",
-        "priority": 1.0,
+        "priority": 1,
         "variants": 1,
         "distribution": "/biomes/distributions.config:denseLarge",
 
@@ -197,7 +197,7 @@
 
     "items": [{
         "mode": "floor",
-        "priority": 0.0,
+        "priority": 0,
         "variants": 1,
         "distribution": "/biomes/distributions.config:undergroundChests",
 
@@ -205,7 +205,7 @@
         "treasureBoxSets": ["basicChest"]
       }, {
         "mode": "floor",
-        "priority": 0.0,
+        "priority": 0,
         "variants": 1,
         "distribution": "/biomes/distributions.config:undergroundtechChests",
 
@@ -213,7 +213,7 @@
         "treasureBoxSets": ["techChest"]
       }, {
         "mode": "floor",
-        "priority": 0.0,
+        "priority": 0,
         "variants": 1,
         "distribution": "/biomes/distributions.config:undergroundChests",
 
@@ -221,7 +221,7 @@
         "treasureBoxSets": ["weaponChest"]
       }, {
         "mode": "floor",
-        "priority": 0.0,
+        "priority": 0,
         "variants": 1,
         "distribution": "/biomes/distributions.config:undergroundChests",
 
@@ -229,7 +229,7 @@
         "treasureBoxSets": ["sb_gunChest"]
       }, {
         "mode": "floor",
-        "priority": 1.0,
+        "priority": 1,
         "variants": 1,
         "distribution": "/biomes/distributions.config:undergroundChests",
 
@@ -241,7 +241,7 @@
         ]
       }, {
         "mode": "floor",
-        "priority": 1.0,
+        "priority": 1,
         "variants": 1,
         "distribution": "/biomes/distributions.config:scatteredPots",
 
@@ -253,7 +253,7 @@
         ]
       }, {
         "mode": "floor",
-        "priority": 1.0,
+        "priority": 1,
         "variants": 1,
         "distribution": "/biomes/distributions.config:scatteredSmall",
 

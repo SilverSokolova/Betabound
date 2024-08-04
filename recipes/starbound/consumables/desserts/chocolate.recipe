@@ -1,6 +1,6 @@
 {
-  "input" : ["cocoa","milk","sugar"],
-  "output" : "sb_chocolate",
-  "groups" : ["craftingfood","sb_energy","sb_runboost","sb_healing","snacks","all"],
-  "collectables" : {"cooking":"sb_chocolate"}
+  "input": ["cocoa","milk","sugar"],
+  "output": "sb_chocolate",
+  "groups": ["craftingfood","sb_energy","sb_runboost","sb_healing","snacks","all"],
+  "collectables": {"cooking":"sb_chocolate"}
 }

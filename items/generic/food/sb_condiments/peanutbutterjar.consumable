@@ -1,9 +1,9 @@
 {
   "itemName": "sb_peanutbutterjar",
-  "price": 125,
-  "foodValue": 20,
-  "tooltipKind": "sb_object",
-  "rarity": "common",
+  "price": 165,
+  "foodValue": 30,
+  "tooltipKind": "sb_object4",
+  "rarity": "uncommon",
   "sb_plate": {
     "image": true,
     "hidePlate": true
@@ -12,15 +12,15 @@
   "category": "food",
   "effects": [[{
         "effect": "maxenergyscalingboostfood",
-        "duration": 90
+        "duration": 135
       }, {
         "effect": "sb_protectionboost5",
-        "duration": 90
+        "duration": 135
       },
-      "sb_foodheal50"
+      "sb_foodheal95"
     ]],
   "learnBlueprintsOnPickup": ["sb_peanutbutter"],
-  "description": "Now with actual butter. And peas. No nuts though.",
+  "description": "A rich, creamy spread enhanced with actual butter. It offers a nutty flavor.",
   "shortdescription": "Peanut Butter",
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],

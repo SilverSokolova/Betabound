@@ -30,7 +30,7 @@ function onInteraction(args)
       bosses[i][1],
       object.toAbsolutePosition(bosses[i][2]),
         {
-          level = config.getParameter("bossLevel",1) + object.level() - 1,
+          level = config.getParameter("bossLevel", 1) + ((object.level() - 1) / 2),
           aggressive = true,
           arguments = {aggressive = true}
         }

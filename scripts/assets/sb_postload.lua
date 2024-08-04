@@ -1,3 +1,4 @@
+--mining tools
 local files = assets.byExtension("miningtool")
 local path = "/betabound/d1e48968b51d4616893aac83fe0c509c.patch"
 assets.add(path, '{"canBeRepaired":true}')
@@ -8,3 +9,5 @@ for i = 1, #files do
     assets.patch(files[i], path)
   end
 end
+
+--food buff recipe groups (TODO)

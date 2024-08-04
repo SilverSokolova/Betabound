@@ -1,64 +1,68 @@
 {
-  "name" : "sb_glitchmech",
-  "type" : "head",
-  "scripts" : ["/tech/starbound/vehicle.lua"],
-  "animator" : "glitchmech.animation",
-  "rarity" : "legendary",
-  "icon" : "/tech/starbound/glitchmech.png",
-  "shortDescription" : "Glitch Mech",
-  "description" : "^#0F0;[F]^reset; Use this tech, spawn a mech, then destroy things.",
+  "name": "sb_glitchmech",
+  "type": "head",
+  "scripts": ["/tech/starbound/vehicle.lua"],
+  "animator": "glitchmech.animation",
+  "rarity": "legendary",
+  "icon": "/tech/starbound/glitchmech.png",
+  "shortDescription": "Glitch Mech",
+  "description": "^#0F0;[F]^reset; Use this tech, spawn a mech, then destroy things.",
 
-  "mechStats" : [
-    {"stat":"fallDamageMultiplier","effectiveMultiplier":0},
-    {"stat":"grit","amount":9}
+  "mechStats": [{
+      "stat": "fallDamageMultiplier",
+      "effectiveMultiplier": 0
+    }, {
+      "stat": "grit",
+      "amount": 9
+    }
   ],
 
-  "mechCustomMovementParameters" : { //3x 3.7
-    "collisionPoly" : [[-3.5, -2.0], [-2, -4.5], [2, -4.5], [3.5, -2.0], [3.5, 2], [2, 3], [-2, 3], [-3.5, 2]],
-    "crouchingPoly" : [[-3.5, -2.0], [-2, -4.5], [2, -4.5], [3.5, -2.0], [3.5, 2], [2, 3], [-2, 3], [-3.5, 2]],
-    "mass" : 5,
+  "mechCustomMovementParameters": { //3x 3.7
+    "collisionPoly": [[-3.5, -2.0], [-2, -4.5], [2, -4.5], [3.5, -2.0], [3.5, 2], [2, 3], [-2, 3], [-3.5, 2]],
+    "crouchingPoly": [[-3.5, -2.0], [-2, -4.5], [2, -4.5], [3.5, -2.0], [3.5, 2], [2, 3], [-2, 3], [-3.5, 2]],
+    "mass": 5,
 
-    "groundFriction" : 50,
-    "ambulatingGroundFriction" : 6,
-    "skiddingGroundFriction" : 10,
+    "groundFriction": 50,
+    "ambulatingGroundFriction": 6,
+    "skiddingGroundFriction": 10,
 
-    "groundForce" : 160,
-    "airForce" : 50,
-    "liquidForce" : 70,
+    "groundForce": 160,
+    "airForce": 50,
+    "liquidForce": 70,
 
-    "walkSpeed" : 8,
-    "runSpeed" : 8,
+    "walkSpeed": 8,
+    "runSpeed": 8,
 
-    "airJumpProfile" : {
-      "jumpSpeed" : 50,
-      "jumpControlForce" : 400,
-      "jumpInitialPercentage" : 0.75,
-      "jumpHoldTime" : 0.15
+    "airJumpProfile": {
+      "jumpSpeed": 50,
+      "jumpControlForce": 400,
+      "jumpInitialPercentage": 0.75,
+      "jumpHoldTime": 0.15
     },
 
-    "liquidJumpProfile" : {
-      "jumpSpeed" : 30,
-      "jumpControlForce" : 400,
-      "jumpInitialPercentage" : 0.75,
-      "jumpHoldTime" : 0.15,
-      "multiJump" : false
+    "liquidJumpProfile": {
+      "jumpSpeed": 30,
+      "jumpControlForce": 400,
+      "jumpInitialPercentage": 0.75,
+      "jumpHoldTime": 0.15,
+      "multiJump": false
     }
   },
 
-  "energyCostPerSecond" : 0.5,
-  "warpDirectives" : "?fade=CCFF=0.25",
-  "mechTransformPositionChange" : [0, 0],
-  "parentOffset" : [0.25, 3.2], //0.5
-  "suppressTools" : true,
-  "mechCollisionTest" : [-3.5, -2.5, 3.5, 5],
-  "mechArmOffset" : [-2.4,0],
-  "mechType" : "glitch",
-  "mechGunType" : "glitch",
-  "mechAimLimit" : 40,
-  "mechBackGunAngle" : 3.1,
-  "mechFireCycle" : 0.25,
-  "mechProjectile" : ["flame"],
-  "mechProjectileConfig" : {
-    "power" : 5
+  "energyCostPerSecond": 0.5,
+  "warpDirectives": "?fade=CCFF=0.25",
+  "mechTransformPositionChange": [0, 0],
+  "parentOffset": [0.25, 3.2], //0.5
+  "suppressTools": true,
+  "mechCollisionTest": [-3.5, -2.5, 3.5, 5],
+  "mechArmOffset": [-2.4, 0],
+  "mechType": "glitch",
+  "mechGunType": "glitch",
+  "mechAimLimit": 40,
+  "mechBackGunAngle": 3.1,
+  "mechFireCycle": 0.25,
+  "mechProjectile": ["flame"],
+  "mechProjectileConfig": {
+    "power": 5
   }
 }

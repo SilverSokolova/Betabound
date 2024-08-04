@@ -1,31 +1,40 @@
 {
-  "id" : "sb_floranhunter4.gearup",
-  "prerequisites" : [ "hylotl_mission2", "sb_hylotlperformer3.gearup", "sb_bountyhunter3.gearup", "sb_avianexplorer3.gearup" ],
-  "title" : "^green;A Bone to Pick",
-  "text" : "Hello ssstranger. Back home Floran carve huge bone with pretty markingsss. Floran misss big bone. ^green;Bring Floran ^orange;big bone with carvings ^green;and Floran give ssstranger goodiess!",
-  "completionText" : "Big bone! Big bone! Big bone! Thanksss!",
-  "speaker" : "questGiver",
-  "moneyRange" : [200, 200],
-  "rewards" : [["techcard",["sb_uncommonspear",1,{"level":5}],"upgrademodule",["rewardbag",1,{"treasure":{"level":5}}]]],
+  "id": "sb_floranhunter4.gearup",
+  "prerequisites": ["hylotl_mission2", "sb_hylotlperformer3.gearup", "sb_bountyhunter3.gearup", "sb_avianexplorer3.gearup"],
+  "title": "^green;A Bone to Pick",
+  "text": "Hello ssstranger. Back home Floran carve huge bone with pretty markingsss. Floran misss big bone. ^green;Bring Floran ^orange;big bone with carvings ^green;and Floran give ssstranger goodiess!",
+  "completionText": "Big bone! Big bone! Big bone! Thanksss!",
+  "speaker": "questGiver",
+  "moneyRange": [200, 200],
+  "rewards": [["techcard", ["sb_uncommonspear", 1, {
+          "level": 5
+        }
+      ], "upgrademodule", ["rewardbag", 1, {
+          "treasure": {
+            "level": 5
+          }
+        }
+      ]]],
 
-  "guiConfigs" : {
-    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
-    "newQuest" : "/interface/windowconfig/sb_newquest.config",
-    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquest.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
   },
 
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/main.lua",
-  "scriptConfig" : {
-    "portraits" : {"default" : "questGiver"},
-    "requireTurnIn" : true,
-    "turnInDescription" : "Speak to ^orange;the Floran hunter^reset; at the ^orange;outpost^reset;",
-    "conditions" : [
-      {
-        "type" : "gatherItem",
-        "itemName" : "floranbonedisplay2",
-        "count" : 1,
-        "consume" : true
+  "updateDelta": 10,
+  "script": "/quests/scripts/main.lua",
+  "scriptConfig": {
+    "portraits": {
+      "default": "questGiver"
+    },
+    "requireTurnIn": true,
+    "turnInDescription": "Speak to ^orange;the Floran hunter^reset; at the ^orange;outpost^reset;",
+    "conditions": [{
+        "type": "gatherItem",
+        "itemName": "floranbonedisplay2",
+        "count": 1,
+        "consume": true
       }
     ]
   }

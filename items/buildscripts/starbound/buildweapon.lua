@@ -50,7 +50,12 @@ function build(directory, config, parameters, level, seed)
         poisonthrower = "poison",
         lightningthrower = "electric"
       }
-      parameters.elementalType = projectileMap[parameters.primaryAbility and parameters.primaryAbility.projectileType or "flamethrower"]
+      local previousProjectile = projectileMap[parameters.primaryAbility and parameters.primaryAbility.projectileType]
+      if previousProjectile then
+        parameters.elementalType = previousProjectile
+      else
+        parameters.elementalType = randomFromList(builderConfig.elementalType, seed, "elementalType")
+      end
     else
       parameters.elementalType = randomFromList(builderConfig.elementalType, seed, "elementalType")
     end
@@ -135,8 +140,13 @@ function build(directory, config, parameters, level, seed)
         config.primaryAbility.energyUsage = config.primaryAbility.energyUsage+(config.primaryAbility.projectileCount*1.4)
       end
     end
+
+    --various ranges
     if config.primaryAbility.projectileParameters.knockbackRange then
       config.primaryAbility.projectileParameters.knockback = scaleConfig(parameters.primaryAbility.fireTimeFactor, config.primaryAbility.projectileParameters.knockbackRange)
+    end
+    if config.primaryAbility.projectileParameters.speedRange then
+      config.primaryAbility.projectileParameters.speed = randomIntInRange(config.primaryAbility.projectileParameters.speedRange, seed, "speed")
     end
   end
 
@@ -252,19 +262,6 @@ function build(directory, config, parameters, level, seed)
     config.animationCustom.sounds.fire = type(sound) == "table" and sound or {sound}
   end
 
-  -- build inventory icon
-  if not config.inventoryIcon and config.animationParts then
-    config.inventoryIcon = jarray()
-    local parts = builderConfig.iconDrawables or {}
-    for _,partName in pairs(parts) do
-      local drawable = {
-        image = config.animationParts[partName],
-        position = partImagePositions[partName]
-      }
-      table.insert(config.inventoryIcon, drawable)
-    end
-  end
-
   -- populate tooltip fields
   config.tooltipFields = config.tooltipFields or {}
   config.tooltipFields.dyeLabel = configParameter("sb_dyeable") and "^gray;(Dyeable)" or ""
@@ -287,30 +284,47 @@ function build(directory, config, parameters, level, seed)
   if config.primaryAbility then
     config.tooltipFields.primaryAbilityTitleLabel = "Primary:"
     config.tooltipFields.primaryAbilityLabel = config.primaryAbility.name or "unknown"
-    if parameters.primaryAbility.projectileType then
-      if type(parameters.primaryAbility.projectileType) == "string" then
-        config.tooltipFields.damageKindImage = sb_assetmissing("/interface/sb_tooltips/"..parameters.primaryAbility.projectileType..".png", "/interface/sb_tooltips/assetmissing.png")
-      elseif type(parameters.primaryAbility.projectileType) == "table" then
-        local projectiles = parameters.primaryAbility.projectileType
-      --todo: loop
-        if #projectiles >= 1 then config.tooltipFields.damageKindImage = sb_assetmissing("/interface/sb_tooltips/"..projectiles[1]..".png","/interface/sb_tooltips/assetmissing.png") end
-        if #projectiles >= 2 then config.tooltipFields.damageKindBImage = sb_assetmissing("/interface/sb_tooltips/"..projectiles[2]..".png","/interface/sb_tooltips/assetmissing.png") end
-        if #projectiles >= 3 then config.tooltipFields.damageKindCImage = sb_assetmissing("/interface/sb_tooltips/"..projectiles[3]..".png","/interface/sb_tooltips/assetmissing.png") end
-        if #projectiles >= 4 then config.tooltipFields.damageKindDImage = sb_assetmissing("/interface/sb_tooltips/"..projectiles[4]..".png","/interface/sb_tooltips/assetmissing.png") end
-      end
+    local projectileType = parameters.primaryAbility.projectileType
+    if projectileType then
+      config.tooltipFields.damageKindImage = sb_assetmissing("/interface/sb_tooltips/"..(type(projectileType) == "table" and projectileType[1] or projectileType)..".png", "/interface/sb_tooltips/assetmissing.png")
     end
   end
   if config.altAbility then
     config.tooltipFields.altAbilityTitleLabel = "Special:"
     config.tooltipFields.altAbilityLabel = config.altAbility.name or "unknown"
   end
+
+  -- build inventory/object icon
+  if config.animationParts then
+    assembledIcon = jarray()
+    local parts = builderConfig.iconDrawables or {}
+    for _,partName in pairs(parts) do
+      local drawable = {
+        image = util.absolutePath(directory, config.animationParts[partName]),
+        position = partImagePositions[partName]
+      }
+      useAssembledIcon = true
+      table.insert(assembledIcon, drawable)
+    end
+  end
+
+  if useAssembledIcon then
+    if config.inventoryIcon then
+      config.tooltipFields.objectImage = assembledIcon
+    else
+      config.inventoryIcon = assembledIcon
+    end
+  end
+
+  -- calculate price and rarity
   config.price = (config.price or 10) * root.evalFunction("itemLevelPriceMultiplier", configParameter("level", 1))
   if not config.fixedRarity then
-    local rarities = {"common","uncommon","rare","legendary","essential"}
+    local rarities = {"common", "uncommon", "rare", "legendary", "essential"}
     config.rarity = rarities[root.evalFunction("sb_rarity", math.floor(configParameter("level", 1)))] or config.rarity or "legendary"
   end
-  if config.rarity == "essential" then config.tooltipFields.rarityLabel = "Epic" end
+  if config.rarity == "essential" then config.tooltipFields.rarityLabel = "Epic" end --TODO: translatable string
 
+  -- apply tags from definition
   local tags = configParameter("tags")
   if tags then for k, v in pairs(tags) do replacePatternInData(config, nil, k, v) end end
 

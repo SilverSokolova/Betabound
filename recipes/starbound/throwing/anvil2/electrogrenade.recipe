@@ -1,5 +1,5 @@
 {
-  "input" : [["volatilepowder",4],"staticcell","titaniumbar"],
-  "output" : "sb_electrogrenade",
-  "groups" : ["craftinganvil2","consumables","all"]
+  "input": [["volatilepowder",4],"staticcell","titaniumbar"],
+  "output": "sb_electrogrenade",
+  "groups": ["craftinganvil2","consumables","all"]
 }

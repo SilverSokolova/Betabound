@@ -1,5 +1,5 @@
 {
-  "input" : ["upgrademodule",["titaniumbar",10]],
-  "output" : "sb_weaponupgrade3",
-  "groups" : ["sb_ironcraftingtable","upgrades","all"]
+  "input": ["upgrademodule",["titaniumbar",10]],
+  "output": "sb_weaponupgrade3",
+  "groups": ["sb_ironcraftingtable","upgrades","all"]
 }

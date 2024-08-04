@@ -9,7 +9,8 @@
   "fixedRarity": false,
   "fixedLevel": false,
   "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/sb_frozenflamearrow.png"
+    "damageKindImage": "/interface/sb_tooltips/sb_frozenflamearrow.png",
+    "objectImage": "/items/active/starbound/bows/frozenfirebowfull.png:0"
   },
   "description": "Every arrow loosed from this bow at full power is imbued with a crippling frostfire.",
   "shortdescription": "Frozenfire Bow",

@@ -1,11 +1,10 @@
 {
-  "frameGrid" : {
-    "size" : [152, 148],
-    "dimensions" : [9, 2],
+  "frameGrid": {
+    "size": [152, 148],
+    "dimensions": [8, 1],
 
-    "names" : [
-      [ null, "idle.1", "idle.2", "idle.3", "idle.4", "idle.5", "idle.6", "idle.7", "idle.8" ],
-      [ null, null, null, null, null, null, null, null, "rotation" ]
+    "names": [
+      ["idle.1", "idle.2", "idle.3", "idle.4", "idle.5", "idle.6", "idle.7", "idle.8"]
     ]
   }
 }

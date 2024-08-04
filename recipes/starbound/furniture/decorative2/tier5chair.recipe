@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_aegisaltbar",2],["leather",5]],
-  "output" : "serenechair",
-  "groups" : ["craftingfurniture2","decoration","all"]
+  "input": [["sb_aegisaltbar",2],["leather",5]],
+  "output": "serenechair",
+  "groups": ["craftingfurniture2","decoration","all"]
 }

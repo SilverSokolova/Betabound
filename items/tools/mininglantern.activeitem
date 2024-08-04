@@ -1,5 +1,5 @@
 {
-  "sb_itemName": "mininglantern.flashlight",
+  "originalItemName": "mininglantern.flashlight",
   "itemName": "mininglantern",
   "builder": "/items/buildscripts/starbound/fromsource.lua",
   "animationParts": {

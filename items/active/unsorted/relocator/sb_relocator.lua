@@ -1,16 +1,16 @@
-local ini = init or function() end
-local updat = update or function() end
+local originalInit = init or function() end
+local originalUpdate = update or function() end
 
-function init() ini()
+function init() originalInit()
   if config.getParameter("sb_doNotUpdateInventoryIcon") then
-    update = updat
+    update = originalUpdate
     return
   end
   sb_lastSize = config.getParameter("scriptStorage", {})
   sb_lastSize = #(sb_lastSize.storedMonsters or '')
 end
 
-function update(...) updat(...)
+function update(...) originalUpdate(...)
   local currentSize = config.getParameter("scriptStorage", {})
   currentSize = #(currentSize.storedMonsters or '')
   if currentSize ~= sb_lastSize then

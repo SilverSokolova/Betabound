@@ -35,8 +35,6 @@
   "sb_storage": ["/warp InstanceWorld:playerstation:21df53c9aade582dfc2b38e6a28b62f0:1=cba2e7459537ec44bcfced0ab0548c99"],
   "sb_storage2": ["/warp InstanceWorld:playerstation:6f20604db8080bfa09f17a9cd667956b:1=2acb1e351639f3d2f738182d7f86c8a3"],
 
-  "sb_swansong": ["/warp instanceworld:cultistmission1=1633.795"],
-
   //Progression
   "sb_human": ["/startquest '\"human_mission1\"'", "/completequest human_mission1"],
   "sb_floran": ["/startquest '\"floran_mission1\"'", "/completequest floran_mission1", "/startquest '\"floran_mission2\"'", "/completequest floran_mission2"],
@@ -80,7 +78,9 @@
 
   //Data Manipulation
   "sb_repeatversioning": ["/run player.setProperty('betabound',sb.jsonMerge(player.getProperty('betabound',{}),{version=player.getProperty('betabound').version -1}))"],
+  "sb_resetversioning": ["/run player.setProperty('betabound',sb.jsonMerge(player.getProperty('betabound',{}),{version=0}))"], //Do not use this on characters you care about
   "sb_data": ["/run return sb.printJson(player.getProperty('betabound'), 1)"],
+  "sb_resetship": ["/run local data = player.getProperty('betabound', {}) data.ship = nil data.shipUpgrades = nil player.setProperty('betabound', data)"],
 
   //Misc
   "sb_elliot": ["/spawnitem techlabscientistshop 1 '{\"shortdescription\":\"Questless Elliot\",\"offeredQuests\":[]}"],

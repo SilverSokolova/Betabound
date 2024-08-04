@@ -1,0 +1,12 @@
+{
+  "name": "sb_extradrops",
+  "type": "head",
+  "icon": "/tech/starbound/extradrops.png",
+  "scripts": [],
+  "sb_effect": "sb_extradrops-player",
+  "sb_suitImage": "?replace;73daff=b58651;27abff=946941;117ee4=7a4e34;1f45d4=5a3223",
+  "rarity": "Legendary",
+  "chipCost": 8,
+  "description": "Slain enemies have a chance to drop extra treasure.",
+  "shortDescription": "Scavenger"
+}

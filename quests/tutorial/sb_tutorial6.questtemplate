@@ -1,36 +1,37 @@
 {
-  "id" : "sb_tutorial6.gearup",
-  "prerequisites" : ["sb_tutorial5.gearup" ],
-  "mainQuest" : true,
-  "title" : "^#9be3d6;Forging Ahead (II)",
-  "text" : "^green;To make use of stronger and more valuable ores, you need an ^orange;iron anvil.^reset; With an anvil, you can prepare yourself for the dangers ahead.",
-  "completionText" : "Perfect! Now you can craft all sorts of weapons and armor. You should craft some equipment...",
-  "speaker" : "questGiver",
-  "moneyRange" : [70, 70],
-  "canBeAbandoned" : true,
+  "id": "sb_tutorial6.gearup",
+  "prerequisites": ["sb_tutorial5.gearup"],
+  "mainQuest": true,
+  "title": "^#9be3d6;Forging Ahead (II)",
+  "text": "^green;To make use of stronger and more valuable ores, you need an ^orange;iron anvil.^reset; With an anvil, you can prepare yourself for the dangers ahead.",
+  "completionText": "Perfect! Now you can craft all sorts of weapons and armor. You should craft some equipment...",
+  "speaker": "questGiver",
+  "moneyRange": [70, 70],
+  "canBeAbandoned": true,
 
-  "guiConfigs" : {
-    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
-    "newQuest" : "/interface/windowconfig/sb_newquestnorewards.config",
-    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquestnorewards.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
   },
 
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/sb_main.lua",
-  "scriptConfig" : {
-    "title" : "^#9be3d6;Forging Ahead (II)",
-    "missable" : true,
-    "itemIcon" : "/interface/sb_numbers.png:7",
-    "followUp" : "sb_tutorial7.gearup",
-    "giveBlueprints" : ["sb_ironanvil"],
-    "portraits" : {"default" : "player"},
-    "requireTurnIn" : false,
-    "conditions" : [
-      {
-        "type" : "gatherItem",
-        "itemName" : "sb_ironanvil",
-        "count" : 1,
-        "consume" : false
+  "updateDelta": 10,
+  "script": "/quests/scripts/sb_main.lua",
+  "scriptConfig": {
+    "title": "^#9be3d6;Forging Ahead (II)",
+    "missable": true,
+    "itemIcon": "/interface/sb_font.png:7",
+    "followUp": "sb_tutorial7.gearup",
+    "giveBlueprints": ["sb_ironanvil"],
+    "portraits": {
+      "default": "player"
+    },
+    "requireTurnIn": false,
+    "conditions": [{
+        "type": "gatherItem",
+        "itemName": "sb_ironanvil",
+        "count": 1,
+        "consume": false
       }
     ]
   }

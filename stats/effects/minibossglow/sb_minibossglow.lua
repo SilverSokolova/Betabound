@@ -1,4 +1,4 @@
-local ini = init or function() end
-function init() ini()
+local originalInit = init or function() end
+function init() originalInit()
   animator.setParticleEmitterOffsetRegion("sb_minibossparticles", mcontroller.boundBox())
 end

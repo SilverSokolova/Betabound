@@ -1,6 +1,6 @@
 {
-  "input" : ["liquidwater","sugar"],
-  "output" : "sb_rootpopflask",
-  "groups" : ["craftingfood","drinks","sb_energy","sb_healing","sb_t1food","all"],
-  "collectables" : {"cooking":"sb_rootpopflask"}
+  "input": ["liquidwater","sugar"],
+  "output": "sb_rootpopflask",
+  "groups": ["craftingfood","drinks","sb_energy","sb_healing","sb_t1food","all"],
+  "collectables": {"cooking":"sb_rootpopflask"}
 }

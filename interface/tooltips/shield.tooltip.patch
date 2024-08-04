@@ -11,5 +11,16 @@
         "wrapWidth": 126
       }
     }
+  ],
+  //fix for Patch Project
+  [{
+      "op": "test",
+      "path": "/background/fileBody",
+      "value": "/interface/tooltips/bodyobject3extended.png"
+    }, {
+      "op": "replace",
+      "path": "/sb_levelLabel/position/1",
+      "value": 156
+    }
   ]
 ]

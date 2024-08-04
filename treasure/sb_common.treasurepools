@@ -109,9 +109,8 @@
   "sb_liquidtentaclejuice": [
     [0, {
       "pool": [
-        {"weight": 0.2, "item": ["sb_liquidtentaclejuice", 5]},
-        {"weight": 0.6, "item": ["sb_liquidtentaclejuice", 10]},
-        {"weight": 0.2, "item": ["sb_liquidtentaclejuice", 10]}
+        {"weight": 0.7, "item": ["sb_liquidtentaclejuice", 5]},
+        {"weight": 0.3, "item": ["sb_liquidtentaclejuice", 10]}
       ]
     }]
   ],
@@ -173,7 +172,7 @@
     }]
   ],
 
-  "sb_brain": [ //TODO: unused i think
+  "sb_brain": [ //this is used
     [0, {
       "pool": [
         {"weight": 0.6, "item": "brain"},

@@ -1,6 +1,6 @@
 {
-  "input" : ["platinumbar"],
-  "output" : ["money",50],
-  "duration" : 0.5,
-  "groups" : ["refinery","all"]
+  "input": ["platinumbar"],
+  "output": ["money",50],
+  "duration": 0.5,
+  "groups": ["refinery","all"]
 }

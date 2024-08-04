@@ -47,4 +47,4 @@ function player_makeSuitAvailable(suit)
 end
 
 function ownsTech(tech) return contains(player.availableTechs(), tech) end
-function ownsSuit(tech) return (contains(player.getProperty("sb_bioimplants") or {}, tech) or contains(player.getProperty("sb_availableBioimplants") or {}, tech)) end --player.getProperty not returning the second value if the property exists even if it's nil :(
+function ownsSuit(tech) return (contains(player.getProperty("sb_bioimplants", {}), tech) or contains(player.getProperty("sb_availableBioimplants") or {}, tech)) end

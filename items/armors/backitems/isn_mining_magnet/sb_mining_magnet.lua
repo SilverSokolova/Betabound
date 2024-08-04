@@ -1,4 +1,5 @@
-local ini = init or function() end
-local isn_oreExchang = isn_oreExchange or function(a) end
-function init() ini() sb_ores = root.assetJson("/sb_oreexchange.config") end
-function isn_oreExchange(a) return sb_ores[a] or isn_oreExchang(a) end
+local originalInit = init or function() end
+local originalIsn_oreExchang = isn_oreExchange or function(a) return a end
+
+function init() originalInit() sb_ores = root.assetJson("/sb_oreexchange.config") end
+function isn_oreExchange(a) return sb_ores[a] or originalIsn_oreExchang(a) end

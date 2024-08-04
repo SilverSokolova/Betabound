@@ -1,5 +1,5 @@
 {
-  "input" : ["sb_rubiumbar"],
-  "output" : "sb_tier5mtechchest",
-  "groups" : ["craftingfurniture2","storage","all"]
+  "input": ["sb_rubiumbar"],
+  "output": "sb_tier5mtechchest",
+  "groups": ["craftingfurniture2","storage","all"]
 }

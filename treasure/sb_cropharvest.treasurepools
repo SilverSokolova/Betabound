@@ -23,6 +23,7 @@
       ]
     } ]
   ],
+  //unfortunately we can't put the deathstick here since it's laggy
   "sb_treeHarvest": [
     [0, {
       "pool": [

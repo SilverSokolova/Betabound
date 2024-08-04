@@ -1,6 +1,6 @@
 {
-  "input" : ["glass"],
-  "output" : ["slopedglasspanel",10],
-  "duration" : 0.25,
-  "groups"  : ["craftingfurniture","materials","all"]
+  "input": ["glass"],
+  "output": ["slopedglasspanel",10],
+  "duration": 0.25,
+  "groups": ["craftingfurniture","materials","all"]
 }

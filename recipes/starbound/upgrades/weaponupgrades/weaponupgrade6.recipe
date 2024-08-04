@@ -1,5 +1,5 @@
 {
-  "input" : ["upgrademodule",["solariumstar",5],["sb_ceruliumcompound",5]],
-  "output" : "sb_weaponupgrade6",
-  "groups" : ["sb_roboticcraftingtable","upgrades","all"]
+  "input": ["upgrademodule",["solariumstar",5],["sb_ceruliumcompound",5]],
+  "output": "sb_weaponupgrade6",
+  "groups": ["sb_roboticcraftingtable","upgrades","all"]
 }

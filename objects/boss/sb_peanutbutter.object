@@ -41,6 +41,6 @@
   "scriptDelta": 5,
   "hasAnimation": true,
   "badReception": [0, "I should take it to the planet surface before trying to use it."],
-  "bossType": [["sb_jellyboss", [0, 40]], ["sb_skeye", [20, 40]], ["sb_skeye", [-20, 40]]],
+  "bossType": [["sb_jellyboss", [0, 25]], ["sb_skeye", [20, 25]], ["sb_skeye", [-20, 25]]],
   "bossLevel": 3
 }

@@ -25,6 +25,12 @@
 ,[{"op":"test","path":"/narfinTreasure/0/1/fill","inverse":true},{"op":"add","path":"/narfinTreasure/0/1/fill","value":[]}]
 ,[{"op":"add","path":"/narfinTreasure/0/1/fill/-","value":{"pool":"sb_narfinTreasure"}}]
 
+,[{"op":"test","path":"/crabcanoTreasure/0/1/fill","inverse":true},{"op":"add","path":"/crabcanoTreasure/0/1/fill","value":[]}]
+,[{"op":"add","path":"/crabcanoTreasure/0/1/fill/-","value":{"pool":"sb_crabcanoTreasure"}}]
+
+,[{"op":"test","path":"/trictusTreasure/0/1/fill","inverse":true},{"op":"add","path":"/trictusTreasure/0/1/fill","value":[]}]
+,[{"op":"add","path":"/trictusTreasure/0/1/fill/-","value":{"pool":"sb_trictusTreasure"}}]
+
 
 
 ,[{"op":"add","path":"/poptopTreasure/0/1/pool/-","value":{"weight":0.15,"pool":"sb_poptopMusic"}}]

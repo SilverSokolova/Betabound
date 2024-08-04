@@ -1,5 +1,5 @@
 {
-  "input" : [["peacecredit",8]],
-  "output" : "sb_arrester",
-  "groups" : ["peacekeeper2","all"]
+  "input": [["peacecredit",8]],
+  "output": "sb_arrester",
+  "groups": ["peacekeeper2","all"]
 }

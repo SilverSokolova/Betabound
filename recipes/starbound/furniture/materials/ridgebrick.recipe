@@ -1,6 +1,6 @@
 {
-  "input" : ["brickmaterial","cobblestonematerial"],
-  "output" : ["ridgebrick",50],
-  "duration" : 0.5,
-  "groups"  : ["craftingfurniture","materials","all"]
+  "input": ["brickmaterial","cobblestonematerial"],
+  "output": ["ridgebrick",50],
+  "duration": 0.5,
+  "groups": ["craftingfurniture","materials","all"]
 }

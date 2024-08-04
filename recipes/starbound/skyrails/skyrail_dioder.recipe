@@ -1,5 +1,5 @@
 {
-  "input" : [["skyrailplatform",20],"tungstenbar"],
-  "output" : ["skyrail_diodeR",20],
-  "groups" : ["sb_skyrailtable","sb_skyrails","all"]
+  "input": [["skyrailplatform",20],"tungstenbar"],
+  "output": ["skyrail_diodeR",20],
+  "groups": ["sb_skyrailtable","sb_skyrails","all"]
 }

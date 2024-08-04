@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_steelbar",3],["copperbar",2]],
-  "output" : "sb_glitchtier3shortsword",
-  "groups" : ["craftinganvil2","weapons","all"]
+  "input": [["sb_steelbar",3],["copperbar",2]],
+  "output": "sb_glitchtier3shortsword",
+  "groups": ["craftinganvil2","weapons","all"]
 }

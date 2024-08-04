@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_steelbar",4],"copperbar"],
-  "output" : "robotlegs",
-  "groups" : ["sb_ironcraftingtable","sb_other","all"]
+  "input": [["sb_steelbar",4],"copperbar"],
+  "output": "robotlegs",
+  "groups": ["sb_ironcraftingtable","sb_other","all"]
 }

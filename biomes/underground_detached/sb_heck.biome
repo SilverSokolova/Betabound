@@ -1,13 +1,13 @@
 {
   "name": "sb_heck",
-  "friendlyName": "Heck",
-  "description": "A Heck biome.", //this string appears in biome data when dumping worlds
+  "friendlyName": "Heck Caves",
+//  "description": "A Heck biome.", //this string appears in biome data when dumping worlds
 
   "spawnProfile": {
     "groups": [{
         "select": 1,
         "pool": [
-          [1.0, "sb_heckblob"]
+          [1, "sb_heckblob"]
         ]
       }
     ]
@@ -76,7 +76,7 @@
         ]
       }, {
         "mode": "floor",
-        "priority": 4.0,
+        "priority": 4,
         "variants": 1,
         "distribution": "/biomes/distributions.config:denseLarge",
 
@@ -128,7 +128,7 @@
         ]
       }, {
         "mode": "floor",
-        "priority": 4.0,
+        "priority": 4,
         "variants": 1,
         "distribution": "/biomes/distributions.config:denseLarge",
 
@@ -136,7 +136,7 @@
         "grasses": ["heckflower"]
       }, {
         "mode": "floor",
-        "priority": 8.0,
+        "priority": 8,
         "variants": 1,
         "distribution": "/biomes/distributions.config:rare",
 
@@ -144,7 +144,7 @@
         "treasureBoxSets": ["sb_heckChest"]
       }, {
         "mode": "floor",
-        "priority": 8.0,
+        "priority": 8,
         "variants": 1,
         "distribution": "/biomes/distributions.config:uncommon",
 
@@ -152,7 +152,7 @@
         "microdungeons": ["sb_heckmicrodungeons"]
       }, {
         "mode": "ceiling",
-        "priority": 2.0,
+        "priority": 2,
         "variants": 1,
         "distribution": "/biomes/distributions.config:denseMedium",
 

@@ -1,24 +1,24 @@
 {
-  "kind" : "sb_freezesquirt",
-  "location" : "mouth",
-  "definition" : {
-    "duration" : 0.001,
-    "loops" : true,
-    "start" : {
-      "particles" : [
+  "kind": "sb_freezesquirt",
+  "location": "mouth",
+  "definition": {
+    "duration": 0.001,
+    "loops": true,
+    "start": {
+      "particles": [
         ["sb_freezesquirt"]
       ],
-      "sounds" : [[]]
+      "sounds": [[]]
     },
-    "particles" : [
+    "particles": [
       ["sb_freezesquirt"]
     ],
-    "sounds" : [[]],
-    "stop" : {
-      "particles" : [
+    "sounds": [[]],
+    "stop": {
+      "particles": [
         []
       ],
-      "sounds" : [[]]
+      "sounds": [[]]
     }
   }
 }

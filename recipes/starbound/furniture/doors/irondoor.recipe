@@ -1,5 +1,5 @@
 {
-  "input" : ["ironbar","copperbar"],
-  "output" : "irondoor",
-  "groups" : ["craftingfurniture","doors","all"]
+  "input": ["ironbar","copperbar"],
+  "output": "irondoor",
+  "groups": ["craftingfurniture","doors","all"]
 }

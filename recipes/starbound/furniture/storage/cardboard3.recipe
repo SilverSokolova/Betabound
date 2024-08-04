@@ -1,5 +1,5 @@
 {
-  "input" : [["paper",18],["darkwoodmaterial",6]],
-  "output" : "cardboard3",
-  "groups" : ["craftingfurniture","storage","all"]
+  "input": [["paper",18],["darkwoodmaterial",6]],
+  "output": "cardboard3",
+  "groups": ["craftingfurniture","storage","all"]
 }

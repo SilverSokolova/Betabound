@@ -5,7 +5,7 @@
   "rarity": "uncommon",
   "muzzleOffset": [0.5, 0.4],
   "baseOffset": [-1, 0],
-  "tooltipKind": "sb_gun",
+  "tooltipKind": "sb_gun2",
   "category": "uniqueWeapon",
   "description": "",
   "shortdescription": "Flamethrower",
@@ -25,7 +25,8 @@
   "primaryAbilityType": "sb_gun2",
   "primaryAbility": {
     "projectileParameters": {
-      "knockback": 0
+      "knockback": 0,
+      "speedRange": [20, 30]
     },
     "fireTime": [0.03, 0.09],
     "baseDps": [6.5, 8.5],
@@ -71,6 +72,7 @@
       ],
       "elementalConfig": {
         "fire": {
+          "description": "Love the smell of napalm, any time of day.",
           "animationCustom": {
             "sounds": {
               "fire": ["/sfx/gun/fireblast.ogg", "/sfx/gun/flamethrower_stop.ogg", "/sfx/melee/rocketspear_stop_fire.ogg"]
@@ -81,6 +83,7 @@
           }
         },
         "ice": {
+          "description": "Love the smell of frost, any time of day.",
           "animationCustom": {
             "sounds": {
               "fire": ["/sfx/melee/rocketspear_stop_ice.ogg"]
@@ -91,6 +94,7 @@
           }
         },
         "electric": {
+          "description": "Love the crackling of thunder, any time of day.",
           "animationCustom": {
             "sounds": {
               "fire": ["/sfx/gun/lightningcoil1.ogg", "/sfx/gun/lightningcoil2.ogg", "/sfx/gun/lightningcoil3.ogg"]
@@ -101,6 +105,7 @@
           }
         },
         "poison": {
+          "description": "Love the smell of toxins, any time of day.",
           "animationCustom": {
             "sounds": {
               "fire": ["/sfx/melee/rocketspear_stop_poison.ogg"]

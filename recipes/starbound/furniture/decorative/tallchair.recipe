@@ -1,6 +1,6 @@
 {
-  "input" : [["woodenchair",32]],
-  "output" : "tallchair",
-  "duration" : 3.2,
-  "groups" : ["decoration","craftingfurniture","all"]
+  "input": [["woodenchair",32]],
+  "output": "tallchair",
+  "duration": 3.2,
+  "groups": ["decoration","craftingfurniture","all"]
 }

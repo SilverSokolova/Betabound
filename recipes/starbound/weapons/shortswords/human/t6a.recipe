@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_feroziumcompound",3],["solariumstar",2]],
-  "output" : "sb_humantier6ashortsword",
-  "groups" : ["craftingseparator","weapons","all"]
+  "input": [["sb_feroziumcompound",3],["solariumstar",2]],
+  "output": "sb_humantier6ashortsword",
+  "groups": ["craftingseparator","weapons","all"]
 }

@@ -11,12 +11,22 @@
   ],
   [{
       "op": "test",
+      "path": "/category",
+      "value": "decorative"
+    }, {
+      "op": "replace",
+      "path": "/category",
+      "value": "other"
+    }
+  ],
+  [{
+      "op": "test",
       "path": "/description",
       "value": "A random fountain. The most unpredictable of fountains."
     }, {
       "op": "replace",
       "path": "/description",
-      "value": "The most unpredictable of fountains."
+      "value": "The most unpredictable of fountains. ^red;Destroyed when broken while empty."
     }
   ],
   [{
@@ -27,6 +37,29 @@
       "op": "add",
       "path": "/novakidDescription",
       "value": "It's just a fountain."
+    }
+  ],
+  //Only add a script if another mod is NOT doing something with this object already
+  [{
+      "op": "test",
+      "path": "/scripts",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/scripts",
+      "value": ["sb_randomfountain.lua"]
+    }
+  ],
+  [{
+      //healing, jump, run, glow
+      "op": "add",
+      "path": "/sb_statusOptions",
+      "value": [
+        ["regeneration4", 120],
+        ["jumpboost", 60],
+        ["runboost", 60],
+        ["glow", 60]
+      ]
     }
   ]
 ]

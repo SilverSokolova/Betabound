@@ -1,5 +1,5 @@
 {
-  "input" : [["platinumbar",15],"siliconboard"],
-  "output" : "sb_researchstation",
-  "groups" : ["inventorstable3","craftingstations","all"]
+  "input": [["platinumbar",15],"siliconboard"],
+  "output": "sb_researchstation",
+  "groups": ["inventorstable3","craftingstations","all"]
 }

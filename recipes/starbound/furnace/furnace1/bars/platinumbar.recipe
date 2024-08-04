@@ -1,6 +1,6 @@
 {
-  "input" : [["platinumore",2]],
-  "output" : "platinumbar",
-  "duration" : 0.15,
-  "groups" : ["craftingfurnace","bars","all"]
+  "input": [["platinumore",2]],
+  "output": "platinumbar",
+  "duration": 0.15,
+  "groups": ["craftingfurnace","bars","all"]
 }

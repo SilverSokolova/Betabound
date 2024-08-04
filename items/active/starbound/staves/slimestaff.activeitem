@@ -30,12 +30,16 @@
   },
 
   "elementalType": "poison",
-  "altAbilityType": "elementbouncer",
+  "altAbilityType": "elementswarm",
   "primaryAbility": {
     "projectileType": "slimeexplosion",
+    "energyCost": 30,
     "projectileParameters": {
+      "damageTeam": {
+        "type": "friendly"
+      },
       "speed": 0,
-      "baseDamage": 8,
+      "baseDamage": 12,
       "statusEffects": [{
           "effect": "slimeslow",
           "duration": 5
@@ -43,10 +47,24 @@
       ]
     }
   },
+  "altAbility": {
+    "name": "Toxic Bubbles",
+    "projectileType": "poisonbubble",
+    "projectileDistance": 0.75,
+    "projectileParameters": {
+      "animationCycle": 2,
+      "timeToLive": 1.9,
+      "speed": 7.5,
+      "statusEffects": [{
+          "effect": "slimeslow",
+          "duration": 2.5
+        }
+      ]
+    }
+  },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
 
   "craftedParameters": {
-    "level": 5,
-    "seed": 1
+    "level": 5
   }
 }

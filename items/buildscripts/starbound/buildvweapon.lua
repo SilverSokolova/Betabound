@@ -5,11 +5,12 @@ function build(directory, config, parameters, level, seed)
     parameters = util.mergeTable(configParameter("sb_craftedParameters", {}), parameters)
     parameters.sb_crafted = nil
   end
+  local sb_tooltipFields = config.tooltipFields or {}
   if config.sb_builder then
     require(config.sb_builder)
     config, parameters = build(directory, config, parameters, level, seed)
   end
-  config.tooltipFields = config.tooltipFields or {}
+  config.tooltipFields = sb.jsonMerge(config.tooltipFields or {}, sb_tooltipFields)
   local level = string.format("%.0f",configParameter("level", 1))
   if string.find((config.tooltipKind or "base"), "sb_") then
     config.tooltipFields.levelLabel = "^shadow;Lvl "..level

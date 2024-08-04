@@ -1,13 +1,12 @@
 {
   //TODO: critters?
-  "name" : "sb_rust",
-  "friendlyName" : "Rust",
+  "name": "sb_rust",
+  "friendlyName": "Rust",
 
-  "spawnProfile" : {
-    "groups" : [
-      {
-        "select" : 2,
-        "pool" : [ 
+  "spawnProfile": {
+    "groups": [{
+        "select": 2,
+        "pool": [
           [1, "bobot"],
           [1, "scandroid"]
         ]
@@ -15,86 +14,77 @@
     ]
   },
 
-  "mainBlock" : "rock19",
-  "subBlocks" : ["ash", "blaststone"],
-  "ores" : "surface",
+  "mainBlock": "rock19",
+  "subBlocks": ["ash", "blaststone"],
+  "ores": "surface",
 
-  "surfacePlaceables" : {
-    "grassMod" : ["metal"],
-    "grassModDensity" : 0.8,
+  "surfacePlaceables": {
+    "grassMod": ["metal"],
+    "grassModDensity": 0.8,
 
-    "items" : [
-      {
-        "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+    "items": [{
+        "mode": "floor",
+        "priority": 1,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:surfaceCapsules",
 
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+        "type": "object",
+        "objectSets": [{
+            "pool": [[0.35, "capsulesmall"], [0.35, "capsulemed"], [0.35, "capsulebig"]],
+            "parameters": {}
+          }
+        ]
+      }, {
+        "mode": "floor",
+        "priority": 1,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:denseLarge",
+
+        "type": "tree",
+        "treeFoliageHueShiftMax": 0,
+        "treeStemHueShiftMax": 0,
+        "treeStemList": ["rust"],
+        "treeFoliageList": ["rustflower"]
+      }, {
+        "mode": "floor",
+        "priority": 0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:minibiomeChests",
+
+        "type": "treasureBox",
+        "treasureBoxSets": ["sb_rustChest"]
+      }, {
+        "mode": "floor",
+        "priority": 4,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:scatteredSmall",
+
+        "type": "grass",
+        "grasses": ["rustflower"]
+      }, {
+        "mode": "floor",
+        "priority": 3,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:denseMedium",
+
+        "type": "object",
+        "objectSets": [{
+            "pool": [[0.35, "rustbush1"], [0.35, "rustbush2"], [0.35, "rustbush3"], [0.35, "rustbush4"]],
+            "parameters": {}
           }
         ]
       },
       {
-        "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseLarge",
+        "mode": "floor",
+        "priority": 1,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:surfaceCrops",
 
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 0,
-        "treeStemList" : ["rust"],
-        "treeFoliageList" : ["rustflower"]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:minibiomeChests",
-
-        "type" : "treasureBox",
-        "treasureBoxSets" : ["sb_rustChest"]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 4.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-        "type" : "grass",
-        "grasses" : ["rustflower"]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 3,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [[0.35,"rustbush1"], [0.35,"rustbush2"], [0.35,"rustbush3"], [0.35,"rustbush4"]],
-            "parameters" : { }
-          }
-        ]
-      },
-
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:surfaceCrops",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [[1, "wilddiodiaseed"]],
-            "parameters" : {
-              "startingStage" : 2
+        "type": "object",
+        "objectSets": [{
+            "pool": [[1, "wilddiodiaseed"]],
+            "parameters": {
+              "startingStage": 2
             }
           }
         ]
@@ -102,30 +92,27 @@
     ]
   },
 
-  "undergroundPlaceables" : {
-    "items" : [
-      {
-        "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+  "undergroundPlaceables": {
+    "items": [{
+        "mode": "floor",
+        "priority": 1,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundCapsules",
 
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+        "type": "object",
+        "objectSets": [{
+            "pool": [[0.35, "capsulesmall"], [0.35, "capsulemed"], [0.35, "capsulebig"]],
+            "parameters": {}
           }
         ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 0.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:minibiomeChests",
+      }, {
+        "mode": "floor",
+        "priority": 0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:minibiomeChests",
 
-        "type" : "treasureBox",
-        "treasureBoxSets" : ["sb_rustChest"]
+        "type": "treasureBox",
+        "treasureBoxSets": ["sb_rustChest"]
       }
     ]
   }

@@ -2,12 +2,15 @@
   "id": "sb_robot",
   "prerequisites": ["mechunlock"],
   "title": "^#9be3d6;One Person's Trash...",
-  "text": "Heya, friendo! I've got another task for you-- a two-for-one kinda deal. One of my suppliers found some sorta tattered robot blueprint in an old desert landfill. Now, normally I don't care much about other people's toys, but from what I can gather, ^green;the bot is capable of producing some sorta advanced ^orange;processor^reset;, and I'd very much like to get my flippers on one. ^green;Think you could build the bot and see what happens?^reset;",
+  "text": "Heya, friendo! I've got another task for you-- a two-for-one kinda deal. One of my suppliers found some sorta tattered robot blueprint in an old desert landfill. Now, normally I don't care much about other people's toys, but from what I gather, ^green;the bot produces some advanced ^orange;processor^reset;, and I'd very much like to get my flippers on one. ^green;Think you could build the ^orange;Inactive Robot^green; at an ^orange;Iron Tool Table^green; and see what happens?^reset;", //direct player to iron table instead of upgraded inventors b/c the robot parts are crafted there
   "completionText": "The bot attacked you?! I'm glad you survived, and you've even got the processor! The supplier and I did some more work on deciphering the blueprint notes; those processors are great for compact synchronized automation stations. This'll help a lot, thanks! Why don't you help yourself to some spare mech components I have laying around?",
   "speaker": "questGiver",
   "moneyRange": [300, 300],
   "canBeAbandoned": true,
-  "rewards": [[["salvagebody", 10], ["salvagelegs", 10], ["salvagebooster", 10], ["rewardbag", 1, {"level":3}]]],
+  "rewards": [[["salvagebody", 10], ["salvagelegs", 10], ["salvagebooster", 10], ["rewardbag", 1, {
+          "level": 3
+        }
+      ]]],
 
   "guiConfigs": {
     "questComplete": "/interface/windowconfig/sb_questcomplete.config",
@@ -20,11 +23,17 @@
   "scriptConfig": {
     "portraits": {
       "questStarted": {
-        "portrait": [{"image":"/quests/outpost/penguinscientistportrait.png"}],
+        "portrait": [{
+            "image": "/quests/outpost/penguinscientistportrait.png"
+          }
+        ],
         "title": "Dr. Akaggy"
       },
       "questComplete": {
-        "portrait": [{"image":"/quests/outpost/penguinscientistportrait.png"}],
+        "portrait": [{
+            "image": "/quests/outpost/penguinscientistportrait.png"
+          }
+        ],
         "title": "Dr. Akaggy"
       }
     },
@@ -32,6 +41,7 @@
     "sb_acceptBlueprints": ["sb_robot", "sb_robotheadempty", "robothead", "robotarms", "robotchest", "robotlegs"],
     "turnInDescription": "Return to ^orange;Dr. Akaggy^reset; at the ^orange;Outpost^reset;",
     "conditions": [{
+        "description": "Craft ^orange;Inactive Robot^reset; to obtain ^orange;Processor^reset;",
         "type": "gatherItem",
         "itemName": "processor",
         "count": 1,

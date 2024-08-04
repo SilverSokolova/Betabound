@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_ceruliumbar",2],["wire",5],["smallbattery",2]],
-  "output" : "waveswitch",
-  "groups" : ["craftingwiring","switches","all"]
+  "input": [["sb_ceruliumbar",2],["wire",5],["smallbattery",2]],
+  "output": "waveswitch",
+  "groups": ["craftingwiring","switches","all"]
 }

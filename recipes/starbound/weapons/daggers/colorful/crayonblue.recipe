@@ -1,5 +1,5 @@
 {
-  "input" : [["rainbowwood",50],["liquidoil",10],["bluedye",3]],
-  "output" : "sb_crayonblue",
-  "groups" : ["craftinganvil2","weapons","all"]
+  "input": [["rainbowwood",50],["liquidoil",10],["bluedye",3]],
+  "output": "sb_crayonblue",
+  "groups": ["craftinganvil2","weapons","all"]
 }

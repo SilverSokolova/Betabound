@@ -1,5 +1,5 @@
 {
-  "input" : [["icecrystal",20],["snowball",3]],
-  "output" : "sb_geometricchest",
-  "groups" : ["craftingfurniture","storage","all"]
+  "input": [["icecrystal",20],["snowball",3]],
+  "output": "sb_geometricchest",
+  "groups": ["craftingfurniture","storage","all"]
 }

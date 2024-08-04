@@ -1,5 +1,5 @@
 {
-  "input" : [["darkwoodmaterial",5],["polymer",5],"sb_steelbar","siliconboard"],
-  "output" : "spaceorgan",
-  "groups" : ["sb_roboticcraftingtable","sb_instruments","all"]
+  "input": [["darkwoodmaterial",5],["polymer",5],"sb_steelbar","siliconboard"],
+  "output": "spaceorgan",
+  "groups": ["sb_roboticcraftingtable","sb_instruments","all"]
 }

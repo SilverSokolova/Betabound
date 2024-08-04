@@ -1,5 +1,5 @@
 {
-  "input" : [["refinedviolium",6],["durasteelbar",4]],
-  "output" : "sb_novatier5srifle",
-  "groups" : ["craftingaccelerator","weapons","all"]
+  "input": [["refinedviolium",6],["durasteelbar",4]],
+  "output": "sb_novatier5srifle",
+  "groups": ["craftingaccelerator","weapons","all"]
 }

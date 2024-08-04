@@ -1,5 +1,5 @@
 {
-  "input" : [["refinedaegisalt",6],["durasteelbar",4],"venomsample"],
-  "output" : "sb_aviantier5aspear",
-  "groups" : ["craftingseparator","weapons","all"]
+  "input": [["refinedaegisalt",6],["durasteelbar",4],"venomsample"],
+  "output": "sb_aviantier5aspear",
+  "groups": ["craftingseparator","weapons","all"]
 }

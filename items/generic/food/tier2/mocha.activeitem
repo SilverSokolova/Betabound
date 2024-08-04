@@ -1,5 +1,5 @@
 {
-  "sb_itemName": "mocha.consumable",
+  "originalItemName": "mocha.consumable",
   "itemName": "mocha",
   "shortdescription": "Mochaccino",
   "animation": "/items/sb_consumable.animation",

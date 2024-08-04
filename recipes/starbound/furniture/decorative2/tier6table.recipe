@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_feroziumbar",2]],
-  "output" : "geometrictable",
-  "groups" : ["craftingfurniture2","decoration","all"]
+  "input": [["sb_feroziumbar",2]],
+  "output": "geometrictable",
+  "groups": ["craftingfurniture2","decoration","all"]
 }

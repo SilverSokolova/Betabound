@@ -1,5 +1,5 @@
 {
-  "input" : ["skyrail_asc"],
-  "output" : "skyrail_desc",
-  "groups" : ["sb_skyrailtable","sb_skyrails","all"]
+  "input": ["skyrail_asc"],
+  "output": "skyrail_desc",
+  "groups": ["sb_skyrailtable","sb_skyrails","all"]
 }

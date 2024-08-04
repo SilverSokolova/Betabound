@@ -1,6 +1,6 @@
-local ini = init or 0
+local originalInit = init or function() end
 
-function init() if type(ini) == "function" then ini() end
+function init() originalInit()
   sb_techTier = player.getProperty("sb_techTier") --TODO: could we move this to the if statement below? or the return?
   if config.getParameter("sb_useTechTier", false) then
     root.sb_createTreasure = root.createTreasure

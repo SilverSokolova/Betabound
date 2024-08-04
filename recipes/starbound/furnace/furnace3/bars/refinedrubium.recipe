@@ -1,6 +1,6 @@
 {
-  "input" : [["sb_rubiumore",2]],
-  "output" : "sb_refinedrubium",
-  "duration" : 0.15,
-  "groups" : ["craftingfurnace3","bars","all"]
+  "input": [["sb_rubiumore",2]],
+  "output": "sb_refinedrubium",
+  "duration": 0.15,
+  "groups": ["craftingfurnace3","bars","all"]
 }

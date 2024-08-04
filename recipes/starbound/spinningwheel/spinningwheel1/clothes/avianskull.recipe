@@ -1,5 +1,5 @@
 {
-  "input" : ["avianfossil1"],
-  "output" : "avianskullhead",
-  "groups" : ["craftingwheel","clothes","all"]
+  "input": ["avianfossil1"],
+  "output": "avianskullhead",
+  "groups": ["craftingwheel","clothes","all"]
 }

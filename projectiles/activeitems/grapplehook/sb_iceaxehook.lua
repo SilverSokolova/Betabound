@@ -1,6 +1,6 @@
-local ini = init or function() end
+local originalInit = init or function() end
 
 function init()
-  ini()
+  originalInit()
   mcontroller.setRotation(45)
 end

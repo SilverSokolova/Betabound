@@ -1,5 +1,5 @@
 {
-  "input" : ["sb_imperviumbar"],
-  "output" : "sb_tier6stechchest",
-  "groups" : ["craftingfurniture2","storage","all"]
+  "input": ["sb_imperviumbar"],
+  "output": "sb_tier6stechchest",
+  "groups": ["craftingfurniture2","storage","all"]
 }

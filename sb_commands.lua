@@ -1,9 +1,9 @@
 local v = {}
-local sb_command = command or function() return nil end
-local ini = init or function() end
+local originalCommand = command or function() return nil end
+local originalInit = init or function() end
 
-function init() ini() require("/scripts/sb_assetmissing.lua") sb_techType() end
-function command(a,b,d) if sb_command then if sb_command(a,b,d) ~= nil then return sb_command(a,b,d) end end if v[a] then return v[a](b,d) else return string.format(root.assetJson("/sb_commands.config").noSuchCommand,a) end end
+function init() originalInit() require("/scripts/sb_assetmissing.lua") sb_techType() end
+function command(a,b,d) if originalCommand then if originalCommand(a,b,d) ~= nil then return originalCommand(a,b,d) end end if v[a] then return v[a](b,d) else return string.format(root.assetJson("/sb_commands.config").noSuchCommand,a) end end
 
 local function cutColors(text) return string.gsub(string.gsub(text, "(%^.-%;)", ""),("\n"),"") end
 
@@ -50,17 +50,9 @@ function v.itemID(_,it,detailed) local text = root.assetJson("/sb_commands.confi
   end
 end
 
-function v.sb_foodvalue(_,it) local text = root.assetJson("/sb_commands.config")
-  it=it[1] or "alienmeat"
-  if not sb_itemExists(it) then return string.format(text.itemID.noItem,it) else
-  local item = root.itemConfig(it)
-  return (item.config.shortdescription or "???")..": "..(item.config.foodValue or 0).." (Price: "..(item.config.price or 0)..")"
-  end
-end
-
 function v.sb_foodweight(_,it) local text = root.assetJson("/sb_commands.config")
   s="^#ff0;"
-  it=it or {"aliensteak"}
+  it=it or {"cookedalienmeat"}
   it=type(it)=="table" and it or {it}
   for i = 1, #it do
     if not sb_itemExists(it[i]) then s = s..string.format(text.itemID.noItem,it[i]).."\n^#ff0;" else

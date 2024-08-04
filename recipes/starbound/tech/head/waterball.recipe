@@ -1,6 +1,7 @@
 {
   "input": [
-    ["sb_tech",1,{"techModule":"distortionsphere"}],//not morphball: no bombs
+    ["sb_tech",1,{"techModule":"aquasphere"}],//not morphball: no bombs. aqua b/c water theme
+    ["sb_tech",1,{"techModule":"sb_bounce"}],
     ["sb_tech",1,{"techModule":"sb_groundsmash"}]
   ],
   "matchInputParameters": true,

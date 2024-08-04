@@ -56,6 +56,7 @@
 
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "elementalType": "physical",
+  "projectileDamageMultiplier": 0.4,
   "primaryAbilityType": "sb_meleeslash",
   "primaryAbility": {
     "fireTime": [0.6, 0.9],

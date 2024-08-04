@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_ceruliumcompound",12],"battery"],
-  "output" : "sb_floranleafstaff2",
-  "groups" : ["craftingmanipulator","weapons","all"]
+  "input": [["sb_ceruliumcompound",12],"battery"],
+  "output": "sb_floranleafstaff2",
+  "groups": ["craftingmanipulator","weapons","all"]
 }

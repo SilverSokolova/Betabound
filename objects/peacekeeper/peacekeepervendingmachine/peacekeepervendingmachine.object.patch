@@ -1,5 +1,6 @@
 [
 [{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Rare"}],
+//TODO: remove everything but the rarity change once patch project accepts it
 [{"op":"test","path":"/shortdescription","value":"Peacekeeper Vending Machine"},{"op":"replace","path":"/shortdescription","value":"Donut Vending Machine"}],
 
 [{"op":"test","path":"/orientations/0/collisionSpaces","value":[[-1,3],[0,3]]},{"op":"remove","path":"/orientations/0/collisionSpaces"}],

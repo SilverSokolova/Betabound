@@ -1,23 +1,23 @@
 {
-  "animatedParts" : {
-    "stateTypes" : {
-      "bouncing" : {
-        "default" : "off",
-        "states" : {
-          "off" : {},
-          "on" : {}
+  "animatedParts": {
+    "stateTypes": {
+      "bouncing": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "on": {}
         }
       }
     },
 
-    "parts" : {
-      "bubble" : {
-        "partStates" : {
-          "bouncing" : {
-            "on" : {
-              "properties" : {
-                "centered" : true,
-                "image" : "bubble.png"
+    "parts": {
+      "bubble": {
+        "partStates": {
+          "bouncing": {
+            "on": {
+              "properties": {
+                "centered": true,
+                "image": "bubble.png"
               }
             }
           }
@@ -25,9 +25,10 @@
       }
     }
   },
-  
-  "sounds" : {
-    "activate" : ["/sfx/tech/tech_doublejump.ogg"],
-    "deactivate" : ["/sfx/tech/tech_blink2.ogg"]
+
+  "sounds": {
+    "activate": ["/sfx/tech/tech_doublejump.ogg"],
+    "deactivate": ["/sfx/tech/tech_blink2.ogg"],
+    "bounce": ["/sfx/projectiles/petball_bounce.ogg"]
   }
 }

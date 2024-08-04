@@ -1,9 +1,9 @@
 {
   "projectileName": "sb_splashspawner2",
-  "image": "splashspawner1.png",
+  "image": "/projectiles/invisibleprojectile/invisibleprojectile.png",
   "physics": "gas",
-  "animationCycle": 0,
-  "frameNumber": 8,
+  "animationCycle": 1,
+  "frameNumber": 1,
   "speed": 1,
   "pointLight": false,
   "timeToLive": 0,

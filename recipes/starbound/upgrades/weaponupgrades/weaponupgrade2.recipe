@@ -1,5 +1,5 @@
 {
-  "input" : ["upgrademodule",["tungstenbar",10]],
-  "output" : "sb_weaponupgrade2",
-  "groups" : ["sb_ironcraftingtable","upgrades","all"]
+  "input": ["upgrademodule",["tungstenbar",10]],
+  "output": "sb_weaponupgrade2",
+  "groups": ["sb_ironcraftingtable","upgrades","all"]
 }

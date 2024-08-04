@@ -1,5 +1,5 @@
 {
-  "sb_itemName": "coffee.consumable",
+  "originalItemName": "coffee.consumable",
   "itemName": "coffee",
   "shortdescription": "Coffee",
   "animation": "/items/sb_consumable.animation",

@@ -1,5 +1,5 @@
 {
-  "input" : [["liquidlava",3],"polymer"],
-  "output" : "lavaballoon",
-  "groups" : ["plain","consumables","all"]
+  "input": [["liquidlava",3],"polymer"],
+  "output": "lavaballoon",
+  "groups": ["plain","consumables","all"]
 }

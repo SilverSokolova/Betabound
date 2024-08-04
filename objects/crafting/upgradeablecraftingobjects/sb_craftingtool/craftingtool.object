@@ -81,7 +81,6 @@
       "animationState": "stage2",
 
       "itemSpawnParameters": {
-        "rarity": "rare",
         "price": 400,
         "inventoryIcon": "icon2.png",
         "placementImage": "tool2.png:default.default",
@@ -129,7 +128,6 @@
       "animationState": "stage3",
 
       "itemSpawnParameters": {
-        "rarity": "legendary",
         "inventoryIcon": "icon3.png",
         "placementImage": "tool3/tool3.png:default.default",
 

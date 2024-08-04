@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_refinedrubium",6],["durasteelbar",6],"battery",["uraniumrod",6],["toxicwaste",25]],
-  "output" : ["sb_uraniumrodstaff",1,{"crafted":true}],
-  "groups" : ["craftingmanipulator","weapons","all"]
+  "input": [["refinedferozium",6],["durasteelbar",6],"battery",["uraniumrod",6],["toxicwaste",25]],
+  "output": ["sb_uraniumrodstaff",1,{"crafted":true}],
+  "groups": ["craftingmanipulator","weapons","all"]
 }

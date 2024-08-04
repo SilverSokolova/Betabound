@@ -105,6 +105,7 @@
     "landing": ["/sfx/gun/grenadeblast2.ogg"],
     "activate": ["/sfx/tech/tech_sphere_transform.ogg"],
     "deactivate": ["/sfx/tech/tech_sphere_transform.ogg"],
-    "forceDeactivate": ["/sfx/tech/tech_sonicsphere_charge1.ogg"]
+    "forceDeactivate": ["/sfx/tech/tech_sonicsphere_charge1.ogg"],
+    "splash": ["/sfx/projectiles/waterballoon1.ogg", "/sfx/projectiles/waterballoon2.ogg", "/sfx/projectiles/waterballoon3.ogg", "/sfx/projectiles/waterballoon4.ogg", "/sfx/projectiles/waterballoon5.ogg", "/sfx/projectiles/waterballoon6.ogg"]
   }
 }

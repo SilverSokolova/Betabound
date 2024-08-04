@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/description","value":"Primary fire applies paint, secondary changes colour. ^green;Quick select with [Y] key."},{"op":"replace","path":"/description","value":"Primary fire applies paint, secondary changes colour."}],
+
+[{"op":"test","path":"/description","value":"Primary fire applies paint, secondary changes colour. ^green;Quick select with [Y] key.^reset;"},{"op":"replace","path":"/description","value":"Primary fire applies paint, secondary changes colour."}] //patch project
+]

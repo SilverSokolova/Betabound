@@ -1,66 +1,74 @@
 {
-  "name" : "sb_humanmech",
-  "type" : "head",
-  "scripts" : ["/tech/starbound/vehicle.lua"],
-  "animator" : "mech.animation",
-  "rarity" : "legendary",
-  "icon" : "/tech/starbound/humanmech.png",
-  "shortDescription" : "Human Mech",
-  "description" : "^#0F0;[F]^reset; Use this tech, spawn a mech, then destroy things.",// ^#0F0;[SHIFT]^reset; to swap weapons.",
+  "name": "sb_humanmech",
+  "type": "head",
+  "scripts": ["/tech/starbound/vehicle.lua"],
+  "animator": "mech.animation",
+  "rarity": "legendary",
+  "icon": "/tech/starbound/humanmech.png",
+  "shortDescription": "Human Mech",
+  "description": "^#0F0;[F]^reset; Summons an Earthcorp X5C-1 Versitile Scout mech.", // ^#0F0;[SHIFT]^reset; to swap weapons.",
 
-  "mechStats" : [
-    {"stat":"breathProtection","amount":1},
-    {"stat":"fallDamageMultiplier","effectiveMultiplier":0.1},
-    {"stat":"maxHealth","amount":90},
-    {"stat":"grit","amount":9}
+  "mechStats": [{
+      "stat": "breathProtection",
+      "amount": 1
+    }, {
+      "stat": "fallDamageMultiplier",
+      "effectiveMultiplier": 0.1
+    }, {
+      "stat": "maxHealth",
+      "amount": 90
+    }, {
+      "stat": "grit",
+      "amount": 9
+    }
   ],
 
-  "mechCustomMovementParameters" : { //3x 3.7
-    "collisionPoly" : [[-3.5, -2.0], [-2, -4.5], [2, -4.5], [3.5, -2.0], [3.5, 2], [2, 3], [-2, 3], [-3.5, 2]],
-    "crouchingPoly" : [[-3.5, -2.0], [-2, -4.5], [2, -4.5], [3.5, -2.0], [3.5, 2], [2, 3], [-2, 3], [-3.5, 2]],
-    "mass" : 5,
+  "mechCustomMovementParameters": { //3x 3.7
+    "collisionPoly": [[-3.5, -2.0], [-2, -4.5], [2, -4.5], [3.5, -2.0], [3.5, 2], [2, 3], [-2, 3], [-3.5, 2]],
+    "crouchingPoly": [[-3.5, -2.0], [-2, -4.5], [2, -4.5], [3.5, -2.0], [3.5, 2], [2, 3], [-2, 3], [-3.5, 2]],
+    "mass": 5,
 
-    "groundFriction" : 50,
-    "ambulatingGroundFriction" : 0,
-    "skiddingGroundFriction" : 0,
+    "groundFriction": 50,
+    "ambulatingGroundFriction": 0,
+    "skiddingGroundFriction": 0,
 
-    "groundForce" : 60,
-    "airForce" : 50,
-    "liquidForce" : 70,
+    "groundForce": 60,
+    "airForce": 50,
+    "liquidForce": 70,
 
-    "walkSpeed" : 12,
-    "runSpeed" : 12,
+    "walkSpeed": 12,
+    "runSpeed": 12,
 
-    "airJumpProfile" : {
-      "jumpSpeed" : 90,
-      "jumpControlForce" : 800,
-      "jumpInitialPercentage" : 0.45,
-      "jumpHoldTime" : 0.15
+    "airJumpProfile": {
+      "jumpSpeed": 90,
+      "jumpControlForce": 800,
+      "jumpInitialPercentage": 0.45,
+      "jumpHoldTime": 0.15
     },
 
-    "liquidJumpProfile" : {
-      "jumpSpeed" : 60,
-      "jumpControlForce" : 400,
-      "jumpInitialPercentage" : 0.75,
-      "jumpHoldTime" : 0.15,
-      "multiJump" : false
+    "liquidJumpProfile": {
+      "jumpSpeed": 60,
+      "jumpControlForce": 400,
+      "jumpInitialPercentage": 0.75,
+      "jumpHoldTime": 0.15,
+      "multiJump": false
     }
   },
 
-  "energyCostPerSecond" : 0.5,
-  "warpDirectives" : "?fade=CCFF=0.25",
-  "mechTransformPositionChange" : [0, 0],
-  "parentOffset" : [2, 1.2],
-  "lightActive" : true,
-  "suppressTools" : true,
-  "mechCollisionTest" : [-3.5, -2.5, 3.5, 5],
-  "mechType" : "human",
-  "mechGunType" : "human",
-  "mechAimLimit" : 40,
-  "mechBackGunAngle" : 3.1,
-  "mechFireCycle" : 0.25,
-  "mechProjectile" : ["bullet-1","flame"],
-  "mechProjectileConfig" : {
-    "power" : 5
+  "energyCostPerSecond": 0.5,
+  "warpDirectives": "?fade=CCFF=0.25",
+  "mechTransformPositionChange": [0, 0],
+  "parentOffset": [2, 1.2],
+  "lightActive": true,
+  "suppressTools": true,
+  "mechCollisionTest": [-3.5, -2.5, 3.5, 5],
+  "mechType": "human",
+  "mechGunType": "human",
+  "mechAimLimit": 40,
+  "mechBackGunAngle": 3.1,
+  "mechFireCycle": 0.25,
+  "mechProjectile": ["bullet-1", "flame"],
+  "mechProjectileConfig": {
+    "power": 5
   }
 }

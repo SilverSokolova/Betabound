@@ -1,6 +1,6 @@
 {
-  "input" : ["rawpoultry","oculemon","chili"],
-  "output" : "sb_roastpoultry",
-  "groups" : ["craftingfood","mains","sb_health","sb_nova","sb_other","sb_healing","all"],
-  "collectables" : {"cooking":"sb_roastpoultry"}
+  "input": ["rawpoultry","oculemon","chili"],
+  "output": "sb_roastpoultry",
+  "groups": ["craftingfood","mains","sb_health","sb_nova","sb_other","sb_healing","all"],
+  "collectables": {"cooking":"sb_roastpoultry"}
 }

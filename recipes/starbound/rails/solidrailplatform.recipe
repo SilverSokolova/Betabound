@@ -1,6 +1,6 @@
 {
-  "input" : [["wire",8],["smallbattery",2],["sb_steelbar",5]],
-  "output" : "sb_solidrailplatform",
-  "duration" : 3,
-  "groups" : ["rail","all"]
+  "input": [["wire",8],["smallbattery",2],["sb_steelbar",5]],
+  "output": "sb_solidrailplatform",
+  "duration": 3,
+  "groups": ["rail","all"]
 }

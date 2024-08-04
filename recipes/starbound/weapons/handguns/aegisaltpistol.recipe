@@ -1,5 +1,5 @@
 {
-  "input" : [["refinedaegisalt",3],"durasteelbar"],
-  "output" : "sb_aegisaltpistol",
-  "groups" : ["craftingaccelerator","weapons","all"]
+  "input": [["refinedaegisalt",3],"durasteelbar"],
+  "output": "sb_aegisaltpistol",
+  "groups": ["craftingaccelerator","weapons","all"]
 }

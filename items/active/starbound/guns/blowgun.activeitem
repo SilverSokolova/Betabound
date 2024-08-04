@@ -29,6 +29,7 @@
   "twoHanded": false,
   "fixedLevel": false,
   "level": 1,
+  "elementalType": "poison",
   "primaryAbilityType": "sb_gun",
   "primaryAbility": {
     "fireTime": 1.25,

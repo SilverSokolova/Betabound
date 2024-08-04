@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_steelbar",3],["polymer",3]],
-  "output" : "steeldrum",
-  "groups" : ["sb_ironcraftingtable","sb_instruments","all"]
+  "input": [["sb_steelbar",3],["polymer",3]],
+  "output": "steeldrum",
+  "groups": ["sb_ironcraftingtable","sb_instruments","all"]
 }

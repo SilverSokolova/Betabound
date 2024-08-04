@@ -2,6 +2,7 @@ function projectileInit(self, primaryAbility)
   self.projectilePower = self.damageConfig.baseDamage * config.getParameter("damageLevelMultiplier",1) * config.getParameter("projectileDamageMultiplier",0.6)
   self.projectileType = primaryAbility.projectileType or false
   self.projectileId = world.spawnProjectile("invisibleprojectile", {0, -99})
+  self.projectileConfig = primaryAbility.projectileConfig or {}
   self.projectileCount = self.projectileCount or 1
   if self.projectileType then self.projectileOffset = primaryAbility.projectileOffset or {0, 0.1} end
 end
@@ -15,12 +16,14 @@ function projectileFire(self)
 
     local handPosition = self.handPositionOffset and activeItem.handPosition(self.handPositionOffset) or {0, 0}
     for i = 1, self.projectileCount do
-      local position = self.holdDamageConfig and vec2.add(mcontroller.position(), activeItem.handPosition({-3, 7}))
-        or vec2.add(vec2.add(mcontroller.position(), handPosition), {self.projectileOffset[1] * mcontroller.facingDirection(), (-1.5 + self.projectileOffset[2])})
-      local params = {
+      local position = mcontroller.position()
+      position = {position[1], position[2] - (mcontroller.crouching() and 0.75 or 0)} --0.75 to keep starcleaver above ground
+      position = self.holdDamageConfig and vec2.add(position, activeItem.handPosition({-3, 7}))
+        or vec2.add(vec2.add(position, handPosition), {self.projectileOffset[1] * mcontroller.facingDirection(), (-1.5 + self.projectileOffset[2])})
+      local params = sb.jsonMerge({
         powerMultiplier = activeItem.ownerPowerMultiplier(),
         power = self.projectilePower
-      }
+      }, self.projectileConfig)
       self.projectileId = world.spawnProjectile(self.projectileType, position, activeItem.ownerEntityId(), aimVector, false, params)
     end
   end

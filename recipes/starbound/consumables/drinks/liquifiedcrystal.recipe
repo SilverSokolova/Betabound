@@ -1,6 +1,6 @@
 {
-  "input" : ["crystalplant"],
-  "output" : "sb_liquifiedcrystal",
-  "groups" : ["craftingfood","drinks","sb_healing","sb_glow","sb_t1food","all"],
-  "collectables" : {"cooking":"sb_liquifiedcrystal"}
+  "input": ["crystalplant"],
+  "output": "sb_liquifiedcrystal",
+  "groups": ["craftingfood","drinks","sb_healing","sb_glow","sb_t1food","all"],
+  "collectables": {"cooking":"sb_liquifiedcrystal"}
 }

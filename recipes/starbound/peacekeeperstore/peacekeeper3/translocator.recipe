@@ -1,5 +1,5 @@
 {
-  "input" : [["peacecredit",15],"teleportercore"],
-  "output" : "translocator",
-  "groups" : ["peacekeeper3","all"]
+  "input": [["peacecredit",15],"teleportercore"],
+  "output": "translocator",
+  "groups": ["peacekeeper3","all"]
 }

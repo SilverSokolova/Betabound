@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_imperviumbar",2],["fabric",10],["silk",3]],
-  "output" : "executivebed",
-  "groups" : ["craftingfurniture2","beds","all"]
+  "input": [["sb_imperviumbar",2],["fabric",10],["silk",3]],
+  "output": "executivebed",
+  "groups": ["craftingfurniture2","beds","all"]
 }

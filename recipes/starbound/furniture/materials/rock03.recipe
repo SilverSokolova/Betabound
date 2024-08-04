@@ -1,6 +1,6 @@
 {
-  "input" : ["cobblestonematerial"],
-  "output" : "rock03",
-  "groups"  : ["craftingfurniture","materials","all"],
-  "duration" : 0.1
+  "input": ["cobblestonematerial"],
+  "output": "rock03",
+  "groups": ["craftingfurniture","materials","all"],
+  "duration": 0.1
 }

@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_imperviumcompound",3],["solariumstar",2]],
-  "output" : "sb_florantier6sshortsword",
-  "groups" : ["craftingseparator","weapons","all"]
+  "input": [["sb_imperviumcompound",3],["solariumstar",2]],
+  "output": "sb_florantier6sshortsword",
+  "groups": ["craftingseparator","weapons","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_refinedrubium",3],"durasteelbar"],
-  "output" : "sb_novatier5mrevolver",
-  "groups" : ["craftingaccelerator","weapons","all"]
+  "input": [["sb_refinedrubium",3],"durasteelbar"],
+  "output": "sb_novatier5mrevolver",
+  "groups": ["craftingaccelerator","weapons","all"]
 }

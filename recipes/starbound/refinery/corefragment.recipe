@@ -1,6 +1,6 @@
 {
-  "input" : ["corefragmentore"],
-  "output" : ["money",10],
-  "duration" : 0.5,
-  "groups" : ["refinery","all"]
+  "input": ["corefragmentore"],
+  "output": ["money",10],
+  "duration": 0.5,
+  "groups": ["refinery","all"]
 }

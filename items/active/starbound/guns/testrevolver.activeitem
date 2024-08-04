@@ -4,6 +4,9 @@
   "itemTags": ["weapon", "ranged", "pistol", "revolver", "novakid"],
   "rarity": "essential",
   "configOverrides": {
+    "tooltipFields": {
+      "objectImage": "/items/active/starbound/guns/revolver.png"
+    },
     "inventoryIcon": "revolvericon.png",
     "animationParts": {
       "middle": "revolver.png"

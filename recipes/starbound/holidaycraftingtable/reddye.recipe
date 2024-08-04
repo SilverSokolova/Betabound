@@ -1,6 +1,6 @@
 {
-  "input" : ["holidayspirit","bottle"],
-  "output" : "reddye",
-  "duration" : 0,
-  "groups" : ["holidaycraftingtable","consumables","all","nouncrafting"]
+  "input": ["holidayspirit","bottle"],
+  "output": "reddye",
+  "duration": 0,
+  "groups": ["holidaycraftingtable","consumables","all","nouncrafting"]
 }

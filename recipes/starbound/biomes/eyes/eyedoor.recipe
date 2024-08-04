@@ -1,5 +1,5 @@
 {
-  "input" : [["eyepiles",35],"goldbar"],
-  "output" : "sb_eyedoor",
-  "groups" : ["craftingfurniture","doors","objects","all"]
+  "input": [["eyepiles",35],"goldbar"],
+  "output": "sb_eyedoor",
+  "groups": ["craftingfurniture","doors","objects","all"]
 }

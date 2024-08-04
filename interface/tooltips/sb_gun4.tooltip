@@ -21,7 +21,8 @@
     "position": [11, 109],
     "hAnchor": "left",
     "vAnchor": "top",
-    "wrapWidth": 126
+    "wrapWidth": 126,
+    "lineSpacing": 0.9
   },
   "ammoLabel": {
     "type": "label",

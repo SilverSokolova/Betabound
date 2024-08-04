@@ -1,5 +1,5 @@
 {
-  "input" : [["rainbowwood",15],["fabric",10]],
-  "output" : "rainbowwoodbed",
-  "groups" : ["craftingfurniture","beds","all"]
+  "input": [["rainbowwood",15],["fabric",10]],
+  "output": "rainbowwoodbed",
+  "groups": ["craftingfurniture","beds","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "sb_itemName": "kelp.item",
+  "originalItemName": "kelp.item",
   "itemName": "kelp",
   "shortdescription": "Kelp",
   "foodValue": 1.5,

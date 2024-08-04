@@ -1,11 +1,11 @@
 require "/scripts/sb_uimessage.lua"
 
-local ini = init or function() end
-local updat = update or function() end
-local applyDamageReques = applyDamageRequest or function() end
-local overheadBar = overheadBars or function() end
+local originalInit = init or function() end
+local originalUpdate = update or function() end
+local originalApplyDamageRequest = applyDamageRequest or function() end
+local originalOverheadBars = overheadBars or function() end
 
-function init() ini()
+function init() originalInit()
   player = math.betabound_player
   sb_shieldAlpha = {0,0,0,0}
   sb_lastHunger = math.floor(status.resourcePercentage("food")*100)
@@ -14,7 +14,7 @@ function init() ini()
   sb_hungerPopups = root.assetJson("/betabound.config:hungerPopups")
 end
 
-function update(dt) updat(dt)
+function update(dt) originalUpdate(dt)
   if player and not starExtensions then
     animator.setAnimationState("sb_flames", not player.isLounging() and not mcontroller.zeroG() and mcontroller.yVelocity() <= -170 and "flames" or "none")
   end
@@ -53,18 +53,18 @@ function applyDamageRequest(damageRequest)
     local maxReduction = math.min(damageRequest.damage, (status.resource("energy")/2) * forceFieldStrength)
     status.overConsumeResource("energy", maxReduction)
     damageRequest.damage = damageRequest.damage - maxReduction
-    return applyDamageReques(damageRequest)
+    return originalApplyDamageRequest(damageRequest)
   end
 
   if status.resourcePositive("sb_shieldStaminaT") then
     if damageRequest.sourceEntityId == -65536 then --NOTE: this does not block self-inflicted projectile damage such as bombs
-      applyDamageReques(damageRequest)
+      originalApplyDamageRequest(damageRequest)
     else
       damageRequest.damage = 0
-      return applyDamageReques(damageRequest)
+      return originalApplyDamageRequest(damageRequest)
     end
   end
-  if damageRequest.hitType ~= "ShieldHit" or damageRequest.sourceEntityId == -65536 then return applyDamageReques(damageRequest) end
+  if damageRequest.hitType ~= "ShieldHit" or damageRequest.sourceEntityId == -65536 then return originalApplyDamageRequest(damageRequest) end
   local oldDamage = damageRequest.damage
   damageRequest.damage = damageRequest.damage + root.evalFunction2("protection", damageRequest.damage, status.stat("protection"))/4
   if damageRequest.damage <= 0 then return {} end
@@ -74,7 +74,7 @@ function applyDamageRequest(damageRequest)
     return sb_applyShieldDamage("R",damageRequest)
   else
     damageRequest.damage = oldDamage
-    return applyDamageReques(damageRequest)
+    return originalApplyDamageRequest(damageRequest)
   end
 end
 
@@ -95,7 +95,7 @@ end
 
 function overheadBars()
   if not player then player = math.betabound_player end
-  local bars = overheadBar()
+  local bars = originalOverheadBars()
   sb.setLogMap("sb_shields","%s (%s), %s (%s), %s",status.resource("sb_shieldStaminaL"),status.stat("sb_shieldHealthL"),status.resource("sb_shieldStaminaR"),status.stat("sb_shieldHealthR"),status.resource("sb_forceFieldStrength"))
   sb.setLogMap("sb_techtier","%s",player and player.getProperty("sb_techTier","-") or "UNAVAILABLE")
 

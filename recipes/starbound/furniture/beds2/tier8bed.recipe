@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_violiumbar",2],["fabric",10],["silk",3]],
-  "output" : "opulentbed",
-  "groups" : ["craftingfurniture2","beds","all"]
+  "input": [["sb_violiumbar",2],["fabric",10],["silk",3]],
+  "output": "opulentbed",
+  "groups": ["craftingfurniture2","beds","all"]
 }

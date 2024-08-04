@@ -1,5 +1,5 @@
 {
-  "input" : [["ironbar",2],"darkwoodmaterial"],
-  "output" : "sb_hylotltier1dagger",
-  "groups" : ["craftinganvil","weapons","all"]
+  "input": [["ironbar",2],"darkwoodmaterial"],
+  "output": "sb_hylotltier1dagger",
+  "groups": ["craftinganvil","weapons","all"]
 }

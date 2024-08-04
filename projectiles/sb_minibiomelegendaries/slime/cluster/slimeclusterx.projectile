@@ -1,7 +1,6 @@
 {
   "projectileName": "sb_slimeclusterx",
   "physics": "stickybomb",
-  "lightColor": [0, 50, 40],
   "pointLight": true,
   "image": "slimeclusterx.png",
   "timeToLive": 2,

@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_imperviumbar",2],["leather",5]],
-  "output" : "executivechair",
-  "groups" : ["craftingfurniture2","decoration","all"]
+  "input": [["sb_imperviumbar",2],["leather",5]],
+  "output": "executivechair",
+  "groups": ["craftingfurniture2","decoration","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "input" : ["peacecredit"],
-  "output" : ["salvagelegs",3],
-  "groups" : ["peacekeeper1","all"]
+  "input": ["peacecredit"],
+  "output": ["salvagelegs",3],
+  "groups": ["peacekeeper1","all"]
 }

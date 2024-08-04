@@ -1,6 +1,6 @@
 {
-  "input" : ["banana","wheat"],
-  "output" : ["sb_bananabread", 2],
-  "groups" : ["craftingfood","desserts","sb_healing","sb_energy","sb_energyregen","sb_t1food","all"],
-  "collectables" : {"cooking":"sb_bananabread"}
+  "input": ["banana","wheat"],
+  "output": ["sb_bananabread", 2],
+  "groups": ["craftingfood","desserts","sb_healing","sb_energy","sb_energyregen","sb_t1food","all"],
+  "collectables": {"cooking":"sb_bananabread"}
 }

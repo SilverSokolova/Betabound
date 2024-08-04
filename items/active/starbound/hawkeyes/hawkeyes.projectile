@@ -4,12 +4,17 @@
   "timeToLive": 600,
   "image": "hawkeyes.png",
   "actionOnReap": [],
-  "speed": 0,
+  "speed": 40,
   "power": 0,
 
-  "onlyHitTerrain": true,
   "fullbright": true,
+  "flippable": true,
   "orientationLocked": true,
+
+  "controlMovement": {
+    "maxSpeed": 40,
+    "controlForce": 120
+  },
 
   "piercing": true,
   "bounces": -1,

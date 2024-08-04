@@ -1,5 +1,5 @@
 {
-  "input" : ["whitedye","greendye"],
-  "output" : ["sb_limegreendye",2],
-  "groups" : ["craftingwheel2","dyes","all"]
+  "input": ["whitedye","greendye"],
+  "output": ["sb_limegreendye",2],
+  "groups": ["craftingwheel2","dyes","all"]
 }

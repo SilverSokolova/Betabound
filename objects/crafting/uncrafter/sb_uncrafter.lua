@@ -1,6 +1,6 @@
-local ini = init or function() end
+local originalInit = init or function() end
 
-function init(a) ini(a)
+function init(a) originalInit(a)
   if weaponLevelKinds then
     local b = {}
     b={"copperbar","copperbar"} sb_swapOutputs(1,"tungstenbar",b)

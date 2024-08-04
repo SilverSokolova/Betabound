@@ -1,6 +1,6 @@
 {
-  "input" : [["logblock",10]],
-  "output" : "coalore",
-  "duration" : 0.3,
-  "groups" : ["craftingfurnace","bars","all"]
+  "input": [["logblock",10]],
+  "output": "coalore",
+  "duration": 0.3,
+  "groups": ["craftingfurnace","bars","all"]
 }

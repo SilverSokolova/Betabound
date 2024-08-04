@@ -1,5 +1,5 @@
 {
-  "input" : ["durasteelbar","platinumbar","wire"],
-  "output" : "apexshiplocker",
-  "groups" : ["craftingfurniture2","storage","all"]
+  "input": ["durasteelbar","platinumbar","wire"],
+  "output": "apexshiplocker",
+  "groups": ["craftingfurniture2","storage","all"]
 }

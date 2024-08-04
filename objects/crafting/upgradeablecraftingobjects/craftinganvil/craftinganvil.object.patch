@@ -1,0 +1,14 @@
+[
+    [{
+        "op": "test",
+        "path": "/upgradeStages/2/itemSpawnParameters/rarity",
+        "value": "Rare"
+    },{
+        "op": "test",
+        "path": "/upgradeStages/1/itemSpawnParameters/rarity",
+        "inverse": true
+    },{
+        "op": "remove",
+        "path": "/upgradeStages/2/itemSpawnParameters/rarity"
+    }]
+]

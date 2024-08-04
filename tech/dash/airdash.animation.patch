@@ -1,0 +1,50 @@
+[
+  [{
+      "op": "add",
+      "path": "/animatedParts/stateTypes/sb_recharge",
+      "value": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "on": {
+            "frames": 5,
+            "cycle": 0.15,
+            "mode": "transition",
+            "transition": "off"
+          }
+        }
+      }
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/animatedParts/parts",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/animatedParts/parts",
+      "value": {}
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/animatedParts/parts/sb_recharge",
+      "value": {
+        "properties": {
+          "centered": true,
+          "fullbright": true
+        },
+        "partStates": {
+          "sb_recharge": {
+            "on": {
+              "properties": {
+                "image": "recharge.png:<frameIndex>"
+              }
+            },
+            "off": {}
+          }
+        }
+      }
+    }
+  ]
+]

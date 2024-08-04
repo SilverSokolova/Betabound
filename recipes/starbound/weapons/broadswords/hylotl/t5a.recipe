@@ -1,5 +1,5 @@
 {
-  "input" : [["refinedaegisalt",6],["durasteelbar",4]],
-  "output" : "sb_hylotltier5abroadsword",
-  "groups" : ["craftingseparator","weapons","all"]
+  "input": [["refinedaegisalt",6],["durasteelbar",4]],
+  "output": "sb_hylotltier5abroadsword",
+  "groups": ["craftingseparator","weapons","all"]
 }

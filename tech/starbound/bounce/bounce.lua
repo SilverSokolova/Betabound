@@ -1,7 +1,9 @@
+--TODO: get the bounce sfx to work at high speeds
 function init()
   energyUsageRate = config.getParameter("energyUsageRate")
   bounceCollisionPoly = config.getParameter("bounceCollisionPoly")
   bounceFactor = config.getParameter("bounceFactor")
+  --wasColliding = false
 end
 
 function input(args)
@@ -17,13 +19,14 @@ function update(args)
     and not tech.parentLounging()
     and world.resolvePolyCollision(bounceCollisionPoly, mcontroller.position(), 1)
     and status.overConsumeResource("energy", energyUsageRate * args.dt) then
-  activate()
+    activate()
   elseif action == "deactivate"
     or (active and (not status.overConsumeResource("energy", energyUsageRate * args.dt) or tech.parentLounging())) then
     deactivate()
   end
 
   if active then
+    --local colliding = mcontroller.isColliding()
     mcontroller.controlParameters({
       standingPoly = bounceCollisionPoly,
       crouchingPoly = bounceCollisionPoly,
@@ -31,6 +34,10 @@ function update(args)
       bounceFactor = bounceFactor,
       jumpSpeed = 0
     })
+    --[[if colliding and not wasColliding then
+      animator.playSound("bounce")
+    end
+    wasColliding = colliding]]
   end
   lastAction = args.moves["special1"]
 end

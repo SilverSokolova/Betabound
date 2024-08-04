@@ -9,10 +9,9 @@
   },
   "rarity": "rare",
   "level": 5,
-  "description": "Creates a a splash of water.",
+  "description": "Creates a splash of water.",
   "shortdescription": "Sacred Splash Staff",
   "tooltipFields": {
-    "subtitle": "Aqua Staff",
     "damageKindImage": "/items/liquids/liquidwatericon.png"
   },
   "animationCustom": {

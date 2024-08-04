@@ -1,6 +1,6 @@
 {
-  "input" : [["liquidwater",5],["snow",5]],
-  "output" : ["cloudblock",15],
-  "duration" : 0.25,
-  "groups"  : ["craftingfurniture","materials","all"]
+  "input": [["liquidwater",5],["snow",5]],
+  "output": ["cloudblock",15],
+  "duration": 0.25,
+  "groups": ["craftingfurniture","materials","all"]
 }

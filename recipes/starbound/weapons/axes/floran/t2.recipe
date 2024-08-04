@@ -1,5 +1,5 @@
 {
-  "input" : [["tungstenbar",3],["copperbar",2]],
-  "output" : "sb_florantier2axe",
-  "groups" : ["craftinganvil","weapons","all"]
+  "input": [["tungstenbar",3],["copperbar",2]],
+  "output": "sb_florantier2axe",
+  "groups": ["craftinganvil","weapons","all"]
 }

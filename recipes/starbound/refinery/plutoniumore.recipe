@@ -1,6 +1,6 @@
 {
-  "input" : ["plutoniumore"],
-  "output" : ["money",10],
-  "duration" : 0.5,
-  "groups" : ["refinery","all"]
+  "input": ["plutoniumore"],
+  "output": ["money",10],
+  "duration": 0.5,
+  "groups": ["refinery","all"]
 }

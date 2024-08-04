@@ -1,5 +1,5 @@
 {
-  "input" : [["refinedviolium",2],["durasteelbar",1]],
-  "output" : "sb_hylotltier5sdagger",
-  "groups" : ["craftingseparator","weapons","all"]
+  "input": [["refinedviolium",2],["durasteelbar",1]],
+  "output": "sb_hylotltier5sdagger",
+  "groups": ["craftingseparator","weapons","all"]
 }

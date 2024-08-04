@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_steelbar",2],"copperbar"],
-  "output" : "sb_humantier3dagger",
-  "groups" : ["craftinganvil2","weapons","all"]
+  "input": [["sb_steelbar",2],"copperbar"],
+  "output": "sb_humantier3dagger",
+  "groups": ["craftinganvil2","weapons","all"]
 }

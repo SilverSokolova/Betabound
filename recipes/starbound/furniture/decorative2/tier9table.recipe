@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_rubiumbar",2]],
-  "output" : "doomtable",
-  "groups" : ["craftingfurniture2","decoration","all"]
+  "input": [["sb_rubiumbar",2]],
+  "output": "doomtable",
+  "groups": ["craftingfurniture2","decoration","all"]
 }

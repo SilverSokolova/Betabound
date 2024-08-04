@@ -3,6 +3,7 @@
 [{"op":"test","path":"/fireTime","value":0.3},{"op":"replace","path":"/fireTime","value":0.25}],
 [{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}],
 [{"op":"test","path":"/durability","value":200},{"op":"replace","path":"/durability","value":3500}],
+[{"op":"test","path":"/price","value":125},{"op":"replace","path":"/price","value":350}],
 [{"op":"test","path":"/shortdescription","value":"Titanium Pickaxe"},
 {"op":"replace","path":"/shortdescription","value":"Platinum Pickaxe"}],
 [{"op":"test","path":"/description","value":"This tool won't last long, but I'll be able to dig pretty fast with it."},

@@ -1,36 +1,37 @@
 {
-  "id" : "sb_tutorial3.gearup",
-  "prerequisites" : ["sb_tutorial2b.gearup" ],
-  "mainQuest" : true,
-  "title" : "^#9be3d6;Out of the frying pan...",
-  "text" : "^green;It's time to craft a ^orange;furnace. ^reset;You'll need to obtain some cobblestone and a campfire. If you'd like to know exactly how much of each you need, access a crafting table, ^green;untick 'materials available'^reset; and mouse over the recipe to see its ingredients.",
-  "completionText" : "Awesome, it's about time we play with fire. A furnace is used to smelt ores found underground to produce bars that are valuable for crafting.",
-  "speaker" : "questGiver",
-  "moneyRange" : [30, 30],
-  "canBeAbandoned" : true,
+  "id": "sb_tutorial3.gearup",
+  "prerequisites": ["sb_tutorial2b.gearup"],
+  "mainQuest": true,
+  "title": "^#9be3d6;Out of the frying pan...",
+  "text": "^green;It's time to craft a ^orange;furnace. ^reset;You'll need to obtain some cobblestone and a campfire. If you'd like to know exactly how much of each you need, access a crafting table, ^green;untick 'materials available'^reset; and mouse over the recipe to see its ingredients.",
+  "completionText": "Awesome, it's about time we play with fire. A furnace is used to smelt ores found underground to produce bars that are valuable for crafting.",
+  "speaker": "questGiver",
+  "moneyRange": [30, 30],
+  "canBeAbandoned": true,
 
-  "guiConfigs" : {
-    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
-    "newQuest" : "/interface/windowconfig/sb_newquestnorewards.config",
-    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquestnorewards.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
   },
 
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/sb_main.lua",
-  "scriptConfig" : {
-    "title" : "^#9be3d6;Out of the frying pan...",
-    "missable" : true,
-    "itemIcon" : "/interface/sb_numbers.png:3",
-    "followUp" : "sb_tutorial3b.gearup",
-    "giveBlueprints" : ["sb_stonefurnace","sb_stonepickaxe"],
-    "portraits" : {"default" : "player"},
-    "requireTurnIn" : false,
-    "conditions" : [
-      {
-        "type" : "gatherItem",
-        "itemName" : "sb_stonefurnace",
-        "count" : 1,
-        "consume" : false
+  "updateDelta": 10,
+  "script": "/quests/scripts/sb_main.lua",
+  "scriptConfig": {
+    "title": "^#9be3d6;Out of the frying pan...",
+    "missable": true,
+    "itemIcon": "/interface/sb_font.png:3",
+    "followUp": "sb_tutorial3b.gearup",
+    "giveBlueprints": ["sb_stonefurnace", "sb_stonepickaxe"],
+    "portraits": {
+      "default": "player"
+    },
+    "requireTurnIn": false,
+    "conditions": [{
+        "type": "gatherItem",
+        "itemName": "sb_stonefurnace",
+        "count": 1,
+        "consume": false
       }
     ]
   }

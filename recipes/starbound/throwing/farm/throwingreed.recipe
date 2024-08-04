@@ -1,5 +1,5 @@
 {
-  "input" : ["reed"],
-  "output" : ["sb_throwingreed",10],
-  "groups" : ["craftingfarm","hunting","all"]
+  "input": ["reed"],
+  "output": ["sb_throwingreed",10],
+  "groups": ["craftingfarm","hunting","all"]
 }

@@ -1,6 +1,6 @@
-local ini = init or function() end
-
-function init() ini()
+local originalInit = init or function() end
+--This is specifically because they should be invulnerable when they have a ton of defense, and our changes to defense scaling undoes that
+function init() originalInit()
   self.damageTaken = damageListener("damageTaken", function(notifications)
     for _,notification in pairs(notifications) do
       if notification.healthLost == 5 then

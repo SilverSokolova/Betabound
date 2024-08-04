@@ -20,7 +20,7 @@
   "scriptConfig": {
     "title": "^#9be3d6;Tools for the Job",
     "missable": true,
-    "itemIcon": "/interface/sb_numbers.png:4",
+    "itemIcon": "/interface/sb_font.png:4",
     "followUp": "sb_tutorial4.gearup",
     "giveBlueprints": ["copperbar", "copperpickaxe"],
     "portraits": {

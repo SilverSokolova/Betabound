@@ -103,6 +103,7 @@
             "winddownTime": 0.5
           }
         }, {
+          //downwards splash
           "name": "action-fire",
           "cooldown": 8,
           "parameters": {
@@ -113,11 +114,11 @@
             "windupState": "teslawindup",
             "windupTime": 1.32,
             "projectileType": "sb_jellybossgoosplash",
-            "power": 2,
+            "power": 8,
             "fireOffset": [0, 1],
             "aimAtTarget": true,
             "projectileCount": 16,
-            "inaccuracy": 1.3,
+            "inaccuracy": 3.3,
             "projectileInterval": 0,
             "fireSound": "attack",
             "range": 8,

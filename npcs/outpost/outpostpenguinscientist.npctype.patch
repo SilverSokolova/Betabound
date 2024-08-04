@@ -1,12 +1,32 @@
 [
   [{
-      "op": "add",
-      "path": "/scriptConfig/sb_offeredQuests",
-      "value": ["sb_robot"]
+      "op": "test",
+      "path": "/scriptConfig/offeredQuests",
+      "inverse": true
     }, {
       "op": "add",
-      "path": "/scriptConfig/sb_turnInQuests",
-      "value": ["sb_robot"]
+      "path": "/scriptConfig/offeredQuests",
+      "value": []
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/scriptConfig/turnInQuests",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/scriptConfig/turnInQuests",
+      "value": []
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/scriptConfig/offeredQuests/-",
+      "value": "sb_robot"
+    }, {
+      "op": "add",
+      "path": "/scriptConfig/turnInQuests/-",
+      "value": "sb_robot"
     }
   ]
 ]

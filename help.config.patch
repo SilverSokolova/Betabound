@@ -20,7 +20,7 @@
 ,[{"op":"test","path":"/adminCommands/setdungeonid","inverse":true},{"op":"add","path":"/debugCommands/setdungeonid","value":
 "Usage /setdungeonid dungeonId. Sets the dungeonId of the (single) tile at the cursor's position."}]
 
-//xrc
+//utility
 ,[{"op":"add","path":"/debugCommands/sb_punchy","value":"Usage /sb_punchy. Creates a DPS Target at the mouse cursor which ^#f00;is not^reset; attacked by companions/homing projectiles."}]
 ,[{"op":"add","path":"/debugCommands/sb_evilpunchy","value":"Usage /sb_evilpunchy. Creates a DPS Target at the mouse cursor which ^#f00;is^reset; attacked by companions/homing projectiles."}]
 ,[{"op":"add","path":"/debugCommands/sb_gleap","value":"Usage /sb_gleap. Summons an enemy Gleap at the mouse cursor."}]
@@ -39,12 +39,10 @@
 
 ,[{"op":"add","path":"/adminCommands/sb_toggleevents","value":"Usage /sb_toggleevents. Prevents certain random events for the current world."}]
 
-,[{"op":"add","path":"/debugCommands/sb_givemetech","value":"Usage /sb_givemetech. Spawns tech unlock items at the mouse cursor."}]
 ,[{"op":"add","path":"/debugCommands/sb_itemID","value":"Usage /sb_itemID itemName. Prints basic item info into chat."}]
-,[{"op":"add","path":"/adminCommands/sb_toggledronespawning","value":"Usage /sb_toggledronespawning. Causes any Environmental Protection Drones to fade out of existence upon init."}]
 ,[{"op":"add","path":"/debugCommands/sb_foodweight","value":"Usage /sb_foodweight itemName. Returns 1-<foodvalue>/100. Accepts more than 1 itemName, separate with spaces."}]
 ,[{"op":"add","path":"/debugCommands/sb_foodsum","value":"Usage /sb_foodsum itemName. Calculates the logical food value of a food item based on the sum on its ingredients."}]
 ,[{"op":"add","path":"/debugCommands/sb_lootpool","value":"Usage /sb_lootpool. Prompts the object at the mouse cursor to state its position and any lootpools it may have. Additional information shown in chat."}]
-,[{"op":"add","path":"/debugCommands/sb_enabletech","value":"Usage /sb_enabletech techName. Same as enabletech but for suit techs. Requires StarExtentions."}]
-,[{"op":"add","path":"/debugCommands/sb_maketechavailable","value":"Usage /sb_maketechavailable techName. Same as maketechavailable but for suit techs. Requires StarExtentions."}]
+,[{"op":"add","path":"/debugCommands/sb_enabletech","value":"Usage /sb_enabletech techName. Same as enabletech but for suit techs. Requires StarExtentions or OpenStarbound."}]
+,[{"op":"add","path":"/debugCommands/sb_maketechavailable","value":"Usage /sb_maketechavailable techName. Same as maketechavailable but for suit techs. Requires StarExtentions or OpenStarbound."}]
 ]

@@ -1,4 +1,4 @@
-local ini = init or function() end
+local originalInit = init or function() end
 
 function init()
   status.sb_setPersistentEffects = status.setPersistentEffects
@@ -6,5 +6,5 @@ function init()
     if effectCategory == "movementAbility" then return end
     return status.sb_setPersistentEffects(effectCategory, effects)
   end
-  ini()
+  originalInit()
 end

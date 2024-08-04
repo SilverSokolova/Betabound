@@ -1,5 +1,5 @@
 {
-  "input" : [["durasteelbar",4],["alienwoodsap",15]],
-  "output" : ["sb_alienlaser",1,{"level":4}],
-  "groups" : ["craftinganvil2","weapons","all"]
+  "input": [["durasteelbar",4],["alienwoodsap",15]],
+  "output": ["sb_alienlaser",1,{"level":4}],
+  "groups": ["craftinganvil2","weapons","all"]
 }

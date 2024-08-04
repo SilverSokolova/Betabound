@@ -5,9 +5,37 @@
   "shortdescription": "Elemental Crossbow",
   "itemTags": ["weapon", "ranged", "crossbow", "bow"],
   "configOverrides": {
-    "primaryAbility": {
-      "projectileType": ["woodenbolt", "flamebolt", "icebolt", "poisonbolt", "electricbolt", "explosivebolt"]
-    }
+    "builderConfig": [{
+        "elementalType": [
+          "fire",
+          "ice",
+          "electric",
+          "poison"
+        ],
+        "elementalConfig": {
+          "fire": {
+            "primaryAbility": {
+              "projectileType": ["flamebolt", "explosivebolt"]
+            }
+          },
+          "ice": {
+            "primaryAbility": {
+              "projectileType": ["icebolt"]
+            }
+          },
+          "electric": {
+            "primaryAbility": {
+              "projectileType": ["electricbolt"]
+            }
+          },
+          "poison": {
+            "primaryAbility": {
+              "projectileType": ["poisonbolt"]
+            }
+          }
+        }
+      }
+    ]
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

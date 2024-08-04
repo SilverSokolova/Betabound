@@ -1,23 +1,24 @@
 {
-  "name" : "sb_ftlboost",
-  "type" : "body",
+  "name": "sb_ftlboost",
+  "type": "body",
 
-  "rarity" : "Legendary",
-  "icon" : "/tech/starbound/ftlboost.png",
-  "description" : "Double tap ^#0f0;[A]^reset;/^#0f0;[D]^reset; to dash faster than light! Cooldown: 1.3s",
-  "sb_briefDescription" : "Double tap ^#0f0;[A]^reset;/^#0f0;[D]^reset; to dash! Cooldown: 1.3s",
-  "shortDescription" : "FTL Boost",
-  "chipCost" : 14,
+  "rarity": "Legendary",
+  "icon": "/tech/starbound/ftlboost.png",
+  "description": "Double tap ^#0f0;[A]^reset;/^#0f0;[D]^reset; to dash faster than light! Cooldown: 1.3s",
+  "sb_briefDescription": "Double tap ^#0f0;[A]^reset;/^#0f0;[D]^reset; to dash! Cooldown: 1.3s",
+  "shortDescription": "FTL Boost",
+  "chipCost": 14,
 
-  "scripts" : ["dash.lua"],
-  "animator" : "ftlboost.animation",
+  "scripts": ["dash.lua"],
+  "animator": "ftlboost.animation",
 
-  "maximumDoubleTapTime" : 0.2,
-  "dashControlForce" : 50000,
-  "dashSpeed" : 500,
-  "dashDuration" : 0.15,
-  "dashCooldown" : 1.3,
-  "groundOnly" : true,
-  "stopAfterDash" : true,
-  "rechargeDirectives" : "?fade=CCCCFFFF=0.25"
+  "maximumDoubleTapTime": 0.2,
+  "dashControlForce": 50000,
+  "dashSpeed": 500,
+  "dashDuration": 0.15,
+  "dashCooldown": 1.3,
+  "groundOnly": true,
+  "stopAfterDash": true,
+  "rechargeDirectives": "?fade=CCCCFFFF=0.25",
+  "hasRechargeAnimation": true
 }

@@ -37,7 +37,7 @@
 [{"op":"add","path":"/collectables/sb_lollypop","value":{"order":81,"item":"sb_lollypop"}}],
 [{"op":"add","path":"/collectables/sb_orangetart","value":{"order":81.1,"item":"sb_orangetart"}}],
 [{"op":"add","path":"/collectables/sb_crystaltart","value":{"order":81.1,"item":"sb_crystaltart"}}],
-[{"op":"add","path":"/collectables/sb_peanutbutterjar","value":{"order":82,"item":"sb_peanutbutterjar"}}],
+[{"op":"add","path":"/collectables/sb_pbj","value":{"order":82,"item":"sb_pbj"}}],
 [{"op":"add","path":"/collectables/sb_pussplumpie","value":{"order":83,"item":"sb_pussplumpie"}}],
 [{"op":"add","path":"/collectables/sb_sweettime","value":{"order":84,"item":"sb_sweettime"}}],
 [{"op":"add","path":"/collectables/sb_brineapple","value":{"order":84.9,"item":"sb_brineapple"}}],
@@ -81,6 +81,7 @@
 [{"op":"add","path":"/collectables/sb_orangenergyglass","value":{"order":134.9,"item":"sb_orangenergyglass"}}],
 [{"op":"add","path":"/collectables/sb_liquifiedcrystal","value":{"order":134.9,"item":"sb_liquifiedcrystal"}}],
 
+[{"op":"add","path":"/collectables/sb_peanutbutterjar","value":{"order":149.9,"item":"sb_peanutbutterjar"}}],
 [{"op":"add","path":"/collectables/sb_orangejam","value":{"order":150.9,"item":"sb_orangejam"}}],
 [{"op":"add","path":"/collectables/sb_crystaljam","value":{"order":151.9,"item":"sb_crystaljam"}}],
 [{"op":"add","path":"/collectables/sb_thornjam","value":{"order":152.9,"item":"sb_thornjam"}}]

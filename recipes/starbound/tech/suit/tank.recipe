@@ -1,6 +1,5 @@
 {
   "input":[
-    ["sb_tech",1,{"techModule":"sb_regeneration"}],
     ["sb_tech",1,{"techModule":"sb_protection"}],
     ["sb_tech",1,{"techModule":"sb_grit"}]
   ],

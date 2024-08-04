@@ -1,0 +1,12 @@
+{
+  "itemName": "sb_whistle",
+  "rarity": "uncommon",
+  "category": "tool",
+  "price": 250,
+  "tooltipKind": "sb_object",
+  "inventoryIcon": "whistle.png",
+  "shortdescription": "Pet Whistle",
+  "description": "Calls deployed pets back to you.",
+  "scripts": ["whistle.lua", "/scripts/activeitem/sb_held.lua"],
+  "cooldownTime": 50
+}

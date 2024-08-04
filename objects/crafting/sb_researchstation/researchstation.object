@@ -6,7 +6,7 @@
   "price": 6000,
   "tooltipKind": "sb_object",
   "interactAction": "ScriptPane",
-  "interactData": "/interface/windowconfig/sb_craftingresearch.config",
+  "interactData": "/interface/scripted/sb_research/research.config",
   "categoryButton": {
     "pressedOffset": [0,-1],
     "position": [22, 44], //-10,22,33,51,58,78 increasing by 11 seems good
@@ -129,8 +129,11 @@
     ],
     
     "weapons": [
+      //forest
+      "sb_deathstick"
+
       //desert
-      "sb_cactislammer"
+      ,"sb_cactislammer"
     
       //savannah
       ,"sb_thornyneedler"
@@ -210,6 +213,9 @@
       //slime
       ,"sb_slimestaff"
       ,"sb_cutarrh"
+
+      //geometric
+      ,"sb_scistaff"
     
       //crystal
       ,"sb_hackman"
@@ -685,8 +691,7 @@
       ,"slimebed"
       ,"slimehide"
       ,"slimetorch"
-     
-      //OLD AND BUSTED
+
       //sandstone
       ,"sandstonebed"
       ,"sandstonechair"

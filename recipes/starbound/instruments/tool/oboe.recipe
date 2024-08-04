@@ -1,5 +1,5 @@
 {
-  "input" : [["darkwoodmaterial",3],"silverbar"],
-  "output" : "oboe",
-  "groups" : ["sb_craftingtable","sb_instruments","all"]
+  "input": [["darkwoodmaterial",3],"silverbar"],
+  "output": "oboe",
+  "groups": ["sb_craftingtable","sb_instruments","all"]
 }

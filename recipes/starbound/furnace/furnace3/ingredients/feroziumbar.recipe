@@ -1,5 +1,5 @@
 {
-  "input" : ["sb_feroziumcompound"],
-  "output" : ["sb_feroziumbar",10],
-  "groups" : ["craftingfurnace3","ingredients","all"]
+  "input": ["sb_feroziumcompound"],
+  "output": ["sb_feroziumbar",10],
+  "groups": ["craftingfurnace3","ingredients","all"]
 }

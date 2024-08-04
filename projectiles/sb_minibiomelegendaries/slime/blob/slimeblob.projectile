@@ -1,7 +1,6 @@
 {
   "projectileName": "sb_slimeblob",
   "physics": "grenadezbomb",
-  "lightColor": [0, 50, 40],
   "pointLight": true,
   "image": "slimeblob.png",
   "timeToLive": 5,

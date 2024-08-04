@@ -1,5 +1,5 @@
 {
-  "input" : [["icecrystal",20],["glass",3],"sb_steelbar","wire","smallbattery"],
-  "output" : "sb_geometricscreen",
-  "groups" : ["craftingfurniture","decoration","all"]
+  "input": [["icecrystal",20],["glass",3],"sb_steelbar","wire","smallbattery"],
+  "output": "sb_geometricscreen",
+  "groups": ["craftingfurniture","decoration","all"]
 }

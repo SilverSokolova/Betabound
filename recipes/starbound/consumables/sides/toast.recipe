@@ -1,6 +1,6 @@
 {
-  "input" : ["bread","sb_butter"],
-  "output" : "sb_toast",
-  "groups" : ["craftingfood","sides","sb_healing","sb_health","sb_energy","sb_t1food","all"],
-  "collectables" : {"cooking":"sb_toast"}
+  "input": ["bread","sb_butter"],
+  "output": "sb_toast",
+  "groups": ["craftingfood","sides","sb_healing","sb_health","sb_energy","sb_t1food","all"],
+  "collectables": {"cooking":"sb_toast"}
 }

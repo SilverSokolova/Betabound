@@ -12,8 +12,7 @@
   "description": "Creates a bright star to light up the area.",
   "shortdescription": "Supergiant Orb",
   "tooltipFields": {
-    "subtitle": "Light Staff",
-    "damageKindImage": "/projectiles/sb_staves/racialstaves/light/supergiant/icon.png"
+    "damageKindImage": "/interface/sb_tooltips/sb_supergiant.png"
   },
   "animationCustom": {
     "lights": {
@@ -31,6 +30,11 @@
     }
   },
   "configOverrides": {
+    "inventoryIcon": "<race><staff><n>.png?multiply=fffffffe",
+    "animationParts": {
+      "staff": "",
+      "staffFullbright": "<race><staff><n>.png"
+    },
     "stances": {
       "idle": {
         "armRotation": 20,

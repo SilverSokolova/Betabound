@@ -1,9 +1,9 @@
-local ini = init or function() end
+local originalInit = init or function() end
 
 function init()
   handOffset = animationConfig.animationParameter("hand") == "alt" and 3 or 2
   textDirectives = root.assetJson("/betabound.config:infoItemTextDirectives")
-  ini()
+  originalInit()
 end
 
 function addText(text, position, backingDirectives, textOffset, color)

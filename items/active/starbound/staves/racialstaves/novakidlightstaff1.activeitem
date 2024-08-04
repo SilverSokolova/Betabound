@@ -12,8 +12,7 @@
   "description": "Creates a miniature sun to light up the area.",
   "shortdescription": "Red Giant Orb",
   "tooltipFields": {
-    "subtitle": "Light Staff",
-    "damageKindImage": "/projectiles/sb_staves/racialstaves/light/redgiant/icon.png"
+    "damageKindImage": "/interface/sb_tooltips/sb_redgiant.png"
   },
   "animationCustom": {
     "lights": {
@@ -24,6 +23,11 @@
     }
   },
   "configOverrides": {
+    "inventoryIcon": "<race><staff><n>.png?multiply=fffffffe",
+    "animationParts": {
+      "staff": "",
+      "staffFullbright": "<race><staff><n>.png"
+    },
     "stances": {
       "idle": {
         "armRotation": 20,

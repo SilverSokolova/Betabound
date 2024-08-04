@@ -9,10 +9,9 @@
   },
   "rarity": "legendary",
   "level": 6,
-  "description": "Creates a a torrent of water.",
+  "description": "Creates a torrent of water.",
   "shortdescription": "Hylid's Pulse Staff",
   "tooltipFields": {
-    "subtitle": "Aqua Staff",
     "damageKindImage": "/items/liquids/liquidwatericon.png"
   },
   "animationCustom": {

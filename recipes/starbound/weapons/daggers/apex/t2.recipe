@@ -1,5 +1,5 @@
 {
-  "input" : [["tungstenbar",2],"copperbar"],
-  "output" : "sb_apextier2dagger",
-  "groups" : ["craftinganvil","weapons","all"]
+  "input": [["tungstenbar",2],"copperbar"],
+  "output": "sb_apextier2dagger",
+  "groups": ["craftinganvil","weapons","all"]
 }

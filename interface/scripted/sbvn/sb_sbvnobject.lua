@@ -1,10 +1,10 @@
-local ini = init or function() end
-local unini = uninit or function() end
+local originalInit = init or function() end
+local originalUninit = uninit or function() end
 
-function init() ini()
+function init() originalInit()
   storage = config.getParameter("scriptStorage", storage)
 end
 
-function uninit() unini()
+function uninit() originalUninit()
   object.setConfigParameter("scriptStorage", storage)
 end

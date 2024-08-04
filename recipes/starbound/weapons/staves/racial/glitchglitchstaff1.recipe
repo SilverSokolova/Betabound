@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_refinedrubium",6],["durasteelbar",6],"battery"],
-  "output" : "sb_glitchglitchstaff1",
-  "groups" : ["craftingmanipulator","weapons","all"]
+  "input": [["refinedferozium",6],["durasteelbar",6],"battery"],
+  "output": "sb_glitchglitchstaff1",
+  "groups": ["craftingmanipulator","weapons","all"]
 }

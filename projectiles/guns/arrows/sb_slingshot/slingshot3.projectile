@@ -1,29 +1,30 @@
 {
-  "projectileName" : "sb_slingshot3",
-  "physics" : "shrapnel",
-  "image" : "slingshot.png?multiply=0000",
-  "animationCycle" : 0.25,
-  "frameNumber" : 1,
-  "actionOnReap" : [
-    {
-      "action" : "projectile",
-      "type" : "sb_slingshot",
-      "inheritSpeedFactor" : 1,
-      "angleAdjust" : -5
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_slingshot",
-      "inheritSpeedFactor" : 1,
-      "angleAdjust" : 0
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_slingshot",
-      "inheritSpeedFactor" : 1,
-      "angleAdjust" : 5
+  "projectileName": "sb_slingshot3",
+  "physics": "illusion",
+  "image": "slingshot.png?multiply=0000",
+  "animationCycle": 0.25,
+  "frameNumber": 1,
+  "actionOnReap": [{
+      "action": "projectile",
+      "type": "sb_slingshot",
+      "inheritSpeedFactor": 1,
+      "inheritDamageFactor": 0.75,
+      "angleAdjust": -5
+    }, {
+      "action": "projectile",
+      "type": "sb_slingshot",
+      "inheritSpeedFactor": 1,
+      "inheritDamageFactor": 0.75,
+      "angleAdjust": 0
+    }, {
+      "action": "projectile",
+      "type": "sb_slingshot",
+      "inheritSpeedFactor": 1,
+      "inheritDamageFactor": 0.75,
+      "angleAdjust": 5
     }
   ],
-  "timeToLive" : 0,
-  "power" : 5
+  "timeToLive": 0,
+  "damageType": "NoDamage",
+  "damageKind": "default"
 }

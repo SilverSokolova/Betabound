@@ -1,5 +1,5 @@
 {
-  "sb_itemName": "bottledhealingwater.consumable",
+  "originalItemName": "bottledhealingwater.consumable",
   "itemName": "bottledhealingwater",
   "animation": "/items/sb_consumable.animation",
   "scripts": ["/items/sb_consumable.lua"],

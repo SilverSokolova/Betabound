@@ -1,5 +1,5 @@
 {
-  "input" : [["refinedaegisalt",3],["durasteelbar",2]],
-  "output" : "sb_hylotltier5aaxe",
-  "groups" : ["craftingseparator","weapons","all"]
+  "input": [["refinedaegisalt",3],["durasteelbar",2]],
+  "output": "sb_hylotltier5aaxe",
+  "groups": ["craftingseparator","weapons","all"]
 }

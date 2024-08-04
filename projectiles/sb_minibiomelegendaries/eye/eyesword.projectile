@@ -1,32 +1,29 @@
 {
-  "projectileName" : "sb_eyesword",
-  "image" : "/projectiles/invisibleprojectile/invisibleprojectile.png",
-  "animationCycle" : 1,
-  "frameNumber" : 1,
-  "speed" : 0,
-  "timeToLive" : 0,
-  "animationLoops" : false,
+  "projectileName": "sb_eyesword",
+  "image": "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "animationCycle": 1,
+  "frameNumber": 1,
+  "speed": 0,
+  "timeToLive": 0,
+  "animationLoops": false,
 
-  "actionOnReap" : [
-    {
-      "action" : "projectile",
-      "type" : "sb_bloodcloud",
-      "inheritDamageFactor" : 0.2,
-      "angleAdjust" : 25
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_bloodcloud",
-      "inheritDamageFactor" : 0.2,
-      "angleAdjust" : -25
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_bloodcloud",
-      "inheritDamageFactor" : 0.2,
-      "angleAdjust" : 0
+  "actionOnReap": [{
+      "action": "projectile",
+      "type": "sb_bloodcloud",
+      "inheritDamageFactor": 0.2,
+      "angleAdjust": 25
+    }, {
+      "action": "projectile",
+      "type": "sb_bloodcloud",
+      "inheritDamageFactor": 0.2,
+      "angleAdjust": -25
+    }, {
+      "action": "projectile",
+      "type": "sb_bloodcloud",
+      "inheritDamageFactor": 0.2,
+      "angleAdjust": 0
     }
   ],
-  "damageType" : "NoDamage",
-  "damageKind" : "default"
+  "damageType": "NoDamage",
+  "damageKind": "default"
 }

@@ -1,5 +1,5 @@
 {
-  "input" : [["darkwoodmaterial",6],"string"],
-  "output" : "sb_slingshot",
-  "groups" : ["plain","sb_craftingtable","craftinganvil","weapons","all"]
+  "input": [["darkwoodmaterial",6],"string"],
+  "output": "sb_slingshot",
+  "groups": ["plain","sb_craftingtable","craftinganvil","weapons","all"]
 }

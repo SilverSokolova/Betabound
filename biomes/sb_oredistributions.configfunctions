@@ -1,5 +1,5 @@
 {
-  "sb_surfaceOres" :[
+  "sb_surfaceOres": [
    [0.5,[["coal",0.90],["uranium",0.00],["plutonium",0.00],["solarium",0.00],["copper",0.60],["silver",0.10],["gold",0.00],["platinum",0.00],["diamond",0.00],["iron",0.15]]],
    [1.5,[["coal",0.90],["uranium",0.00],["plutonium",0.00],["solarium",0.00],["copper",0.60],["silver",0.20],["gold",0.05],["platinum",0.05],["diamond",0.00],["iron",0.15]]],
    [2.5,[["coal",0.90],["uranium",0.00],["plutonium",0.00],["solarium",0.00],["copper",0.60],["silver",0.25],["gold",0.10],["platinum",0.10],["diamond",0.05],["titanium",0.15]]],
@@ -8,7 +8,7 @@
    [5.5,[["coal",0.90],["uranium",0.65],["plutonium",0.60],["solarium",0.40],["copper",0.60],["silver",0.60],["gold",0.25],["platinum",0.25],["diamond",0.20],["aegisalt",0.45],["sb_rubium",0.45],["sb_cerulium",0.45]]]
  ],
 
-  "sb_crystalDepth2" :[
+  "sb_crystalDepth2": [
    [0.5,[["crystal",1],["coal",0.90],["copper",0.75],["silver",0.90],["gold",0.60],["iron",0.90],["tungsten",0.00],["titanium",0.00],["durasteel",0.00],["aegisalt",0.00],["ferozium",0.00],["violium",0.00],["solarium",0.00]]],
    [1.5,[["crystal",1],["coal",0.90],["copper",0.75],["silver",0.90],["gold",0.60],["iron",0.65],["tungsten",0.90],["titanium",0.00],["durasteel",0.00],["aegisalt",0.00],["ferozium",0.00],["violium",0.00],["solarium",0.00],["platinum",0.90]]],
    [2.5,[["crystal",1],["coal",0.90],["copper",0.75],["silver",0.90],["gold",0.60],["iron",0.00],["tungsten",0.65],["titanium",0.90],["durasteel",0.00],["aegisalt",0.00],["ferozium",0.00],["violium",0.00],["solarium",0.00],["platinum",0.65],["sb_fossil",0.50]]],
@@ -17,7 +17,7 @@
    [5.5,[["crystal",1],["coal",0.90],["copper",0.75],["silver",0.90],["gold",0.60],["iron",0.00],["tungsten",0.00],["titanium",0.00],["durasteel",0.00],["aegisalt",0.65],["ferozium",0.65],["violium",0.65],["solarium",0.90],["sb_rubium",0.60]]]
  ],
 
-  "sb_sulphurDepth3" :[
+  "sb_sulphurDepth3": [
    [0.5,[["sulphur",1],["coal",0.9],["copper",0],["silver",0.75],["gold",0.9],["diamond",0.1],["corefragment",0],["iron",1],["tungsten",0],["titanium",0],["durasteel",0],["aegisalt",0],["ferozium",0],["violium",0],["solarium",0],["sulphur",0.7],["lead",0.7]]],
    [1.5,[["sulphur",1],["coal",0.9],["copper",0],["silver",0.75],["gold",0.9],["diamond",0.1],["corefragment",0],["iron",0.8],["tungsten",1],["titanium",0],["durasteel",0],["aegisalt",0],["ferozium",0],["violium",0],["solarium",0],["platinum",1],["sulphur",0.7],["lead",0.7]]],
    [2.5,[["sulphur",1],["coal",0.9],["copper",0],["silver",0.75],["gold",0.9],["diamond",0.1],["corefragment",0],["iron",0],["tungsten",0.8],["titanium",1],["durasteel",0],["aegisalt",0],["ferozium",0],["violium",0],["solarium",0],["platinum",0.8],["sulphur",0.7],["lead",0.7],["sb_fossil",0.5]]],

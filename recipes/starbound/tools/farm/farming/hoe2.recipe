@@ -1,5 +1,5 @@
 {
-  "input" : [["tungstenbar",2],"sb_stonehoe"],
-  "output" : "hoe",
-  "groups" : ["nouncrafting","craftingfarm","farming","all"]
+  "input": [["tungstenbar",2],"sb_stonehoe"],
+  "output": "hoe",
+  "groups": ["nouncrafting","craftingfarm","farming","all"]
 }

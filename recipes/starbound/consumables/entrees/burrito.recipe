@@ -1,6 +1,6 @@
 {
-  "input" : ["cheese","wheat","alienmeat"],
-  "output" : "sb_burrito",
-  "groups" : ["craftingfood","mains","sb_health","sb_healing","all"],
-  "collectables" : {"cooking":"sb_burrito"}
+  "input": ["cheese","wheat","alienmeat"],
+  "output": "sb_burrito",
+  "groups": ["craftingfood","mains","sb_health","sb_healing","all"],
+  "collectables": {"cooking":"sb_burrito"}
 }

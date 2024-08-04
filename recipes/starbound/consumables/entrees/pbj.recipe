@@ -1,0 +1,6 @@
+{
+  "input": ["bread", "sb_peanutbutterjar", "endomorphicjelly"],
+  "output": ["sb_pbj", 2],
+  "groups": ["craftingfood","mains","sb_healing","sb_protection","sb_runboost","sb_jumpboost","all"],
+  "collectables": {"cooking":"sb_pbj"}
+}

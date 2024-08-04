@@ -5,6 +5,8 @@
   //            Forest
   // ================================
 [{"op":"add","path":"/forestTreasure/0/1/pool/-","value":{"weight":0.03,"pool":"sb_forestMusic"}}]
+,[{"op":"add","path":"/forestTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_deathstick"}}]
+,[{"op":"add","path":"/forestTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_deathstick-recipe"}}]
 
   // ================================
   //            Desert
@@ -117,6 +119,7 @@
 ,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":0.3,"item":"pollenpump"}}]
 ,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":0.3,"item":"pollenpump-recipe"}}]
 ,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":0.3,"item":"flowerstatue-recipe"}}]
+,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_naturecapeback"}}]
 
   // ================================
   //      Oasis
@@ -353,7 +356,8 @@
 
 
   // ================================
-  //  OLD AND BUSTED - Sandstone
+  //  "OLD AND BUSTED" - Sandstone
+  // This is is used in the desert pool
   // ================================
 //,[{"op":"test","path":"/sandstoneTreasure/0/1/poolRounds/0/1","value":1},{"op":"replace","path":"/sandstoneTreasure/0/1/poolRounds/0/1","value":2}]
 //,[{"op":"test","path":"/sandstoneTreasure/0/1/poolRounds/1/1","value":2},{"op":"replace","path":"/sandstoneTreasure/0/1/poolRounds/1/1","value":3}]
@@ -366,7 +370,7 @@
 
 
   // ================================
-  //  OLD AND BUSTED - Geometric
+  //  "OLD AND BUSTED" - Geometric
   // ================================
 ,[{"op":"test","path":"/geometricTreasure/0/1/pool/0/item","value":"geometricchair-recipe"},{"op":"replace","path":"/geometricTreasure/0/1/pool/0/item","value":"sb_geometricchair-recipe"}]
 ,[{"op":"test","path":"/geometricTreasure/0/1/pool/1/item","value":"geometricchest-recipe"},{"op":"replace","path":"/geometricTreasure/0/1/pool/1/item","value":"sb_geometricchest-recipe"}]
@@ -374,5 +378,7 @@
 ,[{"op":"test","path":"/geometricTreasure/0/1/pool/3/item","value":"geometricscreen-recipe"},{"op":"replace","path":"/geometricTreasure/0/1/pool/3/item","value":"sb_geometricscreen-recipe"}]
 ,[{"op":"test","path":"/geometricTreasure/0/1/pool/4/item","value":"geometrictable-recipe"},{"op":"replace","path":"/geometricTreasure/0/1/pool/4/item","value":"sb_geometrictable-recipe"}]
 
+,[{"op":"add","path":"/geometricTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_scistaff-recipe"}}]
+,[{"op":"add","path":"/geometricTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_scistaff"}}]
 ,[{"op":"add","path":"/geometricTreasure/0/1/pool/-","value":{"weight":1,"item":["icecrystal",15]}}]
 ]

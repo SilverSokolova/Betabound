@@ -12,8 +12,7 @@
   "description": "Powered by the destructive desires of the wielder. And a battery.",
   "shortdescription": "Boom Blast Staff",
   "tooltipFields": {
-    "subtitle": "Plasma Staff",
-    "damageKindImage": "/interface/sb_tooltips/plasmapulse.png"
+    "damageKindImage": "/interface/sb_tooltips/sb_plasmapulse.png"
   },
   "elementalType": "fire",
   "altAbilityType": "plasmabarrage",

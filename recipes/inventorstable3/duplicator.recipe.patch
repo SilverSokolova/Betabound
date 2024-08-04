@@ -1,6 +1,0 @@
-[
-  [
-    {"op":"test","path":"/input/1/item","value":"refinedaegisalt"},
-    {"op":"add","path":"/input/1","value":["sb_refinedrubium",50]}
-  ]
-]

@@ -1,6 +1,6 @@
 {
-  "input" : ["sb_tech"],
-  "output" : "techcard",
-  "duration" : 0.5,
-  "groups" : ["refinery","nouncrafting","all"]
+  "input": ["sb_tech"],
+  "output": "techcard",
+  "duration": 0.5,
+  "groups": ["refinery","nouncrafting","all"]
 }

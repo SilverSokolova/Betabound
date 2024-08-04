@@ -2,6 +2,7 @@
 [{"op":"test","path":"/tooltipKind","value":"tool"},{"op":"replace","path":"/tooltipKind","value":"sb_tool"}],
 [{"op":"test","path":"/fireTime","value":0.3},{"op":"replace","path":"/fireTime","value":0.25}],
 [{"op":"test","path":"/durability","value":200},{"op":"replace","path":"/durability","value":950}],
+[{"op":"test","path":"/price","value":50},{"op":"replace","path":"/price","value":300}],
 [{"op":"test","path":"/description","value":"This tool won't last long, but I'll be able to dig pretty fast with it."},
 {"op":"replace","path":"/description","value":"Pickaxes are so last millennium! This one is made of silver."}],
 

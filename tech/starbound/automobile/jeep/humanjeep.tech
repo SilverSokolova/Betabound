@@ -44,7 +44,7 @@
   "energyCostPerSecond": 0.5,
   "warpDirectives": "?fade=CCF=0.25",
   "mechTransformPositionChange": [0, 0.5],
-  //"parentOffset" : [-1, 0.7],
+  //"parentOffset": [-1, 0.7],
   "mechAction": "honk",
   "mechCollisionTest": [-3.5, -2.5, 3.5, 3],
   "mechAimLimit": 40,

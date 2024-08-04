@@ -1,5 +1,5 @@
 {
-  "input" : [["money",130]],
-  "output" : "techchest2",
-  "groups" : ["sb_portable3dprinter","storage","all"]
+  "input": [["money",130]],
+  "output": "techchest2",
+  "groups": ["sb_portable3dprinter","storage","all"]
 }

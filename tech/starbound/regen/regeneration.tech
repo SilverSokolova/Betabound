@@ -10,7 +10,7 @@
   "shortDescription": "Regeneration",
 
   "regenRate": 10,
-  //"energyUsageRate" : 30,
+  //"energyUsageRate": 30,
   "resource": "health",
   "glow": "F003"
 }

@@ -8,12 +8,7 @@ function build(directory, config, parameters)
     config = applyDefinition(config, definition, configParameter("configOverrides"))
   end
 
-  if configParameter("acceptsAugmentType") or configParameter("currentAugment") or root.assetJson("/items/armors/biome/copperarmor/copperarmor.head").acceptsAugmentType then
-    config.tooltipKind = "sb_armoraugment"
-    parameters.acceptsAugmentType = configParameter("acceptsAugmentType","back")
-  else
-    config.tooltipKind = "sb_armor"
-  end
+  acceptsAugments = configParameter("acceptsAugmentType") or configParameter("currentAugment")
 
   if parameters.tooltipKind == "sb_armoraugment" then parameters.tooltipKind = nil end --fix for uninstalls :(
 
@@ -25,5 +20,22 @@ function build(directory, config, parameters)
     config.tooltipFields.levelLabel = "^shadow;"..level
     config.tooltipFields.level2Label = level
   end
+
+  --We can't use root.itemType or root.itemConfig because buildscripts run while the item database is loading for some reason
+  if not acceptsAugments then
+    local itemToCheck = root.assetJson("/betabound.config:armorAugmentModPaths")
+    itemToCheck = itemToCheck[config.category or "other"] or itemToCheck.other
+    if itemToCheck then
+      acceptsAugments = root.assetJson(itemToCheck).acceptsAugmentType
+    end
+  end
+
+  if acceptsAugments then
+    config.tooltipKind = "sb_armoraugment"
+    parameters.acceptsAugmentType = configParameter("acceptsAugmentType", "back")
+  else
+    config.tooltipKind = "sb_armor"
+  end
+
   return config, parameters
 end

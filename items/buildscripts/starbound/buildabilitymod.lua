@@ -13,7 +13,7 @@ function build(directory, config, parameters)
   if icon then
     if icon:sub(0, 1) ~= "/" then icon = directory..icon end
   end
-  table.insert(config.inventoryIcon, icon and {image = icon} or {image = sb_assetmissing(directory..parameters.ability..".png", "/interface/sb_tooltips/assetmissing.png")})
+  table.insert(config.inventoryIcon, icon and {image = icon} or {image = sb_assetmissing(directory..parameters.ability..".png", "sb_default.png")})
 --table.insert(config.inventoryIcon, {image = "/interface/sb_tooltips/assetmissing.png"})
   abilityData = root.assetJson(root.assetJson("/items/buildscripts/weaponabilities.config")[parameters.ability]).ability
 
@@ -30,7 +30,7 @@ function build(directory, config, parameters)
     config.acceptedElements = acceptedElements
   end
   config.shortdescription = string.gsub((config.rarity ~= "common" and "^yellow;" or "")..abilityData.name.."^reset;", "<elementalName>", config.elementalNameDescription)
-  config.description = string.format(config.description, config[(config.slot and "primary" or "alt").."Description" or "???"])
+  config.description = string.format(config.description, config.slotNames[(config.slot and config.slot or "alt")] or "^yellow;???")
 
   config.tooltipFields = parameters.tooltipFields or config.tooltipFields or {}
   local weaponName = (abilities[parameters.ability] or {}).weaponName

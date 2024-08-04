@@ -1,5 +1,5 @@
 {
-  "input" : [["liquidwater",3],"polymer"],
-  "output" : "waterballoon",
-  "groups" : ["plain","consumables","all"]
+  "input": [["liquidwater",3],"polymer"],
+  "output": "waterballoon",
+  "groups": ["plain","consumables","all"]
 }

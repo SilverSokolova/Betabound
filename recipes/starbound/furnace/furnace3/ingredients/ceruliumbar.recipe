@@ -1,5 +1,5 @@
 {
-  "input" : ["sb_ceruliumcompound"],
-  "output" : ["sb_ceruliumbar",10],
-  "groups" : ["craftingfurnace3","ingredients","all"]
+  "input": ["sb_ceruliumcompound"],
+  "output": ["sb_ceruliumbar",10],
+  "groups": ["craftingfurnace3","ingredients","all"]
 }

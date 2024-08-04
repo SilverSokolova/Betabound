@@ -1,5 +1,5 @@
 {
-  "input" : ["moltencore",["tungstenbar",1]],
-  "output" : "sb_techupgrade1",
-  "groups" : ["inventorstable","craftingstations","all"]
+  "input": ["moltencore",["tungstenbar",1]],
+  "output": "sb_techupgrade1",
+  "groups": ["inventorstable","craftingstations","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "input" : [["lead",5],["string",5],"ironbar"],
-  "output" : "leadguitar",
-  "groups" : ["sb_craftingtable","sb_instruments","all"]
+  "input": [["lead",5],["string",5],"ironbar"],
+  "output": "leadguitar",
+  "groups": ["sb_craftingtable","sb_instruments","all"]
 }

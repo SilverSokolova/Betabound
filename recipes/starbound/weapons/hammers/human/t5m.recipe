@@ -1,5 +1,5 @@
 {
-  "input" : [["sb_refinedrubium",6],["durasteelbar",4],"scorchedcore"],
-  "output" : "sb_humantier5mhammer",
-  "groups" : ["craftingseparator","weapons","all"]
+  "input": [["sb_refinedrubium",6],["durasteelbar",4],"scorchedcore"],
+  "output": "sb_humantier5mhammer",
+  "groups": ["craftingseparator","weapons","all"]
 }
