@@ -39,7 +39,7 @@ function init()
     b.baseImageChecked = string.format(b.baseImageChecked,groups[i])
     b.data = groups[i]
     data.gui.categories.buttons[i] = b
-    button = config.getParameter("categoryButton") --I shouldn't have to ask why changing a copy of something modifies the original
+    button = config.getParameter("categoryButton") --TODO: change this to use copy from util
   end
 end
 

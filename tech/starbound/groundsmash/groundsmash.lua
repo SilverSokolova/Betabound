@@ -64,7 +64,7 @@ function update(args)
     elseif mcontroller.yVelocity() > lastVelocity then
       groundsmashActive = false
     end
-  elseif groundsmashActive or (groundsmashActive and (lastVelocity + 30 > mcontroller.yVelocity()) and not mcontroller.isNullColliding()) then --what the fuck is this `lastVelocity + 30` shit
+  elseif groundsmashActive or (groundsmashActive and (lastVelocity > mcontroller.yVelocity() - 30) and not mcontroller.isNullColliding()) then
     animator.burstParticleEmitter("landParticles", true)
     animator.playSound("landing")
     groundsmashActive = false

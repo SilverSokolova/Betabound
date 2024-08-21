@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "name": "sb_outpostundergroundencounter",
+    "species": "dummy",
+    "rules": [["maxSpawnCount", [1]]],
+    "anchor": ["empty", "shelter", "greenhouse"],
+    "maxRadius": 1000000,
+    "maxParts": 1
+  },
+
+  "parts": [{
+      "name": "empty",
+      "rules": [],
+      "def": ["tmx", "/dungeons/sb_empty.json"]
+    }, {
+      "name": "shelter",
+      "rules": [],
+      "def": ["tmx", "shelter.json"],
+      "chance": 0.5
+    }, {
+      "name": "greenhouse",
+      "rules": [],
+      "def": ["tmx", "greenhouse.json"],
+      "chance": 0.5
+    }
+  ]
+}

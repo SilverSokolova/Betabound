@@ -1,10 +1,10 @@
 {
-  "frameGrid" : {
-    "size" : [45, 18],
-    "dimensions" : [3, 1],
+  "frameGrid": {
+    "size": [45, 18],
+    "dimensions": [3, 1],
 
-    "names" : [
-      [ "1", "2", "3" ]
+    "names": [
+      ["1", "2", "3"]
     ]
   }
 }
