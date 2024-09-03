@@ -8,7 +8,7 @@
   "rarity": "uncommon",
   "description": "No problem is too big or too small for The Doc.",
   "shortdescription": "The Doc",
-  "muzzleOffset": [2.1, 0.15],
+  "muzzleOffset": [1.5, 0.15],
   "level": 4,
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

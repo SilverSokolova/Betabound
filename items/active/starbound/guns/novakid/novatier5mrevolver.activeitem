@@ -8,13 +8,12 @@
   "rarity": "rare",
   "description": "A respectable weapon with a suspiciously vague past.",
   "shortdescription": "Lawkeeper",
-  "muzzleOffset": [2.1, 0.2],
+  "muzzleOffset": [1.375, 0.2],
   "level": 5,
   "configOverrides": {
     "primaryAbility": {
-      "fireTime": 0.67,
-      "baseDps": 5,
-      "energyUsage": 10
+      "baseDps": 5.25,
+      "energyUsage": 14.65
     }
   },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"

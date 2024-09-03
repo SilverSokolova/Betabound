@@ -16,7 +16,7 @@
   "itemTags": ["weapon", "ranged", "assaultrifle", "sb_scintillium"],
   "twoHanded": true,
 
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
     "butt": "",
     "middle": "feroziumrifle.png",
@@ -30,7 +30,7 @@
     }
   },
   "baseOffset": [0.5, 0],
-  "muzzleOffset": [2.25, 0.235],
+  "muzzleOffset": [2.375, 0.25],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "elementalType": "physical",
   "altAbilityType": "piercingshot",

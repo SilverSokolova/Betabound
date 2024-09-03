@@ -8,7 +8,7 @@
   "category": "uniqueWeapon",
   "rarity": "Rare",
   "fixedRarity": false,
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationCustom": {
     "sounds": {
       "fire": ["/sfx/gun/blowgun1.ogg", "/sfx/gun/blowgun2.ogg", "/sfx/gun/blowgun3.ogg"]

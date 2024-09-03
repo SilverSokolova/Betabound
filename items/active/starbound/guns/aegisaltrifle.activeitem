@@ -16,7 +16,7 @@
   "itemTags": ["weapon", "ranged", "assaultrifle", "aegisalt"],
   "twoHanded": true,
 
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
     "butt": "",
     "middle": "aegisaltrifle.png",

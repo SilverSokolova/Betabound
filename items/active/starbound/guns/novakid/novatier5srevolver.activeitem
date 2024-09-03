@@ -8,12 +8,12 @@
   "rarity": "rare",
   "description": "For best results, exercise an appropriate level of caution.",
   "shortdescription": "The Ugly",
-  "muzzleOffset": [2.1, 0.3],
+  "muzzleOffset": [1.25, 0.125],
   "level": 5,
   "configOverrides": {
     "primaryAbility": {
-      "fireTime": 0.67,
-      "energyUsage": 24
+      "fireTime": 0.7,
+      "energyUsage": 24.65
     }
   },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"

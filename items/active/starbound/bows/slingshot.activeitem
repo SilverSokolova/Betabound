@@ -13,7 +13,6 @@
         "release": ["/sfx/gun/blowgun1.ogg", "/sfx/gun/blowgun2.ogg", "/sfx/gun/blowgun3.ogg"]
       }
     },
-    "radioMessagesOnPickup": [],
     "altAbilityType": "bowshot",
     "category": "uniqueWeapon"
   },
@@ -24,6 +23,7 @@
   "description": "A basic, easily concealed ranged weapon.",
   "shortdescription": "Slingshot",
   "itemTags": ["weapon", "ranged", "bow"],
+  "clearRadioMessagesOnPickup": true,
   "primaryAbility": {
     "fireOffset": [1, 0.8],
     "fireTime": 0.4,

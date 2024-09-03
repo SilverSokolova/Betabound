@@ -104,6 +104,7 @@ xrc0018[18]=function()
   boxQuest("sb_humanexcon4.gearup",{"sb_uncommonaxe",1,{level=5}})
   giveBox()
 end
+--[[
 xrc0018[19]=function()
   if newPlayer then return end
   local r = {"floran","hylotl","avian","apex","glitch"}
@@ -130,6 +131,7 @@ xrc0018[19]=function()
   for i = 1, #q do for j = 1, #q[i] do boxQuest(q[i][j]..".gearup",{"rewardbag",1,{treasure={level=i}}}) end end
   giveBox()
 end
+]]
 xrc0018[20]=function()
   local q = {"sb_floranfan1","sb_hylotlwarriorE2"}
   for i = 1, #q do
@@ -145,7 +147,7 @@ xrc0018[21]=function()
   end
 end
 xrc0018[22]=function()
-  if player.blueprintKnown("sb_sweetcorn") then --could cause issues if we add sweetcorn back
+  if player.blueprintKnown("sb_sweetcorn") then --could cause issues if we add sweetcorn back. maybe change to iron anvil?
     updateNote("96")
   end
 end

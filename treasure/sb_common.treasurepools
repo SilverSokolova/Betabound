@@ -223,5 +223,17 @@
         {"weight": 1, "item": ["plantfibre",8]}
       ]
     }]
+  ],
+
+  "sb_defaultitems": [
+    [0, {
+      "fill": [
+        {"item": "sb_inspect"},
+        {"item": "sb_survivalguide-codex"},
+        {"item": "sb_gunguide-codex"},
+        {"item": "sb_novastarter"},
+        {"item": ["sb_ammo",250,{"projectileType":"standardbullet"}]}
+      ]
+    }]
   ]
 }

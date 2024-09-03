@@ -17,20 +17,21 @@
   },
   "itemTags": ["weapon", "ranged", "machinepistol"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
-    "muzzleFlash": "/animations/sb/muzzleflash/plasmamuzzle3/plasmamuzzle3.png"
+    "muzzleFlash": "/animations/muzzleflash/plasmamuzzle4<plasmacolor>/plasmamuzzle4<plasmacolor>.png"
   },
   "animationCustom": {
     "sounds": {
       "fire": ["/sfx/gun/ar6.ogg"]
     }
   },
+  "noMuzzleFlashVariants": true,
 
   "elementalType": "physical",
   "primaryAbilityType": "sb_gun",
   "primaryAbility": {
-    "projectileType": ["plasmabullet", "greenplasmabullet", "blueplasmabullet", "yellowplasmabullet"],
+    "projectileType": ["plasmabullet", "greenplasmabullet", "yellowplasmabullet"],
 
     "fireTime": [0.07, 0.11],
     "baseDps": [7.5, 8],

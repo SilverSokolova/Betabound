@@ -3,7 +3,7 @@
   "maxStack": 1,
   "rarity": "common",
   "baseOffset": [-0.85, 0.12],
-  "muzzleOffset": [0, 0.25],
+  "muzzleOffset": [0.125, 0.25],
   "price": 620,
   "paletteSwaps": "",
   "tooltipKind": "sb_gun",
@@ -17,13 +17,22 @@
   },
   "itemTags": ["weapon", "ranged", "machinepistol"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
-    "muzzleFlash": "/animations/sb/muzzleflash/bulletmuzzle2/bulletmuzzle2.png"
+    "muzzleFlash": "/items/active/weapons/ranged/muzzleflash.png"
   },
   "animationCustom": {
     "sounds": {
       "fire": ["/sfx/gun/uzi1.ogg"]
+    },
+    "animatedParts": {
+      "parts": {
+        "muzzleFlash": {
+          "properties": {
+            "offset": [0.815, 0.04]
+          }
+        }
+      }
     }
   },
 

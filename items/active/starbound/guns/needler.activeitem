@@ -18,7 +18,7 @@
     "subtitle": "Thorny Needler"
   },
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "inventoryIcon": "needler.png",
   "animationParts": {
     "muzzleFlash": "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.png",

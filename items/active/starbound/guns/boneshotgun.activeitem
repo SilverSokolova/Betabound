@@ -19,7 +19,7 @@
   },
   "itemTags": ["weapon", "ranged", "shotgun"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "inventoryIcon": "boneshotgun.png",
   "animationParts": {
     "muzzleFlash" : "/animations/muzzleflash/bloodvomitmuzzle/bloodvomitmuzzle.png",
@@ -36,12 +36,13 @@
       "parts": {
         "muzzleFlash": {
           "properties": {
-            "offset": [1.25, 0]
+            "offset": [1.25, -0.125]
           }
         }
       }
     }
   },
+  "noMuzzleFlashVariants": true,
 
   "elementalType": "physical",
   "primaryAbilityType": "sb_gun2",

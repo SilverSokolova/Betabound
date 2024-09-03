@@ -17,22 +17,23 @@
   },
   "itemTags": ["weapon", "ranged", "shotgun"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
-    "muzzleFlash": "/animations/sb/muzzleflash/plasmamuzzle4/plasmamuzzle4.png"
+    "muzzleFlash": "/animations/muzzleflash/plasmamuzzle4<plasmacolor>/plasmamuzzle4<plasmacolor>.png"
   },
   "animationCustom": {
     "sounds": {
       "fire": ["/sfx/gun/plasma_shotgun2.ogg"]
     }
   },
+  "noMuzzleFlashVariants": true,
 
   "elementalType": "physical",
 
   "primaryAbility": {
     "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
     "class": "GunFire",
-    "projectileType": ["plasmabullet", "greenplasmabullet", "blueplasmabullet", "yellowplasmabullet", "plasma1", "plasma2", "plasma3", "plasma4"],
+    "projectileType": ["plasmabullet", "greenplasmabullet", "yellowplasmabullet", "plasma1", "plasma2", "plasma3", "plasma4"],
     "fireTime": [0.4, 1.4],
     "baseDps": [9.5, 10.5],
     "projectileCount": [5, 8],

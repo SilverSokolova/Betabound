@@ -8,10 +8,10 @@
 {"op":"add","path":"/itemTags/-","value":"ranged"},
 {"op":"add","path":"/itemTags/-","value":"assaultRifle"}],
 
-[{"op":"test","path":"/category","value":"toy"},{"op":"replace","path":"/category","value":"uniqueWeapon"}],
-[{"op":"test","path":"/description","value":"Powered by snow, it's fully automatic and keeps your gloves dry."},{"op":"replace","path":"/description","value":"Made for advanced snowball warfare. It's powered by snow, fully automatic, and keeps your gloves dry."}],
+[{"op":"test","path":"/category","value":"toy"},{"op":"replace","path":"/category","value":"assaultRifle"}],
+[{"op":"test","path":"/description","value":"Powered by snow, it's fully automatic and keeps your gloves dry."},{"op":"replace","path":"/description","value":"Made for advanced snowball warfare. It's fully automatic and keeps your gloves dry."}],
 [{"op":"test","path":"/shortdescription","value":"Snowball Shooter"},{"op":"replace","path":"/shortdescription","value":"Blizzard Blaster"}],
-[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"fossil"}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_gun2"}],
 [{"op":"test","path":"/primaryAbility/projectileParameters/power","inverse":true},{"op":"add","path":"/primaryAbility/projectileParameters/power","value":1.5}],
 [{"op":"test","path":"/primaryAbility/baseDps"},{"op":"replace","path":"/primaryAbility/baseDps","value":10.5}],
 [{"op":"test","path":"/primaryAbility/stances/fire/allowRotate","value":false},{"op":"replace","path":"/primaryAbility/stances/fire/allowRotate","value":true}],

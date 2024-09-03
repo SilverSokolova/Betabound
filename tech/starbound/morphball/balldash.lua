@@ -51,16 +51,19 @@ function update(args)
     dashDirection = action == "dashLeft" and "left" or "right"
 --  local transformPosition = transformPoly(transformedMovementParameters.standingPoly)
     local transformPosition = transformedMovementParameters.standingPoly
-      if transformPosition then mcontroller.setPosition(transformPosition) end
-      activate()
-    elseif active and inputs[dashDirection] and status.overConsumeResource("energy", energyPerSecond * args.dt) then
-      local dir = 1
-      if dashDirection == "left" then dir = -1 end
-        mcontroller.controlParameters(transformedMovementParameters)
-        mcontroller.controlApproachXVelocity(dir * dashSpeed, dashControlForce)
-        updateAngularVelocity(args.dt)
-        updateRotationFrame(args.dt)
-    else deactivate() end
+    if transformPosition then
+      mcontroller.setPosition(transformPosition)
+    end
+    activate()
+  elseif active and inputs[dashDirection] and status.overConsumeResource("energy", energyPerSecond * args.dt) then
+    local dir = dashDirection == "left" and -1 or 1
+    mcontroller.controlParameters(transformedMovementParameters)
+    mcontroller.controlApproachXVelocity(dir * dashSpeed, dashControlForce)
+    updateAngularVelocity(args.dt)
+    updateRotationFrame(args.dt)
+  else
+    deactivate()
+  end
   updateTransformFade(args.dt)
   lastPosition = mcontroller.position()
 end
@@ -72,6 +75,7 @@ function activate()
   tech.setParentOffset({0, positionOffset()})
   tech.setVisible(true)
   status.setPersistentEffects("movementAbility", {{stat = "activeMovementAbilities", amount = 1}})
+  status.setPersistentEffects("sb_disableBreakneck", {{stat = "sb_disableBreakneck", amount = 1}})
   tech.setParentHidden(true)
 --  animator.burstParticleEmitter("morphballActivateParticles")
 --  tech.setParentDirectives("?multiply=0000")
@@ -95,5 +99,6 @@ function deactivate()
   angle = 0
   active = false
   status.clearPersistentEffects("movementAbility")
+  status.clearPersistentEffects("sb_disableBreakneck")
  end
 end

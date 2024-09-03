@@ -16,7 +16,7 @@
   "itemTags": ["weapon", "ranged", "rifle", "sb_scintillium"],
   "twoHanded": true,
 
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
     "butt": "",
     "middle": "feroziumsniper.png",

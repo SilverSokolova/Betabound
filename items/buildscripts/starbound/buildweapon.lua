@@ -129,6 +129,8 @@ function build(directory, config, parameters, level, seed)
   else
     config.primaryAbility.projectileType = randomFromList(config.primaryAbility.projectileType, seed, "projectileType")
     parameters.primaryAbility.projectileType = config.primaryAbility.projectileType
+    local projectileType = parameters.primaryAbility.projectileType
+    replacePatternInData(config, nil, "<plasmacolor>", projectileType:find("plasmabullet") and projectileType:gsub("plasmabullet", "") or "")
     config.primaryAbility.projectileCount = randomIntInRange(config.primaryAbility.projectileCount, seed, "projectileCount") or 1
     config.primaryAbility.fireType = randomFromList(config.primaryAbility.fireType, seed, "fireType") or "auto"
     config.primaryAbility.burstCount = randomIntInRange(config.primaryAbility.burstCount, seed, "burstCount") or 1
@@ -255,6 +257,14 @@ function build(directory, config, parameters, level, seed)
     config.muzzleOffset = vec2.add(config.baseOffset, vec2.add(config.muzzleOffset or {0,0}, vec2.div(imageOffset, 8)))
   end
 
+  -- allow using no-variant muzzle spritesheets in the animations folder
+  if config.noMuzzleFlashVariants and config.animationCustom then
+    local animationCustom = config.animationCustom or {}
+    animationCustom = ensureNestedTable(animationCustom, {"animatedParts", "parts", "muzzleFlash", "partStates", "firing", "fire", "properties"})
+    animationCustom.animatedParts.parts.muzzleFlash.partStates.firing.fire.properties.image = "<partImage>:<frame>"
+    config.animationCustom = animationCustom
+  end
+
   -- elemental fire sounds
   if config.fireSounds then
     construct(config, "animationCustom", "sounds", "fire")
@@ -337,4 +347,16 @@ function scaleConfig(ratio, value)
   else
     return value
   end
+end
+
+function ensureNestedTable(data, tables)
+  local current = data
+  
+  for i = 1, #tables do
+    local key = tables[i]
+    current[key] = current[key] or {}
+    current = current[key]
+  end
+  
+  return data
 end

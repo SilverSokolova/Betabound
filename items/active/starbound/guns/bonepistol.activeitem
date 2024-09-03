@@ -17,10 +17,10 @@
   },
   "itemTags": ["weapon", "ranged", "pistol"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "inventoryIcon": "bonepistol.png",
   "animationParts": {
-    "muzzleFlash": "/animations/sb/muzzleflash/bulletmuzzle4/bulletmuzzle4.png",
+    "muzzleFlash": "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.png",
     "middle": "bonepistol.png",
     "barrel": "",
     "butt": ""
@@ -30,7 +30,7 @@
       "parts": {
         "muzzleFlash": {
           "properties": {
-            "offset": [1.25, 0]
+            "offset": [0.7, 0]
 
           }
         },

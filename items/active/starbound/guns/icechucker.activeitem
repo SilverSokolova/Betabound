@@ -5,8 +5,8 @@
   "price": 640,
   "rarity": "rare",
   "fixedRarity": false,
-  "category": "pistol",
-  "itemTags": ["weapon", "ranged", "pistol"],
+  "category": "uniqueWeapon",
+  "itemTags": ["weapon", "ranged", "pistol", "unique"],
   "tooltipKind": "sb_gun2",
   "tooltipFields": {
     "damageKindImage": "/projectiles/material/sb_icematerial.png",

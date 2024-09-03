@@ -14,9 +14,9 @@
   "level": 1,
   "itemTags": ["weapon", "ranged", "machinepistol"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
-    "muzzleFlash": "/animations/sb/muzzleflash/bulletmuzzle2/bulletmuzzle2.png"
+    "muzzleFlash": "/items/active/weapons/ranged/muzzleflash.png"
   },
   "animationCustom": {
     "sounds": {

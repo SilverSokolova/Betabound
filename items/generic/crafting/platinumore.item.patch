@@ -60,6 +60,16 @@
     }
   ],
   [{
+      "op": "test",
+      "path": "/radioMessagesOnPickup",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/radioMessagesOnPickup",
+      "value": []
+    }
+  ],
+  [{
       "op": "add",
       "path": "/itemTags/-",
       "value": "reagent"
@@ -71,6 +81,17 @@
       "op": "add",
       "path": "/learnBlueprintsOnPickup/-",
       "value": "platinumbar"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/radioMessagesOnPickup/0",
+      "value": "pickupore",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/radioMessagesOnPickup/-",
+      "value": "pickupore"
     }
   ],
   [{

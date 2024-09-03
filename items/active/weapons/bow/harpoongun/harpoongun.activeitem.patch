@@ -4,6 +4,7 @@
 [{"op":"test","path":"/level"},{"op":"remove","path":"/level"}],
 [{"op":"test","path":"/fixedLevel","inverse":true},{"op":"add","path":"/fixedLevel","value":false}],
 [{"op":"test","path":"/price","value":40},{"op":"replace","path":"/price","value":250}],
+[{"op":"test","path":"/category","value":"bow"},{"op":"replace","path":"/category","value":"uniqueWeapon"}],
 
 [{"op":"test","path":"/primaryAbility/walkWhileFiring","value":true},{"op":"replace","path":"/primaryAbility/walkWhileFiring","value":false}],
 

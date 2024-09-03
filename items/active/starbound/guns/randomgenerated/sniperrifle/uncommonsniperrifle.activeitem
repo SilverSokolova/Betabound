@@ -14,9 +14,9 @@
   "level": 1,
   "itemTags": ["weapon", "ranged", "sniperrifle"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
-    "muzzleFlash": "/animations/sb/muzzleflash/bulletmuzzle3/bulletmuzzle3.png"
+    "muzzleFlash": "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.png"
   },
   "animationCustom": {
     "sounds": {

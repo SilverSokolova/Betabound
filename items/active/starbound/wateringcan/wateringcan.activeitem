@@ -9,7 +9,7 @@
   "category": "tool",
   "rarity": "uncommon",
   "fixedRarity": true,
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationCustom": {
     "sounds": {
       "fire": ["/sfx/tools/wateringcan2.ogg", "/sfx/tools/wateringcan3.ogg"]

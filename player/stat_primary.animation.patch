@@ -10,7 +10,7 @@
             "states": {
                 "none": {},
                 "flames": {
-                    "frames": 7,
+                    "frames": 8,
                     "cycle": 0.5,
                     "mode": "loop"
                 }

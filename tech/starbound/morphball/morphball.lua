@@ -16,5 +16,6 @@ function update(args)
   if active and args.moves["primaryFire"] and bombCooldownTimer <= 0 and status.overConsumeResource("energy", energyCostPerBomb) then
     world.spawnProjectile(bombProjectile, entity.position(), entity.id(), {0,0}, false, bombParameters)
     bombCooldownTimer = bombCooldownTime
+    animator.playSound("bomb")
   end
 end

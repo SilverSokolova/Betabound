@@ -8,8 +8,8 @@
     "damageKindImage": "/interface/sb_tooltips/electric.png",
     "objectImage": "/items/active/starbound/guns/brainextractor.png"
   },
-  "itemTags": ["weapon", "ranged", "pistol"],
-  "category": "pistol",
+  "itemTags": ["weapon", "ranged", "pistol", "unique"],
+  "category": "uniqueWeapon",
   "fixedRarity": true,
   "rarity": "Rare",
   "animation": "/items/active/weapons/ranged/gun.animation",
@@ -21,7 +21,7 @@
   "animationParts": {
     "barrel": "",
     "butt": "",
-    "muzzleFlash": "",
+    "muzzleFlash": "", //I already tried the electro muzzle and it didn't look good
     "middle": "brainextractor.png"
   },
   "scripts": ["/items/active/weapons/ranged/gun.lua"],

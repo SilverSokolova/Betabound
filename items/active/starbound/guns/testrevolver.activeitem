@@ -20,7 +20,7 @@
   },
   "description": "\"Bolt Single Action Army\" is engraved on its side.",
   "shortdescription": "Pristine Revolver",
-  "muzzleOffset": [1.8, 0.4],
+  "muzzleOffset": [1.25, 0.25],
   "level": 10,
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

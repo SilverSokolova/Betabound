@@ -7,7 +7,7 @@
   "itemTags": ["weapon", "ranged", "grenadelauncher"],
   "category": "grenadeLauncher",
   "rarity": "Rare",
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationCustom": {
     "animatedParts": {
       "parts": {
@@ -41,7 +41,7 @@
   "animationParts": {
     "barrel": "",
     "butt": "irradiatedlauncherfb.png",
-    "muzzleFlash": "/animations/muzzleflash/plasmamuzzle4green/plasmamuzzle4green.png",
+    "muzzleFlash": "",
     "middle": "irradiatedlauncher.png"
   },
   "scripts": ["/items/active/weapons/ranged/gun.lua"],

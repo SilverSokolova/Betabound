@@ -84,6 +84,14 @@ function build(directory, config, parameters, level, seed)
     end
   end
 
+  -- allow using no-variant muzzle spritesheets in the animations folder
+  if config.noMuzzleFlashVariants and config.animationCustom then
+    local animationCustom = config.animationCustom or {}
+    animationCustom = ensureNestedTable(animationCustom, {"animatedParts", "parts", "muzzleFlash", "partStates", "firing", "fire", "properties"})
+    animationCustom.animatedParts.parts.muzzleFlash.partStates.firing.fire.properties.image = "<partImage>:<frame>"
+    config.animationCustom = animationCustom
+  end
+
   -- populate tooltip fields
   if config.tooltipKind ~= "base" then
     config.tooltipFields = config.tooltipFields or {}
@@ -138,5 +146,21 @@ function build(directory, config, parameters, level, seed)
   local tags = configParameter("tags")
   if tags then for k, v in pairs(tags) do replacePatternInData(config, nil, k, v) end end
 
+  if config.clearRadioMessagesOnPickup and config.radioMessagesOnPickup then
+    config.radioMessagesOnPickup = nil
+  end
+
   return config, parameters
+end
+
+function ensureNestedTable(data, tables)
+  local current = data
+  
+  for i = 1, #tables do
+    local key = tables[i]
+    current[key] = current[key] or {}
+    current = current[key]
+  end
+  
+  return data
 end

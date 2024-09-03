@@ -8,7 +8,7 @@
   "rarity": "common",
   "description": "Time's a wastin'.",
   "shortdescription": "Fast Hands",
-  "muzzleOffset": [2.1, 0.3],
+  "muzzleOffset": [1.5, 0.25],
   "level": 2,
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

@@ -3,12 +3,17 @@
   "type": "body",
 
   "rarity": "Legendary",
-  "icon": "/tech/starbound/morphball.png",
+  "icon": "/tech/starbound/balldash.png",
   "description": "Double tap ^green;[A]^reset;/^green;[D]^reset; to roll!",
-  "shortDescription": "Rollyball",
+  "shortDescription": "Rolly Sphere",
 
   "scripts": ["balldash.lua"],
   "animator": "morphball.animation",
+
+  "animationParts": {
+    "ballGlow": "balldash/glow.png",
+    "ball": "balldash/ball.png"
+  },
 
   "transformedMovementParameters": {
     //  "collisionPoly": [[-0.75, -0.75], [0.75, -0.75], [0.75, 0.75], [-0.75, 0.75]],
@@ -41,5 +46,5 @@
   "ballTransformHeightChange": -1.7,
   "ballDeactivateCollisionTest": [-0.75, -0.75, 0.75, 2.97],
   "ballRadius": 1,
-  "ballFrames": 8
+  "ballFrames": 4
 }

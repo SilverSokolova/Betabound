@@ -14,7 +14,7 @@
   "shortdescription": "Common Rocket Launcher",
   "itemTags": ["weapon", "ranged", "rocketlauncher"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
     "muzzleFlash": "/animations/muzzleflash/smokemuzzle/smokemuzzle.png"
   },
@@ -32,6 +32,7 @@
       "fire": ["/sfx/gun/rocket1.ogg"]
     }
   },
+  "noMuzzleFlashVariants": true,
 
   "elementalType": "physical",
 

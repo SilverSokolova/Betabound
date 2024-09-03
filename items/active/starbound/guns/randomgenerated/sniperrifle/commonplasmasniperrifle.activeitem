@@ -17,15 +17,16 @@
     "subtitle": "Plasma Sniper Rifle"
   },
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
-    "muzzleFlash": "/animations/sb/muzzleflash/plasmamuzzle2/plasmamuzzle2.png"
+    "muzzleFlash": "/animations/muzzleflash/plasmamuzzle2/plasmamuzzle2.png"
   },
   "animationCustom": {
     "sounds": {
       "fire": ["/sfx/gun/plasma_sniper1.ogg"]
     }
   },
+  "noMuzzleFlashVariants": true,
 
   "primaryAbility": {
     "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
