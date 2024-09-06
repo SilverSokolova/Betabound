@@ -1,7 +1,7 @@
 function init()
   storage.radio = storage.radio or config.getParameter("radioData")
   storage.knownPlayers = {}
-  playing = false
+  playing = true
 
   if storage.radio[1] then
     storage.radio = {
@@ -21,7 +21,7 @@ function init()
   end)
 
   if storage.radio.song == "" then
-    uninit()
+    disableRadio()
   end
   processWireInteraction()
 end
@@ -45,21 +45,23 @@ function processWireInteraction()
     if object.getInputNodeLevel(0) or not object.isInputNodeConnected(0) then
       enableRadio()
     else
-      uninit()
+      disableRadio()
       object.setInteractive(false)
     end
   end
 end
 
 function updateRadio(data)
-  storage.radio.song = data.song
-  if song ~= "" and not playing then
-    enableRadio()
-  elseif playing then
-    uninit()
-  end
-
   storage.radio.range = data.range
+
+  if data.song then
+    storage.radio.song = data.song
+    if song ~= "" and not playing then
+      enableRadio()
+    elseif playing then
+      disableRadio()
+    end
+  end
 --mode.playing = (not mode.playing and string.match(storage.radio[1][1], "/([^/]+)%.%w+$")) or storage.radio[1][1]
 end
 
@@ -82,14 +84,20 @@ function update(dt)
   end
 end
 
-function uninit() --disableRadio
-  playing = false
+function disableRadio()
+  uninit(true)
+end
+
+--TODO: fix this this is so jank why is it like this (i guess it doesnt matter if it works)
+function uninit(keepPlayers) --disableRadio
+  keepPlayers = keepPlayers or false
+  playing = keepPlayers
   animator.setParticleEmitterActive("music", false)
-  script.setUpdateDelta(0)
+  script.setUpdateDelta(keepPlayers and 60 or 0)
   local players = world.players()
   for _, player in pairs(players) do
     if storage.knownPlayers[player] then
-      storage.knownPlayers[player] = false
+      storage.knownPlayers[player] = keepPlayers or false
       local playerPosition = world.entityPosition(player)
       if not entityPosition or not playerPosition then
         return

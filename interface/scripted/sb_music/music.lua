@@ -68,8 +68,8 @@ function doPath(directory) return directory:sub(1,1) == "/" and directory or "/m
 function searchBar() query = widget.getText("searchBar"):lower() end
 
 function setRange()
-  widget.setText("lblRange",""..widget.getSliderValue("range"))
-  world.sendEntityMessage(id,"sb_radio",nil,widget.getSliderValue("range"))
+  widget.setText("lblRange", ""..widget.getSliderValue("range"))
+  world.sendEntityMessage(id, "sb_radio:update", {range = widget.getSliderValue("range")})
 end
 
 function update(dt)
