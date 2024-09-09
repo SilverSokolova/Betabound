@@ -81,12 +81,12 @@ function populateTechList()
     for _,techName in pairs(techs) do
       local config = self_techs[techName]
       if root.hasTech(techName) and techName ~= "sb_noprotection" then
-  if root.techType(techName) == slots[i] then
-    local listItem = widget.addListItem(self_techList)
-    widget.setText(string.format("%s.%s.techName", self_techList, listItem), config.shortDescription)
-    widget.setImage(string.format("%s.%s.techIcon", self_techList, listItem), sb_assetmissing(config.icon,"/interface/sb_tooltips/assetmissing.png"))
-    widget.setData(string.format("%s.%s", self_techList, listItem), techName)
-  end
+        if root.techType(techName) == slots[i] then
+          local listItem = widget.addListItem(self_techList)
+          widget.setText(string.format("%s.%s.techName", self_techList, listItem), config.shortDescription)
+          widget.setImage(string.format("%s.%s.techIcon", self_techList, listItem), sb_assetmissing(config.icon,"/interface/sb_tooltips/assetmissing.png"))
+          widget.setData(string.format("%s.%s", self_techList, listItem), techName)
+        end
       end
     end
   end
