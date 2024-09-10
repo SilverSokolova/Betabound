@@ -1,69 +1,13 @@
 [
-[{"op":"add","path":"/effectNames/sb_bleed","value":{"path":"/stats/sb_effects/damaging/bleed.statuseffect","customLabels":["^red;- Bleeding^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_frozenburning","value":{"path":"/stats/sb_effects/frozenburning.statuseffect","customLabels":["^red;- Frozen Burning^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_explosiveglove","value":{"path":"/stats/sb_effects/damaging/explosivepunch.statuseffect","customLabels":["^red;- Spontaneous Combustion^reset;"]}}]
+[{"op":"add","path":"/effectNames/sb_poisoncreep","value":{"path":"/stats/sb_effects/poisoncreep.statuseffect","customLabels":["^#ff0;| Poisoncreep^reset;"]}}]
 
-,[{"op":"add","path":"/effectNames/sb_poisoncreep","value":{"path":"/stats/sb_effects/poisoncreep.statuseffect","customLabels":["^#ff0;| Poisoncreep^reset;"]}}]
-
-,[{"op":"add","path":"/effectNames/sb_levelup","value":{"path":"/stats/sb_effects/levelup.statuseffect","customLabels":["^green;+ Level Up^reset;"]}}]
-
-,[{"op":"add","path":"/effectNames/sb_glowtech","value":{"path":"/tech/starbound/unscripted/glow.statuseffect","customLabels":["^green;+ Glow^reset;"]}}]
-
-,[{"op":"add","path":"/effectNames/sb_encumbered","value":{"path":"/stats/sb_effects/movement/encumbered.statuseffect","customLabels":["^red;- Encumbered^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_jellyslow","value":{"path":"/stats/sb_effects/movement/jellied.statuseffect","customLabels":["^red;- Slowness^reset;"]}}]
 ,[{"op":"add","path":"/effectNames/sb_sugarrush","value":{"path":"/stats/sb_effects/movement/sugarrush.statuseffect","customLabels":["^green;+ 20% Jump Boost","^green;+ 20% Run Boost^reset;"]}}]
 ,[{"op":"add","path":"/effectNames/sb_foodslow","value":{"path":"/stats/sb_effects/movement/foodslow.statuseffect","customLabels":["^red;- 70% Slowness^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_tranquilized","value":{"path":"/stats/sb_effects/movement/tranquilized.statuseffect","customLabels":["^red;- Tranqilized^reset;"]}}]
-
-,[{"op":"add","path":"/effectNames/sb_airpocket","value":{"path":"/stats/sb_effects/airpocket.statuseffect","customLabels":["^green;+ ^#81d8d8;Air Pocket^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_breathprotectiontech","value":{"path":"/tech/starbound/suits/air.statuseffect","customLabels":["^green;+ ^#81d8d8;Oxygen Supply^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_radiationprotectiontech","value":{"path":"/tech/starbound/suits/radprotection.statuseffect","customLabels":["^green;+ ^#ffc600;Radiation Protection","^green;+ 25% Poison Resistance^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_coldprotectiontech","value":{"path":"/tech/starbound/suits/cold.statuseffect","customLabels":["^green;+ Cold Protection","^green;+ 25% Ice Resist^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_heatprotectiontech","value":{"path":"/tech/starbound/suits/heat.statuseffect","customLabels":["^green;+ Heat Protection","^green;+ 25% Fire Resistance^reset;"]}}]
-
-,[{"op":"add","path":"/effectNames/sb_outpostnpcspawner","value":{"path":"/stats/sb_effects/outpost.statuseffect","customLabels":["(No Effect)"]}}]
-,[{"op":"add","path":"/effectNames/sb_capturedmonster","value":{"path":"/stats/sb_effects/capturedmonster.statuseffect","customLabels":["(No Effect)"]}}]
-,[{"op":"add","path":"/effectNames/sb_entity","value":{"path":"/stats/sb_effects/entity.statuseffect","customLabels":["(No Effect)"]}}]
-
-,[{"op":"add","path":"/effectNames/sb_minibossspawn","value":{"path":"/stats/sb_effects/minibossspawn.statuseffect","customLabels":["^green;+ Miniboss Invulnerability"]}}]
-
-,[{"op":"add","path":"/effectNames/sb_mobilitytech","value":{"path":"/tech/starbound/movement/mobility.statuseffect","customLabels":["^green;+ 50% Jump Boost\n^#5af09e;& 50% Speed Boost^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_jumptech","value":{"path":"/tech/starbound/movement/jump.statuseffect","customLabels":["^green;+ 50% Jump Boost"]}}]
-,[{"op":"add","path":"/effectNames/sb_speedtech","value":{"path":"/tech/starbound/movement/speed.statuseffect","customLabels":["^green;+ 150% Speed Boost^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_gravitytech","value":{"path":"/tech/starbound/movement/gravity.statuseffect","customLabels":["^green;- 30% Gravity^reset;"]}}]
-
-,[{"op":"add","path":"/effectNames/sb_protectiontech","value":{"path":"/tech/starbound/unscripted/protection.statuseffect","customLabels":["^green;+ 5 Protection^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_grittech","value":{"path":"/tech/starbound/unscripted/grit.statuseffect","customLabels":["^green;+ 50% KB Resist^reset;"]}}]
-
-,[{"op":"add","path":"/effectNames/sb_shield","value":{"path":"/tech/starbound/shield/shield.statuseffect","customLabels":["^green;+ Shield^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_vamptech","value":{"path":"/tech/starbound/bio/vamp.statuseffect","customLabels":["^green;+ Vampiric^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_enhancedhealingtech","value":{"path":"/tech/starbound/bio/enhancedhealing.statuseffect","customLabels":["^green;+ Enhanced Healing^reset;"]}}]
-
-,[{"op":"add","path":"/effectNames/sb_regenerationtech","value":{"path":"/tech/starbound/regen/regeneration.statuseffect","customLabels":["^green;+ Stationary Regen^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_energyregentech","value":{"path":"/tech/starbound/regen/energyregen.statuseffect","customLabels":["^green;+ Energy Charge^reset;"]}}]
-
-,[{"op":"add","path":"/effectNames/sb_healthtech","value":{"path":"/tech/starbound/unscripted/health.statuseffect","customLabels":["^green;+ Health+^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_energytech","value":{"path":"/tech/starbound/unscripted/energy.statuseffect","customLabels":["^green;+ ^green;Energy+^reset;"]}}]
-
 
 ,[{"op":"add","path":"/effectNames/sb_health","value":{"path":"/stats/sb_effects/instant/health.statuseffect","customLabels":["^green;+ Instant Health^reset;"]}}]
 ,[{"op":"add","path":"/effectNames/sb_energy","value":{"path":"/stats/sb_effects/instant/energy.statuseffect","customLabels":["^green;+ Instant Energy^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_food","value":{"path":"/stats/sb_effects/instant/food.statuseffect","customLabels":["^green;+ Instant Food^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_directdamage","value":{"path":"/stats/sb_effects/instant/directdamage.statuseffect","customLabels":["^green;- Instant Damage^reset;"]}}]
 ,[{"op":"add","path":"/effectNames/sb_restoration","value":{"path":"/stats/sb_effects/instant/restoration.statuseffect","customLabels":["^green;+ Instant Health\n+ Instant Energy^reset;"]}}]
-
 ,[{"op":"add","path":"/effectNames/sb_fooddepletionsuppressed","value":{"path":"/stats/sb_effects/fooddepletionsuppressed.statuseffect","customLabels":["^green;+ No Hunger^reset;"]}}]
-
-,[{"op":"add","path":"/effectNames/sb_grit","value":{"path":"/stats/sb_effects/stats/grit.statuseffect","customLabels":["^green;+ 100% KB Resist^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_brainextractor","value":{"path":"/stats/sb_effects/brainextractor.statuseffect","customLabels":["^#ff0;| Brain Extraction^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_glide","value":{"path":"/stats/sb_effects/movement/glide.statuseffect","customLabels":["^green;+ Parachute^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_ladder","value":{"path":"/stats/sb_effects/ladder.statuseffect","customLabels":["^green;+ ^green;Ladder^reset;"]}}]
-
-,[{"op":"add","path":"/effectNames/sb_groundsmashdamage","value":{"path":"/tech/starbound/groundsmash/groundsmashdamage.statuseffect","customLabels":["^#f00;- Instant Damage^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_groundsmashknockbackX","value":{"path":"/tech/starbound/groundsmash/groundsmashknockback.statuseffect","customLabels":["^#f00;| Horizontal Knockback^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_groundsmashknockbackY","value":{"path":"/tech/starbound/groundsmash/groundsmashknockbackY.statuseffect","customLabels":["^#f00;| Vertical Knockback^reset;"]}}]
-
-,[{"op":"add","path":"/effectNames/sb_magnet","value":{"path":"/tech/starbound/magnet/magnet.statuseffect","customLabels":["^green;+ Magnetic^reset;"]}}]
 
 ,[{"op":"add","path":"/effectNames/sb_maxenergyboost5","value":{"path":"/stats/effects/maxenergyboost/sb_maxenergyboost5.statuseffect","customLabels":["^green;+ 5 Max Energy^reset;"]}}]
 ,[{"op":"add","path":"/effectNames/sb_maxenergyboost10","value":{"path":"/stats/effects/maxenergyboost/sb_maxenergyboost10.statuseffect","customLabels":["^green;+ 10 Max Energy^reset;"]}}]
@@ -72,13 +16,11 @@
 ,[{"op":"add","path":"/effectNames/sb_maxenergyboost30","value":{"path":"/stats/effects/maxenergyboost/sb_maxenergyboost30.statuseffect","customLabels":["^green;+ 30 Max Energy^reset;"]}}]
 ,[{"op":"add","path":"/effectNames/sb_maxenergyboost40","value":{"path":"/stats/effects/maxenergyboost/sb_maxenergyboost40.statuseffect","customLabels":["^green;+ 40 Max Energy^reset;"]}}]
 
-,[{"op":"add","path":"/effectNames/sb_berserk","value":{"path":"/tech/starbound/unscripted/berserk.statuseffect","customLabels":["^green;+ Berserk^reset;"]}}]
-
 ,[{"op":"add","path":"/effectNames/sb_protectionboost5","value":{"path":"/stats/sb_effects/stats/protectionboost5.statuseffect","customLabels":["^green;+ 5 Protection^reset;"]}}]
 ,[{"op":"add","path":"/effectNames/sb_greystim","value":{"path":"/stats/sb_effects/stats/greystim.statuseffect","customLabels":["^green;+ 5 Protection^reset;"]}}]
-,[{"op":"add","path":"/effectNames/sb_shipgreystim","value":{"path":"/stats/sb_effects/stats/shipgreystim.statuseffect","customLabels":["^green;+ 5 Protection^reset;"]}}]
 
 ,[{"op":"add","path":"/effectNames/sb_heatingbag","value":{"path":"/stats/effects/iceblock/sb_heatingbag.statuseffect","customLabels":["^green;+ 25% Ice Resist^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_electricitydeflector","value":{"path":"/stats/effects/electricblock/sb_electricitydeflector.statuseffect","customLabels":["^green;+ 25% Electric Resist^reset;"]}}]
 
 ,[{"op":"add","path":"/effectNames/sb_gauzeheal","value":{"path":"/stats/effects/heal/sb_gauzeheal.statuseffect","effectConfigTypes":["healAmount"]}}]
 ,[{"op":"add","path":"/effectNames/sb_regeneration5","value":{"path":"/stats/effects/regeneration/sb_regeneration5.statuseffect","effectConfigTypes":["healTime"]}}]

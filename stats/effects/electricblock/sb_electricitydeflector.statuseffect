@@ -1,0 +1,8 @@
+{
+  "name": "sb_electricitydeflector",
+  "effectConfig": {},
+  "defaultDuration": 300,
+  "scripts": ["electricblock.lua"],
+  "label": "Electric Resistance",
+  "icon": "/interface/statuses/electricblock.png"
+}
