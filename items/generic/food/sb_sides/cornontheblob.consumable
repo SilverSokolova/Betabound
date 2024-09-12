@@ -15,6 +15,7 @@
   "inventoryIcon": "cornontheblob.png",
   "description": "Your standard ear of sweetcorn, but with dirturchin spread on top. Mmm!",
   "shortdescription": "Corn on the Blob",
+  "sb_plateImage": true,
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"]
 }

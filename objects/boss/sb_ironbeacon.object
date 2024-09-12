@@ -10,7 +10,6 @@
   "tooltipFields": {
     "rarityLabel": "Critical"
   },
-  "learnBlueprintsOnPickup": ["sb_ironcraftingtable"],
 
   "price": 600,
   "apexDescription": "A distress beacon. I hope the person who left it is okay.",
