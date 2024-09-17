@@ -284,6 +284,9 @@
   ],
 
   [{
+      "op": "test",
+      "path": "/wordsList"
+    }, {
       "op": "add",
       "path": "/wordsList/sb_",
       "value": {
