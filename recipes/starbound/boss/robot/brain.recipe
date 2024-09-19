@@ -1,5 +1,5 @@
 {
-  "input": [["inferiorbrain",10]],
+  "input": [["inferiorbrain",5]],
   "output": "brain",
   "groups": ["sb_ironcraftingtable","sb_other","all"]
 }

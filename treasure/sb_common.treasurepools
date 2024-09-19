@@ -175,8 +175,8 @@
   "sb_brain": [ //this is used
     [0, {
       "pool": [
-        {"weight": 0.6, "item": "brain"},
-        {"weight": 0.4, "item": "inferiorbrain"}
+        {"weight": 0.4, "item": "brain"},
+        {"weight": 0.6, "item": "inferiorbrain"}
       ]
     }]
   ],

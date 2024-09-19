@@ -2,7 +2,7 @@
 [{"op":"test","path":"/tooltipKind","value":"tool"},{"op":"replace","path":"/tooltipKind","value":"sb_tool"}],
 [{"op":"test","path":"/blockRadius","value":2},{"op":"replace","path":"/blockRadius","value":4}],
 [{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"uncommon"}],
-[{"op":"test","path":"/durability","value":1000},{"op":"replace","path":"/durability","value":4000}],
+[{"op":"test","path":"/durability","value":1000},{"op":"replace","path":"/durability","value":1400}],
 [{"op":"test","path":"/price","value":375},{"op":"replace","path":"/price","value":775}],
 
 [{"op":"test","path":"/shortdescription","value":"Titanium Drill"},{"op":"replace","path":"/shortdescription","value":"Platinum Drill"}], //Why not just make your own fucking item??

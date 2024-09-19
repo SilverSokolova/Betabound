@@ -25,7 +25,7 @@
   "idleSound": "/sfx/tools/chainsaw_idle.ogg", //TODO: is this used??
   "strikeSounds": ["/sfx/tools/drill_hit.ogg"],
   "breakSound": "/sfx/tools/pickaxe_break.ogg",
-  "durability": 500,
+  "durability": 1000,
   "durabilityPerUse": 1,
   "tileDamage": 1.5,
   "harvestLevel": 99,
