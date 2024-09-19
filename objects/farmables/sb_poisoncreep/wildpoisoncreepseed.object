@@ -1,50 +1,46 @@
 {
-  "objectName" : "sb_wildpoisoncreepseed",
-  "colonyTags" : ["nature"],
-  "rarity" : "rare",
-  "hasObjectItem" : false,
-  "biomePlaced" : true,
-  "description" : "The berries are poisonous to anyone but those of aquatic disposition.",
-  "shortdescription" : "Poisoncreep Seed",
-  "objectType" : "farmable",
-  "printable" : false,
+  "objectName": "sb_wildpoisoncreepseed",
+  "colonyTags": ["nature"],
+  "rarity": "rare",
+  "hasObjectItem": false,
+  "biomePlaced": true,
+  "description": "The berries are poisonous to anyone but those of aquatic disposition.",
+  "shortdescription": "Poisoncreep Seed",
+  "objectType": "farmable",
+  "printable": false,
 
-  "apexDescription" : "Poisoncreep, one of Big Ape's preferred methods of dealing with problematic politicians.",
-  "avianDescription" : "Poisonous. Lethally so.",
-  "floranDescription" : "Even plantsss can hurt Floran. Makess sssick.",
-  "glitchDescription" : "Trepidation. Would the poisoncreep cause problems for Glitch internal systems? Possibly not.",
-  "humanDescription" : "If humans eat these... well, it's not pretty.",
-  "hylotlDescription" : "Delicious poisoncreep. A true delicacy. Everyone should try it.",
-  "novakidDescription" : "If I know anything about these plants, it's that they ain't raspberries!",
+  "apexDescription": "Poisoncreep, one of Big Ape's preferred methods of dealing with problematic politicians.",
+  "avianDescription": "Poisonous. Lethally so.",
+  "floranDescription": "Even plantsss can hurt Floran. Makess sssick.",
+  "glitchDescription": "Trepidation. Would the poisoncreep cause problems for Glitch internal systems? Possibly not.",
+  "humanDescription": "If humans eat these... well, it's not pretty.",
+  "hylotlDescription": "Delicious poisoncreep. A true delicacy. Everyone should try it.",
+  "novakidDescription": "If I know anything about these plants, it's that they ain't raspberries!",
 
+  "orientations": [{
+      "dualImage": "poisoncreepseed.png:<color>.<stage>.<alt>",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
 
-  "orientations" : [
-    {
-      "dualImage" : "poisoncreepseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
-
-      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
-      "requireTilledAnchors" : false,
-      "anchors" : [ "bottom" ]
+      "spaces": [[1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3]],
+      "requireTilledAnchors": false,
+      "anchors": ["bottom"]
 
     }
   ],
 
-  "stages" : [
-    {
-      "duration" : [280, 320]
-    },
-    {
-      "duration" : [280, 320]
-    },
-    {
-      "alts" : 5,
-      "harvestPool" : "sb_poisoncreepHarvest",
-      "resetToStage" : 1
+  "stages": [{
+      "duration": [280, 320]
+    }, {
+      "duration": [280, 320]
+    }, {
+      "alts": 5,
+      "harvestPool": "sb_poisoncreepHarvest",
+      "resetToStage": 1
     }
   ],
-  "breakDropOptions" : [[["sb_poisoncreepseed",1,{}]]],
-  "consumeSoilMoisture" : false
+  "breakDropOptions": [[["sb_poisoncreepseed", 1, {}
+      ]]],
+  "consumeSoilMoisture": false
 }

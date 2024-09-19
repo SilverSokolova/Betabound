@@ -1,75 +1,75 @@
 {
-  "itemName" : "sb_slapfish",
-  "level" : 1,
-  "maxStack" : 1,
-  "rarity" : "legendary",
-  "description" : "Wet smack.",
-  "shortdescription" : "Fish Slap",
-  "tooltipKind" : "sb_sword2",
-  "price" : 90,
-  "category" : "food",
-  "twoHanded" : false,
-  "itemTags" : ["weapon","melee","dagger"],
+  "itemName": "sb_slapfish",
+  "level": 1,
+  "maxStack": 1,
+  "rarity": "legendary",
+  "description": "Wet smack.",
+  "shortdescription": "Slap Fish",
+  "tooltipKind": "sb_sword2",
+  "price": 90,
+  "category": "dagger",
+  "twoHanded": false,
+  "itemTags": ["weapon", "melee", "dagger"],
 
-  "inventoryIcon" : "fishicon.png",
-  "animation" : "/items/active/weapons/melee/dagger/dagger.animation",
-  "animationParts" : {
+  "inventoryIcon": "fishicon.png",
+  "animation": "/items/active/weapons/melee/dagger/dagger.animation",
+  "animationParts": {
     "handle": "",
-    "blade" : "fish.png"
+    "blade": "fish.png"
   },
-  "animationCustom" : {
-    "sounds" : {
-      "fire" : ["/sfx/melee/swing_dagger.ogg"]
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/melee/swing_dagger.ogg"]
     }
   },
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "physical",
+  "elementalType": "physical",
 
-  "aimOffset" : 0.0,
-  "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
-    "class" : "MeleeSlash",
+  "aimOffset": 0.0,
+  "primaryAbility": {
+    "scripts": ["/items/active/weapons/melee/meleeslash.lua"],
+    "class": "MeleeSlash",
 
-    "fireTime" : 0.1,
-    "baseDps" : 8.0,
-    "damageConfig" : {
-      "damageSourceKind" : "fishing",
-      "statusEffects" : [ ],
-      "knockbackMode" : "aim",
-      "knockback" : 0.4,
-      "timeoutGroup" : "primary"
+    "fireTime": 0.1,
+    "baseDps": 8.0,
+    "damageConfig": {
+      "damageSourceKind": "fishing",
+      "statusEffects": [],
+      "knockbackMode": "aim",
+      "knockback": 0.4,
+      "timeoutGroup": "primary"
     },
-    "stances" : {
-      "idle" : {
-        "armRotation" : -90,
-        "weaponRotation" : 0,
-        "weaponOffset" : [0.4, 0],
+    "stances": {
+      "idle": {
+        "armRotation": -90,
+        "weaponRotation": 0,
+        "weaponOffset": [0.4, 0],
 
-        "allowFlip" : true,
-        "allowRotate" : false
+        "allowFlip": true,
+        "allowRotate": false
       },
-      "windup" : {
-        "duration" : 0.1,
-        "armRotation" : -20,
-        "weaponRotation" : 0,
-        "weaponOffset" : [0.4, 0],
+      "windup": {
+        "duration": 0.1,
+        "armRotation": -20,
+        "weaponRotation": 0,
+        "weaponOffset": [0.4, 0],
 
-        "allowFlip" : true,
-        "allowRotate" : false
+        "allowFlip": true,
+        "allowRotate": false
       },
-      "fire" : {
-        "duration" : 0.2,
-        "armRotation" : -135,
-        "weaponRotation" : 0,
-        "weaponOffset" : [0.4, 0],
+      "fire": {
+        "duration": 0.2,
+        "armRotation": -135,
+        "weaponRotation": 0,
+        "weaponOffset": [0.4, 0],
 
-        "allowFlip" : true,
-        "allowRotate" : false
+        "allowFlip": true,
+        "allowRotate": false
       }
     }
   },
-  "fireSounds" : ["/sfx/melee/swing_dagger.ogg"],
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "fireSounds": ["/sfx/melee/swing_dagger.ogg"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

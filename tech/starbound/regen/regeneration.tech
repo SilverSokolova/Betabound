@@ -9,7 +9,7 @@
   "description": "Provides boosted health regeneration whilst not moving.",
   "shortDescription": "Regeneration",
 
-  "regenRate": 10,
+  "regenRate": 5,
   //"energyUsageRate": 30,
   "resource": "health",
   "glow": "F003"

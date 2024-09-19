@@ -1,14 +1,14 @@
 {
-  "itemName" : "sb_hive",
-  "rarity" : "Common",
-  "inventoryIcon" : "sb_hive.png",
-  "category" : "block",
-  "tooltipKind" : "sb_object",
-  "description" : "A solid material made from the remains of fallen creatures... I think I see an eyeball.",
-  "shortdescription" : "Hivestone",
-  "glitchDescription" : "Revolted. This hive material is made up of crushed creatures.",
-  "floranDescription" : "Hive made from crusshed animalss.",
-  "novakidDescription" : "Some sorta hive made from crushed critters.",
+  "itemName": "sb_hive",
+  "rarity": "Common",
+  "inventoryIcon": "sb_hive.png",
+  "category": "block",
+  "tooltipKind": "sb_object",
+  "description": "A solid material made from the remains of fallen creatures... I think I see an eyeball.",
+  "shortdescription": "Hivestone",
+  "glitchDescription": "Revolted. This hive material is made up of crushed creatures.",
+  "floranDescription": "Hive made from crusshed animalss.",
+  "novakidDescription": "Some sorta hive made from crushed critters.",
 
-  "materialId" : 6971
+  "materialId": 6971
 }
