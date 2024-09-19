@@ -10,19 +10,12 @@ function build(directory, config, parameters, level, seed)
     require(config.sb_builder)
     config, parameters = build(directory, config, parameters, level, seed)
   end
+
   config.tooltipFields = sb.jsonMerge(config.tooltipFields or {}, sb_tooltipFields)
   local level = string.format("%.0f",configParameter("level", 1))
-  if string.find((config.tooltipKind or "base"), "sb_") then
-    config.tooltipFields.sb_levelLabel = ""
-    config.tooltipFields.sb_level2Label = ""
-    config.tooltipFields.levelLabel = "^shadow;Lvl "..level
-    config.tooltipFields.level2Label = "Lvl "..level
-  else
-    config.tooltipFields.sb_levelLabel = "^shadow;Lvl "..level
-    config.tooltipFields.sb_level2Label = "Lvl "..level
-    config.tooltipFields.levelLabel = ""
-    config.tooltipFields.level2Label = ""
-  end
+  config.tooltipFields.sb_levelLabel = "^shadow;Lvl "..level
+  config.tooltipFields.sb_level2Label = "Lvl "..level
+
   if not config.fixedRarity then
     local rarities = {"common","uncommon","rare","legendary","essential"}
     config.rarity = rarities[root.evalFunction("sb_rarity", math.floor(configParameter("level", 1)))] or config.rarity or "legendary"

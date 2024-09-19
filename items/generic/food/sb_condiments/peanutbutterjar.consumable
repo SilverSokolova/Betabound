@@ -19,7 +19,6 @@
       },
       "sb_foodheal95"
     ]],
-  "learnBlueprintsOnPickup": ["sb_peanutbutter"],
   "description": "A rich, creamy spread enhanced with actual butter. It offers a nutty flavor.",
   "shortdescription": "Peanut Butter",
   "builder": "/items/buildscripts/starbound/buildfood.lua",

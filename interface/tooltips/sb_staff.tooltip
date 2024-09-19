@@ -61,7 +61,7 @@
     "position": [98, 23],
     "file": "/interface/money.png"
   },
-  "levelLabel": {
+  "sb_levelLabel": {
     "type": "label",
     "position": [114, 153],
     "hAnchor": "left",

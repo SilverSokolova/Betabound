@@ -96,8 +96,8 @@ function build(directory, config, parameters, level, seed)
   if config.tooltipKind ~= "base" then
     config.tooltipFields = config.tooltipFields or {}
     config.tooltipFields.dyeLabel = configParameter("sb_dyeable") and "^gray;(Dyeable)" or ""
-    config.tooltipFields.levelLabel = "^shadow;Lvl "..string.format("%.0f",configParameter("level", 1))
-    config.tooltipFields.level2Label = "Lvl "..string.format("%.0f",configParameter("level", 1))
+    config.tooltipFields.sb_levelLabel = "^shadow;Lvl "..string.format("%.0f",configParameter("level", 1))
+    config.tooltipFields.sb_level2Label = "Lvl "..string.format("%.0f",configParameter("level", 1))
     config.tooltipFields.dpsLabel = util.round((config.primaryAbility.baseDps or 0) * config.damageLevelMultiplier, 1)
     local fireTime = config.primaryAbility.fireTime or 1.0
     config.tooltipFields.speedLabel = util.round(1 / (fireTime), 1)

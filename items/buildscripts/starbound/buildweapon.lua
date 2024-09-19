@@ -275,8 +275,8 @@ function build(directory, config, parameters, level, seed)
   -- populate tooltip fields
   config.tooltipFields = config.tooltipFields or {}
   config.tooltipFields.dyeLabel = configParameter("sb_dyeable") and "^gray;(Dyeable)" or ""
-  config.tooltipFields.levelLabel = "^shadow;Lvl "..string.format("%.0f",configParameter("level", 1))
-  config.tooltipFields.level2Label = "Lvl "..string.format("%.0f",configParameter("level", 1))
+  config.tooltipFields.sb_levelLabel = "^shadow;Lvl "..string.format("%.0f",configParameter("level", 1))
+  config.tooltipFields.sb_level2Label = "Lvl "..string.format("%.0f",configParameter("level", 1))
   local fireTime = parameters.primaryAbility.fireTime or config.primaryAbility.fireTime or 1.0
   local baseDps = parameters.primaryAbility.baseDps or config.primaryAbility.baseDps or 0
   local energyUsage = parameters.primaryAbility.energyUsage or config.primaryAbility.energyUsage or 0

@@ -5,7 +5,7 @@ function build(directory, config, parameters)
   config, parameters = build(directory, config, parameters)
   config.tooltipFields = config.tooltipFields or {}
   local level = string.format("%.0f",configParameter("level", 1))
-  config.tooltipFields.levelLabel = "^shadow;Lvl "..level
-  config.tooltipFields.level2Label = "Lvl "..level
+  config.tooltipFields.sb_levelLabel = "^shadow;Lvl "..level
+  config.tooltipFields.sb_level2Label = "Lvl "..level
   return config, parameters
 end

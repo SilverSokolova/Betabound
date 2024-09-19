@@ -76,7 +76,7 @@
     "color": "gray",
     "wrapWidth": 126
   },
-  "levelLabel": {
+  "sb_levelLabel": {
     "type": "label",
     "position": [114, 173],
     "hAnchor": "left",

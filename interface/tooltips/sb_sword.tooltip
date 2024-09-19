@@ -82,7 +82,7 @@
     "centered": false,
     "wrapWidth": 126
   },
-  "levelLabel": {
+  "sb_levelLabel": {
     "type": "label",
     "position": [114, 147],
     "hAnchor": "left",
