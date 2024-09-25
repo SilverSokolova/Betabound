@@ -73,31 +73,30 @@ function update(dt)
     {entityPosition[1] - storage.radio.range + 2, entityPosition[2] - storage.radio.range - 2},
     {entityPosition[1] + storage.radio.range, entityPosition[2] - storage.radio.range - 2}
   }, "green")
-  for _, player in pairs(players) do
-    if world.magnitude(entityPosition, world.entityPosition(player)) < storage.radio.range then
-      world.sendEntityMessage(player, "playAltMusic", {storage.radio.song}, 1)
-      storage.knownPlayers[player] = true
-    elseif storage.knownPlayers[player] and playing then
-      world.sendEntityMessage(player, "stopAltMusic", 1)
-      storage.knownPlayers[player] = false
+  if playing then
+    for _, player in pairs(players) do
+      if world.magnitude(entityPosition, world.entityPosition(player)) < storage.radio.range then
+        world.sendEntityMessage(player, "playAltMusic", {storage.radio.song}, 1)
+        storage.knownPlayers[player] = true
+      elseif storage.knownPlayers[player] then
+        world.sendEntityMessage(player, "stopAltMusic", 1)
+        storage.knownPlayers[player] = false
+      end
     end
   end
 end
 
 function disableRadio()
-  uninit(true)
+  uninit()
 end
 
---TODO: fix this this is so jank why is it like this (i guess it doesnt matter if it works)
-function uninit(keepPlayers) --disableRadio
-  keepPlayers = keepPlayers or false
-  playing = keepPlayers
+function uninit() --disableRadio
   animator.setParticleEmitterActive("music", false)
-  script.setUpdateDelta(keepPlayers and 60 or 0)
+  script.setUpdateDelta(0)
   local players = world.players()
   for _, player in pairs(players) do
     if storage.knownPlayers[player] then
-      storage.knownPlayers[player] = keepPlayers or false
+      storage.knownPlayers[player] = nil
       local playerPosition = world.entityPosition(player)
       if not entityPosition or not playerPosition then
         return

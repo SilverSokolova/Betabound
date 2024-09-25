@@ -160,7 +160,7 @@
 
   "mainBlock": "corruptdirt",
   "subBlocks": ["rock02", "direstone"],
-  "ores": "sb_surfaceOres",
+  "ores": "surface",
 
   "parallax": "/parallax/surface/sb_tentacles.parallax",
 
