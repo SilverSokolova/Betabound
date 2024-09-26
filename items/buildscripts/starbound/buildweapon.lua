@@ -6,15 +6,24 @@ require "/items/buildscripts/starbound/abilities.lua"
 require "/scripts/sb_assetmissing.lua"
 
 function build(directory, config, parameters, level, seed)
-  require "/items/buildscripts/starbound/updateweapon.lua"
-  config, parameters = build(directory, config, parameters, level, seed)
-
   local configParameter = function(keyName, defaultValue) return parameters[keyName] or config[keyName] or defaultValue end
+
+  --we need to transform the item because primaryAbility.projectileType doesn't change when upgrading normally
+  --this happens because we randomize the projectile based on the seed instead of using the one from parameters
+  --regardless, this is fine
+  local newItemName = parameters.sb_newItemName
+  if newItemName then
+    parameters.sb_newItemName = nil
+    local newItem = root.itemConfig({newItemName, 1, parameters}, level, seed)
+    config, parameters, directory = newItem.config, newItem.parameters, newItem.directory
+  end
   local definition = configParameter("definition", configParameter("sb_definition"))
   if definition then
     require "/items/buildscripts/starbound/definition.lua"
     config = applyDefinition(config, definition, configParameter("configOverrides"))
   end
+  require "/items/buildscripts/starbound/updateweapon.lua"
+  config, parameters = build(directory, config, parameters, level, seed)
 
   if parameters.crafted then
     parameters = util.mergeTable(configParameter("craftedParameters", {}), parameters)

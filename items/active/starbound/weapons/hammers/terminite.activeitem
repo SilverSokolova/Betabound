@@ -1,18 +1,12 @@
 {
   "itemName": "sb_terminite",
-  "price": 800,
-  "maxStack": 1,
-  "level": 1,
+  "definition": "hammers/uncommon",
   "fixedLevel": false,
-  "rarity": "rare",
   "sb_waBan": true,
   "description": "A large, powerful hammer. It emits a screeching sound every so often.",
   "shortdescription": "Terminite",
   "tooltipKind": "sb_sword2",
-  "category": "hammer",
-  "twoHanded": true,
-  "itemTags": ["weapon", "melee", "hammer"],
-  "animation": "/items/active/starbound/weapons/hammer.animation",
+  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
   "sb_dyeable": true,
   "sb_backingDirectives": "?replace;f4988c=ffca8a;d93a3a=e0975c;932625=a85636;601119=6f2919",
 
@@ -47,16 +41,21 @@
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "elementalType": "physical",
-  "aimOffset": -1,
   "primaryAbilityType": "sb_hammer",
   "altAbilityType": "groundslam",
   "primaryAbility": {
-    "fireTime": [0.95, 1.5],
     "projectileType": "sb_hivebug",
-    "baseDps": [6, 12.4]
+    "stances": {
+      "idle": {
+        "weaponOffset": [-0.125, 0.5]
+      }
+    }
   },
 
-  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "upgradeParameters": {
+    "sb_newItemName": "sb_xterminitor"
+  }
 }

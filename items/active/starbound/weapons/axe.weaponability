@@ -11,7 +11,7 @@
     "handPositionOffset": [0, -1.4],
     "fireTime": 0.8,
     "baseDps": 6.5,
-    "allowHold": false,
+//  "allowHold": false,
     "damageConfig": {
       "damageSourceKind": "axe",
       "statusEffects": [],

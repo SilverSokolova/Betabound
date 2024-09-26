@@ -1,19 +1,14 @@
 {
   "itemName": "sb_uncommoncrappyhammer",
-  "price": 25,
-  "maxStack": 1,
-  "level": 1,
+  "price": 770,
   "rarity": "uncommon",
   "description": "Slow, heavy, and effective.",
   "shortdescription": "Uncommon Crappy Hammer",
   "tooltipKind": "sb_sword2",
-  "category": "hammer",
   "tooltipFields": {
     "subtitle": "Crappy Hammer"
   },
-  "twoHanded": true,
   "itemTags": ["weapon", "melee", "hammer", "crappy"],
-  "animation": "/items/active/starbound/weapons/hammer.animation",
 
   "animationCustom": {
     "lights": {
@@ -25,7 +20,7 @@
       "parts": {
         "swoosh": {
           "properties": {
-            "offset": [-1.0, 1.75]
+            "offset": [-1, 1.75]
           }
         },
         "blade": {
@@ -38,14 +33,12 @@
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
-  "aimOffset": -1.0,
   "primaryAbilityType": "sb_hammer",
   "primaryAbility": {
-    "fireTime": [0.6, 1.7],
-    "baseDps": [6, 8],
+    "fireTime": [1, 1.2],
+    "baseDps": [12, 13],
     "damageConfig": {
-      "knockbackRange": [12, 16]
+      "knockbackRange": [35, 45]
     },
     "stances": {
       "idle": {

@@ -18,6 +18,10 @@ function build(directory, config, parameters, level, seed)
       parameters.animation = "/items/active/starbound/weapons/broadsword.animation"
     end
 
+    if config.animation == "/items/active/starbound/weapons/comboshortsword.animation" and parameters.primaryAbilityType == "sb_meleeslash2" then
+      parameters.primaryAbilityType = "sb_shortswordcombo"
+    end
+
     if config.itemName == "sb_flamethrower" then
       if not parameters.elementalType then
         if config.itemName == "sb_flamethrower" then

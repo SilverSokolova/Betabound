@@ -3,12 +3,16 @@ function apply(input)
   local output = Item.new(input)
   local used = false
   if output:instanceValue("sb_dyeable", false) then
-    local dyeDirectives = not config.getParameter("dyeColorIndex", true) and config.getParameter("dyeDirectives", {}) or config.getParameter("sb_dyeDirectives") or 0
+    local dyeDirectives = config.getParameter("dyeColorIndex", true) and config.getParameter("sb_dyeDirectives") or config.getParameter("dyeDirectives") or 0
     if type(dyeDirectives) == "table" then
       dyeDirectives = "?"..paletteSwapDirective(dyeDirectives) 
     end
     if dyeDirectives == 0 then
-      local defaultDirectives = root.itemConfig(output:descriptor().name).config.directives or ""
+      local itemData = root.itemConfig(output:descriptor().name).config
+      if itemData.definition then
+        itemData.directives = root.assetJson(string.format("/sb_definitions/%s.config", itemData.definition)).directives
+      end
+      local defaultDirectives = itemData.directives or ""
       used = output:instanceValue("directives") ~= defaultDirectives
       if used then
         output:setInstanceValue("directives", defaultDirectives)

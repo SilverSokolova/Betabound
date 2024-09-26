@@ -1,17 +1,11 @@
 {
   "itemName": "sb_cactislammer",
-  "price": 800,
-  "maxStack": 1,
-  "level": 1,
-  "rarity": "rare",
+  "definition": "hammers/uncommon",
   "sb_waBan": true,
   "description": "Using a cactus as a weapon. Nobody will see this coming.",
   "shortdescription": "Cactislammer",
   "tooltipKind": "sb_sword2",
-  "category": "hammer",
-  "twoHanded": true,
   "itemTags": ["weapon", "melee", "hammer"],
-  "animation": "/items/active/starbound/weapons/hammer.animation",
 
   "sb_dyeable": false,
   "inventoryIcon": "cactislammer.png",
@@ -34,29 +28,14 @@
           }
         }
       }
-    },
-    "sounds": {
-      "fire": ["/sfx/melee/swing_hammer.ogg"]
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "elementalType": "physical",
-  "aimOffset": -1,
   "primaryAbilityType": "sb_hammer",
   "altAbilityType": "physicalshockwave",
   "primaryAbility": {
-    "fireTime": [0.95, 1.5],
-    "stances": {
-      "idle": {
-        "weaponOffset": [0.2, 2.4]
-      },
-      "windup": {
-        "weaponOffset": [0.2, 2.4]
-      }
-    },
-    "projectileType": "sb_cactislammer",
-    "baseDps": [6, 12.4]
+    "projectileType": "sb_cactislammer"
   },
 
   "builder": "/items/buildscripts/starbound/buildweapon.lua",

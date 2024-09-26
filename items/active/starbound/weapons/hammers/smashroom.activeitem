@@ -1,18 +1,12 @@
 {
   "itemName": "sb_smashroom",
-  "price": 800,
-  "maxStack": 1,
-  "level": 1,
+  "definition": "hammers/uncommon",
   "fixedLevel": false,
-  "rarity": "rare",
   "sb_waBan": true,
   "description": "A hammer believed to be designed by the Agaran. It's full of tightly packed spores.",
   "shortdescription": "Smashroom",
   "tooltipKind": "sb_sword2",
-  "category": "hammer",
-  "twoHanded": true,
-  "itemTags": ["weapon", "melee", "hammer"],
-  "animation": "/items/active/starbound/weapons/hammer.animation",
+  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
   //"sb_dyeable" : true,
   //"sb_backingDirectives" : "?replace;f4c375=ffca8a;e08b48=e0975c;ab5033=a85636;8e2808=6f2919",
 
@@ -39,22 +33,26 @@
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "elementalType": "poison",
-  "aimOffset": -1,
   "primaryAbilityType": "sb_hammer",
   "altAbilityType": "groundslam",
   "primaryAbility": {
     "damageConfig": {
       "damageSourceKind": "poisonhammer"
     },
-    "fireTime": [0.95, 1.5], //1.25,
-    "projectileType": "sb_multisporecloud",
-    "baseDps": [4, 10]//[7,13]
+    "stances": {
+      "idle": {
+        "weaponOffset": [-0.125, 0.5]
+      }
+    },
+    "projectileType": "sb_multisporecloud"
   },
 
   "builder": "/items/buildscripts/starbound/buildweapon.lua",
 
+  "upgradeParameters": {
+    "sb_newItemName": "sb_blighchen"
+  },
   "craftedParameters": {
     "seed": 1,
     "level": 2

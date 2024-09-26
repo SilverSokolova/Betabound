@@ -1,10 +1,10 @@
 {
   "itemName": "sb_slavesword",
   "maxStack": 1,
-  "rarity": "legendary",
+  "rarity": "rare",
   "tooltipKind": "sb_sword2",
   "description": "It's a secret to everyone.",
-  "price": 300,
+  "price": 660,
   "shortdescription": "Slave Sword",
   "category": "shortsword",
   "sb_waBan": true,
@@ -14,7 +14,7 @@
   },
   "itemTags": ["weapon", "melee", "shortsword"],
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
-  "animation": "/items/active/starbound/weapons/shortsword.animation",
+  "animation": "/items/active/starbound/weapons/comboshortsword.animation",
   "inventoryIcon": "slaveswordicon.png<directives>",
   "animationParts": {
     "handle": "",
@@ -22,54 +22,18 @@
   },
   "animationCustom": {
     "sounds": {
-      "physicalfire": ["/sfx/melee/sb_slavesword_swing.ogg"]//TODO: see if this sound exists under a different name in vanilla
-    },
-    "animatedParts": {
-      "parts": {
-        "swoosh": {
-          "partStates": {
-            "swoosh": {
-              "fire": {
-                "properties": {
-                  "image": "",
-                  "damageArea": [[-0.5, 0.25], [2, 0.25], [2, -1.25], [-0.5, -1.25]]
-                }
-              }
-            }
-          }
-        }
-      }
+      "physicalfire1": ["/sfx/melee/sb_slavesword_swing.ogg"], //TODO: see if this sound exists under a different name in vanilla
+      "physicalfire2": ["/sfx/melee/sb_slavesword_swing.ogg"]
     }
   },
 
   "elementalType": "physical",
-  "primaryAbilityType": "sb_meleeslash2",
+  "primaryAbilityType": "sb_shortswordcombo",
   "primaryAbility": {
     "projectileType": "sb_swordshot",
+    "projectileOffset": [0, 0.5],
     "fireTime": [0.4, 1.2],
-    "baseDps": [3.5, 12.5],
-    "stances": {
-      "idle": {
-        "armRotation": -84.5,
-        "weaponRotation": 4.5,
-        "weaponOffset": [-0.1, 1.4],
-        "twoHanded": false
-      },
-      "windup": {
-        "duration": 0.3,
-        "armRotation": -24.5,
-        "weaponRotation": -24.5,
-        "weaponOffset": [0, 1.25],
-        "allowRotate": true
-      },
-      "fire": {
-        "duration": 0.4,
-        "armRotation": -125,
-        "weaponRotation": 32,
-        "weaponOffset": [0.1, 1.4],
-        "allowRotate": true
-      }
-    }
+    "baseDps": [3.5, 12.5]
   },
 
   "builder": "/items/buildscripts/starbound/buildweapon.lua",
