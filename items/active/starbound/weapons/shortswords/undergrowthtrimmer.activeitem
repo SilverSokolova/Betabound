@@ -10,7 +10,7 @@
   "category": "shortsword",
   "twoHanded": false,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "shortsword", "wilderness"],
+  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
   "sb_dyeable": true,
   "sb_backingDirectives": "?replace;b5b5b5=ffca8a;808080=e0975c;555=a85636;303030=6f2919",
   "handGrip": "inside",
@@ -53,6 +53,10 @@
     "baseDamage": [2.5, 5.5]
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "upgradeParameters": {
+    "sb_newItemName": "sb_overgrownmower"
+  },
 
   "craftedParameters": {
     "level": 5,

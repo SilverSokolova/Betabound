@@ -28,7 +28,6 @@
 ,[{"op":"add","path":"/savannahTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_thornyneedler-recipe"}}]
 ,[{"op":"add","path":"/savannahTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_thornyneedler"}}]
 ,[{"op":"add","path":"/savannahTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_terminite"}}]
-,[{"op":"add","path":"/savannahTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_xterminitor"}}]
 
 //snow
   // ================================
@@ -244,7 +243,6 @@
 ,[{"op":"add","path":"/crystalTreasure/0/1/pool/-","value":{"weight":0.03,"pool":"sb_crystalMusic"}}]
 ,[{"op":"add","path":"/crystalTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_hackman"}}]
 ,[{"op":"add","path":"/crystalTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_hackman-recipe"}}]
-,[{"op":"add","path":"/crystalTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_hackmanight"}}]
 
 
 
@@ -258,7 +256,6 @@
   // ================================
 ,[{"op":"add","path":"/mushroomUndergroundTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_smashroom"}}]
 ,[{"op":"add","path":"/mushroomUndergroundTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_smashroom-recipe"}}]
-,[{"op":"add","path":"/mushroomUndergroundTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_blighchen"}}]
 ,[{"op":"add","path":"/mushroomUndergroundTreasure/0/1/pool/-","value":{"weight":0.3,"item":"shroomstatue-recipe"}}]
 ,[{"op":"add","path":"/mushroomUndergroundTreasure/0/1/pool/-","value":{"weight":0.3,"item":"mushroomhead-recipe"}}]
 
@@ -353,7 +350,6 @@
 ,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_slimestaff-recipe"}}]
 ,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_cutarrh"}}]
 ,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_cutarrh-recipe"}}]
-,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_katarrhna"}}]
 
 
 

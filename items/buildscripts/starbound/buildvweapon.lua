@@ -1,3 +1,4 @@
+require("/scripts/sb_assetmissing.lua")
 function build(directory, config, parameters, level, seed)
   local configParameter = function(keyName, defaultValue) return parameters[keyName] or config[keyName] or defaultValue end
   if parameters.sb_crafted then
@@ -15,6 +16,17 @@ function build(directory, config, parameters, level, seed)
   local level = string.format("%.0f",configParameter("level", 1))
   config.tooltipFields.sb_levelLabel = "^shadow;Lvl "..level
   config.tooltipFields.sb_level2Label = "Lvl "..level
+
+  if config.sb_animationPartsAsTooltipImage and config.animationParts then
+    if not util then
+      require "/scripts/util.lua"
+    end
+    local image = jarray()
+    for k, v in pairs(configParameter("animationParts", {})) do
+      table.insert(image, {image = util.absolutePath(directory, v..(k == "bow" and ":0" or ""))})
+    end
+    config.tooltipFields.objectImage = image
+  end
 
   if not config.fixedRarity then
     local rarities = {"common","uncommon","rare","legendary","essential"}

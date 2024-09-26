@@ -53,6 +53,7 @@
   "upgradeParameters": {
     "sb_newItemName": "sb_blighchen"
   },
+
   "craftedParameters": {
     "seed": 1,
     "level": 2

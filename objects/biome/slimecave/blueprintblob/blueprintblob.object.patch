@@ -4,7 +4,7 @@
 ,[{"op":"test","path":"/breakDropOptions","inverse":true},{"op":"add","path":"/breakDropOptions","value":[]}]
 ,[{"op":"test","path":"/smashDropOptions"},{"op":"test","path":"/smashDropOptions/0/0/0","value":"cutarrh-recipe"},{"op":"replace","path":"/smashDropOptions/0/0/0","value":"sb_cutarrh-recipe"}]
 ,[{"op":"test","path":"/breakDropOptions"},{"op":"test","path":"/breakDropOptions/0/0/0","value":"cutarrh-recipe"},{"op":"replace","path":"/breakDropOptions/0/0/0","value":"sb_cutarrh-recipe"}]
-
+//TODO: maybe just replace this with a random item, like the ones we use for trees
 ,[{"op":"add","path":"/smashDropOptions/-","value":[["slimechair-recipe",1,{}]]}]
 ,[{"op":"add","path":"/breakDropOptions/-","value":[["slimechair-recipe",1,{}]]}]
 ,[{"op":"add","path":"/smashDropOptions/-","value":[["slimebed-recipe",1,{}]]}]

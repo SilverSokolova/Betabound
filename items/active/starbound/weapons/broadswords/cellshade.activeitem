@@ -6,7 +6,7 @@
   "rarity": "legendary",
   "category": "broadsword",
   "description": "An unreal blade quivering with tremendous energy. It seems to have a mind of its own.",
-  "shortdescription": "Cellshade",
+  "shortdescription": "Cellshade ^yellow;^reset;",
   "tooltipKind": "sb_sword2",
   "twoHanded": true,
   "sb_waBan": true,

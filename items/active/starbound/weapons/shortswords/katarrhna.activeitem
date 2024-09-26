@@ -1,14 +1,14 @@
 {
   "itemName": "sb_katarrhna",
   "level": 1,
-  "definition": "shortswordswoosh",
+  "definition": "shortswords/swoosh",
   "rarity": "legendary",
   "description": "A powerful yet putrid blade comprised of a foul, rotten, sickly oozing mucus.",
-  "shortdescription": "Katarrhna",
+  "shortdescription": "Katarrhna ^yellow;^reset;",
   "tooltipKind": "sb_sword2",
   "price": 800,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "shortsword", "slime"],
+  "itemTags": ["weapon", "melee", "shortsword"],
   "inventoryIcon": "katarrhna.png<directives>",
   "animationParts": {
     "blade": "katarrhna.png<directives>",

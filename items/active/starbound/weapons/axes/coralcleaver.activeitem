@@ -10,7 +10,7 @@
   "category": "axe",
   "twoHanded": false,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "axe"],
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
   "animation": "/items/active/starbound/weapons/axe.animation",
 
   "sb_dyeable": true,
@@ -85,6 +85,10 @@
     }
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "upgradeParameters": {
+    "sb_newItemName": "sb_heatcleaver"
+  },
 
   "craftedParameters": {
     "seed": 1,

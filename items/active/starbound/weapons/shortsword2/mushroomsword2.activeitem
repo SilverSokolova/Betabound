@@ -1,7 +1,7 @@
 {
   "itemName": "sb_testshortsword",
   "level": 1,
-  "definition": "shortswordswoosh",
+  "definition": "shortswords/swoosh",
   "rarity": "common",
   "description": "A solid mushroom shortsword; a shortshroom.",
   "shortdescription": "Toxic Mushroom Sword",

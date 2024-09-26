@@ -1,14 +1,11 @@
 {
   "itemName": "sb_cutarrh",
-  "level": 1,
-  "definition": "shortswordswoosh",
-  "rarity": "legendary",
+  "definition": ["shortswords/swoosh", "shortswords/uncommon"],
   "description": "A sharp blade which secretes a putrid, oozing mucus.",
   "shortdescription": "Cutarrh",
   "tooltipKind": "sb_sword2",
-  "price": 800,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "shortsword", "slime"],
+  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
   "inventoryIcon": "cutarrh.png<directives>",
   "animationParts": {
     "blade": "cutarrh.png<directives>",
@@ -18,18 +15,19 @@
     "<swoosh>": "slime"
   },
   "elementalType": "poison",
+  "primaryAbilityType": "sb_shortswordcombo",
   "primaryAbility": {
     "projectileType": "sb_slimeblob",
     "projectileOffset": [1, 0.5],
-    "fireTime": [0.5, 0.67],
-    "baseDps": [2.5, 5.5],
-    "baseDamage": [2.5, 5.5],
     "damageConfig": {
-      "damageSourceKind": "acid",
-      "timeout": 0
+      "damageSourceKind": "acid"
     }
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "upgradeParameters": {
+    "sb_newItemName": "sb_katarrhna"
+  },
 
   "craftedParameters": {
     "level": 5,

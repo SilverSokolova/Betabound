@@ -5,7 +5,7 @@
   "level": 1,
   "rarity": "rare",
   "description": "Overloaded with solarium, the ember coral in this axe reaches the temperature of suns.",
-  "shortdescription": "Heat Cleaver",
+  "shortdescription": "Heat Cleaver ^yellow;^reset;",
   "tooltipKind": "sb_sword2",
   "category": "axe",
   "twoHanded": false,
