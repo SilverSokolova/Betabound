@@ -1,20 +1,15 @@
 {
   "itemName": "sb_slavesword",
-  "maxStack": 1,
-  "rarity": "rare",
+  "definition": "shortswords/uncommon",
   "tooltipKind": "sb_sword2",
   "description": "It's a secret to everyone.",
-  "price": 660,
   "shortdescription": "Slave Sword",
-  "category": "shortsword",
   "sb_waBan": true,
   "tooltipFields": {
     "subtitle": "Slave Sword",
     "objectImage": "/items/active/starbound/weapons/shortswords/slavesword.png<directives>"
   },
   "itemTags": ["weapon", "melee", "shortsword"],
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
-  "animation": "/items/active/starbound/weapons/comboshortsword.animation",
   "inventoryIcon": "slaveswordicon.png<directives>",
   "animationParts": {
     "handle": "",
@@ -31,9 +26,7 @@
   "primaryAbilityType": "sb_shortswordcombo",
   "primaryAbility": {
     "projectileType": "sb_swordshot",
-    "projectileOffset": [0, 0.5],
-    "fireTime": [0.4, 1.2],
-    "baseDps": [3.5, 12.5]
+    "projectileOffset": [0, 0.5]
   },
 
   "builder": "/items/buildscripts/starbound/buildweapon.lua",

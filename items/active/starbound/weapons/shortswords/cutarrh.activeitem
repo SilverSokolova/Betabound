@@ -1,6 +1,6 @@
 {
   "itemName": "sb_cutarrh",
-  "definition": ["shortswords/swoosh", "shortswords/uncommon"],
+  "definition": ["shortswords/swoosh", "shortswords/rare"],
   "description": "A sharp blade which secretes a putrid, oozing mucus.",
   "shortdescription": "Cutarrh",
   "tooltipKind": "sb_sword2",

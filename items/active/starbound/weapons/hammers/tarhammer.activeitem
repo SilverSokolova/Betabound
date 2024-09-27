@@ -1,6 +1,6 @@
 {
   "itemName": "sb_tarhammer",
-  "definition": "hammers/uncommon",
+  "definition": "hammers/common",
   "fixedLevel": false,
   "sb_waBan": true,
   "description": "Bludgeon your enemies and slow them down with a smack of tar, all in one strike!",

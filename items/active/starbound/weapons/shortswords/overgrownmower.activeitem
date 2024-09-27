@@ -1,12 +1,9 @@
 {
   "itemName": "sb_overgrownmower",
-  "level": 1,
-  "definition": "shortswords/swoosh",
-  "rarity": "legendary",
+  "definition": ["shortswords/swoosh", "shortswords/rare"],
   "description": "Creates a blistering storm of sharp leaves when swung.",
   "shortdescription": "Overgrown Mower ^yellow;^reset;",
   "tooltipKind": "sb_sword2",
-  "price": 800,
   "sb_waBan": true,
   "itemTags": ["weapon", "melee", "shortsword"],
   "sb_dyeable": true,
@@ -20,14 +17,11 @@
     "<swoosh>": "wildx"
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "primaryAbilityType": "sb_shortswordcombo",
   "elementalType": "physical",
   "primaryAbility": {
     "projectileType": "sb_leaforbx",
-    "projectileOffset": [1, 0.5],
-    "fireTime": [0.777, 1.111],
-    "baseDps": [2.5, 5.5],
-    "baseDamage": [2.5, 5.5]
+    "projectileOffset": [1, 0.5]
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

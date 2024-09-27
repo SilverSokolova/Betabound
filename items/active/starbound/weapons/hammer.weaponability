@@ -4,6 +4,7 @@
   "category": "hammer",
   "twoHanded": true,
   "projectileDamageMultiplier": 0.4,
+  "description": "Slow, heavy, and effective.",
 
   "animation": "/items/active/starbound/weapons/hammer.animation",
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],

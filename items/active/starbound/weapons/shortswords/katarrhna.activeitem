@@ -1,12 +1,9 @@
 {
   "itemName": "sb_katarrhna",
-  "level": 1,
-  "definition": "shortswords/swoosh",
-  "rarity": "legendary",
+  "definition": ["shortswords/swoosh", "shortswords/rare"],
   "description": "A powerful yet putrid blade comprised of a foul, rotten, sickly oozing mucus.",
   "shortdescription": "Katarrhna ^yellow;^reset;",
   "tooltipKind": "sb_sword2",
-  "price": 800,
   "sb_waBan": true,
   "itemTags": ["weapon", "melee", "shortsword"],
   "inventoryIcon": "katarrhna.png<directives>",
@@ -19,12 +16,10 @@
   },
 
   "elementalType": "poison",
+  "primaryAbilityType": "sb_shortswordcombo",
   "primaryAbility": {
     "projectileType": "sb_slimeblobx",
-    "projectileOffset": [1, 0.5],
-    "fireTime": [0.777, 1.111],
-    "baseDps": [2.5, 5.5],
-    "baseDamage": [2.5, 5.5]
+    "projectileOffset": [1, 0.5]
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

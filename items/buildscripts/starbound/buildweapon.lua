@@ -17,11 +17,13 @@ function build(directory, config, parameters, level, seed)
     local newItem = root.itemConfig({newItemName, 1, parameters}, level, seed)
     config, parameters, directory = newItem.config, newItem.parameters, newItem.directory
   end
+
   local definition = configParameter("definition", configParameter("sb_definition"))
   if definition then
     require "/items/buildscripts/starbound/definition.lua"
     config = applyDefinition(config, definition, configParameter("configOverrides"))
   end
+
   require "/items/buildscripts/starbound/updateweapon.lua"
   config, parameters = build(directory, config, parameters, level, seed)
 
@@ -51,24 +53,6 @@ function build(directory, config, parameters, level, seed)
   end
 
   -- elemental type
-  if not parameters.elementalType and builderConfig.elementalType then
-    if config.itemName == "sb_flamethrower" then
-      local projectileMap = {
-        flamethrower = "fire",
-        icethrower = "ice",
-        poisonthrower = "poison",
-        lightningthrower = "electric"
-      }
-      local previousProjectile = projectileMap[parameters.primaryAbility and parameters.primaryAbility.projectileType]
-      if previousProjectile then
-        parameters.elementalType = previousProjectile
-      else
-        parameters.elementalType = randomFromList(builderConfig.elementalType, seed, "elementalType")
-      end
-    else
-      parameters.elementalType = randomFromList(builderConfig.elementalType, seed, "elementalType")
-    end
-  end
   local elementalType = configParameter("elementalType", "physical")
 
   -- select, load and merge abilities

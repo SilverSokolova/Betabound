@@ -1,19 +1,12 @@
 {
   "itemName": "sb_cavehammer",
-  "price": 800,
-  "maxStack": 1,
-  "level": 1,
-  "rarity": "rare",
+  "definition": "hammers/uncommon",
   "sb_waBan": true,
   "description": "This hammer is carved of rock.",
   "shortdescription": "Cave Hammer",
   "tooltipKind": "sb_sword2",
-  "category": "hammer",
-  "twoHanded": true,
   "itemTags": ["weapon", "melee", "hammer"],
-  "animation": "/items/active/starbound/weapons/hammer.animation",
 
-  "sb_dyeable": false,
   "inventoryIcon": "cavehammer.png",
   "animationParts": {
     "blade": "cavehammer.png",
@@ -37,19 +30,15 @@
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
-
   "elementalType": "physical",
   "primaryAbilityType": "sb_hammer",
   "altAbilityType": "physicalshockwave",
   "primaryAbility": {
-    "fireTime": [0.95, 1.5],
     "stances": {
       "fire": {
         "weaponRotation": -75
       }
-    },
-    "baseDps": [5, 11.875]
+    }
   },
 
   "builder": "/items/buildscripts/starbound/buildweapon.lua"

@@ -1,6 +1,6 @@
 {
   "itemName": "sb_smashroom",
-  "definition": "hammers/uncommon",
+  "definition": "hammers/common",
   "fixedLevel": false,
   "sb_waBan": true,
   "description": "A hammer believed to be designed by the Agaran. It's full of tightly packed spores.",

@@ -1,8 +1,6 @@
 {
   "itemName": "sb_uncommoncrappyhammer",
-  "price": 770,
-  "rarity": "uncommon",
-  "description": "Slow, heavy, and effective.",
+  "definition": "hammers/uncommon",
   "shortdescription": "Uncommon Crappy Hammer",
   "tooltipKind": "sb_sword2",
   "tooltipFields": {
@@ -10,51 +8,7 @@
   },
   "itemTags": ["weapon", "melee", "hammer", "crappy"],
 
-  "animationCustom": {
-    "lights": {
-      "glow": {
-        "color": [0, 0, 0]
-      }
-    },
-    "animatedParts": {
-      "parts": {
-        "swoosh": {
-          "properties": {
-            "offset": [-1, 1.75]
-          }
-        },
-        "blade": {
-          "properties": {}
-        },
-        "handle": {
-          "properties": {}
-        }
-      }
-    }
-  },
-
   "primaryAbilityType": "sb_hammer",
-  "primaryAbility": {
-    "fireTime": [1, 1.2],
-    "baseDps": [12, 13],
-    "damageConfig": {
-      "knockbackRange": [35, 45]
-    },
-    "stances": {
-      "idle": {
-        "weaponOffset": [0.3, 1.5]
-      },
-      "windup": {
-        "duration": 0.2,
-        "weaponOffset": [0.3, 1.5]
-      },
-      "fire": {
-        "duration": 0.4,
-        "weaponOffset": [0.3, 1.5]
-      }
-    }
-  },
-
   "builderConfig": [{
       "nameGenerator": "crappyhammernames.config:nameGen",
       "elementalType": ["physical", "fire", "ice", "electric", "poison"],
@@ -65,7 +19,7 @@
               "damageSourceKind": "firehammer",
               "statusEffects": [{
                   "effect": "burning",
-                  "duration": 1
+                  "duration": 3
                 }
               ]
             }
@@ -76,7 +30,7 @@
             "damageConfig": {
               "statusEffects": [{
                   "effect": "frostslow",
-                  "duration": 2
+                  "duration": 3
                 }
               ],
               "damageSourceKind": "icehammer"
@@ -89,7 +43,7 @@
               "damageSourceKind": "poisonhammer",
               "statusEffects": [{
                   "effect": "weakpoison",
-                  "duration": 2
+                  "duration": 3
                 }
               ]
             }

@@ -1,6 +1,6 @@
 {
   "itemName": "sb_cactislammer",
-  "definition": "hammers/uncommon",
+  "definition": "hammers/common",
   "sb_waBan": true,
   "description": "Using a cactus as a weapon. Nobody will see this coming.",
   "shortdescription": "Cactislammer",

@@ -15,9 +15,6 @@
     "handle": "",
     "blade": "huntingknife.png"
   },
-  "animationCustom": {},
-
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "elementalType": "physical",
   "primaryAbilityType": "sb_shortswordcombo",
