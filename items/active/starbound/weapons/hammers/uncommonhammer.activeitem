@@ -65,15 +65,31 @@
       "animationParts": {
         "blade": {
           "path": "hammer/blade/<variant>.png",
-          "variants": 23,
+          "variants": 24,
           "paletteSwap": true,
-          "fullbrights": [6, 7, 13, 14]
+          "fullbrightParts": {
+            "6": true,
+            "7": true,
+            "13": true,
+            "14": true
+          },
+          "undyeableParts": {
+            "6": true,
+            "7": true
+          }
         },
         "handle": {
           "path": "hammer/handle/<variant>.png",
           "variants": 18,
           "paletteSwap": true,
-          "fullbrights": [4, 16]
+          "fullbrightParts": {
+            "4": true,
+            "16": true
+          },
+          "undyeableParts": {
+            "1": true,
+            "8": true
+          }
         }
       },
       "altAbilities_physical": [

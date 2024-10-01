@@ -16,8 +16,8 @@
     "fireTime": 0.9,
     "baseDps": 8.25,
     "inaccuracy": 0.025,
-    "projectileType": "sb_heckarrow",
-    "powerProjectileType": "sb_heckarrow",
+    "projectileType": "heckarrow",
+    "powerProjectileType": "heckarrow",
     "walkWhileFiring": true,
     "projectileParameters": {
       "speed": 80,

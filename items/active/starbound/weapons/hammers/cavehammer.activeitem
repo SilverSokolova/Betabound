@@ -35,8 +35,8 @@
   "altAbilityType": "physicalshockwave",
   "primaryAbility": {
     "stances": {
-      "fire": {
-        "weaponRotation": -75
+      "idle": {
+        "weaponOffset": [-0.125, 1.75]
       }
     }
   },

@@ -53,6 +53,9 @@ function build(directory, config, parameters, level, seed)
   end
 
   -- elemental type
+  if not parameters.elementalType and builderConfig.elementalType then
+    parameters.elementalType = randomFromList(builderConfig.elementalType, seed, "elementalType")
+  end
   local elementalType = configParameter("elementalType", "physical")
 
   -- select, load and merge abilities
@@ -191,30 +194,43 @@ function build(directory, config, parameters, level, seed)
   end
 
   -- animation parts
+  local s_undyeableParts = 0
+  local weaponParts = 0
   if builderConfig.animationParts then
+    hasRandomParts = true
     config.animationParts = config.animationParts or {}
-    if parameters.animationPartVariants == nil then parameters.animationPartVariants = {} end
+    if parameters.animationPartVariants == nil then
+      parameters.animationPartVariants = {}
+    end
     for k, v in pairs(builderConfig.animationParts) do
+      weaponParts = weaponParts + 1
       if type(v) == "table" then
         if v.variants and (not parameters.animationPartVariants[k] or parameters.animationPartVariants[k] > v.variants) then
           parameters.animationPartVariants[k] = randomIntInRange({1, v.variants}, seed, "animationPart"..k)
         end
         config.animationParts[k] = util.absolutePath(directory, string.gsub(v.path, "<variant>", parameters.animationPartVariants[k] or ""))
-        if v.fullbrights then
-          for i = 1, #v.fullbrights do
-            if parameters.animationPartVariants[k] == v.fullbrights[i] then
-              config.animationCustom.animatedParts.parts[k].properties.fullbright = true
-              glows = true
-            end
-          end
+
+        if v.fullbrightParts and v.fullbrightParts[tostring(parameters.animationPartVariants[k])] then
+          config.animationCustom = ensureNestedTable(config.animationCustom, {"animatedParts", "parts", k, "properties", "fullbright"})
+          config.animationCustom.animatedParts.parts[k].properties.fullbright = true
+          glows = true
         end
+
+        if config.sb_dyeable and v.undyeableParts and v.undyeableParts[tostring(parameters.animationPartVariants[k])] then
+          s_undyeableParts = s_undyeableParts + 1
+        end
+
         if v.paletteSwap then
-          config.animationParts[k] = config.animationParts[k] .. config.directives .. config.paletteSwaps
+          config.animationParts[k] = string.format("%s%s%s", config.animationParts[k], config.directives, config.paletteSwaps)
         end
       else
         config.animationParts[k] = v
       end
     end
+  end
+
+  if config.sb_dyeable and hasRandomParts and s_undyeableParts == weaponParts then
+    config.sb_dyeable = false
   end
 
   -- glow color. default to red if no color change found
@@ -228,6 +244,7 @@ function build(directory, config, parameters, level, seed)
     else
       colour = {243, 34, 0}
     end
+    config.animationCustom = ensureNestedTable(config.animationCustom, {"lights", "glow", "color"})
     config.animationCustom.lights.glow.color = colour
   end
 
@@ -267,7 +284,7 @@ function build(directory, config, parameters, level, seed)
 
   -- populate tooltip fields
   config.tooltipFields = config.tooltipFields or {}
-  config.tooltipFields.dyeLabel = configParameter("sb_dyeable") and "^gray;(Dyeable)" or ""
+  config.tooltipFields.dyeLabel = config.sb_dyeable and "^gray;(Dyeable)" or ""
   config.tooltipFields.sb_levelLabel = "^shadow;Lvl "..string.format("%.0f",configParameter("level", 1))
   config.tooltipFields.sb_level2Label = "Lvl "..string.format("%.0f",configParameter("level", 1))
   local fireTime = parameters.primaryAbility.fireTime or config.primaryAbility.fireTime or 1.0

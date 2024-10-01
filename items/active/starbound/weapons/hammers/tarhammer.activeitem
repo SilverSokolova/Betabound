@@ -49,11 +49,6 @@
   "primaryAbility": {
     "damageConfig": {
       "statusEffects": ["tarslow"]
-    },
-    "stances": {
-      "idle": {
-        "weaponOffset": [-0.125, 0.5]
-      }
     }
   },
   "altAbility": {

@@ -1,5 +1,4 @@
 [
-
   //Fuel scaling
   [{
       "op": "add",
@@ -248,17 +247,6 @@
     }
   ],
 
-  [{
-      "op": "test",
-      "path": "/topLeftButtonTooltips/goToPeacekeeper",
-      "inverse": true
-    }, {
-      "op": "add",
-      "path": "/topLeftButtonTooltips/goToPeacekeeper",
-      "value": "View Peacekeeper HQ"
-    }
-  ],
-
   //Fix for MPI calling Crystalline biomes "Crystallineline"
   [{
       "op": "test",
@@ -375,7 +363,7 @@
   [{
       "op": "add",
       "path": "/visitableTypeDescription/ancientgateway/-",
-      "value": "A strange ^#571cff;gate^white; of incalculably ancient origin."
+      "value": "A strange ^#571cff;gate^reset; of incalculably ancient origin."
     }
   ]
 ]

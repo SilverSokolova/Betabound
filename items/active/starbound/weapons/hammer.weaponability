@@ -34,7 +34,7 @@
       "idle": {
         "armRotation": -90,
         "weaponRotation": -10,
-        "weaponOffset": [-0.125, 1.5],
+        "weaponOffset": [-0.125, 0.5],
 
         "allowRotate": false,
         "allowFlip": true
@@ -79,7 +79,7 @@
       "fire": {
         "duration": 0.4,
         "armRotation": -35,
-        "weaponRotation": -55,
+        "weaponRotation": -70,
         "twoHanded": true,
         "smashTimer": 1.5,
         "weaponOffset": [0, 2],

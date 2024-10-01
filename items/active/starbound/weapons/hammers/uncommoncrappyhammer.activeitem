@@ -6,9 +6,16 @@
   "tooltipFields": {
     "subtitle": "Crappy Hammer"
   },
-  "itemTags": ["weapon", "melee", "hammer", "crappy"],
+  "itemTags": ["weapon", "melee", "hammer"],
 
   "primaryAbilityType": "sb_hammer",
+  "primaryAbility": {
+    "stances": {
+      "fire": {
+        "weaponRotation": -75
+      }
+    }
+  },
   "builderConfig": [{
       "nameGenerator": "crappyhammernames.config:nameGen",
       "elementalType": ["physical", "fire", "ice", "electric", "poison"],

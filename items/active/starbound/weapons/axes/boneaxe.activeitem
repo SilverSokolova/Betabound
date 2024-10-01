@@ -29,7 +29,7 @@
             "swoosh": {
               "fire": {
                 "properties": {
-                  "image": "axeboneswoosh.png:<frame>"
+                  "image": "boneswoosh.png:<frame>"
                 }
               }
             }

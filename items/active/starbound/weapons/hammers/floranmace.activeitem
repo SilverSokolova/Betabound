@@ -1,0 +1,36 @@
+{
+  "itemName": "sb_floranmace",
+  "definition": "hammers/common",
+  "sb_waBan": true,
+  "description": "",
+  "shortdescription": "Floran Mace",
+  "tooltipKind": "sb_sword",
+  "tooltipFields": {
+    "subtitle": "Floran Mace"
+  },
+  "itemTags": ["weapon", "melee", "hammer"],
+
+  "inventoryIcon": "floranmace.png",
+  "animationParts": {
+    "blade": "floranmace.png",
+    "handle": ""
+  },
+
+  "elementalType": "poison",
+  "primaryAbilityType": "sb_hammer",
+  "primaryAbility": {
+    "projectileType": "goocluster"
+  },
+
+  "builderConfig": [{
+      "nameGenerator": "floranmacenames.config:nameGen",
+      "altAbilities": [
+        "uppercut",
+        "shockwave",
+        "groundslam"
+      ]
+    }
+  ],
+
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

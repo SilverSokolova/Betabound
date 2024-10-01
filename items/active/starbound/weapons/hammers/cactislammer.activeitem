@@ -35,7 +35,12 @@
   "primaryAbilityType": "sb_hammer",
   "altAbilityType": "physicalshockwave",
   "primaryAbility": {
-    "projectileType": "sb_cactislammer"
+    "projectileType": "sb_cactislammer",
+    "stances": {
+      "idle": {
+        "weaponOffset": [-0.125, 1.5]
+      }
+    }
   },
 
   "builder": "/items/buildscripts/starbound/buildweapon.lua",

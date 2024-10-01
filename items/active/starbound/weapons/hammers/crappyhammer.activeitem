@@ -9,6 +9,13 @@
   "itemTags": ["weapon", "melee", "hammer"],
 
   "primaryAbilityType": "sb_hammer",
+  "primaryAbility": {
+    "stances": {
+      "fire": {
+        "weaponRotation": -75
+      }
+    }
+  },
   "elementalType": "physical",
   "builderConfig": [{
       "nameGenerator": "crappyhammernames.config:nameGen",
