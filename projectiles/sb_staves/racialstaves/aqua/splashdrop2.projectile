@@ -10,7 +10,7 @@
   "timeToLive": 0,
   "orientationLocked": true,
   "flippable": true,
-  "power": 2.0,
+  "power": 2,
   "damagePoly": [[-2, 2], [-2, -2], [2, -2], [2, 2]],
   "actionOnReap": [{
       "action": "projectile",
@@ -38,6 +38,6 @@
       "inheritSpeedFactor": 0
     }
   ],
-  "damageKind": "default",
+  "damageKind": "ice",
   "emitters": ["daggerblue"]
 }

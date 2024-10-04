@@ -119,7 +119,7 @@ function build(directory, config, parameters, level, seed)
       parameters.primaryAbility.projectileType = config.primaryAbility.projectileType or randomFromList(config.primaryAbility.projectileTypes, seed, "projectileTypes") or false
     else
       parameters.primaryAbility.projectileType = config.primaryAbility.projectileType or randomFromList(config.primaryAbility.projectileTypes, seed, "projectileTypes")
-    end 
+    end
 
   -- preprocess ranged primary attack config
   else
@@ -306,7 +306,7 @@ function build(directory, config, parameters, level, seed)
     config.tooltipFields.primaryAbilityLabel = config.primaryAbility.name or "unknown"
     local projectileType = parameters.primaryAbility.projectileType
     if projectileType then
-      config.tooltipFields.damageKindImage = sb_assetmissing("/interface/sb_tooltips/"..(type(projectileType) == "table" and projectileType[1] or projectileType)..".png", "/interface/sb_tooltips/assetmissing.png")
+      config.tooltipFields.damageKindBImage = sb_assetmissing("/interface/sb_tooltips/"..(type(projectileType) == "table" and projectileType[1] or projectileType)..".png", "/interface/sb_tooltips/assetmissing.png")
     end
   end
   if config.altAbility then

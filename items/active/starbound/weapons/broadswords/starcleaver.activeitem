@@ -56,12 +56,12 @@
 
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "elementalType": "physical",
-  "projectileDamageMultiplier": 0.4,
   "primaryAbilityType": "sb_meleeslash",
   "primaryAbility": {
     "fireTime": [0.6, 0.9],
     "baseDps": [10.5, 11.5],
-    "projectileType": "sb_starcleaverboom"
+    "projectileType": "sb_starcleaverboom",
+    "projectileDamageMultiplier": 0.4
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

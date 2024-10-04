@@ -19,6 +19,9 @@
   "elementalType": "poison",
   "primaryAbilityType": "sb_hammer",
   "primaryAbility": {
+    "damageConfig": {
+      "damageSourceKind": "poisonhammer"
+    },
     "projectileType": "goocluster"
   },
 

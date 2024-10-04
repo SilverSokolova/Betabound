@@ -12,7 +12,7 @@
   "itemTags": ["weapon"],
 
   "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/sb_whipcrackjelly.png"
+    "damageKindBImage": "/interface/sb_tooltips/sb_whipcrackjelly.png"
   },
 
   "inventoryIcon": "sb_jellywhip.png:idle",

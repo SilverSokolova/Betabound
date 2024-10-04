@@ -3,7 +3,6 @@
   "level": 1,
   "category": "hammer",
   "twoHanded": true,
-  "projectileDamageMultiplier": 0.4,
   "description": "Slow, heavy, and effective.",
 
   "animation": "/items/active/starbound/weapons/hammer.animation",
@@ -21,6 +20,7 @@
     "fireTime": 1.3,
     "baseDps": 10.5,
     "projectileOffset": [3, 0],
+    "projectileDamageMultiplier": 0.4,
     //  "allowHold": false,
     "damageConfig": {
       "damageSourceKind": "hammer",
@@ -44,7 +44,7 @@
         "armRotation": 90,
         "weaponRotation": -10,
         "twoHanded": true,
-        "weaponOffset" : [0, 1.75],
+        "weaponOffset": [0, 1.75],
 
         "allowRotate": false,
         "allowFlip": true,
@@ -55,14 +55,14 @@
           [0.875, "sin", 60, 55],
           [1.0, "cos", 60, 55]
         ],
-        "bounceArmAngle" : [
+        "bounceArmAngle": [
           [1.0, "linear", 40, 50]
         ],
 
-        "weaponAngle" : [
+        "weaponAngle": [
           [1.0, "linear", -20, 20]
         ],
-        "armAngle" : [
+        "armAngle": [
           [1.0, "sin", -90, 40]
         ]
       },
@@ -71,7 +71,7 @@
         "armRotation": 55,
         "weaponRotation": -45,
         "twoHanded": true,
-        "weaponOffset" : [0, 2.0],
+        "weaponOffset": [0, 2.0],
 
         "allowRotate": false,
         "allowFlip": false

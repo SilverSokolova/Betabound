@@ -16,5 +16,5 @@
   ],
   "power": 0,
   "damagePoly": [[15, 5], [60, 10], [60, -10], [15, -5]],
-  "damageKind": "plasma"
+  "damageKind": "fireplasma"
 }

@@ -10,10 +10,10 @@
   "level": 6,
   "tooltipKind": "sb_gun2",
   "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/standardbullet.png"
+    "damageKindBImage": "/interface/sb_tooltips/standardbullet.png"
   },
   "category": "assaultRifle",
-  "itemTags": ["weapon", "ranged", "assaultrifle", "sb_scintillium"],
+  "itemTags": ["weapon", "ranged", "assaultrifle"],
   "twoHanded": true,
 
   "animation": "/items/active/weapons/ranged/gun.animation",

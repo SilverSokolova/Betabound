@@ -40,7 +40,6 @@
   },
 
   "elementalType": "physical",
-  "projectileDamageMultiplier": 2.5,
   "primaryAbilityType": "sb_hammer",
   "primaryAbility": {
     "stances": {
@@ -58,7 +57,8 @@
       }
     },
     "projectileOffset": [2, 2],
-    "projectileType": "sb_boneswoosh"
+    "projectileType": "sb_boneswoosh",
+    "projectileDamageMultiplier": 2.5
   },
   "altAbilityType": "physicalshockwave",
 

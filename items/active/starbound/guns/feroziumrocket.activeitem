@@ -10,10 +10,10 @@
   "level": 6,
   "tooltipKind": "sb_gun2",
   "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/homingrocket.png"
+    "damageKindBImage": "/interface/sb_tooltips/homingrocket.png"
   },
   "category": "rocketLauncher",
-  "itemTags": ["weapon", "ranged", "rocketlauncher", "sb_scintillium"],
+  "itemTags": ["weapon", "ranged", "rocketlauncher"],
   "twoHanded": true,
 
   "animation": "/items/active/weapons/ranged/gun.animation",

@@ -12,7 +12,8 @@
   "description": "Creates a miniature sun to light up the area.",
   "shortdescription": "Red Giant Orb",
   "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/sb_redgiant.png"
+    "damageKindImage": "/interface/elements/fire.png",
+    "damageKindBImage": "/interface/sb_tooltips/sb_redgiant.png"
   },
   "animationCustom": {
     "lights": {

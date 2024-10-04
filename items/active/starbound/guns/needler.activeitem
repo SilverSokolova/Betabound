@@ -13,7 +13,7 @@
   "sb_waBan": true,
   "sb_disallowAbilityMods": true,
   "level": 1,
-  "itemTags": ["weapon", "ranged", "assaultrifle", "needler", "floran"],
+  "itemTags": ["weapon", "ranged", "assaultrifle"],
   "tooltipFields": {
     "subtitle": "Thorny Needler"
   },
