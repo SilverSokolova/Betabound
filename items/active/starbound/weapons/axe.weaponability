@@ -1,4 +1,12 @@
 {
+  "maxStack": 1,
+  "level": 1,
+  "category": "axe",
+  "description": "Designed for effective chopping.",
+
+  "animation": "/items/active/starbound/weapons/axe.animation",
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+
   "animationParts": {},
   "animationCustom": {},
 
@@ -11,7 +19,7 @@
     "handPositionOffset": [0, -1.4],
     "fireTime": 0.8,
     "baseDps": 6.5,
-//  "allowHold": false,
+    "allowHold": true,
     "damageConfig": {
       "damageSourceKind": "axe",
       "statusEffects": [],
@@ -49,10 +57,13 @@
         ],
 
         "weaponAngle": [
+          [1.0, "linear", -20, 20]
+        /*
           [0.7, "linear", -20, 0],
           [0.85, "linear", 0, 50],
           [0.925, "sin", 50, 45],
           [1.0, "cos", 50, 45]
+        */
         ],
 
         "armAngle": [

@@ -1,22 +1,15 @@
 {
   "itemName": "sb_crappyaxe",
-  "price": 25,
-  "maxStack": 1,
-  "level": 1,
-  "rarity": "Common",
-  "description": "Designed for effective chopping.",
+  "definition": "axes/common",
   "shortdescription": "Crappy Axe",
   "tooltipKind": "sb_sword2",
-  "category": "axe",
   "tooltipFields": {
     "subtitle": "Crappy Axe"
   },
-  "twoHanded": false,
-  // "sb_dyeable" : true,
+  //"sb_dyeable" : true,
   //"sb_backingDirectives" : "?replace;f5e458=ffca8a;bc8b07=e0975c;a1750b=a85636;e9e9e9=ffca8a;b1b1b1=e0975c;676767=a85636",
-  //  "sb_extraDirectives" : "?replace;ffca8a=f5e458;e0975c=bc8b07;a85636=a1750b;ffca8a=e9e9e9;e0975c=b1b1b1;a85636=676767",
-  "itemTags": ["weapon", "melee", "axe", "crappy"],
-  "animation": "/items/active/starbound/weapons/axe.animation",
+  //"sb_extraDirectives" : "?replace;ffca8a=f5e458;e0975c=bc8b07;a85636=a1750b;ffca8a=e9e9e9;e0975c=b1b1b1;a85636=676767",
+  "itemTags": ["weapon", "melee", "axe"],
 
   "animationCustom": {
     "animatedParts": {

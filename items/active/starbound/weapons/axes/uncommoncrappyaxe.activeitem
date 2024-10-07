@@ -12,7 +12,7 @@
     "subtitle": "Crappy Axe"
   },
   "twoHanded": false,
-  "itemTags": ["weapon", "melee", "axe", "crappy"],
+  "itemTags": ["weapon", "melee", "axe"],
   "animation": "/items/active/starbound/weapons/axe.animation",
 
   "animationCustom": {

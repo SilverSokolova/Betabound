@@ -6,7 +6,7 @@
   "description": "A large, powerful hammer. It emits a screeching sound every so often.",
   "shortdescription": "Terminite",
   "tooltipKind": "sb_sword2",
-  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee", "hammer", "upgradeableWeapon", "livingweapon"],
   "sb_dyeable": true,
   "sb_backingDirectives": "?replace;f4988c=ffca8a;d93a3a=e0975c;932625=a85636;601119=6f2919",
 

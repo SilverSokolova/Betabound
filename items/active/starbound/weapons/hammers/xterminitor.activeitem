@@ -6,7 +6,7 @@
   "description": "A living warhammer shuddering with dark energy. Something is inside...",
   "shortdescription": "X-Terminitor ^yellow;^reset;",
   "tooltipKind": "sb_sword2",
-  "itemTags": ["weapon", "melee", "hammer"],
+  "itemTags": ["weapon", "melee", "hammer", "livingweapon"],
 
   "sb_dyeable": false,
   "inventoryIcon": "xterminitor.png",

@@ -13,7 +13,7 @@
     "damageKindBImage": "/interface/sb_tooltips/standardbullet.png"
   },
   "category": "sniperRifle",
-  "itemTags": ["weapon", "ranged", "rifle"],
+  "itemTags": ["weapon", "ranged", "sniperrifle"],
   "twoHanded": true,
 
   "animation": "/items/active/weapons/ranged/gun.animation",
