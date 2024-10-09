@@ -11,7 +11,7 @@
   "description": "The tip of this spear is made from crystallised ice, chilling your enemies to the core!",
   "shortdescription": "Frost Spear",
   "twoHanded": true,
-  "itemTags": ["weapon", "melee", "spear", "geometric"],
+  "itemTags": ["weapon", "melee", "spear"],
   "animation": "/items/active/starbound/weapons/spear.animation",
   "inventoryIcon": "frostspear.png",
   "animationParts": {

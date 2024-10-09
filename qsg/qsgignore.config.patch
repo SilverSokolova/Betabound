@@ -1,6 +1,4 @@
 [
-  {"op":"add","path":"/ignoreContainerNames/sb_plate","value":1},
-  {"op":"add","path":"/ignoreContainerNames/mannequin","value":1},
   {"op":"add","path":"/ignoreContainerNames/treasuretestchest","value":1},
   
   {"op":"add","path":"/ignoreContainerNames/itemframe-vanish","value":1},

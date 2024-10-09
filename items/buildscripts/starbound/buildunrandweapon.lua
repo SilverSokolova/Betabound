@@ -16,7 +16,11 @@ function build(directory, config, parameters, level, seed)
     parameters.crafted = nil
   end
 
+  require "/items/buildscripts/starbound/updateweapon.lua"
+  config, parameters = build(directory, config, parameters, level, seed)
+
   if level and not configParameter("fixedLevel", false) then parameters.level = level end
+
   config.directives = parameters.directives or config.directives or ""
   config.sb_extraDirectives = parameters.sb_extraDirectives or config.sb_extraDirectives or ""
   if parameters.colorIndex then
@@ -129,15 +133,6 @@ function build(directory, config, parameters, level, seed)
   if config.rarity == "essential" then config.tooltipFields.rarityLabel = "Epic" end
 
   config.price = (config.price or 0) * root.evalFunction("itemLevelPriceMultiplier", configParameter("level", 1))
-  if not parameters.customItem then
-    if parameters.primaryAbilityType == "axecleave" then
-      parameters.primaryAbilityType = "sb_axe"
-    end
-
-    if config.itemName == "sb_buster" and parameters.primaryAbilityType == "bowshot" then
-      parameters.primaryAbilityType = config.primaryAbilityType
-    end
-  end
 
   if config.staffHasFullbright then
     config.animationParts.staffFullbright = "<staff>fb.png"

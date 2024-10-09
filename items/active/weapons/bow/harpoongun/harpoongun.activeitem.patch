@@ -12,8 +12,7 @@
 [{"op":"test","path":"/twoHanded","value":false},{"op":"test","path":"/primaryAbility/stances/draw","inverse":true},{"op":"add","path":"/primaryAbility/stances/draw","value":{"twoHanded":false}}],
 [{"op":"test","path":"/twoHanded","value":false},{"op":"test","path":"/primaryAbility/stances/fire/twoHanded","inverse":true},{"op":"add","path":"/primaryAbility/stances/fire/twoHanded","value":false}],
 
-[{"op":"test","path":"/tooltipFields","inverse":true},{"op":"add","path":"/tooltipFields","value":{}}],
-[{"op":"test","path":"/tooltipFields/objectImage","inverse":true},{"op":"add","path":"/tooltipFields/objectImage","value":"/items/active/weapons/bow/harpoongun/harpoongunfull.png:0"}],
+[{"op":"test","path":"/tooltipFields/objectImage","inverse":true},{"op":"add","path":"/sb_animationPartsAsTooltipImage","value":true}],
 
 [{"op":"test","path":"/builder"},{"op":"test","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua","inverse":true},{"op":"move","from":"/builder","path":"/sb_builder"}],[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua"}]
 ]

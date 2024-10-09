@@ -1,21 +1,29 @@
+--[[
+I'm not going to erase people's save data every time weapon changed
+results in bricked characters, so this is what we're doing since we
+also can't access item versioning scripts. Bah! I decided to do it
+this way rather than implementing a 'version' parameter on weapons
+because I can't hunt down every weapon and up their version, so
+better to just do it automatically.
+]]
+
 function build(directory, config, parameters, level, seed)
   local configParameter = function(keyName, defaultValue) return parameters[keyName] or config[keyName] or defaultValue end
 
   if not parameters.customItem then
-    if config.itemName == "sb_bonehammer" and parameters.primaryAbilityType == "axecleave" then
-      parameters.primaryAbilityType = "sb_hammer"
-    end
+    if parameters.primaryAbilityType == "axecleave"
+    or parameters.primaryAbilityType == "sb_starcleaver"
+    or parameters.animation == "/items/active/starbound/weapons/broadswords/starcleaversword.animation"
+    or (config.itemName == "sb_buster" and parameters.primaryAbilityType == "bowshot")
+    or (config.itemName == "sb_slimestaff" and parameters.altAbilityType == "elementbouncer")
+    or (config.primaryAbilityType == "sb_shortswordcombo" and parameters.primaryAbilityType == "sb_meleeslash2")
+    then
+      parameters.primaryAbilityType = config.primaryAbilityType
+      parameters.primaryAbility = config.primaryAbility
 
-    if parameters.primaryAbilityType == "axecleave" then
-      parameters.primaryAbilityType = "sb_axe"
-    end
-
-    if parameters.primaryAbilityType == "sb_starcleaver" then
-      parameters.primaryAbilityType = "sb_meleeslash"
-    end
-
-    if parameters.animation == "/items/active/starbound/weapons/broadswords/starcleaversword.animation" then
-      parameters.animation = "/items/active/starbound/weapons/broadsword.animation"
+      parameters.altAbilityType = config.altAbilityType
+      parameters.altAbility = config.altAbility
+      parameters.animation = nil
     end
 
     if config.itemName == "sb_flamethrower" then

@@ -11,7 +11,7 @@
   "level": 1,
   "description": "",
   "shortdescription": "Toxic Launcher",
-  "itemTags": ["weapon", "ranged", "floran", "grenadelauncher"],
+  "itemTags": ["weapon", "ranged", "grenadelauncher"],
   "tooltipFields": {
     "subtitle": "Toxic Launcher"
   },

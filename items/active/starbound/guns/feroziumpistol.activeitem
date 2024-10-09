@@ -5,9 +5,9 @@
   "price": 1125,
   "tooltipKind": "sb_gun2",
   "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/standardbullet.png"
+    "damageKindBImage": "/interface/sb_tooltips/standardbullet.png"
   },
-  "itemTags": ["weapon", "ranged", "pistol", "ferozium"],
+  "itemTags": ["weapon", "ranged", "pistol"],
   "category": "pistol",
   "fixedRarity": true,
   "rarity": "legendary",

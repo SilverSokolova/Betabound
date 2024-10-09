@@ -12,7 +12,8 @@
   "description": "Creates a splash of water.",
   "shortdescription": "Sacred Splash Staff",
   "tooltipFields": {
-    "damageKindImage": "/items/liquids/liquidwatericon.png"
+    "damageKindImage": "/interface/elements/ice.png",
+    "damageKindBImage": "/items/liquids/liquidwatericon.png"
   },
   "animationCustom": {
     "sounds": {

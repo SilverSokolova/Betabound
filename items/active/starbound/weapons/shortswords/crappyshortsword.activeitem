@@ -1,0 +1,30 @@
+{
+  "itemName": "sb_crappyshortsword",
+  "definition": "shortswords/common",
+  "description" : "A sturdy one-handed sword.",
+  "shortdescription": "Crappy Dagger",
+  "tooltipKind": "sb_sword2",
+  "itemTags": ["weapon", "melee", "shortsword"],
+  "primaryAbilityType": "sb_shortswordcombo",
+  "elementalType": "physical",
+  "builderConfig": [{
+      "nameGenerator": "/items/active/starbound/weapons/broadswords/crappynames.config:nameGen",
+      "animationParts": {
+        "blade": {
+          "path": "crappyshortsword/blade/<variant>.png",
+          "variants": 8,
+          "paletteSwap": true
+        },
+        "handle": {
+          "path": "crappyshortsword/handle/<variant>.png",
+          "variants": 8,
+          "paletteSwap": true
+        }
+      },
+      "iconDrawables": ["handle", "blade"],
+      "palette": "/items/active/starbound/colors/crappy.weaponcolors",
+      "altAbilities": []
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

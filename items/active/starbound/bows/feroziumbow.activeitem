@@ -1,7 +1,7 @@
 {
   "itemName": "sb_feroziumbow",
   "definition": "bow",
-  "itemTags": ["weapon", "ranged", "bow", "sb_scintillium"],
+  "itemTags": ["weapon", "ranged", "bow"],
   "tags": {
     "<bow>": "ferozium"
   },

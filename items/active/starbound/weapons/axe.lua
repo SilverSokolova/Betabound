@@ -20,12 +20,15 @@ function AxeCleave:windup(windupProgress)
 
   local windupProgress = windupProgress or 0
   local bounceProgress = 0
-  if self.fireMode == "primary" and (self.allowHold ~= false or windupProgress < 1) then
-    while windupProgress < 1 do
+  while self.fireMode == "primary" and (self.allowHold ~= false or windupProgress < 1) do
+    if windupProgress < 1 then
       windupProgress = math.min(1, windupProgress + (self.dt / self.stances.windup.duration))
       self.weapon.relativeWeaponRotation, self.weapon.relativeArmRotation = self:windupAngle(windupProgress)
-      coroutine.yield()
+    else
+      bounceProgress = math.min(1, bounceProgress + (self.dt / self.stances.windup.bounceTime))
+      self.weapon.relativeWeaponRotation = self:bounceWeaponAngle(bounceProgress)
     end
+    coroutine.yield()
   end
 
   if windupProgress >= 1.0 then

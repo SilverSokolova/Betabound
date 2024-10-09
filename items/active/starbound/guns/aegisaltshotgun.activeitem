@@ -5,9 +5,9 @@
   "price": 600,
   "tooltipKind": "sb_gun2",
   "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/standardbullet.png"
+    "damageKindBImage": "/interface/sb_tooltips/standardbullet.png"
   },
-  "itemTags": ["weapon", "ranged", "shotgun", "aegisalt"],
+  "itemTags": ["weapon", "ranged", "shotgun"],
   "category": "shotgun",
   "fixedRarity": true,
   "rarity": "rare",

@@ -1,41 +1,50 @@
 {
-  "itemName" : "sb_blighchen",
-  "price" : 800,
-  "maxStack" : 1,
-  "level" : 1,
-  "fixedLevel" : false,
-  "rarity" : "rare",
-  "sb_waBan" : true,
-  "description" : "Old legends tell of the spores from these hammers infesting entire planets with fungi.",
-  "shortdescription" : "Blighchen",
-  "tooltipKind" : "sb_sword2",
-  "category" : "hammer",
-  "twoHanded" : true,
-  "itemTags" : ["weapon","melee","hammer"],
-  "animation" : "/items/active/starbound/weapons/hammer.animation",
-//"sb_dyeable" : true,
-//"sb_backingDirectives" : "?replace;838383=ffca8a;555=e0975c;383838=a85636;151515=6f2919",
+  "itemName": "sb_blighchen",
+  "definition": "hammers/rare",
+  "sb_waBan": true,
+  "description": "Old legends tell of the spores from these hammers infesting entire planets with fungi.",
+  "shortdescription": "Blighchen ^yellow;^reset;",
+  "tooltipKind": "sb_sword2",
+  "itemTags": ["weapon", "melee", "hammer"],
+  //"sb_dyeable" : true,
+  //"sb_backingDirectives" : "?replace;838383=ffca8a;555=e0975c;383838=a85636;151515=6f2919",
 
-  "inventoryIcon" : "blighchen.png<directives>",
-  "animationParts" : {
-    "blade" : "blighchen.png<directives>",
-    "handle" : ""
+  "inventoryIcon": "blighchen.png<directives>",
+  "animationParts": {
+    "blade": "blighchen.png<directives>",
+    "handle": ""
   },
-  "animationCustom" : {
-    "animatedParts" : {"parts":{"swoosh":{"partStates":{"swoosh":{"fire":{"properties":{"image":"shroomswooshx.png:<frame>"}}}}}}}
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "image": "shroomswooshx.png:<frame>"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-  "elementalType" : "poison",
-  "aimOffset" : -1,
-  "primaryAbilityType" : "sb_hammer",
-  "altAbilityType" : "blinkexplosion",
-  "primaryAbility" : {
-    "damageConfig" : {"damageSourceKind" : "poisonhammer"},
-    "fireTime" : [1.55,1.8],
-    "projectileType" : "sb_multisporecloudx",
-    "baseDps" : [4,10],
-    "smashMomentum" : [0, -64]
+  "elementalType": "poison",
+  "primaryAbilityType": "sb_hammer",
+  "altAbilityType": "blinkexplosion",
+  "primaryAbility": {
+    "damageConfig": {
+      "damageSourceKind": "poisonhammer"
+    },
+    "stances": {
+      "idle": {
+        "weaponOffset": [-0.125, 0.5]
+      }
+    },
+    "projectileType": "sb_multisporecloudx"
   },
-  "builder" : "/items/buildscripts/starbound/buildweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

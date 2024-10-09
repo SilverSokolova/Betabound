@@ -6,7 +6,7 @@
 [{"op":"test","path":"/itemTags/0","value":"toy"},{"op":"remove","path":"/itemTags/0"}],
 [{"op":"add","path":"/itemTags/-","value":"weapon"},
 {"op":"add","path":"/itemTags/-","value":"ranged"},
-{"op":"add","path":"/itemTags/-","value":"assaultRifle"}],
+{"op":"add","path":"/itemTags/-","value":"assaultrifle"}],
 
 [{"op":"test","path":"/category","value":"toy"},{"op":"replace","path":"/category","value":"assaultRifle"}],
 [{"op":"test","path":"/description","value":"Powered by snow, it's fully automatic and keeps your gloves dry."},{"op":"replace","path":"/description","value":"Made for advanced snowball warfare. It's fully automatic and keeps your gloves dry."}],

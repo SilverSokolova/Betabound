@@ -9,7 +9,7 @@
   "price": 90,
   "category": "dagger",
   "twoHanded": false,
-  "itemTags": ["weapon", "melee", "dagger"],
+  "itemTags": ["weapon", "melee", "dagger", "livingweapon"],
 
   "inventoryIcon": "fishicon.png",
   "animation": "/items/active/weapons/melee/dagger/dagger.animation",

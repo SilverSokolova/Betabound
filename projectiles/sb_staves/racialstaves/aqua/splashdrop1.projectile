@@ -10,9 +10,9 @@
   "timeToLive": 1.5,
   "orientationLocked": false,
   "flippable": true,
-  "power": 1.0,
+  "power": 1,
   "damagePoly": [[-2, 2], [-2, -2], [2, -2], [2, 2]],
-  "damageKind": "default",
+  "damageKind": "ice",
   "emitters": ["daggerblue", "defaultblue"],
   "statusEffects": [{
       "effect": "wet",

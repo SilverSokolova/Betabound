@@ -1,7 +1,7 @@
 {
   "itemName": "sb_novatier6arevolver",
   "definition": "revolver",
-  "itemTags": ["weapon", "ranged", "pistol", "revolver", "novakid"],
+  "itemTags": ["weapon", "ranged", "pistol", "revolver"],
   "tags": {
     "<t>": "6a"
   },
@@ -11,6 +11,7 @@
   "muzzleOffset": [1.435, 0.07],
   "level": 6,
   "configOverrides": {
+    "baseOffset": [0.5, 0.5],
     "primaryAbility": {
       "baseDps": 5.25,
       "fireTime": 0.45

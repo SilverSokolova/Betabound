@@ -1,72 +1,18 @@
 {
   "itemName": "sb_crappyhammer",
-  "price": 25,
-  "maxStack": 1,
-  "level": 1,
-  "rarity": "Common",
-  "description": "Slow, heavy, and effective.",
+  "definition": "hammers/common",
   "shortdescription": "Crappy Hammer",
   "tooltipKind": "sb_sword2",
-  "category": "hammer",
   "tooltipFields": {
     "subtitle": "Crappy Hammer"
   },
-  "twoHanded": true,
-  "itemTags": ["weapon", "melee", "hammer", "crappy"],
-  "animation": "/items/active/starbound/weapons/hammer.animation",
-
-  "animationCustom": {
-    "animatedParts": {
-      "parts": {
-        "swoosh": {
-          "properties": {
-            "offset": [-1.0, 1.75]
-          }
-        },
-        "blade": {
-          "properties": {
-            "zLevel": 1
-          }
-        },
-        "handle": {
-          "properties": {
-            "zLevel": 0
-          }
-        }
-      }
-    },
-    "lights": {
-      "glow": {
-        "color": [0, 0, 0]
-      }
-    },
-    "sounds": {
-      "fire": ["/sfx/melee/swing_hammer.ogg"]
-    }
-  },
-
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
-
-  "aimOffset": -1.0,
+  "itemTags": ["weapon", "melee", "hammer"],
 
   "primaryAbilityType": "sb_hammer",
   "primaryAbility": {
-    "fireTime": [0.6, 1.2],
-    "baseDps": [4.5, 8.5],
-    "damageConfig": {
-      "knockbackRange": [12, 16]
-    },
     "stances": {
-      "idle": {
-        "weaponOffset": [0.3, 1.5]
-      },
-      "windup": {
-        "duration": 0.2,
-        "weaponOffset": [0.3, 1.5]
-      },
       "fire": {
-        "duration": 0.4,
-        "weaponOffset": [0.3, 1.5]
+        "weaponRotation": -75
       }
     }
   },

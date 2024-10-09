@@ -1,55 +1,25 @@
 {
   "itemName": "sb_katarrhna",
-  "level": 1,
-  "maxStack": 1,
-  "rarity": "legendary",
+  "definition": ["shortswords/swoosh", "shortswords/rare"],
   "description": "A powerful yet putrid blade comprised of a foul, rotten, sickly oozing mucus.",
-  "shortdescription": "Katarrhna",
+  "shortdescription": "Katarrhna ^yellow;^reset;",
   "tooltipKind": "sb_sword2",
-  "price": 800,
-  "category": "shortsword",
-  "twoHanded": false,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "shortsword", "slime"],
-  "handGrip": "inside",
+  "itemTags": ["weapon", "melee", "shortsword"],
   "inventoryIcon": "katarrhna.png<directives>",
-  "animation": "/items/active/starbound/weapons/shortsword.animation",
   "animationParts": {
     "blade": "katarrhna.png<directives>",
     "handle": ""
   },
-  "animationCustom": {
-    "lights": {
-      "glow": {
-        "color": [0, 0, 0]
-      }
-    },
-    "animatedParts": {
-      "parts": {
-        "swoosh": {
-          "partStates": {
-            "swoosh": {
-              "fire": {
-                "properties": {
-                  "image": "slimeswooshx.png:<frame>"
-                }
-              }
-            }
-          }
-        }
-      }
-    }
+  "tags": {
+    "<swoosh>": "slimex"
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "elementalType": "poison",
-  "primaryAbilityType": "sb_meleeslash2",
+  "primaryAbilityType": "sb_shortswordcombo",
   "primaryAbility": {
     "projectileType": "sb_slimeblobx",
-    "projectileOffset": [1, 0.5],
-    "fireTime": [0.777, 1.111],
-    "baseDps": [2.5, 5.5],
-    "baseDamage": [2.5, 5.5]
+    "projectileOffset": [1, 0.5]
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

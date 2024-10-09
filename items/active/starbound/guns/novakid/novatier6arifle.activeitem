@@ -8,7 +8,7 @@
   "description": "A loyal and trustworthy friend indeed.",
   "shortdescription": "Steadfast Nova",
   "level": 6,
-  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid"],
+  "itemTags": ["weapon", "ranged", "sniperrifle"],
   "configOverrides": {
     "baseOffset": [0.75, 0.25],
     "primaryAbility": {

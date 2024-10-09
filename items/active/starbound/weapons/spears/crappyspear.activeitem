@@ -12,7 +12,7 @@
   "description": "This spear is perfect for enemies just out of reach.",
   "shortdescription": "Common Crappy Spear",
   "twoHanded": true,
-  "itemTags": ["weapon", "melee", "spear", "crappy"],
+  "itemTags": ["weapon", "melee", "spear"],
   "animation": "/items/active/starbound/weapons/spear.animation",
   "animationParts": {},
   "animationCustom": {},

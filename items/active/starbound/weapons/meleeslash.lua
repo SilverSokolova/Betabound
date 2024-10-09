@@ -6,7 +6,6 @@ MeleeSlash = WeaponAbility:new()
 function MeleeSlash:init()
   self.damageConfig = self.damageConfig or {}
   self.damageConfig.baseDamage = self.baseDps * self.fireTime
-  self.projectilePower = self.damageConfig.baseDamage * config.getParameter("damageLevelMultiplier",1) * config.getParameter("projectileDamageMultiplier",0.6)
   self.energyUsage = self.energyUsage or 0
   self.inaccuracy = self.inaccuracy or 0
   self.comboStep = 1

@@ -39,7 +39,7 @@
       "imagePosition": [-12, -0],
       "frames": 6,
       "animationCycle": 0.6,
-      "direction": "right",
+      "direction": "left",
 
       "spaceScan": 0.1,
       "anchors": ["bottom"]
@@ -54,7 +54,7 @@
       "imagePosition": [-12, -0],
       "frames": 6,
       "animationCycle": 0.6,
-      "direction": "left",
+      "direction": "right",
 
       "spaceScan": 0.1,
       "anchors": ["bottom"]
