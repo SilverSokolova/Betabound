@@ -9,7 +9,6 @@
   "itemTags": ["weapon", "melee", "axe"],
 
   "aimOffset": -1,
-
   "primaryAbilityType": "sb_axe",
   "elementalType": "physical",
   "builderConfig": [{
@@ -19,13 +18,35 @@
           "path": "axe/blade/<variant>.png",
           "variants": 28,
           "paletteSwap": true,
-          "fullbrights": [3, 4, 5, 17, 20, 22, 23]
+          "fullbrightParts": {
+            "3": true,
+            "4": true,
+            "5": true,
+            "17": true,
+            "20": true,
+            "22": true,
+            "23": true
+          },
+          "undyeableParts": {
+            "4": true,
+            "5": true,
+            "14": true,
+            "20": true,
+            "22": true,
+            "23": true
+          }
         },
         "handle": {
           "path": "axe/handle/<variant>.png",
-          "variants": 15,
+          "variants": 13,
           "paletteSwap": true,
-          "fullbrights": [3, 6]
+          "fullbrightParts": {
+            "3": true,
+            "6": true
+          },
+          "undyeableParts": {
+            "1": true
+          }
         }
       },
       "palette": "/items/active/starbound/colors/melee.weaponcolors",

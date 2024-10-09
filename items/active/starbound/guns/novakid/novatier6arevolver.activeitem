@@ -11,6 +11,7 @@
   "muzzleOffset": [1.435, 0.07],
   "level": 6,
   "configOverrides": {
+    "baseOffset": [0.5, 0.5],
     "primaryAbility": {
       "baseDps": 5.25,
       "fireTime": 0.45
