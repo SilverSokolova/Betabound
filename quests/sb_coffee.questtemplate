@@ -6,7 +6,7 @@
   "completionText": "The perfect coffee! The last person to make me a cup had me drinking it straight out of their Matter Manipulator. Here, you deserve this. I'll tell other people how helpful you are!",
   "speaker": "questGiver",
   "moneyRange": [600, 900],
-  "rewards": [[["sb_tech",1,{"techModule":"sb_rocketboots"}],["rewardbag",1,{"treasure":{"level":2}}]]],
+  "rewards": [[["sb_tech",1,{"techModule":"sb_rocketboots"}],["rewardbag",1,{"treasure":{"level":3}}]]],
   "canBeAbandoned": true,
 
   "guiConfigs": {
@@ -16,7 +16,7 @@
   },
 
   "updateDelta": 10,
-  "script": "/quests/scripts/main.lua",
+  "script": "/quests/scripts/sb_main.lua",
   "scriptConfig": {
     "sb_acceptBlueprints": ["sb_steelspoon"],
     "acceptItems": ["coffeemachine"],

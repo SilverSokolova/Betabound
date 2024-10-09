@@ -1,1 +1,1 @@
-{"id":"sb_coffee2.gearup","showFailDialog":false,"script":"/quests/scripts/sb_failquest.lua","newId":"sb_coffee"}
+{"id":"sb_coffee2.gearup","showFailDialog":false,"showInLog":false,"script":"/quests/scripts/sb_failquest.lua","newId":"sb_coffee"}

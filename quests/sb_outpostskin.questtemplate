@@ -28,13 +28,13 @@
     },
     "sb_genderedCompletionItem": "sb_cinema_air%s",
     "sb_giveSpeciesItems": {
-      "default" : ["sb_techstation_human"],
-      "hylotl" : ["sb_techstation_hylotl"],
-      "novakid" : ["sb_techstation_novakid"],
-      "floran" : ["sb_techstation_floran"],
-      "glitch" : ["sb_techstation_glitch"],
-      "apex" : ["sb_techstation"],
-      "avian" : ["sb_techstation_avian"]
+      "default": ["sb_techstation_human"],
+      "hylotl": ["sb_techstation_hylotl"],
+      "novakid": ["sb_techstation_novakid"],
+      "floran": ["sb_techstation_floran"],
+      "glitch": ["sb_techstation_glitch"],
+      "apex": ["sb_techstation"],
+      "avian": ["sb_techstation_avian"]
     },
     "requireTurnIn": true,
     "turnInDescription": "Speak to ^orange;the human scientist^reset; at the ^orange;outpost^reset;",
