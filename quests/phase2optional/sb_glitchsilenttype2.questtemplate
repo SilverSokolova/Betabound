@@ -1,6 +1,6 @@
 {
-  "id": "sb_glitchsilenttype2.gearup",
-  "prerequisites": ["floran_mission1", "sb_floranfan1.gearup", "sb_hylotlperformer1.gearup"],
+  "id": "sb_glitchsilenttype2",
+  "prerequisites": ["floran_mission1", "sb_floranfan1", "sb_hylotlperformer1"],
   "title": "^green;....",
   "text": "....",
   "completionText": "....",

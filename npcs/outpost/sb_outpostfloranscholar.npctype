@@ -4,8 +4,8 @@
   "displayTitle": "Floran Scholar",
 
   "scriptConfig": {
-    "sb_offeredQuests": ["sb_hylotlperformerE2part2.gearup"],
-    "sb_turnInQuests": ["sb_hylotlperformerE2part1.gearup"],
+    "sb_offeredQuests": ["sb_hylotlperformerE2part2"],
+    "sb_turnInQuests": ["sb_hylotlperformerE2part1"],
 
     "dialog": {
       "converse": {

@@ -2,11 +2,11 @@
   [{
       "op": "add",
       "path": "/scriptConfig/sb_offeredQuests",
-      "value": ["sb_avianexplorer3.gearup", "sb_avianexplorer4.gearup"]
+      "value": ["sb_avianexplorer3", "sb_avianexplorer4"]
     }, {
       "op": "add",
       "path": "/scriptConfig/sb_turnInQuests",
-      "value": ["sb_avianexplorer3.gearup", "sb_avianexplorer4.gearup"]
+      "value": ["sb_avianexplorer3", "sb_avianexplorer4"]
     }
   ]
 ]

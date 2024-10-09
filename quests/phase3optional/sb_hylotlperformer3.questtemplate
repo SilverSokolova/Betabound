@@ -1,11 +1,11 @@
 {
-  "id": "sb_hylotlperformer3.gearup",
-  "prerequisites": ["hylotl_mission1", "sb_bountyhunter2.gearup", "sb_glitchsilenttype2.gearup", "sb_humanexcon2.gearup", "sb_humansurvivor2.gearup"],
+  "id": "sb_hylotlperformer3",
+  "prerequisites": ["hylotl_mission1", "sb_bountyhunter2", "sb_glitchsilenttype2", "sb_humanexcon2", "sb_humansurvivor2"],
   "title": "^green;This is my Song!",
   "text": "I've had a great idea! I want to add music to my act! I have this wonderful guitar but ^green;one of the strings is broken. ^orange;Find me some string ^green;and I'll reward you!",
   "completionText": "Hmm... Actually, I can't play this at all! I don't know what I was thinking. Here, you may as well have this guitar.",
   "speaker": "questGiver",
-  "moneyRange": [80, 80],
+  "moneyRange": [700, 800],
   "rewards": [["nylonguitar"]],
 
   "guiConfigs": {

@@ -1,11 +1,11 @@
 {
   "id": "sb_peanutbutter",
-  "prerequisites": ["sb_humanexcon2.gearup"],
+  "prerequisites": ["sb_humanexcon2"],
   "title": "^#9be3d6;The Missing Ingredient",
   "text": "Oh, it's you again! Back when I was a USCM inmate, I overheard some guards talking about a 'Brian' incident... In a nutshell, the USCM found a way to lure a delicious monster out with some ^orange;peanut butter^reset;, and I'd love to use it in cooking. ^green;Please make a ^orange;Peanut Butter Trap^green; at an ^orange;Engineer's Table^green; and fight the monster! You can make ^orange;Peanut Butter^green; at a ^orange;Kitchen Counter^green;!^reset;",
   "completionText": "So it was a giant jelly monster?! I've been craving a classic PB&J for a while now... You've helped me yet again, and I just can't thank you enough! Here- These are for you!",
   "speaker": "questGiver",
-  "moneyRange": [300, 300],
+  "moneyRange": [1200, 1200],
   "canBeAbandoned": true,
   "rewards": [["sb_pbj", "upgrademodule", ["techcard", 3], ["rewardbag", 1, {
           "treasure": {

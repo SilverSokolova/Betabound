@@ -1,11 +1,11 @@
 {
-  "id": "sb_bountyhunter2.gearup",
-  "prerequisites": ["floran_mission1", "sb_bountyhunter1.gearup", "sb_floranfan1.gearup", "sb_hylotlperformer1.gearup"],
+  "id": "sb_bountyhunter2",
+  "prerequisites": ["floran_mission1", "sb_bountyhunter1", "sb_floranfan1", "sb_hylotlperformer1"],
   "title": "^green;Taking out the Trash",
   "text": "Hey! Thanks for helping me before! I wondered... would you be able to dispose of this bag of... meat for me? ^green;Throw it in a furnace and bring me the ^orange;ashes ^green;and I'll give you a reward.",
   "completionText": "Good job! Take this, you've earned it.",
   "speaker": "questGiver",
-  "moneyRange": [0, 0],
+  "moneyRange": [500, 600],
   "rewards": [[["commonassaultrifle", 1, {
           "level": 3
         }

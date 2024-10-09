@@ -1,33 +1,37 @@
 {
-  "id" : "sb_humanscientistE1.gearup",
-  "prerequisites" : ["sb_humanscientist1.gearup","apex_mission2"],
-  "title" : "^green;Pale Blue Dot",
-  "text" : "I am opening a public observatory! I still need to find a few decorations to make it look authentic. ^green;Could you find me ^orange;a globe from a Glitch village ^reset;that I can decorate with?",
-  "completionText" : "Ah yes! Thank you. This will look great in my observatory! Have some pixels and this manipulator module as gratitude.",
-  "speaker" : "questGiver",
-  "moneyRange" : [600, 600],
-  "rewards" : [["manipulatormodule",["rewardbag",1,{"treasure":{"level":6}}]]],
+  "id": "sb_humanscientistE1",
+  "prerequisites": ["sb_humanscientist1", "apex_mission2"],
+  "title": "^green;Pale Blue Dot",
+  "text": "I am opening a public observatory! I still need to find a few decorations to make it look authentic. ^green;Could you find me ^orange;a globe from a Glitch village ^reset;that I can decorate with?",
+  "completionText": "Ah yes! Thank you. This will look great in my observatory! Have some pixels and this manipulator module as gratitude.",
+  "speaker": "questGiver",
+  "moneyRange": [1100, 1200],
+  "rewards": [["manipulatormodule", ["rewardbag", 1, {
+          "treasure": {
+            "level": 6
+          }
+        }
+      ]]],
 
-  "guiConfigs" : {
-    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
-    "newQuest" : "/interface/windowconfig/sb_newquest.config",
-    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquest.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
   },
 
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/main.lua",
-  "scriptConfig" : {
-    "portraits" : {
-      "default" : "questGiver"
+  "updateDelta": 10,
+  "script": "/quests/scripts/main.lua",
+  "scriptConfig": {
+    "portraits": {
+      "default": "questGiver"
     },
-    "requireTurnIn" : true,
-    "turnInDescription" : "Speak to ^orange;the human scientist^reset; at the ^orange;outpost^reset;",
-    "conditions" : [
-      {
-        "type" : "gatherItem",
-        "itemName" : "medievalglobe",
-        "count" : 1,
-        "consume" : true
+    "requireTurnIn": true,
+    "turnInDescription": "Speak to ^orange;the human scientist^reset; at the ^orange;outpost^reset;",
+    "conditions": [{
+        "type": "gatherItem",
+        "itemName": "medievalglobe",
+        "count": 1,
+        "consume": true
       }
     ]
   }

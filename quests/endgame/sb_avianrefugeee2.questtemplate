@@ -1,34 +1,38 @@
 {
-  "id" : "sb_avianrefugeeE2.gearup",
-  "prerequisites" : [ "glitch_mission2","sb_avianrefugeeE1.gearup" ],
-  "title" : "^green;On Paper Wings",
-  "text" : "I've finalised my plans for one-man flight! ^green;If you aren't busy, please ^orange;take this Blueprint and craft me Paper Wings ^green;at an anvil ^reset;so I can soar like the moon in the night sky!",
-  "completionText" : "Thank you so much! Though now I take a look at them, these wings might not be enough to actually fly with. At least they look good!",
-  "speaker" : "questGiver",
-  "moneyRange" : [200, 200],
-  "rewards" : [["featherfood",["rewardbag",1,{"treasure":{"level":6}}]]],
-  "guiConfigs" : {
-    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
-    "newQuest" : "/interface/windowconfig/sb_newquest.config",
-    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  "id": "sb_avianrefugeeE2",
+  "prerequisites": ["glitch_mission2", "sb_avianrefugeeE1"],
+  "title": "^green;On Paper Wings",
+  "text": "I've finalised my plans for one-man flight! ^green;If you aren't busy, please ^orange;take this Blueprint and craft me Paper Wings ^green;at an anvil ^reset;so I can soar like the moon in the night sky!",
+  "completionText": "Thank you so much! Though now I take a look at them, these wings might not be enough to actually fly with. At least they look good!",
+  "speaker": "questGiver",
+  "moneyRange": [1100, 1200],
+  "rewards": [["featherfood", ["rewardbag", 1, {
+          "treasure": {
+            "level": 6
+          }
+        }
+      ]]],
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquest.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
   },
 
-  "canBeAbandoned" : true,
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/sb_main.lua",
-  "scriptConfig" : {
-    "portraits" : {
-      "default" : "questGiver"
+  "canBeAbandoned": true,
+  "updateDelta": 10,
+  "script": "/quests/scripts/sb_main.lua",
+  "scriptConfig": {
+    "portraits": {
+      "default": "questGiver"
     },
-    "requireTurnIn" : true,
-    "sb_acceptBlueprints" : ["paperwingsback"],
-    "turnInDescription" : "Speak to ^orange;the Avian refugee ^reset; at the ^orange;outpost^reset;",
-    "conditions" : [
-      {
-        "type" : "gatherItem",
-        "itemName" : "paperwingsback",
-        "count" : 1,
-        "consume" : true
+    "requireTurnIn": true,
+    "sb_acceptBlueprints": ["paperwingsback"],
+    "turnInDescription": "Speak to ^orange;the Avian refugee ^reset; at the ^orange;outpost^reset;",
+    "conditions": [{
+        "type": "gatherItem",
+        "itemName": "paperwingsback",
+        "count": 1,
+        "consume": true
       }
     ]
   }

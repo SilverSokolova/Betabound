@@ -2,11 +2,11 @@
   [{
       "op": "add",
       "path": "/scriptConfig/sb_offeredQuests",
-      "value": ["sb_outpost0.gearup", "sb_humanscientist1.gearup", "sb_humanscientistE1.gearup", "sb_outpostSkin.gearup"]
+      "value": ["sb_outpost0", "sb_humanscientist1", "sb_humanscientistE1", "sb_outpostSkin"]
     }, {
       "op": "add",
       "path": "/scriptConfig/sb_turnInQuests",
-      "value": ["sb_outpost0.gearup", "sb_humanscientist1.gearup", "sb_humanscientistE1.gearup", "sb_outpostSkin.gearup"]
+      "value": ["sb_outpost0", "sb_humanscientist1", "sb_humanscientistE1", "sb_outpostSkin"]
     }
   ]
 ]

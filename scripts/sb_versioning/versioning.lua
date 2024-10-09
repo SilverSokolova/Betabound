@@ -261,15 +261,15 @@ xrc0018[34]=function()
   IB = {}
   local quests = root.assetJson("/scripts/sb_versioning/changedQuestIds.json")
   for v, k in pairs(quests) do
-    if player.hasCompletedQuest(v) then
-      sb.logInfo(string.format("Player has done %s, giving required items for %s", v, k))
-      local questItems = root.questConfig(k).scriptConfig
+    if player.hasCompletedQuest(v..".gearup") then
+      sb.logInfo(string.format("Player has done %s.gearup, giving required items for %s", v, k))
+      local questItems = root.questConfig(type(k) == "string" and k or v).scriptConfig
       if questItems then
         questItems = questItems.conditions
         if questItems then
           for i = 1, #questItems do
             if questItems[i].itemName then
-              IB[#IB+1] = questItems[i].itemName
+              IB[#IB+1] = {questItems[i].itemName, questItems[i].count or 1}
             end
           end
         end

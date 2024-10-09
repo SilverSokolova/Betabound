@@ -2,11 +2,11 @@
   [{
       "op": "add",
       "path": "/scriptConfig/sb_offeredQuests",
-      "value": ["sb_floranfan1.gearup"]
+      "value": ["sb_floranfan1"]
     }, {
       "op": "add",
       "path": "/scriptConfig/sb_turnInQuests",
-      "value": ["sb_floranfan1.gearup"]
+      "value": ["sb_floranfan1"]
     }
   ]
 ]

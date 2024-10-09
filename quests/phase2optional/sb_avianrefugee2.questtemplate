@@ -1,0 +1,33 @@
+{
+  "id": "sb_avianrefugee2",
+  "prerequisites": ["floran_mission1", "sb_floranfan1", "sb_hylotlperformer1"],
+  "title": "^green;Taking Flight",
+  "text": "Would you like to learn to make a paper airplane? I make the best ones! ^green;Bring me some paper and I'll show you how to make an awesome paper plane!",
+  "completionText": "Did you get the paper? Awesome, just watch!\n...There you go! Go and give it a fly!",
+  "speaker": "questGiver",
+  "moneyRange": [500, 600],
+  "rewards": [["paperplane", "paperplane-recipe"]],
+
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquest.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta": 10,
+  "script": "/quests/scripts/main.lua",
+  "scriptConfig": {
+    "portraits": {
+      "default": "questGiver"
+    },
+    "turnInDescription": "Speak to ^orange;the Avian refugee^reset; at the ^orange;outpost^reset;",
+    "requireTurnIn": true,
+    "conditions": [{
+        "type": "gatherItem",
+        "itemName": "paper",
+        "count": 1,
+        "consume": true
+      }
+    ]
+  }
+}

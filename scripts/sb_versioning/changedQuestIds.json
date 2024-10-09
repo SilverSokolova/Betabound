@@ -1,3 +1,48 @@
 {
-  "sb_coffee0.gearup": "sb_coffee"
+  //".gearup" is automatically appended to the keys
+  //If the value is not a string, the key is used instead
+  "sb_coffee0": "sb_coffee",
+  "sb_outpost0": 1,
+  "sb_outpost1": 1,
+  "sb_outpost2": 1,
+  "sb_outpostSkin": 1,
+  "sb_kelpquest": "sb_kelp",
+  "sb_heatskin2": "sb_heatskin",
+  "sb_coldskin3": "sb_coldskin",
+
+  "sb_underside1": 1,
+  "sb_bountyhunter1": 1,
+  "sb_floranfan1": 1,
+  "sb_humanscientist1": 1,
+  "sb_hylotlperformer1": 1,
+
+  "sb_apexmechanic2": 1,
+  "sb_avianrefugee2part1": "sb_avianrefugee2",
+  "sb_bountyhunter2": 1,
+  "sb_glitchsilenttype2": 1,
+  "sb_humanexcon2": 1,
+  "sb_humansurvivor2": 1,
+
+  "sb_avianexplorer3": 1,
+  "sb_bountyhunter3": 1,
+  "sb_glitchsilenttype3": 1,
+  "sb_hylotlperformer3": 1,
+
+  "sb_apexrefugee4": 1,
+  "sb_avianexplorer4": 1,
+  "sb_avianmercenary4": 1,
+  "sb_bountyhunter4": 1,
+  "sb_floranhunter4": 1,
+  "sb_humanexcon4": 1,
+
+  "sb_avianrefugeeE1": 1,
+  "sb_penguinpromoterE1": 1,
+  "sb_hylotlwarriorE1": 1,
+  "sb_humanscientistE1": 1,
+  "sb_hylotlperformerE1": 1,
+
+  "sb_avianrefugeeE2": 1,
+  "sb_hylotlwarriorE2": 1,
+  "sb_hylotlperformerE2part1": 1,
+  "sb_hylotlperformerE2part2": 1
 }

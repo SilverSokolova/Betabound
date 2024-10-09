@@ -1,11 +1,11 @@
 {
-  "id": "sb_bountyhunter3.gearup",
-  "prerequisites": ["hylotl_mission1", "sb_bountyhunter2.gearup", "sb_glitchsilenttype2.gearup", "sb_humanexcon2.gearup", "sb_humansurvivor2.gearup"],
+  "id": "sb_bountyhunter3",
+  "prerequisites": ["hylotl_mission1", "sb_bountyhunter2", "sb_glitchsilenttype2", "sb_humanexcon2", "sb_humansurvivor2"],
   "title": "^green;Pest Problem",
   "text": "I have a job I need taken care of... ^green;Do you think you could find me some ^orange;cheese and some liquid poison?",
   "completionText": "Excellent... Here, I don't need this anymore.",
   "speaker": "questGiver",
-  "moneyRange": [0, 0],
+  "moneyRange": [700, 800],
   "rewards": [[["sb_uncommonshotgun", 1, {
           "level": 4
         }

@@ -4,11 +4,11 @@
   [{
       "op": "add",
       "path": "/scriptConfig/sb_offeredQuests",
-      "value": ["sb_hylotlwarriorE1.gearup", "sb_hylotlwarriorE2.gearup"]
+      "value": ["sb_hylotlwarriorE1", "sb_hylotlwarriorE2"]
     }, {
       "op": "add",
       "path": "/scriptConfig/sb_turnInQuests",
-      "value": ["sb_hylotlwarriorE1.gearup", "sb_hylotlwarriorE2.gearup"]
+      "value": ["sb_hylotlwarriorE1", "sb_hylotlwarriorE2"]
     }
   ]
 ]
