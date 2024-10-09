@@ -58,7 +58,7 @@
         "properties": {
           "zLevel": -1,
           "centered": true,
-          "offset": [-2.25, 1],
+          "offset": [-2.25, 1.25],
           "transformationGroups": ["swoosh"],
           "rotationCenter": [0, 0]
         },

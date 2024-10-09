@@ -1,17 +1,11 @@
 {
   "itemName": "sb_heatcleaver",
-  "price": 800,
-  "maxStack": 1,
-  "level": 1,
-  "rarity": "rare",
+  "definition": "axes/rare",
   "description": "Overloaded with solarium, the ember coral in this axe reaches the temperature of suns.",
   "shortdescription": "Heat Cleaver ^yellow;^reset;",
   "tooltipKind": "sb_sword2",
-  "category": "axe",
-  "twoHanded": false,
   "sb_waBan": true,
   "itemTags": ["weapon", "melee", "axe"],
-  "animation": "/items/active/starbound/weapons/axe.animation",
 
   "sb_dyeable": true,
   "directives": "",
@@ -29,14 +23,8 @@
     },
     "animatedParts": {
       "parts": {
-        "handle": {
-          "properties": {
-            "offset": [0, 1.4]
-          }
-        },
         "blade": {
           "properties": {
-            "offset": [0, 1.4],
             "fullbright": true
           }
         },
@@ -45,43 +33,25 @@
             "swoosh": {
               "fire": {
                 "properties": {
-                  "image": "coralswooshx.png:<frame>"
+                  "image": "coralswooshx.png:<frame>",
+                  "fullbright": true
                 }
               }
             }
-          },
-          "properties": {
-            "offset": [-1, 1.75]
           }
         }
       }
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
-
   "elementalType": "fire",
   "aimOffset": -1,
   "primaryAbilityType": "sb_axe",
   "primaryAbility": {
-    "fireTime": [0.9, 1.5],
     "projectileType": "sb_coralswooshx",
-    "baseDps": [4, 10],
     "damageConfig": {
-      "damageSourceKind": "fireaxe",
       "knockback": 30,
       "statusEffects": ["burning"]
-    },
-    "stances": {
-      "idle": {
-        "weaponOffset": [0.3, 1.5]
-      },
-      "windup": {
-        "weaponOffset": [0.3, 1.5]
-      },
-      "fire": {
-        "weaponOffset": [0.3, 1.5]
-      }
     }
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua"

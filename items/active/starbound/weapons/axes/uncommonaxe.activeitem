@@ -78,7 +78,7 @@
               "damageSourceKind": "fireaxe",
               "statusEffects": [{
                   "effect": "burning",
-                  "duration": 1
+                  "duration": 2
                 }
               ]
             }

@@ -25,13 +25,7 @@
       "parts": {
         "blade": {
           "properties": {
-            "offset": [0, 1.4],
             "fullbright": true
-          }
-        },
-        "handle": {
-          "properties": {
-            "offset": [0, 1.4]
           }
         },
         "swoosh": {
@@ -39,19 +33,16 @@
             "swoosh": {
               "fire": {
                 "properties": {
-                  "image": "coralswoosh.png:<frame>"
+                  "image": "coralswoosh.png:<frame>",
+                  "fullbright": true
                 }
               }
             }
-          },
-          "properties": {
-            "offset": [-1, 1.75]
           }
         }
       }
     }
   },
-
 
   "elementalType": "fire",
   "aimOffset": -1,
@@ -64,13 +55,7 @@
     },
     "stances": {
       "idle": {
-        "weaponOffset": [0.3, 1.5]
-      },
-      "windup": {
-        "weaponOffset": [0.3, 1.5]
-      },
-      "fire": {
-        "weaponOffset": [0.3, 1.5]
+        "weaponOffset": [0.25, 2.5]
       }
     }
   },
