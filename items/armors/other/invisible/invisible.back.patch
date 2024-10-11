@@ -1,8 +1,8 @@
 [
 [{"op":"test","path":"/inventoryIcon","value":"icons.png:back"},{"op":"replace","path":"/inventoryIcon","value":"/items/armors/penguin/sb_empty/icons.png:back"}],
 [{"op":"test","path":"/price","value":5000},{"op":"replace","path":"/price","value":50}],
-[{"op":"test","path":"/rarity","value":"Legendary"},{"op":"replace","path":"/rarity","value":"rare"}],
+[{"op":"test","path":"/rarity","value":"Legendary"},{"op":"replace","path":"/rarity","value":"Rare"}],
 [{"op":"test","path":"/description","value":"Invisible"},{"op":"replace","path":"/description","value":"An empty backpack or such."}],
 [{"op":"test","path":"/shortdescription","value":"Invisible Back"},{"op":"replace","path":"/shortdescription","value":"Empty Back"}],
-[{"op":"test","path":"/tooltipKind","value":"back"},{"op":"replace","path":"/tooltipKind","value":"sb_armor"}]
+[{"op":"test","path":"/tooltipKind","value":"back"},{"op":"replace","path":"/tooltipKind","value":"sb_object"}]
 ]

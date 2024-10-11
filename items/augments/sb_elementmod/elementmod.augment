@@ -8,7 +8,7 @@
   "tooltipFields": {
     "subtitle": "Weapon Mod"
   },
-  "description": "Replaces the element of non-unique weapons.\n^gray;Apply to weapon with right-click",
+  "description": "Replaces the element of generated weapons.\n^gray;Apply to weapon with right-click",
   "shortdescription": "^yellow;%s^reset;",
   "elementList": ["electric", "fire", "ice", "poison"],
   "scripts": ["/scripts/augments/sb_element.lua"],

@@ -1,6 +1,4 @@
 [
-[{"op":"replace","path":"/itemName","value":"starbound_mocha"}],
-
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
 
 [{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}],
