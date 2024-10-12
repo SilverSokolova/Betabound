@@ -36,7 +36,7 @@
   },
   "moneyIcon": {
     "type": "image",
-    "position": [98, 23], //108
+    "position": [97, 23], //108
     "file": "/interface/money.png"
   },
   "rarityLabel": {

@@ -58,7 +58,7 @@
   },
   "moneyIcon": {
     "type": "image",
-    "position": [98, 23],
+    "position": [97, 23],
     "file": "/interface/money.png"
   },
   "sb_levelLabel": {

@@ -1,14 +1,14 @@
 {
   "itemName": "sb_preservatives",
   "price": 50,
-  "tooltipKind": "sb_object4b",
+  "tooltipKind": "sb_object4",
   "rarity": "Common",
   "category": "preparedFood",
   "tooltipFields": {
     "subtitle": "Other"
   },
   "inventoryIcon": "preservatives.png",
-  "description": "Effectively freshens food when applied, resetting the time before it rots.\n^gray;Select preservatives and right-click item",
+  "description": "Effectively freshens food when applied, resetting the time before it rots.\n^gray;Apply with right-click",
   "shortdescription": "Preservatives",
   "scripts": ["/scripts/augments/sb_preservatives.lua"]
 }

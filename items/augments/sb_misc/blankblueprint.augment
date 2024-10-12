@@ -1,11 +1,11 @@
 {
   "itemName": "sb_blankblueprint",
   "price": 25,
-  "tooltipKind": "sb_object4",
+  "tooltipKind": "sb_object",
   "rarity": "common",
   "category": "blueprint",
   "inventoryIcon": "/items/generated/blueprintinhand.png",
-  "description": "It's a blank blueprint. Use it to copy another blueprint.\n^gray;Select item and right-click blueprint",
+  "description": "This can be used to copy another blueprint.\n^gray;Apply with right-click",
   "shortdescription": "Blank Blueprint",
   "sb_uncopyable": true,
   "sb_copybookConditions": {

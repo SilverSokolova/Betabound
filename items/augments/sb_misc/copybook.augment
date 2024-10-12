@@ -1,7 +1,7 @@
 {
   "itemName": "sb_copybook",
   "price": 25,
-  "tooltipKind": "sb_object4",
+  "tooltipKind": "sb_object",
   "rarity": "Common",
   "category": "codex",
   "tooltipFields": {
