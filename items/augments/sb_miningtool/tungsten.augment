@@ -9,7 +9,7 @@
   },
   "durabilityRegen": 180,
   "inventoryIcon": "tungsten.png",
-  "description": "It's a tungsten repair tool.\n^gray;Select repair tool and right-click pickaxe or drill",
+  "description": "Restores a moderate amount of durability to mining tools.\n^gray;Apply with right-click",
   "shortdescription": "Tungsten Repair Tool",
   "scripts": ["/scripts/augments/sb_repair.lua"]
 }

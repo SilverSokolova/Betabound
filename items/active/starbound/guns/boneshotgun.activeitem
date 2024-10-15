@@ -36,7 +36,8 @@
       "parts": {
         "muzzleFlash": {
           "properties": {
-            "offset": [1.25, -0.125]
+            "offset": [1.25, -0.125],
+            "fullbright": false
           }
         }
       }

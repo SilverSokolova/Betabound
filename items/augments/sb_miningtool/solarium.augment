@@ -9,7 +9,7 @@
   },
   "durabilityRegen": 350,
   "inventoryIcon": "solarium.png",
-  "description": "It's a solarium repair tool.\n^gray;Select repair tool and right-click pickaxe or drill",
+  "description": "Restores a great amount of durability to mining tools.\n^gray;Apply with right-click",
   "shortdescription": "Solarium Repair Tool",
   "scripts": ["/scripts/augments/sb_repair.lua"]
 }

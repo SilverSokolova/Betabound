@@ -9,7 +9,7 @@
   },
   "durabilityRegen": 110,
   "inventoryIcon": "silver.png",
-  "description": "It's a silver repair tool.\n^gray;Select repair tool and right-click pickaxe or drill",
+  "description": "Restores a small amount of durability to mining tools.\n^gray;Apply with right-click",
   "shortdescription": "Silver Repair Tool",
   "scripts": ["/scripts/augments/sb_repair.lua"]
 }

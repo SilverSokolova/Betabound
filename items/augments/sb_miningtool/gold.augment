@@ -9,7 +9,7 @@
   },
   "durabilityRegen": 150,
   "inventoryIcon": "gold.png",
-  "description": "It's a gold repair tool.\n^gray;Select repair tool and right-click pickaxe or drill",
+  "description": "Restores a moderate amount of durability to mining tools.\n^gray;Apply with right-click",
   "shortdescription": "Gold Repair Tool",
   "scripts": ["/scripts/augments/sb_repair.lua"]
 }

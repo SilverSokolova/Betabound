@@ -9,7 +9,7 @@
   },
   "durabilityRegen": 75,
   "inventoryIcon": "copper.png",
-  "description": "It's a copper repair tool.\n^gray;Select repair tool and right-click pickaxe or drill",
+  "description": "Restores a small amount of durability to mining tools.\n^gray;Apply with right-click",
   "shortdescription": "Copper Repair Tool",
   "scripts": ["/scripts/augments/sb_repair.lua"]
 }
