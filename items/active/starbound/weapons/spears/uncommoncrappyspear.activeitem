@@ -1,23 +1,14 @@
 {
   "itemName": "sb_uncommoncrappyspear",
-  "level": 1,
   "price": 25,
-  "maxStack": 1,
   "rarity": "uncommon",
   "tooltipKind": "sb_sword2",
-  "category": "spear",
   "tooltipFields": {
     "subtitle": "Crappy Spear"
   },
-  "description": "This spear is perfect for enemies just out of reach.",
   "shortdescription": "Uncommon Crappy Spear",
-  "twoHanded": true,
+  "description": "This spear has seen better days, but it's perfect for enemies just out of reach.",
   "itemTags": ["weapon", "melee", "spear"],
-  "animation": "/items/active/starbound/weapons/spear.animation",
-  "animationParts": {},
-  "animationCustom": {},
-
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "primaryAbilityType": "sb_spear",
   "primaryAbility": {
@@ -52,11 +43,7 @@
         "fire": {
           "primaryAbility": {
             "damageConfig": {
-              "statusEffects": [{
-                  "effect": "burning",
-                  "duration": 2
-                }
-              ],
+              "statusEffects": ["burning"],
               "damageSourceKind": "firespear"
             }
           }
@@ -64,11 +51,7 @@
         "ice": {
           "primaryAbility": {
             "damageConfig": {
-              "statusEffects": [{
-                  "effect": "frostslow",
-                  "duration": 2
-                }
-              ],
+              "statusEffects": ["frostslow"],
               "damageSourceKind": "icespear"
             }
           }
@@ -76,11 +59,7 @@
         "electric": {
           "primaryAbility": {
             "damageConfig": {
-              "statusEffects": [{
-                  "effect": "electrified",
-                  "duration": 2
-                }
-              ],
+              "statusEffects": ["electrified"],
               "damageSourceKind": "electricspear"
             }
           }
@@ -88,11 +67,7 @@
         "poison": {
           "primaryAbility": {
             "damageConfig": {
-              "statusEffects": [{
-                  "effect": "weakpoison",
-                  "duration": 2
-                }
-              ],
+              "statusEffects": ["weakpoison"],
               "damageSourceKind": "poisonspear"
             }
           }

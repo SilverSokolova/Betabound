@@ -1,10 +1,11 @@
 {
   "itemName": "sb_crappyshortsword",
   "definition": "shortswords/common",
-  "description" : "A sturdy one-handed sword.",
-  "shortdescription": "Crappy Dagger",
+  "description": "This one-handed sword carries much wear and tear, yet it's still sturdy.",
+  "shortdescription": "Crappy Shortsword",
   "tooltipKind": "sb_sword2",
   "itemTags": ["weapon", "melee", "shortsword"],
+
   "primaryAbilityType": "sb_shortswordcombo",
   "elementalType": "physical",
   "builderConfig": [{

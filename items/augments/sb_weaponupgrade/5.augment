@@ -1,14 +1,16 @@
 {
-  "itemName" : "sb_weaponupgrade5",
-  "price" : 3175,
-  "tooltipKind" : "sb_object4b",
-  "rarity" : "legendary",
-  "itemTags" : ["weapon","ranged","revolver","pistol","gun"],
-  "category" : "pistol",
-  "tooltipFields" : {"subtitle":"Weapon Upgrade Kit"},
-  "newLevel" : 5,
-  "inventoryIcon" : "5.png",
-  "description" : "A weapon upgrade kit. It can bring most weapons up to ^orange;level 5!^reset;\n^gray;Select kit and right-click weapon",
-  "shortdescription" : "Expert Upgrade Kit",
-  "scripts" : ["/scripts/augments/sb_upgrade.lua"]
+  "itemName": "sb_weaponupgrade5",
+  "price": 3175,
+  "tooltipKind": "sb_object",
+  "rarity": "legendary",
+  "itemTags": ["weapon", "ranged", "revolver", "pistol", "gun"],
+  "category": "pistol",
+  "tooltipFields": {
+    "subtitle": "Weapon Upgrade Kit"
+  },
+  "newLevel": 5,
+  "inventoryIcon": "5.png",
+  "description": "This upgrade kit can raise a weapon or shield to ^orange;level 5.^reset;\n^gray;Apply with right-click",
+  "shortdescription": "Expert Upgrade Kit",
+  "scripts": ["/scripts/augments/sb_upgrade.lua"]
 }

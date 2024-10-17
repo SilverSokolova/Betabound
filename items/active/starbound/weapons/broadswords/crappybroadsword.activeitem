@@ -1,21 +1,14 @@
 {
   "itemName": "sb_crappybroadsword",
-  "level": 1,
   "price": 25,
-  "maxStack": 1,
   "rarity": "common",
   "tooltipKind": "sb_sword2",
-  "category": "broadsword",
   "tooltipFields": {
     "subtitle": "Crappy Broadsword"
   },
-  "description": "A two-handed sword.",
+  "description": "A two-handed sword, just as powerful as the day it was forged.",
   "shortdescription": "Common Crappy Broadsword",
-  "twoHanded": true,
   "itemTags": ["weapon", "melee", "broadsword"],
-  "animation": "/items/active/starbound/weapons/broadsword.animation",
-  "animationParts": {},
-  "animationCustom": {},
 
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "primaryAbilityType": "sb_meleeslash",

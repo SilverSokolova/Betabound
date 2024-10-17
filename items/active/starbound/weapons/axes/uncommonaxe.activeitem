@@ -1,7 +1,6 @@
 {
   "itemName": "sb_uncommonaxe",
   "definition": "axes/uncommon",
-  "rarity": "uncommon",
   "shortdescription": "Uncommon Axe",
   "tooltipKind": "sb_sword2",
   "sb_dyeable": true,
@@ -13,23 +12,23 @@
   "primaryAbilityType": "sb_axe",
   "builderConfig": [{
       "nameGenerator": "axenames.config:nameGen",
-      "elementalType": [
-        "physical",
-        "fire",
-        "electric",
-        "poison"
-      ],
+      "elementalType": ["physical", "fire", "ice", "electric", "poison"],
       "elementalConfig": {
         "fire": {
           "primaryAbility": {
             "projectileTypes": ["flamethrower", "flame"],
             "damageConfig": {
               "damageSourceKind": "fireaxe",
-              "statusEffects": [{
-                  "effect": "burning",
-                  "duration": 2
-                }
-              ]
+              "statusEffects": ["burning"]
+            }
+          }
+        },
+        "ice": {
+          "primaryAbility": {
+            "projectileTypes": ["icethrower", "icecrabcanosnowball"],
+            "damageConfig": {
+              "statusEffects": ["frostslow"],
+              "damageSourceKind": "iceaxe"
             }
           }
         },
@@ -38,11 +37,7 @@
             "projectileType": "poisonthrower",
             "damageConfig": {
               "damageSourceKind": "poisonaxe",
-              "statusEffects": [{
-                  "effect": "weakpoison",
-                  "duration": 2
-                }
-              ]
+              "statusEffects": ["weakpoison"]
             }
           }
         },

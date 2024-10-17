@@ -1,7 +1,7 @@
 {
   "itemName": "sb_uncommoncrappyaxe",
   "definition": "axes/uncommon",
-  "description": "Designed for effective chopping.",
+  "description": "Designed for effective chopping. Despite its wear and tear, it still gets the job done.",
   "shortdescription": "Uncommon Crappy Axe",
   "tooltipKind": "sb_sword2",
   "tooltipFields": {
@@ -30,44 +30,32 @@
         "fire": {
           "primaryAbility": {
             "damageConfig": {
-              "statusEffects": [{
-                  "effect": "burning",
-                  "duration": 2
-                }
-              ]
+              "statusEffects": ["burning"],
+              "damageSourceKind": "fireaxe"
             }
           }
         },
         "ice": {
           "primaryAbility": {
             "damageConfig": {
-              "statusEffects": [{
-                  "effect": "frostslow",
-                  "duration": 2
-                }
-              ]
+              "statusEffects": ["frostslow"],
+              "damageSourceKind": "iceaxe"
             }
           }
         },
         "electric": {
           "primaryAbility": {
             "damageConfig": {
-              "statusEffects": [{
-                  "effect": "electrified",
-                  "duration": 2
-                }
-              ]
+              "statusEffects": ["electrified"],
+              "damageSourceKind": "electricaxe"
             }
           }
         },
         "poison": {
           "primaryAbility": {
             "damageConfig": {
-              "statusEffects": [{
-                  "effect": "weakpoison",
-                  "duration": 2
-                }
-              ]
+              "statusEffects": ["weakpoison"],
+              "damageSourceKind": "poisonaxe"
             }
           }
         }

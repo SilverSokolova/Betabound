@@ -2,6 +2,7 @@
   "itemName": "sb_uncommoncrappyhammer",
   "definition": "hammers/uncommon",
   "shortdescription": "Uncommon Crappy Hammer",
+  "description": "Just as slow, heavy, and effective as it was in its prime.",
   "tooltipKind": "sb_sword2",
   "tooltipFields": {
     "subtitle": "Crappy Hammer"
@@ -24,23 +25,15 @@
           "primaryAbility": {
             "damageConfig": {
               "damageSourceKind": "firehammer",
-              "statusEffects": [{
-                  "effect": "burning",
-                  "duration": 3
-                }
-              ]
+              "statusEffects": ["burning"]
             }
           }
         },
         "ice": {
           "primaryAbility": {
             "damageConfig": {
-              "statusEffects": [{
-                  "effect": "frostslow",
-                  "duration": 3
-                }
-              ],
-              "damageSourceKind": "icehammer"
+              "damageSourceKind": "icehammer",
+              "statusEffects": ["frostslow"]
             }
           }
         },
@@ -48,11 +41,7 @@
           "primaryAbility": {
             "damageConfig": {
               "damageSourceKind": "poisonhammer",
-              "statusEffects": [{
-                  "effect": "weakpoison",
-                  "duration": 3
-                }
-              ]
+              "statusEffects": ["weakpoison"]
             }
           }
         },

@@ -76,27 +76,24 @@
   },
   "objectImage": {
     "type": "image",
-    "position": [69, 99],
-    "file": "",
+    "position": [70, 100],
     "centered": true,
     "maxSize": [70, 45],
-    "minSize": [70, 45]
+    "minSize": [70, 40]
   },
   "objectBImage": {
     "type": "image",
-    "position": [29, 99],
-    "file": "",
+    "position": [30, 100],
     "centered": true,
     "maxSize": [70, 45],
-    "minSize": [70, 45]
+    "minSize": [70, 40]
   },
   "objectCImage": {
     "type": "image",
-    "position": [99, 99],
-    "file": "",
+    "position": [100, 100],
     "centered": true,
     "maxSize": [70, 45],
-    "minSize": [70, 45]
+    "minSize": [70, 40]
   },
   "foodValueLabel": {
     "type": "label",

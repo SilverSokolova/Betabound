@@ -7,11 +7,10 @@
   },
   "objectImage": {
     "type": "image",
-    "position": [69, 109],
-    "file": "",
+    "position": [70, 110],
     "centered": true,
     "maxSize": [70, 45],
-    "minSize": [70, 45]
+    "minSize": [70, 40]
   },
   "damageKindImage": {
     "type": "image",

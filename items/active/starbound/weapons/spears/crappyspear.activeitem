@@ -1,23 +1,14 @@
 {
   "itemName": "sb_crappyspear",
-  "level": 1,
   "price": 25,
-  "maxStack": 1,
   "rarity": "common",
   "tooltipKind": "sb_sword2",
-  "category": "spear",
   "tooltipFields": {
     "subtitle": "Crappy Spear"
   },
-  "description": "This spear is perfect for enemies just out of reach.",
+  "description": "This spear has seen better days, but it's perfect for enemies just out of reach.",
   "shortdescription": "Common Crappy Spear",
-  "twoHanded": true,
   "itemTags": ["weapon", "melee", "spear"],
-  "animation": "/items/active/starbound/weapons/spear.animation",
-  "animationParts": {},
-  "animationCustom": {},
-
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "primaryAbilityType": "sb_spear",
   "primaryAbility": {

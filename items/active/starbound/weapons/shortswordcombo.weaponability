@@ -1,9 +1,11 @@
 {
   "maxStack": 1,
   "level": 1,
-  "twoHanded": false,
   "category": "shortsword",
+  "twoHanded": false,
+  "description": "A sturdy one-handed sword.",
 
+  "handGrip": "inside",
   "animation": "/items/active/starbound/weapons/comboshortsword.animation",
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
 

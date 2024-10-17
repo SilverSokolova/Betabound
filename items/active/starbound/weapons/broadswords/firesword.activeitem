@@ -1,20 +1,16 @@
 {
   "itemName": "sb_firesword",
-  "level": 1,
   "price": 800,
-  "maxStack": 1,
   "rarity": "legendary",
-  "category": "broadsword",
   "description": "The concentrated fire inside the blade sets enemies aflame with every attack!",
   "shortdescription": "Fire Sword",
   "tooltipFields": {
     "subtitle": "Fire Sword"
   },
   "tooltipKind": "sb_sword2",
-  "twoHanded": true,
   "sb_waBan": true,
   "itemTags": ["weapon", "melee", "broadsword"],
-  "animation": "/items/active/starbound/weapons/broadsword.animation",
+
   "animationParts": {
     "blade": "fireswordblade.png",
     "handle": "fireswordhandle.png"

@@ -1,0 +1,69 @@
+{
+  "itemName": "sb_uncommoncrappyshortsword",
+  "definition": "shortswords/unscommon",
+  "description": "This one-handed sword carries much wear and tear, yet it's still sturdy.",
+  "shortdescription": "Uncommon Crappy Shortsword",
+  "tooltipKind": "sb_sword2",
+  "itemTags": ["weapon", "melee", "shortsword"],
+
+  "primaryAbilityType": "sb_shortswordcombo",
+  "builderConfig": [{
+      "nameGenerator": "/items/active/starbound/weapons/broadswords/crappynames.config:nameGen",
+      "elementalType": ["physical", "fire", "ice", "electric", "poison"],
+      "elementalConfig": {
+        "fire": {
+          "primaryAbility": {
+            "projectileTypes": ["sb_fireswirl", "marioball", "flamethrower", "flame"],
+            "damageConfig": {
+              "statusEffects": ["burning"],
+              "damageSourceKind": "fireshortsword"
+            }
+          }
+        },
+        "ice": {
+          "primaryAbility": {
+            "projectileTypes": ["icethrower", "icecrabcanosnowball"],
+            "damageConfig": {
+              "statusEffects": ["frostslow"],
+              "damageSourceKind": "iceshortsword"
+            }
+          }
+        },
+        "electric": {
+          "primaryAbility": {
+            "projectileTypes": ["electricexplosion", "spinningplasmabullet", "teslabolt", "shock", "electro", "lightning2", "teslaboltsmall"],
+            "damageConfig": {
+              "statusEffects": ["electrified"],
+              "damageSourceKind": "electricshortsword"
+            }
+          }
+        },
+        "poison": {
+          "primaryAbility": {
+            "projectileType": "poisonthrower",
+            "damageConfig": {
+              "statusEffects": ["weakpoison"],
+              "damageSourceKind": "poisonshortsword"
+            }
+          }
+        }
+      },
+      "animationParts": {
+        "blade": {
+          "path": "crappyshortsword/blade/<variant>.png",
+          "variants": 8,
+          "paletteSwap": true
+        },
+        "handle": {
+          "path": "crappyshortsword/handle/<variant>.png",
+          "variants": 8,
+          "paletteSwap": true
+        }
+      },
+      "iconDrawables": ["handle", "blade"],
+      "palette": "/items/active/starbound/colors/crappy.weaponcolors",
+      "altAbilities": []
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}
