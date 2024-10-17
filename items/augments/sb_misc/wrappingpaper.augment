@@ -4,15 +4,8 @@
   "tooltipKind": "sb_object4",
   "rarity": "Common",
   "category": "other",
-  "inventoryIcon": [{
-      "image": "wrappingpaper.png"
-    }, {
-      "position": [6, 0],
-      "image": "/items/generic/crafting/thread.png"
-    }
-  ],
-  "description": "This empty parcel can be used to wrap an item. The ribbon can then be dyed!\n^gray;Apply with right-click",
+  "inventoryIcon": "wrappingpaper.png",
+  "description": "An item can be placed into this parcel, complete with a ribbon which can then be dyed!\n^gray;Apply with right-click",
   "shortdescription": "Empty Parcel",
   "scripts": ["/scripts/augments/sb_wrappingpaper.lua"]
-  //I'd like to make it randomly select a color, though wouldn't that be annoying for people wrapping unstackable items? Could we use the itemName as a seed?
 }

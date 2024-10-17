@@ -1,6 +1,6 @@
 {
   "itemName": "sb_itembox",
-  "price": 10,
+  "price": 0,
   "maxStack": 1,
   "rarity": "Legendary",
   "tooltipKind": "sb_object",
