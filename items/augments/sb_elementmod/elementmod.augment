@@ -4,6 +4,7 @@
   "tooltipKind": "sb_object4",
   "rarity": "uncommon",
   "itemTags": ["weapon", "ranged", "revolver", "pistol", "gun"],
+  "sb_unupgradeable": true,
   "category": "pistol",
   "tooltipFields": {
     "subtitle": "Weapon Mod"
