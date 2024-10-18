@@ -1,6 +1,6 @@
 {
   "id": "sb_humanscientist1",
-  "prerequisites": ["sb_outpostSkin"],
+  "prerequisites": [],
   "title": "^green;Bug Hunt",
   "text": "I hate finding bugs! Can you help me find some? If you can ^orange;catch a bug ^#0f0;for me in a bug net,^reset; I'll give you a manipulator module I found.",
   "completionText": "One step closer to a universe without bugs! Here's the manipulator module, as promised. I'm sure you'll find it useful.",

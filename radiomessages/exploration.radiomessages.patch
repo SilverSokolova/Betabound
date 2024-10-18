@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/ancientgateway/text","value":"Ancient ruins such as this can be found throughout the galaxy. I'm detecting a spatial anomaly nearby... Perhaps some form of teleportation device?"},
+{"op":"replace","path":"/ancientgateway/text","value":"Ancient ruins such as this can be found throughout the universe. I'm detecting a spatial anomaly nearby... perhaps some form of teleportation device?"}]
+]

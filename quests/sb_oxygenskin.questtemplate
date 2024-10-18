@@ -1,5 +1,5 @@
 {
-  "id": "sb_heatskin",
+  "id": "sb_oxygenskin",
   "showAcceptDialog": false,
   "showCompleteDialog": false,
   "showFailDialog": false,
@@ -7,7 +7,7 @@
   "canBeAbandoned": false,
   "script": "/quests/scripts/sb_unlocktechs.lua",
   "scriptConfig": {
-    "techs": ["sb_heatprotection"],
-    "sb_genderedCinematic": "/cinematics/sb_upgrade/heat%s.cinematic"
+    "techs": ["sb_breathprotection"],
+    "sb_genderedCinematic": "/cinematics/sb_upgrade/air%s.cinematic"
   }
 }

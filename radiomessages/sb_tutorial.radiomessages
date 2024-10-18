@@ -55,11 +55,13 @@
   },
 
   // on encountering certain things
-  "sb_ancientgateway": {
-    "type": "tutorial",
-    "text": "Ancient ruins such as this can be found throughout the universe. I'm detecting a spatial anomaly nearby... perhaps some form of teleportation device?"
+  // on unlocking capabilities
+  "sb_unlocktech": {
+    "text": "The following tech has been made available:\n%s\nYou can purchase tech at a tech console using tech cards."
+  },
+  "sb_unlocktechs": {
+    "text": "The following techs have been made available:\n%s\nYou can purchase tech at a tech console using tech cards."
   }
-  // on unlocking ship capabilities
   // Peacekeeper station intros
 
 }

@@ -1,15 +1,12 @@
 {
   "id": "sb_kelp",
-  "prerequisites": ["sb_outpostSkin", "floran_mission2"],
+  "prerequisites": ["floran_mission2"],
   "title": "^green;The Grass is Greener",
-  "text": "Hi there. After the Floran drove the Hylotl into the ocean, we begun using kelp as a currency. As it happens I'm still partial. ^green;If you bring me ^orange;100 kelp ^green;from the bottom of an ocean planet, I'll give you a ^orange;nano-suit that'll allow you to survive on radioactive planets.",
-  "completionText": "Such beautiful kelp! You've outdone yourself. ^green;The ^orange;nano-suit ^green;is yours.",
+  "text": "Hi there. After the Floran drove the Hylotl into the ocean, we begun using kelp as a currency until we pixels became standardized. As it happens, I'm still partial for a debt I inherited. ^green;If you bring me ^orange;100 kelp ^green;from the bottom of an ocean planet, I'll give you a ^orange;console for crafting tech.",
+  "completionText": "Such beautiful kelp! You've outdone yourself. ^green;The ^orange;tech development console ^green;is yours.",
   "speaker": "questGiver",
   "moneyRange": [350, 450],
-  "rewards": [[["sb_tech", 1, {
-          "techModule": "sb_radiationprotection"
-        }
-      ], "sb_techconsole", ["rewardbag", 1, {
+  "rewards": [["sb_techconsole", ["rewardbag", 1, {
           "treasure": {
             "level": 3
           }
@@ -31,7 +28,6 @@
     "portraits": {
       "default": "questGiver"
     },
-    "sb_genderedCompletionItem": "sb_cinema_rad%s",
     "requireTurnIn": true,
     "turnInDescription": "Speak to ^orange;the Hylotl survivor^reset; at the ^orange;outpost^reset;",
     "conditions": [{

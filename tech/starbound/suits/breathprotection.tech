@@ -6,7 +6,7 @@
   "sb_effect": "sb_breathprotectiontech",
   "sb_suitImage": "?replace;73daff=e6e6e6;27abff=c9c9c9;117ee4=aaa;1f45d4=636363",
   "rarity": "Legendary",
-  "chipCost": 8,
+  "chipCost": 3,
   "description": "Provides a constant supply of oxygen in airless environments.",
   "shortDescription": "Oxygen Supply"
 }

@@ -1,6 +1,6 @@
 {
   "id": "sb_coffee",
-  "prerequisites": ["sb_outpostSkin", "sb_outpost1"],
+  "prerequisites": ["sb_outpost1"],
   "title": "^green;Stirred, Not Shaken",
   "text": "I'm so thirsty! I've been here for so long-- it's been months since I had a coffee. ^#0f0;If you find some coffee beans on a forest planet and ^orange;make me some coffee^reset;, then ^#0f0;get some steel and forge a ^orange;stirring spoon^#0f0; at a forge^reset;, I'll give you a tech drive and tell other people how helpful you are!",
   "completionText": "The perfect coffee! The last person to make me a cup had me drinking it straight out of their Matter Manipulator. Here, you deserve this. I'll tell other people how helpful you are!",

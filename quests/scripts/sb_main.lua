@@ -83,7 +83,7 @@ function questStart()
 
   local sb_genderedItem = config.getParameter("sb_genderedItem")
   if sb_genderedItem then
-    player.giveItem(string.format(sb_genderedItem,player.gender()=="male" and "m" or "f"))
+    player.giveItem(string.format(sb_genderedItem, player.gender() == "male" and "m" or "f"))
   end
 
   local associatedMission = config.getParameter("associatedMission")
