@@ -74,7 +74,7 @@
     "maxSize": [16, 16],
     "minSize": [16, 16]
   },
-  "level2Label": {
+  "sb_level2Label": {
     "type": "label",
     "position": [118, 169],
     "hAnchor": "left",

@@ -63,7 +63,7 @@
       "animationParts": {
         "blade": {
           "path": "crappyaxe/blade/<variant>.png",
-          "variants": 12,
+          "variants": 10,
           "paletteSwap": true
         },
         "handle": {

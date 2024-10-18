@@ -1,9 +1,12 @@
 {
   "itemName": "sb_uncommoncrappyshortsword",
-  "definition": "shortswords/unscommon",
-  "description": "This one-handed sword carries much wear and tear, yet it's still sturdy.",
+  "definition": "shortswords/uncommon",
+  "description": "Despite its wear and tear, this one-handed sword is still sturdy.",
   "shortdescription": "Uncommon Crappy Shortsword",
   "tooltipKind": "sb_sword2",
+  "tooltipFields": {
+    "subtitle": "Crappy Shortsword"
+  },
   "itemTags": ["weapon", "melee", "shortsword"],
 
   "primaryAbilityType": "sb_shortswordcombo",
