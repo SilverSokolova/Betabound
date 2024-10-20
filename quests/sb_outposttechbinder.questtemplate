@@ -1,8 +1,8 @@
 {
   "id": "sb_outposttechbinder",
   "prerequisites": ["sb_outpost0", "techscientist4"],
-  "title": "^orange;Tech Binding Station",
-  "text": "I heard you've been helping Elliot- the tech lab scientist- test some tech. I'm a bit jealous- could you help me test some of my tech? All you need to do is bring me 10 Platinum Bars... I'm kidding! Here, ^orange;treat yourself to one of these ^green;Tech Binding Stations!^reset; They're used to make special tech cards which help you swap tech on-the-go. There, you're all equipped now!",
+  "title": "^orange;Bound By Duty",
+  "text": "I heard you've been helping Elliot- the tech lab scientist- test some tech. I'm a bit jealous- could you help me test some of my tech? All you need to do is bring me 10 Platinum Bars... I'm kidding! Here, ^orange;treat yourself to one of these ^green;Tech Binding Stations!^reset; They're used to make special tech drives which allow you to swap tech on-the-go. There, you're all equipped now!",
   "completionText": "",
   "speaker": "questGiver",
   "moneyRange": [150, 250],
@@ -10,7 +10,7 @@
     "techcard",
     ["rewardbag",1,{"treasure":{"level":2}}]]
   ],
-  "canBeAbandoned": true,
+  "canBeAbandoned": false,
   "showFailDialog": false,
   "showCompleteDialog": false,
   "questGiverIndicator": "sb_mainquestgiver",
