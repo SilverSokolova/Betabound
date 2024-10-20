@@ -13,5 +13,5 @@
   "defaultDuration": 5,
   "scripts": ["suit.lua"],
   "label": "Heat Protection",
-  "icon": "heat.png"
+  "icon": "/tech/starbound/heat.png"
 }

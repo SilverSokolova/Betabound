@@ -19,5 +19,5 @@
   "defaultDuration": 5,
   "scripts": ["suit.lua"],
   "label": "Environmental Protection",
-  "icon": "environmentalprotection.png"
+  "icon": "/tech/starbound/environmentalprotection.png"
 }

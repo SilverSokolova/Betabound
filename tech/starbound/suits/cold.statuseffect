@@ -13,5 +13,5 @@
   "defaultDuration": 5,
   "scripts": ["suit.lua"],
   "label": "Cold Protection",
-  "icon": "cold.png"
+  "icon": "/tech/starbound/cold.png"
 }

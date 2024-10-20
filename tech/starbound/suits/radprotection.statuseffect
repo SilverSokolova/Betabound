@@ -13,5 +13,5 @@
   "defaultDuration": 5,
   "scripts": ["suit.lua"],
   "label": "Radiation Protection",
-  "icon": "rad.png"
+  "icon": "/tech/starbound/rad.png"
 }
