@@ -6,7 +6,7 @@
   "completionText": "One step closer to a universe without bugs! Here's the manipulator module, as promised. I'm sure you'll find it useful.",
   "speaker": "questGiver",
   "moneyRange": [300, 400],
-  "rewards": [["manipulatormodule", "bottle", "rewardbag"]],
+  "rewards": [["manipulatormodule", "rewardbag"]],
   "canBeAbandoned": true,
 
   "guiConfigs": {
