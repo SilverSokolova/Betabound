@@ -3,7 +3,7 @@
     "name": "sb_humanbunker",
     "species": "human",
     "rules": [],
-    "anchor": ["entrance", "entranceRight"],
+    "anchor": ["entrance", "entranceLeft", "entranceRight"],
     "maxRadius": 9000000,
     "extendSurfaceFreeSpace": 100,
     "maxParts": 200
@@ -14,6 +14,11 @@
       "name": "entrance",
       "rules": [["maxSpawnCount", [1]]],
       "def": ["tmx", "entrance.json"],
+      "chance": 0
+    }, {
+      "name": "entranceLeft",
+      "rules": [["maxSpawnCount", [1]]],
+      "def": ["tmx", "entranceLeft.json"],
       "chance": 0
     }, {
       "name": "entranceRight",
@@ -33,7 +38,7 @@
     }, {
       "name": "3",
       "rules": [["maxSpawnCount", [1]],
-        ["doNotConnectToPart", ["3", "6", "12", "15a", "15b", "16a", "16b", "entrance"]]],
+        ["doNotConnectToPart", ["3", "6", "12", "15a", "15b", "16a", "16b", "entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "3.json"],
       "chance": 1
     }, {
@@ -102,7 +107,7 @@
     }, {
       "name": "16a",
       "rules": [["maxSpawnCount", [1]],
-        ["doNotConnectToPart", ["entrance", "1", "15b", "15b", "16b"]]],
+        ["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight", "1", "15b", "15b", "16b"]]],
       "def": ["tmx", "16a.json"],
       "chance": 1
     }, {
@@ -113,174 +118,181 @@
       "chance": 1
     }, {
       "name": "17",
-      "rules": [["maxSpawnCount", [1]]],
+      "rules": [["maxSpawnCount", [1]],
+        ["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "17.json"],
       "chance": 1
     }, {
+      "name": "chamber1",
+      "rules": [["maxSpawnCount", [1]],
+        ["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight", "17"]]],
+      "def": ["tmx", "chamber1.json"],
+      "chance": 1
+    }, {
       "name": "endleft1a",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft1a.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endleft1b",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft1b.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endleft1c",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft1c.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endleft2a",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft2a.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endleft2b",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft2b.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endleft2c",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft2c.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endleft3a",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft3a.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endleft3b",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft3b.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endleft3c",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft3c.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endleft4",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft4.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endright1a",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright1a.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endright1b",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright1b.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endright1c",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright1c.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endright2a",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright2a.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endright2b",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright2b.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endright2c",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright2c.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endright3a",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright3a.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endright3b",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright3b.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endright3c",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright3c.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endright4",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright4.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endceiling1a",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endceiling1a.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endceiling1b",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endceiling1b.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endceiling1c",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endceiling1c.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endceiling1d",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endceiling1d.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endceiling1e",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endceiling1e.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endceiling1f",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endceiling1f.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endfloor1a",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endfloor1a.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endfloor1b",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endfloor1b.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endfloor1c",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endfloor1c.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endfloor2a",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endfloor2a.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endfloor2b",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endfloor2b.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endfloor3",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endfloor3.json"],
-      "chance": 0
+      "chance": 0.1
     }, {
       "name": "endfloor4",
-      "rules": [["ignorePartMaximumRule"]],
+      "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endfloor4.json"],
-      "chance": 0
+      "chance": 0.1
     }
   ]
 }
