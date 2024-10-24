@@ -83,7 +83,7 @@
   },
   "objectBImage": {
     "type": "image",
-    "position": [30, 100],
+    "position": [35, 100],
     "centered": true,
     "maxSize": [70, 45],
     "minSize": [70, 40]

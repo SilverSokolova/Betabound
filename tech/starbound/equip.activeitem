@@ -1,6 +1,6 @@
 {
   "itemName": "sb_equip",
-  "price": 50,
+  "price": 1250,
   "tooltipKind": "sb_object",
   "tooltipFields": {
     "rarityLabel": ""
@@ -13,12 +13,12 @@
       "image": "/tech/starbound/convert.png"
     }
   ],
-  "rarity": "uncommon",
+  "rarity": "rare",
   "durability": 5,
   "durabilityHit": 5,
   "techModule": "",
-  "description": "A specialised tech drive used for quickly equipping specific tech.",
+  "description": "A specialised tech drive used for equipping tech.",
   "shortdescription": "Tech Equipper",
   "scripts": ["equip.lua"],
-  "builder": "/items/buildscripts/starbound/updatetech.lua"
+  "builder": "/items/buildscripts/starbound/buildtechequip.lua"
 }

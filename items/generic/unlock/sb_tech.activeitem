@@ -1,0 +1,23 @@
+{
+  "itemName": "sb_tech",
+  "price": 1250,
+  "backingImage": "/items/generated/sb_tech.png",
+  "rarity": "rare",
+  "tooltipKind": "sb_object",
+  "tooltipFields": {
+    "rarityLabel": ""
+  },
+  "category": "tech",
+  "subtitle": "Tech (%s)",
+  "description": "",
+  "shortdescription": "",
+  "scripts": ["sb_tech.lua"],
+  "builder": "/items/buildscripts/starbound/buildtechunlock.lua",
+
+  "inheritedParameters": [
+    "tooltipFields",
+    "description",
+    "tooltipKind",
+    "rarity"
+  ]
+}

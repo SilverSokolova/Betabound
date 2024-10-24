@@ -32,11 +32,7 @@ end
 function accept()
   if #selectedTechs == 2 and selectedTechs[1] ~= selectedTechs[2] then
     if player.isAdmin() or player.consumeItem("techcard") then
-      local fields = {}
-      fields.objectImage = ""
-      fields.objectBImage = sb_assetmissing(root.techConfig(selectedTechs[1]).icon,"/interface/sb_tooltips/assetmissing.png")
-      fields.objectCImage = sb_assetmissing(root.techConfig(selectedTechs[2]).icon,"/interface/sb_tooltips/assetmissing.png")
-      player.giveItem({name="sb_lockin",count=1,parameters={techModules=selectedTechs,tooltipFields=fields,version=2}})
+      player.giveItem({"sb_lockin",1,{techModules=selectedTechs}})
     else
       deny("cantAfford")
     end
@@ -46,7 +42,7 @@ function accept()
       local inventoryIcon = jarray()
       table.insert(inventoryIcon, {image = "/tech/starbound/banana3.png"})
       table.insert(inventoryIcon, {image = techs[target].icon})
-      player.giveItem({name="sb_equip",count=1,parameters={techModule=target,inventoryIcon=inventoryIcon}})
+      player.giveItem({"sb_equip",1,{techModule=target}})
     else
       deny("cantAfford")
     end
@@ -80,8 +76,7 @@ function populateTechList(slot)
     if root.hasTech(k) and root.techType(k) == slot then
       techsToDisplay[#techsToDisplay + 1] = k
     end
-  end
-  sb.logInfo(sb.print(techsToDisplay))
+  ends
 
   for i = 1, #techsToDisplay do
     local config = techs[techsToDisplay[i]]
