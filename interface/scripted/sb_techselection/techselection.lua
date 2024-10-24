@@ -1,5 +1,4 @@
 require "/scripts/util.lua"
-require "/scripts/interp.lua"
 require "/scripts/sb_assetmissing.lua"
 
 function init() sb_techType()
@@ -76,7 +75,7 @@ function populateTechList(slot)
     if root.hasTech(k) and root.techType(k) == slot then
       techsToDisplay[#techsToDisplay + 1] = k
     end
-  ends
+  end
 
   for i = 1, #techsToDisplay do
     local config = techs[techsToDisplay[i]]
