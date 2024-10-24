@@ -3,26 +3,23 @@
     "name": "sb_humanbunker",
     "species": "human",
     "rules": [],
-    "anchor": ["entrance"],
+    "anchor": ["entrance", "entranceRight"],
     "maxRadius": 9000000,
     "extendSurfaceFreeSpace": 100,
     "maxParts": 200
   },
 
   "parts": [
-    /*    {
-    "name" : "core",
-    "rules" : [
-    [ "maxSpawnCount", [1] ]
-    ],
-    "def" : [ "image", [ "core.png" ] ],
-    "chance" : 1000
-    },*/
     {
       "name": "entrance",
       "rules": [["maxSpawnCount", [1]]],
       "def": ["tmx", "entrance.json"],
-      "chance": 1
+      "chance": 0
+    }, {
+      "name": "entranceRight",
+      "rules": [["maxSpawnCount", [1]]],
+      "def": ["tmx", "entranceRight.json"],
+      "chance": 0
     }, {
       "name": "1",
       "rules": [["maxSpawnCount", [1]]],
