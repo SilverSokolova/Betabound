@@ -89,7 +89,8 @@
       "chance": 1
     }, {
       "name": "14",
-      "rules": [["maxSpawnCount", [1]]],
+      "rules": [["maxSpawnCount", [1]],
+        ["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "14.json"],
       "chance": 1
     }, {
@@ -132,167 +133,167 @@
       "name": "endleft1a",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft1a.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endleft1b",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft1b.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endleft1c",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft1c.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endleft2a",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft2a.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endleft2b",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft2b.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endleft2c",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft2c.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endleft3a",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft3a.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endleft3b",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft3b.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endleft3c",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft3c.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endleft4",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endleft4.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endright1a",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright1a.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endright1b",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright1b.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endright1c",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright1c.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endright2a",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright2a.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endright2b",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright2b.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endright2c",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright2c.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endright3a",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright3a.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endright3b",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright3b.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endright3c",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright3c.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endright4",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endright4.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endceiling1a",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endceiling1a.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endceiling1b",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endceiling1b.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endceiling1c",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endceiling1c.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endceiling1d",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endceiling1d.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endceiling1e",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endceiling1e.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endceiling1f",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endceiling1f.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endfloor1a",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endfloor1a.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endfloor1b",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endfloor1b.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endfloor1c",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endfloor1c.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endfloor2a",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endfloor2a.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endfloor2b",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endfloor2b.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endfloor3",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endfloor3.json"],
-      "chance": 0.1
+      "chance": 0.025
     }, {
       "name": "endfloor4",
       "rules": [["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "endfloor4.json"],
-      "chance": 0.1
+      "chance": 0.025
     }
   ]
 }
