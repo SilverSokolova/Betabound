@@ -6,7 +6,7 @@
   "itemTags": ["reagent"],
   "inventoryIcon": "techchip.png",
   "category": "upgradeComponent",
-  "description": "A tech chip. I can slot a bunch of these together to make a functioning tech card!",
+  "description": "A tech chip. I can slot a few of these together to make a functioning tech card!",
   "shortdescription": "Tech Chip",
   "learnBlueprintsOnPickup": ["techcard"]
 }

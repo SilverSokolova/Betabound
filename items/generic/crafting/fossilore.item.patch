@@ -26,7 +26,7 @@
     }, {
       "op": "replace",
       "path": "/description",
-      "value": "An unidentified fossil. I wonder what kind it is. Bring it to a Fossil Station to find out!"
+      "value": "An unidentified fossil. I wonder what kind it is. Bring it to a ^orange;Fossil Station^reset; to find out!"
     }
   ],
   [{

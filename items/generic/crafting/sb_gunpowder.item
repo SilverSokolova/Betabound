@@ -6,6 +6,6 @@
   "category": "craftingMaterial",
   "itemTags": ["reagent"],
   "inventoryIcon": "sb_gunpowder.png",
-  "description": "This black powder is useful for crafting bullets.",
+  "description": "This black powder is useful for crafting ammunition.",
   "shortdescription": "Gunpowder"
 }
