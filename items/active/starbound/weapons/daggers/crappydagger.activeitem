@@ -1,0 +1,34 @@
+{
+  "itemName": "sb_crappydagger",
+  "definition": "daggers/common",
+  "description" : "An aged dagger. It's still razor sharp and lightning quick.",
+  "shortdescription": "Crappy Dagger",
+  "tooltipKind": "sb_sword2",
+  "itemTags": ["weapon", "melee", "dagger"],
+
+  "aimOffset": 0,
+  "primaryAbilityType": "sb_dagger",
+  "fireSounds": ["/sfx/melee/swing_dagger.ogg"],
+
+  "elementalType": "physical",
+  "builderConfig": [{
+      "nameGenerator": "/items/active/starbound/weapons/broadswords/crappynames.config:nameGen",
+      "animationParts": {
+        "blade": {
+          "path": "crappy/blade/<variant>.png",
+          "variants": 7,
+          "paletteSwap": true
+        },
+        "handle": {
+          "path": "crappy/handle/<variant>.png",
+          "variants": 6,
+          "paletteSwap": true
+        }
+      },
+      "iconDrawables": ["handle", "blade"],
+      "palette": "/items/active/starbound/colors/crappy.weaponcolors",
+      "altAbilities": []
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

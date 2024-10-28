@@ -1,0 +1,2 @@
+Base width: 24px
+7: 23px
