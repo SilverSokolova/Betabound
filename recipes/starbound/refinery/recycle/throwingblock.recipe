@@ -1,0 +1,6 @@
+{
+  "input": ["sb_throwingblockmaterial"],
+  "output": "throwingblock",
+  "duration": 0.05,
+  "groups": ["refinery","nouncrafting","all"]
+}

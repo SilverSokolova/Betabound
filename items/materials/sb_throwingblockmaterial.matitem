@@ -1,0 +1,14 @@
+{
+  "itemName": "sb_throwingblockmaterial",
+  "rarity": "Common",
+  "inventoryIcon": "/items/throwables/throwingblock.png",
+  "category": "block",
+  "tooltipKind": "sb_object4",
+  "shortdescription": "Placeable Throwing Block",
+  "description": "This throwing block can be placed instead of thrown.\n^red;Reverts to throwing form when broken.^reset;",
+  "glitchDescription": "Interested. What force holds this block in place?",
+  "floranDescription": "Floran likess to throw blocks!",
+  "novakidDescription": "Some blocks were just meant for tossin'",
+
+  "materialId": 170
+}

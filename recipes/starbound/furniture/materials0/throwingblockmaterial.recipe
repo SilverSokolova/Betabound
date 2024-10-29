@@ -1,0 +1,6 @@
+{
+  "input": ["throwingblock"],
+  "output": "sb_throwingblockmaterial",
+  "groups": ["plain","materials","craftingfurniture","all"],
+  "duration": 0.05
+}
