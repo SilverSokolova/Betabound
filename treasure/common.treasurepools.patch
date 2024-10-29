@@ -331,40 +331,43 @@ IF BOTH ARE YES, THEN CONGRATS! SHOVE IT UNDER 'RARE'
 
   //Common Melee
   [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":0.6,"item":"sb_crappyaxe"}}],
-  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":0.6,"item":"sb_crappyhammer"}}],
-  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":0.6,"item":"sb_crappyspear"}}],
   [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":0.6,"item":"sb_crappybroadsword"}}],
+  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":0.6,"item":"sb_crappydagger"}}],
+  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":0.6,"item":"sb_crappyhammer"}}],
   [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":0.6,"item":"sb_crappyshortsword"}}],
+  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":0.6,"item":"sb_crappyspear"}}],
 
   [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commonaxe"}}],
+  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commonbroadsword"}}],
   [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commondagger"}}],
   [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commonhammer"}}],
   [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commonshortsword"}}],
   [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commonspear"}}],
-  [{"op":"add","path":"/commonMelee/0/1/pool/-","value":{"weight":1,"item":"sb_commonbroadsword"}}],
 
   //Uncommon Melee
   [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.003,"item":"sb_uncommoncrappyaxe"}}],
   [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.003,"item":"sb_uncommoncrappybroadsword"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.003,"item":"sb_uncommoncrappyspear"}}],
+  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.003,"item":"sb_uncommoncrappydagger"}}],
   [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.003,"item":"sb_uncommoncrappyhammer"}}],
   [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.003,"item":"sb_uncommoncrappyshortsword"}}],
+  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.003,"item":"sb_uncommoncrappyspear"}}],
 
   [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonaxe"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommondagger"}}],
   [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonbroadsword"}}],
-  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonspear"}}],
+  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommondagger"}}],
   [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonhammer"}}],
   [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonshortsword"}}],
+  [{"op":"add","path":"/uncommonMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonspear"}}],
 
   //Rare Melee
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonshield"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonaxe"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommondagger"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonbroadsword"}}],
-  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonspear"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommondagger"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonhammer"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonshortsword"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonspear"}}],
+  [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_uncommonshield"}}],
+
 //[{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_twistedspear"}}],
   [{"op":"add","path":"/rareMelee/0/1/pool/-","value":{"weight":0.007,"item":"sb_arcsword"}}],
 

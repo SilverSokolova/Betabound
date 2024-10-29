@@ -195,9 +195,10 @@
       "pool": [
         {"weight": 1, "item": "sb_crappyaxe"},
         {"weight": 1, "item": "sb_crappybroadsword"},
-        {"weight": 1, "item": "sb_crappyspear"},
+        {"weight": 1, "item": "sb_crappydagger"},
         {"weight": 1, "item": "sb_crappyhammer"},
-        {"weight": 1, "item": "sb_crappyshortsword"}
+        {"weight": 1, "item": "sb_crappyshortsword"},
+        {"weight": 1, "item": "sb_crappyspear"}
       ]
     }]
   ],

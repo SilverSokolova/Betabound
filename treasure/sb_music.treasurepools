@@ -74,8 +74,8 @@
   "sb_poptopMusic" : [
     [0, {
       "pool" : [
-        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"poptop"}]},
-        {"weight" : 0.5, "item" : ["sb_musicsheet",1,{"music":"on-the-beach-at-night"}]}
+        {"weight" : 0.15, "item" : ["sb_musicsheet",1,{"music":"poptop"}]},
+        {"weight" : 0.15, "item" : ["sb_musicsheet",1,{"music":"on-the-beach-at-night"}]}
       ],
       "allowDuplication" : false
     }]
