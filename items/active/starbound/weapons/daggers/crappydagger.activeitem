@@ -8,7 +8,6 @@
 
   "aimOffset": 0,
   "primaryAbilityType": "sb_dagger",
-  "fireSounds": ["/sfx/melee/swing_dagger.ogg"],
 
   "elementalType": "physical",
   "builderConfig": [{

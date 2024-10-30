@@ -1,4 +1,5 @@
 {//this will need to be updated if we use Lad's palette for this weapon
+//why not just put the mushroom colors into the main melee palete? if it becomes an issue we can just split them again. so, keep this file somewhere in the archive
   "iron" : [
     {"000":"000"},
     {"605c57" : "506876", "a89e93" : "768e9c", "d2c5b6" : "a4b7c2"},

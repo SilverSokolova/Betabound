@@ -1,21 +1,16 @@
 {
   "itemName": "sb_mushroomsword",
-  "level": 1,
-  "maxStack": 1,
-  "rarity": "common",
+  "definition": "shortswords/common",
   "description": "An enchanted mushroom shortsword.",
   "shortdescription": "Magic Shroom Sword",
   "tooltipKind": "sb_sword2",
-  "price": 660,
-  "category": "shortsword",
   "tooltipFields": {
     "subtitle": "Magic Shroom Sword"
   },
-  "twoHanded": false,
   "itemTags": ["weapon", "melee", "shortsword"],
-  "handGrip": "inside",
-  "animation": "/items/active/starbound/weapons/shortsword.animation",
-  "animationParts": {},
+
+  "primaryAbilityType": "sb_shortswordcombo",
+
   "animationCustom": {
     "animatedParts": {
       "parts": {
@@ -24,7 +19,12 @@
             "swoosh": {
               "fire": {
                 "properties": {
-                  "image": "shortshroomswoosh.png:<frame>"
+                  "offset": [1, 0.85]
+                }
+              },
+              "fire2": {
+                "properties": {
+                  "offset": [0.25, 0.1]
                 }
               }
             }
@@ -34,24 +34,29 @@
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
-
-  "aimOffset": 0,
-  "primaryAbilityType": "sb_meleeslash2",
-  "primaryAbility": {
-    "projectileTypes": ["sb_fireswirl", "electricexplosion"],
-
-    "fireTime": [0.333, 0.666],
-    "baseDps": [5.5, 6.5],
-    "baseDamage": [5.5, 7.5],
-    "damageConfig": {
-      "damageSourceKind": "poisonshortsword"
-    }
-  },
-
   "builderConfig": [{
       "nameGenerator": "mushroomnames.config:nameGen",
-      "elementalType": "poison",
+      "elementalType": ["fire", "electric"],
+      "elementalConfig": {
+        "fire": {
+          "primaryAbility": {
+            "projectileType": "sb_fireswirl",
+            "damageConfig": {
+              "statusEffects": ["burning"],
+              "damageSourceKind": "fireshortsword"
+            }
+          }
+        },
+        "electric": {
+          "primaryAbility": {
+            "projectileType": "electricexplosion",
+            "damageConfig": {
+              "statusEffects": ["electrified"],
+              "damageSourceKind": "electricshortsword"
+            }
+          }
+        }
+      },
       "animationParts": {
         "blade": {
           "path": "mushroomsword/blade/<variant>.png",
@@ -59,9 +64,12 @@
           "paletteSwap": true
         },
         "handle": {
-          "path": "mushroomsword/handle/<variant>.png",
-          "variants": 24,
-          "paletteSwap": true
+          "path": "shortsword/handle/<variant>.png",
+          "variants": 27,
+          "paletteSwap": true,
+          "undyeableParts": {
+            "15": true
+          }
         }
       },
       "iconDrawables": ["handle", "blade"],

@@ -1,63 +1,15 @@
 {
   "itemName": "sb_commondagger",
-  "level": 1,
-  "maxStack": 1,
-  "rarity": "common",
-  "description" : "Razor sharp and lightning quick.",
+  "definition": "daggers/common",
   "shortdescription": "Common Dagger",
-  "tooltipKind": "sb_sword2",
-  "price": 450,
-  "category": "dagger",
-  "twoHanded": false,
   "sb_dyeable": true,
   "sb_backingDirectives": "?replace;fbd644=ffca8a;ca9510=e0975c;754500=a85636;e9e9e9=ffca8a;b1b1b1=e0975c;676767=a85636",
   "sb_extraDirectives": "?replace;ffca8a=fbd644;e0975c=ca9510;a85636=754500;ffca8a=e9e9e9;e0975c=b1b1b1;a85636=676767",
+  "tooltipKind": "sb_sword2",
   "itemTags": ["weapon", "melee", "dagger"],
-  "handGrip": "inside",
-  "animation": "/items/active/starbound/weapons/dagger.animation",
-  "animationParts": {},
-  "animationCustom": {
-    "lights": {
-      "glow": {
-        "color": [0, 0, 0]
-      }
-    },
-    "animatedParts": {
-      "parts": {
-        "swoosh": {
-          "partStates": {
-            "swoosh": {
-              "fire": {
-                "properties": {
-                  "offset": [0.5, 1]
-                }
-              }
-            }
-          }
-        },
-        "blade": {
-          "properties": {}
-        },
-        "handle": {
-          "properties": {}
-        }
-      }
-    }
-  },
-
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "aimOffset": 0,
   "primaryAbilityType": "sb_dagger",
-  "primaryAbility": {
-    "fireTime": [0.27, 0.42],
-    "baseDps": [7.5, 8.5],
-    "damageConfig": {
-      "knockbackRange": [10, 15]
-    }
-  },
-  "fireSounds": ["/sfx/melee/swing_dagger.ogg"],
-
   "elementalType": "physical",
   "builderConfig": [{
       "nameGenerator": "daggernames.config:nameGen",
@@ -66,13 +18,23 @@
           "path": "dagger/blade/<variant>.png",
           "variants": 17,
           "paletteSwap": true,
-          "fullbrights": [7, 8, 9, 10]
+          "fullbrightParts": {
+            "7": true,
+            "8": true,
+            "9": true,
+            "10": true
+          }
         },
         "handle": {
           "path": "dagger/handle/<variant>.png",
           "variants": 20,
           "paletteSwap": true,
-          "fullbrights": [8, 12, 17, 19]
+          "fullbrightParts": {
+            "8": true,
+            "12": true,
+            "17": true,
+            "19": true
+          }
         }
       },
       "iconDrawables": ["handle", "blade"],
