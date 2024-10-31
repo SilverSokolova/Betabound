@@ -7,6 +7,7 @@ local originalOverheadBars = overheadBars or function() end
 
 function init() originalInit()
   player = math.betabound_player
+  math.betabound_mcontroller = _ENV.mcontroller
   sb_shieldAlpha = {0,0,0,0}
   sb_lastHunger = math.floor(status.resourcePercentage("food")*100)
   sb_lastHungerMessage = "d100"

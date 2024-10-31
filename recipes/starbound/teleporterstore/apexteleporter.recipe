@@ -1,5 +1,5 @@
 {
-  "currencyInputs": {"money":3000},
+  "currencyInputs": {"money":1500},
   "input": ["teleportercore"],
   "output": "sb_apexteleporter",
   "groups": ["teleshop","all"]

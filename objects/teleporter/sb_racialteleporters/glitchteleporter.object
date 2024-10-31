@@ -4,10 +4,10 @@
   "objectType": "teleporter",
   "printable": false,
   "rarity": "Legendary",
-  "description": "Trusty teleporter, what would we do without you?\n^red;Destroyed when broken.^reset;",
-  "tooltipKind": "sb_object",
-  "price": 3000,
-  "shortdescription": "Small Glitch Teleporter",
+  "description": "This trusty teleporter can be connected to another wired one for short-range travel.\n^red;Destroyed when broken.^reset;",
+  "tooltipKind": "sb_object4",
+  "price": 1500,
+  "shortdescription": "Short Glitch Teleporter",
   "race": "glitch",
 
   "apexDescription": "Teleporting feels like riding a rollercoaster at the speed of light.",
@@ -18,14 +18,15 @@
   "hylotlDescription": "Teleporting feels like diving into the ocean from a mountain top.",
   "novakidDescription": "A teleporter. Let's take her for a spin!",
 
+  "sb_wireableTeleporter": true,
   "category": "teleporter",
+  "tooltipFields": {
+    "subtitle": "Wired Teleporter"
+  },
   "lightColor": [99, 132, 153],
   "flickerDistance": 0.2,
   "flickerStrength": 0.05,
   "flickerTiming": 4,
-
-  "interactAction": "OpenTeleportDialog",
-  "interactData": "/interface/warping/remoteteleporter.config",
 
   "inventoryIcon": "icons.png:1",
   "orientations": [{
@@ -56,13 +57,13 @@
   "animationPosition": [-16, 0],
   "health": 10,
   "rooting": true,
-  "active": true,
   "breakDropPool": "remoteteleporter",
 
   "teleporterFootPosition": [0, 1],
 
   "scripts": ["/scripts/npcToyObject.lua", "teleporter.lua"],
   "inputNodes": [[-2, 0]],
+  "outputNodes": [[-1, 0]],
   "npcToy": {
     "influence": [
       "teleporter",
