@@ -14,14 +14,14 @@ end
 
 function processWireInput()
   linkedTeleporter = false
-  if object.isInputNodeConnected(0) then
-    local outputs = object.getOutputNodeIds(0)
-    if outputs then
-      for k, _ in pairs(outputs) do
-        if k and world.getObjectParameter(k, "sb_wireableTeleporter") then
-          linkedTeleporter = world.entityPosition(k)
-          break
-        end
+  object.setOutputNodeLevel(0, false)
+  local outputs = object.getOutputNodeIds(0)
+  if outputs then
+    for k, _ in pairs(outputs) do
+      if k and world.getObjectParameter(k, "sb_wireableTeleporter") then
+        object.setOutputNodeLevel(0, true)
+        linkedTeleporter = world.entityPosition(k)
+        break
       end
     end
   end
