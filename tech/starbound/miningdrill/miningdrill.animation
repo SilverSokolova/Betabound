@@ -1,7 +1,7 @@
 {
   "animatedParts": {
     "stateTypes": {
-      "drillright": {
+      "rightDrill": {
         "default": "off",
         "states": {
           "off": {},
@@ -12,7 +12,7 @@
           }
         }
       },
-      "drillup": {
+      "upDrill": {
         "default": "off",
         "states": {
           "off": {},
@@ -23,7 +23,7 @@
           }
         }
       },
-      "drillleft": {
+      "leftDrill": {
         "default": "off",
         "states": {
           "off": {},
@@ -34,7 +34,7 @@
           }
         }
       },
-      "drilldown": {
+      "downDrill": {
         "default": "off",
         "states": {
           "off": {},
@@ -48,77 +48,62 @@
     },
 
     "parts": {
-      "drillright": {
+      "rightDrill": {
         "partStates": {
-          "drillright": {
+          "rightDrill": {
             "on": {
               "properties": {
                 "offset": [3, 0],
-                "transformationGroups": ["drillright"],
                 "centered": true,
-                "image": "miningdrillx.png:<frame>"
+                "image": "miningdrillx.png:<frame>",
+                "fullbright": true
               }
             }
           }
         }
       },
-      "drillup": {
+      "upDrill": {
         "partStates": {
-          "drillup": {
+          "upDrill": {
             "on": {
               "properties": {
                 "offset": [0, 3],
-                "transformationGroups": ["drillup"],
                 "centered": true,
-                "image": "miningdrilly.png:<frame>"
+                "image": "miningdrilly.png:<frame>",
+                "fullbright": true
               }
             }
           }
         }
       },
-      "drillleft": {
+      "leftDrill": {
         "partStates": {
-          "drillleft": {
+          "leftDrill": {
             "on": {
               "properties": {
                 "offset": [-3, 0],
-                "transformationGroups": ["drillleft"],
                 "centered": true,
-                "image": "miningdrillx.png:<frame>?flipx"
+                "image": "miningdrillx.png:<frame>?flipx",
+                "fullbright": true
               }
             }
           }
         }
       },
-      "drilldown": {
+      "downDrill": {
         "partStates": {
-          "drilldown": {
+          "downDrill": {
             "on": {
               "properties": {
                 "offset": [0, -3],
-                "transformationGroups": ["drilldown"],
                 "centered": true,
-                "image": "miningdrilly.png:<frame>?flipy"
+                "image": "miningdrilly.png:<frame>?flipy",
+                "fullbright": true
               }
             }
           }
         }
       }
-    }
-  },
-
-  "transformationGroups": {
-    "drillright": {
-      "interpolated": true
-    },
-    "drillup": {
-      "interpolated": true
-    },
-    "drillleft": {
-      "interpolated": true
-    },
-    "drilldown": {
-      "interpolated": true
     }
   },
 
