@@ -1,6 +1,17 @@
 {
   "animatedParts": {
     "stateTypes": {
+      "leftDrill": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "on": {
+            "frames": 4,
+            "mode": "loop",
+            "cycle": 0.3
+          }
+        }
+      },
       "rightDrill": {
         "default": "off",
         "states": {
@@ -13,17 +24,6 @@
         }
       },
       "upDrill": {
-        "default": "off",
-        "states": {
-          "off": {},
-          "on": {
-            "frames": 4,
-            "mode": "loop",
-            "cycle": 0.3
-          }
-        }
-      },
-      "leftDrill": {
         "default": "off",
         "states": {
           "off": {},
