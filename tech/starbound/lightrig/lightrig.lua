@@ -18,10 +18,6 @@ function init()
   }
   inputs = {}
   lastMoves = {}
-  oppositeLight = {
-    left = "right",
-    right = "left"
-  }
 
   doubleTap = DoubleTap:new({"left", "right", "up", "down"}, maximumDoubleTapTime, function(dir)
     if not status.resourceLocked("energy") then
@@ -55,9 +51,14 @@ function input(args)
 end
 
 function update(args); doubleTap:update(args.dt, args.moves); input(args)
-  for dir, action in pairs(activeLights) do
+  local numActiveLights = 0
+  for dir, active in pairs(activeLights) do
     if inputs[dir] then
       activeLights[dir] = not activeLights[dir]
+    end
+
+    if activeLights[dir] then
+      numActiveLights = numActiveLights + 1
     end
   end
 
