@@ -1,1 +1,8 @@
-{"description":"A lethal, sharp axe with beautiful plumage.","itemTags":["weapon","melee","axe"],"itemName":"sb_aviantier5saxe","definition":["colors/t5s","axes/s"],"shortdescription":"Poliwanta Cleankill","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "A decorated axe with a smooth bone handle.",
+  "shortdescription": "Wingbone",
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_aviantier5saxe",
+  "definition": ["colors/t5s", "axes/s"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

@@ -1,1 +1,8 @@
-{"description":"A hooked axe.","itemTags":["weapon","melee","axe"],"itemName":"sb_aviantier5aaxe","definition":["colors/t5a","axes/a"],"shortdescription":"Hawkbill","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "An axe with vibrant plumage.",
+  "shortdescription": "Poliwanta Cracker",
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_aviantier5aaxe",
+  "definition": ["colors/t5a", "axes/a"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

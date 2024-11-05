@@ -1,1 +1,8 @@
-{"description":"An axe with vibrant plumage.","itemTags":["weapon","melee","axe"],"itemName":"sb_aviantier6maxe","definition":["colors/t6m","axes/m"],"shortdescription":"Poliwanta Cracker","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "An axe shaped like the head of an unknown bird.",
+  "shortdescription": "Birdbrainer",
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_aviantier6maxe",
+  "definition": ["colors/t6m", "axes/m"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}
