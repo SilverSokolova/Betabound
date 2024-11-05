@@ -9,8 +9,18 @@ function apply(input)
     end
     if dyeDirectives == 0 then
       local itemData = root.itemConfig(output:descriptor().name).config
-      if itemData.definition then
-        itemData.directives = root.assetJson(string.format("/sb_definitions/%s.config", itemData.definition)).directives
+      local definition = itemData.definition or itemData.sb_definition
+      if definition then
+        if type(definition) == "string" then
+          definition = {definition}
+        end
+
+        for i = 1, #definition do
+          itemData.directives = root.assetJson(string.format("/sb_definitions/%s.config", definition[i])).directives
+          if itemData.directives then
+            break
+          end
+        end
       end
       local defaultDirectives = itemData.directives or ""
       used = output:instanceValue("directives") ~= defaultDirectives

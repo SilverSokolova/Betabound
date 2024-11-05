@@ -1,7 +1,7 @@
 {
   "itemName": "sb_apextier4axe",
-  "description": "A hooked axe.",
-  "shortdescription": "Apestooth",
+  "description": "A hugely strong axe.",
+  "shortdescription": "Miniknog Berserker",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "definition": "axes/t4",
   "itemTags": ["weapon", "melee", "axe"]
