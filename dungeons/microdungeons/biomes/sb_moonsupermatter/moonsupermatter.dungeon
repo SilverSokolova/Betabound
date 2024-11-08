@@ -1,14 +1,14 @@
 {
-  "metadata" : {
-    "name" : "sb_moonsupermatter",
-    "species" : "dummy",
-    "rules" : [["maxSpawnCount",[1]]],
-    "anchor" : ["1","2","3","4","5","6","7","8"],
-    "maxRadius" : 1000000,
-    "maxParts" : 1
+  "metadata": {
+    "name": "sb_moonsupermatter",
+    "species": "dummy",
+    "rules": [["maxSpawnCount",[1]]],
+    "anchor": ["1","2","3","4","5","6","7","8"],
+    "maxRadius": 1000000,
+    "maxParts": 1
   },
 
-  "parts" : [
+  "parts": [
     {"name":"1","rules":[],"def":["tmx","1.json"]},
     {"name":"2","rules":[],"def":["tmx","2.json"],"chance":0.2},
     {"name":"3","rules":[],"def":["tmx","3.json"]},

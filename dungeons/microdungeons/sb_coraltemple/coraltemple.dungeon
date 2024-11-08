@@ -1,61 +1,53 @@
 {
-  "metadata" : {
-    "name" : "sb_coraltemple",
-    "species" : "dummy",
-    "rules" : [["maxSpawnCount",[1]]],
-    "anchor" : [ "1","2","3","4","5","6","7","8" ],
-    "maxRadius" : 2500,
-    "maxParts" : 75
+  "metadata": {
+    "name": "sb_coraltemple",
+    "species": "dummy",
+    "rules": [["maxSpawnCount", [1]]],
+    "anchor": ["1", "2", "3", "4", "5", "6", "7", "8"],
+    "maxRadius": 2500,
+    "maxParts": 75
   },
 
-  "parts" : [
-    {
-      "name" : "1",
-      "rules" : [["maxSpawnCount",[3]]],
-      "def" : ["tmx","coraltemple1.json"],
-      "chance" : 1
-    },
-    {
-      "name" : "2",
-      "rules" : [["maxSpawnCount",[2]]],
-      "def" : ["tmx","coraltemple2.json"],
-      "chance" : 1
-    },
-    {
-      "name" : "3",
-      "rules" : [["maxSpawnCount",[3]]],
-      "def" : ["tmx","coraltemple3.json"],
-      "chance" : 1
-    },
-    {
-      "name" : "4",
-      "rules" : [["maxSpawnCount",[2]]],
-      "def" : ["tmx","coraltemple4.json"],
-      "chance" : 1
-    },
-    {
-      "name" : "5",
-      "rules" : [["ignorePartMaximumRule"]],
-      "def" : ["tmx","coraltemple5.json"],
-      "chance" : 1
-    },
-    {
-      "name" : "6",
-      "rules" : [["ignorePartMaximumRule"]],
-      "def" : ["tmx","coraltemple6.json"],
-      "chance" : 1
-    },
-    {
-      "name" : "7",
-      "rules" : [["maxSpawnCount",[2]]],
-      "def" : ["tmx","coraltemple7.json"],
-      "chance" : 1
-    },
-    {
-      "name" : "8",
-      "rules" : [["maxSpawnCount",[4]]],
-      "def" : ["tmx","coraltemple8.json"],
-      "chance" : 1
+  "parts": [{
+      "name": "1",
+      "rules": [["maxSpawnCount", [3]]],
+      "def": ["tmx", "coraltemple1.json"],
+      "chance": 1
+    }, {
+      "name": "2",
+      "rules": [["maxSpawnCount", [2]]],
+      "def": ["tmx", "coraltemple2.json"],
+      "chance": 1
+    }, {
+      "name": "3",
+      "rules": [["maxSpawnCount", [3]]],
+      "def": ["tmx", "coraltemple3.json"],
+      "chance": 1
+    }, {
+      "name": "4",
+      "rules": [["maxSpawnCount", [2]]],
+      "def": ["tmx", "coraltemple4.json"],
+      "chance": 1
+    }, {
+      "name": "5",
+      "rules": [["ignorePartMaximumRule"]],
+      "def": ["tmx", "coraltemple5.json"],
+      "chance": 1
+    }, {
+      "name": "6",
+      "rules": [["ignorePartMaximumRule"]],
+      "def": ["tmx", "coraltemple6.json"],
+      "chance": 1
+    }, {
+      "name": "7",
+      "rules": [["maxSpawnCount", [2]]],
+      "def": ["tmx", "coraltemple7.json"],
+      "chance": 1
+    }, {
+      "name": "8",
+      "rules": [["maxSpawnCount", [4]]],
+      "def": ["tmx", "coraltemple8.json"],
+      "chance": 1
     }
   ]
 }
