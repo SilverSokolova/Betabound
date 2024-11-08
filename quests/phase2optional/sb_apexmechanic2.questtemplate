@@ -6,7 +6,7 @@
   "completionText": "'ere 'ere, you 'ave done a vonderful job! Zis is yours.",
   "speaker": "questGiver",
   "moneyRange": [500, 600],
-  "rewards": [["manipulatormodule", ["sb_commonpistol", 1, {
+  "rewards": [["manipulatormodule", ["commonpistol", 1, {
           "level": 3
         }
       ], ["rewardbag", 1, {

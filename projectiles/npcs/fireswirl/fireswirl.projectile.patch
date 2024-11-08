@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/damageKind","value":"slash"},{"op":"replace","path":"/damageKind","value":"fireplasma"}]
+]

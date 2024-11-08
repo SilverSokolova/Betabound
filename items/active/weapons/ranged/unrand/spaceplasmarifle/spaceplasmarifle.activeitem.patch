@@ -2,5 +2,6 @@
 [{"op":"test","path":"/builder"},{"op":"test","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua","inverse":true},{"op":"move","from":"/builder","path":"/sb_builder"}],[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua"}],
 
 [{"op":"add","path":"/fixedRarity","value":true}],
-[{"op":"test","path":"/category","value":"uniqueWeapon"},{"op":"replace","path":"/category","value":"assaultRifle"}]
+[{"op":"test","path":"/category","value":"uniqueWeapon"},{"op":"replace","path":"/category","value":"assaultRifle"}],
+[{"op":"test","path":"/tooltipKind","value":"base"},{"op":"replace","path":"/tooltipKind","value":"sb_gun2"}]
 ]

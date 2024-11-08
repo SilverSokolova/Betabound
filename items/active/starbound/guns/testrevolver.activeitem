@@ -15,7 +15,7 @@
     "primaryAbility": {
       "energyUsage": 18.75,
       "inaccuracy": 0.008,
-      "projectileType": "bullet-1"
+      "projectileType": "standardbullet"
     }
   },
   "description": "\"Bolt Single Action Army\" is engraved on its side.",

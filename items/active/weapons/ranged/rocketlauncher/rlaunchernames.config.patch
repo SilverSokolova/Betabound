@@ -1,0 +1,45 @@
+[
+    //1
+    [{"op":"test","path":"/nameGen/1/1"},
+    {"op":"add","path":"/nameGen/1/1/-","value":"The "},
+    {"op":"add","path":"/nameGen/1/1/-","value":""},
+    {"op":"add","path":"/nameGen/1/1/-","value":"Miss "},
+    {"op":"add","path":"/nameGen/1/1/-","value":"Mr. "},
+    {"op":"add","path":"/nameGen/1/1/-","value":"Holy "},
+    {"op":"add","path":"/nameGen/1/1/-","value":"Beautiful "},
+    {"op":"add","path":"/nameGen/1/1/-","value":"Precious "},
+    {"op":"add","path":"/nameGen/1/1/-","value":"Awesome "},
+    {"op":"add","path":"/nameGen/1/1/-","value":"Wicked "},
+    {"op":"add","path":"/nameGen/1/1/-","value":"Badass "},
+    {"op":"add","path":"/nameGen/1/1/-","value":"Destructive "}
+    ],
+
+    //2
+    [{"op":"test","path":"/nameGen/1/2"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Boom"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Kill"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Thunder"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Death"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Explode"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Atom"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Raid"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Charge"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Thrash"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Rage"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Blast"}
+    ],
+
+    //3
+    [{"op":"test","path":"/nameGen/1/3"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"stick"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"barrel"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"enator"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"eriser"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"maker"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"boy"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"shooter"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"boomer"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"crusher"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"leviathan"}
+    ]
+]

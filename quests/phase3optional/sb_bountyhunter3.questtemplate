@@ -6,7 +6,7 @@
   "completionText": "Excellent... Here, I don't need this anymore.",
   "speaker": "questGiver",
   "moneyRange": [700, 800],
-  "rewards": [[["sb_uncommonshotgun", 1, {
+  "rewards": [[["uncommonshotgun", 1, {
           "level": 4
         }
       ], "upgrademodule", ["rewardbag", 1, {

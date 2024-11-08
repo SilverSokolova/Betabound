@@ -40,7 +40,7 @@
       "elementalConfig": {
         "fire": {
           "primaryAbility": {
-            "projectileType": "sb_fireswirl",
+            "projectileType": "fireswirl",
             "damageConfig": {
               "statusEffects": ["burning"],
               "damageSourceKind": "fireshortsword"

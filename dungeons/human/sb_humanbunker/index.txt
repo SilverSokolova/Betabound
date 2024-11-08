@@ -1,0 +1,17 @@
+1   small lounge
+2   kitchen
+3   vertical corridor
+4   monitor room
+5   large meeting room
+6   4-way intersection
+7   4 small rooms
+8   large work room with downwards exit
+9   large lounge room
+10  hall
+11  hazard storage
+12  room with stairs and 4 paths
+13  TODO: what was 13
+14  office
+15  up-right stairs
+16  up-left stairs
+17  barracks

@@ -1,0 +1,27 @@
+{
+  "projectileName": "sb_shockbombstatus",
+  "physics": "grenade",
+  "bounces": -1,
+  "timeToLive": 1.5,
+  "image": "shockbomb.png",
+  "animationCycle": 0.5,
+  "frameNumber": 4,
+  "damageKindImage": "icon.png",
+  "actionOnReap": [{
+      "action": "projectile",
+      "type": "shock",
+      "inheritDamageFactor": 1,
+      "angle": 5,
+      "config": {
+        "speed": 0,
+        "statusEffects": ["electrified"]
+      }
+    }, {
+      "action": "sound",
+      "options": ["/sfx/gun/shockblast.ogg"]
+    }
+  ],
+  "power": 50,
+  "damageType": "NoDamage",
+  "damageKind": "default"
+}

@@ -1,6 +1,7 @@
 [
 [{"op":"add","path":"/villagertreasure/0/1/pool/-","value":{"weight":0.1,"pool":"food"}}]
 
+,[{"op":"add","path":"/castlelordtreasure/0/1/pool/-","value":{"weight":0.01,"item":"sb_uncommonshortsword"}}]
 ,[{"op":"add","path":"/castlelordtreasure/0/1/pool/-","value":{"weight":0.01,"item":"sb_uncommonbroadsword"}}]
 ,[{"op":"add","path":"/castlelordtreasure/0/1/pool/-","value":{"weight":0.01,"item":"sb_glitchlordshield"}}]
 

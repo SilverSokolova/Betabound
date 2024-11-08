@@ -55,11 +55,11 @@
   },
   "builderConfig": [{
       "nameGenerator": "spearnames.config:nameGen",
-      "elementalType": ["physical", "fire", "ice", "electric", "poison"],
+      "elementalType": ["fire", "ice", "electric", "poison"],
       "elementalConfig": {
         "fire": {
           "primaryAbility": {
-            "projectileTypes": ["sb_fireswirl", "marioball", "flame"],
+            "projectileTypes": ["fireswirl", "marioball", "flamethrower"],
             "damageConfig": {
               "statusEffects": ["burning"],
               "damageSourceKind": "firespear"
@@ -77,7 +77,7 @@
         },
         "electric": {
           "primaryAbility": {
-            "projectileTypes": ["electricexplosion", "spinningplasmabullet", "teslabolt", "shock", "electro", "lightning2", "teslaboltsmall", "shockbomb"],
+            "projectileTypes": ["electricexplosion", "lightningthrower", "teslabolt", "shock", "electro", "lightning2", "teslaboltsmall", "shockbomb"],
             "damageConfig": {
               "statusEffects": ["electrified"],
               "damageSourceKind": "electricspear"
@@ -122,10 +122,6 @@
           }
         }
       },
-      "altAbilities_physical": [
-        "flurry",
-        "spearspin"
-      ],
       "altAbilities": [
         "flurry",
         "blinkexplosion",

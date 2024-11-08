@@ -33,7 +33,7 @@
   "primaryAbility": {
     "scripts": ["/items/active/starbound/guns/abilities/ammogunfire.lua"],
     "class": "sb_AmmoGunFire",
-    "projectileType": ["bullet-2"],
+    "projectileType": ["standardbullet"],
 
     "fireTime": [0.4, 0.8],
     "baseDps": [6.25, 7.25],
@@ -63,7 +63,7 @@
   },
 
   "builderConfig": [{
-      "nameGenerator": "revolvernames.config:nameGen",
+      "nameGenerator": "/items/active/weapons/ranged/pistol/pistolnames.config:nameGen",
       "animationParts": {
         "barrel": {
           "path": "barrel/<variant>.png",

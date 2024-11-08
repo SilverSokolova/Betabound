@@ -1,42 +1,23 @@
 {
   "itemName": "sb_shiv",
-  "level": 1,
-  "maxStack": 1,
-  "paletteSwaps": "",
-  "rarity": "uncommon",
+  "definition": "daggers/uncommon",
   "description": "A homemade weapon from prison. It can cause some targets to bleed.",
   "shortdescription": "Shiv",
   "tooltipKind": "sb_sword2",
-  "price": 495,
-  "category": "dagger",
   "tooltipFields": {
     "subtitle": "Shiv"
   },
-  "twoHanded": false,
   //  "sb_dyeable" : true,
   //  "sb_backingDirectives" : "?replace;e6e6e6=ffca8a;b6b6b6=e0975c;7b7b7b=a85636;373737=ffca8a",
   //  "sb_extraDirectives" : "?replace;ffca8a=e6e6e6;e0975c=b6b6b6;a85636=7b7b7b;ffca8a=373737",
   "itemTags": ["weapon", "melee", "dagger", "shiv"],
-  "handGrip": "inside",
-  "animation": "/items/active/starbound/weapons/dagger.animation",
-  "animationParts": {},
-  "animationCustom": {
-    "sounds": {
-      "fire": ["/sfx/melee/swing_dagger.ogg"]
-    }
-  },
-
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "aimOffset": 0,
   "primaryAbilityType": "sb_dagger",
   "primaryAbility": {
-    "fireTime": [0.27, 0.42],
-    "baseDps": [8, 9],
     "damageConfig": {
       "damageSourceKind": "slash",
-      "statusEffects": ["sb_bleed"],
-      "knockbackRange": [6, 9]
+      "statusEffects": ["sb_bleed"]
     },
     "stances": {
       "idle": {

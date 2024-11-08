@@ -1,6 +1,6 @@
 {
-  "animationParts": {}, //TODO: why are these here
-  "animationCustom": {}, //are they even merged into the weapon
+  "animationParts": {},
+  "animationCustom": {},
 
   "ability": {
     "name": "Burst",

@@ -2,9 +2,9 @@
   "itemName": "sb_pulserifle",
   "maxStack": 1,
   "rarity": "uncommon",
-  "muzzleOffset": [0.2, 0.5],
+  "muzzleOffset": [0.2, 0.25],
   "baseOffset": [-1.25, 0.5],
-  "price": 620,
+  "price": 990,
   "tooltipKind": "sb_gun2",
   "description": "A firearm mass-produced by the now-defunct USCM organization.",
   "shortdescription": "Pulse Rifle",
@@ -32,12 +32,6 @@
           "properties": {
             "offset": [0.75, -0.3]
           }
-        },
-        "grenadelauncher": {
-          "properties": {
-            "image": "",
-            "offset": [0, 0]
-          }
         }
       }
     },
@@ -48,19 +42,19 @@
   "elementalType": "physical",
   "primaryAbilityType": "sb_gun2",
   "primaryAbility": {
-    "projectileType": ["bullet-2", "bullet-3", "explosivebullet", "bouncybullet", "splitbullet", "plasma1"],
+    "projectileType": ["standardbullet", "fast"],
     "projectileParameters": {
-      "knockbackRange": [0, 5]
+      "knockbackRange": [4, 8]
     },
     "fireType": "auto",
     "fireTime": [0.08, 0.14],
     "baseDps": [9.5, 10.5],
     "energyUsage": [28.5, 31.5],
-    "inaccuracy": 0
+    "inaccuracy": 0.02
   },
 
   "builderConfig": [{
-      "nameGenerator": "/items/active/starbound/guns/randomgenerated/sniperrifle/snipernames.config:nameGen",
+      "nameGenerator": "/items/active/starbound/guns/randomgenerated/pulserifle/pulseriflenames.config:nameGen",
       "animationParts": {
         "barrel": {
           "path": "barrel/<variant>.png",
@@ -81,7 +75,7 @@
       "iconDrawables": ["butt", "middle", "barrel"],
       "gunParts": ["butt", "middle", "barrel"],
       "palette": "/items/active/starbound/colors/pulserifle.weaponcolors",
-      "altAbilities": ["grenadelauncher"]
+      "altAbilities": ["explosiveshot", "bouncingshot", "spray", "piercingshot", "grenadelauncher"]
     }
   ],
   "builder": "/items/buildscripts/starbound/buildweapon.lua"

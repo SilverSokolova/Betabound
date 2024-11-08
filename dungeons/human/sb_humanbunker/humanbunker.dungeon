@@ -27,18 +27,20 @@
       "chance": 0
     }, {
       "name": "1",
-      "rules": [["maxSpawnCount", [1]]],
+      "rules": [["maxSpawnCount", [1]],
+        ["doNotConnectToPart", ["1"]]],
       "def": ["tmx", "1.json"],
       "chance": 1
     }, {
       "name": "2",
-      "rules": [["maxSpawnCount", [2]]],
+      "rules": [["maxSpawnCount", [1]],
+        ["doNotConnectToPart", ["2"]]],
       "def": ["tmx", "2.json"],
       "chance": 1
     }, {
       "name": "3",
-      "rules": [["maxSpawnCount", [1]],
-        ["doNotConnectToPart", ["3", "6", "12", "15a", "15b", "16a", "16b", "entrance", "entranceLeft", "entranceRight"]]],
+      "rules": [["maxSpawnCount", [4]],
+        ["doNotConnectToPart", ["3", "12", "15a", "15b", "16a", "16b", "entrance", "entranceLeft", "entranceRight"]]],
       "def": ["tmx", "3.json"],
       "chance": 1
     }, {
@@ -53,8 +55,8 @@
       "chance": 1
     }, {
       "name": "6",
-      "rules": [["maxSpawnCount", [1]],
-        ["doNotConnectToPart", ["3", "6"]]],
+      "rules": [["maxSpawnCount", [2]],
+        ["doNotConnectToPart", ["6"]]],
       "def": ["tmx", "6.json"],
       "chance": 1
     }, {
@@ -74,7 +76,8 @@
       "chance": 1
     }, {
       "name": "10",
-      "rules": [["maxSpawnCount", [1]]],
+      "rules": [["maxSpawnCount", [2]],
+        ["doNotConnectToPart", ["10"]]],
       "def": ["tmx", "10.json"],
       "chance": 1
     }, {
@@ -126,7 +129,7 @@
     }, {
       "name": "chamber1",
       "rules": [["maxSpawnCount", [1]],
-        ["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight", "17"]]],
+        ["doNotConnectToPart", ["entrance", "entranceLeft", "entranceRight", "8", "15", "16", "17"]]],
       "def": ["tmx", "chamber1.json"],
       "chance": 1
     }, {

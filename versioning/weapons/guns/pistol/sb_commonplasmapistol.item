@@ -1,0 +1,6 @@
+{
+  "itemName": "sb_commonplasmapistol",
+  "convertTo": "commonpistol",
+  "rarity": "rare",
+  "builder": "/items/buildscripts/starbound/convertgun.lua"
+}

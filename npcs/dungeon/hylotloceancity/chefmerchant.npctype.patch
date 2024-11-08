@@ -1,3 +1,4 @@
+//TODO: what does this do
 [
 [{"op":"test","path":"/scriptConfig/merchant/categories/default"},{"op":"add","path":"/scriptConfig/merchant/categories/default/-","value":""}],
 [{"op":"test","path":"/scriptConfig/merchant/categories/human"},{"op":"add","path":"/scriptConfig/merchant/categories/human/-","value":""}],

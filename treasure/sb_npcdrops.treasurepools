@@ -3,8 +3,7 @@
   "sb_labscientistTreasure" : [
     [0, {
       "pool" : [
-        {"weight" : 0.25, "item" : "sb_lightningcoil"},
-        {"weight" : 0.25, "item" : "sb_commonplasmapistol"}
+        {"weight" : 0.25, "item" : "sb_lightningcoil"}
       ],
       "poolRounds" : [
         [0.6, 0],

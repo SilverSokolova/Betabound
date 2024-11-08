@@ -1,0 +1,6 @@
+{
+  "itemName": "sb_commonburstrifle",
+  "convertTo": "commonassaultrifle",
+  "rarity": "rare",
+  "builder": "/items/buildscripts/starbound/convertgun.lua"
+}

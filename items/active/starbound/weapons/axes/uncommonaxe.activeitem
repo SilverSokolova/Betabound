@@ -12,11 +12,11 @@
   "primaryAbilityType": "sb_axe",
   "builderConfig": [{
       "nameGenerator": "axenames.config:nameGen",
-      "elementalType": ["physical", "fire", "ice", "electric", "poison"],
+      "elementalType": ["fire", "ice", "electric", "poison"],
       "elementalConfig": {
         "fire": {
           "primaryAbility": {
-            "projectileTypes": ["flamethrower", "flame"],
+            "projectileTypes": ["flamethrower", "fireswirl"],
             "damageConfig": {
               "damageSourceKind": "fireaxe",
               "statusEffects": ["burning"]
@@ -43,7 +43,7 @@
         },
         "electric": {
           "primaryAbility": {
-            "projectileTypes": ["electricexplosion", "spinningplasmabullet", "teslaboltsmall"],
+            "projectileTypes": ["lightningthrower", "electricexplosion", "teslaboltsmall"],
             "damageConfig": {
               "damageSourceKind": "electricaxe",
               "statusEffects": ["electrified"]

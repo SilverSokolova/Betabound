@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/effectConfig/bombProjectile"},{"op":"test","path":"/effectConfig/bombConfig","inverse":true},{"op":"add","path":"/effectConfig/bombConfig","value":"/projectiles/explosions/regularexplosion2/regularexplosionknockback.config"}]
+]
