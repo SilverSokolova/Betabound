@@ -23,7 +23,7 @@ function build(directory, config, parameters)
     local subtitles = root.assetJson("/items/categories.config:labels")
     fields.subtitle = subtitles[subtitle] or subtitles["other"]
   end
-  parameters.tooltipFields = fields
+  config.tooltipFields = fields
 
   if not config.itemAgingScripts then
     fields.rotTimeLabel = ""

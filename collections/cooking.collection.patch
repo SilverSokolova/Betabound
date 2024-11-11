@@ -1,3 +1,4 @@
+//TODO: it's alphabetical it's fucking alphabetical you gotta resort these so it's alphabetical. and also based on group like main/side.
 [
 [{"op":"add","path":"/collectables/sb_alienburger","value":{"order":1,"item":"sb_alienburger"}}],
 [{"op":"add","path":"/collectables/sb_burrito","value":{"order":2,"item":"sb_burrito"}}],
