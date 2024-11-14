@@ -1,1 +1,8 @@
-{"description":"An axe of war.","itemTags":["weapon","melee","axe"],"itemName":"sb_glitchtier6aaxe","definition":["colors/t6a","axes/a"],"shortdescription":"War Axe","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "An axe of war.",
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_glitchtier6aaxe",
+  "definition": ["colors/t6a", "axes/a"],
+  "shortdescription": "War Axe",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}
