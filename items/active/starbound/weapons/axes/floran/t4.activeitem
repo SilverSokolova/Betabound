@@ -1,7 +1,7 @@
 {
   "itemName": "sb_florantier4axe",
-  "description": "An axe-head attached to a strong stick.",
-  "shortdescription": "Chop Stick",
+  "description": "An axe that cuts through anything in six seconds.",
+  "shortdescription": "Vine",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "definition": "axes/t4",
   "itemTags": ["weapon", "melee", "axe"]

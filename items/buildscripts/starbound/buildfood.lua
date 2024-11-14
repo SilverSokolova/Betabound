@@ -6,7 +6,7 @@ function build(directory, config, parameters)
   local fields = config.tooltipFields or {}
   if foodTooltip.effectLabel then --check for IFD
     config.tooltipKind = "sb_food"
-  end
+  end--[[
   if not (not not foodTooltip.foodAmountLabel or not not foodTooltip.foodValueLabel) then --check for other food label mods
     if fields.foodValueLabel then fields.foodValueLabel = "" end
     if fields.foodAmountLabel then fields.foodAmountLabel = "" end
@@ -16,7 +16,7 @@ function build(directory, config, parameters)
       fields.foodValueLabel = "Food: "..foodValue
       fields.foodAmountLabel = "Food: "..foodValue
     end
-  end
+  end]]
 
   local subtitle = parameters.subtitle or config.subtitle
   if subtitle then

@@ -1,1 +1,8 @@
-{"description":"An axe that cuts through anything in six seconds.","itemTags":["weapon","melee","axe"],"itemName":"sb_florantier5saxe","definition":["colors/t5s","axes/s"],"shortdescription":"Vine","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "An axe decorated with a skull. Chilling.",
+  "shortdescription": "Bonechopper",
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_florantier5saxe",
+  "definition": ["colors/t5s", "axes/s"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

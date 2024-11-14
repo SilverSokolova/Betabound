@@ -1,1 +1,8 @@
-{"description":"An axe decorated with a skull. Chilling.","itemTags":["weapon","melee","axe"],"itemName":"sb_florantier5maxe","definition":["colors/t5m","axes/m"],"shortdescription":"Bonechopper","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "An axe-head attached to a strong stick.",
+  "shortdescription": "Chop Stick",
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_florantier5maxe",
+  "definition": ["colors/t5m", "axes/m"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}
