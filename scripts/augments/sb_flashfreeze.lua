@@ -56,11 +56,12 @@ function apply(input)
       foodValue = math.floor(item.foodValue * foodValue)
       output:setInstanceValue("foodValue", foodValue)
 
-      local fields = output:instanceValue("tooltipFields",{})
+      local fields = output:instanceValue("tooltipFields", {})
       foodValue = "Food: "..math.floor(foodValue,1)
       fields.foodAmountLabel = foodValue
       fields.foodValueLabel = foodValue
-      output:setInstanceValue("tooltipFields",fields)
+      fields.rotTimeLabel = ""
+      output:setInstanceValue("tooltipFields", fields)
     end
 
     local subtitles = root.assetJson("/items/categories.config:labels")
