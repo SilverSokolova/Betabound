@@ -57,10 +57,10 @@
   // on encountering certain things
   // on unlocking capabilities
   "sb_unlocktech": {
-    "text": "The following tech has been made available:\n%s\nYou can purchase tech at a tech console using tech cards."
+    "text": "The following tech has been made available: ^green;%s^reset; You can purchase tech at a tech console using tech cards."
   },
   "sb_unlocktechs": {
-    "text": "The following techs have been made available:\n%s\nYou can purchase tech at a tech console using tech cards."
+    "text": "The following techs have been made available: ^green;%s^reset; You can purchase tech at a tech console using tech cards."
   }
   // Peacekeeper station intros
 

@@ -2,5 +2,5 @@
   "input": ["titaniumbar","sb_steelbar"],
   "output": "durasteelbar",
   "duration": 0.15,
-  "groups": ["craftingfurnace3","bars","all"]
+  "groups": ["craftingfurnace3","bars","all","nouncrafting"]
 }
