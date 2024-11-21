@@ -1,0 +1,8 @@
+[
+[{"op":"test","path":"/physics","value":"slider"},{"op":"replace","path":"/physics","value":"rollingboulder"}],
+[{"op":"test","path":"/movementSettings","inverse":true},{"op":"add","path":"/movementSettings","value":{}}],
+[{"op":"test","path":"/movementSettings/collisionPoly","inverse":true},{"op":"add","path":"/movementSettings/collisionPoly","value":[[0,-0.5],[0.5,0],[0,0.5],[-0.5,0]]}],
+
+[{"op":"test","path":"/actionOnReap/0/file","value":"/projectiles/explosions/regularexplosion/regularexplosionuniversal.config"},
+{"op":"replace","path":"/actionOnReap/0/file","value":"/projectiles/explosions/regularexplosion/regularexplosion.config"}]
+]
