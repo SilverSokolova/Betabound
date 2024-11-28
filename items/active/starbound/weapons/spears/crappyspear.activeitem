@@ -1,7 +1,6 @@
 {
   "itemName": "sb_crappyspear",
-  "price": 25,
-  "rarity": "common",
+  "definition": "spears/common",
   "tooltipKind": "sb_sword2",
   "tooltipFields": {
     "subtitle": "Crappy Spear"
@@ -12,15 +11,6 @@
 
   "primaryAbilityType": "sb_spear",
   "primaryAbility": {
-    "fireTime": [0.8, 1.01],
-    "baseDps": [3.5, 5.5],
-    "damageConfig": {
-      "damageSourceKind": "spear",
-      "statusEffects": [],
-      "knockbackMode": "aim",
-      "knockback": 15,
-      "timeoutGroup": "primary"
-    },
     "stances": {
       "idle": {
         "allowFlip": true,
