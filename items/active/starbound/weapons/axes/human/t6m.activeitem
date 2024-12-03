@@ -1,1 +1,8 @@
-{"description":"A hooked axe trimmed with gold.","itemTags":["weapon","melee","axe"],"itemName":"sb_humantier6maxe","definition":["colors/t6m","axes/m"],"shortdescription":"Charitable Axe","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "An axe that looks like a wrench.",
+  "shortdescription": "Opposing Force",
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_humantier6maxe",
+  "definition": ["colors/t6m", "axes/m"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

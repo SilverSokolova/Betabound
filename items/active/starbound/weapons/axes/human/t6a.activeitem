@@ -1,1 +1,8 @@
-{"description":"An axe that looks like a wrench.","itemTags":["weapon","melee","axe"],"itemName":"sb_humantier6aaxe","definition":["colors/t6a","axes/a"],"shortdescription":"Opposing Force","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "The most expensive axe money can buy.",
+  "shortdescription": "iAxe",
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_humantier6aaxe",
+  "definition": ["colors/t6a", "axes/a"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

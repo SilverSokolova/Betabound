@@ -1,1 +1,8 @@
-{"description":"A hooked axe, useful for rock-climbing.","itemTags":["weapon","melee","axe"],"itemName":"sb_humantier5aaxe","definition":["colors/t5a","axes/a"],"shortdescription":"Climbing Axe","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "An axe trimmed with gold.",
+  "shortdescription": "Charitable Axe",
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_humantier5aaxe",
+  "definition": ["colors/t5a", "axes/a"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

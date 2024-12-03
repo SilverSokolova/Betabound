@@ -1,1 +1,8 @@
-{"description":"An axe which is good for everything, even baking.","itemTags":["weapon","melee","axe"],"itemName":"sb_humantier5saxe","definition":["colors/t5s","axes/s"],"shortdescription":"All-Purpose Axe","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "An axe which is good for everything.",
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_humantier5saxe",
+  "definition": ["colors/t5s", "axes/s"],
+  "shortdescription": "All-Purpose Axe",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

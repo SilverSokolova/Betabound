@@ -1,1 +1,8 @@
-{"description":"The most expensive axe money can buy.","itemTags":["weapon","melee","axe"],"itemName":"sb_humantier6saxe","definition":["colors/t6s","axes/s"],"shortdescription":"iAxe","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "An axe that looks like it's trying to wiggle away.",
+  "shortdescription": "The Wiggler",
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_humantier6saxe",
+  "definition": ["colors/t6s", "axes/s"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}
