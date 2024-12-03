@@ -1,6 +1,9 @@
 require "/scripts/activeitem/sb_cursors.lua"
-function init() sb_cursor("chat") activeItem.setArmAngle(-math.pi / 2) end
-function activate()
+require "/scripts/activeitem/sb_swing.lua"
+
+function init() sb_cursor("chat") swingInit() end
+
+function swingAction()
   local configData = root.assetJson("/interface/scripted/sb_codex/customcodex.config")
   configData.contentPages = config.getParameter("contentPages", {{}})
   configData.customData = {config.getParameter("shortdescription",""),config.getParameter("description","")}

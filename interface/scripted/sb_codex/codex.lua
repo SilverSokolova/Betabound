@@ -38,7 +38,7 @@ function update()
     if (itemHasTags(itemData.config.itemName, acceptedTags)
       or category == "codex"
       or category == "blueprint")
-      and not item.name:find("%-recipe")
+      and (not item.name:find("%-recipe") or sb_checkClient() == "OpenSB")
     then
       world.containerTakeAt(entityId, 0)
       promise = world.sendEntityMessage(entityId, "sb_lectern:add", item)

@@ -13,6 +13,7 @@ function build(directory, config, parameters, level, seed)
   if not parameters.customItem then
     if parameters.primaryAbilityType == "axecleave"
     or parameters.primaryAbilityType == "sb_starcleaver"
+    or parameters.primaryAbilityType == "sb_meleeslash2"
     or parameters.animation == "/items/active/starbound/weapons/broadswords/starcleaversword.animation"
     or (config.itemName == "sb_buster" and parameters.primaryAbilityType == "bowshot")
     or (config.itemName == "sb_slimestaff" and parameters.altAbilityType == "elementbouncer")
