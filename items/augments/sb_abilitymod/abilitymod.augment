@@ -10,7 +10,7 @@
     "subtitle": "Weapon Mod"
   },
   "subtitle": "Weapon Mod (%s)",
-  "description": "Replaces the %s^reset; ability of a generated weapon, if it can naturally have this ability.\n^gray;Apply with right-click",
+  "description": "Replaces the %s^reset; ability of a generated weapon if it can naturally have this ability.\n^gray;Apply with right-click",
   "slotNames": {
     "primary": "^blue;primary",
     "alt": "^red;special"
