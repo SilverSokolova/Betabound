@@ -7,13 +7,13 @@
     "<staff>": "plasmastaff",
     "<n>": "1"
   },
+  "tooltipFields": {
+    "damageKindImage": ""
+  },
   "rarity": "rare",
   "level": 5,
   "description": "Channels the energy of human spirit.",
   "shortdescription": "Plasma Pulse Staff",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/sb_boomblast.png"
-  },
   "elementalType": "electric",
   "altAbilityType": "plasmabarrage",
   "primaryAbility": {

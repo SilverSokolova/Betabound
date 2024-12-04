@@ -4,9 +4,6 @@
   "maxStack": 1,
   "price": 600,
   "tooltipKind": "sb_gun2",
-  "tooltipFields": {
-    "damageKindBImage": "/interface/sb_tooltips/standardbullet.png"
-  },
   "itemTags": ["weapon", "ranged", "shotgun"],
   "category": "shotgun",
   "fixedRarity": true,

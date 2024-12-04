@@ -7,7 +7,6 @@
     "<bow>": "heartstring"
   },
   "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/heckarrow.png",
     "objectImage": "/items/active/starbound/bows/heartstringbowfull.png:0"
   },
   "description": "Harvests meat and other goods from monsters.",

@@ -5,9 +5,6 @@
 
   "description": "This trident smells fishy.",
   "shortdescription": "Dangpa's Fury",
-  "tooltipFields": {
-    "damageKindImage": "/items/tools/miningtools/fishicon.png"
-  },
 
   "animationCustom": {
     "particleEmitters": {

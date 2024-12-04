@@ -6,12 +6,12 @@
     "<staff>": "bio",
     "<glow>": "bioglow"
   },
+  "tooltipFields": {
+    "damageKindImage": ""
+  },
 
   "description": "Generates a glowing ball of light that harms nearby foes.",
   "shortdescription": "Bio Light Staff",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/sb_biolightball.png"
-  },
   "staffHasFullbright": true,
 
   "animationCustom": {

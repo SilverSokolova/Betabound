@@ -9,9 +9,6 @@
   "shortdescription": "Scintillium Sniper Rifle",
   "level": 6,
   "tooltipKind": "sb_gun4",
-  "tooltipFields": {
-    "damageKindBImage": "/interface/sb_tooltips/standardbullet.png"
-  },
   "category": "sniperRifle",
   "itemTags": ["weapon", "ranged", "sniperrifle"],
   "twoHanded": true,

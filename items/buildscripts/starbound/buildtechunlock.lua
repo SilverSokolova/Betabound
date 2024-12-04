@@ -17,7 +17,7 @@ function build(_, config, parameters); sb_techType()
   config.inventoryIcon = jarray()
   config.tooltipFields.subtitle = string.format(config.subtitle, root.techType(tech.name))
   table.insert(config.inventoryIcon, {image = config.backingImage})
-  table.insert(config.inventoryIcon, {image = sb_assetmissing(tech.icon, "/interface/sb_tooltips/assetmissing.png")})
+  table.insert(config.inventoryIcon, {image = sb_assetmissing(tech.icon)})
   return config, parameters
 end
 

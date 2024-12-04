@@ -4,13 +4,13 @@
   "description": "An informational leaflet about ammunition for guns.",
   "icon": "sb_gunguide.png",
   "contentPages": [
-    "While most guns solely use energy reserves, certain firearms can still use traditional ammunition. They will plainly state 'This weapon can use ammo'.
+    "While most guns solely use energy reserves, certain firearms can still use traditional ammunition. They will plainly state '^green;This weapon can use ammo^reset;'.
     - 20% damage boost when using any ammo
+    - Ammo not required to fire weapon; can use energy instead
     - Uses energy when ammo is depleted or when ^#71f2f6;SHIFT^reset; is held
     - Ammo is automatically used when in the inventory
     - Craft ammo at an anvil
-    - All ammos are universally accepted
-    - Bullet icons on weapons are their projectile when no ammo is used"
+    - All ammos are universally accepted"
   ],
   "itemConfig": {
     "rarity": "uncommon",

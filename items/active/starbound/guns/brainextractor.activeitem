@@ -5,7 +5,6 @@
   "price": 300,
   "tooltipKind": "sb_gun2",
   "tooltipFields": {
-    "damageKindBImage": "/interface/sb_tooltips/electric.png",
     "objectImage": "/items/active/starbound/guns/brainextractor.png"
   },
   "itemTags": ["weapon", "ranged", "pistol", "unique"],

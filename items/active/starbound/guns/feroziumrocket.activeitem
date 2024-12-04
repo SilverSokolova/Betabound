@@ -9,9 +9,6 @@
   "shortdescription": "Scintillium Launcher",
   "level": 6,
   "tooltipKind": "sb_gun2",
-  "tooltipFields": {
-    "damageKindBImage": "/interface/sb_tooltips/homingrocket.png"
-  },
   "category": "rocketLauncher",
   "itemTags": ["weapon", "ranged", "rocketlauncher"],
   "twoHanded": true,

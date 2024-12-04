@@ -9,9 +9,6 @@
   "shortdescription": "Aegisalt Rifle",
   "level": 5,
   "tooltipKind": "sb_gun2",
-  "tooltipFields": {
-    "damageKindBImage": "/interface/sb_tooltips/standardbullet.png"
-  },
   "category": "assaultRifle",
   "itemTags": ["weapon", "ranged", "assaultrifle"],
   "twoHanded": true,

@@ -1,7 +1,7 @@
 require("/scripts/sb_assetmissing.lua")
 
 function build(_, config, parameters); sb_techType()
-  local missingImage = "/interface/sb_tooltips/assetmissing.png"
+  local missingImage = "/sb_assetmissing.png"
 
   --equipper
   if parameters.techModule then
@@ -12,7 +12,7 @@ function build(_, config, parameters); sb_techType()
     if not parameters.inventoryIcon then
       parameters.inventoryIcon = config.inventoryIcon
     end
-    parameters.inventoryIcon[2].image = sb_assetmissing(root.techConfig(parameters.techModule).icon or missingImage, missingImage)
+    parameters.inventoryIcon[2].image = sb_assetmissing(root.techConfig(parameters.techModule).icon or missingImage)
   --swapper
   elseif parameters.techModules then
     for i = 1, 2 do
@@ -20,7 +20,7 @@ function build(_, config, parameters); sb_techType()
         parameters.techModules[i] = getTech(parameters.techModules[i])
       end
 
-      config.tooltipFields[string.format("object%sImage", i == 1 and "B" or "C")] = sb_assetmissing(root.techConfig(parameters.techModules[i]).icon or missingImage, missingImage)
+      config.tooltipFields[string.format("object%sImage", i == 1 and "B" or "C")] = sb_assetmissing(root.techConfig(parameters.techModules[i]).icon or missingImage)
     end
   end
 

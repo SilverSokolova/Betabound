@@ -7,13 +7,13 @@
     "<staff>": "steelstaff",
     "<n>": "2"
   },
+  "tooltipFields": {
+    "damageKindImage": ""
+  },
   "rarity": "legendary",
   "level": 6,
   "description": "Deploys a drone that fires lasers and rockets.",
   "shortdescription": "Deadbolt Staff",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/sb_deadbolt.png"
-  },
   "elementalType": "electric",
   "altAbilityType": "energyzone",
   "primaryAbility": {

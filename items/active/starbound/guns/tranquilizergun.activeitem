@@ -8,9 +8,6 @@
   "category": "uniqueWeapon",
   "itemTags": ["weapon", "ranged"],
   "tooltipKind": "sb_gun2",
-  "tooltipFields": {
-    "damageKindBImage": "/interface/statuses/tranquilizer.png"
-  },
   "animation": "/items/active/weapons/ranged/gun.animation",
   "animationCustom": {
     "sounds": {

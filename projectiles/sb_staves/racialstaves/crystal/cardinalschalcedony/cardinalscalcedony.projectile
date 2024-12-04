@@ -23,7 +23,7 @@
       "repeat": false
     }, {
       "action": "projectile",
-      "type": "regularexplosionuniversal",
+      "type": "regularexplosion",
       "fuzzAngle": 180,
       "inheritSpeedFactor": 0.1,
       "inheritDamageFactor": 0.25,
@@ -31,7 +31,7 @@
       "repeat": false
     }, {
       "action": "projectile",
-      "type": "regularexplosionuniversal",
+      "type": "regularexplosion",
       "fuzzAngle": 180,
       "inheritSpeedFactor": 0.1,
       "inheritDamageFactor": 0.25,
@@ -40,7 +40,7 @@
       "repeat": false
     }, {
       "action": "projectile",
-      "type": "regularexplosionuniversal",
+      "type": "regularexplosion",
       "fuzzAngle": 180,
       "inheritSpeedFactor": 0.1,
       "inheritDamageFactor": 0.25,
@@ -49,7 +49,7 @@
       "repeat": false
     }, {
       "action": "projectile",
-      "type": "regularexplosionuniversal",
+      "type": "regularexplosion",
       "fuzzAngle": 180,
       "inheritSpeedFactor": 0.1,
       "inheritDamageFactor": 0.25,
@@ -58,7 +58,7 @@
       "repeat": false
     }, {
       "action": "projectile",
-      "type": "regularexplosionuniversal",
+      "type": "regularexplosion",
       "fuzzAngle": 180,
       "inheritSpeedFactor": 0.1,
       "inheritDamageFactor": 0.25,
@@ -67,7 +67,7 @@
       "repeat": false
     }, {
       "action": "projectile",
-      "type": "regularexplosionuniversal",
+      "type": "regularexplosion",
       "fuzzAngle": 180,
       "inheritSpeedFactor": 0.1,
       "inheritDamageFactor": 0.25,
@@ -76,7 +76,7 @@
       "repeat": false
     }, {
       "action": "projectile",
-      "type": "regularexplosionuniversal",
+      "type": "regularexplosion",
       "fuzzAngle": 180,
       "inheritSpeedFactor": 0.1,
       "inheritDamageFactor": 0.25,
@@ -85,7 +85,7 @@
       "repeat": false
     }, {
       "action": "projectile",
-      "type": "regularexplosionuniversal",
+      "type": "regularexplosion",
       "fuzzAngle": 180,
       "inheritSpeedFactor": 0.1,
       "inheritDamageFactor": 0.25,

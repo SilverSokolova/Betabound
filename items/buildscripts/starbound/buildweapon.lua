@@ -304,11 +304,8 @@ function build(directory, config, parameters, level, seed)
   if config.primaryAbility then
     config.tooltipFields.primaryAbilityTitleLabel = "Primary:"
     config.tooltipFields.primaryAbilityLabel = config.primaryAbility.name or "unknown"
-    local projectileType = parameters.primaryAbility.projectileType
-    if projectileType then
-      config.tooltipFields.damageKindBImage = sb_assetmissing("/interface/sb_tooltips/"..(type(projectileType) == "table" and projectileType[1] or projectileType)..".png", "/interface/sb_tooltips/assetmissing.png")
-    end
   end
+
   if config.altAbility then
     config.tooltipFields.altAbilityTitleLabel = "Special:"
     config.tooltipFields.altAbilityLabel = config.altAbility.name or "unknown"

@@ -7,14 +7,13 @@ function build(directory, config, parameters)
   parameters.ability = parameters.ability or randomAbility()
   config = sb.jsonMerge(config, getAbilityConfig(parameters.ability))
   config.inventoryIcon = jarray()
-  table.insert(config.inventoryIcon, {image = "/interface/sb_backingicon.png"})
+  table.insert(config.inventoryIcon, {image = "/items/generated/sb_mod.png"})
   --decided against `config.icon and (config.icon..".png") in order to support directives
   local icon = config.icon
   if icon then
     if icon:sub(0, 1) ~= "/" then icon = directory..icon end
   end
   table.insert(config.inventoryIcon, icon and {image = icon} or {image = sb_assetmissing(directory..parameters.ability..".png", "sb_default.png")})
---table.insert(config.inventoryIcon, {image = "/interface/sb_tooltips/assetmissing.png"})
   abilityData = root.assetJson(root.assetJson("/items/buildscripts/weaponabilities.config")[parameters.ability]).ability
 
   local elementalConfig = abilityData.elementalConfig

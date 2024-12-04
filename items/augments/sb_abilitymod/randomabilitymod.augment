@@ -13,7 +13,7 @@
   "shortdescription": "Randomize",
   "slots": ["primary", "alt"],
   "inventoryIcon": [{
-      "image": "/interface/sb_backingicon.png"
+      "image": "/items/generated/sb_mod.png"
     }, {
       "image": "sb_random.png"
     }

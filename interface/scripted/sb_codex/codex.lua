@@ -8,7 +8,7 @@ require "/scripts/sb_assetmissing.lua"
 function init()
   entityId = pane.containerEntityId()
 
-  missingImage = "/interface/sb_tooltips/assetmissing.png"
+  missingImage = "/sb_assetmissing.png"
   itemList = "modeStack.itemList"
   secondaryData = "none"
   inactiveSecondaryData = "none"

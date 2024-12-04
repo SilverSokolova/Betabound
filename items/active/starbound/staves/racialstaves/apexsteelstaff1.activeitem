@@ -7,13 +7,13 @@
     "<staff>": "steelstaff",
     "<n>": "1"
   },
+  "tooltipFields": {
+    "damageKindImage": ""
+  },
   "rarity": "rare",
   "level": 5,
   "description": "Deploys a small drone that shoots lasers.",
   "shortdescription": "Monkey Nut Staff",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/sb_monkeynut.png"
-  },
   "elementalType": "electric",
   "altAbilityType": "energyzone",
   "primaryAbility": {

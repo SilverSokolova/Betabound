@@ -9,9 +9,6 @@
 
   "description": "A technological marvel designed to teleport giant boulders at your enemies.",
   "shortdescription": "Rockalanche Staff",
-  "tooltipFields": {
-    "damageKindImage": "/items/throwables/throwingboulder.png"
-  },
   "staffHasFullbright": true,
 
   "animationCustom": {

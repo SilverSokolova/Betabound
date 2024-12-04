@@ -12,7 +12,7 @@ function init() sb_techType()
   for _, tech in pairs(ownedTechs) do
     if root.hasTech(tech) then
       techs[tech] = root.techConfig(tech)
-      techs[tech].icon = sb_assetmissing(techs[tech].icon, "/interface/sb_tooltips/assetmissing.png")
+      techs[tech].icon = sb_assetmissing(techs[tech].icon)
     else
       sb.logWarn("Could not load tech '"..tech.."'. Skipping!")
     end

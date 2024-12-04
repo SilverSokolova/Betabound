@@ -6,12 +6,12 @@
     "<staff>": "flesh",
     "<glow>": "fleshglow"
   },
+  "tooltipFields": {
+    "damageKindImage": ""
+  },
 
   "description": "Creates revolting solid light holograms. Long live the new flesh!",
   "shortdescription": "Fleshbringer",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/sb_fleshseedspawn.png"
-  },
   "animationCustom": {
     "animatedParts": {
       "parts": {

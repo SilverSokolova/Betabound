@@ -12,8 +12,7 @@
   "description": "Creates a bright star to light up the area.",
   "shortdescription": "Supergiant Orb",
   "tooltipFields": {
-    "damageKindImage": "/interface/elements/fire.png",
-    "damageKindBImage": "/interface/sb_tooltips/sb_supergiant.png"
+    "damageKindImage": "/interface/elements/fire.png"
   },
   "animationCustom": {
     "lights": {

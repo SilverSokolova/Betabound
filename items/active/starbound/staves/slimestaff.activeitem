@@ -6,12 +6,12 @@
     "<staff>": "slime",
     "<glow>": "slimeglow"
   },
+  "tooltipFields": {
+    "damageKindImage": ""
+  },
 
   "description": "Casts a spread of sticky slime at your target.",
   "shortdescription": "Slime Staff",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/slimeexplosion.png"
-  },
 
   "animationCustom": {
     "animatedParts": {

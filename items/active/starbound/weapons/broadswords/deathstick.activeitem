@@ -9,7 +9,6 @@
   "shortdescription": "Death Stick",
   "tooltipKind": "sb_sword2",
   "tooltipFields": {
-    "damageKindImage": "/items/throwables/hivebombicon.png",
     "objectImage": "/items/active/starbound/weapons/broadswords/deathstick.png"
   },
   "twoHanded": true,

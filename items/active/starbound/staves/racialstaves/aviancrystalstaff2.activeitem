@@ -7,13 +7,13 @@
     "<staff>": "crystalstaff",
     "<n>": "2"
   },
+  "tooltipFields": {
+    "damageKindImage": ""
+  },
   "rarity": "legendary",
   "level": 6,
   "description": "Creates a gemstone pulsing with tremendous energy.",
   "shortdescription": "Quetzalcoatl's Quartz",
-  "tooltipFields": {
-    "damageKindImage": "/projectiles/sb_staves/racialstaves/crystal/quetzalcoatlsquartz/quetzalcoatlsquartz.png:0"
-  },
   "elementalType": "electric",
   "altAbilityType": "pullzone",
   "primaryAbility": {

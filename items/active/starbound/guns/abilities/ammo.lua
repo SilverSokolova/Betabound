@@ -7,7 +7,7 @@ function update(dt)
   local ammo = animationConfig.animationParameter("ammo", 0)
   local totalAmmo = animationConfig.animationParameter("totalAmmo", 0)
   local name = animationConfig.animationParameter("name", "standardbullet")
-  if name then name = sb_assetmissing("/interface/sb_tooltips/"..name..".png", "/interface/sb_tooltips/assetmissing.png") end
+  if name then name = sb_assetmissing("/items/generic/other/sb_ammo/"..name..".png") end
   localAnimator.clearDrawables()
   if ammo > 0 then
     local pos = activeItemAnimation.ownerPosition()

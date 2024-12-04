@@ -7,13 +7,13 @@
     "<staff>": "leafstaff",
     "<n>": "1"
   },
+  "tooltipFields": {
+    "damageKindImage": ""
+  },
   "rarity": "rare",
   "level": 5,
   "description": "Creates a powerful blizzard of leaves.",
   "shortdescription": "Leaf Flurry",
-  "tooltipFields": {
-    "damageKindImage": "/items/throwables/sb_cutterleaf.png"
-  },
   "elementalType": "poison",
   "altAbilityType": "elementorb",
   "primaryAbility": {

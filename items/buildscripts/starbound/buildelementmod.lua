@@ -3,8 +3,8 @@ function build(directory, config, parameters)
   elementName = root.assetJson("/sb_elementmods.config")
   parameters.element = parameters.element or randomElement(parameters.elementList or config.elementList)
   config.inventoryIcon = jarray()
-  table.insert(config.inventoryIcon, {image = "/interface/sb_backingicon.png"})
-  table.insert(config.inventoryIcon, {image = sb_assetmissing(directory..parameters.element..".png", "/interface/sb_tooltips/assetmissing.png")})
+  table.insert(config.inventoryIcon, {image = "/items/generated/sb_mod.png"})
+  table.insert(config.inventoryIcon, {image = sb_assetmissing(directory..parameters.element..".png")})
   config.shortdescription = string.format(config.shortdescription, string.gsub(elementName[parameters.element] or parameters.element, "^%l", string.upper))
 
   if parameters.level then
