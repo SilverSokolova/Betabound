@@ -1,5 +1,6 @@
 [
 {"op":"add","path":"/-","value":{"name":"sb_brains","buttonImage":"sb_brains.png"}},
 {"op":"add","path":"/-","value":{"name":"sb_concrete","buttonImage":"sb_concrete.png"}},
-{"op":"add","path":"/-","value":{"name":"sb_chain","buttonImage":"sb_chain.png"}}
+{"op":"add","path":"/-","value":{"name":"sb_chain","buttonImage":"sb_chain.png"}},
+{"op":"add","path":"/-","value":{"name":"sb_hive","buttonImage":"sb_hive.png"}}
 ]
