@@ -1,3 +1,3 @@
 [
-[{"op":"add","path":"/dropPools/-","value":"sb_tentaclemissionMusic"}],
-[{"op":"test","path":"/description","inverse":true},{"op":"add","path":"/description","value":"The cold-hearted human leader of the Occasus cult. She wields a solarium-infused katana."}],[{"op":"replace","path":"/shortdescription","value":"Asra Nox"}]]
+[{"op":"test","path":"/description","inverse":true},{"op":"add","path":"/description","value":"The cold-hearted human leader of the Occasus cult. She wields a solarium-infused katana."}],[{"op":"replace","path":"/shortdescription","value":"Asra Nox"}]
+]

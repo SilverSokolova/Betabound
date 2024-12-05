@@ -1,0 +1,19 @@
+{
+  "id": "sb_townrhyme",
+  "species": "apex",
+  "title": "Children's Rhyme",
+  "description": "A children's picturebook rhyme from the Resistance against the Miniknog.",
+  "icon": "sb_apexcover6.png",
+  "contentPages": [
+"There once was an ape called Big Ape
+Whose brain was the size of a grape
+He swung through the trees
+And got riddled with fleas
+And ^red;GLORY TO BIG APE, OUR GLORIOUS LEADER! HAIL THE MINIKNOG. DO NOT RESIST.^reset;"
+  ],
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25,
+    "tooltipKind": "sb_object"
+  }
+}
