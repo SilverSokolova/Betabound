@@ -19,7 +19,7 @@
   "swingStart": 0,
   "swingFinish": 0,
   "fireTime": 0.1,
-  "blockRadius": 4,
+  "blockRadius": 2,
   "altBlockRadius": 1,
   "twoHanded": true,
   "idleSound": "/sfx/tools/chainsaw_idle.ogg", //TODO: is this used??

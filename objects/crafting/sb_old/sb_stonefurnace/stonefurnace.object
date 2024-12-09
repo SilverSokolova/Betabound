@@ -15,7 +15,7 @@
 
   "printable": false,
   "description": "Useful for crafting! This enables the smelting of basic ores into bars.",
-  "shortdescription": "^orange;Stone Furnace^reset;",
+  "shortdescription": "^orange;Stout Furnace^reset;",
   "race": "generic",
   "category": "Old fashioned smelting",
   "tooltipFields": {
