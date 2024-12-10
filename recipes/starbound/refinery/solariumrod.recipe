@@ -1,0 +1,6 @@
+{
+  "input": ["sb_solariumrod"],
+  "output": ["money", 50],
+  "duration": 0.5,
+  "groups": ["refinery", "all"]
+}

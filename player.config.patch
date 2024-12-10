@@ -42,6 +42,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_refinedrubium"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"uraniumrod"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"plutoniumrod"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_solariumrod"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_gunpowder"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"screws"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"polymer"}}],
