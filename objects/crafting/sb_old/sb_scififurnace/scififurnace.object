@@ -11,7 +11,7 @@
         "title": "MAGNETIC CRUCIBLE",
         "subtitle": "Incredible technology for creating equally incredible materials!",
         "icon": {
-          "file": "/interface/sb_crafting/craftingicons.png:scififurnace"
+          "file": "/interface/crafting/craftingfurnace3.png"
         }
       }
     },

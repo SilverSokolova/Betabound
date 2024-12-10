@@ -4,23 +4,26 @@
   "rarity": "uncommon",
   "tooltipKind": "sb_object",
 
-  "uiConfig": "/interface/sb_objectcrafting/stonefurnace.config",
-  "recipeGroup": "sb_stonefurnace",
-  "objectType": "container",
-  "openSounds": ["/assetmissing.wav"],
-  "closeSounds": ["/assetmissing.wav"],
-  "frameCooldown": 5,
-  "slotCount": 2,
-  "autoCloseCooldown": 3600,
+  "interactAction": "OpenCraftingInterface",
+  "interactData": {
+    "config": "/interface/windowconfig/craftingfurnace.config",
+    "paneLayoutOverride": {
+      "windowtitle": {
+        "title": "Stout Furnace",
+        "subtitle": "^#b9b5b2;Old-fashioned Smelting",
+        "icon": {
+          "file": "/interface/crafting/craftingfurnace.png"
+        }
+      }
+    },
+    "filter": ["craftingfurnace"]
+  },
 
   "printable": false,
   "description": "Useful for crafting! This enables the smelting of basic ores into bars.",
   "shortdescription": "^orange;Stout Furnace^reset;",
   "race": "generic",
-  "category": "Old fashioned smelting",
-  "tooltipFields": {
-    "subtitle": "Crafting Station"
-  },
+  "category": "crafting",
   "price": 55,
 
   "apexDescription": "A stone furnace. I can smelt things here.",

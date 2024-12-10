@@ -39,7 +39,7 @@
   },
   "sb_pickupladder": {
     "type": "tutorial",
-    "text": "I see you've acquired a ladder! While on a ladder, hold ^#71f2f6;[SPACE]^reset; to quickly climb."
+    "text": "I see you've acquired a ladder! While on a ladder, hold ^#71f2f6;[SPACE]^reset; to quickly ascend."
   },
   "sb_pickupmusicsheet": {
     "type": "tutorial",
