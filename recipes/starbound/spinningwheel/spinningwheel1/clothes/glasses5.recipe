@@ -1,5 +1,5 @@
 {
   "input": [["glass",2]],
   "output": "glasses5head",
-  "groups": ["sb_craftingtable","sb_armors","all"]
+  "groups": ["craftingwheel","clothes","all"]
 }
