@@ -4,10 +4,15 @@
 {"op":"add","path":"/supportedContainers/sb_glowchest","value":"/objects/biome/bioluminescence/sb_glowchest/glowchest.object"},
 {"op":"add","path":"/supportedContainers/sb_heckaltar","value":"/objects/biome/sb_heck/heckaltar.object"},
 {"op":"add","path":"/supportedContainers/sb_heckchest","value":"/objects/biome/sb_heck/heckchest.object"},
-{"op":"add","path":"/supportedContainers/sb_metalcrate","value":"/objects/generic/sb_metalcrate/metalcrate.object"},
-{"op":"add","path":"/supportedContainers/sb_ancientbigchest","value":"/objects/ancient/essencechest/sb_ancientbigchest.object"},
 {"op":"add","path":"/supportedContainers/sb_slimehide","value":"/objects/biome/slime/slimechest/sb_slimehide.object"},
+
+{"op":"add","path":"/supportedContainers/sb_metalcrate","value":"/objects/generic/sb_metalcrate/metalcrate.object"},
+{"op":"add","path":"/supportedContainers/sb_woodenlocker","value":"/objects/generic/sb_woodenlocker/woodenlocker.object"},
+
+{"op":"add","path":"/supportedContainers/sb_ancientbigchest","value":"/objects/ancient/essencechest/sb_ancientbigchest.object"},
+
 //{"op":"add","path":"/supportedContainers/sb_vendingmachine","value":"/objects/human/vendingmachine/sb_vendingmachine.object"},
+
 {"op":"add","path":"/supportedContainers/sb_tier1techchest","value":"/objects/tiered/sb_techchests/tier1techchest.object"},
 {"op":"add","path":"/supportedContainers/sb_tier2techchest","value":"/objects/tiered/sb_techchests/tier2techchest.object"},
 {"op":"add","path":"/supportedContainers/sb_tier3techchest","value":"/objects/tiered/sb_techchests/tier3techchest.object"},
@@ -18,7 +23,8 @@
 {"op":"add","path":"/supportedContainers/sb_tier6atechchest","value":"/objects/tiered/sb_techchests/tier6atechchest.object"},
 {"op":"add","path":"/supportedContainers/sb_tier6mtechchest","value":"/objects/tiered/sb_techchests/tier6mtechchest.object"},
 {"op":"add","path":"/supportedContainers/sb_tier6stechchest","value":"/objects/tiered/sb_techchests/tier6stechchest.object"},
+
 {"op":"add","path":"/supportedContainers/sb_tinywoodencrate","value":"/objects/glitch/sb_tinywoodencrate/tinywoodencrate.object"},
-{"op":"add","path":"/supportedContainers/sb_woodenlocker","value":"/objects/generic/sb_woodenlocker/woodenlocker.object"},
+
 {"op":"add","path":"/supportedContainers/sb_wreckcratewide","value":"/objects/wreck/sb_wreckcratewide/wreckcratewide.object"}
 ]

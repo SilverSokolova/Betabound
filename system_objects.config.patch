@@ -1,4 +1,5 @@
 [
+//The peacekeeper station icons have to be unprefixed because bookmarks use the world name
 {"op":"replace","path":"/spacestation_peacekeeper1/parameters/bookmarkIcon","value":"spacestation_peacekeeper1"},
 {"op":"replace","path":"/spacestation_peacekeeper2/parameters/bookmarkIcon","value":"spacestation_peacekeeper2"},
 {"op":"replace","path":"/spacestation_peacekeeper3/parameters/bookmarkIcon","value":"spacestation_peacekeeper3"},
