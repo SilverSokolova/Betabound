@@ -1,81 +1,80 @@
 {
-  "sb_minibossTreasure" : [
+  "sb_minibossTreasure": [
     [0, {
-      "fill" : [
-        {"pool" : "goodWeapon"},
-        {"pool" : "valuableTreasure"},
-        {"pool" : "generatedGroundMonsterTreasure"},
-        {"pool" : "money"}
+      "fill": [
+        {"pool": "goodWeapon"},
+        {"pool": "valuableTreasure"},
+        {"pool": "generatedGroundMonsterTreasure"},
+        {"pool": "money"}
       ]
     }]
   ],
-  "sb_tentacleTreasure" : [
+  "sb_tentacleTreasure": [
     [0, {
-      "pool" : [
-        {"weight" : 0.89, "pool" : "sb_liquidtentaclejuice"},
-        {"weight" : 0.11, "item" : "rawtentacle"},
-        {"weight" : 0.03, "item" : ["sb_musicsheet",1,{"music":"crystal-battle1"}]}
+      "pool": [
+        {"weight": 0.89, "pool": "sb_liquidtentaclejuice"},
+        {"weight": 0.11, "item": "rawtentacle"},
+        {"weight": 0.03, "item": ["sb_musicsheet",1,{"music":"crystal-battle1"}]}
       ]
     }]
   ],
-  "sb_weaklingTentacleTreasure" : [
+  "sb_weaklingTentacleTreasure": [
     [0, {
-      "fill" : [
-        {"pool" : "sb_tentacleTreasure"}
+      "fill": [
+        {"pool": "sb_tentacleTreasure"}
       ],
-      "poolRounds" : [
+      "poolRounds": [
         [0.75, 0],
         [0.25, 1]
       ],
-      "allowDuplication" : false
+      "allowDuplication": false
     }]
   ],
-  "sb_envprobeTreasure" : [
+  "sb_envprobeTreasure": [
     [0, {
-      "pool" : [
-        {"weight" : 1, "pool" : "salvageComponent"},
-//      {"weight" : 0.35, "item" : "screws"},
-        {"weight" : 0.025, "item" : "sb_envprobeaf"}
+      "pool": [
+        {"weight": 1, "pool": "salvageComponent"},
+        {"weight": 0.025, "item": "sb_envprobeaf"}
       ],
-      "poolRounds" : [
+      "poolRounds": [
         [1, 2],
         [0.25, 3]
       ],
-      "allowDuplication" : false
+      "allowDuplication": false
     }]
   ],
-  "sb_heckblobTreasure" : [
+  "sb_heckblobTreasure": [
     [0, {
-      "pool" : [
-        {"weight" : 0.6, "pool" : "noMeatMonsterTreasure"},
-        {"weight" : 0.4, "pool" : "sb_heckbush"},
-        {"weight" : 0.2, "item" : "sb_rawfleshlump"},
-        {"weight" : 0.025, "item" : "sb_heckblobaf"}
+      "pool": [
+        {"weight": 0.6, "pool": "noMeatMonsterTreasure"},
+        {"weight": 0.4, "pool": "sb_heckbush"},
+        {"weight": 0.2, "item": "sb_rawfleshlump"},
+        {"weight": 0.025, "item": "sb_heckblobaf"}
       ]
     }]
   ],
-  "sb_serpentdroidTreasure" : [
+  "sb_serpentdroidTreasure": [
     [0, {
-      "pool" : [
-        {"weight" : 0.6, "pool" : "largeRobotTreasure"},
-        {"weight" : 0.025, "item" : "sb_serpentdroidaf"}
+      "pool": [
+        {"weight": 0.6, "pool": "largeRobotTreasure"},
+        {"weight": 0.025, "item": "sb_serpentdroidaf"}
       ]
     }]
   ],
-  "sb_repairbotTreasure" : [
+  "sb_repairbotTreasure": [
     [0, {
-      "pool" : [
-        {"weight" : 0.6, "pool" : "robotTreasure"},
-        {"weight" : 0.025, "item" : "sb_repairbotaf"}
+      "pool": [
+        {"weight": 0.6, "pool": "robotTreasure"},
+        {"weight": 0.025, "item": "sb_repairbotaf"}
       ]
     }]
   ],
-  "sb_bonebirdBones" : [
+  "sb_bonebirdBones": [
     [1, {
-      "pool" : [
-        {"weight" : 1, "item" : "bone"}
+      "pool": [
+        {"weight": 1, "item": "bone"}
       ],
-      "poolRounds" : [
+      "poolRounds": [
         [0.2, 0],
         [0.4, 1],
         [0.2, 2],
@@ -83,12 +82,12 @@
       ]
     }]
   ],
-  "sb_narfinTreasure" : [
+  "sb_narfinTreasure": [
     [1, {
-      "pool" : [
-        {"weight" : 1, "item" : "prisiliteore"}
+      "pool": [
+        {"weight": 1, "item": "prisiliteore"}
       ],
-      "poolRounds" : [
+      "poolRounds": [
         [0.6, 0],
         [0.2, 1],
         [0.1, 2],
@@ -96,12 +95,12 @@
       ]
     }]
   ],
-  "sb_crabcanoTreasure" : [
+  "sb_crabcanoTreasure": [
     [1, {
-      "pool" : [
-        {"weight" : 1, "item" : "volatilepowder"}
+      "pool": [
+        {"weight": 1, "item": "volatilepowder"}
       ],
-      "poolRounds" : [
+      "poolRounds": [
         [0.6, 0],
         [0.2, 1],
         [0.1, 2],
@@ -109,12 +108,12 @@
       ]
     }]
   ],
-  "sb_trictusTreasure" : [
+  "sb_trictusTreasure": [
     [1, {
-      "pool" : [
-        {"weight" : 1, "item" : "cacti"}
+      "pool": [
+        {"weight": 1, "item": "cacti"}
       ],
-      "poolRounds" : [
+      "poolRounds": [
         [0.6, 0],
         [0.2, 1],
         [0.1, 2],
