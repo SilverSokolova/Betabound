@@ -1,9 +1,12 @@
 {
   "itemName": "sb_crappydagger",
   "definition": "daggers/common",
-  "description" : "An aged dagger. It's still razor sharp and lightning quick.",
+  "description": "An aged dagger. It's still razor sharp and lightning quick.",
   "shortdescription": "Crappy Dagger",
   "tooltipKind": "sb_sword2",
+  "tooltipFields": {
+    "subtitle": "Crappy Dagger"
+  },
   "itemTags": ["weapon", "melee", "dagger"],
 
   "aimOffset": 0,
