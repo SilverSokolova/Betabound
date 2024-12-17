@@ -57,7 +57,7 @@
     "projectileType": "hivebomb",
     "projectileConfig": {
       "speed": 60,
-      "power": 1.5,
+      "power": 6,
       "actionOnReap": [{
           "action": "sound",
           "options": ["/sfx/projectiles/hivebomb_impact.ogg"]
