@@ -1,7 +1,0 @@
-[[
-{"op":"test","path":"/interactions"}
-,{"op":"add","path":"/interactions/-","value":{"liquid":85,"liquidResult":3}}//coffee
-,{"op":"add","path":"/interactions/-","value":{"liquid":86,"liquidResult":3}}//liquidnitrogen
-,{"op":"add","path":"/interactions/-","value":{"liquid":87,"liquidResult":3}}//tentaclejuice
-,{"op":"add","path":"/interactions/-","value":{"liquid":88,"liquidResult":3}}//alienjuice
-]]

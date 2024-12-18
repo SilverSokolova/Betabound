@@ -128,6 +128,9 @@
   [{"op":"test","path":"/regionTypes/fleshcaves/caveLiquid","inverse":true}],[{"op":"add","path":"/regionTypes/fleshcaves/caveLiquid","value":[]}],
   [{"op":"add","path":"/regionTypes/fleshcaves/caveLiquid/-","value":"sb_tentaclejuice"}],
 
+  [{"op":"test","path":"/regionTypes/tentacle/caveLiquid/0","value":"poison"},{"op":"replace","path":"/regionTypes/tentacle/caveLiquid/0","value":"jellyliquid"}],
+  [{"op":"test","path":"/regionTypes/tentacleundergroundtentacles/caveLiquid/0","value":"poison"},{"op":"replace","path":"/regionTypes/tentacleundergroundtentacles/caveLiquid/0","value":"jellyliquid"}],
+
   //PLANETS
     //Tentacle
     [{
