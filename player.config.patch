@@ -124,7 +124,6 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_copybook"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_blankblueprint"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_wrappingpaper"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_wateringcan"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_spaceairtank"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_songbook"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_radio"}}],
