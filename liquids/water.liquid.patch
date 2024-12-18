@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/interactions","inverse":true},{"op":"add","path":"/interactions","value":[]}],
+[{"op":"add","path":"/interactions/-","value":{"liquid":17,"liquidResult":17}}] //jelly
+]
