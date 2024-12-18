@@ -278,7 +278,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_heatingbag"}}],
 
 
-//Weapons (For the `"crafted":true` entries, we can't do those kinds of recipes in learnBlueprintsOnPickup
+//Weapons (For the `"crafted":true` entries, we can't do those kinds of recipes in learnBlueprintsOnPickup)
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_slingshot"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_huntingknife"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_brainextractor"}}],

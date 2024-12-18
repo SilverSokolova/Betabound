@@ -4,5 +4,6 @@
 
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
 {"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
-[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_groundfirebomb"}]
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_groundfirebomb"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"flamethrower"}]
 ]

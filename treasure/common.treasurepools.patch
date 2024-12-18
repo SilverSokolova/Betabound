@@ -502,6 +502,7 @@ IF BOTH ARE YES, THEN CONGRATS! SHOVE IT UNDER 'RARE'
   [{"op":"add","path":"/uniqueWeaponRecipe/0/1/pool/-","value":{"weight":1,"item":"wormerang-recipe"}}],
   [{"op":"add","path":"/uniqueWeaponRecipe/0/1/pool/-","value":{"weight":1,"item":"sb_explosiveglove-recipe"}}],
   [{"op":"add","path":"/uniqueWeaponRecipe/0/1/pool/-","value":{"weight":1,"item":"astrosabredeluxe-recipe"}}],
+  [{"op":"add","path":"/uniqueWeaponRecipe/0/1/pool/-","value":{"weight":1,"item":"wormgun-recipe"}}],
 
     //End Game
   [{"op":"add","path":"/endTreasure/0/1/fill/-","value":{"item":["sb_musicsheet",1,{"music":"stellar-acclimation"}]}}],

@@ -66,6 +66,7 @@
 ,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_corrosivegun"}}]
 ,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_corrosivegun-recipe"}}]
 ,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_alienlaser"}}]
+,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.1,"item":"wormgun-recipe"}}]
 
 
   // ================================

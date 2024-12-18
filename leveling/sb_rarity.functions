@@ -1,18 +1,18 @@
 {
-  "sb_rarity" : ["linear", "clamp",
+  "sb_rarity": ["linear", "clamp",
     [1, 1],
     [2, 1],
     [3, 2],
     [4, 2],
     [5, 3],
-    [6, 3],
+    [6, 4],
     [7, 4],
     [8, 4],
     [9, 5],
     [10, 5]
   ],
   //used for parry ability
-  "sb_shieldLevelMultiplier" : ["linear", "clamp",
+  "sb_shieldLevelMultiplier": ["linear", "clamp",
     [0, 0.9],
     [1, 1],
     [2, 1.15],
