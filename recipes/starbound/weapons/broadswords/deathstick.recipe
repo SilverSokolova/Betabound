@@ -1,5 +1,5 @@
 {
-  "input": [["titaniumbar",10],["hivebomb",5]],
+  "input": [["titaniumbar",6],["copperbar",4],["hivebomb",5]],
   "output": ["sb_deathstick",1,{"crafted":true}],
   "groups": ["craftinganvil2","weapons","all"]
 }

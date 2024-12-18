@@ -1,5 +1,5 @@
 {
-  "input": [["refinedviolium",3],["sb_meatchunks",7],["bone",7]],
+  "input": [["refinedviolium",2],"copperbar",["sb_meatchunks",7],["bone",7]],
   //originally used impervium and fleshstrand
   "output": ["sb_splatterknife",1,{"crafted":true}],
   "groups": ["craftingseparator","weapons","all"]

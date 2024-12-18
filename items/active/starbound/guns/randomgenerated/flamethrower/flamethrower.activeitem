@@ -8,13 +8,13 @@
   "tooltipKind": "sb_gun2",
   "category": "uniqueWeapon",
   "description": "",
-  "shortdescription": "Flamethrower",
+  "shortdescription": "Chemical Thrower",
   "paletteSwaps": "",
   "twoHanded": true,
   "level": 1,
   "itemTags": ["weapon", "ranged"],
   "tooltipFields": {
-    "subtitle": "<elementalName>thrower"
+    "subtitle": "Chemical Thrower"
   },
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "animation": "/items/active/weapons/ranged/gun.animation",
