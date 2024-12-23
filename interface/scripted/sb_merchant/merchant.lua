@@ -11,6 +11,7 @@ function init()
   widget.setText(tbCount, "x0")
   widget.setText(lblBuyTotal, "0")
 
+  maxSpinCount = config.getParameter("maxSpinCount", (root.assetJson("/interface/windowconfig/crafting.config").default or {}).maxSpinCount or 1000)
   buyFactor = config.getParameter("buyFactor", 1)
   itemQuantityText = config.getParameter("itemQuantityText")
   soldOutText = config.getParameter("soldOutText")
@@ -58,7 +59,15 @@ end
 
 function countChanged()
   local selectedItemCount = widget.getData(string.format("%s.%s", itemList, selectedItem)).count
-  count = math.min(math.max(0, count), selectedItemCount)
+  if selectedItemCount == 0 then
+    count = 0
+  else
+    if count == selectedItemCount + 1 then --No, we can't use greater than here, it has to be equals n + 1. Otherwise, spinning downwards doesn't work
+      count = 1
+    else
+      count = math.min(math.max(0, count), selectedItemCount)
+    end
+  end
   widget.setText(tbCount, "x"..count)
 end
 
@@ -73,19 +82,17 @@ function incrementCount(n)
     end
     n = tonumber(n) or 1
     count = (count or 0) + n
-    if count == 1001 then
+    if count > maxSpinCount then
       count = 1
-    elseif count > 1001 then
-      count = n == 1 and 1 or 1000
     elseif count < 1 then
-      count = 1000
+      count = maxSpinCount
     end
     countChanged()
   end
 end
 
 function buy()
-  if player.consumeCurrency("money", buyTotal) then
+  if player.isAdmin() or player.consumeCurrency("money", buyTotal) then
     world.sendEntityMessage(id, "itemPurchased", itemData, count)
 
     local data = widget.getData(string.format("%s.%s", itemList, selectedItem))
@@ -97,6 +104,7 @@ function buy()
     widget.setText(string.format("%s.%s.sb_itemSubtitle", itemList, selectedItem), inStock and string.format(itemQuantityText, data.count) or soldOutText)
     listedItems[data.order].inStock = inStock
     widget.playSound(buySound)
+    count = 1
     countChanged()
   end
 end
@@ -124,7 +132,7 @@ function itemSelected()
   hasItemSelected = true
   selectedItem = widget.getListSelected(itemList)
   count = 1
-  countChanged(0)
+  countChanged()
   itemData = widget.getData(string.format("%s.%s", itemList, selectedItem))
   selectedItemIndex = itemData.order
   price = itemData.price
@@ -140,7 +148,7 @@ function update()
   for i = 1, #listedItems do
     widget.setVisible(string.format("%s.%s.unavailableoverlay", itemList, listedItems[i].id), not ((listedItems[i].inStock and money > listedItems[i].price) or false))
     if listedItems[i].id == selectedItem then
-      widget.setButtonEnabled(btnBuy, (listedItems[i].inStock and money >= listedItems[i].price * (count == 0 and 1 or count)) or false)
+      widget.setButtonEnabled(btnBuy, (listedItems[i].inStock and (player.isAdmin() or money >= listedItems[i].price * (count == 0 and 1 or count))) or false)
     end
   end
   updatePrice()
