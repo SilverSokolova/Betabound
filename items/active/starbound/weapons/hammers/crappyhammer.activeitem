@@ -2,7 +2,6 @@
   "itemName": "sb_crappyhammer",
   "definition": "hammers/common",
   "shortdescription": "Crappy Hammer",
-  "description": "Just as slow, heavy, and effective as it was in its prime.",
   "tooltipKind": "sb_sword2",
   "tooltipFields": {
     "subtitle": "Crappy Hammer"

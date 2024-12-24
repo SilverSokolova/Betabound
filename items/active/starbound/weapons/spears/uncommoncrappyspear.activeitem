@@ -6,7 +6,6 @@
     "subtitle": "Crappy Spear"
   },
   "shortdescription": "Uncommon Crappy Spear",
-  "description": "This spear has seen better days, but it's perfect for enemies just out of reach.",
   "itemTags": ["weapon", "melee", "spear"],
 
   "primaryAbilityType": "sb_spear",

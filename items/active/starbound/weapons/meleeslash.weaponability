@@ -3,7 +3,7 @@
   "level": 1,
   "category": "broadsword",
   "twoHanded": true,
-  "description": "Slow, heavy, and effective.",
+  "description": "A powerful two-handed sword.",
 
   "animation": "/items/active/starbound/weapons/broadsword.animation",
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],

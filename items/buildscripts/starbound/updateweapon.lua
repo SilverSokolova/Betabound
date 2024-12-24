@@ -1,5 +1,5 @@
 --[[
-I'm not going to erase people's save data every time weapon changed
+I'm not going to erase people's save data every time weapon changes
 results in bricked characters, so this is what we're doing since we
 also can't access item versioning scripts. Bah! I decided to do it
 this way rather than implementing a 'version' parameter on weapons
@@ -18,6 +18,7 @@ function build(directory, config, parameters, level, seed)
     or (config.itemName == "sb_buster" and parameters.primaryAbilityType == "bowshot")
     or (config.itemName == "sb_slimestaff" and parameters.altAbilityType == "elementbouncer")
     or (config.primaryAbilityType == "sb_shortswordcombo" and parameters.primaryAbilityType == "sb_meleeslash2")
+    or (config.primaryAbilityType == "sb_meleeslash" and parameters.primaryAbilityType == "broadswordcombo")
     then
       parameters.primaryAbilityType = config.primaryAbilityType
       parameters.primaryAbility = config.primaryAbility

@@ -1,7 +1,6 @@
 {
   "itemName": "sb_crappyaxe",
   "definition": "axes/common",
-  "description": "Designed for effective chopping. Despite its wear and tear, it still gets the job done.",
   "shortdescription": "Crappy Axe",
   "tooltipKind": "sb_sword2",
   "tooltipFields": {

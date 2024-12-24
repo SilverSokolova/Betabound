@@ -1,7 +1,6 @@
 {
   "itemName": "sb_uncommoncrappyshortsword",
   "definition": "shortswords/uncommon",
-  "description": "Despite its wear and tear, this one-handed sword is still sturdy.",
   "shortdescription": "Uncommon Crappy Shortsword",
   "tooltipKind": "sb_sword2",
   "tooltipFields": {

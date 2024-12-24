@@ -1,24 +1,14 @@
 {
   "itemName": "sb_crappybroadsword",
-  "price": 25,
-  "rarity": "common",
+  "definition": "broadswords/common",
   "tooltipKind": "sb_sword2",
   "tooltipFields": {
     "subtitle": "Crappy Broadsword"
   },
-  "description": "A two-handed sword, just as powerful as the day it was forged.",
   "shortdescription": "Common Crappy Broadsword",
   "itemTags": ["weapon", "melee", "broadsword"],
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "primaryAbilityType": "sb_meleeslash",
-  "primaryAbility": {
-    "fireTime": [0.7, 0.99],
-    "baseDps": [8, 9],
-    "damageConfig": {
-      "knockback": 15
-    }
-  },
   "builderConfig": [{
       "nameGenerator": "crappynames.config:nameGen",
       "elementalType": "physical",

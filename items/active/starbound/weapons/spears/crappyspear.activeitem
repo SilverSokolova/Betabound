@@ -5,7 +5,6 @@
   "tooltipFields": {
     "subtitle": "Crappy Spear"
   },
-  "description": "This spear has seen better days, but it's perfect for enemies just out of reach.",
   "shortdescription": "Common Crappy Spear",
   "itemTags": ["weapon", "melee", "spear"],
 

@@ -1,20 +1,16 @@
 {
   "itemName": "sb_deathstick",
-  "price": 800,
-  "maxStack": 1,
+  "price": 990,
   "fixedLevel": false,
-  "rarity": "rare",
-  "category": "broadsword",
+  "rarity": "uncommon",
   "description": "OH NO NOT THE BEES NO NO ARGH MY EYES!",
   "shortdescription": "Death Stick",
   "tooltipKind": "sb_sword2",
   "tooltipFields": {
     "objectImage": "/items/active/starbound/weapons/broadswords/deathstick.png"
   },
-  "twoHanded": true,
   "itemTags": ["weapon", "melee", "broadsword"],
   "inventoryIcon": "deathstickicon.png",
-  "animation": "/items/active/starbound/weapons/broadsword.animation",
   "animationParts": {
     "blade": "deathstick.png",
     "handle": ""
@@ -47,7 +43,6 @@
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "elementalType": "physical",
   "altAbilityType": "spinslash",
   "primaryAbilityType": "sb_meleeslash",

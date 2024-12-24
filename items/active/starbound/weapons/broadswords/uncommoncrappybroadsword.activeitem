@@ -1,12 +1,10 @@
 {
   "itemName": "sb_uncommoncrappybroadsword",
-  "price": 25,
-  "rarity": "uncommon",
+  "definition": "broadswords/uncommon",
   "tooltipKind": "sb_sword2",
   "tooltipFields": {
     "subtitle": "Crappy Broadsword"
   },
-  "description": "A two-handed sword, just as powerful as the day it was forged.",
   "shortdescription": "Uncommon Crappy Broadsword",
   // "sb_dyeable" : true,
   // "sb_backingDirectives" : "?replace;f5e458=ffca8a;bc8b07=e0975c;a1750b=a85636;e9e9e9=ffca8a;b1b1b1=e0975c;676767=a85636",
@@ -14,16 +12,9 @@
   "itemTags": ["weapon", "melee", "broadsword"],
 
   "primaryAbilityType": "sb_meleeslash",
-  "primaryAbility": {
-    "fireTime": [0.7, 0.99],
-    "baseDps": [9, 10],
-    "damageConfig": {
-      "knockback": 15
-    }
-  },
   "builderConfig": [{
       "nameGenerator": "crappynames.config:nameGen",
-      "elementalType": ["physical", "fire", "ice", "electric", "poison"],
+      "elementalType": ["fire", "ice", "electric", "poison"],
       "elementalConfig": {
         "fire": {
           "primaryAbility": {
@@ -70,14 +61,6 @@
           "paletteSwap": true
         }
       },
-      "altAbilities_physical": [
-        "bladecharge",
-        "downstab",
-        "parry",
-        "risingslash",
-        "spinslash",
-        "superspinslash"
-      ],
       "altAbilities": [
         "bladecharge",
         "downstab",

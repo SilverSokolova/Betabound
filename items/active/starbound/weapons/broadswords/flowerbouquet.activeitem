@@ -1,16 +1,11 @@
 {
   "itemName": "sb_flowerbouquet",
-  "level": 1,
   "price": 100,
-  "maxStack": 1,
   "rarity": "rare",
   "tooltipKind": "sb_sword2",
-  "category": "broadsword",
   "description": "Hit them with your love!",
   "shortdescription": "Flower Bouquet",
-  "twoHanded": true,
   "itemTags": ["weapon", "melee", "broadsword"],
-  "animation": "/items/active/starbound/weapons/broadsword.animation",
   "inventoryIcon": "flowerbouquet.png",
   "animationParts": {
     "blade": "flowerbouquet.png",
@@ -45,7 +40,6 @@
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "elementalType": "physical",
   "primaryAbilityType": "sb_meleeslash",
   "primaryAbility": {
