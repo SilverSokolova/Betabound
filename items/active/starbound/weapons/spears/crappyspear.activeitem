@@ -1,6 +1,6 @@
 {
   "itemName": "sb_crappyspear",
-  "definition": "spears/common",
+  "definition": ["spears/common", "spears/physicalAbilities"],
   "tooltipKind": "sb_sword2",
   "tooltipFields": {
     "subtitle": "Crappy Spear"
@@ -9,21 +9,6 @@
   "itemTags": ["weapon", "melee", "spear"],
 
   "primaryAbilityType": "sb_spear",
-  "primaryAbility": {
-    "stances": {
-      "idle": {
-        "allowFlip": true,
-        "allowRotate": true,
-        "weaponOffset": [0, 0.95]
-      },
-      "fire": {
-        "duration": 0.24
-      },
-      "windup": {
-        "duration": 0.2
-      }
-    }
-  },
   "builderConfig": [{
       "nameGenerator": "crappyspearnames.config:nameGen",
       "elementalType": "physical",
@@ -39,10 +24,6 @@
           "paletteSwap": true
         }
       },
-      "altAbilities": [
-        "flurry",
-        "spearspin"
-      ],
       "iconDrawables": ["handle", "blade"],
       "palette": "/items/active/starbound/colors/crappy.weaponcolors"
     }

@@ -1,18 +1,12 @@
 {
   "itemName": "sb_sabertoothspear",
-  "level": 1,
+  "definition": ["spears/common", "spears/physicalAbilities"],
   "fixedLevel": false,
-  "price": 800,
-  "maxStack": 1,
-  "rarity": "rare",
   "sb_waBan": true,
   "tooltipKind": "sb_sword2",
-  "category": "spear",
   "description": "This spear slings blobs of tar, perfect for slowing down a troublesome foe.",
   "shortdescription": "Sabertooth Spear",
-  "twoHanded": true,
   "itemTags": ["weapon", "melee", "spear"],
-  "animation": "/items/active/starbound/weapons/spear.animation",
   //"directives" : "?replace;ffca8a=e6e6e6;e0975c=b6b6b6;a85636=7b7b7b;6f2919=373737",
   "inventoryIcon": "sabertoothspear.png",
   "animationParts": {
@@ -38,35 +32,18 @@
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "elementalType": "physical",
-  "altAbilityType": "flurry",
   "primaryAbilityType": "sb_spear",
   "primaryAbility": {
     //  "damageConfig" : {"statusEffects" : ["tarslow"]},
     "projectileType": "sb_tarblob",
-    "projectileOffset": [5, 1],
-    "fireTime": [0.5, 0.7],
-    "baseDps": [8.5, 12.5],
-    "stances": {
-      "idle": {
-        "allowFlip": true,
-        "allowRotate": true,
-        "weaponOffset": [0, 0.95]
-      },
-      "fire": {
-        "duration": 0.24
-      },
-      "windup": {
-        "duration": 0.2,
-        "weaponOffset": [0, 0.95]
-      }
-    }
+    "projectileOffset": [5, 1]
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua",
 
   "craftedParameters": {
     "level": 2,
-    "seed": 1
+    "seed": 1,
+    "altAbilityType": "flurry"
   }
 }

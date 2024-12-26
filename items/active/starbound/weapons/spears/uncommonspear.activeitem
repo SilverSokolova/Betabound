@@ -1,6 +1,6 @@
 {
   "itemName": "sb_uncommonspear",
-  "definition": "spears/uncommon",
+  "definition": ["spears/uncommon", "spears/elementalProjectiles", "spears/elementalAbilities"],
   "tooltipKind": "sb_sword2",
   "shortdescription": "Uncommon Spear",
   "itemTags": ["weapon", "melee", "spear"],
@@ -11,62 +11,11 @@
 
   "primaryAbilityType": "sb_spear",
   "primaryAbility": {
-    "projectileOffset": [5, 1],
-    "stances": {
-      "idle": {
-        "allowFlip": true,
-        "allowRotate": true,
-        "weaponOffset": [0, 0.95]
-      },
-      "fire": {
-        "duration": 0.24
-      },
-      "windup": {
-        "duration": 0.2
-      }
-    }
+    "projectileOffset": [5, 1]
   },
   "builderConfig": [{
       "nameGenerator": "spearnames.config:nameGen",
       "elementalType": ["fire", "ice", "electric", "poison"],
-      "elementalConfig": {
-        "fire": {
-          "primaryAbility": {
-            "projectileTypes": ["fireswirl", "marioball", "flamethrower"],
-            "damageConfig": {
-              "statusEffects": ["burning"],
-              "damageSourceKind": "firespear"
-            }
-          }
-        },
-        "ice": {
-          "primaryAbility": {
-            "projectileTypes": ["icethrower", "icecrabcanosnowball"],
-            "damageConfig": {
-              "statusEffects": ["frostslow"],
-              "damageSourceKind": "icespear"
-            }
-          }
-        },
-        "electric": {
-          "primaryAbility": {
-            "projectileTypes": ["electricexplosion", "lightningthrower", "teslabolt", "shock", "electro", "lightning2", "teslaboltsmall", "shockbomb"],
-            "damageConfig": {
-              "statusEffects": ["electrified"],
-              "damageSourceKind": "electricspear"
-            }
-          }
-        },
-        "poison": {
-          "primaryAbility": {
-            "projectileType": "poisonthrower",
-            "damageConfig": {
-              "statusEffects": ["weakpoison"],
-              "damageSourceKind": "poisonspear"
-            }
-          }
-        }
-      },
       "animationParts": {
         "blade": {
           "path": "spear/blade/<variant>.png",
@@ -95,13 +44,6 @@
           }
         }
       },
-      "altAbilities": [
-        "flurry",
-        "blinkexplosion",
-        "barrier",
-        "elementalspin",
-        "rocketspear"
-      ],
       "iconDrawables": ["handle", "blade"],
       "palette": "/items/active/starbound/colors/melee.weaponcolors"
     }
