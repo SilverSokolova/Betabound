@@ -3,6 +3,7 @@
   "level": 1,
   "category": "dagger",
   "description": "Razor sharp and lightning quick.",
+  "tooltipKind": "sb_sword2",
   "handGrip": "inside",
 
   "animation": "/items/active/starbound/weapons/dagger.animation",

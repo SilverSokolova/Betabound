@@ -4,6 +4,7 @@
   "category": "shortsword",
   "twoHanded": false,
   "description": "A sturdy one-handed sword.",
+  "tooltipKind": "sb_sword2",
 
   "handGrip": "inside",
   "animation": "/items/active/starbound/weapons/comboshortsword.animation",

@@ -4,6 +4,7 @@
   "category": "hammer",
   "twoHanded": true,
   "description": "Slow, heavy, and effective.",
+  "tooltipKind": "sb_sword2",
 
   "animation": "/items/active/starbound/weapons/hammer.animation",
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],

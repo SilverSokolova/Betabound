@@ -1,5 +1,12 @@
 {
 //TODO: rename and get rid of this once we have shortsword combos. shortsword.weaponability mmmm
+  "tooltipKind": "sb_sword2",
+  "maxStack": 1,
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "animation": "/items/active/starbound/weapons/shortsword.animation",
+  "category": "shortsword",
+  "aimOffset": 0,
+  "handGrip": "inside",
   "animationParts": {},
   "animationCustom": {
     "sounds": {
