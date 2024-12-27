@@ -1,6 +1,6 @@
 {
   "itemName": "sb_crappyspear",
-  "definition": ["spears/common", "spears/physicalAbilities"],
+  "definition": ["spears/common", "spears/abilities"],
   "tooltipKind": "sb_sword2",
   "tooltipFields": {
     "subtitle": "Crappy Spear"

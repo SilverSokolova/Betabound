@@ -1,6 +1,6 @@
 {
   "itemName": "sb_uncommonspear",
-  "definition": ["spears/uncommon", "spears/elementalProjectiles", "spears/elementalAbilities"],
+  "definition": ["spears/uncommon", "elementalprojectiles", "spears/abilities"],
   "tooltipKind": "sb_sword2",
   "shortdescription": "Uncommon Spear",
   "itemTags": ["weapon", "melee", "spear"],
@@ -11,11 +11,14 @@
 
   "primaryAbilityType": "sb_spear",
   "primaryAbility": {
-    "projectileOffset": [5, 1]
+    "projectileOffset": [5, 1],
+    "damageConfig": {
+      "damageSourceKind": "<elementalType>spear"
+    }
   },
   "builderConfig": [{
       "nameGenerator": "spearnames.config:nameGen",
-      "elementalType": ["fire", "ice", "electric", "poison"],
+      "elementalType": ["fire", "fire", "electric", "poison"],
       "animationParts": {
         "blade": {
           "path": "spear/blade/<variant>.png",

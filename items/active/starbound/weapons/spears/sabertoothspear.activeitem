@@ -1,6 +1,6 @@
 {
   "itemName": "sb_sabertoothspear",
-  "definition": ["spears/common", "spears/physicalAbilities"],
+  "definition": ["spears/common", "spears/abilities"],
   "fixedLevel": false,
   "sb_waBan": true,
   "tooltipKind": "sb_sword2",

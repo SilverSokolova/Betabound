@@ -1,6 +1,6 @@
 {
   "itemName": "sb_twistedspear",
-  "definition": ["spears/common", "spears/physicalAbilities"],
+  "definition": ["spears/common", "spears/abilities"],
   "tooltipKind": "sb_sword",
   "description": "",
   "shortdescription": "Twisted Spear",

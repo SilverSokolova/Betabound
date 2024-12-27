@@ -1,6 +1,6 @@
 {
   "itemName": "sb_hackman",
-  "definition": ["spears/rare", "spears/physicalAbilities"],
+  "definition": ["spears/rare", "spears/abilities"],
   "sb_waBan": true,
   "tooltipKind": "sb_sword2",
   "description": "A spontoon equipped with energy-charged crystals.",
