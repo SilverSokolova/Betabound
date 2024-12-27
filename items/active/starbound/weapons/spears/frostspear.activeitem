@@ -2,7 +2,6 @@
   "itemName": "sb_frostspear",
   "definition": ["spears/uncommon", "spears/abilities"],
   "sb_waBan": true,
-  "tooltipKind": "sb_sword2",
   "description": "The tip of this spear is made from crystallised ice, chilling your enemies to the core!",
   "shortdescription": "Frost Spear",
   "itemTags": ["weapon", "melee", "spear"],

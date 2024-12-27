@@ -4,6 +4,7 @@
   "category": "spear",
   "twoHanded": true,
   "description": "This spear is perfect for enemies just out of reach.",
+  "tooltipKind": "sb_sword2",
 
   "animation": "/items/active/starbound/weapons/spear.animation",
   "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],

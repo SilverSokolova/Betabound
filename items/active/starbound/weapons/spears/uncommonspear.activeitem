@@ -1,7 +1,6 @@
 {
   "itemName": "sb_uncommonspear",
   "definition": ["spears/uncommon", "elementalprojectiles", "spears/abilities"],
-  "tooltipKind": "sb_sword2",
   "shortdescription": "Uncommon Spear",
   "itemTags": ["weapon", "melee", "spear"],
 

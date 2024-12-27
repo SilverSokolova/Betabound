@@ -3,7 +3,6 @@
   "definition": ["spears/common", "spears/abilities"],
   "fixedLevel": false,
   "sb_waBan": true,
-  "tooltipKind": "sb_sword2",
   "description": "This spear slings blobs of tar, perfect for slowing down a troublesome foe.",
   "shortdescription": "Sabertooth Spear",
   "itemTags": ["weapon", "melee", "spear"],

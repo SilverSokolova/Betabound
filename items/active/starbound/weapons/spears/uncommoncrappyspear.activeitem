@@ -1,7 +1,6 @@
 {
   "itemName": "sb_uncommoncrappyspear",
   "definition": ["spears/uncommon", "elementalprojectiles", "spears/abilities"],
-  "tooltipKind": "sb_sword2",
   "tooltipFields": {
     "subtitle": "Crappy Spear"
   },

@@ -17,7 +17,17 @@
           "path": "broadsword/blade/<variant>.png",
           "variants": 50,
           "paletteSwap": true,
-          "fullbrights": [11, 12, 13, 25, 27, 31, 33, 35, 45]
+          "fullbrightParts": {
+            "11": true,
+            "12": true,
+            "13": true,
+            "25": true,
+            "27": true,
+            "31": true,
+            "33": true,
+            "35": true,
+            "45": true
+          }
         },
         "handle": {
           "path": "broadsword/handle/<variant>.png",

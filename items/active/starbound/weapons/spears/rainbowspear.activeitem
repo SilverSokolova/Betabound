@@ -1,7 +1,6 @@
 {
   "itemName": "sb_rainbowspear",
   "definition": "spears/uncommon",
-  "tooltipKind": "sb_sword2",
   "tooltipFields": {
     "subtitle": "Rainbow Spear"
   },

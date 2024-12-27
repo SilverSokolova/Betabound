@@ -1,7 +1,6 @@
 {
   "itemName": "sb_commonspear",
   "definition": ["spears/common", "spears/abilities"],
-  "tooltipKind": "sb_sword2",
   "shortdescription": "Common Spear",
   "itemTags": ["weapon", "melee", "spear"],
 
