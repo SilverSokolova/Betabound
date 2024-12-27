@@ -5,7 +5,6 @@
   "rarity": "uncommon",
   "description": "OH NO NOT THE BEES NO NO ARGH MY EYES!",
   "shortdescription": "Death Stick",
-  "tooltipKind": "sb_sword2",
   "tooltipFields": {
     "objectImage": "/items/active/starbound/weapons/broadswords/deathstick.png"
   },

@@ -5,7 +5,6 @@
   "rarity": "Rare",
   "description": "A sword charged with a ridiculous amount of electricity.",
   "shortdescription": "Arcsword",
-  "tooltipKind": "sb_sword2",
   "itemTags": ["weapon", "melee", "broadsword"],
 
   "inventoryIcon": "arcsword.png",

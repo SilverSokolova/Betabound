@@ -3,7 +3,6 @@
   "definition": "broadswords/rare",
   "description": "An unreal blade quivering with tremendous energy. It seems to have a mind of its own.",
   "shortdescription": "Cellshade ^yellow;^reset;",
-  "tooltipKind": "sb_sword2",
   "sb_waBan": true,
   "itemTags": ["weapon", "melee", "broadsword"],
   "sb_dyeable": true,

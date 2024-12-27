@@ -2,7 +2,6 @@
   "itemName": "sb_rainbowsword",
   "definition": "broadswords/uncommon",
   "sb_waBan": true,
-  "tooltipKind": "sb_sword2",
   "description": "This beautiful blade shines with a striking iridescence that catches the eye.", //bends light around it like a prism,
   "shortdescription": "Rainbow Rapier",
   "itemTags": ["weapon", "melee", "broadsword"],

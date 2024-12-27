@@ -2,7 +2,6 @@
   "itemName": "sb_flowerbouquet",
   "price": 100,
   "rarity": "rare",
-  "tooltipKind": "sb_sword2",
   "description": "Hit them with your love!",
   "shortdescription": "Flower Bouquet",
   "itemTags": ["weapon", "melee", "broadsword"],

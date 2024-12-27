@@ -3,7 +3,6 @@
   "definition": "broadswords/rare",
   "description": "A massive sword with intertwining blades.",
   "shortdescription": "Chromosword",
-  "tooltipKind": "sb_sword2",
   "sb_waBan": true,
   "itemTags": ["weapon", "melee", "broadsword", "upgradeableWeapon"],
   "sb_dyeable": true,

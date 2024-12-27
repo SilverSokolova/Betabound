@@ -1,7 +1,6 @@
 {
   "itemName": "sb_uncommonbroadsword",
   "definition": "broadswords/uncommon",
-  "tooltipKind": "sb_sword2",
   "shortdescription": "Uncommon Broadsword",
   "sb_dyeable": true,
   "sb_backingDirectives": "?replace;fbd644=ffca8a;ca9510=e0975c;754500=a85636;e9e9e9=ffca8a;b1b1b1=e0975c;676767=a85636",

@@ -6,7 +6,6 @@
   "tooltipFields": {
     "subtitle": "Water Sword"
   },
-  "tooltipKind": "sb_sword2",
   "sb_waBan": true,
   "itemTags": ["weapon", "melee", "broadsword"],
   "animationParts": {

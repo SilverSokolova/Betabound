@@ -1,7 +1,6 @@
 {
   "itemName": "sb_uncommoncrappybroadsword",
   "definition": "broadswords/uncommon",
-  "tooltipKind": "sb_sword2",
   "tooltipFields": {
     "subtitle": "Crappy Broadsword"
   },
