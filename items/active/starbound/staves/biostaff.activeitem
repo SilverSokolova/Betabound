@@ -39,7 +39,7 @@
   },
   "altAbility": {
     "name": "Glow Trail",
-    "energyPerShot": 7,
+    "energyPerShot": 14,
     "projectileParameters": {
       "baseDamage": 0,
       "damageTeam": {
@@ -47,7 +47,7 @@
       },
       "statusEffects": [{
           "effect": "glow",
-          "duration": 180
+          "duration": 120
         }
       ]
     },

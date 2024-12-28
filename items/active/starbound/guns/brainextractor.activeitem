@@ -10,7 +10,7 @@
   "itemTags": ["weapon", "ranged", "pistol", "unique"],
   "category": "uniqueWeapon",
   "fixedRarity": true,
-  "rarity": "Rare",
+  "rarity": "Uncommon",
   "animation": "/items/active/weapons/ranged/gun.animation",
   "animationCustom": {
     "sounds": {

@@ -6,7 +6,7 @@
   "tooltipKind": "sb_object4",
   "inventoryIcon": "sb_candy.png",
   "category": "preparedFood",
-  "description": "Hard candy. It probably won't do much for me if I'm starving, but it sure is tasty.",
+  "description": "Hard candy. It probably won't do much if you're starving, but it sure is tasty.",
   "effects": [[{
         "effect": "maxenergyscalingboostfood",
         "duration": 45
