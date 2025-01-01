@@ -1,3 +1,4 @@
 [
-[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}]
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/printable","value":false},{"op":"replace","path":"/printable","value":true}]
 ]

@@ -1,4 +1,5 @@
 [
 [{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":30}],
-[{"op":"test","path":"/category","inverse":true},{"op":"add","path":"/category","value":"wire"}]
+[{"op":"test","path":"/category","inverse":true},{"op":"add","path":"/category","value":"wire"}],
+[{"op":"test","path":"/printable","value":false},{"op":"replace","path":"/printable","value":true}]
 ]

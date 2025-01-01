@@ -1,3 +1,5 @@
 [
-[{"op":"test","path":"/description","value":"These electric lanterns generate a pleasantly warm light"},{"op":"replace","path":"/description","value":"These electric lanterns generate a pleasantly warm light."}]
+//TODO: give desc fix to patch project
+[{"op":"test","path":"/description","value":"These electric lanterns generate a pleasantly warm light"},{"op":"replace","path":"/description","value":"These electric lanterns generate a pleasantly warm light."}],
+[{"op":"test","path":"/printable","value":false},{"op":"replace","path":"/printable","value":true}]
 ]
