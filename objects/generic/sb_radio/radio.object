@@ -23,7 +23,8 @@
   },
   "radioData": {
     "song": "/sfx/objects/jukebox.ogg",
-    "range": 60
+    "range": 60,
+    "active": true
   },
   "interactAction": "ScriptPane",
   "interactData": "/interface/scripted/sb_music/music.config",
