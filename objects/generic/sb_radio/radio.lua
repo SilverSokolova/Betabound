@@ -52,7 +52,6 @@ function processWireInteraction()
 end
 
 function updateRadio(data)
-sb.logInfo(sb.print(data))
   storage.radio.range = data.range
 
   if data.song then
