@@ -1,9 +1,9 @@
 {
-  "itemName": "sb_carrotcake",
-  "price": 195,
-  "foodValue": 25,
-  "tooltipKind": "sb_object4",
-  "rarity": "common",
+  "itemName": "sb_cheesecake",
+  "price": 490,
+  "foodValue": 75,
+  "tooltipKind": "sb_object",
+  "rarity": "legendary",
   "itemTags": ["sb_cake"],
   "sb_plate": {
     "width": 4,
@@ -11,18 +11,18 @@
   },
   "handPosition": [1.4, -1.85],
   "category": "preparedFood",
-  "inventoryIcon": "carrotcake.png",
+  "inventoryIcon": "cheesecake.png",
   "effects": [[{
         "effect": "maxenergyscalingboostfood",
-        "duration": 225
+        "duration": 675
       }, {
         "effect": "sb_energy",
-        "duration": 15
+        "duration": 35
       },
-      "sb_foodheal70"
+      "sb_foodheal265"
     ]],
-  "description": "It's a delicious carrot shortcake! Tastes better than it sounds.",
-  "shortdescription": "Carrot Shortcake",
+  "description": "A creamy cheesecake! Absolutely lovely.",
+  "shortdescription": "Cheesecake",
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
   "rottingMultiplier": 4

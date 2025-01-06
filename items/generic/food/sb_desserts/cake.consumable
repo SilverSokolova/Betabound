@@ -24,6 +24,5 @@
   "shortdescription": "Shortcake",
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
-  "rottingMultiplier": 4,
-  "learnBlueprintsOnPickup": ["sb_carrotcake"]
+  "rottingMultiplier": 4
 }

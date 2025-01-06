@@ -1,0 +1,6 @@
+{
+  "input": ["wheat","sugar","milk","egg","cheese","sb_poisoncreep"],
+  "output": "sb_cheesecake",
+  "groups": ["craftingfood","desserts","sb_healing","sb_energy","all"],
+  "collectables": {"cooking":"sb_cheesecake"}
+}

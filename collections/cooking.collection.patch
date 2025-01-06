@@ -48,7 +48,7 @@
 [{"op":"add","path":"/collectables/sb_cake","value":{"order":86.9,"item":"sb_cake"}}],
 [{"op":"add","path":"/collectables/sb_crowncake","value":{"order":87,"item":"sb_crowncake"}}],
 [{"op":"add","path":"/collectables/sb_icecream","value":{"order":88,"item":"sb_icecream"}}],
-[{"op":"add","path":"/collectables/sb_carrotcake","value":{"order":88.9,"item":"sb_carrotcake"}}],
+[{"op":"add","path":"/collectables/sb_cheesecake","value":{"order":88.9,"item":"sb_cheesecake"}}],
 [{"op":"test","path":"/collectables/valentinechocolates","inverse":true},{"op":"add","path":"/collectables/valentinechocolates","value":{"order":89,"item":"valentinechocolates"}}],
 [{"op":"add","path":"/collectables/sb_crystalchips","value":{"order":89.9,"item":"sb_crystalchips"}}],
 [{"op":"add","path":"/collectables/sb_crystalnachos","value":{"order":89.9,"item":"sb_crystalnachos"}}],

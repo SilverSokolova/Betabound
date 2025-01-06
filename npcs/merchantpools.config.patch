@@ -331,7 +331,7 @@
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_toast"}}}],
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_cake"}}}],
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_candy"}}}],
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_carrotcake"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_cheesecake"}}}],
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_chocolatecoffeebeans"}}}],
 
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_batteryacid"}}}],
@@ -339,7 +339,7 @@
 
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"soda"}}}],
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_meatballs"}}}],
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"pizza"}}}],
+//[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"pizza"}}}],
 
 //T3
 [{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_crystalnachos"}}}],

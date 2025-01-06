@@ -40,7 +40,7 @@
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_cake"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_candy"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_candyapple"}]
-,[{"op":"add","path":"/acceptItems/-","value":"sb_carrotcake"}]
+,[{"op":"add","path":"/acceptItems/-","value":"sb_cheesecake"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_sweetmeat"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_chocolatecoffeebeans"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_batteryacid"}]

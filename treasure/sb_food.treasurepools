@@ -131,7 +131,7 @@
         ,{"weight" : 0.8, "item" : "sb_toast"}
         ,{"weight" : 0.75, "item" : "sb_cake"}
         ,{"weight" : 0.95, "item" : "sb_candy"}
-        ,{"weight" : 0.75, "item" : "sb_carrotcake"}
+        ,{"weight" : 0.75, "item" : "sb_cheesecake"}
         ,{"weight" : 0.7, "item" : "sb_chocolatecoffeebeans"}
 
         ,{"weight" : 0.9, "item" : "sb_batteryacid"}
