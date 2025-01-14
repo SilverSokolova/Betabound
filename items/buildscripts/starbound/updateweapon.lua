@@ -19,6 +19,7 @@ function build(directory, config, parameters, level, seed)
     or (config.itemName == "sb_slimestaff" and parameters.altAbilityType == "elementbouncer")
     or (config.primaryAbilityType == "sb_shortswordcombo" and parameters.primaryAbilityType == "sb_meleeslash2")
     or (config.primaryAbilityType == "sb_meleeslash" and parameters.primaryAbilityType == "broadswordcombo")
+    or (config.primaryAbilityType == "sb_hammer" and parameters.primaryAbilityType == "sb_meleeslash") --candy cane, broadsword to hammer
     then
       parameters.primaryAbilityType = config.primaryAbilityType
       parameters.primaryAbility = config.primaryAbility

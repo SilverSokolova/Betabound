@@ -1,1 +1,25 @@
-{"description":"A dual-bladed sword, also good for band practise.","shortdescription":"The Tuning Fork","itemName":"sb_humantier5abroadsword","definition":["colors/t5a","broadswords/t5a"],"itemTags":["weapon","melee","broadsword"],"animationCustom":{"animatedParts":{"parts":{"swoosh":{"partStates":{"swoosh":{"fire3":{"properties":{"offset":[4.25,0.1]}}}}}}}},"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "A dual-bladed sword, also good for band practise.",
+  "shortdescription": "The Tuning Fork",
+  "itemName": "sb_humantier5abroadsword",
+  "definition": ["colors/t5a", "broadswords/t5a"],
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire3": {
+                "properties": {
+                  "offset": [4.25, 0.1]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

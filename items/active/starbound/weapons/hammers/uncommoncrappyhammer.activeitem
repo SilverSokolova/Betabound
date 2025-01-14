@@ -1,6 +1,6 @@
 {
   "itemName": "sb_uncommoncrappyhammer",
-  "definition": "hammers/uncommon",
+  "definition": ["hammers/uncommon", "hammers/abilities"],
   "shortdescription": "Uncommon Crappy Hammer",
   "tooltipKind": "sb_sword2",
   "tooltipFields": {
@@ -65,14 +65,6 @@
           "paletteSwap": true
         }
       },
-      "altAbilities": [
-        "uppercut",
-        "groundslam",
-        "blinkexplosion",
-        "shockwave",
-        "elementalaura",
-        "elementalpillar"
-      ],
       "palette": "/items/active/starbound/colors/crappy.weaponcolors",
       "iconDrawables": ["handle", "blade"]
     }

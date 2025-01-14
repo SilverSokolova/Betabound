@@ -1,1 +1,8 @@
-{"description":"A blade with a lillypad hilt.","shortdescription":"Lillyblade","itemName":"sb_hylotltier5abroadsword","definition":["colors/t5a","broadswords/t5a"],"itemTags":["weapon","melee","broadsword"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "A blade with a lillypad hilt.",
+  "shortdescription": "Lillyblade",
+  "itemName": "sb_hylotltier5abroadsword",
+  "definition": ["colors/t5a", "broadswords/t5a"],
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

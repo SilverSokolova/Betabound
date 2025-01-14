@@ -1,1 +1,25 @@
-{"description":"A sword that'll split anyone in twain.","shortdescription":"Bios","itemName":"sb_glitchtier6abroadsword","definition":["colors/t6a","broadswords/t6a"],"itemTags":["weapon","melee","broadsword"],"animationCustom":{"animatedParts":{"parts":{"swoosh":{"partStates":{"swoosh":{"fire3":{"properties":{"offset":[3.5,0.1]}}}}}}}},"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "A sword that'll split anyone in twain.",
+  "shortdescription": "Bios",
+  "itemName": "sb_glitchtier6abroadsword",
+  "definition": ["colors/t6a", "broadswords/t6a"],
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire3": {
+                "properties": {
+                  "offset": [3.5, 0.1]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

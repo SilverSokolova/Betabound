@@ -33,6 +33,16 @@
                 "properties": {
                   "offset": [0.65, 1.875]
                 }
+              },
+              "fire2": {
+                "properties": {
+                  "offset": [5.5, 0.85]
+                }
+              },
+              "fire3": {
+                "properties": {
+                  "offset": [4.5, 0]
+                }
               }
             }
           }

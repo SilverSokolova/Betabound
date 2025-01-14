@@ -1,8 +1,8 @@
 {
-  "itemName" : "sb_hylotlstarter",
-  "definition" : "starter",
-  "itemTags" : ["weapon","melee","broadsword"],
-  "description" : "It looks like it got eaten by a shark.",
-  "shortdescription" : "Broken Wave Sword",
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "itemName": "sb_hylotlstarter",
+  "definition": "starter",
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "description": "It looks like it got eaten by a shark.",
+  "shortdescription": "Broken Wave Sword",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

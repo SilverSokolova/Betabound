@@ -22,7 +22,8 @@
             "swoosh": {
               "fire": {
                 "properties": {
-                  "image": "shroomswooshx.png:<frame>"
+                  "image": "shroomswooshx.png:<frame>",
+                  "offset": [-1.1, 2]
                 }
               }
             }

@@ -28,7 +28,7 @@
             "swoosh": {
               "fire": {
                 "properties": {
-                  "offset": [0, 1.5],
+                  "offset": [-1.5, 1.5],
                   "image": "/projectiles/swoosh/sb_boneswoosh/boneswoosh.png:<frame>"
                 }
               }

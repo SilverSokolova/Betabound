@@ -1,1 +1,30 @@
-{"description":"A sword decorated with berries.","shortdescription":"Big Berryskewer","itemName":"sb_florantier6mbroadsword","definition":["colors/t6m","broadswords/t6m"],"itemTags":["weapon","melee","broadsword"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "A sword decorated with berries.",
+  "shortdescription": "Big Berryskewer",
+  "itemName": "sb_florantier6mbroadsword",
+  "definition": ["colors/t6m", "broadswords/t6m"],
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire2": {
+                "properties": {
+                  "offset": [5, 0]
+                }
+              },
+              "fire3": {
+                "properties": {
+                  "offset": [3.5, -0.75]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

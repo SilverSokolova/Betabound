@@ -1,6 +1,6 @@
 {
   "itemName": "sb_apextier3broadsword",
-  "description": "A standard, relatively decent blade.",
+  "description": "A standard blade.",
   "itemTags": ["weapon", "melee", "broadsword"],
   "definition": "broadswords/t3",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",

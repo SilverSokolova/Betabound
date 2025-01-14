@@ -1,1 +1,8 @@
-{"description":"A regular, sturdy broadsword.","itemTags":["weapon","melee","broadsword"],"itemName":"sb_apextier5abroadsword","definition":["colors/t5a","broadswords/t5a"],"shortdescription":"Barbarian Blade","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "A sturdy broadsword.",
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "itemName": "sb_apextier5abroadsword",
+  "definition": ["colors/t5a", "broadswords/t5a"],
+  "shortdescription": "Barbarian Blade",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

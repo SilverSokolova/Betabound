@@ -13,6 +13,25 @@
     "blade": "overgrownmower.png<directives>",
     "handle": ""
   },
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire2": {
+                  "properties": {
+                    "offset": [1.75, 0.125]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "tags": {
     "<swoosh>": "wildx"
   },

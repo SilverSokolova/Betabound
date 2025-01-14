@@ -1,1 +1,8 @@
-{"description":"A hefty broadsword.","shortdescription":"Hacker","itemName":"sb_glitchtier6mbroadsword","definition":["colors/t6m","broadswords/t6m"],"itemTags":["weapon","melee","broadsword"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "A hefty broadsword.",
+  "shortdescription": "Hacker",
+  "itemName": "sb_glitchtier6mbroadsword",
+  "definition": ["colors/t6m", "broadswords/t6m"],
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

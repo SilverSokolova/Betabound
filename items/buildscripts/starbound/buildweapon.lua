@@ -216,7 +216,7 @@ function build(directory, config, parameters, level, seed)
           glows = true
         end
 
-        if config.sb_dyeable and v.undyeableParts and v.undyeableParts[tostring(parameters.animationPartVariants[k])] then
+        if config.sb_dyeable and v.undyeable or v.undyeableParts and v.undyeableParts[tostring(parameters.animationPartVariants[k])] then
           s_undyeableParts = s_undyeableParts + 1
         end
 

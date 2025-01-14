@@ -1,6 +1,6 @@
 {
   "itemName": "sb_crappyhammer",
-  "definition": "hammers/common",
+  "definition": ["hammers/common", "hammers/abilities"],
   "shortdescription": "Crappy Hammer",
   "tooltipKind": "sb_sword2",
   "tooltipFields": {
@@ -31,11 +31,6 @@
           "paletteSwap": true
         }
       },
-      "altAbilities": [
-        "uppercut",
-        "physicalshockwave",
-        "groundslam"
-      ],
       "palette": "/items/active/starbound/colors/crappy.weaponcolors",
       "iconDrawables": ["handle", "blade"]
     }

@@ -13,6 +13,25 @@
     "blade": "undergrowthtrimmer.png<directives>",
     "handle": ""
   },
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire2": {
+                  "properties": {
+                    "offset": [1.5, 0.125]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "tags": {
     "<swoosh>": "wild"
   },

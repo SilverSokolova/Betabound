@@ -1,6 +1,6 @@
 {
   "itemName": "sb_uncommonhammer",
-  "definition": "hammers/uncommon",
+  "definition": ["hammers/uncommon", "hammers/abilities"],
   "shortdescription": "Uncommon Hammer",
   "tooltipKind": "sb_sword2",
   "sb_dyeable": true,
@@ -80,14 +80,6 @@
           }
         }
       },
-      "altAbilities": [
-        "uppercut",
-        "groundslam",
-        "blinkexplosion",
-        "shockwave",
-        "elementalaura",
-        "elementalpillar"
-      ],
       "palette": "/items/active/starbound/colors/melee.weaponcolors",
       "iconDrawables": ["handle", "blade"]
     }

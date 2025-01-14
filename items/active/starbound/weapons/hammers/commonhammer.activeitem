@@ -1,6 +1,6 @@
 {
   "itemName": "sb_commonhammer",
-  "definition": "hammers/common",
+  "definition": ["hammers/common", "hammers/abilities"],
   "shortdescription": "Common Hammer",
   "tooltipKind": "sb_sword2",
   "sb_dyeable": true,
@@ -42,11 +42,6 @@
           }
         }
       },
-      "altAbilities": [
-        "uppercut",
-        "physicalshockwave",
-        "groundslam"
-      ],
       "palette": "/items/active/starbound/colors/melee.weaponcolors",
       "iconDrawables": ["handle", "blade"]
     }

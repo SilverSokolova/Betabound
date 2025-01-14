@@ -14,11 +14,6 @@
   "animationCustom": {
     "animatedParts": {
       "parts": {
-        "blade": {
-          "properties": {
-            "offset": [0.3, 2.4]
-          }
-        },
         "swoosh": {
           "partStates": {
             "swoosh": {
@@ -26,6 +21,11 @@
                 "properties": {
                   "image": "starcleaverswoosh.png:<frame>",
                   "offset": [0.65, 1.875]
+                }
+              },
+              "fire3": {
+                "properties": {
+                  "offset": [5, 0]
                 }
               }
             }

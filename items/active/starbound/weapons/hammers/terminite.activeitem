@@ -23,7 +23,8 @@
             "swoosh": {
               "fire": {
                 "properties": {
-                  "image": "hiveswoosh.png:<frame>"
+                  "image": "hiveswoosh.png:<frame>",
+                  "offset": [-0.5, 2]
                 }
               }
             }

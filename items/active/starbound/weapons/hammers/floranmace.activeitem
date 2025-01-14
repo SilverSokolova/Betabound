@@ -1,6 +1,6 @@
 {
   "itemName": "sb_floranmace",
-  "definition": "hammers/common",
+  "definition": ["hammers/common", "hammers/abilities"],
   "sb_waBan": true,
   "description": "",
   "shortdescription": "Floran Mace",
@@ -15,6 +15,23 @@
     "blade": "floranmace.png",
     "handle": ""
   },
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [-1.1, 2]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
 
   "elementalType": "poison",
   "primaryAbilityType": "sb_hammer",
@@ -26,12 +43,7 @@
   },
 
   "builderConfig": [{
-      "nameGenerator": "floranmacenames.config:nameGen",
-      "altAbilities": [
-        "uppercut",
-        "shockwave",
-        "groundslam"
-      ]
+      "nameGenerator": "floranmacenames.config:nameGen"
     }
   ],
 

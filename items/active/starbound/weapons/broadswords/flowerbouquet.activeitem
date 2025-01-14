@@ -5,9 +5,10 @@
   "description": "Hit them with your love!",
   "shortdescription": "Flower Bouquet",
   "itemTags": ["weapon", "melee", "broadsword"],
+//"sb_backingDirectives": "?replace;f4988c=ffca8a;d93a3a=e0975c;932625=a85636;601119=6f2919", The swoosh is colored
   "inventoryIcon": "flowerbouquet.png",
   "animationParts": {
-    "blade": "flowerbouquet.png",
+    "blade": "flowerbouquet.png<directives>",
     "handle": ""
   },
   "animationCustom": {
