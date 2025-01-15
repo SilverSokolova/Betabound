@@ -1,6 +1,6 @@
 {
   "itemName": "sb_floranleafstaff2",
-  "definition": "racialstaff",
+  "definition": ["staff", "racialstaff"],
   "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "floran",
@@ -16,6 +16,7 @@
   "shortdescription": "Petal Storm Staff",
   "elementalType": "poison",
   "altAbilityType": "elementorb",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "sb_petalcloud",
     "projectileParameters": {

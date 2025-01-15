@@ -2,6 +2,10 @@
   "itemName": "sb_oceantrident",
   "definition": "staff",
   "itemTags": ["weapon", "staff"],
+  "tags": {
+    "<staff>": "oceantrident",
+    "<glow>": "bioglow"
+  },
 
   "description": "This trident smells fishy.",
   "shortdescription": "Dangpa's Fury",
@@ -17,6 +21,7 @@
 
   "elementalType": "physical",
   "altAbilityType": "forcecage",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "randomfish",
     "projectileParameters": {
@@ -25,9 +30,7 @@
   },
 
   "configOverrides": {
-    "inventoryIcon": "oceantrident.png",
     "animationParts": {
-      "staff": "oceantrident.png",
       "chargeEffect": "/items/active/weapons/staff/generated/glow/physical.png"
     }
   },

@@ -1,6 +1,6 @@
 {
   "itemName": "sb_hylotlaquastaff1",
-  "definition": "racialstaff",
+  "definition": ["staff", "racialstaff"],
   "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "hylotl",
@@ -31,6 +31,7 @@
   },
   "elementalType": "ice",
   "altAbilityType": "healingzone",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "sb_splashdrop2",
     "projectileParameters": {

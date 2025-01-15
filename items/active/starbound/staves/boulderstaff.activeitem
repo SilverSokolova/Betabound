@@ -3,7 +3,7 @@
   "definition": "staff",
   "itemTags": ["weapon", "staff"],
   "tags": {
-    "<staff>": "boulder",
+    "<staff>": "boulderstaff",
     "<glow>": "/items/active/weapons/staff/generated/glow/physical"
   },
 
@@ -24,6 +24,7 @@
 
   "elementalType": "physical",
   "altAbilityType": "slowzone",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "bigboulderexplosion",
     "projectileParameters": {

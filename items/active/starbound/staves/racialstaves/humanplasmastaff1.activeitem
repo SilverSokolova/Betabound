@@ -1,6 +1,6 @@
 {
   "itemName": "sb_humanplasmastaff1",
-  "definition": "racialstaff",
+  "definition": ["staff", "racialstaff"],
   "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "human",
@@ -16,6 +16,7 @@
   "shortdescription": "Plasma Pulse Staff",
   "elementalType": "electric",
   "altAbilityType": "plasmabarrage",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "sb_plasmapulse",
     "projectileParameters": {
@@ -25,6 +26,11 @@
   },
   "altAbility": {
     "projectileCount": 3
+  },
+  "configOverrides": {
+    "animationParts": {
+      "staffFullbright": "<race><staff><n>fb.png"
+    }
   },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

@@ -1,6 +1,6 @@
 {
   "itemName": "sb_apexsteelstaff1",
-  "definition": "racialstaff",
+  "definition": ["staff", "racialstaff"],
   "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "apex",
@@ -16,6 +16,7 @@
   "shortdescription": "Monkey Nut Staff",
   "elementalType": "electric",
   "altAbilityType": "energyzone",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "sb_monkeynutteleportin",
     "projectileParameters": {

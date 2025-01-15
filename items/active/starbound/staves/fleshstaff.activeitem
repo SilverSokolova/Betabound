@@ -3,7 +3,7 @@
   "definition": "staff",
   "itemTags": ["weapon", "staff"],
   "tags": {
-    "<staff>": "flesh",
+    "<staff>": "fleshstaff",
     "<glow>": "fleshglow"
   },
   "tooltipFields": {
@@ -34,6 +34,7 @@
 
   "elementalType": "poison",
   "altAbilityType": "elementrain",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "sb_fleshseedspawn",
     "projectileParameters": {

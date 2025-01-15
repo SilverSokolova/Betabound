@@ -1,6 +1,6 @@
 {
   "itemName": "sb_novakidlightstaff2",
-  "definition": "racialstaff",
+  "definition": ["staff", "racialstaff"],
   "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "novakid",
@@ -55,6 +55,7 @@
 
   "elementalType": "ice",
   "altAbilityType": "forcecage",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "sb_supergiant",
     "maxCastRange": 20,

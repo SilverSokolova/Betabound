@@ -3,7 +3,7 @@
   "definition": "staff",
   "itemTags": ["weapon", "staff"],
   "tags": {
-    "<staff>": "uraniumrod",
+    "<staff>": "uraniumrodstaff",
     "<glow>": "uraniumglow"
   },
 
@@ -37,7 +37,7 @@
 
   "elementalType": "poison",
   "altAbilityType": "elementorb",
-
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "invisibleprojectile",
     "projectileParameters": {

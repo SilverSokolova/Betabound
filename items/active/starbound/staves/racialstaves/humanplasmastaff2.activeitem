@@ -1,6 +1,6 @@
 {
   "itemName": "sb_humanplasmastaff2",
-  "definition": "racialstaff",
+  "definition": ["staff", "racialstaff"],
   "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "human",
@@ -22,6 +22,11 @@
     "projectileParameters": {
       "speed": 60,
       "baseDamage": 12
+    }
+  },
+  "configOverrides": {
+    "animationParts": {
+      "staffFullbright": "<race><staff><n>fb.png"
     }
   },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"

@@ -3,7 +3,7 @@
   "definition": "staff",
   "itemTags": ["weapon", "staff"],
   "tags": {
-    "<staff>": "bio",
+    "<staff>": "biostaff",
     "<glow>": "bioglow"
   },
   "tooltipFields": {
@@ -28,6 +28,7 @@
 
   "elementalType": "fire",
   "altAbilityType": "kluexshooter",
+  "primaryAbilityType": "sb_staff",
 
   "primaryAbility": {
     "projectileType": "sb_biolightball",

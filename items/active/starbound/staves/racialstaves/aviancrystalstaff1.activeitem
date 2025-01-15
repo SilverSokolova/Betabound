@@ -1,6 +1,6 @@
 {
   "itemName": "sb_aviancrystalstaff1",
-  "definition": "racialstaff",
+  "definition": ["staff", "racialstaff"],
   "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "avian",
@@ -16,6 +16,7 @@
   "shortdescription": "Cardinal's Chalcedony",
   "elementalType": "electric",
   "altAbilityType": "pullzone",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "sb_cardinalschalcedony",
     "projectileParameters": {
