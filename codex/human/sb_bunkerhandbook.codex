@@ -5,15 +5,15 @@
   "description": "An excerpt from a USCM handbook recounting one of humanity's first encounters with the Floran.",
   "icon": "sb_humancover1.png",
   "contentPages": [
-    "Upon first contact with the Floran Brood in [REDACTED], the USCM far underestimated the level of aggression, cunning, and savagery the Floran race would eventually become known for.
+    "Upon first contact with the Floran Brood in ^red;[REDACTED]^reset;, the USCM far underestimated the level of cunningly aggressive savagery the Floran race would eventually become known for.
 
-During one of the many border skirmishes with the expansionist Florans, Commander [REDACTED] of the Sabre-class Battlecruiser USS [REDACTED] attempted to relieve embattled USCM troops by covering advancing Floran forces with thousands of gallons of Solution 2, 4-D, otherwise known as herbicide.",
+During one of the many border skirmishes with the expansionist Florans, Commander ^red;[REDACTED]^reset; of the Sabre-class Battlecruiser USS ^red;[REDACTED]^reset; attempted to relieve embattled USCM troops by covering advancing Floran forces with thousands of gallons of Solution 2, 4-D, otherwise known as herbicide.",
 
 "The effect however, did not perform as expected, with the solution having roughly the same poisonous qualities as alcohol does to a human.
 
 Nevertheless, the move 'distracted' the Florans enough for the marines to launch a counterattack and overwhelm them, securing the planetside colony long enough to complete its emergency evacuation.
 
-The tactic has not seen use since, but lives on in history as the [REDACTED] Manoeuvre."
+The tactic has not seen use since, but lives on in history as the ^red;[REDACTED]^reset; Manoeuvre."
   ],
   "itemConfig": {
     "rarity": "common",
