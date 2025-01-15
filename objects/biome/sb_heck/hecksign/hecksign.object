@@ -11,13 +11,13 @@
   "shortdescription": "Heck Sign",
   "race": "generic",
 
-  "apexDescription": "Welcome to Heck. Well that's nice.",
+  "apexDescription": "Welcome to Heck. Well, that's nice.",
   "avianDescription": "What a surprisingly cheery sign.",
   "floranDescription": "Floran ssshould sssay, 'all you can eat.'",
   "glitchDescription": "Amused. Someone clearly wants me to feel at home.",
   "humanDescription": "Abandon hope all ye who enter?",
   "hylotlDescription": "What a crudely-made sign.",
-  "novakidDescription": "I tip my hat to ya!",
+  "novakidDescription": "This sure is welcoming.",
 
   "inventoryIcon": "hecksignicon.png",
   "orientations": [{

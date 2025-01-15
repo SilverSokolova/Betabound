@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/description","value":"A tall wooden bookcase full of books."},{"op":"replace","path":"/description","value":"Tall and full of books. ...Hey, look at this one, \"50 Shades of Green\". It's about aliens."}]
+]

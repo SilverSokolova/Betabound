@@ -1,0 +1,63 @@
+//Yes, the tongue focus is from the beta descriptions, I just tried merging them with the vanilla ones. I'm not sure who at Chucklefish had a chest-tongue fetish but it was probably one of the people who has a developer statue.
+[
+  [{
+      "op": "test",
+      "path": "/description",
+      "value": "A toxic chest."
+    }, {
+      "op": "replace",
+      "path": "/description",
+      "value": "A chest with a tongue made from a few different plants. Probably takes a licking."
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "I'm not sure if touching this chest would be worth it."
+    }, {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "I'm not sure if touching this chest would be worth it- a bizarre tongue pokes out of it."
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "This chest looks highly contaminated."
+    }, {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "Is this a chest or a creature? I'm hoping for the former... It looks highly contaminated."
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Chest sssmell toxic."
+    }, {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "Chest ssstick tongue out at Floran. Floran ssstick ssspear out at sssmelly chest."
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "This chest looks pretty toxic."
+    }, {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "This chest looks pretty toxic, but imagine being caught making out with it! You'd never live it down if you were caught, oh boy."
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A grotesque chest..."
+    }, {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "A grotesque chest. It looks like some kind of long-tongued amphibian."
+    }
+  ]
+]

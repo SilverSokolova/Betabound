@@ -19,7 +19,7 @@
   "tooltipFields": {
     "objectImage": "/items/active/starbound/bows/slingshotfull.png:0"
   },
-  "description": "A simple ranged weapon which uses a sling.",
+  "description": "A handmade slingshot.",
   "shortdescription": "Slingshot",
   "itemTags": ["weapon", "ranged", "bow"],
   "clearRadioMessagesOnPickup": true,

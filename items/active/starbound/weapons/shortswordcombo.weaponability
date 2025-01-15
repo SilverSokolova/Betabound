@@ -3,7 +3,7 @@
   "level": 1,
   "category": "shortsword",
   "twoHanded": false,
-  "description": "A sturdy one-handed sword.",
+  "description": "Doesn't feel so short when it's buried in your guts.",
   "tooltipKind": "sb_sword2",
 
   "handGrip": "inside",

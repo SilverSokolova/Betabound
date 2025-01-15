@@ -2,7 +2,7 @@
   "itemName": "sb_cavehammer",
   "definition": "hammers/uncommon",
   "sb_waBan": true,
-  "description": "This hammer is carved of rock.",
+  "description": "This hammer is carved from a single rock.",
   "shortdescription": "Cave Hammer",
   "tooltipKind": "sb_sword2",
   "itemTags": ["weapon", "melee", "hammer"],

@@ -2,10 +2,9 @@
   "itemName": "sb_hackmanight",
   "definition": ["spears/rare", "spears/abilities"],
   "sb_waBan": true,
-  "description": "A spontoon loaded with masses and masses of highly unstable uranium.",
+  "description": "A spontoon loaded with masses of highly unstable crystals.",
   "shortdescription": "Hackmanight ^yellow;^reset;",
   "itemTags": ["weapon", "melee", "spear"],
-  "fuelAmount": 180,
   "inventoryIcon": "hackmanight.png",
   "animationParts": {
     "blade": "hackmanight.png",

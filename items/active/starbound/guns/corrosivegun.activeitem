@@ -22,7 +22,7 @@
   },
   "noMuzzleFlashVariants": true,
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "description": "A gun that sprays corrosive particles.",
+  "description": "This gun sprays corrosive plasma.",
   "shortdescription": "Corrosive Gun",
   "baseOffset": [0.5, 0.15],
   "muzzleOffset": [2, -0.25],

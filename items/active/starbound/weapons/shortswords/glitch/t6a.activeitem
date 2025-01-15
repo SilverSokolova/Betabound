@@ -1,1 +1,1 @@
-{"description":"A shortsword that'll split anyone in twain.","shortdescription":"Startup","itemName":"sb_glitchtier6ashortsword","itemTags":["weapon","melee","shortsword"],"definition":["colors/t6a","shortswords/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{"description":"Empowers the wielder to shut enemies down.","shortdescription":"Startup","itemName":"sb_glitchtier6ashortsword","itemTags":["weapon","melee","shortsword"],"definition":["colors/t6a","shortswords/a"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}

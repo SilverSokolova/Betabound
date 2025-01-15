@@ -1,3 +1,5 @@
 [
-[{"op":"add","path":"/scripts/-","value":"sb_broom.lua"}]
+[{"op":"add","path":"/scripts/-","value":"sb_broom.lua"}],
+[{"op":"test","path":"/description","value":"The most useful of sweeping tools."},{"op":"replace","path":"/description","value":"The most useful of sweeping tools. The handle reads, \"Dustbane, the Mote Thrasher.\""}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"codex"}]
 ]

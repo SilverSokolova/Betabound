@@ -5,7 +5,7 @@
   "maxStack": 1,
   "fixedRarity": true,
   "rarity": "legendary",
-  "description": "The scintillium casing makes for a pretty good sniper rifle.",
+  "description": "The scintillium casing helps this sniper rifle maintain accuracy.",
   "shortdescription": "Scintillium Sniper Rifle",
   "level": 6,
   "tooltipKind": "sb_gun4",

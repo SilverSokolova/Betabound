@@ -2,7 +2,7 @@
   "maxStack": 1,
   "level": 1,
   "category": "axe",
-  "description": "Designed for effective chopping.",
+  "description": "You're a lumberjack, and that's OK.",
   "tooltipKind": "sb_sword2",
 
   "animation": "/items/active/starbound/weapons/axe.animation",

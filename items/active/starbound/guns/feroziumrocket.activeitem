@@ -5,7 +5,7 @@
   "maxStack": 1,
   "fixedRarity": true,
   "rarity": "legendary",
-  "description": "Yep. It's a rocket launcher.",
+  "description": "Yep, that's right. It's a rocket launcher.",
   "shortdescription": "Scintillium Launcher",
   "level": 6,
   "tooltipKind": "sb_gun2",

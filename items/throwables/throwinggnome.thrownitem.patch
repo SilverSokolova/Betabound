@@ -1,4 +1,11 @@
 [
+[
+{"op":"test","path":"/description","value":"Toss these little guys to do the fighting for you."},
+{"op":"test","path":"/tooltipKind","inverse":true},
+{"op":"replace","path":"/description","value":"You'd have to be really messed up to throw these little guys, but they'll do the fighting for you."},
+{"op":"add","path":"/tooltipKind","value":"codex"}
+],
+
 [{"op":"test","path":"/level","inverse":true},{"op":"add","path":"/level","value":1}],
 [{"op":"test","path":"/builder"},{"op":"move","from":"/builder","path":"/sb_builder"}],
 [{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildthrowable.lua"}]

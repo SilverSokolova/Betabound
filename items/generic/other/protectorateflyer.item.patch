@@ -1,4 +1,12 @@
 [
 [{"op":"test","path":"/itemTags","inverse":true},{"op":"add","path":"/itemTags","value":[]}],
-[{"op":"add","path":"/itemTags/-","value":"sb_copybook"}]
+[{"op":"add","path":"/itemTags/-","value":"sb_copybook"}],
+
+
+[
+  {"op":"test","path":"/description","value":"This flyer commemorates the Protectorate's graduation ceremony."},
+  {"op":"test","path":"/tooltipKind","inverse":true},
+  {"op":"replace","path":"/description","value":"This flyer commemorates the Protectorate's graduation ceremony. The colors will fade, but the memories will last forever."},
+  {"op":"add","path":"/tooltipKind","value":"sb_v5"}
+]
 ]

@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/description","value":"An arcade machine running a game called 'Starbound'."},{"op":"replace","path":"/description","value":"An arcade machine running a game called 'Starbound'. How meta."}]
+]
