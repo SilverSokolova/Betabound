@@ -40,7 +40,7 @@
   "scripts": ["sb_ironbeacon.lua"],
   "scriptDelta": 5,
   "hasAnimation": true,
-  "badReception": [0, "I should take it to the planet surface before trying to use it."],
+  "badReception": [0, "I should take it to a clear area on a planet's surface before trying to use it."],
   "bossType": [["sb_jellyboss", [0, 25]], ["sb_skeye", [20, 25]], ["sb_skeye", [-20, 25]]],
   "bossLevel": 3
 }

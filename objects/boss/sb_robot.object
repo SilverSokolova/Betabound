@@ -41,7 +41,7 @@
   "scripts": ["sb_ironbeacon.lua"],
   "scriptDelta": 5,
   "hasAnimation": true,
-  "badReception": ["say", "ERROR:\nMUST BE ON PLANET SURFACE TO ACTIVATE."],
+  "badReception": ["say", "ERROR:\nMUST BE ON PLANET SURFACE AND IN OPEN AREA TO ACTIVATE."],
   //"badReception" : [0,"I should take it to the planet surface before powering it up."],
   "projectile": "sb_robotwake",
   "bossType": [["sb_robotboss", [0, 5]]],

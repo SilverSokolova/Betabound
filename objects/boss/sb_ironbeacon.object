@@ -41,7 +41,7 @@
   "scripts": ["sb_ironbeacon.lua"],
   "scriptDelta": 5,
   "hasAnimation": true,
-  "badReception": ["say", "No signal!\nPlease activate on planet surface.\n\nIf the problem persists, please check the power of the device and cable connection status, or relocate the device."],
+  "badReception": ["say", "No signal!\nPlease activate in an open area on a planet's surface."],
   "bossType": [["sb_penguinUfo", [0, 32]]],
   "bossLevel": 1
 }
