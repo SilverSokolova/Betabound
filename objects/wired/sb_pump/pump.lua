@@ -45,5 +45,3 @@ function onInteraction(args)
   storage.pumping = not storage.pumping
   animator.playSound("switch")
 end
---bioluminescent
---what
