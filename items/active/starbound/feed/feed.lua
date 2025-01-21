@@ -6,10 +6,13 @@ function init() swingInit()
 end
 
 function swingAction()
-  local target = world.monsterQuery(activeItem.ownerAimPosition(), 0)[1]
-  if checkTargetRadius(target) and not promised then
-    i = world.sendEntityMessage(target, "sb_feedFluffalo", feed)
-    promised = true
+  local targets = world.monsterQuery(activeItem.ownerAimPosition(), 0)
+  for j = 1, #targets do
+    if checkTargetRadius(targets[j]) and world.entityTypeName(targets[j]):find("fluffalobaby") and not promised then
+      i = world.sendEntityMessage(targets[j], "sb_feedFluffalo", feed)
+      promised = true
+      break
+    end
   end
 end
 

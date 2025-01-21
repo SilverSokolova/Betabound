@@ -35,7 +35,7 @@
   },
   "sb_pickupfarmbeastfeed": {
     "type": "tutorial",
-    "text": "I see you've acquired some fluffalo food! With a ^#71f2f6;right-click,^reset; you can feed it to a juvenile fluffalo to influence or speed up its growth."
+    "text": "I see you've acquired some fluffalo food! With a ^#71f2f6;right-click,^reset; you can feed it to a juvenile fluffalo to accelerate its growth."
   },
   "sb_pickupladder": {
     "type": "tutorial",
