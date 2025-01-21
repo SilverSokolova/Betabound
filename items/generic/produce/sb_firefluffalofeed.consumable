@@ -1,0 +1,20 @@
+{
+  "itemName": "sb_firefluffalofeed",
+  "price": 50,
+  "rarity": "Uncommon",
+  "category": "food",
+  "foodValue": 5,
+  "inventoryIcon": "sb_firefluffalofeed.png",
+  "tooltipKind": "sb_object",
+  "description": "This heat-resistant fruit naturally grows under the fur of fire fluffalos.",
+  "shortdescription": "Blazing Berry",
+  "effects": [[{
+        "effect": "burnspray",
+        "duration": 45
+      }
+    ]],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "emitters": ["eating"],
+  "rottingMultiplier": 1.5
+}

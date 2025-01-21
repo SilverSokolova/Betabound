@@ -1,0 +1,20 @@
+{
+  "itemName": "sb_fluffalofeed",
+  "price": 50,
+  "rarity": "Uncommon",
+  "category": "food",
+  "foodValue": 5,
+  "inventoryIcon": "sb_fluffalofeed.png",
+  "tooltipKind": "sb_object",
+  "description": "This trauma-resistant nut naturally grows under the fur of common fluffalos.",
+  "shortdescription": "Ordinary Acorn",
+  "effects": [[{
+        "effect": "sb_protectionboost5",
+        "duration": 45
+      }
+    ]],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "emitters": ["eating"],
+  "rottingMultiplier": 1.5
+}

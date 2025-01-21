@@ -1,0 +1,10 @@
+{
+  "sb_defaultFluffaloHarvest": [
+    [0, {
+      "pool": [
+        {"weight": 0.85, "pool": "empty"},
+        {"weight": 0.25, "item": "sb_fluffalofeed"}
+      ]
+    }]
+  ]
+}

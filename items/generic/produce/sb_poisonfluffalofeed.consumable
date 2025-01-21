@@ -1,0 +1,20 @@
+{
+  "itemName": "sb_poisonfluffalofeed",
+  "price": 50,
+  "rarity": "Uncommon",
+  "category": "food",
+  "foodValue": 5,
+  "inventoryIcon": "sb_poisonfluffalofeed.png",
+  "tooltipKind": "sb_object",
+  "description": "This poison-resistant fruit naturally grows under the fur of poison fluffalos.",
+  "shortdescription": "Poison Pear",
+  "effects": [[{
+        "effect": "antidote",
+        "duration": 45
+      }
+    ]],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "emitters": ["eating"],
+  "rottingMultiplier": 1.5
+}

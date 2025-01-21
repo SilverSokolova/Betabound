@@ -1,0 +1,20 @@
+{
+  "itemName": "sb_icefluffalofeed",
+  "price": 50,
+  "rarity": "Uncommon",
+  "category": "food",
+  "foodValue": 5,
+  "inventoryIcon": "sb_icefluffalofeed.png",
+  "tooltipKind": "sb_object",
+  "description": "This frost-resistant fruit naturally grows under the fur of ice fluffalos.",
+  "shortdescription": "Frosty Fig",
+  "effects": [[{
+        "effect": "sb_heatingbag",
+        "duration": 45
+      }
+    ]],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "emitters": ["eating"],
+  "rottingMultiplier": 2
+}

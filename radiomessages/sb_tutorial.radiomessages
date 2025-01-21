@@ -33,10 +33,6 @@
     "type": "tutorial",
     "text": "You discovered paint! You can paint blocks and platforms into various different colors. Please note that the colour of the paint may change depending on the material being painted."
   },
-  "sb_pickupfarmbeastfeed": {
-    "type": "tutorial",
-    "text": "I see you've acquired some fluffalo food! With a ^#71f2f6;right-click,^reset; you can feed it to a juvenile fluffalo to accelerate its growth."
-  },
   "sb_pickupladder": {
     "type": "tutorial",
     "text": "I see you've acquired a ladder! While on a ladder, hold ^#71f2f6;[SPACE]^reset; to quickly ascend."

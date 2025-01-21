@@ -1,0 +1,10 @@
+[
+//This pool runs 8-16 times, and fills only run once.
+[{"op":"test","path":"/defaultFluffaloHarvest/0/1/fill","inverse":true},{"op":"add","path":"/defaultFluffaloHarvest/0/1/fill","value":[]}],
+[{"op":"add","path":"/defaultFluffaloHarvest/0/1/fill/-","value":{"pool":"sb_defaultFluffaloHarvest"}}],
+
+[{"op":"add","path":"/fireFluffaloHarvest/0/1/pool/-","value":{"weight":0.25,"item":"sb_firefluffalofeed"}}],
+[{"op":"add","path":"/electricFluffaloHarvest/0/1/pool/-","value":{"weight":0.25,"item":"sb_electricfluffalofeed"}}],
+[{"op":"add","path":"/iceFluffaloHarvest/0/1/pool/-","value":{"weight":0.25,"item":"sb_icefluffalofeed"}}],
+[{"op":"add","path":"/poisonFluffaloHarvest/0/1/pool/-","value":{"weight":0.25,"item":"sb_poisonfluffalofeed"}}]
+]

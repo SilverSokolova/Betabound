@@ -9,11 +9,6 @@
 //{"op":"add","path":"/interactData/items/-","value":{"item":"redapple"}},
 {"op":"add","path":"/interactData/items/-","value":{"item":"bottledwater"}},
 {"op":"add","path":"/interactData/items/-","value":{"item":"sb_vegetablesoup"}},
-{"op":"add","path":"/interactData/items/-","value":{"item":"sb_foodbowl"}},
+{"op":"add","path":"/interactData/items/-","value":{"item":"sb_foodbowl"}}
 //orange
-{"op":"add","path":"/interactData/items/-","value":{"item":"sb_fluffalofeed"}},
-{"op":"add","path":"/interactData/items/-","value":{"item":"sb_firefluffalofeed"}},
-{"op":"add","path":"/interactData/items/-","value":{"item":"sb_icefluffalofeed"}},
-{"op":"add","path":"/interactData/items/-","value":{"item":"sb_poisonfluffalofeed"}},
-{"op":"add","path":"/interactData/items/-","value":{"item":"sb_electricfluffalofeed"}}
 ]]
