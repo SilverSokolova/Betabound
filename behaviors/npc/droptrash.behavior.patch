@@ -1,0 +1,12 @@
+[
+  [{
+      "op": "test",
+      "path": "/root/children/2/parameters/itemName/value",
+      "value": "soggypaper"
+    }, {
+      "op": "replace",
+      "path": "/root/children/2/parameters/itemName/value",
+      "value": "sb_droptrash"
+    }
+  ]
+]

@@ -4,7 +4,7 @@
   "price": 10,
   "tooltipKind": "sb_object",
   "itemTags": ["reagent"],
-  "category": "junk",
+  "category": "craftingMaterial",
   "inventoryIcon": "sb_dreadwreckage.png",
   "description": "Wreckage from Dreadwing's ship.",
   "shortdescription": "Dreadwing's Wreckage",
