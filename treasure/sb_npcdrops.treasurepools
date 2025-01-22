@@ -107,8 +107,7 @@
         {"weight": 0.80, "item": "soggypaper"},
         {"weight": 0.05, "item": "rottenfood"},
         {"weight": 0.05, "item": "sb_rottenapple"},
-        {"weight": 0.05, "item": "sb_revoltingstew"},
-        {"weight": 0.005, "item": "protectorateflyer"}
+        {"weight": 0.05, "item": "sb_revoltingstew"}
       ]
     }]
   ]
