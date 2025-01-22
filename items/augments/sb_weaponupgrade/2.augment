@@ -3,7 +3,7 @@
   "price": 2625,
   "tooltipKind": "sb_object",
   "rarity": "legendary",
-  "itemTags": ["weapon", "ranged", "revolver", "pistol", "gun"],
+  "itemTags": ["weapon", "ranged", "pistol", "gun", "nonweapon"],
   "category": "pistol",
   "tooltipFields": {
     "subtitle": "Weapon Upgrade Kit"

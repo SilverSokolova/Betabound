@@ -3,7 +3,7 @@
   "price": 1500,
   "tooltipKind": "sb_object4",
   "rarity": "common",
-  "itemTags": ["weapon", "ranged", "revolver", "pistol", "gun"],
+  "itemTags": ["weapon", "ranged", "pistol", "gun", "nonweapon"],
   "sb_unupgradeable": true,
   "category": "pistol",
   "tooltipFields": {
