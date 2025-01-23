@@ -5,7 +5,7 @@
   "rarity": "legendary",
   "price": 6000,
   "tooltipKind": "sb_object",
-  "radioMessagesOnPickup": ["sb_pickuptechconsole"],
+  "radioMessagesOnPickup": ["sb_pickuptechconsole1", "sb_pickuptechconsole2"],
   "interactAction": "OpenCraftingInterface",
   "interactData": {
     "config": "/interface/windowconfig/sb_craftingtechconsole.config",

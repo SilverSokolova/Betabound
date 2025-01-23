@@ -9,14 +9,13 @@
     "text": "I see that you have obtained a tech binding station! Using it, you can create unique tech cards which can be used to equip techs on-the-go."
   },
 
-  "sb_pickuptechconsole": {
+  "sb_pickuptechconsole1": {
     "type": "tutorial",
-    "text": "If your tech drives are not recognized by the Tech Development Console, ^orange;formatting the data by putting the tech drive into a Refinery^reset; may fix the issue."
+    "text": "To obtain copies of tech for the Tech Development Console, ^green;select a tech in the ^orange;tech equip menu^green; and press the 'download' button^reset;. It should be noted that this requires a tech card."
   },
-
-  "sb_pickupspawnerstation": {
+  "sb_pickuptechconsole2": {
     "type": "tutorial",
-    "text": "It's a well-known fact that ^orange;colony deeds and employment beacons used on more dangerous planets attract more powerful tenants.^reset;"
+    "text": "Additionally, excess copies of tech can be processed through a ^orange;Refinery^reset; to gain a tech card."
   },
 
   // on picking up misc objects/items
