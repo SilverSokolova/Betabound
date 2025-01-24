@@ -1,6 +1,6 @@
 {
   "itemName": "sb_watersword",
-  "definition": "broadswords/uncommon",
+  "definition": ["broadswords/uncommon", "broadswords/abilities"],
   "description": "Strike with the force of an ocean!",
   "shortdescription": "Water Sword",
   "tooltipFields": {

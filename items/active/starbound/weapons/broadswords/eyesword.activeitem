@@ -1,6 +1,6 @@
 {
   "itemName": "sb_eyesword",
-  "definition": "broadswords/uncommon",
+  "definition": ["broadswords/uncommon", "broadswords/abilities"],
   "description": "It sees much evil, but can it see why kids love Cinnamon Toast Crunch?",
   "shortdescription": "Eye Sword",
   "tooltipFields": {
@@ -43,15 +43,7 @@
 
   "builderConfig": [{
       "nameGenerator": "eyeswordnames.config:nameGen",
-      "iconDrawables": ["blade"],
-      "altAbilities": [
-        "bladecharge",
-        "downstab",
-        "parry",
-        "risingslash",
-        "spinslash",
-        "superspinslash"
-      ]
+      "iconDrawables": ["blade"]
     }
   ],
 

@@ -1,5 +1,6 @@
 {
   "itemName": "sb_flowerbouquet",
+  "definition": "broadswords/abilities",
   "price": 100,
   "rarity": "rare",
   "description": "Hit them with your love!",
@@ -42,6 +43,7 @@
 
   "elementalType": "physical",
   "primaryAbilityType": "sb_meleeslash",
+  "altAbilityType": "spinslash",
   "primaryAbility": {
     "fireTime": 0.53,
     "baseDps": 8.425,
@@ -50,7 +52,8 @@
     },
     "stances": {
       "idle": {
-        "armRotation": 0
+        "armRotation": 0,
+        "twoHanded": true
       }
     }
   },

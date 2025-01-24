@@ -1,6 +1,6 @@
 {
   "itemName": "sb_starcleaver",
-  "definition": "broadswords/uncommon",
+  "definition": ["broadswords/uncommon", "broadswords/abilities"],
   "description": "Hack 'n' slash in space!",
   "shortdescription": "Starcleaver",
   "tooltipFields": {
@@ -35,15 +35,7 @@
 
   "builderConfig": [{
       "nameGenerator": "starcleavernames.config:nameGen",
-      "iconDrawables": ["blade"],
-      "altAbilities": [
-        "bladecharge",
-        "downstab",
-        "parry",
-        "risingslash",
-        "spinslash",
-        "superspinslash"
-      ]
+      "iconDrawables": ["blade"]
     }
   ],
 

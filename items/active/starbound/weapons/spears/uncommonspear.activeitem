@@ -17,7 +17,7 @@
   },
   "builderConfig": [{
       "nameGenerator": "spearnames.config:nameGen",
-      "elementalType": ["fire", "fire", "electric", "poison"],
+      "elementalType": ["fire", "ice", "electric", "poison"],
       "animationParts": {
         "blade": {
           "path": "spear/blade/<variant>.png",

@@ -1,6 +1,6 @@
 {
   "itemName": "sb_chromosword",
-  "definition": "broadswords/rare",
+  "definition": ["broadswords/rare", "broadswords/abilities"],
   "description": "A massive sword with intertwining blades.",
   "shortdescription": "Chromosword",
   "sb_waBan": true,
@@ -46,15 +46,7 @@
         }
       },
       "iconDrawables": ["blade"],
-      "palette": "/items/active/starbound/colors/cellsword.weaponcolors",
-      "altAbilities": [
-        "bladecharge",
-        "downstab",
-        "parry",
-        "risingslash",
-        "spinslash",
-        "superspinslash"
-      ]
+      "palette": "/items/active/starbound/colors/cellsword.weaponcolors"
     }
   ],
 

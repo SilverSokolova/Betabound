@@ -1,6 +1,6 @@
 {
   "itemName": "sb_uncommoncrappydagger",
-  "definition": "daggers/uncommon",
+  "definition": ["daggers/uncommon", "elementalprojectiles"],
   "shortdescription": "Uncommon Crappy Dagger",
   "tooltipKind": "sb_sword2",
   "tooltipFields": {
@@ -10,48 +10,15 @@
 
   "aimOffset": 0,
   "primaryAbilityType": "sb_dagger",
+  "primaryAbility": {
+    "damageConfig": {
+      "damageSourceKind": "<elementalType>dagger"
+    }
+  },
 
   "builderConfig": [{
       "nameGenerator": "/items/active/starbound/weapons/broadswords/crappynames.config:nameGen",
       "elementalType": ["fire", "ice", "electric", "poison"],
-      "elementalConfig": {
-        "fire": {
-          "primaryAbility": {
-            "projectileTypes": ["fireswirl", "marioball", "flamethrower"],
-            "damageConfig": {
-              "damageSourceKind": "firedagger",
-              "statusEffects": ["burning"]
-            }
-          }
-        },
-        "ice": {
-          "primaryAbility": {
-            "projectileTypes": ["icethrower", "icecrabcanosnowball"],
-            "damageConfig": {
-              "damageSourceKind": "icedagger",
-              "statusEffects": ["frostslow"]
-            }
-          }
-        },
-        "poison": {
-          "primaryAbility": {
-            "projectileType": "poisonthrower",
-            "damageConfig": {
-              "damageSourceKind": "poisondagger",
-              "statusEffects": ["weakpoison"]
-            }
-          }
-        },
-        "electric": {
-          "primaryAbility": {
-            "projectileTypes": ["electricexplosion", "lightningthrower", "teslabolt", "shock", "electro", "lightning2", "lightball", "teslaboltsmall"],
-            "damageConfig": {
-              "damageSourceKind": "electricdagger",
-              "statusEffects": ["electrified"]
-            }
-          }
-        }
-      },
       "animationParts": {
         "blade": {
           "path": "crappy/blade/<variant>.png",

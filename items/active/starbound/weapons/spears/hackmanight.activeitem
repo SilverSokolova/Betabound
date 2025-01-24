@@ -5,15 +5,26 @@
   "description": "A spontoon loaded with masses of highly unstable crystals.",
   "shortdescription": "Hackmanight ^yellow;^reset;",
   "itemTags": ["weapon", "melee", "spear"],
-  "inventoryIcon": "hackmanight.png",
   "animationParts": {
     "blade": "hackmanight.png",
-    "handle": ""
+    "handle": "hackmanightlit.png"
   },
 
   "animationCustom": {
+    "lights": {
+      "glow": {
+        "active": true,
+        "color": [9, 186, 9],
+        "position": [0, 0]
+      }
+    },
     "animatedParts": {
       "parts": {
+        "handle": {
+          "properties": {
+            "fullbright": true
+          }
+        },
         "swoosh": {
           "partStates": {
             "swoosh": {
@@ -31,6 +42,11 @@
       "fire": ["/sfx/tech/tech_blink1.ogg", "/sfx/tech/tech_sphere_transform.ogg"]
     }
   },
+
+  "builderConfig": [{
+      "iconDrawables": ["blade", "handle"]
+    }
+  ],
 
   "elementalType": "physical",
   "primaryAbilityType": "sb_spear",

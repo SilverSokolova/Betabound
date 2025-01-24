@@ -1,8 +1,7 @@
 {
   "itemName": "sb_arcsword",
-  "price": 1200,
+  "definition": ["broadswords/rare", "broadswords/abilities"],
   "fixedLevel": false,
-  "rarity": "Rare",
   "description": "A sword charged with a ridiculous amount of electricity.",
   "shortdescription": "Arcsword",
   "itemTags": ["weapon", "melee", "broadsword"],
@@ -34,21 +33,8 @@
     "damageConfig": {
       "damageSourceKind": "electricbroadsword",
       "statusEffects": ["electrified"]
-    },
-    "fireTime": [0.7, 1],
-    "baseDps": [10.5, 11.5]
-  },
-  
-  "builderConfig": [{
-      "altAbilities": [
-        "bladecharge",
-        "parry",
-        "travelingslash",
-        "blinkexplosion",
-        "traildash"
-      ]
     }
-  ],
+  },
 
   "builder": "/items/buildscripts/starbound/buildweapon.lua",
 

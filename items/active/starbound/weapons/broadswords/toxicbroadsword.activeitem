@@ -1,6 +1,6 @@
 {
   "itemName": "sb_toxicbroadsword",
-  "definition": "broadswords/uncommon",
+  "definition": ["broadswords/uncommon", "broadswords/abilities"],
   "tooltipKind": "sb_sword",
   "tooltipFields": {
     "subtitle": "Toxic Broadsword"
@@ -29,14 +29,7 @@
           "variants": 2
         }
       },
-      "iconDrawables": ["handle", "blade"],
-      "altAbilities": [
-        "bladecharge",
-        "parry",
-        "travelingslash",
-        "blinkexplosion",
-        "traildash"
-      ]
+      "iconDrawables": ["handle", "blade"]
     }
   ],
   "builder": "/items/buildscripts/starbound/buildweapon.lua"

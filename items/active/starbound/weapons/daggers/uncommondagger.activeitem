@@ -1,6 +1,6 @@
 {
   "itemName": "sb_uncommondagger",
-  "definition": "daggers/uncommon",
+  "definition": ["daggers/uncommon", "elementalprojectiles"],
   "shortdescription": "Uncommon Dagger",
   "sb_dyeable": true,
   "sb_backingDirectives": "?replace;fbd644=ffca8a;ca9510=e0975c;754500=a85636;e9e9e9=ffca8a;b1b1b1=e0975c;676767=a85636",
@@ -10,47 +10,14 @@
 
   "aimOffset": 0,
   "primaryAbilityType": "sb_dagger",
+  "primaryAbility": {
+    "damageConfig": {
+      "damageSourceKind": "<elementalType>dagger"
+    }
+  },
   "builderConfig": [{
       "nameGenerator": "daggernames.config:nameGen",
       "elementalType": ["fire", "ice", "electric", "poison"],
-      "elementalConfig": {
-        "fire": {
-          "primaryAbility": {
-            "projectileTypes": ["fireswirl", "marioball", "flamethrower"],
-            "damageConfig": {
-              "damageSourceKind": "firedagger",
-              "statusEffects": ["burning"]
-            }
-          }
-        },
-        "ice": {
-          "primaryAbility": {
-            "projectileTypes": ["icethrower", "icecrabcanosnowball"],
-            "damageConfig": {
-              "damageSourceKind": "icedagger",
-              "statusEffects": ["frostslow"]
-            }
-          }
-        },
-        "poison": {
-          "primaryAbility": {
-            "projectileType": "poisonthrower",
-            "damageConfig": {
-              "damageSourceKind": "poisondagger",
-              "statusEffects": ["weakpoison"]
-            }
-          }
-        },
-        "electric": {
-          "primaryAbility": {
-            "projectileTypes": ["electricexplosion", "lightningthrower", "teslabolt", "shock", "electro", "lightning2", "lightball", "teslaboltsmall"],
-            "damageConfig": {
-              "damageSourceKind": "electricdagger",
-              "statusEffects": ["electrified"]
-            }
-          }
-        }
-      },
       "animationParts": {
         "blade": {
           "path": "dagger/blade/<variant>.png",
@@ -61,6 +28,14 @@
             "8": true,
             "9": true,
             "10": true
+          },
+          "undyeableParts": {
+            "7": true,
+            "8": true,
+            "9": true,
+            "15": true,
+            "16": true,
+            "17": true
           }
         },
         "handle": {
@@ -72,6 +47,18 @@
             "12": true,
             "17": true,
             "19": true
+          },
+          "undyeableParts": {
+            "1": true,
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": true,
+            "9": true,
+            "10": true
           }
         }
       },

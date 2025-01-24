@@ -1,6 +1,6 @@
 {
   "itemName": "sb_uncommoncrappybroadsword",
-  "definition": "broadswords/uncommon",
+  "definition": ["broadswords/uncommon", "elementalprojectiles", "broadswords/abilities"],
   "tooltipFields": {
     "subtitle": "Crappy Broadsword"
   },
@@ -11,43 +11,14 @@
   "itemTags": ["weapon", "melee", "broadsword"],
 
   "primaryAbilityType": "sb_meleeslash",
+  "primaryAbility": {
+    "damageConfig": {
+      "damageSourceKind": "<elementalType>broadsword"
+    }
+  },
   "builderConfig": [{
       "nameGenerator": "crappynames.config:nameGen",
       "elementalType": ["fire", "ice", "electric", "poison"],
-      "elementalConfig": {
-        "fire": {
-          "primaryAbility": {
-            "damageConfig": {
-              "statusEffects": ["burning"],
-              "damageSourceKind": "firebroadsword"
-            }
-          }
-        },
-        "ice": {
-          "primaryAbility": {
-            "damageConfig": {
-              "statusEffects": ["frostslow"],
-              "damageSourceKind": "icebroadsword"
-            }
-          }
-        },
-        "electric": {
-          "primaryAbility": {
-            "damageConfig": {
-              "statusEffects": ["electrified"],
-              "damageSourceKind": "electricbroadsword"
-            }
-          }
-        },
-        "poison": {
-          "primaryAbility": {
-            "damageConfig": {
-              "statusEffects": ["weakpoison"],
-              "damageSourceKind": "poisonbroadsword"
-            }
-          }
-        }
-      },
       "animationParts": {
         "blade": {
           "path": "crappybroadsword/blade/<variant>.png",
@@ -60,19 +31,6 @@
           "paletteSwap": true
         }
       },
-      "altAbilities": [
-        "bladecharge",
-        "downstab",
-        "parry",
-        "risingslash",
-        "spinslash",
-        "superspinslash",
-        "travelingslash",
-        "blinkexplosion",
-        "blinkslash",
-        "traildash",
-        "giantsword"
-      ],
       "iconDrawables": ["handle", "blade"],
       "palette": "/items/active/starbound/colors/crappy.weaponcolors"
     }

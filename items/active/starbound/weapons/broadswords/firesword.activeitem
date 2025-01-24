@@ -1,6 +1,6 @@
 {
   "itemName": "sb_firesword",
-  "definition": "broadswords/uncommon",
+  "definition": ["broadswords/uncommon", "broadswords/abilities"],
   "description": "The concentrated fire inside the blade sets enemies aflame with every attack!",
   "shortdescription": "Fire Sword",
   "tooltipFields": {
@@ -68,14 +68,7 @@
 
   "builderConfig": [{
       "nameGenerator": "fireswordnames.config:nameGen",
-      "iconDrawables": ["blade", "handle"],
-      "altAbilities": [
-        "bladecharge",
-        "parry",
-        "travelingslash",
-        "blinkexplosion",
-        "traildash"
-      ]
+      "iconDrawables": ["blade", "handle"]
     }
   ],
 

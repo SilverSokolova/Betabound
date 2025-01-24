@@ -1,6 +1,6 @@
 {
   "itemName": "sb_uncommoncrappyhammer",
-  "definition": ["hammers/uncommon", "hammers/abilities"],
+  "definition": ["hammers/uncommon", "elementalprojectiles", "hammers/abilities"],
   "shortdescription": "Uncommon Crappy Hammer",
   "tooltipKind": "sb_sword2",
   "tooltipFields": {
@@ -10,49 +10,13 @@
 
   "primaryAbilityType": "sb_hammer",
   "primaryAbility": {
-    "stances": {
-      "fire": {
-        "weaponRotation": -75
-      }
+    "damageConfig": {
+      "damageSourceKind": "<elementalType>hammer"
     }
   },
   "builderConfig": [{
       "nameGenerator": "crappyhammernames.config:nameGen",
       "elementalType": ["fire", "ice", "electric", "poison"],
-      "elementalConfig": {
-        "fire": {
-          "primaryAbility": {
-            "damageConfig": {
-              "damageSourceKind": "firehammer",
-              "statusEffects": ["burning"]
-            }
-          }
-        },
-        "ice": {
-          "primaryAbility": {
-            "damageConfig": {
-              "damageSourceKind": "icehammer",
-              "statusEffects": ["frostslow"]
-            }
-          }
-        },
-        "poison": {
-          "primaryAbility": {
-            "damageConfig": {
-              "damageSourceKind": "poisonhammer",
-              "statusEffects": ["weakpoison"]
-            }
-          }
-        },
-        "electric": {
-          "primaryAbility": {
-            "damageConfig": {
-              "damageSourceKind": "electrichammer",
-              "statusEffects": ["electrified"]
-            }
-          }
-        }
-      },
       "animationParts": {
         "blade": {
           "path": "crappyhammer/blade/<variant>.png",

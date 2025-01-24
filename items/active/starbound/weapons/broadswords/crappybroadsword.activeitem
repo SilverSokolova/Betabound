@@ -1,6 +1,6 @@
 {
   "itemName": "sb_crappybroadsword",
-  "definition": "broadswords/common",
+  "definition": ["broadswords/common", "broadswords/abilities"],
   "tooltipFields": {
     "subtitle": "Crappy Broadsword"
   },
@@ -23,14 +23,6 @@
           "paletteSwap": true
         }
       },
-      "altAbilities": [
-        "bladecharge",
-        "downstab",
-        "parry",
-        "risingslash",
-        "spinslash",
-        "superspinslash"
-      ],
       "iconDrawables": ["handle", "blade"],
       "palette": "/items/active/starbound/colors/crappy.weaponcolors"
     }

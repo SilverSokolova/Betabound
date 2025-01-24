@@ -1,8 +1,8 @@
 {
   "itemName": "sb_deathstick",
-  "price": 990,
   "fixedLevel": false,
   "rarity": "uncommon",
+  "price": 990,
   "description": "OH NO NOT THE BEES NO NO ARGH MY EYES!",
   "shortdescription": "Death Stick",
   "tooltipFields": {

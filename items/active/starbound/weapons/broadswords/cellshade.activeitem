@@ -1,6 +1,6 @@
 {
   "itemName": "sb_cellshade",
-  "definition": "broadswords/rare",
+  "definition": ["broadswords/rare", "broadswords/abilities"],
   "description": "An unreal blade quivering with tremendous energy. It seems to have a mind of its own.",
   "shortdescription": "Cellshade ^yellow;^reset;",
   "sb_waBan": true,
@@ -40,15 +40,7 @@
         }
       },
       "iconDrawables": ["blade"],
-      "palette": "/items/active/starbound/colors/cellsword.weaponcolors",
-      "altAbilities": [
-        "bladecharge",
-        "downstab",
-        "parry",
-        "risingslash",
-        "spinslash",
-        "superspinslash"
-      ]
+      "palette": "/items/active/starbound/colors/cellsword.weaponcolors"
     }
   ],
 
