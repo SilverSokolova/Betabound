@@ -1,0 +1,5 @@
+{
+  "input": [["titaniumbar",4],["copperbar",2]],
+  "output": "sb_chainwhip",
+  "groups": ["craftinganvil2","weapons","all"]
+}

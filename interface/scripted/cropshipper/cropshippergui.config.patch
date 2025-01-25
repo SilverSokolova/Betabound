@@ -8,6 +8,11 @@
 ,[{"op":"add","path":"/acceptItems/-","value":"crystalplant"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"kelp"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"seaweed"}]
+,[{"op":"add","path":"/acceptItems/-","value":"sb_fluffalofeed"}]
+,[{"op":"add","path":"/acceptItems/-","value":"sb_firefluffalofeed"}]
+,[{"op":"add","path":"/acceptItems/-","value":"sb_icefluffalofeed"}]
+,[{"op":"add","path":"/acceptItems/-","value":"sb_poisonfluffalofeed"}]
+,[{"op":"add","path":"/acceptItems/-","value":"sb_electricfluffalofeed"}]
 
 //MEAT
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_rawfleshlump"}]

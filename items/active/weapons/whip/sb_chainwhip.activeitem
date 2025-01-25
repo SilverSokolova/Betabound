@@ -39,8 +39,7 @@
   "primaryAbility": {
     "fireTime": 1.4,
     "chainDps": 2,
-    "crackDps": 6.5,
-    "projectileType": "whipcrackphysical"
+    "crackDps": 6.5
   },
 
   "sb_builder": "/items/buildscripts/buildwhip.lua",

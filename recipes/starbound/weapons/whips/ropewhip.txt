@@ -1,0 +1,5 @@
+{
+  "input": [["climbingrope",4],["leather",2],"tungstenbar"],
+  "output": "ropewhip",
+  "groups": ["craftinganvil","weapons","all"]
+}
