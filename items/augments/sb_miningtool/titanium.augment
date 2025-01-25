@@ -9,7 +9,7 @@
   },
   "durabilityRegen": 240,
   "inventoryIcon": "titanium.png",
-  "description": "It's a titanium repair tool.\n^gray;Select repair tool and right-click pickaxe or drill",
+  "description": "Restores a moderate amount of durability to mining tools.\n^gray;Apply with right-click",
   "shortdescription": "Titanium Repair Tool",
   "scripts": ["/scripts/augments/sb_repair.lua"]
 }

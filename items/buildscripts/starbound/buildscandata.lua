@@ -11,7 +11,7 @@ function build(directory, config, parameters)
   --I'd do something for sb_objectName here but I'll figure that out when it becomes relevant. Which is hopefully never.
 
   config.inventoryIcon = jarray()
-  local icon = itemConfig.inventoryIcon or "/interface/sb_tooltips/assetmissing.png"
+  local icon = itemConfig.inventoryIcon or "/sb_assetmissing.png"
   if icon then
     if type(icon) == "table" then icon = icon[1].image end
     if icon:sub(0, 1) ~= "/" then icon = directory..icon end

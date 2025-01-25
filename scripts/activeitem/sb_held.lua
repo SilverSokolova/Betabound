@@ -3,7 +3,7 @@ local originalUpdate = update or function() end
 
 function init()
   originalInit()
-  activeItem.setArmAngle(root.assetJson("/betabound.config:heldItemArmAngle"))
+  activeItem.setArmAngle(config.getParameter("heldItemArmAngle", root.assetJson("/betabound.config:heldItemArmAngle")))
 end
 
 function update(...)

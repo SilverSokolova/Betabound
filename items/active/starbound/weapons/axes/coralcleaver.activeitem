@@ -1,17 +1,11 @@
 {
   "itemName": "sb_coralcleaver",
-  "price": 800,
-  "maxStack": 1,
-  "level": 1,
-  "rarity": "rare",
+  "definition": "axes/rare",
   "description": "Encrusted with sharp, heat-infused fragments of coral.",
   "shortdescription": "Coral Cleaver",
   "tooltipKind": "sb_sword2",
-  "category": "axe",
-  "twoHanded": false,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "axe"],
-  "animation": "/items/active/starbound/weapons/axe.animation",
+  "itemTags": ["weapon", "melee", "axe", "upgradeableWeapon"],
 
   "sb_dyeable": true,
   "directives": "",
@@ -31,13 +25,7 @@
       "parts": {
         "blade": {
           "properties": {
-            "offset": [0, 1.4],
             "fullbright": true
-          }
-        },
-        "handle": {
-          "properties": {
-            "offset": [0, 1.4]
           }
         },
         "swoosh": {
@@ -45,46 +33,37 @@
             "swoosh": {
               "fire": {
                 "properties": {
-                  "image": "coralswoosh.png:<frame>"
+                  "image": "coralswoosh.png:<frame>",
+                  "fullbright": true
                 }
               }
             }
-          },
-          "properties": {
-            "offset": [-1, 1.75]
           }
         }
       }
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
-
   "elementalType": "fire",
   "aimOffset": -1,
   "primaryAbilityType": "sb_axe",
   "primaryAbility": {
-    "fireTime": [0.7, 1.3],
     "projectileType": "sb_coralswoosh",
-    "baseDps": [4, 8],
     "damageConfig": {
-      "damageSourceKind": "fireaxe",
       "knockback": 30,
       "statusEffects": ["burning"]
     },
     "stances": {
       "idle": {
-        "weaponOffset": [0.3, 1.5]
-      },
-      "windup": {
-        "weaponOffset": [0.3, 1.5]
-      },
-      "fire": {
-        "weaponOffset": [0.3, 1.5]
+        "weaponOffset": [0.25, 2.5]
       }
     }
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "upgradeParameters": {
+    "sb_newItemName": "sb_heatcleaver"
+  },
 
   "craftedParameters": {
     "seed": 1,

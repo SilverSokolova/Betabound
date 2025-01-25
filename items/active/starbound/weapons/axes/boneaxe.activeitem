@@ -1,20 +1,14 @@
 {
   "itemName": "sb_boneaxe",
-  "price": 750,
-  "maxStack": 1,
-  "level": 1,
-  "rarity": "Legendary",
+  "definition": "axes/rare",
   "description": "Summon a flying skull with each swing!",
   "shortdescription": "Bone Axe",
   "tooltipKind": "sb_sword2",
-  "category": "axe",
   "tooltipFields": {
     "subtitle": "Bone Axe"
   },
-  "twoHanded": false,
   "sb_waBan": true,
   "itemTags": ["weapon", "melee", "axe"],
-  "animation": "/items/active/starbound/weapons/axe.animation",
 
   "animationParts": {
     "blade": "boneaxe.png",
@@ -29,7 +23,7 @@
             "swoosh": {
               "fire": {
                 "properties": {
-                  "image": "axeboneswoosh.png:<frame>"
+                  "image": "boneswoosh.png:<frame>"
                 }
               }
             }
@@ -52,7 +46,6 @@
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "aimOffset": 2,
 

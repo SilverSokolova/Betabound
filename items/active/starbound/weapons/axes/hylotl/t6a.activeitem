@@ -1,8 +1,8 @@
 {
-  "description": "A severely curved scythe.",
+  "description": "A scythe shaped like an anchor.",
+  "shortdescription": "The Anchorer",
   "itemTags": ["weapon", "melee", "axe"],
   "itemName": "sb_hylotltier6aaxe",
   "definition": ["colors/t6a", "axes/a"],
-  "shortdescription": "Fishing Hook",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

@@ -16,7 +16,11 @@ function build(directory, config, parameters, level, seed)
     parameters.crafted = nil
   end
 
+  require "/items/buildscripts/starbound/updateweapon.lua"
+  config, parameters = build(directory, config, parameters, level, seed)
+
   if level and not configParameter("fixedLevel", false) then parameters.level = level end
+
   config.directives = parameters.directives or config.directives or ""
   config.sb_extraDirectives = parameters.sb_extraDirectives or config.sb_extraDirectives or ""
   if parameters.colorIndex then
@@ -84,12 +88,20 @@ function build(directory, config, parameters, level, seed)
     end
   end
 
+  -- allow using no-variant muzzle spritesheets in the animations folder
+  if config.noMuzzleFlashVariants and config.animationCustom then
+    local animationCustom = config.animationCustom or {}
+    animationCustom = ensureNestedTable(animationCustom, {"animatedParts", "parts", "muzzleFlash", "partStates", "firing", "fire", "properties"})
+    animationCustom.animatedParts.parts.muzzleFlash.partStates.firing.fire.properties.image = "<partImage>:<frame>"
+    config.animationCustom = animationCustom
+  end
+
   -- populate tooltip fields
   if config.tooltipKind ~= "base" then
     config.tooltipFields = config.tooltipFields or {}
     config.tooltipFields.dyeLabel = configParameter("sb_dyeable") and "^gray;(Dyeable)" or ""
-    config.tooltipFields.levelLabel = "^shadow;Lvl "..string.format("%.0f",configParameter("level", 1))
-    config.tooltipFields.level2Label = "Lvl "..string.format("%.0f",configParameter("level", 1))
+    config.tooltipFields.sb_levelLabel = "^shadow;Lvl "..string.format("%.0f",configParameter("level", 1))
+    config.tooltipFields.sb_level2Label = "Lvl "..string.format("%.0f",configParameter("level", 1))
     config.tooltipFields.dpsLabel = util.round((config.primaryAbility.baseDps or 0) * config.damageLevelMultiplier, 1)
     local fireTime = config.primaryAbility.fireTime or 1.0
     config.tooltipFields.speedLabel = util.round(1 / (fireTime), 1)
@@ -121,15 +133,6 @@ function build(directory, config, parameters, level, seed)
   if config.rarity == "essential" then config.tooltipFields.rarityLabel = "Epic" end
 
   config.price = (config.price or 0) * root.evalFunction("itemLevelPriceMultiplier", configParameter("level", 1))
-  if not parameters.customItem then
-    if parameters.primaryAbilityType == "axecleave" then
-      parameters.primaryAbilityType = "sb_axe"
-    end
-
-    if config.itemName == "sb_buster" and parameters.primaryAbilityType == "bowshot" then
-      parameters.primaryAbilityType = config.primaryAbilityType
-    end
-  end
 
   if config.staffHasFullbright then
     config.animationParts.staffFullbright = "<staff>fb.png"
@@ -138,5 +141,21 @@ function build(directory, config, parameters, level, seed)
   local tags = configParameter("tags")
   if tags then for k, v in pairs(tags) do replacePatternInData(config, nil, k, v) end end
 
+  if config.clearRadioMessagesOnPickup and config.radioMessagesOnPickup then
+    config.radioMessagesOnPickup = nil
+  end
+
   return config, parameters
+end
+
+function ensureNestedTable(data, tables)
+  local current = data
+  
+  for i = 1, #tables do
+    local key = tables[i]
+    current[key] = current[key] or {}
+    current = current[key]
+  end
+  
+  return data
 end

@@ -1,24 +1,19 @@
 {
   "itemName": "sb_steelchair",
-  "maxStack": 1,
-  "paletteSwaps": "",
-  "rarity": "uncommon",
+  "definition": "hammers/uncommon",
   "description": "",
   "shortdescription": "Steel Chair",
   "tooltipKind": "sb_sword",
-  "price": 70,
+  "price": 990,
   "category": "hammer",
   "tooltipFields": {
     "subtitle": "Steel Chair"
   },
-  "twoHanded": true,
   "sb_waBan": true,
   "sb_dyeable": false,
   "sb_backingDirectives": "?replace;f5e458=ffca8a;bc8b07=e0975c;a1750b=a85636;e9e9e9=ffca8a;b1b1b1=e0975c;676767=a85636",
   "sb_extraDirectives": "?replace;ffca8a=f5e458;e0975c=bc8b07;a85636=a1750b;ffca8a=e9e9e9;e0975c=b1b1b1;a85636=676767",
   "itemTags": ["weapon", "melee", "hammer"],
-  "handGrip": "inside",
-  "animation": "/items/active/starbound/weapons/axe.animation",
   "inventoryIcon": "steelchair.png<directives>",
   "animationParts": {
     "blade": "steelchair.png",
@@ -29,56 +24,41 @@
       "parts": {
         "parryShield": {
           "properties": {
-            "offset": [-1, -1]
+            "offset": [-0.75, -1]
           }
         },
         "swoosh": {
           "properties": {
-            "offset": [-1, 1.5]
+            "offset": [-2.75, 2],
+            "image": "/items/active/weapons/melee/axe/swoosh/<elementalType>swoosh.png:<frame>"
           }
         }
       }
-    },
-    "sounds": {
-      "fire": ["/sfx/melee/swing_hammer.ogg"]
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
-  "aimOffset": 0,
-  "primaryAbilityType": "sb_axe",
+  "elementalType": "physical",
+  "primaryAbilityType": "sb_hammer",
   "altAbilityType": "parry",
   "altAbility": {
     "stances": {
       "parry": {
-        "weaponOffset": [0.5, 2]
+        "weaponOffset": [-0.375, 2]
       }
     }
   },
   "primaryAbility": {
-    "fireTime": [1.111, 1.666],
-    "baseDps": [7.5, 12.5],
     "damageConfig": {
-      "damageSourceKind": "foldingchair",
-      "knockbackRange": [16, 35]
+      "damageSourceKind": "foldingchair"
     },
     "stances": {
       "idle": {
-        "allowRotate": false,
-        "twoHanded": true,
         "weaponOffset": [0.3, 1.5]
       },
       "windup": {
-        "allowRotate": false,
-        "duration": 0.7, //7
-        "weaponOffset": [0.3, 1.5],
-        "minWindup": 0.6,
-        "twoHanded": true
+        "weaponOffset": [0.3, 1.5]
       },
       "fire": {
-        "duration": 0.4,
-        "twoHanded": true,
-        "allowRotate": false,
         "weaponOffset": [0.3, 1.5]
       }
     }
@@ -86,7 +66,6 @@
 
   "builderConfig": [{
       "nameGenerator": "steelchairnames.config:nameGen",
-      "elementalType": "physical",
       "palette": "/items/active/starbound/colors/steelchair.weaponcolors"
     }
   ],

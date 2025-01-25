@@ -32,8 +32,6 @@
 
 [{"op":"add","path":"/novakidStarterTreasure/0/1/fill/-","value":{"item":["riceseed",3]}}],
 [{"op":"add","path":"/novakidStarterTreasure/0/1/fill/-","value":{"item":["wheatseed",3]}}],
-[{"op":"add","path":"/novakidStarterTreasure/0/1/fill/-","value":{"item":"sb_novastarter"}}],
-[{"op":"add","path":"/novakidStarterTreasure/0/1/fill/-","value":{"item":"sb_novatier0rifle"}}],
-[{"op":"add","path":"/novakidStarterTreasure/0/1/fill/-","value":{"item":["sb_ammo",250,{"projectileType":"standardbullet"}]}}]
+[{"op":"add","path":"/novakidStarterTreasure/0/1/fill/-","value":{"item":"sb_novatier0rifle"}}]
 //(In the depths of this file, you notice an sb_commonassaultrifle, an sb_crappybroadsword, three coalores, and 3 cornseeds floating in limbo.)
 ]

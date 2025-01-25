@@ -144,7 +144,7 @@
       "file": "/projectiles/explosions/globeexplosions/orangeglobeexplosion/orangeglobeexplosion.config"
     }
   ],
-  "damageKind": "plasma",
+  "damageKind": "fireplasma",
   "statusEffects": [{
       "effect": "burning",
       "duration": 3

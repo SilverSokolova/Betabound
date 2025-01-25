@@ -1,0 +1,29 @@
+[
+    //2
+    [{"op":"test","path":"/nameGen/1/2"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Rapid"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Kill"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Hail"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Death"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Bro"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Strike"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Burst"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Rattle"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Spray"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Wild"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Pop"}
+    ],
+
+    //3
+    [{"op":"test","path":"/nameGen/1/3"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"barrel"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"enator"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"eriser"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"maker"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"boy"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"shooter"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"mac"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"spray"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"bug"}
+    ]
+]

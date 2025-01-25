@@ -1,6 +1,6 @@
 {
   "itemName": "sb_glitchglitchstaff2",
-  "definition": "racialstaff",
+  "definition": ["staff", "racialstaff"],
   "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "glitch",
@@ -26,6 +26,7 @@
   },
   "elementalType": "fire",
   "altAbilityType": "plasmabladebarrage",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "sb_gamebreakerscratch",
     "projectileParameters": {

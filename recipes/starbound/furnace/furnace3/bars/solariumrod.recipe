@@ -1,0 +1,6 @@
+{
+  "input": [["solariumore", 2], "plutoniumore"],
+  "output": "sb_solariumrod",
+  "duration": 0.15,
+  "groups": ["craftingfurnace3", "bars", "all"]
+}

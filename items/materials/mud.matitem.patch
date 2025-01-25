@@ -1,0 +1,12 @@
+[
+  [{
+      "op": "test",
+      "path": "/description",
+      "value": "Thick and sticky mud."
+    }, {
+      "op": "replace",
+      "path": "/description",
+      "value": "Thick and sticky mud. Nature's glue!"
+    }
+  ]
+]

@@ -1,1 +1,8 @@
-{"description":"A hefty sword with a lot of weight behind it.","shortdescription":"Wingclipper XL","itemName":"sb_aviantier5mbroadsword","definition":["colors/t5m","broadswords/t5m"],"itemTags":["weapon","melee","broadsword"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "A hefty sword with a lot of weight behind it.",
+  "shortdescription": "Wingclipper XL",
+  "itemName": "sb_aviantier5mbroadsword",
+  "definition": ["colors/t5m", "broadswords/t5m"],
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

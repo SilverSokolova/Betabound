@@ -4,7 +4,7 @@
   "maxStack": 1,
   "rarity": "rare",
   "description": "...Like a hot knife through butter.", //This dagger has explosive dark power.",
-  "shortdescription": "Gutterknife",
+  "shortdescription": "Gutterknife ^yellow;^reset;",
   "tooltipKind": "sb_sword2",
   "price": 540,
   "category": "dagger",

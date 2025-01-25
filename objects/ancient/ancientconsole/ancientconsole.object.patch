@@ -1,2 +1,2 @@
 [{"op":"add","path":"/scripts/-","value":"/objects/ancient/ancientconsole/sb_ancientconsole.lua"},
-{"op":"add","path":"/sb_radioMessage","value":"sb_ancientgateway"}]
+{"op":"add","path":"/sb_radioMessage","value":"ancientgateway"}]

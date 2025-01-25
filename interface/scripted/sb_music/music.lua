@@ -50,26 +50,25 @@ function itemSelected()
   end
 end
 
-function play(a) doPlay[radioType](a) end
-doPlay["portable"] = function(a)
-  local stop = a == "stop"
+function play(data) doPlay[radioType](data) end
+doPlay["portable"] = function(data)
+  local stop = data == "stop"
   if not stop and not selectedSong then return end
-  world.sendEntityMessage(player.id(),stop and "stopAltMusic" or "playAltMusic",stop and 1 or {songs[selectedSong].icon},1)
+  world.sendEntityMessage(player.id(), stop and "stopAltMusic" or "playAltMusic", stop and 1 or {songs[selectedSong].icon}, 1)
 end
 
-doPlay["stationary"] = function(a)
-  local stop = a == "stop"
-  if not stop and not selectedSong then return end
+doPlay["stationary"] = function(active)
+  if not selectedSong then return end
   local song = selectedSong and songs[selectedSong].icon
-  world.sendEntityMessage(id, "sb_radio:update", {song = stop and "" or song, range = widget.getSliderValue("range")})
+  world.sendEntityMessage(id, "sb_radio:update", {song = song, range = widget.getSliderValue("range"), active = active ~= "stop"})
 end
 
 function doPath(directory) return directory:sub(1,1) == "/" and directory or "/music/"..directory..".ogg" end
 function searchBar() query = widget.getText("searchBar"):lower() end
 
 function setRange()
-  widget.setText("lblRange",""..widget.getSliderValue("range"))
-  world.sendEntityMessage(id,"sb_radio",nil,widget.getSliderValue("range"))
+  widget.setText("lblRange", ""..widget.getSliderValue("range"))
+  world.sendEntityMessage(id, "sb_radio:update", {range = widget.getSliderValue("range")})
 end
 
 function update(dt)

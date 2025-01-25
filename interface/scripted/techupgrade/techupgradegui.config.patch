@@ -20,11 +20,11 @@
       "path": "/gui/sb_btnSuit",
       "value": {
         "type": "button",
-        "zlevel" : 7, //Why 7? Mara reported this button being under the little blue person
+        "zlevel": 7, //Why 7? Mara reported this button being under the little blue person
         "base": "/interface/button.png?scalenearest=0.95;1",
         "hover": "/interface/buttonhover.png?scalenearest=0.95;1",
         "pressedOffset": [0, -1],
-        "caption": "Suits",
+        "caption": "SUIT TECH",
         "position": [0, 0],
         "callback": "sb_showSuits"
       }

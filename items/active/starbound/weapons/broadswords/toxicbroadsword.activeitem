@@ -1,47 +1,19 @@
 {
   "itemName": "sb_toxicbroadsword",
-  "level": 1,
-  "price": 180,
-  "maxStack": 1,
-  "rarity": "common",
+  "definition": ["broadswords/uncommon", "broadswords/abilities"],
   "tooltipKind": "sb_sword",
-  "category": "broadsword",
   "tooltipFields": {
     "subtitle": "Toxic Broadsword"
   },
   "description": "",
   "shortdescription": "Toxic Broadsword",
-  "twoHanded": true,
   "itemTags": ["weapon", "melee", "broadsword"],
-  "animation": "/items/active/starbound/weapons/broadsword.animation",
-  "animationParts": {},
-  "animationCustom": {
-    "lights": {
-      "glow": {
-        "color": [0, 0, 0]
-      }
-    },
-    "animatedParts": {
-      "parts": {
-        "blade": {
-          "properties": {}
-        },
-        "handle": {
-          "properties": {}
-        }
-      }
-    }
-  },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "primaryAbilityType": "sb_meleeslash",
   "primaryAbility": {
-    "fireTime": [0.6, 0.9],
-    "baseDps": [10.5, 11.5],
     "damageConfig": {
       "damageSourceKind": "poisonbroadsword",
-      "statusEffects": ["weakpoison"],
-      "knockback": 18
+      "statusEffects": ["weakpoison"]
     }
   },
   "builderConfig": [{
@@ -57,14 +29,7 @@
           "variants": 2
         }
       },
-      "iconDrawables": ["handle", "blade"],
-      "altAbilities": [
-        "bladecharge",
-        "parry",
-        "travelingslash",
-        "blinkexplosion",
-        "traildash"
-      ]
+      "iconDrawables": ["handle", "blade"]
     }
   ],
   "builder": "/items/buildscripts/starbound/buildweapon.lua"

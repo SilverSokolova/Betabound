@@ -4,7 +4,7 @@
       "pool" : [
         {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["bladecharge","downstab","parry","risingslash","spinslash","superspinslash"]}]},
         {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["uppercut","physicalshockwave","groundslam"]}]},
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["flurry","spearspin"]}]}
+        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["flurry","spearspin","spearcharge"]}]}
       ]
     }]
   ],

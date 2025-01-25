@@ -1,11 +1,11 @@
 {
-  "itemName" : "sb_liquidcoffee",
-  "price" : 45,
-  "tooltipKind" : "sb_object",
-  "rarity" : "common",
-  "category" : "liquid",
-  "inventoryIcon" : "sb_liquidcoffee.png",
-  "description" : "A measure of nice, warm coffee.",
-  "shortdescription" : "Liquid Coffee",
-  "liquid" : "sb_coffee"
+  "itemName": "sb_liquidcoffee",
+  "price": 18,
+  "tooltipKind": "sb_object",
+  "rarity": "common",
+  "category": "liquid",
+  "inventoryIcon": "sb_liquidcoffee.png",
+  "description": "A measure of nice, warm coffee.",
+  "shortdescription": "Liquid Coffee",
+  "liquid": "sb_coffee"
 }

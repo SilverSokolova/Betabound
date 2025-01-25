@@ -3,6 +3,7 @@
   "rarity": "unCommon",
   "tooltipKind": "sb_object",
   "category": "other",
+  "inventoryFilters": {"materialBag":{},"default":{"tagWhitelist":[]}},
   "tooltipFields": {
     "subtitle": "Ladder",
     "objectImage": "/objects/sb_ladders/modernladderlarge.png"
@@ -12,7 +13,7 @@
   "shortdescription": "Modern Ladder",
   "race": "generic",
   "health": 1.5,
-  "printable": false,
+  "printable": true, //This is printable because it appears in the Portable Pixel Printer
   "radioMessagesOnPickup": ["sb_pickupladder"],
 
   "glitchDescription": "Satisfied. This smooth ladder is attractive and sturdy.",

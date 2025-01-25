@@ -4,10 +4,6 @@ require "/scripts/activeitem/sb_cursors.lua"
 require "/scripts/sb_assetmissing.lua"
 
 function init() sb_techType()
-  if not config.getParameter("version") and not player.getProperty("betabound",{}).gotUMR then
-    player.giveItem(root.assetJson("/scripts/sb_versioning/upgrademoduleremover.json"))
-    player.setProperty("betabound",sb.jsonMerge(player.getProperty("betabound",{}),{gotUMR=true}))
-  end
   script.setUpdateDelta(20)
   activeItem.setHoldingItem(false)
   sb_cursor("power")
@@ -43,13 +39,13 @@ function lockinTech()
             world.sendEntityMessage(player.id(),"sb_implant",tech[2]) end
             animator.playSound("success")
           else
-            sb_uiMessage("techNotBinded")
+            sb_uiMessage("techNotEquipped")
           end
         else
           sb_uiMessage("techNotKnown")
         end
       else
-        sb_uiMessage("techNotBinded")
+        sb_uiMessage("techNotEquipped")
       end
     else
       sb_uiMessage("techFail")

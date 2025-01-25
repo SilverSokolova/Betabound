@@ -7,8 +7,7 @@
   "description": "Swing around as much as you like!",
   "shortdescription": "Swinging Vine",
   "category": "tool",
-  "twoHanded": false,
-  "tooltipKind": "sb_tool",
+  "tooltipKind": "sb_object",
   "largeImage": "sb_swingingvineicon.png",
 
   "scripts": ["/items/active/grapplinghooks/grapplinghook.lua"],

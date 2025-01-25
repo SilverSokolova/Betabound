@@ -1,19 +1,19 @@
 {
   "itemName": "sb_novatier6srevolver",
   "definition": "revolver",
-  "itemTags": ["weapon", "ranged", "pistol", "revolver", "novakid"],
+  "itemTags": ["weapon", "ranged", "pistol", "revolver"],
   "tags": {
     "<t>": "6s"
   },
   "rarity": "legendary",
   "description": "Every gun makes its own tune.",
   "shortdescription": "The Bad",
-  "muzzleOffset": [2, 0],
+  "muzzleOffset": [1.375, 0.07],
   "level": 6,
   "configOverrides": {
     "primaryAbility": {
-      "fireTime": 0.67,
-      "energyUsage": 24
+      "fireTime": 0.7,
+      "energyUsage": 24.65
     }
   },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"

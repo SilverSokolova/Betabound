@@ -4,8 +4,8 @@
   "displayTitle": "Hylotl Floran Hater",
 
   "scriptConfig": {
-    "sb_offeredQuests": ["sb_kelpquest.gearup"],
-    "sb_turnInQuests": ["sb_kelpquest.gearup"],
+    "sb_offeredQuests": ["sb_kelp"],
+    "sb_turnInQuests": ["sb_kelp"],
 
     "dialog": {
       "converse": {

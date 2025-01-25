@@ -29,7 +29,7 @@
             "chestCosmetic" : [ { "name" : "cultistchest","parameters":{"colorIndex":1} } ],
             "legsCosmetic" : [ { "name" : "cultistlegs","parameters":{"colorIndex":1} } ],
             "alt" : [ "redflashlight","lead" ],
-            "sheathedprimary" : [ "sb_uncommondagger", "sb_uncommonbroadsword" ]
+            "sheathedprimary" : [ "sb_uncommondagger", "sb_uncommonbroadsword", "sb_uncommonshortsword" ]
           }
         ]
       ]

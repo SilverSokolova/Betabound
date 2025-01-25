@@ -1,6 +1,0 @@
-{
-  "input": ["milk","chocolate","sb_liquidcoffee","glasscoffeemug"],
-  "output": "mocha",
-  "groups": ["craftingfood","drinks","coffee","coffeemachine","sb_healing","sb_energy","sb_energyregen","all"],
-  "collectables": {"cooking":"mocha"}
-}

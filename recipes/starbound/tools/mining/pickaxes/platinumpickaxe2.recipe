@@ -1,5 +1,0 @@
-{
-  "input": [["platinumbar",4],"goldpickaxe"],
-  "output": "platinumpickaxe",
-  "groups": ["sb_ironcraftingtable","mining","nouncrafting","all"]
-}

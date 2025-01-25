@@ -1,29 +1,28 @@
 {
-  "id" : "sb_hylotlperformerE2part1.gearup",
-  "prerequisites" : [ "glitch_mission2","sb_hylotlperformerE1.gearup" ],
-  "title" : "^green;Audience of One",
-  "text" : "I recently performed a gig, but only one person turned up! ^green;Could you ^orange;find my lone attendee ^green;and ask them for a review of my performance?",
-  "completionText" : "The gig? It was terrible! I thought I'd spare him the embarassment by disposing of his script, but somehow he found it again... You should probably tell him it was good, to spare his feelings.",
-  "moneyRange" : [0, 0],//makes no sense for rewards
-  "rewards" : [],
+  "id": "sb_hylotlperformerE2part1",
+  "prerequisites": ["glitch_mission2", "sb_hylotlperformerE1"],
+  "title": "^green;Audience of One",
+  "text": "I recently performed a gig, but only one person turned up! ^green;Could you ^orange;find my lone attendee ^green;and ask them for a review of my performance?",
+  "completionText": "The gig? It was terrible! I thought I'd spare him the embarassment by disposing of his script, but somehow he found it again... You should probably tell him it was good, to spare his feelings.",
+  "moneyRange": [1100, 1200],
+  "rewards": [],
 
-  "guiConfigs" : {
-    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
-    "newQuest" : "/interface/windowconfig/sb_newquestnorewards.config",
-    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquestnorewards.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
   },
 
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/main.lua",
-  "scriptConfig" : {
-    "portraits" : {
-      "questStarted" : "questGiver",
-      "questComplete" : "questReceiver"
+  "updateDelta": 10,
+  "script": "/quests/scripts/main.lua",
+  "scriptConfig": {
+    "portraits": {
+      "questStarted": "questGiver",
+      "questComplete": "questReceiver"
     },
-    "turnInDescription" : "Find the ^orange;lone attendee^reset; at the ^orange;outpost^reset;",
-    "followUp" : "sb_hylotlperformerE2part2.gearup",
-    "requireTurnIn" : true,
-    "conditions" : []
+    "turnInDescription": "Find the ^orange;lone attendee^reset; at the ^orange;outpost^reset;",
+    "followUp": "sb_hylotlperformerE2part2",
+    "requireTurnIn": true,
+    "conditions": []
   }
 }
- 

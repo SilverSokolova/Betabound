@@ -1,3 +1,5 @@
 [
-[{"op":"add","path":"/sb_unupgradeable","value":true}]
+[{"op":"add","path":"/sb_unupgradeable","value":true}],
+
+[{"op":"test","path":"/category","value":"uniqueWeapon"},{"op":"replace","path":"/category","value":"tool"}]
 ]

@@ -17,15 +17,16 @@
     "subtitle": "Lightning Coil"
   },
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
-    "muzzleFlash": "/animations/sb/muzzleflash/electromuzzle/electromuzzle.png"
+    "muzzleFlash": "/animations/muzzleflash/electromuzzle/electromuzzle.png"
   },
   "animationCustom": {
     "sounds": {
       "fire": ["/sfx/gun/lightningcoil1.ogg", "/sfx/gun/lightningcoil2.ogg", "/sfx/gun/lightningcoil3.ogg"]
     }
   },
+  "noMuzzleFlashVariants": true,
 
   "elementalType": "electric",
 

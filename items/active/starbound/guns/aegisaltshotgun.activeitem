@@ -4,16 +4,13 @@
   "maxStack": 1,
   "price": 600,
   "tooltipKind": "sb_gun2",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/standardbullet.png"
-  },
-  "itemTags": ["weapon", "ranged", "shotgun", "aegisalt"],
+  "itemTags": ["weapon", "ranged", "shotgun"],
   "category": "shotgun",
   "fixedRarity": true,
   "rarity": "rare",
   "description": "A shotgun worth its aegisalt.",
   "shortdescription": "Aegishot",
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationCustom": {
     "sounds": {
       "fire": ["/sfx/gun/shotgun3.ogg"]

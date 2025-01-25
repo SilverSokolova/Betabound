@@ -1,5 +1,5 @@
 [
-[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":64}],
+[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":100}],
 [{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}],
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object4"}],
 

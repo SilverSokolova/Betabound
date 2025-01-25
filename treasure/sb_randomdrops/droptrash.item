@@ -1,0 +1,5 @@
+{
+  "itemName": "sb_droptrash",
+  "rarity": "rare",
+  "builder": "/items/buildscripts/starbound/randomdrop.lua"
+}

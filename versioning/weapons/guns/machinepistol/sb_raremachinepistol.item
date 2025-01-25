@@ -1,0 +1,5 @@
+{
+  "itemName": "sb_raremachinepistol",
+  "rarity": "rare",
+  "builder": "/items/buildscripts/starbound/convertgun.lua"
+}

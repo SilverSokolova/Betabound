@@ -1,20 +1,14 @@
 {
   "itemName": "sb_firesword",
-  "level": 1,
-  "price": 800,
-  "maxStack": 1,
-  "rarity": "legendary",
-  "category": "broadsword",
+  "definition": ["broadswords/uncommon", "broadswords/abilities"],
   "description": "The concentrated fire inside the blade sets enemies aflame with every attack!",
   "shortdescription": "Fire Sword",
   "tooltipFields": {
     "subtitle": "Fire Sword"
   },
-  "tooltipKind": "sb_sword2",
-  "twoHanded": true,
   "sb_waBan": true,
   "itemTags": ["weapon", "melee", "broadsword"],
-  "animation": "/items/active/starbound/weapons/broadsword.animation",
+
   "animationParts": {
     "blade": "fireswordblade.png",
     "handle": "fireswordhandle.png"
@@ -38,6 +32,16 @@
               "fire": {
                 "properties": {
                   "offset": [0.65, 1.875]
+                }
+              },
+              "fire2": {
+                "properties": {
+                  "offset": [5.5, 0.85]
+                }
+              },
+              "fire3": {
+                "properties": {
+                  "offset": [4.5, 0]
                 }
               }
             }
@@ -64,27 +68,17 @@
 
   "builderConfig": [{
       "nameGenerator": "fireswordnames.config:nameGen",
-      "iconDrawables": ["blade", "handle"],
-      "altAbilities": [
-        "bladecharge",
-        "parry",
-        "travelingslash",
-        "blinkexplosion",
-        "traildash"
-      ]
+      "iconDrawables": ["blade", "handle"]
     }
   ],
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "elementalType": "fire",
   "primaryAbilityType": "sb_meleeslash",
   "primaryAbility": {
     "damageConfig": {
       "statusEffects": ["burning"],
       "damageSourceKind": "firebroadsword"
-    },
-    "fireTime": [0.6, 0.9],
-    "baseDps": [10.5, 11.5]
+    }
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua",
 

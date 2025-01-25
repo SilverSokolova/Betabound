@@ -1,61 +1,33 @@
 {
   "itemName": "sb_cutarrh",
-  "level": 1,
-  "maxStack": 1,
-  "rarity": "legendary",
+  "definition": ["shortswords/swoosh", "shortswords/rare"],
   "description": "A sharp blade which secretes a putrid, oozing mucus.",
   "shortdescription": "Cutarrh",
   "tooltipKind": "sb_sword2",
-  "price": 800,
-  "category": "shortsword",
-  "twoHanded": false,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "shortsword", "slime"],
-  "handGrip": "inside",
+  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
   "inventoryIcon": "cutarrh.png<directives>",
-  "animation": "/items/active/starbound/weapons/shortsword.animation",
   "animationParts": {
     "blade": "cutarrh.png<directives>",
     "handle": ""
   },
-  "animationCustom": {
-    "lights": {
-      "glow": {
-        "color": [0, 0, 0]
-      }
-    },
-    "animatedParts": {
-      "parts": {
-        "swoosh": {
-          "partStates": {
-            "swoosh": {
-              "fire": {
-                "properties": {
-                  "image": "slimeswoosh.png:<frame>"
-                }
-              }
-            }
-          }
-        }
-      }
-    }
+  "tags": {
+    "<swoosh>": "slime"
   },
-
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "elementalType": "poison",
-  "primaryAbilityType": "sb_meleeslash2",
+  "primaryAbilityType": "sb_shortswordcombo",
   "primaryAbility": {
     "projectileType": "sb_slimeblob",
     "projectileOffset": [1, 0.5],
-    "fireTime": [0.5, 0.67],
-    "baseDps": [2.5, 5.5],
-    "baseDamage": [2.5, 5.5],
     "damageConfig": {
-      "damageSourceKind": "acid",
-      "timeout": 0.0
+      "damageSourceKind": "acid"
     }
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "upgradeParameters": {
+    "sb_newItemName": "sb_katarrhna"
+  },
 
   "craftedParameters": {
     "level": 5,

@@ -1,14 +1,14 @@
 {
   "itemName": "sb_novatier3revolver",
   "definition": "revolver",
-  "itemTags": ["weapon", "ranged", "pistol", "revolver", "novakid"],
+  "itemTags": ["weapon", "ranged", "pistol", "revolver"],
   "tags": {
     "<t>": "3"
   },
   "rarity": "uncommon",
   "description": "A suitable gun for a self-proclaimed sheriff.",
   "shortdescription": "Lone Star",
-  "muzzleOffset": [2.1, 0.4],
+  "muzzleOffset": [1.5, 0.25],
   "level": 3,
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

@@ -1,39 +1,38 @@
 {
-  "objectName" : "sb_pump",
-  "colonyTags" : ["wired"],
-  "printable" : false,
-  "rarity" : "Common",
-  "description" : "Moves liquids from one side to the other.",
-  "shortdescription" : "Pump",
-  "race" : "generic",
-  "tooltipKind" : "sb_object",
-  "category" : "wire",
-  "price" : 300,
+  "objectName": "sb_pump",
+  "colonyTags": ["wired"],
+  "printable": false,
+  "rarity": "Common",
+  "description": "Moves liquids from one side to the other.",
+  "shortdescription": "Pump",
+  "race": "generic",
+  "tooltipKind": "sb_object",
+  "category": "wire",
+  "price": 300,
 
-  "inventoryIcon" : "icon.png",
-  "orientations" : [
-    {
-      "dualImage" : "pump.png:idle",
-      "imagePosition" : [-8, -8],
-      "spaceScan" : 0.1,
-      "anchors" : ["background"],
-      "collision" : "solid"
+  "inventoryIcon": "icon.png",
+  "orientations": [{
+      "dualImage": "pump.png:idle",
+      "imagePosition": [-8, -8],
+      "spaceScan": 0.1,
+      "anchors": ["background"],
+      "collision": "solid"
     }
   ],
 
-  "scripts" : ["pump.lua"],
-  "scriptDelta" : 5,
-  "animation" : "pump.animation",
-  "animationCustom" : {},
+  "scripts": ["pump.lua"],
+  "scriptDelta": 5,
+  "animation": "pump.animation",
+  "animationCustom": {},
 
-  "animationParts" : {
-    "pump" : "pump.png",
-    "pumplit" : "pumplit.png"
+  "animationParts": {
+    "pump": "pump.png",
+    "pumplit": "pumplit.png"
   },
-  "animationPosition" : [-8, -8],
-  "inputNodes" : [[-1, 0]],
-  "outputNodes" : [[0, 0]],
+  "animationPosition": [-8, -8],
+  "inputNodes": [[-1, 0]],
+  "outputNodes": [[0, 0]],
 
-  "inputPosition" : [-2, -1],
-  "outputPosition" : [1, -1]
+  "inputPosition": [-2, -1],
+  "outputPosition": [1, -1]
 }

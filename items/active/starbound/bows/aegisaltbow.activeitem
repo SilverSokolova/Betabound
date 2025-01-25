@@ -8,7 +8,6 @@
   "fixedRarity": true,
   "rarity": "rare",
   "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/sb_aegisaltarrow.png",
     "objectImage": "/items/active/starbound/bows/aegisaltbowfull.png:0"
   },
   "description": "Harvests meat and other goods from monsters.",

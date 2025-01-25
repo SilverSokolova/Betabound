@@ -1,13 +1,11 @@
 {
-  "itemName" : "sb_liquidalienjuice",
-  "price" : 5,
-  "tooltipKind" : "sb_object",
-  "rarity" : "common",
-  "category" : "liquid",
-  "humanDescription":"human desc",
-  "apexDescription":"apex desc",
-  "inventoryIcon" : "sb_liquidalienjuice.png",
-  "description" : "A measure of strange alien juice.",
-  "shortdescription" : "Alien Juice",
-  "liquid" : "sb_alienjuice"
+  "itemName": "sb_liquidalienjuice",
+  "price": 5,
+  "tooltipKind": "sb_object",
+  "rarity": "common",
+  "category": "liquid",
+  "inventoryIcon": "sb_liquidalienjuice.png",
+  "description": "A measure of strange alien juice.",
+  "shortdescription": "Alien Juice",
+  "liquid": "sb_alienjuice"
 }

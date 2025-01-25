@@ -1,5 +1,5 @@
 {
-  "input": [["titaniumbar",4],["icecrystal",15]],
+  "input": [["titaniumbar",3],"copperbar",["icecrystal",15]],
   "output": ["sb_icechucker",1,{"seed":1,"level":3}],
   "groups": ["craftinganvil2","weapons","all"]
 }

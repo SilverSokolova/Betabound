@@ -1,0 +1,30 @@
+{
+  "itemName": "sb_startingitembag",
+  "price": 0,
+  "rarity": "Legendary",
+  "category": "mysteriousReward",
+  "description": "A package intended for the owner of the ship. Let's open it!",
+  "shortdescription": "Firearm Shipment",
+  "twoHanded": true,
+  "tooltipKind": "sb_object",
+
+  "inventoryIcon": "/objects/generic/cardboard2/cardboard2icon.png",
+  "animation": "rewardbag.animation",
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "gun": {
+          "properties": {
+            "image": "/objects/generic/cardboard2/cardboard2icon.png?replace;000=0000"
+          }
+        }
+      }
+    }
+  },
+  "scripts": ["rewardbag.lua"],
+  "fireOffset": [1, 0],
+  "treasure": {
+    "pool": "sb_defaultitems",
+    "level": 1
+  }
+}

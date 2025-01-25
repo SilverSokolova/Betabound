@@ -78,12 +78,6 @@
       "primaryScriptDelta": 5,
 
       "stats": {
-        "sb_killCount": {
-          "baseValue": 0
-        },
-        "sb_level": {
-          "baseValue": 0
-        },
         "knockbackStunTime": {
           "baseValue": 0.25
         },

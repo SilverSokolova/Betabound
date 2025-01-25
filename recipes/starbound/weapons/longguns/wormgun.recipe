@@ -1,0 +1,5 @@
+{
+  "input": [["durasteelbar",6],["copperbar",4],["alienwoodsap",25]],
+  "output": "wormgun",
+  "groups": ["craftinganvil2","weapons","all"]
+}

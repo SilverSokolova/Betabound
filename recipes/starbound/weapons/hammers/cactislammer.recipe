@@ -1,5 +1,5 @@
 {
-  "input": [["tungstenbar",10],["cacti",25]],
+  "input": [["tungstenbar",6],["copperbar",4],["cacti",25]],
   "output": ["sb_cactislammer",1,{"crafted":true}],
   "groups": ["craftinganvil","weapons","all"]
 }

@@ -9,7 +9,7 @@
   },
   "durabilityRegen": 90,
   "inventoryIcon": "iron.png",
-  "description": "It's an iron repair tool.\n^gray;Select repair tool and right-click pickaxe or drill",
+  "description": "Restores a small amount of durability to mining tools.\n^gray;Apply with right-click",
   "shortdescription": "Iron Repair Tool",
   "scripts": ["/scripts/augments/sb_repair.lua"]
 }

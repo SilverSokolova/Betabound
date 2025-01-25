@@ -1,0 +1,12 @@
+{
+  "itemName": "sb_solariumrod",
+  "price": 100,
+  "tooltipKind": "sb_object",
+  "rarity": "Rare",
+  "category": "fuel",
+  "fuelAmount": 30,
+  "itemTags": ["reagent"],
+  "inventoryIcon": "sb_solariumrod.png",
+  "description": "It's a solarium rod. Refining the ore alongside plutonium produces a more potent fuel.",
+  "shortdescription": "Solarium Rod"
+}

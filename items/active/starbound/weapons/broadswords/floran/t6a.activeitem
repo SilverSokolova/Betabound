@@ -1,1 +1,8 @@
-{"description":"A dangerous, serrated sword.","shortdescription":"Big Leafslasher","itemName":"sb_florantier6abroadsword","definition":["colors/t6a","broadswords/t6a"],"itemTags":["weapon","melee","broadsword"],"animationCustom":{"animatedParts":{"parts":{"swoosh":{"partStates":{"swoosh":{"fire2":{"properties":{"offset":[5,0]}},"fire3":{"properties":{"offset":[3.5,-0.75]}}}}}}}},"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "A dangerous, serrated sword.",
+  "shortdescription": "Big Leafslasher",
+  "itemName": "sb_florantier6abroadsword",
+  "definition": ["colors/t6a", "broadswords/t6a"],
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

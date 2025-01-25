@@ -1,8 +1,11 @@
 [
-[{"op":"test","path":"/description","value":"A snowball, the perfect size for throwing."},
-{"op":"replace","path":"/description","value":"A snowball, the perfect size for throwing. It's begging to be thrown."}],
+[{"op":"test","path":"/description","value":"A block you can throw!"},
+{"op":"replace","path":"/description","value":"A small block you can throw! It sticks to surfaces."}],
 
 [{"op":"test","path":"/level","inverse":true},{"op":"add","path":"/level","value":1}],
 [{"op":"test","path":"/builder"},{"op":"move","from":"/builder","path":"/sb_builder"}],
-[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildthrowable.lua"}]
+[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildthrowable.lua"}],
+
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_throwingblockmaterial"}]
 ]

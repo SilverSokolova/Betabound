@@ -1,5 +1,5 @@
 {
-  "input": [["durasteelbar",10],["alienwoodsap",25]],
+  "input": [["durasteelbar",6],["copperbar",4],["alienwoodsap",25]],
   "output": ["sb_corrosivegun",1,{"crafted":true}],
   "groups": ["craftinganvil2","weapons","all"]
 }

@@ -6,6 +6,7 @@
   "shortdescription": "^orange;Wrapping Table^reset;",
   "category": "Wrap ALL the gifts!",
   "race": "generic",
+  "printable": false,
   "tooltipKind": "sb_object",
   "price": 65,
   "tooltipFields": {
@@ -13,13 +14,13 @@
   },
   "objectType": "container",
 
-  "apexDescription": "A basic table.",
-  "avianDescription": "It's a table.",
+  "apexDescription": "A fine table.",
+  "avianDescription": "It's a table for wrapping presents.",
   "floranDescription": "Floran stand on table!",
-  "glitchDescription": "Statement. A table.",
-  "humanDescription": "It's just a table.",
-  "hylotlDescription": "A crude and simplistic table.",
-  "novakidDescription": "A table just waitin' for someone to bring a deck of cards!",
+  "glitchDescription": "Statement. A desk used to wrap presents.",
+  "humanDescription": "This desk has just about everything you could need to wrap gifts up.",
+  "hylotlDescription": "An elegant desk for wrapping presents.",
+  "novakidDescription": "A table jam-packed with all sorts of wrapping stuff!",
 
   "slotCount": 7,
   "uiConfig": "/interface/sb_objectcrafting/wrapping.config",

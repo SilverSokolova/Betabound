@@ -1,0 +1,11 @@
+[
+[{"op":"test","path":"/description","value":"Vile, sticky slime."},{"op":"replace","path":"/description","value":"Slimy, brightly coloured jelly. It looks dangerous..."}],
+[{"op":"test","path":"/itemDrop","value":"liquidslime"},{"op":"replace","path":"/itemDrop","value":"sb_liquidjelly"}],
+[{"op":"test","path":"/statusEffects"},{"op":"add","path":"/statusEffects/-","value":"weakpoison"}],
+[{"op":"test","path":"/radiantLight","value":[189, 26, 0]},{"op":"replace","path":"/radiantLight","value":[26,189,0]}],
+
+[{"op":"test","path":"/interactions","inverse":true},{"op":"add","path":"/interactions","value":[]}],
+//[{"op":"add","path":"/interactions/-","value":{"liquid":1,"liquidResult":17}}], //water
+[{"op":"add","path":"/interactions/-","value":{"liquid":3,"liquidResult":17}}], //poison
+[{"op":"add","path":"/interactions/-","value":{"liquid":13,"liquidResult":17}}] //slime
+]

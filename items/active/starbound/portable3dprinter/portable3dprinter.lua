@@ -8,6 +8,7 @@ end
 
 function swingAction()
   local pos = world.entityPosition(activeItem.ownerEntityId())
+  pos = {pos[1], pos[2] - (mcontroller.crouching() and 1 or 0)}
   if world.isTileProtected(pos) then
     sb_uiMessage("areaProtected")
     animator.playSound("error")

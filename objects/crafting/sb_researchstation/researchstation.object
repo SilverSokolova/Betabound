@@ -8,8 +8,8 @@
   "interactAction": "ScriptPane",
   "interactData": "/interface/scripted/sb_research/research.config",
   "categoryButton": {
-    "pressedOffset": [0,-1],
-    "position": [22, 44], //-10,22,33,51,58,78 increasing by 11 seems good
+    "pressedOffset": [0, -1],
+    "position": [11, 44], //-10,22,33,51,58,78 increasing by 11 seems good
     "baseImage": "/interface/sb_crafting/categories.png:%s",
     "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:%s",
     "data": {}
@@ -148,6 +148,7 @@
       //alien
       ,"sb_corrosivegun"
       ,"sb_corrosivegrenade"
+      ,"wormgun"
      
       //volcanic
       ,"sb_heatray"
@@ -162,13 +163,6 @@
       ,"sb_crayonpurple"
       ,"sb_crayongreen"
       ,"sb_crayonorange"
-    
-      ,"paintgunred"
-      ,"paintgunblue"
-      ,"paintgunyellow"
-      ,"paintgunpurple"
-      ,"paintgungreen"
-      ,"paintgunorange"
     
       //ocean
       ,"harpoongun"
@@ -236,9 +230,11 @@
       ,"sb_coralcleaver"
     
       //unique weapon
+      ,"astrosabredeluxe"
       ,"iceboomerang"
       ,"fireboomerang"
       ,"lunarang"
+      ,"wormerang"
       ,"neochakram"
       ,"sawchakram"
       ,"hardchakram"
@@ -718,6 +714,15 @@
       ,"industrialcomputer"
       ,"industrialcanister"
       ,"industrialbed"
+    ],
+
+    "toys": [
+       "paintgunred"
+      ,"paintgunblue"
+      ,"paintgunyellow"
+      ,"paintgunpurple"
+      ,"paintgungreen"
+      ,"paintgunorange"
     ]
   }
 }

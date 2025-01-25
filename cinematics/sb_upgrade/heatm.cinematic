@@ -1,4 +1,5 @@
 {
+  "suppressInput": false,
   "panels": [{
       "drawables": [{
           "image": "/cinematics/respawn/black.png"
@@ -83,6 +84,33 @@
           "zoom": 1,
           "alpha": 0,
           "position": [479, 280]
+        }
+      ]
+    }, {
+      "drawables": [{
+          "image": "/cinematics/sb_upgrade/newtech.png"
+        }
+      ],
+      "keyframes": [{
+          "timecode": 0.51,
+          "zoom": 1.05,
+          "alpha": 0,
+          "position": [480, 345]
+        }, {
+          "timecode": 1.6,
+          "zoom": 1.05,
+          "alpha": 1,
+          "position": [480, 345]
+        }, {
+          "timecode": 6.4,
+          "zoom": 1.05,
+          "alpha": 1,
+          "position": [480, 345]
+        }, {
+          "timecode": 6.8,
+          "zoom": 1.05,
+          "alpha": 0,
+          "position": [480, 345]
         }
       ]
     }, {

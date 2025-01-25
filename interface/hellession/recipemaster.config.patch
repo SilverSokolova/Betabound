@@ -1,3 +1,4 @@
+//TODO: clean this up
 [
 [{"op":"test","path":"/gui/scrollArea/children/itemList/schema/memberSize/0","value":123},{"op":"replace","path":"/gui/scrollArea/children/itemList/schema/memberSize/0","value":235}],
 //[{"op":"test","path":"/gui/outputLabelScroll/children/itemList/schema/memberSize/0","value":123},{"op":"replace","path":"/gui/outputLabelScroll/children/itemList/schema/memberSize/0","value":98}],

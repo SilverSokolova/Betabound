@@ -1,0 +1,10 @@
+{
+  "input": ["coffeebeans"],
+  "duration": 0.5,
+  "output": ["sb_liquidcoffee",10],
+  "groups": [
+    "craftingfood","sb_t1food","drinks","all",
+    /*MFM*/ "coffeeMFM","ExcludeFromRecipeBook",
+    /*FU*/ "coffeemachine"
+  ]
+}

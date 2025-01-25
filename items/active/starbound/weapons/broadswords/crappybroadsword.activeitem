@@ -1,31 +1,13 @@
 {
   "itemName": "sb_crappybroadsword",
-  "level": 1,
-  "price": 25,
-  "maxStack": 1,
-  "rarity": "common",
-  "tooltipKind": "sb_sword2",
-  "category": "broadsword",
+  "definition": ["broadswords/common", "broadswords/abilities"],
   "tooltipFields": {
     "subtitle": "Crappy Broadsword"
   },
-  "description": "A two-handed sword.",
   "shortdescription": "Common Crappy Broadsword",
-  "twoHanded": true,
-  "itemTags": ["weapon", "melee", "broadsword", "crappy"],
-  "animation": "/items/active/starbound/weapons/broadsword.animation",
-  "animationParts": {},
-  "animationCustom": {},
+  "itemTags": ["weapon", "melee", "broadsword"],
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "primaryAbilityType": "sb_meleeslash",
-  "primaryAbility": {
-    "fireTime": [0.7, 0.99],
-    "baseDps": [8, 9],
-    "damageConfig": {
-      "knockback": 15
-    }
-  },
   "builderConfig": [{
       "nameGenerator": "crappynames.config:nameGen",
       "elementalType": "physical",
@@ -41,14 +23,6 @@
           "paletteSwap": true
         }
       },
-      "altAbilities": [
-        "bladecharge",
-        "downstab",
-        "parry",
-        "risingslash",
-        "spinslash",
-        "superspinslash"
-      ],
       "iconDrawables": ["handle", "blade"],
       "palette": "/items/active/starbound/colors/crappy.weaponcolors"
     }

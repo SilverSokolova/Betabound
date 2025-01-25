@@ -67,7 +67,7 @@
   "mechAimLimit": 40,
   "mechBackGunAngle": 3.1,
   "mechFireCycle": 0.25,
-  "mechProjectile": ["bullet-1", "flame"],
+  "mechProjectile": ["standardbullet", "flame"],
   "mechProjectileConfig": {
     "power": 5
   }

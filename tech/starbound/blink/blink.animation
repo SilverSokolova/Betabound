@@ -32,13 +32,13 @@
           "blinking": {
             "in": {
               "properties": {
-                "image": "blinkin.png:<frameIndex>"
+                "image": "/tech/dash/blinkin.png:<frameIndex>"
               }
             },
 
             "out": {
               "properties": {
-                "image": "blinkout.png:<frameIndex>"
+                "image": "/tech/dash/blinkout.png:<frameIndex>"
               }
             }
           }

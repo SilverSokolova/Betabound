@@ -1,5 +1,5 @@
 {
-  "input": [["durasteelbar",10],"staticcell"],
+  "input": [["durasteelbar",6],["copperbar",4],"staticcell"],
   "output": ["sb_arcsword",1,{"crafted":true}],
   "groups": ["craftinganvil2","weapons","all"]
 }

@@ -9,14 +9,11 @@
   "shortdescription": "Aegisalt Rifle",
   "level": 5,
   "tooltipKind": "sb_gun2",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/standardbullet.png"
-  },
   "category": "assaultRifle",
-  "itemTags": ["weapon", "ranged", "assaultrifle", "aegisalt"],
+  "itemTags": ["weapon", "ranged", "assaultrifle"],
   "twoHanded": true,
 
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
     "butt": "",
     "middle": "aegisaltrifle.png",

@@ -1,10 +1,10 @@
 {
   "itemName": "sb_lockin",
-  "price": 50,
+  "price": 1250,
   "tooltipKind": "sb_object",
   "tooltipFields": {
     "rarityLabel": "",
-    "objectImage": "/tech/starbound/convert.png"
+    "objectImage": ""
   },
   "category": "tech",
   "animation": "lockin.animation",
@@ -14,12 +14,12 @@
       "image": "/tech/starbound/convert.png"
     }
   ],
-  "rarity": "uncommon",
+  "rarity": "rare",
   "durability": 5,
   "durabilityHit": 5,
   "techModules": ["", ""],
-  "description": "A specialised tech drive used for quickly swapping between installed tech.",
+  "description": "A specialised tech drive used to swap between two techs.",
   "shortdescription": "Tech Swapper",
   "scripts": ["lockin.lua"],
-  "builder": "/items/buildscripts/starbound/updatetech.lua"
+  "builder": "/items/buildscripts/starbound/buildtechequip.lua"
 }

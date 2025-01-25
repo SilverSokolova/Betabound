@@ -19,24 +19,28 @@ end
 function populateList() --We've already checked if the item exists
   widget.clearListItems(itemList)
   local showAll = category == "all"
+  local showOwned = widget.getChecked("btnFilterShowOwned")
   for i = 1, #recipes do
     local recipe = recipes[i]
     local output = root.itemConfig(recipe.output).config
+    local recipeData = root.recipesForItem(output.itemName:sub(1,-8))[1].output
+    local blueprintKnown = player.blueprintKnown({recipeData.name, recipeData.count, recipeData.parameters})
     local shortdescription = output.shortdescription or "Unnamed Item"
-    if (showAll or recipe.groups[1] == category) and ((not query and true) or (query and shortdescription:lower():find(query))) then
+
+    if (showAll or recipe.groups[1] == category) and ((not query and true) or shortdescription:lower():find(query)) then
+      if (blueprintKnown and showOwned) or not blueprintKnown then
       local listItem = widget.addListItem(itemList); listItem = string.format("%s.%s", itemList, listItem)
       widget.setText(listItem..".itemName", shortdescription)
       widget.setItemSlotItem(listItem..".itemIcon", output.itemName)
       widget.setText(listItem..".priceLabel", recipe.input[2][2])
       widget.setData(listItem, {output.itemName, recipe.input[2]})
-      local recipeData = root.recipesForItem(output.itemName:sub(1,-8))[1].output
-      if player.blueprintKnown({recipeData.name, recipeData.count, recipeData.parameters}) then --recipesForItem for recipes with parameters, ie frost spear
+      if blueprintKnown then --recipesForItem for recipes with parameters, ie frost spear
         local newIcon = listItem..".newIcon"
         local oldPos = widget.getPosition(newIcon)
         widget.setImage(newIcon, ownedIcon)
         widget.setPosition(newIcon, {oldPos[1]+(newIconOffset),oldPos[2]})
       end
-    end
+    end end
   end
 end
 

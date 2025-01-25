@@ -8,7 +8,7 @@ require "/scripts/sb_assetmissing.lua"
 function init()
   entityId = pane.containerEntityId()
 
-  missingImage = "/interface/sb_tooltips/assetmissing.png"
+  missingImage = "/sb_assetmissing.png"
   itemList = "modeStack.itemList"
   secondaryData = "none"
   inactiveSecondaryData = "none"
@@ -38,7 +38,7 @@ function update()
     if (itemHasTags(itemData.config.itemName, acceptedTags)
       or category == "codex"
       or category == "blueprint")
-      and not item.name:find("%-recipe")
+      and (not item.name:find("%-recipe") or sb_checkClient() == "OpenSB")
     then
       world.containerTakeAt(entityId, 0)
       promise = world.sendEntityMessage(entityId, "sb_lectern:add", item)

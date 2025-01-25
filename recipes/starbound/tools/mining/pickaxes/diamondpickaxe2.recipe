@@ -1,5 +1,0 @@
-{
-  "input": [["diamond",4],"platinumpickaxe"],
-  "output": "diamondpickaxe",
-  "groups": ["sb_ironcraftingtable","mining","nouncrafting","all"]
-}

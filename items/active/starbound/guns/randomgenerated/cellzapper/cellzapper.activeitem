@@ -17,15 +17,16 @@
   },
   "itemTags": ["weapon", "ranged", "sniperrifle", "cellzapper"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
-    "muzzleFlash": "/animations/sb/muzzleflash/plasmamuzzle3/plasmamuzzle3.png"
+    "muzzleFlash": "/animations/muzzleflash/plasmamuzzle3/plasmamuzzle3.png"
   },
   "animationCustom": {
     "sounds": {
       "fire": ["/sfx/gun/plasma_sniper3.ogg"]
     }
   },
+  "noMuzzleFlashVariants": true,
 
   "elementalType": "physical",
   "primaryAbilityType": "sb_gun2",

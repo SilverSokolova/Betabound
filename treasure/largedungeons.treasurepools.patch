@@ -16,6 +16,7 @@
   //        Apex Rebel Camp
   // ================================
 [{"op":"add","path":"/apexcampTreasure/0/1/pool/-","value":{"weight":0.05,"pool":"sb_apexBlueprints"}}],
+[{"op":"add","path":"/apexcampLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_townrhyme-codex"}}],
 
   // ================================
   //       Apex City Apartments

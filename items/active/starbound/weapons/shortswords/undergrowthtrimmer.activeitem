@@ -1,39 +1,29 @@
 {
   "itemName": "sb_undergrowthtrimmer",
-  "level": 1,
-  "maxStack": 1,
-  "rarity": "legendary",
+  "definition": ["shortswords/swoosh", "shortswords/rare"],
   "description": "Creates a flurry of leaves when swung.",
   "shortdescription": "Undergrowth Trimmer",
   "tooltipKind": "sb_sword2",
-  "price": 800,
-  "category": "shortsword",
-  "twoHanded": false,
   "sb_waBan": true,
-  "itemTags": ["weapon", "melee", "shortsword", "wilderness"],
+  "itemTags": ["weapon", "melee", "shortsword", "upgradeableWeapon"],
   "sb_dyeable": true,
   "sb_backingDirectives": "?replace;b5b5b5=ffca8a;808080=e0975c;555=a85636;303030=6f2919",
-  "handGrip": "inside",
   "inventoryIcon": "undergrowthtrimmer.png<directives>",
-  "animation": "/items/active/starbound/weapons/shortsword.animation",
   "animationParts": {
     "blade": "undergrowthtrimmer.png<directives>",
     "handle": ""
   },
-  "animationCustom": {
-    "lights": {
-      "glow": {
-        "color": [0, 0, 0]
-      }
-    },
-    "animatedParts": {
-      "parts": {
-        "swoosh": {
-          "partStates": {
-            "swoosh": {
-              "fire": {
-                "properties": {
-                  "image": "wildswoosh.png:<frame>"
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire2": {
+                  "properties": {
+                    "offset": [1.5, 0.125]
+                  }
                 }
               }
             }
@@ -42,17 +32,21 @@
       }
     }
   },
+  "tags": {
+    "<swoosh>": "wild"
+  },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
-  "primaryAbilityType": "sb_meleeslash2",
+  "primaryAbilityType": "sb_shortswordcombo",
+  "elementalType": "physical",
   "primaryAbility": {
     "projectileType": "sb_leaforb",
-    "projectileOffset": [1, 0.5],
-    "fireTime": [0.333, 0.666],
-    "baseDps": [2.5, 5.5],
-    "baseDamage": [2.5, 5.5]
+    "projectileOffset": [1, 0.5]
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua",
+
+  "upgradeParameters": {
+    "sb_newItemName": "sb_overgrownmower"
+  },
 
   "craftedParameters": {
     "level": 5,

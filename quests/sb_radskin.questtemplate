@@ -1,0 +1,13 @@
+{
+  "id": "sb_radskin",
+  "showAcceptDialog": false,
+  "showCompleteDialog": false,
+  "showFailDialog": false,
+  "showInLog": false,
+  "canBeAbandoned": false,
+  "script": "/quests/scripts/sb_unlocktechs.lua",
+  "scriptConfig": {
+    "techs": ["sb_radiationprotection"],
+    "sb_genderedCinematic": "/cinematics/sb_upgrade/rad%s.cinematic"
+  }
+}

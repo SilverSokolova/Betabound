@@ -1,8 +1,8 @@
 {
-  "itemName" : "sb_avianstarter",
-  "definition" : "starter",
-  "itemTags" : ["weapon","melee","broadsword"],
-  "description" : "It looks like it fell from a great height.",
-  "shortdescription" : "Broken Phoenix Sword",
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "itemName": "sb_avianstarter",
+  "definition": "starter",
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "description": "It looks like it fell from a great height.",
+  "shortdescription": "Broken Phoenix Sword",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

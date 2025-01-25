@@ -1,5 +1,7 @@
 [
 [{"op":"test","path":"/builder"},{"op":"test","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua","inverse":true},{"op":"move","from":"/builder","path":"/sb_builder"}],[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua"}],
 
+[{"op":"test","path":"/description","value":"That's no moon."},{"op":"replace","path":"/description","value":"You raise the blade, you make the change."}], //We already have a Star Wars reference in one of the USCM bunker objects
+
 [{"op":"add","path":"/fixedRarity","value":true}]
 ]

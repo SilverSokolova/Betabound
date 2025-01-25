@@ -1,21 +1,22 @@
 {
   "itemName": "sb_apexsteelstaff2",
-  "definition": "racialstaff",
+  "definition": ["staff", "racialstaff"],
   "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "apex",
     "<staff>": "steelstaff",
     "<n>": "2"
   },
+  "tooltipFields": {
+    "damageKindImage": ""
+  },
   "rarity": "legendary",
   "level": 6,
   "description": "Deploys a drone that fires lasers and rockets.",
   "shortdescription": "Deadbolt Staff",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/sb_deadbolt.png"
-  },
   "elementalType": "electric",
   "altAbilityType": "energyzone",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "sb_deadboltteleportin",
     "projectileParameters": {

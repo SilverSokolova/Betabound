@@ -1,6 +1,6 @@
 [
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
-[{"op":"test","path":"/tooltipKind","value":"food"},{"op":"replace","path":"/tooltipKind","value":"sb_object"}],
+//[{"op":"test","path":"/tooltipKind","value":"food"},{"op":"replace","path":"/tooltipKind","value":"sb_object"}],
 [{"op":"test","path":"/description","value":"It's an orange."},{"op":"replace","path":"/description","value":"An orange. The colour is named after the fruit."}],
 
 [{"op":"add","path":"/sb_plateOffset","value":0.075}],

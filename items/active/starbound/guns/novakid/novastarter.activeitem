@@ -1,7 +1,7 @@
 {
   "itemName": "sb_novastarter",
   "definition": "revolver",
-  "itemTags": ["weapon", "ranged", "pistol", "revolver", "novakid"],
+  "itemTags": ["weapon", "ranged", "pistol", "revolver"],
   "rarity": "legendary",
   "configOverrides": {
     "inventoryIcon": "novastarter.png",
@@ -12,7 +12,7 @@
   },
   "description": "A rusty old revolver, it doesn't have much fire power.",
   "shortdescription": "Rusty Revolver",
-  "muzzleOffset": [1.9, 0.4],
+  "muzzleOffset": [1.3, 0.25],
   "level": 0.5,
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

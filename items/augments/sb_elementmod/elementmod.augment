@@ -3,12 +3,13 @@
   "price": 1500,
   "tooltipKind": "sb_object4",
   "rarity": "uncommon",
-  "itemTags": ["weapon", "ranged", "revolver", "pistol", "gun"],
+  "itemTags": ["weapon", "ranged", "pistol", "gun", "nonweapon"],
+  "sb_unupgradeable": true,
   "category": "pistol",
   "tooltipFields": {
     "subtitle": "Weapon Mod"
   },
-  "description": "Replaces the element of non-unique weapons.\n^gray;Apply to weapon with right-click",
+  "description": "Replaces the element of a generated weapon if it can naturally have this element.\n^gray;Apply with right-click",
   "shortdescription": "^yellow;%s^reset;",
   "elementList": ["electric", "fire", "ice", "poison"],
   "scripts": ["/scripts/augments/sb_element.lua"],

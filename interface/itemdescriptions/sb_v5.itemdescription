@@ -18,7 +18,7 @@
     "vAnchor": "top",
     "wrapWidth": 122
   },
-  "level2Label": {
+  "sb_level2Label": {
     "type": "label",
     "position": [118, 169],
     "hAnchor": "left",

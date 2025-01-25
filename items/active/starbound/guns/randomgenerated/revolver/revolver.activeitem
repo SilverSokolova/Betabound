@@ -4,7 +4,7 @@
   "rarity": "uncommon",
   "price": 620,
   "baseOffset": [-0.50, 0.25],
-  "muzzleOffset": [0.5, 0.375],
+  "muzzleOffset": [0.25, 0.25],
   "tooltipKind": "sb_gun4",
   "category": "pistol",
   "twoHanded": false,
@@ -18,9 +18,9 @@
   },
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "animationScripts": ["/items/active/starbound/guns/abilities/ammo.lua"],
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
-    "muzzleFlash": "/animations/sb/muzzleflash/bulletmuzzle4/bulletmuzzle4.png"
+    "muzzleFlash": "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.png"
   },
   "animationCustom": {
     "sounds": {
@@ -33,14 +33,14 @@
   "primaryAbility": {
     "scripts": ["/items/active/starbound/guns/abilities/ammogunfire.lua"],
     "class": "sb_AmmoGunFire",
-    "projectileType": ["bullet-2"],
+    "projectileType": ["standardbullet"],
 
     "fireTime": [0.4, 0.8],
-    "baseDps": [8.5, 9.5],
-    "energyUsage": [8, 14],
-    "inaccuracy": 0,
+    "baseDps": [6.25, 7.25],
+    "energyUsage": [18.25, 19.25],
+    "inaccuracy": 0.025,
     "projectileParameters": {
-      "knockbackRange": [15, 20]
+      "knockbackRange": [4, 8]
     },
     "stances": {
       "idle": {
@@ -53,8 +53,8 @@
       "fire": {},
       "cooldown": {
         "duration": 0.15,
-        "armRotation": 10,
-        "weaponRotation": 10,
+        "armRotation": 3,
+        "weaponRotation": 3,
         "twoHanded": false,
         "allowRotate": false,
         "allowFlip": true
@@ -63,7 +63,7 @@
   },
 
   "builderConfig": [{
-      "nameGenerator": "revolvernames.config:nameGen",
+      "nameGenerator": "/items/active/weapons/ranged/pistol/pistolnames.config:nameGen",
       "animationParts": {
         "barrel": {
           "path": "barrel/<variant>.png",

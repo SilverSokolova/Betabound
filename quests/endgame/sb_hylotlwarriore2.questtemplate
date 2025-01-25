@@ -1,35 +1,39 @@
 {
-  "id" : "sb_hylotlwarriorE2.gearup",
-  "prerequisites" : ["glitch_mission2","sb_hylotlwarriorE1.gearup"],
-  "title" : "^green;Hylotl's Best Friend",
-  "text" : "Hmm, I think I'm going to have to do better than just a bone. ^green;Please ^orange;take this blueprint and make me a Kennel ^reset;then the dog will think I'm awesome!",
-  "completionText" : "You made me a Kennel! Now I need to put it somewhere nice... Thanks for your help!",
-  "speaker" : "questGiver",
-  "moneyRange" : [200, 200],
-  "rewards" : [["upgrademodule",["rewardbag",1,{"treasure":{"level":6}}]]],
+  "id": "sb_hylotlwarriorE2",
+  "prerequisites": ["glitch_mission2", "sb_hylotlwarriorE1"],
+  "title": "^green;Hylotl's Best Friend",
+  "text": "Hmm, I think I'm going to have to do better than just a bone. ^green;Please ^orange;take this blueprint and make me a kennel ^reset;then the dog will think I'm awesome!",
+  "completionText": "You made me a kennel! Now I need to put it somewhere nice... Thanks for your help!",
+  "speaker": "questGiver",
+  "moneyRange": [1100, 1200],
+  "rewards": [["upgrademodule", ["rewardbag", 1, {
+          "treasure": {
+            "level": 6
+          }
+        }
+      ]]],
 
-  "guiConfigs" : {
-    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
-    "newQuest" : "/interface/windowconfig/sb_newquest.config",
-    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquest.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
   },
 
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/sb_main.lua",
-  "scriptConfig" : {
-    "portraits" : {
-      "default" : "questGiver"
+  "updateDelta": 10,
+  "script": "/quests/scripts/sb_main.lua",
+  "scriptConfig": {
+    "portraits": {
+      "default": "questGiver"
     },
-    "requireTurnIn" : true,
-    "sb_acceptBlueprints" : ["kennel"],
-    "setUniverseFlags" : ["sb_hylotlwarriorE2"],
-    "turnInDescription" : "Speak to ^orange;the Hylotl warrior^reset; at the ^orange;outpost^reset;",
-    "conditions" : [
-      {
-        "type" : "gatherItem",
-        "itemName" : "kennel",
-        "count" : 1,
-        "consume" : true
+    "requireTurnIn": true,
+    "sb_acceptBlueprints": ["kennel"],
+    "setUniverseFlags": ["sb_hylotlwarriorE2"],
+    "turnInDescription": "Speak to ^orange;the Hylotl warrior^reset; at the ^orange;outpost^reset;",
+    "conditions": [{
+        "type": "gatherItem",
+        "itemName": "kennel",
+        "count": 1,
+        "consume": true
       }
     ]
   }

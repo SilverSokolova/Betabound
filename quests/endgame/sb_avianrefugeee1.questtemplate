@@ -1,30 +1,37 @@
 {
-  "id" : "sb_avianrefugeeE1.gearup",
-  "prerequisites" : [ "glitch_mission2","sb_avianrefugee2part1.gearup" ],
-  "title" : "^green;Leap for the Stars",
-  "text" : "Remember the paper plane? I've been inspired to learn to fly myself! ^green;If you could bring me ^orange;five Blue Stimpacks ^white;then I could start practicing.",
-  "completionText" : "You brought them! However, jumping isn't going to be enough. I'm going to need wings...",
-  "speaker" : "questGiver",
-  "moneyRange" : [80, 80],
-  "rewards" : [["featherfood",["rewardbag",1,{"treasure":{"level":6}}]]],
+  "id": "sb_avianrefugeeE1",
+  "prerequisites": ["glitch_mission2", "sb_avianrefugee2"],
+  "title": "^green;Leap for the Stars",
+  "text": "Remember the paper plane? I've been inspired to learn to fly myself! ^green;If you could bring me ^orange;five Blue Stimpacks ^white;then I could start practicing.",
+  "completionText": "You brought them! However, jumping isn't going to be enough. I'm going to need wings...",
+  "speaker": "questGiver",
+  "moneyRange": [1100, 1200],
+  "rewards": [["featherfood", ["rewardbag", 1, {
+          "treasure": {
+            "level": 6
+          }
+        }
+      ]]],
 
-  "guiConfigs" : {
-    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
-    "newQuest" : "/interface/windowconfig/sb_newquest.config",
-    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquest.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
   },
 
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/main.lua",
-  "scriptConfig" : {"portraits":{"default":"questGiver"},
-    "requireTurnIn" : true,
-    "turnInDescription" : "Speak to ^orange;the Avian refugee^reset; at the ^orange;outpost^reset;",
-    "conditions" : [
-      {
-        "type" : "gatherItem",
-        "itemName" : "bluestim",
-        "count" : 5,
-        "consume" : true
+  "updateDelta": 10,
+  "script": "/quests/scripts/main.lua",
+  "scriptConfig": {
+    "portraits": {
+      "default": "questGiver"
+    },
+    "requireTurnIn": true,
+    "turnInDescription": "Speak to ^orange;the Avian refugee^reset; at the ^orange;outpost^reset;",
+    "conditions": [{
+        "type": "gatherItem",
+        "itemName": "bluestim",
+        "count": 5,
+        "consume": true
       }
     ]
   }

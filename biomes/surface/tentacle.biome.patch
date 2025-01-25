@@ -1,0 +1,14 @@
+[
+  [{
+      "op": "test",
+      "path": "/spawnProfile/monsterParameters/statusSettings/stats/slimeImmunity",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/spawnProfile/monsterParameters/statusSettings/stats/slimeImmunity",
+      "value": {
+        "baseValue": 1
+      }
+    }
+  ]
+]

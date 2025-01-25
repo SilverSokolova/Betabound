@@ -2,10 +2,10 @@
   "itemName": "sb_energyregenaugment3",
   "price": 15000,
   "rarity": "Legendary",
-  "tooltipKind": "sb_object4b",
+  "tooltipKind": "eppaugment",
   "category": "eppAugment",
   "inventoryIcon": "sb_energyregenaugment.png",
-  "description": "An EPP module that boosts your energy regeneration speed greatly.\n\n^gray;Equip to EPP with right-click^reset;",
+  "description": "An EPP module that boosts your energy regeneration speed greatly.",
   "shortdescription": "Energy Regen III Augment",
 
   "augment": {

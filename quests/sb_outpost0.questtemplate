@@ -1,11 +1,11 @@
 {
-  "id": "sb_outpost0.gearup",
+  "id": "sb_outpost0",
   "prerequisites": [], //"gaterepair"
   "title": "^orange;Gear Up",
   "text": "If you're serious about exploring the universe, you're going to need better equipment. Tell you what, ^#0f0;if you bring me a ^orange;wooden tool table,^reset; I'll give you some metal bars to help you upgrade it to an ^orange;iron tool table!^reset; Head to the teleporter shop and use their teleporter to help you go get it faster.",
   "completionText": "Great! If you're interested, I may have another task you might be able to help with soon.",
   "speaker": "questGiver",
-  "moneyRange": [0, 0],
+  "moneyRange": [150, 250],
   "rewards": [[["ironbar", 3], ["copperbar", 3], "rewardbag"]],
   "canBeAbandoned": true,
   "questGiverIndicator": "sb_mainquestgiver",

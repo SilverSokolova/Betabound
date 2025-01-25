@@ -1,0 +1,42 @@
+{
+  "id": "sb_coffee",
+  "prerequisites": ["sb_outpost1"],
+  "title": "^green;Stirred, Not Shaken",
+  "text": "I'm so thirsty! I've been here for so long-- it's been months since I had a coffee. ^#0f0;If you find some coffee beans on a forest planet and ^orange;make me some coffee^reset;, then ^#0f0;get some steel and forge a ^orange;stirring spoon^#0f0; at a forge^reset;, I'll give you a tech drive and tell other people how helpful you are! I have a spare coffee machine you can use for this-- take it!",
+  "completionText": "The perfect coffee! The last person to make me a cup had me drinking it straight out of their Matter Manipulator. Here, you deserve this. I'll tell other people how helpful you are!",
+  "speaker": "questGiver",
+  "moneyRange": [150, 250],
+  "rewards": [[["sb_tech",1,{"techModule":"sb_rocketboots"}],["rewardbag",1,{"treasure":{"level":3}}]]],
+  "canBeAbandoned": true,
+
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquest.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
+  },
+
+  "updateDelta": 10,
+  "script": "/quests/scripts/sb_main.lua",
+  "scriptConfig": {
+    "sb_acceptBlueprints": ["sb_steelspoon"],
+    "acceptItems": ["coffeemachine"],
+    "portraits": {
+      "default": "questGiver"
+    },
+    "requireTurnIn": true,
+    "turnInDescription": "Speak to ^orange;the human survivor^reset; at the ^orange;outpost^reset;",
+    //list spoon first because the coffee is timed
+    "conditions": [{
+        "type": "gatherItem",
+        "itemName": "sb_steelspoon",
+        "count": 1,
+        "consume": true
+      }, {
+        "type": "gatherItem",
+        "itemName": "coffee",
+        "count": 1,
+        "consume": true
+      }
+    ]
+  }
+}

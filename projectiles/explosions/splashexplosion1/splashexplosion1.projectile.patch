@@ -1,0 +1,1 @@
+[{"op":"test","path":"/damageKind","value":"default"},{"op":"replace","path":"/damageKind","value":"ice"}]

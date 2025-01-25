@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/scriptConfig/confiscateItems"},
+{"op":"add","path":"/scriptConfig/confiscateItems/-","value":["sb_orangenergycan",1000]}]
+]

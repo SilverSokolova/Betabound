@@ -6,5 +6,7 @@
 [{"op":"add","path":"/effects/0/-","value":{"effect":"sb_energyregen96","duration":34}}],
 
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
-[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_chocolatecoffeebeans"}]
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_chocolatecoffeebeans"}],
+
+[{"op":"test","path":"/description","value":"Bitter coffee beans."},{"op":"replace","path":"/description","value":"Bitter coffee beans. Best enjoyed with just the beans and a spoon."}]
 ]

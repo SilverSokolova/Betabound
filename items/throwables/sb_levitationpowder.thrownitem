@@ -6,7 +6,7 @@
   "inventoryIcon": "sb_levitationpowdericon.png",
   "image": "sb_levitationpowder.png",
   "shortdescription": "Feather Powder",
-  "category": "throwableItem",
+  "category": "medicine",
   "description": "Lighter than the atmosphere itself, this powder will make you and others nearby briefly float above the ground.",
   "ammoUsage": 1,
   "edgeTrigger": true,

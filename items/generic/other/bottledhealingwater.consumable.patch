@@ -1,5 +1,3 @@
 [
-[{"op":"replace","path":"/itemName","value":"starbound_bottledhealingwater"}],
-
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}]
 ]

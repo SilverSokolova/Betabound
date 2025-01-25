@@ -1,5 +1,5 @@
 function projectileInit(self, primaryAbility)
-  self.projectilePower = self.damageConfig.baseDamage * config.getParameter("damageLevelMultiplier",1) * config.getParameter("projectileDamageMultiplier",0.6)
+  self.projectilePower = (self.damageConfig.baseDamage * config.getParameter("damageLevelMultiplier", 1)) * (self.projectileDamageMultiplier or 0.6)
   self.projectileType = primaryAbility.projectileType or false
   self.projectileId = world.spawnProjectile("invisibleprojectile", {0, -99})
   self.projectileConfig = primaryAbility.projectileConfig or {}
@@ -21,7 +21,7 @@ function projectileFire(self)
       position = self.holdDamageConfig and vec2.add(position, activeItem.handPosition({-3, 7}))
         or vec2.add(vec2.add(position, handPosition), {self.projectileOffset[1] * mcontroller.facingDirection(), (-1.5 + self.projectileOffset[2])})
       local params = sb.jsonMerge({
-        powerMultiplier = activeItem.ownerPowerMultiplier(),
+        powerMultiplier = math.min(activeItem.ownerPowerMultiplier() / 3, 1),
         power = self.projectilePower
       }, self.projectileConfig)
       self.projectileId = world.spawnProjectile(self.projectileType, position, activeItem.ownerEntityId(), aimVector, false, params)

@@ -1,14 +1,14 @@
 {
   "itemName": "sb_novatier1revolver",
   "definition": "revolver",
-  "itemTags": ["weapon", "ranged", "pistol", "revolver", "novakid"],
+  "itemTags": ["weapon", "ranged", "pistol", "revolver"],
   "tags": {
     "<t>": "1"
   },
   "rarity": "common",
   "description": "Works every time.",
   "shortdescription": "Old Faithful",
-  "muzzleOffset": [2, 0.3],
+  "muzzleOffset": [1.375, 0.25],
   "level": 1,
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

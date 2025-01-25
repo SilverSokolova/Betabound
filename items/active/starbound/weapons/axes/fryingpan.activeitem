@@ -1,50 +1,32 @@
 {
   "itemName": "sb_fryingpan",
-  "price": 640,
-  "maxStack": 1,
-  "level": 1,
-  "rarity": "Common",
+  "definition": "axes/common",
   "description": "Skillet technology will never surpass cast iron.",
   "shortdescription": "Frying Pan",
   "tooltipKind": "sb_sword2",
-  "category": "axe",
+  "sb_waBan": true,
   "tooltipFields": {
     "subtitle": "Frying Pan"
   },
-  "twoHanded": false,
   "itemTags": ["weapon", "melee", "axe", "fryingpan"],
-  "animation": "/items/active/starbound/weapons/axe.animation",
-
+  "inventoryIcon": "fryingpan.png<directives>",
+  "animationParts": {
+    "blade": "fryingpan.png<directives>",
+    "handle": ""
+  },
   "animationCustom": {
     "animatedParts": {
       "parts": {
         "swoosh": {
           "properties": {
-            "offset": [-1.0, 1.75]
+            "offset": [-1, 1.75]
           }
-        },
-        "blade": {
-          "properties": {}
-        },
-        "handle": {
-          "properties": {}
         }
       }
-    },
-    "lights": {
-      "glow": {
-        "color": [0, 0, 0]
-      }
-    },
-    "sounds": {
-      "fire": ["/sfx/melee/swing_axe.ogg"]
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
-
-  "aimOffset": -1.0,
-
+  "aimOffset": -1,
   "primaryAbilityType": "sb_axe",
   "primaryAbility": {
     "fireTime": [0.4, 1.3],
@@ -55,33 +37,20 @@
     },
     "stances": {
       "idle": {
-        "weaponOffset": [0.25, 1]
+        "weaponOffset": [0, 1]
       },
       "windup": {
-        "weaponOffset": [0.25, 1]
+        "weaponOffset": [0, 1]
       },
       "fire": {
-        "weaponOffset": [0.25, 1]
+        "weaponOffset": [0, 1]
       }
     }
   },
   "elementalType": "physical",
   "builderConfig": [{
       "nameGenerator": "fryingpannames.config:nameGen",
-      "animationParts": {
-        "blade": {
-          "path": "fryingpan/blade/<variant>.png",
-          "variants": 1,
-          "paletteSwap": true
-        },
-        "handle": {
-          "path": "fryingpan/handle/<variant>.png",
-          "variants": 1,
-          "paletteSwap": true
-        }
-      },
-      "palette": "/items/active/starbound/colors/fryingpan.weaponcolors",
-      "iconDrawables": ["handle", "blade"]
+      "palette": "/items/active/starbound/colors/fryingpan.weaponcolors"
     }
   ],
 

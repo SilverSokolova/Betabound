@@ -1,11 +1,11 @@
 {
-  "id": "sb_bountyhunter1.gearup",
-  "prerequisites": ["sb_outpost1.gearup"],
+  "id": "sb_bountyhunter1",
+  "prerequisites": ["sb_outpost1"],
   "title": "^#0f0;Butcher, Baker, Widow Maker",
   "text": "Being a Bounty Hunter is hard sometimes. I have feelings too! If I had a cake I could apologise to the widow of my last victim. ^green;Bring me a ^orange;cake ^reset;and I'll give you a cool sword and a little something extra for your trouble.",
   "completionText": "Perfect! It even says 'sorry I killed your husband' on it in icing! Enjoy your sword, it might need a clean.",
   "speaker": "questGiver",
-  "moneyRange": [0, 0],
+  "moneyRange": [300, 400],
   "rewards": [[["sb_uncommonbroadsword", 1, {
           "level": 2
         }

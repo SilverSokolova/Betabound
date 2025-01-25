@@ -6,7 +6,6 @@
     "<bow>": "fire"
   },
   "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/flamearrow.png",
     "objectImage": "/items/active/starbound/bows/firebowfull.png:0"
   },
   "description": "Every arrow loosed from this bow at full power is set aflame.",

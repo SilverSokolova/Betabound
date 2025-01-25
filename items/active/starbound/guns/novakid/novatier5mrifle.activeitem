@@ -8,7 +8,7 @@
   "description": "The real deal when it comes to delivering justice.",
   "shortdescription": "Lawmaker",
   "level": 5,
-  "itemTags": ["weapon", "ranged", "sniperrifle", "novakid"],
+  "itemTags": ["weapon", "ranged", "sniperrifle"],
   "configOverrides": {
     "baseOffset": [0.375, 0.375],
     "primaryAbility": {

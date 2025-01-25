@@ -1,1 +1,8 @@
-{"description":"An axe shaped like the head of an unknown bird.","itemTags":["weapon","melee","axe"],"itemName":"sb_aviantier6aaxe","definition":["colors/t6a","axes/a"],"shortdescription":"Birdbrainer","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "A lethal, sharp axe with beautiful plumage.",
+  "shortdescription": "Poliwanta Cleankill",
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_aviantier6aaxe",
+  "definition": ["colors/t6a", "axes/a"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

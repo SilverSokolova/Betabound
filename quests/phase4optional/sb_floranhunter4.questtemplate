@@ -1,11 +1,11 @@
 {
-  "id": "sb_floranhunter4.gearup",
-  "prerequisites": ["hylotl_mission2", "sb_hylotlperformer3.gearup", "sb_bountyhunter3.gearup", "sb_avianexplorer3.gearup"],
+  "id": "sb_floranhunter4",
+  "prerequisites": ["hylotl_mission2", "sb_hylotlperformer3", "sb_bountyhunter3", "sb_avianexplorer3"],
   "title": "^green;A Bone to Pick",
   "text": "Hello ssstranger. Back home Floran carve huge bone with pretty markingsss. Floran misss big bone. ^green;Bring Floran ^orange;big bone with carvings ^green;and Floran give ssstranger goodiess!",
   "completionText": "Big bone! Big bone! Big bone! Thanksss!",
   "speaker": "questGiver",
-  "moneyRange": [200, 200],
+  "moneyRange": [900, 1000],
   "rewards": [["techcard", ["sb_uncommonspear", 1, {
           "level": 5
         }

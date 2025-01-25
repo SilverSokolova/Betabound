@@ -1,5 +1,0 @@
-{
-  "input": ["woodenwateringcan",["polymer",3]],
-  "output": "sb_wateringcan",
-  "groups": ["craftingfarm","farming","all"]
-}

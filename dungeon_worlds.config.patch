@@ -1,5 +1,6 @@
 [
 [{"op":"test","path":"/playerstation/musicTrack","inverse":true},{"op":"add","path":"/playerstation/musicTrack","value":"/music/jupiter.ogg"}],
+
 [{"op":"add","path":"/lunarbase/environmentStatusEffects/-","value":"sb_killcount-lunarmission1"}],
 [{"op":"add","path":"/floranmission1/environmentStatusEffects/-","value":"sb_killcount-floranmission1"}]
 ]

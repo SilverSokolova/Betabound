@@ -9,7 +9,7 @@
   },
   "durabilityRegen": 280,
   "inventoryIcon": "ferozium.png",
-  "description": "It's a ferozium repair tool.\n^gray;Select repair tool and right-click pickaxe or drill",
+  "description": "Restores a large amount of durability to mining tools.\n^gray;Apply with right-click",
   "shortdescription": "Ferozium Repair Tool",
   "scripts": ["/scripts/augments/sb_repair.lua"]
 }

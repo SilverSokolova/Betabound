@@ -1,5 +1,5 @@
 {
-  "input": [["durasteelbar",10],["eyepiles",30]],
+  "input": [["durasteelbar",6],["copperbar",4],["eyepiles",30]],
   //30 instead of 15 because 1:10 crafting rate
   "output": ["sb_eyesword",1,{"crafted":true}],
   "groups": ["craftinganvil2","weapons","all"]

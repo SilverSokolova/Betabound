@@ -108,6 +108,18 @@
         },
         "powerMultiplier": {
           "baseValue": 1.0
+        },
+        "electricResistance": {
+          "baseValue": -0.5
+        },
+        "electricStatusImmunity": {
+          "baseValue": 0
+        },
+        "poisonResistance": {
+          "baseValue": 0.5
+        },
+        "poisonStatusImmunity": {
+          "baseValue": 1
         }
       },
 

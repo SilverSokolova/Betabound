@@ -6,15 +6,26 @@ require "/items/buildscripts/starbound/abilities.lua"
 require "/scripts/sb_assetmissing.lua"
 
 function build(directory, config, parameters, level, seed)
-  require "/items/buildscripts/starbound/updateweapon.lua"
-  config, parameters = build(directory, config, parameters, level, seed)
-
   local configParameter = function(keyName, defaultValue) return parameters[keyName] or config[keyName] or defaultValue end
+
+  --we need to transform the item because primaryAbility.projectileType doesn't change when upgrading normally
+  --this happens because we randomize the projectile based on the seed instead of using the one from parameters
+  --regardless, this is fine
+  local newItemName = parameters.sb_newItemName
+  if newItemName then
+    parameters.sb_newItemName = nil
+    local newItem = root.itemConfig({newItemName, 1, parameters}, level, seed)
+    config, parameters, directory = newItem.config, newItem.parameters, newItem.directory
+  end
+
   local definition = configParameter("definition", configParameter("sb_definition"))
   if definition then
     require "/items/buildscripts/starbound/definition.lua"
     config = applyDefinition(config, definition, configParameter("configOverrides"))
   end
+
+  require "/items/buildscripts/starbound/updateweapon.lua"
+  config, parameters = build(directory, config, parameters, level, seed)
 
   if parameters.crafted then
     parameters = util.mergeTable(configParameter("craftedParameters", {}), parameters)
@@ -43,22 +54,7 @@ function build(directory, config, parameters, level, seed)
 
   -- elemental type
   if not parameters.elementalType and builderConfig.elementalType then
-    if config.itemName == "sb_flamethrower" then
-      local projectileMap = {
-        flamethrower = "fire",
-        icethrower = "ice",
-        poisonthrower = "poison",
-        lightningthrower = "electric"
-      }
-      local previousProjectile = projectileMap[parameters.primaryAbility and parameters.primaryAbility.projectileType]
-      if previousProjectile then
-        parameters.elementalType = previousProjectile
-      else
-        parameters.elementalType = randomFromList(builderConfig.elementalType, seed, "elementalType")
-      end
-    else
-      parameters.elementalType = randomFromList(builderConfig.elementalType, seed, "elementalType")
-    end
+    parameters.elementalType = randomFromList(builderConfig.elementalType, seed, "elementalType")
   end
   local elementalType = configParameter("elementalType", "physical")
 
@@ -123,12 +119,14 @@ function build(directory, config, parameters, level, seed)
       parameters.primaryAbility.projectileType = config.primaryAbility.projectileType or randomFromList(config.primaryAbility.projectileTypes, seed, "projectileTypes") or false
     else
       parameters.primaryAbility.projectileType = config.primaryAbility.projectileType or randomFromList(config.primaryAbility.projectileTypes, seed, "projectileTypes")
-    end 
+    end
 
   -- preprocess ranged primary attack config
   else
     config.primaryAbility.projectileType = randomFromList(config.primaryAbility.projectileType, seed, "projectileType")
     parameters.primaryAbility.projectileType = config.primaryAbility.projectileType
+    local projectileType = parameters.primaryAbility.projectileType
+    replacePatternInData(config, nil, "<plasmacolor>", projectileType:find("plasmabullet") and projectileType:gsub("plasmabullet", "") or "")
     config.primaryAbility.projectileCount = randomIntInRange(config.primaryAbility.projectileCount, seed, "projectileCount") or 1
     config.primaryAbility.fireType = randomFromList(config.primaryAbility.fireType, seed, "fireType") or "auto"
     config.primaryAbility.burstCount = randomIntInRange(config.primaryAbility.burstCount, seed, "burstCount") or 1
@@ -196,30 +194,43 @@ function build(directory, config, parameters, level, seed)
   end
 
   -- animation parts
+  local s_undyeableParts = 0
+  local weaponParts = 0
   if builderConfig.animationParts then
+    hasRandomParts = true
     config.animationParts = config.animationParts or {}
-    if parameters.animationPartVariants == nil then parameters.animationPartVariants = {} end
+    if parameters.animationPartVariants == nil then
+      parameters.animationPartVariants = {}
+    end
     for k, v in pairs(builderConfig.animationParts) do
+      weaponParts = weaponParts + 1
       if type(v) == "table" then
         if v.variants and (not parameters.animationPartVariants[k] or parameters.animationPartVariants[k] > v.variants) then
           parameters.animationPartVariants[k] = randomIntInRange({1, v.variants}, seed, "animationPart"..k)
         end
         config.animationParts[k] = util.absolutePath(directory, string.gsub(v.path, "<variant>", parameters.animationPartVariants[k] or ""))
-        if v.fullbrights then
-          for i = 1, #v.fullbrights do
-            if parameters.animationPartVariants[k] == v.fullbrights[i] then
-              config.animationCustom.animatedParts.parts[k].properties.fullbright = true
-              glows = true
-            end
-          end
+
+        if v.fullbrightParts and v.fullbrightParts[tostring(parameters.animationPartVariants[k])] then
+          config.animationCustom = ensureNestedTable(config.animationCustom, {"animatedParts", "parts", k, "properties", "fullbright"})
+          config.animationCustom.animatedParts.parts[k].properties.fullbright = true
+          glows = true
         end
+
+        if config.sb_dyeable and v.undyeable or v.undyeableParts and v.undyeableParts[tostring(parameters.animationPartVariants[k])] then
+          s_undyeableParts = s_undyeableParts + 1
+        end
+
         if v.paletteSwap then
-          config.animationParts[k] = config.animationParts[k] .. config.directives .. config.paletteSwaps
+          config.animationParts[k] = string.format("%s%s%s", config.animationParts[k], config.directives, config.paletteSwaps)
         end
       else
         config.animationParts[k] = v
       end
     end
+  end
+
+  if config.sb_dyeable and hasRandomParts and s_undyeableParts == weaponParts then
+    config.sb_dyeable = false
   end
 
   -- glow color. default to red if no color change found
@@ -233,6 +244,7 @@ function build(directory, config, parameters, level, seed)
     else
       colour = {243, 34, 0}
     end
+    config.animationCustom = ensureNestedTable(config.animationCustom, {"lights", "glow", "color"})
     config.animationCustom.lights.glow.color = colour
   end
 
@@ -255,6 +267,14 @@ function build(directory, config, parameters, level, seed)
     config.muzzleOffset = vec2.add(config.baseOffset, vec2.add(config.muzzleOffset or {0,0}, vec2.div(imageOffset, 8)))
   end
 
+  -- allow using no-variant muzzle spritesheets in the animations folder
+  if config.noMuzzleFlashVariants and config.animationCustom then
+    local animationCustom = config.animationCustom or {}
+    animationCustom = ensureNestedTable(animationCustom, {"animatedParts", "parts", "muzzleFlash", "partStates", "firing", "fire", "properties"})
+    animationCustom.animatedParts.parts.muzzleFlash.partStates.firing.fire.properties.image = "<partImage>:<frame>"
+    config.animationCustom = animationCustom
+  end
+
   -- elemental fire sounds
   if config.fireSounds then
     construct(config, "animationCustom", "sounds", "fire")
@@ -264,9 +284,9 @@ function build(directory, config, parameters, level, seed)
 
   -- populate tooltip fields
   config.tooltipFields = config.tooltipFields or {}
-  config.tooltipFields.dyeLabel = configParameter("sb_dyeable") and "^gray;(Dyeable)" or ""
-  config.tooltipFields.levelLabel = "^shadow;Lvl "..string.format("%.0f",configParameter("level", 1))
-  config.tooltipFields.level2Label = "Lvl "..string.format("%.0f",configParameter("level", 1))
+  config.tooltipFields.dyeLabel = config.sb_dyeable and "^gray;(Dyeable)" or ""
+  config.tooltipFields.sb_levelLabel = "^shadow;Lvl "..string.format("%.0f",configParameter("level", 1))
+  config.tooltipFields.sb_level2Label = "Lvl "..string.format("%.0f",configParameter("level", 1))
   local fireTime = parameters.primaryAbility.fireTime or config.primaryAbility.fireTime or 1.0
   local baseDps = parameters.primaryAbility.baseDps or config.primaryAbility.baseDps or 0
   local energyUsage = parameters.primaryAbility.energyUsage or config.primaryAbility.energyUsage or 0
@@ -284,11 +304,8 @@ function build(directory, config, parameters, level, seed)
   if config.primaryAbility then
     config.tooltipFields.primaryAbilityTitleLabel = "Primary:"
     config.tooltipFields.primaryAbilityLabel = config.primaryAbility.name or "unknown"
-    local projectileType = parameters.primaryAbility.projectileType
-    if projectileType then
-      config.tooltipFields.damageKindImage = sb_assetmissing("/interface/sb_tooltips/"..(type(projectileType) == "table" and projectileType[1] or projectileType)..".png", "/interface/sb_tooltips/assetmissing.png")
-    end
   end
+
   if config.altAbility then
     config.tooltipFields.altAbilityTitleLabel = "Special:"
     config.tooltipFields.altAbilityLabel = config.altAbility.name or "unknown"
@@ -337,4 +354,16 @@ function scaleConfig(ratio, value)
   else
     return value
   end
+end
+
+function ensureNestedTable(data, tables)
+  local current = data
+  
+  for i = 1, #tables do
+    local key = tables[i]
+    current[key] = current[key] or {}
+    current = current[key]
+  end
+  
+  return data
 end

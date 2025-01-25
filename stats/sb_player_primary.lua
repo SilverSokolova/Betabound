@@ -7,6 +7,7 @@ local originalOverheadBars = overheadBars or function() end
 
 function init() originalInit()
   player = math.betabound_player
+  math.betabound_mcontroller = _ENV.mcontroller
   sb_shieldAlpha = {0,0,0,0}
   sb_lastHunger = math.floor(status.resourcePercentage("food")*100)
   sb_lastHungerMessage = "d100"
@@ -50,7 +51,7 @@ function applyDamageRequest(damageRequest)
   if not player then player = math.betabound_player end
   if status.resource("sb_forceFieldStrength") > 0 and status.resourcePositive("energy") and not status.resourceLocked("energy") then --resourcePositive rounds or smth
     local forceFieldStrength = status.resource("sb_forceFieldStrength")
-    local maxReduction = math.min(damageRequest.damage, (status.resource("energy")/2) * forceFieldStrength)
+    local maxReduction = math.min(math.min(damageRequest.damage, (status.resource("energy")/2) * forceFieldStrength), 0)
     status.overConsumeResource("energy", maxReduction)
     damageRequest.damage = damageRequest.damage - maxReduction
     return originalApplyDamageRequest(damageRequest)

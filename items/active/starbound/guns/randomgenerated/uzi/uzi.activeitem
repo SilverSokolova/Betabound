@@ -3,7 +3,7 @@
   "maxStack": 1,
   "rarity": "common",
   "baseOffset": [-0.85, 0.12],
-  "muzzleOffset": [0, 0.25],
+  "muzzleOffset": [0.125, 0.25],
   "price": 620,
   "paletteSwaps": "",
   "tooltipKind": "sb_gun",
@@ -17,20 +17,29 @@
   },
   "itemTags": ["weapon", "ranged", "machinepistol"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
-    "muzzleFlash": "/animations/sb/muzzleflash/bulletmuzzle2/bulletmuzzle2.png"
+    "muzzleFlash": "/items/active/weapons/ranged/muzzleflash.png"
   },
   "animationCustom": {
     "sounds": {
       "fire": ["/sfx/gun/uzi1.ogg"]
+    },
+    "animatedParts": {
+      "parts": {
+        "muzzleFlash": {
+          "properties": {
+            "offset": [0.815, 0.04]
+          }
+        }
+      }
     }
   },
 
   "elementalType": "physical",
   "primaryAbilityType": "sb_gun",
   "primaryAbility": {
-    "projectileType": ["bullet-1", "bullet-2", "bullet-3", "bullet-4", "fast", "bouncybullet", "sb_fastflame"],
+    "projectileType": ["standardbullet", "fast"],
 
     "fireTime": [0.07, 0.11],
     "baseDps": [5.5, 6],
@@ -42,7 +51,7 @@
     },
 
     "projectileParameters": {
-      "knockbackRange": [0, 0.7]
+      "knockbackRange": [1, 2]
     },
     "stances": {
       "idle": {
@@ -63,7 +72,7 @@
   },
 
   "builderConfig": [{
-      "nameGenerator": "/items/active/starbound/guns/randomgenerated/machinepistol/mpistolnames.config:nameGen",
+      "nameGenerator": "/items/active/weapons/ranged/machinepistol/mpistolnames.config:nameGen",
       "animationParts": {
         "barrel": {
           "path": "barrel/<variant>.png",

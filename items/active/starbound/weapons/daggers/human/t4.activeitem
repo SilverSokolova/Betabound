@@ -1,6 +1,6 @@
 {
   "itemName": "sb_humantier4dagger",
-  "description": "A switchblade with a ruby in it.",
+  "description": "A blade designed to be used in either hand.",
   "itemTags": ["weapon", "melee", "dagger"],
   "definition": "daggers/t4",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",

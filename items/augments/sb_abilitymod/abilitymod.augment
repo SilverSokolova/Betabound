@@ -3,13 +3,14 @@
   "price": 1500,
   "tooltipKind": "sb_object4",
   "rarity": "common",
-  "itemTags": ["weapon", "ranged", "revolver", "pistol", "gun"],
+  "itemTags": ["weapon", "ranged", "pistol", "gun", "nonweapon"],
+  "sb_unupgradeable": true,
   "category": "pistol",
   "tooltipFields": {
     "subtitle": "Weapon Mod"
   },
   "subtitle": "Weapon Mod (%s)",
-  "description": "Replaces the %s^reset; ability of non-unique weapons.\n^gray;Apply to weapon with right-click", //Unfortunately we can't add 'certain' because that, plus 'primary', is too long. It'd work perfectly if we had our own version of the codex tooltip
+  "description": "Replaces the %s^reset; ability of a generated weapon if it can naturally have this ability.\n^gray;Apply with right-click",
   "slotNames": {
     "primary": "^blue;primary",
     "alt": "^red;special"

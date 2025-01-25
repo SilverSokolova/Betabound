@@ -1,19 +1,13 @@
 {
   "itemName": "sb_arcsword",
-  "price": 1200,
+  "definition": ["broadswords/rare", "broadswords/abilities"],
   "fixedLevel": false,
-  "maxStack": 1,
-  "rarity": "Rare",
   "description": "A sword charged with a ridiculous amount of electricity.",
   "shortdescription": "Arcsword",
-  "tooltipKind": "sb_sword2",
-  "category": "broadsword",
-  "twoHanded": true,
   "itemTags": ["weapon", "melee", "broadsword"],
 
   "inventoryIcon": "arcsword.png",
 
-  "animation": "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts": {
     "handle": "",
     "blade": "arcsword.png"
@@ -33,28 +27,14 @@
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "elementalType": "electric",
-  "primaryAbilityType": "broadswordcombo",
+  "primaryAbilityType": "sb_meleeslash",
   "primaryAbility": {
     "damageConfig": {
       "damageSourceKind": "electricbroadsword",
       "statusEffects": ["electrified"]
-    },
-    "fireTime": [0.7, 1],
-    "baseDps": [10.5, 11.5]
-  },
-  
-  "builderConfig": [{
-      "altAbilities": [
-        "bladecharge",
-        "parry",
-        "travelingslash",
-        "blinkexplosion",
-        "traildash"
-      ]
     }
-  ],
+  },
 
   "builder": "/items/buildscripts/starbound/buildweapon.lua",
 

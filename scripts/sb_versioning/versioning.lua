@@ -2,7 +2,7 @@ xrc0018 = {}
 local function blue(a) if type(a)=="string" then a={a} end for i = 1, #a do player.giveBlueprint(a[i]) end end
 local function quest(a,b) if type(b)=="string" then b={b} end if player.hasCompletedQuest(a) then for i = 1, #b do player.giveItem(b[i]) end end end
 local function boxQuest(a,b) if player.hasCompletedQuest(a) then IB[#IB+1] = b end end
-local function giveBox() if #IB > 0 then player.giveItem({"sb_itembox",1,{description=string.format(root.assetJson("/betabound.config:changedQuestRewardsDescription"), #IB),items=IB}}) end end
+local function giveBox(desc, tooltipKind) if #IB > 0 then player.giveItem({"sb_itembox",1,{tooltipKind=tooltipKind,description=string.format(root.assetJson("/betabound.config")[desc], #IB),items=IB}}) end end
 local function updateNote(a)
   local b = root.assetJson("/betabound.config")
   a = b.updateNotes[a]
@@ -102,8 +102,9 @@ xrc0018[18]=function()
   boxQuest("sb_bountyhunter3.gearup",{"sb_uncommonshotgun",1,{level=4}})
   boxQuest("sb_floranhunter4.gearup",{"sb_uncommonspear",1,{level=5}})
   boxQuest("sb_humanexcon4.gearup",{"sb_uncommonaxe",1,{level=5}})
-  giveBox()
+  giveBox("changedQuestRewardsDescription")
 end
+--[[
 xrc0018[19]=function()
   if newPlayer then return end
   local r = {"floran","hylotl","avian","apex","glitch"}
@@ -128,8 +129,9 @@ xrc0018[19]=function()
     {"sb_avianrefugeeE1","sb_humanscientistE1","sb_avianrefugeeE2","sb_hylotlwarriorE2","sb_hylotlwarriorE1","sb_penguinpromoterE1"}
   }
   for i = 1, #q do for j = 1, #q[i] do boxQuest(q[i][j]..".gearup",{"rewardbag",1,{treasure={level=i}}}) end end
-  giveBox()
+  giveBox("changedQuestRewardsDescription")
 end
+]]
 xrc0018[20]=function()
   local q = {"sb_floranfan1","sb_hylotlwarriorE2"}
   for i = 1, #q do
@@ -145,7 +147,7 @@ xrc0018[21]=function()
   end
 end
 xrc0018[22]=function()
-  if player.blueprintKnown("sb_sweetcorn") then --could cause issues if we add sweetcorn back
+  if player.blueprintKnown("sb_sweetcorn") then --could cause issues if we add sweetcorn back. maybe change to iron anvil?
     updateNote("96")
   end
 end
@@ -252,6 +254,29 @@ end
 --33: Convert harpoon gun
 xrc0018[33]=function()
   reunlockRecipes(root.assetJson("/scripts/sb_versioning/procgenWeaponRecipes.json"))
+end
+
+--34: Chopped off the ".gearup" part of our quests, so check if the player completed those. If so, complete the quests under the new name.
+xrc0018[34]=function()
+  IB = {}
+  local quests = root.assetJson("/scripts/sb_versioning/changedQuestIds.json")
+  for v, k in pairs(quests) do
+    if player.hasCompletedQuest(v..".gearup") then
+      sb.logInfo(string.format("Player has done %s.gearup, giving required items for %s", v, k))
+      local questItems = root.questConfig(type(k) == "string" and k or v).scriptConfig
+      if questItems then
+        questItems = questItems.conditions
+        if questItems then
+          for i = 1, #questItems do
+            if questItems[i].itemName then
+              IB[#IB+1] = {questItems[i].itemName, questItems[i].count or 1}
+            end
+          end
+        end
+      end
+    end
+  end
+  giveBox("changedQuestIdsDescription", "sb_tech")
 end
 
 function sb_doVersioning(cv,yv)

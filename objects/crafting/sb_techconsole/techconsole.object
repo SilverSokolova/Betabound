@@ -5,7 +5,7 @@
   "rarity": "legendary",
   "price": 6000,
   "tooltipKind": "sb_object",
-  "radioMessagesOnPickup": ["sb_pickuptechconsole"],
+  "radioMessagesOnPickup": ["sb_pickuptechconsole1", "sb_pickuptechconsole2"],
   "interactAction": "OpenCraftingInterface",
   "interactData": {
     "config": "/interface/windowconfig/sb_craftingtechconsole.config",
@@ -39,7 +39,7 @@
       "imagePosition": [-12, -0],
       "frames": 6,
       "animationCycle": 0.6,
-      "direction": "right",
+      "direction": "left",
 
       "spaceScan": 0.1,
       "anchors": ["bottom"]
@@ -54,7 +54,7 @@
       "imagePosition": [-12, -0],
       "frames": 6,
       "animationCycle": 0.6,
-      "direction": "left",
+      "direction": "right",
 
       "spaceScan": 0.1,
       "anchors": ["bottom"]

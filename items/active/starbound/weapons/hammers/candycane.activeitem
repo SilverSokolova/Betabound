@@ -1,0 +1,26 @@
+{
+  "itemName": "sb_candycane",
+  "definition": ["hammers/common", "hammers/abilities"],
+  "shortdescription": "Candy Cane",
+  "tooltipFields": {
+    "subtitle": "Candy Cane"
+  },
+  "tooltipKind": "sb_sword",
+  "sb_waBan": true,
+  "itemTags": ["weapon", "melee", "hammer"],
+  "sb_backingDirectives": "?replace;d93a3a=e0975c;932625=a85636;601119=6f2919",
+  "animationParts": {
+    "blade": "candycane.png",
+    "handle": ""
+  },
+
+  "builderConfig": [{
+      "nameGenerator": "candycanenames.config:nameGen",
+      "iconDrawables": ["blade"]
+    }
+  ],
+
+  "elementalType": "physical",
+  "primaryAbilityType": "sb_hammer",
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

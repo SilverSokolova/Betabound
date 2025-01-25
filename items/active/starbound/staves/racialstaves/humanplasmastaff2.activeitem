@@ -1,19 +1,19 @@
 {
   "itemName": "sb_humanplasmastaff2",
-  "definition": "racialstaff",
+  "definition": ["staff", "racialstaff"],
   "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "human",
     "<staff>": "plasmastaff",
     "<n>": "2"
   },
+  "tooltipFields": {
+    "damageKindImage": ""
+  },
   "rarity": "legendary",
   "level": 6,
   "description": "Powered by the destructive desires of the wielder. And a battery.",
   "shortdescription": "Boom Blast Staff",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/sb_plasmapulse.png"
-  },
   "elementalType": "fire",
   "altAbilityType": "plasmabarrage",
   "primaryAbilityType": "sb_staff",
@@ -22,6 +22,11 @@
     "projectileParameters": {
       "speed": 60,
       "baseDamage": 12
+    }
+  },
+  "configOverrides": {
+    "animationParts": {
+      "staffFullbright": "<race><staff><n>fb.png"
     }
   },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"

@@ -1,4 +1,14 @@
 {
+  "maxStack": 1,
+  "level": 1,
+  "category": "dagger",
+  "description": "Razor sharp and lightning quick.",
+  "tooltipKind": "sb_sword2",
+  "handGrip": "inside",
+
+  "animation": "/items/active/starbound/weapons/dagger.animation",
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+
   "animationParts": {},
   "animationCustom": {
     "sounds": {

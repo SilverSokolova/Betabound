@@ -130,7 +130,6 @@
           {"weight": 0.2, "item": ["bone", 4]},
           {"weight": 0.04, "item": "sb_splatterknife"},
           {"weight": 0.03, "item": "sb_splatterknife-recipe"},
-          {"weight": 0.04, "item": "sb_gutterknife"},
 //        {"weight" : 0.04, "item" : "sb_heartstringbow"},
           {"weight": 0.04, "item": "sb_bonerifle"},
           {"weight": 0.04, "item": "sb_boneshotgun"},
@@ -172,8 +171,7 @@
           {"weight": 0.2, "item": ["wheat", 6]},
           {"weight": 0.2, "item": ["carrot", 3]},
           {"weight": 0.08,"item": ["carrotseed", 3]},
-          {"weight": 0.04, "item": "sb_coralcleaver" },
-          {"weight": 0.04, "item": "sb_heatcleaver"},
+          {"weight": 0.04, "item": "sb_coralcleaver"},
           {"weight": 0.04, "item": "mininglantern"}
         ]
       }

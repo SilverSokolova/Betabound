@@ -9,14 +9,13 @@
     "text": "I see that you have obtained a tech binding station! Using it, you can create unique tech cards which can be used to equip techs on-the-go."
   },
 
-  "sb_pickuptechconsole": {
+  "sb_pickuptechconsole1": {
     "type": "tutorial",
-    "text": "If your tech drives are not recognized by the Tech Development Console, ^orange;formatting the data by putting the tech drive into a Refinery^reset; may fix the issue."
+    "text": "To obtain copies of tech for the Tech Development Console, ^green;select a tech in the ^orange;tech equip menu^green; and press the 'download' button^reset;. It should be noted that this requires a tech card."
   },
-
-  "sb_pickupspawnerstation": {
+  "sb_pickuptechconsole2": {
     "type": "tutorial",
-    "text": "It's a well-known fact that ^orange;colony deeds and employment beacons used on more dangerous planets attract more powerful tenants.^reset;"
+    "text": "Additionally, excess copies of tech can be processed through a ^orange;Refinery^reset; to gain a tech card."
   },
 
   // on picking up misc objects/items
@@ -33,13 +32,9 @@
     "type": "tutorial",
     "text": "You discovered paint! You can paint blocks and platforms into various different colors. Please note that the colour of the paint may change depending on the material being painted."
   },
-  "sb_pickupfarmbeastfeed": {
-    "type": "tutorial",
-    "text": "I see you've acquired some fluffalo food! With a ^#71f2f6;right-click,^reset; you can feed it to a juvenile fluffalo to influence or speed up its growth."
-  },
   "sb_pickupladder": {
     "type": "tutorial",
-    "text": "I see you've acquired a ladder! While on a ladder, hold ^#71f2f6;[SPACE]^reset; to quickly climb."
+    "text": "I see you've acquired a ladder! While on a ladder, hold ^#71f2f6;[SPACE]^reset; to quickly ascend."
   },
   "sb_pickupmusicsheet": {
     "type": "tutorial",
@@ -55,11 +50,13 @@
   },
 
   // on encountering certain things
-  "sb_ancientgateway": {
-    "type": "tutorial",
-    "text": "Ancient ruins such as this can be found throughout the universe. I'm detecting a spatial anomaly nearby... perhaps some form of teleportation device?"
+  // on unlocking capabilities
+  "sb_unlocktech": {
+    "text": "The following tech has been made available: ^green;%s^reset; You can purchase tech at a tech console using tech cards."
+  },
+  "sb_unlocktechs": {
+    "text": "The following techs have been made available: ^green;%s^reset; You can purchase tech at a tech console using tech cards."
   }
-  // on unlocking ship capabilities
   // Peacekeeper station intros
 
 }

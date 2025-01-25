@@ -1,20 +1,19 @@
 {
   "itemName": "sb_novatier5arevolver",
   "definition": "revolver",
-  "itemTags": ["weapon", "ranged", "pistol", "revolver", "novakid"],
+  "itemTags": ["weapon", "ranged", "pistol", "revolver"],
   "tags": {
     "<t>": "5a"
   },
   "rarity": "rare",
   "description": "Everybody's dead, Dave.",
   "shortdescription": "Red Dwarf",
-  "muzzleOffset": [2.1, 0.3],
+  "muzzleOffset": [1.4, 0.25],
   "level": 5,
   "configOverrides": {
     "primaryAbility": {
-      "baseDps": 6.25,
-      "fireTime": 0.45,
-      "energyUsage": 18
+      "baseDps": 5.25,
+      "fireTime": 0.45
     }
   },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"

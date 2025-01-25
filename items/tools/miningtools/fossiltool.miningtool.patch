@@ -11,5 +11,5 @@
 [{"op":"test","path":"/durabilityPerUse","value":0.05},{"op":"replace","path":"/durabilityPerUse","value":0.01}],
 [{"op":"add","path":"/canBeRepaired","value":true}],
 [{"op":"test","path":"/description","value":"Used to unearth fossils. Anything else would break them. This tool has very low durability."},
-{"op":"replace","path":"/description","value":"Used to unearth fossils. Anything else would break them. This tool is easily repaired."}]
+{"op":"replace","path":"/description","value":"Unearths fossils that are embedded in solid blocks. Anything else would destroy them!"}]
 ]

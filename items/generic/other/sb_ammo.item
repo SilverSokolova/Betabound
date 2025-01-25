@@ -9,8 +9,8 @@
     "subtitle": "Ammunition"
   },
   "radioMessagesOnPickup": ["sb_pickupammo"],
-  //"itemTags": ["weapon","ranged","revolver","pistol","gun"], Uncrafter will see it as a weapon
-  "itemTags": ["ammo", "ammunition"],
+  //"itemTags": ["weapon","ranged","revolver","pistol","gun", "nonweapon"], Uncrafter will see it as a weapon
+  "itemTags": ["ammo", "ammunition", "nonweapon"],
   "description": "This type of ammo will automatically be used with certain firearms. They will state if they can use ammo.",
   "shortdescription": "Ammunition",
   "projectileTypes": ["standardbullet", "fast", "bouncybullet"],

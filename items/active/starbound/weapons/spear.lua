@@ -9,7 +9,7 @@ function Spear:init()
   MeleeSlash.init(self)
   self.holdDamageConfig = sb.jsonMerge(self.damageConfig, self.holdDamageConfig)
   self.holdDamageConfig.baseDamage = self.holdDamageMultiplier * self.damageConfig.baseDamage
-  self.projectilePower = self.damageConfig.baseDamage * config.getParameter("damageLevelMultiplier",1) * config.getParameter("projectileDamageMultiplier", 0.6)
+  self.projectilePower = (self.damageConfig.baseDamage + config.getParameter("damageLevelMultiplier", 1)) * (self.projectileDamageMultiplier or 0.6)
 end
 
 function Spear:fire()

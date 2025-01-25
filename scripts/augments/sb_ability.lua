@@ -10,6 +10,7 @@ function apply(input)
   slotName = slot:match("[a-z]+").."Abilities"
   local currentAbility = output:instanceValue(slot, "1")
   newAbility = config.getParameter("ability", "0")
+  element = output:instanceValue("elementalType", "physical")
   valid = false
 
   local rarities = {"common", "uncommon", "rare", "legendary", "essential"}
@@ -30,7 +31,6 @@ function apply(input)
   local acceptedElements = config.getParameter("acceptedElements")
   if acceptedElements then
     local isValidElement = false
-    local element = output:instanceValue("elementalType", "physical")
     for i = 1, #acceptedElements do
       if element == acceptedElements[i] then
         isValidElement = true
@@ -54,8 +54,8 @@ function checkPossibleAbilities(itemName)
   builderConfig = builderConfig and builderConfig.config.builderConfig or nil
   if builderConfig then
     for i = 1, #builderConfig do
-      local possibleAbilities = builderConfig[i][slotName]
-      if possibleAbilities then
+      local possibleAbilities = builderConfig[i][slotName.."_"..element] or builderConfig[i][slotName]
+      if possibleAbilities and #possibleAbilities > 0 then
         for j = 1, #possibleAbilities do
           if possibleAbilities[j] == newAbility then
             valid = true

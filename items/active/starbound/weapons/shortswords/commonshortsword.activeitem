@@ -1,0 +1,62 @@
+{
+  "itemName": "sb_commonshortsword",
+  "definition": "shortswords/common",
+  "shortdescription": "Common Shortsword",
+  "tooltipKind": "sb_sword2",
+  "sb_dyeable": true,
+  "sb_backingDirectives": "?replace;f5e458=ffca8a;bc8b07=e0975c;a1750b=a85636;e9e9e9=ffca8a;b1b1b1=e0975c;676767=a85636",
+  "sb_extraDirectives": "?replace;ffca8a=f5e458;e0975c=bc8b07;a85636=a1750b;ffca8a=e9e9e9;e0975c=b1b1b1;a85636=676767",
+  "itemTags": ["weapon", "melee", "shortsword"],
+
+  "primaryAbilityType": "sb_shortswordcombo",
+  "elementalType": "physical",
+  "builderConfig": [{
+      "nameGenerator": "/items/active/starbound/weapons/broadswords/swordnames.config:nameGen",
+      "animationParts": {
+        "blade": {
+          "path": "shortsword/blade/<variant>.png",
+          "variants": 29,
+          "paletteSwap": true,
+          "fullbrightParts": {
+            "10": true,
+            "11": true,
+            "12": true,
+            "13": true,
+            "14": true,
+            "15": true,
+            "16": true,
+            "19": true,
+            "21": true,
+            "23": true,
+            "27": true,
+            "28": true
+          },
+          "undyeableParts": {
+            "10": true,
+            "11": true,
+            "12": true,
+            "13": true,
+            "14": true,
+            "15": true,
+            "19": true,
+            "21": true,
+            "27": true,
+            "28": true
+          }
+        },
+        "handle": {
+          "path": "shortsword/handle/<variant>.png",
+          "variants": 27,
+          "paletteSwap": true,
+          "undyeableParts": {
+            "15": true
+          }
+        }
+      },
+      "iconDrawables": ["handle", "blade"],
+      "palette": "/items/active/starbound/colors/melee.weaponcolors",
+      "altAbilities": []
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

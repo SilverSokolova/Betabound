@@ -1,4 +1,5 @@
 [
+  //Fuel scaling
   [{
       "op": "add",
       "path": "/scripts/-",
@@ -9,12 +10,6 @@
       "op": "add",
       "path": "/sb_jumpFuelCostCap",
       "value": 300
-    }
-  ],
-  [{
-      "op": "add",
-      "path": "/visitableTypeDescription/ancientgateway/-",
-      "value": "A strange ^#571cff;gate^white; of incalculably ancient origin."
     }
   ],
 
@@ -252,17 +247,6 @@
     }
   ],
 
-  [{
-      "op": "test",
-      "path": "/topLeftButtonTooltips/goToPeacekeeper",
-      "inverse": true
-    }, {
-      "op": "add",
-      "path": "/topLeftButtonTooltips/goToPeacekeeper",
-      "value": "View Peacekeeper HQ"
-    }
-  ],
-
   //Fix for MPI calling Crystalline biomes "Crystallineline"
   [{
       "op": "test",
@@ -272,18 +256,11 @@
       "path": "/wordsList/crystal"
     }
   ],
-  [{
-      "op": "test",
-      "path": "/namesList",
-      "inverse": true
-    }, {
-      "op": "add",
-      "path": "/namesList",
-      "value": {}
-    }
-  ],
 
   [{
+      "op": "test",
+      "path": "/wordsList"
+    }, {
       "op": "add",
       "path": "/wordsList/sb_",
       "value": {
@@ -293,6 +270,9 @@
     }
   ],
   [{
+      "op": "test",
+      "path": "/namesList"
+    }, {
       "op": "add",
       "path": "/namesList/sb_",
       "value": {
@@ -328,20 +308,24 @@
   [{
       "op": "test",
       "path": "/displayBiomes"
-    }, {//surface
-      "op": "add","path": "/displayBiomes/sb_crystalline",
+    },
+    //surface
+    {
+      "op": "add", "path": "/displayBiomes/sb_crystalline",
       "value": {"name": "Crystalline", "icon": "/items/generic/crafting/crystal.png"}
     }, {
-      "op": "add","path": "/displayBiomes/sb_rust",
+      "op": "add", "path": "/displayBiomes/sb_rust",
       "value": {"name": "Rust Fields", "icon": "/items/generic/crafting/metallic.png"}
-    }, {//underground
-      "op": "add","path": "/displayBiomes/sb_coralcave",
+    },
+    //underground
+    {
+      "op": "add", "path": "/displayBiomes/sb_coralcave",
       "value": {"name": "Coral Caves", "icon": "/items/generic/crafting/coralfragment.png"}
     }, {
-      "op": "add","path": "/displayBiomes/sb_crystalcave",
+      "op": "add", "path": "/displayBiomes/sb_crystalcave",
       "value": {"name": "Crystal Caves", "icon": "/items/materials/crystalblock.png"}
     }, {
-      "op": "add","path": "/displayBiomes/sb_heck",
+      "op": "add", "path": "/displayBiomes/sb_heck",
       "value": {"name": "Heck Caves", "icon": "/items/materials/hellstone.png"}
     }
   ],
@@ -372,6 +356,14 @@
       "op": "add",
       "path": "/planetTypeColors/sb_tentacle",
       "value": [244, 170, 159]
+    }
+  ],
+
+  //Changes to vanilla planets
+  [{
+      "op": "add",
+      "path": "/visitableTypeDescription/ancientgateway/-",
+      "value": "A strange ^#571cff;gate^reset; of incalculably ancient origin."
     }
   ]
 ]

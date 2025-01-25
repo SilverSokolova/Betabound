@@ -2,10 +2,10 @@
   [{
       "op": "add",
       "path": "/scriptConfig/sb_offeredQuests",
-      "value": ["sb_avianmercenary4.gearup"]
+      "value": ["sb_avianmercenary4"]
     }, {
       "op": "add",
       "path": "/scriptConfig/sb_turnInQuests",
-      "value": ["sb_avianmercenary4.gearup"]
+      "value": ["sb_avianmercenary4"]
     }
   ]]

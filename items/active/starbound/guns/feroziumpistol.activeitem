@@ -4,16 +4,13 @@
   "maxStack": 1,
   "price": 1125,
   "tooltipKind": "sb_gun2",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/standardbullet.png"
-  },
-  "itemTags": ["weapon", "ranged", "pistol", "ferozium"],
+  "itemTags": ["weapon", "ranged", "pistol"],
   "category": "pistol",
   "fixedRarity": true,
   "rarity": "legendary",
   "description": "A modern-looking sidearm.",
   "shortdescription": "Scintillium Pistol",
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationCustom": {
     "sounds": {
       "fire": ["/sfx/gun/revolver2.ogg"]
@@ -22,12 +19,12 @@
   "animationParts": {
     "barrel": "",
     "butt": "",
-    "muzzleFlash": "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.png",
+    "muzzleFlash": "/items/active/weapons/ranged/muzzleflash.png",
     "middle": "feroziumpistol.png"
   },
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "baseOffset": [0.7, 0.15],
-  "muzzleOffset": [1.5, 0.4],
+  "muzzleOffset": [1.55, 0.45],
 
   "twoHanded": false,
   "level": 6,

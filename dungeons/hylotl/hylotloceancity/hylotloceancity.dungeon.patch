@@ -1,12 +1,11 @@
-[
-    {
-        "op":"add",
-        "path":"/parts/-",
-        "value":{
-            "name":"sb_hylotlground1",
-            "rules":[["maxSpawnCount",[2]]],
-            "def":["tmx","sb_hylotlground1.json"],
-            "chance":1
-        }
+[{
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "sb_hylotlground1",
+      "rules": [["maxSpawnCount", [1]]],
+      "def": ["tmx", "sb_hylotlground1.json"],
+      "chance": 1
     }
+  }
 ]

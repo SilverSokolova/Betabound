@@ -1,10 +1,10 @@
 {
   "name": "sb_miningdrill",
-  "type": "body",
+  "type": "head",
   "rarity": "Legendary",
   "icon": "/tech/starbound/miningdrill.png",
-  "description": "Double tap ^green;any direction^reset; to toggle a directional mining drill!",
-  "sb_briefDescription": "Double tap ^green;any direction^reset; to toggle a directional drill!",
+  "description": "Hold ^green;[F]^reset; and tap ^green;any direction^reset; to toggle a directional mining drill!",
+  "sb_briefDescription": "Hold ^green;[F]^reset; and tap ^green;any direction^reset; to toggle a directional drill!",
   //"sb_longDescription": " ^green;[SHIFT]^reset; for a smaller radius.",
   "shortDescription": "Mining Drill",
   "scripts": ["miningdrill.lua"],

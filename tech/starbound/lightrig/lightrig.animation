@@ -1,36 +1,36 @@
 {
   "lights": {
-    "lightright": {
-      "active": false,
-      "position": [-1, -1],
+    "leftLight": {
+      "position": [1, 0],
       "color": [150, 150, 120],
-      "pointLight": true,
-      "pointAngle": 0,
-      "pointBeam": 0.4
-    },
-    "lightup": {
-      "active": false,
-      "position": [0, -1],
-      "color": [150, 150, 120],
-      "pointLight": true,
-      "pointAngle": 90,
-      "pointBeam": 0.4
-    },
-    "lightleft": {
-      "active": false,
-      "position": [1, -1],
-      "color": [150, 150, 120],
-      "pointLight": true,
       "pointAngle": 180,
-      "pointBeam": 0.4
+      "pointBeam": 0.4,
+      "pointLight": true,
+      "active": false
     },
-    "lightdown": {
-      "active": false,
+    "rightLight": {
+      "position": [-1, 0],
+      "color": [150, 150, 120],
+      "pointAngle": 0,
+      "pointBeam": 0.4,
+      "pointLight": true,
+      "active": false
+    },
+    "upLight": {
       "position": [0, 0],
       "color": [150, 150, 120],
+      "pointAngle": 90,
+      "pointBeam": 0.4,
       "pointLight": true,
+      "active": false
+    },
+    "downLight": {
+      "position": [0, 0],
+      "color": [150, 150, 120],
       "pointAngle": 270,
-      "pointBeam": 0.4
+      "pointBeam": 0.4,
+      "pointLight": true,
+      "active": false
     }
   },
   "sounds": {

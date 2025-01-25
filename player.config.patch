@@ -1,7 +1,8 @@
 [
-//stats
+//Stats and resources
 [{"op":"test","path":"/statusControllerSettings/stats/foodDelta/baseValue","value":-0.0583},{"op":"replace","path":"/statusControllerSettings/stats/foodDelta/baseValue","value":-0.0425}], //-51 food over 20 minutes
 [{"op":"test","path":"/statusControllerSettings/resources/food/maxValue","value":70},{"op":"replace","path":"/statusControllerSettings/resources/food/maxValue","value":100}],
+[{"op":"test","path":"/statusControllerSettings/resources/stunned","inverse":true},{"op":"add","path":"/statusControllerSettings/resources/stunned","value":{"baseValue":0}}],
 
 [{"op":"add","path":"/statusControllerSettings/stats/sb_shieldHealthL","value":{"baseValue":0}}],
 [{"op":"add","path":"/statusControllerSettings/stats/sb_shieldHealthR","value":{"baseValue":0}}],
@@ -15,9 +16,9 @@
 [{"op":"add","path":"/statusControllerSettings/resources/sb_shieldStaminaRegenBlockL","value":{"maxValue":2,"deltaValue":-1,"initialPercentage":0}}],
 [{"op":"add","path":"/statusControllerSettings/resources/sb_shieldStaminaRegenBlockR","value":{"maxValue":2,"deltaValue":-1,"initialPercentage":0}}],
 [{"op":"add","path":"/statusControllerSettings/resources/sb_forceFieldStrength","value":{"baseValue":0}}],
-[{"op":"test","path":"/statusControllerSettings/resources/stunned","inverse":true},{"op":"add","path":"/statusControllerSettings/resources/stunned","value":{"baseValue":0}}],
 
-//inventory
+
+//Inventory
 [{"op":"test","path":"/ageItemsEvery","value":10},{"op":"replace","path":"/ageItemsEvery","value":300}],
 [{"op":"test","path":"/inventoryFilters/autoAddToCustomBar/categoryBlacklist/0","value":"food"},{"op":"remove","path":"/inventoryFilters/autoAddToCustomBar/categoryBlacklist/0"}],
 [{"op":"add","path":"/inventoryFilters/autoAddToCustomBar/typeWhitelist/-","value":"beamminingtool"}],
@@ -26,7 +27,7 @@
 [{"op":"add","path":"/inventoryFilters/autoAddToCustomBar/typeWhitelist/-","value":"inspectiontool"}],
 
 
-//scripts
+//Scripts
 [{"op":"add","path":"/genericScriptContexts/sb_main","value":"/scripts/player/sb_main.lua"}],
 [{"op":"add","path":"/genericScriptContexts/sb_versioning","value":"/scripts/sb_versioning/versioncheck.lua"}],
 [{"op":"add","path":"/genericScriptContexts/sb_items","value":"/scripts/player/sb_items.lua"}],
@@ -35,29 +36,29 @@
 [{"op":"add","path":"/companionsConfig/scripts/-","value":"/scripts/player/sb_ship.lua"}],
 [{"op":"add","path":"/companionsConfig/scripts/-","value":"/scripts/player/sb_pets.lua"}],
 
-//recipes
-//reagent
+//RECIPES
+//Reagent
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"coalore"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"platinumbar"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_refinedrubium"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"uraniumrod"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"plutoniumrod"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_solariumrod"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_gunpowder"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"screws"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"polymer"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"leather"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"glasscoffeemug"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"thread"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_liquidcoffee"}}],
 
-//throwing
+//Throwing
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_handgrenade"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_throwingneedle"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"javelin"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"throwingstar"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_smokegrenade"}}],
 
-//skyrails
+//Skyrails
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"skyrail_asc"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"skyrail_desc"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"skyrail_diodeL"}}],
@@ -67,30 +68,32 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"skyrailplatform"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_tech","count":1,"parameters":{"techModule":"skyrail"}}}],
 
-//rails
+//Rails
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_solidrailplatform"}}],
 
-//crafting
+//Crafting Stations
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_craftingtool"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_woodencookingtable"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_cookingstation"}}],
-
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_techconsole"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"spawnerstation"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"mechcraftingtable"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_researchstation"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_metalworkstation"}}],
 
-//misc stations
+//Misc Stations
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_wrappingtable"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"mechassemblystation"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_codex"}}],
 
-//bosses
+//Bosses
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_ironbeacon"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"artificialbrain"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_butter"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_peanutbutterjar"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_peanutbutter"}}],
 
-//tools
+//Tools
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_stonepickaxe"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"copperpickaxe"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"pickaxe"}}],
@@ -115,11 +118,12 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_painttool"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_draintool"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"fossiltool"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"fossilpod"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_portable3dprinter"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_customcodex"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_copybook"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_blankblueprint"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_wrappingpaper"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_wateringcan"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_spaceairtank"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_songbook"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_radio"}}],
@@ -131,11 +135,10 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_hookshot"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_whistle"}}],
 
-//upgrades
+//Upgrades
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"upgrademodule"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"techcard"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"manipulatormodule"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_portable3dprinter"}}],
 
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_techupgrade1"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_techupgrade2"}}],
@@ -146,13 +149,12 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_weaponupgrade5"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_weaponupgrade6"}}],
 
-//fu prevents other mods from using player.upgradeShip so disable ship upgrades if it's present
-[{"op":"test","path":"/defaultCodexes/fumantizi","inverse":true},
+[{"op":"test","path":"/defaultCodexes/fumantizi","inverse":true}, //FU prevents other mods from using player.upgradeShip so disable ship upgrades if it's present
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_shipspeed1"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_maxfuel1"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_fuelefficiency1"}}],
 
-//armors
+//Armor
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"snowinfantryhead"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"snowinfantrychest"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"snowinfantrypants"}}],
@@ -168,7 +170,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_emptylegs"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"invisibleback"}}],
 
-//furniture
+//Untiered Furniture
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"cardboard1"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_woodenendtable"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_woodenlocker"}}],
@@ -184,7 +186,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"locker1"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"locker2"}}],
 
-//tiered furniture
+//Tiered Furniture
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"serenechair"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"serenelight"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"serenetable"}}],
@@ -233,7 +235,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"executivebed"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_tier6stechchest"}}],
 
-//wire
+//Wiring
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_forcepad"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"woodenelevatorshort"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"woodenelevatorlong"}}],
@@ -247,7 +249,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_pump"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_dpstestdummy"}}],
 
-//tiles
+//Tiles
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_medievalladder"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_copperladder"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_modernladder"}}],
@@ -259,7 +261,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"plantblock"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"junktech"}}],
 
-//consumables
+//Consumables
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_cake"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_meatchunks"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"cookedham"}}],
@@ -275,12 +277,12 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_heatingbag"}}],
 
 
-//weapons
+//Weapons (For the `"crafted":true` entries, we can't do those kinds of recipes in learnBlueprintsOnPickup)
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_slingshot"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_huntingknife"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_brainextractor"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_firebow",1,{"crafted":true}]}], //you cant do this kind of recipe in learnBlueprintsOnPickup
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_arcsword",1,{"crafted":true}]}], //you cant do this kind of recipe in learnBlueprintsOnPickup
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_firebow",1,{"crafted":true}]}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_arcsword",1,{"crafted":true}]}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltpistol"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltrifle"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltshotgun"}}],
@@ -291,7 +293,69 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_feroziumpistol"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_feroziumbow"}}],
 
-//ammo
+//Revolvers
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier1revolver"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier2revolver"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier3revolver"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier4revolver"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier5arevolver"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier5mrevolver"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier5srevolver"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6arevolver"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6mrevolver"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6srevolver"}}],
+
+//Rifles
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier1rifle"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier2rifle"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier3rifle"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier4rifle"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier5arifle"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier5mrifle"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier5srifle"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6arifle"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6mrifle"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6srifle"}}],
+
+//Non-Novakid vanilla racial weapons
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"ironshortsword"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"ironbroadsword"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tungstenaxe"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tungstenhammer"}}],
+
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"titaniumdagger"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"titaniumspear"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"durasteelbroadsword"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"durasteelshortsword"}}],
+
+//Vanilla Novakid guns
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"ironrevolver"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"ironassaultrifle"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tungstenmagnum"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tungstenshotgun"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"titaniummachinepistol"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"titaniumsniperrifle"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"durasteelrevolver"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"durasteelassaultrifle"}}],
+
+//Staves
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_apexsteelstaff1"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_apexsteelstaff2"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aviancrystalstaff1"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aviancrystalstaff2"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_floranleafstaff1"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_floranleafstaff2"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_glitchglitchstaff1"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_glitchglitchstaff2"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_humanplasmastaff1"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_humanplasmastaff2"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_hylotlaquastaff1"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_hylotlaquastaff2"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novakidlightstaff1"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novakidlightstaff2"}}],
+
+
+//Ammo
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",30,{"projectileType":"bouncybullet"}]}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",75,{"projectileType":"piercingbullet"}]}],
 
@@ -306,7 +370,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",75,{"projectileType":"airburstpoisonbullet"}]}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",75,{"projectileType":"sb_homingbullet"}]}],
 
-//instruments
+//Instruments
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"accordion"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"acousticguitar"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"banjo"}}],
@@ -340,72 +404,5 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"steeldrum"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"trumpet"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"violin"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"overdriveguitar"}}],
-
-//revolvers
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier1revolver"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier2revolver"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier3revolver"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier4revolver"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier5arevolver"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier5mrevolver"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier5srevolver"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6arevolver"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6mrevolver"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6srevolver"}}],
-
-//rifles
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier1rifle"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier2rifle"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier3rifle"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier4rifle"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier5arifle"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier5mrifle"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier5srifle"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6arifle"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6mrifle"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novatier6srifle"}}],
-
-//non-novakid weapons
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"ironshortsword"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"ironbroadsword"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tungstenaxe"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tungstenhammer"}}],
-
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"titaniumdagger"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"titaniumspear"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"durasteelbroadsword"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"durasteelshortsword"}}],
-
-
-//novakid guns
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"ironrevolver"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"ironassaultrifle"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tungstenmagnum"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tungstenshotgun"}}],
-
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"titaniummachinepistol"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"titaniumsniperrifle"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"durasteelrevolver"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"durasteelassaultrifle"}}],
-
-
-//staves
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_apexsteelstaff1"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_apexsteelstaff2"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aviancrystalstaff1"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aviancrystalstaff2"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_floranleafstaff1"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_floranleafstaff2"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_glitchglitchstaff1"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_glitchglitchstaff2"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_humanplasmastaff1"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_humanplasmastaff2"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_hylotlaquastaff1"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_hylotlaquastaff2"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novakidlightstaff1"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novakidlightstaff2"}}],
-
-//unsorted
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"fossilpod"}}]
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"overdriveguitar"}}]
 ]

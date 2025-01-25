@@ -1,4 +1,14 @@
 {
+  "maxStack": 1,
+  "level": 1,
+  "category": "broadsword",
+  "twoHanded": true,
+  "description": "A powerful two-handed sword.",
+  "tooltipKind": "sb_sword2",
+
+  "animation": "/items/active/starbound/weapons/broadsword.animation",
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+
   "animationParts": {},
   "animationCustom": {},
 

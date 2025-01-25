@@ -17,8 +17,8 @@ function build(directory, config, parameters)
   config.price = (config.price or 10) * root.evalFunction("itemLevelPriceMultiplier", level or 1)
   if level and configParameter("leveledStatusEffects", configParameter("statusEffects")) then --check for status effects to prevent merchants from assigning a level to cosmetics
     level = "Lvl "..string.format("%.0f",level)
-    config.tooltipFields.levelLabel = "^shadow;"..level
-    config.tooltipFields.level2Label = level
+    config.tooltipFields.sb_levelLabel = "^shadow;"..level
+    config.tooltipFields.sb_level2Label = level
   end
 
   --We can't use root.itemType or root.itemConfig because buildscripts run while the item database is loading for some reason

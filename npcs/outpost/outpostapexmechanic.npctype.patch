@@ -2,11 +2,11 @@
   [{
       "op": "add",
       "path": "/scriptConfig/sb_offeredQuests",
-      "value": ["sb_apexmechanic2.gearup"]
+      "value": ["sb_apexmechanic2"]
     }, {
       "op": "add",
       "path": "/scriptConfig/sb_turnInQuests",
-      "value": ["sb_apexmechanic2.gearup"]
+      "value": ["sb_apexmechanic2"]
     }
   ]
 ]

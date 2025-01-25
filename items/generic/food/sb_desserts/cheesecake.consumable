@@ -1,0 +1,29 @@
+{
+  "itemName": "sb_cheesecake",
+  "price": 490,
+  "foodValue": 75,
+  "tooltipKind": "sb_object",
+  "rarity": "legendary",
+  "itemTags": ["sb_cake"],
+  "sb_plate": {
+    "width": 4,
+    "image": true
+  },
+  "handPosition": [1.4, -1.85],
+  "category": "preparedFood",
+  "inventoryIcon": "cheesecake.png",
+  "effects": [[{
+        "effect": "maxenergyscalingboostfood",
+        "duration": 675
+      }, {
+        "effect": "sb_energy",
+        "duration": 35
+      },
+      "sb_foodheal265"
+    ]],
+  "description": "A creamy cheesecake! Absolutely lovely.",
+  "shortdescription": "Cheesecake",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 4
+}

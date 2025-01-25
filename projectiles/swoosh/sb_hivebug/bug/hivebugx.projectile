@@ -1,83 +1,74 @@
 {
-  "projectileName" : "sb_hivebugx",
-  "physics" : "flyhighbug",
-  "speed" : 30,
-  "bounces" : 0,
-  "timeToLive" : 1.5,
-  "image" : "hivebugx.png",
-  "animationCycle" : 1.5,
-  "animationLoops" : false,
-  "orientationLocked" : true,
-  "flippable" : true,
-  "lightColor" : [80, 0, 90],
-  "frameNumber" : 24,
-  "periodicActions" : [
-    {
-      "action" : "config",
-      "file" : "/projectiles/swoosh/sb_hivebug/spawn.config",
-      "repeat" : false,
-      "time" : 0
-    },
-    {
-      "action" : "sound",
-      "options" : [ "/sfx/tech/tech_blink2.ogg" ],
-      "repeat" : false,
-      "time" : 0
+  "projectileName": "sb_hivebugx",
+  "physics": "flyhighbug",
+  "speed": 30,
+  "bounces": 0,
+  "timeToLive": 1.5,
+  "image": "hivebugx.png",
+  "animationCycle": 1.5,
+  "animationLoops": false,
+  "orientationLocked": true,
+  "flippable": true,
+  "lightColor": [80, 0, 90],
+  "frameNumber": 24,
+  "periodicActions": [{
+      "action": "config",
+      "file": "/projectiles/swoosh/sb_hivebug/spawn.config",
+      "repeat": false,
+      "time": 0
+    }, {
+      "action": "sound",
+      "options": ["/sfx/tech/tech_blink2.ogg"],
+      "repeat": false,
+      "time": 0
     }
   ],
-  "actionOnReap" : [
-    {
-      "action" : "config",
-      "file" : "/projectiles/explosions/vsmallregularexplosion/vsmallregularexplosionnosound.config"
-    },
-    {
-      "action" : "sound",
-      "options" : [ "/sfx/npc/smallbiped/bulbouseyehead_small_idle1.ogg", "/sfx/npc/smallbiped/bulbouseyehead_small_idle2.ogg", "/sfx/npc/smallbiped/bulbouseyehead_small_attack1.ogg", "/sfx/npc/smallbiped/bulbouseyehead_small_attack2.ogg" ]
-    },
-        {
-      "action" : "projectile",
-      "type" : "sb_xtermite",
-      "firePosition" : [-10, 5],
-      "fuzzAngle" : 0,
-      "angleAdjust" : 0
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_hivebuggibx",
-      "firePosition" : [-10, 5],
-      "fuzzAngle" : 180,
-      "angleAdjust" : 0
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_hivebuggibx",
-      "firePosition" : [-10, 5],
-      "fuzzAngle" : 180,
-      "angleAdjust" : 0
-    },    
-    {
-      "action" : "projectile",
-      "type" : "sb_hiveclusterx",
-      "firePosition" : [-10, 5],
-      "fuzzAngle" : 180,
-      "angleAdjust" : 0
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_hiveclusterx",
-      "firePosition" : [-10, 5],
-      "fuzzAngle" : 180,
-      "angleAdjust" : 0
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_hiveclusterx",
-      "firePosition" : [-10, 5],
-      "fuzzAngle" : 180,
-      "angleAdjust" : 0
+  "actionOnReap": [{
+      "action": "projectile",
+      "type": "vsmallregularexplosionnosound",
+      "inheritDamageFactor": 0
+    }, {
+      "action": "sound",
+      "options": ["/sfx/npc/smallbiped/bulbouseyehead_small_idle1.ogg", "/sfx/npc/smallbiped/bulbouseyehead_small_idle2.ogg", "/sfx/npc/smallbiped/bulbouseyehead_small_attack1.ogg", "/sfx/npc/smallbiped/bulbouseyehead_small_attack2.ogg"]
+    }, {
+      "action": "projectile",
+      "type": "sb_xtermite",
+      "firePosition": [-10, 5],
+      "fuzzAngle": 0,
+      "angleAdjust": 0
+    }, {
+      "action": "projectile",
+      "type": "sb_hivebuggibx",
+      "firePosition": [-10, 5],
+      "fuzzAngle": 180,
+      "angleAdjust": 0
+    }, {
+      "action": "projectile",
+      "type": "sb_hivebuggibx",
+      "firePosition": [-10, 5],
+      "fuzzAngle": 180,
+      "angleAdjust": 0
+    }, {
+      "action": "projectile",
+      "type": "sb_hiveclusterx",
+      "firePosition": [-10, 5],
+      "fuzzAngle": 180,
+      "angleAdjust": 0
+    }, {
+      "action": "projectile",
+      "type": "sb_hiveclusterx",
+      "firePosition": [-10, 5],
+      "fuzzAngle": 180,
+      "angleAdjust": 0
+    }, {
+      "action": "projectile",
+      "type": "sb_hiveclusterx",
+      "firePosition": [-10, 5],
+      "fuzzAngle": 180,
+      "angleAdjust": 0
     }
   ],
-  "power" : 3,
-  "damageType" : "NoDamage",
-  "damageKind" : "default"
+  "power": 3,
+  "damageType": "NoDamage",
+  "damageKind": "default"
 }

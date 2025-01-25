@@ -3,15 +3,12 @@
   "definition": "staff",
   "itemTags": ["weapon", "staff"],
   "tags": {
-    "<staff>": "boulder",
+    "<staff>": "boulderstaff",
     "<glow>": "/items/active/weapons/staff/generated/glow/physical"
   },
 
   "description": "A technological marvel designed to teleport giant boulders at your enemies.",
   "shortdescription": "Rockalanche Staff",
-  "tooltipFields": {
-    "damageKindImage": "/items/throwables/throwingboulder.png"
-  },
   "staffHasFullbright": true,
 
   "animationCustom": {
@@ -27,6 +24,7 @@
 
   "elementalType": "physical",
   "altAbilityType": "slowzone",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "bigboulderexplosion",
     "projectileParameters": {

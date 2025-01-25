@@ -1,0 +1,10 @@
+{
+  "itemName": "sb_liquidjelly",
+  "tooltipKind": "sb_object",
+  "rarity": "common",
+  "category": "liquid",
+  "inventoryIcon": "sb_liquidjelly.png",
+  "description": "A measure of slimy liquid jelly. It's poisonous.",
+  "shortdescription": "Liquid Jelly",
+  "liquid": "jellyliquid"
+}

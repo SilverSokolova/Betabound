@@ -11,12 +11,11 @@ function update(args)
   local currentBoost = false
 
   if not mcontroller.onGround() and not status.statPositive("activeMovementAbilities") then
-    if not mcontroller.canJump() and args.moves["jump"] and not lastJump then
-      currentBoost = {
-        args.moves["right"] and boostSpeed or args.moves["left"] and -boostSpeed or 0,
-        args.moves["up"] and boostSpeed or args.moves["down"] and -boostSpeed or 0
-      }
-      if (args.moves["right"] or args.moves["left"]) and (args.moves["up"] or args.moves["down"]) then
+    if not mcontroller.canJump() and args.moves["jump"] and (lastBoost or not lastJump) then
+      currentBoost = {}
+      currentBoost[1] = args.moves["right"] and boostSpeed or args.moves["left"] and -boostSpeed or 0
+      currentBoost[2] = args.moves["down"] and -boostSpeed or (currentBoost[1] == 0 and boostSpeed) or args.moves["up"] and boostSpeed or 0
+      if currentBoost[1] ~= 0 and currentBoost[2] ~= 0 then
         currentBoost = {currentBoost[1] * diag, currentBoost[2] * diag}
       end
     elseif args.moves["jump"] and lastBoost then

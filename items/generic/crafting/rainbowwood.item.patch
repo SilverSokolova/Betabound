@@ -2,7 +2,5 @@
 [{"op":"replace","path":"/itemName","value":"starbound_rainbowwood"}],
 
 [{"op":"test","path":"/description","value":"Rainbow Wood, the most colourful wood of all."},
-{"op":"replace","path":"/description","value":"The most colourful wood of all."}],
-[{"op":"test","path":"/fuelAmount","inverse":true},{"op":"add","path":"/fuelAmount","value":1},
-{"op":"replace","path":"/category","value":"fuel"}]
+{"op":"replace","path":"/description","value":"The most colourful wood of all."}]
 ]

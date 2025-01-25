@@ -5,18 +5,15 @@
   "maxStack": 1,
   "fixedRarity": true,
   "rarity": "legendary",
-  "description": "The scintillium casing makes for a pretty good sniper rifle.",
+  "description": "The scintillium casing helps this sniper rifle maintain accuracy.",
   "shortdescription": "Scintillium Sniper Rifle",
   "level": 6,
   "tooltipKind": "sb_gun4",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/standardbullet.png"
-  },
   "category": "sniperRifle",
-  "itemTags": ["weapon", "ranged", "rifle", "sb_scintillium"],
+  "itemTags": ["weapon", "ranged", "sniperrifle"],
   "twoHanded": true,
 
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
     "butt": "",
     "middle": "feroziumsniper.png",

@@ -1,46 +1,46 @@
 {
-  "objectName" : "sb_swordstone",
-  "colonyTags" : ["odd"],
-  "rarity" : "legendary",
-  "category" : "seed",
-  "description" : "A stone that grows swords. Sometimes it might grow a LEGENDARY one!",
-  "shortdescription" : "Sword Stone",
-  "objectType" : "farmable",
-  "printable" : false,
-  "price" : 200,
+  "objectName": "sb_swordstone",
+  "colonyTags": ["odd"],
+  "rarity": "legendary",
+  "category": "seed",
+  "description": "A stone that grows swords. Sometimes it might grow a LEGENDARY one!",
+  "shortdescription": "Sword Stone",
+  "objectType": "farmable",
+  "printable": false,
+  "price": 200,
 
-  "inspectionDescription" : "This stone grows swords. Appearances can be deceiving, so I'm not sure if the sword I take from this stone will be the same one...",
-  "floranDescription" : "Ssstone blacksssmith?",
-  "glitchDescription" : "Awe. With time, this stone may grow a blade.",
+  "apexDescription": "An archaic weapon stuck in a rock, how typical.",
+  "avianDescription": "Why would someone leave a sword here?",
+  "floranDescription": "Sssword is stuck!",
+  "glitchDescription": "Confused. Someone left a perfectly good sword here.",
+  "humanDescription": "A sword in a stone? That sounds familiar.",
+  "hylotlDescription": "Nothing about this makes sense to me. Why leave a sword in such a place?",
+  "novakidDescription": "That thing sure ain't going anywhere!",
 
-  "inventoryIcon" : "icon.png",
-  "tooltipKind" : "sb_tool",
-  "largeImage" : "/objects/farmables/sb_swordstone/swordstone.png:default.0.0",
+  "inventoryIcon": "icon.png",
+  "tooltipKind": "sb_tool",
+  "largeImage": "/objects/farmables/sb_swordstone/swordstone.png:default.0.0",
 
+  "orientations": [{
+      "dualImage": "swordstone.png:<color>.<stage>.<alt>",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
 
-  "orientations" : [
-    {
-      "dualImage" : "swordstone.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
-
-      "spaces" : [[1, 0],[0, 0],[1, 1],[0, 1],[1, 2],[0, 2],[1, 3],[0, 3],[1, 4],[0, 4]],
-      "requireTilledAnchors" : false,
-      "anchors" : ["bottom"]
+      "spaces": [[1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3], [1, 4], [0, 4]],
+      "requireTilledAnchors": false,
+      "anchors": ["bottom"]
 
     }
   ],
 
-  "stages" : [
-    {
-      "duration" : [1050, 1470]
-    },
-    {
-      "alts" : 2,
-      "harvestPool" : "sb_swordstoneHarvest",
-      "resetToStage" : 0
+  "stages": [{
+      "duration": [1050, 1470]
+    }, {
+      "alts": 2,
+      "harvestPool": "sb_swordstoneHarvest",
+      "resetToStage": 0
     }
   ],
-  "consumeSoilMoisture" : false
+  "consumeSoilMoisture": false
 }

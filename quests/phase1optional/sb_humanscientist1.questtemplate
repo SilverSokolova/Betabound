@@ -1,34 +1,33 @@
 {
-  "id" : "sb_humanscientist1.gearup",
-  "prerequisites" : ["sb_outpostSkin.gearup"],
-  "title" : "^green;Bug Hunt",
-  "text" : "I hate finding bugs! Can you help me find some? If you can ^orange;catch a bug ^#0f0;for me in a bug net,^reset; I'll give you a manipulator module I found.",
-  "completionText" : "One step closer to a universe without bugs! Here's the manipulator module, as promised. I'm sure you'll find it useful.",
-  "speaker" : "questGiver",
-  "moneyRange" : [100, 120],
-  "rewards" : [["manipulatormodule","bottle","rewardbag"]],
-  "canBeAbandoned" : true,
+  "id": "sb_humanscientist1",
+  "prerequisites": [],
+  "title": "^green;Bug Hunt",
+  "text": "I hate finding bugs! Can you help me find some? If you can ^orange;catch a bug ^#0f0;for me in a bug net,^reset; I'll give you a manipulator module I found.",
+  "completionText": "One step closer to a universe without bugs! Here's the manipulator module, as promised. I'm sure you'll find it useful.",
+  "speaker": "questGiver",
+  "moneyRange": [300, 400],
+  "rewards": [["manipulatormodule", "rewardbag"]],
+  "canBeAbandoned": true,
 
-  "guiConfigs" : {
-    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
-    "newQuest" : "/interface/windowconfig/sb_newquest.config",
-    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquest.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
   },
 
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/main.lua",
-  "scriptConfig" : {
-    "portraits" : {
-      "default" : "questGiver"
+  "updateDelta": 10,
+  "script": "/quests/scripts/main.lua",
+  "scriptConfig": {
+    "portraits": {
+      "default": "questGiver"
     },
-    "requireTurnIn" : true,
-    "turnInDescription" : "Speak to ^orange;the human scientist^reset; at the ^orange;outpost^reset;",
-    "conditions" : [
-      {
-        "type" : "gatherTag",
-        "tag" : "bug",
-        "count" : 1,
-        "consume" : true
+    "requireTurnIn": true,
+    "turnInDescription": "Speak to ^orange;the human scientist^reset; at the ^orange;outpost^reset;",
+    "conditions": [{
+        "type": "gatherTag",
+        "tag": "bug",
+        "count": 1,
+        "consume": true
       }
     ]
   }

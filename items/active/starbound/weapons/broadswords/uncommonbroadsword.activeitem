@@ -1,138 +1,54 @@
 {
   "itemName": "sb_uncommonbroadsword",
-  "level": 1,
-  "price": 250,
-  "maxStack": 1,
-  "rarity": "uncommon",
-  "tooltipKind": "sb_sword2",
-  "category": "broadsword",
-  "description": "A powerful two-handed sword.",
+  "definition": ["broadswords/uncommon", "elementalprojectiles", "broadswords/abilities"],
   "shortdescription": "Uncommon Broadsword",
-  "twoHanded": true,
   "sb_dyeable": true,
-  "sb_backingDirectives": "?replace;fbd644=ffca8a;ca9510=e0975c;754500=a85636;e9e9e9=ffca8a;b1b1b1=e0975c;676767=a85636",
-  "sb_extraDirectives": "?replace;ffca8a=fbd644;e0975c=ca9510;a85636=754500;ffca8a=e9e9e9;e0975c=b1b1b1;a85636=676767",
+  "sb_backingDirectives": "?replace;f5e458=ffca8a;bc8b07=e0975c;a1750b=a85636;e9e9e9=ffca8a;b1b1b1=e0975c;676767=a85636",
+  "sb_extraDirectives": "?replace;ffca8a=f5e458;e0975c=bc8b07;a85636=a1750b;ffca8a=e9e9e9;e0975c=b1b1b1;a85636=676767",
   "itemTags": ["weapon", "melee", "broadsword"],
-  "animation": "/items/active/starbound/weapons/broadsword.animation",
-  "animationParts": {},
-  "animationCustom": {
-    "lights": {
-      "glow": {
-        "color": [0, 0, 0]
-      }
-    },
-    "animatedParts": {
-      "parts": {
-        "blade": {
-          "properties": {}
-        },
-        "handle": {
-          "properties": {}
-        }
-      }
-    }
-  },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "primaryAbilityType": "sb_meleeslash",
   "primaryAbility": {
-    "fireTime": [0.6, 0.9],
-    "baseDps": [10.5, 11.5],
     "damageConfig": {
-      "knockback": 18
+      "damageSourceKind": "<elementalType>broadsword"
     }
   },
   "builderConfig": [{
       "nameGenerator": "swordnames.config:nameGen",
-      "elementalType": ["physical", "fire", "ice", "electric", "poison"],
-      "elementalConfig": {
-        "fire": {
-          "primaryAbility": {
-            "projectileTypes": ["sb_fireswirl", "marioball", "flamethrower", "flame"],
-            "damageConfig": {
-              "statusEffects": [{
-                  "effect": "burning",
-                  "duration": 3
-                }
-              ],
-              "damageSourceKind": "firebroadsword"
-            }
-          }
-        },
-        "ice": {
-          "primaryAbility": {
-            "projectileTypes": ["icethrower", "icecrabcanosnowball"],
-            "damageConfig": {
-              "statusEffects": [{
-                  "effect": "frostslow",
-                  "duration": 3
-                }
-              ],
-              "damageSourceKind": "icebroadsword"
-            }
-          }
-        },
-        "electric": {
-          "primaryAbility": {
-            "projectileTypes": ["electricexplosion", "spinningplasmabullet", "teslabolt", "shock", "electro", "lightning2", "teslaboltsmall"],
-            "damageConfig": {
-              "statusEffects": [{
-                  "effect": "electrified",
-                  "duration": 3
-                }
-              ],
-              "damageSourceKind": "electricbroadsword"
-            }
-          }
-        },
-        "poison": {
-          "primaryAbility": {
-            "projectileType": "poisonthrower",
-            "damageConfig": {
-              "statusEffects": [{
-                  "effect": "weakpoison",
-                  "duration": 3
-                }
-              ],
-              "damageSourceKind": "poisonbroadsword"
-            }
-          }
-        }
-      },
+      "elementalType": ["fire", "ice", "electric", "poison"],
       "animationParts": {
         "blade": {
           "path": "broadsword/blade/<variant>.png",
           "variants": 50,
           "paletteSwap": true,
-          "fullbrights": [11, 12, 13, 25, 27, 31, 33, 35, 45]
+          "fullbrightParts": {
+            "11": true,
+            "12": true,
+            "13": true,
+            "25": true,
+            "27": true,
+            "31": true,
+            "33": true,
+            "35": true,
+            "45": true
+          },
+          "undyeableParts": {
+            "23": true,
+            "25": true,
+            "33": true,
+            "45": true
+          }
         },
         "handle": {
           "path": "broadsword/handle/<variant>.png",
           "variants": 39,
-          "paletteSwap": true
+          "paletteSwap": true,
+          "undyeableParts": {
+            "9": true,
+            "18": true
+          }
         }
       },
-      "altAbilities_physical": [
-        "bladecharge",
-        "downstab",
-        "parry",
-        "risingslash",
-        "spinslash",
-        "superspinslash"
-      ],
-      "altAbilities": [
-        "bladecharge",
-        "downstab",
-        "parry",
-        "risingslash",
-        "spinslash",
-        "superspinslash",
-        "travelingslash",
-        "blinkexplosion",
-        "blinkslash",
-        "traildash",
-        "giantsword"
-      ],
       "iconDrawables": ["handle", "blade"],
       "palette": "/items/active/starbound/colors/melee.weaponcolors"
     }

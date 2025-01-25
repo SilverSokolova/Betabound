@@ -1,0 +1,38 @@
+{
+  "itemName": "sb_uncommoncrappyshortsword",
+  "definition": ["shortswords/uncommon", "elementalprojectiles"],
+  "shortdescription": "Uncommon Crappy Shortsword",
+  "tooltipKind": "sb_sword2",
+  "tooltipFields": {
+    "subtitle": "Crappy Shortsword"
+  },
+  "itemTags": ["weapon", "melee", "shortsword"],
+
+  "primaryAbilityType": "sb_shortswordcombo",
+  "primaryAbility": {
+    "damageConfig": {
+      "damageSourceKind": "<elementalType>shortsword"
+    }
+  },
+  "builderConfig": [{
+      "nameGenerator": "/items/active/starbound/weapons/broadswords/crappynames.config:nameGen",
+      "elementalType": ["fire", "ice", "electric", "poison"],
+      "animationParts": {
+        "blade": {
+          "path": "crappyshortsword/blade/<variant>.png",
+          "variants": 8,
+          "paletteSwap": true
+        },
+        "handle": {
+          "path": "crappyshortsword/handle/<variant>.png",
+          "variants": 8,
+          "paletteSwap": true
+        }
+      },
+      "iconDrawables": ["handle", "blade"],
+      "palette": "/items/active/starbound/colors/crappy.weaponcolors",
+      "altAbilities": []
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

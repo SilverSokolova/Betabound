@@ -300,7 +300,7 @@
       "inheritDamageFactor": 0.25
     }
   ],
-  "damageKind": "plasma",
+  "damageKind": "fireplasma",
   "statusEffects": [{
       "effect": "burning",
       "duration": 8

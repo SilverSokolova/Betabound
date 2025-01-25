@@ -28,7 +28,7 @@ function sb_AmmoGunFire:updateAmmo(shiftHeld)
   --not ideal to have this in update, but switching from an infoitem to two guns shows ammo counter twice
   projectileType = sb_AmmoGunFire:checkAmmo()
   if shiftHeld and projectileType then
-    self.projectileType = projectileType.parameters.projectileType or "bullet-1"
+    self.projectileType = projectileType.parameters.projectileType or self.energyProjectileType
     self.power = root.projectileConfig(self.projectileType).sb_power or 0
   else
     self.power = 0

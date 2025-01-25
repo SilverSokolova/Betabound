@@ -1,0 +1,5 @@
+{
+  "input": [["diamond",4],"platinumpickaxe"],
+  "output": "diamondpickaxe",
+  "groups": ["sb_roboticcraftingtable","mining","nouncrafting","all"]
+}

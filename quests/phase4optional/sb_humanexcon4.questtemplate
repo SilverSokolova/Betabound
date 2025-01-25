@@ -1,11 +1,11 @@
 {
-  "id": "sb_humanexcon4.gearup",
-  "prerequisites": ["hylotl_mission2", "sb_hylotlperformer3.gearup", "sb_bountyhunter3.gearup", "sb_avianexplorer3.gearup"],
+  "id": "sb_humanexcon4",
+  "prerequisites": ["hylotl_mission2", "sb_hylotlperformer3", "sb_bountyhunter3", "sb_avianexplorer3"],
   "title": "^green;Jail House Rock",
   "text": "Hey again! My firework display was a big success! ^green;Do you think you could find me a ^orange;stone USCM Penal Colony sign? ^reset;I want it to remind me of where I came from.",
   "completionText": "This is just what I wanted! Thank you so much! Here, take these...",
   "speaker": "questGiver",
-  "moneyRange": [400, 800],
+  "moneyRange": [900, 1000],
   "rewards": [["techcard", ["sb_uncommonaxe", 1, {
           "level": 5
         }

@@ -1,7 +1,7 @@
 function init()
   animator.setLightColor("lantern", config.getParameter("lightColor"))
   active = true
-  --somehow it preserves its state when you unequip it
+  --somehow it preserves its state when you unequip it (TODO: USE STORAGE TO PREVENT THIS)
   animator.setLightActive("lantern", true)
   animator.setAnimationState("light", "on")
 end

@@ -1,96 +1,60 @@
 require "/scripts/vec2.lua"
-require "/tech/sb_doubletap.lua"
 
 function init()
-  id = entity.id()
-  radius = config.getParameter("blockRadius",2)
-  damageType = config.getParameter("damageType","beamish")
-  baseDamageAmount = config.getParameter("damageAmount",0.75)
-  harvestLevel = config.getParameter("harvestLevel",99)
-  energyUsageRate = config.getParameter("energyUsageRate",0)
-  maximumDoubleTapTime = config.getParameter("maxDoubleTapTime",0.2)
-  directions = {"left","right","up","down"}
-  timers = {
-    up = 0,
-    down = 0,
-    left = 0,
-    right = 0
-  }
-  activeDrills = {
+  radius = config.getParameter("blockRadius", 2)
+  damageType = config.getParameter("damageType", "beamish")
+  damageAmount = config.getParameter("damageAmount", 0.75)
+  harvestLevel = config.getParameter("harvestLevel", 99)
+  energyUsageRate = config.getParameter("energyUsageRate", 0)
+  drillPositions = config.getParameter("drillPositions")
+
+  entityId = entity.id()
+  drills = {
     up = false,
     down = false,
     left = false,
     right = false
   }
-  drillPositions = config.getParameter("drillPositions")
-  inputs = {}
-  lastInput = {}
-  oppositeDrill = {
-    left = "right",
-    right = "left"
-  }
-
-  doubleTap = DoubleTap:new({"left","right","up","down"}, config.getParameter("maxDoubleTapTime", 0.2), function(dir)
-    if not status.resourceLocked("energy") then
-      activeDrills[dir] = not activeDrills[dir]
-      animator.setAnimationState("drill"..dir, activeDrills[dir] and "on" or "off")
-      animator.playSound((activeDrills[dir] and "" or "de").."activate")
-    end
-  end)
+  lastMoves = {}
 end
 
-function disableDrills()
-  for dir, _ in pairs(activeDrills) do
-    activeDrills[dir] = false
-    animator.setAnimationState("drill"..dir, "off")
-  end
-end
-
-function input(args)
-  for dir,timer in pairs(timers) do
-    if timers[dir] > 0 then timers[dir] = timer - args.dt end
-    if (args.moves[dir] == true) and inputs[dir] and not lastInput[dir] then
-      if inputs[dir] then
-        if timers[dir] <= 0 then
-          inputs[dir] = true
-        else
-          timers[dir] = maximumDoubleTapTime
-        end
-      end
-      inputs[dir] = true
-    else
-      inputs[dir] = false
-    end
-  end
-  lastInput = args.moves
-end
-
-function update(args) doubleTap:update(args.dt, args.moves) input(args)
-  local facing = mcontroller.facingDirection()
-  for dir, action in pairs(activeDrills) do
-    if inputs[dir] then
-      if facing < 0 and (dir == "left" or dir == "right") then
-        activeDrills[oppositeDrill[dir]] = not activeDrills[oppositeDrill[dir]]
-      else
-        activeDrills[dir] = not activeDrills[dir]
-      end
-    end
-  end
-
+function update(args)
   local usedEnergy = 0
-  for dir, drill in pairs(activeDrills) do
-    if drill then
+  local position = mcontroller.position()
+  for dir, active in pairs(drills) do
+    if args.moves["special1"] and args.moves[dir] and not lastMoves[dir] then
+      toggleDrill(dir)
+    end
+
+    if active then
       usedEnergy = usedEnergy + energyUsageRate * args.dt
-      local pos = mcontroller.position(); pos = vec2.add(pos, drillPositions[dir])
-      local damageAmount = baseDamageAmount
-      for i = 1, 2 do
-        world.damageTileArea(pos, radius, (i == 1 and "fore" or "back").."ground", pos, damageType, damageAmount, harvestLevel, id)
-      end
+      local drillPosition = vec2.add(position, drillPositions[dir])
+
+      world.damageTileArea(drillPosition, radius, "foreground", drillPosition, damageType, damageAmount, harvestLevel, entityId)
+      world.damageTileArea(drillPosition, radius, "background", drillPosition, damageType, damageAmount, harvestLevel, entityId)
     end
   end
 
   if not status.overConsumeResource("energy", usedEnergy) then
     disableDrills()
+  end
+
+  lastMoves = args.moves
+end
+
+function toggleDrill(dir)
+  local drillState = drills[dir]
+  if not status.resourceLocked("energy") then
+    drills[dir] = not drillState
+    animator.setAnimationState(dir.."Drill", drillState and "off" or "on")
+    animator.playSound((drillState and "de" or "").."activate")
+  end
+end
+
+function disableDrills()
+  for dir, _ in pairs(drills) do
+    drills[dir] = false
+    animator.setAnimationState(dir.."Drill", "off")
   end
 end
 

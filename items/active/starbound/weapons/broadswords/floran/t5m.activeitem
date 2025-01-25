@@ -1,1 +1,8 @@
-{"description":"A treasured Floran sword design.","shortdescription":"Rosebud Prime","itemName":"sb_florantier5mbroadsword","definition":["colors/t5m","broadswords/t5m"],"itemTags":["weapon","melee","broadsword"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "A treasured Floran sword design.",
+  "shortdescription": "Rosebud Prime",
+  "itemName": "sb_florantier5mbroadsword",
+  "definition": ["colors/t5m", "broadswords/t5m"],
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

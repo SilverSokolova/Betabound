@@ -1,0 +1,20 @@
+{
+  "itemName": "sb_electricfluffalofeed",
+  "price": 50,
+  "rarity": "Uncommon",
+  "category": "food",
+  "foodValue": 5,
+  "inventoryIcon": "sb_electricfluffalofeed.png",
+  "tooltipKind": "sb_object",
+  "description": "This electricity-resistant fruit naturally grows under the fur of electric fluffalos.",
+  "shortdescription": "Electric Eggplant",
+  "effects": [[{
+        "effect": "sb_electricitydeflector",
+        "duration": 45
+      }
+    ]],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "emitters": ["eating"],
+  "rottingMultiplier": 1.5
+}

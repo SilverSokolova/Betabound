@@ -2,11 +2,11 @@
   [{
       "op": "add",
       "path": "/scriptConfig/sb_offeredQuests",
-      "value": ["sb_avianrefugee2part1.gearup", "sb_avianrefugee2part2.gearup", "sb_avianrefugeeE1.gearup", "sb_avianrefugeeE2.gearup"]
+      "value": ["sb_avianrefugee2", "sb_avianrefugeeE1", "sb_avianrefugeeE2"]
     }, {
       "op": "add",
       "path": "/scriptConfig/sb_turnInQuests",
-      "value": ["sb_avianrefugee2part1.gearup", "sb_avianrefugee2part2.gearup", "sb_avianrefugeeE1.gearup", "sb_avianrefugeeE2.gearup"]
+      "value": ["sb_avianrefugee2", "sb_avianrefugeeE1", "sb_avianrefugeeE2"]
     }
   ]
 ]

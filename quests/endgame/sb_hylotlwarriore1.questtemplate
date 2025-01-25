@@ -1,31 +1,37 @@
 {
-  "id" : "sb_hylotlwarriorE1.gearup",
-  "prerequisites" : [ "glitch_mission2","sb_hylotlperformerE2part1.gearup" ],
-  "title" : "^green;Bark Life",
-  "text" : "Have you seen the dog here in the Outpost? I want him to like me more! ^green;If you could ^orange;find me a bone ^reset;to give him, I might become his favourite!",
-  "completionText" : "You found me a bone! Now this dog is gonna have a new best friend - Me!",
-  "speaker" : "questGiver",
-  "moneyRange" : [200, 200],
-  "rewards" : [["upgrademodule",["rewardbag",1,{"treasure":{"level":6}}]]],
+  "id": "sb_hylotlwarriorE1",
+  "prerequisites": ["glitch_mission2", "sb_hylotlperformerE2part1"],
+  "title": "^green;Bark Life",
+  "text": "Have you seen the dog here in the outpost? I want him to like me more! ^green;If you could ^orange;find me a bone ^reset;to give him, I might become his favourite!",
+  "completionText": "You found me a bone! Now this dog is gonna have a new best friend - Me!",
+  "speaker": "questGiver",
+  "moneyRange": [1100, 1200],
+  "rewards": [["upgrademodule", ["rewardbag", 1, {
+          "treasure": {
+            "level": 6
+          }
+        }
+      ]]],
 
-  "guiConfigs" : {
-    "questComplete" : "/interface/windowconfig/sb_questcomplete.config",
-    "newQuest" : "/interface/windowconfig/sb_newquest.config",
-    "questFailed" : "/interface/windowconfig/sb_questfailed.config"
+  "guiConfigs": {
+    "questComplete": "/interface/windowconfig/sb_questcomplete.config",
+    "newQuest": "/interface/windowconfig/sb_newquest.config",
+    "questFailed": "/interface/windowconfig/sb_questfailed.config"
   },
 
-  "updateDelta" : 10,
-  "script" : "/quests/scripts/main.lua",
-  "scriptConfig" : {
-    "portraits" : {"default" : "questGiver"},
-    "requireTurnIn" : true,
-    "turnInDescription" : "Speak to ^orange;the Hylotl warrior^reset; at the ^orange;outpost^reset;",
-    "conditions" : [
-      {
-        "type" : "gatherItem",
-        "itemName" : "bone",
-        "count" : 1,
-        "consume" : true
+  "updateDelta": 10,
+  "script": "/quests/scripts/main.lua",
+  "scriptConfig": {
+    "portraits": {
+      "default": "questGiver"
+    },
+    "requireTurnIn": true,
+    "turnInDescription": "Speak to ^orange;the Hylotl warrior^reset; at the ^orange;outpost^reset;",
+    "conditions": [{
+        "type": "gatherItem",
+        "itemName": "bone",
+        "count": 1,
+        "consume": true
       }
     ]
   }

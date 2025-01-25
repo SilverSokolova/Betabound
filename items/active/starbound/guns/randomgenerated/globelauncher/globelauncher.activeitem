@@ -17,15 +17,16 @@
   "shortdescription": "Globe Launcher",
   "itemTags": ["weapon", "ranged", "grenadelauncher", "globelauncher"],
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationParts": {
-    "muzzleFlash": "/animations/sb/muzzleflash/plasmamuzzle3/plasmamuzzle3.png"
+    "muzzleFlash": "/animations/muzzleflash/plasmamuzzle3/plasmamuzzle3.png"
   },
   "animationCustom": {
     "sounds": {
       "fire": ["/sfx/gun/plasma_mp2.ogg", "/sfx/gun/plasma_mp3.ogg"]
     }
   },
+  "noMuzzleFlashVariants": true,
 
   "elementalType": "physical",
   "primaryAbilityType": "sb_gun2",

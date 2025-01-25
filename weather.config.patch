@@ -14,7 +14,7 @@
     }
   ],
 
-//modify existing weather
+//modify existing weather by adding
   [{
       "op": "add",
       "path": "/moon/-",
@@ -39,6 +39,8 @@
       "value": [0.2, "hailstones"]
     }
   ],
+
+//modify existing weather by replacing
   [{
       "op": "test",
       "path": "/asteroidsMeteor/1/1",

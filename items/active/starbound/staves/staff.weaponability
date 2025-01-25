@@ -1,4 +1,7 @@
 {
+  "scripts": ["/items/active/weapons/staff/staff.lua"],
+  "animation": "/items/active/starbound/staves/staff.animation",
+
   "ability": {
     "type": "sb_staff",
     "name": "Staff",

@@ -1,0 +1,14 @@
+{
+  "itemName": "sb_electricitydeflector",
+  "price": 100,
+  "rarity": "Uncommon",
+  "category": "medicine",
+  "inventoryIcon": "sb_electricitydeflector.png",
+  "tooltipKind": "sb_object",
+  "description": "Protect your body from electricity.",
+  "shortdescription": "Electricity Deflector",
+  "effects": [["sb_electricitydeflector"]],
+  "emote": "",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "emitters": ["stimuse"]
+}

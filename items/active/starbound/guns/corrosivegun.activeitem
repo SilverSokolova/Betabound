@@ -8,7 +8,7 @@
   "category": "uniqueWeapon",
   "rarity": "Rare",
   "fixedRarity": false,
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationCustom": {
     "sounds": {
       "fire": ["/sfx/gun/plasma_sniper2.ogg"]
@@ -20,8 +20,9 @@
     "muzzleFlash": "/animations/muzzleflash/plasmamuzzle3pink/plasmamuzzle3pink.png",
     "middle": "corrosivegun.png"
   },
+  "noMuzzleFlashVariants": true,
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "description": "A gun that sprays corrosive particles.",
+  "description": "This gun sprays corrosive plasma.",
   "shortdescription": "Corrosive Gun",
   "baseOffset": [0.5, 0.15],
   "muzzleOffset": [2, -0.25],

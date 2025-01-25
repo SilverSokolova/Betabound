@@ -1,7 +1,7 @@
 {
   "itemName": "sb_testrevolver",
   "definition": "revolver",
-  "itemTags": ["weapon", "ranged", "pistol", "revolver", "novakid"],
+  "itemTags": ["weapon", "ranged", "pistol", "revolver"],
   "rarity": "essential",
   "configOverrides": {
     "tooltipFields": {
@@ -15,12 +15,12 @@
     "primaryAbility": {
       "energyUsage": 18.75,
       "inaccuracy": 0.008,
-      "projectileType": "bullet-1"
+      "projectileType": "standardbullet"
     }
   },
   "description": "\"Bolt Single Action Army\" is engraved on its side.",
   "shortdescription": "Pristine Revolver",
-  "muzzleOffset": [1.8, 0.4],
+  "muzzleOffset": [1.25, 0.25],
   "level": 10,
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
 }

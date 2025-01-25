@@ -1,49 +1,13 @@
 {
   "itemName": "sb_crappyspear",
-  "level": 1,
-  "price": 25,
-  "maxStack": 1,
-  "rarity": "common",
-  "tooltipKind": "sb_sword2",
-  "category": "spear",
+  "definition": ["spears/common", "spears/abilities"],
   "tooltipFields": {
     "subtitle": "Crappy Spear"
   },
-  "description": "This spear is perfect for enemies just out of reach.",
   "shortdescription": "Common Crappy Spear",
-  "twoHanded": true,
-  "itemTags": ["weapon", "melee", "spear", "crappy"],
-  "animation": "/items/active/starbound/weapons/spear.animation",
-  "animationParts": {},
-  "animationCustom": {},
-
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "itemTags": ["weapon", "melee", "spear"],
 
   "primaryAbilityType": "sb_spear",
-  "primaryAbility": {
-    "fireTime": [0.8, 1.01],
-    "baseDps": [3.5, 5.5],
-    "damageConfig": {
-      "damageSourceKind": "spear",
-      "statusEffects": [],
-      "knockbackMode": "aim",
-      "knockback": 15,
-      "timeoutGroup": "primary"
-    },
-    "stances": {
-      "idle": {
-        "allowFlip": true,
-        "allowRotate": true,
-        "weaponOffset": [0, 0.95]
-      },
-      "fire": {
-        "duration": 0.24
-      },
-      "windup": {
-        "duration": 0.2
-      }
-    }
-  },
   "builderConfig": [{
       "nameGenerator": "crappyspearnames.config:nameGen",
       "elementalType": "physical",
@@ -59,10 +23,6 @@
           "paletteSwap": true
         }
       },
-      "altAbilities": [
-        "flurry",
-        "spearspin"
-      ],
       "iconDrawables": ["handle", "blade"],
       "palette": "/items/active/starbound/colors/crappy.weaponcolors"
     }

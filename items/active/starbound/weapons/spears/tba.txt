@@ -1,3 +1,6 @@
 avian spear = common spear
 floran prod = uncommon spear
-tesla spear = rare spear
+tesla spear
+
+moneybagscane
+A gilded cane with a jewelled tip.

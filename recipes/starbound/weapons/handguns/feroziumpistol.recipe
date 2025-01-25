@@ -1,5 +1,5 @@
 {
-  "input": [["sb_feroziumcompound",4]],
+  "input": [["sb_feroziumcompound",3],"solariumstar"],
   "output": "sb_feroziumpistol",
   "groups": ["craftingaccelerator","weapons","all"]
 }

@@ -1,1 +1,8 @@
-{"description":"An axe made from a small tree.","itemTags":["weapon","melee","axe"],"itemName":"sb_florantier5aaxe","definition":["colors/t5a","axes/a"],"shortdescription":"Treechopper","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "An axe with a cluster of berries on it.",
+  "shortdescription": "Chopberry",
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_florantier5aaxe",
+  "definition": ["colors/t5a", "axes/a"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

@@ -25,7 +25,7 @@ end
 
 function update()
 --world.debugText("^shadow;%s", airTime, mcontroller.position(), "green")
-  if not mcontroller.anchorState() then
+  if not (mcontroller.anchorState() or status.statPositive("sb_disableBreakneck")) then
     local xVelocity = mcontroller.xVelocity()
     if mcontroller.onGround() then
       airTime = 0

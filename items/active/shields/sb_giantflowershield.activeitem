@@ -11,11 +11,11 @@
   "itemTags": ["shield"],
   "fixedLevel": false,
 
-  "inventoryIcon": "images/sb_giantflower.png:nearidle",
+  "inventoryIcon": "images/giantflower.png:nearidle",
 
   "animation": "shield.animation",
   "animationParts": {
-    "shield": "images/sb_giantflower.png"
+    "shield": "images/giantflower.png"
   },
   "animationCustom": {
     "sounds": {

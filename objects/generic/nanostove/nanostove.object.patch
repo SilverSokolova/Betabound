@@ -1,5 +1,6 @@
 [
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
 [{"op":"test","path":"/shortdescription","value":"Nanostove"},{"op":"replace","path":"/shortdescription","value":"^orange;Nanostove^reset;"}],
-[{"op":"test","path":"/description","value":"Provides exceptional heat and a great for cooking outdoors."},{"op":"replace","path":"/description","value":"Provides exceptional heat-- a great place to cook outdoors."}]
+[{"op":"test","path":"/description","value":"Provides exceptional heat and a great for cooking outdoors."},{"op":"replace","path":"/description","value":"Provides exceptional heat-- a great place to cook outdoors."}],
+[{"op":"test","path":"/printable","value":false},{"op":"replace","path":"/printable","value":true}]
 ]

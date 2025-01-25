@@ -4,8 +4,7 @@
 
   "rarity": "Legendary",
   "icon": "/tech/starbound/butterflyboost.png",
-  "description": "Hold ^#0f0;[SPACE]^reset; and a direction in the air to fly around with the power of butterflies!",
-  "sb_briefDescription": "Hold ^#0f0;[SPACE]^reset; and a direction in the air to fly around!",
+  "description": "Grants fast flight in any direction! ^#0f0;[SPACE]",
   "shortDescription": "Butterfly Boost",
 
   "scripts": ["booster.lua"],

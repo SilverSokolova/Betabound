@@ -1,103 +1,22 @@
 {
   "itemName": "sb_uncommoncrappyspear",
-  "level": 1,
-  "price": 25,
-  "maxStack": 1,
-  "rarity": "uncommon",
-  "tooltipKind": "sb_sword2",
-  "category": "spear",
+  "definition": ["spears/uncommon", "elementalprojectiles", "spears/abilities"],
   "tooltipFields": {
     "subtitle": "Crappy Spear"
   },
-  "description": "This spear is perfect for enemies just out of reach.",
   "shortdescription": "Uncommon Crappy Spear",
-  "twoHanded": true,
   "itemTags": ["weapon", "melee", "spear"],
-  "animation": "/items/active/starbound/weapons/spear.animation",
-  "animationParts": {},
-  "animationCustom": {},
-
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "primaryAbilityType": "sb_spear",
   "primaryAbility": {
     "projectileOffset": [5, 1],
-    "fireTime": [0.93, 1.17],
-    "baseDps": [7, 8],
     "damageConfig": {
-      "damageSourceKind": "spear",
-      "statusEffects": [],
-      "knockbackMode": "aim",
-      "knockbackRange": [25, 30],
-      "timeoutGroup": "primary"
-    },
-    "stances": {
-      "idle": {
-        "allowFlip": true,
-        "allowRotate": true,
-        "weaponOffset": [0, 0.95]
-      },
-      "fire": {
-        "duration": 0.24
-      },
-      "windup": {
-        "duration": 0.2
-      }
+      "damageSourceKind": "<elementalType>spear"
     }
   },
   "builderConfig": [{
       "nameGenerator": "crappyspearnames.config:nameGen",
-      "elementalType": ["physical", "fire", "ice", "electric", "poison"],
-      "elementalConfig": {
-        "fire": {
-          "primaryAbility": {
-            "damageConfig": {
-              "statusEffects": [{
-                  "effect": "burning",
-                  "duration": 2
-                }
-              ],
-              "damageSourceKind": "firespear"
-            }
-          }
-        },
-        "ice": {
-          "primaryAbility": {
-            "damageConfig": {
-              "statusEffects": [{
-                  "effect": "frostslow",
-                  "duration": 2
-                }
-              ],
-              "damageSourceKind": "icespear"
-            }
-          }
-        },
-        "electric": {
-          "primaryAbility": {
-            "damageConfig": {
-              "statusEffects": [{
-                  "effect": "electrified",
-                  "duration": 2
-                }
-              ],
-              "damageSourceKind": "electricspear"
-            }
-          }
-        },
-        "poison": {
-          "primaryAbility": {
-            "damageConfig": {
-              "statusEffects": [{
-                  "effect": "weakpoison",
-                  "duration": 2
-                }
-              ],
-              "damageSourceKind": "poisonspear"
-            }
-          }
-        }
-      },
+      "elementalType": ["fire", "ice", "electric", "poison"],
       "animationParts": {
         "blade": {
           "path": "crappyspear/blade/<variant>.png",
@@ -110,17 +29,6 @@
           "paletteSwap": true
         }
       },
-      "altAbilities_physical": [
-        "flurry",
-        "spearspin"
-      ],
-      "altAbilities": [
-        "flurry",
-        "blinkexplosion",
-        "barrier",
-        "elementalspin",
-        "rocketspear"
-      ],
       "iconDrawables": ["handle", "blade"],
       "palette": "/items/active/starbound/colors/crappy.weaponcolors"
     }

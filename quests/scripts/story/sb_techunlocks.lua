@@ -1,6 +1,8 @@
 require "/scripts/util.lua"
+require("/scripts/sb_assetmissing.lua")
 
 function init()
+  sb_techType()
   skipMessage = config.getParameter("skipTechUnlockMessages", root.assetJson("/quests/story/apex_mission2.questtemplate:script") == "/quests/scripts/sdisabler_autocomplete.lua")
   local quests = config.getParameter("quests")
   for i = 1, #quests do
@@ -20,31 +22,55 @@ function unlockTech(tier)
 --if techTier >= tier then return end
   player.setProperty("sb_techTier", tier)
   if not techTiers then techTiers = config.getParameter("techTiers") end
-  local techs, suits = techTiers[tier], 0
-  techs, suits = techs[1], techs[2]
-  local newTechs = {}
-  local unlockMessage = config.getParameter("radioMessages")
+  local techs = techTiers[tier]
+  local unownedTechs = {}
+  for i = 1, #techs do
+    if root.hasTech(techs[i]) and not ownsTech(techs[i]) then
+      unownedTechs[#unownedTechs + 1] = techs[i]
+    end
+  end
+
+  if #unownedTechs ~= 0 and not skipMessage then
+    sendRadioMessage(unownedTechs)
+  end
+end
+
+function sendRadioMessage(techs)
+  local radioMessage = root.assetJson(config.getParameter("radioMessages", radioMessages)[#techs == 1 and 1 or 2]).text --getParameter isn't returning the default for some reason
+  local formattedTechList = ""
 
   for i = 1, #techs do
-    if root.hasTech(techs[i]) and not ownsTech(techs[i]) then newTechs[#newTechs+1] = techs[i] player.makeTechAvailable(techs[i]) end
-  end
-  for i = 1, #suits do
-    if root.hasTech(suits[i]) and not ownsSuit(suits[i]) then newTechs[#newTechs+1] = suits[i] player_makeSuitAvailable(suits[i]) end
+    formattedTechList = formattedTechList..root.techConfig(techs[i]).shortDescription..(i ~= #techs and ", " or ".")
   end
 
-  if skipMessage or #newTechs == 0 then return end
-  local msg = #newTechs == 1 and 1 or 2
-  local a = ""
-  for i = 1, #newTechs do a = a..root.techConfig(newTechs[i]).shortDescription..(i~=#newTechs and ", " or ".") end
-  newTechs = a
-  player.radioMessage({messageId=sb.makeUuid(),unique=false,text=string.format(unlockMessage[msg],newTechs)})
+  player.radioMessage(
+    {
+      messageId = sb.makeUuid(),
+      unique = false,
+      text = string.format(radioMessage, formattedTechList)
+    }
+  )
 end
 
-function player_makeSuitAvailable(suit)
-  suits = player.getProperty("sb_availableBioimplants", {})
+function makeSuitAvailable(suit)
+  local suits = player.getProperty("sb_availableBioimplants", {})
   if #suits == 0 then suits = {suit} else suits[#suits+1] = suit end
-  player.setProperty("sb_availableBioimplants",suits)
+  player.setProperty("sb_availableBioimplants", suits)
 end
 
-function ownsTech(tech) return contains(player.availableTechs(), tech) end
-function ownsSuit(tech) return (contains(player.getProperty("sb_bioimplants", {}), tech) or contains(player.getProperty("sb_availableBioimplants") or {}, tech)) end
+function ownsTech(tech)
+  local isSuit = root.techType(tech) == "Suit"
+  local owned = isSuit
+                and (contains(player.getProperty("sb_bioimplants", {}), tech) or contains(player.getProperty("sb_availableBioimplants") or {}, tech))
+                or contains(player.availableTechs(), tech)
+
+  if not owned then
+    if isSuit then
+      makeSuitAvailable(tech)
+    else
+      player.makeTechAvailable(tech)
+    end
+  end
+
+  return owned
+end

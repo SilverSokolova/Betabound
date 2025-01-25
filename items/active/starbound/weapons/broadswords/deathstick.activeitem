@@ -1,21 +1,15 @@
 {
   "itemName": "sb_deathstick",
-  "price": 800,
-  "maxStack": 1,
   "fixedLevel": false,
-  "rarity": "rare",
-  "category": "broadsword",
+  "rarity": "uncommon",
+  "price": 990,
   "description": "OH NO NOT THE BEES NO NO ARGH MY EYES!",
   "shortdescription": "Death Stick",
-  "tooltipKind": "sb_sword2",
   "tooltipFields": {
-    "damageKindImage": "/items/throwables/hivebombicon.png",
     "objectImage": "/items/active/starbound/weapons/broadswords/deathstick.png"
   },
-  "twoHanded": true,
   "itemTags": ["weapon", "melee", "broadsword"],
   "inventoryIcon": "deathstickicon.png",
-  "animation": "/items/active/starbound/weapons/broadsword.animation",
   "animationParts": {
     "blade": "deathstick.png",
     "handle": ""
@@ -48,7 +42,6 @@
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "elementalType": "physical",
   "altAbilityType": "spinslash",
   "primaryAbilityType": "sb_meleeslash",
@@ -58,7 +51,7 @@
     "projectileType": "hivebomb",
     "projectileConfig": {
       "speed": 60,
-      "power": 1.5,
+      "power": 6,
       "actionOnReap": [{
           "action": "sound",
           "options": ["/sfx/projectiles/hivebomb_impact.ogg"]

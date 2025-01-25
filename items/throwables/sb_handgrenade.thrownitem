@@ -6,7 +6,7 @@
   "image": "sb_handgrenade.png",
   "shortdescription": "Hand Grenade",
   "category": "throwableItem",
-  "description": "USCM Standard Issue Hand Grenade. Has a 3 second fuse.",
+  "description": "This militaristic hand grenade has a 3 second fuse. It's been historically used by the USCM.",
   "price": 80,
   "builder": "/items/buildscripts/starbound/buildthrowable.lua",
   "level": 2,

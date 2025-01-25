@@ -1,1 +1,8 @@
-{"description":"An axe styled after a popular haircut.","itemTags":["weapon","melee","axe"],"itemName":"sb_apextier5aaxe","definition":["colors/t5a","axes/a"],"shortdescription":"The Coif","builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_apextier5aaxe",
+  "description": "An axe shaped like a crescent moon.",
+  "shortdescription": "Crescendo",
+  "definition": ["colors/t5a", "axes/a"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

@@ -1,6 +1,6 @@
 {
-  "input": ["glasscoffeemug","sb_liquidcoffee"],
+  "input": [["sb_liquidcoffee",10],"glasscoffeemug"],
   "output": "coffee",
-  "groups": ["craftingfood","drinks","coffee","coffeemachine","sb_healing","sb_energy","sb_energyregen","sb_t1food","plain","consumables","all"],
+  "groups": ["craftingfood","drinks","coffee","coffeemachine","sb_healing","sb_energy","sb_energyregen","sb_t1food","plain","consumables","all","nouncrafting"],
   "collectables": {"cooking":"coffee"}
 }

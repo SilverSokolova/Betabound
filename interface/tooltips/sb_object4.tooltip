@@ -7,11 +7,10 @@
   },
   "objectImage": {
     "type": "image",
-    "position": [69, 109],
-    "file": "",
+    "position": [70, 110],
     "centered": true,
     "maxSize": [70, 45],
-    "minSize": [70, 45]
+    "minSize": [70, 40]
   },
   "damageKindImage": {
     "type": "image",
@@ -73,7 +72,7 @@
   },
   "moneyIcon": {
     "type": "image",
-    "position": [98, 23],
+    "position": [97, 23],
     "file": "/interface/money.png"
   },
   "rotTimeLabel": {
@@ -105,7 +104,7 @@
     "centered": true,
     "width": 126
   },
-  "levelLabel": {
+  "sb_levelLabel": {
     "type": "label",
     "position": [130, 145],
     "hAnchor": "right",

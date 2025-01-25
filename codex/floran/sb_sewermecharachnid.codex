@@ -5,7 +5,9 @@
   "description": "An entry from the Compiled Bestiary, written by the Rogue Greenfinger.",
   "icon": "sb_florancover5.png",
   "contentPages": [
-"Unable to deal with the growflies and unwilling to accept my offer of a dozen Greenguard being dispatched into the sewer, the Glitch outcasts created a giant mechanical spider; part creature, part robot. It stalks the sewers looking for the growflies. However, they did not consider that their creation was evenly matched with its quarry, and now the two are locked in an everlasting battle, neither gaining the upper hand for long. However, the Mecharachnid has managed to kill plenty of other things, including its original creators, so there's that."
+"Unable to deal with the growflies and unwilling to accept my offer of a dozen Greenguard being dispatched into the sewer, the Glitch outcasts created a giant mechanical spider; part creature, part robot. It stalks the sewers looking for the growflies. However, they did not consider that their creation was evenly matched with its quarry, and now the two are locked in an everlasting battle, neither gaining the upper hand for long.",
+
+"However, the Mecharachnid has managed to kill plenty of other things, including its original creators, so there's that."
   ],
   "itemConfig": {
     "rarity": "common",

@@ -1,0 +1,47 @@
+//It seems like CF used the Grappling Whips forum mod for their Super Whip Crack ability. That, and potential inconsistencies with other whip-swinging mods, is why I'm not implementing it.
+{
+  "itemName": "sb_chainwhip",
+  "price": 1000,
+  "level": 3,
+  "maxStack": 1,
+  "rarity": "rare",
+  "description": "A metal chainlink whip.",
+  "shortdescription": "Chain Whip",
+  "tooltipKind": "sb_sword2",
+  "category": "whip",
+  "twoHanded": false,
+  "itemTags": ["weapon"],
+
+  "inventoryIcon": "sb_chainwhip.png:idle",
+  "animation": "whip.animation",
+  "animationParts": {
+    "weapon": "sb_chainwhip.png",
+    "weaponFullbright": ""
+  },
+  "animationCustom": {
+    "sounds": {
+      "swing": ["/sfx/melee/swing_dagger.ogg"],
+      "crack": ["/sfx/gun/pistol1.ogg"]
+    }
+  },
+
+  "chain": {
+    "startOffset": [0.625, 0],
+    "length": [3, 15],
+    "segmentImage": "/items/active/weapons/whip/sb_chainwhiplink.png",
+    "endSegmentImage": "/items/active/weapons/whip/sb_chainwhipend.png",
+    "segmentSize": 0.375
+  },
+
+  "scripts": ["whip.lua"],
+
+  "primaryAbilityType": "whipcrack",
+  "primaryAbility": {
+    "fireTime": 1.4,
+    "chainDps": 2,
+    "crackDps": 6.5
+  },
+
+  "sb_builder": "/items/buildscripts/buildwhip.lua",
+  "builder": "/items/buildscripts/starbound/buildvweapon.lua"
+}

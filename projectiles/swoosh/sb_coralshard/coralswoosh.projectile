@@ -1,58 +1,57 @@
 {
-  "projectileName" : "sb_coralswoosh",
-  "image" : "/projectiles/invisibleprojectile/invisibleprojectile.png",
-  "animationCycle" : 1,
-  "frameNumber" : 1,
-  "speed" : 0,
-  "orientationLocked" : true,
-  "animationLoops" : false,
-  "piercing" : true,
-  "bounces" : -1,
-  "flippable" : true,
-  "timeToLive" : 0,
-  "damageKind" : "fireaxe",
-  "lightColor" : [240, 120, 0],
-  "actionOnReap" : [
-    {
-      "action" : "sound",
-      "options" : [ "/sfx/objects/pot_break_small1.ogg", "/sfx/objects/pot_break_small2.ogg", "/sfx/objects/pot_break_small1.ogg" ]
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_coralshard",
-      "firePosition" : [-10, -50],
-      "fuzzAngle" : 180,
-      "angleAdjust" : 25
-    },
-        {
-      "action" : "projectile",
-      "type" : "sb_coralshard",
-      "firePosition" : [-10, -50],
-      "fuzzAngle" : 180,
-      "angleAdjust" : 12
-    },
-            {
-      "action" : "projectile",
-      "type" : "sb_coralshard",
-      "firePosition" : [-10, -50],
-      "fuzzAngle" : 180,
-      "angleAdjust" : 0
-    },
-    {
-      "action" : "projectile",
-      "type" : "sb_coralshard",
-      "firePosition" : [-10, -50],
-      "fuzzAngle" : 180,
-      "angleAdjust" : -12
-    },
-        {
-      "action" : "projectile",
-      "type" : "sb_coralshard",
-      "firePosition" : [-10, -50],
-      "fuzzAngle" : 180,
-      "angleAdjust" : -25
+  "projectileName": "sb_coralswoosh",
+  "image": "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "animationCycle": 1,
+  "frameNumber": 1,
+  "speed": 0,
+  "orientationLocked": true,
+  "animationLoops": false,
+  "piercing": true,
+  "bounces": -1,
+  "flippable": true,
+  "timeToLive": 0,
+  "damageKind": "fireaxe",
+  "lightColor": [240, 120, 0],
+  "actionOnReap": [{
+      "action": "sound",
+      "options": ["/sfx/objects/pot_break_small1.ogg", "/sfx/objects/pot_break_small2.ogg", "/sfx/objects/pot_break_small1.ogg"]
+    }, {
+      "action": "projectile",
+      "type": "sb_coralshard",
+      "firePosition": [-10, -50],
+      "fuzzAngle": 180,
+      "angleAdjust": 25,
+      "inheritDamageFactor": 0.25
+    }, {
+      "action": "projectile",
+      "type": "sb_coralshard",
+      "firePosition": [-10, -50],
+      "fuzzAngle": 180,
+      "angleAdjust": 12,
+      "inheritDamageFactor": 0.25
+    }, {
+      "action": "projectile",
+      "type": "sb_coralshard",
+      "firePosition": [-10, -50],
+      "fuzzAngle": 180,
+      "angleAdjust": 0,
+      "inheritDamageFactor": 0.25
+    }, {
+      "action": "projectile",
+      "type": "sb_coralshard",
+      "firePosition": [-10, -50],
+      "fuzzAngle": 180,
+      "angleAdjust": -12,
+      "inheritDamageFactor": 0.25
+    }, {
+      "action": "projectile",
+      "type": "sb_coralshard",
+      "firePosition": [-10, -50],
+      "fuzzAngle": 180,
+      "angleAdjust": -25,
+      "inheritDamageFactor": 0.25
     }
   ],
-  "knockback" : 30,
-  "knockbackDirectional" : true
+  "knockback": 30,
+  "knockbackDirectional": true
 }

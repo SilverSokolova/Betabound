@@ -26,7 +26,7 @@
     "centered": true,
     "width": 126
   },
-  "levelLabel": {
+  "sb_levelLabel": {
     "type": "label",
     "position": [114, 190],
     "hAnchor": "left",
@@ -36,7 +36,7 @@
   },
   "moneyIcon": {
     "type": "image",
-    "position": [98, 23],
+    "position": [97, 23],
     "file": "/interface/money.png"
   },
   "priceLabel": {

@@ -3,9 +3,9 @@
 ,{"op":"copy","from":"/plantfibre","path":"/kelp"}]
 
 ,[{"op":"test","path":"/seaweed","inverse":true}
-,{"op":"add","path":"/seaweed","value":[50,50]}]
+,{"op":"add","path":"/seaweed","value":[70,30]}]
 
-,[{"op":"add","path":"/sb_liquidtentaclejuice","value":[30,70]}]
-,[{"op":"add","path":"/sb_rottenapple","value":[80,60]}]
-,[{"op":"add","path":"/sb_revoltingstew","value":[80,60]}]
+,[{"op":"add","path":"/sb_liquidtentaclejuice","value":[90,40]}]
+,[{"op":"add","path":"/sb_rottenapple","value":[80,30]}]
+,[{"op":"add","path":"/sb_revoltingstew","value":[80,30]}]
 ]

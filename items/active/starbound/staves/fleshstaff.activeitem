@@ -3,15 +3,15 @@
   "definition": "staff",
   "itemTags": ["weapon", "staff"],
   "tags": {
-    "<staff>": "flesh",
+    "<staff>": "fleshstaff",
     "<glow>": "fleshglow"
+  },
+  "tooltipFields": {
+    "damageKindImage": ""
   },
 
   "description": "Creates revolting solid light holograms. Long live the new flesh!",
   "shortdescription": "Fleshbringer",
-  "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/sb_fleshseedspawn.png"
-  },
   "animationCustom": {
     "animatedParts": {
       "parts": {
@@ -34,6 +34,7 @@
 
   "elementalType": "poison",
   "altAbilityType": "elementrain",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "sb_fleshseedspawn",
     "projectileParameters": {

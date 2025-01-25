@@ -11,7 +11,7 @@
       ["bouncy", "main", "side", "dessert", "snack", "drink"],
       ["condiment", "campfire", "convert", "skyrails", "rails", "door"],
       ["light", "wire", "storage", "decorative", "sit", "instruments"],
-      ["planets", "mechs", "guns", "wands", null, null]
+      ["planets", "mechs", "guns", "wands", "toys", null]
     ]
   }
 }

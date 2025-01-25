@@ -8,6 +8,11 @@
 ,[{"op":"add","path":"/acceptItems/-","value":"crystalplant"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"kelp"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"seaweed"}]
+,[{"op":"add","path":"/acceptItems/-","value":"sb_fluffalofeed"}]
+,[{"op":"add","path":"/acceptItems/-","value":"sb_firefluffalofeed"}]
+,[{"op":"add","path":"/acceptItems/-","value":"sb_icefluffalofeed"}]
+,[{"op":"add","path":"/acceptItems/-","value":"sb_poisonfluffalofeed"}]
+,[{"op":"add","path":"/acceptItems/-","value":"sb_electricfluffalofeed"}]
 
 //MEAT
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_rawfleshlump"}]
@@ -40,7 +45,7 @@
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_cake"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_candy"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_candyapple"}]
-,[{"op":"add","path":"/acceptItems/-","value":"sb_carrotcake"}]
+,[{"op":"add","path":"/acceptItems/-","value":"sb_cheesecake"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_sweetmeat"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_chocolatecoffeebeans"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_batteryacid"}]

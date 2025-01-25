@@ -43,7 +43,7 @@
     "type": "sb_drill",
     "scripts": ["/items/tools/miningtools/sb_miningtool.lua"],
     "class": "MiningTool",
-    "blockRadius": 4,
+    "blockRadius": 2,
     "altBlockRadius": 1,
     "harvestLevel": 99,
     "hitObjects": true,

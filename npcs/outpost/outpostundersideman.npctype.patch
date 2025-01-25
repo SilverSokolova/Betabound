@@ -24,11 +24,11 @@
   [{
       "op": "add",
       "path": "/scriptConfig/offeredQuests/-",
-      "value": "sb_underside1.gearup"
+      "value": "sb_underside1"
     }, {
       "op": "add",
       "path": "/scriptConfig/turnInQuests/-",
-      "value": "sb_underside1.gearup"
+      "value": "sb_underside1"
     }
   ]
 ]

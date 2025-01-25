@@ -158,7 +158,7 @@
   "sb_dye": [
     [0, {
       "pool": [
-        {"weight": 1, "item": ["plantfibre",4]}, //Nowhere else to put this
+        {"weight": 1, "pool": "sb_plantfibre"}, //Nowhere else to put this...?
         {"weight": 1, "item": ["petalred",10]},
         {"weight": 1, "item": ["petalblue",10]},
         {"weight": 1, "item": ["petalyellow",10]},
@@ -175,8 +175,8 @@
   "sb_brain": [ //this is used
     [0, {
       "pool": [
-        {"weight": 0.6, "item": "brain"},
-        {"weight": 0.4, "item": "inferiorbrain"}
+        {"weight": 0.4, "item": "brain"},
+        {"weight": 0.6, "item": "inferiorbrain"}
       ]
     }]
   ],
@@ -195,8 +195,10 @@
       "pool": [
         {"weight": 1, "item": "sb_crappyaxe"},
         {"weight": 1, "item": "sb_crappybroadsword"},
-        {"weight": 1, "item": "sb_crappyspear"},
-        {"weight": 1, "item": "sb_crappyhammer"}
+        {"weight": 1, "item": "sb_crappydagger"},
+        {"weight": 1, "item": "sb_crappyhammer"},
+        {"weight": 1, "item": "sb_crappyshortsword"},
+        {"weight": 1, "item": "sb_crappyspear"}
       ]
     }]
   ],
@@ -209,6 +211,30 @@
         {"weight": 1, "item": ["sb_levitationpowder",6]},
         {"weight": 1, "item": ["sb_levitationpowder",7]},
         {"weight": 1, "item": ["sb_levitationpowder",8]}
+      ]
+    }]
+  ],
+
+  "sb_plantfibre": [
+    [0, {
+      "pool": [
+        {"weight": 1, "item": ["plantfibre",4]},
+        {"weight": 1, "item": ["plantfibre",5]},
+        {"weight": 1, "item": ["plantfibre",6]},
+        {"weight": 1, "item": ["plantfibre",7]},
+        {"weight": 1, "item": ["plantfibre",8]}
+      ]
+    }]
+  ],
+
+  "sb_defaultitems": [
+    [0, {
+      "fill": [
+        {"item": "sb_inspect"},
+        {"item": "sb_survivalguide-codex"},
+        {"item": "sb_gunguide-codex"},
+        {"item": "sb_novastarter"},
+        {"item": ["sb_ammo",250,{"projectileType":"standardbullet"}]}
       ]
     }]
   ]

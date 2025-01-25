@@ -1,5 +1,6 @@
 function init()
   math.betabound_player = _ENV.player
+  mcontroller = math.betabound_mcontroller
 
 --  if not entity then status.addPersistentEffect("sb_entity","sb_entity") end
 --  entity = math.betabound_entity
@@ -60,6 +61,14 @@ function init()
       if player.emote then
         player.emote("eat")
       end
+    end
+  end)
+
+  --Wired Teleporters
+  message.setHandler("sb_wiredteleporter", function(_, _, x, y)
+    if x and y and not status.uniqueStatusEffectActive("blink") then
+      status.addEphemeralEffect("blink", 0.5)
+      mcontroller.setPosition({x, y + 3})
     end
   end)
 

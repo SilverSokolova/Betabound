@@ -1,0 +1,33 @@
+[
+    //2
+    [{"op":"test","path":"/nameGen/1/2"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Pop"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Kill"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Hand"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Spin"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Strike"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Beef"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Zap"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Freeze"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Safety"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Thrash"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Anger"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Blam"}
+    ],
+
+    //3
+    [{"op":"test","path":"/nameGen/1/3"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"cannon"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"barrel"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"enator"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"eriser"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"maker"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"boy"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"shooter"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"revolver"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"piece"},
+    //names from revolver pools
+    {"op":"add","path":"/nameGen/1/3/-","value":"action"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"caliber"}
+    ]
+]

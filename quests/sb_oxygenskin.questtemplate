@@ -1,0 +1,13 @@
+{
+  "id": "sb_oxygenskin",
+  "showAcceptDialog": false,
+  "showCompleteDialog": false,
+  "showFailDialog": false,
+  "showInLog": false,
+  "canBeAbandoned": false,
+  "script": "/quests/scripts/sb_unlocktechs.lua",
+  "scriptConfig": {
+    "techs": ["sb_breathprotection"],
+    "sb_genderedCinematic": "/cinematics/sb_upgrade/air%s.cinematic"
+  }
+}

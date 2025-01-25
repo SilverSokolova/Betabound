@@ -1,4 +1,15 @@
 {
+  "maxStack": 1,
+  "level": 1,
+  "category": "shortsword",
+  "twoHanded": false,
+  "description": "Doesn't feel so short when it's buried in your guts.",
+  "tooltipKind": "sb_sword2",
+
+  "handGrip": "inside",
+  "animation": "/items/active/starbound/weapons/comboshortsword.animation",
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+
   "animationParts": {},
   "animationCustom": {},
 

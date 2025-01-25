@@ -1,1 +1,8 @@
-{"description":"A serrated broadsword.","shortdescription":"Great White","itemName":"sb_hylotltier6abroadsword","definition":["colors/t6a","broadswords/t6a"],"itemTags":["weapon","melee","broadsword"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "A serrated broadsword.",
+  "shortdescription": "Great White",
+  "itemName": "sb_hylotltier6abroadsword",
+  "definition": ["colors/t6a", "broadswords/t6a"],
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

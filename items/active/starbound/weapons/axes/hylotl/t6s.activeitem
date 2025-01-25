@@ -1,5 +1,5 @@
 {
-  "description": "A ridged scythe suited that'll take down the toughest plant.",
+  "description": "A ridged scythe suited that'll take down the toughest Floran.",
   "itemTags": ["weapon", "melee", "axe"],
   "itemName": "sb_hylotltier6saxe",
   "definition": ["colors/t6s", "axes/s"],

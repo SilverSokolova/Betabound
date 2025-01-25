@@ -1,6 +1,6 @@
 {
   "itemName": "sb_novakidlightstaff1",
-  "definition": "racialstaff",
+  "definition": ["staff", "racialstaff"],
   "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "novakid",
@@ -12,7 +12,7 @@
   "description": "Creates a miniature sun to light up the area.",
   "shortdescription": "Red Giant Orb",
   "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/sb_redgiant.png"
+    "damageKindImage": "/interface/elements/fire.png"
   },
   "animationCustom": {
     "lights": {
@@ -47,6 +47,7 @@
   },
   "elementalType": "fire",
   "altAbilityType": "forcecage",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "sb_redgiant",
     "maxCastRange": 20,

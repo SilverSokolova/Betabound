@@ -1,132 +1,152 @@
 {
-  "sb_farmChestTreasure" : [
+  "sb_farmChestTreasure": [
     [0, {
-      "fill" : [
-        {"pool" : "valuableTreasure"}
+      "fill": [
+        {"pool": "valuableTreasure"}
       ],
-      "pool" : [
-        {"weight" : 0.5, "pool" : "basicTreasure"},
-        {"weight" : 0.5, "pool" : "sb_farmTreasure"}
+      "pool": [
+        {"weight": 0.5, "pool": "basicTreasure"},
+        {"weight": 0.5, "pool": "sb_farmTreasure"}
       ],
-      "poolRounds" : [
+      "poolRounds": [
         [0.05, 1],
         [0.40, 2],
         [0.30, 3],
         [0.15, 4],
         [0.10, 5]
       ],
-      "allowDuplication" : false
+      "allowDuplication": false
     }]
   ],
 
-  "sb_farmTreasure" : [
+  "sb_farmTreasure": [
     [0, {
-      "pool" : [
-        {"weight" : 0.70, "item" : ["wheat",2]},
-        {"weight" : 0.20, "item" : ["wheat",4]},
-        {"weight" : 0.10, "item" : ["wheat",6]},
-        {"weight" : 0.50, "pool" : "seed"}
+      "pool": [
+        {"weight": 0.70, "item": ["wheat",2]},
+        {"weight": 0.20, "item": ["wheat",4]},
+        {"weight": 0.10, "item": ["wheat",6]},
+        {"weight": 0.50, "pool": "seed"}
       ]
     }]
   ],
 
 
-  "sb_miningcampChestTreasure" : [
+  "sb_miningcampChestTreasure": [
     [0, {
-      "fill" : [
-        {"pool" : "valuableTreasure"}
+      "fill": [
+        {"pool": "valuableTreasure"}
       ],
-      "pool" : [
-        {"weight" : 0.5, "pool" : "basicSpaceTreasure"},
-        {"weight" : 0.5, "pool" : "sb_miningcampTreasure"}
+      "pool": [
+        {"weight": 0.5, "pool": "basicSpaceTreasure"},
+        {"weight": 0.5, "pool": "sb_miningcampTreasure"}
       ],
-      "poolRounds" : [
+      "poolRounds": [
         [0.6, 1],
         [0.4, 2]
       ],
-      "allowDuplication" : true
+      "allowDuplication": true
     }]
   ],
 
-  "sb_miningcampTreasure" : [
+  "sb_miningcampTreasure": [
     [0, {
-      "pool" : [
-        {"weight" : 0.8, "pool" : "nonTieredRichOre"},
-        {"weight" : 0.8, "pool" : "ore"},
-        {"weight" : 0.9, "item" : ["sb_diamondore",6]},
-        {"weight" : 0.8, "pool" : "diggingTool"},
-        {"weight" : 0.8, "item" : ["climbingrope",3]},
-        {"weight" : 0.8, "item" : ["climbingrope",2]},
-        {"weight" : 0.8, "item" : "climbingrope"},
+      "pool": [
+        {"weight": 0.8, "pool": "nonTieredRichOre"},
+        {"weight": 0.8, "pool": "ore"},
+        {"weight": 0.9, "item": ["sb_diamondore",6]},
+        {"weight": 0.8, "pool": "diggingTool"},
+        {"weight": 0.8, "item": ["climbingrope",3]},
+        {"weight": 0.8, "item": ["climbingrope",2]},
+        {"weight": 0.8, "item": "climbingrope"},
 
-        {"weight" : 0.05, "pool" : "spaceWeapon"},
-        {"weight" : 0.4, "pool" : "commonSpaceItem"},
-        {"weight" : 0.2, "pool" : "rareSpaceItem"},
+        {"weight": 0.05, "pool": "spaceWeapon"},
+        {"weight": 0.4, "pool": "commonSpaceItem"},
+        {"weight": 0.2, "pool": "rareSpaceItem"},
 
-        {"weight" : 0.7, "item" : ["lightmetal",100]},
-        {"weight" : 0.4, "pool" : "spaceTrash"},
-        {"weight" : 0.7, "item" : ["magmarock",100]},
+        {"weight": 0.7, "item": ["lightmetal",100]},
+        {"weight": 0.4, "pool": "spaceTrash"},
+        {"weight": 0.7, "item": ["magmarock",100]},
 
-        {"weight" : 0.5, "item" : ["lightmetal",25]},
-        {"weight" : 0.5, "item" : ["magmarock",25]}
+        {"weight": 0.5, "item": ["lightmetal",25]},
+        {"weight": 0.5, "item": ["magmarock",25]}
       ]
     }]
   ],
   
-  "sb_glitchHouseChestTreasure" : [
+  "sb_glitchHouseChestTreasure": [
     [0, {
-      "fill" : [
-        {"pool" : "valuableTreasure"},
-        {"pool" : "nonTieredOre"}
+      "fill": [
+        {"pool": "valuableTreasure"},
+        {"pool": "nonTieredOre"}
       ],
-      "pool" : [
-        {"weight" : 0.5, "pool" : "basicTreasure"},
-        {"weight" : 0.5, "pool" : "sb_glitchHouseTreasure"}
+      "pool": [
+        {"weight": 0.5, "pool": "basicTreasure"},
+        {"weight": 0.5, "pool": "sb_glitchHouseTreasure"}
       ],
-      "poolRounds" : [
+      "poolRounds": [
         [0.05, 1],
         [0.40, 2],
         [0.30, 3]
       ],
-      "allowDuplication" : false
+      "allowDuplication": false
     }]
   ],
 
-  "sb_glitchHouseTreasure" : [
+  "sb_glitchHouseTreasure": [
     [0, {
-      "pool" : [
-        {"weight" : 0.5, "item" : "glitchfossil1"},
-        {"weight" : 0.5, "item" : "glitchfossil2"},
-        {"weight" : 0.5, "item" : "glitchfossil3"}
+      "pool": [
+        {"weight": 0.5, "item": "glitchfossil1"},
+        {"weight": 0.5, "item": "glitchfossil2"},
+        {"weight": 0.5, "item": "glitchfossil3"}
       ]
     }]
   ],
   
-  "sb_glitchTower1ChestTreasure" : [
+  "sb_glitchTower1ChestTreasure": [
     [0, {
-      "fill" : [
-        {"pool" : "valuableTreasure"},
-        {"pool" : "stim"}
+      "fill": [
+        {"pool": "valuableTreasure"},
+        {"pool": "stim"}
       ],
-      "pool" : [
-        {"weight" : 0.5, "pool" : "basicTreasure"},
-        {"weight" : 0.5, "pool" : "sb_glitchTower1Treasure"}
+      "pool": [
+        {"weight": 0.5, "pool": "basicTreasure"},
+        {"weight": 0.5, "pool": "sb_glitchTower1Treasure"}
       ],
-      "poolRounds" : [
+      "poolRounds": [
         [0.05, 1],
         [0.40, 2],
         [0.30, 3]
       ],
-      "allowDuplication" : false
+      "allowDuplication": false
     }]
   ],
 
-  "sb_glitchTower1Treasure" : [
+  "sb_glitchTower1Treasure": [
     [0, {
-      "pool" : [
-        {"weight" : 1, "pool" : "royaltreasure"},
-        {"weight" : 1, "pool" : "bookTreasure"}
+      "pool": [
+        {"weight": 1, "pool": "royaltreasure"},
+        {"weight": 1, "pool": "bookTreasure"}
       ]
+    }]
+  ],
+  
+  "sb_greenhouseFridgeTreasure": [
+    [0, {
+      "fill": [
+        {"pool": "sb_plantfibre"}
+      ],
+      "pool": [
+        {"weight": 0.5, "pool": "produce"},
+        {"weight": 0.5, "pool": "stim"},
+        {"weight": 0.5, "item": "bottle"},
+        {"weight": 0.5, "item": "livingroot"}
+      ],
+      "poolRounds": [
+        [0.05, 1],
+        [0.40, 2],
+        [0.30, 3]
+      ],
+      "allowDuplication": true
     }]
   ]
 }

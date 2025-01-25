@@ -1,0 +1,6 @@
+{
+  "itemName": "sb_uncommonplasmashotgun",
+  "convertTo": "uncommonshotgun",
+  "rarity": "rare",
+  "builder": "/items/buildscripts/starbound/convertgun.lua"
+}

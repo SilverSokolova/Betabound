@@ -1,21 +1,22 @@
 {
   "itemName": "sb_aviancrystalstaff1",
-  "definition": "racialstaff",
+  "definition": ["staff", "racialstaff"],
   "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "avian",
     "<staff>": "crystalstaff",
     "<n>": "1"
   },
+  "tooltipFields": {
+    "damageKindImage": ""
+  },
   "rarity": "rare",
   "level": 5,
-  "description": "Creates a floating crystal that harms anything nearby.",
+  "description": "Creates a floating crystal that harms nearby foes.",
   "shortdescription": "Cardinal's Chalcedony",
-  "tooltipFields": {
-    "damageKindImage": "/projectiles/sb_staves/racialstaves/crystal/cardinalschalcedony/cardinalschalcedony.png:0"
-  },
   "elementalType": "electric",
   "altAbilityType": "pullzone",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "sb_cardinalschalcedony",
     "projectileParameters": {

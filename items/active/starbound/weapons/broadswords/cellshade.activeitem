@@ -1,17 +1,10 @@
 {
   "itemName": "sb_cellshade",
-  "level": 1,
-  "price": 800,
-  "maxStack": 1,
-  "rarity": "legendary",
-  "category": "broadsword",
+  "definition": ["broadswords/rare", "broadswords/abilities"],
   "description": "An unreal blade quivering with tremendous energy. It seems to have a mind of its own.",
-  "shortdescription": "Cellshade",
-  "tooltipKind": "sb_sword2",
-  "twoHanded": true,
+  "shortdescription": "Cellshade ^yellow;^reset;",
   "sb_waBan": true,
   "itemTags": ["weapon", "melee", "broadsword"],
-  "animation": "/items/active/starbound/weapons/broadsword.animation",
   "sb_dyeable": true,
   "sb_backingDirectives": "?replace;49ffd1=ffca8a;3fd3c0=e0975c;2082a0=a85636",
   "animationParts": {
@@ -47,27 +40,18 @@
         }
       },
       "iconDrawables": ["blade"],
-      "palette": "/items/active/starbound/colors/cellsword.weaponcolors",
-      "altAbilities": [
-        "bladecharge",
-        "downstab",
-        "parry",
-        "risingslash",
-        "spinslash",
-        "superspinslash"
-      ]
+      "palette": "/items/active/starbound/colors/cellsword.weaponcolors"
     }
   ],
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "elementalType": "physical",
   "primaryAbilityType": "sb_meleeslash",
   "primaryAbility": {
-    "fireTime": [0.6, 0.9],
-    "baseDps": [10.5, 11.5],
     "projectileType": "sb_cellblastx",
     "projectileCount": 2,
-    "inaccuracy": 0.06
+    "projectileParameters": {
+      "inaccuracy": 0.06
+    }
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

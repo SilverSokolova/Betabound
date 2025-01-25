@@ -9,16 +9,6 @@
       "value": "sb_object"
     }
   ],
-  [{
-      "op": "test",
-      "path": "/radioMessagesOnPickup",
-      "inverse": true
-    }, {
-      "op": "add",
-      "path": "/radioMessagesOnPickup",
-      "value": []
-    }
-  ],
 
   [{
       "op": "test",
@@ -58,12 +48,6 @@
       "op": "add",
       "path": "/novakidDescription",
       "value": "I could call almost any kind of specialist with this."
-    }
-  ],
-  [{
-      "op": "add",
-      "path": "/radioMessagesOnPickup/-",
-      "value": "sb_pickupspawnerstation"
     }
   ],
   [{

@@ -1,28 +1,30 @@
 {
   "itemName": "sb_hackmanight",
-  "level": 1,
-  "fixedLevel": false,
-  "price": 800,
-  "maxStack": 1,
-  "rarity": "rare",
+  "definition": ["spears/rare", "spears/abilities"],
   "sb_waBan": true,
-  "tooltipKind": "sb_sword2",
-  "category": "spear",
-  "description": "A spontoon loaded with masses and masses of highly unstable uranium.",
-  "shortdescription": "Hackmanight",
-  "twoHanded": true,
-  "itemTags": ["weapon", "melee", "spear", "crystal"],
-  "animation": "/items/active/starbound/weapons/spear.animation",
-  "fuelAmount": 180,
-  "inventoryIcon": "hackmanight.png",
+  "description": "A spontoon loaded with masses of highly unstable crystals.",
+  "shortdescription": "Hackmanight ^yellow;^reset;",
+  "itemTags": ["weapon", "melee", "spear"],
   "animationParts": {
     "blade": "hackmanight.png",
-    "handle": ""
+    "handle": "hackmanightlit.png"
   },
 
   "animationCustom": {
+    "lights": {
+      "glow": {
+        "active": true,
+        "color": [9, 186, 9],
+        "position": [0, 0]
+      }
+    },
     "animatedParts": {
       "parts": {
+        "handle": {
+          "properties": {
+            "fullbright": true
+          }
+        },
         "swoosh": {
           "partStates": {
             "swoosh": {
@@ -41,31 +43,15 @@
     }
   },
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
-  "elementalType": "physical",
   "builderConfig": [{
-      "altAbilities": ["flurry", "spearspin", "spearcharge"]
+      "iconDrawables": ["blade", "handle"]
     }
   ],
+
+  "elementalType": "physical",
   "primaryAbilityType": "sb_spear",
   "primaryAbility": {
-    "projectileType": "sb_plasmacrystalx",
-    "fireTime": [0.5, 0.7],
-    "baseDps": [8.5, 12.5],
-    "stances": {
-      "idle": {
-        "allowFlip": true,
-        "allowRotate": true,
-        "weaponOffset": [0, 0.95]
-      },
-      "fire": {
-        "duration": 0.24
-      },
-      "windup": {
-        "duration": 0.2,
-        "weaponOffset": [0, 0.95]
-      }
-    }
+    "projectileType": "sb_plasmacrystalx"
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua"
 }

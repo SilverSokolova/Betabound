@@ -1,6 +1,6 @@
 {
   "itemName": "sb_novakidlightstaff2",
-  "definition": "racialstaff",
+  "definition": ["staff", "racialstaff"],
   "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "novakid",
@@ -12,7 +12,7 @@
   "description": "Creates a bright star to light up the area.",
   "shortdescription": "Supergiant Orb",
   "tooltipFields": {
-    "damageKindImage": "/interface/sb_tooltips/sb_supergiant.png"
+    "damageKindImage": "/interface/elements/fire.png"
   },
   "animationCustom": {
     "lights": {
@@ -55,6 +55,7 @@
 
   "elementalType": "ice",
   "altAbilityType": "forcecage",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "sb_supergiant",
     "maxCastRange": 20,

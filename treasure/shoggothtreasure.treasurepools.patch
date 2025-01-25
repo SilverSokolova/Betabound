@@ -20,7 +20,7 @@
 [{"op":"add","path":"/foodTier3/0/1/pool/-","value":{"weight":1,"item":"sb_toast"}}],
 [{"op":"add","path":"/foodTier3/0/1/pool/-","value":{"weight":1,"item":"sb_cake"}}],
 [{"op":"add","path":"/foodTier3/0/1/pool/-","value":{"weight":1,"item":"sb_candy"}}],
-[{"op":"add","path":"/foodTier3/0/1/pool/-","value":{"weight":1,"item":"sb_carrotcake"}}],
+[{"op":"add","path":"/foodTier3/0/1/pool/-","value":{"weight":1,"item":"sb_cheesecake"}}],
 [{"op":"add","path":"/foodTier3/0/1/pool/-","value":{"weight":1,"item":"sb_chocolatecoffeebeans"}}],
 [{"op":"add","path":"/foodTier3/0/1/pool/-","value":{"weight":1,"item":"sb_batteryacid"}}],
 [{"op":"add","path":"/foodTier3/0/1/pool/-","value":{"weight":1,"item":"sb_meatjuice"}}],

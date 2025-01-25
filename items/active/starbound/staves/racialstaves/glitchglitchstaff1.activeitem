@@ -1,21 +1,22 @@
 {
   "itemName": "sb_glitchglitchstaff1",
-  "definition": "racialstaff",
+  "definition": ["staff", "racialstaff"],
   "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "glitch",
     "<staff>": "glitchstaff",
     "<n>": "1"
   },
+  "tooltipFields": {
+    "damageKindImage": ""
+  },
   "rarity": "rare",
   "level": 5,
   "description": "01100101 01110010 01110010 01101111 01110010",
   "shortdescription": "Binary Breaker",
-  "tooltipFields": {
-    "damageKindImage": "/interface/statuses/crash.png"
-  },
   "elementalType": "fire",
   "altAbilityType": "elementorb",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "sb_glitchscratch",
     "projectileParameters": {

@@ -1,5 +1,5 @@
 {
-  "input": [["titaniumbar",5],"phasematter"],
+  "input": [["titaniumbar",3],["copperbar",2],"phasematter"],
   "output": ["sb_slavesword",1,{"crafted":true}],
   "groups": ["craftinganvil","weapons","all"]
 }

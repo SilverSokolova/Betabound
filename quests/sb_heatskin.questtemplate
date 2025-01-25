@@ -1,0 +1,13 @@
+{
+  "id": "sb_heatskin",
+  "showAcceptDialog": false,
+  "showCompleteDialog": false,
+  "showFailDialog": false,
+  "showInLog": false,
+  "canBeAbandoned": false,
+  "script": "/quests/scripts/sb_unlocktechs.lua",
+  "scriptConfig": {
+    "techs": ["sb_heatprotection"],
+    "sb_genderedCinematic": "/cinematics/sb_upgrade/heat%s.cinematic"
+  }
+}

@@ -1,3 +1,9 @@
 [
-[{"op":"test","path":"/builder"},{"op":"test","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua","inverse":true},{"op":"move","from":"/builder","path":"/sb_builder"}],[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua"}]
+[{"op":"test","path":"/builder"},{"op":"test","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua","inverse":true},{"op":"move","from":"/builder","path":"/sb_builder"}],[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua"}],
+
+[{"op":"test","path":"/primaryAbility/projectileType/0"},
+{"op":"add","path":"/primaryAbility/projectileType/-","value":"mouse"},
+{"op":"add","path":"/primaryAbility/projectileType/-","value":"bomb"},
+{"op":"add","path":"/primaryAbility/projectileType/-","value":"pig"},
+{"op":"add","path":"/primaryAbility/projectileType/-","value":"gravitybomb"}]
 ]

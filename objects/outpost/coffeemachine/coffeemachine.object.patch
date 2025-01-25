@@ -24,7 +24,7 @@
     }, {
       "op": "add",
       "path": "/recipeGroup",
-      "value": "sb_coffee"
+      "value": "coffee"
     }, {
       "op": "add",
       "path": "/slotCount",

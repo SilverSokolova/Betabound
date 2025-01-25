@@ -1,5 +1,5 @@
 {
-  "input": [["fabric",12],["string",5]],
+  "input": [["fabric",8],["cottonwool",2]],
   "output": "winterscarfhead",
   "groups": ["craftingwheel","clothes","all"]
 }

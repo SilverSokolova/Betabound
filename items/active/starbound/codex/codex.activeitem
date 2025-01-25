@@ -11,6 +11,7 @@
   "radioMessagesOnPickup": ["sb_pickupcustomcodex"],
   "shortdescription": "Blank Book",
   "shortdescriptionBlank": "Untitled Book",
+  "useTime": 0.0025,
   "scripts": ["codex.lua"],
   "builder": "/items/buildscripts/starbound/updatecustomcodex.lua"
 }

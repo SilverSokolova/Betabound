@@ -2,11 +2,11 @@
   [{
       "op": "add",
       "path": "/scriptConfig/sb_offeredQuests",
-      "value": ["sb_hylotlperformer1.gearup", "sb_hylotlperformer3.gearup", "sb_hylotlperformerE1.gearup", "sb_hylotlperformerE2part1.gearup"]
+      "value": ["sb_hylotlperformer1", "sb_hylotlperformer3", "sb_hylotlperformerE1", "sb_hylotlperformerE2part1"]
     }, {
       "op": "add",
       "path": "/scriptConfig/sb_turnInQuests",
-      "value": ["sb_hylotlperformer1.gearup", "sb_hylotlperformer3.gearup", "sb_hylotlperformerE1.gearup", "sb_hylotlperformerE2part2.gearup"]
+      "value": ["sb_hylotlperformer1", "sb_hylotlperformer3", "sb_hylotlperformerE1", "sb_hylotlperformerE2part2"]
     }
   ]
 ]

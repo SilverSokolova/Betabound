@@ -2,10 +2,10 @@
   "itemName": "sb_energyregenaugment2",
   "price": 10000,
   "rarity": "Rare",
-  "tooltipKind": "sb_object4b",
+  "tooltipKind": "eppaugment",
   "category": "eppAugment",
   "inventoryIcon": "sb_energyregenaugment.png",
-  "description": "An EPP module that boosts your energy regeneration speed.\n\n^gray;Equip to EPP with right-click^reset;",
+  "description": "An EPP module that boosts your energy regeneration speed.",
   "shortdescription": "Energy Regen II Augment",
 
   "augment": {

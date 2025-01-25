@@ -9,7 +9,7 @@
   },
   "durabilityRegen": 40,
   "inventoryIcon": "wreck.png",
-  "description": "It's a salvaged repair tool.\n^gray;Select repair tool and right-click pickaxe or drill",
+  "description": "Restores a small amount of durability to mining tools.\n^gray;Apply with right-click",
   "shortdescription": "Salvaged Repair Tool",
   "scripts": ["/scripts/augments/sb_repair.lua"]
 }

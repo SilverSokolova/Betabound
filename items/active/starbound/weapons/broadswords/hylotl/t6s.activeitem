@@ -1,1 +1,8 @@
-{"description":"A sword perfect for slaying plants.","shortdescription":"Trunkcutter","itemName":"sb_hylotltier6sbroadsword","definition":["colors/t6s","broadswords/t6s"],"itemTags":["weapon","melee","broadsword"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "A sword perfect for slaying Florans.",
+  "shortdescription": "Trunkcutter",
+  "itemName": "sb_hylotltier6sbroadsword",
+  "definition": ["colors/t6s", "broadswords/t6s"],
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

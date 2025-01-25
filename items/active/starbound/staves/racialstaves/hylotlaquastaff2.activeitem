@@ -1,6 +1,6 @@
 {
   "itemName": "sb_hylotlaquastaff2",
-  "definition": "racialstaff",
+  "definition": ["staff", "racialstaff"],
   "itemTags": ["weapon", "staff"],
   "tags": {
     "<race>": "hylotl",
@@ -12,7 +12,7 @@
   "description": "Creates a torrent of water.",
   "shortdescription": "Hylid's Pulse Staff",
   "tooltipFields": {
-    "damageKindImage": "/items/liquids/liquidwatericon.png"
+    "damageKindImage": "/interface/elements/ice.png"
   },
   "animationCustom": {
     "sounds": {
@@ -28,6 +28,7 @@
   },
   "elementalType": "ice",
   "altAbilityType": "healingzone",
+  "primaryAbilityType": "sb_staff",
   "primaryAbility": {
     "projectileType": "sb_splashspawner2",
     "projectileParameters": {

@@ -1,0 +1,5 @@
+{
+  "input": [["refinedferozium",6],["solariumstar",6],"battery","staticcell","upgrademodule"],
+  "output": "teslastaff",
+  "groups": ["craftingmanipulator","weapons","all"]
+}

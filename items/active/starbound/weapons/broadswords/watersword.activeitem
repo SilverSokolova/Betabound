@@ -1,20 +1,13 @@
 {
   "itemName": "sb_watersword",
-  "level": 1,
-  "price": 800,
-  "maxStack": 1,
-  "rarity": "legendary",
-  "category": "broadsword",
+  "definition": ["broadswords/uncommon", "broadswords/abilities"],
   "description": "Strike with the force of an ocean!",
   "shortdescription": "Water Sword",
   "tooltipFields": {
     "subtitle": "Water Sword"
   },
-  "tooltipKind": "sb_sword2",
-  "twoHanded": true,
   "sb_waBan": true,
   "itemTags": ["weapon", "melee", "broadsword"],
-  "animation": "/items/active/starbound/weapons/broadsword.animation",
   "animationParts": {
     "blade": "watersword.png",
     "handle": ""
@@ -68,7 +61,6 @@
     }
   ],
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
   "elementalType": "ice",
   "primaryAbilityType": "sb_meleeslash",
   "primaryAbility": {
@@ -76,8 +68,6 @@
       "statusEffects": ["wet"],
       "damageSourceKind": "icebroadsword"
     },
-    "fireTime": [0.6, 0.9],
-    "baseDps": [10.5, 11.5],
     "projectileType": "sb_watersword"
   },
   "builder": "/items/buildscripts/starbound/buildweapon.lua",

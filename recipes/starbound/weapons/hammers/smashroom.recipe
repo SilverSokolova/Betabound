@@ -1,5 +1,5 @@
 {
-  "input": [["tungstenbar",10],["shroom",25]],
+  "input": [["tungstenbar",6],["copperbar",4],["shroom",25]],
   "output": ["sb_smashroom",1,{"crafted":true}],
   "groups": ["craftinganvil","weapons","all"]
 }

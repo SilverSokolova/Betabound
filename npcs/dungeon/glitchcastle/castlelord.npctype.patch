@@ -7,6 +7,6 @@
 {"op":"move","path":"/scriptConfig/dialog/attack/default/default","from":"/scriptConfig/dialog/attack/glitch"}],
 
 [{"op":"test","path":"/items/override/0/1/0/primary"},
-//{"op":"add","path":"/items/override/0/1/0/primary/-","value":"sb_uncommonshortsword"},
+{"op":"add","path":"/items/override/0/1/0/primary/-","value":"sb_uncommonshortsword"},
 {"op":"add","path":"/items/override/0/1/0/primary/-","value":"sb_uncommonbroadsword"}]
 ]

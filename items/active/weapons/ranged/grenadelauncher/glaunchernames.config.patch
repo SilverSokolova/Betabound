@@ -1,0 +1,33 @@
+[
+    //2
+    [{"op":"test","path":"/nameGen/1/2"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Boom"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Kill"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Thunder"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Crater"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Dude"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Strike"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Raid"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Charge"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Thrash"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Rage"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Blast"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Bomb"},
+    {"op":"add","path":"/nameGen/1/2/-","value":"Ok"}
+    ],
+
+    //3
+    [{"op":"test","path":"/nameGen/1/3"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"stick"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"barrel"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"enator"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"eriser"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"maker"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"boy"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"shooter"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"spitter"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"atron 3000"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"boomer"},
+    {"op":"add","path":"/nameGen/1/3/-","value":"bomber"}
+    ]
+]

@@ -1,0 +1,5 @@
+{
+  "input": ["staticcell","ironbar",["wire",2]],
+  "output": "sb_electricitydeflector",
+  "groups": ["craftingmedical2","healing","all"]
+}

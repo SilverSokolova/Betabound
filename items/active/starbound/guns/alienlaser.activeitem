@@ -7,7 +7,7 @@
   "itemTags": ["weapon", "ranged", "pistol"],
   "category": "pistol",
   "rarity": "Rare",
-  "animation": "/items/active/starbound/guns/randomgenerated/gun.animation",
+  "animation": "/items/active/weapons/ranged/gun.animation",
   "animationCustom": {
     "animatedParts": {
       "parts": {
@@ -26,14 +26,15 @@
   "animationParts": {
     "barrel": "",
     "butt": "alienlaserfb.png",
-    "muzzleFlash": "/animations/muzzleflash/plasmamuzzle3blue/plasmamuzzle3blue.png",
+    "muzzleFlash": "/animations/muzzleflash/plasmamuzzle3pink/plasmamuzzle3pink.png",
     "middle": "alienlaser.png"
   },
+  "noMuzzleFlashVariants": true,
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "description": "A very colourful alien laser blaster.",
   "shortdescription": "Alien Laser",
   "baseOffset": [0.5, 0.15],
-  "muzzleOffset": [1.6, 0.2],
+  "muzzleOffset": [1.525, 0.2],
   "twoHanded": false,
   "fixedLevel": false,
   "level": 1,

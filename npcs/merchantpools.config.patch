@@ -191,22 +191,12 @@
   // ================
   //     Weapons
   // ================
-[{"op":"add","path":"/randomguns/0/1/-","value":{"item":{"name":"sb_commonpistol"},"rarity":0.02,"useSeed":true}}],
-[{"op":"add","path":"/randomguns/0/1/-","value":{"item":{"name":"sb_commonmachinepistol"},"rarity":0.02,"useSeed":true}}],
-[{"op":"add","path":"/randomguns/0/1/-","value":{"item":{"name":"sb_commonplasmaassaultrifle"},"rarity":0.02,"useSeed":true}}],
-[{"op":"add","path":"/randomguns/0/1/-","value":{"item":{"name":"sb_commonshotgun"},"rarity":0.02,"useSeed":true}}],
-[{"op":"add","path":"/randomguns/0/1/-","value":{"item":{"name":"sb_commonsniperrifle"},"rarity":0.02,"useSeed":true}}],
-[{"op":"add","path":"/randomguns/0/1/-","value":{"item":{"name":"sb_commonplasmapistol"},"rarity":0.02,"useSeed":true}}],
-[{"op":"add","path":"/randomguns/0/1/-","value":{"item":{"name":"sb_commonmachinepistol"},"rarity":0.02,"useSeed":true}}],
-[{"op":"add","path":"/randomguns/0/1/-","value":{"item":{"name":"sb_commongrenadelauncher"},"rarity":0.02,"useSeed":true}}],
-[{"op":"add","path":"/randomguns/0/1/-","value":{"item":{"name":"sb_commonrocketlauncher"},"rarity":0.02,"useSeed":true}}],
-
 [{"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"sb_commonbroadsword"},"rarity":0.02,"useSeed":true}}],
 [{"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"sb_commonaxe"},"rarity":0.02,"useSeed":true}}],
 [{"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"sb_commonspear"},"rarity":0.02,"useSeed":true}}],
 [{"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"sb_commonhammer"},"rarity":0.02,"useSeed":true}}],
 [{"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"sb_commondagger"},"rarity":0.02,"useSeed":true}}],
-//[{"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"sb_commonshortsword"},"rarity":0.02,"useSeed":true}}],
+[{"op":"add","path":"/randomswords/0/1/-","value":{"item":{"name":"sb_commonshortsword"},"rarity":0.02,"useSeed":true}}],
 
 
   // ================
@@ -341,7 +331,7 @@
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_toast"}}}],
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_cake"}}}],
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_candy"}}}],
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_carrotcake"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_cheesecake"}}}],
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_chocolatecoffeebeans"}}}],
 
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_batteryacid"}}}],
@@ -349,7 +339,7 @@
 
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"soda"}}}],
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_meatballs"}}}],
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"pizza"}}}],
+//[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"pizza"}}}],
 
 //T3
 [{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_crystalnachos"}}}],

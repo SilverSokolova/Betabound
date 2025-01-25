@@ -1,6 +1,4 @@
 [
-[{"op":"replace","path":"/itemName","value":"starbound_coffee"}],
-
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
 
 [{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":3}],

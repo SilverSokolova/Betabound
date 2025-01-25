@@ -1,16 +1,19 @@
 {
   "itemName": "sb_copybook",
   "price": 25,
-  "tooltipKind": "sb_object4",
+  "tooltipKind": "sb_object",
   "rarity": "Common",
   "category": "codex",
+  "tooltipFields": {
+    "subtitle": "Other"
+  },
   "inventoryIcon": "copybook.png",
-  "description": "It's a copybook. Use it to copy a book, codex, or blueprint.\n^gray;Select copybook and right-click document",
+  "description": "This copybook can be used to copy a codex or similar item.\n^gray;Apply with right-click",
   "shortdescription": "Copybook",
   "sb_uncopyable": true,
   "sb_copybookConditions": {
-    "categories": ["codex", "blueprint"],
-    "itemTags": ["sb_copybook", "blueprint"]
+    "categories": ["codex"],
+    "itemTags": ["sb_copybook"]
   },
   "scripts": ["/scripts/augments/sb_copybook.lua"]
 }
