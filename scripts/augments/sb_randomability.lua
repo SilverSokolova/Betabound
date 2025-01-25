@@ -8,6 +8,8 @@ function apply(input)
   then return output:descriptor(), 0 end
   local slots = config.getParameter("slots")
   local quantity = 0
+  element = output:instanceValue("elementalType", "physical")
+
   for h = 1, #slots do
     local slot = slots[h].."AbilityType"
     slotName = slot:match("[a-z]+").."Abilities"
@@ -38,7 +40,6 @@ function apply(input)
 
     if acceptedElements then
       local isValidElement = false
-      local element = output:instanceValue("elementalType", "physical")
       for i = 1, #acceptedElements do
         if element == acceptedElements[i] then
           isValidElement = true
@@ -62,8 +63,8 @@ function getRandomAbility(itemName)
   builderConfig = builderConfig and builderConfig.config.builderConfig or nil
   if builderConfig then
     for i = 1, #builderConfig do
-      local possibleAbilities = builderConfig[i][slotName]
-      if possibleAbilities then
+      local possibleAbilities = builderConfig[i][slotName.."_"..element] or builderConfig[i][slotName]
+      if possibleAbilities and #possibleAbilities > 0 then
         abilities = possibleAbilities[math.random(#possibleAbilities)]
         break
       end
