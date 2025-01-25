@@ -23,6 +23,7 @@
       "/radiomessages/sb_tutorial.radiomessages:sb_unlocktech",
       "/radiomessages/sb_tutorial.radiomessages:sb_unlocktechs"
     ],
+    "cinematicRadioMessageDelay": 5,
     "quests": ["human_mission1", "floran_mission2", "hylotl_mission2", "avian_mission2", "apex_mission2", "glitch_mission2"],
     "techTiers": [
       ["sb_doublejump", "sb_dash", "sb_bounce"],
