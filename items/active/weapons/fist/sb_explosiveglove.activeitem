@@ -16,7 +16,7 @@
   "animation": "fistweapon.animation",
   "animationParts": {
     "weapon": "sb_explosiveglove.png",
-    "swoosh": "swoosh/bigphysicalswoosh.png"
+    "swoosh": "swoosh/physicalswoosh.png"
   },
   "animationCustom": {
     "sounds": {
