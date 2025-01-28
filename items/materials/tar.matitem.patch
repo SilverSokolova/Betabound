@@ -1,6 +1,6 @@
 [
 [{"op":"test","path":"/description","value":"Thick, rancid tar. Just looking at it feels sticky."},
-{"op":"replace","path":"/description","value":"Thick, rancid tar. Just looking at it feels sticky. It reminds me of my mothers homemade jello."}],
+{"op":"replace","path":"/description","value":"Thick, rancid tar. Just looking at it feels sticky. It reminds me of my mother's homemade jello."}],
 [{"op":"test","path":"/tooltipKind","inverse":true},
 {"op":"add","path":"/tooltipKind","value":"codex"}]
 ]
