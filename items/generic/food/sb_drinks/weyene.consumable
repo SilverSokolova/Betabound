@@ -21,6 +21,7 @@
   "inventoryIcon": "weyene.png",
   "description": "Weyene is thought to improve a hunter's eyesight! Superstition, of course.",
   "shortdescription": "Weyene",
+  "emote": "laugh",
   "emitters": ["drinking"],
   "handPosition": [1, -2],
   "builder": "/items/buildscripts/starbound/buildfood.lua",

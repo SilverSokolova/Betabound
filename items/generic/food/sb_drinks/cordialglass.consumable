@@ -22,6 +22,7 @@
   "description": "A glass of smooth avesmingo cordial.",
   "shortdescription": "Avesmingo Cordial Glass",
   "handPosition": [0, -2.5],
+  "emote": "laugh",
   "emitters": ["drinking"],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
