@@ -9,6 +9,7 @@
 [{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"rare"}],
 [{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":100}],
 [{"op":"test","path":"/durabilityPerUse","value":0.05},{"op":"replace","path":"/durabilityPerUse","value":0.01}],
+[{"op":"test","path":"/tileDamageBlunted","value":0.2},{"op":"replace","path":"/tileDamageBlunted","value":0.02}],
 [{"op":"add","path":"/canBeRepaired","value":true}],
 [{"op":"test","path":"/description","value":"Used to unearth fossils. Anything else would break them. This tool has very low durability."},
 {"op":"replace","path":"/description","value":"Unearths fossils that are embedded in solid blocks. Anything else would destroy them!"}]
