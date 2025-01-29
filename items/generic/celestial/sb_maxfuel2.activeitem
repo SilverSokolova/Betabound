@@ -2,9 +2,6 @@
   "itemName": "sb_maxfuel2",
   "price": 6400,
   "rarity": "legendary",
-  "tooltipFields": {
-    "subtitle": "Ship Enhancement"
-  },
   "tooltipKind": "sb_object",
   "shortdescription": "^#ff0;Fuel Tank MK3^reset;",
   "description": "Increases fuel tank capacity by 600.\n^#f00;Usable once per ship.^reset;",

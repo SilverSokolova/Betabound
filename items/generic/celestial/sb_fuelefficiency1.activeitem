@@ -2,9 +2,6 @@
   "itemName": "sb_fuelefficiency1",
   "price": 3750,
   "rarity": "legendary",
-  "tooltipFields": {
-    "subtitle": "Ship Enhancement"
-  },
   "tooltipKind": "sb_object",
   "shortdescription": "^#ff0;Fuel Carborator MK2^reset;",
   "description": "Increases fuel efficiency by 30%.\n^#f00;Usable once per ship.^reset;",

@@ -1,6 +1,6 @@
 {
-  "itemName": "sb_uimessage:enhancementApplied",
-  "shortdescription": "   Enhancement already applied.^clear;",
+  "itemName": "sb_uimessage:upgradeApplied",
+  "shortdescription": "   Upgrade already applied.^clear;",
   "currency": "sb_uimessage",
   "rarity": "rare",
   "value": 0,

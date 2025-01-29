@@ -3,8 +3,7 @@
   "price": 325,
   "rarity": "essential",
   "tooltipFields": {
-    "rarityLabel": "Critical",
-    "subtitle": "Tech Upgrade"
+    "rarityLabel": "Critical"
   },
   "tooltipKind": "sb_object",
   "shortdescription": "^#ff0;Steelworks Upgrade^reset;",

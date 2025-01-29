@@ -13,7 +13,7 @@ function swingAction()
   local upgrades = betabound.shipUpgrades or {}
 
   if contains(upgrades, upgradeName) and onlyOnce then
-    sb_uiMessage("enhancementApplied")
+    sb_uiMessage("upgradeApplied")
     return
   end
 
@@ -21,6 +21,7 @@ function swingAction()
   if config.getParameter("additive", true) then
     for k, v in pairs(upgrade) do upgrade[k] = ship[k] + v end
   end
+
   if onlyOnce then
     if #upgrades == 0 then
       upgrades = {upgradeName}
@@ -28,6 +29,7 @@ function swingAction()
       upgrades[#upgrades+1] = upgradeName
     end
   end
+
   player.setProperty("betabound", sb.jsonMerge(betabound, {ship = sb.jsonMerge(betabound.ship, upgrade), shipUpgrades = upgrades}))
   animator.playSound("success")
   player.upgradeShip(upgrade)
