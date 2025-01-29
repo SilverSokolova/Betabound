@@ -4,34 +4,18 @@
       "fill": [
         {"item": "sb_bossfatalcircuit-codex"},
         {"item": ["processor", 5]},
-        {"pool": "sb_boss2Treasure2"},
         {"item": "sb_fatalcircuitclaw"}
       ],
       "pool": [
-        {"weight": 0.5, "item": "copperbar"},
-        {"weight": 0.5, "item": "goldbar"},
-        {"weight": 0.5, "item": "sb_steelbar"},
         {"weight": 0.5, "item": ["sb_steelbar",2]},
         {"weight": 0.5, "item": ["sb_steelbar",3]},
+        {"weight": 0.5, "item": ["sb_steelbar",4]},
         {"weight": 0.025, "item": ["sb_musicsheet",1,{"music":"desert-battle-2"}]},
         {"weight": 0.025, "item": "sb_fatalcircuitaf"},
         {"weight": 0.025, "item": "sb_fatalcircuitclaw"}
       ],
       "poolRounds": [
         [2, 2]
-      ]
-    }]
-  ],
-  "sb_boss2Treasure2": [
-    [0, {
-      "pool": [
-        {"weight": 0.25, "item": "sb_robotheadempty"},
-        {"weight": 0.25, "item": "robotchest"},
-        {"weight": 0.25, "item": "robotlegs"},
-        {"weight": 0.25, "item": "robotarms"}
-      ],
-      "poolRounds": [
-        [1, 1]
       ]
     }]
   ],

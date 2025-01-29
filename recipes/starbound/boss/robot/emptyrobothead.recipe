@@ -1,5 +1,0 @@
-{
-  "input": [["sb_steelbar",4],["glass",2]],
-  "output": "sb_robotheadempty",
-  "groups": ["sb_ironcraftingtable","sb_other","all"]
-}
