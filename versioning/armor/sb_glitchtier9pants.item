@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert3.lua","convertTo":["glitchtier6apants",["sb_ceruliumcompound",6],["voxel5k",3]],"itemName":"sb_glitchtier9pants"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","refund":["glitchtier6apants",["sb_ceruliumcompound",6],["voxel5k",3]],"itemName":"sb_glitchtier9pants"}

@@ -1,6 +1,6 @@
 {
   "itemName": "sb_uncommonplasmasniperrifle",
-  "convertTo": "uncommonsniperrifle",
-  "rarity": "rare",
-  "builder": "/items/buildscripts/starbound/convertgun.lua"
+  "newItemName": "uncommonsniperrifle",
+  "isOldWeapon": 1,
+  "builder": "/items/buildscripts/starbound/versionitem.lua"
 }

@@ -1,1 +1,1 @@
-{"itemName":"sb_apextier9broadsword","convertTo":"sb_apextier6abroadsword","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_apextier9broadsword","newItemName":"sb_apextier6abroadsword","builder":"/items/buildscripts/starbound/versionitem.lua"}

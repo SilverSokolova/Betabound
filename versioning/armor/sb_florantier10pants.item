@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert3.lua","convertTo":["florantier6spants",["sb_imperviumcompound",6],["voxel5k",3]],"itemName":"sb_florantier10pants"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","refund":["florantier6spants",["sb_imperviumcompound",6],["voxel5k",3]],"itemName":"sb_florantier10pants"}

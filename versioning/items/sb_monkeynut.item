@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert3.lua","convertTo":[["corefragmentore",3],"siliconboard","sb_steelbar"],"itemName":"sb_monkeynut"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","refund":[["corefragmentore",3],"siliconboard","sb_steelbar"],"itemName":"sb_monkeynut"}

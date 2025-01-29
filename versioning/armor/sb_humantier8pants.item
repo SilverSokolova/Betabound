@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert3.lua","convertTo":["humantier5spants",["sb_feroziumcompound",6],["voxel5k",3]],"itemName":"sb_humantier8pants"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","refund":["humantier5spants",["sb_feroziumcompound",6],["voxel5k",3]],"itemName":"sb_humantier8pants"}

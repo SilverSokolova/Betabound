@@ -1,1 +1,1 @@
-{"itemName":"sb_aviantier8axe","convertTo":"sb_aviantier6maxe","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_aviantier8axe","newItemName":"sb_aviantier6maxe","builder":"/items/buildscripts/starbound/versionitem.lua"}

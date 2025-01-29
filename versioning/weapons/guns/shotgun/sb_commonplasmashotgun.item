@@ -1,6 +1,6 @@
 {
   "itemName": "sb_commonplasmashotgun",
-  "convertTo": "commonshotgun",
-  "rarity": "rare",
-  "builder": "/items/buildscripts/starbound/convertgun.lua"
+  "newItemName": "commonshotgun",
+  "isOldWeapon": 1,
+  "builder": "/items/buildscripts/starbound/versionitem.lua"
 }

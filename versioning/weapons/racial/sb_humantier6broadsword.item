@@ -1,1 +1,1 @@
-{"itemName":"sb_humantier6broadsword","convertTo":"sb_humantier5sbroadsword","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_humantier6broadsword","newItemName":"sb_humantier5sbroadsword","builder":"/items/buildscripts/starbound/versionitem.lua"}

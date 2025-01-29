@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert3.lua","convertTo":["aviantier6mhead",["sb_imperviumcompound",6],["voxel5k",3]],"itemName":"sb_aviantier10head"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","refund":["aviantier6mhead",["sb_imperviumcompound",6],["voxel5k",3]],"itemName":"sb_aviantier10head"}

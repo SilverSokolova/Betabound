@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"novatier6mpants","itemName":"sb_novatier6pants"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"novatier6mpants","itemName":"sb_novatier6pants"}

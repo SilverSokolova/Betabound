@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"corn","itemName":"sb_sweetcorn"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"corn","itemName":"sb_sweetcorn"}

@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert3.lua","convertTo":["hylotltier6spants",["sb_ceruliumcompound",6],["voxel5k",3]],"itemName":"sb_hylotltier9pants"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","refund":["hylotltier6spants",["sb_ceruliumcompound",6],["voxel5k",3]],"itemName":"sb_hylotltier9pants"}

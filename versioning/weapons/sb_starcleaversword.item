@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert2.lua","convertTo":"sb_starcleaver","itemName":"sb_starcleaversword"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"sb_starcleaver","itemName":"sb_starcleaversword","persistentParameters":[]}

@@ -1,1 +1,1 @@
-{"itemName":"sb_glitchtier7shortsword","convertTo":"sb_glitchtier5mshortsword","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_glitchtier7shortsword","newItemName":"sb_glitchtier5mshortsword","builder":"/items/buildscripts/starbound/versionitem.lua"}

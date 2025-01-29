@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"glitchtier5ahead","itemName":"sb_glitchtier6head"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"glitchtier5ahead","itemName":"sb_glitchtier6head"}

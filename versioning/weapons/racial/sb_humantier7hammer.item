@@ -1,1 +1,1 @@
-{"itemName":"sb_humantier7hammer","convertTo":"sb_humantier5mhammer","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_humantier7hammer","newItemName":"sb_humantier5mhammer","builder":"/items/buildscripts/starbound/versionitem.lua"}

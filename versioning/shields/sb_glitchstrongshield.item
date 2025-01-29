@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert2.lua","convertTo":"commonlargeshield","itemName":"sb_glitchstrongshield"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"commonlargeshield","itemName":"sb_glitchstrongshield","persistentParameters":["level"]}

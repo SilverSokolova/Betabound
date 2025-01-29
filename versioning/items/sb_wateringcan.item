@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert3.lua","convertTo":["wateringcan",["polymer",3]],"itemName":"sb_wateringcan"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","refund":["wateringcan",["polymer",3]],"itemName":"sb_wateringcan"}

@@ -1,1 +1,1 @@
-{"itemName":"sb_humantier8dagger","convertTo":"sb_humantier6mdagger","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_humantier8dagger","newItemName":"sb_humantier6mdagger","builder":"/items/buildscripts/starbound/versionitem.lua"}

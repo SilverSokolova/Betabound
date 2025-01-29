@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"aviantier5apants","itemName":"sb_aviantier7pants"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"aviantier5apants","itemName":"sb_aviantier7pants"}

@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"aviantier6shead","itemName":"sb_aviantier5head"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"aviantier6shead","itemName":"sb_aviantier5head"}

@@ -1,1 +1,1 @@
-{"itemName":"sb_florantier7spear","convertTo":"sb_florantier5mspear","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_florantier7spear","newItemName":"sb_florantier5mspear","builder":"/items/buildscripts/starbound/versionitem.lua"}

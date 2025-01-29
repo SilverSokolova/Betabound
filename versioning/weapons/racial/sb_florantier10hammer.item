@@ -1,1 +1,1 @@
-{"itemName":"sb_florantier10hammer","convertTo":"sb_florantier6shammer","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_florantier10hammer","newItemName":"sb_florantier6shammer","builder":"/items/buildscripts/starbound/versionitem.lua"}

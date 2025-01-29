@@ -1,1 +1,1 @@
-{"itemName":"sb_hylotltier6hammer","convertTo":"sb_hylotltier5shammer","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_hylotltier6hammer","newItemName":"sb_hylotltier5shammer","builder":"/items/buildscripts/starbound/versionitem.lua"}

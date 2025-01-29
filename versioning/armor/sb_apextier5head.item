@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"apextier5ahead","itemName":"sb_apextier5head"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"apextier5ahead","itemName":"sb_apextier5head"}

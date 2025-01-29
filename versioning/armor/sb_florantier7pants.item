@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"florantier5spants","itemName":"sb_florantier7pants"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"florantier5spants","itemName":"sb_florantier7pants"}

@@ -1,6 +1,6 @@
 {
   "itemName": "sb_legendarypistol",
-  "convertTo": "rarepistol",
-  "rarity": "rare",
-  "builder": "/items/buildscripts/starbound/convertgun.lua"
+  "newItemName": "rarepistol",
+  "isOldWeapon": 1,
+  "builder": "/items/buildscripts/starbound/versionitem.lua"
 }

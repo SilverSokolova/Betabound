@@ -1,1 +1,1 @@
-{"itemName":"sb_glitchtier8broadsword","convertTo":"sb_glitchtier6mbroadsword","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_glitchtier8broadsword","newItemName":"sb_glitchtier6mbroadsword","builder":"/items/buildscripts/starbound/versionitem.lua"}

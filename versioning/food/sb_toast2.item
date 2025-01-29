@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"sb_toast","itemName":"sb_toast2"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"sb_toast","itemName":"sb_toast2"}

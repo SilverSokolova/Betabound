@@ -1,1 +1,1 @@
-{"itemName":"sb_glitchtier8hammer","convertTo":"sb_glitchtier6mhammer","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_glitchtier8hammer","newItemName":"sb_glitchtier6mhammer","builder":"/items/buildscripts/starbound/versionitem.lua"}

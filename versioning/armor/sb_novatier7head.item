@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"novatier5ahead","itemName":"sb_novatier7head"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"novatier5ahead","itemName":"sb_novatier7head"}

@@ -1,1 +1,1 @@
-{"itemName":"sb_humantier8spear","convertTo":"sb_humantier6mspear","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_humantier8spear","newItemName":"sb_humantier6mspear","builder":"/items/buildscripts/starbound/versionitem.lua"}

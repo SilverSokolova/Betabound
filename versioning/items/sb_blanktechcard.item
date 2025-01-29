@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"techcard","itemName":"sb_blanktechcard"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"techcard","itemName":"sb_blanktechcard"}

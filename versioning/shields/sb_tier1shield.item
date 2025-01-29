@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert2.lua","convertTo":"commonsmallshield","itemName":"sb_tier1shield"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"commonsmallshield","itemName":"sb_tier1shield","persistentParameters":["level"]}
