@@ -1,5 +1,5 @@
 {
-  "input": [["darkwoodmaterial",10],["ironbar",10],["silverbar",2],"copperbar"],
+  "input": [["darkwoodmaterial",10],["ironbar",3],["silverbar",3],["copperbar",3]],
   "output": "sb_ironbeacon",
   "groups": ["inventorstable","craftingstations","all"]
 }

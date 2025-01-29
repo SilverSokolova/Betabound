@@ -22,6 +22,7 @@
       "default": "questGiver"
     },
     "requireTurnIn": true,
+    "sb_acceptBlueprints": ["sb_ironbeacon"],
     "turnInDescription": "Speak to the ^orange;traveller^reset; at the ^orange;mineshaft entrance^reset;",
     "conditions": [{
         "description": "Craft ^orange;Iron Beacon^reset; to obtain ^orange;Molten Core^reset;",
