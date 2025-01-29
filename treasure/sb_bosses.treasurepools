@@ -4,13 +4,12 @@
       "fill": [
         {"item": "sb_bossfatalcircuit-codex"},
         {"item": ["processor", 5]},
-        {"pool": "sb_boss2Treasure_2"},
+        {"pool": "sb_boss2Treasure2"},
         {"item": "sb_fatalcircuitclaw"}
       ],
       "pool": [
+        {"weight": 0.5, "item": "copperbar"},
         {"weight": 0.5, "item": "goldbar"},
-        {"weight": 0.5, "item": "wire"},
-        {"weight": 0.5, "item": ["wire",3]},
         {"weight": 0.5, "item": "sb_steelbar"},
         {"weight": 0.5, "item": ["sb_steelbar",2]},
         {"weight": 0.5, "item": ["sb_steelbar",3]},
@@ -23,7 +22,7 @@
       ]
     }]
   ],
-  "sb_boss2Treasure_2": [
+  "sb_boss2Treasure2": [
     [0, {
       "pool": [
         {"weight": 0.25, "item": "sb_robotheadempty"},
@@ -41,32 +40,13 @@
       "fill": [
         {"item": "sb_bossjelly-codex"},
         {"item": ["endomorphicjelly", 5]},
-        {"pool": "sb_boss3Treasure_2"},
         {"item": "sb_jellywhip"}
       ],
-      "poolRounds": [
-        [1, 1]
-      ]
-    }]
-  ],
-  "sb_boss3Treasure_2": [
-    [0, {
       "pool": [
-        {"weight": 0.25, "item": ["jellyblock", 5, {"materialHueShift":130}]},
-        {"weight": 0.25, "item": ["jellyblock", 5, {"materialHueShift":118}]},
-        {"weight": 0.25, "item": ["dirtmaterial", 5, {"materialHueShift":276}]},
-        {"weight": 0.25, "item": ["dirtmaterial", 5, {"materialHueShift":237}]},
-        {"weight": 0.25, "item": ["bonematerial", 5, {"materialHueShift":236}]},
-        {"weight": 0.25, "item": ["sb_paint", 5, {"sb_paintData":["jellyblock",118]}]},
-        {"weight": 0.25, "item": ["sb_paint", 5, {"sb_paintData":["jellyblock",130]}]},
-        {"weight": 0.25, "item": ["sb_paint", 5, {"sb_paintData":["dirtmaterial",276]}]},
-        {"weight": 0.25, "item": ["sb_paint", 5, {"sb_paintData":["dirtmaterial",236]}]},
+        {"weight": 0.25, "item": "purpledye"},
         {"weight": 0.025, "item": ["sb_musicsheet",1,{"music":"tentacle-battle1"}]},
         {"weight": 0.025, "item": "sb_jellyaf"},
         {"weight": 0.025, "item": "sb_jellywhip"}
-      ],
-      "poolRounds": [
-        [2, 2]
       ]
     }]
   ]

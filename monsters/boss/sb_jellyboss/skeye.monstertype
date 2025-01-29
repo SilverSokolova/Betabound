@@ -5,7 +5,7 @@
   "categories": ["sb_skeye_organic"],
   "parts": ["body"],
   "animation": "skeye.animation",
-  "dropPools": ["sb_boss3Treasure_2"],
+  "dropPools": ["noMeatMonsterTreasure"],
   "reversed": true,
 
   "baseParameters": {
