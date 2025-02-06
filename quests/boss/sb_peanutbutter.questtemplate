@@ -21,7 +21,7 @@
   },
 
   "updateDelta": 10,
-  "script": "/quests/scripts/main.lua",
+  "script": "/quests/scripts/sb_main.lua",
   "scriptConfig": {
     "portraits": {
       "default": "questGiver"

@@ -16,7 +16,7 @@
   },
 
   "updateDelta": 10,
-  "script": "/quests/scripts/main.lua",
+  "script": "/quests/scripts/sb_main.lua",
   "scriptConfig": {
     "portraits": {
       "default": "questGiver"
@@ -25,7 +25,7 @@
     "sb_acceptBlueprints": ["sb_ironbeacon"],
     "turnInDescription": "Speak to the ^orange;traveller^reset; at the ^orange;mineshaft entrance^reset;",
     "conditions": [{
-        "description": "Craft ^orange;Iron Beacon^reset; to obtain ^orange;Molten Core^reset;",
+        "description": "Craft ^orange;Distress Beacon^reset; to obtain ^orange;Molten Core^reset;",
         "type": "gatherItem",
         "itemName": "moltencore",
         "count": 1,
