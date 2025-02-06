@@ -2,7 +2,7 @@ xrc0018 = {}
 local function blue(a) if type(a)=="string" then a={a} end for i = 1, #a do player.giveBlueprint(a[i]) end end
 local function quest(a,b) if type(b)=="string" then b={b} end if player.hasCompletedQuest(a) then for i = 1, #b do player.giveItem(b[i]) end end end
 local function boxQuest(a,b) if player.hasCompletedQuest(a) then IB[#IB+1] = b end end
-local function giveBox(desc, tooltipKind) if #IB > 0 then player.giveItem({"sb_itembox",1,{tooltipKind=tooltipKind,description=string.format(root.assetJson("/betabound.config")[desc], #IB),items=IB}}) end end
+local function giveBox(desc, tooltipKind) if #IB > 0 then player.giveItem({"sb_itembox",1,{tooltipKind=tooltipKind,description=string.format(root.assetJson("/betabound.config:updateNotes")[desc or "default"], #IB),items=IB}}) end end
 local function updateNote(a)
   local b = root.assetJson("/betabound.config")
   local i = root.assetJson("/scripts/sb_versioning/updateNote.json")
@@ -287,6 +287,12 @@ end
 --35, 6/FEB/2025: Changed repair tool names
 xrc0018[35]=function()
   updateNote()
+  local recipes = {"copper", "diamond", "titanium", "rubium"}
+  for i = 1, #recipes do
+    if player.blueprintKnown(string.format("sb_%s_repair", recipes[i])) then
+      player.giveBlueprint(string.format("sb_%srepairtool", recipes[i]))
+    end
+  end
 end
 
 function sb_doVersioning(cv,yv)
