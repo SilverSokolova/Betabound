@@ -3,5 +3,5 @@
 {"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
 {"op":"add","path":"/learnBlueprintsOnPickup","value":[]}
 ],
-[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_copper_repair"}]
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_copperrepairtool"}]
 ]

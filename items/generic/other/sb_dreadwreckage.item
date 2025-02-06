@@ -7,6 +7,5 @@
   "category": "craftingMaterial",
   "inventoryIcon": "sb_dreadwreckage.png",
   "description": "Wreckage from Dreadwing's ship.",
-  "shortdescription": "Dreadwing's Wreckage",
-  "learnBlueprintsOnPickup": ["sb_wreck_repair"]
+  "shortdescription": "Dreadwing's Wreckage"
 }

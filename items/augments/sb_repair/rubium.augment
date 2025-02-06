@@ -1,0 +1,15 @@
+{
+  "itemName": "sb_rubiumrepairtool",
+  "price": 60,
+  "tooltipKind": "sb_object",
+  "rarity": "rare",
+  "category": "Tool",
+  "tooltipFields": {
+    "subtitle": "Repair Tool"
+  },
+  "durabilityRegen": 335,
+  "inventoryIcon": "rubium.png",
+  "description": "Restores a large amount of durability to mining tools.\n^gray;Apply with right-click",
+  "shortdescription": "Rubium Whetstone",
+  "scripts": ["/scripts/augments/sb_repair.lua"]
+}

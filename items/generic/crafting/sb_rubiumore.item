@@ -6,7 +6,7 @@
   "tooltipKind": "sb_object",
   "inventoryIcon": "sb_rubiumore.png",
   "itemTags": ["reagent"],
-  "learnBlueprintsOnPickup": ["sb_rubium_repair", "sb_refinedrubium"],
+  "learnBlueprintsOnPickup": ["sb_rubiumrepairtool", "sb_refinedrubium"],
   "description": "Rubium ore. Can be used for smelting.",
   "shortdescription": "Rubium Ore"
 }

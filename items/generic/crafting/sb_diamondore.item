@@ -6,7 +6,7 @@
   "tooltipKind": "sb_object",
   "inventoryIcon": "sb_diamondore.png",
   "itemTags": ["reagent"],
-  "learnBlueprintsOnPickup": ["sb_diamond_repair", "diamond"],
+  "learnBlueprintsOnPickup": ["sb_diamondrepairtool", "diamond"],
   "description": "Diamond ore. Can be used for smelting.",
   "shortdescription": "Diamond Ore"
 }

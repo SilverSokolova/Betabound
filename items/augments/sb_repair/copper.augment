@@ -1,0 +1,15 @@
+{
+  "itemName": "sb_copperrepairtool",
+  "price": 10,
+  "tooltipKind": "sb_object",
+  "rarity": "Common",
+  "category": "Tool",
+  "tooltipFields": {
+    "subtitle": "Repair Tool"
+  },
+  "durabilityRegen": 75,
+  "inventoryIcon": "copper.png",
+  "description": "Restores a small amount of durability to mining tools.\n^gray;Apply with right-click",
+  "shortdescription": "Copper Whetstone",
+  "scripts": ["/scripts/augments/sb_repair.lua"]
+}

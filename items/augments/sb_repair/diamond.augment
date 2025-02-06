@@ -1,0 +1,15 @@
+{
+  "itemName": "sb_diamondrepairtool",
+  "price": 300,
+  "tooltipKind": "sb_object",
+  "rarity": "rare",
+  "category": "Tool",
+  "tooltipFields": {
+    "subtitle": "Repair Tool"
+  },
+  "durabilityRegen": 240,
+  "inventoryIcon": "diamond.png",
+  "description": "Restores a moderate amount of durability to mining tools.\n^gray;Apply with right-click",
+  "shortdescription": "Diamond Whetstone",
+  "scripts": ["/scripts/augments/sb_repair.lua"]
+}

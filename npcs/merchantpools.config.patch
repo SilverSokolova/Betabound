@@ -110,7 +110,7 @@
   // ================
   //     Ore
   // ================
-[{"op":"add","path":"/oremerchant/0/1/-","value":{"item":{"name":"sb_copper_repair"}}}],
+[{"op":"add","path":"/oremerchant/0/1/-","value":{"item":{"name":"sb_copperrepairtool"}}}],
 [{"op":"add","path":"/oremerchant/0/1/-","value":{"item":{"name":"sulphur"}}}],
 [{"op":"add","path":"/oremerchant/0/1/-","value":{"item":{"name":"lead"}}}],
 [{"op":"add","path":"/oremerchant/0/1/-","value":{"item":{"name":"platinumbar"},"prerequisiteQuest":"human_mission1"}}],
@@ -123,12 +123,8 @@
 [{"op":"add","path":"/deadbeatmerchant/0/1/-","value":{"item":{"name":"sb_explosivebarrel"},"rarity":0.5}}],
 
 [{"op":"add","path":"/foundrymerchant/0/1/-","value":{"item":{"name":"platinumbar"},"prerequisiteQuest":"human_mission1"}}],
-[{"op":"add","path":"/foundrymerchant/0/1/-","value":{"item":{"name":"sb_copper_repair"},"rarity":0.5}}],
-[{"op":"add","path":"/foundrymerchant/0/1/-","value":{"item":{"name":"sb_platinum_repair"},"rarity":0.5}}],
-[{"op":"add","path":"/foundrymerchant/0/1/-","value":{"item":{"name":"sb_tungsten_repair"},"rarity":0.5}}],
-[{"op":"add","path":"/foundrymerchant/0/1/-","value":{"item":{"name":"sb_titanium_repair"},"rarity":0.5}}],
-[{"op":"add","path":"/foundrymerchant/0/1/-","value":{"item":{"name":"sb_silver_repair"},"rarity":0.5}}],
-[{"op":"add","path":"/foundrymerchant/0/1/-","value":{"item":{"name":"sb_gold_repair"},"rarity":0.5}}],
+[{"op":"add","path":"/foundrymerchant/0/1/-","value":{"item":{"name":"sb_copperrepairtool"},"rarity":0.5}}],
+[{"op":"add","path":"/foundrymerchant/0/1/-","value":{"item":{"name":"sb_titaniumrepairtool"},"rarity":0.5}}],
 
   // ================
   //     Themed

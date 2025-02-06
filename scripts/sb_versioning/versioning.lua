@@ -5,10 +5,10 @@ local function boxQuest(a,b) if player.hasCompletedQuest(a) then IB[#IB+1] = b e
 local function giveBox(desc, tooltipKind) if #IB > 0 then player.giveItem({"sb_itembox",1,{tooltipKind=tooltipKind,description=string.format(root.assetJson("/betabound.config")[desc], #IB),items=IB}}) end end
 local function updateNote(a)
   local b = root.assetJson("/betabound.config")
-  a = b.updateNotes[a]
+  a = a and b.updateNotes[a] or {}
   local i = root.assetJson("/scripts/sb_versioning/updateNote.json")
   i.parameters.description = a[2] or b.removedItemDescription
-  i.parameters.shortdescription = a[1].." "..b.updateNote
+  i.parameters.shortdescription = a[1] and (a[1].." "..b.updateNote) or b.updateNote
   player.giveItem(i)
 end
 local function reunlockRecipes(a)
@@ -277,6 +277,11 @@ xrc0018[34]=function()
     end
   end
   giveBox("changedQuestIdsDescription", "sb_tech")
+end
+
+--35: Changed repair tool names
+xrc0018[35]=function()
+  updateNote()
 end
 
 function sb_doVersioning(cv,yv)

@@ -1,6 +1,0 @@
-{
-  "input": ["tungstenore"],
-  "output": "sb_tungsten_repair",
-  "duration": 0,
-  "groups": ["plain","sb_augment","all"]
-}
