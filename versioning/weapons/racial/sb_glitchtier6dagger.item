@@ -1,1 +1,1 @@
-{"itemName":"sb_glitchtier6dagger","convertTo":"sb_glitchtier5sdagger","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_glitchtier6dagger","newItemName":"sb_glitchtier5sdagger","builder":"/items/buildscripts/starbound/versionitem.lua"}

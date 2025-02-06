@@ -26,6 +26,7 @@
   "description": "A bottle of smooth avesmingo cordial.",
   "shortdescription": "Avesmingo Cordial Bottle",
   "handPosition": [1, -3],
+  "emote": "laugh",
   "emitters": ["drinking"],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],

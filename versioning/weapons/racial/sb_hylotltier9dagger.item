@@ -1,1 +1,1 @@
-{"itemName":"sb_hylotltier9dagger","convertTo":"sb_hylotltier6adagger","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_hylotltier9dagger","newItemName":"sb_hylotltier6adagger","builder":"/items/buildscripts/starbound/versionitem.lua"}

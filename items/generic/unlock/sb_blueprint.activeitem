@@ -8,7 +8,21 @@
   "itemTags": ["sb_copybook"], //for lectern
   "inventoryIcon": "sb_blueprint.png",
   "sb_recipe": "perfectlygenericitem",
-  "animation": "sb_blueprint.animation",
+  "animation": "sb_techupgrade.animation",
   "scripts": ["sb_blueprint.lua"],
-  "useTime": 0.05
+  "useTime": 0.05,
+
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "blueprint": {
+          "properties": {
+            "centered": true,
+            "offset": [0, 0],
+            "image": "/items/generated/blueprintinhand.png"
+          }
+        }
+      }
+    }
+  }
 }

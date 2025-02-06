@@ -1,1 +1,1 @@
-{"itemName":"sb_apextier9shortsword","convertTo":"sb_apextier6ashortsword","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_apextier9shortsword","newItemName":"sb_apextier6ashortsword","builder":"/items/buildscripts/starbound/versionitem.lua"}

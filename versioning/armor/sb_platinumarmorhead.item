@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"camohead","itemName":"sb_platinumarmorhead"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"camohead","itemName":"sb_platinumarmorhead"}

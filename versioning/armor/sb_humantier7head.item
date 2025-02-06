@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"humantier6mhead","itemName":"sb_humantier7head"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"humantier6mhead","itemName":"sb_humantier7head"}

@@ -27,7 +27,7 @@
       "default": "questGiver"
     },
     "requireTurnIn": true,
-    "sb_acceptBlueprints": ["sb_butter", "sb_peanutbutterjar", "sb_peanutbutter"],
+    "sb_acceptBlueprints": ["sb_peanutbutter"],
     "turnInDescription": "Speak to ^orange;the ex-convict^reset; at the ^orange;outpost^reset;",
     "conditions": [{
         "description": "Craft ^orange;Peanut Butter Trap^reset; to summon the beast",

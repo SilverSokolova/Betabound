@@ -1,1 +1,1 @@
-{"orientations":[{"dualImage":"/objects/generic/woodenchair/woodenchair.png:<color>","spaces":[[-1,0]],"imagePosition":[-7,0]}],"inventoryIcon":"/assetmissing.png","objectName":"sb_woodenchair","builder":"/items/buildscripts/starbound/convert.lua"}
+{"orientations":[{"dualImage":"/objects/generic/woodenchair/woodenchair.png:<color>","spaces":[[-1,0]],"imagePosition":[-7,0]}],"inventoryIcon":"/assetmissing.png","objectName":"sb_woodenchair","builder":"/items/buildscripts/starbound/versionitem.lua"}

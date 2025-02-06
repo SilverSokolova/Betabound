@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"humantier6mchest","itemName":"sb_humantier7chest"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"humantier6mchest","itemName":"sb_humantier7chest"}

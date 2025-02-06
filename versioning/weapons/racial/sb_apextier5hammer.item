@@ -1,1 +1,1 @@
-{"itemName":"sb_apextier5hammer","convertTo":"sb_apextier5ahammer","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_apextier5hammer","newItemName":"sb_apextier5ahammer","builder":"/items/buildscripts/starbound/versionitem.lua"}

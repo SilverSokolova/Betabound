@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"sb_novatier6mrifle","itemName":"sb_novatier9rifle"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"sb_novatier6mrifle","itemName":"sb_novatier9rifle"}

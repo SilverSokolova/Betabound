@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"sb_novatier5srevolver","itemName":"sb_novatier6revolver"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"sb_novatier5srevolver","itemName":"sb_novatier6revolver"}

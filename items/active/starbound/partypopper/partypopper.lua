@@ -1,4 +1,4 @@
---WONTFIX: You can reuse them by dropping them before they're consumed
+--NOTE: You can reuse them by dropping them before they're consumed
 
 function init()
   emotes = config.getParameter("emotes")

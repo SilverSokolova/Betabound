@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"hylotltier5spants","itemName":"sb_hylotltier7pants"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"hylotltier5spants","itemName":"sb_hylotltier7pants"}

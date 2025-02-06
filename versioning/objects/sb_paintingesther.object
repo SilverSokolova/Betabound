@@ -1,1 +1,1 @@
-{"orientations":[{"dualImage":"/assetmissing.png","spaces":[[-1,0]],"imagePosition":[-7,0]}],"inventoryIcon":"/assetmissing.png","objectName":"sb_paintingesther","builder":"/items/buildscripts/starbound/convert.lua","convertTo":"voxel5k"}
+{"orientations":[{"dualImage":"/assetmissing.png","spaces":[[-1,0]],"imagePosition":[-7,0]}],"inventoryIcon":"/assetmissing.png","objectName":"sb_paintingesther","builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"voxel5k"}

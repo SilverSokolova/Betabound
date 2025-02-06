@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert2.lua","convertTo":"glowfibre","itemName":"sb_glowfibreyellow"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"glowfibre","itemName":"sb_glowfibreyellow"}

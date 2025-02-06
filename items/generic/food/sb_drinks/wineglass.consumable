@@ -22,6 +22,7 @@
   "description": "A glass of smooth red wine.",
   "shortdescription": "Wine Glass",
   "handPosition": [0, -2.5],
+  "emote": "laugh",
   "emitters": ["drinking"],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],

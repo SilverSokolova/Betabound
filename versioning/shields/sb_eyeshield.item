@@ -1,1 +1,1 @@
-{"itemName":"sb_eyeshield","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_eyeshield","builder":"/items/buildscripts/starbound/versionitem.lua","persistentParameters":["level"]}

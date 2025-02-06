@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"sb_worklegs","itemName":"sb_sweatervestlegs"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"sb_worklegs","itemName":"sb_sweatervestlegs"}

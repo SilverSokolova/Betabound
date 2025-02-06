@@ -38,7 +38,7 @@
       }
     },
     "requireTurnIn": true,
-    "sb_acceptBlueprints": ["sb_robot", "sb_robotheadempty", "robothead", "robotarms", "robotchest", "robotlegs"],
+    "sb_acceptBlueprints": ["sb_robot", "robothead", "robotarms", "robotchest", "robotlegs"],
     "turnInDescription": "Return to ^orange;Dr. Akaggy^reset; at the ^orange;Outpost^reset;",
     "conditions": [{
         "description": "Craft ^orange;Inactive Robot^reset; to obtain ^orange;Processor^reset;",

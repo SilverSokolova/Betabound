@@ -1,1 +1,1 @@
-{"itemName":"sb_hylotltier6spear","convertTo":"sb_hylotltier5sspear","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_hylotltier6spear","newItemName":"sb_hylotltier5sspear","builder":"/items/buildscripts/starbound/versionitem.lua"}

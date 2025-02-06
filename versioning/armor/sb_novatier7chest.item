@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"novatier5achest","itemName":"sb_novatier7chest"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"novatier5achest","itemName":"sb_novatier7chest"}

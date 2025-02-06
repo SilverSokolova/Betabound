@@ -1,1 +1,1 @@
-{"itemName":"sb_aviantier7shortsword","convertTo":"sb_aviantier5mshortsword","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_aviantier7shortsword","newItemName":"sb_aviantier5mshortsword","builder":"/items/buildscripts/starbound/versionitem.lua"}

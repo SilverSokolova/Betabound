@@ -1,1 +1,1 @@
-{"itemName":"sb_hylotltier10axe","convertTo":"sb_hylotltier6saxe","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_hylotltier10axe","newItemName":"sb_hylotltier6saxe","builder":"/items/buildscripts/starbound/versionitem.lua"}

@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert3.lua","convertTo":["humantier5mhead",["sb_ceruliumcompound",6],["voxel5k",3]],"itemName":"sb_humantier9head"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","refund":["humantier5mhead",["sb_ceruliumcompound",6],["voxel5k",3]],"itemName":"sb_humantier9head"}

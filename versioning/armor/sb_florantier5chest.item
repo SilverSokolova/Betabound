@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"florantier5mchest","itemName":"sb_florantier5chest"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"florantier5mchest","itemName":"sb_florantier5chest"}

@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert3.lua","convertTo":"sb_craftingtool","itemName":"sb_woodencraftingtable"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"sb_craftingtool","itemName":"sb_woodencraftingtable"}

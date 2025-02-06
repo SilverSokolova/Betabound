@@ -23,6 +23,7 @@
       "sb_foodheal135"
     ]],
   "handPosition": [1, -3],
+  "emote": "laugh",
   "emitters": ["drinking"],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],

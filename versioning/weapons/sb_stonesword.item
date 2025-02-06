@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert2.lua","convertTo":"stoneblade","itemName":"sb_stonesword"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"stoneblade","itemName":"sb_stonesword","persistentParameters":["level"]}

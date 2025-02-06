@@ -1,1 +1,1 @@
-{"itemName":"sb_apextier9dagger","convertTo":"sb_apextier6adagger","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_apextier9dagger","newItemName":"sb_apextier6adagger","builder":"/items/buildscripts/starbound/versionitem.lua"}

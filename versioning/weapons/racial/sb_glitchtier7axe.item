@@ -1,1 +1,1 @@
-{"itemName":"sb_glitchtier7axe","convertTo":"sb_glitchtier5maxe","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_glitchtier7axe","newItemName":"sb_glitchtier5maxe","builder":"/items/buildscripts/starbound/versionitem.lua"}

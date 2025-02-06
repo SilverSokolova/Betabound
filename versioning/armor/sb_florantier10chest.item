@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert3.lua","convertTo":["florantier6schest",["sb_imperviumcompound",6],["voxel5k",3]],"itemName":"sb_florantier10chest"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","refund":["florantier6schest",["sb_imperviumcompound",6],["voxel5k",3]],"itemName":"sb_florantier10chest"}

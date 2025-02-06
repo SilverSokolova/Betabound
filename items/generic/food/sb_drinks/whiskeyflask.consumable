@@ -21,6 +21,7 @@
   "subtitle": "sb_alcohol",
   "description": "A flask of whiskey.",
   "shortdescription": "Whiskey Flask",
+  "emote": "laugh",
   "emitters": ["drinking"],
   "handPosition": [0, -1],
   "builder": "/items/buildscripts/starbound/buildfood.lua",

@@ -13,7 +13,6 @@
   "learnBlueprintsOnPickup": ["sb_blankscandata"],
   "itemTags": ["sb_scandata"],
   "scripts": ["sb_scandata.lua"],
-  "animation": "sb_techupgrade.animation",
   "animationCustom": {
     "sounds": {
       "success": ["/sfx/interface/scan.ogg"]

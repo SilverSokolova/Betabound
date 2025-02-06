@@ -1,1 +1,1 @@
-{"itemName":"sb_aviantier5broadsword","convertTo":"sb_aviantier5abroadsword","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_aviantier5broadsword","newItemName":"sb_aviantier5abroadsword","builder":"/items/buildscripts/starbound/versionitem.lua"}

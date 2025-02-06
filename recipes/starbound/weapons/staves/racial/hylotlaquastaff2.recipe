@@ -1,5 +1,5 @@
 {
-  "input": [["sb_ceruliumcompound",12],"battery"],
+  "input": [["solariumstar",6],["refinedferozium",6],"battery"],
   "output": "sb_hylotlaquastaff2",
   "groups": ["craftingmanipulator","weapons","all"]
 }

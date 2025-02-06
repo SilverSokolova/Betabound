@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert3.lua","convertTo":["salvagebooster","smallbattery","siliconboard","sb_steelbar"],"itemName":"sb_deadbolt"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","refund":["salvagebooster","smallbattery","siliconboard","sb_steelbar"],"itemName":"sb_deadbolt"}

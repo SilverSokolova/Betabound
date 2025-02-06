@@ -1,1 +1,1 @@
-{"itemName":"sb_mushroomshield","builder":"/items/buildscripts/starbound/convert2.lua"}
+{"itemName":"sb_mushroomshield","builder":"/items/buildscripts/starbound/versionitem.lua","persistentParameters":["level"]}

@@ -1,12 +1,14 @@
 {
-  "itemName" : "sb_quest",
-  "rarity" : "essential",
-  "tooltipFields" : {"rarityLabel" : "Critical"},
-  "tooltipKind" : "sb_object",
-  "shortdescription" : "%s^reset;",
-  "description" : "Using this item will start the quest '%s^reset;' (if possible.)",
-  "category" : "quest",
-  "twoHanded" : false,
-  "inventoryIcon" : "sb_quest.png",
-  "scripts" : ["sb_quest.lua"]
+  "itemName": "sb_quest",
+  "rarity": "essential",
+  "tooltipFields": {
+    "rarityLabel": "Critical"
+  },
+  "tooltipKind": "sb_object",
+  "shortdescription": "%s^reset;",
+  "description": "Using this item will start the quest '%s^reset;' (if possible.)",
+  "category": "quest",
+  "twoHanded": false,
+  "inventoryIcon": "sb_quest.png",
+  "scripts": ["sb_quest.lua"]
 }

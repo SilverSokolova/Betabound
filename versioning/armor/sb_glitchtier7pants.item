@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"glitchtier5spants","itemName":"sb_glitchtier7pants"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"glitchtier5spants","itemName":"sb_glitchtier7pants"}

@@ -16,7 +16,7 @@
   "subtitle": "sb_alcohol",
   "rarity": "common",
   "inventoryIcon": "wartwine.png",
-  "description": "Popular Avian wine of wartweed and fermented grapes.",
+  "description": "A popular Avian wine made of wartweed and fermented grapes.",
   "shortdescription": "Wartwine",
   "emote": "laugh",
   "emitters": ["drinking"],

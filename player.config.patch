@@ -87,11 +87,9 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_codex"}}],
 
 //Bosses
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_ironbeacon"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"artificialbrain"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_butter"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_peanutbutterjar"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_peanutbutter"}}],
 
 //Tools
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_stonepickaxe"}}],

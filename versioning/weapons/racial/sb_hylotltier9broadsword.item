@@ -1,1 +1,1 @@
-{"itemName":"sb_hylotltier9broadsword","convertTo":"sb_hylotltier6abroadsword","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_hylotltier9broadsword","newItemName":"sb_hylotltier6abroadsword","builder":"/items/buildscripts/starbound/versionitem.lua"}

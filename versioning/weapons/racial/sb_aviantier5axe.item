@@ -1,1 +1,1 @@
-{"itemName":"sb_aviantier5axe","convertTo":"sb_aviantier5aaxe","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_aviantier5axe","newItemName":"sb_aviantier5aaxe","builder":"/items/buildscripts/starbound/versionitem.lua"}

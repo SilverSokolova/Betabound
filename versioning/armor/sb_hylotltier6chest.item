@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"hylotltier5achest","itemName":"sb_hylotltier6chest"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"hylotltier5achest","itemName":"sb_hylotltier6chest"}

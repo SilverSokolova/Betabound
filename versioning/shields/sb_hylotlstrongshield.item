@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert2.lua","convertTo":"sb_uncommonshield","itemName":"sb_hylotlstrongshield"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"sb_uncommonshield","itemName":"sb_hylotlstrongshield","persistentParameters":["level"]}

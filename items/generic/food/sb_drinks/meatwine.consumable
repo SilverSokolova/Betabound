@@ -22,6 +22,7 @@
   "description": "A drink made of fermented grapes and meat juices. Popular among Florans.",
   "shortdescription": "Meatwine",
   "handPosition": [1, -4],
+  "emote": "laugh",
   "emitters": ["drinking"],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],

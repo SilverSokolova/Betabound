@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"capturepod","itemName":"sb_capturepod"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"capturepod","itemName":"sb_capturepod"}

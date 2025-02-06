@@ -1,1 +1,1 @@
-{"itemName":"sb_glitchtier5spear","convertTo":"sb_glitchtier5aspear","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_glitchtier5spear","newItemName":"sb_glitchtier5aspear","builder":"/items/buildscripts/starbound/versionitem.lua"}

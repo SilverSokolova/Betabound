@@ -1,1 +1,1 @@
-{"itemName":"sb_aviantier10spear","convertTo":"sb_aviantier6sspear","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_aviantier10spear","newItemName":"sb_aviantier6sspear","builder":"/items/buildscripts/starbound/versionitem.lua"}

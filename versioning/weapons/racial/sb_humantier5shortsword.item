@@ -1,1 +1,1 @@
-{"itemName":"sb_humantier5shortsword","convertTo":"sb_humantier5ashortsword","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_humantier5shortsword","newItemName":"sb_humantier5ashortsword","builder":"/items/buildscripts/starbound/versionitem.lua"}

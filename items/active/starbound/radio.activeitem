@@ -12,6 +12,6 @@
   "collectablesOnPickup": {
     "sb_music": "jukebox"
   },
-  "scripts": ["interface.lua", "/scripts/activeitem/sb_held.lua"], //maybe move it to `/scripts/activeitem`
+  "scripts": ["interface.lua", "/scripts/activeitem/sb_held.lua"],
   "interactAction": ["scriptPane", "/interface/scripted/sb_music/music.config"]
 }

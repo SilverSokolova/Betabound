@@ -1,1 +1,1 @@
-{"itemName":"sb_apextier8spear","convertTo":"sb_apextier6mspear","builder":"/items/buildscripts/starbound/convert.lua"}
+{"itemName":"sb_apextier8spear","newItemName":"sb_apextier6mspear","builder":"/items/buildscripts/starbound/versionitem.lua"}

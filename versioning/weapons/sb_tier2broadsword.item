@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"sb_uncommonbroadsword","itemName":"sb_tier2broadsword"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"sb_uncommonbroadsword","itemName":"sb_tier2broadsword","persistentParameters":["level"]}

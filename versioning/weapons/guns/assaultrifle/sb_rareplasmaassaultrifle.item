@@ -1,6 +1,6 @@
 {
   "itemName": "sb_rareplasmaassaultrifle",
-  "convertTo": "rareassaultrifle",
-  "rarity": "rare",
-  "builder": "/items/buildscripts/starbound/convertgun.lua"
+  "newItemName": "rareassaultrifle",
+  "isOldWeapon": 1,
+  "builder": "/items/buildscripts/starbound/versionitem.lua"
 }

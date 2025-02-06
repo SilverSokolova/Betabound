@@ -1,5 +1,5 @@
 {
   "itemName": "sb_uncommonmachinepistol",
-  "rarity": "rare",
-  "builder": "/items/buildscripts/starbound/convertgun.lua"
+  "isOldWeapon": 1,
+  "builder": "/items/buildscripts/starbound/versionitem.lua"
 }

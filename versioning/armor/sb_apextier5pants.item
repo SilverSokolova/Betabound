@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert.lua","convertTo":"apextier5apants","itemName":"sb_apextier5pants"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"apextier5apants","itemName":"sb_apextier5pants"}

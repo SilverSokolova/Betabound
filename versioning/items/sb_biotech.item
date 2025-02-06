@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert2.lua","convertTo":"sb_tech","itemName":"sb_biotech"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","newItemName":"sb_tech","itemName":"sb_biotech","persistentParameters":["techModule"]}

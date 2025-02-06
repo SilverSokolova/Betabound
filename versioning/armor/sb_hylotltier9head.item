@@ -1,1 +1,1 @@
-{"builder":"/items/buildscripts/starbound/convert3.lua","convertTo":["hylotltier6shead",["sb_ceruliumcompound",6],["voxel5k",3]],"itemName":"sb_hylotltier9head"}
+{"builder":"/items/buildscripts/starbound/versionitem.lua","refund":["hylotltier6shead",["sb_ceruliumcompound",6],["voxel5k",3]],"itemName":"sb_hylotltier9head"}

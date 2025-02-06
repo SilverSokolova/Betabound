@@ -1,6 +1,6 @@
 {
   "itemName": "sb_rareplasmasniperrifle",
-  "convertTo": "raresniperrifle",
-  "rarity": "rare",
-  "builder": "/items/buildscripts/starbound/convertgun.lua"
+  "newItemName": "raresniperrifle",
+  "isOldWeapon": 1,
+  "builder": "/items/buildscripts/starbound/versionitem.lua"
 }
