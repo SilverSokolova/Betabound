@@ -5,11 +5,19 @@ local function boxQuest(a,b) if player.hasCompletedQuest(a) then IB[#IB+1] = b e
 local function giveBox(desc, tooltipKind) if #IB > 0 then player.giveItem({"sb_itembox",1,{tooltipKind=tooltipKind,description=string.format(root.assetJson("/betabound.config")[desc], #IB),items=IB}}) end end
 local function updateNote(a)
   local b = root.assetJson("/betabound.config")
-  a = a and b.updateNotes[a] or {}
   local i = root.assetJson("/scripts/sb_versioning/updateNote.json")
-  i.parameters.description = a[2] or b.removedItemDescription
-  i.parameters.shortdescription = a[1] and (a[1].." "..b.updateNote) or b.updateNote
+  i.parameters.description = b.updateNotes[a or "default"]
   player.giveItem(i)
+
+  local audiodisc = root.itemConfig("audiodisc").config
+  player.radioMessage({
+    messageId = sb.makeUuid(),
+    unique = false,
+    text = b["developerMessage"].." "..i.parameters.description,
+    portraitImage = audiodisc.defaultPortrait,
+    portraitFrames = audiodisc.defaultPortraitFrames,
+    senderName = "Betabound"
+  })
 end
 local function reunlockRecipes(a)
   if type(a) == "string" then a = {a} end
@@ -102,7 +110,7 @@ xrc0018[18]=function()
   boxQuest("sb_bountyhunter3.gearup",{"sb_uncommonshotgun",1,{level=4}})
   boxQuest("sb_floranhunter4.gearup",{"sb_uncommonspear",1,{level=5}})
   boxQuest("sb_humanexcon4.gearup",{"sb_uncommonaxe",1,{level=5}})
-  giveBox("changedQuestRewardsDescription")
+  giveBox("changedQuestRewards")
 end
 --[[
 xrc0018[19]=function()
@@ -129,7 +137,7 @@ xrc0018[19]=function()
     {"sb_avianrefugeeE1","sb_humanscientistE1","sb_avianrefugeeE2","sb_hylotlwarriorE2","sb_hylotlwarriorE1","sb_penguinpromoterE1"}
   }
   for i = 1, #q do for j = 1, #q[i] do boxQuest(q[i][j]..".gearup",{"rewardbag",1,{treasure={level=i}}}) end end
-  giveBox("changedQuestRewardsDescription")
+  giveBox("changedQuestRewards")
 end
 ]]
 xrc0018[20]=function()
@@ -140,17 +148,14 @@ xrc0018[20]=function()
     end
   end
 end
+
+--21, 6/OCT/2022: Phase out redundant Betabound crafting stations
 xrc0018[21]=function()
   if player.blueprintKnown("sb_steelbar") then
     updateNote("090")
-    updateNote("090b")
   end
 end
-xrc0018[22]=function()
-  if player.blueprintKnown("sb_sweetcorn") then --could cause issues if we add sweetcorn back. maybe change to iron anvil?
-    updateNote("96")
-  end
-end
+
 xrc0018[23]=function()
   local a = player.getProperty("eesTransmutations")
   if a and a.EES_farmemc then
@@ -276,10 +281,10 @@ xrc0018[34]=function()
       end
     end
   end
-  giveBox("changedQuestIdsDescription", "sb_tech")
+  giveBox("changedQuestIds", "sb_tech")
 end
 
---35: Changed repair tool names
+--35, 6/FEB/2025: Changed repair tool names
 xrc0018[35]=function()
   updateNote()
 end
