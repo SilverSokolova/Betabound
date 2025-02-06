@@ -6,6 +6,6 @@
   "itemTags": ["reagent"],
   "category": "craftingMaterial",
   "inventoryIcon": "sb_dreadwreckage.png",
-  "description": "Wreckage from Dreadwing's ship.",
-  "shortdescription": "Dreadwing's Wreckage"
+  "description": "Recycleable metal from something or other.",
+  "shortdescription": "Scrap Metal"
 }
