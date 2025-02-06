@@ -202,16 +202,6 @@
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"parachutepackback"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.01,"item":"flashlight"}}],
 
-
-    //Repair Tools
-  [{"op":"add","path":"/diggingTool/0/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
-  [{"op":"add","path":"/diggingTool/1/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
-  [{"op":"add","path":"/diggingTool/2/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
-  [{"op":"add","path":"/diggingTool/3/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
-  [{"op":"add","path":"/diggingTool/4/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
-  [{"op":"add","path":"/diggingTool/5/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
-  [{"op":"add","path":"/diggingTool/6/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
-
     //Seeds
   [{"op":"add","path":"/seed/0/1/pool/-","value":{"weight":3,"item":["mushroomseed",3]}}],
   

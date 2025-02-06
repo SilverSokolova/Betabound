@@ -53,59 +53,6 @@
     }]
   ],
 
-  // ================================
-  //            Repair Tools
-  // ================================
-
-
-  "sb_repairTools": [
-    [0, {
-      "poolRounds": [[0.1, 1], [0.6, 2], [0.3, 3]],
-      "pool": [
-        {"weight": 0.7, "item": ["sb_copper_repair", 4]},
-        {"weight": 0.7, "item": ["sb_iron_repair", 2]}
-      ]
-    }],
-    [1.9, {
-      "poolRounds": [[0.1, 1], [0.6, 2], [0.3, 3]],
-      "pool": [
-        {"weight": 0.7, "item": ["sb_tungsten_repair", 4]}
-      ]
-    }],
-    [2.9, {
-      "poolRounds": [[0.1, 1], [0.6, 2], [0.3, 3]],
-      "pool": [
-        {"weight": 0.65, "item": ["sb_titanium_repair", 4]},
-        {"weight": 0.65, "item": ["sb_platinum_repair", 4]},
-        {"weight": 0.05, "item": ["sb_diamond_repair", 1]}
-      ]
-    }],
-    [3.9, {
-      "poolRounds": [[0.1, 1], [0.6, 2], [0.3, 3]],
-      "pool": [
-        {"weight": 0.65, "item": ["sb_durasteel_repair", 4]},
-        {"weight": 0.05, "item": ["sb_diamond_repair", 1]}
-      ]
-    }],
-    [4.9, {
-      "poolRounds": [[0.1, 1], [0.6, 2], [0.3, 3]],
-      "pool": [
-        {"weight": 0.2, "item": ["sb_violium_repair", 3]},
-        {"weight": 0.2, "item": ["sb_aegisalt_repair", 3]},
-        {"weight": 0.2, "item": ["sb_rubium_repair", 3]},
-        {"weight": 0.2, "item": ["sb_ferozium_repair", 3]},
-        {"weight": 0.1, "item": ["sb_diamond_repair", 2]}
-      ]
-    }],
-    [5.9, {
-      "poolRounds": [[0.1, 1], [0.6, 2], [0.3, 3]],
-      "pool": [
-        {"weight": 0.5, "item": ["sb_solarium_repair", 2]},
-        {"weight": 0.5, "item": ["sb_cerulium_repair", 2]}
-      ]
-    }]
-  ],
-
   "sb_liquidtentaclejuice": [
     [0, {
       "pool": [
