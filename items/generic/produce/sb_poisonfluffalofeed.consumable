@@ -5,7 +5,7 @@
   "category": "food",
   "foodValue": 5,
   "inventoryIcon": "sb_poisonfluffalofeed.png",
-  "tooltipKind": "sb_object",
+  "tooltipKind": "sb_object4",
   "description": "This poison-resistant fruit naturally grows under the fur of poison fluffalos.",
   "shortdescription": "Poison Pear",
   "effects": [[{

@@ -5,7 +5,7 @@
   "category": "food",
   "foodValue": 5,
   "inventoryIcon": "sb_fluffalofeed.png",
-  "tooltipKind": "sb_object",
+  "tooltipKind": "sb_object4",
   "description": "This trauma-resistant nut naturally grows under the fur of common fluffalos.",
   "shortdescription": "Ordinary Acorn",
   "effects": [[{

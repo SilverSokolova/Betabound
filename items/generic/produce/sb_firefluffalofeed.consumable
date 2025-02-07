@@ -5,7 +5,7 @@
   "category": "food",
   "foodValue": 5,
   "inventoryIcon": "sb_firefluffalofeed.png",
-  "tooltipKind": "sb_object",
+  "tooltipKind": "sb_object4",
   "description": "This heat-resistant fruit naturally grows under the fur of fire fluffalos.",
   "shortdescription": "Blazing Berry",
   "effects": [[{
