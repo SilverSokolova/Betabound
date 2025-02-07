@@ -2,9 +2,105 @@
   "author" : "Silver Sokolova",
   "description" : "[b]Betabound[/b] is a [b]base-game enhancement mod[/b] which adds tons of content consistent with the Starbound vision throughout the entire game-- from beginning to end! Although Betabound certainly has a strong presence throughout the game, it is [b]not[/b] an overhaul mod and will never outright replace content from Starbound. [b]Betabound is present, but not overwhelming.[/b]\n\nFrom the smallest quality of life changes to brand-new content, Betabound is a treasure trove of Starbound content!\n\n\n• New mining tools! Craft them and mine, but keep an eye on their durability bar! You can use ores to repair your tools.\n• New quests! Visit the Outpost and help it grow by helping those in need!\n• Enhance your ship by crafting! More fuel, faster non-FTL travel, reduced fuel costs!\n• Powerful food items which bestow useful status effects and instantly restore health and energy!\n• Unique biome-themed weapons to add spice to your universe!\n• New objects to decorate with!\n• New resources with new uses! Alien Seaweed, for example, is used to make an item to keep food fresh while in the inventory.\n• New tech for all existing tech slots... and a new tech slot!\n\n[url=https://discord.gg/5Xpc5VwnMx][img]https://i.imgur.com/jFMk4n0.png[/img][/url]\n\n[h1]Wanna see what the new update did? [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2010607826]Click here![/url]\nAlso make sure to check out the [b][url=https://steamcommunity.com/workshop/filedetails/?id=3172121173]Recommended Mods For Betabound[/url][/b] collection![/h1]\nWant Spawnable Item Pack to show Betabound items? [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2295935729]Get the patch here![/url]\nA trypophobia patch exists! [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2496201241]This is where you can get it![/url]\n\n\n[Q] Other mods focusing on beta content exist. Why should I use Betabound?\n[A] Unlike those mods, Betabound asks and answers \"What would it look like if it actually got finished?\"\n\n[Q] Does Betabound replace vanilla content?\n[A] [b]No.[/b] Betabound and vanilla content are seamlessly integrated with each other, offering an experience that any Starbound player can enjoy regardless if they've played the original beta.\n\n[Q] Can I use (mod) with this mod?\n[A] [b]Yes! Betabound is highly compatible with most mods.[/b]\n\n[Q] Are there any mods that are redundant when Betabound is installed, and should I be concerned?\n[A] Betabound works quite well even when redundant mods are installed, so [b]there is no urgent need to remove any redundant mods[/b] you may have. However, it may be wise to check out the [url=https://steamcommunity.com/workshop/filedetails/discussion/2010607826/4357873056144718990/]Redundant Mods List[/url]. Bear in mind that some mods may only be partially redundant and still offer unique experiences.\n\nMany people have helped to create Betabound. [url=https://github.com/SilverSokolova/Betabound/blob/dev/CREDITS.md]Please view the credits here and show your support![/url]",
   "friendlyName" : "^shadow;Betab^#ff0;¤^clear;.^reset,shadow;und!",
-  "includes" : ["EES", 
-  "Extended GUI", //test comment
-  "ggn_interface", "bk3k_inventory_reskin", "bk3k_inventory_reskin1", "bk3k_inventory", "xrc_mccreepers", "xrc_transmutationmatrix", "XRC_BETA_STARBOUND:LECTERNS", "XRC_BETA_STARBOUND:RADIO", "XRC_BETA_STARBOUND:LADDERS", "XRC_BETA_STARBOUND:REPAIRTOOLS", "shattered_alchemy", "xrc_cursors", "Starbound++", "FrackinUniverse", "hebiohime's Armor Augments", "Augment Slots for Armor", "Manipulated UI", "StardustLib", "QuickBarMini", "QuickbarMini", "moremmupgrades", "WeaponAssembly", "StardustLibPost", "Improved Food Descriptions", "Improved Food Descriptions [Addon]", "serverDice", "FrackinXmas", "sup_overhaul", "Universal Uncrafter v1.46", "MoreFarming", "Shellguard Expansion ", "shoggothracemod", "AnomsOutpostOverhual", "More Outpost Objects", "MorePlanetInfo", "No Food Block", "StarTech", "joboffers", "Combinable Augments", "XRC_GROWINGTRAYS", "TabulaRasa", "WEdit", "RecipeMaster", "Useful Back Items", "IdleFactories", "GardenBot2", "MMConfigurator", "Item Frame v1.3", "FUExGUIPatch", "vanta-race", "Automatic Mining Augment - Compatible Arcana FU", "Matter Duplicator", "Ground Seeders", "FrackinUnicerst", "zcrab_unsealtradingcrates", "Enhanced Storage", "Improved Containers", "The Starforge v1.0", "The Starforge", "Augment Extractor", "OceanicWorldsCaveRework", "InstaUrsa", "Weapon Stats", "XRC_ShowWeaponLevels", "SmallImprovements", "Terrain_Improvements", "Project Redemption", "Tech Additions", "bk3k_techHelper", "Bug Spawn Improvement", "survivalresourcesmod", "pat_techremover", "StarburstRework", "Anter583_flashlightButtons_replacer", "Npc_Drops_Gear", "NoChuckleSplash", "Sandbox", "A.V.I.A.N.", "Quantum Stable Item Frames", "QuickStackGun", "bk3k_Techs", "Base Tech Rebalance", "fl_planetsearch"],
+  "includes" : [
+    //UNKNOWN
+      "xrc_transmutationmatrix", //Don't they already know about our items?
+      "Extended GUI", //Is this to prevent the C menu from breaking?
+      "ggn_interface", //wtf is this
+      "hebiohime's Armor Augments", "Augment Slots for Armor", //Since we use a buildscript to check augmentability, we don't need this?
+      "Weapon Stats", //I don't think we did anything with this includes
+      "AnomsOutpostOverhual", //this mod use to replace the outpost shop teleporter, meaning we'd have to patch our NPC's into that, but does it still do that? if so, get in touch with author
+      "Npc_Drops_Gear",
+
+
+    //ADD
+      //Add recipes to scripted station
+        "MoreFarming", //We make some vanilla objects into cooking stations. They make some of the same into scripted stations. We test for their changes to avoid overwriting
+        "StarTech",
+      
+      //MM UI replacers. We patch our MM UI changes into their copies
+        "Manipulated UI", "StardustLib", "QuickBarMini", "QuickbarMini", "StardustLibPost",
+
+      "EES", //1790667104 Add items to research list
+      "shattered_alchemy", //Add items to bag whitelist
+      "Shellguard Expansion ", //Add suit tech item to shop
+      "No Food Block", //Add our wellfed healthboost effect to theirs
+      "WEdit", //Add building items to list
+      "RecipeMaster", //Add crafting station names to list
+      "Universal Uncrafter v1.46", //Add items to procedural weapon uncrafting list
+      "Improved Food Descriptions", //Add status effects to list
+      "fl_planetsearch", //3269792617 Planet Search - Add biomes and dungeons to list
+      "MorePlanetInfo", //Add our ores, biomes, and dungeons. Also test to add an additional ore row is not present
+      "The Starforge v1.0", "The Starforge", //Add rubium to T5 ore caches. The "v1.0" include is in case they fix the internal name
+      "WeaponAssembly", //Allow operation on our weapons
+      "shoggothracemod", //Add our food items to their pool
+      "QuickStackGun", //Add objects to list
+      "joboffers", //Add their recipes to appropriate crafting group
+      "Combinable Augments", //Add to list of known augments/collars
+      "Augment Extractor", //Same as Combinable Augments
+      "XRC_GROWINGTRAYS", //Add items to fertilizer list
+      "Useful Back Items", //Add ours to auto-mine list
+      "IdleFactories", //Add items to output list
+      "GardenBot2", //Add ores to list. Swap diamond for diamond ore
+      "MMConfigurator", //Add new conditions to item checks
+      "Item Frame v1.3", //Use our pallete swap code for our weapons
+      "Quantum Stable Item Frames", //3130002733 - Same as Item Frame
+      "zcrab_unsealtradingcrates", //unseal trading crates - Add items to pool
+      "Enhanced Storage", //Add items to manipulatable container list
+      "Improved Containers", //Since we check via Lua, do we need this?
+      "OceanicWorldsCaveRework", //Add ores to biome
+
+    //MISC
+      "InstaUrsa", //749395210 - We also change the order of Ursa Miner
+
+      
+    //CHANGE
+      "xrc_mccreepers", //Change mob drop
+      "pat_techremover", //2507851821 Remove and Unequip Tech - Move their buttons and replace one
+      "moremmupgrades", //Don't think we need this since we check via Lua. Couldnt find non-Lua check
+      "Bug Spawn Improvement", //957164903 - We add a new bug to gardens so up their select from 3 to 4
+
+
+    //FIX
+      "Improved Food Descriptions [Addon]", //We want there to be no stack limit on food, not 1000
+      "bk3k_inventory_reskin", "bk3k_inventory_reskin1", "bk3k_inventory", //These overwrite bag configs. We want durability bars to be shown at all times
+    
+    
+    //CRASH FIX
+      "Anter583_flashlightButtons_replacer", //2283726885 Flashlight Buttons (Replacer) - They also replace mining lantern ID
+
+
+    //MODS THAT BREAK THINGS OR REPLACE FILES
+      //Breaks tech menu
+        "Tech Additions", //1131820988 - New script overwrites original script, undoing hooks
+        "Base Tech Rebalance", //1122864845 - Same as Tech Addition's
+        "bk3k_techHelper", //1279678818 - Overwrites populateTechList
+        "bk3k_Techs", //772812959 bk3k's More Powerful Techs - Incorporates bk3k_techHelper library mod instead of having it as download
+      
+      "Starbound++",
+      "FrackinUniverse", //Every bad modding practice ever + we add some recipes
+      "serverDice", //Does not hook CommandProcessor
+      "FrackinXmas", //Bad patches
+      "sup_overhaul", //1595801436 Supper's Combat Overhaul - Bad patches
+      "Terrain_Improvements", //820860996 Dramatic Terrain - Resets ore images
+      "Project Redemption", //TODO: does this still mess with stuff? It had some file overwrites. Lootpools, TT recipes, and more
+      "vanta-race", //Breaks codices
+      "survivalresourcesmod", //2947956631 Revert player animation changes
+      "StarburstRework", //Replaces weather pools + replaces copper/silver/gold ore icons
+      "A.V.I.A.N.", //753790671 A.V.I.A.N. - Replaces radiomessage files
+      "FUExGUIPatch", //"Priority fix for C menu" Could you be a bit more descriptive? (Reintroduces FU bug)
+      "SmallImprovements", //741310748 Small Improvements (for 1.3.X only), 1770003616 Small Improvements 1.4 Edition - Uses replace ops to reset values, overwrites liquid files, ham/tentacle unlocks
+      "NoChuckleSplash", //1772263578 No Chucklefish Intro Splash 1.4 - This should fix infinite loading?
+      "Sandbox", //1644335760 - Replaces blueprint unlocks
+
+    //BETABOUND STANDALONES
+      "XRC_BETA_STARBOUND:LECTERNS",
+      "XRC_BETA_STARBOUND:RADIO",
+      "XRC_BETA_STARBOUND:LADDERS",
+      "XRC_BETA_STARBOUND:REPAIRTOOLS",
+      "xrc_cursors",
+      "XRC_ShowWeaponLevels" //Ours does other stuff
+  ],
   "link" : "steam://urlCommunityFilePage/2010607826",
   "name" : "XRC_BETA_STARBOUND",
   "scripts" : {
@@ -13,5 +109,5 @@
   "steamContentId" : "2010607826",
   "steamTitle" : "Betabound!",
   "tags" : "Crafting and Building|Miscellaneous|Planets and Environments|Musical Instruments and Songs|NPCs and Creatures|Weapons|Quests|Dungeons|Ships|User Interface|Furniture and Objects|Character Improvements|Food and Farming|In-Game Tools|Mechanics|Vehicles and Mounts|Armor and Clothes",
-  "version" : "15.0.1"
+  "version" : "15.0.3"
 }
