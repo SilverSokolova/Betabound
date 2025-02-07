@@ -5,7 +5,7 @@
   "category": "food",
   "foodValue": 5,
   "inventoryIcon": "sb_electricfluffalofeed.png",
-  "tooltipKind": "sb_object",
+  "tooltipKind": "sb_object4",
   "description": "This electricity-resistant fruit naturally grows under the fur of electric fluffalos.",
   "shortdescription": "Electric Eggplant",
   "effects": [[{

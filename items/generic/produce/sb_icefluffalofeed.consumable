@@ -5,7 +5,7 @@
   "category": "food",
   "foodValue": 5,
   "inventoryIcon": "sb_icefluffalofeed.png",
-  "tooltipKind": "sb_object",
+  "tooltipKind": "sb_object4",
   "description": "This frost-resistant fruit naturally grows under the fur of ice fluffalos.",
   "shortdescription": "Frosty Fig",
   "effects": [[{
