@@ -94,8 +94,8 @@
     "/eval local p = root.assetJson('/player.config:defaultBlueprints') i=0 for a,b in pairs(p) do for c,d in pairs(b) do i=i+1 end end sb.logInfo(i)"
   ],
   "sb_greenscreensuit": [
-    "/spawnitem darkdisguisehead 1 '{\"directives\":\"?setcolor=0f0\",\"effectSources\":[]}]",
-    "/spawnitem darkdisguisechest 1 '{\"directives\":\"?setcolor=0f0\",\"effectSources\":[]}]",
-    "/spawnitem darkdisguiselegs 1 '{\"directives\":\"?setcolor=0f0\",\"effectSources\":[]}]"
+    "/spawnitem darkdisguisehead 1 '{\"directives\":\"?setcolor=0f0\",\"effectSources\":[]}",
+    "/spawnitem darkdisguisechest 1 '{\"directives\":\"?setcolor=0f0\",\"effectSources\":[]}",
+    "/spawnitem darkdisguiselegs 1 '{\"directives\":\"?setcolor=0f0\",\"effectSources\":[]}"
   ]
 }

@@ -46,7 +46,7 @@
   "sb_envprobeTreasure": [
     [0, {
       "pool": [
-        {"weight": 1, "pool": "salvageComponent"},
+        {"weight": 1, "pool": "smallRobotTreasure"},
         {"weight": 0.025, "item": "sb_envprobeaf"}
       ],
       "poolRounds": [
