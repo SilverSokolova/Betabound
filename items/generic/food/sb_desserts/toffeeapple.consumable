@@ -4,7 +4,6 @@
   "foodValue": 35,
   "tooltipKind": "sb_object",
   "rarity": "uncommon",
-  "handPosition": [-2.7, -2.6],
   "category": "preparedFood",
   "inventoryIcon": "toffeeapple.png",
   "effects": [[{
