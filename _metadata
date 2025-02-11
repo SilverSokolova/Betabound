@@ -85,6 +85,7 @@
       "Terrain_Improvements", //820860996 Dramatic Terrain - Resets ore images
       "Project Redemption", //TODO: does this still mess with stuff? It had some file overwrites. Lootpools, TT recipes, and more
       "vanta-race", //Breaks codices
+      "xcustomcodex", //2000211337 XCustomCodex - Breaks codices
       "survivalresourcesmod", //2947956631 Revert player animation changes
       "StarburstRework", //Replaces weather pools + replaces copper/silver/gold ore icons
       "A.V.I.A.N.", //753790671 A.V.I.A.N. - Replaces radiomessage files
