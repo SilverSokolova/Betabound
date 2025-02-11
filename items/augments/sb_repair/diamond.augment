@@ -3,9 +3,9 @@
   "price": 300,
   "tooltipKind": "sb_object",
   "rarity": "rare",
-  "category": "Tool",
+  "category": "tool",
   "tooltipFields": {
-    "subtitle": "Repair Tool"
+    "subtitle": "Repair Item"
   },
   "durabilityRegen": 240,
   "inventoryIcon": "diamond.png",

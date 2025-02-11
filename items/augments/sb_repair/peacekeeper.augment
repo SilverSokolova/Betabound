@@ -3,9 +3,9 @@
   "price": 60,
   "tooltipKind": "sb_object4",
   "rarity": "uncommon",
-  "category": "Tool",
+  "category": "tool",
   "tooltipFields": {
-    "subtitle": "Repair Tool"
+    "subtitle": "Repair Item"
   },
   "durabilityRegen": -375,
   "sb_repairType": "sb_battery-",

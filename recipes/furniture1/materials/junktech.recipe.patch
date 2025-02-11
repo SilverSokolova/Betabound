@@ -1,6 +1,0 @@
-[
-  [
-    {"op":"test","path":"/input/0/item","value":"ironbar"},
-    {"op":"replace","path":"/input/0/item","value":"sb_dreadwreckage"}
-  ]
-]
