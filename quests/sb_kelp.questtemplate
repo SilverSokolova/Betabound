@@ -2,7 +2,7 @@
   "id": "sb_kelp",
   "prerequisites": ["floran_mission2"],
   "title": "^green;The Grass is Greener",
-  "text": "Hi there. After the Floran drove the Hylotl into the ocean, we begun using kelp as a currency until we pixels became standardized. As it happens, I'm still partial for a debt I inherited. ^green;If you bring me ^orange;100 kelp ^green;from the bottom of an ocean planet, I'll give you a ^orange;console for crafting tech.",
+  "text": "Hi there. After the Floran drove the Hylotl into the ocean, we begun using kelp as a currency until pixels became standardized. As it happens, I'm still partial for a debt I inherited. ^green;If you bring me ^orange;100 kelp ^green;from the bottom of an ocean planet, I'll give you a ^orange;console for crafting tech.",
   "completionText": "Such beautiful kelp! You've outdone yourself. ^green;The ^orange;tech development console ^green;is yours.",
   "speaker": "questGiver",
   "moneyRange": [350, 450],
@@ -29,7 +29,7 @@
       "default": "questGiver"
     },
     "requireTurnIn": true,
-    "turnInDescription": "Speak to ^orange;the Hylotl survivor^reset; at the ^orange;outpost^reset;",
+    "turnInDescription": "Speak to ^orange;the hateful Hylotl^reset; at the ^orange;outpost^reset;",
     "conditions": [{
         "type": "gatherItem",
         "itemName": "kelp",
