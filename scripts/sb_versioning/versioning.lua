@@ -286,10 +286,14 @@ end
 
 --35, 6/FEB/2025: Changed repair tool names
 xrc0018[35]=function()
-  updateNote()
   local recipes = {"copper", "diamond", "titanium", "rubium"}
+  local gotNote = false
   for i = 1, #recipes do
     if player.blueprintKnown(string.format("sb_%s_repair", recipes[i])) then
+      if not gotNote then
+        updateNote()
+        gotNote = true
+      end
       player.giveBlueprint(string.format("sb_%srepairtool", recipes[i]))
     end
   end
