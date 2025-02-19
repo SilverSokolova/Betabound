@@ -11,6 +11,7 @@ end
 function containerCallback() --By the way, is this called if something other than a player takes an item?
   local item = world.containerItemAt(entity.id(), 0)
   if item then
+    hasPlateConfig = false
     itemConfig = root.itemConfig(item.name)
     directory = itemConfig.directory
     itemConfig = itemConfig.config
@@ -115,6 +116,7 @@ function containerCallback() --By the way, is this called if something other tha
 end
 
 function resetPlate()
+  hasPlateConfig = nil
   storage.flipped = false
   animator.resetTransformationGroup("item")
   animator.resetTransformationGroup("plate")
