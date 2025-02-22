@@ -1,4 +1,5 @@
 [
+  //This first list is of all the crops we use to have 'exotic' variants of before merging them with their vanilla counterparts. Do we need this?
   [{"op":"test","path":"/avesmingoHarvest/0/1/poolRounds","inverse":true},{"op":"add","path":"/avesmingoHarvest/0/1/poolRounds/-","value":[0.2,3]}],
   [{"op":"test","path":"/bananaHarvest/0/1/poolRounds","inverse":true},{"op":"add","path":"/bananaHarvest/0/1/poolRounds/-","value":[0.2,3]}],
   [{"op":"test","path":"/beakseedHarvest/0/1/poolRounds","inverse":true},{"op":"add","path":"/beakseedHarvest/0/1/poolRounds/-","value":[0.2,3]}],
@@ -11,5 +12,6 @@
   [{"op":"add","path":"/mushroomHarvest/0/1/pool/-","value":{"weight":0.11,"item":"mushroomseed"}}],
 
   [{"op":"test","path":"/coralcreepHarvest/0/1/pool/2/item","value":"plantfibre"},{"op":"replace","path":"/coralcreepHarvest/0/1/pool/2/item","value":"kelp"}],
-  [{"op":"test","path":"/reefpodHarvest/0/1/pool/2/item","value":"plantfibre"},{"op":"replace","path":"/reefpodHarvest/0/1/pool/2/item","value":"kelp"}]
+  [{"op":"test","path":"/reefpodHarvest/0/1/pool/2/item","value":"plantfibre"},{"op":"replace","path":"/reefpodHarvest/0/1/pool/2/item","value":"kelp"}],
+  [{"op":"test","path":"/bonebooHarvest/0/1/pool/2/item","value":"plantfibre"},{"op":"replace","path":"/bonebooHarvest/0/1/pool/2/item","value":"bone"}]
 ]
