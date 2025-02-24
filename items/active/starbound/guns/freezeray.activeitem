@@ -16,7 +16,7 @@
   "animation": "freezeray.animation",
   "animationParts": {
     "middle": "freezeray.png",
-    "middleFullbright": "freezeray.png?replace;e6e6e6=0000;b6b6b6=0000;7b7b7b=0000;373737=0000;676f83=0000;3d3d51=0000;24232f=0000",
+    "middleFullbright": "freezerayfb.png",
     "muzzleFlash": ""
   },
   "animationCustom": {
