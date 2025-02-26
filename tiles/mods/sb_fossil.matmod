@@ -2,7 +2,7 @@
   "modId" : 4403,
   "modName" : "sb_fossil",
   "itemDrop" : "fossilore",
-  "description" : "A fossil. I'll need a special tool to extract this.",
+  "description" : "A fossil. I'll need a ^orange;Fossil Extractor^reset; to extract this.",
   "health" : 0.5,
   "harvestLevel" : 100,
   "breaksWithTile" : false,
