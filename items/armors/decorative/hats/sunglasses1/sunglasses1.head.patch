@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":200}], //vanilla
+[{"op":"test","path":"/price","value":2500},{"op":"replace","path":"/price","value":200}], //patch project
+[{"op":"test","path":"/rarity","value":"Rare"},{"op":"replace","path":"/rarity","value":"uncommon"}]
+]
