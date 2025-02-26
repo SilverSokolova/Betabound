@@ -1,3 +1,6 @@
 [
-[{"op":"test","path":"/price","value":3000},{"op":"replace","path":"/price","value":300}]
+[{"op":"test","path":"/price","value":3000},{"op":"replace","path":"/price","value":300}],
+
+[{"op":"test","path":"/description","value":"A rock organ. A real stadium-filler."},
+{"op":"replace","path":"/description","value":"A real stadium-filler."}]
 ]

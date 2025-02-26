@@ -1,4 +1,7 @@
 [
 [{"op":"test","path":"/price","value":3000},{"op":"replace","path":"/price","value":300}],
-[{"op":"test","path":"/tooltipKind","value":"tool"},{"op":"replace","path":"/tooltipKind","value":"sb_tool"}]
+[{"op":"test","path":"/tooltipKind","value":"tool"},{"op":"replace","path":"/tooltipKind","value":"sb_tool"}],
+
+[{"op":"test","path":"/description","value":"A Glitch model M. With buckling spring mechanism from a more civilized age."},
+{"op":"replace","path":"/description","value":"The Glitch Model M features a buckling spring mechanism from a more civilised age."}]
 ]
