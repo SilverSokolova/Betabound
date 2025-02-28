@@ -12,7 +12,7 @@ end
 
 --dyes
 local files = assets.byExtension("augment")
-local path = "/betabound/dye.patch."
+local path = "/betabound/dye.patch"
 local dyePatch = assets.json("/items/generic/dyes/sb_dye.patch")
 
 local paletteSwapDirective = function(color)
