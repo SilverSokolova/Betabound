@@ -58,5 +58,14 @@
         "tags": ["generic", "friendly"]
       }
     }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb/outpost",
+      "value": {
+        "name": "research outpost",
+        "tags": ["generic", "friendly", "largespace"]
+      }
+    }
   ]
 ]
