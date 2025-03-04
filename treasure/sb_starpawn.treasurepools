@@ -73,7 +73,8 @@
     [0, {
       "pool" : [
         {"weight" : 1, "item" : "rottenfood"},
-        {"weight" : 1, "item" : "soggypaper"}
+        {"weight" : 1, "item" : "soggypaper"},
+        {"weight" : 1, "item" : "sb_dreadwreckage"}
       ],
       "poolRounds" : [
         [0.1, 2],

@@ -47,7 +47,7 @@
     [0, {
       "pool": [
         {"weight": 1, "pool": "smallRobotTreasure"},
-        {"weight": 0.025, "item": "sb_envprobeaf"}
+        {"weight": 0.015, "item": "sb_envprobeaf"}
       ],
       "poolRounds": [
         [1, 2],
@@ -62,7 +62,7 @@
         {"weight": 0.6, "pool": "noMeatMonsterTreasure"},
         {"weight": 0.4, "pool": "sb_heckbush"},
         {"weight": 0.2, "item": "sb_rawfleshlump"},
-        {"weight": 0.025, "item": "sb_heckblobaf"}
+        {"weight": 0.015, "item": "sb_heckblobaf"}
       ]
     }]
   ],
@@ -70,7 +70,7 @@
     [0, {
       "pool": [
         {"weight": 0.6, "pool": "largeRobotTreasure"},
-        {"weight": 0.025, "item": "sb_serpentdroidaf"}
+        {"weight": 0.015, "item": "sb_serpentdroidaf"}
       ]
     }]
   ],
@@ -78,7 +78,7 @@
     [0, {
       "pool": [
         {"weight": 0.6, "pool": "robotTreasure"},
-        {"weight": 0.025, "item": "sb_repairbotaf"}
+        {"weight": 0.015, "item": "sb_repairbotaf"}
       ]
     }]
   ],
