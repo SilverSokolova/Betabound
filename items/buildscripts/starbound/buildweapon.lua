@@ -284,7 +284,9 @@ function build(directory, config, parameters, level, seed)
 
   -- populate tooltip fields
   config.tooltipFields = config.tooltipFields or {}
-  config.tooltipFields.dyeLabel = config.sb_dyeable and "^gray;(Dyeable)" or ""
+  if not configParameter("sb_dyeable") then
+    config.tooltipFields.dyeLabel = ""
+  end
   config.tooltipFields.sb_levelLabel = "^shadow;Lvl "..string.format("%.0f",configParameter("level", 1))
   config.tooltipFields.sb_level2Label = "Lvl "..string.format("%.0f",configParameter("level", 1))
   local fireTime = parameters.primaryAbility.fireTime or config.primaryAbility.fireTime or 1.0
