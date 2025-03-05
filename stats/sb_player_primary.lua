@@ -52,22 +52,13 @@ function applyDamageRequest(damageRequest)
   if (world.getProperty("invinciblePlayers", false) or world.getProperty("nonCombat", false)) then return {} end
 
   --force field tech
-    if status.resource("sb_forceFieldStrength") > 0 and status.resourcePositive("energy") and not status.resourceLocked("energy") then --resourcePositive rounds or smth
+  if status.resource("sb_forceFieldStrength") > 0 and status.resourcePositive("energy") and not status.resourceLocked("energy") then --resourcePositive rounds or smth
     local forceFieldStrength = status.resource("sb_forceFieldStrength")
     local maxReduction = math.max(math.min(damageRequest.damage, (status.resource("energy")/1.5) * forceFieldStrength), 0)
     status.overConsumeResource("energy", maxReduction)
     damageRequest.damage = damageRequest.damage - maxReduction
     return originalApplyDamageRequest(damageRequest)
   end
-  --[[
-  if status.resource("sb_forceFieldStrength") > 0 and status.resourcePositive("energy") and not status.resourceLocked("energy") then --resourcePositive rounds or smth
-    local forceFieldStrength = status.resource("sb_forceFieldStrength")
-    local maxReduction = math.min(math.min(damageRequest.damage, (status.resource("energy")/2) * forceFieldStrength), 0)
-    status.overConsumeResource("energy", maxReduction)
-    damageRequest.damage = damageRequest.damage - maxReduction
-    player.say(damageRequest.damage)
-    return originalApplyDamageRequest(damageRequest)
-  end]]
 
   --shield tech
   if status.resourcePositive("sb_shieldStaminaT") then
