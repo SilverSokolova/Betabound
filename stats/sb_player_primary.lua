@@ -8,7 +8,6 @@ local originalOverheadBars = overheadBars or function() end
 function init() originalInit()
   player = math.betabound_player
   math.betabound_mcontroller = _ENV.mcontroller
-  sb_shieldAlpha = {0,0,0,0}
 
   sb_hungerPopups = root.assetJson("/betabound.config:hungerPopups")
   if sb_hungerPopups then
@@ -26,17 +25,6 @@ function update(dt) originalUpdate(dt)
   --reentry
   if not starExtensions then
     animator.setAnimationState("sb_flames", not player.isLounging() and not mcontroller.zeroG() and mcontroller.yVelocity() <= -170 and "flames" or "none")
-  end
-
-  --shields
-  if not status.resourcePositive("sb_shieldStaminaRegenBlockL") then
-    status.modifyResourcePercentage("sb_shieldStaminaL", status.stat("shieldStaminaRegen") * dt)
-    status.modifyResourcePercentage("sb_perfectBlockLimitL", status.stat("perfectBlockLimitRegen") * dt)
-  end
-
-  if not status.resourcePositive("sb_shieldStaminaRegenBlockR") then
-    status.modifyResourcePercentage("sb_shieldStaminaR", status.stat("shieldStaminaRegen") * dt)
-    status.modifyResourcePercentage("sb_perfectBlockLimitR", status.stat("perfectBlockLimitRegen") * dt)
   end
 
   --hunger
@@ -80,65 +68,19 @@ function applyDamageRequest(damageRequest)
     end
   end
 
-  --shields
-  if damageRequest.hitType ~= "ShieldHit" or damageRequest.sourceEntityId == -65536 then return originalApplyDamageRequest(damageRequest) end
-  local baseDamage = damageRequest.damage
-
-  damageRequest.damage = damageRequest.damage + root.evalFunction2("protection", damageRequest.damage, status.stat("protection")) / 4
-  if damageRequest.damage <= 0 then return {} end
-
-  if status.statPositive("sb_shieldHealthL") then
-    return sb_applyShieldDamage("L", damageRequest)
-  elseif status.statPositive("sb_shieldHealthR") then
-    return sb_applyShieldDamage("R", damageRequest)
-  else
-    damageRequest.damage = baseDamage
-    return originalApplyDamageRequest(damageRequest)
-  end
-end
-
-function sb_applyShieldDamage(hand,damageRequest)
-  if self.shieldHitInvulnerabilityTime == 0 then
-    local preShieldDamageHealthPercentage = damageRequest.damage / status.resourceMax("health")
-    self.shieldHitInvulnerabilityTime = status.statusProperty("shieldHitInvulnerabilityTime") * math.min(preShieldDamageHealthPercentage, 1.0)
-    if not status.resourcePositive("sb_perfectBlock"..hand) then
-      status.overConsumeResource("sb_shieldStamina"..hand, (damageRequest.damage/status.stat("sb_shieldHealth"..hand))/2)
-    end
-    world.sendEntityMessage(player.id(), "sb_applyShieldDamage"..hand)
-  end
-
-  status.setResourcePercentage("sb_shieldStaminaRegenBlock"..hand, 1.0)
-  damageRequest.damage = 0
-  return {}
+  return originalApplyDamageRequest(damageRequest)
 end
 
 function overheadBars()
   local bars = originalOverheadBars()
-  sb.setLogMap("sb_shields","%s (%s), %s (%s), %s",status.resource("sb_shieldStaminaL"),status.stat("sb_shieldHealthL"),status.resource("sb_shieldStaminaR"),status.stat("sb_shieldHealthR"),status.resource("sb_forceFieldStrength"))
-  sb.setLogMap("sb_techtier","%s",player and player.getProperty("sb_techTier","-") or "UNAVAILABLE")
+  sb.setLogMap("sb_shield", "%s/%s", status.resource("shieldStamina"), status.stat("shieldHealth"))
+  sb.setLogMap("sb_techtier","%s", player and player.getProperty("sb_techTier","-") or "UNAVAILABLE")
 
-  sb_shieldAlpha[1] = status.resourcePercentage("sb_shieldStaminaL") == 1 and math.max(0,sb_shieldAlpha[1]-15) or 255
-  sb_shieldAlpha[2] = status.resourcePercentage("sb_shieldStaminaR") == 1 and math.max(0,sb_shieldAlpha[2]-15) or 255
-  sb_shieldAlpha[3] = status.resourcePercentage("sb_shieldStaminaT") == 0 and math.max(0,sb_shieldAlpha[3]-15) or 255
-
-  if sb_shieldAlpha[1] > 0 or status.statPositive("sb_shieldHealthL") or status.resourcePercentage("sb_shieldStaminaL") < 1 then
-    bars[#bars+1] = {
-      icon = "/interface/sb_shieldL.png?multiply=FFFFFF"..string.format("%02X", sb_shieldAlpha[1]),
-      percentage = status.resource("sb_shieldStaminaL"),
-      color = {30, 121, status.resourcePositive("sb_perfectBlockL") and 255 or 188, sb_shieldAlpha[1]}
-    }
-  end
-  if sb_shieldAlpha[2] > 0 or status.statPositive("sb_shieldHealthR") or status.resourcePercentage("sb_shieldStaminaR") < 1 then
-    bars[#bars+1] = {
-      icon = "/interface/sb_shieldR.png?multiply=FFFFFF"..string.format("%02X", sb_shieldAlpha[2]),
-      percentage = status.resource("sb_shieldStaminaR"),
-      color = {status.resourcePositive("sb_perfectBlockR") and 255 or 177, 42, 48, sb_shieldAlpha[2]}
-    }
-  end
-  if sb_shieldAlpha[3] > 0 or status.resourcePercentage("sb_shieldStaminaT") > 0 then
+ 
+  if status.resourcePercentage("sb_shieldStaminaT") > 0 then
     bars[#bars+1] = {
       percentage = status.resource("sb_shieldStaminaT"),
-      color = {106, 225, 255, sb_shieldAlpha[3]}
+      color = {106, 225, 255}
     }
   end
 
