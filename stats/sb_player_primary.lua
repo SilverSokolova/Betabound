@@ -11,13 +11,15 @@ function init() originalInit()
 
   sb_hungerPopups = root.assetJson("/betabound.config:hungerPopups")
   if sb_hungerPopups then
-    sb_lastHunger = math.floor(status.resourcePercentage("food")*100)
+    sb_lastHunger = math.floor(status.resourcePercentage("food") * 100)
     sb_lastHungerMessage = "d100"
-    sb_hungerBenchmarks = {2,5,10,15,25,50,75,100}
+    sb_hungerBenchmarks = {2, 5, 10, 15, 25, 50, 75, 100}
   end
 end
 
 function update(dt) originalUpdate(dt)
+--sb.setLogMap("sb_shield", "%s/%s%%", status.stat("shieldHealth"), status.resource("shieldStamina"))
+--sb.setLogMap("sb_techtier","%s", player and player.getProperty("sb_techTier","-") or "UNAVAILABLE")
   if not player then
     player = math.betabound_player
   end
@@ -50,13 +52,22 @@ function applyDamageRequest(damageRequest)
   if (world.getProperty("invinciblePlayers", false) or world.getProperty("nonCombat", false)) then return {} end
 
   --force field tech
+    if status.resource("sb_forceFieldStrength") > 0 and status.resourcePositive("energy") and not status.resourceLocked("energy") then --resourcePositive rounds or smth
+    local forceFieldStrength = status.resource("sb_forceFieldStrength")
+    local maxReduction = math.max(math.min(damageRequest.damage, (status.resource("energy")/1.5) * forceFieldStrength), 0)
+    status.overConsumeResource("energy", maxReduction)
+    damageRequest.damage = damageRequest.damage - maxReduction
+    return originalApplyDamageRequest(damageRequest)
+  end
+  --[[
   if status.resource("sb_forceFieldStrength") > 0 and status.resourcePositive("energy") and not status.resourceLocked("energy") then --resourcePositive rounds or smth
     local forceFieldStrength = status.resource("sb_forceFieldStrength")
     local maxReduction = math.min(math.min(damageRequest.damage, (status.resource("energy")/2) * forceFieldStrength), 0)
     status.overConsumeResource("energy", maxReduction)
     damageRequest.damage = damageRequest.damage - maxReduction
+    player.say(damageRequest.damage)
     return originalApplyDamageRequest(damageRequest)
-  end
+  end]]
 
   --shield tech
   if status.resourcePositive("sb_shieldStaminaT") then
@@ -73,10 +84,7 @@ end
 
 function overheadBars()
   local bars = originalOverheadBars()
-  sb.setLogMap("sb_shield", "%s/%s", status.resource("shieldStamina"), status.stat("shieldHealth"))
-  sb.setLogMap("sb_techtier","%s", player and player.getProperty("sb_techTier","-") or "UNAVAILABLE")
 
- 
   if status.resourcePercentage("sb_shieldStaminaT") > 0 then
     bars[#bars+1] = {
       percentage = status.resource("sb_shieldStaminaT"),

@@ -4,17 +4,7 @@
 [{"op":"test","path":"/statusControllerSettings/resources/food/maxValue","value":70},{"op":"replace","path":"/statusControllerSettings/resources/food/maxValue","value":100}],
 [{"op":"test","path":"/statusControllerSettings/resources/stunned","inverse":true},{"op":"add","path":"/statusControllerSettings/resources/stunned","value":{"baseValue":0}}],
 
-[{"op":"add","path":"/statusControllerSettings/stats/sb_shieldHealthL","value":{"baseValue":0}}],
-[{"op":"add","path":"/statusControllerSettings/stats/sb_shieldHealthR","value":{"baseValue":0}}],
-[{"op":"add","path":"/statusControllerSettings/resources/sb_shieldStaminaL","value":{"maxValue":1,"initialPercentage":1}}],
-[{"op":"add","path":"/statusControllerSettings/resources/sb_shieldStaminaR","value":{"maxValue":1,"initialPercentage":1}}],
 [{"op":"add","path":"/statusControllerSettings/resources/sb_shieldStaminaT","value":{"maxValue":1,"initialPercentage":0}}],
-[{"op":"add","path":"/statusControllerSettings/resources/sb_perfectBlockL","value":{"maxValue":1,"deltaValue":-1,"initialValue":0}}],
-[{"op":"add","path":"/statusControllerSettings/resources/sb_perfectBlockR","value":{"maxValue":1,"deltaValue":-1,"initialValue":0}}],
-[{"op":"add","path":"/statusControllerSettings/resources/sb_perfectBlockLimitL","value":{"maxValue":1,"initialPercentage":1}}],
-[{"op":"add","path":"/statusControllerSettings/resources/sb_perfectBlockLimitR","value":{"maxValue":1,"initialPercentage":1}}],
-[{"op":"add","path":"/statusControllerSettings/resources/sb_shieldStaminaRegenBlockL","value":{"maxValue":2,"deltaValue":-1,"initialPercentage":0}}],
-[{"op":"add","path":"/statusControllerSettings/resources/sb_shieldStaminaRegenBlockR","value":{"maxValue":2,"deltaValue":-1,"initialPercentage":0}}],
 [{"op":"add","path":"/statusControllerSettings/resources/sb_forceFieldStrength","value":{"baseValue":0}}],
 
 
