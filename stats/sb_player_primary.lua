@@ -54,7 +54,7 @@ function applyDamageRequest(damageRequest)
   --force field tech
   if status.resource("sb_forceFieldStrength") > 0 and status.resourcePositive("energy") and not status.resourceLocked("energy") then --resourcePositive rounds or smth
     local forceFieldStrength = status.resource("sb_forceFieldStrength")
-    local maxReduction = math.max(math.min(damageRequest.damage, (status.resource("energy")/1.5) * forceFieldStrength), 0)
+    local maxReduction = math.max(math.min(damageRequest.damage, (status.resource("energy")/2) * forceFieldStrength), 0)
     status.overConsumeResource("energy", maxReduction)
     damageRequest.damage = damageRequest.damage - maxReduction
     return originalApplyDamageRequest(damageRequest)
