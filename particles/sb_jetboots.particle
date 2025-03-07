@@ -12,10 +12,9 @@
     "approach": [0, 20],
     "fullbright": true,
     "timeToLive": 0.15,
-    "light": [0, 0, 0],
     "layer": "back",
     "variance": {
-      "initialVelocity": [0, 0],
+      "initialVelocity": [0.25, 0],
       "size": 2
     }
   }

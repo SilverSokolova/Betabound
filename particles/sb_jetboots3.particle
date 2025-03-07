@@ -14,7 +14,7 @@
     "timeToLive": 0.2,
     "layer": "back",
     "variance": {
-      "initialVelocity": [0, 0],
+      "initialVelocity": [0.25, 0],
       "size": 2
     }
   }

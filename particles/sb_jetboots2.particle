@@ -3,7 +3,7 @@
   "definition": {
     "type": "ember",
     "size": 1,
-    "color": [20, 20, 20, 255],
+    "color": [255, 109, 47, 255],
     "fade": 0.9,
     "destructionAction": "shrink",
     "destructionTime": 2,
@@ -12,10 +12,10 @@
     "approach": [0, 20],
     "fullbright": true,
     "timeToLive": 0.3,
-    "light": [179, 149, 107],
+    "light": [255, 149, 107, 10],
     "layer": "back",
     "variance": {
-      "initialVelocity": [0, 0],
+      "initialVelocity": [0.25, 0],
       "size": 2
     }
   }
