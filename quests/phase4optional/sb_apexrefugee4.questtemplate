@@ -29,8 +29,9 @@
     "requireTurnIn": true,
     "turnInDescription": "Speak to ^orange;the Apex refugee^reset; at the ^orange;outpost^reset;",
     "conditions": [{
-        "type": "gatherItem",
-        "itemName": "winningticket",
+        "description": "Beat ^orange;Mazebound 64^reset; to obtain a ^orange;Winning Ticket^reset;",
+        "type": "gatherTag",
+        "tag": "winningticket",
         "count": 1,
         "consume": true
       }

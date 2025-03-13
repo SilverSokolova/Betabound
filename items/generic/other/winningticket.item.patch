@@ -1,5 +1,6 @@
 [
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
 [{"op":"test","path":"/itemTags","inverse":true},{"op":"add","path":"/itemTags","value":[]}],
-[{"op":"add","path":"/itemTags/-","value":"sb_copybook"}]
+[{"op":"add","path":"/itemTags/-","value":"sb_copybook"},
+{"op":"add","path":"/itemTags/-","value":"winningticket"}]
 ]
