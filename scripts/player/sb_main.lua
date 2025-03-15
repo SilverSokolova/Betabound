@@ -93,7 +93,7 @@ function init()
 
   message.setHandler("/sb_showhunger", function(_, fromSelf)
     if interface and fromSelf then
-      interface.queueMessage(string.format(root.assetJson("/betabound.config:showHunger"), math.floor(status.resource("food")).."/"..math.floor(status.resourceMax("food"))))
+      interface.queueMessage(string.format(root.assetJson("/betabound.config:showHunger"), math.floor(status.resource("food")).."/"..math.floor(status.resourceMax("food"))), 4, 0.5)
     end
   end)
 end
