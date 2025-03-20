@@ -230,6 +230,7 @@
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_conehead"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_braincagehead"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_scraphead"}}],
+  [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"hottophathead"}}],
 
     //Food
   [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.03,"pool":"food"}}],

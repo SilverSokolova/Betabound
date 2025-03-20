@@ -795,6 +795,7 @@
         {"item":"pharaohhead","rarity":0.1},
         {"item":"shirtchest","rarity":0.1},
 
+        //costumes added/enabled by betabound
         {"item":"sb_cultisthead","rarity":0.1},
         {"item":"barrelhead","rarity":0.1},
         {"item":"barrelchest","rarity":0.1},
@@ -808,6 +809,7 @@
         {"item":"sb_oddhead","rarity":0.1},
         {"item":"sb_conehead","rarity":0.1},
         {"item":"sb_braincagehead","rarity":0.1},
-        {"item":"sb_scraphead","rarity":0.1}
+        {"item":"sb_scraphead","rarity":0.1},
+        {"item":"hottophathead","rarity":0.1}
 ]]]}]
 ]

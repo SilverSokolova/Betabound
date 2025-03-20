@@ -1,6 +1,6 @@
 [
 //utility
-,[{"op":"add","path":"/debugCommands/sb_punchy","value":"Usage /sb_punchy. Creates a DPS Target at the mouse cursor which ^#f00;is not^reset; attacked by companions/homing projectiles."}]
+[{"op":"add","path":"/debugCommands/sb_punchy","value":"Usage /sb_punchy. Creates a DPS Target at the mouse cursor which ^#f00;is not^reset; attacked by companions/homing projectiles."}]
 ,[{"op":"add","path":"/debugCommands/sb_evilpunchy","value":"Usage /sb_evilpunchy. Creates a DPS Target at the mouse cursor which ^#f00;is^reset; attacked by companions/homing projectiles."}]
 ,[{"op":"add","path":"/debugCommands/sb_gleap","value":"Usage /sb_gleap. Summons an enemy Gleap at the mouse cursor."}]
 ,[{"op":"add","path":"/debugCommands/sb_cultist","value":"Usage /sb_cultist. Summons an enemy NPC at the mouse cursor."}]
