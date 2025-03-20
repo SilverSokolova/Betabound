@@ -1,39 +1,17 @@
 {
   //Spawning entities
-  "sb_punchy": ["^#ff0,shadow;Spawned a Punchy at the location of the cursor.", "/spawnmonster punchy"],
-  "sb_evilpunchy": ["^#ff0,shadow;Spawned an enemy Punchy at the location of the cursor.", "/spawnmonster punchy 1 '{\"damageTeamType\":\"enemy\"}'"],
-  "sb_gleap": ["^#ff0,shadow;Spawned a Gleap at the location of the cursor.", "/spawnmonster gleap"],
-  "sb_cultist": ["^#ff0,shadow;Spawned a cultist at the location of the cursor.", "/spawnnpc human cultist"],
-  "sb_npc": ["^#ff0,shadow;Spawned an NPC at the location of the cursor.", "/spawnnpc human villager"],
-  "sb_bunny": ["^#ff0,shadow;Spawned a bunny at the location of the cursor.", "/spawnmonster bunnycritter"],
-  "sb_fish": ["^#ff0,shadow;Spawned a fish at the location of the cursor.", "/spawnmonster fish"],
+  "sb_evilpunchy": ["/spawnmonster punchy 1 '{\"damageTeamType\":\"enemy\"}'"],
 
   //Utility
-  "sb_copyobject": ["/entityeval if object then world.spawnItem(object.name(),object.position(),1,config.getParameter(\"\")) return object.name() else return \"Couldn't find an object at the cursor.\" end"],
-  "sb_copynpc": ["/entityeval if npc then local tnme = npc.humanoidIdentity().name world.spawnItem({name=\"spawnerwizard\",count=5,parameters={shortdescription=tnme..\" Spawner\",spawner={npcTypeOptions={npc.npcType()},npcSpeciesOptions={npc.species()},npcParameterOptions={{identity=npc.humanoidIdentity()}}}}},entity.position()) return tnme end return \"Can't find NPC.\""],
   "sb_lootpool": ["/entityeval if object then object.say(object.name()..'\\n'..math.floor(entity.position()[1])..', '..math.floor(entity.position()[2])..'\\n'..config.getParameter('treasurePools',{''})[1]) return config.getParameter('treasurePools') end"],
-  "sb_printable": ["/entityeval object and object.name().. \" - \"..tostring(root.itemConfig(object.name()).config.printable)"],
-  "sb_numbers": ["/entityeval if not world then return end for n=0,9 do world.spawnItem('number'..n,entity.position(),99) end"],
-  "sb_dyes": [
-    "/spawnitem dyeremover 30 '{\"sb_reusable\":false,\"rarity\":\"rare\"}",
-    "/entityeval if not world then return end
-    i={'black','blue','brown','green','grey','sb_greyblue','sb_lightgrey','sb_limegreen','orange','pink','purple','red','sb_teal','white','yellow'}
-    for n=1,#i do world.spawnItem(i[n]..'dye',entity.position(),30,{sb_reusable=false,rarity='rare'}) end"
-  ],
   "sb_beamaxe": ["/spawnitem sb_beamaxe2 1 '{\"upgrades\":[\"size1\",\"size2\",\"size3\",\"range1\",\"range2\",\"range3\",\"power1\",\"power2\",\"power3\",\"liquidcollection\",\"paintmode\",\"wiremode\"],\"canCollectLiquid\":true,\"blockRadius\":5,\"tileDamage\":4.8,\"minBeamWidth\":8,\"minBeamJitter\":0.2}"],
-//"sb_repeatversioning": ["/run status.setStatusProperty('xrc_0018z',status.statusProperty('xrc_0018z')-1)"],
   "sb_kill": ["/entityeval if status then status.setResource('health',0) end"],
-
-  //Completion
-  "sb_tech": ["/entityeval if not world then return end local t=root.assetJson('/tech/starbound/tech.config') for i=1,#t do world.spawnItem('sb_tech',entity.position(),1,{techModule=t[i]}) end"],
-  "sb_music": ["/entityeval if not world then return end local music=root.assetJson('/collections/sb_music.collection').collectables for k,_ in pairs(music) do world.spawnItem('sb_musicsheet',entity.position(),1,{music=k}) end"],
-  "sb_actionfigures": ["/entityeval i = root.collectables(\"actionfigures\") for j = 1, #i do world.spawnItem(i[j].name,entity.position()) end"],
-  "sb_cookingrecipes": ["/entityeval local food = root.collectables('cooking') local recipes = {} for i = 1, #food do recipes[#recipes+1] = food[i].name end world.spawnItem('paper',entity.position(),1,{learnBlueprintsOnPickup=recipes,consumeOnPickup=true})"],
-
-  //Warping
-  "sb_home": ["/warp CelestialWorld:-161011021:-960048166:41000317:4=1448.1027"],
-  "sb_storage": ["/warp InstanceWorld:playerstation:21df53c9aade582dfc2b38e6a28b62f0:1=cba2e7459537ec44bcfced0ab0548c99"],
-  "sb_storage2": ["/warp InstanceWorld:playerstation:6f20604db8080bfa09f17a9cd667956b:1=2acb1e351639f3d2f738182d7f86c8a3"],
+  "sb_dyes": [
+    "/spawnitem dyeremover 30",
+    "/entityeval if world then
+    i={'black','blue','brown','green','grey','sb_greyblue','sb_lightgrey','sb_limegreen','orange','pink','purple','red','sb_teal','white','yellow'}
+    for n=1, #i do world.spawnItem(i[n]..'dye',entity.position(),30) end end"
+  ],
 
   //Progression
   "sb_human": ["/startquest '\"human_mission1\"'", "/completequest human_mission1"],
@@ -44,6 +22,7 @@
   "sb_glitch": ["/startquest '\"glitch_mission1\"'", "/completequest glitch_mission1", "/startquest '\"glitch_mission2\"'", "/completequest glitch_mission2"],
   "sb_story": ["/sb_human", "/sb_floran", "/sb_hylotl", "/sb_avian", "/sb_apex", "/sb_glitch"],
 
+  //TODO: move this to our debug mod and script it. strip numbers from the inputted tier for weapon levels. We already have this macro saved in our archival
   "sb_tier6kit": [
     "/enabletech sb_targetblink",
     "/enabletech sb_rocketboots",
@@ -77,22 +56,14 @@
   ],
 
   //Data Manipulation
-  "sb_repeatversioning": ["/run player.setProperty('betabound',sb.jsonMerge(player.getProperty('betabound',{}),{version=player.getProperty('betabound').version -1}))"],
-  "sb_resetversioning": ["/run player.setProperty('betabound',sb.jsonMerge(player.getProperty('betabound',{}),{version=0}))"], //Do not use this on characters you care about
   "sb_data": ["/run return sb.printJson(player.getProperty('betabound'), 1)"],
+  "sb_repeatversioning": ["/run player.setProperty('betabound',sb.jsonMerge(player.getProperty('betabound',{}),{version=player.getProperty('betabound').version -1}))"],
+  "sb_resetversioning": ["/run player.setProperty('betabound',sb.jsonMerge(player.getProperty('betabound',{}),{version=0}))"], //Do not use this on characters you care about (why?)
   "sb_resetship": ["/run local data = player.getProperty('betabound', {}) data.ship = nil data.shipUpgrades = nil player.setProperty('betabound', data)"],
 
   //Misc
   "sb_elliot": ["/spawnitem techlabscientistshop 1 '{\"shortdescription\":\"Questless Elliot\",\"offeredQuests\":[]}"],
-  "sb_biggy": ["/spawnitem penguinweaponshop 1 '{\"selectCount\":99}"],
   "sb_toggleevents": ["/entityeval if world then world.setProperty(\"sb_events\",not world.getProperty(\"sb_events\",true)) return \"Random events \"..(world.getProperty(\"sb_events\") and \"en\" or \"dis\")..\"abled for this world.\" else return \"Couldn't find an object at the cursor.\" end"],
-  "sb_checkblueprints": [
-    "^yellow;Printing default blueprints to the log...",
-    "/eval local p = root.assetJson('/player.config:defaultBlueprints') sb.logInfo(sb.printJson(p,1))",
-    "^yellow;Logging the last changes to player.config to the log...",
-    "/eval local p = root.assetJson('/player.config.patch') sb.logInfo(sb.printJson(p,1))",
-    "/eval local p = root.assetJson('/player.config:defaultBlueprints') i=0 for a,b in pairs(p) do for c,d in pairs(b) do i=i+1 end end sb.logInfo(i)"
-  ],
   "sb_greenscreensuit": [
     "/spawnitem darkdisguisehead 1 '{\"directives\":\"?setcolor=0f0\",\"effectSources\":[]}",
     "/spawnitem darkdisguisechest 1 '{\"directives\":\"?setcolor=0f0\",\"effectSources\":[]}",
