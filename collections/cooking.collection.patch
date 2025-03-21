@@ -71,6 +71,7 @@
 [{"op":"add","path":"/collectables/sb_weyene","value":{"order":120,"item":"sb_weyene"}}],
 [{"op":"add","path":"/collectables/sb_ricevinegar","value":{"order":121,"item":"sb_ricevinegar"}}],
 [{"op":"add","path":"/collectables/sb_ricewine","value":{"order":122,"item":"sb_ricewine"}}],
+[{"op":"add","path":"/collectables/sb_ricewine","value":{"order":122.9,"item":"sb_mulledfruitdrink"}}],
 [{"op":"add","path":"/collectables/sb_rootpopbottle","value":{"order":123,"item":"sb_rootpopbottle"}}],
 [{"op":"add","path":"/collectables/sb_rootpopflask","value":{"order":124,"item":"sb_rootpopflask"}}],
 [{"op":"add","path":"/collectables/sb_wartjuice","value":{"order":125,"item":"sb_wartjuice"}}],

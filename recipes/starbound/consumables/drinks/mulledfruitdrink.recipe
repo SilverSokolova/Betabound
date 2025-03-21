@@ -1,0 +1,6 @@
+{
+  "input": ["orange","banana","oculemon"],
+  "output": "sb_mulledfruitdrink",
+  "groups": ["craftingfood","drinks","sb_healing","sb_energy","sb_energyregen","sb_runboost","all"],
+  "collectables": {"cooking":"sb_mulledfruitdrink"}
+}
