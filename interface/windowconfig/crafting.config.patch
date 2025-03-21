@@ -1,3 +1,4 @@
+//If you're here to remove the weapon or armor tab, remember that some stations (ie the Heart Forge) use this config and has weapons and armor
 [
   //Fix pressedOffsets
   [{
