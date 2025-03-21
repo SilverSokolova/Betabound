@@ -1,0 +1,24 @@
+{
+  "itemName": "sb_capresesalad",
+  "price": 160,
+  "foodValue": 25,
+  "tooltipKind": "sb_object4",
+  "effects": [[{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 225
+      }, {
+        "effect": "sb_health",
+        "duration": 15
+      },
+      "sb_foodheal70"
+    ]],
+  "rarity": "Common",
+  "sb_plateHide": true,
+  "inventoryIcon": "capresesalad.png",
+  "category": "preparedFood",
+  "description": "A salad featuring small tomato chunks, lightly topped with shredded cheese.",
+  "shortdescription": "Caprese Salad",
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 2
+}

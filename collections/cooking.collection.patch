@@ -23,6 +23,7 @@
 [{"op":"add","path":"/collectables/sb_revoltingstew","value":{"order":48,"item":"sb_revoltingstew"}}],
 //[{"op":"add","path":"/collectables/sb_rottenapple","value":{"order":49,"item":"sb_rottenapple"}}],
 [{"op":"add","path":"/collectables/sb_toast","value":{"order":52,"item":"sb_toast"}}],
+[{"op":"add","path":"/collectables/sb_toast","value":{"order":55,"item":"sb_capresesalad"}}],
 
 [{"op":"add","path":"/collectables/sb_sweetmeat","value":{"order":70.9,"item":"sb_sweetmeat"}}],
 

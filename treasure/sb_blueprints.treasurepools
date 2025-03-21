@@ -99,7 +99,8 @@
     [0, {
       "pool" : [
         {"weight" : 0.1, "item" : "sb_musicsheet"},
-        {"weight" : 0.1, "item" : "sb_bananabread-recipe"}
+        {"weight" : 0.1, "item" : "sb_bananabread-recipe"},
+        {"weight" : 0.1, "item" : "sb_mulledfruitcider-recipe"}
       ],
       "poolRounds" : [
         [0.55, 1],

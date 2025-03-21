@@ -29,5 +29,5 @@
   "emitters": ["drinking"],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
-  "rottingMultiplier": 10
+  "rottingMultiplier": 2
 }
