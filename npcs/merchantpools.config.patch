@@ -300,6 +300,8 @@
 [{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_meatchunks"},"rarity":0.05}}],
 [{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_bananabread"},"rarity":0.05}}],
 [{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_bananabread-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_mulledfruitdrink"},"rarity":0.05}}],
+[{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_mulledfruitdrink-recipe"},"rarity":0.01}}],
 
   // ================
   //     Chef
