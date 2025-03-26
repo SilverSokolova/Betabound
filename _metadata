@@ -53,6 +53,7 @@
     //MISC
       "InstaUrsa", //749395210 - We also change the order of Ursa Miner
       "mazeboundTrophy", //2968045989 - Patch winningticket tag into item
+      "pat_collectionnumberer", //3130082417 - Change tooltip text
 
       
     //CHANGE

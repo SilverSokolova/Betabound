@@ -41,7 +41,28 @@
 
       "spaceScan": 0.1,
       "anchors": ["bottom"],
-      "collision": "platform"
+      "collision": "platform",
+
+      "direction": "left",
+      "flipImages": true
+    }, {
+      "imageLayers": [{
+          "image": "metalworkstation.png:<color>.<frame>",
+          "fullbright": true
+        }, {
+          "image": "metalworkstationlit.png:<color>.<frame>"
+        }
+      ],
+
+      "imagePosition": [-8, 0],
+      "frames": 5,
+      "animationCycle": 0.5,
+
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform",
+
+      "direction": "right"
     }
   ]
 }
