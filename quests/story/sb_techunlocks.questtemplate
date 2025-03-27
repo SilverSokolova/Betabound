@@ -30,8 +30,8 @@
       ["sb_groundsmash", "sb_rocketjump", "sb_boat"],
       ["sb_morphball", "sb_gravitybubble", "sb_lightrig", "skyrail"],
       ["sb_targetblink", "sb_ftlboost", "sb_rocketboots"],
-      ["sb_bubbleboost", "sb_energyregen", "sb_shield"],
-      ["sb_humanmech_NOTNOW", "sb_particlethrust", "sb_regeneration"]
+      ["sb_particlethrust", "sb_energyregen", "sb_shield"],
+      ["sb_bubbleboost", "sb_regeneration"] //also sb_humanmech if we ever implement it
     ]
   }
 }

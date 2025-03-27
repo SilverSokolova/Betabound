@@ -13,5 +13,5 @@
 
   "boostControlForce": 750,
   "boostSpeed": 30,
-  "energyUsagePerSecond": 70
+  "energyUsagePerSecond": 90
 }
