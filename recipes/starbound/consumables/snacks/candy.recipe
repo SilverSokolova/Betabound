@@ -1,6 +1,6 @@
 {
   "input": ["sugar"],
   "output": ["sb_candy",3],
-  "groups": ["craftingfood","desserts","sb_healing","sb_energy","sb_t1food","all"],
+  "groups": ["craftingfood","snacks","sb_healing","sb_energy","sb_t1food","all"],
   "collectables": {"cooking":"sb_candy"}
 }

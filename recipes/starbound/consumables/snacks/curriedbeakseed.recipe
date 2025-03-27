@@ -1,6 +1,6 @@
 {
   "input": ["beakseed","chili"],
   "output": "sb_curriedbeakseed",
-  "groups": ["craftingfood","mains","sb_jumpboost","sb_healing","sb_nova","sb_other","sb_t1food","all"],
+  "groups": ["craftingfood","snacks","sb_jumpboost","sb_healing","sb_nova","sb_other","sb_t1food","all"],
   "collectables": {"cooking":"sb_curriedbeakseed"}
 }

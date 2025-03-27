@@ -1,6 +1,6 @@
 {
   "input": ["crystalplant","seaweed"],
   "output": "sb_crystalchips",
-  "groups": ["craftingfood","sides","sb_healing","sb_glow","sb_t1food","all"],
+  "groups": ["craftingfood","snacks","sb_healing","sb_glow","sb_t1food","all"],
   "collectables": {"cooking":"sb_crystalchips"}
 }
