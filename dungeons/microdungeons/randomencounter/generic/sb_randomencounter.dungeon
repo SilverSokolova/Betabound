@@ -12,7 +12,7 @@
       "name": "farm",
       "rules": [],
       "def": ["tmx", "sb_farm.json"],
-      "chance": 0.8
+      "chance": 1
     }, {
       "name": "wreck",
       "rules": [],
