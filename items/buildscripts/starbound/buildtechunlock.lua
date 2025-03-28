@@ -2,7 +2,8 @@ require("/scripts/sb_assetmissing.lua")
 
 function build(_, config, parameters, level); 
   sb_techType()
-  parameters.techModule = isTech(parameters.techModule or randomTech(nil, math.max(math.floor(level or 1), 1)))
+  level = math.max(math.floor(level or 1), 1)
+  parameters.techModule = isTech(parameters.techModule or randomTech(level), level)
   local tech = root.techConfig(parameters.techModule)
   local inheritedParameters = config.inheritedParameters
   for i = 1, #inheritedParameters do
@@ -21,13 +22,12 @@ function build(_, config, parameters, level);
   return config, parameters
 end
 
-function isTech(tech)
-  return root.hasTech(tech) and tech or isTech(randomTech(tech))
+function isTech(tech, level)
+  return root.hasTech(tech) and tech or root.assetJson("/versioning/sb_tech.config")[tech] or isTech(randomTech(level))
 end
 
 
-function randomTech(tech, level)
-  local techs = root.assetJson("/treasure/sb_tech.config")
-  techs = level and techs[tostring(level)] or techs["1"] --techs[tostring(math.random(2) == 1 and math.random(math.max(level - 1, 1)) or level)] or techs["1"]
-  return root.assetJson("/versioning/sb_tech.config")[tech] or techs[math.random(#techs)]
+function randomTech(level)
+  local tech = root.createTreasure("sb_tech", math.random(2) == 1 and math.random(math.max(level - 1, 1)) or level)[1]
+  return tech.parameters and tech.parameters.techModule or randomTech(level)
 end

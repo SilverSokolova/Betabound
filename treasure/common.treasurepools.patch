@@ -3,27 +3,27 @@
   [
     {"op":"test","path":"/basicTreasure/0/1/pool/7/item","value":"techcard"},
     {"op":"remove","path":"/basicTreasure/0/1/pool/7/item"},
-    {"op":"add","path":"/basicTreasure/0/1/pool/7/pool","value":"sb_tech"}
+    {"op":"add","path":"/basicTreasure/0/1/pool/7/pool","value":"sb_techcard"}
   ],
   [
     {"op":"test","path":"/valuableTreasure/0/1/pool/0/item","value":"techcard"},
     {"op":"remove","path":"/valuableTreasure/0/1/pool/0/item"},
-    {"op":"add","path":"/valuableTreasure/0/1/pool/0/pool","value":"sb_tech"}
+    {"op":"add","path":"/valuableTreasure/0/1/pool/0/pool","value":"sb_techcard"}
   ],
   [
     {"op":"test","path":"/valuableTreasure/1/1/pool/0/item","value":"techcard"},
     {"op":"remove","path":"/valuableTreasure/1/1/pool/0/item"},
-    {"op":"add","path":"/valuableTreasure/1/1/pool/0/pool","value":"sb_tech"}
+    {"op":"add","path":"/valuableTreasure/1/1/pool/0/pool","value":"sb_techcard"}
   ],
   [
     {"op":"test","path":"/valuableTreasure/2/1/pool/0/item","value":"techcard"},
     {"op":"remove","path":"/valuableTreasure/2/1/pool/0/item"},
-    {"op":"add","path":"/valuableTreasure/2/1/pool/0/pool","value":"sb_tech"}
+    {"op":"add","path":"/valuableTreasure/2/1/pool/0/pool","value":"sb_techcard"}
   ],
   [
     {"op":"test","path":"/valuableTreasure/3/1/pool/0/item","value":"techcard"},
     {"op":"remove","path":"/valuableTreasure/3/1/pool/0/item"},
-    {"op":"add","path":"/valuableTreasure/3/1/pool/0/pool","value":"sb_tech"}
+    {"op":"add","path":"/valuableTreasure/3/1/pool/0/pool","value":"sb_techcard"}
   ],
   
   [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.09,"pool":"sb_techchip"}}], //3x techcard
@@ -57,7 +57,6 @@
 //[{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.1,"item":"sb_tech"}}],
 //[{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.3,"item":"sb_tech"}}],
 
-  [{"op":"add","path":"/techChestTreasure/0/1/pool/-","value":{"weight":0.9,"item":"sb_tech"}}],
   [{"op":"add","path":"/techChestTreasure/0/1/pool/-","value":{"weight":0.9,"item":"sb_tech"}}],
   
   [{"op":"add","path":"/techTreasure/0/1/pool/-","value":{"weight":0.02,"item":"sb_tech"}}],

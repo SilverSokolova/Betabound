@@ -7,8 +7,8 @@
       ]
     }]
   ],
-  
-  "sb_tech": [
+
+  "sb_techcard": [
     [0, {
       "pool": [
         {"weight": 0.8, "item": "techcard"},
