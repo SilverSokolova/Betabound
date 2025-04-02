@@ -1,2 +1,5 @@
-function sb_cursor(n) if player.swapSlotItem()==nil then activeItem.setCursor("/cursors/"..n..".cursor") end end
-function uninit() activeItem.setCursor() end
+function sb_cursor(cursor)
+  if player.swapSlotItem() == nil then
+    activeItem.setCursor("/cursors/"..cursor..".cursor")
+  end
+end

@@ -1,8 +1,16 @@
 local originalInit = init or function() end
-function init() originalInit()
-  local t = player.equippedTech
-  t = {t("head"),t("body"),t("legs")}
-  for f = 1, 3 do if t[f] then if not root.hasTech(t[f]) then player.unequipTech(t[f]) end end end
+function init(); originalInit()
+  --Unequip any non-existent techs
+  local equippedTech = player.equippedTech
+  local slots = {"head", "body", "legs"}
+  for slot = 1, #slots do
+    local tech = equippedTech(slots[slot])
+    if tech then
+      if not root.hasTech(tech) then
+        player.unequipTech(tech)
+      end
+    end
+  end
 
   local currentVersion = 35
   if player.introComplete() then
