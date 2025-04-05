@@ -9,7 +9,7 @@
   "tooltipKind": "sb_tool",
   "largeImage": "/items/tools/sb_stonehoebig.png",
   "twoHanded": true,
-  "itemTags": ["tool"],
+  "itemTags": ["tool", "hoe"],
   "inventoryIcon": "sb_stonehoeicon.png",
   "animation": "/items/tools/miningtools/sb_miningtool.animation",
   "animationParts": {

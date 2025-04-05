@@ -138,3 +138,85 @@ function v.players()
   for i = 1, #clientIds do players = string.format("%s%s%s",players,universe.clientNick(clientIds[i]),"^reset;, ") end
   return string.format("%s player%s:\n%s",universe.numberOfClients(),s,players):sub(1,-3)
 end
+--[[
+function v.sb_sipAbilityMods()
+  local template = ',{"name":"sb_abilitymod","category":"sb_abilities","icon":"%s","shortdescription":"%s","rarity":"%s","parameters":{"ability":"%s"}}\n'
+  local abilities = root.assetJson("/sb_abilitymods.config:abilities")
+
+  local stringOutput = "\n"
+  local tableOutput = {}
+
+  for k, _ in pairs(abilities) do
+    local item = root.itemConfig({"sb_abilitymod", 1, {ability = k}}).config
+    tableOutput[#tableOutput + 1] = string.format(template, item.inventoryIcon[2].image, item.shortdescription, item.rarity, k):gsub("%^reset;", "")
+  end
+
+  table.sort(tableOutput, function(a, b)
+    local aQueryStart = a:find("shortdescription") + 19
+    local bQueryStart = b:find("shortdescription") + 19
+    return cutColors(a:sub(aQueryStart, a:find("\"", aQueryStart) - 1)) < cutColors(b:sub(bQueryStart, b:find("\"", bQueryStart) - 1)) end
+  )
+
+  for i = 1, #tableOutput do
+    stringOutput = stringOutput .. tableOutput[i]
+  end
+
+  sb.logInfo(stringOutput)
+  return #tableOutput
+end]]
+
+function v.sb_sip(_, category); category = category[1]
+  local templates = {
+    ability = ',{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"%s","shortdescription":"%s","rarity":"%s","parameters":{"ability":"%s"}}\n',
+    ammo = ',{"name":"sb_ammo","category":"sb_ammo","icon":"%s","shortdescription":"%s","rarity":"%s","parameters":{"projectileType":"%s"}}\n',
+    music = ',{"name":"sb_musicsheet","category":"sb_music","icon":"%s","shortdescription":"%s","rarity":"%s","parameters":{"music":"%s"}}\n'
+  }
+
+  if not templates[category] then
+    local output = ""
+    for k, _ in pairs(templates) do
+      output = output .. k .. " | "
+    end
+    return "Invalid item type. Valid types are: " .. output
+  end
+
+  local stringOutput = "\n"
+  local tableOutput = {}
+
+  if category == "ability" then
+    local abilities = root.assetJson("/sb_abilitymods.config:abilities")
+
+    for k, _ in pairs(abilities) do
+      local item = root.itemConfig({"sb_abilitymod", 1, {ability = k}}).config
+      tableOutput[#tableOutput + 1] = string.format(templates[category], item.inventoryIcon[2].image, item.shortdescription, item.rarity, k):gsub("%^reset;", "")
+    end
+  elseif category == "ammo" then
+    local ammo = root.assetJson("/sb_projectiles.config")
+
+    for k, _ in pairs(ammo) do
+      local item = root.itemConfig({"sb_ammo", 1, {projectileType = k}}).config
+      tableOutput[#tableOutput + 1] = string.format(templates[category], item.inventoryIcon[2].image, item.shortdescription, item.rarity, k):gsub("%^reset;", "")
+    end
+  elseif category == "music" then
+    local music = root.assetJson("/collections/sb_music.collection:collectables")
+
+    for k, _ in pairs(music) do
+      local item = root.itemConfig({"sb_musicsheet", 1, {music = k}}).config
+
+      tableOutput[#tableOutput + 1] = string.format(templates[category], item.inventoryIcon:sub(1, 1) == "/" and item.inventoryIcon or ("/items/generic/unlock/" .. item.inventoryIcon), item.shortdescription, item.rarity, k)
+    end
+  end
+
+  table.sort(tableOutput, function(a, b)
+    local aQueryStart = a:find("shortdescription") + 19
+    local bQueryStart = b:find("shortdescription") + 19
+    return cutColors(a:sub(aQueryStart, a:find("\"", aQueryStart) - 1)) < cutColors(b:sub(bQueryStart, b:find("\"", bQueryStart) - 1)) end
+  )
+
+  for i = 1, #tableOutput do
+    stringOutput = stringOutput .. tableOutput[i]
+  end
+
+  sb.logInfo(stringOutput)
+  return #tableOutput
+end

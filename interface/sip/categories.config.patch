@@ -1,0 +1,72 @@
+[
+  //combat
+  {
+    "op": "add",
+    "path": "/2/Combat:/-",
+    "value": {
+      "image": "/interface/sip/categories/captioned.png",
+      "selectedImage": "/interface/sip/categories/captionedselected.png",
+      "caption": "Weapon\nMods",
+      "categories": ["sb_weaponmods"]
+    }
+  }, {
+    "op": "add",
+    "path": "/2/Combat:/-",
+    "value": {
+      "image": "/interface/sip/categories/sb_ammo.png",
+      "selectedImage": "/interface/sip/categories/sb_ammoselected.png",
+      "categories": ["sb_ammo"]
+    }
+  }, {
+    "op": "add",
+    "path": "/2/Combat:/-",
+    "value": {
+      "image": "/interface/sip/categories/captioned.png",
+      "selectedImage": "/interface/sip/categories/captionedselected.png",
+      "caption": "Racial\nMelee",
+      "categories": ["sb_axes", "sb_broadswords", "sb_daggers", "sb_hammers", "sb_shortswords", "sb_spears"]
+    }
+  },
+
+  //equipment
+  {
+    "op": "add",
+    "path": "/3/Equipment:/-",
+    "value": {
+      "image": "/interface/sip/categories/sb_tech.png",
+      "selectedImage": "/interface/sip/categories/sb_techselected.png",
+      "categories": ["sb_tech"]
+    }
+  },
+
+  //items
+  {
+    "op": "add",
+    "path": "/4/Items:/-",
+    "value": {
+      "image": "/interface/sip/categories/sb_music.png",
+      "selectedImage": "/interface/sip/categories/sb_musicselected.png",
+      "categories": ["sb_music"]
+    }
+  },
+
+  //bulding
+  {
+    "op": "add",
+    "path": "/5/Building:/-",
+    "value": {
+      "image": "/interface/sip/categories/sb_ladder.png",
+      "selectedImage": "/interface/sip/categories/sb_ladderselected.png",
+      "categories": ["sb_ladders"]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/5/Building:/-",
+    "value": {
+      "image": "/interface/sip/categories/sb_clues.png",
+      "selectedImage": "/interface/sip/categories/sb_cluesselected.png",
+      "categories": ["sb_clues"]
+    }
+  }
+]
