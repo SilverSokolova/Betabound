@@ -1,0 +1,5 @@
+[
+{"path":"/objects/sb_ladders/","name":"sb_medievalladder","shortdescription":"Wooden Ladder","category":"sb_ladders","icon":"medievalladdericon.png"}
+,{"path":"/objects/sb_ladders/","name":"sb_copperladder","shortdescription":"Copper Ladder","category":"sb_ladders","icon":"copperladdericon.png"}
+,{"path":"/objects/sb_ladders/","name":"sb_modernladder","shortdescription":"Modern Ladder","category":"sb_ladders","icon":"modernladdericon.png"}
+]

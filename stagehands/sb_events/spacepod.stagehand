@@ -1,24 +1,24 @@
 {
-  "type" : "sb_spacepod",
+  "type": "sb_spacepod",
 
-  "scripts" : [
+  "scripts": [
     "/stagehands/sb_events/spacepod.lua"
   ],
-  "scriptDelta" : 10,
+  "scriptDelta": 10,
 
-  "podBounds" : [-2, -2, 2, 2],
+  "podBounds": [-2, -2, 2, 2],
 
-  "monsterSpawnChance" : 0.9,
-  "monsterSpawns" : [
-      { "monsterType" : "gleap", "count" : 3 },
-      { "monsterType" : "agrobat", "count" : 4 },
-      { "monsterType" : "yokat", "count" : 1 }
+  "monsterSpawnChance": 0.9,
+  "monsterSpawns": [
+      { "monsterType": "gleap", "count": 3 },
+      { "monsterType": "agrobat", "count": 4 },
+      { "monsterType": "yokat", "count": 1 }
   ],
 
-  "npcSpawns" : [
+  "npcSpawns": [
     {
-      "npcType" : "sb_spacecheesemerchant",
-      "species" : ["human", "apex", "floran", "glitch", "avian", "novakid", "hylotl"]
+      "npcType": "sb_spacecheesemerchant",
+      "species": ["human", "apex", "floran", "glitch", "avian", "novakid", "hylotl"]
     }
   ]
 }

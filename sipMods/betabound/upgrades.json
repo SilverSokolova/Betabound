@@ -1,0 +1,15 @@
+[
+//crafting
+{"icon":"/items/generic/unlock/sb_techupgrade1.png","name":"sb_techupgrade1","shortdescription":"^#ff0;Metalworking Upgrade^reset;","category":"upgrade","rarity":"essential"}
+,{"icon":"/items/generic/unlock/sb_techupgrade2.png","name":"sb_techupgrade2","shortdescription":"^#ff0;Compounding Upgrade^reset;","category":"upgrade","rarity":"essential"}
+
+//ship
+,{"icon":"/items/generic/celestial/sb_shipengine.png","name":"sb_maxfuel1","shortdescription":"^#ff0;Fuel Tank MK2^reset;","category":"upgrade","rarity":"legendary"}
+,{"icon":"/items/generic/celestial/sb_shipengine.png","name":"sb_maxfuel2","shortdescription":"^#ff0;Fuel Tank MK3^reset;","category":"upgrade","rarity":"legendary"}
+,{"icon":"/items/generic/celestial/sb_shipengine.png","name":"sb_maxfuel3","shortdescription":"^#ff0;Fuel Tank MK4^reset;","category":"upgrade","rarity":"legendary"}
+
+,{"icon":"/items/generic/celestial/sb_shipengine.png","name":"sb_shipspeed1","shortdescription":"^#ff0;Thruster MK2^reset;","category":"upgrade","rarity":"legendary"}
+,{"icon":"/items/generic/celestial/sb_shipengine.png","name":"sb_shipspeed2","shortdescription":"^#ff0;Thruster MK3^reset;","category":"upgrade","rarity":"legendary"}
+
+,{"icon":"/items/generic/celestial/sb_shipengine.png","name":"sb_fuelefficiency1","shortdescription":"^#ff0;Fuel Carborator MK2","category":"upgrade","rarity":"legendary"}
+]

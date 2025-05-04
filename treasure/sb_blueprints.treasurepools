@@ -2,7 +2,6 @@
  "sb_avianBlueprints" : [
     [0, {
       "pool" : [
-        {"weight" : 0.1, "item" : "sb_musicsheet"},
         {"weight" : 0.1, "item" : "sb_poachedavesmingo-recipe"},
         {"weight" : 0.1, "item" : "sb_crowncake-recipe"},
         {"weight" : 0.1, "item" : "sb_cordialglass-recipe"},
@@ -30,7 +29,6 @@
   "sb_glitchBlueprints" : [
     [0, {
       "pool" : [
-        {"weight" : 0.1, "item" : "sb_musicsheet"},
         {"weight" : 0.1, "item" : "sb_blackcurrentcrumble-recipe"},
         {"weight" : 0.1, "item" : "sb_copperkeypie-recipe"},
         {"weight" : 0.1, "item" : "sb_sweettime-recipe"},
@@ -50,7 +48,6 @@
  "sb_humanBlueprints" : [
     [0, {
       "pool" : [
-        {"weight" : 0.1, "item" : "sb_musicsheet"},
         {"weight" : 0.1, "item" : "sb_applepie-recipe"},
         {"weight" : 0.1, "item" : "sb_candy-recipe"},
         {"weight" : 0.1, "item" : "sb_icecream-recipe"},
@@ -76,7 +73,6 @@
   "sb_floranBlueprints" : [
     [0, {
       "pool" : [
-        {"weight" : 0.1, "item" : "sb_musicsheet"},
         {"weight" : 0.1, "item" : "sb_pussplumpie-recipe"},
         {"weight" : 0.1, "item" : "sb_boneboomarrow-recipe"},
         {"weight" : 0.1, "item" : "sb_meatandmarrow-recipe"},
@@ -98,7 +94,6 @@
   "sb_apexBlueprints" : [
     [0, {
       "pool" : [
-        {"weight" : 0.1, "item" : "sb_musicsheet"},
         {"weight" : 0.1, "item" : "sb_bananabread-recipe"},
         {"weight" : 0.1, "item" : "sb_mulledfruitdrink-recipe"}
       ],
@@ -114,7 +109,6 @@
   "sb_hylotlBlueprints" : [
     [0, {
       "pool" : [
-        {"weight" : 0.1, "item" : "sb_musicsheet"},
         {"weight" : 0.1, "item" : "sb_dirtea-recipe"},
         {"weight" : 0.1, "item" : "sb_ricewine-recipe"},
         {"weight" : 0.1, "item" : "sb_whiskeybottle-recipe"},
@@ -134,7 +128,6 @@
   "sb_novakidBlueprints" : [
     [0, {
       "pool" : [
-        {"weight" : 0.1, "item" : "sb_musicsheet"},
         {"weight" : 0.1, "item" : "sb_whiskeybottle-recipe"},
         {"weight" : 0.1, "item" : "sb_whiskeyflask-recipe"}
       ],

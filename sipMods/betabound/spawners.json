@@ -1,0 +1,17 @@
+[
+{"path":"/objects/spawner/spawners/sb_spawner_","name":"sb_spawnernovakid","shortdescription":"^#ff0;Novakid Spawner","category":"spawner","icon":"novakid.png?crop=1;25;15;39"}
+
+,{"path":"/objects/spawner/spawners/sb_spawner_","name":"sb_spawnerdoctor","shortdescription":"^#ff0;Doctor Spawner","category":"spawner","icon":"doctor.png?crop=1;25;15;39"}
+,{"path":"/objects/spawner/spawners/sb_spawner_","name":"sb_spawnerstim","shortdescription":"^#ff0;Stim Spawner","category":"spawner","icon":"stim.png?crop=1;25;15;39"}
+,{"path":"/objects/spawner/spawners/sb_spawner_","name":"sb_spawnertools","shortdescription":"^#ff0;Tool Spawner","category":"spawner","icon":"tools.png?crop=1;25;15;39"}
+,{"path":"/objects/spawner/spawners/sb_spawner_","name":"sb_spawnerpirate","shortdescription":"^#ff0;Pirate Spawner","category":"spawner","icon":"pirate.png?crop=1;25;15;39"}
+,{"path":"/objects/spawner/spawners/spawner_","name":"sb_spawnergold","shortdescription":"^#ff0;Merchant Spawner","category":"spawner","icon":"gold.png?crop=1;25;15;39"}
+,{"path":"/objects/spawner/spawners/spawner_","name":"sb_spawnerclothes","shortdescription":"^#ff0;Tailor Spawner","category":"spawner","icon":"clothes.png?crop=1;25;15;39"}
+,{"path":"/objects/spawner/spawners/spawner_","name":"spawnerwizard","shortdescription":"^#ff0;Wizard Spawner","category":"spawner","icon":"wizard.png?crop=1;25;15;39"}
+
+,{"icon":"/objects/boss/sb_ironbeaconicon.png","name":"sb_ironbeacon","shortdescription":"^#f00;Distress Beacon","category":"spawner","rarity":"essential"}
+,{"icon":"/objects/boss/sb_roboticon.png","name":"sb_robot","shortdescription":"^#f00;Inactive Robot","category":"spawner","rarity":"essential"}
+,{"icon":"/objects/boss/sb_peanutbuttericon.png","name":"sb_peanutbutter","shortdescription":"^#f00;Peanut Butter Trap","category":"spawner","rarity":"essential"}
+,{"icon":"/objects/boss/sb_decoyprincessicon.png","name":"sb_decoyprincess","shortdescription":"^#f00;Decoy Princess","category":"sb_misc","rarity":"essential"}
+,{"icon":"/objects/human/sb_bunkerrobotfactory/bunkerrobotfactoryicon.png","name":"sb_humanbunkerrobotfactory","shortdescription":"Robot Factory","category":"sb_misc","rarity":"essential"}
+]

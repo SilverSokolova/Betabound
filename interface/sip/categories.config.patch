@@ -59,14 +59,5 @@
       "selectedImage": "/interface/sip/categories/sb_ladderselected.png",
       "categories": ["sb_ladders"]
     }
-  },
-  {
-    "op": "add",
-    "path": "/5/Building:/-",
-    "value": {
-      "image": "/interface/sip/categories/sb_clues.png",
-      "selectedImage": "/interface/sip/categories/sb_cluesselected.png",
-      "categories": ["sb_clues"]
-    }
   }
 ]

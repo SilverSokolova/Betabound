@@ -6,7 +6,7 @@
     },{
         "op": "replace",
         "path": "/rarities/0/0",
-        "value": 0.05
+        "value": 0.003
     }],
     [{
         "op": "test",
@@ -15,7 +15,7 @@
     },{
         "op": "replace",
         "path": "/rarities/1/0",
-        "value": 0.2
+        "value": 0.06
     }],
     [{
         "op": "test",
@@ -25,14 +25,5 @@
         "op": "replace",
         "path": "/rarities/2/0",
         "value": 0.4
-    }],
-    [{
-        "op": "replace",
-        "path": "/rarities/3/0",
-        "value": 100
-    },{
-        "op": "replace",
-        "path": "/rarities/3/0",
-        "value": 0.8
     }]
 ]

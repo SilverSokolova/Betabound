@@ -12,6 +12,7 @@
     i={'black','blue','brown','green','grey','sb_greyblue','sb_lightgrey','sb_limegreen','orange','pink','purple','red','sb_teal','white','yellow'}
     for n=1, #i do world.spawnItem(i[n]..'dye',entity.position(),30) end end"
   ],
+  "sb_logger": ["/entityeval if world then world.spawnItem({'sb_debug',1,root.assetJson('/sipMods/betabound/debug.json')[1].parameters}, entity.position()) end"],
 
   //Progression
   "sb_human": ["/startquest '\"human_mission1\"'", "/completequest human_mission1"],

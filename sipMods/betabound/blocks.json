@@ -1,0 +1,11 @@
+[
+{"path":"/items/materials/","name":"sb_slopedpolygon","shortdescription":"Polygon Panel","category":"blocks","icon":"sb_slopedpolygonicon.png"}
+,{"path":"/items/materials/","name":"sb_lightblocker","shortdescription":"Lightblocker","category":"sb_disabled","icon":"glass.png","rarity":"rare"}
+,{"path":"/items/materials/","name":"sb_chain","shortdescription":"Steel Chain","category":"blocks","icon":"sb_chain.png"}
+
+,{"path":"/items/materials/","name":"sb_smoothconcrete","shortdescription":"Weathered Concrete","category":"blocks","icon":"sb_smoothconcreteicon.png"}
+,{"path":"/items/materials/","name":"sb_brains","shortdescription":"Heck Brains","category":"blocks","icon":"sb_brains.png"}
+,{"path":"/items/materials/","name":"sb_hive","shortdescription":"Hivestone","category":"blocks","icon":"sb_hive.png"}
+
+,{"category":"block","icon":"/items/throwables/throwingblock.png","name":"sb_throwingblockmaterial","shortdescription":"Placeable Throwing Block"}
+]

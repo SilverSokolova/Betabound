@@ -1,0 +1,8 @@
+[
+{"path":"/items/liquids/","name":"sb_liquidcoffee","shortdescription":"Coffee","category":"liquid","icon":"sb_liquidcoffee.png"}
+,{"path":"/items/liquids/","name":"sb_liquidtentaclejuice","shortdescription":"Tentacle Juice","category":"liquid","icon":"sb_liquidtentaclejuice.png"}
+,{"race":"generic","path":"/items/liquids/","shortdescription":"Liquid Jelly","name":"sb_liquidjelly","icon":"sb_liquidjelly.png","rarity":"common","category":"liquid","fileName":"sb_liquidjelly.liqitem"}
+
+,{"path":"/items/liquids/","name":"sb_liquidalienjuice","shortdescription":"Alien Juice","category":"sb_disabled","icon":"sb_liquidalienjuice.png"}
+,{"path":"/items/liquids/","name":"sb_liquidnitrogen","shortdescription":"Liquid Nitrogen","category":"sb_disabled","icon":"sb_liquidnitrogen.png"}
+]

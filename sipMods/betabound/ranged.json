@@ -1,0 +1,125 @@
+[
+{"icon":"/items/active/starbound/bows/slingshoticon.png","name":"sb_slingshot","shortdescription":"Slingshot","category":"ranged"}
+,{"icon":"/items/active/starbound/guns/brainextractoricon.png","name":"sb_brainextractor","shortdescription":"Brain Extractor","category":"ranged","rarity":"uncommon"}
+
+
+,{"icon":"/items/active/starbound/guns/aegisaltpistol.png","name":"sb_aegisaltpistol","shortdescription":"Aegisalt Pistol","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/guns/aegisaltrifle.png","name":"sb_aegisaltrifle","shortdescription":"Aegisalt Rifle","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/guns/aegisaltshotgun.png","name":"sb_aegisaltshotgun","shortdescription":"Aegisalt Shotgun","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/bows/aegisaltbowicon.png","name":"sb_aegisaltbow","shortdescription":"Aegisalt Bow","category":"ranged","rarity":"rare"}
+
+,{"icon":"/items/active/starbound/guns/feroziumpistol.png","name":"sb_feroziumpistol","shortdescription":"Scintillium Pistol","category":"ranged","rarity":"legendary"}
+,{"icon":"/items/active/starbound/guns/feroziumrifle.png","name":"sb_feroziumrifle","shortdescription":"Scintillium Rifle","category":"ranged","rarity":"legendary"}
+,{"icon":"/items/active/starbound/guns/feroziumrocket.png","name":"sb_feroziumrocket","shortdescription":"Scintillium Launcher","category":"ranged","rarity":"legendary"}
+,{"icon":"/items/active/starbound/guns/feroziumsniper.png","name":"sb_feroziumsniper","shortdescription":"Scintillium Sniper Rifle","category":"ranged","rarity":"legendary"}
+,{"icon":"/items/active/starbound/bows/feroziumbowicon.png","name":"sb_feroziumbow","shortdescription":"Scintillium Bow","category":"ranged","rarity":"legendary"}
+
+
+//alien
+,{"icon":"/items/active/starbound/guns/alienlaser.png","name":"sb_alienlaser","shortdescription":"Alien Laser","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/guns/corrosivegun.png","name":"sb_corrosivegun","shortdescription":"Corrosive Gun","category":"ranged","rarity":"rare"}
+
+//arctic
+	//penguinpistol
+
+//biolum
+,{"icon":"/items/active/starbound/bows/firebowicon.png","name":"sb_firebow","shortdescription":"Fire Bow","category":"ranged","rarity":"uncommon"}
+
+//bone
+,{"icon":"/items/active/starbound/guns/bonepistol.png","name":"sb_bonepistol","shortdescription":"Bone Pistol","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/guns/bonerifle.png","name":"sb_bonerifle","shortdescription":"Bone Rifle","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/guns/boneshotgun.png","name":"sb_boneshotgun","shortdescription":"Bone Shotgun","category":"ranged","rarity":"rare"}
+
+//cave
+
+//colorful
+
+//eyestalk
+,{"path":"/items/active/starbound/busters/","name":"sb_eyeblaster","shortdescription":"Eye Blaster","category":"ranged","icon":"eyeblastericon.png","rarity":"rare"}
+
+//flesh
+	//fleshblaster
+	//fleshrifle
+
+//gnome
+	//old gnomegun if we end up doing that which we might not
+
+//icecaves
+,{"path":"/items/active/starbound/guns/","name":"sb_freezeray","shortdescription":"Freeze Ray","category":"ranged","icon":"freezeray.png","rarity":"rare"}
+,{"path":"/items/active/starbound/guns/","name":"sb_icechucker","shortdescription":"Ice Chucker","category":"ranged","icon":"icechuckericon.png","rarity":"rare"}
+
+//jungle
+,{"path":"/items/active/starbound/guns/","name":"sb_tranquilizergun","shortdescription":"Tranquilizer Gun","category":"ranged","icon":"tranquilizergun.png","rarity":"rare"}
+
+//reed
+,{"path":"/items/active/starbound/guns/","name":"sb_blowgun","shortdescription":"Blowgun","category":"ranged","icon":"blowgun.png","rarity":"rare"}
+
+//savannah
+,{"icon":"/items/active/starbound/guns/needler.png","name":"sb_thornyneedler","shortdescription":"Thorny Needler","category":"ranged","rarity":"rare"}
+
+//hive
+,{"icon":"/items/active/starbound/guns/stingergun.png","name":"sb_stingergun","shortdescription":"Stinger Gun","category":"ranged","rarity":"rare"}
+
+//toxic
+,{"icon":"/items/active/starbound/guns/irradiatedlauncher.png","name":"sb_irradiatedlauncher","shortdescription":"Irradiated Launcher","category":"ranged","rarity":"rare"}
+
+//volcanic
+,{"path":"/items/active/starbound/guns/","name":"sb_heatray","shortdescription":"Heat Ray","category":"ranged","icon":"heatrayicon.png","rarity":"rare"}
+
+//frozenfire
+,{"path":"/items/active/starbound/bows/","name":"sb_frozenfirebow","shortdescription":"Frozenfire Bow","category":"sb_disabled","icon":"frozenfirebowicon.png","rarity":"legendary"}
+
+//heck
+,{"category":"sb_disabled","icon":"/items/active/starbound/bows/heartstringbowicon.png","name":"sb_heartstringbow","shortdescription":"Heartstring Bow"}
+
+//misc
+,{"path":"/items/active/starbound/guns/","name":"sb_testrevolver","shortdescription":"Revolver","category":"sb_disabled","icon":"revolvericon.png","rarity":"rare"}
+,{"path":"/items/active/starbound/busters/","name":"sb_buster","shortdescription":"Buster","category":"ranged","icon":"bustericon.png","rarity":"rare"}
+
+
+,{"name":"sb_avianblaster","shortdescription":"Avian Blaster","category":"ranged","rarity":"rare"}
+,{"name":"sb_aviangun","shortdescription":"Avian Gun","category":"ranged","rarity":"rare"}
+,{"name":"sb_florangrenadelauncher","shortdescription":"Toxic Launcher","category":"ranged","rarity":"rare"}
+
+,{"name":"sb_lightningcoil","shortdescription":"Lightning Coil","category":"ranged","rarity":"uncommon"}
+,{"icon":"/items/active/starbound/guns/randomgenerated/pulserifle/pulserifleicon.png?replace;e35f5d=809778;b22042=516d47;871132=214516;818181=5f5540;606060=3f3624;404040=231c10","name":"sb_pulserifle","shortdescription":"Pulse Rifle","category":"ranged","rarity":"uncommon"} //icon is same as one in cockpit patch for planet search
+,{"name":"sb_revolver","shortdescription":"Revolver","category":"ranged","rarity":"uncommon"}
+,{"name":"sb_uzi","shortdescription":"Uzi","category":"ranged","rarity":"uncommon"}
+,{"name":"sb_cellzapper","shortdescription":"Cell Zapper","category":"ranged","rarity":"uncommon"}
+
+,{"name":"sb_crossbowwood","shortdescription":"Wooden Crossbow","category":"ranged"}
+,{"name":"sb_crossbow","shortdescription":"Crossbow","category":"ranged","rarity":"uncommon"}
+,{"name":"sb_crossbowspecial","shortdescription":"Elemental Crossbow","category":"ranged","rarity":"uncommon"}
+
+,{"name":"sb_flamethrower","shortdescription":"Chemical Thrower","category":"ranged","rarity":"uncommon"}
+
+,{"name":"sb_shattergun","shortdescription":"Shattergun","category":"ranged","rarity":"uncommon"}
+,{"name":"sb_globelauncher","shortdescription":"Globe Launcher","category":"ranged","rarity":"uncommon"}
+
+
+//racial
+,{"icon":"/items/active/starbound/guns/novakid/novastarter.png","name":"sb_novastarter","shortdescription":"Rusty Revolver","category":"ranged","rarity":"legendary"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier0rifle.png","name":"sb_novatier0rifle","shortdescription":"Red Ryder","category":"ranged","rarity":"legendary"}
+
+,{"icon":"/items/active/starbound/guns/novakid/novatier1revolver.png","name":"sb_novatier1revolver","shortdescription":"Old Faithful","category":"ranged"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier2revolver.png","name":"sb_novatier2revolver","shortdescription":"Fast Hands","category":"ranged"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier3revolver.png","name":"sb_novatier3revolver","shortdescription":"Lone Star","category":"ranged","rarity":"uncommon"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier4revolver.png","name":"sb_novatier4revolver","shortdescription":"The Doc","category":"ranged","rarity":"uncommon"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier5arevolver.png","name":"sb_novatier5arevolver","shortdescription":"Red Dwarf","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier5mrevolver.png","name":"sb_novatier5mrevolver","shortdescription":"Lawkeeper","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier5srevolver.png","name":"sb_novatier5srevolver","shortdescription":"The Ugly","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier6arevolver.png","name":"sb_novatier6arevolver","shortdescription":"The Good","category":"ranged","rarity":"legendary"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier6mrevolver.png","name":"sb_novatier6mrevolver","shortdescription":"Sundancer","category":"ranged","rarity":"legendary"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier6srevolver.png","name":"sb_novatier6srevolver","shortdescription":"The Bad","category":"ranged","rarity":"legendary"}
+
+,{"icon":"/items/active/starbound/guns/novakid/novatier1rifle.png","name":"sb_novatier1rifle","shortdescription":"Winchestar","category":"ranged"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier2rifle.png","name":"sb_novatier2rifle","shortdescription":"Fierce Repeater","category":"ranged"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier3rifle.png","name":"sb_novatier3rifle","shortdescription":"Kablammity Jane","category":"ranged","rarity":"uncommon"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier4rifle.png","name":"sb_novatier4rifle","shortdescription":"The Apache","category":"ranged","rarity":"uncommon"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier5arifle.png","name":"sb_novatier5arifle","shortdescription":"Red Giant","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier5mrifle.png","name":"sb_novatier5mrifle","shortdescription":"Lawmaker","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier5srifle.png","name":"sb_novatier5srifle","shortdescription":"Almighty Magnetar","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier6arifle.png","name":"sb_novatier6arifle","shortdescription":"Steadfast Nova","category":"ranged","rarity":"legendary"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier6mrifle.png","name":"sb_novatier6mrifle","shortdescription":"Sunblaster","category":"ranged","rarity":"legendary"}
+,{"icon":"/items/active/starbound/guns/novakid/novatier6srifle.png","name":"sb_novatier6srifle","shortdescription":"Wild Pulsar","category":"ranged","rarity":"legendary"}
+]

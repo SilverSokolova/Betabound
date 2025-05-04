@@ -1,0 +1,8 @@
+[
+
+{"icon":"/interface/modsmenu/modselectedicon.png","name":"sb_debug","shortdescription":"Logger","parameters":{"shortdescription":"Logger","description":"Prints item data to the log.","inventoryIcon":"/interface/modsmenu/modselectedicon.png","sb_debug":{"functionToRun":"log"}},"category":"sb_debug"}
+
+,{"icon":"/items/generic/tradegoods/militarygoods.png?replace;657988=0000;6b6b6b=0000;acacac=0000;373737=0000?crop=2;4;14;11","name":"sb_debug","shortdescription":"Ammo Applier","parameters":{"sb_debug":{"newParameters":{"tooltipKind":"sb_gun4","primaryAbility":{"class":"sb_AmmoGunFire","scripts":["/items/active/starbound/guns/abilities/ammogunfire.lua"]},"animationScripts":["/items/active/starbound/guns/abilities/ammo.lua"]}},"inventoryIcon":"/items/generic/tradegoods/militarygoods.png?replace;657988=0000;6b6b6b=0000;acacac=0000;373737=0000?crop=2;4;14;11","shortdescription":"Ammo Applier (v4)","description":"Attempts to make a gun use ammo. This will likely cause errors."},"category":"sb_debug"}
+
+,{"icon":"/interface/errorpopup/erroricon.png?crop=7;3;16;21?replace;000000=0000;616c68=0000?border;1;000;0000","name":"sb_debug","shortdescription":"Item Resetter","parameters":{"sb_debug":{"functionToRun":"reset"},"inventoryIcon":"/interface/errorpopup/erroricon.png?crop=7;3;16;21?replace;000000=0000;616c68=0000?border;1;000;0000","shortdescription":"Item Resetter","description":"Wipes item data."},"category":"sb_debug"}
+]

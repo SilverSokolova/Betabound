@@ -1,0 +1,31 @@
+[
+{"icon":"/items/active/starbound/staves/biostaff.png","name":"sb_biostaff","shortdescription":"Bio Light Staff","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/staves/boulderstaff.png","name":"sb_boulderstaff","shortdescription":"Rockalanche Staff","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/staves/fleshstaff.png","name":"sb_fleshstaff","shortdescription":"Fleshbringer","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/staves/oceantrident.png","name":"sb_oceantrident","shortdescription":"Dangpa's Fury","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/staves/scistaff.png","name":"sb_scistaff","shortdescription":"Cryo Staff","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/staves/slimestaff.png","name":"sb_slimestaff","shortdescription":"Slime Staff","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/staves/uraniumrodstaff.png","name":"sb_uraniumrodstaff","shortdescription":"Uranium Rod Staff","category":"ranged","rarity":"rare"}
+
+
+,{"icon":"/items/active/starbound/staves/racialstaves/apexsteelstaff1.png","name":"sb_apexsteelstaff1","shortdescription":"Monkey Nut Staff","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/staves/racialstaves/apexsteelstaff2.png","name":"sb_apexsteelstaff2","shortdescription":"Deadbolt Staff","category":"ranged","rarity":"legendary"}
+
+,{"icon":"/items/active/starbound/staves/racialstaves/aviancrystalstaff1.png","name":"sb_aviancrystalstaff1","shortdescription":"Cardinal's Chalcedony","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/staves/racialstaves/aviancrystalstaff2.png","name":"sb_aviancrystalstaff2","shortdescription":"Quetzalcoatl's Quartz","category":"ranged","rarity":"legendary"}
+
+,{"icon":"/items/active/starbound/staves/racialstaves/floranleafstaff1.png","name":"sb_floranleafstaff1","shortdescription":"Leaf Flurry","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/staves/racialstaves/floranleafstaff2.png","name":"sb_floranleafstaff2","shortdescription":"Petal Storm Staff","category":"ranged","rarity":"legendary"}
+
+,{"icon":"/items/active/starbound/staves/racialstaves/glitchglitchstaff1.png","name":"sb_glitchglitchstaff1","shortdescription":"Glitch Artifact","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/staves/racialstaves/glitchglitchstaff2.png","name":"sb_glitchglitchstaff2","shortdescription":"G4mE_bReÄK3r","category":"ranged","rarity":"legendary"}
+
+,{"icon":"/items/active/starbound/staves/racialstaves/humanplasmastaff1.png","name":"sb_humanplasmastaff1","shortdescription":"Plasma Pulse Staff","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/staves/racialstaves/humanplasmastaff2.png","name":"sb_humanplasmastaff2","shortdescription":"Boom Blast Staff","category":"ranged","rarity":"legendary"}
+
+,{"icon":"/items/active/starbound/staves/racialstaves/hylotlaquastaff1.png","name":"sb_hylotlaquastaff1","shortdescription":"Sacred Splash Staff","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/staves/racialstaves/hylotlaquastaff2.png","name":"sb_hylotlaquastaff2","shortdescription":"Hylid's Pulse Staff","category":"ranged","rarity":"legendary"}
+
+,{"icon":"/items/active/starbound/staves/racialstaves/novakidlightstaff1.png","name":"sb_novakidlightstaff1","shortdescription":"Red Giant Orb","category":"ranged","rarity":"rare"}
+,{"icon":"/items/active/starbound/staves/racialstaves/novakidlightstaff2.png","name":"sb_novakidlightstaff2","shortdescription":"Supergiant Orb","category":"ranged","rarity":"legendary"}
+]

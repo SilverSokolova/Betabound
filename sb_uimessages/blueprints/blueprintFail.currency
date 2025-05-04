@@ -1,6 +1,6 @@
 {
   "itemName": "sb_uimessage:blueprintFail",
-  "shortdescription": "   Could not learn blueprint: please try again.^clear;",
+  "shortdescription": "   Could not learn blueprint; please try again.^clear;",
   "currency": "sb_uimessage",
   "rarity": "rare",
   "value": 0,

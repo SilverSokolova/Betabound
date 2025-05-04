@@ -13,7 +13,7 @@ function build(directory, config, parameters, level, seed)
   end
 
   config.tooltipFields = sb.jsonMerge(config.tooltipFields or {}, sb_tooltipFields)
-  local level = string.format("%.0f",configParameter("level", 1))
+  local level = string.format("%.0f", configParameter("level", 1))
   config.tooltipFields.sb_levelLabel = "^shadow;Lvl "..level
   config.tooltipFields.sb_level2Label = "Lvl "..level
 

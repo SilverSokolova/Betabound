@@ -284,8 +284,8 @@ function build(directory, config, parameters, level, seed)
 
   -- populate tooltip fields
   config.tooltipFields = config.tooltipFields or {}
-  if not configParameter("sb_dyeable") then
-    config.tooltipFields.dyeLabel = ""
+  if configParameter("sb_dyeable") then
+    config.tooltipFields.dyeLabel = root.assetJson("/betabound.config:dyeLabel")
   end
   config.tooltipFields.sb_levelLabel = "^shadow;Lvl "..string.format("%.0f",configParameter("level", 1))
   config.tooltipFields.sb_level2Label = "Lvl "..string.format("%.0f",configParameter("level", 1))

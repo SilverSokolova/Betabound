@@ -35,7 +35,7 @@ function init()
           })
         end
 
-        table.insert(s.parameters.inventoryIcon, {position = {5.5,-4}, image = "/items/generic/unlock/sb_blueprints.png:"..string.lower(s.parameters.rarity)})
+        table.insert(s.parameters.inventoryIcon, {position = {5.5, -4}, image = "/items/generic/unlock/sb_blueprints.png:"..string.lower(s.parameters.rarity)})
         player.setSwapSlotItem(s)
       end
     end

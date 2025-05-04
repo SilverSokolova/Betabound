@@ -26,9 +26,9 @@
     {"op":"add","path":"/valuableTreasure/3/1/pool/0/pool","value":"sb_techcard"}
   ],
   
-  [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.09,"pool":"sb_techchip"}}], //3x techcard
-  [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.12,"pool":"sb_mattermodule"}}], //slightly higher than MModule
-  [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.05,"item":"sb_musicsheet"}}],
+  [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.09,"pool":"sb_techchip"}}],
+  [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.06,"pool":"sb_mattermodule"}}],
+  [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.02,"item":"sb_musicsheet"}}],
 
 
     //Basic Treasure
@@ -187,11 +187,6 @@
 
 
     //Tools
-  [{"op":"add","path":"/valuableTreasure/0/1/pool/-","value":{"weight":0.35,"pool":"tool"}}],
-  [{"op":"add","path":"/valuableTreasure/1/1/pool/-","value":{"weight":0.35,"pool":"tool"}}],
-  [{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.35,"pool":"tool"}}],
-  [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.35,"pool":"tool"}}],
-
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_spawnertools"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"parasol"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"broom"}}],

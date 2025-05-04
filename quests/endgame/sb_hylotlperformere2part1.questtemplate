@@ -3,7 +3,7 @@
   "prerequisites": ["glitch_mission2", "sb_hylotlperformerE1"],
   "title": "^green;Audience of One",
   "text": "I recently performed a gig, but only one person turned up! ^green;Could you ^orange;find my lone attendee ^green;and ask them for a review of my performance?",
-  "completionText": "The gig? It was terrible! I thought I'd spare him the embarassment by disposing of his script, but somehow he found it again... You should probably tell him it was good, to spare his feelings.",
+  "completionText": "The gig? It was terrible! I thought I'd spare them the embarassment by disposing of their script, but somehow they found it again... You should probably tell them it was good, to spare their feelings.",
   "moneyRange": [1100, 1200],
   "rewards": [],
 
