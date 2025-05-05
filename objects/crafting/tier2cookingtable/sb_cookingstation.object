@@ -1,6 +1,6 @@
 {
   "objectName": "sb_cookingstation",
-  "colonyTags": ["crafting", "cooking"],
+  "colonyTags": ["cooking"],
   "printable": false,
   "price": 1300,
   "rarity": "legendary",

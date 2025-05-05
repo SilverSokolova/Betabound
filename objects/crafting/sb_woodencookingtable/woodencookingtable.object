@@ -1,6 +1,6 @@
 {
   "objectName": "sb_woodencookingtable",
-  "colonyTags": ["crafting", "cooking"],
+  "colonyTags": ["cooking"],
   "printable": false,
   "price": 100,
   "rarity": "Uncommon",
