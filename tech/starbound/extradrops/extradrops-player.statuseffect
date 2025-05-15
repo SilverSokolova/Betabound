@@ -3,7 +3,6 @@
   "effectConfig": {
     "effects": ["sb_extradrops-items", "sb_extradrops-essenceDrop"]
   },
-  "defaultDuration": 1,
   "scripts": ["extradrops-player.lua"],
   "label": "Scavenger",
   "icon": "/tech/starbound/extradrops.png"

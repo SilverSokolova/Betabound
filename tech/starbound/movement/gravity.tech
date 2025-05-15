@@ -4,8 +4,13 @@
   "icon": "/tech/starbound/gravity.png",
   "scripts": [],
   "sb_effect": "sb_gravitytech",
-  "sb_suitImage": "?replace;73daff=646464;27abff=555;117ee4=383838;1f45d4=292929",
+  "sb_suitImage": "?replace;73daff=ececec;27abff=d2d2d2;117ee4=9b9b9b;1f45d4=787878", //lowgrav.png grey
+//"sb_suitImage": "?replace;73daff=646464;27abff=555;117ee4=383838;1f45d4=292929", gravity augment black
   "rarity": "Rare",
-  "description": "Provides a slow descent effect.",
-  "shortDescription": "Gravity"
+  "description": "Manipulates gravity, slowing your descent in the air.", //"your" is from vanilla gravity augment description
+  "shortDescription": "Gravity-",
+
+  //Same stats as vanilla augment
+  "stat": "gravityMultiplier",
+  "multiplier": 0.5
 }

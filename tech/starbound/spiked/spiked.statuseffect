@@ -1,6 +1,5 @@
 {
   "name": "sb_spikedtech",
-  "defaultDuration": 5,
   "effectConfig": {
     "tech": "sb_spiked"
   },

@@ -7,7 +7,6 @@
       }
     ]
   },
-  "defaultDuration": 5,
   "scripts": ["suit.lua"],
   "label": "Oxygen Supply",
   "icon": "/tech/starbound/air.png"

@@ -1,6 +1,5 @@
 {
   "name": "sb_breaknecktech",
-  "defaultDuration": 5,
   "effectConfig": {
     "tech": "sb_breakneck",
     "particleEmitterOffset": {

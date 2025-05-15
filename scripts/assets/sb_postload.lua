@@ -4,9 +4,10 @@ local path = "/betabound/d1e48968b51d4616893aac83fe0c509c.patch"
 assets.add(path, '{"canBeRepaired":true}')
 
 for i = 1, #files do
-  if pcall(function() assets.json(files[i]) end) then
-    local durabilityPerUse = assets.json(files[i]).durabilityPerUse or 1
-    if durabilityPerUse > 0 and type(assets.json(files[i]).canBeRepaired) ~= "boolean" then
+  local valid, data = pcall(function() return assets.json(files[i]) end)
+  if valid then
+    local durabilityPerUse = data.durabilityPerUse or 1
+    if durabilityPerUse > 0 and type(data.canBeRepaired) ~= "boolean" then
       assets.patch(files[i], path)
     end
   end
@@ -28,21 +29,21 @@ end
 for i = 1, #files do
   local isDye = false
   local dyeDirectives = false
-  if pcall(function() assets.json(files[i]) end) then
-    local itemData = assets.json(files[i])
-    if itemData.scripts then
-      for j = 1, #itemData.scripts do
-        if itemData.scripts[j] == "/scripts/augments/dye.lua" then
+  local valid, data = pcall(function() return assets.json(files[i]) end)
+  if valid then
+    if data.scripts then
+      for j = 1, #data.scripts do
+        if data.scripts[j] == "/scripts/augments/dye.lua" then
           isDye = true
-          dyeDirectives = itemData.dyeDirectives or false
-        elseif itemData.scripts[j] == "/scripts/augments/sb_dye.lua" then
+          dyeDirectives = data.dyeDirectives or false
+        elseif data.scripts[j] == "/scripts/augments/sb_dye.lua" then
           isDye = false
           break
         end
       end
 
       if isDye and type(dyeDirectives) == "table" then
-        local pathName = path..itemData.itemName
+        local pathName = path..data.itemName
         assets.add(pathName, dyePatch)
         assets.patch(files[i], pathName)
       end

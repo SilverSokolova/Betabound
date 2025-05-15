@@ -1,4 +1,4 @@
-require("/scripts/util.lua") --Yes, we are using this. It provides `copy`
+require("/scripts/util.lua") --Provides `copy` function
 local originalInit = init or function() end
 function init()
   originalInit()

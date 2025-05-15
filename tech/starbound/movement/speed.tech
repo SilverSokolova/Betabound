@@ -9,5 +9,10 @@
   //"sb_suitImage": "?replace;73daff=92f5bf;27abff=5af09d;117ee4=22ea7b;1f45d4=0c8542",
   "rarity": "Rare",
   "description": "Provides a boost in movement speed.",
-  "shortDescription": "Speed+"
+  "shortDescription": "Speed+",
+
+  //Same stats as vanilla augment
+  "controlModifiers": {
+    "speedModifier": 1.20
+  }
 }

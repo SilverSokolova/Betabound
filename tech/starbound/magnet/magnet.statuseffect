@@ -1,7 +1,5 @@
 {
   "name": "sb_magnet",
-  "effectConfig": {},
-  "defaultDuration": 1,
   "scripts": ["magnet.lua"],
   "label": "Magnetic",
   "icon": "/tech/starbound/magnet.png"

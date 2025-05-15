@@ -1,6 +1,5 @@
 {
   "name": "sb_enhancedhealingtech",
-  "defaultDuration": 5,
   "effectConfig": {
     "tech": "sb_enhancedhealing"
   },
