@@ -65,6 +65,9 @@
       "moremmupgrades", //Don't think we need this since we check via Lua. Couldnt find non-Lua check
       "Bug Spawn Improvement", //957164903 - We add a new bug to gardens so up their select from 3 to 4
 
+    //RECIPE CHANGES
+      "Bees Reborn", //3482241514 Make rubium frame use rubium
+
 
     //FIX
       "Improved Food Descriptions [Addon]", //We want there to be no stack limit on food, not 1000
