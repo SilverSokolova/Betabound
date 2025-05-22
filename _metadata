@@ -84,6 +84,7 @@
         "Base Tech Rebalance", //1122864845 - Same as Tech Addition's
         "bk3k_techHelper", //1279678818 - Overwrites populateTechList
         "bk3k_Techs", //772812959 bk3k's More Powerful Techs - Incorporates bk3k_techHelper library mod instead of having it as download
+        "Paint Gun Mod", //paint-gun-mod.4636/ Paint Gun Mod. Replaces vending machine animation file
       
       "Starbound++",
       "FrackinUniverse", //Every bad modding practice ever + so many things on this list (including tech menu breakage) + we add some recipes, holy fucking shit
