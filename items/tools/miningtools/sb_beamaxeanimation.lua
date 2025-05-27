@@ -24,7 +24,7 @@ function fillRadius(radius)
   local base = activeItemAnimation.ownerAimPosition(); base = {math.floor(base[1]), math.floor(base[2])}
 --localAnimator.addDrawable({image = endImages[1], fullbright = true, position = base}, layer)
 
-  local position = {base[1] + 0.5, base[2] + 0.5}
+  local position = radius % 2 == 0 and {base[1] + 1, base[2] + 1} or {base[1] + 0.5, base[2] + 0.5}
   localAnimator.addDrawable({image = string.format(highlight, highlightColor, radius, highlightColor), fullbright = true, position = position}, layer)
 
   if radius == 1 then

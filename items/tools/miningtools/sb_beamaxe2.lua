@@ -113,7 +113,7 @@ function fillRadius(radius)
   end
 
   if radius % 2 == 0 then
-    base = {base[1] + 0.4, base[2] + 0.4}
+    base = {base[1] + 0.1, base[2] + 0.1}
   end
 
   local tiles = {}
