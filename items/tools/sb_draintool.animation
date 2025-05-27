@@ -1,0 +1,17 @@
+{
+  "animatedParts": {
+    "parts": {
+      "tool": {
+        "properties": {
+          "centered": true,
+          "offset": [0.5, 0],
+          "image": "<partImage>"
+        }
+      }
+    }
+  },
+
+  "sounds": {
+    "fire": ["/sfx/tools/paint_splash.ogg"]
+  }
+}

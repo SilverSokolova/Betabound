@@ -1,6 +1,5 @@
-require "/scripts/vec2.lua"
 function init()
-  id = activeItem.ownerEntityId()
+  entityId = activeItem.ownerEntityId()
   radius = config.getParameter("blockRadius")
   altRadius = config.getParameter("altBlockRadius")
   harvestLevel = config.getParameter("harvestLevel", 99)
@@ -22,7 +21,7 @@ function init()
   }
 
   if player.favoriteColor then
-    activeItem.setScriptedAnimationParameter("favoriteColor", player.favoriteColor())
+    activeItem.setScriptedAnimationParameter("highlightColor", player.favoriteColor())
   end
 
   if magnetEnabled then
@@ -48,23 +47,24 @@ function init()
 end
 
 function update(dt, fireMode, shifting)
-  local aimAngle, aimDirection = activeItem.aimAngleAndDirection(firePosition[2], activeItem.ownerAimPosition())
+  aimPosition = activeItem.ownerAimPosition()
+  local aimAngle, aimDirection = activeItem.aimAngleAndDirection(firePosition[2], aimPosition)
   activeItem.setArmAngle(aimAngle)
   activeItem.setFacingDirection(aimDirection or 0)
   activeItem.setScriptedAnimationParameter("radius", shifting and altRadius or radius)
 
-  inRange = world.magnitude(mcontroller.position(), activeItem.ownerAimPosition()) <= range
+  inRange = player.isAdmin() or world.magnitude(mcontroller.position(), aimPosition) <= range
   activeItem.setScriptedAnimationParameter("inRange", inRange)
 
   if inRange then
     if fireMode ~= "none" then
       world.damageTiles(shifting and fillRadius(altRadius) or fillRadius(radius),
         fireMode == "alt" and "background" or "foreground",
-        activeItem.ownerAimPosition(),
+        aimPosition,
         "beamish",
         notifyDamage * ((shifting and 1 + radius - altRadius) or 1), --this would be fine if a radius of 2 meant 2 blocks, but it means 4 blocks
         harvestLevel,
-        id
+        entityId
       )
     end
 
@@ -97,14 +97,14 @@ function update(dt, fireMode, shifting)
 end
 
 function notifyEntities(shifting)
-  local entities = world.entityQuery(activeItem.ownerAimPosition(), shifting and altRadius or radius, notifyQueryParams)
+  local entities = world.entityQuery(aimPosition, shifting and altRadius or radius, notifyQueryParams)
   for _, entityId in ipairs(entities) do
     world.sendEntityMessage(entityId, "positionTileDamaged", notifyDamage)
   end
 end
 
 function fillRadius(radius)
-  local base = activeItem.ownerAimPosition()
+  local base = aimPosition
   base[1] = math.floor(base[1])
   base[2] = math.floor(base[2])
 

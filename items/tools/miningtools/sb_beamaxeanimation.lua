@@ -1,11 +1,11 @@
 function init()
   radius = animationConfig.animationParameter("radius", config.getParameter("blockRadius"))
   highlight = config.getParameter("highlight")
-  local unconvertedFavoriteColor = animationConfig.animationParameter("favoriteColor", root.assetJson("/player.config:defaultHumanoidIdentity.color"))
-  unconvertedFavoriteColor[4] = nil
-  favoriteColor = ""
-  for i = 1, #unconvertedFavoriteColor do
-    favoriteColor = favoriteColor .. string.format("%02x", unconvertedFavoriteColor[i])
+  local unconvertedHighlightColor = animationConfig.animationParameter("highlightColor", root.assetJson("/player.config:defaultHumanoidIdentity.color"))
+  unconvertedHighlightColor[4] = nil
+  highlightColor = ""
+  for i = 1, #unconvertedHighlightColor do
+    highlightColor = highlightColor .. string.format("%02x", unconvertedHighlightColor[i])
   end
 end
 
@@ -25,7 +25,7 @@ function fillRadius(radius)
 --localAnimator.addDrawable({image = endImages[1], fullbright = true, position = base}, layer)
 
   local position = {base[1] + 0.5, base[2] + 0.5}
-  localAnimator.addDrawable({image = string.format(highlight, favoriteColor, radius, favoriteColor), fullbright = true, position = position}, layer)
+  localAnimator.addDrawable({image = string.format(highlight, highlightColor, radius, highlightColor), fullbright = true, position = position}, layer)
 
   if radius == 1 then
     addLight(position)
@@ -43,6 +43,6 @@ end
 
 function addLight(position)
   if world.material(position, "foreground") then
-    localAnimator.addLightSource({position = position, color = {50, 50, 50}, pointLight = true, beamAmbience = 0.00002}) --TODO: unhardcode light
+    localAnimator.addLightSource({position = position, color = {50, 50, 50}, pointLight = true, beamAmbience = 0.00002})
   end
 end

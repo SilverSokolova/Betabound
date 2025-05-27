@@ -62,7 +62,7 @@ function MiningTool:fire()
   entityPosition = world.entityPosition(activeItem.ownerEntityId())
   self.hitPosition = activeItem.ownerAimPosition()
   local distance = vec2.mag(world.distance(entityPosition, self.hitPosition))
-  if distance > (player.isAdmin() and distance + 1 or self.toolRange) then
+  if not player.isAdmin() and distance > self.toolRange then
     return
   end
 

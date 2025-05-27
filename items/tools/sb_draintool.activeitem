@@ -1,0 +1,25 @@
+{
+  "itemName": "sb_draintool",
+  "inventoryIcon": "sb_paintergunicon.png?replace;e7c474=97a5b0;c88b28=646d7e;8d581c=3b4054;513310=212430;6f2919=808080;e0975c=e8e8e8;a85636=b8b8b8",
+  "largeImage": "/items/tools/sb_paintergunlarge.png?replace;e7c474=97a5b0;c88b28=646d7e;8d581c=3b4054;513310=212430;6f2919=8f8f8f;a85636=b8b8b8;e0975c=e8e8e8",
+  "rarity": "Uncommon",
+  "maxStack": 1,
+  "price": 1000,
+  "description": "Used to extract natural hue from blocks for later use.",
+  "shortdescription": "Drain Tool",
+  "tooltipKind": "sb_tool",
+  "category": "tool",
+  "itemTags": ["painttool"], //TODO give proper tags
+  "fireTime": 0.05,
+  "blockRadius": 3,
+  "altBlockRadius": 1,
+  "twoHanded": true,
+  "animationParts": {
+    "tool": "/items/tools/sb_paintergunvariants.png:0.red?replace;e7c474=97a5b0;c88b28=646d7e;8d581c=3b4054;513310=212430;820606=8f8f8f;c12d1d=b8b8b8;fd713f=e8e8e8"
+  },
+  "highlight": "/humanoid/any/sb_tileglow.png?multiply=%s5a?scalenearest=%s?border=1;%sff;0000",
+  "highlightColor": [59, 64, 84], //3b4054
+  "animationScripts": ["/items/tools/miningtools/sb_beamaxeanimation.lua"],
+  "animation": "/items/tools/sb_draintool.animation",
+  "scripts": ["/items/tools/sb_draintool.lua"]
+}
