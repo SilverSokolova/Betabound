@@ -5,8 +5,8 @@ function init()
   altRadius = config.getParameter("altBlockRadius")
   harvestLevel = config.getParameter("harvestLevel", 99)
   storedLiquids = config.getParameter("storedLiquids")
---range = config.getParameter("interactRadius",root.assetJson("/player.config:interactRadius") or 5) + status.statusProperty("bonusBeamGunRadius",0)
---inRange = false
+  range = root.assetJson("/player.config:initialBeamGunRadius") + status.statusProperty("bonusBeamGunRadius", 0)
+  inRange = false
 
   magnetEnabled = config.getParameter("magnetEnabled", true)
   liquidEnabled = config.getParameter("canCollectLiquid", false)
@@ -20,6 +20,10 @@ function init()
     includedTypes = {"vehicle"},
     boundMode = "position"
   }
+
+  if player.favoriteColor then
+    activeItem.setScriptedAnimationParameter("favoriteColor", player.favoriteColor())
+  end
 
   if magnetEnabled then
     magnet = config.getParameter("magnet")
@@ -49,43 +53,46 @@ function update(dt, fireMode, shifting)
   activeItem.setFacingDirection(aimDirection or 0)
   activeItem.setScriptedAnimationParameter("radius", shifting and altRadius or radius)
 
---inRange = world.magnitude(mcontroller.position(), activeItem.ownerAimPosition()) <= range
---activeItem.setScriptedAnimationParameter("inRange", inRange)
---if inRange then
-  if fireMode ~= "none" then
-    world.damageTiles(shifting and fillRadius(altRadius) or fillRadius(radius),
-      fireMode == "alt" and "background" or "foreground",
-      activeItem.ownerAimPosition(),
-      "beamish",
-      notifyDamage * ((shifting and 1 + radius - altRadius) or 1), --this would be fine if a radius of 2 meant 2 blocks, but it means 4 blocks
-      harvestLevel,
-      id
-    )
-  end
+  inRange = world.magnitude(mcontroller.position(), activeItem.ownerAimPosition()) <= range
+  activeItem.setScriptedAnimationParameter("inRange", inRange)
 
-  if fireMode == "primary" then
-    if liquidEnabled then
-      local area = shifting and fillRadius(altRadius) or fillRadius(radius)
-      for n = 1, #area do
-        local liquid = world.destroyLiquid(area[n])
-        if liquid then
-          if root.liquidConfig(liquid[1]) then
-            if liquid[2] == 1 then
-              giveLiquid(liquid[1])
-            else
-              updateStoredLiquids(liquid)
+  if inRange then
+    if fireMode ~= "none" then
+      world.damageTiles(shifting and fillRadius(altRadius) or fillRadius(radius),
+        fireMode == "alt" and "background" or "foreground",
+        activeItem.ownerAimPosition(),
+        "beamish",
+        notifyDamage * ((shifting and 1 + radius - altRadius) or 1), --this would be fine if a radius of 2 meant 2 blocks, but it means 4 blocks
+        harvestLevel,
+        id
+      )
+    end
+
+    if fireMode == "primary" then
+      if liquidEnabled then
+        local area = shifting and fillRadius(altRadius) or fillRadius(radius)
+        for n = 1, #area do
+          local liquid = world.destroyLiquid(area[n])
+          if liquid then
+            if root.liquidConfig(liquid[1]) then
+              if liquid[2] == 1 then
+                giveLiquid(liquid[1])
+              else
+                updateStoredLiquids(liquid)
+              end
             end
           end
         end
       end
+
+      notifyTimer = math.max(0, notifyTimer - dt)
+      if notifyTimer == 0 then
+        notifyTimer = notifyTime
+        notifyEntities(shifting)
+      end
+    else
+      notifyTimer = 0
     end
-    notifyTimer = math.max(0, notifyTimer - dt)
-    if notifyTimer == 0 then
-      notifyTimer = notifyTime
-      notifyEntities(shifting)
-    end
-  else
-    notifyTimer = 0
   end
 end
 
