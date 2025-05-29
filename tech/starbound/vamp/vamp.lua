@@ -10,8 +10,8 @@ function update(dt)
   queryDamageSince = nextStep
   for _, notification in ipairs(damageNotificationsOutgoing) do
     if notification.targetEntityId then
-      if notification.sourceEntityId ~= notification.targetEntityId and (notification.healthLost > minimumDamage) and (notification.healthLost/percentage) > 0 then
-  status.addEphemeralEffect(effect,notification.healthLost/percentage)
+      if notification.sourceEntityId ~= notification.targetEntityId and (notification.healthLost > minimumDamage) and (notification.healthLost / percentage) > 0 then
+        status.addEphemeralEffect(effect, notification.healthLost / percentage)
       end
     end
   end
