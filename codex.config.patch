@@ -1,5 +1,4 @@
 [
-  //We need this in case someone has one of those mods that breaks codices
   [
     {"op":"test","path":"/defaultItemConfig/category","inverse":true},
     {"op":"add","path":"/defaultItemConfig/category","value":"codex"}
