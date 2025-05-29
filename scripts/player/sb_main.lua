@@ -12,14 +12,21 @@ function init()
     player.setProperty("sb_bioimplant")
   end)
 
-  message.setHandler("sb_implant", function(_, fromSelf, b)
-    if fromSelf == false then return end
-    if b == nil then return end
-    if type(b) == "string" then b = {b,root.techConfig(b).sb_effect} end
-    if type(b[2]) == "string" then b[2] = {b[2]} end
+  message.setHandler("sb_implant", function(_, fromSelf, techName)
+    if not fromSelf or not techName then return end
+
     status.clearPersistentEffects("sb_bioimplant")
-    player.setProperty("sb_bioimplant",b[1])
-    if b[2] ~= nil then status.setPersistentEffects("sb_bioimplant",b[2]) end
+    local effects = root.techConfig(techName).sb_effect
+    if effects then
+      if type(effects) == "string" then
+        effects = {effects}
+      end
+      sb.logInfo(sb.print(techName))
+      sb.logInfo(sb.printJson(effects))
+      status.setPersistentEffects("sb_bioimplant", effects)
+    end
+
+    player.setProperty("sb_bioimplant", techName)
   end)
 
   --Peacekeeper Teleporter
