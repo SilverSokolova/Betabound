@@ -1,5 +1,5 @@
 {
-  "input": [["titaniumbar",6],["glass",4],"battery","siliconboard"],
+  "input": [["titaniumbar",6],["goldbar",6],"battery"],
   "output": "sb_cookingstation",
   "groups": ["inventorstable3","craftingstations","all"]
 }

@@ -1,5 +1,5 @@
 {
-  "input": ["platinumbar","smallbattery","glass","wire"],
+  "input": [["titaniumbar",2],"smallbattery","wire","glass"],
   "output": "sb_gps",
   "groups": ["craftingfarm2","survival","all"]
 }

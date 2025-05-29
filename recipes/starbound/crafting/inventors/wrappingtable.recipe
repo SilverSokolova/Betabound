@@ -1,5 +1,5 @@
 {
-  "input": [["darkwoodmaterial",15]],
+  "input": [["darkwoodmaterial",15],["fabric",3]],
   "output": "sb_wrappingtable",
   "groups": ["inventorstable","holidaycraftingtable","craftingstations","all"]
 }
