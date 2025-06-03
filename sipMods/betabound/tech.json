@@ -69,6 +69,7 @@
 ,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Protection+","category":"sb_tech","icon":"protection.png","parameters":{"techModule":"sb_protection"},"rarity":"rare"}
 
 ,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Gritty","category":"sb_tech","icon":"grit.png","parameters":{"techModule":"sb_grit"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Glide","category":"sb_tech","icon":"glide.png","parameters":{"techModule":"sb_glide"},"rarity":"rare"}
 ,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Berserker","category":"sb_tech","icon":"/tech/starbound/berserk.png","parameters":{"techModule":"sb_berserk"},"rarity":"rare"}
 ,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Vampiric","category":"sb_tech","icon":"/tech/starbound/vamp.png","parameters":{"techModule":"sb_vamp"},"rarity":"rare"}
 ,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Magnetic","category":"sb_tech","icon":"magnet.png","parameters":{"techModule":"sb_magnet"},"rarity":"rare"}
