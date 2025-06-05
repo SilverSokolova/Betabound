@@ -33,33 +33,20 @@
 
 ,{"op":"add","path":"/-","value":"/sipMods/betabound/consumables.json"}
 ,{"op":"add","path":"/-","value":"/sipMods/betabound/codex.json"}
+,{"op":"add","path":"/-","value":"/sipMods/betabound/armor.json"}
 
+,{"op":"add","path":"/-","value":"/sipMods/betabound/clothes.json"}
+,{"op":"add","path":"/-","value":"/sipMods/betabound/terraformers.json"}
+,{"op":"add","path":"/-","value":"/sipMods/betabound/throwables.json"}
 
+,{"op":"add","path":"/-","value":"/sipMods/betabound/crafting.json"}
+,{"op":"add","path":"/-","value":"betabound/objects.json"}
+,{"op":"add","path":"/-","value":"/sipMods/betabound/melee.json"}
 
+,{"op":"add","path":"/-","value":"/sipMods/betabound/misc.json"}
+,{"op":"add","path":"/-","value":"/sipMods/betabound/reagent.json"}
+,{"op":"add","path":"/-","value":"/sipMods/betabound/shields.json"}
 
-//,{"op":"add","path":"/-","value":"/sipMods/betabound/armor.json"}
-//,{"op":"add","path":"/-","value":"/sipMods/betabound/clothes.json"}
-
-//,{"op":"add","path":"/-","value":"/sipMods/betabound/crafting.json"}
-
-//,{"op":"add","path":"/-","value":"betabound/objects.json"}
-
-//,{"op":"add","path":"/-","value":"/sipMods/betabound/melee.json"}
-//,{"op":"add","path":"/-","value":"/sipMods/betabound/misc.json"}
-
-//,{"op":"add","path":"/-","value":"/sipMods/betabound/repair.json"}
-//,{"op":"add","path":"/-","value":"/sipMods/betabound/reagent.json"}
-
-//,{"op":"add","path":"/-","value":"/sipMods/betabound/shields.json"}
-//,{"op":"add","path":"/-","value":"/sipMods/betabound/storage.json"}
-
-//,{"op":"add","path":"/-","value":"/sipMods/betabound/wire.json"}
-
-//,{"op":"add","path":"/-","value":"/sipMods/betabound/throwables.json"}
-
-
-
-//,{"op":"add","path":"/-","value":"/sipMods/betabound/terraformers.json"}
-//,{"op":"add","path":"/-","value":"/sipMods/betabound/paint.json"}
-
+,{"op":"add","path":"/-","value":"/sipMods/betabound/storage.json"}
+,{"op":"add","path":"/-","value":"/sipMods/betabound/wire.json"}
 ]

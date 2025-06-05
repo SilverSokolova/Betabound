@@ -1,0 +1,41 @@
+[
+{"path":"/items/generic/other/","name":"sb_techchip","shortdescription":"Tech Chip","category":"ingredients","icon":"techchip.png","rarity":"rare"}
+,{"path":"/items/generic/other/","name":"sb_mattermodulecomponent","shortdescription":"Matter Module Component","category":"ingredients","icon":"mattermodulecomponent.png","rarity":"rare"}
+//,{"path":"/tech/starbound/","name":"sb_blanktechcard","shortdescription":"Tech Drive","category":"ingredients","icon":"banana.png","rarity":"uncommon"}
+,{"path":"/items/generic/crafting/","name":"sb_dreadwreckage","shortdescription":"Scrap Metal","category":"ingredients","icon":"sb_dreadwreckage.png"}
+
+,{"icon":"/items/currency/sb_goldcoin.png","name":"sb_goldcoin","shortdescription":"Gold Coin","category":"currency"}
+,{"path":"/sbsip/","name":"sb_timecapsule","shortdescription":"Time Capsule","category":"sb_disabled","icon":"6.png"}
+
+,{"path":"/items/generic/other/","name":"sb_unrefinedwood","shortdescription":"Fuelwood","category":"ingredients","icon":"sb_unrefinedwood.png"}
+,{"path":"/items/generic/crafting/","name":"sb_gunpowder","shortdescription":"Gunpowder","category":"ingredients","icon":"sb_gunpowder.png"}
+
+,{"path":"/items/generic/crafting/","name":"sb_diamondore","shortdescription":"Diamond Ore","category":"ingredients","icon":"sb_diamondore.png","rarity":"rare"}
+,{"path":"/items/generic/crafting/","name":"sb_rubiumore","shortdescription":"Rubium Ore","category":"ingredients","icon":"sb_rubiumore.png","rarity":"rare"}
+,{"path":"/items/generic/crafting/","name":"sb_ceruliumore","shortdescription":"Cerulium Ore","category":"ingredients","icon":"sb_ceruliumore.png","rarity":"rare"}
+
+,{"path":"/items/generic/crafting/","name":"sb_steelbar","shortdescription":"Steel Bar","category":"ingredients","icon":"sb_steelbar.png","rarity":"uncommon"}
+,{"path":"/items/generic/crafting/","name":"sb_refinedrubium","shortdescription":"Refined Rubium","category":"ingredients","icon":"sb_refinedrubium.png","rarity":"rare"}
+,{"path":"/items/generic/crafting/","name":"sb_feroziumcompound","shortdescription":"Scintillium Compound","category":"ingredients","icon":"sb_feroziumcompound.png","rarity":"legendary"}
+,{"path":"/items/generic/crafting/","name":"sb_ceruliumcompound","shortdescription":"Cerulium Compound","category":"ingredients","icon":"sb_ceruliumcompound.png","rarity":"legendary"}
+,{"path":"/items/generic/crafting/","name":"sb_imperviumcompound","shortdescription":"Impervium Compound","category":"ingredients","icon":"sb_imperviumcompound.png","rarity":"legendary"}
+
+,{"path":"/items/generic/crafting/","name":"sb_solariumrod","shortdescription":"Solarium Rod","category":"ingredients","icon":"sb_solariumrod.png","rarity":"rare"}
+
+,{"path":"/items/generic/crafting/","name":"sb_aegisaltbar","shortdescription":"Aegisalt Bar","category":"ingredients","icon":"sb_aegisaltbar.png","rarity":"rare"}
+,{"path":"/items/generic/crafting/","name":"sb_violiumbar","shortdescription":"Violium Bar","category":"ingredients","icon":"sb_violiumbar.png","rarity":"rare"}
+,{"path":"/items/generic/crafting/","name":"sb_rubiumbar","shortdescription":"Rubium Bar","category":"ingredients","icon":"sb_rubiumbar.png","rarity":"rare"}
+,{"path":"/items/generic/crafting/","name":"sb_feroziumbar","shortdescription":"Scintillium Bar","category":"ingredients","icon":"sb_feroziumbar.png","rarity":"legendary"}
+,{"path":"/items/generic/crafting/","name":"sb_ceruliumbar","shortdescription":"Cerulium Bar","category":"ingredients","icon":"sb_ceruliumbar.png","rarity":"legendary"}
+,{"path":"/items/generic/crafting/","name":"sb_imperviumbar","shortdescription":"Impervium Bar","category":"ingredients","icon":"sb_imperviumbar.png","rarity":"legendary"}
+
+//,{"path":"/items/generic/crafting/","name":"sb_robotheadempty","shortdescription":"Empty Robot Head","category":"ingredients","icon":"sb_robotheadempty.png","rarity":"uncommon"}
+
+
+/*,{"path":"/items/generic/crafting/","name":"copperbar","shortdescription":"Copper Bar (Alt)","category":"sb_disabled","parameters":{"tooltipKind":"sb_object","inventoryIcon":"sb_copperbar.png"},"icon":"sb_copperbar.png"}
+,{"path":"/items/generic/crafting/","name":"silverbar","shortdescription":"Silver Bar (Alt)","category":"sb_disabled","parameters":{"tooltipKind":"sb_object","inventoryIcon":"sb_silverbar.png"},"icon":"sb_silverbar.png"}
+,{"path":"/items/generic/crafting/","name":"goldbar","shortdescription":"Gold Bar (Alt)","category":"sb_disabled","parameters":{"tooltipKind":"sb_object","inventoryIcon":"sb_goldbar.png"},"icon":"sb_goldbar.png","rarity":"uncommon"}
+,{"path":"/items/generic/crafting/","name":"platinumbar","shortdescription":"Platinum Bar (Alt)","category":"sb_disabled","parameters":{"inventoryIcon":"sb_platinumbar.png"},"icon":"sb_platinumbar.png","rarity":"uncommon"}
+,{"path":"/items/generic/crafting/","name":"sb_steelbar","shortdescription":"Steel Bar (Alt)","category":"sb_disabled","parameters":{"inventoryIcon":"sb_steelbar2.png"},"icon":"sb_steelbar2.png","rarity":"uncommon"}
+,{"path":"/items/generic/crafting/","name":"durasteelbar","shortdescription":"Durasteel Bar (Alt)","category":"sb_disabled","parameters":{"inventoryIcon":"sb_durasteelbar.png","tooltipKind":"sb_object"},"icon":"sb_durasteelbar.png","rarity":"uncommon"}*/
+]

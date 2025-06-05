@@ -109,5 +109,6 @@
 ,{"path":"/items/generic/other/","name":"sb_greystim","shortdescription":"Grey Stim","category":"medicine","icon":"sb_greystim.png"}
 ,{"icon":"/items/generic/other/sb_heatingbag.png","name":"sb_heatingbag","shortdescription":"Heating Bag","category":"medicine","rarity":"uncommon"}
 ,{"icon":"/items/generic/other/sb_electricitydeflector.png","name":"sb_electricitydeflector","shortdescription":"Electricity Deflector","category":"medicine","rarity":"uncommon"}
+,{"icon":"/items/throwables/sb_levitationpowdericon.png","name":"sb_levitationpowder","shortdescription":"Feather Powder","category":"medicine","rarity":"uncommon"}
 //,{"icon":"/interface/x.png","name":"sb_preservedfood","shortdescription":"Preserved Food","category":"sb_misc"}
 ]
