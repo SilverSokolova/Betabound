@@ -1,58 +1,58 @@
 {
-  "type" : "sb_rivalbountyhunter",
-  "baseType" : "base",
+  "type": "sb_rivalbountyhunter",
+  "baseType": "base",
   "displayTitle": "Bounty Hunter",
-  "levelVariance" : [3, 3],
-  "persistent" : false,
+  "levelVariance": [3, 3],
+  "persistent": false,
 
-  "damageTeamType" : "friendly",
-  "damageTeam" : 1,
+  "damageTeamType": "friendly",
+  "damageTeam": 1,
 
-  "dropPools" : [ ],
+  "dropPools": [],
 
-  "scriptConfig" : {
-    "behavior" : "bountyrival",
+  "scriptConfig": {
+    "behavior": "bountyrival",
 
-    "dialog" : {
-      "attack" : "/dialog/peacekeeper.config:attack",
-      "reattack" : "/dialog/peacekeeper.config:reattack",
-      "killedTarget" : "/dialog/peacekeeper.config:killedTarget",
-      "lostTarget" : "/dialog/peacekeeper.config:lostTarget",
-      "outOfSight" : "/dialog/peacekeeper.config:outOfSight",
-      "cheerOn" : "/dialog/peacekeeper.config:cheerOn",
-      "cantReach" : "/dialog/peacekeeper.config:cantReach",
+    "dialog": {
+      "attack": "/dialog/peacekeeper.config:attack",
+      "reattack": "/dialog/peacekeeper.config:reattack",
+      "killedTarget": "/dialog/peacekeeper.config:killedTarget",
+      "lostTarget": "/dialog/peacekeeper.config:lostTarget",
+      "outOfSight": "/dialog/peacekeeper.config:outOfSight",
+      "cheerOn": "/dialog/peacekeeper.config:cheerOn",
+      "cantReach": "/dialog/peacekeeper.config:cantReach",
 
-      "bountyRival" : {
-        "warn" : {
-          "default" : {
-            "default" : [
+      "bountyRival": {
+        "warn": {
+          "default": {
+            "default": [
               "I don't trust you to take down ^green;<bountyName>^reset;."
             ]
           },
-          "glitch" : {
-            "default" : [
+          "glitch": {
+            "default": [
               "Informative. I'm also on the hunt for ^green;<bountyName>^reset;."
             ]
           },
-          "floran" : {
-            "default" : [
+          "floran": {
+            "default": [
               "Floran will ssstop ^green;<bountyName>^reset;!"
             ]
           }
         },
-        "leave" : {
-          "default" : {
-            "default" : [
+        "leave": {
+          "default": {
+            "default": [
               "Don't get in my way!"
             ]
           },
-          "glitch" : {
-            "default" : [
+          "glitch": {
+            "default": [
               "Threatening. I will get to them first."
             ]
           },
-          "floran" : {
-            "default" : [
+          "floran": {
+            "default": [
               "Ssstay away, <entitySpecies>..."
             ]
           }
@@ -61,32 +61,37 @@
     }
   },
 
-  "items" : {
-    "default" : [
-      [0, [
-          {
-            "chest" : [ { "name" : "peacekeeperchest" } ],
-            "legs" : [ { "name" : "peacekeeperpants" } ],
-            "primary" : [ "npcassaultrifle" ],
-            "sheathedprimary" : [ "npcbroadsword" ]
+  "items": {
+    "default": [
+      [0, [{
+            "chest": [{
+                "name": "peacekeeperchest"
+              }
+            ],
+            "legs": [{
+                "name": "peacekeeperpants"
+              }
+            ],
+            "primary": ["npcassaultrifle"],
+            "sheathedprimary": ["npcbroadsword"]
           }
-        ] ]
+        ]]
     ]
   },
 
-  "statusControllerSettings" : {
-    "stats" : {
-      "maxHealth" : {
-        "baseValue" : 100.0
+  "statusControllerSettings": {
+    "stats": {
+      "maxHealth": {
+        "baseValue": 100.0
       },
-      "powerMultiplier" : {
-        "baseValue" : 0.5
+      "powerMultiplier": {
+        "baseValue": 0.5
       },
-      "protection" : {
-        "baseValue" : 1.0
+      "protection": {
+        "baseValue": 1.0
       },
-      "healthRegen" : {
-        "baseValue" : 0.0
+      "healthRegen": {
+        "baseValue": 0.0
       }
     }
   }

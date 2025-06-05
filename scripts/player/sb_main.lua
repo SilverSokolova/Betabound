@@ -21,8 +21,6 @@ function init()
       if type(effects) == "string" then
         effects = {effects}
       end
-      sb.logInfo(sb.print(techName))
-      sb.logInfo(sb.printJson(effects))
       status.setPersistentEffects("sb_bioimplant", effects)
     end
 

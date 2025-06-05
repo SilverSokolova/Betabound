@@ -1,3 +1,4 @@
+//TODO come back here and rename glide to like slowfall or something?
 [
 [{"op":"test","path":"/statusEffects","inverse":true},{"op":"add","path":"/statusEffects","value":[]}],
 [{"op":"add","path":"/statusEffects/-","value":"sb_glide"}],
