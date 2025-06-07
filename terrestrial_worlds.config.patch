@@ -37,6 +37,14 @@
   [{"op":"add","path":"/regionTypes/volcanic/subRegion/-","value":"sb_rust"}],
   [{"op":"add","path":"/regionTypes/scorchedcity/subRegion/-","value":"sb_rust"}],
 
+  //Tentacle
+  //make planet parallax apply to minibiome
+  //what about the terraformer? just keep both the plant and minibiome?
+  //vanilla planet-biomes don't have microformers, only terraformers (confirm?)
+//  [{"op":"add","path":"/regionTypes/forest/subRegion/-","value":"sb_tentacle"}],
+//  [{"op":"add","path":"/regionTypes/volcanic/subRegion/-","value":"sb_tentacle"}],
+//  [{"op":"add","path":"/regionTypes/scorchedcity/subRegion/-","value":"sb_tentacle"}],
+
   [{
       "op": "add",
       "path": "/regionTypes/sb_rust",
