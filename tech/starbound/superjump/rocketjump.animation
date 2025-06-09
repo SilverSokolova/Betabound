@@ -1,20 +1,4 @@
 {
-  "animatedParts": {
-    "stateTypes": {
-      "jumping": {
-        "default": "off",
-        "states": {
-          "off": {},
-          "on": {
-            "properties": {
-              "persistentSound": "/sfx/tools/teleport_up.ogg"
-            }
-          }
-        }
-      }
-    }
-  },
-
   "particleEmitters": {
     "jumpParticles": {
       "emissionRate": 40,
@@ -47,16 +31,16 @@
         }
       ]
     },
-    "chargedParticles": {
+    "chargeParticles": {
       "emissionRate": 20,
       "particles": [{
           "particle": "jumpboost",
           "offset": [-0.15, 0]
         }, {
-          "particle": "jetboots2",
+          "particle": "jumpboost",
           "offset": [0.15, 0]
         }, {
-          "particle": "jetboots3",
+          "particle": "jumpboost",
           "offset": [0, 0.15]
         }
       ]
@@ -65,6 +49,6 @@
 
   "sounds": {
     "charge": ["/sfx/gun/dragonhead_charge1.ogg"],
-    "jumpSound": ["/sfx/tech/tech_rocketjump_release.ogg"]
+    "jump": ["/sfx/tech/tech_rocketjump_release.ogg"]
   }
 }

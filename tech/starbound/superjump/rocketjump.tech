@@ -13,8 +13,9 @@
   "animator": "rocketjump.animation",
 
   "energyUsage": 26,
-  "superjumpSpeed": 250,
-  "superjumpControlForce": 820,
-  "superjumpTime": 0.13,
+  "superJumpSpeed": 250,
+  "superJumpControlForce": 820,
+  "superJumpDuration": 0.13,
+  "superJumpChargeRate": 0.1,
   "superJumpMaxCharge": 10
 }
