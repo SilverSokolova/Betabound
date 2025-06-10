@@ -1,5 +1,5 @@
 [
-{"path":"/items/materials/","name":"sb_slopedpolygon","shortdescription":"Polygon Panel","category":"blocks","icon":"sb_slopedpolygonicon.png"}
+{"path":"/items/materials/","name":"slopedpolygon","shortdescription":"Polygon Panel","category":"blocks","icon":"slopedpolygonicon.png"}
 ,{"path":"/items/materials/","name":"sb_lightblocker","shortdescription":"Lightblocker","category":"sb_disabled","icon":"glass.png","rarity":"rare"}
 ,{"path":"/items/materials/","name":"sb_chain","shortdescription":"Steel Chain","category":"blocks","icon":"sb_chain.png"}
 

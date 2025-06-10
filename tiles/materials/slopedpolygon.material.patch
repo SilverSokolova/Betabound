@@ -1,1 +1,1 @@
-[[{"op":"test","path":"/itemDrop","inverse":true},{"op":"add","path":"/itemDrop","value":"sb_slopedpolygon"}]]
+[[{"op":"test","path":"/itemDrop","inverse":true},{"op":"add","path":"/itemDrop","value":"slopedpolygon"}]]
