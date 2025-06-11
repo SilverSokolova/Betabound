@@ -1,0 +1,5 @@
+{
+  "input": [["ancientblock",10],"glass"],
+  "output": "ancientlightround",
+  "groups": ["craftingfurniture2","lights","all"]
+}

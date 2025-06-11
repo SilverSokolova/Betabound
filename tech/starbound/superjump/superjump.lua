@@ -11,6 +11,7 @@ function init()
   superJumpChargeRate = config.getParameter("superJumpChargeRate")
   energyUsage = config.getParameter("energyUsage")
   chargeParticleBaseEmissionRate = config.getParameter("chargeParticleBaseEmissionRate", 20)
+  animator.setParticleEmitterOffsetRegion("chargeFront", mcontroller.boundBox())
 end
 
 function update(args)
@@ -21,7 +22,8 @@ function update(args)
     if args.moves["up"] and mcontroller.onGround() then
       if superJumpCharge == 0 then
         animator.playSound("charge")
-        animator.setParticleEmitterEmissionRate("chargeParticles", superJumpCharge + chargeParticleBaseEmissionRate)
+        animator.setParticleEmitterEmissionRate("chargeBack", superJumpCharge + chargeParticleBaseEmissionRate)
+        animator.setParticleEmitterEmissionRate("chargeFront", superJumpCharge + chargeParticleBaseEmissionRate)
       end
 
       superJumpCharge = math.min(superJumpMaxCharge, superJumpCharge + superJumpChargeRate)
@@ -43,22 +45,25 @@ function update(args)
   end
 
   --animation
-  animator.setParticleEmitterActive("chargeParticles", superJumpCharge >= 1)
+  local chargeParticlesEnabled = superJumpCharge >= 1
+  animator.setParticleEmitterActive("chargeBack", chargeParticlesEnabled)
+  animator.setParticleEmitterActive("chargeFront", chargeParticlesEnabled)
   animator.setFlipped(mcontroller.facingDirection() < 0)
   if superJumpAnimationDuration > 0 then
-    animator.setParticleEmitterActive("jumpParticles", true)
-    animator.setParticleEmitterActive("rocketParticles", true)
+    animator.setParticleEmitterActive("jump", true)
+    animator.setParticleEmitterActive("rocket", true)
 
     superJumpAnimationDuration = superJumpAnimationDuration - args.dt
   else
-    animator.setParticleEmitterActive("jumpParticles", false)
-    animator.setParticleEmitterActive("rocketParticles", false)
+    animator.setParticleEmitterActive("jump", false)
+    animator.setParticleEmitterActive("rocket", false)
   end
 
   --discharging
   if not args.moves["up"] or hasActiveMovementAbility or not mcontroller.onGround() then
     superJumpCharge = math.max(0, superJumpCharge - superJumpChargeRate)
-    animator.setParticleEmitterEmissionRate("chargeParticles", superJumpCharge)
+    animator.setParticleEmitterEmissionRate("chargeBack", superJumpCharge)
+    animator.setParticleEmitterEmissionRate("chargeFront", superJumpCharge)
   end
 
   superJumpCooldown = math.max(0, superJumpCooldown - args.dt)

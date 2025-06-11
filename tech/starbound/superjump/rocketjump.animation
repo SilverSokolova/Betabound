@@ -1,6 +1,6 @@
 {
   "particleEmitters": {
-    "jumpParticles": {
+    "jump": {
       "emissionRate": 40,
       "particles": [{
           "particle": "dash",
@@ -8,7 +8,7 @@
         }
       ]
     },
-    "rocketParticles": {
+    "rocket": {
       "emissionRate": 50,
       "particles": [{
           "particle": "jetboots2",
@@ -31,7 +31,7 @@
         }
       ]
     },
-    "chargeParticles": {
+    "chargeBack": {
       "emissionRate": 20,
       "particles": [{
           "particle": "jumpboost",
@@ -39,9 +39,29 @@
         }, {
           "particle": "jumpboost",
           "offset": [0.15, 0]
-        }, {
-          "particle": "jumpboost",
-          "offset": [0, 0.15]
+        }
+      ]
+    },
+    "chargeFront": {
+      "emissionRate": 20,
+      "particles": [{
+          "particle": {
+            "type": "ember",
+            "size": 1.5,
+            "color": [40, 218, 244, 230],
+            "fade": 0.9,
+            "position": [0, 0],
+            "offsetRegion": [0, 0, 0, 0],
+            "initialVelocity": [0, 10],
+            "finalVelocity": [0, 10],
+            "destructionAction": "shrink",
+            "destructionTime": 0.1,
+            "approach": [0, 10],
+            "timeToLive": 0.2,
+            "variance": {
+              "initialVelocity": [0, 1]
+            }
+          }
         }
       ]
     }

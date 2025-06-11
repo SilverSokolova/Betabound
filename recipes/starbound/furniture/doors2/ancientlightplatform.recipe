@@ -1,0 +1,5 @@
+{
+  "input": [["ancientblock",10],"refinedviolium","siliconboard", "smallbattery"],
+  "output": "ancientlightplatform",
+  "groups": ["craftingfurniture2","doors","all"]
+}

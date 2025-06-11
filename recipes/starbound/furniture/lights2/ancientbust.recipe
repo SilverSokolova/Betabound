@@ -1,0 +1,5 @@
+{
+  "input": [["ancientblock",20],"glass","smallbattery"],
+  "output": "ancientbust",
+  "groups": ["craftingfurniture2","lights","all"]
+}

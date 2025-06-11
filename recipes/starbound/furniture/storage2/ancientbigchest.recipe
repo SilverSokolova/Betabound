@@ -1,0 +1,5 @@
+{
+  "input": [["ancientblock",20],"goldbar"],
+  "output": "sb_ancientbigchest",
+  "groups": ["craftingfurniture2","storage","all"]
+}
