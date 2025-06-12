@@ -18,7 +18,7 @@
 ,{"path":"/items/generic/food/sb_sides/","name":"sb_corntent","shortdescription":"Corntent","category":"food","icon":"corntent.png","rarity":"rare"}
 ,{"path":"/items/generic/food/sb_sides/","name":"sb_crystalnachos","shortdescription":"Crystal Nachos","category":"food","icon":"crystalnachos.png","rarity":"rare"}
 ,{"path":"/items/generic/food/sb_sides/","name":"sb_eggfriedrice","shortdescription":"Eggshoot Fried Rice","category":"food","icon":"eggfriedrice.png"}
-,{"path":"/items/generic/sb_meat/","name":"sb_offal","shortdescription":"Offal","category":"food","icon":"offal.png","rarity":"rare"}
+,{"path":"/items/generic/meat/","name":"sb_offal","shortdescription":"Offal","category":"food","icon":"sb_offal.png","rarity":"rare"}
 ,{"path":"/items/generic/food/","name":"sb_revoltingstew","shortdescription":"Revolting Stew","category":"food","icon":"sb_revoltingstew.png"}
 ,{"path":"/items/generic/food/","name":"sb_rottenapple","shortdescription":"Rotten Apple","category":"food","icon":"sb_rottenapple.png"}
 ,{"path":"/items/generic/food/sb_sides/","name":"sb_roastbanana","shortdescription":"Roasted Banana","category":"food","icon":"roastbanana.png"}
@@ -89,10 +89,10 @@
 ,{"path":"/items/generic/food/sb_condiments/","name":"sb_peanutbutterjar","shortdescription":"Peanut Butter","category":"food","icon":"peanutbutterjar.png","rarity":"uncommon"}
 ,{"path":"/items/generic/food/sb_condiments/","name":"sb_thornjam","shortdescription":"Thorn Jam","category":"food","icon":"thornjam.png"}
 
-,{"path":"/items/generic/sb_meat/","name":"sb_rawfleshlump","shortdescription":"Flesh Lump","category":"consumable","icon":"rawfleshlump.png"}
-,{"path":"/items/generic/sb_meat/","name":"sb_cookedfleshlump","shortdescription":"Cooked Flesh Lump","category":"consumable","icon":"cookedfleshlump.png"}
-,{"path":"/items/generic/sb_meat/","name":"sb_meatchunks","shortdescription":"Meat Chunks","category":"consumable","icon":"meatchunks.png"}
-,{"path":"/items/generic/sb_meat/","name":"sb_soylentgreen","shortdescription":"Soylent Green","category":"consumable","icon":"soylentgreen.png"}
+,{"path":"/items/generic/meat/","name":"sb_rawfleshlump","shortdescription":"Flesh Lump","category":"consumable","icon":"sb_rawfleshlump.png"}
+,{"path":"/items/generic/meat/","name":"sb_cookedfleshlump","shortdescription":"Cooked Flesh Lump","category":"consumable","icon":"sb_cookedfleshlump.png"}
+,{"path":"/items/generic/meat/","name":"sb_meatchunks","shortdescription":"Spoiled Meat Chunks","category":"consumable","icon":"sb_meatchunks.png"}
+,{"path":"/items/generic/meat/","name":"sb_soylentgreen","shortdescription":"Soylent Green","category":"consumable","icon":"sb_soylentgreen.png"}
 ,{"icon":"/items/generic/food/tier6/hothothotpot.png","name":"sb_meatballs","shortdescription":"Meatballs","category":"consumable"}
 
 

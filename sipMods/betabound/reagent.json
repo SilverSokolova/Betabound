@@ -5,7 +5,7 @@
 ,{"path":"/items/generic/crafting/","name":"sb_dreadwreckage","shortdescription":"Scrap Metal","category":"ingredients","icon":"sb_dreadwreckage.png"}
 
 ,{"icon":"/items/currency/sb_goldcoin.png","name":"sb_goldcoin","shortdescription":"Gold Coin","category":"currency"}
-,{"path":"/sbsip/","name":"sb_timecapsule","shortdescription":"Time Capsule","category":"sb_disabled","icon":"6.png"}
+,{"name":"sb_timecapsule","shortdescription":"Time Capsule","category":"sb_disabled"}
 
 ,{"path":"/items/generic/other/","name":"sb_unrefinedwood","shortdescription":"Fuelwood","category":"ingredients","icon":"sb_unrefinedwood.png"}
 ,{"path":"/items/generic/crafting/","name":"sb_gunpowder","shortdescription":"Gunpowder","category":"ingredients","icon":"sb_gunpowder.png"}
