@@ -27,7 +27,7 @@ Credits
     * [_InferusRF](https://steamcommunity.com/profiles/76561193786172700):<br/>
       Skyrails, many ranged weapons, melee weapons
     * [nuggubs](https://steamcommunity.com/sharedfiles/filedetails/?id=2735634052):<br/>
-      Jam and salsa, organic torch, painting icon
+      Jam and salsa, organic torch, painting, orange & crystal tart icons
     * [ShyDispatch](https://steamcommunity.com/id/Manix25/myworkshopfiles/?appid=211820):<br/>
       PB&J icon
     * cutieryan:<br/>
