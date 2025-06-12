@@ -1,0 +1,21 @@
+{
+  "itemName": "sb_meatchunks",
+  "rarity": "Common",
+  "price": 0,
+  "foodValue": -15,
+  "tooltipKind": "sb_object",
+  "category": "foodJunk",
+  "tooltipFields": {
+    "subtitle": "Food"
+  },
+  "effects": [[{
+        "effect": "foodpoison",
+        "duration": 60
+      }
+    ]],
+  "inventoryIcon": "sb_meatchunks.png",
+  "description": "Spoiled chunks of pulverized meat.",
+  "shortdescription": "Spoiled Meat Chunks",
+  "handPosition": [0, -2],
+  "builder": "/items/buildscripts/starbound/buildfood.lua"
+}

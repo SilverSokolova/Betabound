@@ -4,7 +4,7 @@
   "price": 20,
   "foodValue": 10,
   "tooltipKind": "sb_object",
-  "inventoryIcon": "soylentgreen.png",
+  "inventoryIcon": "sb_soylentgreen.png",
   "category": "food",
   "description": "I wonder what this is...",
   "shortdescription": "Soylent Green",

@@ -1,5 +1,5 @@
 {
-  "input": [["sb_meatchunks",2],"rawribmeat"],
+  "input": [["sb_rawfleshlump",2],"rawribmeat"],
   "output": "sb_offal",
   "groups": ["craftingfood","sides","sb_other","sb_t1food","all"],
   "collectables": {"cooking":"sb_offal"}

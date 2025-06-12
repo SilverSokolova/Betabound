@@ -1,11 +1,12 @@
 [
 [{"op":"add","path":"/hunting/0/1/pool/-","value":{"weight":0.6,"item":"rawham"}}],
 [{"op":"add","path":"/hunting/0/1/pool/-","value":{"weight":0.6,"item":"rawbacon"}}],
-[{"op":"add","path":"/hunting/0/1/pool/-","value":{"weight":0.6,"item":"rawribmeat"}}],
+[{"op":"add","path":"/hunting/0/1/pool/-","value":{"weight":0.6,"item":"sb_rawfleshlump"}}],
 
 [{"op":"add","path":"/huntingquadruped/0/1/pool/-","value":{"weight":0.3,"item":"rawham"}}],
 [{"op":"add","path":"/huntingquadruped/0/1/pool/-","value":{"weight":0.3,"item":"rawbacon"}}],
 [{"op":"add","path":"/huntingquadruped/0/1/pool/-","value":{"weight":0.3,"item":"rawribmeat"}}],
+[{"op":"add","path":"/huntingquadruped/0/1/pool/-","value":{"weight":0.3,"item":"sb_rawfleshlump"}}],
 
 [{"op":"add","path":"/poptopHunting/0/1/pool/-","value":{"weight":0.3,"pool":"sb_poptopMusic"}}],
 [{"op":"add","path":"/hemogoblinHunting/0/1/pool/-","value":{"weight":0.599,"item":"rawham"}}],

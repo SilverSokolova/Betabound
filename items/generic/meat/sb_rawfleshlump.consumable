@@ -3,8 +3,8 @@
   "rarity": "Common",
   "price": 20,
   "foodValue": 5,
-  "tooltipKind": "sb_object",
-  "inventoryIcon": "rawfleshlump.png",
+  "tooltipKind": "sb_object4",
+  "inventoryIcon": "sb_rawfleshlump.png",
   "category": "food",
   "description": "A raw lump of flesh of questionable origin. It'd be more palatable cooked.",
   "shortdescription": "Flesh Lump",
@@ -15,5 +15,8 @@
         "duration": 5
       }
     ]],
-  "builder": "/items/buildscripts/starbound/buildfood.lua"
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 0.5,
+  "rottedItem": "sb_meatchunks"
 }

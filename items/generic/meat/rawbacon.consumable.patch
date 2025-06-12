@@ -3,5 +3,5 @@
 
 [{"op":"test","path":"/foodValue","value":10},{"op":"replace","path":"/foodValue","value":5}],
 
-[{"op":"test","path":"/rottedItem","inverse":true},{"op":"add","path":"/rottedItem","value":"sb_rawfleshlump"}]
+[{"op":"test","path":"/rottedItem","inverse":true},{"op":"add","path":"/rottedItem","value":"sb_meatchunks"}]
 ]

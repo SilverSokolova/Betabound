@@ -251,7 +251,6 @@
 
 //Consumables
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_cake"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_meatchunks"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"cookedham"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"cookedtentacle"}}],
 

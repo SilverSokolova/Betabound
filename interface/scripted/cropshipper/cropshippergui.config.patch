@@ -23,7 +23,6 @@
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_roastbanana"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_roastcacti"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_cookedfleshlump"}]
-,[{"op":"add","path":"/acceptItems/-","value":"sb_meatchunks"}]
 
 //T1
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_toast"}]

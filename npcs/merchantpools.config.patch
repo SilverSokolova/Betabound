@@ -212,7 +212,7 @@
 [{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_cornontheblob"},"rarity":0.05}}],
 [{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_cornontheblob-recipe"},"rarity":0.01}}],
 
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_meatchunks"},"rarity":0.05}}],
+[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_rawfleshlump"},"rarity":0.05}}],
 [{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_applepie"},"rarity":0.05}}],
 [{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_applepie-recipe"},"rarity":0.01}}],
 [{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_candy"},"rarity":0.05}}],
@@ -237,7 +237,7 @@
 [{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_hamsandwich-recipe"},"rarity":0.01}}],
 [{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_vendingmachine"},"rarity":0.01}}],
 
-[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_meatchunks"},"rarity":0.05}}],
+[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_rawfleshlump"},"rarity":0.05}}],
 [{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_blackcurrentcrumble"},"rarity":0.05}}],
 [{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_blackcurrentcrumble-recipe"},"rarity":0.01}}],
 [{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_copperkeypie"},"rarity":0.05}}],
@@ -251,7 +251,6 @@
 [{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_boltedmilk"},"rarity":0.05}}],
 [{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_boltedmilk-recipe"},"rarity":0.01}}],
 
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_meatchunks"},"rarity":0.05}}],
 [{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_rawfleshlump"},"rarity":0.05}}],
 [{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"rawham"},"rarity":0.05}}],
 [{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_pussplumpie"},"rarity":0.05}}],
@@ -271,7 +270,7 @@
 [{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_offal"},"rarity":0.05}}],
 [{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_offal-recipe"},"rarity":0.01}}],
 
-[{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_meatchunks"},"rarity":0.05}}],
+[{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_rawfleshlump"},"rarity":0.05}}],
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_poachedavesmingo"},"rarity":0.05}}],
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_poachedavesmingo-recipe"},"rarity":0.01}}],
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_crowncake"},"rarity":0.05}}],
@@ -297,7 +296,7 @@
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_curriedbeakseed"},"rarity":0.05}}],
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_curriedbeakseed-recipe"},"rarity":0.01}}],
 
-[{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_meatchunks"},"rarity":0.05}}],
+[{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_rawfleshlump"},"rarity":0.05}}],
 [{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_bananabread"},"rarity":0.05}}],
 [{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_bananabread-recipe"},"rarity":0.01}}],
 [{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_mulledfruitdrink"},"rarity":0.05}}],

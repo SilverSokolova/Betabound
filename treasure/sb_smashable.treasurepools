@@ -30,7 +30,11 @@
       ],
       "pool" : [
         {"weight" : 0.3, "item" : "sb_meatchunks"},
-        {"weight" : 0.3, "item" : "sb_meatchunks"}
+        {"weight" : 0.3, "item" : "sb_rawfleshlump"}
+      ],
+      "poolRounds" : [
+        [0.75, 0],
+        [0.25, 1]
       ]
     }]
   ],
