@@ -36,6 +36,8 @@ Credits
       Various 'foods on a plate' sprites
     * [Zennle](https://steamcommunity.com/id/30195026920/myworkshopfiles/?appid=211820):<br/>
       Wrapping Table sprites
+    * [BlossomDancer](https://steamcommunity.com/sharedfiles/filedetails/?id=2787981321):<br/>
+      Roasted Cactus sprite
       
   - Level Design
     * [Rhopunzel](https://store.steampowered.com/app/1363900/Farworld_Pioneers/):<br/>
