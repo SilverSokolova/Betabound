@@ -34,7 +34,7 @@
 ,{"rarity":"uncommon","category":"tool","shortdescription":"Titanium Whetstone","name":"sb_titaniumrepairtool","icon":"/items/augments/sb_repair/titanium.png"}
 ,{"rarity":"rare","category":"tool","shortdescription":"Diamond Whetstone","name":"sb_diamondrepairtool","icon":"/items/augments/sb_repair/diamond.png"}
 ,{"rarity":"rare","category":"tool","shortdescription":"Rubium Whetstone","name":"sb_rubiumrepairtool","icon":"/items/augments/sb_repair/rubium.png"}
-,{"rarity":"uncommon","category":"tool","shortdescription":"Peacekeeper Battery","name":"sb_peacekeeperrepairtool","icon":"/items/augments/sb_repair/peacekeeper.png"}
+//,{"rarity":"uncommon","category":"tool","shortdescription":"Peacekeeper Battery","name":"sb_peacekeeperrepairtool","icon":"/items/augments/sb_repair/peacekeeper.png"}
 //other
 ,{"icon":"/items/active/starbound/portable3dprinter/portable3dprinter.png","name":"sb_portable3dprinter","shortdescription":"^orange;Portable Pixel Printer","category":"tool","rarity":"legendary"}
 

@@ -1,6 +1,5 @@
 [
-[{"op":"test","path":"/sb_repairType","inverse":true},{"op":"add","path":"/sb_repairType","value":"sb_battery-"}],
-[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":0}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object4"}],
 [{"op":"test","path":"/primaryAbility/energyUsage","inverse":true},{"op":"add","path":"/primaryAbility/energyUsage","value":0}],
 [{"op":"move","from":"/builder","path":"/sb_builder"}],
 [{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/merge.lua"}],
@@ -8,6 +7,5 @@
 [{"op":"replace","path":"/primaryAbility/energyUsage","value":0}],
 [{"op":"add","path":"/sb_merge","value":{"tooltipFields":{"objectImage":"/items/active/unsorted/laserminer/sb_laserminerbig.png"}}}],
 [{"op":"test","path":"/description","value":"A disposable mining tool that drills with a focused microwave beam."},
-{"op":"replace","path":"/description","value":"Lasers are the future! This disposable mining tool drills with a focused microwave beam."}],
-[{"op":"replace","path":"/tooltipKind","value":"sb_object4"}]
+{"op":"replace","path":"/description","value":"Lasers are the future! This disposable mining tool drills with a focused microwave beam."}]
 ]

@@ -41,4 +41,4 @@ Credits
       
   - Level Design
     * [Rhopunzel](https://store.steampowered.com/app/1363900/Farworld_Pioneers/):<br/>
-      Wrecked starship, USCM bunker
+      Original wrecked starship, USCM bunker designs
