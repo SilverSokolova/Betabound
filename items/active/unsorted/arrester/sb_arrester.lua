@@ -140,7 +140,7 @@ function startArrest()
 
   local targetHealth = world.entityHealth(target)
 --arrestAmount = math.min(targetHealth[1], targetHealth[2] * minArrestFactor)
-  arrestAmount = targetHealth[1]
+  arrestAmount = targetHealth[1] * minArrestFactor
 
   world.sendEntityMessage(target, "applyStatusEffect", "arresting", nil, entity.id())
   world.sendEntityMessage(target, "notify", {type = "arresting", sourceId = activeItem.ownerEntityId()})
