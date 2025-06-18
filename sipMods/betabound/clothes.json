@@ -20,6 +20,7 @@
 ,{"icon":"/items/armors/decorative/hats/sb_cone/icon.png","name":"sb_conehead","shortdescription":"Cone Mask","category":"headwear","directives":"?replace;ffca8a=96cbe7;e0975c=5588d4;a85636=344495;6f2919=1a1c51","rarity":"legendary"}
 ,{"icon":"/items/armors/decorative/hats/sb_odd/icon.png","name":"sb_oddhead","shortdescription":"Odd Helm","category":"headwear","directives":"?replace;ffca8a=f4988c;e0975c=d93a3a;a85636=932625;6f2919=601119","rarity":"legendary"}
 ,{"icon":"/items/armors/decorative/hats/sb_scrap/icon.png","name":"sb_scraphead","shortdescription":"Scrap Helm","category":"headwear","directives":"?replace;ffca8a=a8e6e2;e0975c=4facb2;a85636=30636c;6f2919=233c43","rarity":"legendary"}
+,{"icon":"/items/armors/biome/volcanic/sb_firecrownhead/icon.png","name":"sb_firecrownhead","shortdescription":"Fire Crown","category":"headwear","directives":"?replace;ffca8a=ffffff;e0975c=f5ea2c;a85636=f7a618;6f2919=df4300","rarity":"rare"}
 
 
 //chests
