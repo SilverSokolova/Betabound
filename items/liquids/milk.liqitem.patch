@@ -1,4 +1,5 @@
 //It makes more sense to the player to see 'New item: coconut milk. New recipe: milk' than 'New item: coconut. New recipes: coconut drink, milk'
 [[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
 {"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
-[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"milk"}]]
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"milk"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"liquidmilk"}]]
