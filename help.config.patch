@@ -5,8 +5,6 @@
 ,[{"op":"add","path":"/debugCommands/sb_gleap","value":"Usage /sb_gleap. Summons an enemy Gleap at the mouse cursor."}]
 ,[{"op":"add","path":"/debugCommands/sb_cultist","value":"Usage /sb_cultist. Summons an enemy NPC at the mouse cursor."}]
 ,[{"op":"add","path":"/debugCommands/sb_npc","value":"Usage /sb_npc. Summons a friendly NPC at the mouse cursor."}]
-,[{"op":"add","path":"/debugCommands/sb_bunny","value":"Usage /sb_bunny. Summons a bunny at the mouse cursor."}]
-,[{"op":"add","path":"/debugCommands/sb_fish","value":"Usage /sb_fish. Summons a fish at the mouse cursor."}]
 
 ,[{"op":"add","path":"/adminCommands/sb_copyobject","value":"Usage /sb_copyobject. Spawns a copy of the object closest to the cursor and returns its name. The copy includes parameters, such as object orientation, ie the direction of a light."}]
 ,[{"op":"add","path":"/adminCommands/sb_copynpc","value":"Usage /sb_copynpc. Spawns an item used to spawn a clone of the npc closest to the cursor and returns their name."}]

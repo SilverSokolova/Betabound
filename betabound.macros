@@ -1,6 +1,10 @@
 {
   //Spawning entities
   "sb_evilpunchy": ["/spawnmonster punchy 1 '{\"damageTeamType\":\"enemy\"}'"],
+  "sb_punchy": ["/spawnmonster punchy"],
+  "sb_gleap": ["/spawnmonster gleap"],
+  "sb_cultist": ["/spawnnpc human cultist"],
+  "sb_npc": ["/spawnnpc human villager"],
 
   //Utility
   "sb_lootpool": ["/entityeval if object then object.say(object.name()..'\\n'..math.floor(entity.position()[1])..', '..math.floor(entity.position()[2])..'\\n'..config.getParameter('treasurePools',{''})[1]) return config.getParameter('treasurePools') end"],
