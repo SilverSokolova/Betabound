@@ -1,3 +1,6 @@
 [
-[{"op":"test","path":"/price","value":3000},{"op":"replace","path":"/price","value":150}]
+[{"op":"test","path":"/price","value":3000},{"op":"replace","path":"/price","value":150}],
+
+[{"op":"test","path":"/description","value":"A microphone. How low can you go?"},
+{"op":"replace","path":"/description","value":"How low can you go?"}]
 ]

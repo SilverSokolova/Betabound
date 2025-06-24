@@ -3,9 +3,10 @@
   "effectConfig": {
     "tech": "sb_energyregen"
   },
-  "defaultDuration": 5,
+
   "scripts": ["regen.lua"],
   "animationConfig": "energyregen.animation",
+
   "label": "Energy Charge",
   "icon": "/tech/starbound/energyregen.png"
 }

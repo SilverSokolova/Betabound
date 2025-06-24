@@ -7,7 +7,7 @@
   "description": "This trusty teleporter can be connected to another wired one for short-range travel.\n^red;Destroyed when broken.^reset;",
   "tooltipKind": "sb_object4",
   "price": 1500,
-  "shortdescription": "Short Apex Teleporter",
+  "shortdescription": "Local Apex Teleporter",
   "race": "apex",
 
   "apexDescription": "Teleporting feels like riding a rollercoaster at the speed of light.",

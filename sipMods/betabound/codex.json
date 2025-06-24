@@ -1,0 +1,94 @@
+[
+{"path":"/codex/","name":"sb_examplecodex-codex","shortdescription":"BART RHYMES WITH FART","category":"sb_disabled","icon":"sb_icon.png"}
+
+//apex
+,{"icon":"/codex/apex/sb_apexcover1.png","name":"sb_apexorigins-codex","shortdescription":"Apex Origins","category":"codex"}
+,{"icon":"/codex/apex/apexcover6.png","name":"sb_apexplea-codex","shortdescription":"Resistance Plea","category":"codex"}
+,{"icon":"/codex/apex/sb_apex.png","name":"sb_apexprologue-codex","shortdescription":"My Journey Begins","category":"codex"}
+,{"icon":"/codex/apex/sb_apexcover5.png","name":"sb_sewerlament-codex","shortdescription":"Lament","category":"codex"}
+,{"icon":"/codex/apex/sb_apexcover5.png","name":"sb_sewerpometheus-codex","shortdescription":"The Modern Po-metheus","category":"codex"}
+,{"icon":"/codex/apex/sb_apexcover5.png","name":"sb_sewerlonely-codex","shortdescription":"Loneliness","category":"codex"}
+,{"icon":"/codex/apex/sb_apexcover2.png","name":"sb_townadvert-codex","shortdescription":"Miniknog Advert","category":"codex"}
+,{"icon":"/codex/apex/sb_apexcover4.png","name":"sb_townheadline","shortdescription":"News Headline Clipping","category":"codex"}
+,{"icon":"/codex/apex/sb_apexcover3.png","name":"sb_townproblems-codex","shortdescription":"Reported Problems","category":"codex"}
+,{"name":"sb_townrhyme-codex","shortdescription":"Children's Rhyme","rarity":"common","icon":"sb_apexcover6.png","category":"codex","path":"/codex/apex/"}
+
+//avian
+,{"icon":"/codex/avian/sb_aviancover6.png","name":"sb_aviannotes-codex","shortdescription":"The Truth about Kluex","category":"codex"}
+,{"icon":"/codex/avian/sb_avian.png","name":"sb_avianprologue-codex","shortdescription":"Taking Flight","category":"codex"}
+,{"icon":"/codex/avian/sb_aviancover5.png","name":"sb_tombwords","shortdescription":"Scrawled Note","category":"codex"}
+
+//default
+,{"icon":"/codex/default/sb_gunguide.png","name":"sb_gunguide-codex","shortdescription":"All About Ammo","category":"codex"}
+,{"icon":"/codex/default/sb_survivalguide.png","name":"sb_survivalguide-codex","shortdescription":"Survival Guide","category":"codex","rarity":"uncommon"}
+
+//floran
+,{"icon":"/codex/missions/floran mission/floranmission2.png","name":"sb_floranambition-codex","shortdescription":"Goal","category":"codex"}
+,{"icon":"/codex/floran/sb_floran.png","name":"sb_floranprologue-codex","shortdescription":"For Honour","category":"codex"}
+,{"icon":"/codex/floran/sb_florancover5.png","name":"sb_sewergrowfly-codex","shortdescription":"Growfly","category":"codex"}
+,{"icon":"/codex/floran/sb_florancover5.png","name":"sb_sewermecharachnid-codex","shortdescription":"Mecharachnid","category":"codex"}
+,{"icon":"/codex/floran/sb_florancover5.png","name":"sb_sewerpo-codex","shortdescription":"Po","category":"codex"}
+
+//glitch
+,{"icon":"/codex/glitch/sb_glitchcover2.png","name":"sb_glitchnotes-codex","shortdescription":"My Future","category":"codex"}
+,{"icon":"/codex/glitch/sb_glitch.png","name":"sb_glitchprologue-codex","shortdescription":"Outcast No More","category":"codex"}
+,{"icon":"/codex/glitch/sb_glitchcover3.png:1","name":"sb_prisoncasebook1-codex","shortdescription":"Prisoners 1","category":"codex"}
+,{"icon":"/codex/glitch/sb_glitchcover3.png:2","name":"sb_prisoncasebook2-codex","shortdescription":"Prisoners 2","category":"codex"}
+,{"icon":"/codex/glitch/sb_glitchcover3.png:3","name":"sb_prisoncasebook3-codex","shortdescription":"Prisoners 3","category":"codex"}
+,{"icon":"/codex/glitch/sb_glitchcover3.png:4","name":"sb_prisoncasebook4-codex","shortdescription":"Prisoners 4","category":"codex"}
+,{"icon":"/codex/glitch/sb_glitchcover3.png:5","name":"sb_prisoncasebook5-codex","shortdescription":"Prisoners 5","category":"codex"}
+,{"icon":"/codex/glitch/sb_glitchcover5.png","name":"sb_sewerbattleground-codex","shortdescription":"Battleground","category":"codex"}
+,{"icon":"/codex/glitch/sb_glitchcover5.png","name":"sb_sewerconstructfree-codex","shortdescription":"Constructed Free","category":"codex"}
+,{"icon":"/codex/glitch/sb_glitchcover5.png","name":"sb_sewerferrying-codex","shortdescription":"Ferrying","category":"codex"}
+,{"icon":"/codex/glitch/sb_glitchcover5.png","name":"sb_sewersevering-codex","shortdescription":"Severing","category":"codex"}
+
+//human
+,{"icon":"/codex/human/sb_humancover1.png","name":"sb_bunkerhandbook-codex","shortdescription":"USCM Field Handbook","category":"codex"}
+,{"icon":"/codex/human/sb_humancover2.png","name":"sb_bunkerlog2-codex","shortdescription":"Personnel Log #54126","category":"codex"}
+,{"icon":"/codex/human/sb_humancover2.png","name":"sb_bunkerlog3-codex","shortdescription":"Personnel Log #58719","category":"codex"}
+,{"icon":"/codex/human/sb_humancover2.png","name":"sb_bunkerlog4-codex","shortdescription":"Personnel Log #58991","category":"codex"}
+,{"icon":"/codex/human/sb_humancover2.png","name":"sb_bunkerlog6-codex","shortdescription":"Personnel Log #99999","category":"codex"}
+,{"icon":"/codex/human/sb_humancover2.png","name":"sb_bunkerlog1-codex","shortdescription":"Personnel Log #912572","category":"codex"}
+,{"icon":"/codex/human/sb_humancover2.png","name":"sb_bunkerlog5-codex","shortdescription":"Personnel Log #960102","category":"codex"}
+,{"icon":"/codex/human/sb_humancover2.png","name":"sb_bunkerorders-codex","shortdescription":"Subject: Standing Orders","category":"codex"}
+,{"icon":"/codex/human/sb_humancover3.png","name":"sb_bunkerpolicy-codex","shortdescription":"New Policy","category":"codex"}
+,{"icon":"/codex/human/sb_humancover2.png","name":"sb_humanescape-codex","shortdescription":"The Problem With Monsters","category":"codex"}
+,{"icon":"/codex/human/sb_human.png","name":"sb_humanprologue-codex","shortdescription":"Remorse","category":"codex"}
+,{"icon":"/codex/human/humancover1.png","name":"sb_prisonghosts-codex","shortdescription":"Ghosts in the Walls","category":"codex"}
+
+//hylotl
+,{"icon":"/codex/hylotl/sb_hylotlcover1.png","name":"sb_hylotldirective-codex","shortdescription":"Spread Your Peace","category":"codex"}
+,{"icon":"/codex/hylotl/sb_hylotl.png","name":"sb_hylotlprologue-codex","shortdescription":"Compromise","category":"codex"}
+
+//hiraki
+,{"icon":"/codex/hylotl/Hiraki Corale/hirakicoralejournal2.png","name":"sb_sewerstrange-codex","shortdescription":"A Strange Encounter","category":"codex"}
+,{"icon":"/codex/hylotl/Hiraki Corale/hirakicoralejournal2.png","name":"sb_bunkerbusters-codex","shortdescription":"Bunker Busters","category":"codex"}
+
+//missions
+,{"icon":"/codex/missions/floran mission/sb_floranmission.png:1","name":"sb_floranmission1-codex","shortdescription":"Trapped in the Caves I","category":"codex"}
+,{"icon":"/codex/missions/floran mission/sb_floranmission.png:2","name":"sb_floranmission2-codex","shortdescription":"Trapped in the Caves II","category":"codex"}
+,{"icon":"/codex/missions/floran mission/sb_floranmission.png:3","name":"sb_floranmission3-codex","shortdescription":"Trapped in the Caves III","category":"codex"}
+
+,{"icon":"/codex/missions/lunar base mission/sb_lunarrecord.png:1","name":"sb_lunarrecord1-codex","shortdescription":"Supervisor's Records 1","category":"codex"}
+,{"icon":"/codex/missions/lunar base mission/sb_lunarrecord.png:2","name":"sb_lunarrecord2-codex","shortdescription":"Supervisor's Records 2","category":"codex"}
+,{"icon":"/codex/missions/lunar base mission/sb_lunarrecord.png:3","name":"sb_lunarrecord3-codex","shortdescription":"Supervisor's Records 3","category":"codex"}
+
+//novakid
+,{"icon":"/codex/novakid/sb_novakidcover1.png","name":"sb_novakidorigins-codex","shortdescription":"History of the Novakid","category":"codex"}
+,{"icon":"/codex/novakid/sb_novakid.png","name":"sb_novakidprologue-codex","shortdescription":"Adventure Awaits","category":"codex"}
+
+//sb_bosses
+,{"path":"/codex/sb_bosses/","name":"sb_bossfatalcircuit-codex","shortdescription":"Fatal Circuit","category":"codex","icon":"bossbook.png"}
+,{"path":"/codex/sb_bosses/","name":"sb_bossjelly-codex","shortdescription":"Jelly","category":"codex","icon":"bossbook.png"}
+,{"path":"/codex/sb_bosses/","name":"sb_bossshockhopper-codex","shortdescription":"Shockhopper Development","category":"codex","icon":"bossbook.png"}
+,{"path":"/codex/sb_bosses/","name":"sb_bosstentacomet-codex","shortdescription":"The Tentacomet","category":"sb_disabled","icon":"bossbook.png"}
+
+,{"path":"/items/active/starbound/codex/","name":"sb_customcodex","shortdescription":"Green Book","parameters":{"inventoryIcon":"icon.png?replace;6e2a1b=2b902b;954b27=63c84f;41170e=247824;d0af55=63c84f;edd379=63c84f","shortdescription":"Green Book","codexIcon":"/items/active/starbound/codex/icon.png?replace;6e2a1b=2b902b;954b27=63c84f;41170e=247824;d0af55=63c84f;edd379=63c84f"},"category":"sb_codex2","icon":"icon.png?replace;6e2a1b=2b902b;954b27=63c84f;41170e=247824;d0af55=63c84f;edd379=63c84f"}
+,{"path":"/items/active/starbound/codex/","name":"sb_customcodex","shortdescription":"Purple Book","parameters":{"inventoryIcon":"icon.png?replace;41170e=6a2284;6e2a1b=a451c4;954b27=d29ce7;d0af55=d29ce7;edd379=d29ce7","shortdescription":"Purple Book","codexIcon":"/items/active/starbound/codex/icon.png?replace;41170e=6a2284;6e2a1b=a451c4;954b27=d29ce7;d0af55=d29ce7;edd379=d29ce7"},"category":"sb_codex2","icon":"icon.png?replace;41170e=6a2284;6e2a1b=a451c4;954b27=d29ce7;d0af55=d29ce7;edd379=d29ce7"}
+,{"path":"/items/active/starbound/codex/","name":"sb_customcodex","shortdescription":"Pink Book","parameters":{"inventoryIcon":"icon.png?replace;41170e=97276d;6e2a1b=d35eae;954b27=eab3db;d0af55=eab3db;edd379=eab3db","shortdescription":"Pink Book","codexIcon":"/items/active/starbound/codex/icon.png?replace;41170e=97276d;6e2a1b=d35eae;954b27=eab3db;d0af55=eab3db;edd379=eab3db"},"category":"sb_codex2","icon":"icon.png?replace;41170e=97276d;6e2a1b=d35eae;954b27=eab3db;d0af55=eab3db;edd379=eab3db"}
+
+,{"path":"/codex/sb_","name":"sb_customcodex","shortdescription":"Shroom Book","parameters":{"inventoryIcon":"/codex/sb_shroombook.png","shortdescription":"Shroom Book","codexIcon":"/codex/sb_shroombook.png"},"category":"sb_codex2","icon":"shroombook.png"}
+
+,{"path":"/codex/hylotl/hylotl","name":"sb_customcodex","shortdescription":"Red Book","parameters":{"inventoryIcon":"/codex/hylotl/hylotlcover7.png?replace;fff=d93a3a","shortdescription":"Red Book","codexIcon":"/codex/hylotl/hylotlcover7.png?replace;fff=d93a3a"},"category":"sb_codex2","icon":"cover7.png?replace;fff=d93a3a"}
+,{"path":"/codex/avian/avian","name":"sb_customcodex","shortdescription":"Yellow Book","parameters":{"inventoryIcon":"/codex/avian/aviancover6.png","shortdescription":"Yellow Book","codexIcon":"/codex/avian/aviancover6.png"},"category":"sb_codex2","icon":"cover6.png"}
+]

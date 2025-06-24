@@ -10,6 +10,7 @@ function init()
 --for k,v in pairs(songs) do if musicData[v.name].special then songs[k].title = songs[k].title.." ^yellow;^reset;" end end
   radioType = config.getParameter("radioType", "portable")
   defaultArtist = config.getParameter("defaultArtistName")
+  rangeLabel = config.getParameter("rangeLabel")
 
   local DS = config.getParameter("defaultSongs")
   for i = 1, #DS do
@@ -96,4 +97,11 @@ end
 
 function cutColors(str)
   return str:gsub("(%^.-%;)", "")
+end
+
+function createTooltip(position)
+  local element = widget.getChildAt(position)
+  if element and element:lower():find("range") then
+    return rangeLabel
+  end
 end

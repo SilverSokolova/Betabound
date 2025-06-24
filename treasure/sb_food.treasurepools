@@ -1,367 +1,369 @@
 //<0.3=0.3
 {
-  "sb_food" : [
+  "sb_food": [
     [0, {
-      "pool" : [
-        {"weight" : 0.8, "item" : "bakedpotato"},
-        {"weight" : 0.9, "item" : "boiledpearlpeas"},
-        {"weight" : 0.85, "item" : "boiledrice"},
-        {"weight" : 0.9, "item" : "cookedtomato"},
-        {"weight" : 0.85, "item" : "popcorn"},
-        {"weight" : 0.6, "item" : "potatogrids"},
-        {"weight" : 0.9, "item" : "roastedcarrot"},
-        {"weight" : 0.9, "item" : "roastedmushrooms"},
-        {"weight" : 0.8, "item" : "toast"}
+      "pool": [
+        {"weight": 0.8, "item": "bakedpotato"},
+        {"weight": 0.9, "item": "boiledpearlpeas"},
+        {"weight": 0.85, "item": "boiledrice"},
+        {"weight": 0.9, "item": "cookedtomato"},
+        {"weight": 0.85, "item": "popcorn"},
+        {"weight": 0.6, "item": "potatogrids"},
+        {"weight": 0.9, "item": "roastedcarrot"},
+        {"weight": 0.9, "item": "roastedmushrooms"},
+        {"weight": 0.8, "item": "toast"}
 
-        ,{"weight" : 0.85, "item" : "sb_roastbanana"}
-        ,{"weight" : 0.7, "item" : "sb_preservatives"}
+        ,{"weight": 0.85, "item": "sb_roastbanana"}
+        ,{"weight": 0.7, "item": "sb_preservatives"}
       ]
     }],
     [1.9, {
-      "pool" : [
-        {"weight" : 0.8, "item" : "bakedpotato"},
-        {"weight" : 0.9, "item" : "boiledpearlpeas"},
-        {"weight" : 0.85, "item" : "boiledrice"},
-        {"weight" : 0.9, "item" : "bread"},
-        {"weight" : 0.9, "item" : "cookedtomato"},
-        {"weight" : 0.85, "item" : "corncob"},
-        {"weight" : 0.7, "item" : "fishdumplings"},
-        {"weight" : 0.55, "item" : "fishfingers"},
-        {"weight" : 0.5, "item" : "fishnchips"},
-        {"weight" : 0.25, "item" : "fishpie"},
-        {"weight" : 0.45, "item" : "fishstew"},
-        {"weight" : 0.8, "item" : "mashedpotato"},
-        {"weight" : 0.7, "item" : "meatdumplings"},
-        {"weight" : 0.25, "item" : "meatpie"},
-        {"weight" : 0.45, "item" : "meatstew"},
-        {"weight" : 0.8, "item" : "pearlpeabroth"},
-        {"weight" : 0.75, "item" : "pearlpearisotto"},
-        {"weight" : 0.85, "item" : "popcorn"},
-        {"weight" : 0.6, "item" : "potatogrids"},
-        {"weight" : 0.9, "item" : "roastedcarrot"},
-        {"weight" : 0.9, "item" : "roastedmushrooms"},
-        {"weight" : 0.8, "item" : "toast"}
+      "pool": [
+        {"weight": 0.8, "item": "bakedpotato"},
+        {"weight": 0.9, "item": "boiledpearlpeas"},
+        {"weight": 0.85, "item": "boiledrice"},
+        {"weight": 0.9, "item": "bread"},
+        {"weight": 0.9, "item": "cookedtomato"},
+        {"weight": 0.85, "item": "corncob"},
+        {"weight": 0.7, "item": "fishdumplings"},
+        {"weight": 0.55, "item": "fishfingers"},
+        {"weight": 0.5, "item": "fishnchips"},
+        {"weight": 0.25, "item": "fishpie"},
+        {"weight": 0.45, "item": "fishstew"},
+        {"weight": 0.8, "item": "mashedpotato"},
+        {"weight": 0.7, "item": "meatdumplings"},
+        {"weight": 0.25, "item": "meatpie"},
+        {"weight": 0.45, "item": "meatstew"},
+        {"weight": 0.8, "item": "pearlpeabroth"},
+        {"weight": 0.75, "item": "pearlpearisotto"},
+        {"weight": 0.85, "item": "popcorn"},
+        {"weight": 0.6, "item": "potatogrids"},
+        {"weight": 0.9, "item": "roastedcarrot"},
+        {"weight": 0.9, "item": "roastedmushrooms"},
+        {"weight": 0.8, "item": "toast"}
 
-        ,{"weight" : 0.6, "item" : "sb_vegetablesoup"}
+        ,{"weight": 0.6, "item": "sb_vegetablesoup"}
 
-        ,{"weight" : 0.45, "item" : "sb_applepie"}
-        ,{"weight" : 0.75, "item" : "sb_candiedpearlpeas"}
+        ,{"weight": 0.45, "item": "sb_applepie"}
+        ,{"weight": 0.75, "item": "sb_candiedpearlpeas"}
 
-        ,{"weight" : 0.85, "item" : "sb_ricevinegar"}
-        ,{"weight" : 0.75, "item" : "sb_ricewine"}
-        ,{"weight" : 0.7, "item" : "sb_rootpopbottle"}
-        ,{"weight" : 0.85, "item" : "sb_rootpopflask"}
-        ,{"weight" : 0.7, "item" : "sb_preservatives"}
+        ,{"weight": 0.85, "item": "sb_ricevinegar"}
+        ,{"weight": 0.75, "item": "sb_ricewine"}
+        ,{"weight": 0.7, "item": "sb_rootpopbottle"}
+        ,{"weight": 0.85, "item": "sb_rootpopflask"}
+        ,{"weight": 0.7, "item": "sb_preservatives"}
       ]
     }],
     [2.9, {
-      "pool" : [
-        {"weight" : 0.3, "item" : "pizza"},
+      "pool": [
+        {"weight": 0.3, "item": "pizza"},
 
-        {"weight" : 0.65, "item" : "applecrumble"},
-        {"weight" : 0.6, "item" : "baconpancakes"},
-        {"weight" : 0.75, "item" : "beakseedbread"},
-        {"weight" : 0.7, "item" : "beakseedjam"},
-        {"weight" : 0.6, "item" : "beakseedtart"},
+        {"weight": 0.65, "item": "applecrumble"},
+        {"weight": 0.6, "item": "baconpancakes"},
+        {"weight": 0.75, "item": "beakseedbread"},
+        {"weight": 0.7, "item": "beakseedjam"},
+        {"weight": 0.6, "item": "beakseedtart"},
 
-        {"weight" : 0.7, "item" : "bonbonbonbons"},
-        {"weight" : 0.85, "item" : "bonbons"},
-        {"weight" : 0.9, "item" : "cactusjuice"},
+        {"weight": 0.7, "item": "bonbonbonbons"},
+        {"weight": 0.85, "item": "bonbons"},
+        {"weight": 0.9, "item": "cactusjuice"},
 
-        {"weight" : 0.55, "item" : "cake"},
-        {"weight" : 0.7, "item" : "candiedcorn"},
-        {"weight" : 0.75, "item" : "candyapple"},
+        {"weight": 0.55, "item": "cake"},
+        {"weight": 0.7, "item": "candiedcorn"},
+        {"weight": 0.75, "item": "candyapple"},
 
-        {"weight" : 0.8, "item" : "carrotbread"},
-        {"weight" : 0.45, "item" : "carrotcake"},
-        {"weight" : 0.9, "item" : "carrotjuice"},
-        {"weight" : 0.6, "item" : "carrotsoup"},
+        {"weight": 0.8, "item": "carrotbread"},
+        {"weight": 0.45, "item": "carrotcake"},
+        {"weight": 0.9, "item": "carrotjuice"},
+        {"weight": 0.6, "item": "carrotsoup"},
 
-        {"weight" : 0.3, "item" : "cheeseburger"},
-        {"weight" : 0.4, "item" : "chocolatecake"},
-        {"weight" : 0.85, "item" : "coffee"},
-        {"weight" : 0.4, "item" : "coffeecake"},
+        {"weight": 0.3, "item": "cheeseburger"},
+        {"weight": 0.4, "item": "chocolatecake"},
+        {"weight": 0.85, "item": "coffee"},
+        {"weight": 0.4, "item": "coffeecake"},
 
-        {"weight" : 0.7, "item" : "cornpeckers"},
-        {"weight" : 0.65, "item" : "feathercrownjam"},
-        {"weight" : 0.4, "item" : "featherfood"},
-        {"weight" : 0.75, "item" : "flatwhite"},
+        {"weight": 0.7, "item": "cornpeckers"},
+        {"weight": 0.65, "item": "feathercrownjam"},
+        {"weight": 0.4, "item": "featherfood"},
+        {"weight": 0.75, "item": "flatwhite"},
 
-        {"weight" : 0.8, "item" : "fluffyruffs"},
-        {"weight" : 0.65, "item" : "gardensalad"},
-        {"weight" : 0.3, "item" : "hamburger"},
-        {"weight" : 0.65, "item" : "kiwijam"},
+        {"weight": 0.8, "item": "fluffyruffs"},
+        {"weight": 0.65, "item": "gardensalad"},
+        {"weight": 0.3, "item": "hamburger"},
+        {"weight": 0.65, "item": "kiwijam"},
 
-        {"weight" : 0.8, "item" : "kiwijuice"},
-        {"weight" : 0.6, "item" : "mocha"},
-        {"weight" : 0.8, "item" : "mushroombread"},
-        {"weight" : 0.55, "item" : "mushroomquiche"},
+        {"weight": 0.8, "item": "kiwijuice"},
+        {"weight": 0.6, "item": "mocha"},
+        {"weight": 0.8, "item": "mushroombread"},
+        {"weight": 0.55, "item": "mushroomquiche"},
 
-        {"weight" : 0.65, "item" : "mushroomrice"},
-        {"weight" : 0.55, "item" : "omelette"},
-        {"weight" : 0.4, "item" : "pasty"},
-        {"weight" : 0.75, "item" : "pearlpeajam"},
+        {"weight": 0.65, "item": "mushroomrice"},
+        {"weight": 0.55, "item": "omelette"},
+        {"weight": 0.4, "item": "pasty"},
+        {"weight": 0.75, "item": "pearlpeajam"},
 
-        {"weight" : 0.6, "item" : "pearlpeapancakes"},
-        {"weight" : 0.55, "item" : "pizzaslice"},
-        {"weight" : 0.8, "item" : "porridge"},
-        {"weight" : 0.55, "item" : "quichelorraine"},
+        {"weight": 0.6, "item": "pearlpeapancakes"},
+        {"weight": 0.55, "item": "pizzaslice"},
+        {"weight": 0.8, "item": "porridge"},
+        {"weight": 0.55, "item": "quichelorraine"},
 
-        {"weight" : 0.6, "item" : "relish"},
-        {"weight" : 0.6, "item" : "ricepudding"},
-        {"weight" : 0.4, "item" : "roastdinner"},
-        {"weight" : 0.5, "item" : "specialrice"},
+        {"weight": 0.6, "item": "relish"},
+        {"weight": 0.6, "item": "ricepudding"},
+        {"weight": 0.4, "item": "roastdinner"},
+        {"weight": 0.5, "item": "specialrice"},
 
-        {"weight" : 0.45, "item" : "spikycookies"},
-        {"weight" : 0.55, "item" : "stickyribs"},
-        {"weight" : 0.5, "item" : "stuffedtomato"},
+        {"weight": 0.45, "item": "spikycookies"},
+        {"weight": 0.55, "item": "stickyribs"},
+        {"weight": 0.5, "item": "stuffedtomato"},
 
-        {"weight" : 0.75, "item" : "sweetmeat"},
-        {"weight" : 0.65, "item" : "sweetpopcorn"},
-        {"weight" : 0.9, "item" : "tomatojuice"},
-        {"weight" : 0.6, "item" : "tomatosoup"}
+        {"weight": 0.75, "item": "sweetmeat"},
+        {"weight": 0.65, "item": "sweetpopcorn"},
+        {"weight": 0.9, "item": "tomatojuice"},
+        {"weight": 0.6, "item": "tomatosoup"}
 
-        ,{"weight" : 0.7, "item" : "sb_alienburger"}
-        ,{"weight" : 0.55, "item" : "sb_burrito"}
-        ,{"weight" : 0.6, "item" : "sb_hamsandwich"}
+        ,{"weight": 0.7, "item": "sb_alienburger"}
+        ,{"weight": 0.55, "item": "sb_burrito"}
+        ,{"weight": 0.6, "item": "sb_hamsandwich"}
 
-        ,{"weight" : 0.9, "item" : "sb_roastcacti"}
+        ,{"weight": 0.9, "item": "sb_roastcacti"}
+        ,{"weight": 0.75, "item": "sb_capresesalad"}
 
-        ,{"weight" : 0.925, "item" : "sb_butter"}
-        ,{"weight" : 0.8, "item" : "sb_toast"}
-        ,{"weight" : 0.75, "item" : "sb_cake"}
-        ,{"weight" : 0.95, "item" : "sb_candy"}
-        ,{"weight" : 0.75, "item" : "sb_cheesecake"}
-        ,{"weight" : 0.7, "item" : "sb_chocolatecoffeebeans"}
+        ,{"weight": 0.925, "item": "sb_butter"}
+        ,{"weight": 0.8, "item": "sb_toast"}
+        ,{"weight": 0.75, "item": "sb_cake"}
+        ,{"weight": 0.95, "item": "sb_candy"}
+        ,{"weight": 0.75, "item": "sb_cheesecake"}
+        ,{"weight": 0.7, "item": "sb_chocolatecoffeebeans"}
 
-        ,{"weight" : 0.9, "item" : "sb_batteryacid"}
-        ,{"weight" : 0.6, "item" : "sb_meatjuice"}
-        ,{"weight" : 0.85, "item" : "sb_orangejuice"}
+        ,{"weight": 0.9, "item": "sb_batteryacid"}
+        ,{"weight": 0.6, "item": "sb_meatjuice"}
+        ,{"weight": 0.85, "item": "sb_orangejuice"}
 
-        ,{"weight" : 0.985, "item" : "soda"}
-        ,{"weight" : 0.7, "item" : "sb_meatballs"}
-        ,{"weight" : 0.3, "item" : "sb_pizza"}
-        ,{"weight" : 0.7, "item" : "sb_preservatives"}
+        ,{"weight": 0.985, "item": "soda"}
+        ,{"weight": 0.7, "item": "sb_meatballs"}
+        ,{"weight": 0.3, "item": "sb_pizza"}
+        ,{"weight": 0.7, "item": "sb_preservatives"}
       ]
     }],
     [3.9, {
-      "pool" : [
-        {"weight" : 0.8, "item" : "2kbpotage"},
-        {"weight" : 0.7, "item" : "apegrapes"},
-        {"weight" : 0.6, "item" : "apexfritter"},
+      "pool": [
+        {"weight": 0.8, "item": "2kbpotage"},
+        {"weight": 0.7, "item": "apegrapes"},
+        {"weight": 0.6, "item": "apexfritter"},
 
-        {"weight" : 0.8, "item" : "automatoshake"},
-        {"weight" : 0.7, "item" : "automatostew"},
-        {"weight" : 0.75, "item" : "bananacon"},
+        {"weight": 0.8, "item": "automatoshake"},
+        {"weight": 0.7, "item": "automatostew"},
+        {"weight": 0.75, "item": "bananacon"},
 
-        {"weight" : 0.4, "item" : "bananacreamdonut"},
-        {"weight" : 0.5, "item" : "bananacreampie"},
-        {"weight" : 0.55, "item" : "bananaicecream"},
-        {"weight" : 0.75, "item" : "batteredbanana"},
+        {"weight": 0.4, "item": "bananacreamdonut"},
+        {"weight": 0.5, "item": "bananacreampie"},
+        {"weight": 0.55, "item": "bananaicecream"},
+        {"weight": 0.75, "item": "batteredbanana"},
 
-        {"weight" : 0.6, "item" : "cactiicecream"},
-        {"weight" : 0.7, "item" : "campfirebanana"},
-        {"weight" : 0.75, "item" : "candyautomato"},
-        {"weight" : 0.3, "item" : "choconut"},
+        {"weight": 0.6, "item": "cactiicecream"},
+        {"weight": 0.7, "item": "campfirebanana"},
+        {"weight": 0.75, "item": "candyautomato"},
+        {"weight": 0.3, "item": "choconut"},
 
-        {"weight" : 0.55, "item" : "coconuticecream"},
-        {"weight" : 0.9, "item" : "coconutmilk"},
-        {"weight" : 0.7, "item" : "coconutrice"},
-        {"weight" : 0.3, "item" : "desertsalsa"},
+        {"weight": 0.55, "item": "coconuticecream"},
+        {"weight": 0.9, "item": "coconutmilk"},
+        {"weight": 0.7, "item": "coconutrice"},
+        {"weight": 0.3, "item": "desertsalsa"},
 
-        {"weight" : 0.6, "item" : "fishinabone"},
-        {"weight" : 0.3, "item" : "fruitsalad"},
-        {"weight" : 0.85, "item" : "grapejuice"},
-        {"weight" : 0.75, "item" : "luckydip"},
+        {"weight": 0.6, "item": "fishinabone"},
+        {"weight": 0.3, "item": "fruitsalad"},
+        {"weight": 0.85, "item": "grapejuice"},
+        {"weight": 0.75, "item": "luckydip"},
 
-        {"weight" : 0.65, "item" : "pineapplejam"},
-        {"weight" : 0.8, "item" : "pineapplejuice"},
-        {"weight" : 0.45, "item" : "pineapplepizzaslice"},
-        {"weight" : 0.8, "item" : "snowcone"},
+        {"weight": 0.65, "item": "pineapplejam"},
+        {"weight": 0.8, "item": "pineapplejuice"},
+        {"weight": 0.45, "item": "pineapplepizzaslice"},
+        {"weight": 0.8, "item": "snowcone"},
 
-        {"weight" : 0.35, "item" : "spookydonut"},
-        {"weight" : 0.7, "item" : "spookypie"},
-        {"weight" : 0.5, "item" : "stuffedautomato"},
-        {"weight" : 0.45, "item" : "sweetpunch"},
+        {"weight": 0.35, "item": "spookydonut"},
+        {"weight": 0.7, "item": "spookypie"},
+        {"weight": 0.5, "item": "stuffedautomato"},
+        {"weight": 0.45, "item": "sweetpunch"},
 
-        {"weight" : 0.8, "item" : "thornjuice"},
-        {"weight" : 0.3, "item" : "tropicalpunch"}
+        {"weight": 0.8, "item": "thornjuice"},
+        {"weight": 0.3, "item": "tropicalpunch"}
 
-        ,{"weight" : 0.6, "item" : "sb_automatostew"}
-        ,{"weight" : 0.5, "item" : "sb_crystalnachos"}
-        ,{"weight" : 0.6, "item" : "sb_meatandmarrow"}
-        ,{"weight" : 0.45, "item" : "sb_meatwich"}
-        ,{"weight" : 0.5, "item" : "sb_oculemonstew"}
-        ,{"weight" : 0.45, "item" : "sb_roastpoultry"}
-        ,{"weight" : 0.3, "item" : "sb_thespecial"}
+        ,{"weight": 0.6, "item": "sb_automatostew"}
+        ,{"weight": 0.5, "item": "sb_crystalnachos"}
+        ,{"weight": 0.6, "item": "sb_meatandmarrow"}
+        ,{"weight": 0.45, "item": "sb_meatwich"}
+        ,{"weight": 0.5, "item": "sb_oculemonstew"}
+        ,{"weight": 0.45, "item": "sb_roastpoultry"}
+        ,{"weight": 0.3, "item": "sb_thespecial"}
 
-        ,{"weight" : 0.9, "item" : "sb_boneboomarrow"}
-        ,{"weight" : 0.75, "item" : "sb_cornontheblob"}
-        ,{"weight" : 0.55, "item" : "sb_corntent"}
-        ,{"weight" : 0.8, "item" : "sb_crystalchips"}
+        ,{"weight": 0.9, "item": "sb_boneboomarrow"}
+        ,{"weight": 0.75, "item": "sb_cornontheblob"}
+        ,{"weight": 0.55, "item": "sb_corntent"}
+        ,{"weight": 0.8, "item": "sb_crystalchips"}
 
-        ,{"weight" : 0.875, "item" : "sb_bananabread"}
-        ,{"weight" : 0.5, "item" : "sb_brineapple"}
-        ,{"weight" : 0.4, "item" : "sb_crowncake"}
-        ,{"weight" : 0.85, "item" : "sb_crystalcandy"}
-        ,{"weight" : 0.7, "item" : "sb_crystaljam"}
-        ,{"weight" : 0.65, "item" : "sb_crystalpie"}
-        ,{"weight" : 0.6, "item" : "sb_crystaltart"}
-        ,{"weight" : 0.75, "item" : "sb_icecream"}
-        ,{"weight" : 0.65, "item" : "sb_lollypop"}
-        ,{"weight" : 0.7, "item" : "sb_orangejam"}
-        ,{"weight" : 0.65, "item" : "sb_orangepie"}
-        ,{"weight" : 0.6, "item" : "sb_orangetart"}
-        ,{"weight" : 0.7, "item" : "sb_peanutbutterjar"}
-        ,{"weight" : 0.55, "item" : "sb_pussplumpie"}
-        ,{"weight" : 0.65, "item" : "sb_thornjam"}
-        ,{"weight" : 0.75, "item" : "sb_toffee"}
-        ,{"weight" : 0.65, "item" : "sb_toffeeapple"}
-        ,{"weight" : 0.65, "item" : "sb_sweetmeat"}
-        ,{"weight" : 0.6, "item" : "sb_chocolate"}
+        ,{"weight": 0.875, "item": "sb_bananabread"}
+        ,{"weight": 0.5, "item": "sb_brineapple"}
+        ,{"weight": 0.4, "item": "sb_crowncake"}
+        ,{"weight": 0.85, "item": "sb_crystalcandy"}
+        ,{"weight": 0.7, "item": "sb_crystaljam"}
+        ,{"weight": 0.65, "item": "sb_crystalpie"}
+        ,{"weight": 0.6, "item": "sb_crystaltart"}
+        ,{"weight": 0.75, "item": "sb_icecream"}
+        ,{"weight": 0.65, "item": "sb_lollypop"}
+        ,{"weight": 0.7, "item": "sb_orangejam"}
+        ,{"weight": 0.65, "item": "sb_orangepie"}
+        ,{"weight": 0.6, "item": "sb_orangetart"}
+        ,{"weight": 0.7, "item": "sb_peanutbutterjar"}
+        ,{"weight": 0.55, "item": "sb_pussplumpie"}
+        ,{"weight": 0.65, "item": "sb_thornjam"}
+        ,{"weight": 0.75, "item": "sb_toffee"}
+        ,{"weight": 0.65, "item": "sb_toffeeapple"}
+        ,{"weight": 0.65, "item": "sb_sweetmeat"}
+        ,{"weight": 0.6, "item": "sb_chocolate"}
 
-        ,{"weight" : 0.9, "item" : "sb_dirtea"}
-        ,{"weight" : 0.85, "item" : "sb_liquifiedcrystal"}
-        ,{"weight" : 0.45, "item" : "sb_meatwine"}
-        ,{"weight" : 0.65, "item" : "sb_weyene"}
-        ,{"weight" : 0.6, "item" : "sb_whiskeybottle"}
-        ,{"weight" : 0.7, "item" : "sb_whiskeyflask"}
-        ,{"weight" : 0.7, "item" : "sb_pickledpoisoncreep"}
+        ,{"weight": 0.9, "item": "sb_dirtea"}
+        ,{"weight": 0.85, "item": "sb_liquifiedcrystal"}
+        ,{"weight": 0.45, "item": "sb_meatwine"}
+        ,{"weight": 0.65, "item": "sb_weyene"}
+        ,{"weight": 0.6, "item": "sb_whiskeybottle"}
+        ,{"weight": 0.7, "item": "sb_whiskeyflask"}
+        ,{"weight": 0.7, "item": "sb_pickledpoisoncreep"}
+        ,{"weight": 0.5, "item": "sb_mulledfruitdrink"}
 
-        ,{"weight" : 0.985, "item" : "soda"}
-        ,{"weight" : 0.985, "item" : "reefcola"}
-        ,{"weight" : 0.7, "item" : "sb_meatballs"}
-        ,{"weight" : 0.7, "item" : "sb_preservatives"}
-        ,{"weight" : 0.5, "item" : "sb_flashfreeze"}
+        ,{"weight": 0.985, "item": "soda"}
+        ,{"weight": 0.985, "item": "reefcola"}
+        ,{"weight": 0.7, "item": "sb_meatballs"}
+        ,{"weight": 0.7, "item": "sb_preservatives"}
+        ,{"weight": 0.5, "item": "sb_flashfreeze"}
       ]
     }],
     [4.9, {
-      "pool" : [
-        {"weight" : 0.65, "item" : "alienfruitjam"},
-        {"weight" : 0.8, "item" : "alienfruitjuice"},
-        {"weight" : 0.55, "item" : "avesmingoicecream"},
+      "pool": [
+        {"weight": 0.65, "item": "alienfruitjam"},
+        {"weight": 0.8, "item": "alienfruitjuice"},
+        {"weight": 0.55, "item": "avesmingoicecream"},
 
-        {"weight" : 0.85, "item" : "avesmingojuice"},
-        {"weight" : 0.3, "item" : "bananasplit"},
-        {"weight" : 0.75, "item" : "bloodypuss"},
+        {"weight": 0.85, "item": "avesmingojuice"},
+        {"weight": 0.3, "item": "bananasplit"},
+        {"weight": 0.75, "item": "bloodypuss"},
 
-        {"weight" : 0.7, "item" : "brineapple"},
-        {"weight" : 0.65, "item" : "cyanider"},
-        {"weight" : 0.5, "item" : "oceanrisotto"},
+        {"weight": 0.7, "item": "brineapple"},
+        {"weight": 0.65, "item": "cyanider"},
+        {"weight": 0.5, "item": "oceanrisotto"},
 
-        {"weight" : 0.4, "item" : "oceansalsa"},
-        {"weight" : 0.5, "item" : "oceansurprise"},
-        {"weight" : 0.55, "item" : "oculemonmeringue"},
+        {"weight": 0.4, "item": "oceansalsa"},
+        {"weight": 0.5, "item": "oceansurprise"},
+        {"weight": 0.55, "item": "oculemonmeringue"},
 
-        {"weight" : 0.35, "item" : "oculemonstew"},
-        {"weight" : 0.7, "item" : "pussplumjam"},
-        {"weight" : 0.45, "item" : "pussplumpudding"},
+        {"weight": 0.35, "item": "oculemonstew"},
+        {"weight": 0.7, "item": "pussplumjam"},
+        {"weight": 0.45, "item": "pussplumpudding"},
 
-        {"weight" : 0.6, "item" : "pussplumtart"},
-        {"weight" : 0.85, "item" : "reefjuice"},
-        {"weight" : 0.65, "item" : "reefpodsurprise"},
+        {"weight": 0.6, "item": "pussplumtart"},
+        {"weight": 0.85, "item": "reefjuice"},
+        {"weight": 0.65, "item": "reefpodsurprise"},
 
-        {"weight" : 0.75, "item" : "reefshake"},
-        {"weight" : 0.8, "item" : "ricecake"},
-        {"weight" : 0.65, "item" : "saltsalad"},
+        {"weight": 0.75, "item": "reefshake"},
+        {"weight": 0.8, "item": "ricecake"},
+        {"weight": 0.65, "item": "saltsalad"},
 
-        {"weight" : 0.7, "item" : "seafoodgratin"},
-        {"weight" : 0.8, "item" : "soggysack"},
-        {"weight" : 0.55, "item" : "stuffeddirturchin"},
+        {"weight": 0.7, "item": "seafoodgratin"},
+        {"weight": 0.8, "item": "soggysack"},
+        {"weight": 0.55, "item": "stuffeddirturchin"},
 
-        {"weight" : 0.6, "item" : "sushi"},
-        {"weight" : 0.3, "item" : "toxicjamdonut"},
-        {"weight" : 0.6, "item" : "toxicjuice"},
+        {"weight": 0.6, "item": "sushi"},
+        {"weight": 0.3, "item": "toxicjamdonut"},
+        {"weight": 0.6, "item": "toxicjuice"},
 
-        {"weight" : 0.35, "item" : "toxictart"},
-        {"weight" : 0.65, "item" : "toxictopjam"}
+        {"weight": 0.35, "item": "toxictart"},
+        {"weight": 0.65, "item": "toxictopjam"}
 
-        ,{"weight" : 0.6, "item" : "sb_poachedavesmingo"}
+        ,{"weight": 0.6, "item": "sb_poachedavesmingo"}
 
-        ,{"weight" : 0.75, "item" : "sb_eggfriedrice"}
+        ,{"weight": 0.75, "item": "sb_eggfriedrice"}
 
-        ,{"weight" : 0.55, "item" : "sb_blackcurrentcrumble"}
-        ,{"weight" : 0.55, "item" : "sb_copperkeypie"}
-        ,{"weight" : 0.5, "item" : "sb_sweettime"}
+        ,{"weight": 0.55, "item": "sb_blackcurrentcrumble"}
+        ,{"weight": 0.55, "item": "sb_copperkeypie"}
+        ,{"weight": 0.5, "item": "sb_sweettime"}
 
-        ,{"weight" : 0.7, "item" : "sb_boltedmilk"}
-        ,{"weight" : 0.65, "item" : "sb_oculemonade"}
+        ,{"weight": 0.7, "item": "sb_boltedmilk"}
+        ,{"weight": 0.65, "item": "sb_oculemonade"}
 
-        ,{"weight" : 0.985, "item" : "soda"}
-        ,{"weight" : 0.985, "item" : "reefcola"}
-        ,{"weight" : 0.985, "item" : "oculemonade"}
-        ,{"weight" : 0.7, "item" : "sb_meatballs"}
-        ,{"weight" : 0.7, "item" : "sb_preservatives"}
-        ,{"weight" : 0.5, "item" : "sb_flashfreeze"}
+        ,{"weight": 0.985, "item": "soda"}
+        ,{"weight": 0.985, "item": "reefcola"}
+        ,{"weight": 0.985, "item": "oculemonade"}
+        ,{"weight": 0.7, "item": "sb_meatballs"}
+        ,{"weight": 0.7, "item": "sb_preservatives"}
+        ,{"weight": 0.5, "item": "sb_flashfreeze"}
       ]
     }],
     [5.9, {
-      "pool" : [
-        {"weight" : 0.55, "item" : "8gbpizzap"},
-        {"weight" : 0.45, "item" : "16gbpasty"},
-        {"weight" : 0.8, "item" : "boltos"},
+      "pool": [
+        {"weight": 0.55, "item": "8gbpizzap"},
+        {"weight": 0.45, "item": "16gbpasty"},
+        {"weight": 0.8, "item": "boltos"},
 
-        {"weight" : 0.6, "item" : "eggshooticecream"},
-        {"weight" : 0.7, "item" : "eggshootsalad"},
-        {"weight" : 0.7, "item" : "eyebowls"},
+        {"weight": 0.6, "item": "eggshooticecream"},
+        {"weight": 0.7, "item": "eggshootsalad"},
+        {"weight": 0.7, "item": "eyebowls"},
 
-        {"weight" : 0.75, "item" : "nutsandbolts"},
-        {"weight" : 0.5, "item" : "piodia"},
-        {"weight" : 0.65, "item" : "smash"}
+        {"weight": 0.75, "item": "nutsandbolts"},
+        {"weight": 0.5, "item": "piodia"},
+        {"weight": 0.65, "item": "smash"}
 
 
-        ,{"weight" : 0.55, "item" : "sb_cordialbottle"}
-        ,{"weight" : 0.7, "item" : "sb_cordialglass"}
-        ,{"weight" : 0.9, "item" : "sb_wartjuice"}
-        ,{"weight" : 0.75, "item" : "sb_wartwine"}
-        ,{"weight" : 0.7, "item" : "sb_wineglass"}
-        ,{"weight" : 0.55, "item" : "sb_winebottle"}
+        ,{"weight": 0.55, "item": "sb_cordialbottle"}
+        ,{"weight": 0.7, "item": "sb_cordialglass"}
+        ,{"weight": 0.9, "item": "sb_wartjuice"}
+        ,{"weight": 0.75, "item": "sb_wartwine"}
+        ,{"weight": 0.7, "item": "sb_wineglass"}
+        ,{"weight": 0.55, "item": "sb_winebottle"}
 
-        ,{"weight" : 0.985, "item" : "soda"}
-        ,{"weight" : 0.985, "item" : "reefcola"}
-        ,{"weight" : 0.985, "item" : "oculemonade"}
-        ,{"weight" : 0.985, "item" : "sb_orangenergycan"}
-        ,{"weight" : 0.7, "item" : "sb_meatballs"}
-        ,{"weight" : 0.7, "item" : "sb_preservatives"}
-        ,{"weight" : 0.5, "item" : "sb_flashfreeze"}
+        ,{"weight": 0.985, "item": "soda"}
+        ,{"weight": 0.985, "item": "reefcola"}
+        ,{"weight": 0.985, "item": "oculemonade"}
+        ,{"weight": 0.985, "item": "sb_orangenergycan"}
+        ,{"weight": 0.7, "item": "sb_meatballs"}
+        ,{"weight": 0.7, "item": "sb_preservatives"}
+        ,{"weight": 0.5, "item": "sb_flashfreeze"}
       ]
     }],
     [6.9, {
-      "pool" : [
-        {"weight" : 0.65, "item" : "burningeyeballs"},
-        {"weight" : 0.5, "item" : "coralcreepcurry"},
-        {"weight" : 0.65, "item" : "hotbone"},
+      "pool": [
+        {"weight": 0.65, "item": "burningeyeballs"},
+        {"weight": 0.5, "item": "coralcreepcurry"},
+        {"weight": 0.65, "item": "hotbone"},
 
-        {"weight" : 0.5, "item" : "hothothotpot"},
-        {"weight" : 0.65, "item" : "neonmelonjam"},
-        {"weight" : 0.8, "item" : "pearlpeaparcels"},
+        {"weight": 0.5, "item": "hothothotpot"},
+        {"weight": 0.65, "item": "neonmelonjam"},
+        {"weight": 0.8, "item": "pearlpeaparcels"},
 
-        {"weight" : 0.45, "item" : "pozest"},
-        {"weight" : 0.65, "item" : "spicyfeathercrown"},
-        {"weight" : 0.4, "item" : "spicyribs"},
+        {"weight": 0.45, "item": "pozest"},
+        {"weight": 0.65, "item": "spicyfeathercrown"},
+        {"weight": 0.4, "item": "spicyribs"},
 
-        {"weight" : 0.3, "item" : "ultimatejuice"},
-        {"weight" : 0.6, "item" : "volcanicsalsa"},
-        {"weight" : 0.75, "item" : "wartweedjam"},
+        {"weight": 0.3, "item": "ultimatejuice"},
+        {"weight": 0.6, "item": "volcanicsalsa"},
+        {"weight": 0.75, "item": "wartweedjam"},
 
-        {"weight" : 0.3, "item" : "wartweedjamdonut"},
-        {"weight" : 0.6, "item" : "wartweedstew"}
+        {"weight": 0.3, "item": "wartweedjamdonut"},
+        {"weight": 0.6, "item": "wartweedstew"}
 
 
-        ,{"weight" : 0.55, "item" : "sb_chilistew"}
-        ,{"weight" : 0.8, "item" : "sb_curriedbeakseed"}
+        ,{"weight": 0.55, "item": "sb_chilistew"}
+        ,{"weight": 0.8, "item": "sb_curriedbeakseed"}
 
-        ,{"weight" : 0.9, "item" : "sb_orangenergyglass"}
+        ,{"weight": 0.9, "item": "sb_orangenergyglass"}
 
-        ,{"weight" : 0.55, "item" : "sb_burningeyeballs"}
+        ,{"weight": 0.55, "item": "sb_burningeyeballs"}
 
-        ,{"weight" : 0.985, "item" : "soda"}
-        ,{"weight" : 0.985, "item" : "reefcola"}
-        ,{"weight" : 0.985, "item" : "oculemonade"}
-        ,{"weight" : 0.985, "item" : "sb_orangenergycan"}
-        ,{"weight" : 0.7, "item" : "sb_meatballs"}
-        ,{"weight" : 0.7, "item" : "sb_preservatives"}
-        ,{"weight" : 0.5, "item" : "sb_flashfreeze"}
+        ,{"weight": 0.985, "item": "soda"}
+        ,{"weight": 0.985, "item": "reefcola"}
+        ,{"weight": 0.985, "item": "oculemonade"}
+        ,{"weight": 0.985, "item": "sb_orangenergycan"}
+        ,{"weight": 0.7, "item": "sb_meatballs"}
+        ,{"weight": 0.7, "item": "sb_preservatives"}
+        ,{"weight": 0.5, "item": "sb_flashfreeze"}
       ]
     }]
   ]

@@ -9,8 +9,7 @@ function init()
     object.setConfigParameter("scripts",{"/scripts/enhancedstorage.lua"})
     init()
     return
-  end
-  if root.assetJson("/interface/chests/chest9.config").gui.icRenameButton then
+  elseif root.assetJson("/interface/chests/chest9.config").gui.icRenameButton then
     modded = true
     init = nil
     require("/scripts/v6/improvedcontainer.lua")

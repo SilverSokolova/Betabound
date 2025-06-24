@@ -1,0 +1,13 @@
+[
+//sets
+{"path":"/items/armors/other/sb_spacemarine/","name":"sb_spacemarinehead","shortdescription":"Space Marine Helmet","category":"sb_disabled","icon":"icons.png:head","rarity":"legendary","directives":"?replace;ffca8a=727272;e0975c=414141;a85636=1c1c1c;6f2919=060606"}
+,{"path":"/items/armors/other/sb_spacemarine/","name":"sb_spacemarinechest","shortdescription":"Space Marine Chest","category":"sb_disabled","icon":"icons.png:chest","rarity":"legendary","directives":"?replace;ffca8a=727272;e0975c=414141;a85636=1c1c1c;6f2919=060606"}
+,{"path":"/items/armors/other/sb_spacemarine/","name":"sb_spacemarinelegs","shortdescription":"Space Marine Legs","category":"sb_disabled","icon":"icons.png:pants","rarity":"legendary","directives":"?replace;ffca8a=727272;e0975c=414141;a85636=1c1c1c;6f2919=060606"}
+
+//heads
+//chests
+//legs
+//backs
+,{"icon":"/items/armors/backitems/sb_airpocket/airpocketicon.png","name":"sb_airpocketback","shortdescription":"Air Pocket Generator","category":"enviroprotectionpack","directives":"?replace;ffca8a=b5b5b5;e0975c=808080;a85636=555;6f2919=313332","rarity":"uncommon"}
+
+]

@@ -3,15 +3,15 @@
     "size": [18, 19],
     "dimensions": [6, 11],
     "names": [
-      ["empty", "other", "blocks", "weapons", "armor", "smith"],
-      ["items", "augments", "1", "2", "3", "4"],
+      ["empty", "other", "blocks", "weapons", "protection", "smith"],
+      ["items", "armor", "convert", "skyrails", "rails", "toys"],
       ["all", "head", "craft", "mining", "upgrades", "healing"],
       ["health", "energy", "energyregen", "runboost", "jumpboost", "rage"],
       ["swimboost", "glow", "thorns", "nova", "electrified", "lowgrav"],
       ["bouncy", "main", "side", "dessert", "snack", "drink"],
-      ["condiment", "campfire", "convert", "skyrails", "rails", "door"],
-      ["light", "wire", "storage", "decorative", "sit", "instruments"],
-      ["planets", "mechs", "guns", "wands", "toys", null]
+      ["condiment", "campfire", "light", "wire", "storage", "door"],
+      ["decorative", "sit", "instruments", "planets", "mechs", "guns"],
+      ["wands", null, null, null, null, null]
     ]
   }
 }

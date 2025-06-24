@@ -1,0 +1,912 @@
+[
+//OUTPOST
+{"name":"sb_quest","shortdescription":"^orange;Gear Up","category":"sb_quest","icon":"/objects/crafting/upgradeablecraftingobjects/sb_craftingtool/icon2.png","rarity":"essential","parameters":{
+              "quest":"sb_outpost0",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/crafting/upgradeablecraftingobjects/sb_craftingtool/icon2.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^orange;Gear Up^reset;' (if possible.)",
+              "shortdescription":"^orange;Gear Up^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Rent Well Spent","category":"sb_quest","icon":"/items/generic/shop/chocolate.png","rarity":"essential","parameters":{
+              "quest":"sb_outpost1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/shop/chocolate.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Rent Well Spent^reset;' (if possible.)",
+              "shortdescription":"^green;Rent Well Spent^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^#0f0;A Fair Trade","category":"sb_quest","icon":"/items/generic/meat/cookedalienmeat.png","rarity":"essential","parameters":{
+              "quest":"sb_outpost2",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/meat/cookedalienmeat.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^#0f0;A Fair Trade^reset;' (if possible.)",
+              "shortdescription":"^#0f0;A Fair Trade^reset;"
+            }}
+/*
+,{"name":"sb_quest","shortdescription":"^orange;Help! I need somebody!","category":"sb_quest","icon":"/tech/starbound/air.png","rarity":"essential","parameters":{
+              "quest":"sb_outpostSkin",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/tech/starbound/air.png",
+                  "position" : [1, -0.5]
+                }],
+              "description":"Using this item will start the quest '^orange;Help! I need somebody!^reset;' (if possible.)",
+              "shortdescription":"^orange;Help! I need somebody!^reset;"
+            }}
+*/
+,{"name":"sb_quest","shortdescription":"^orange;Bound by Duty","category":"sb_quest","icon":"/objects/upgrade/sb_techstation/icons.png:2","rarity":"essential","parameters":{
+              "quest":"sb_outposttechbinder",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/upgrade/sb_techstation/icons.png:2",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^orange;Bound by Duty^reset;' (if possible.)",
+              "shortdescription":"^orange;Bound by Duty^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;The Grass is Greener","category":"sb_quest","icon":"/items/generic/produce/kelp.png","rarity":"essential","parameters":{
+              "quest":"sb_kelp",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/produce/kelp.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;The Grass is Greener^reset;' (if possible.)",
+              "shortdescription":"^green;The Grass is Greener^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;The Under Side","category":"sb_quest","icon":"/items/active/grapplinghooks/climbingrope/climbingropeicon.png","rarity":"essential","parameters":{
+              "quest":"sb_underside1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/active/grapplinghooks/climbingrope/climbingropeicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;The Under Side^reset;' (if possible.)",
+              "shortdescription":"^green;The Under Side^reset;"
+            }}
+
+
+//COFFEE
+/*
+,{"name":"sb_quest","shortdescription":"^green;A Fair Trade","category":"sb_quest","icon":"/items/liquids/sb_liquidcoffee.png","rarity":"essential","parameters":{
+              "quest":"sb_coffee0",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/liquids/sb_liquidcoffee.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;A Fair Trade^reset;' (if possible.)",
+              "shortdescription":"^green;A Fair Trade^reset;"
+            }}
+,{"name":"sb_quest","shortdescription":"^green;Fill 'Er Up!","category":"sb_quest","icon":"/items/generic/crafting/glasscoffeemug.png","rarity":"essential","parameters":{
+              "quest":"sb_coffee1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/crafting/glasscoffeemug.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Fill 'Er Up!^reset;' (if possible.)",
+              "shortdescription":"^green;Fill 'Er Up!^reset;"
+            }}
+,{"name":"sb_quest","shortdescription":"^green;Stirred, Not Shaken","category":"sb_quest","icon":"/items/generic/crafting/sb_steelbar.png","rarity":"essential","parameters":{
+              "quest":"sb_coffee2",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/crafting/sb_steelbar.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Stirred, Not Shaken^reset;' (if possible.)",
+              "shortdescription":"^green;Stirred, Not Shaken^reset;"
+            }}*/
+
+
+,{"name":"sb_quest","shortdescription":"^green;Stirred, Not Shaken","category":"sb_quest","icon":"/objects/outpost/coffeemachine/icon.png","rarity":"essential","parameters":{
+              "quest":"sb_coffee",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/outpost/coffeemachine/icon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Stirred, Not Shaken^reset;' (if possible.)",
+              "shortdescription":"^green;Stirred, Not Shaken^reset;"
+            }}
+
+//PHASE 1
+,{"name":"sb_quest","shortdescription":"^green;Bug Hunt","category":"sb_quest","icon":"/items/active/unsorted/bugnet/bugneticon.png","rarity":"essential","parameters":{
+              "quest":"sb_humanscientist1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/active/unsorted/bugnet/bugneticon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Bug Hunt^reset;' (if possible.)",
+              "shortdescription":"^green;Bug Hunt^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^#0f0;Butcher, Baker, Widow Maker","category":"sb_quest","icon":"/items/generic/food/sb_desserts/cake.png","rarity":"essential","parameters":{
+              "quest":"sb_bountyhunter1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/food/sb_desserts/cake.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^#0f0;Butcher, Baker, Widow Maker^reset;' (if possible.)",
+              "shortdescription":"^#0f0;Butcher, Baker, Widow Maker^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;The Funny Pages","category":"sb_quest","icon":"/items/generic/other/comedyscript.png","rarity":"essential","parameters":{
+              "quest":"sb_hylotlperformer1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/other/comedyscript.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;The Funny Pages^reset;' (if possible.)",
+              "shortdescription":"^green;The Funny Pages^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Looking Good and Dressing Well","category":"sb_quest","icon":"/items/generic/crafting/fabric.png","rarity":"essential","parameters":{
+              "quest":"sb_floranfan1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/crafting/fabric.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Looking Good and Dressing Well^reset;' (if possible.)",
+              "shortdescription":"^green;Looking Good and Dressing Well^reset;"
+            }}
+//PHASE 2
+,{"name":"sb_quest","shortdescription":"^green;Taking out the Trash","category":"sb_quest","icon":"/items/generic/other/mysterioustrashbag.png","rarity":"essential","parameters":{
+              "quest":"sb_bountyhunter2",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/other/mysterioustrashbag.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Taking out the Trash^reset;' (if possible.)",
+              "shortdescription":"^green;Taking out the Trash^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;A Lovely Bunch of Coconuts!","category":"sb_quest","icon":"/items/throwables/coconut.png","rarity":"essential","parameters":{
+              "quest":"sb_humansurvivor2",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/throwables/coconut.png",
+                  "position" : [0, 0]
+                }],
+              "description":"Using this item will start the quest '^green;A Lovely Bunch of Coconuts!^reset;' (if possible.)",
+              "shortdescription":"^green;A Lovely Bunch of Coconuts!^reset;"
+            }}
+,{"name":"sb_quest","shortdescription":"^green;Time for a Celebration!","category":"sb_quest","icon":"/items/generic/crafting/sb_gunpowder.png","rarity":"essential","parameters":{
+              "quest":"sb_humanexcon2",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/crafting/sb_gunpowder.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Time for a Celebration!^reset;' (if possible.)",
+              "shortdescription":"^green;Time for a Celebration!^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Taking Flight","category":"sb_quest","icon":"/items/throwables/paperplane.png","rarity":"essential","parameters":{
+              "quest":"sb_avianrefugee2",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/throwables/paperplane.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Taking Flight^reset;' (if possible.)",
+              "shortdescription":"^green;Taking Flight^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;...","category":"sb_quest","icon":"/objects/generic/helpme/helpmeicon.png","rarity":"essential","parameters":{
+              "quest":"sb_glitchsilenttype2",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/generic/helpme/helpmeicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;....^reset;' (if possible.)",
+              "shortdescription":"^green;....^reset;"
+            }}
+
+//PHASE 3
+,{"name":"sb_quest","shortdescription":"^green;Pest Problem","category":"sb_quest","icon":"/items/generic/shop/cheese.png","rarity":"essential","parameters":{
+              "quest":"sb_bountyhunter3",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/shop/cheese.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Pest Problem^reset;' (if possible.)",
+              "shortdescription":"^green;Pest Problem^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;One Small Step","category":"sb_quest","icon":"/objects/avian/moonemblem/moonemblemicon.png","rarity":"essential","parameters":{
+              "quest":"sb_avianexplorer3",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/avian/moonemblem/moonemblemicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;One Small Step^reset;' (if possible.)",
+              "shortdescription":"^green;One Small Step^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;The Good Book","category":"sb_quest","icon":"/objects/generic/pleaseget/pleasegeticon.png","rarity":"essential","parameters":{
+              "quest":"sb_glitchsilenttype3",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/generic/pleaseget/pleasegeticon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;The Good Book^reset;' (if possible.)",
+              "shortdescription":"^green;The Good Book^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;This is my Song!","category":"sb_quest","icon":"/items/generic/crafting/string.png","rarity":"essential","parameters":{
+              "quest":"sb_hylotlperformer3",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/crafting/string.png",
+                  "position" : [1, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;This is my Song!^reset;' (if possible.)",
+              "shortdescription":"^green;This is my Song!^reset;"
+            }}
+
+//PHASE 4
+,{"name":"sb_quest","shortdescription":"^green;Mazebound","category":"sb_quest","icon":"/items/generic/other/winningticket.png","rarity":"essential","parameters":{
+              "quest":"sb_apexrefugee4",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/other/winningticket.png",
+                  "position" : [0, 0]
+                }],
+              "description":"Using this item will start the quest '^green;Mazebound^reset;' (if possible.)",
+              "shortdescription":"^green;Mazebound^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;X Marks the Spot","category":"sb_quest","icon":"/objects/avian/treasuremap/treasuremapicon.png","rarity":"essential","parameters":{
+              "quest":"sb_avianexplorer4",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/avian/treasuremap/treasuremapicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;X Marks the Spot^reset;' (if possible.)",
+              "shortdescription":"^green;X Marks the Spot^reset;"
+            }}
+,{"name":"sb_quest","shortdescription":"^green;A Bone to Pick","category":"sb_quest","icon":"/objects/floran/floranbonedisplay2/floranbonedisplay2icon.png","rarity":"essential","parameters":{
+              "quest":"sb_floranhunter4",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/floran/floranbonedisplay2/floranbonedisplay2icon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;A Bone to Pick^reset;' (if possible.)",
+              "shortdescription":"^green;A Bone to Pick^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Golden Ducky","category":"sb_quest","icon":"/objects/avian/goldenducky/goldenduckyicon.png","rarity":"essential","parameters":{
+              "quest":"sb_avianmercenary4",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/avian/goldenducky/goldenduckyicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Golden Ducky^reset;' (if possible.)",
+              "shortdescription":"^green;Golden Ducky^reset;"
+            }}
+,{"name":"sb_quest","shortdescription":"^green;Jail House Rock","category":"sb_quest","icon":"/objects/human/prisonstonesign/prisonstonesignicon.png","rarity":"essential","parameters":{
+              "quest":"sb_humanexcon4",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/human/prisonstonesign/prisonstonesignicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Jail House Rock^reset;' (if possible.)",
+              "shortdescription":"^green;Jail House Rock^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Sharpening Up","category":"sb_quest","icon":"/items/generic/crafting/leather.png","rarity":"essential","parameters":{
+              "quest":"sb_bountyhunter4",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/crafting/leather.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Sharpening Up^reset;' (if possible.)",
+              "shortdescription":"^green;Sharpening Up^reset;"
+            }}
+
+
+//ENDGAME
+,{"name":"sb_quest","shortdescription":"^green;Pale Blue Dot","category":"sb_quest","icon":"/objects/glitch/medievalglobe/medievalglobeicon.png","rarity":"essential","parameters":{
+              "quest":"sb_humanscientistE1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/glitch/medievalglobe/medievalglobeicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Pale Blue Dot^reset;' (if possible.)",
+              "shortdescription":"^green;Pale Blue Dot^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Bark Life","category":"sb_quest","icon":"/items/generic/crafting/bone.png","rarity":"essential","parameters":{
+              "quest":"sb_hylotlwarriorE1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/crafting/bone.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Bark Life^reset;' (if possible.)",
+              "shortdescription":"^green;Bark Life^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Hylotl's Best Friend","category":"sb_quest","icon":"/objects/generic/kennel/kennelicon.png","rarity":"essential","parameters":{
+              "quest":"sb_hylotlwarriorE2",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/generic/kennel/kennelicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Hylotl's Best Friend^reset;' (if possible.)",
+              "shortdescription":"^green;Hylotl's Best Friend^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;The Joker and the Thief","category":"sb_quest","icon":"/items/generic/produce/orange.png","rarity":"essential","parameters":{
+              "quest":"sb_hylotlperformerE1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/produce/orange.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;The Joker and the Thief^reset;' (if possible.)",
+              "shortdescription":"^green;The Joker and the Thief^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Audience of One","category":"sb_quest","icon":"/particles/huh/1.png","rarity":"essential","parameters":{
+              "quest":"sb_hylotlperformerE2part1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/particles/huh/1.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Audience of One^reset;' (if possible.)",
+              "shortdescription":"^green;Audience of One^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Audience of One","category":"sb_quest","icon":"/particles/huh/1.png?flipx","rarity":"essential","parameters":{
+              "quest":"sb_hylotlperformerE2part2",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/particles/huh/1.png?flipx",
+                  "position" : [0.5, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Audience of One^reset;' (if possible.)",
+              "shortdescription":"^green;Audience of One^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Leap for the Stars","category":"sb_quest","icon":"/items/generic/other/bluestim.png","rarity":"essential","parameters":{
+              "quest":"sb_avianrefugeeE1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/other/bluestim.png",
+                  "position" : [0.5, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Leap for the Stars^reset;' (if possible.)",
+              "shortdescription":"^green;Leap for the Stars^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;On Paper Wings","category":"sb_quest","icon":"/items/armors/backitems/paperwings/paperwingsicon.png?crop=0;0;64;16","rarity":"essential","parameters":{
+              "quest":"sb_avianrefugeeE2",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/armors/backitems/paperwings/paperwingsicon.png?crop=0;0;64;16",
+                  "position" : [-24, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;On Paper Wings^reset;' (if possible.)",
+              "shortdescription":"^green;On Paper Wings^reset;"
+            }}
+
+
+
+,{"name":"sb_quest","shortdescription":"^green;Fried and Battered","category":"sb_quest","icon":"/items/generic/meat/cookedfish.png","rarity":"essential","parameters":{
+              "quest":"sb_penguinpromoterE1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/meat/cookedfish.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Fried and Battered^reset;' (if possible.)",
+              "shortdescription":"^green;Fried and Battered^reset;"
+            }}
+
+//VANILLA
+,{"name":"sb_quest","shortdescription":"^orange;Free as a Bird","category":"sb_quest","icon":"/interface/bookmarks/icons/outpost.png","rarity":"essential","parameters":{
+              "quest":"ftlrepairmain",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/interface/bookmarks/icons/outpost.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^orange;Free as a Bird^reset;' (if possible.)",
+              "shortdescription":"^orange;Free as a Bird^reset;"
+            }}
+
+
+,{"name":"sb_quest","shortdescription":"^orange;Fuel for the Ride","category":"sb_quest","icon":"/items/liquids/liquidfuelicon.png","rarity":"essential","parameters":{
+              "quest":"fuel",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/liquids/liquidfuelicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^orange;Fuel for the Ride^reset;' (if possible.)",
+              "shortdescription":"^orange;Fuel for the Ride^reset;"
+            }}
+
+//FOOD
+//stone hoe because other hoe is too big
+,{"name":"sb_quest","shortdescription":"^green;It's time for a Hoe Down","category":"sb_quest","icon":"/items/tools/sb_stonehoeicon.png","rarity":"essential","parameters":{
+              "quest":"hoe",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/tools/sb_stonehoeicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;It's time for a Hoe Down^reset;' (if possible.)",
+              "shortdescription":"^green;It's time for a Hoe Down^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Yes I Can!","category":"sb_quest","icon":"/items/active/unsorted/wateringcan/woodenwateringcan.png","rarity":"essential","parameters":{
+              "quest":"wateringcan",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/active/unsorted/wateringcan/woodenwateringcan.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Yes I Can!^reset;' (if possible.)",
+              "shortdescription":"^green;Yes I Can!^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^orange;The First Harvest","category":"sb_quest","icon":"/items/generic/produce/wheat.png","rarity":"essential","parameters":{
+              "quest":"firstcrops",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/produce/wheat.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^orange;The First Harvest^reset;' (if possible.)",
+              "shortdescription":"^orange;The First Harvest^reset;"
+            }}
+
+//OTHER
+,{"name":"sb_quest","shortdescription":"^orange;Your Very Own Space Station","category":"sb_quest","icon":"/items/active/stationtransponder/stationtransponder.png","rarity":"essential","parameters":{
+              "quest":"transponder",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/active/stationtransponder/stationtransponder.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^orange;Your Very Own Space Station^reset;' (if possible.)",
+              "shortdescription":"^orange;Your Very Own Space Station^reset;"
+            }}
+
+//OUTPOST
+,{"name":"sb_quest","shortdescription":"^green;A Challenger Approaches","category":"sb_quest",
+"icon":"/objects/generic/trophybronze/trophybronzeicon.png","rarity":"essential","parameters":{
+              "quest":"floranarena1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/generic/trophybronze/trophybronzeicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;A Challenger Approaches^reset;' (if possible.)",
+              "shortdescription":"^green;A Challenger Approaches^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;The Glory That's Inside","category":"sb_quest",
+"icon":"/objects/generic/trophysilver/trophysilvericon.png","rarity":"essential","parameters":{
+              "quest":"floranarena2",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/generic/trophysilver/trophysilvericon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;The Glory That's Inside^reset;' (if possible.)",
+              "shortdescription":"^green;The Glory That's Inside^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Arena of Fire","category":"sb_quest",
+"icon":"/objects/generic/trophygold/trophygoldicon.png","rarity":"essential","parameters":{
+              "quest":"floranarena3",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/generic/trophygold/trophygoldicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Arena of Fire^reset;' (if possible.)",
+              "shortdescription":"^green;Arena of Fire^reset;"
+            }}
+
+
+,{"name":"sb_quest","shortdescription":"^orange;Test Drive","category":"sb_quest",
+"icon":"/interface/deploy.png?crop;4;4;14;14?replace;000=0000?border;1;000","rarity":"essential","parameters":{
+              "quest":"mechunlock",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/interface/deploy.png?crop;4;4;14;14?replace;000=0000?border;1;000",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^orange;Test Drive^reset;' (if possible.)",
+              "shortdescription":"^orange;Test Drive^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^orange;Parts and Labour","category":"sb_quest",
+"icon":"/items/generic/mechparts/arm/mecharmmissilerack.png","rarity":"essential","parameters":{
+              "quest":"mechupgrade1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/mechparts/arm/mecharmmissilerack.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^orange;Parts and Labour^reset;' (if possible.)",
+              "shortdescription":"^orange;Parts and Labour^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^orange;Advanced Test Drive","category":"sb_quest",
+"icon":"/items/generic/mechparts/body/mechbodyhuman.png","rarity":"essential","parameters":{
+              "quest":"mechupgrade2",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/mechparts/body/mechbodyhuman.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^orange;Advanced Test Drive^reset;' (if possible.)",
+              "shortdescription":"^orange;Advanced Test Drive^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Koichi's Request","category":"sb_quest",
+"icon":"/objects/avian/sarcoavian2/sarcoavian2icon.png","rarity":"essential","parameters":{
+              "quest":"museumcurator1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/avian/sarcoavian2/sarcoavian2icon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Koichi's Request^reset;' (if possible.)",
+              "shortdescription":"^green;Koichi's Request^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;The Ruler of the Apex","category":"sb_quest",
+"icon":"/objects/apex/apexstatue1/apexstatue1icon.png","rarity":"essential","parameters":{
+              "quest":"museumcurator2",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/apex/apexstatue1/apexstatue1icon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;The Ruler of the Apex^reset;' (if possible.)",
+              "shortdescription":"^green;The Ruler of the Apex^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;The Visage of a Hunter","category":"sb_quest",
+"icon":"/objects/floran/huntingstatue/huntingstatueicon.png","rarity":"essential","parameters":{
+              "quest":"museumcurator3",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/floran/huntingstatue/huntingstatueicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;The Visage of a Hunter^reset;' (if possible.)",
+              "shortdescription":"^green;The Visage of a Hunter^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Silent Knight","category":"sb_quest",
+"icon":"/objects/glitch/medievalarmorarmed/medievalarmorarmedicon.png","rarity":"essential","parameters":{
+              "quest":"museumcurator4",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/glitch/medievalarmorarmed/medievalarmorarmedicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Silent Knight^reset;' (if possible.)",
+              "shortdescription":"^green;Silent Knight^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Fresh Tunes","category":"sb_quest",
+"icon":"/objects/human/basictv/basictvicon.png","rarity":"essential","parameters":{
+              "quest":"museumcurator5",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/human/basictv/basictvicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Fresh Tunes^reset;' (if possible.)",
+              "shortdescription":"^green;Fresh Tunes^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;The Final Acquisition","category":"sb_quest",
+"icon":"/objects/hylotl/hylotlclassicgong/hylotlclassicgongicon.png","rarity":"essential","parameters":{
+              "quest":"museumcurator6",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/hylotl/hylotlclassicgong/hylotlclassicgongicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;The Final Acquisition^reset;' (if possible.)",
+              "shortdescription":"^green;The Final Acquisition^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"Visit The Outpost","category":"sb_quest",
+"icon":"/items/tools/inspectiontool/inspectionmodeicon.png","rarity":"essential","parameters":{
+              "quest":"outpostclue",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/tools/inspectiontool/inspectionmodeicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest 'Visit The Outpost' (if possible.)",
+              "shortdescription":"Visit The Outpost"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Dreadwing the Penguin","category":"sb_quest",
+"icon":"/ai/dreadwingicon.png?replace;fff=0000;ced7e8=0000","rarity":"essential","parameters":{
+              "quest":"penguin1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/ai/dreadwingicon.png?replace;fff=0000;ced7e8=0000",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Dreadwing the Penguin^reset;' (if possible.)",
+              "shortdescription":"^green;Dreadwing the Penguin^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^orange;Penguin Weaponry Testing Site","category":"sb_quest",
+"icon":"/ai/weapontestingicon.png?replace;4e4a42=0000;47443b=0000;434039=0000","rarity":"essential","parameters":{
+              "quest":"penguin2",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/ai/weapontestingicon.png?replace;4e4a42=0000;47443b=0000;434039=0000",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^orange;Penguin Weaponry Testing Site^reset;' (if possible.)",
+              "shortdescription":"^orange;Penguin Weaponry Testing Site^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;The Hero's Forge","category":"sb_quest",
+"icon":"/items/generic/other/techcard.png","rarity":"essential","parameters":{
+              "quest":"protectoratesword",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/other/techcard.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;The Hero's Forge^reset;' (if possible.)",
+              "shortdescription":"^green;The Hero's Forge^reset;"
+            }}
+
+
+
+,{"name":"sb_quest","shortdescription":"^orange;Let's Get Technical","category":"sb_quest",
+"icon":"/items/generic/crafting/copperbar.png","rarity":"essential","parameters":{
+              "quest":"techscientist1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/crafting/copperbar.png",
+                  "position" : [0.5,1]
+                }],
+              "description":"Using this item will start the quest '^orange;Let's Get Technical^reset;' (if possible.)",
+              "shortdescription":"^orange;Let's Get Technical^reset;"
+            }}
+,{"name":"sb_quest","shortdescription":"^orange;A Dashing Individual","category":"sb_quest",
+"icon":"/tech/dash.png","rarity":"essential","parameters":{
+              "quest":"techscientist2",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/tech/dash.png",
+                  "position" : [0.5, 0]
+                }],
+              "description":"Using this item will start the quest '^orange;A Dashing Individual^reset;' (if possible.)",
+              "shortdescription":"^orange;A Dashing Individual^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^orange;Jump-starting Development","category":"sb_quest",
+"icon":"/items/generic/crafting/silverbar.png","rarity":"essential","parameters":{
+              "quest":"techscientist3",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/crafting/silverbar.png",
+                  "position" : [0.5,1]
+                }],
+              "description":"Using this item will start the quest '^orange;Jump-starting Development^reset;' (if possible.)",
+              "shortdescription":"^orange;Jump-starting Development^reset;"
+            }}
+,{"name":"sb_quest","shortdescription":"^orange;Jumping To The Right Conclusion","category":"sb_quest",
+"icon":"/tech/pulsejump.png","rarity":"essential","parameters":{
+              "quest":"techscientist4",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/tech/pulsejump.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^orange;Jumping To The Right Conclusion^reset;' (if possible.)",
+              "shortdescription":"^orange;Jumping To The Right Conclusion^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^orange;Rounding Up The Components","category":"sb_quest",
+"icon":"/items/generic/crafting/goldbar.png","rarity":"essential","parameters":{
+              "quest":"techscientist5",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/crafting/goldbar.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^orange;Rounding Up The Components^reset;' (if possible.)",
+              "shortdescription":"^orange;Rounding Up The Components^reset;"
+            }}
+,{"name":"sb_quest","shortdescription":"^orange;Getting The Ball Rolling","category":"sb_quest",
+"icon":"/tech/distortionsphere.png","rarity":"essential","parameters":{
+              "quest":"techscientist6",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/tech/distortionsphere.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^orange;Getting The Ball Rolling^reset;' (if possible.)",
+              "shortdescription":"^orange;Getting The Ball Rolling^reset;"
+            }}
+
+
+,{"name":"sb_quest","shortdescription":"^green;The Lost Teddy","category":"sb_quest",
+"icon":"/objects/outpost/teddybearplush/teddybearplushicon.png","rarity":"essential","parameters":{
+              "quest":"ursaminer1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/outpost/teddybearplush/teddybearplushicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;The Lost Teddy^reset;' (if possible.)",
+              "shortdescription":"^green;The Lost Teddy^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^orange;The Final Frontier","category":"sb_quest",
+"icon":"/items/generic/other/vaultkey.png","rarity":"essential","parameters":{
+              "quest":"vaultkey",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/other/vaultkey.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^orange;The Final Frontier^reset;' (if possible.)",
+              "shortdescription":"^orange;The Final Frontier^reset;"
+            }}
+
+//BETABOUND BOSSES
+
+,{"name":"sb_quest","shortdescription":"^#9be3d6;First Contact","category":"sb_quest",
+"icon":"/objects/boss/sb_ironbeaconicon.png","rarity":"essential","parameters":{
+              "quest":"sb_ironbeacon",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/boss/sb_ironbeaconicon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^#9be3d6;First Contact^reset;' (if possible.)",
+              "shortdescription":"^#9be3d6;First Contact^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^#9be3d6;One Person's Trash...","category":"sb_quest",
+"icon":"/objects/boss/sb_roboticon.png","rarity":"essential","parameters":{
+              "quest":"sb_robot",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/boss/sb_roboticon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^#9be3d6;One Person's Trash...^reset;' (if possible.)",
+              "shortdescription":"^#9be3d6;One Person's Trash...^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^#9be3d6;The Missing Ingredient","category":"sb_quest",
+"icon":"/objects/boss/sb_peanutbuttericon.png","rarity":"essential","parameters":{
+              "quest":"sb_peanutbutter",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/boss/sb_peanutbuttericon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^#9be3d6;The Missing Ingredient^reset;' (if possible.)",
+              "shortdescription":"^#9be3d6;The Missing Ingredient^reset;"
+            }}
+
+
+//SHIP UPGRADE
+
+]

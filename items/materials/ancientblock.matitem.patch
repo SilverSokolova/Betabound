@@ -1,0 +1,8 @@
+[
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Legendary"}],
+
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
+{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"ancientbrick"}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"ancientplatform"}]
+]

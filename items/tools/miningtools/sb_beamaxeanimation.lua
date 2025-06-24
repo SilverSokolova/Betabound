@@ -1,42 +1,48 @@
 function init()
   radius = animationConfig.animationParameter("radius", config.getParameter("blockRadius"))
-  endImages = config.getParameter("endImages")
+  highlight = config.getParameter("highlight")
+  local unconvertedHighlightColor = animationConfig.animationParameter("highlightColor", root.assetJson("/player.config:defaultHumanoidIdentity.color"))
+  unconvertedHighlightColor[4] = nil
+  highlightColor = ""
+  for i = 1, #unconvertedHighlightColor do
+    highlightColor = highlightColor .. string.format("%02x", unconvertedHighlightColor[i])
+  end
 end
 
 function update(dt)
   radius = animationConfig.animationParameter("radius", config.getParameter("blockRadius"))
---inRange = animationConfig.animationParameter("inRange", false)
---if inRange then  end
-  fillRadius(radius)
+  inRange = animationConfig.animationParameter("inRange", false)
+  localAnimator.clearDrawables()
+  localAnimator.clearLightSources()
+  if inRange then
+    fillRadius(radius)
+  end
 end
 
 function fillRadius(radius)
   local layer = "overlay"
-  local base = activeItemAnimation.ownerAimPosition()
-  localAnimator.clearDrawables()
-  localAnimator.clearLightSources()
-  localAnimator.addDrawable({image = endImages[1], fullbright = true, position = base}, layer)
-  base = {math.floor(base[1]), math.floor(base[2])}
+  local base = activeItemAnimation.ownerAimPosition(); base = {math.floor(base[1]), math.floor(base[2])}
+--localAnimator.addDrawable({image = endImages[1], fullbright = true, position = base}, layer)
+
+  local position = radius % 2 == 0 and {base[1] + 1, base[2] + 1} or {base[1] + 0.5, base[2] + 0.5}
+  localAnimator.addDrawable({image = string.format(highlight, highlightColor, radius, highlightColor), fullbright = true, position = position}, layer)
 
   if radius == 1 then
-    addLight({base[1] + 0.4, base[2] + 0.4}, layer)
-    return
-  end
+    addLight(position)
+  else
+    local baseX = base[1] - radius / 2
+    local baseY = base[2] - radius / 2
 
-  if radius % 2 == 0 then
-    base = {base[1] + 0.4, base[2] + 0.4}
-  end
-
-  local tiles = {}
-  for x = 1, radius do
-    for y = 1, radius do
-      tiles[#tiles+1] = {base[1] - (radius / 2) + x, base[2] - (radius / 2) + y}
-      addLight(tiles[#tiles], layer) --if #t>1 then addLight(t[#t],layer) end
+    for x = 1, radius do
+      for y = 1, radius do
+        addLight({baseX + x, baseY + y})
+      end
     end
   end
 end
 
-function addLight(pos,layer)
-  localAnimator.addDrawable({image = endImages[2], fullbright = true, position = pos}, layer)
-  localAnimator.addLightSource({position = pos, color = {25.5, 40, 46.75}, pointLight = false, beamAmbience = 0.00002})
+function addLight(position)
+  if world.material(position, "foreground") then
+    localAnimator.addLightSource({position = position, color = {50, 50, 50}, pointLight = true, beamAmbience = 0.00002})
+  end
 end

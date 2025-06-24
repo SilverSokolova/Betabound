@@ -1,0 +1,5 @@
+{
+  "input": [["glass",2],"blackdye"],
+  "output": "sunglasses1head",
+  "groups": ["craftingwheel","clothes","all"]
+}

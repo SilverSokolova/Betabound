@@ -1,0 +1,5 @@
+{
+  "input": [["ancientblock",15],"wire","siliconboard"],
+  "output": "ancientpressureplate",
+  "groups": ["craftingwiring", "switches", "all"]
+}

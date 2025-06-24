@@ -3,11 +3,8 @@
   "effectConfig": {
     "tech": "sb_tank"
   },
-  "defaultDuration": 5,
-
   "scripts": ["tank.lua"],
   "animationConfig": "tank.animation",
-
   "label": "Tanky",
   "icon": "/tech/starbound/tank.png"
 }

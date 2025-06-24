@@ -12,7 +12,7 @@
       "name": "wreck",
       "rules": [],
       "def": ["tmx", "sb_wreck.json"],
-      "chance": 0.2
+      "chance": 0.1
     }
   ]
 }

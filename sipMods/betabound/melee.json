@@ -1,0 +1,155 @@
+[
+//crafted
+{"path":"/items/active/starbound/weapons/shortswords/","name":"sb_huntingknife","shortdescription":"Hunting Knife","category":"melee","icon":"huntingknife.png"}
+,{"path":"/items/active/starbound/weapons/daggers/","name":"sb_steelspoon","shortdescription":"Stirring Spoon","category":"melee","icon":"steelspoon.png","rarity":"uncommon"}
+,{"path":"/items/active/starbound/weapons/broadswords/","name":"sb_flowerbouquet","shortdescription":"Flower Bouquet","category":"melee","icon":"flowerbouquet.png"}
+,{"icon":"/items/active/starbound/weapons/broadswords/arcsword.png","name":"sb_arcsword","shortdescription":"Arc Sword","category":"melee"}
+,{"path":"/items/active/weapons/whip/","name":"sb_chainwhip","rarity":"rare","category":"sb_misc","icon":"sb_chainwhip.png:idle","shortdescription":"Chain Whip","fileName":"sb_chainwhip.activeitem"}
+
+//unique
+,{"path":"/items/active/weapons/fist/","name":"sb_explosiveglove","shortdescription":"Explosive Glove","category":"melee","icon":"sb_explosiveglove.png:front","rarity":"legendary"}
+,{"path":"/items/active/weapons/fist/","name":"sb_fatalcircuitclaw","shortdescription":"Fatal Claw","category":"melee","icon":"sb_fatalcircuitclaw.png:front","rarity":"legendary"}
+,{"icon":"/items/active/weapons/whip/sb_jellywhip.png:idle","name":"sb_jellywhip","shortdescription":"Jelly Whip","category":"melee","rarity":"legendary"}
+
+
+//,{"icon":"/items/active/starbound/weapons/broadswords/legendblade.png","name":"sb_legendblade","shortdescription":"Legend Blade","category":"melee","rarity":"legendary"}
+//,{"icon":"/items/active/starbound/weapons/broadswords/stonesword.png","name":"sb_stonesword","shortdescription":"Stone Sword","category":"melee","rarity":"uncommon"}
+
+//bioluminescent
+,{"name":"sb_firesword","shortdescription":"Fire Sword","category":"melee","rarity":"legendary"}
+,{"icon":"/items/active/starbound/weapons/broadswords/watersword.png","name":"sb_watersword","shortdescription":"Water Sword","category":"melee","rarity":"legendary"}
+
+//bone
+,{"icon":"/items/active/starbound/weapons/axes/boneaxe.png","name":"sb_boneaxe","shortdescription":"Bone Axe","category":"melee","rarity":"legendary"}
+	//bonesword
+,{"icon":"/items/active/starbound/weapons/hammers/bonehammer.png","name":"sb_bonehammer","shortdescription":"Bone Hammer","category":"melee","rarity":"legendary"}
+
+//cave
+,{"icon":"/items/active/starbound/weapons/hammers/cavehammer.png","name":"sb_cavehammer","shortdescription":"Cave Hammer","category":"melee","rarity":"rare"}
+
+//cell
+,{"icon":"/items/active/starbound/weapons/broadswords/cellshade.png","name":"sb_cellshade","shortdescription":"Cellshade","category":"melee","rarity":"legendary"}
+,{"icon":"/items/active/starbound/weapons/broadswords/chromosword.png","name":"sb_chromosword","shortdescription":"Chromosword","category":"melee","rarity":"legendary"}
+
+//colorful
+,{"icon":"/items/active/starbound/weapons/broadswords/rainbowsword.png","name":"sb_rainbowsword","shortdescription":"Rainbow Sword","category":"melee","rarity":"rare"}
+,{"name":"sb_rainbowspear","shortdescription":"Rainbow Spear","category":"melee","rarity":"rare"}
+,{"icon":"/items/active/starbound/weapons/shortswords/crayon.png?replace;ffca8a=ffaa8a;eb9550=eb6c50;b55f30=b53b30;843114=841415","name":"sb_crayonred","shortdescription":"Striking Red Crayon","category":"melee","rarity":"uncommon"}
+,{"icon":"/items/active/starbound/weapons/shortswords/crayon.png?replace;ffca8a=8efb94;eb9550=5be655;b55f30=44b034;843114=2f8017","name":"sb_crayongreen","shortdescription":"Striking Green Crayon","category":"melee","rarity":"uncommon"}
+,{"icon":"/items/active/starbound/weapons/shortswords/crayon.png?replace;ffca8a=99afff;eb9550=658cfa;b55f30=3367c4;843114=184c8b","name":"sb_crayonblue","shortdescription":"Striking Blue Crayon","category":"melee","rarity":"uncommon"}
+,{"icon":"/items/active/starbound/weapons/shortswords/crayon.png?replace;ffca8a=fffa8a;eb9550=ebd550;b55f30=b59630;843114=845f14","name":"sb_crayonyellow","shortdescription":"Striking Yellow Crayon","category":"melee","rarity":"uncommon"}
+,{"icon":"/items/active/starbound/weapons/shortswords/crayon.png?replace;ffca8a=df8aff;eb9550=b150eb;b55f30=7730b5;843114=451484","name":"sb_crayonpurple","shortdescription":"Striking Purple Crayon","category":"melee","rarity":"uncommon"}
+,{"icon":"/items/active/starbound/weapons/shortswords/crayon.png","name":"sb_crayonorange","shortdescription":"Striking Orange Crayon","category":"melee","rarity":"uncommon"}
+
+//coral
+,{"icon":"/items/active/starbound/weapons/axes/coralcleaver.png","name":"sb_coralcleaver","shortdescription":"Coral Cleaver","category":"melee","rarity":"legendary"}
+,{"icon":"/items/active/starbound/weapons/axes/heatcleaver.png","name":"sb_heatcleaver","shortdescription":"Heat Cleaver","category":"melee","rarity":"legendary"}
+
+//crystal
+	//crystalspear
+,{"icon":"/items/active/starbound/weapons/spears/hackman.png","name":"sb_hackman","shortdescription":"Hackman","category":"melee","rarity":"legendary"}
+,{"name":"sb_hackmanight","shortdescription":"Hackmanight","category":"melee","rarity":"legendary"}
+
+//desert
+,{"icon":"/items/active/starbound/weapons/hammers/cactislammer.png","name":"sb_cactislammer","shortdescription":"Cactislammer","category":"melee","rarity":"legendary"}
+
+//eye
+,{"icon":"/items/active/starbound/weapons/axes/eyeaxe.png","name":"sb_eyeaxe","shortdescription":"Eye Axe","category":"melee","rarity":"rare"}
+,{"icon":"/items/active/starbound/weapons/broadswords/eyesword.png","name":"sb_eyesword","shortdescription":"Eye Sword","category":"melee","rarity":"legendary"}
+
+//geometric
+,{"icon":"/items/active/starbound/weapons/spears/frostspear.png","name":"sb_frostspear","shortdescription":"Frost Spear","category":"melee","rarity":"legendary"}
+
+//heck
+,{"icon":"/items/active/starbound/weapons/daggers/splatterknife.png","name":"sb_splatterknife","shortdescription":"Splatterknife","category":"melee","rarity":"legendary"}
+,{"icon":"/items/active/starbound/weapons/daggers/gutterknife.png","name":"sb_gutterknife","shortdescription":"Gutterknife","category":"melee","rarity":"legendary"}
+
+//hive
+,{"icon":"/items/active/starbound/weapons/hammers/terminite.png","name":"sb_terminite","shortdescription":"Terminite","category":"melee","rarity":"legendary"}
+,{"icon":"/items/active/starbound/weapons/hammers/xterminitor.png","name":"sb_xterminitor","shortdescription":"X-Terminitor","category":"melee","rarity":"legendary"}
+
+//jungle
+,{"icon":"/items/active/starbound/weapons/daggers/poisondagger.png","name":"sb_poisondagger","shortdescription":"Poison Dagger","category":"melee","rarity":"rare"}
+
+//mushroom
+,{"path":"/items/active/starbound/weapons/shortswords/mushroomsword/blade/","name":"sb_mushroomsword","shortdescription":"Magic Shroom Sword","category":"melee","icon":"1.png","rarity":"uncommon"}
+,{"icon":"/items/active/starbound/weapons/shortswords/mushroomsword.png","name":"sb_mushroomsword2","shortdescription":"Mushroom Sword","category":"melee","rarity":"rare"}
+,{"icon":"/items/active/starbound/weapons/hammers/smashroom.png","name":"sb_smashroom","shortdescription":"Smashroom","category":"melee","rarity":"legendary"}
+,{"icon":"/items/active/starbound/weapons/hammers/blighchen.png","name":"sb_blighchen","shortdescription":"Blighchen","category":"melee","rarity":"legendary"}
+
+//rust
+,{"name":"sb_rustsword","shortdescription":"Rust Sword","category":"melee","rarity":"uncommon"}
+
+
+//slime
+,{"icon":"/items/active/starbound/weapons/shortswords/cutarrh.png","name":"sb_cutarrh","shortdescription":"Cutarrh","category":"melee","rarity":"legendary"}
+,{"icon":"/items/active/starbound/weapons/shortswords/katarrhna.png","name":"sb_katarrhna","shortdescription":"Katarrhna","category":"melee","rarity":"legendary"}
+
+//tar
+,{"icon":"/items/active/starbound/weapons/spears/sabertoothspear.png","name":"sb_sabertoothspear","shortdescription":"Sabertooth Spear","category":"melee","rarity":"legendary"}
+,{"icon":"/items/active/starbound/weapons/hammers/tarhammer.png","name":"sb_tarhammer","shortdescription":"Tar Hammer","category":"melee","rarity":"legendary"}
+
+//toxic
+,{"name":"sb_toxicbroadsword","shortdescription":"Toxic Broadsword","category":"melee","rarity":"rare"}
+
+//wilderness
+,{"icon":"/items/active/starbound/weapons/shortswords/undergrowthtrimmer.png","name":"sb_undergrowthtrimmer","shortdescription":"Undergrowth Trimmer","category":"melee","rarity":"legendary"}
+,{"icon":"/items/active/starbound/weapons/shortswords/overgrownmower.png","name":"sb_overgrownmower","shortdescription":"Overgrown Mower","category":"melee","rarity":"legendary"}
+
+//misc
+,{"icon":"/items/active/starbound/weapons/broadswords/starcleaver.png","name":"sb_starcleaver","shortdescription":"Starcleaver","category":"melee","rarity":"legendary"}
+,{"icon":"/items/active/starbound/weapons/shortswords/slavesword.png","name":"sb_slavesword","shortdescription":"Slave Sword","category":"melee","rarity":"legendary"}
+
+,{"name":"sb_steelchair","shortdescription":"Steel Chair","category":"melee","rarity":"uncommon"}
+,{"icon":"/items/active/starbound/weapons/broadswords/deathstickicon.png","name":"sb_deathstick","shortdescription":"Death Stick","category":"melee"}
+,{"icon":"/items/active/starbound/weapons/daggers/fishicon.png","name":"sb_slapfish","shortdescription":"Slap Fish","category":"melee","rarity":"legendary"}
+,{"icon":"/items/active/starbound/weapons/spears/twistedspear.png","name":"sb_twistedspear","shortdescription":"Twisted Spear","category":"melee","rarity":"uncommon"}
+,{"icon":"/items/active/starbound/weapons/spears/teslaspear.png","name":"sb_teslaspear","shortdescription":"Tesla Spear","category":"melee","rarity":"uncommon"}
+,{"name":"sb_bonesaw","shortdescription":"Bone Saw","category":"melee","rarity":"uncommon"}
+
+
+//procedural
+,{"name":"sb_crappyaxe","shortdescription":"Common Crappy Axe","category":"melee"}
+,{"name":"sb_uncommoncrappyaxe","shortdescription":"Uncommon Crappy Axe","category":"melee","rarity":"uncommon"}
+,{"name":"sb_commonaxe","shortdescription":"Common Axe","category":"melee"}
+,{"name":"sb_uncommonaxe","shortdescription":"Uncommon Axe","category":"melee","rarity":"uncommon"}
+
+,{"name":"sb_commonbroadsword","shortdescription":"Common Broadsword","category":"melee"}
+,{"name":"sb_uncommonbroadsword","shortdescription":"Uncommon Broadsword","category":"melee","rarity":"uncommon"}
+
+,{"name":"sb_crappybroadsword","shortdescription":"Common Crappy Broadsword","category":"melee"}
+,{"name":"sb_uncommoncrappybroadsword","shortdescription":"Uncommon Crappy Broadsword","category":"melee","rarity":"uncommon"}
+
+,{"category":"melee","path":"/interface/sip/rarities/filters/common.png","name":"sb_crappydagger","shortdescription":"Crappy Dagger"}
+,{"category":"melee","rarity":"uncommon","path":"/interface/sip/rarities/filters/uncommon.png","name":"sb_uncommoncrappydagger","shortdescription":"Uncommon Crappy Dagger"}
+,{"name":"sb_commondagger","shortdescription":"Common Dagger","category":"melee"}
+,{"name":"sb_uncommondagger","shortdescription":"Uncommon Dagger","category":"melee","rarity":"uncommon"}
+
+,{"path":"/interface/sip/rarities/filters/","name":"sb_commonspear","shortdescription":"Common Spear","category":"melee","icon":"common.png"}
+,{"path":"/interface/sip/rarities/filters/","name":"sb_uncommonspear","shortdescription":"Uncommon Spear","category":"melee","icon":"uncommon.png","rarity":"uncommon"}
+
+,{"path":"/interface/sip/rarities/filters/","name":"sb_crappyspear","shortdescription":"Common Crappy Spear","category":"melee","icon":"common.png"}
+,{"path":"/interface/sip/rarities/filters/","name":"sb_uncommoncrappyspear","shortdescription":"Uncommon Crappy Spear","category":"melee","icon":"uncommon.png","rarity":"uncommon"}
+
+,{"path":"/interface/sip/rarities/filters/","name":"sb_commonhammer","shortdescription":"Common Hammer","category":"melee","icon":"common.png"}
+,{"path":"/interface/sip/rarities/filters/","name":"sb_uncommonhammer","shortdescription":"Uncommon Hammer","category":"melee","icon":"uncommon.png","rarity":"uncommon"}
+
+,{"path":"/interface/sip/rarities/filters/","name":"sb_crappyhammer","shortdescription":"Common Crappy Hammer","category":"melee","icon":"common.png"}
+,{"path":"/interface/sip/rarities/filters/","name":"sb_uncommoncrappyhammer","shortdescription":"Uncommon Crappy Hammer","category":"melee","icon":"uncommon.png","rarity":"uncommon"}
+
+,{"icon":"/interface/sip/rarities/filters/common.png","category":"melee","shortdescription":"Common Shortsword","name":"sb_commonshortsword"}
+,{"icon":"/interface/sip/rarities/filters/uncommon.png","category":"melee","shortdescription":"Uncommon Shortsword","name":"sb_uncommonshortsword","rarity":"uncommon"}
+
+,{"icon":"/interface/sip/rarities/filters/common.png","category":"melee","shortdescription":"Common Crappy Shortsword","name":"sb_crappyshortsword"}
+,{"icon":"/interface/sip/rarities/filters/uncommon.png","category":"melee","shortdescription":"Uncommon Crappy Shortsword","name":"sb_uncommoncrappyshortsword","rarity":"uncommon"}
+
+,{"name":"sb_glitchsmallmace","shortdescription":"Small Mace","category":"melee"}
+,{"name":"sb_glitchlargemace","shortdescription":"Large Mace","category":"melee","rarity":"uncommon"}
+
+,{"name":"sb_shiv","shortdescription":"Shiv","category":"melee","rarity":"uncommon"}
+,{"name":"sb_nightstick","shortdescription":"Nightstick","category":"melee","rarity":"uncommon"}
+,{"icon":"/items/active/starbound/weapons/hammers/candycane.png","name":"sb_candycane","shortdescription":"Candy Cane","category":"melee"}
+,{"name":"sb_fryingpan","shortdescription":"Frying Pan","category":"melee"}
+
+,{"path":"/items/active/starbound/weapons/hammers/","category":"melee","shortdescription":"Floran Mace","name":"sb_floranmace","icon":"floranmace.png"}
+]

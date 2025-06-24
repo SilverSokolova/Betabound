@@ -10,6 +10,9 @@
 //,{"op":"add","path":"/basicMonsterTreasure/0/1/pool/-","value":{"weight":0.89,"item":"alienmeat"}}
 //,{"op":"add","path":"/flyingMonsterTreasure/0/1/pool/-","value":{"weight":0.89,"item":"alienmeat"}}
 
+,[{"op":"test","path":"/robotTreasure/0/1/fill","inverse":true},{"op":"add","path":"/robotTreasure/0/1/fill","value":[]}]
+,[{"op":"add","path":"/robotTreasure/0/1/fill/-","value":{"pool":"sb_dreadwreckage"}}]
+
 ,[{"op":"add","path":"/pogolemTreasure/0/1/pool/-","value":{"weight":0.5,"item":"poop"}}]
 
 //Check if bone birds can roll to drop 0-3 bones, and if so, replace it to be 0-1 and add a chance for generic monster loot (ie: money), then replace the bone drop with a separate pool mimicing the old draw

@@ -1,6 +1,0 @@
-{
-  "input": [["cocoa",4]],
-  "output": "valentinechocolates",
-  "groups": ["craftingfood","desserts","consumables","heartforge","sb_healing","sb_runboost","sb_t1food","all"],
-  "collectables": {"cooking":"valentinechocolates"}
-}

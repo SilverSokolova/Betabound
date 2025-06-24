@@ -1,6 +1,6 @@
 [[
 //{"op":"add","path":"/interactData/items/-","value":{"item":"sb_meatballs"}},
-{"op":"add","path":"/interactData/items/-","value":{"item":"sb_meatchunks"}},
+//{"op":"add","path":"/interactData/items/-","value":{"item":"sb_meatchunks"}},
 {"op":"add","path":"/interactData/items/-","value":{"item":"sb_rawfleshlump"}},
 {"op":"add","path":"/interactData/items/-","value":{"item":"coffeeseed"}},
 {"op":"add","path":"/interactData/items/-","value":{"item":"sb_offal"}},

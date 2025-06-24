@@ -1,8 +1,9 @@
 {
   "name": "sb_mobilitytech",
-  "effectConfig": {},
-  "defaultDuration": 5,
-  "scripts": ["mobility.lua"],
+  "effectConfig": {
+    "tech": "sb_mobility"
+  },
+  "scripts": ["movement.lua"],
   "label": "Mobility+",
   "icon": "/tech/starbound/mobility.png"
 }

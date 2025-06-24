@@ -1,0 +1,10 @@
+[
+{"path":"/objects/wired/sb_standingturret/","name":"sb_standingturret","shortdescription":"Modular Defense Turret","category":"wire","icon":"icon.png","rarity":"uncommon"}
+,{"path":"/objects/wired/sb_forcepad/","name":"sb_forcepad","shortdescription":"Force Pad","category":"wire","icon":"icon.png","rarity":"rare"}
+,{"path":"/objects/wired/sb_fallingblock/","name":"sb_fallingblock","shortdescription":"Falling Block","category":"wire","icon":"icon.png","rarity":"rare"}
+//,{"path":"/objects/wired/movingplatform/","name":"sb_movingelevatorshort","shortdescription":"Short Elevator","category":"sb_disabled","icon":"platform.png","rarity":"rare"}
+//,{"path":"/objects/wired/movingplatform/","name":"sb_movingelevatorlong","shortdescription":"Long Elevator","category":"sb_disabled","icon":"platform.png","rarity":"rare"}
+,{"path":"/objects/generic/sb_steelelevator/steelelevator","name":"sb_steelelevatorshort","shortdescription":"Short Steel Elevator","category":"wire","icon":"shorticon.png"}
+,{"path":"/objects/generic/sb_steelelevator/steelelevator","name":"sb_steelelevatorlong","shortdescription":"Long Steel Elevator","category":"wire","icon":"longicon.png"}
+,{"icon":"/objects/wired/sb_pump/icon.png","name":"sb_pump","shortdescription":"Pump","category":"wire"}
+]

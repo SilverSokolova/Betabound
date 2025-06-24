@@ -1,0 +1,11 @@
+[
+{"icon":"/objects/microformer/flesh/microformericon.png","name":"sb_microformerheck","shortdescription":"Heck Microformer","category":"terraformer","rarity":"legendary"}
+,{"icon":"/objects/microformer/flesh/microformericon.png","name":"sb_microformercoralcave","shortdescription":"Coral Cave Microformer","category":"terraformer","rarity":"legendary"}
+,{"icon":"/objects/microformer/eyepatch/microformericon.png","name":"sb_microformercrystalcave","shortdescription":"Crystal Cave Microformer","category":"terraformer","rarity":"legendary"}
+,{"icon":"/objects/microformer/eyepatch/microformericon.png","name":"sb_microformercrystalline","shortdescription":"Crystalline Microformer","category":"terraformer","rarity":"legendary"}
+,{"icon":"/objects/microformer/rust/microformericon.png","name":"sb_microformerrust","shortdescription":"Rust Microformer","category":"terraformer","rarity":"legendary"}
+,{"icon":"/objects/microformer/steamspring/microformericon.png","name":"sb_microformersulphur","shortdescription":"Sulphuric Microformer","category":"sb_disabled","rarity":"legendary"}
+
+
+,{"icon":"/objects/terraformer/terraformericon_poison.png","name":"sb_terraformertentacle","shortdescription":"Tentacle Terraformer","category":"terraformer","rarity":"legendary"}
+]

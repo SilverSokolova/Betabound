@@ -1,3 +1,4 @@
+//Used for oSB
 [
 [{"op":"test","path":"/scripts"},{"op":"add","path":"/scripts/-","value":"/scripts/augments/sb_dye.lua"}]
 ]

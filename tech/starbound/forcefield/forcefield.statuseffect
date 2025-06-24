@@ -4,7 +4,6 @@
     "directives": "?border=1;0001;0000?border=1;007eff37;0000",
     "forceFieldStrength": 0.3
   },
-  "defaultDuration": 5,
 
   "scripts": ["forcefield.lua"],
   "label": "Force Field",

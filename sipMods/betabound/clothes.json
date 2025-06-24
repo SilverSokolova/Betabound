@@ -1,0 +1,38 @@
+[
+//sets
+{"icon":"/items/armors/decorative/costumes/sb_techmaster/icons.png:head","name":"sb_techmasterhead","shortdescription":"Tech Master's Techhelm","category":"headwear","rarity":"legendary","directives":"?replace;ffca8a=838383;e0975c=555;a85636=383838;6f2919=151515"}
+,{"icon":"/items/armors/decorative/costumes/sb_techmaster/icons.png:chest","name":"sb_techmasterchest","shortdescription":"Tech Master's Techjacket","category":"chestwear","rarity":"legendary","directives":"?replace;ffca8a=838383;e0975c=555;a85636=383838;6f2919=151515"}
+,{"icon":"/items/armors/decorative/costumes/sb_techmaster/icons.png:pants","name":"sb_techmasterlegs","shortdescription":"Tech Master's Techpants","category":"legwear","rarity":"legendary","directives":"?replace;ffca8a=838383;e0975c=555;a85636=383838;6f2919=151515"}
+
+,{"icon":"/items/armors/biome/eyepatch/sb_eyeball/icons.png:head","name":"sb_eyeballhead","shortdescription":"All-Seeing Mask","category":"headwear","rarity":"rare","directives":"?replace;ffca8a=96cbe7;e0975c=5588d4;a85636=344495;6f2919=1a1c51"}
+,{"icon":"/items/armors/biome/eyepatch/sb_eyeball/icons.png:chest","name":"sb_eyeballchest","shortdescription":"All-Seeing Chest","category":"chestwear","rarity":"rare","directives":"?replace;ffca8a=96cbe7;e0975c=5588d4;a85636=344495;6f2919=1a1c51"}
+
+,{"path":"/items/armors/penguin/sb_empty/icons.png:","name":"sb_emptyhead","shortdescription":"Empty Head","category":"headwear","icon":"head","rarity":"rare"}
+,{"path":"/items/armors/penguin/sb_empty/icons.png:","name":"sb_emptychest","shortdescription":"Empty Chest","category":"chestwear","icon":"chest","rarity":"rare"}
+,{"path":"/items/armors/penguin/sb_empty/icons.png:","name":"sb_emptylegs","shortdescription":"Empty Legs","category":"legwear","icon":"pants","rarity":"rare"}
+
+,{"path":"/items/armors/human/sb_human-work/","name":"sb_workchest","shortdescription":"Work Shirt","category":"chestwear","icon":"icons.png:chest","directives":"?replace;a85636=344495;e0975c=5588d4;ffca8a=96cbe7;6f2919=1a1c51"}
+,{"path":"/items/armors/human/sb_human-work/","name":"sb_worklegs","shortdescription":"Work Pants","category":"sb_clothes","icon":"icons.png:pants","directives":"?replace;a85636=344495;e0975c=5588d4;ffca8a=96cbe7;6f2919=1a1c51"}
+
+//heads
+,{"path":"/items/armors/other/sb_cultist/","name":"sb_cultisthead","shortdescription":"Creepy Cultist Hood","category":"headwear","icon":"icons.png:head","directives":"?replace;ffca8a=d29ce7;e0975c=a451c4;a85636=6a2284;6f2919=320c40","rarity":"legendary"}
+,{"icon":"/items/armors/decorative/hats/sb_braincage/icon.png","name":"sb_braincagehead","shortdescription":"The Braincage","category":"headwear","directives":"?replace;ffca8a=d29ce7;e0975c=a451c4;a85636=6a2284;6f2919=320c40","rarity":"legendary"}
+,{"icon":"/items/armors/decorative/hats/sb_cone/icon.png","name":"sb_conehead","shortdescription":"Cone Mask","category":"headwear","directives":"?replace;ffca8a=96cbe7;e0975c=5588d4;a85636=344495;6f2919=1a1c51","rarity":"legendary"}
+,{"icon":"/items/armors/decorative/hats/sb_odd/icon.png","name":"sb_oddhead","shortdescription":"Odd Helm","category":"headwear","directives":"?replace;ffca8a=f4988c;e0975c=d93a3a;a85636=932625;6f2919=601119","rarity":"legendary"}
+,{"icon":"/items/armors/decorative/hats/sb_scrap/icon.png","name":"sb_scraphead","shortdescription":"Scrap Helm","category":"headwear","directives":"?replace;ffca8a=a8e6e2;e0975c=4facb2;a85636=30636c;6f2919=233c43","rarity":"legendary"}
+,{"icon":"/items/armors/biome/volcanic/sb_firecrownhead/icon.png","name":"sb_firecrownhead","shortdescription":"Fire Crown","category":"headwear","directives":"?replace;ffca8a=ffffff;e0975c=f5ea2c;a85636=f7a618;6f2919=df4300","rarity":"rare"}
+
+
+//chests
+,{"path":"/items/armors/decorative/clothes/sb_shirtshort1/","name":"sb_shirtshort1chest","shortdescription":"Short Sleeved Top","category":"chestwear","icon":"icons.png:chest","directives":"?replace;a85636=344495;e0975c=5588d4;ffca8a=96cbe7;6f2919=1a1c51"}
+,{"path":"/items/armors/decorative/clothes/sb_shirtlong1/","name":"sb_shirtlong1chest","shortdescription":"Long Sleeved Top","category":"chestwear","icon":"icons.png:chest","directives":"?replace;a85636=344495;e0975c=5588d4;ffca8a=96cbe7;6f2919=1a1c51"}
+,{"path":"/items/armors/human/sb_human-cool/","name":"sb_coolchest","shortdescription":"Cool Chest","category":"chestwear","icon":"icon.png","directives":"?replace;a85636=344495;e0975c=5588d4;ffca8a=96cbe7;6f2919=1a1c51"}
+,{"path":"/items/armors/human/sb_human-workout/","name":"sb_workoutchest","shortdescription":"Sweatshirt","category":"chestwear","icon":"icon.png","directives":"?replace;a85636=344495;e0975c=5588d4;ffca8a=96cbe7;6f2919=1a1c51"}
+
+
+//pants
+
+//backs
+
+,{"icon":"/items/armors/backitems/sb_naturecape/icon.png","name":"sb_naturecapeback","shortdescription":"Shawl of Earth's Bounty","category":"backwear","rarity":"legendary","directives":"?replace;ffca8a=96cbe7;e0975c=5588d4;a85636=344495;6f2919=1a1c51"}
+]

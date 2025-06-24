@@ -1,0 +1,9 @@
+{
+  "name": "sb_glidetech",
+  "effectConfig": {
+    "tech": "sb_glide"
+  },
+  "scripts": ["controlparametermultiplier.lua"],
+  "label": "Glide",
+  "icon": "/tech/starbound/glide.png"
+}

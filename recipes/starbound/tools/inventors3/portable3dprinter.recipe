@@ -1,5 +1,5 @@
 {
-  "input": [["platinumbar",10],"smallbattery",["wire",3],"siliconboard"],
+  "input": [["durasteelbar",8],["platinumbar",8],"smallbattery",["wire",2],"siliconboard"],
   "output": "sb_portable3dprinter",
   "groups": ["inventorstable3","craftingstations","all"]
 }

@@ -1,0 +1,21 @@
+/*
+This is an item for a vanilla block that has no item version.
+Ergo, other mods that also make this block obtainable will,
+like us, simply overwrite this file. So don't add anything
+to it other than the bare minimum for it to work!
+
+We can't prefix this block because that would screw some
+other mod over since the block would drop our prefixed
+item instead of theirs, making any recipes with their
+version unable to be crafted.
+*/
+{
+  "itemName": "deadcore",
+  "price": 0,
+  "category": "block",
+  "rarity": "Common",
+  "inventoryIcon": "deadcore.png",
+  "description": "The superdense core of a dead planet. Nearly unbreakable.",
+  "shortdescription": "Dead Core",
+  "materialId": 666
+}

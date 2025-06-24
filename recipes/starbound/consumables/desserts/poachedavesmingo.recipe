@@ -1,0 +1,6 @@
+{
+  "input": ["avesmingo","sb_wartwine"],
+  "output": "sb_poachedavesmingo",
+  "groups": ["craftingfood","desserts","sb_rage","sb_runboost","sb_healing","sb_t1food","all"],
+  "collectables": {"cooking":"sb_poachedavesmingo"}
+}

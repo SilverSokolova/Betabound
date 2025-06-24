@@ -4,5 +4,5 @@
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_roastpoultry"}],
 
-[{"op":"test","path":"/rottedItem","inverse":true},{"op":"add","path":"/rottedItem","value":"sb_rawfleshlump"}]
+[{"op":"test","path":"/rottedItem","inverse":true},{"op":"add","path":"/rottedItem","value":"sb_meatchunks"}]
 ]

@@ -1,12 +1,9 @@
 {
   "name": "sb_speedtech",
   "effectConfig": {
-    "controlModifiers": {
-      "speedModifier": 1.5
-    }
+    "tech": "sb_speed"
   },
-  "defaultDuration": 5,
-  "scripts": ["controlmodifiers.lua"],
+  "scripts": ["movement.lua"],
   "label": "Speed+",
   "icon": "/tech/starbound/speed.png"
 }

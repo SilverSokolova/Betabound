@@ -1,0 +1,6 @@
+{
+  "input": ["chocolate","coffeebeans"],
+  "output": "sb_chocolatecoffeebeans",
+  "groups": ["craftingfood","campfire","consumables","snacks","sb_runboost","sb_healing","sb_energy","sb_energyregen","desserts","sb_t1food","all"],
+  "collectables": {"cooking":"sb_chocolatecoffeebeans"}
+}

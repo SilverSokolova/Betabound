@@ -1,3 +1,6 @@
 [
-[{"op":"test","path":"/price","value":3000},{"op":"replace","path":"/price","value":300}]
+[{"op":"test","path":"/price","value":3000},{"op":"replace","path":"/price","value":300}],
+
+[{"op":"test","path":"/description","value":"A harp. Plucky."},
+{"op":"replace","path":"/description","value":"Plucky."}]
 ]

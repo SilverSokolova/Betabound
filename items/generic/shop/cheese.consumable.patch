@@ -4,5 +4,6 @@
 [{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":8}],
 
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
-[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_cheesecake"}]
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_cheesecake"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_capresesalad"}]
 ]

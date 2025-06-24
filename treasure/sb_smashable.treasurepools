@@ -30,7 +30,11 @@
       ],
       "pool" : [
         {"weight" : 0.3, "item" : "sb_meatchunks"},
-        {"weight" : 0.3, "item" : "sb_meatchunks"}
+        {"weight" : 0.3, "item" : "sb_rawfleshlump"}
+      ],
+      "poolRounds" : [
+        [0.75, 0],
+        [0.25, 1]
       ]
     }]
   ],
@@ -52,8 +56,7 @@
         {"weight" : 0.35, "pool" : "humanoidfossil"},
         {"weight" : 0.25, "pool" : "largefossil"},
         {"weight" : 0.15, "pool" : "fossilBonusTreasure"},
-        {"weight" : 0.05, "pool" : "fossilRareBonusTreasure"},
-        {"weight" : 0.05, "item" : "sb_wreck_repair"}
+        {"weight" : 0.05, "pool" : "fossilRareBonusTreasure"}
       ],
       "poolRounds" : [
         [0.25, 2],

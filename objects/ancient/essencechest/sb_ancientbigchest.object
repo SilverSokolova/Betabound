@@ -8,9 +8,9 @@
   "builder": "/items/buildscripts/starbound/buildcontainer.lua",
   "scripts": ["/scripts/sb_container.lua"],
   "category": "storage",
-  "price": 70,
+  "price": 80,
   "description": "A fearsome ancient chest ornamented with a lidless eye.",
-  "shortdescription": "Big Ancient Chest",
+  "shortdescription": "Observant Ancient Chest",
   "race": "ancient",
   "health": 1.5,
 

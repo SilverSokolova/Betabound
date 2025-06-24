@@ -1,0 +1,78 @@
+[
+  [{
+      "op": "test",
+      "path": "/parts/10/def/1",
+      "value": "heatwave.json"
+    }, {
+      "op": "replace",
+      "path": "/parts/10/def/1",
+      "value": "laserdash.json"
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/metadata/anchor/-",
+      "value": "firebat"
+    }, {
+      "op": "add",
+      "path": "/parts/-",
+      "value": {
+        "name": "sb_angerpoint",
+        "rules": [["maxSpawnCount", [1]]],
+        "def": ["tmx", "angerpoint.json"]
+      }
+    }, {
+      "op": "add",
+      "path": "/metadata/anchor/-",
+      "value": "sb_angerpoint"
+    }, {
+      "op": "add",
+      "path": "/parts/-",
+      "value": {
+        "name": "sb_doubleteam",
+        "rules": [["maxSpawnCount", [1]]],
+        "def": ["tmx", "doubleteam.json"]
+      }
+    }, {
+      "op": "add",
+      "path": "/metadata/anchor/-",
+      "value": "sb_doubleteam"
+    }, {
+      "op": "add",
+      "path": "/parts/-",
+      "value": {
+        "name": "sb_hydroponics",
+        "rules": [["maxSpawnCount", [1]]],
+        "def": ["tmx", "sb_hydroponics.json"]
+      }
+    }, {
+      "op": "add",
+      "path": "/metadata/anchor/-",
+      "value": "sb_hydroponics"
+    }, {
+      "op": "add",
+      "path": "/parts/-",
+      "value": {
+        "name": "sb_runandgun",
+        "rules": [["maxSpawnCount", [1]]],
+        "def": ["tmx", "runandgun.json"]
+      }
+    }, {
+      "op": "add",
+      "path": "/metadata/anchor/-",
+      "value": "sb_runandgun"
+    }, {
+      "op": "add",
+      "path": "/parts/-",
+      "value": {
+        "name": "sb_swarm",
+        "rules": [["maxSpawnCount", [1]]],
+        "def": ["tmx", "swarm.json"]
+      }
+    }, {
+      "op": "add",
+      "path": "/metadata/anchor/-",
+      "value": "sb_swarm"
+    }
+  ]
+]

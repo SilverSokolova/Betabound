@@ -56,6 +56,7 @@
       "animationCycle": 2,
       "timeToLive": 1.9,
       "speed": 7.5,
+      "baseDamage": 8,
       "statusEffects": [{
           "effect": "slimeslow",
           "duration": 2.5

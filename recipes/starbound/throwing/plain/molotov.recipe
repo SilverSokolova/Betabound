@@ -1,6 +1,6 @@
 {
-  "input": ["sb_whiskeybottle","torch"],
+  "input": ["sb_whiskeybottle","torch","fabric"],
   "output": "molotov",
   "duration": 0.3,
-  "groups": ["craftinganvil2","consumables","plain","all"]
+  "groups": ["craftinganvil","consumables","plain","all"]
 }

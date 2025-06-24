@@ -27,7 +27,7 @@ Credits
     * [_InferusRF](https://steamcommunity.com/profiles/76561193786172700):<br/>
       Skyrails, many ranged weapons, melee weapons
     * [nuggubs](https://steamcommunity.com/sharedfiles/filedetails/?id=2735634052):<br/>
-      Jam and salsa, organic torch, painting icon
+      Jam and salsa, organic torch, painting, orange & crystal tart icons
     * [ShyDispatch](https://steamcommunity.com/id/Manix25/myworkshopfiles/?appid=211820):<br/>
       PB&J icon
     * cutieryan:<br/>
@@ -36,7 +36,9 @@ Credits
       Various 'foods on a plate' sprites
     * [Zennle](https://steamcommunity.com/id/30195026920/myworkshopfiles/?appid=211820):<br/>
       Wrapping Table sprites
+    * [BlossomDancer](https://steamcommunity.com/sharedfiles/filedetails/?id=2787981321):<br/>
+      Roasted Cactus sprite
       
   - Level Design
     * [Rhopunzel](https://store.steampowered.com/app/1363900/Farworld_Pioneers/):<br/>
-      Wrecked starship, USCM bunker
+      Original wrecked starship, USCM bunker designs

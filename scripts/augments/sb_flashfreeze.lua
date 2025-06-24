@@ -7,7 +7,8 @@ function apply(input)
   local item = root.itemConfig(output.name)
   local directory = item.directory
   item = item.config
-  if item.itemAgingScripts and not output:instanceValue("sb_preserved2") then --I'd like to check for a rotTimeMultiplier in case some non-food items use a rotting script, but it defaults to 1 so not every item has it, and that's far more likely than someone implementing decaying isotopes in a popular mod
+
+  if item.itemAgingScripts and not (output.name == "sb_preservedfood") then --I'd like to check for a rotTimeMultiplier in case some non-food items use a rotting script, but it defaults to 1 so not every item has it, and that's far more likely than someone implementing decaying isotopes in a popular mod
     local pp = config.getParameter("persistentParameters")
     for i = 1, #pp do
       output:setInstanceValue(pp[i], output:instanceValue(pp[i]))
@@ -16,15 +17,16 @@ function apply(input)
     output.name = "sb_preservedfood"
 
     local icon = output.parameters.inventoryIcon
-    local fade = config.getParameter("fade","?fade=f9ed88;0.05")
+    local directives = config.getParameter("directives", "?fade=f9ed88;0.05")
+
     if icon then
-      icon = type(icon) == "string" and sb_pathToImage(icon, directory)..fade or icon
+      icon = type(icon) == "string" and sb_pathToImage(icon, directory)..directives or icon
       if type(icon) == "table" then
         for i = 1, #icon do
-          icon[i].image = sb_pathToImage(icon[i].image, directory)..fade
+          icon[i].image = sb_pathToImage(icon[i].image, directory)..directives
         end
         if icon[2] and icon[3] then
-          local foodRotBars = {"/interface/durability","/interface/foodrotbar.png"}
+          local foodRotBars = {"/interface/durability", "/interface/foodrotbar.png"}
           for i = 1, #foodRotBars do
             if icon[2].image:find(foodRotBars[i]) and icon[3].image:find(foodRotBars[i]) then
               icon[2] = nil
@@ -76,9 +78,11 @@ function apply(input)
     if maxStack > root.assetJson("/items/defaultParameters.config:defaultMaxStack") then
       output.parameters.maxStack = maxStack
     end
+    --TODO: loop? parametersToRemove? also remove animationCustom
     output.parameters.timeToRot = nil
     output.parameters.animation = nil
     output.parameters.scripts = nil
+    output.parameters.rottingMultiplier = nil
 
     return output:descriptor(), 1
   end

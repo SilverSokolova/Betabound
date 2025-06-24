@@ -1,0 +1,11 @@
+[
+{"path":"/objects/teleporter/sb_racialteleporters/icons.png:","name":"sb_avianteleporter","shortdescription":"Local Avian Teleporter","category":"teleportmarker","icon":"0","rarity":"legendary"}
+,{"path":"/objects/teleporter/sb_racialteleporters/icons.png:","name":"sb_glitchteleporter","shortdescription":"Local Glitch Teleporter","category":"teleportmarker","icon":"1","rarity":"legendary"}
+,{"path":"/objects/teleporter/sb_racialteleporters/icons.png:","name":"sb_humanteleporter","shortdescription":"Local Human Teleporter","category":"teleportmarker","icon":"2","rarity":"legendary"}
+,{"path":"/objects/teleporter/sb_racialteleporters/icons.png:","name":"sb_floranteleporter","shortdescription":"Local Floran Teleporter","category":"teleportmarker","icon":"3","rarity":"legendary"}
+,{"path":"/objects/teleporter/sb_racialteleporters/icons.png:","name":"sb_apexteleporter","shortdescription":"Local Apex Teleporter","category":"teleportmarker","icon":"4","rarity":"legendary"}
+,{"path":"/objects/teleporter/sb_racialteleporters/icons.png:","name":"sb_hylotlteleporter","shortdescription":"Local Hylotl Teleporter","category":"teleportmarker","icon":"5","rarity":"legendary"}
+,{"path":"/objects/teleporter/sb_racialteleporters/icons.png:","name":"sb_novakidteleporter","shortdescription":"Local Novakid Teleporter","category":"teleportmarker","icon":"6","rarity":"legendary"}
+
+,{"path":"/objects/teleporter/peacekeeperteleporter/peacekeeperteleportericon","name":"sb_peacekeeperteleporter","shortdescription":"Peacekeeper Teleporter","category":"teleportmarker","icon":".png","rarity":"legendary"}
+]

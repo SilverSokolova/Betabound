@@ -34,11 +34,11 @@ function build(directory, config, parameters)
 
   local icon = parameters.inventoryIcon
   if icon and type(icon) == "string" and icon:sub(1, 1) == "/" and not root.nonEmptyRegion(icon) then
+    local originalItemName = parameters.originalItemName
     local directives = icon:match(".*(%?.*)") or ""
     icon = icon:match("(.-)%?.*")
-    local foodIconList = root.assetJson("/versioning/sb_food.config")[icon]
-    if foodIconList then
-      local newIcon = root.itemConfig(foodIconList)
+    if originalItemName then
+      local newIcon = root.itemConfig(originalItemName); if not newIcon then return end
       local directory = newIcon.directory
       newIcon = newIcon.parameters.inventoryIcon or newIcon.config.inventoryIcon
       if type(newIcon) == "string" then
@@ -48,6 +48,13 @@ function build(directory, config, parameters)
         newIcon = newIcon..directives
       end
       parameters.inventoryIcon = newIcon
+    else
+      local newParameters = root.itemConfig("cannedfood")
+      local newIcon = newParameters.config.inventoryIcon
+      parameters.inventoryIcon = (newIcon:sub(1, 1) == "/" and newIcon or newParameters.directory .. newIcon) .. directives
+      parameters.shortdescription = newParameters.config.shortdescription
+      parameters.description = newParameters.config.description
+      parameters.tooltipKind = newParameters.config.tooltipKind
     end
   end
 

@@ -3,6 +3,7 @@
     "rarity": "essential",
     "tooltipKind": "sb_tech",
     "category": "other",
+    "shortdescription": "Update Note",
     "tooltipFields": {
       "rarityLabel": "Unique"
     }

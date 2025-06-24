@@ -1,47 +1,70 @@
+--We can't discharge the jump during a jump- that cuts it off early
+--We need to temporarily supress jumping both while charging and while barely touching the ground so the player doesn't initiate a regular jump and cancel their approachYVelocity
 function init()
-  superJumpTimer = {0,0}
-  superJumpSpeed = config.getParameter("superjumpSpeed")
-  superJumpControlForce = config.getParameter("superjumpControlForce")
-  superJumpTime = config.getParameter("superjumpTime")
+  superJumpCooldown = 0
+  superJumpAnimationDuration = 0
+  superJumpSpeed = config.getParameter("superJumpSpeed")
+  superJumpControlForce = config.getParameter("superJumpControlForce")
+  superJumpDuration = config.getParameter("superJumpDuration")
   superJumpCharge = 0
   superJumpMaxCharge = config.getParameter("superJumpMaxCharge")
+  superJumpChargeRate = config.getParameter("superJumpChargeRate")
+  energyUsage = config.getParameter("energyUsage")
+  chargeParticleBaseEmissionRate = config.getParameter("chargeParticleBaseEmissionRate", 20)
+  animator.setParticleEmitterOffsetRegion("chargeFront", mcontroller.boundBox())
 end
 
 function update(args)
-  local activeMovementAbility = status.statPositive("activeMovementAbilities")
-  if not activeMovementAbility and args.moves["jump"] and mcontroller.onGround() and superJumpTimer[1] <= 0 and superJumpCharge <= superJumpMaxCharge then
-    superJumpCharge = superJumpCharge + 0.1
-  elseif
-    superJumpCharge > 0.1 then superJumpCharge = superJumpCharge - 0.1
+  local hasActiveMovementAbility = status.statPositive("activeMovementAbilities")
+
+  --charging
+  if not hasActiveMovementAbility then
+    if args.moves["up"] and mcontroller.onGround() then
+      if superJumpCharge == 0 then
+        animator.playSound("charge")
+        animator.setParticleEmitterEmissionRate("chargeBack", superJumpCharge + chargeParticleBaseEmissionRate)
+        animator.setParticleEmitterEmissionRate("chargeFront", superJumpCharge + chargeParticleBaseEmissionRate)
+      end
+
+      superJumpCharge = math.min(superJumpMaxCharge, superJumpCharge + superJumpChargeRate)
+      mcontroller.controlModifiers({jumpingSuppressed = true}) --Suppress jumping while charging to allow use of the jump button
+      
+      if args.moves["jump"] and superJumpCharge > 0 and superJumpCooldown == 0 and status.overConsumeResource("energy", energyUsage) then
+        superJumpCooldown = superJumpDuration
+        superJumpAnimationDuration = superJumpDuration * 3
+        animator.playSound("jump")
+      end
+    end
   end
 
-  if not activeMovementAbility then
-    animator.setParticleEmitterActive("chargedParticles", superJumpCharge >= 8)
+  --jumping
+  if superJumpCooldown > 0 then
+    local superJumpStrength = 3 * math.floor(superJumpCharge) ^ 2
+    mcontroller.controlModifiers({jumpingSuppressed = true}) --Suppress jumping while jumping as to not have the player jump once they are a literal pixel off the ground
+    mcontroller.controlApproachYVelocity(superJumpSpeed + superJumpStrength, superJumpControlForce + superJumpStrength + world.gravity(mcontroller.position()))
+  end
 
-    if superJumpCharge >= 1 and superJumpCharge <= 1.1 and mcontroller.onGround() and args.moves["jump"] then animator.playSound("charge") end
-    if args.moves["jump"] and args.moves["up"] and mcontroller.onGround() and superJumpTimer[1] <= 0 and status.overConsumeResource("energy", config.getParameter("energyUsage")) then
-      animator.playSound("jumpSound")
-      superJumpTimer = {superJumpTime, superJumpTime*3}
-    end
+  --animation
+  local chargeParticlesEnabled = superJumpCharge >= 1
+  animator.setParticleEmitterActive("chargeBack", chargeParticlesEnabled)
+  animator.setParticleEmitterActive("chargeFront", chargeParticlesEnabled)
+  animator.setFlipped(mcontroller.facingDirection() < 0)
+  if superJumpAnimationDuration > 0 then
+    animator.setParticleEmitterActive("jump", true)
+    animator.setParticleEmitterActive("rocket", true)
 
-    animator.setFlipped(mcontroller.facingDirection() < 0)
-
-    if superJumpTimer[1] > 0 then
-      mcontroller.controlApproachYVelocity(superJumpSpeed+(superJumpCharge*(superJumpCharge*3)), superJumpControlForce+(superJumpCharge*superJumpCharge*3) + world.gravity(mcontroller.position()))
-      superJumpTimer[1] = superJumpTimer[1] - args.dt
-    else
-    end
-    if superJumpTimer[2] > 0 then
-      animator.setParticleEmitterActive("jumpParticles", true)
-      animator.setParticleEmitterActive("rocketParticles", true)
-      superJumpTimer[2] = superJumpTimer[2] - args.dt
-    else
-      animator.setParticleEmitterActive("jumpParticles", false)
-      animator.setParticleEmitterActive("rocketParticles", false)
-    end
+    superJumpAnimationDuration = superJumpAnimationDuration - args.dt
   else
-    animator.setParticleEmitterActive("chargedParticles", false)
-    animator.setParticleEmitterActive("jumpParticles", false)
-    animator.setParticleEmitterActive("rocketParticles", false)
+    animator.setParticleEmitterActive("jump", false)
+    animator.setParticleEmitterActive("rocket", false)
   end
+
+  --discharging
+  if not args.moves["up"] or hasActiveMovementAbility or not mcontroller.onGround() then
+    superJumpCharge = math.max(0, superJumpCharge - superJumpChargeRate)
+    animator.setParticleEmitterEmissionRate("chargeBack", superJumpCharge)
+    animator.setParticleEmitterEmissionRate("chargeFront", superJumpCharge)
+  end
+
+  superJumpCooldown = math.max(0, superJumpCooldown - args.dt)
 end

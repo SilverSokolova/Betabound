@@ -3,7 +3,7 @@
     "name": "sb_randomencounter",
     "species": "dummy",
     "rules": [["maxSpawnCount", [1]]],
-    "anchor": ["farm", "wreck"],
+    "anchor": ["farm", "wreck", "outpost"],
     "maxRadius": 1000000,
     "maxParts": 1
   },
@@ -12,11 +12,16 @@
       "name": "farm",
       "rules": [],
       "def": ["tmx", "sb_farm.json"],
-      "chance": 0.8
+      "chance": 1
     }, {
       "name": "wreck",
       "rules": [],
       "def": ["tmx", "sb_wreck.json"],
+      "chance": 0.8
+    }, {
+      "name": "outpost",
+      "rules": [],
+      "def": ["tmx", "sb_outpost.json"],
       "chance": 0.8
     }
   ]

@@ -1,4 +1,5 @@
 [
 [{"op":"test","path":"/miningSounds","inverse":true},{"op":"add","path":"/miningSounds","value":["/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg"]}],
-[{"op":"test","path":"/miningParticle","inverse":true},{"op":"add","path":"/miningParticle","value":"orespark"}]
+[{"op":"test","path":"/miningParticle","inverse":true},{"op":"add","path":"/miningParticle","value":"orespark"}],
+[{"op":"test","path":"/health","value":10},{"op":"replace","path":"/health","value":2}]
 ]

@@ -1,0 +1,88 @@
+[
+//misc
+{"path":"/items/generated/","name":"sb_tech","shortdescription":"Tech","category":"sb_misc","icon":"sb_tech.png","rarity":"uncommon"}
+,{"path":"/tech/starbound/","name":"sb_lockin","shortdescription":"Tech Swapper","category":"sb_misc","icon":"banana3.png","rarity":"uncommon"}
+,{"path":"/tech/starbound/","name":"sb_equip","shortdescription":"Tech Equipper","category":"sb_misc","icon":"banana3.png","rarity":"uncommon"}
+
+//head
+,{"path":"/tech/","name":"sb_tech","shortdescription":"Distortion Sphere","category":"sb_tech","icon":"distortionsphere.png","parameters":{"techModule":"distortionsphere"},"rarity":"uncommon"}
+,{"path":"/tech/","name":"sb_tech","shortdescription":"Spike Sphere","category":"sb_tech","icon":"spikesphere.png","parameters":{"techModule":"spikesphere"},"rarity":"legendary"}
+,{"path":"/tech/","name":"sb_tech","shortdescription":"Sonic Sphere","category":"sb_tech","icon":"sonicsphere.png","parameters":{"techModule":"sonicsphere"},"rarity":"legendary"}
+,{"path":"/tech/","name":"sb_tech","shortdescription":"Aqua Sphere","category":"sb_tech","icon":"aquasphere.png","parameters":{"techModule":"aquasphere"},"rarity":"legendary"}
+
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Skyrail Rider","category":"sb_tech","icon":"skyrail.png","parameters":{"techModule":"skyrail"},"rarity":"uncommon"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Random Blink","category":"sb_tech","icon":"randblink.png","parameters":{"techModule":"sb_randblink"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Target Blink","category":"sb_tech","icon":"blink.png","parameters":{"techModule":"sb_targetblink"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Jeep","category":"sb_tech","icon":"humanjeep.png","parameters":{"techModule":"sb_humanjeep"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Bomb Sphere","category":"sb_tech","icon":"morphball.png","parameters":{"techModule":"sb_morphball"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Waterball","category":"sb_tech","icon":"waterball.png","parameters":{"techModule":"sb_waterball"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Bouncy","category":"sb_tech","icon":"bounce.png","parameters":{"techModule":"sb_bounce"},"rarity":"legendary"}
+
+//body
+,{"path":"/tech/","name":"sb_tech","shortdescription":"Dash","category":"sb_tech","icon":"dash.png","parameters":{"techModule":"dash"},"rarity":"uncommon"}
+,{"path":"/tech/","name":"sb_tech","shortdescription":"Air Dash","category":"sb_tech","icon":"airdash.png","parameters":{"techModule":"airdash"},"rarity":"legendary"}
+,{"path":"/tech/","name":"sb_tech","shortdescription":"Blink Dash","category":"sb_tech","icon":"blinkdash.png","parameters":{"techModule":"blinkdash"},"rarity":"legendary"}
+,{"path":"/tech/","name":"sb_tech","shortdescription":"Sprint","category":"sb_tech","icon":"sprint.png","parameters":{"techModule":"sprint"},"rarity":"legendary"}
+
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Energy Dash","category":"sb_tech","icon":"dash.png","parameters":{"techModule":"sb_dash"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Light Rig","category":"sb_tech","icon":"lightrig.png","parameters":{"techModule":"sb_lightrig"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Ground Smash","category":"sb_tech","icon":"groundsmash.png","parameters":{"techModule":"sb_groundsmash"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Rolly Sphere","category":"sb_tech","icon":"balldash.png","parameters":{"techModule":"sb_balldash"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"FTL Boost","category":"sb_tech","icon":"ftlboost.png","parameters":{"techModule":"sb_ftlboost"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Mining Drill","category":"sb_tech","icon":"miningdrill.png","parameters":{"techModule":"sb_miningdrill"},"rarity":"legendary"}
+
+//legs
+,{"path":"/tech/","name":"sb_tech","shortdescription":"Pulse Jump","category":"sb_tech","icon":"pulsejump.png","parameters":{"techModule":"doublejump"},"rarity":"uncommon"}
+,{"path":"/tech/","name":"sb_tech","shortdescription":"Multi Jump","category":"sb_tech","icon":"multijump.png","parameters":{"techModule":"multijump"},"rarity":"legendary"}
+,{"path":"/tech/","name":"sb_tech","shortdescription":"Wall Jump","category":"sb_tech","icon":"walljump.png","parameters":{"techModule":"walljump"},"rarity":"legendary"}
+,{"path":"/tech/","name":"sb_tech","shortdescription":"Rocket Jump","category":"sb_tech","icon":"rocketjump.png","parameters":{"techModule":"rocketjump"},"rarity":"legendary"}
+
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Particle Thrust","category":"sb_tech","icon":"particlethrust.png","parameters":{"techModule":"sb_particlethrust"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Bubble Boost","category":"sb_tech","icon":"bubbleboost.png","parameters":{"techModule":"sb_bubbleboost"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Flying Energy Jump","category":"sb_tech","icon":"flyingjump.png","parameters":{"techModule":"sb_flyingjump"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Energy Pulse Jump","category":"sb_tech","icon":"doublejump.png","parameters":{"techModule":"sb_doublejump"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Cameraman Boost","category":"sb_disabled","icon":"/interface/x.png","parameters":{"techModule":"sb_cameramanboost"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Charge Jump","category":"sb_tech","icon":"rocketjump.png","parameters":{"techModule":"sb_rocketjump"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Gravity Bubble","category":"sb_tech","icon":"gravityball.png","parameters":{"techModule":"sb_gravitybubble"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Gravity Neutraliser","category":"sb_tech","icon":"hover.png","parameters":{"techModule":"sb_hover"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Butterfly Boost","category":"sb_tech","icon":"butterflyboost.png","parameters":{"techModule":"sb_butterflyboost"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Rocket Boots","category":"sb_tech","icon":"rocketboots.png","parameters":{"techModule":"sb_rocketboots"},"rarity":"legendary"}
+
+//suit
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Oxygen Supply","category":"sb_tech","icon":"air.png","parameters":{"techModule":"sb_breathprotection"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Radiation Protection","category":"sb_tech","icon":"rad.png","parameters":{"techModule":"sb_radiationprotection"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Cold Protection","category":"sb_tech","icon":"cold.png","parameters":{"techModule":"sb_coldprotection"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Heat Protection","category":"sb_tech","icon":"heat.png","parameters":{"techModule":"sb_heatprotection"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Environmental Protection","category":"sb_tech","icon":"environmentalprotection.png","parameters":{"techModule":"sb_environmentalprotection"},"rarity":"legendary"}
+
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Shield","category":"sb_tech","icon":"shield.png","parameters":{"techModule":"sb_shield"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Energy Charge","category":"sb_tech","icon":"energyregen.png","parameters":{"techModule":"sb_energyregen"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Regeneration","category":"sb_tech","icon":"regeneration.png","parameters":{"techModule":"sb_regeneration"},"rarity":"legendary"}
+
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Speed+","category":"sb_tech","icon":"speed.png","parameters":{"techModule":"sb_speed"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Jump+","category":"sb_tech","icon":"jump.png","parameters":{"techModule":"sb_jump"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Mobility+","category":"sb_tech","icon":"mobility.png","parameters":{"techModule":"sb_mobility"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Glow","category":"sb_tech","icon":"glow.png","parameters":{"techModule":"sb_glow"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Gravity","category":"sb_tech","icon":"gravity.png","parameters":{"techModule":"sb_gravity"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Health+","category":"sb_tech","icon":"health.png","parameters":{"techModule":"sb_health"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Energy+","category":"sb_tech","icon":"energy.png","parameters":{"techModule":"sb_energy"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Protection+","category":"sb_tech","icon":"protection.png","parameters":{"techModule":"sb_protection"},"rarity":"rare"}
+
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Gritty","category":"sb_tech","icon":"grit.png","parameters":{"techModule":"sb_grit"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Glide","category":"sb_tech","icon":"glide.png","parameters":{"techModule":"sb_glide"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Berserker","category":"sb_tech","icon":"/tech/starbound/berserk.png","parameters":{"techModule":"sb_berserk"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Vampiric","category":"sb_tech","icon":"/tech/starbound/vamp.png","parameters":{"techModule":"sb_vamp"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Magnetic","category":"sb_tech","icon":"magnet.png","parameters":{"techModule":"sb_magnet"},"rarity":"rare"}
+,{"path":"/interface/statuses/","name":"sb_tech","shortdescription":"Fall Dampener","category":"sb_tech","icon":"nofalldamage.png","parameters":{"techModule":"sb_reducefalldamage"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Enhanced Healing","category":"sb_tech","icon":"enhancedhealing.png","parameters":{"techModule":"sb_enhancedhealing"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Force Field","category":"sb_tech","icon":"forcefield.png","parameters":{"techModule":"sb_forcefield"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Absorption","category":"sb_tech","icon":"absorption.png","parameters":{"techModule":"sb_absorption"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Spikes","category":"sb_tech","icon":"spiked.png","parameters":{"techModule":"sb_spiked"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Explosive Protection","category":"sb_tech","icon":"explosiveprotection.png","parameters":{"techModule":"sb_explosiveprotection"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Tanky","category":"sb_tech","icon":"tank.png","parameters":{"techModule":"sb_tank"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Breakneck Sprint","category":"sb_tech","icon":"breakneck.png","parameters":{"techModule":"sb_breakneck"},"rarity":"rare"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Scavenger","category":"sb_tech","icon":"extradrops.png","parameters":{"techModule":"sb_extradrops"},"rarity":"rare"}
+
+//suits: modded
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Shield Drone","category":"sb_tech","icon":"shield.png?replace;6ae1ff=ff720e;def8ff=ffc17c","parameters":{"techModule":"sb_sgenergyshield"},"rarity":"legendary"}
+]

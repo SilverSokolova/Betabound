@@ -1,5 +1,7 @@
 [
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
 
-[{"op":"test","path":"/rottedItem","inverse":true},{"op":"add","path":"/rottedItem","value":"sb_rawfleshlump"}]
+[{"op":"test","path":"/foodValue","value":10},{"op":"replace","path":"/foodValue","value":15}],
+
+[{"op":"test","path":"/rottedItem","inverse":true},{"op":"add","path":"/rottedItem","value":"sb_meatchunks"}]
 ]

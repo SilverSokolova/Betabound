@@ -1,0 +1,13 @@
+[
+{"name":"sb_ammo","category":"sb_ammo","icon":"/items/generic/other/sb_ammo/standardbullet.png","shortdescription":"Bullet","rarity":"common","parameters":{"projectileType":"standardbullet"}}
+,{"name":"sb_ammo","category":"sb_ammo","icon":"/items/generic/other/sb_ammo/bouncybullet.png","shortdescription":"Bouncy Bullet","rarity":"common","parameters":{"projectileType":"bouncybullet"}}
+,{"name":"sb_ammo","category":"sb_ammo","icon":"/items/generic/other/sb_ammo/explosivebullet.png","shortdescription":"Explosive Bullet","rarity":"common","parameters":{"projectileType":"explosivebullet"}}
+,{"name":"sb_ammo","category":"sb_ammo","icon":"/items/generic/other/sb_ammo/fast.png","shortdescription":"Fast Bullet","rarity":"common","parameters":{"projectileType":"fast"}}
+,{"name":"sb_ammo","category":"sb_ammo","icon":"/items/generic/other/sb_ammo/huntingbullet.png","shortdescription":"Hunting Bullet","rarity":"common","parameters":{"projectileType":"huntingbullet"}}
+,{"name":"sb_ammo","category":"sb_ammo","icon":"/items/generic/other/sb_ammo/sb_homingbullet.png","shortdescription":"Homing Bullet","rarity":"uncommon","parameters":{"projectileType":"sb_homingbullet"}}
+,{"name":"sb_ammo","category":"sb_ammo","icon":"/items/generic/other/sb_ammo/piercingbullet.png","shortdescription":"Piercing Bullet","rarity":"uncommon","parameters":{"projectileType":"piercingbullet"}}
+,{"name":"sb_ammo","category":"sb_ammo","icon":"/items/generic/other/sb_ammo/airburstelectricbullet.png","shortdescription":"Electric Burst","rarity":"uncommon","parameters":{"projectileType":"airburstelectricbullet"}}
+,{"name":"sb_ammo","category":"sb_ammo","icon":"/items/generic/other/sb_ammo/airburstfirebullet.png","shortdescription":"Fire Burst","rarity":"uncommon","parameters":{"projectileType":"airburstfirebullet"}}
+,{"name":"sb_ammo","category":"sb_ammo","icon":"/items/generic/other/sb_ammo/airbursticebullet.png","shortdescription":"Ice Burst","rarity":"uncommon","parameters":{"projectileType":"airbursticebullet"}}
+,{"name":"sb_ammo","category":"sb_ammo","icon":"/items/generic/other/sb_ammo/airburstpoisonbullet.png","shortdescription":"Poison Burst","rarity":"uncommon","parameters":{"projectileType":"airburstpoisonbullet"}}
+]

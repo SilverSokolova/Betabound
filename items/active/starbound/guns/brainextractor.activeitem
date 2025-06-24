@@ -27,7 +27,7 @@
   "description": "Terminating certain types of monsters with this gun will extract its brain.",
   //"description": "For when a brain needs careful extraction.",
   "shortdescription": "Brain Extractor",
-  "baseOffset": [0.5, 0.15],
+  "baseOffset": [0.5, 0.5],
   "muzzleOffset": [2.8, 0.3],
   "twoHanded": false,
   "level": 2,

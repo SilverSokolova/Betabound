@@ -1,0 +1,6 @@
+{
+  "input": ["tomato","cheese"],
+  "output": "sb_capresesalad",
+  "groups": ["craftingfood","sides","sb_healing","sb_health","sb_t1food","all"],
+  "collectables": {"cooking":"sb_capresesalad"}
+}

@@ -1,2 +1,2 @@
-Copyright (c) 2020-2024 Silver Sokolova
+Copyright (c) 2020-2025 Silver Sokolova
 All rights reserved

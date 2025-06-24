@@ -3,7 +3,10 @@
   "price": 10,
   "tooltipKind": "sb_object4",
   "rarity": "Common",
-  "category": "other",
+  "category": "mysteriousReward", //This must match the category of its wrapped item
+  "tooltipFields": {
+    "subtitle": "Other"
+  },
   "inventoryIcon": "wrappingpaper.png",
   "description": "An item can be placed into this parcel, complete with a ribbon which can then be dyed!\n^gray;Apply with right-click",
   "shortdescription": "Empty Parcel",

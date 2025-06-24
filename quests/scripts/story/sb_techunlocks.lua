@@ -43,13 +43,15 @@ function sendRadioMessage(techs)
     formattedTechList = formattedTechList..root.techConfig(techs[i]).shortDescription..(i ~= #techs and ", " or ".")
   end
 
-  player.radioMessage(
-    {
-      messageId = sb.makeUuid(),
-      unique = false,
-      text = string.format(radioMessage, formattedTechList)
-    }
-  )
+  if #techs > 0 then
+    player.radioMessage(
+      {
+        messageId = sb.makeUuid(),
+        unique = false,
+        text = string.format(radioMessage, formattedTechList)
+      }
+    )
+  end
 end
 
 function makeSuitAvailable(suit)

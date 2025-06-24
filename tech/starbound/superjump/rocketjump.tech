@@ -4,8 +4,7 @@
 
   "rarity": "Legendary",
   "icon": "/tech/starbound/rocketjump.png",
-  "description": "Hold ^#0f0;[SPACE]^reset; to charge a rocket-boosted leap! Unleash with ^#0f0;[W]^reset;.",
-  "sb_briefDescription": "Hold ^#0f0;[SPACE]^reset; to charge a boosted leap! Unleash with ^#0f0;[W]^reset;.",
+  "description": "Hold ^#0f0;[W]^reset; to charge a boosted leap! Unleash with ^#0f0;[SPACE]^reset;.",
   "sb_longDescription": "Watch out for fall damage!",
   "shortDescription": "Charge Jump",
   "chipCost": 12,
@@ -14,8 +13,9 @@
   "animator": "rocketjump.animation",
 
   "energyUsage": 26,
-  "superjumpSpeed": 250,
-  "superjumpControlForce": 820,
-  "superjumpTime": 0.13,
+  "superJumpSpeed": 250,
+  "superJumpControlForce": 820,
+  "superJumpDuration": 0.13,
+  "superJumpChargeRate": 0.1,
   "superJumpMaxCharge": 10
 }

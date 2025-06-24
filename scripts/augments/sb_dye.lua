@@ -1,15 +1,21 @@
-local appl = apply or function(a) return a end
+local originalApply = apply or function(input) return input end
+
 function apply(input)
   local output = Item.new(input)
-  local used = false
-  if output:instanceValue("sb_dyeable", false) then
-    local dyeDirectives = config.getParameter("dyeColorIndex", true) and config.getParameter("sb_dyeDirectives") or config.getParameter("dyeDirectives") or 0
+  local directivesWouldChange
+
+  if output:instanceValue("sb_dyeable") then
+    local dyeDirectives = (config.getParameter("dyeColorIndex", true) and config.getParameter("sb_dyeDirectives")) or config.getParameter("dyeDirectives") or "dyeRemover"
+
     if type(dyeDirectives) == "table" then
-      dyeDirectives = "?"..paletteSwapDirective(dyeDirectives) 
+      dyeDirectives = "?" .. paletteSwapDirective(dyeDirectives) 
     end
-    if dyeDirectives == 0 then
+
+    --reset dye
+    if dyeDirectives == "dyeRemover" then
       local itemData = root.itemConfig(output:descriptor().name).config
       local definition = itemData.definition or itemData.sb_definition
+
       if definition then
         if type(definition) == "string" then
           definition = {definition}
@@ -22,21 +28,23 @@ function apply(input)
           end
         end
       end
+
       local defaultDirectives = itemData.directives or ""
-      used = output:instanceValue("directives") ~= defaultDirectives
-      if used then
+      directivesWouldChange = output:instanceValue("directives") ~= defaultDirectives
+      if directivesWouldChange then
         output:setInstanceValue("directives", defaultDirectives)
       end
-      goto finished
-    end
-    local newDirectives = output:instanceValue("sb_backingDirectives", "")..dyeDirectives..output:instanceValue("sb_extraDirectives", "")
-    if dyeDirectives and newDirectives ~= output:instanceValue("directives", "") then
-      output:setInstanceValue("directives", newDirectives)
-      used = true
+    else
+      --apply dye
+      local newDirectives = output:instanceValue("sb_backingDirectives", "")..dyeDirectives..output:instanceValue("sb_extraDirectives", "")
+      if dyeDirectives and newDirectives ~= output:instanceValue("directives", "") then
+        output:setInstanceValue("directives", newDirectives)
+        directivesWouldChange = true
+      end
     end
   else
-    return appl(input)
+    --not sb_dyeable; run vanilla script
+    return originalApply(input)
   end
-  ::finished::
-  return output:descriptor(), config.getParameter("sb_reusable", used) and 1 or 0
+  return output:descriptor(), config.getParameter("sb_reusable", directivesWouldChange) and 1 or 0
 end

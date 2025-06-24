@@ -1,0 +1,12 @@
+{
+  "itemName": "sb_debug",
+  "tooltipKind": "sb_object",
+  "rarity": "Essential",
+  "category": "other",
+  "tooltipFields": {
+    "subtitle": "Apply with right-click"
+  },
+  "description": "",
+  "shortdescription": "Debug Item",
+  "scripts": ["/scripts/augments/sb_debug.lua"]
+}

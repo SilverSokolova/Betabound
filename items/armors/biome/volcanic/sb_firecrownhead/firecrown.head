@@ -1,0 +1,32 @@
+{
+  "itemName": "sb_firecrownhead",
+  "price": 2500,
+  "inventoryIcon": "icon.png",
+  "maxStack": 1,
+  "rarity": "Rare",
+  "category" : "headwear",
+  "description": "For real hotheads. Note: Not actually fire.", //Meaning no fire particles!
+  "shortdescription": "Fire Crown",
+  "tooltipKind": "sb_armor",
+
+  "maleFrames": "head.png",
+  "femaleFrames": "head.png",
+  "mask": "mask.png",
+
+  "builder" : "/items/buildscripts/starbound/buildarmor.lua",
+
+  "colorOptions": [
+    { "ffca8a" : "fffffffe", "e0975c" : "f5ea2cfe", "a85636" : "f7a618fe", "6f2919" : "df4300fe" },
+    {"ffca8a": "838383fe", "e0975c": "555555fe", "a85636": "383838", "6f2919": "151515fe"}, //black
+    {"ffca8a": "b5b5b5fe", "e0975c": "808080fe", "a85636": "555555", "6f2919": "303030fe"}, //grey
+    {"ffca8a": "e6e6e6fe", "e0975c": "b6b6b6fe", "a85636": "7b7b7bfe", "6f2919": "373737fe"}, //white
+    {"ffca8a": "f4988cfe", "e0975c": "d93a3afe", "a85636": "932625fe", "6f2919": "601119fe"}, //red
+    {"ffca8a": "ffd495fe", "e0975c": "ea9931fe", "a85636": "af4e00fe", "6f2919": "6e2900fe"}, //orange
+    {"ffca8a": "ffffa7fe", "e0975c": "e2c344fe", "a85636": "a46e06fe", "6f2919": "642f00fe"}, //yellow
+    {"ffca8a": "b2e89dfe", "e0975c": "51bd3bfe", "a85636": "247824fe", "6f2919": "144216fe"}, //green
+    {"ffca8a": "96cbe7fe", "e0975c": "5588d4fe", "a85636": "344495fe", "6f2919": "1a1c51fe"}, //blue
+    {"ffca8a": "d29ce7fe", "e0975c": "a451c4fe", "a85636": "6a2284fe", "6f2919": "320c40fe"}, //purple
+    {"ffca8a": "eab3dbfe", "e0975c": "d35eaefe", "a85636": "97276dfe", "6f2919": "59163ffe"}, //pink
+    {"ffca8a": "ccae7cfe", "e0975c": "a47844fe", "a85636": "754c23fe", "6f2919": "472b13fe"} //brown
+  ]
+}

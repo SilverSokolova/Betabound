@@ -1,0 +1,7 @@
+[
+{"icon":"/items/augments/back/sb_energyregenaugment.png","name":"sb_energyregenaugment1","shortdescription":"Energy Regen I Augment","category":"eppaugment","rarity":"uncommon"}
+,{"icon":"/items/augments/back/sb_energyregenaugment.png","name":"sb_energyregenaugment2","shortdescription":"Energy Regen II Augment","category":"eppaugment","rarity":"rare"}
+,{"icon":"/items/augments/back/sb_energyregenaugment.png","name":"sb_energyregenaugment3","shortdescription":"Energy Regen III Augment","category":"eppaugment","rarity":"legendary"}
+
+,{"icon":"/items/augments/pet/thornscollar.png","name":"sb_thornscollar","shortdescription":"Thorns Collar","category":"petcollar","rarity":"uncommon"}
+]

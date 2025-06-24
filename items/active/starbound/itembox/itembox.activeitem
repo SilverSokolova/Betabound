@@ -4,10 +4,7 @@
   "maxStack": 1,
   "rarity": "Legendary",
   "tooltipKind": "sb_object",
-  "category": "other",
-  "tooltipFields": {
-    "subtitle": "Mysterious Reward"
-  },
+  "category": "mysteriousReward",
   "description": "A parcel, wrapped up nicely with ribbon!",
   "shortdescription": "Parcel",
   "twoHanded": true,

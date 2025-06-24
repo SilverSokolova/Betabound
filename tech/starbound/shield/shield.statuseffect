@@ -3,7 +3,6 @@
   "effectConfig": {
     "tech": "sb_shield"
   },
-  "defaultDuration": 5,
 
   "scripts": ["shield.lua"],
   "animationConfig": "shield.animation",

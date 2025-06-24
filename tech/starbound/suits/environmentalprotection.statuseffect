@@ -15,8 +15,7 @@
         "amount": 1
       }
     ]
-  },
-  "defaultDuration": 5,
+  },
   "scripts": ["suit.lua"],
   "label": "Environmental Protection",
   "icon": "/tech/starbound/environmentalprotection.png"

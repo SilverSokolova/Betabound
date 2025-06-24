@@ -8,5 +8,11 @@
       "path": "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/wrapWidth",
       "value": 126
     }
+  ],
+  [{
+      "op": "add",
+      "path": "/scripts/-",
+      "value": "/interface/scripted/weaponupgrade/sb_weaponupgradegui.lua"
+    }
   ]
 ]

@@ -2,14 +2,22 @@ xrc0018 = {}
 local function blue(a) if type(a)=="string" then a={a} end for i = 1, #a do player.giveBlueprint(a[i]) end end
 local function quest(a,b) if type(b)=="string" then b={b} end if player.hasCompletedQuest(a) then for i = 1, #b do player.giveItem(b[i]) end end end
 local function boxQuest(a,b) if player.hasCompletedQuest(a) then IB[#IB+1] = b end end
-local function giveBox(desc, tooltipKind) if #IB > 0 then player.giveItem({"sb_itembox",1,{tooltipKind=tooltipKind,description=string.format(root.assetJson("/betabound.config")[desc], #IB),items=IB}}) end end
+local function giveBox(desc, tooltipKind) if #IB > 0 then player.giveItem({"sb_itembox",1,{tooltipKind=tooltipKind,description=string.format(root.assetJson("/betabound.config:updateNotes")[desc or "default"], #IB),items=IB}}) end end
 local function updateNote(a)
   local b = root.assetJson("/betabound.config")
-  a = b.updateNotes[a]
   local i = root.assetJson("/scripts/sb_versioning/updateNote.json")
-  i.parameters.description = a[2] or b.removedItemDescription
-  i.parameters.shortdescription = a[1].." "..b.updateNote
+  i.parameters.description = b.updateNotes[a or "default"]
   player.giveItem(i)
+
+  local audiodisc = root.itemConfig("audiodisc").config
+  player.radioMessage({
+    messageId = sb.makeUuid(),
+    unique = false,
+    text = b["developerMessage"].." "..i.parameters.description,
+    portraitImage = audiodisc.defaultPortrait,
+    portraitFrames = audiodisc.defaultPortraitFrames,
+    senderName = "Betabound"
+  })
 end
 local function reunlockRecipes(a)
   if type(a) == "string" then a = {a} end
@@ -102,7 +110,7 @@ xrc0018[18]=function()
   boxQuest("sb_bountyhunter3.gearup",{"sb_uncommonshotgun",1,{level=4}})
   boxQuest("sb_floranhunter4.gearup",{"sb_uncommonspear",1,{level=5}})
   boxQuest("sb_humanexcon4.gearup",{"sb_uncommonaxe",1,{level=5}})
-  giveBox("changedQuestRewardsDescription")
+  giveBox("changedQuestRewards")
 end
 --[[
 xrc0018[19]=function()
@@ -129,7 +137,7 @@ xrc0018[19]=function()
     {"sb_avianrefugeeE1","sb_humanscientistE1","sb_avianrefugeeE2","sb_hylotlwarriorE2","sb_hylotlwarriorE1","sb_penguinpromoterE1"}
   }
   for i = 1, #q do for j = 1, #q[i] do boxQuest(q[i][j]..".gearup",{"rewardbag",1,{treasure={level=i}}}) end end
-  giveBox("changedQuestRewardsDescription")
+  giveBox("changedQuestRewards")
 end
 ]]
 xrc0018[20]=function()
@@ -140,17 +148,14 @@ xrc0018[20]=function()
     end
   end
 end
+
+--21, 6/OCT/2022: Phase out redundant Betabound crafting stations
 xrc0018[21]=function()
   if player.blueprintKnown("sb_steelbar") then
     updateNote("090")
-    updateNote("090b")
   end
 end
-xrc0018[22]=function()
-  if player.blueprintKnown("sb_sweetcorn") then --could cause issues if we add sweetcorn back. maybe change to iron anvil?
-    updateNote("96")
-  end
-end
+
 xrc0018[23]=function()
   local a = player.getProperty("eesTransmutations")
   if a and a.EES_farmemc then
@@ -276,7 +281,22 @@ xrc0018[34]=function()
       end
     end
   end
-  giveBox("changedQuestIdsDescription", "sb_tech")
+  giveBox("changedQuestIds", "sb_tech")
+end
+
+--35, 6/FEB/2025: Changed repair tool names
+xrc0018[35]=function()
+  local recipes = {"copper", "diamond", "titanium", "rubium"}
+  local gotNote = false
+  for i = 1, #recipes do
+    if player.blueprintKnown(string.format("sb_%s_repair", recipes[i])) then
+      if not gotNote then
+        updateNote()
+        gotNote = true
+      end
+      player.giveBlueprint(string.format("sb_%srepairtool", recipes[i]))
+    end
+  end
 end
 
 function sb_doVersioning(cv,yv)

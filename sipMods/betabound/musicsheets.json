@@ -1,0 +1,89 @@
+[
+{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Accretion Disc","rarity":"uncommon","parameters":{"music":"accretion-disc"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Arctic Battle (1)","rarity":"rare","parameters":{"music":"arctic-battle1"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Arctic Battle (2)","rarity":"rare","parameters":{"music":"arctic-battle2"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Arctic Battle (3)","rarity":"rare","parameters":{"music":"arctic-battle3"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Arctic Constellation (1)","rarity":"uncommon","parameters":{"music":"arctic-constellation1"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Arctic Constellation (2)","rarity":"uncommon","parameters":{"music":"arctic-constellation2"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Arctic Exploration (1)","rarity":"uncommon","parameters":{"music":"arctic-exploration1"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Arctic Exploration (2)","rarity":"uncommon","parameters":{"music":"arctic-exploration2"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Atlas","rarity":"uncommon","parameters":{"music":"atlas"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Atlas (8-Bit)","rarity":"rare","parameters":{"music":"atlas-8bit"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Betabound","rarity":"uncommon","parameters":{"music":"title-theme-concept-old"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Blue Straggler","rarity":"uncommon","parameters":{"music":"blue-straggler"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Body Electric","rarity":"uncommon","parameters":{"music":"body-electric-loop"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Casiopeia","rarity":"uncommon","parameters":{"music":"casiopeia"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Club Decks","rarity":"rare","parameters":{"music":"clubdecks1"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Crystal Battle (1)","rarity":"rare","parameters":{"music":"crystal-battle1"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Crystal Exploration (1)","rarity":"uncommon","parameters":{"music":"crystal-exploration1"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Crystal Exploration (2)","rarity":"uncommon","parameters":{"music":"crystal-exploration2"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Cygnus x1","rarity":"uncommon","parameters":{"music":"cygnus-x1"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Dancebound","rarity":"rare","parameters":{"music":"dancebound"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Dead or Alive","rarity":"rare","parameters":{"music":"dead-or-alive"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Decorated Music Box","rarity":"rare","parameters":{"music":"musicbox2"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Desert Battle (2)","rarity":"rare","parameters":{"music":"desert-battle-2"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Desert Exploration (1)","rarity":"uncommon","parameters":{"music":"desert-exploration1"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Desert Exploration (2)","rarity":"uncommon","parameters":{"music":"desert-exploration2"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Drosera","rarity":"uncommon","parameters":{"music":"drosera"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Epsilon Indi","rarity":"uncommon","parameters":{"music":"epsilon-indi"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Eridanus Supervoid","rarity":"uncommon","parameters":{"music":"eridanus-supervoid"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Error 0xBFAF000","rarity":"uncommon","parameters":{"music":"error-0xbfaf000"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Europa","rarity":"uncommon","parameters":{"music":"europa"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Event Horizon","rarity":"rare","parameters":{"music":"event-horizon"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Forest","rarity":"uncommon","parameters":{"music":"forest"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Forest Battle (1)","rarity":"uncommon","parameters":{"music":"sb_forest-battle1"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Forest Battle (2)","rarity":"rare","parameters":{"music":"forest-battle2"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Forest Exploration (1)","rarity":"uncommon","parameters":{"music":"sb_forest-exploration1"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Forest Exploration (2)","rarity":"uncommon","parameters":{"music":"sb_forest-exploration2"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Forsaken Grotto","rarity":"uncommon","parameters":{"music":"forsaken-grotto"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Frontier Gramophone","rarity":"rare","parameters":{"music":"gramophone"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Glacial Horizon","rarity":"uncommon","parameters":{"music":"sb_glacial-horizon"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Gravitational Collapse","rarity":"rare","parameters":{"music":"gravitational-collapse"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Haiku","rarity":"uncommon","parameters":{"music":"haiku"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Home","rarity":"uncommon","parameters":{"music":"home-concept"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Horsehead Nebula","rarity":"uncommon","parameters":{"music":"horsehead-nebula"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Housecleaning","rarity":"rare","parameters":{"music":"housecleaning"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Hymn to the Stars","rarity":"uncommon","parameters":{"music":"hymn-to-the-stars"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"I was the Sun","rarity":"uncommon","parameters":{"music":"i-was-the-sun"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Impact Event","rarity":"rare","parameters":{"music":"impact-event"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Inviolate","rarity":"uncommon","parameters":{"music":"inviolate"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Jab","rarity":"rare","parameters":{"music":"sb_jab"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Jukebox","rarity":"rare","parameters":{"music":"jukebox"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Jungle Love","rarity":"rare","parameters":{"music":"jungleloveall"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Jupiter","rarity":"uncommon","parameters":{"music":"jupiter"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Large Magellanic Cloud","rarity":"uncommon","parameters":{"music":"large-magellanic-cloud"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Lava Exploration (1)","rarity":"uncommon","parameters":{"music":"lava-exploration1"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Lava Exploration (2)","rarity":"uncommon","parameters":{"music":"lava-exploration2"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"M54","rarity":"uncommon","parameters":{"music":"M54"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Mercury","rarity":"uncommon","parameters":{"music":"mercury"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Mira","rarity":"uncommon","parameters":{"music":"mira"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Nomads","rarity":"uncommon","parameters":{"music":"nomads"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Ocean Battle (1)","rarity":"rare","parameters":{"music":"ocean-battle1"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Ocean Exploration (1)","rarity":"uncommon","parameters":{"music":"sb_ocean-exploration1"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Ocean Exploration (2)","rarity":"uncommon","parameters":{"music":"ocean-exploration2"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"On the Beach at Night","rarity":"uncommon","parameters":{"music":"on-the-beach-at-night"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Planetarium","rarity":"uncommon","parameters":{"music":"planetarium"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Poptop Humming","rarity":"rare","parameters":{"music":"poptop"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Procyon","rarity":"uncommon","parameters":{"music":"procyon"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Psyche","rarity":"uncommon","parameters":{"music":"psyche"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Scorian Flow","rarity":"uncommon","parameters":{"music":"scorian-flow"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Starbound","rarity":"uncommon","parameters":{"music":"title-menu-music"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Stellar Acclimation","rarity":"rare","parameters":{"music":"stellar-acclimation"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Stellar Formation","rarity":"uncommon","parameters":{"music":"stellarformation"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Swansong","rarity":"rare","parameters":{"music":"swansong"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Temple of Kluex","rarity":"rare","parameters":{"music":"temple-of-kluex"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Tentacle Battle (1)","rarity":"rare","parameters":{"music":"tentacle-battle1"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Tentacle Exploration (1)","rarity":"uncommon","parameters":{"music":"tentacle-exploration1"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Tentacle Exploration (2)","rarity":"uncommon","parameters":{"music":"sb_tentacle-exploration2"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"The Apex","rarity":"uncommon","parameters":{"music":"the-apex"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"The Deep","rarity":"rare","parameters":{"music":"the-deep"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"The Eternal Tide","rarity":"uncommon","parameters":{"music":"the-eternal-tide"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"The Peacekeepers","rarity":"rare","parameters":{"music":"the-peacekeepers"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Tranquility Base","rarity":"uncommon","parameters":{"music":"tranquility-base"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Ultramarine","rarity":"uncommon","parameters":{"music":"ultramarine"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Underground","rarity":"uncommon","parameters":{"music":"sb_underground"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Underground - Club Decks","rarity":"uncommon","parameters":{"music":"clubdecks2"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Vast Immortal Suns","rarity":"uncommon","parameters":{"music":"vast-immortal-suns"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Via Aurora","rarity":"uncommon","parameters":{"music":"sb_via-aurora"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Weep Not, My Child","rarity":"uncommon","parameters":{"music":"sb_weep-not-my-child"}}
+]

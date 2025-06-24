@@ -9,5 +9,15 @@
   //"sb_suitImage": "?replace;73daff=28daf5;27abff=0dd3ef;117ee4=0bbad4;1f45d4=09a0b7", bad
   "rarity": "Rare",
   "description": "Provides a boost in jumping power.",
-  "shortDescription": "Jump+"
+  "shortDescription": "Jump+",
+
+  //Same stats as vanilla augment
+  "controlModifiers": {
+    "airJumpModifier": 1.20
+  },
+  "statModifierGroup": [{
+      "stat": "jumpModifier",
+      "amount": 0.2
+    }
+  ]
 }

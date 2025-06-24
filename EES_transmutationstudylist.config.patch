@@ -12,8 +12,6 @@
 
 
 [{"op":"add","path":"/hunt/T1/rawham","value":true}],
-[{"op":"add","path":"/hunt/T1/sb_meatchunks","value":true}],
-[{"op":"add","path":"/hunt/T1/sb_offal","value":true}],
 [{"op":"add","path":"/hunt/T1/sb_rawfleshlump","value":true}],
 [{"op":"add","path":"/hunt/T1/basic","value":true}],
 

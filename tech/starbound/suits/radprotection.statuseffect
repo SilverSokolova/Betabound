@@ -9,8 +9,7 @@
         "amount": 0.25
       }
     ]
-  },
-  "defaultDuration": 5,
+  },
   "scripts": ["suit.lua"],
   "label": "Radiation Protection",
   "icon": "/tech/starbound/rad.png"

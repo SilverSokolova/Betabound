@@ -12,17 +12,17 @@
       "name": "glitchtransport",
       "rules": [],
       "def": ["tmx", "sb_glitchtransport.json"],
-      "chance": 0.8
+      "chance": 1
     }, {
       "name": "glitchhouse",
       "rules": [],
       "def": ["tmx", "sb_glitchhouse.json"],
-      "chance": 0.8
+      "chance": 1
     }, {
       "name": "glitchtower1",
       "rules": [],
       "def": ["tmx", "sb_glitchtower1.json"],
-      "chance": 0.8
+      "chance": 1
     }
   ]
 }

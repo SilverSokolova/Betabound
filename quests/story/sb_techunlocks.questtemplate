@@ -26,12 +26,12 @@
     "cinematicRadioMessageDelay": 5,
     "quests": ["human_mission1", "floran_mission2", "hylotl_mission2", "avian_mission2", "apex_mission2", "glitch_mission2"],
     "techTiers": [
-      ["sb_doublejump", "sb_dash", "sb_bounce"],
+      ["sb_doublejump", "sb_dash", "sb_bounce", "sb_jump"],
       ["sb_groundsmash", "sb_rocketjump", "sb_boat"],
       ["sb_morphball", "sb_gravitybubble", "sb_lightrig", "skyrail"],
       ["sb_targetblink", "sb_ftlboost", "sb_rocketboots"],
-      ["sb_bubbleboost", "sb_energyregen", "sb_shield"],
-      ["sb_humanmech_NOTNOW", "sb_particlethrust", "sb_regeneration"]
+      ["sb_particlethrust", "sb_energyregen", "sb_shield"],
+      ["sb_bubbleboost", "sb_regeneration"] //also sb_humanmech if we ever implement it
     ]
   }
 }

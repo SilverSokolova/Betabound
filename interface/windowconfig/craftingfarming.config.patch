@@ -1,0 +1,12 @@
+[
+  [{
+      "op": "test",
+      "path": "/paneLayout/categories/toggleMode",
+      "value": false
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/categories/toggleMode",
+      "value": true
+    }
+  ]
+]

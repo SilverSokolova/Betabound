@@ -1,3 +1,6 @@
 [
-[{"op":"test","path":"/price","value":3000},{"op":"replace","path":"/price","value":150}]
+[{"op":"test","path":"/price","value":3000},{"op":"replace","path":"/price","value":150}],
+
+[{"op":"test","path":"/description","value":"An ocarina. Make sure you have time to practise."},
+{"op":"replace","path":"/description","value":"Make sure you have time to practise."}]
 ]

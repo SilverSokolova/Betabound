@@ -1,3 +1,4 @@
+//maybe make it t4 and require a circuit board??
 {
   "input": [["titaniumbar",3],["copperbar",2],"phasematter"],
   "output": ["sb_slavesword",1,{"crafted":true}],

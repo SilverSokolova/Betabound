@@ -1,0 +1,7 @@
+{
+  "currencyInputs": {"essence":5},
+  "input": ["cobblestonematerial","wire"],
+  "output": ["ancientblock",5],
+  "duration": 0.2,
+  "groups": ["craftingfurniture2","materials","all"]
+}

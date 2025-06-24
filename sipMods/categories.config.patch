@@ -1,0 +1,41 @@
+[
+  [{
+    "op": "test",
+    "path": "/Betabound Debug:",
+    "inverse": true
+  }, {
+    "op": "add",
+    "path": "/Betabound Debug:",
+    "value": []
+  }],
+  [{
+    "op": "add",
+    "path": "/Betabound Debug:/-",
+    "value": {
+      "image": "/interface/sip/categories/captioned.png",
+      "selectedImage": "/interface/sip/categories/captionedselected.png",
+      "caption" : "Quest\nPrompts",
+      "categories": ["sb_quest"]
+    }
+  }],
+  [{
+    "op": "add",
+    "path": "/Betabound Debug:/-",
+    "value": {
+      "image": "/interface/sip/categories/captioned.png",
+      "selectedImage": "/interface/sip/categories/captionedselected.png",
+      "caption" : "Dev Tools",
+      "categories": ["sb_debug"]
+    }
+  }],
+  [{
+    "op": "add",
+    "path": "/Betabound Debug:/-",
+    "value": {
+      "image": "/interface/sip/categories/captioned.png",
+      "selectedImage": "/interface/sip/categories/captionedselected.png",
+      "caption" : "Disabled\nUnused",
+      "categories": ["sb_misc","sb_disabled"]
+    }
+  }]
+]

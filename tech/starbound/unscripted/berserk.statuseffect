@@ -1,6 +1,5 @@
 {
   "name": "sb_berserk",
-  "defaultDuration": 1,
   "label": "Berserker",
   "icon": "/tech/starbound/berserk.png"
 }

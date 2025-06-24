@@ -1,0 +1,132 @@
+[
+//FURNITURE
+
+{"path":"/objects/generic/sb_woodenendtable/","name":"sb_woodenendtable","shortdescription":"Wooden End Table","category":"furniture","icon":"icon.png"}
+
+,{"path":"/objects/biome/sb_eyepatch/eyebed","name":"sb_eyebed","shortdescription":"All-Seeing Bed","category":"furniture","icon":"icon.png"}
+,{"path":"/objects/biome/sb_eyepatch/eyechair","name":"sb_eyechair","shortdescription":"All-Seeing Chair","category":"furniture","icon":"icon.png"}
+,{"path":"/objects/biome/sb_eyepatch/eyetable","name":"sb_eyetable","shortdescription":"All-Seeing Table","category":"furniture","icon":"icon.png"}
+
+,{"path":"/objects/biome/sb_geometric/geometricbed","name":"sb_geometricbed","shortdescription":"Geometric Ice Bed","category":"furniture","icon":"icon.png"}
+,{"path":"/objects/biome/sb_geometric/geometricchair","name":"sb_geometricchair","shortdescription":"Geometric Ice Chair","category":"furniture","icon":"icon.png"}
+,{"path":"/objects/biome/sb_geometric/geometrictable","name":"sb_geometrictable","shortdescription":"Geometric Ice Table","category":"furniture","icon":"icon.png"}
+
+,{"icon":"/objects/generic/sb_woodenshelf/icon.png","name":"sb_woodenshelf","shortdescription":"Wooden Shelf","category":"furniture"}
+
+//LIGHT
+,{"path":"/objects/generic/sb_walllight/walllight","name":"sb_walllight","shortdescription":"Long Electric Light","category":"light","icon":"icon.png"}
+,{"path":"/objects/biome/sb_geometric/geometricscreen","name":"sb_geometricscreen","shortdescription":"Geometric Ice Screen","category":"light","icon":"icon.png"}
+
+
+//ACTION FIGURE
+,{"path":"/objects/actionfigure/sb_fatalcircuit/","name":"sb_fatalcircuitaf","shortdescription":"Fatal Circuit Figurine","category":"actionfigure","icon":"fatalcircuitAF.png","rarity":"legendary"}
+//,{"path":"/objects/actionfigure/sb_rockandrolypoly/","name":"sb_rockandrolypolyaf","shortdescription":"Rock & Roly Poly Figurine","category":"actionfigure","icon":"rockandrolypolyAF.png","rarity":"legendary"} //TODO: better name. "It's currently nameless"
+//,{"path":"/objects/actionfigure/sb_bonedragon/","name":"sb_bonedragonaf","shortdescription":"Rogue Bone Dragon Figurine","category":"actionfigure","icon":"bonedragonyAF.png","rarity":"legendary"}
+,{"path":"/objects/actionfigure/sb_jelly/","name":"sb_jellyaf","shortdescription":"Jelly Figurine","category":"actionfigure","icon":"jellyAF.png","rarity":"legendary"}
+//,{"path":"/objects/actionfigure/sb_tentacomet/","name":"sb_tentacometaf","shortdescription":"Tentacomet Figurine","category":"actionfigure","icon":"tentacometAF.png","rarity":"legendary"}
+
+,{"path":"/objects/actionfigure/sb_chesttrapper/","name":"sb_medievalchesttrapperaf","shortdescription":"Chest Trapper Figurine","category":"actionfigure","icon":"medievalchestAF.png","rarity":"legendary"}
+,{"path":"/objects/actionfigure/sb_chesttrapper/","name":"sb_royalchesttrapperaf","shortdescription":"Chest Trapper Figurine","category":"actionfigure","icon":"royalchestAF.png","rarity":"legendary"}
+,{"path":"/objects/actionfigure/sb_envprobe/","name":"sb_envprobeaf","shortdescription":"Enviro Probe Figurine","category":"actionfigure","icon":"envprobeAF.png:0","rarity":"legendary"}
+,{"path":"/objects/actionfigure/sb_heckblob/","name":"sb_heckblobaf","shortdescription":"Heck Blob Figurine","category":"actionfigure","icon":"heckblobAF.png","rarity":"legendary"}
+,{"path":"/objects/actionfigure/sb_serpentdroid/","name":"sb_serpentdroidaf","shortdescription":"Serpent Droid Figurine","category":"actionfigure","icon":"serpentdroidAF.png","rarity":"legendary"}
+,{"path":"/objects/actionfigure/sb_repairbot/","name":"sb_repairbotaf","shortdescription":"Repair Bot Figurine","category":"actionfigure","icon":"repairbotAF.png","rarity":"legendary"}
+
+//DECORATIVE
+,{"path":"/objects/biome/geologicalsample/","name":"sb_leadsample","shortdescription":"Lead Sample","category":"decorative","icon":"sb_leadsample/icon.png","rarity":"legendary"}
+,{"path":"/objects/biome/geologicalsample/","name":"sb_sulphursample","shortdescription":"Sulphur Sample","category":"decorative","icon":"sb_sulphursample/icon.png","rarity":"legendary"}
+,{"path":"/objects/biome/geologicalsample/","name":"sb_moonstonesample","shortdescription":"Moonstone Sample","category":"decorative","icon":"sb_moonstonesample/icon.png","rarity":"legendary"}
+,{"path":"/objects/biome/geologicalsample/sb_","name":"sb_rubiumsample","shortdescription":"Rubium Sample","category":"decorative","icon":"rubiumsample/icon.png","rarity":"legendary"}
+,{"path":"/objects/biome/geologicalsample/sb_","name":"sb_ceruliumsample","shortdescription":"Cerulium Sample","category":"decorative","icon":"ceruliumsample/icon.png","rarity":"legendary"}
+
+,{"path":"/objects/apex/sb_pipes/","name":"sb_pipes1","shortdescription":"Split Pipe","category":"decorative","icon":"pipe1icon.png?flipx"}
+,{"path":"/objects/apex/sb_pipes/","name":"sb_pipes2","shortdescription":"Short Split Pipe","category":"decorative","icon":"pipe2icon.png?flipx"}
+,{"path":"/objects/apex/sb_pipes/","name":"sb_pipes3","shortdescription":"Short Pipe","category":"decorative","icon":"pipe3icon.png?flipx"}
+,{"path":"/objects/apex/sb_pipes/","name":"sb_pipes4","shortdescription":"Long Pipe","category":"decorative","icon":"pipe4icon.png?flipx"}
+,{"path":"/objects/apex/sb_pipes/","name":"sb_pipes5","shortdescription":"Complex Pipe","category":"decorative","icon":"pipe5icon.png?flipx"}
+
+,{"path":"/objects/wreck/sb_wreckchains/","name":"sb_wreckchains1","shortdescription":"Short Wrecked Chains","category":"decorative","icon":"icon.png"}
+,{"path":"/objects/wreck/sb_wreckchains/","name":"sb_wreckchains2","shortdescription":"Medium Wrecked Chains","category":"decorative","icon":"icon.png"}
+,{"path":"/objects/wreck/sb_wreckchains/","name":"sb_wreckchains3","shortdescription":"Long Wrecked Chains","category":"decorative","icon":"icon.png"}
+
+,{"path":"/objects/avian/sb_mask7/","name":"sb_mask7","shortdescription":"Decorative Troll Mask","category":"decorative","icon":"mask7icon.png","rarity":"rare"}
+//,{"path":"/objects/arttrophies/sb_paintingesther/","name":"sb_paintingesther","shortdescription":"Esther Painting","category":"decorative","icon":"icon.png","rarity":"rare"}
+
+,{"path":"/objects/biome/sb_heck/heckpillar1/heckpillar1","name":"sb_heckpillar1","shortdescription":"Tall Heck Pillar","category":"sb_objects2","icon":"icon.png"}
+,{"path":"/objects/biome/sb_heck/heckpillar2/heckpillar2","name":"sb_heckpillar2","shortdescription":"Short Heck Pillar","category":"sb_objects2","icon":"icon.png"}
+,{"path":"/objects/biome/sb_heck/hecksign/hecksign","name":"sb_hecksign","shortdescription":"Heck Sign","category":"sb_objects2","icon":"icon.png"}
+
+
+,{"icon":"/objects/apex/sb_apexstandingtv/icon.png","name":"sb_apexstandingtv","shortdescription":"Flickering Standing TV","category":"decorative"}
+,{"icon":"/objects/apex/sb_apexstreetlamp/icon.png","name":"sb_apexstreetlamp","shortdescription":"Standard Lamp Post","category":"decorative"}
+,{"icon":"/objects/apex/sb_apexstreetlamp/icon.png","name":"sb_apexsecuritylamp","shortdescription":"Security Lamp Post","category":"decorative"}
+
+//ORGANIZE THIS STUF???????
+,{"icon":"/objects/hylotl/sb_hylotlpost/icon.png","name":"sb_hylotlpost","shortdescription":"Traditional Wooden Post","category":"decorative"}
+,{"icon":"/objects/hylotl/sb_meatballs2/meatballs2.png?border=1;000","name":"sb_meatballs2","shortdescription":"Can of Meatballs","category":"decorative"}
+,{"icon":"/objects/hylotl/sb_penguinplush/icon.png","name":"sb_penguinplush","shortdescription":"Penguin Plush","category":"decorative"}
+,{"icon":"/objects/hylotl/sb_softdrinks/blueicon.png","name":"sb_softdrinkblue","shortdescription":"Soft Drink","category":"decorative"}
+,{"icon":"/objects/hylotl/sb_softdrinks/redicon.png","name":"sb_softdrinkred","shortdescription":"Soft Drink","category":"decorative"}
+,{"icon":"/objects/bugs/sb_moondancer/icon.png","name":"sb_moondancer","shortdescription":"Moondancer","category":"decorative"}
+
+//DOORS
+,{"path":"/objects/biome/sb_eyepatch/eyedoor","name":"sb_eyedoor","shortdescription":"All-Seeing Door","category":"door","icon":"icon.png"}
+
+
+//BREAKABLE
+,{"path":"/objects/biome/sb_heck/hecklight1/hecklight1","name":"sb_hecklight1","shortdescription":"Heck Light (1)","category":"breakable","icon":"icon.png"}
+,{"path":"/objects/biome/sb_heck/hecklight2/hecklight2","name":"sb_hecklight2","shortdescription":"Heck Light (2)","category":"breakable","icon":"icon.png"}
+
+,{"path":"/objects/biome/sb_heck/heckbush/heckbush","name":"sb_heckbush1","shortdescription":"Heck Bush (1)","category":"breakable","icon":"1.png"}
+,{"path":"/objects/biome/sb_heck/heckbush/heckbush","name":"sb_heckbush2","shortdescription":"Heck Bush (2)","category":"breakable","icon":"2.png"}
+,{"path":"/objects/biome/sb_heck/heckbush/heckbush","name":"sb_heckbush3","shortdescription":"Heck Bush (3)","category":"breakable","icon":"3.png"}
+,{"path":"/objects/biome/sb_heck/heckbush/heckbush","name":"sb_heckbush4","shortdescription":"Heck Bush (4)","category":"breakable","icon":"4.png"}
+,{"path":"/objects/biome/sb_heck/heckbush/heckbush","name":"sb_heckbush5","shortdescription":"Heck Bush (5)","category":"breakable","icon":"5.png"}
+,{"path":"/objects/biome/sb_heck/heckbush/heckbush","name":"sb_heckbush6","shortdescription":"Heck Bush (6)","category":"breakable","icon":"6.png"}
+,{"path":"/objects/biome/sb_heck/heckbush/heckbush","name":"sb_heckbush7","shortdescription":"Heck Bush (7)","category":"breakable","icon":"7.png"}
+,{"path":"/objects/biome/sb_heck/heckbush/heckbush","name":"sb_heckbush8","shortdescription":"Heck Bush (8)","category":"breakable","icon":"8.png"}
+,{"path":"/objects/biome/sb_heck/heckbush/heckbush","name":"sb_heckbush9","shortdescription":"Heck Bush (9)","category":"breakable","icon":"9.png"}
+,{"path":"/objects/biome/sb_heck/heckbush/heckbush","name":"sb_heckbush10","shortdescription":"Heck Bush (10)","category":"breakable","icon":"10.png"}
+
+,{"icon":"/objects/biome/sb_geometric/bushes/24x16/1.png","name":"sb_geometricbush1","shortdescription":"Geometric Ice Bush (1)","category":"breakable"}
+,{"icon":"/objects/biome/sb_geometric/bushes/24x16/2.png","name":"sb_geometricbush2","shortdescription":"Geometric Ice Bush (2)","category":"breakable"}
+,{"icon":"/objects/biome/sb_geometric/bushes/16x16/3.png","name":"sb_geometricbush3","shortdescription":"Geometric Ice Bush (3)","category":"breakable"}
+,{"icon":"/objects/biome/sb_geometric/bushes/16x16/4.png","name":"sb_geometricbush4","shortdescription":"Geometric Ice Bush (4)","category":"breakable"}
+
+
+//OTHER
+,{"icon":"/objects/wired/sb_dpstestdummy/icon.png","name":"sb_dpstestdummy","shortdescription":"DPS Test Dummy","category":"wire"}
+/*,{"path":"/objects/outpost/terramart/sb_terramart/","name":"terramart","shortdescription":"Terramart (Avian)","category":"other","icon":"avianleft.png?crop=32;20;45;32","parameters":{"inventoryIcon":"/objects/outpost/terramart/sb_terramart/avianleft.png?crop=32;20;45;32","sb_terramartRace":"avian"}}
+//,{"path":"/objects/outpost/terramart/sb_terramart/","name":"terramart","shortdescription":"Terramart (Glitch)","category":"other","icon":"glitchleft.png?crop=32;20;45;32","parameters":{"inventoryIcon":"/objects/outpost/terramart/sb_terramart/glitchleft.png?crop=32;20;45;32","sb_terramartRace":"glitch"}}
+,{"path":"/objects/outpost/terramart/sb_terramart/","name":"terramart","shortdescription":"Terramart (Human)","category":"other","icon":"humanleft.png?crop=32;20;45;32","parameters":{"inventoryIcon":"/objects/outpost/terramart/sb_terramart/humanleft.png?crop=32;20;45;32","sb_terramartRace":"human"}}
+,{"path":"/objects/outpost/terramart/terramartleft.png","name":"terramart","shortdescription":"Terramart (Floran)","category":"other","icon":"?crop=32;20;45;32","parameters":{"inventoryIcon":"/objects/outpost/terramart/terramartleft.png?crop=32;20;45;32","sb_terramartRace":"floran"}}
+,{"path":"/objects/outpost/terramart/sb_terramart/","name":"terramart","shortdescription":"Terramart (Apex)","category":"other","icon":"apexleft.png?crop=32;20;45;32","parameters":{"inventoryIcon":"/objects/outpost/terramart/sb_terramart/apexleft.png?crop=32;20;45;32","sb_terramartRace":"apex"}}
+,{"path":"/objects/outpost/terramart/sb_terramart/","name":"terramart","shortdescription":"Terramart (Hylotl)","category":"other","icon":"hylotlleft.png?crop=32;20;45;32","parameters":{"inventoryIcon":"/objects/outpost/terramart/sb_terramart/hylotlleft.png?crop=32;20;45;32","sb_terramartRace":"hylotl"}}*/
+
+,{"icon":"/interface/merchant/merchanticon.png","name":"sb_starpawn","shortdescription":"Star  Pawn","category":"other"}
+,{"icon":"/objects/events/sb_extractordrill/extractordrillrack.png","name":"sb_extractordrill","shortdescription":"Extractor Drill","category":"sb_disabled"}
+,{"icon":"/objects/human/jukebox/jukeboxicon.png","name":"sb_jukebox","shortdescription":"Jon Afro Jukebox","category":"decorative","rarity":"rare"}
+,{"icon":"/objects/generic/sb_woodenwallfan/woodenwallfanicon.png","name":"sb_woodenwallfan","shortdescription":"Wooden Wall Fan","category":"decorative"}
+,{"icon":"/objects/generic/sb_mechanicaltable/icon.png","name":"sb_mechanicaltable","shortdescription":"Mechanical Table","category":"decorative"}
+,{"icon":"/objects/generic/sb_explosivebarrel/explosivebarrelicon.png","name":"sb_explosivebarrel","shortdescription":"Explosive Barrel","category":"decorative"}
+,{"icon":"/items/active/starbound/radio.png","name":"sb_radio","shortdescription":"^orange;Stationary Radio","category":"other","rarity":"rare"}
+,{"icon":"/objects/apex/sb_apexcoolcounter/icon.png","name":"sb_apexcoolcounter","shortdescription":"Cool Counter","category":"sb_disabled"}
+,{"icon":"/objects/apex/apexcooldoor/sb_apexcooldooricon.png","name":"sb_apexcoolverticaldoor","shortdescription":"Security Hatch","category":"door"}
+
+//other
+,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_avian","shortdescription":"^orange;Avian Tech Binder","category":"other","icon":"0","rarity":"legendary"}
+,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_glitch","shortdescription":"^orange;Glitch Tech Binder","category":"other","icon":"1","rarity":"legendary"}
+,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_human","shortdescription":"^orange;Human Tech Binder","category":"other","icon":"2","rarity":"legendary"}
+,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_floran","shortdescription":"^orange;Floran Tech Binder","category":"other","icon":"3","rarity":"legendary"}
+,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation","shortdescription":"^orange;Apex Tech Binder","category":"other","icon":"4","rarity":"legendary"}
+,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_hylotl","shortdescription":"^orange;Hylotl Tech Binder","category":"other","icon":"5","rarity":"legendary"}
+,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_novakid","shortdescription":"^orange;Novakid Tech Binder","category":"other","icon":"6","rarity":"legendary"}
+
+,{"icon":"/objects/ship/sb_fuelhatch/avianicon.png","name":"sb_avianfuelhatch","shortdescription":"^orange;Avian Fuel Hatch","category":"techManagement","rarity":"uncommon"}
+,{"icon":"/objects/ship/sb_fuelhatch/glitchicon.png","name":"sb_glitchfuelhatch","shortdescription":"^orange;Glitch Fuel Hatch","category":"techManagement","rarity":"uncommon"}
+,{"icon":"/objects/ship/sb_fuelhatch/humanicon.png","name":"sb_humanfuelhatch","shortdescription":"^orange;Human Fuel Hatch","category":"techManagement","rarity":"uncommon"}
+,{"icon":"/objects/ship/sb_fuelhatch/floranicon.png","name":"sb_floranfuelhatch","shortdescription":"^orange;Floran Fuel Hatch","category":"techManagement","rarity":"uncommon"}
+,{"icon":"/objects/ship/sb_fuelhatch/apexicon.png","name":"sb_apexfuelhatch","shortdescription":"^orange;Apex Fuel Hatch","category":"techManagement","rarity":"uncommon"}
+,{"icon":"/objects/ship/sb_fuelhatch/hylotlicon.png","name":"sb_hylotlfuelhatch","shortdescription":"^orange;Hylotl Fuel Hatch","category":"techManagement","rarity":"uncommon"}
+,{"icon":"/objects/ship/sb_fuelhatch/novakidicon.png","name":"sb_novakidfuelhatch","shortdescription":"^orange;Novakid Fuel Hatch","category":"techManagement","rarity":"uncommon"}
+]

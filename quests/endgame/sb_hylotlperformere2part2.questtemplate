@@ -2,7 +2,7 @@
   "id": "sb_hylotlperformerE2part2",
   "prerequisites": ["glitch_mission2", "sb_hylotlperformerE2part1"],
   "title": "^green;Audience of One",
-  "text": "I should probably give the feedback back to the performer. Maybe I better spare his feelings...",
+  "text": "I should probably give the feedback back to the performer. Maybe I better spare their feelings...",
   "completionText": "They... liked my show? Fantastic! Wonderful! I'm sure I just need to get the word out some more and they'll be lining up to see me! Thanks for all your help! Here, take this.",
   "moneyRange": [1100, 1200],
   "rewards": [["accordion"]],

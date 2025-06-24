@@ -1,4 +1,4 @@
 [
-[{"op":"test","path":"/slotCount","value":16},
-{"op":"replace","path":"/slotCount","value":24}]
+[{"op":"test","path":"/slotCount","value":16},{"op":"replace","path":"/slotCount","value":24}],
+[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":80}]
 ]

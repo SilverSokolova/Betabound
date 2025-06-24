@@ -1,0 +1,59 @@
+[
+//tools with corresponding copy items
+{"icon":"/items/generated/blueprintinhand.png","name":"sb_blankblueprint","shortdescription":"Blank Blueprint","category":"tool"}
+,{"icon":"/items/augments/sb_misc/copybook.png","name":"sb_copybook","shortdescription":"Copybook","category":"tool"}
+,{"icon":"/items/generic/unlock/sb_scandata.png","name":"sb_blankscandata","shortdescription":"Blank Scanchip","category":"tool"}
+,{"icon":"/items/generic/unlock/sb_scandata.png","name":"sb_scandata","shortdescription":"Scanchip","category":"tool"}
+,{"icon":"/items/active/starbound/codex/icon.png","name":"sb_customcodex","shortdescription":"Blank Book","category":"tool"}
+
+//manipulators
+,{"icon":"/items/tools/inspectiontool/inspectionmode.png","name":"sb_inspect","shortdescription":"Inspection Mode","category":"tool","rarity":"uncommon"}
+,{"icon":"/items/tools/miningtools/sb_gravgunicon.png","name":"sb_beamaxe","shortdescription":"Matter Manipulator","category":"tool","rarity":"uncommon"}
+,{"icon":"/items/tools/sb_wiringgun2icon.png","name":"sb_wiretool","shortdescription":"Wiring Tool","category":"tool","rarity":"uncommon"}
+,{"icon":"/items/tools/sb_paintergunicon.png","name":"sb_painttool","shortdescription":"Paint Tool","category":"tool","rarity":"uncommon"}
+,{"icon":"/items/tools/sb_paintergunicon.png?replace;e7c474=97a5b0;c88b28=646d7e;8d581c=3b4054;513310=212430;6f2919=808080;e0975c=e8e8e8;a85636=b8b8b8","name":"sb_draintool","shortdescription":"Drain Tool","category":"tool","rarity":"uncommon"}
+,{"icon":"/items/tools/miningtools/sb_mastermanipulatoricon.png","name":"sb_beamaxe2","shortdescription":"Master Manipulator","category":"tool","rarity":"essential"}
+
+//grappling hooks
+,{"icon":"/items/active/grapplinghooks/sb_iceaxeicon.png","name":"sb_iceaxe","shortdescription":"Ice Axe","category":"tool","rarity":"rare"}
+,{"icon":"/items/active/grapplinghooks/sb_slimehandgrappleicon.png","name":"sb_slimehandgrapple","shortdescription":"Slime Hand Grapple","category":"tool"}
+,{"icon":"/items/active/grapplinghooks/sb_swingingvineicon.png","name":"sb_swingingvine","shortdescription":"Swinging Vine","category":"tool","rarity":"uncommon"}
+,{"icon":"/items/active/grapplinghooks/grapplinghook/grapplehookicon.png","name":"sb_hookshot","shortdescription":"Hookshot","category":"tool","rarity":"legendary"}
+
+
+//mining
+,{"icon":"/items/tools/sb_chainsaw.png","name":"sb_chainsaw","shortdescription":"Chainsaw","category":"tool","rarity":"uncommon"}
+,{"path":"/items/tools/sb_stonehoe","name":"sb_stonehoe","shortdescription":"Stone Hoe","category":"tool","icon":"icon.png"}
+,{"path":"/items/tools/sb_stoneaxe","name":"sb_stoneaxe","shortdescription":"Stone Axe","category":"tool","icon":"icon.png"}
+,{"path":"/items/tools/sb_ironaxe","name":"sb_ironaxe","shortdescription":"Iron Axe","category":"tool","icon":"icon.png"}
+,{"path":"/items/tools/miningtools/sb_stonepickaxe","name":"sb_stonepickaxe","shortdescription":"Stone Pickaxe","category":"tool","icon":"icon.png"}
+,{"icon":"/items/tools/miningtools/handdrillicon.png","name":"sb_handdrill","shortdescription":"Hand Drill","category":"tool","rarity":"uncommon"}
+
+//repairs
+,{"category":"tool","shortdescription":"Copper Whetstone","name":"sb_copperrepairtool","icon":"/items/augments/sb_repair/copper.png"}
+,{"rarity":"uncommon","category":"tool","shortdescription":"Titanium Whetstone","name":"sb_titaniumrepairtool","icon":"/items/augments/sb_repair/titanium.png"}
+,{"rarity":"rare","category":"tool","shortdescription":"Diamond Whetstone","name":"sb_diamondrepairtool","icon":"/items/augments/sb_repair/diamond.png"}
+,{"rarity":"rare","category":"tool","shortdescription":"Rubium Whetstone","name":"sb_rubiumrepairtool","icon":"/items/augments/sb_repair/rubium.png"}
+//,{"rarity":"uncommon","category":"tool","shortdescription":"Peacekeeper Battery","name":"sb_peacekeeperrepairtool","icon":"/items/augments/sb_repair/peacekeeper.png"}
+//other
+,{"icon":"/items/active/starbound/portable3dprinter/portable3dprinter.png","name":"sb_portable3dprinter","shortdescription":"^orange;Portable Pixel Printer","category":"tool","rarity":"legendary"}
+
+,{"icon":"/items/active/starbound/watch/watch.png","name":"sb_watch","shortdescription":"Watch","category":"tool","rarity":"legendary"}
+,{"icon":"/items/active/starbound/gps/gps.png","name":"sb_gps","shortdescription":"Global Positioning System","category":"tool","rarity":"rare"}
+,{"icon":"/items/active/starbound/healthmonitor/healthmonitor.png","name":"sb_healthmonitor","shortdescription":"Health Monitor","category":"tool","rarity":"rare"}
+,{"icon":"/items/active/starbound/buffs/spaceairtank.png","name":"sb_spaceairtank","shortdescription":"Survival System","category":"tool","rarity":"legendary"}
+,{"icon":"/items/active/starbound/hawkeyes/hawkeyes.png","name":"sb_hawkeyes","shortdescription":"All-Seeing Eye","category":"tool","rarity":"legendary"}
+,{"icon":"/items/active/starbound/buffs/light2energy.png","name":"sb_light2energy","shortdescription":"Photosynthesis Panel","category":"tool","rarity":"legendary"}
+//,{"icon":"/items/active/starbound/wateringcan/wateringcanicon.png","name":"sb_wateringcan","shortdescription":"Lightweight Watering Can","category":"tool","rarity":"uncommon"}
+,{"icon":"/items/active/starbound/ladderdeployer/ladderdeployer.png","name":"sb_ladderdeployer","shortdescription":"Ladder Deployer","category":"tool"}
+
+,{"icon":"/items/active/unsorted/arrester/longarm.png:front","name":"sb_arrester","shortdescription":"Long Arm","category":"tool","rarity":"legendary"}
+
+,{"icon":"/items/active/starbound/whistle/whistle.png","name":"sb_whistle","shortdescription":"Pet Whistle","category":"tool","rarity":"uncommon"}
+
+,{"path":"/items/augments/sb_misc/","name":"sb_preservatives","shortdescription":"Preservatives","category":"tool","icon":"preservatives.png"}
+,{"path":"/items/augments/sb_misc/","name":"sb_flashfreeze","shortdescription":"Flash Freeze Spray","category":"tool","icon":"flashfreeze.png","rarity":"uncommon"}
+
+//,{"path":"/items/generic/unlock/","name":"sb_firework_recipes","shortdescription":"Fireworks Blueprints","category":"sb_celestial","icon":"sb_blueprint.png","rarity":"rare"}
+,{"path":"/items/generic/unlock/","name":"sb_blueprint","shortdescription":"Blueprint","category":"sb_disabled","icon":"sb_blueprint.png","rarity":"uncommon"}
+]

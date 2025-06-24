@@ -1,0 +1,25 @@
+[
+//{"icon":"/items/throwables/sb_capturepod.png","name":"sb_capturepod","shortdescription":"Transport Pod","category":"throwableitem"}
+{"icon":"/items/active/unsorted/filledcapturepod/filledcapturepod.png","name":"sb_filledcapturepod","shortdescription":"Filled Transport Pod","category":"sb_misc"}
+//,{"icon":"/items/throwables/sb_crittercapturepod.png","name":"sb_crittercapturepod","shortdescription":"Critter Capture Pod","category":"throwableitem"}
+,{"icon":"/items/active/unsorted/filledcapturepod/filledcapturepod.png","name":"sb_filledcrittercapturepod","shortdescription":"Filled Critter Capture Pod","category":"sb_misc"}
+,{"icon":"/items/throwables/sb_healthbomb.png","name":"sb_healthbomb","shortdescription":"Burst of Energy","category":"throwableitem"}
+,{"icon":"/items/throwables/sb_runbomb.png","name":"sb_runbomb","shortdescription":"The Sprinter","category":"throwableitem"}
+,{"icon":"/items/throwables/sb_jumpbomb.png","name":"sb_jumpbomb","shortdescription":"The Bouncer","category":"throwableitem"}
+,{"icon":"/items/throwables/sb_ragebomb.png","name":"sb_ragebomb","shortdescription":"The Rager","category":"throwableitem"}
+,{"icon":"/items/throwables/sb_protectionbomb.png","name":"sb_protectionbomb","shortdescription":"The Defender","category":"throwableitem"}
+,{"icon":"/items/throwables/sb_corrosivegrenade.png","name":"sb_corrosivegrenade","shortdescription":"Corrosive Grenade","category":"throwableitem"}
+,{"icon":"/items/throwables/sb_cutterleaf.png","name":"sb_cutterleaf","shortdescription":"Cutter Leaf","category":"throwableitem"}
+,{"icon":"/items/throwables/sb_electrogrenade.png","name":"sb_electrogrenade","shortdescription":"Electro Grenade","category":"throwableitem"}
+,{"icon":"/items/throwables/sb_gasgrenade.png","name":"sb_gasgrenade","shortdescription":"Gas Grenade","category":"throwableitem"}
+,{"icon":"/items/throwables/sb_plasmagrenade.png","name":"sb_plasmagrenade","shortdescription":"Plasma Grenade","category":"throwableitem"}
+,{"icon":"/items/throwables/sb_handgrenade.png","name":"sb_handgrenade","shortdescription":"Hand Grenade","category":"throwableitem"}
+,{"icon":"/items/throwables/sb_smokegrenade.png","name":"sb_smokegrenade","shortdescription":"Heated Smoke Grenade","category":"throwableitem"}
+,{"icon":"/items/throwables/sb_groundfirebomb.png","name":"sb_groundfirebomb","shortdescription":"Spreading Fire Bomb","category":"throwableitem"}
+,{"icon":"/items/throwables/sb_throwingneedle.png","name":"sb_throwingneedle","shortdescription":"Throwing Needle","category":"throwableitem"}
+,{"icon":"/projectiles/guns/unsorted/shuriken/icon.png","name":"sb_shuriken","shortdescription":"Plasma Shuriken","category":"throwableitem","rarity":"rare"}
+,{"icon":"/items/throwables/sb_phoenixemblem.png","name":"sb_phoenixemblem","shortdescription":"Phoenix Emblem","category":"throwableitem","rarity":"rare"}
+,{"icon":"/items/throwables/sb_poisonballoonicon.png","name":"sb_poisonballoon","shortdescription":"Poison Balloon","category":"throwableitem"}
+,{"icon":"/projectiles/guns/unsorted/reed/icon.png","name":"sb_throwingreed","shortdescription":"Sharpened Reed","category":"throwableitem"}
+,{"icon":"/items/throwables/sb_toxicbarrel.png","name":"sb_toxicbarrel","shortdescription":"Toxic Barrel","category":"throwableitem","rarity":"uncommon"}
+]

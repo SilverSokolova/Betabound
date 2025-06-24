@@ -1,0 +1,15 @@
+{
+  "itemName": "sb_titaniumrepairtool",
+  "price": 40,
+  "tooltipKind": "sb_object",
+  "rarity": "uncommon",
+  "category": "tool",
+  "tooltipFields": {
+    "subtitle": "Repair Item"
+  },
+  "durabilityRegen": 240,
+  "inventoryIcon": "titanium.png",
+  "description": "Restores a moderate amount of durability to mining tools.\n^gray;Apply with right-click",
+  "shortdescription": "Titanium Whetstone",
+  "scripts": ["/scripts/augments/sb_repair.lua"]
+}

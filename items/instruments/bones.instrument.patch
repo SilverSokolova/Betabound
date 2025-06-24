@@ -1,4 +1,7 @@
 [
 [{"op":"test","path":"/price","value":3000},{"op":"replace","path":"/price","value":300}],
-[{"op":"test","path":"/shortdescription","value":"Floran Bone Xylophone"},{"op":"replace","path":"/shortdescription","value":"Bone Xylophone"}]
+[{"op":"test","path":"/shortdescription","value":"Floran Bone Xylophone"},{"op":"replace","path":"/shortdescription","value":"Bone Xylophone"}],
+
+[{"op":"test","path":"/description","value":"A bone xylophone. Produces a killer sound."},
+{"op":"replace","path":"/description","value":"Produces a killer sound."}]
 ]

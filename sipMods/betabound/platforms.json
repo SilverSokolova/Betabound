@@ -1,0 +1,9 @@
+[
+{"icon":"/items/skyrail/skyrailplatform.png","name":"skyrailplatform","shortdescription":"Skyrail","category":"platform","rarity":"uncommon"}
+,{"icon":"/items/skyrail/skyrailicon_asc.png","name":"skyrail_asc","shortdescription":"Skyrail Ascender","category":"platform","rarity":"uncommon"}
+,{"icon":"/items/skyrail/skyrailicon_desc.png","name":"skyrail_desc","shortdescription":"Skyrail Descender","category":"platform","rarity":"uncommon"}
+,{"icon":"/items/skyrail/skyrailicon_diodel.png","name":"skyrail_diodeL","shortdescription":"Skyrail Diode (Left)","category":"platform","rarity":"uncommon"}
+,{"icon":"/items/skyrail/skyrailicon_dioder.png","name":"skyrail_diodeR","shortdescription":"Skyrail Diode (Right)","category":"platform","rarity":"uncommon"}
+,{"icon":"/items/skyrail/skyrailicon_boost.png","name":"skyrailboost","shortdescription":"Skyrail Booster","category":"platform","rarity":"uncommon"}
+,{"icon":"/items/skyrail/skyrailicon_break.png","name":"skyrailbreak","shortdescription":"Skyrail Breaker","category":"platform","rarity":"uncommon"}
+]

@@ -23,7 +23,11 @@
     }
   },
   "configOverrides": {
-    "inventoryIcon": "<race><staff><n>.png?multiply=fffffffe",
+    "inventoryIcon": [{
+        "image": "<race><staff><n>.png",
+        "fullbright": true
+      }
+    ],
     "animationParts": {
       "staff": "",
       "staffFullbright": "<race><staff><n>.png"

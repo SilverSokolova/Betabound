@@ -1,0 +1,29 @@
+[
+{"icon":"/objects/generic/sb_foodbowl/sb_foodbowlicon.png","name":"sb_foodbowl","shortdescription":"Food Bowl","category":"storage"}
+,{"icon":"/objects/human/vendingmachine/vendingmachineicon.png","name":"sb_vendingmachine","shortdescription":"Unlocked Vending Machine","category":"storage"}
+,{"icon":"/objects/generic/sb_plate/plate.png?flipx?border=1;000","name":"sb_plate","shortdescription":"Plate","category":"storage"}
+,{"icon":"/objects/generic/sb_woodenlocker/woodenlockericon.png","name":"sb_woodenlocker","shortdescription":"Wooden Locker","category":"storage"}
+,{"icon":"/objects/biome/sb_eyepatch/eyechesticon.png","name":"sb_eyechest","shortdescription":"Eye Chest","category":"storage"}
+,{"icon":"/objects/biome/bioluminescence/sb_glowchest/glowchesticon.png","name":"sb_glowchest","shortdescription":"Glowfibre Chest","category":"storage"}
+,{"icon":"/objects/biome/sb_heck/heckchest/heckchesticon.png","name":"sb_heckchest","shortdescription":"Heck Chest","category":"storage"}
+,{"icon":"/objects/biome/sb_heck/heckaltar/heckaltaricon.png","name":"sb_heckaltar","shortdescription":"Heck Altar","category":"storage"}
+,{"icon":"/objects/biome/slime/slimechest/slimehide2icon.png","name":"sb_slimehide","shortdescription":"Slime Orb","category":"storage"}
+,{"icon":"/objects/ancient/essencechest/icon.png","name":"sb_ancientbigchest","shortdescription":"Big Ancient Chest","category":"storage","rarity":"legendary"}
+,{"icon":"/objects/generic/sb_metalcrate/icon.png","name":"sb_metalcrate","shortdescription":"Metal Crate","category":"storage"}
+,{"icon":"/objects/glitch/sb_tinywoodencrate/icon.png","name":"sb_tinywoodencrate","shortdescription":"Tiny Wooden Crate","category":"sb_disabled"}
+,{"icon":"/objects/wreck/sb_wreckcratewide/icon.png","name":"sb_wreckcratewide","shortdescription":"Wide Wrecked Crate","category":"storage"}
+,{"path":"/objects/biome/sb_eyepatch/eyechest","name":"sb_eyechest","shortdescription":"All-Seeing Chest","category":"storage","icon":"icon.png"}
+,{"path":"/objects/biome/sb_geometric/geometricchest","name":"sb_geometricchest","shortdescription":"Geometric Ice Chest","category":"storage","icon":"icon.png"}
+
+
+,{"icon":"/objects/tiered/sb_techchests/icons.png:0","name":"sb_tier1techchest","shortdescription":"Iron Tech Chest","category":"storage"}
+,{"icon":"/objects/tiered/sb_techchests/icons.png:1","name":"sb_tier2techchest","shortdescription":"Steel Tech Chest","category":"storage"}
+,{"icon":"/objects/tiered/sb_techchests/icons.png:2","name":"sb_tier3techchest","shortdescription":"Titanium Tech Chest","category":"storage","rarity":"uncommon"}
+,{"icon":"/objects/tiered/sb_techchests/icons.png:3","name":"sb_tier4techchest","shortdescription":"Durasteel Tech Chest","category":"storage","rarity":"uncommon"}
+,{"icon":"/objects/tiered/sb_techchests/icons.png:4","name":"sb_tier5atechchest","shortdescription":"Aegisalt Tech Chest","category":"storage","rarity":"rare"}
+,{"icon":"/objects/tiered/sb_techchests/icons.png:7","name":"sb_tier5mtechchest","shortdescription":"Violium Tech Chest","category":"storage","rarity":"rare"}
+,{"icon":"/objects/tiered/sb_techchests/icons.png:5","name":"sb_tier5stechchest","shortdescription":"Rubium Tech Chest","category":"storage","rarity":"rare"}
+,{"icon":"/objects/tiered/sb_techchests/icons.png:8","name":"sb_tier6atechchest","shortdescription":"Scintillium Tech Chest","category":"storage","rarity":"legendary"}
+,{"icon":"/objects/tiered/sb_techchests/icons.png:6","name":"sb_tier6mtechchest","shortdescription":"Cerulium Tech Chest","category":"storage","rarity":"legendary"}
+,{"icon":"/objects/tiered/sb_techchests/icons.png:9","name":"sb_tier6stechchest","shortdescription":"Impervium Tech Chest","category":"storage","rarity":"legendary"}
+]

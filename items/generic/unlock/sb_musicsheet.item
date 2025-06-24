@@ -4,6 +4,7 @@
   "tooltipKind": "sb_object",
   "rarity": "uncommon",
   "inventoryIcon": "sb_musicsheet.png",
+  //"inventoryIcon": [{"image":"sb_musicsheet.png","position":[0,0]},{"image":"/interface/scripted/collections/figurine_star.png","position":[4.5, -3.5]}],
   "category": "musicalInstrument",
   "tooltipFields": {
     "subtitle": "Other"

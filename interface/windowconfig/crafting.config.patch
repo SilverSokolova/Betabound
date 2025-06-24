@@ -1,3 +1,4 @@
+//If you're here to remove the weapon or armor tab, remember that some stations (ie the Heart Forge) use this config and has weapons and armor
 [
   //Fix pressedOffsets
   [{
@@ -248,7 +249,7 @@
       "op": "add",
       "path": "/paneLayout/categories/buttons/-",
       "value": {
-        "position": [9, 44],
+        "position": [19, 44],
         "baseImage": "/interface/sb_crafting/categories.png:blocks",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:blocks",
         "data": {
@@ -259,7 +260,7 @@
       "op": "add",
       "path": "/paneLayout/categories/buttons/-",
       "value": {
-        "position": [29, 44],
+        "position": [39, 44],
         "baseImage": "/interface/sb_crafting/categories.png:armor",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:armor",
         "data": {
@@ -270,7 +271,7 @@
       "op": "add",
       "path": "/paneLayout/categories/buttons/-",
       "value": {
-        "position": [49, 44],
+        "position": [59, 44],
         "baseImage": "/interface/sb_crafting/categories.png:weapons",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:weapons",
         "data": {
@@ -281,7 +282,7 @@
       "op": "add",
       "path": "/paneLayout/categories/buttons/-",
       "value": {
-        "position": [69, 44],
+        "position": [79, 44],
         "baseImage": "/interface/sb_crafting/categories.png:items",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:items",
         "data": {
@@ -292,7 +293,7 @@
       "op": "add",
       "path": "/paneLayout/categories/buttons/-",
       "value": {
-        "position": [89, 44],
+        "position": [99, 44],
         "baseImage": "/interface/sb_crafting/categories.png:smith",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:smith",
         "data": {
@@ -303,7 +304,7 @@
       "op": "add",
       "path": "/paneLayout/categories/buttons/-",
       "value": {
-        "position": [109, 44],
+        "position": [119, 44],
         "baseImage": "/interface/sb_crafting/categories.png:sit",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:sit",
         "data": {
@@ -314,22 +315,11 @@
       "op": "add",
       "path": "/paneLayout/categories/buttons/-",
       "value": {
-        "position": [129, 44],
+        "position": [139, 44],
         "baseImage": "/interface/sb_crafting/categories.png:other",
         "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:other",
         "data": {
           "filter": ["sb_other", "other"]
-        }
-      }
-    }, {
-      "op": "add",
-      "path": "/paneLayout/categories/buttons/-",
-      "value": {
-        "position": [149, 44],
-        "baseImage": "/interface/sb_crafting/categories.png:augments",
-        "baseImageChecked": "/interface/sb_crafting/categoriesselected.png:augments",
-        "data": {
-          "filter": ["sb_augment"]
         }
       }
     }

@@ -1,3 +1,6 @@
 [
-[{"op":"test","path":"/price","value":3000},{"op":"replace","path":"/price","value":300}]
+[{"op":"test","path":"/price","value":3000},{"op":"replace","path":"/price","value":300}],
+
+[{"op":"test","path":"/description","value":"A banjo. Get ready to duel!"},
+{"op":"replace","path":"/description","value":"Get ready to duel!"}]
 ]

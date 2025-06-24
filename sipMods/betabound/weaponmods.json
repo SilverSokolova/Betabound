@@ -1,0 +1,69 @@
+[
+{"noPanes":true,"icon":"/items/augments/sb_weaponupgrade/2.png","name":"sb_weaponupgrade2","shortdescription":"Novice Upgrade Kit","category":"sb_weaponmods","rarity":"legendary"}
+,{"noPanes":true,"icon":"/items/augments/sb_weaponupgrade/3.png","name":"sb_weaponupgrade3","shortdescription":"Advanced Upgrade Kit","category":"sb_weaponmods","rarity":"legendary"}
+,{"noPanes":true,"icon":"/items/augments/sb_weaponupgrade/4.png","name":"sb_weaponupgrade4","shortdescription":"Proficient Upgrade Kit","category":"sb_weaponmods","rarity":"legendary"}
+,{"noPanes":true,"icon":"/items/augments/sb_weaponupgrade/5.png","name":"sb_weaponupgrade5","shortdescription":"Expert Upgrade Kit","category":"sb_weaponmods","rarity":"legendary"}
+,{"noPanes":true,"icon":"/items/augments/sb_weaponupgrade/6.png","name":"sb_weaponupgrade6","shortdescription":"Masterful Upgrade Kit","category":"sb_weaponmods","rarity":"legendary"}
+
+,{"icon":"/items/augments/sb_elementmod/electric.png","name":"sb_elementmod","shortdescription":"^yellow;Electric","category":"sb_weaponmods","rarity":"uncommon","parameters":{"element":"electric"}}
+,{"icon":"/items/augments/sb_elementmod/fire.png","name":"sb_elementmod","shortdescription":"^yellow;Fire","category":"sb_weaponmods","rarity":"uncommon","parameters":{"element":"fire"}}
+,{"icon":"/items/augments/sb_elementmod/ice.png","name":"sb_elementmod","shortdescription":"^yellow;Ice","category":"sb_weaponmods","rarity":"uncommon","parameters":{"element":"ice"}}
+,{"icon":"/items/augments/sb_elementmod/poison.png","name":"sb_elementmod","shortdescription":"^yellow;Poison","category":"sb_weaponmods","rarity":"uncommon","parameters":{"element":"poison"}}
+
+,{"icon":"/items/augments/sb_abilitymod/sb_random.png","name":"sb_randomabilitymod","shortdescription":"Randomize","category":"sb_weaponmods","rarity":"common"}
+
+//Alphabetically sorted our sb_sipAbilityMods command, so it's consistent between updates
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/pullzone.png","shortdescription":"Attraction Zone","rarity":"common","parameters":{"ability":"pullzone"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/barrier.png","shortdescription":"^yellow;Barrier","rarity":"uncommon","parameters":{"ability":"barrier"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/bladecharge.png","shortdescription":"Blade Charge","rarity":"common","parameters":{"ability":"bladecharge"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/spearspin.png","shortdescription":"Blade Whirl","rarity":"common","parameters":{"ability":"spearspin"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/blinkexplosion.png","shortdescription":"^yellow;Blink Explosion","rarity":"uncommon","parameters":{"ability":"blinkexplosion"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/blinkslash.png","shortdescription":"^yellow;Blink Slash","rarity":"uncommon","parameters":{"ability":"blinkslash"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/bouncingshot.png","shortdescription":"Bouncing Shot","rarity":"common","parameters":{"ability":"bouncingshot"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/burstshot.png","shortdescription":"Burst Shot","rarity":"common","parameters":{"ability":"burstshot"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/elementalaura.png","shortdescription":"^yellow;Element Aura","rarity":"uncommon","parameters":{"ability":"elementalaura"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/elementbouncer.png","shortdescription":"Element Bouncer","rarity":"common","parameters":{"ability":"elementbouncer"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/lance.png","shortdescription":"^yellow;Element Lance","rarity":"uncommon","parameters":{"ability":"lance"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/elementorb.png","shortdescription":"Element Orb","rarity":"common","parameters":{"ability":"elementorb"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/elementalpillar.png","shortdescription":"^yellow;Element Pillar","rarity":"uncommon","parameters":{"ability":"elementalpillar"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/elementportal.png","shortdescription":"Element Portal","rarity":"common","parameters":{"ability":"elementportal"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/interface/cockpit/weather/rain.png","shortdescription":"Element Rain","rarity":"common","parameters":{"ability":"elementrain"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/elementswarm.png","shortdescription":"Element Swarm","rarity":"common","parameters":{"ability":"elementswarm"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/shockwave.png","shortdescription":"^yellow;Element Wave","rarity":"uncommon","parameters":{"ability":"shockwave"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/elementalspin.png","shortdescription":"^yellow;Element Whirl","rarity":"uncommon","parameters":{"ability":"elementalspin"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/deathbomb.png","shortdescription":"^yellow;Enemy Bomb","rarity":"uncommon","parameters":{"ability":"deathbomb"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/sb_physicallance.png","shortdescription":"Energy Lance","rarity":"common","parameters":{"ability":"sb_physicallance"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/energyzone.png","shortdescription":"Energy Zone","rarity":"common","parameters":{"ability":"energyzone"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/explosiveburst.png","shortdescription":"^yellow;Explosive Burst","rarity":"uncommon","parameters":{"ability":"explosiveburst"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/explosiveshot.png","shortdescription":"Explosive Shot","rarity":"common","parameters":{"ability":"explosiveshot"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/flashlight.png","shortdescription":"Flashlight","rarity":"common","parameters":{"ability":"flashlight"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/flurry.png","shortdescription":"Flurry","rarity":"common","parameters":{"ability":"flurry"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/travelingslash.png","shortdescription":"^yellow;Flying Slash","rarity":"uncommon","parameters":{"ability":"travelingslash"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/forcecage.png","shortdescription":"Force Cage","rarity":"common","parameters":{"ability":"forcecage"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/giantsword.png","shortdescription":"^yellow;Giant Sword","rarity":"uncommon","parameters":{"ability":"giantsword"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/grenadelauncher.png","shortdescription":"^yellow;Grenade Launcher","rarity":"uncommon","parameters":{"ability":"grenadelauncher"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/groundslam.png","shortdescription":"Ground Slam","rarity":"common","parameters":{"ability":"groundslam"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/guidedrocket.png","shortdescription":"^yellow;Guided Rocket","rarity":"uncommon","parameters":{"ability":"guidedrocket"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/healingzone.png","shortdescription":"Healing Zone","rarity":"common","parameters":{"ability":"healingzone"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/active/weapons/ranged/abilities/markedshot/targetoverlay.png","shortdescription":"Homing Rocket","rarity":"common","parameters":{"ability":"homingrocket"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/lowgravzone.png","shortdescription":"Low Gravity Zone","rarity":"common","parameters":{"ability":"lowgravzone"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/active/weapons/ranged/abilities/markedshot/targetoverlay.png","shortdescription":"^yellow;Marked Shot","rarity":"uncommon","parameters":{"ability":"markedshot"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/parry.png","shortdescription":"Parry","rarity":"common","parameters":{"ability":"parry"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/piercingshot.png","shortdescription":"Piercing Shot","rarity":"common","parameters":{"ability":"piercingshot"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/downstab.png","shortdescription":"Pogo Sword","rarity":"common","parameters":{"ability":"downstab"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/pushzone.png","shortdescription":"Repulsion Zone","rarity":"common","parameters":{"ability":"pushzone"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/risingslash.png","shortdescription":"Rising Slash","rarity":"common","parameters":{"ability":"risingslash"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/rocketburst.png","shortdescription":"Rocket Burst","rarity":"common","parameters":{"ability":"rocketburst"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/rocketspear.png","shortdescription":"^yellow;Rocket Spear","rarity":"uncommon","parameters":{"ability":"rocketspear"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/physicalshockwave.png","shortdescription":"Shockwave","rarity":"common","parameters":{"ability":"physicalshockwave"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/shrapnelbomb.png","shortdescription":"Shrapnel Bomb","rarity":"common","parameters":{"ability":"shrapnelbomb"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/slowzone.png","shortdescription":"Slow Zone","rarity":"common","parameters":{"ability":"slowzone"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/spearcharge.png","shortdescription":"Spear Charge","rarity":"common","parameters":{"ability":"spearcharge"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/spinslash.png","shortdescription":"Spin Slash","rarity":"common","parameters":{"ability":"spinslash"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/sb_spring.png","shortdescription":"Spray n' Pray","rarity":"common","parameters":{"ability":"spray"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/stickyshot.png","shortdescription":"Sticky Bombs","rarity":"common","parameters":{"ability":"stickyshot"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/spinslash.png","shortdescription":"Super Spin Slash","rarity":"common","parameters":{"ability":"superspinslash"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/traildash.png","shortdescription":"^yellow;Trail Dash","rarity":"uncommon","parameters":{"ability":"traildash"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/uppercut.png","shortdescription":"Uppercut","rarity":"common","parameters":{"ability":"uppercut"}}
+,{"name":"sb_abilitymod","category":"sb_weaponmods","icon":"/items/augments/sb_abilitymod/sb_vacuum.png","shortdescription":"Vacuum","rarity":"common","parameters":{"ability":"sb_vacuum"}}
+]

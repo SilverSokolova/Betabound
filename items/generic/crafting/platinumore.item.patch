@@ -76,10 +76,6 @@
     }, {
       "op": "add",
       "path": "/learnBlueprintsOnPickup/-",
-      "value": "sb_platinum_repair"
-    }, {
-      "op": "add",
-      "path": "/learnBlueprintsOnPickup/-",
       "value": "platinumbar"
     }
   ],

@@ -15,7 +15,7 @@
     "primary": "^blue;primary",
     "alt": "^red;special"
   },
-  "elementalNameDescription": "Element",
+  "elementalNameDescription": "Element", //This replaces <elementalName> in ability names. ie "Fire Rain" becomes "Element Rain"
   "shortdescription": "",
   "scripts": ["/scripts/augments/sb_ability.lua"],
   "builder": "/items/buildscripts/starbound/buildabilitymod.lua"

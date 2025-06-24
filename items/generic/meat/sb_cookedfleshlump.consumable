@@ -1,0 +1,17 @@
+{
+  "itemName": "sb_cookedfleshlump",
+  "rarity": "Common",
+  "price": 25,
+  "foodValue": 15,
+  "tooltipKind": "sb_object4",
+  "category": "food",
+  "inventoryIcon": "sb_cookedfleshlump.png",
+  "description": "It's a cooked hunk of flesh of questionable origin. A little overcooked.",
+  "shortdescription": "Cooked Flesh Lump",
+  "effects": [["sb_foodheal35"]],
+  "handPosition": [0, -4],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
+  "itemAgingScripts": ["/scripts/items/rotting.lua"],
+  "rottingMultiplier": 0.5,
+  "rottedItem": "sb_meatchunks"
+}

@@ -1,0 +1,74 @@
+//NOTE: Each pool should contain at least one techModules value, as the sb_tech item pulls from this if no tech is specified.
+//Personally I liked not having a treasurepool for this, but this is probably the best way to implement tiers for them.
+//But hey, at least it's not one unique item file for each tech.
+//"sb_humancar", "sb_hoverbike", "sb_glitchmech", "sb_apexmech", "sb_humanmech", "sb_hylotlmech"
+{
+  "sb_tech": [
+    [0, {
+      "pool": [
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_dash"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_doublejump"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_bounce"}]}
+      ]
+    }],
+    [1.9, {
+      "pool": [
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_groundsmash"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_rocketjump"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_boat"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_miningdrill"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_health"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_energy"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_protection"}]}
+      ]
+    }],
+    [2.9, {
+      "pool": [
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_morphball"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_lightrig"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_hover"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_speed"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_jump"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_absorption"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_spiked"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_magnet"}]},
+
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"thea-hoverjump"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"thea-acrobaticjump"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"thea-acrobaticdodge"}]}
+      ]
+    }],
+    [3.9, {
+      "pool": [
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_randblink"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_rocketboots"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_gravitybubble"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_glow"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_reducefalldamage"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_energyregen"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_humanjeep"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_extradrops"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_berserk"}]}
+      ]
+    }],
+    [4.9, {
+      "pool": [
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_particlethrust"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_regeneration"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_gravity"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_vamp"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_explosiveprotection"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_grit"}]}
+      ]
+    }],
+    [5.9, {
+      "pool": [
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_butterflyboost"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_bubbleboost"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_ftlboost"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_balldash"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_enhancedhealing"}]}
+      ]
+    }]
+  ]
+}

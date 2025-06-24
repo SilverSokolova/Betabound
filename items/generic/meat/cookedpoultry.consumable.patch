@@ -4,7 +4,7 @@
 [{"op":"test","path":"/description","value":"A perfeclty roasted bird. What a beautiful sight to behold."},
 {"op":"replace","path":"/description","value":"A perfectly roasted bird. What a beautiful sight to behold."}],
 
-[{"op":"test","path":"/rottedItem","inverse":true},{"op":"add","path":"/rottedItem","value":"sb_cookedfleshlump"}],
+[{"op":"test","path":"/rottedItem","inverse":true},{"op":"add","path":"/rottedItem","value":"sb_meatchunks"}],
 
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
 [{"op":"add","path":"/effects/0/-","value":"sb_foodheal50"}]

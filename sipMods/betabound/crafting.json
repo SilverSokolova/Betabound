@@ -1,0 +1,37 @@
+[
+{"icon":"/objects/crafting/sb_woodencookingtable/woodencookingtableicon.png","name":"sb_woodencookingtable","shortdescription":"^orange;Wooden Cooking Table","category":"crafting","rarity":"uncommon"}
+,{"icon":"/objects/crafting/tier2cookingtable/tier2cookingtableicon.png","name":"sb_cookingstation","shortdescription":"^orange;Cooking Station","category":"crafting","rarity":"legendary"}
+//,{"icon":"/objects/crafting/sb_coffeemachine/icon.png","name":"sb_coffeemachine","shortdescription":"^orange;Coffee Machine","category":"crafting","rarity":"uncommon"}
+//,{"icon":"/objects/crafting/sb_nanostove/nanostoveicon.png","name":"sb_nanostove","shortdescription":"^orange;Nanostove","category":"crafting","rarity":"uncommon"}
+,{"icon":"/objects/avian/sb_tribaloven2/icon.png","name":"sb_tribaloven2","shortdescription":"^orange;Stout Oven","category":"crafting","rarity":"uncommon"}
+
+,{"icon":"/objects/crafting/sb_codex/codexicon.png","name":"sb_codex","shortdescription":"^orange;Lectern","category":"crafting","rarity":"uncommon"}
+,{"icon":"/objects/crafting/sb_old/sb_capturestation/capturestationicon.png","name":"sb_capturestation","shortdescription":"(kicks 2 title) ^orange;Monster Lab","category":"sb_disabled","rarity":"legendary"}
+
+,{"icon":"/items/active/starbound/portable3dprinter/portable3dprinter.png","name":"sb_portable3dprinterobject","shortdescription":"(Object) ^orange;Portable Pixel Printer","category":"crafting","rarity":"legendary"}
+//,{"path":"/objects/crafting/sb_metalworkstation/metalworkstation","name":"sb_cheat","shortdescription":"^orange;very old quest testing object","category":"sb_disabled","icon":"icon.png?hueshift=40?brightness=-20?flipxy"}
+
+,{"icon":"/objects/crafting/upgradeablecraftingobjects/sb_craftingtool/icon1.png","name":"sb_craftingtool","shortdescription":"^orange;Wooden Tool Table","category":"sb_crafting","rarity":"uncommon"}
+,{"icon":"/objects/crafting/sb_researchstation/researchstationicon.png","name":"sb_researchstation","shortdescription":"^orange;Research Station","category":"crafting","rarity":"legendary"}
+,{"icon":"/objects/crafting/sb_techconsole/techconsoleicon.png","name":"sb_techconsole","shortdescription":"^orange;Tech Development Console","category":"crafting","rarity":"legendary"}
+,{"path":"/objects/crafting/sb_old/sb_skyrail/skyrail","name":"sb_skyrailtable","shortdescription":"^orange;Skyrail Table","category":"crafting","icon":"tableicon.png","rarity":"legendary"}
+,{"path":"/objects/crafting/sb_old/sb_skyrail/skyrail","name":"sb_skyrailrailtable","shortdescription":"^orange;Skyrail Rail Crafting Table","category":"crafting","icon":"railtabletableicon.png","rarity":"legendary"}
+,{"icon":"/objects/crafting/sb_wrappingtable/icon.png","name":"sb_wrappingtable","shortdescription":"^orange;Wrapping Table","category":"crafting","rarity":"uncommon"}
+
+
+//,{"icon":"/objects/crafting/sb_woodencraftingtable/woodencraftingtableicon.png","name":"sb_woodencraftingtable","shortdescription":"^orange;Wooden Crafting Table","category":"sb_disabled","rarity":"uncommon"}
+//,{"icon":"/objects/crafting/sb_ironcraftingtable/ironcraftingtableicon.png","name":"sb_ironcraftingtable","shortdescription":"^orange;Iron Crafting Table","category":"sb_disabled","rarity":"rare"}
+//,{"icon":"/objects/crafting/sb_roboticcraftingtable/roboticcraftingtableicon.png","name":"sb_roboticcraftingtable","shortdescription":"^orange;Robotic Crafting Table","category":"sb_disabled","rarity":"legendary"}
+
+,{"icon":"/objects/crafting/sb_old/sb_stonefurnace/stonefurnaceicon.png","name":"sb_stonefurnace","shortdescription":"^orange;Stout Furnace","category":"sb_disabled","rarity":"uncommon"}
+//,{"icon":"/objects/crafting/sb_old/sb_alloyfurnace/alloyfurnaceicon.png","name":"sb_alloyfurnace","shortdescription":"^orange;Iron Furnace","category":"sb_disabled","rarity":"rare"}
+,{"icon":"/objects/crafting/sb_old/sb_scififurnace/scififurnaceicon.png","name":"sb_scififurnace","shortdescription":"^orange;Magnetic Crucible","category":"sb_disabled","rarity":"legendary"}
+
+,{"icon":"/objects/crafting/sb_old/sb_ironanvil/ironanvilicon.png","name":"sb_ironanvil","shortdescription":"^orange;Iron Anvil","category":"sb_disabled","rarity":"uncommon"}
+,{"icon":"/objects/crafting/sb_metalworkstation/metalworkstationicon.png","name":"sb_metalworkstation","shortdescription":"^orange;Metalwork Station","category":"crafting","rarity":"rare"}
+
+,{"icon":"/objects/crafting/sb_old/sb_scifianvil/scifianvilicon.png","name":"sb_scifianvil","shortdescription":"^orange;Replicator","category":"sb_disabled","rarity":"legendary"}
+,{"icon":"/objects/crafting/sb_old/sb_acceleratortable/acceleratortableicon.png","name":"sb_acceleratortable","shortdescription":"^orange;Accelerator's Table","category":"sb_disabled","rarity":"legendary"}
+,{"icon":"/objects/crafting/sb_old/sb_manipulatortable/manipulatortableicon.png","name":"sb_manipulatortable","shortdescription":"^orange;Manipulator's Table","category":"sb_disabled","rarity":"legendary"}
+,{"icon":"/objects/crafting/sb_old/sb_separatortable/separatortableicon.png","name":"sb_separatortable","shortdescription":"^orange;Separator's Table","category":"sb_disabled","rarity":"legendary"}
+]

@@ -85,6 +85,7 @@
   //            Volcanic
   // ================================
 ,[{"op":"add","path":"/volcanicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"firelordback"}}]
+,[{"op":"add","path":"/volcanicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_firecrownhead"}}]
 ,[{"op":"add","path":"/volcanicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_heatray"}}]
 ,[{"op":"add","path":"/volcanicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_heatray-recipe"}}]
 

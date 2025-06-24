@@ -1,3 +1,4 @@
+--WHY DOES THIS KEEP BREAKING? AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 function init()
   storage.radio = storage.radio or config.getParameter("radioData")
   storage.knownPlayers = {}
@@ -20,10 +21,10 @@ function init()
     updateRadio(data)
   end)
 
+  processWireInteraction()
   if storage.radio.active == false then
     disableRadio()
   end
-  processWireInteraction()
 end
 
 function onInteraction()
@@ -33,7 +34,6 @@ end
 
 function enableRadio()
   script.setUpdateDelta(60)
-  animator.setParticleEmitterActive("music", storage.radio.song ~= "")
   object.setInteractive(true)
   storage.radio.active = true
 end
@@ -49,6 +49,7 @@ function processWireInteraction()
       object.setInteractive(false)
     end
   end
+  animator.setParticleEmitterActive("music", storage.radio.active)
 end
 
 function updateRadio(data)
@@ -65,6 +66,7 @@ function updateRadio(data)
       disableRadio()
     end
   end
+  animator.setParticleEmitterActive("music", storage.radio.active)
 --mode.playing = (not mode.playing and string.match(storage.radio[1][1], "/([^/]+)%.%w+$")) or storage.radio[1][1]
 end
 
@@ -96,6 +98,7 @@ end
 
 function disableRadio()
   storage.radio.active = false
+  stopMusic()
 end
 
 function stopMusic()

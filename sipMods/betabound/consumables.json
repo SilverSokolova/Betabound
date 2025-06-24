@@ -1,0 +1,114 @@
+[
+{"path":"/items/generic/food/sb_entrees/","name":"sb_alienburger","shortdescription":"Alien Burger","category":"food","icon":"alienburger.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_entrees/","name":"sb_automatostew","shortdescription":"Meaty Metal Stew","category":"food","icon":"automatostew.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_entrees/","name":"sb_burrito","shortdescription":"Burrito","category":"food","icon":"burrito.png","rarity":"rare"}
+,{"path":"/items/generic/food/sb_entrees/","name":"sb_chilistew","shortdescription":"Chili Stew","category":"food","icon":"chilistew.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_entrees/","name":"sb_hamsandwich","shortdescription":"Ham Sandwich","category":"food","icon":"hamsandwich.png","rarity":"rare"}
+,{"path":"/items/generic/food/sb_entrees/","name":"sb_meatandmarrow","shortdescription":"Meat n' Marrow","category":"food","icon":"meatandmarrow.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_entrees/","name":"sb_meatwich","shortdescription":"Meatwich","category":"food","icon":"meatwich.png","rarity":"rare"}
+,{"path":"/items/generic/food/sb_entrees/","name":"sb_pbj","shortdescription":"PB&J Sandwich","category":"food","icon":"pbj.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_entrees/","name":"sb_roastpoultry","shortdescription":"Roasted Poultry","category":"food","icon":"roastpoultry.png","rarity":"rare"}
+,{"path":"/items/generic/food/sb_entrees/","name":"sb_thespecial","shortdescription":"The Special","category":"food","icon":"thespecial.png","rarity":"legendary"}
+//,{"path":"/items/generic/food/sb_entrees/","name":"sb_soup","shortdescription":"Spicy Tomato Soup","category":"food","icon":"soup.png"}
+,{"path":"/items/generic/food/sb_entrees/","name":"sb_vegetablesoup","shortdescription":"Veggie Soup","category":"food","icon":"vegetablesoup.png","rarity":"uncommon"}
+
+,{"path":"/items/generic/food/sb_sides/","name":"sb_bananabread","shortdescription":"Banana Bread","category":"food","icon":"bananabread.png"}
+,{"path":"/items/generic/food/sb_sides/","name":"sb_boneboomarrow","shortdescription":"Boneboo Marrow","category":"food","icon":"boneboomarrow.png"}
+,{"path":"/items/generic/food/sb_sides/","name":"sb_cornontheblob","shortdescription":"Corn on the Blob","category":"food","icon":"cornontheblob.png"}
+,{"path":"/items/generic/food/sb_sides/","name":"sb_corntent","shortdescription":"Corntent","category":"food","icon":"corntent.png","rarity":"rare"}
+,{"path":"/items/generic/food/sb_sides/","name":"sb_crystalnachos","shortdescription":"Crystal Nachos","category":"food","icon":"crystalnachos.png","rarity":"rare"}
+,{"path":"/items/generic/food/sb_sides/","name":"sb_eggfriedrice","shortdescription":"Eggshoot Fried Rice","category":"food","icon":"eggfriedrice.png"}
+,{"path":"/items/generic/meat/","name":"sb_offal","shortdescription":"Offal","category":"food","icon":"sb_offal.png","rarity":"rare"}
+,{"path":"/items/generic/food/","name":"sb_revoltingstew","shortdescription":"Revolting Stew","category":"food","icon":"sb_revoltingstew.png"}
+,{"path":"/items/generic/food/","name":"sb_rottenapple","shortdescription":"Rotten Apple","category":"food","icon":"sb_rottenapple.png"}
+,{"path":"/items/generic/food/sb_sides/","name":"sb_roastbanana","shortdescription":"Roasted Banana","category":"food","icon":"roastbanana.png"}
+,{"path":"/items/generic/food/sb_sides/","name":"sb_roastcacti","shortdescription":"Roasted Cactus","category":"food","icon":"roastcacti.png"}
+,{"path":"/items/generic/food/sb_sides/","name":"sb_toast","shortdescription":"Buttered Toast","category":"food","icon":"toast.png"}
+,{"category":"food","name":"sb_capresesalad","path":"/items/generic/food/sb_sides/","shortdescription":"Caprese Salad","icon":"capresesalad.png"}
+
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_applepie","shortdescription":"Apple Pie","category":"food","icon":"applepie.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_blackcurrentcrumble","shortdescription":"Black Current Crumble","category":"food","icon":"blackcurrentcrumble.png","rarity":"rare"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_brineapple","shortdescription":"Poison-Down Cake","category":"food","icon":"brineapple.png","rarity":"rare"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_burningeyeballs","shortdescription":"Melting Eyeballs","category":"food","icon":"burningeyeballs.png","rarity":"rare"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_cake","shortdescription":"Shortcake","category":"food","icon":"cake.png"}
+,{"path":"/items/generic/shop/","name":"sb_candy","shortdescription":"Candy","category":"food","icon":"sb_candy.png"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_cheesecake","shortdescription":"Cheesecake","category":"food","icon":"cheesecake.png","rarity":"legendary"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_copperkeypie","shortdescription":"Copper Key Pie","category":"food","icon":"copperkeypie.png","rarity":"rare"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_orangepie","shortdescription":"Orange Pie","category":"food","icon":"orangepie.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_orangetart","shortdescription":"Orange Tart","category":"food","icon":"orangetart.png"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_jelly","shortdescription":"Jelly","category":"food","icon":"jelly.png","rarity":"rare"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_crystalpie","shortdescription":"Crystal Pie","category":"food","icon":"crystalpie.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_crystaltart","shortdescription":"Crystal Tart","category":"food","icon":"crystaltart.png"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_pussplumpie","shortdescription":"Pussplum Pie","category":"food","icon":"pussplumpie.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_sweetmeat","shortdescription":"Toffee Bacon","category":"food","icon":"sweetmeat.png","rarity":"rare"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_sweettime","shortdescription":"Sweet Time","category":"food","icon":"sweettime.png"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_toffee","shortdescription":"Toffee","category":"food","icon":"toffee.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_toffeeapple","shortdescription":"Toffee Apple","category":"food","icon":"toffeeapple.png","rarity":"uncomon"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_crowncake","shortdescription":"Upside-Crown Cake","category":"food","icon":"crowncake.png","rarity":"rare"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_icecream","shortdescription":"Vanilla Ice Cream","category":"food","icon":"icecream.png"}
+,{"path":"/items/generic/food/sb_desserts/","name":"sb_poachedavesmingo","shortdescription":"Poached Avesmingo","category":"food","icon":"poachedavesmingo.png"}
+
+
+,{"icon":"/objects/hylotl/smashabledrink1/smashabledrink1icon.png","name":"sb_cordialglass","shortdescription":"Avesmingo Cordial Glass","category":"food","rarity":"uncommon"}
+,{"icon":"/objects/hylotl/smashabledrink3/smashabledrink3icon.png","name":"sb_cordialbottle","shortdescription":"Avesmingo Cordial Bottle","category":"food","rarity":"rare"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_batteryacid","shortdescription":"Battery Acid","category":"food","icon":"batteryacid.png"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_boltedmilk","shortdescription":"Bolted Milk","category":"food","icon":"boltedmilk.png"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_dirtea","shortdescription":"Dirtea","category":"food","icon":"dirtea.png"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_meatjuice","shortdescription":"Meatjuice","category":"food","icon":"meatjuice.png"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_meatwine","shortdescription":"Meatwine","category":"food","icon":"meatwine.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_oculemonade","shortdescription":"Oculemonade Glasss","category":"food","icon":"oculemonade.png"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_weyene","shortdescription":"Weyene","category":"food","icon":"weyene.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_orangejuice","shortdescription":"Orange Juice","category":"food","icon":"orangejuice.png"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_orangenergyglass","shortdescription":"Orangenergy Glass","category":"food","icon":"orangenergyglass.png"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_orangenergycan","shortdescription":"Orangenergy Can","category":"food","icon":"orangenergycan.png"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_ricewine","shortdescription":"Rice Wine","category":"food","icon":"ricewine.png"}
+,{"icon":"/objects/hylotl/smashabledrink2/smashabledrink2icon.png","name":"sb_rootpopbottle","shortdescription":"Root Pop Bottle","category":"food","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_rootpopflask","shortdescription":"Root Pop Flask","category":"food","icon":"rootpopflask.png"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_liquifiedcrystal","shortdescription":"Liquified Crystal","category":"food","icon":"liquifiedcrystal.png"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_wartjuice","shortdescription":"Wartjuice","category":"food","icon":"wartjuice.png"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_wartwine","shortdescription":"Wartwine","category":"food","icon":"wartwine.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_whiskeybottle","shortdescription":"Whiskey Bottle","category":"food","icon":"whiskeybottle.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_whiskeyflask","shortdescription":"Whiskey Flask","category":"food","icon":"whiskeyflask.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_wineglass","shortdescription":"Wine","category":"food","icon":"wineglass.png","rarity":"rare"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_winebottle","shortdescription":"Wine Bottle","category":"food","icon":"winebottle.png","rarity":"rare"}
+,{"path":"/items/generic/food/sb_drinks/","name":"sb_pickledpoisoncreep","shortdescription":"Pickled Poisoncreep","category":"food","icon":"pickledpoisoncreep.png","rarity":"uncommon"}
+,{"category":"food","name":"sb_mulledfruitdrink","rarity":"rare","shortdescription":"Mulled Fruit Drink","icon":"/objects/apex/cider/cidericon.png"}
+
+,{"path":"/items/generic/food/sb_snacks/","name":"sb_chocolatecoffeebeans","shortdescription":"Chocolate Coffee Beans","category":"food","icon":"chocolatecoffeebeans.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_snacks/","name":"sb_crystalcandy","shortdescription":"Crystal Candy","category":"food","icon":"crystalcandy.png"}
+,{"path":"/items/generic/food/sb_snacks/","name":"sb_curriedbeakseed","shortdescription":"Curried Beakseed","category":"food","icon":"curriedbeakseed.png"}
+,{"path":"/items/generic/food/sb_snacks/","name":"sb_chocolate","shortdescription":"Milk Chocolate","category":"food","icon":"chocolate.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_snacks/","name":"sb_candiedpearlpeas","shortdescription":"Candied Pearlpeas","category":"food","icon":"candiedpearlpeas.png"}
+,{"path":"/items/generic/food/sb_snacks/","name":"sb_lollypop","shortdescription":"Lollypop","category":"food","icon":"lollypop.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_snacks/","name":"sb_crystalchips","shortdescription":"Crystal Chips","category":"food","icon":"crystalchips.png"}
+
+,{"path":"/items/generic/food/sb_condiments/","name":"sb_butter","shortdescription":"Butter","category":"food","icon":"butter.png"}
+,{"path":"/items/generic/food/sb_condiments/","name":"sb_ricevinegar","shortdescription":"Rice Vinegar","category":"food","icon":"ricevinegar.png"}
+,{"path":"/items/generic/food/sb_condiments/","name":"sb_orangejam","shortdescription":"Orange Jam","category":"food","icon":"orangejam.png"}
+,{"path":"/items/generic/food/sb_condiments/","name":"sb_crystaljam","shortdescription":"Crystal Jam","category":"food","icon":"crystaljam.png"}
+,{"path":"/items/generic/food/sb_condiments/","name":"sb_peanutbutterjar","shortdescription":"Peanut Butter","category":"food","icon":"peanutbutterjar.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_condiments/","name":"sb_thornjam","shortdescription":"Thorn Jam","category":"food","icon":"thornjam.png"}
+
+,{"path":"/items/generic/meat/","name":"sb_rawfleshlump","shortdescription":"Flesh Lump","category":"consumable","icon":"sb_rawfleshlump.png"}
+,{"path":"/items/generic/meat/","name":"sb_cookedfleshlump","shortdescription":"Cooked Flesh Lump","category":"consumable","icon":"sb_cookedfleshlump.png"}
+,{"path":"/items/generic/meat/","name":"sb_meatchunks","shortdescription":"Spoiled Meat Chunks","category":"consumable","icon":"sb_meatchunks.png"}
+,{"path":"/items/generic/meat/","name":"sb_soylentgreen","shortdescription":"Soylent Green","category":"consumable","icon":"sb_soylentgreen.png"}
+,{"icon":"/items/generic/food/tier6/hothothotpot.png","name":"sb_meatballs","shortdescription":"Meatballs","category":"consumable"}
+
+
+,{"path":"/items/generic/produce/","name":"sb_poisoncreep","shortdescription":"Poisoncreep","category":"consumable","icon":"sb_poisoncreep.png"}
+,{"path":"/items/generic/produce/","name":"sb_fluffalofeed","shortdescription":"Ordinary Acorn","category":"consumable","icon":"sb_fluffalofeed.png","rarity":"uncommon"}
+,{"path":"/items/generic/produce/","name":"sb_firefluffalofeed","shortdescription":"Blazing Berry","category":"consumable","icon":"sb_firefluffalofeed.png","rarity":"uncommon"}
+,{"path":"/items/generic/produce/","name":"sb_icefluffalofeed","shortdescription":"Frosty Fig","category":"consumable","icon":"sb_icefluffalofeed.png","rarity":"uncommon"}
+,{"path":"/items/generic/produce/","name":"sb_poisonfluffalofeed","shortdescription":"Poison Pear","category":"consumable","icon":"sb_poisonfluffalofeed.png","rarity":"uncommon"}
+,{"path":"/items/generic/produce/","name":"sb_electricfluffalofeed","shortdescription":"Electric Eggplant","category":"consumable","icon":"sb_electricfluffalofeed.png","rarity":"uncommon"}
+
+//,{"path":"/items/generic/other/","name":"bandage","shortdescription":"Bandage","category":"consumable","icon":"sb_bandage.png","parameters":{"inventoryIcon":"sb_bandage.png","description":"A bandage for healing minor wounds.","emote":"annoyed","emitters":["eating"],"tooltipKind":"sb_object"}}
+,{"path":"/items/generic/other/","name":"sb_gauze","shortdescription":"Gauze","category":"medicine","icon":"sb_gauze.png"}
+,{"path":"/items/generic/other/","name":"sb_doping","shortdescription":"Doping","category":"sb_disabled","icon":"medkit.png","rarity":"legendary"}
+,{"path":"/items/generic/other/","name":"sb_greystim","shortdescription":"Grey Stim","category":"medicine","icon":"sb_greystim.png"}
+,{"icon":"/items/generic/other/sb_heatingbag.png","name":"sb_heatingbag","shortdescription":"Heating Bag","category":"medicine","rarity":"uncommon"}
+,{"icon":"/items/generic/other/sb_electricitydeflector.png","name":"sb_electricitydeflector","shortdescription":"Electricity Deflector","category":"medicine","rarity":"uncommon"}
+,{"icon":"/items/throwables/sb_levitationpowdericon.png","name":"sb_levitationpowder","shortdescription":"Feather Powder","category":"medicine","rarity":"uncommon"}
+//,{"icon":"/interface/x.png","name":"sb_preservedfood","shortdescription":"Preserved Food","category":"sb_misc"}
+]

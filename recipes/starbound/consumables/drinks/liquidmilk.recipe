@@ -1,0 +1,5 @@
+{
+  "input": ["coconut"],
+  "output": ["liquidmilk",2],
+  "groups": ["craftingfood","drinks","sb_t1food","all"]
+}

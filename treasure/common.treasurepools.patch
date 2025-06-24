@@ -3,32 +3,32 @@
   [
     {"op":"test","path":"/basicTreasure/0/1/pool/7/item","value":"techcard"},
     {"op":"remove","path":"/basicTreasure/0/1/pool/7/item"},
-    {"op":"add","path":"/basicTreasure/0/1/pool/7/pool","value":"sb_tech"}
+    {"op":"add","path":"/basicTreasure/0/1/pool/7/pool","value":"sb_techcard"}
   ],
   [
     {"op":"test","path":"/valuableTreasure/0/1/pool/0/item","value":"techcard"},
     {"op":"remove","path":"/valuableTreasure/0/1/pool/0/item"},
-    {"op":"add","path":"/valuableTreasure/0/1/pool/0/pool","value":"sb_tech"}
+    {"op":"add","path":"/valuableTreasure/0/1/pool/0/pool","value":"sb_techcard"}
   ],
   [
     {"op":"test","path":"/valuableTreasure/1/1/pool/0/item","value":"techcard"},
     {"op":"remove","path":"/valuableTreasure/1/1/pool/0/item"},
-    {"op":"add","path":"/valuableTreasure/1/1/pool/0/pool","value":"sb_tech"}
+    {"op":"add","path":"/valuableTreasure/1/1/pool/0/pool","value":"sb_techcard"}
   ],
   [
     {"op":"test","path":"/valuableTreasure/2/1/pool/0/item","value":"techcard"},
     {"op":"remove","path":"/valuableTreasure/2/1/pool/0/item"},
-    {"op":"add","path":"/valuableTreasure/2/1/pool/0/pool","value":"sb_tech"}
+    {"op":"add","path":"/valuableTreasure/2/1/pool/0/pool","value":"sb_techcard"}
   ],
   [
     {"op":"test","path":"/valuableTreasure/3/1/pool/0/item","value":"techcard"},
     {"op":"remove","path":"/valuableTreasure/3/1/pool/0/item"},
-    {"op":"add","path":"/valuableTreasure/3/1/pool/0/pool","value":"sb_tech"}
+    {"op":"add","path":"/valuableTreasure/3/1/pool/0/pool","value":"sb_techcard"}
   ],
   
-  [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.09,"pool":"sb_techchip"}}], //3x techcard
-  [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.12,"pool":"sb_mattermodule"}}], //slightly higher than MModule
-  [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.05,"item":"sb_musicsheet"}}],
+  [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.09,"pool":"sb_techchip"}}],
+  [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.06,"pool":"sb_mattermodule"}}],
+  [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.02,"item":"sb_musicsheet"}}],
 
 
     //Basic Treasure
@@ -57,7 +57,6 @@
 //[{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.1,"item":"sb_tech"}}],
 //[{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.3,"item":"sb_tech"}}],
 
-  [{"op":"add","path":"/techChestTreasure/0/1/pool/-","value":{"weight":0.9,"item":"sb_tech"}}],
   [{"op":"add","path":"/techChestTreasure/0/1/pool/-","value":{"weight":0.9,"item":"sb_tech"}}],
   
   [{"op":"add","path":"/techTreasure/0/1/pool/-","value":{"weight":0.02,"item":"sb_tech"}}],
@@ -188,11 +187,6 @@
 
 
     //Tools
-  [{"op":"add","path":"/valuableTreasure/0/1/pool/-","value":{"weight":0.35,"pool":"tool"}}],
-  [{"op":"add","path":"/valuableTreasure/1/1/pool/-","value":{"weight":0.35,"pool":"tool"}}],
-  [{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.35,"pool":"tool"}}],
-  [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.35,"pool":"tool"}}],
-
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_spawnertools"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"parasol"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"broom"}}],
@@ -201,16 +195,6 @@
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"sb_light2energy"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.02,"item":"parachutepackback"}}],
   [{"op":"add","path":"/tool/0/1/pool/-","value":{"weight":0.01,"item":"flashlight"}}],
-
-
-    //Repair Tools
-  [{"op":"add","path":"/diggingTool/0/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
-  [{"op":"add","path":"/diggingTool/1/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
-  [{"op":"add","path":"/diggingTool/2/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
-  [{"op":"add","path":"/diggingTool/3/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
-  [{"op":"add","path":"/diggingTool/4/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
-  [{"op":"add","path":"/diggingTool/5/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
-  [{"op":"add","path":"/diggingTool/6/1/pool/-","value":{"weight":0.7,"pool":"sb_repairTools"}}],
 
     //Seeds
   [{"op":"add","path":"/seed/0/1/pool/-","value":{"weight":3,"item":["mushroomseed",3]}}],
@@ -240,6 +224,7 @@
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_conehead"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_braincagehead"}}],
   [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"sb_scraphead"}}],
+  [{"op":"add","path":"/costume/0/1/pool/-","value":{"weight":0.0003,"item":"hottophathead"}}],
 
     //Food
   [{"op":"add","path":"/basicTreasure/0/1/pool/-","value":{"weight":0.03,"pool":"food"}}],
@@ -283,9 +268,9 @@
     //Vaults
   [{"op":"test","path":"/essenceBurst/0/1/poolRounds/0/0","value":1.0},{"op":"replace","path":"/essenceBurst/0/1/poolRounds/0/0","value":10}],
   [{"op":"test","path":"/essenceBurst/0/1/poolRounds/0/1","value":10},{"op":"replace","path":"/essenceBurst/0/1/poolRounds/0/1","value":30}],
-  [{"op":"add","path":"/essenceBurst/0/1/pool/-","value":{"weight":0.02,"pool":"microformerTreasure"}}],
+  [{"op":"add","path":"/essenceBurst/0/1/pool/-","value":{"weight":0.03,"pool":"microformerTreasure"}}],
   [{"op":"add","path":"/essenceBurst/0/1/pool/-","value":{"weight":0.03,"item":"vaultkey"}}],
-  [{"op":"add","path":"/essenceBurst/0/1/pool/-","value":{"weight":0.03,"item":"sb_ancientbigchest"}}],
+  [{"op":"add","path":"/essenceBurst/0/1/pool/-","value":{"weight":0.1,"pool":"sb_ancientBlueprints"}}],
 
     //Microformers
   [{"op":"add","path":"/microformerTreasure/0/1/pool/-","value":{"weight":1,"item":"sb_microformerheck"}}],

@@ -1,3 +1,6 @@
 [
-[{"op":"test","path":"/price","value":3000},{"op":"replace","path":"/price","value":300}]
+[{"op":"test","path":"/price","value":3000},{"op":"replace","path":"/price","value":300}],
+
+[{"op":"test","path":"/description","value":"A guitar. For those who like distortion."},
+{"op":"replace","path":"/description","value":"For those who like distortion."}]
 ]

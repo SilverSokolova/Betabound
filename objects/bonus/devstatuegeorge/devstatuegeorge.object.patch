@@ -1,6 +1,7 @@
 [
     [{"op":"test","path":"/scripts","inverse":true},{"op":"add","path":"/scripts","value":[]}],
     [{"op":"add","path":"/scripts/-","value":"/scripts/npcToyObject.lua"}],
+
     [{"op":"test","path":"/npcToy/influence","inverse":true},{"op":"add","path":"/npcToy/influence","value":[]}],
     [{"op":"add","path":"/npcToy/influence/-","value":"poop"}],
     [{"op":"test","path":"/npcToy/defaultReactions","inverse":true},{"op":"add","path":"/npcToy/defaultReactions","value":{}}],
@@ -8,11 +9,12 @@
     [{"op":"add","path":"/npcToy/defaultReactions/poop/-","value":[1,"annoyed"]}],
     [{"op":"add","path":"/npcToy/defaultReactions/poop/-","value":[2,"vomit"]}],
     [{"op":"add","path":"/npcToy/maxNpcs","value":5}],
-    [{"op":"test","path":"/avianDescription"},{"op":"remove","path":"/avianDescription"}],
-    [{"op":"test","path":"/glitchDescription"},{"op":"remove","path":"/glitchDescription"}],
-    [{"op":"test","path":"/humanDescription"},{"op":"remove","path":"/humanDescription"}],
-    [{"op":"test","path":"/floranDescription"},{"op":"remove","path":"/floranDescription"}],
-    [{"op":"test","path":"/apexDescription"},{"op":"remove","path":"/apexDescription"}],
-    [{"op":"test","path":"/hylotlDescription"},{"op":"remove","path":"/hylotlDescription"}],
+
+    [{"op":"test","path":"/avianDescription","value":"ALL HAIL GEORGE!!!"},{"op":"remove","path":"/avianDescription"}],
+    [{"op":"test","path":"/glitchDescription","value":"ALL HAIL GEORGE!!!"},{"op":"remove","path":"/glitchDescription"}],
+    [{"op":"test","path":"/humanDescription","value":"ALL HAIL GEORGE!!!"},{"op":"remove","path":"/humanDescription"}],
+    [{"op":"test","path":"/floranDescription","value":"ALL HAIL GEORGE!!!"},{"op":"remove","path":"/floranDescription"}],
+    [{"op":"test","path":"/apexDescription","value":"ALL HAIL GEORGE!!!"},{"op":"remove","path":"/apexDescription"}],
+    [{"op":"test","path":"/hylotlDescription","value":"ALL HAIL GEORGE!!!"},{"op":"remove","path":"/hylotlDescription"}],
     [{"op":"replace","path":"/description","value":"This guy makes me want to start drinking."}]
 ]

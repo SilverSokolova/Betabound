@@ -1,7 +1,6 @@
 [
 //meat
 {"op":"add","path":"/0/1/-","value":"sb_cookedfleshlump"}
-,{"op":"add","path":"/0/1/-","value":"sb_meatchunks"}
 ,{"op":"add","path":"/0/1/-","value":"sb_offal"}
 
 //shop

@@ -25,7 +25,7 @@
       },
       "sb_foodheal145"
     ]],
-  "description": "Indulge in the eerie gooey sweetness!",
+  "description": "Watch out, these gooey treats have an acidic taste!",
   "shortdescription": "Melting Eyeballs",
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],

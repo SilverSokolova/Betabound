@@ -1,6 +1,5 @@
 {
   "name": "sb_reducefalldamagetech",
-  "defaultDuration": 5,
   "label": "Fall Dampener",
   "icon": "reducefalldamage.png"
 }

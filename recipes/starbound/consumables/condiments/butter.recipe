@@ -1,0 +1,6 @@
+{
+  "input": ["milk","liquidwater"],
+  "output": ["sb_butter",2],
+  "groups": ["craftingfood","condiments","craftingfood","sb_other","sb_t1food","all"],
+  "collectables": {"cooking":"sb_butter"}
+}

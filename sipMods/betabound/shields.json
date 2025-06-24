@@ -1,0 +1,22 @@
+[
+//{"path":"/items/active/starbound/shields/starter.png","name":"sb_startershield","shortdescription":"Basic Shield","category":"shield","icon":":icon","rarity":"uncommon"}
+//{"path":"/items/active/starbound/shields/eyepatch/","name":"sb_eyeshield","shortdescription":"Eye Shield","category":"shield","icon":"1.png:icon","rarity":"rare"}
+//,{"path":"/items/active/starbound/shields/frost/","name":"sb_frostshield","shortdescription":"Frost Shield","category":"shield","icon":"1.png:icon","rarity":"rare"}
+//,{"path":"/items/active/starbound/shields/moss/","name":"sb_mossshield","shortdescription":"Moss Shield","category":"shield","icon":"1.png:icon","rarity":"rare"}
+//,{"path":"/items/active/starbound/shields/mushroom/","name":"sb_mushroomshield","shortdescription":"Mushroom Shield","category":"shield","icon":"1.png:icon","rarity":"rare"}
+//,{"path":"/items/active/starbound/shields/seashell/","name":"sb_seashellshield","shortdescription":"Seashell Shield","category":"shield","icon":"1.png:icon","rarity":"rare"}
+{"icon":"/items/active/shields/images/giantflower.png:nearidle","name":"sb_giantflowershield","shortdescription":"Giant Flower Shield","category":"shield","rarity":"rare"}
+,{"icon":"/items/active/shields/images/uncommon/1.png:nearidle","name":"sb_uncommonshield","shortdescription":"Uncommon Shield","category":"shield","rarity":"uncommon"}
+,{"icon":"/items/active/shields/images/sb_glitchlord.png:nearidle","name":"sb_glitchlordshield","shortdescription":"Uncommon Shield","category":"shield","rarity":"uncommon"}
+
+//,{"name":"sb_tier1shield","shortdescription":"Basic Shield","category":"shield"}
+//,{"name":"sb_tier2shield","shortdescription":"Strong Shield","category":"shield"}
+//,{"name":"sb_tierxshield","shortdescription":"Powerful Shield","category":"shield"}
+
+//,{"path":"/items/active/starbound/shields/floranbasic/","name":"sb_floranbasicshield","shortdescription":"Floran Basic Shield","category":"shield","icon":"1.png:icon"}
+//,{"path":"/items/active/starbound/shields/floranstrong/","name":"sb_floranstrongshield","shortdescription":"Floran Strong Shield","category":"shield","icon":"1.png:icon","rarity":"rare"}
+//,{"path":"/items/active/starbound/shields/glitchbasic/","name":"sb_glitchbasicshield","shortdescription":"Glitch Basic Shield","category":"shield","icon":"1.png:icon"}
+//,{"path":"/items/active/starbound/shields/glitchstrong/","name":"sb_glitchstrongshield","shortdescription":"Glitch Strong Shield","category":"shield","icon":"1.png:icon","rarity":"rare"}
+//,{"path":"/items/active/starbound/shields/glitchlord/","name":"sb_glitchlordshield","shortdescription":"Glitch Lord Shield","category":"shield","icon":"1.png:icon","rarity":"rare"}
+//,{"path":"/items/active/starbound/shields/hylotlstrong/","name":"sb_hylotlstrongshield","shortdescription":"Hylotl Strong Shield","category":"shield","icon":"1.png:icon","rarity":"rare"}
+]

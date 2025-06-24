@@ -1,5 +1,5 @@
 {
-  "input": ["automato","diodia","sb_meatchunks"],
+  "input": ["automato","diodia","sb_rawfleshlump"],
   "output": "sb_automatostew",
   "groups": ["craftingfood","mains","sb_energy","sb_electrified","sb_healing","all"],
   "collectables": {"cooking":"sb_automatostew"}

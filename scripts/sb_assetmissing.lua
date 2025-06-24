@@ -5,7 +5,11 @@ function sb_techType()
   end
 end
 
-function sb_assetmissing(asset, fallbackAsset) return (root.nonEmptyRegion(asset) ~= nil) and asset or fallbackAsset or "/sb_assetmissing.png" end
+function sb_assetmissing(asset, fallbackAsset)
+  local defaultFallbackAsset = "/sb_assetmissing.png"
+  return (root.nonEmptyRegion(asset or defaultFallbackAsset) ~= nil) and asset or fallbackAsset or defaultFallbackAsset
+end
+
 function sb_itemExists(item) return root.itemConfig(item)~=nil end
 
 function sb_pathToImage(images, path, index) return (type(images) == "table" and sb_pathToImage(images[index and #images or 1].image, path)) or images:sub(0, 1) ~= "/" and path..images or images end

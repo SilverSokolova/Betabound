@@ -45,7 +45,7 @@
     "middle": "irradiatedlauncher.png"
   },
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
-  "description": "Death by radiation poisoning, at your fingertips.",
+  "description": "Launching radioactive material at things, what could possibly go wrong?",
   "shortdescription": "Irradiated Launcher",
   "baseOffset": [0.5, 0.15],
   "muzzleOffset": [1.6, 0.2],

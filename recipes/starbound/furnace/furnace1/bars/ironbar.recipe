@@ -1,0 +1,6 @@
+{
+  "input": [["sb_dreadwreckage",4]],
+  "output": "ironbar",
+  "duration": 0.15,
+  "groups": ["craftingfurnace","bars","all"]
+}

@@ -14,12 +14,17 @@ function init()
   foodValue = config.getParameter("foodValue", 0)
   ammoUsage = config.getParameter("ammoUsage", 1)
   resource = config.getParameter("resource", "food")
-  giveWellfed = config.getParameter("giveWellfed", true) and resource == "food"
+  giveWellfed = config.getParameter("giveWellfed", true) and resource == "food" --What?
   returnItem = config.getParameter("returnItem")
   possibleEffects = config.getParameter("effects")
-  blockingEffects = config.getParameter("blockingEffects")
+  blockingEffects = config.getParameter("blockingEffects", {})
   autoFire = config.getParameter("autoFire")
   selectEffects()
+
+  local eatWhileWellFed = root.assetJson("/stats/effects/food/wellfed/wellfed.statuseffect:defaultDuration") == 0
+  if not eatWhileWellFed and resource == "food" and foodValue ~= 0 then
+    blockingEffects[#blockingEffects + 1] = "wellfed"
+  end
 
   local category = config.getParameter("category", "")
   if category == "preparedFood" then category = "food" end
@@ -38,7 +43,11 @@ function update(dt, fireMode)
   activeItem.setFacingDirection(aimDirection)
 
   if not useTimer and fireMode == "primary" and player and not justUsed then
-    if blockingEffects then for i = 1, #blockingEffects do if status.uniqueStatusEffectActive(blockingEffects[i]) then return end end end
+    for i = 1, #blockingEffects do
+      if status.uniqueStatusEffectActive(blockingEffects[i]) then
+        return
+      end
+    end
     useTimer = useTime
     justUsed = autoFire and true or false
   end

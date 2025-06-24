@@ -1,7 +1,9 @@
 {
   "name": "sb_jumptech",
-  "defaultDuration": 5,
-  "scripts": ["jump.lua"],
+  "effectConfig": {
+    "tech": "sb_jump"
+  },
+  "scripts": ["movement.lua"],
   "label": "Jump+",
   "icon": "/tech/starbound/jump.png"
 }

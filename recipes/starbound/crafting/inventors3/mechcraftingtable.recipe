@@ -1,5 +1,5 @@
 {
-  "input": [["salvagetier5",10],["platinumbar",15],["goldbar",20]],
+  "input": [["salvagetier5",10],["durasteelbar",20],["platinumbar",20],"battery",["wire",12],["siliconboard",6]],
   "output": "mechcraftingtable",
   "groups": ["inventorstable3","craftingstations","all"]
 }

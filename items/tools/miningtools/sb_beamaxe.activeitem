@@ -3,7 +3,7 @@
   "inventoryIcon": "sb_mastermanipulatoricon.png",
   "rarity": "essential",
   "maxStack": 1,
-  "price": 21100,
+  "price": 30000,
   "description": "Manipulates anything that matters... with a light and magnet!",
   "shortdescription": "Master Manipulator",
   "tooltipFields": {
@@ -21,15 +21,12 @@
   "canCollectLiquid": false,
   "storedLiquids": {},
   "twoHanded": true,
-  "critical": true,
   "upgrades": [],
-  "strikeSounds": ["/sfx/tools/atom.ogg", "/sfx/tools/atom2.ogg", "/sfx/tools/atom3.ogg", "/sfx/tools/atom4.ogg", "/sfx/tools/atom5.ogg"],
-  //"animationParts" : {"manipulator" : "/items/tools/miningtools/sb_gravgun2.png","manipulatorOptics" : "/items/tools/miningtools/sb_gravgun2.png?replace;663b14=0000;8d581c=0000;c88b28=0000;e7c474=0000;404040=0000;808080=0000;606060=0000"},
   "animationParts": {
     "manipulator": "/items/tools/miningtools/sb_mastermanipulator.png",
     "manipulatorOptics": "/items/tools/miningtools/sb_mastermanipulatorfb.png"
   },
-  "endImages": ["/humanoid/any/ball2.png", "/humanoid/any/sb_tileglow.png?setcolor=66a0bb?multiply=ffffff40"], //No, this isn't a leftover, it NEEDS those directives
+  "highlight": "/humanoid/any/sb_tileglow.png?multiply=%s5a?scalenearest=%s?border=1;%sff;0000",
   "handPosition": [-2, 0],
   "firePosition": [5, 0],
   "animationScripts": ["sb_beamaxeanimation.lua"],
@@ -47,6 +44,8 @@
   },
 
   //vanilla beamaxe values. unused but present for mods that assume all beamaxes have them
+  "strikeSounds": ["/sfx/tools/atom.ogg", "/sfx/tools/atom2.ogg", "/sfx/tools/atom3.ogg", "/sfx/tools/atom4.ogg", "/sfx/tools/atom5.ogg"],
+  "endImages": [],
   "segmentsPerUnit": 1,
   "nearControlPointElasticity": 1,
   "farControlPointElasticity": 1,

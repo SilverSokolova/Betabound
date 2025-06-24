@@ -1,6 +1,5 @@
 {
   "name": "sb_protectiontech",
-  "defaultDuration": 1,
   "label": "Protection+",
   "icon": "/tech/starbound/protection.png"
 }

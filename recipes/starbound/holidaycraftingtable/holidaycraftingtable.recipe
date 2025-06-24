@@ -1,5 +1,0 @@
-{
-  "input": [["ironbar",5]],
-  "output": "holidaycraftingtable",
-  "groups": ["inventorstable","holidaycraftingtable","craftingstations","all"]
-}

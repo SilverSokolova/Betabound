@@ -7,7 +7,8 @@
     "fg": "/objects/generic/oillantern1/oillantern1lit.png"
   },
   "inventoryIcon": [{
-      "image": "/objects/generic/oillantern1/oillantern1.png:default.1?multiply=fffffffe"
+      "image": "/objects/generic/oillantern1/oillantern1.png:default.1?border=1;000;0000",
+      "fullbright": true
     }, {
       "image": "/objects/generic/oillantern1/oillantern1lit.png:default.1"
     }

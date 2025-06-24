@@ -9,8 +9,7 @@
         "amount": 0.25
       }
     ]
-  },
-  "defaultDuration": 5,
+  },
   "scripts": ["suit.lua"],
   "label": "Heat Protection",
   "icon": "/tech/starbound/heat.png"

@@ -1,0 +1,3 @@
+[
+[{"op":"test","path":"/icon","value":"/interface/statuses/fire.png"},{"op":"replace","path":"/icon","value":"/items/liquids/liquidlavaicon.png"}]
+]

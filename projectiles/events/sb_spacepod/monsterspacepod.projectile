@@ -1,144 +1,137 @@
 {
-  "projectileName" : "sb_monsterspacepod",
-  "image" : "spacepod.png",
-  "physics" : "default",
-  "movementSettings" : {
-    "collisionPoly" : [ [1.875, -3.5], [2.875, -2.25], [2.875, 2.375], [-2.875, 2.375], [-2.875, -2.25], [-1.875, -3.5] ]
+  "projectileName": "sb_monsterspacepod",
+  "image": "spacepod.png",
+  "physics": "default",
+  "movementSettings": {
+    "collisionPoly": [[1.875, -3.5], [2.875, -2.25], [2.875, 2.375], [-2.875, 2.375], [-2.875, -2.25], [-1.875, -3.5]]
   },
-  "animationCycle" : 0.2,
-  "frameNumber" : 2,
-  "orientationLocked" : true,
-  "power" : 0,
-  "speed" : 30,
-  "timeToLive" : 20.0,
-  "damagePoly" : [ ],
+  "animationCycle": 0.2,
+  "frameNumber": 2,
+  "orientationLocked": true,
+  "power": 0,
+  "speed": 30,
+  "timeToLive": 20.0,
+  "damagePoly": [],
 
-  "lightColor" : [170, 210, 255],
-  
-  "actionOnReap" : [
-    {
-      "action" : "config",
-      "file" : "/projectiles/explosions/regularexplosion/regularexplosion.config"
+  "lightColor": [170, 210, 255],
+
+  "actionOnReap": [{
+      "action": "config",
+      "file": "/projectiles/explosions/regularexplosion/regularexplosion.config"
     },
-    
     {
-      "action" : "loop",
-      "count" : 2,
-      "body" : [
-        {
-          "action" : "particle",
-          "specification" : {
-            "type" : "animated",
-            "animation" : "/animations/dust2/dust2.animation",
-            "position" : [0, 0],
-            "initialVelocity" : [0, -20],
-            "finalVelocity" : [0, 0],
-            "approach" : [1, 1],
-            "destructionAction" : "fade",
-            "destructionTime" : 2.0,
-            "fade" : 1,
-            "size" : 1,
-            "layer" : "front",
-            "timeToLive" : 2.0,
-            "variance" : {
-              "initialVelocity" : [10.0, 10.0],
-              "position" : [3.0, 3.0]
+      "action": "loop",
+      "count": 2,
+      "body": [{
+          "action": "particle",
+          "specification": {
+            "type": "animated",
+            "animation": "/animations/dust2/dust2.animation",
+            "position": [0, 0],
+            "initialVelocity": [0, -20],
+            "finalVelocity": [0, 0],
+            "approach": [1, 1],
+            "destructionAction": "fade",
+            "destructionTime": 2.0,
+            "fade": 1,
+            "size": 1,
+            "layer": "front",
+            "timeToLive": 2.0,
+            "variance": {
+              "initialVelocity": [10.0, 10.0],
+              "position": [3.0, 3.0]
             }
           }
         }
       ]
-    },
-    {
-      "action" : "particle",
-      "specification" : {
-        "type" : "textured",
-        "image" : "/animations/sb_deployment/deployshardleft.png",
-        "light" : [170, 210, 255],
-        "position" : [-1.75, 1.375],
-        "offsetRegion" : [0, 0, 0, 0],
-        "initialVelocity" : [-5, 15],
-        "finalVelocity" : [-5, -15],
-        "approach" : [0, 15],
-        "angularVelocity" : 25,
-        "timeToLive" : 2.0,
-        "destructionTime" : 1.0,
-        "destructionAction" : "fade",
-        "layer" : "front",
-        "variance" : {
-          "angularVelocity" : 0
+    }, {
+      "action": "particle",
+      "specification": {
+        "type": "textured",
+        "image": "/animations/sb_deployment/deployshardleft.png",
+        "light": [170, 210, 255],
+        "position": [-1.75, 1.375],
+        "offsetRegion": [0, 0, 0, 0],
+        "initialVelocity": [-5, 15],
+        "finalVelocity": [-5, -15],
+        "approach": [0, 15],
+        "angularVelocity": 25,
+        "timeToLive": 2.0,
+        "destructionTime": 1.0,
+        "destructionAction": "fade",
+        "layer": "front",
+        "variance": {
+          "angularVelocity": 0
         }
       }
-    },
-    {
-      "action" : "particle",
-      "specification" : {
-        "type" : "textured",
-        "image" : "/animations/sb_deployment/deployshardright.png",
-        "light" : [170, 210, 255],
-        "position" : [1.75, 1.375],
-        "offsetRegion" : [0, 0, 0, 0],
-        "initialVelocity" : [5, 15],
-        "finalVelocity" : [5, -15],
-        "approach" : [0, 15],
-        "angularVelocity" : -25,
-        "timeToLive" : 2.0,
-        "destructionTime" : 1.0,
-        "destructionAction" : "fade",
-        "layer" : "front",
-        "variance" : {
-          "angularVelocity" : 0
+    }, {
+      "action": "particle",
+      "specification": {
+        "type": "textured",
+        "image": "/animations/sb_deployment/deployshardright.png",
+        "light": [170, 210, 255],
+        "position": [1.75, 1.375],
+        "offsetRegion": [0, 0, 0, 0],
+        "initialVelocity": [5, 15],
+        "finalVelocity": [5, -15],
+        "approach": [0, 15],
+        "angularVelocity": -25,
+        "timeToLive": 2.0,
+        "destructionTime": 1.0,
+        "destructionAction": "fade",
+        "layer": "front",
+        "variance": {
+          "angularVelocity": 0
         }
       }
-    },
-    {
-      "action" : "particle",
-      "specification" : {
-        "type" : "textured",
-        "image" : "/animations/sb_deployment/deployshardbottom.png",
-        "light" : [170, 210, 255],
-        "position" : [0.0, 0.0],
-        "offsetRegion" : [0, 0, 0, 0],
-        "initialVelocity" : [0, 15],
-        "finalVelocity" : [0, -15],
-        "approach" : [0, 15],
-        "angularVelocity" : 0,
-        "timeToLive" : 2.0,
-        "destructionTime" : 1.0,
-        "destructionAction" : "fade",
-        "layer" : "front",
-        "variance" : {
-          "initialVelocity" : [10, 0]
+    }, {
+      "action": "particle",
+      "specification": {
+        "type": "textured",
+        "image": "/animations/sb_deployment/deployshardbottom.png",
+        "light": [170, 210, 255],
+        "position": [0.0, 0.0],
+        "offsetRegion": [0, 0, 0, 0],
+        "initialVelocity": [0, 15],
+        "finalVelocity": [0, -15],
+        "approach": [0, 15],
+        "angularVelocity": 0,
+        "timeToLive": 2.0,
+        "destructionTime": 1.0,
+        "destructionAction": "fade",
+        "layer": "front",
+        "variance": {
+          "initialVelocity": [10, 0]
         }
       }
-    },
-    {
-      "action" : "particle",
-      "specification" : {
-        "type" : "textured",
-        "image" : "/animations/sb_deployment/deployshardtop.png",
-        "light" : [170, 210, 255],
-        "position" : [0.0, 4.375],
-        "offsetRegion" : [0, 0, 0, 0],
-        "initialVelocity" : [0, 15],
-        "finalVelocity" : [0, -15],
-        "approach" : [0, 15],
-        "angularVelocity" : 0,
-        "timeToLive" : 2.0,
-        "destructionTime" : 1.0,
-        "destructionAction" : "fade",
-        "layer" : "front",
-        "variance" : {
-          "angularVelocity" : 10
+    }, {
+      "action": "particle",
+      "specification": {
+        "type": "textured",
+        "image": "/animations/sb_deployment/deployshardtop.png",
+        "light": [170, 210, 255],
+        "position": [0.0, 4.375],
+        "offsetRegion": [0, 0, 0, 0],
+        "initialVelocity": [0, 15],
+        "finalVelocity": [0, -15],
+        "approach": [0, 15],
+        "angularVelocity": 0,
+        "timeToLive": 2.0,
+        "destructionTime": 1.0,
+        "destructionAction": "fade",
+        "layer": "front",
+        "variance": {
+          "angularVelocity": 10
         }
       }
     }
   ],
 
-  "onlyHitTerrain" : true,
+  "onlyHitTerrain": true,
 
-  "renderLayer" : "Monster+20",
+  "renderLayer": "Monster+20",
 
-  "scripts" : [
+  "scripts": [
     "monsterspacepod.lua"
   ]
 }

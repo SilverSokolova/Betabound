@@ -1,6 +1,5 @@
 {
   "name": "sb_absorptiontech",
-  "defaultDuration": 5,
   "effectConfig": {
     "tech": "sb_absorption"
   },

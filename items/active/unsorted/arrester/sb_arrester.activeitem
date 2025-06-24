@@ -1,11 +1,11 @@
 {
   "itemName": "sb_arrester",
-  "description": "Used to freeze and incapacitate targets in their tracks.",
+  "description": "Used to freeze and incapacitate targets in their tracks. More effective on weakened targets.",
   "shortdescription": "Long Arm",
   "level": 1,
   "price": 2000,
   "rarity": "Legendary",
-  "tooltipKind": "sb_object",
+  "tooltipKind": "sb_object4",
   "category": "tool",
   "inventoryIcon": [{
       "image": "longarm.png:front"
@@ -24,7 +24,7 @@
   "targetRange": 30,
   "increaseRate": 35,
   "decreaseRate": 60,
-  "minArrestFactor": 0.5,
+  "minArrestFactor": 0.2,
   "damageInterruptFactor": 2,
   "energyUsage": 40,
 

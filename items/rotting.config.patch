@@ -6,7 +6,7 @@
 [{"op":"test","path":"/rotTimeDescriptions/4/0","value":999999},
 {"op":"move","from":"/rotTimeDescriptions/4","path":"/sb"},
 {"op":"add","path":"/rotTimeDescriptions/-","value":[32400,"^green;Has a long shelf life^reset;"]},
-{"op":"add","path":"/rotTimeDescriptions/-","value":[54000,"^green;Will last considerably long^reset;"]},
+{"op":"add","path":"/rotTimeDescriptions/-","value":[54000,"^green;Has a great shelf life^reset;"]},
 {"op":"add","path":"/rotTimeDescriptions/-","value":[75600,"^green;Decentedly preserved^reset;"]},
 {"op":"add","path":"/rotTimeDescriptions/-","value":[86400,"^green;Well-preserved^reset;"]},
 {"op":"move","from":"/sb","path":"/rotTimeDescriptions/-"}]

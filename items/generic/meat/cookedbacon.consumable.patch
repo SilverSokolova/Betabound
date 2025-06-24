@@ -1,7 +1,7 @@
 [
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
 
-[{"op":"test","path":"/rottedItem","inverse":true},{"op":"add","path":"/rottedItem","value":"sb_cookedfleshlump"}],
+[{"op":"test","path":"/rottedItem","inverse":true},{"op":"add","path":"/rottedItem","value":"sb_meatchunks"}],
 
 [{"op":"test","path":"/description","value":"Salty, crispy alien bacon."},
 {"op":"replace","path":"/description","value":"Bacon strips & bacon strips & bacon strips & bacon strips! Salty, crispy alien bacon strips!"}],

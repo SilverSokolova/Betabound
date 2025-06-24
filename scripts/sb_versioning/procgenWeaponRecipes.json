@@ -1,3 +1,17 @@
+/*
+  This is a list of old parametered recipes that our versioning script checks for.
+  When changing the parameters of a parametered recipe, the player file retains
+  the original values, meaning it is mismatched against the recipe file, thus
+  the player cannot craft the weapon they unlocked in a previous mod version.
+
+  Our weapon recipes now have a 'crafted' parameter in them, which tells the
+  builder to add some parameters (defined in the weapon's item file) to it.
+  This is so the output of a procgen weapon recipe output can be changed
+  without needing to update the player's unlocked recipes.
+  As a result, this makes blueprint items for these recipes able to be traded
+  between clients that have different parameters for the weapon recipe, since
+  the recipe/blueprint is not responsible for any parameter except 'crafted'.
+*/
 [
   ["sb_cactislammer",1,{"level":2,"seed":1}],
   ["sb_smashroom",1,{"level":2,"seed":1}],
@@ -28,6 +42,6 @@
   ["sb_slimestaff",1,{"level":5,"seed":1}],
   ["sb_uraniumrodstaff",1,{"level":5,"seed":1}],
   ["harpoongun",1,{"level":3}],
-  ["harpoongun",1,{"crafted":true}],
+  ["harpoongun",1,{"crafted":true}], //Here because its builder does not use crafted
   ["sb_firebow",1,{"seed":1,"level":3}]
 ]
