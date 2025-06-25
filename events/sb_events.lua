@@ -220,17 +220,17 @@ function eventRegions(event)
 end
 
 function spawnEventStagehand(stagehand, region)
-if world.getProperty("sb_events",true) ~= false then
-  local position = rect.center(region)
-  if world.inSurfaceLayer(position) then
-  local bounds = rect.translate(region, {-position[1], -position[2]})
-  world.spawnStagehand(position, stagehand, {
-      broadcastArea = bounds,
-      eventSource = player.id(),
-      bounty = self.bounty
-    })
+  if world.getProperty("sb_events", true) ~= false then
+    local position = rect.center(region)
+    if world.inSurfaceLayer(position) then
+      local bounds = rect.translate(region, {-position[1], -position[2]})
+      world.spawnStagehand(position, stagehand, {
+        broadcastArea = bounds,
+        eventSource = player.id(),
+        bounty = self.bounty
+      })
+    end
   end
- end
 end
 
 -- yields until an event has been triggered
@@ -240,10 +240,14 @@ function triggerEvent(eventPool)
     for _, eventName in ipairs(eventPool) do
       local event = self.config.events[eventName]
       if storage.lastEvent and storage.lastEvent ~= eventName then
-      for region in eventRegions(event) do
-        table.insert(validEvents, {event, region, eventName, event.skipChance or -1})
+        for region in eventRegions(event) do
+          if event.exclusiveQuest and player.hasCompletedQuest(event.exclusiveQuest) then
+            player.say("skip")
+            return
+          end
+          table.insert(validEvents, {event, region, eventName, event.skipChance or -1})
+        end
       end
-     end
     end
 
     if #validEvents > 0 then
