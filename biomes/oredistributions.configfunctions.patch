@@ -113,10 +113,11 @@
 [{"op":"add","path":"/depth3/5/1/-","value":["sb_cerulium",0.80]}],
 
 //asteroid
-[{"op":"add","path":"/asteroid/0/1/-","value":["coal",0.85]}],
-[{"op":"add","path":"/asteroid/0/1/-","value":["diamond",0.35]}],
-[{"op":"add","path":"/asteroid/0/1/-","value":["iron",0.35]}],
-[{"op":"add","path":"/asteroid/0/1/-","value":["plutonium",0.35]}],
+[{"op":"add","path":"/asteroid/0/1/-","value":["coal",0.75]}],
+[{"op":"add","path":"/asteroid/0/1/-","value":["diamond",0.30]}],
+[{"op":"add","path":"/asteroid/0/1/-","value":["iron",0.30]}],
+[{"op":"add","path":"/asteroid/0/1/-","value":["plutonium",0.30]}],
+[{"op":"add","path":"/asteroid/0/1/-","value":["platinum",0.40]}],
 
 //fossils
 [{"op":"add","path":"/surface/2/1/-","value":["sb_fossil",0.50]}],
