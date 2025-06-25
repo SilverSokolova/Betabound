@@ -1,20 +1,6 @@
 {
   "animatedParts": {
     "stateTypes": {
-      "music": {
-        "default": "on",
-        "states": {
-          "off": {},
-          "on": {
-            "mode": "loop",
-            "properties": {
-              "persistentSound": "/music/desert-battle-2.ogg",
-              "persistentSoundStopTime": 6,
-              "persistentSoundRangeMultiplier": 7
-            }
-          }
-        }
-      },
       "body": {
         "priority": 0,
         "default": "idle",

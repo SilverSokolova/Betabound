@@ -1,20 +1,6 @@
 {
   "animatedParts": {
     "stateTypes": {
-      "music": {
-        "default": "on",
-        "states": {
-          "off": {},
-          "on": {
-            "mode": "loop",
-            "properties": {
-              "persistentSound": "",
-              "persistentSoundStopTime": 6,
-              "persistentSoundRangeMultiplier": 7
-            }
-          }
-        }
-      },
       "portal": {
         "default": "open",
         "states": {
