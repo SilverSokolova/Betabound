@@ -24,16 +24,16 @@
             "cycle": 0.3,
             "mode": "transition",
             "transition": "openloop",
-"properties" : {
-              "immediateSound" : "/sfx/npc/boss/tentacleboss_portal_open.ogg"
+            "properties": {
+              "immediateSound": "/sfx/npc/boss/tentacleboss_portal_open.ogg"
             }
           },
           "openloop": {
             "frames": 2,
             "cycle": 0.1,
             "mode": "loop",
-"properties" : {
-              "persistentSound" : "/sfx/npc/boss/tentacleboss_portal_loop.ogg"
+            "properties": {
+              "persistentSound": "/sfx/npc/boss/tentacleboss_portal_loop.ogg"
             }
           },
           "close": {
@@ -41,8 +41,8 @@
             "cycle": 0.3,
             "mode": "transition",
             "transition": "closed",
-"properties" : {
-              "immediateSound" : "/sfx/npc/boss/tentacleboss_portal_close.ogg"
+            "properties": {
+              "immediateSound": "/sfx/npc/boss/tentacleboss_portal_close.ogg"
             }
           }
         }
