@@ -37,7 +37,9 @@ function v.isPvp(you,them) local text = root.assetJson("/sb_commands.config")
   return string.format("%s %s %s %s.",cutColors(them), cutColors(them)==cutColors(universe.clientNick(you)) and "are" or "is", universe.isPvp(them) and "" or "not", "PVP.")
 end
 ]]--
+function v.itemid(_,i,d) return v.itemID(_,i,d) end
 function v.sb_itemID(_,i,d) return v.itemID(_,i,d) end
+function v.sb_itemid(_,i,d) return v.itemID(_,i,d) end
 function v.itemID(_,it,detailed) local text = root.assetJson("/sb_commands.config")
   detailed=it[2] or false it=it[1] or "perfectlygenericitem"
   if not sb_itemExists(it) then return string.format(text.itemID.noItem,it) else
