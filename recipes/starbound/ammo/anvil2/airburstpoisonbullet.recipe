@@ -1,5 +1,5 @@
 {
   "input": ["venomsample","sb_gunpowder","lead"],
-  "output": ["sb_ammo",75,{"projectileType":"airburstpoisonbullet"}],
+  "output": ["sb_ammo",25,{"projectileType":"airburstpoisonbullet"}],
   "groups": ["consumables","craftinganvil2","all"]
 }

@@ -1,5 +1,5 @@
 {
   "input": ["ironbar","sb_gunpowder","lead"],
-  "output": ["sb_ammo",50,{"projectileType":"huntingbullet"}],
+  "output": ["sb_ammo",25,{"projectileType":"huntingbullet"}],
   "groups": ["consumables","craftinganvil","all"]
 }
