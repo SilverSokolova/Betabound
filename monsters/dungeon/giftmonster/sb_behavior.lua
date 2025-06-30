@@ -7,7 +7,7 @@ function uninit()
     for n = 1, #pools do
       if root.isTreasurePool(pools[n]) then
         local loot = root.createTreasure(pools[n], world.threatLevel())
-        i = 1, #loot do world.spawnItem(loot[i], entity.position()) end
+        for i = 1, #loot do world.spawnItem(loot[i], entity.position()) end
       end
     end
   end
