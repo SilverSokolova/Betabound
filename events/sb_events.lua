@@ -242,7 +242,6 @@ function triggerEvent(eventPool)
       if storage.lastEvent and storage.lastEvent ~= eventName then
         for region in eventRegions(event) do
           if event.exclusiveQuest and player.hasCompletedQuest(event.exclusiveQuest) then
-            player.say("skip")
             return
           end
           table.insert(validEvents, {event, region, eventName, event.skipChance or -1})
