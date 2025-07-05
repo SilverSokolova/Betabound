@@ -4,11 +4,6 @@
   "dropPools": ["sb_bunkerpyroTreasure"],
   "displayTitle": "USCM Pyromaniac",
 
-  "scripts": [
-    "/npcs/bmain.lua",
-    "/npcs/sb_bmain.lua"
-  ],
-
   "scriptConfig": {
     "dialog": {
       "attack": {
