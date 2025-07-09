@@ -1,8 +1,9 @@
 [
 //misc
 {"path":"/items/generated/","name":"sb_tech","shortdescription":"Tech","category":"sb_misc","icon":"sb_tech.png","rarity":"uncommon"}
-,{"path":"/tech/starbound/","name":"sb_lockin","shortdescription":"Tech Swapper","category":"sb_misc","icon":"banana3.png","rarity":"uncommon"}
-,{"path":"/tech/starbound/","name":"sb_equip","shortdescription":"Tech Equipper","category":"sb_misc","icon":"banana3.png","rarity":"uncommon"}
+,{"rarity":"rare","name":"sb_bindedtech","category":"tech","shortdescription":"Binded Tech"}
+//,{"path":"/tech/starbound/","name":"sb_lockin","shortdescription":"Tech Swapper","category":"sb_misc","icon":"banana3.png","rarity":"uncommon"}
+//,{"path":"/tech/starbound/","name":"sb_equip","shortdescription":"Tech Equipper","category":"sb_misc","icon":"banana3.png","rarity":"uncommon"}
 
 //head
 ,{"path":"/tech/","name":"sb_tech","shortdescription":"Distortion Sphere","category":"sb_tech","icon":"distortionsphere.png","parameters":{"techModule":"distortionsphere"},"rarity":"uncommon"}

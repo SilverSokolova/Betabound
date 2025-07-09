@@ -69,7 +69,6 @@
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_apextier6sshortsword"}},
 
 //    -=- OBJECTS  -=-
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_techstation"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_apexfuelhatch"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"apexshiplocker"}}
 ]

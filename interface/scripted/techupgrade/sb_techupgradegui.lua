@@ -48,6 +48,7 @@ function init() originalInit()
   sb_prepareSuits()
   sb_selectTechDescription = config.getParameter("sb_selectTechDescription")
   sb_downloadTechDescription = config.getParameter("sb_downloadTechDescription")
+  sb_bindTechDescription = config.getParameter("sb_bindTechDescription")
   sb_downloadCost = config.getParameter("sb_downloadCost", 1)
   sb_suitImage = string.format(config.getParameter("suitImagePath"), player.species(), player.gender())
   sb_suitSelectedPath = string.format(self.suitSelectedPath, player.species(), player.gender(), ""):gsub("-.png","")..".png"
@@ -187,6 +188,32 @@ function sb_download()
   end
 end
 
+function sb_bind()
+  if self.selectedTech and (contains(sb_ownedImplants, self.selectedTech) or contains(player.enabledTechs(), self.selectedTech)) then
+    if player.isAdmin() or player.consumeItem({name="techcard",count=sb_downloadCost}) then
+      if not sb_bindedTechItemDescription then
+        local itemConfig = root.itemConfig("sb_bindedtech").config
+        sb_bindedTechItemDescription = itemConfig.descriptionTemplate
+        sb_bindedTechItemSubtitle = itemConfig.subtitle
+        sb_bindedTechItemDurabilityHit = itemConfig.durabilityHit
+      end
+      local description = string.format(sb_bindedTechItemDescription, self.techs[self.selectedTech].shortDescription)
+      player.giveItem({"sb_bindedtech",1,{
+        techModule = self.selectedTech,
+        inventoryIcon = sb_assetmissing(self.techs[self.selectedTech].icon),
+        description = "^clear;" .. string.gsub(string.gsub(description, "(%^.-%;)", ""),("\n"),""),
+        durabilityHit = sb_bindedTechItemDurabilityHit,
+        tooltipFields = {
+          subtitle = string.format(sb_bindedTechItemSubtitle, root.techType(self.selectedTech)),
+          fakeDescriptionLabel = description
+        }
+      }})
+    else
+      widget.setText("lblDescription", sb_bindTechDescription)
+    end
+  end
+end
+
 function sb_updateSuitImage()
   if sb_suit and root.hasTech(sb_suit) then
     sb_suit = player.getProperty("sb_bioimplant")
@@ -210,8 +237,9 @@ function sb_toggleButtons()
   local tech = self.selectedTech and (self.selectedSlot ~= "sb_suit" and player.equippedTech(self.selectedSlot) or self.selectedSlot == "sb_suit" and sb_suit) or false
   --yknow what fuck it it doesnt matter if the unequip/download buttons are visible for locked techs. they cant even download it. i tried string.find-ing "--" in the cost amount text but it didnt work for some reason
   --hi hello yes this is me from the future you need to %-%- ahahahaha that's also why the food rot bar detection didnt work
-  widget.setButtonEnabled("sb_download", tech and true or false)
   widget.setButtonEnabled("sb_unequip", tech and true or false)
+  widget.setButtonEnabled("sb_download", tech and true or false)
+  widget.setButtonEnabled("sb_bind", tech and true or false)
 end
 
 function sb_prepareSuits()
@@ -222,8 +250,17 @@ function sb_prepareSuits()
 end
 
 function createTooltip(p)
-  if self.selectedSlot ~= "sb_suit" then return originalCreateTooltip(p) else
-    name = widget.getChildAt(p)
+  local name = widget.getChildAt(p)
+
+  if name then
+    if name == ".sb_download" then
+      return sb_downloadTechDescription
+    elseif name == ".sb_bind" then
+      return sb_bindTechDescription
+    end
+  end
+
+  if self.selectedSlot == "sb_suit" then
     name = name and name:sub(2,(name:find("%.", 26) or 3)-1) or nil
     name = name and widget.getData(name)
     if name then
@@ -231,4 +268,6 @@ function createTooltip(p)
       return sb_tooltip
     end
   end
+
+  return originalCreateTooltip(p)
 end

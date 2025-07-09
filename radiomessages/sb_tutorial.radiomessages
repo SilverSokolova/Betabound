@@ -4,11 +4,6 @@
 
   // on picking up various tables
 
-  "sb_pickuptechstation": {
-    "type": "tutorial",
-    "text": "I see that you have obtained a tech binding station! Using it, you can create unique tech cards which can be used to equip techs on-the-go."
-  },
-
   "sb_pickuptechconsole1": {
     "type": "tutorial",
     "text": "To obtain copies of tech for the Tech Development Console, ^green;select a tech in the ^orange;tech equip menu^green; and press the 'download' button^reset;. It should be noted that this requires a tech card."

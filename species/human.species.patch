@@ -116,7 +116,6 @@
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_worklegs"}},
 
 
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_techstation_human"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_humanfuelhatch"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"humanshiplocker"}}
 ]

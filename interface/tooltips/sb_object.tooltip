@@ -59,6 +59,13 @@
     "vAnchor": "top",
     "wrapWidth": 126
   },
+  "fakeDescriptionLabel": { //Used for sb_bindedtech, which changes its description while in the player's inventory
+    "type": "label",
+    "position": [8, 69],
+    "hAnchor": "left",
+    "vAnchor": "top",
+    "wrapWidth": 126
+  },
   "rotTimeLabel": {
     "type": "label",
     "position": [8, 48],
@@ -77,20 +84,6 @@
   "objectImage": {
     "type": "image",
     "position": [70, 100],
-    "centered": true,
-    "maxSize": [70, 45],
-    "minSize": [70, 40]
-  },
-  "objectBImage": {
-    "type": "image",
-    "position": [35, 100],
-    "centered": true,
-    "maxSize": [70, 45],
-    "minSize": [70, 40]
-  },
-  "objectCImage": {
-    "type": "image",
-    "position": [100, 100],
     "centered": true,
     "maxSize": [70, 45],
     "minSize": [70, 40]

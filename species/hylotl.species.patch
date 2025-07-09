@@ -77,7 +77,6 @@
 
 
 //    -=- OBJECTS  -=-
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_techstation_hylotl"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_hylotlfuelhatch"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"hylotlshiplocker"}}],
 

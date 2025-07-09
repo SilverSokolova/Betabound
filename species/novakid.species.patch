@@ -100,7 +100,6 @@ hylotl - axes
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aviantier6sspear"}},
 
 //    -=- OBJECTS  -=-
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_techstation_novakid"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novakidfuelhatch"}},
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"novakidshiplocker"}}
 ]

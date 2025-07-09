@@ -35,7 +35,7 @@
       "path": "/gui/sb_unequip",
       "value": {
         "type": "button",
-        "zlevel" : 7,
+        "zlevel": 7,
         "base": "/interface/button.png",
         "hover": "/interface/buttonhover.png",
         "pressedOffset": [0, -1],
@@ -64,6 +64,22 @@
   ],
   [{
       "op": "add",
+      "path": "/gui/sb_bind",
+      "value": {
+        "type": "button",
+        "zlevel": 7,
+        "base": "/interface/button.png",
+        "hover": "/interface/buttonhover.png",
+        "pressedOffset": [0, -1],
+        "caption": "Bind",
+        "position": [116, 1],
+        "callback": "sb_bind",
+        "disabled": true
+      }
+    }
+  ],
+  [{
+      "op": "add",
       "path": "/scriptWidgetCallbacks/-",
       "value": "sb_showSuits"
     }
@@ -82,6 +98,12 @@
   ],
   [{
       "op": "add",
+      "path": "/scriptWidgetCallbacks/-",
+      "value": "sb_bind"
+    }
+  ],
+  [{
+      "op": "add",
       "path": "/slotLabelText/sb_suit",
       "value": "SUIT TECH"
     }
@@ -95,7 +117,13 @@
   [{
       "op": "add",
       "path": "/sb_downloadTechDescription",
-      "value": "Use Tech Cards to download techs into your inventory"
+      "value": "Use a Tech Card to create a tech unlock item which can also be used for crafting"
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb_bindTechDescription",
+      "value": "Use a Tech Card to create a tech equip item"
     }
   ],
   [{
@@ -143,7 +171,7 @@
     }, {
       "op": "replace",
       "path": "/gui/pat_remove/position",
-      "value": [116, 1]
+      "value": [169, 1]
     }
   ],
 
