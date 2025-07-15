@@ -1,0 +1,4 @@
+//Placeable Ingots Reborn
+[
+[{"op":"test","path":"/input/0/item","value":"ceruliumcompound"},{"op":"replace","path":"/input/0/item","value":"sb_ceruliumcompound"}]
+]

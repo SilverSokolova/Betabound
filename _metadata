@@ -68,6 +68,7 @@
 
     //RECIPE CHANGES
       "Bees Reborn", //3482241514 Make rubium frame use rubium
+      "Placeable Ingots Reborn", //3525232129 Removed crafting materials in recipes are now Betabound items
 
 
     //FIX
