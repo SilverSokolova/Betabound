@@ -28,8 +28,10 @@ function init()
 
   damageListener = damageListener("damageTaken", function(notifications)
     if arrestStatus == "active" then
-      for _,notification in pairs(notifications) do
-        arrestProgress = math.max(0, arrestProgress - notification.damageDealt * damageInterruptFactor)
+      for _, notification in pairs(notifications) do
+        if notification.sourceEntityId ~= -65536 then
+          arrestProgress = math.max(0, arrestProgress - notification.damageDealt * damageInterruptFactor)
+        end
       end
     end
   end)
