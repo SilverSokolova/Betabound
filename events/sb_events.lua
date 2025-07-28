@@ -48,7 +48,7 @@ function init()
 
   self.pendingConfirmations = {}
 
-  message.setHandler("confirm", function(_, _, dialogConfig)
+  message.setHandler("sb_confirm", function(_, _, dialogConfig)
       local uuid = sb.makeUuid()
       dialogConfig.paneLayout = "/interface/windowconfig/simpleconfirmation.config:paneLayout"
       self.pendingConfirmations[uuid] = player.confirm(dialogConfig)
@@ -56,7 +56,7 @@ function init()
     end)
 
   -- nil for unfinished, false for declined, true for accepted
-  message.setHandler("confirmResult", function(_, _, uuid)
+  message.setHandler("sb_confirmResult", function(_, _, uuid)
       local promise = self.pendingConfirmations[uuid]
       if not promise then
         return false
