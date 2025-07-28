@@ -77,7 +77,14 @@ xrc0018[14]=function()
   for i = 1, #p do player.setProperty(p[i],status.statusProperty(p[i],d[i])) status.setStatusProperty(p[i]) end
   if type(player.getProperty(p[1])) ~= "string" then player.setProperty(p[1],nil) end
 end
-xrc0018[15]=function() quest("destroyruin","sb_beamaxe2") end
+
+xrc0018[15]=function()
+  require("/scripts/sb_assetmissing.lua")
+  if not sb_storyDisablerInstalled() then
+    quest("destroyruin","sb_beamaxe2")
+  end
+end
+
 xrc0018[17]=function() player.setProperty("sb_availableBioimplants",{}) if player.getProperty("sb_bioimplant","") == "sb_noprotection" then player.setProperty("sb_bioimplant") end end
 xrc0018[18]=function()
   local a, b, e, f = player.getProperty("sb_bioimplants"), root.assetJson("/versioning/sb_tech.config"), {}, player.getProperty("sb_availableBioimplants")
@@ -143,7 +150,7 @@ end
 xrc0018[20]=function()
   local q = {"sb_floranfan1","sb_hylotlwarriorE2"}
   for i = 1, #q do
-    if player.hasCompletedQuest(q[i]..".gearup") then
+    if player.hasCompletedQuest(q[i]..".gearup") or player.hasCompletedQuest(q[i]) then
       player.setUniverseFlag(q[i])
     end
   end
@@ -213,13 +220,14 @@ end
 --27: The tech binding stations no longer allow players to equip techs. Give them a techconsole so they have one
 --Give players an ammo guide if they missed it (returning player)
 --We use to have two scripts like this. One was shitty, so I'm ditching it completely now. If there are returning players from when that script was still used, run its code before deleting the version tracker
+--Some quests are commented out due to no longer existing under those names. Characters affected by the commented out 'fixes' will need to grab the quest from the outpost again, just like anyone else who had those quests active
 xrc0018[27]=function()
-  quest("sb_outpostSkin.gearup","techconsole")
+--quest("sb_outpostSkin.gearup","techconsole")
   if not newPlayer then player.giveItem("sb_gunguide-codex") end
   local a = status.statusProperty("xrc_0018")
   if a then
     if pv == 0 then player.giveItem("sb_inspect") player.giveItem("sb_survivalguide-codex") elseif
-      pv == 1 and player.hasActiveQuest("sb_avianrefugeeE2.gearup") then player.giveBlueprint("paperwingsback") player.giveItem("voxel5k") elseif
+    --pv == 1 and player.hasActiveQuest("sb_avianrefugeeE2.gearup") then player.giveBlueprint("paperwingsback") player.giveItem("voxel5k") elseif
       pv == 2 and #player.shipUpgrades().capabilities > 0 then require("/scripts/sb_assetmissing.lua") local i = "sb_"..(player.species()=="novakid" and "nova" or player.species()).."starter" if sb_itemExists(i) then player.giveItem(i) end elseif
       pv == 3 and #player.shipUpgrades().capabilities > 0 then require("/scripts/sb_assetmissing.lua") local i = "sb_"..player.species().."tier0shortsword" if sb_itemExists(i) then player.giveItem(i) end
     end
@@ -267,7 +275,7 @@ xrc0018[34]=function()
   local quests = root.assetJson("/scripts/sb_versioning/changedQuestIds.json")
   for v, k in pairs(quests) do
     if player.hasCompletedQuest(v..".gearup") then
-      sb.logInfo(string.format("Player has done %s.gearup, giving required items for %s", v, k))
+      sb.logInfo(string.format("Player has previously completed %s.gearup, giving required items for %s", v, k))
       local questItems = root.questConfig(type(k) == "string" and k or v).scriptConfig
       if questItems then
         questItems = questItems.conditions

@@ -1,0 +1,6 @@
+{
+  "currencyInputs": {"essence":3000},
+  "input": [["manipulatormodule",30],["upgrademodule",10],["sb_ceruliumcompound",15]],
+  "output": "sb_beamaxe2",
+  "groups": ["sb_treasuredtrophies_beamaxe2", "nouncrafting", "all"]
+}

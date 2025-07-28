@@ -21,3 +21,7 @@ function sb_checkClient()
   end
   return math.betabound_client
 end
+
+function sb_storyDisablerInstalled()
+  return root.assetJson("/quests/story/apex_mission2.questtemplate:script") == "/quests/scripts/sdisabler_autocomplete.lua"
+end

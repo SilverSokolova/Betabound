@@ -3,7 +3,7 @@ require("/scripts/sb_assetmissing.lua")
 
 function init()
   sb_techType()
-  skipMessage = config.getParameter("skipTechUnlockMessages", root.assetJson("/quests/story/apex_mission2.questtemplate:script") == "/quests/scripts/sdisabler_autocomplete.lua")
+  skipMessage = config.getParameter("skipTechUnlockMessages", sb_storyDisablerInstalled())
   local quests = config.getParameter("quests")
   for i = 1, #quests do
     if player.hasCompletedQuest(quests[i]) then unlockTech(i) end
