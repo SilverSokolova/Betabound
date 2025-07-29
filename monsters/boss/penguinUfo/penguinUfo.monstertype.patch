@@ -1,1 +1,43 @@
-[[{"op":"test","path":"/description","inverse":true},{"op":"add","path":"/description","value":"The infamous Penguin pirate Dreadwing, in his unmistakable UFO."}],[{"op":"add","path":"/baseParameters/projectiles/deathexplosion/config/actionOnReap/-","value":{"action":"projectile","type":"sb_dreadwreckage","inheritDamageFactor":0.2,"fuzzAngle":30,"angleAdjust":0}},{"op":"add","path":"/baseParameters/projectiles/deathexplosion/config/actionOnReap/-","value":{"action":"projectile","type":"sb_dreadwreckage","inheritDamageFactor":0.2,"fuzzAngle":30,"angleAdjust":45}},{"op":"add","path":"/baseParameters/projectiles/deathexplosion/config/actionOnReap/-","value":{"action":"projectile","type":"sb_dreadwreckage","inheritDamageFactor":0.2,"fuzzAngle":30,"angleAdjust":-45}}]]
+[
+  [{
+      "op": "test",
+      "path": "/description",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/description",
+      "value": "The infamous Penguin pirate Dreadwing, in his unmistakable UFO."
+    }
+  ], [{
+      "op": "add",
+      "path": "/baseParameters/projectiles/deathexplosion/config/actionOnReap/-",
+      "value": {
+        "action": "projectile",
+        "type": "sb_dreadwreckage",
+        "inheritDamageFactor": 0.2,
+        "fuzzAngle": 30,
+        "angleAdjust": 0
+      }
+    }, {
+      "op": "add",
+      "path": "/baseParameters/projectiles/deathexplosion/config/actionOnReap/-",
+      "value": {
+        "action": "projectile",
+        "type": "sb_dreadwreckage",
+        "inheritDamageFactor": 0.2,
+        "fuzzAngle": 30,
+        "angleAdjust": 45
+      }
+    }, {
+      "op": "add",
+      "path": "/baseParameters/projectiles/deathexplosion/config/actionOnReap/-",
+      "value": {
+        "action": "projectile",
+        "type": "sb_dreadwreckage",
+        "inheritDamageFactor": 0.2,
+        "fuzzAngle": 30,
+        "angleAdjust": -45
+      }
+    }
+  ]
+]

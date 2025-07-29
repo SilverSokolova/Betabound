@@ -867,19 +867,6 @@
 
 //BETABOUND BOSSES
 
-,{"name":"sb_quest","shortdescription":"^#9be3d6;First Contact","category":"sb_quest",
-"icon":"/objects/boss/sb_ironbeaconicon.png","rarity":"essential","parameters":{
-              "quest":"sb_ironbeacon",
-              "inventoryIcon" : [{
-                  "image":"sb_quest.png"
-                },{
-                  "image":"/objects/boss/sb_ironbeaconicon.png",
-                  "position" : [0, -0.5]
-                }],
-              "description":"Using this item will start the quest '^#9be3d6;First Contact^reset;' (if possible.)",
-              "shortdescription":"^#9be3d6;First Contact^reset;"
-            }}
-
 ,{"name":"sb_quest","shortdescription":"^#9be3d6;One Person's Trash...","category":"sb_quest",
 "icon":"/objects/boss/sb_roboticon.png","rarity":"essential","parameters":{
               "quest":"sb_robot",

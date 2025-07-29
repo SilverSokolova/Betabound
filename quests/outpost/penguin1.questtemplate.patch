@@ -1,0 +1,13 @@
+[
+  [{
+      "op": "test",
+      "path": "/text",
+      "value": "Help me out, would ya? Business around here hasn't been so great since all my regulars are on the run from ^orange;Dreadwing^white; and his gang of crooks! Can you ^green;go and defeat Dreadwing^white; for me? Come speak when you're ready, I'll send ya right to him!"
+    }, {
+      "op": "replace",
+      "path": "/text",
+      "value": "Help me out, would ya? Business around here hasn't been so great since all my regulars are on the run from ^orange;Dreadwing^reset; and his gang of crooks! Can you ^green;go and defeat Dreadwing^reset; for me? ^green;I'll throw in a ^orange;Molten Core^green; from his last ship too!^reset; Come speak when you're ready, I'll send ya right to him!"
+    }
+  ],
+  [{"op":"add","path":"/rewards/0/-","value":["moltencore"]}]
+]

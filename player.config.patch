@@ -173,6 +173,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"markerwallplaque1"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"locker1"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"locker2"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_ironbeacon"}}],
 
 //Tiered Furniture
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"serenechair"}}],

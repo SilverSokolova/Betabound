@@ -1,0 +1,5 @@
+{
+  "input": [["sb_steelbar",3],"titaniumbar"],
+  "output": "sb_brainextractor",
+  "groups": ["craftinganvil2","weapons","all"]
+}
