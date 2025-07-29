@@ -3,7 +3,7 @@
   "rarity": "unCommon",
   "tooltipKind": "sb_object",
   "category": "other",
-  "inventoryFilters": {"materialBag":{},"default":{"tagWhitelist":[]}},
+  "inventoryFilters": {"materialBag":{},"default":{"tagWhitelist":[]},"autoAddToCustomBar":{"categoryWhitelist":["other"]}},
   "tooltipFields": {
     "subtitle": "Ladder",
     "objectImage": "/objects/sb_ladders/modernladderlarge.png"
