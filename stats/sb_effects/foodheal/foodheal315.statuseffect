@@ -1,12 +1,12 @@
 {
-  "name" : "sb_foodheal315",
-  "effectConfig" : {
-    "healAmount" : 315,
-    "emissionRate" : 2.8
+  "name": "sb_foodheal315",
+  "effectConfig": {
+    "healAmount": 315,
+    "emissionRate": 2.8
   },
-  "defaultDuration" : 4.5,
-  "scripts" : ["foodheal.lua"],
-  "animationConfig" : "foodheal.animation",
-  "label" : "Healing",
-  "icon" : "/interface/statuses/heal.png"
+  "defaultDuration": 4.5,
+  "scripts": ["foodheal.lua"],
+  "animationConfig": "foodheal.animation",
+  "label": "Healing",
+  "icon": "/interface/statuses/heal.png"
 }

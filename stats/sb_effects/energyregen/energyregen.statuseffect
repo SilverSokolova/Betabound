@@ -1,9 +1,9 @@
 {
-  "name" : "sb_energyregen",
-  "effectConfig" : {},
-  "defaultDuration" : 30,
-  "scripts" : ["energyregen.lua"],
-  "animationConfig" : "energyregen.animation",
-  "label" : "Energy Regeneration",
-  "icon" : "/interface/statuses/energyregen.png"
+  "name": "sb_energyregen",
+  "effectConfig": {},
+  "defaultDuration": 30,
+  "scripts": ["energyregen.lua"],
+  "animationConfig": "energyregen.animation",
+  "label": "Energy Regeneration",
+  "icon": "/interface/statuses/energyregen.png"
 }

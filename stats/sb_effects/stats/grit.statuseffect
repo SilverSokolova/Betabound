@@ -1,9 +1,9 @@
 {
-  "name" : "sb_grit",
-  "effectConfig" : {
-    "stat" : "grit",
-    "amount" : 1
+  "name": "sb_grit",
+  "effectConfig": {
+    "stat": "grit",
+    "amount": 1
   },
-  "defaultDuration" : 1,
-  "scripts" : ["a.lua"]
+  "defaultDuration": 1,
+  "scripts": ["a.lua"]
 }

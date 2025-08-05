@@ -1,16 +1,17 @@
 local originalInit = init
-function init() if ini and type(ini)=="function" then originalInit() end
-  tick = config.getParameter("tick",0.002)
-  modifier = config.getParameter("start",1)
-  min = config.getParameter("min",0.35)
-  suppress = config.getParameter("suppressRunning",0.5)
+
+function init() if originalInit and type(originalInit)=="function" then originalInit() end
+  tick = config.getParameter("tick", 0.002)
+  modifier = config.getParameter("start", 1)
+  min = config.getParameter("min", 0.35)
+  suppress = config.getParameter("suppressRunning", 0.5)
 end
 
 function update(dt)
   mcontroller.controlModifiers({
-  speedModifier=modifier,
-  airJumpModifier=modifier,
-  runningSuppressed=modifier<suppress
+    speedModifier = modifier,
+    airJumpModifier = modifier,
+    runningSuppressed = modifier < suppress
   })
-  modifier = math.max(min,modifier-tick)
+  modifier = math.max(min, modifier - tick)
 end

@@ -1,10 +1,10 @@
 {
-  "name" : "sb_glide",
-  "effectConfig" : {
-    "gravityModifier" : 0.018
+  "name": "sb_glide",
+  "effectConfig": {
+    "gravityModifier": 0.018
   },
-  "defaultDuration" : 5,
-  "scripts" : ["glide.lua"],
-  "icon" : "/items/armors/backitems/parachutepack/icons.png:back?replace;ffca8a=838383;e0975c=555;a85636=383838;6f2919=151515",
-  "label" : "Parachute"
+  "defaultDuration": 5,
+  "scripts": ["glide.lua"],
+  "icon": "/items/armors/backitems/parachutepack/icons.png:back?replace;ffca8a=838383;e0975c=555;a85636=383838;6f2919=151515",
+  "label": "Parachute"
 }
