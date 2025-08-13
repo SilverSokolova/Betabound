@@ -1,5 +1,5 @@
 {
   "input": [["darkwoodmaterial",6],["cobblestonematerial",12],["plantfibre",3]],
   "output": "sb_stonehoe",
-  "groups": ["sb_craftingtable","tools","craftingfarm","farming","all"]
+  "groups": ["craftingfarm","farming","all"]
 }

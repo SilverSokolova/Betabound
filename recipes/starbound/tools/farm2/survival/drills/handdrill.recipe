@@ -1,5 +1,5 @@
 {
   "input": ["battery",["sb_steelbar",6],["wire",4]],
   "output": "sb_handdrill",
-  "groups": ["sb_roboticcraftingtable","mining","all"]
+  "groups": ["craftingfarm2","survival","all"]
 }

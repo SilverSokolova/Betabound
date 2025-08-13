@@ -1,5 +1,5 @@
 {
   "input": [["diamond",8],"platinumdrill"],
   "output": "diamonddrill",
-  "groups": ["sb_roboticcraftingtable","mining","nouncrafting","all"]
+  "groups": ["nouncrafting","craftingfarm2","survival","all"]
 }

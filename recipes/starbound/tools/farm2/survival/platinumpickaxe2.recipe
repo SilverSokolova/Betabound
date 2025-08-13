@@ -1,5 +1,5 @@
 {
   "input": [["platinumbar",4],"goldpickaxe"],
   "output": "platinumpickaxe",
-  "groups": ["sb_roboticcraftingtable","mining","nouncrafting","all"]
+  "groups": ["nouncrafting","craftingfarm2","survival","all"]
 }

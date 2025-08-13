@@ -1,5 +1,5 @@
 {
   "input": [["silverbar",8],"sb_stonepickaxe"],
   "output": "silverpickaxe",
-  "groups": ["sb_ironcraftingtable","mining","all"]
+  "groups": ["craftingfarm","survival","all"]
 }
