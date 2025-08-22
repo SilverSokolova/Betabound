@@ -4,7 +4,6 @@
   "rarity": "Legendary",
   "icon": "/tech/starbound/flyingjump.png",
   "description": "Grants four additional jumps that can be used while in the air!",
-  "sb_briefDescription": "Four additional jumps that can be used while in the air!",
   "sb_longDescription": "Refreshed upon landing.",
   "shortDescription": "Flying Energy Jump",
   "chipCost": 16,

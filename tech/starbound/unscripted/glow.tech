@@ -6,6 +6,6 @@
   "sb_effect": "sb_glowtech",
   "sb_suitImage": "?replace;73daff=ffffe6;27abff=ffffc7;117ee4=fff03f;1f45d4=c9be06",
   "rarity": "Rare",
-  "description": "Causes the wearer to emit light.",
+  "description": "Causes the wearer to emit light!",
   "shortDescription": "Glow"
 }

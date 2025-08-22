@@ -6,9 +6,7 @@
   "chipCost": 12,
   "rarity": "Legendary",
   "icon": "/tech/starbound/waterball.png",
-  "description": "Double-tap ^#0f0;[DOWN]^reset; to smash/bounce, press ^#0f0;[F]^reset; to turn into a ball.",
-  "sb_longDescription": "You can bounce while in ball form.",
-  "sb_briefDescription": "Double-tap ^#0f0;[DOWN]^reset; to bounce, press ^#0f0;[F]^reset; to turn into a ball.",
+  "description": "Double tap ^green;[DOWN]^reset; to smash/bounce, press ^green;[F]^reset; to turn into a ball!",
   "shortDescription": "Waterball",
 
   "animationParts": {

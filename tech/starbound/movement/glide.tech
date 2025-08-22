@@ -7,7 +7,7 @@
   "sb_effect": "sb_glidetech",
   "sb_suitImage": "?replace;73daff=fff;27abff=def8ff;117ee4=6ae1ff;1f45d4=2cd5ff", //sb_shield color
   "rarity": "Rare",
-  "description": "Decreases horizontal air force, aiding in midair directional changes.",
+  "description": "Decreases horizontal air force, aiding in midair directional changes!",
   "shortDescription": "Glide",
 
   "stat": "airForce",

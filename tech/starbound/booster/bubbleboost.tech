@@ -4,9 +4,10 @@
 
   "rarity": "Legendary",
   "icon": "/tech/starbound/bubbleboost.png",
-  "description": "Grants loose flight in any direction! ^#0f0;[SPACE]",
+  "description": "Grants loose flight in any direction! ^green;[SPACE]^reset;",
   "sb_longDescription": "It just screams 'December 2013,' doesn't it?",
   "shortDescription": "Bubble Boost",
+  "tooltipKind": "sb_object4",
 
   "scripts": ["booster.lua"],
   "animator": "bubbleboost.animation",

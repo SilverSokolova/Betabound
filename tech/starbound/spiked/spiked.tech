@@ -6,6 +6,6 @@
   "sb_effect": ["sb_spikedtech"],
   "sb_suitImage": "?replace;73daff=e6e6e6;27abff=b6b6b6;117ee4=7b7b7b;1f45d4=555",
   "rarity": "Rare",
-  "description": "Reflects damage back at enemies.",
+  "description": "Reflects damage back at enemies!",
   "shortDescription": "Spikes"
 }

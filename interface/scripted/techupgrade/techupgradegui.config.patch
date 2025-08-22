@@ -117,7 +117,7 @@
   [{
       "op": "add",
       "path": "/sb_downloadTechDescription",
-      "value": "Use a Tech Card to create a tech unlock item which can also be used for crafting"
+      "value": "Use a Tech Card to create a tech unlock/crafting item"
     }
   ],
   [{

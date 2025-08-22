@@ -5,7 +5,7 @@
   "rarity": "uncommon",
   "chipCost": 1,
   "icon": "/tech/starbound/skyrail.png",
-  "description": "Generates a sky hook, for attaching to skyrails. ^#0f0;[F]",
+  "description": "Generates a sky hook, for attaching to skyrails! ^green;[F]^reset;",
   "shortDescription": "Skyrail Rider",
 
   "scripts": ["skyrail.lua"],

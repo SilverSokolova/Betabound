@@ -4,8 +4,8 @@
 
   "rarity": "rare",
   "icon": "/tech/starbound/randblink.png",
-  "description": "Teleport to random places! ^#0f0;[F]",
-  "sb_longDescription": "^reset;Are you brave enough?",
+  "description": "Teleport to random places! ^green;[F]^reset;",
+  "sb_longDescription": "Are you brave enough?",
   "shortDescription": "Random Blink",
 
   "scripts": ["blink.lua"],

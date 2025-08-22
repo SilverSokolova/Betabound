@@ -6,6 +6,6 @@
   "sb_effect": "sb_forcefieldtech",
   "sb_suitImage": "?replace;73daff=9bccff;27abff=5dadff;117ee4=1f8dff;1f45d4=0060c1",
   "rarity": "Legendary",
-  "description": "A constant force field which splits incoming damage between health and energy.",
+  "description": "A constant force field which splits incoming damage between health and energy!",
   "shortDescription": "Force Field"
 }

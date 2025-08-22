@@ -6,7 +6,7 @@
   "rarity": "legendary",
   "icon": "/tech/starbound/glitchmech.png",
   "shortDescription": "Glitch Mech",
-  "description": "^#0F0;[F]^reset; Use this tech, spawn a mech, then destroy things.",
+  "description": "Use this tech, spawn a mech, then destroy things. ^green;[F]^reset;",
 
   "mechStats": [{
       "stat": "fallDamageMultiplier",

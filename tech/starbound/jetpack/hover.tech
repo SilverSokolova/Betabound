@@ -4,7 +4,7 @@
 
   "rarity": "Legendary",
   "icon": "/tech/starbound/hover.png",
-  "description": "Neutralise both gravity and inertia!",
+  "description": "Neutralise both gravity and inertia! ^green;[SPACE]^reset;",
   "shortDescription": "Gravity Neutraliser",
 
   "scripts": ["jetpack.lua"],

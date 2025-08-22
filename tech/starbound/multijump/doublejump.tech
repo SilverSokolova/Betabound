@@ -4,7 +4,6 @@
   "rarity": "Legendary",
   "icon": "/tech/starbound/doublejump.png",
   "description": "Grants two additional jumps that can be used while in the air!",
-  "sb_briefDescription": "Two additional jumps that can be used while in the air!",
   "sb_longDescription": "Refreshed upon landing.",
   "shortDescription": "Energy Pulse Jump",
   "chipCost": 10,

@@ -4,8 +4,7 @@
 
   "rarity": "Legendary",
   "icon": "/tech/starbound/dash.png",
-  "description": "A dash which uses energy and has no cooldown! ^green;[A]^reset;/^green;[D]^reset;",
-  "sb_longDescription": "You can dash while crouching.",
+  "description": "Double tap ^green;[A]^reset;/^green;[D]^reset; to use energy to dash, ^green;[S]^reset; to slide!",
   "shortDescription": "Energy Dash",
   "chipCost": 10,
 

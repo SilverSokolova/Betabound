@@ -8,7 +8,10 @@ local originalCreateTooltip = createTooltip or function() end
 local originalTechSlotGroup = techSlotGroup or function() end
 local originalPat_remove = pat_remove or function() end
 
-function init() originalInit()
+function init()
+  sb_selectTechDescription = config.getParameter("sb_selectTechDescription")
+  originalInit()
+
   if sb_didInit then return end --prevent stack overflow when removing techs with Patman's mod
   sb_didInit = true
 
@@ -46,7 +49,6 @@ function init() originalInit()
 --widget.setPosition("sb_btnSuit",{widget.getPosition("lblSlot")[1]-2, widget.getPosition("close")[2]-16})
 --widget.setPosition("sb_btnSuit",{pos[1] - (widget.getChildAt({321, 236}) and 72 or 90),pos[2]-2}) --width of button plus 18/36
   sb_prepareSuits()
-  sb_selectTechDescription = config.getParameter("sb_selectTechDescription")
   sb_downloadTechDescription = config.getParameter("sb_downloadTechDescription")
   sb_bindTechDescription = config.getParameter("sb_bindTechDescription")
   sb_downloadCost = config.getParameter("sb_downloadCost", 1)
@@ -62,9 +64,8 @@ end
 function setSelectedTech(techName)
   if self.selectedSlot ~= "sb_suit" then
     originalSetSelectedTech(techName)
-    local config = root.techConfig(techName)
-    if config.sb_briefDescription then
-      widget.setText("lblDescription", config.sb_briefDescription)
+    if sb_selectTechDescription then
+      widget.setText("lblDescription", sb_selectTechDescription)
     end
   else
     self.selectedTech = techName
@@ -183,7 +184,7 @@ function sb_download()
     if player.isAdmin() or player.consumeItem({name="techcard",count=sb_downloadCost}) then
       player.giveItem({"sb_tech",1,{techModule=self.selectedTech}})
     else
-      widget.setText("lblDescription", sb_downloadTechDescription)
+      --TODO: play sfx
     end
   end
 end
@@ -209,7 +210,7 @@ function sb_bind()
         }
       }})
     else
-      widget.setText("lblDescription", sb_bindTechDescription)
+      --TODO: play sfx
     end
   end
 end
@@ -258,13 +259,11 @@ function createTooltip(p)
     elseif name == ".sb_bind" then
       return sb_bindTechDescription
     end
-  end
 
-  if self.selectedSlot == "sb_suit" then
     name = name and name:sub(2,(name:find("%.", 26) or 3)-1) or nil
     name = name and widget.getData(name)
     if name then
-      sb_tooltip.descriptionLabel.value = self.techs[name].description
+      sb_tooltip.descriptionLabel.value = self.techs[name].description .. " " .. (self.techs[name].sb_longDescription or "")
       return sb_tooltip
     end
   end

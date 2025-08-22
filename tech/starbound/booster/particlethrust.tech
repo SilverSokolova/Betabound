@@ -4,7 +4,7 @@
 
   "rarity": "Legendary",
   "icon": "/tech/starbound/particlethrust.png",
-  "description": "Grants slow flight in any direction! ^#0f0;[SPACE]",
+  "description": "Grants slow flight in any direction! ^green;[SPACE]",
   "shortDescription": "Particle Thrust",
 
   "scripts": ["booster.lua"],

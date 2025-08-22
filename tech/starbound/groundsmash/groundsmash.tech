@@ -12,7 +12,7 @@
 
   "rarity": "Legendary",
   "icon": "/tech/starbound/groundsmash.png",
-  "description": "Double tap ^#0f0;[DOWN]^reset; in the air and smash the ground!",
+  "description": "Double tap ^green;[DOWN]^reset; in the air to smash the ground!",
   "shortDescription": "Ground Smash",
 
   "knockbackSpeed": 30,

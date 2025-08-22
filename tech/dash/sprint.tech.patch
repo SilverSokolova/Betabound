@@ -1,5 +1,5 @@
 [
-[{"op":"test","path":"/description","value":"Replaces the dash with a sprint which costs energy!"},{"op":"replace","path":"/description","value":"A sustained sprint which costs energy! ^green;[A]^reset;/^green;[D]^reset;"}],
+[{"op":"test","path":"/description","value":"Replaces the dash with a sprint which costs energy!"},{"op":"replace","path":"/description","value":"A sustained sprint which costs energy!"}],
 [{"op":"replace","path":"/stopAfterDash","value":false}],
 [{"op":"add","path":"/scripts/-","value":"sb_sprint.lua"}]
 ]

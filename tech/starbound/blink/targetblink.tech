@@ -4,7 +4,8 @@
 
   "rarity": "Legendary",
   "icon": "/tech/starbound/blink.png",
-  "description": "Teleport to any location in sight! ^#0f0;[F]",
+  "description": "Teleport to any location in sight! ^green;[F]^reset;",
+  "sb_longDescription": "Energy usage scales with distance.",
   "shortDescription": "Targeted Blink",
   "chipCost": 14,
 

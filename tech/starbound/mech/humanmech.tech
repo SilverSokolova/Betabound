@@ -6,7 +6,7 @@
   "rarity": "legendary",
   "icon": "/tech/starbound/humanmech.png",
   "shortDescription": "Human Mech",
-  "description": "^#0F0;[F]^reset; Summons an Earthcorp X5C-1 Versitile Scout mech.", // ^#0F0;[SHIFT]^reset; to swap weapons.",
+  "description": "Summons an Earthcorp X5C-1 Versitile Scout mech. ^green;[F]^reset;", // ^#0F0;[SHIFT]^reset; to swap weapons.",
 
   "mechStats": [{
       "stat": "breathProtection",

@@ -14,6 +14,9 @@ function build(_, config, parameters, level);
   if tech.shortDescription then
     config.shortdescription = tech.shortDescription --My beautiful loop, RUINED by this if statement, all because of this game's inconsistency!
   end
+  if tech.sb_longDescription then
+    config.description = config.description .. " " .. tech.sb_longDescription
+  end
 
   config.inventoryIcon = jarray()
   config.tooltipFields.subtitle = string.format(config.subtitle, root.techType(tech.name))
