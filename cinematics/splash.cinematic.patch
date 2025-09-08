@@ -1,3 +1,4 @@
+//Add 4 to all startTimes
 [
   [{
       "op": "add",
@@ -29,18 +30,15 @@
         "keyframes": [{
             "timecode": 0,
             "alpha": 0,
-            "position": [480,220],
+            "position": [480, 220],
             "zoom": 1,
             "frame": 0
           }, {
             "timecode": 0.5,
-            "alpha": 1,
-            "zoom": 1,
-            "frame": 0
+            "alpha": 1
           }, {
             "timecode": 10000,
             "alpha": 1,
-            "zoom": 1,
             "frame": 110000
           }
         ]
@@ -58,27 +56,25 @@
         "keyframes": [{
             "timecode": 0,
             "alpha": 0,
-            "position": [480,270],
-            "zoom": 1,
-            "frame": 0
+            "position": [480, 270],
+            "zoom": 1
           }, {
             "timecode": 0.5,
-            "alpha": 1,
-            "zoom": 1,
-            "frame": 0
+            "alpha": 1
           }, {
             "timecode": 10000,
-            "alpha": 1,
-            "zoom": 1,
             "frame": 110000
           }, {
-            "timecode": 30,
+            "timecode": 29,
+            "alpha": 1
+          }, {
+            "timecode": 29.8,
             "alpha": 0
           }, {
-            "timecode": 120,
+            "timecode": 120, //When the original spinner appears again
             "alpha": 0
           }, {
-            "timecode": 120.5,
+            "timecode": 120.5, //The above timecode but plus .5
             "alpha": 1
           }
         ]
@@ -96,19 +92,20 @@
         "keyframes": [{
             "timecode": 0,
             "alpha": 0,
-            "position": [480,270],
+            "position": [480, 270],
             "zoom": 1,
             "frame": 0
           }, {
             "timecode": 0.5,
+            "alpha": 1
+          }, {
+            "timecode": 10000,
+            "frame": 110000
+          }, {
+            "timecode": 29.8,
             "alpha": 1,
             "zoom": 1,
             "frame": 0
-          }, {
-            "timecode": 10000,
-            "alpha": 0,
-            "zoom": 1,
-            "frame": 110000
           }, {
             "timecode": 30,
             "alpha": 0
@@ -120,29 +117,28 @@
       "path": "/panels/-",
       "value": {
         "drawables": [{
-            "image": "/cinematics/sb_busy3.png:<frame>"
+            "image": "/cinematics/busy.png:<frame>"
           }
         ],
         "animationFrames": 29,
         "startTime": 64,
         "keyframes": [{
-            "timecode": 0.5,
+            "timecode": 0,
             "alpha": 0,
-            "position": [480,270],
+            "position": [480, 270],
             "zoom": 1,
             "frame": 0
           }, {
-            "timecode": 0.5,
-            "alpha": 1,
-            "zoom": 1,
-            "frame": 0
+            "timecode": 1.5,
+            "alpha": 1
           }, {
             "timecode": 10000,
-            "alpha": 0,
-            "zoom": 1,
             "frame": 110000
           }, {
-            "timecode": 29.8,
+            "timecode": 28,
+            "alpha": 1
+          }, {
+            "timecode": 28.4,
             "alpha": 0
           }
         ]
@@ -158,23 +154,82 @@
         "animationFrames": 8,
         "startTime": 94,
         "keyframes": [{
-            "timecode": 0.5,
+            "timecode": 0,
             "alpha": 0,
-            "position": [480,270],
-            "zoom": 1,
-            "frame": 0
+            "position": [350, 270],
+            "zoom": 1
           }, {
             "timecode": 0.5,
-            "alpha": 1,
-            "zoom": 1,
-            "frame": 0
+            "alpha": 1
           }, {
             "timecode": 10000,
-            "alpha": 0,
-            "zoom": 1,
             "frame": 110000
           }, {
             "timecode": 29.8,
+            "alpha": 1
+          }, {
+            "timecode": 30,
+            "alpha": 0
+          }
+        ]
+      }
+    }, {
+      "op": "add",
+      "path": "/panels/-",
+      "value": {
+        "drawables": [{
+            "image": "/cinematics/giraffe2(keep).png:<frame>"
+          }
+        ],
+        "animationFrames": 8,
+        "startTime": 94,
+        "keyframes": [{
+            "timecode": 0.25,
+            "alpha": 0,
+            "position": [400, 312],
+            "zoom": 1,
+            "frame": 0
+          }, {
+            "timecode": 1,
+            "alpha": 1
+          }, {
+            "timecode": 10000,
+            "frame": 110000
+          }, {
+            "timecode": 5.8,
+            "alpha": 1
+          }, {
+            "timecode": 6,
+            "alpha": 0
+          }
+        ]
+      }
+    }, {
+      "op": "add",
+      "path": "/panels/-",
+      "value": {
+        "drawables": [{
+            "image": "/cinematics/giraffe.png:<frame>"
+          }
+        ],
+        "animationFrames": 8,
+        "startTime": 94,
+        "keyframes": [{
+            "timecode": 6,
+            "alpha": 0,
+            "position": [400, 312],
+            "zoom": 1
+          }, {
+            "timecode": 6.2,
+            "alpha": 1
+          }, {
+            "timecode": 10000,
+            "frame": 110000
+          }, {
+            "timecode": 29.8,
+            "alpha": 1
+          }, {
+            "timecode": 30,
             "alpha": 0
           }
         ]
