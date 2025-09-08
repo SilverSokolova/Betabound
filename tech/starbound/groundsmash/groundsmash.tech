@@ -7,7 +7,7 @@
 
   "energyCostPerSmash": 26,
   "groundsmashSpeed": 250,
-  "groundsmashLandingTime": 0.2,
+  "groundsmashLandingTime": 0.2, //Unused. What was it used for back then? A cooldown between attacks?
   "groundsmashControlForce": 400,
 
   "rarity": "Legendary",

@@ -6,7 +6,7 @@
   "chipCost": 12,
   "rarity": "Legendary",
   "icon": "/tech/starbound/waterball.png",
-  "description": "Double tap ^green;[DOWN]^reset; to smash/bounce, press ^green;[F]^reset; to turn into a ball!",
+  "description": "Press ^green;[F]^reset; to turn into a sphere, then double tap ^green;[DOWN]^reset; in the air to bounce!",
   "shortDescription": "Waterball",
 
   "animationParts": {
@@ -43,6 +43,14 @@
     }
   },
 
+  //The game has difficulties properly detecting when the player hits the ground when bouncy,
+  //allowing them to 'dodge' fall damage on occasion. Might as well make it a reliable bug
+  "transformedStats": [{
+      "stat": "fallDamageMultiplier",
+      "effectiveMultiplier": 0
+    }
+  ],
+
   "energyCost": 50,
   "energyCostPerSmash": 26,
   "groundsmashSpeed": 250,
@@ -55,5 +63,7 @@
   "knockbackSpeed": 30,
   "knockbackOffset": [0, -2],
   "knockbackRadius": 5,
-  "maxDoubleTapTime": 0.2
+  "maxDoubleTapTime": 0.2,
+  "mustBeActiveToSmash": true,
+  "damagingSmash": false
 }
