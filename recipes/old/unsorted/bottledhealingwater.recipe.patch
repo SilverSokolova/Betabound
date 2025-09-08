@@ -1,3 +1,4 @@
+//Vanilla groups: consumables, side
 [
 {"op":"add","path":"/groups/-","value":"plain"},
 {"op":"add","path":"/groups/-","value":"sb_health"},
