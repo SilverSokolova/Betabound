@@ -1,3 +1,4 @@
+--NOTE: The 'no events' patch replaces this file completely
 require "/scripts/util.lua"
 require "/scripts/rect.lua"
 --require "/interface/cockpit/cockpitutil.lua"
