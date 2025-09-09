@@ -4,8 +4,7 @@
 
   "rarity": "Legendary",
   "icon": "/tech/starbound/morphball.png",
-  "description": "Stop, drop and roll with this incredible Bomb Sphere tech! ^#0f0;[F]^reset; Drop bombs with ^#0f0;[RMB]^reset;!",
-  "sb_briefDescription": "Roll around with ^#0f0;[F]^reset;! Drop bombs with ^#0f0;[RMB]^reset;!",
+  "description": "Stop, drop, and roll with ^green;[F]^reset; and drop bombs with ^green;[RMB]^reset;!",
   "shortDescription": "Bomb Sphere",
 
   "scripts": ["morphball.lua"],

@@ -8,7 +8,10 @@ local originalCreateTooltip = createTooltip or function() end
 local originalTechSlotGroup = techSlotGroup or function() end
 local originalPat_remove = pat_remove or function() end
 
-function init() originalInit()
+function init()
+  sb_selectTechDescription = config.getParameter("sb_selectTechDescription")
+  originalInit()
+
   if sb_didInit then return end --prevent stack overflow when removing techs with Patman's mod
   sb_didInit = true
 
@@ -46,8 +49,8 @@ function init() originalInit()
 --widget.setPosition("sb_btnSuit",{widget.getPosition("lblSlot")[1]-2, widget.getPosition("close")[2]-16})
 --widget.setPosition("sb_btnSuit",{pos[1] - (widget.getChildAt({321, 236}) and 72 or 90),pos[2]-2}) --width of button plus 18/36
   sb_prepareSuits()
-  sb_selectTechDescription = config.getParameter("sb_selectTechDescription")
   sb_downloadTechDescription = config.getParameter("sb_downloadTechDescription")
+  sb_bindTechDescription = config.getParameter("sb_bindTechDescription")
   sb_downloadCost = config.getParameter("sb_downloadCost", 1)
   sb_suitImage = string.format(config.getParameter("suitImagePath"), player.species(), player.gender())
   sb_suitSelectedPath = string.format(self.suitSelectedPath, player.species(), player.gender(), ""):gsub("-.png","")..".png"
@@ -61,9 +64,8 @@ end
 function setSelectedTech(techName)
   if self.selectedSlot ~= "sb_suit" then
     originalSetSelectedTech(techName)
-    local config = root.techConfig(techName)
-    if config.sb_briefDescription then
-      widget.setText("lblDescription", config.sb_briefDescription)
+    if sb_selectTechDescription then
+      widget.setText("lblDescription", sb_selectTechDescription)
     end
   else
     self.selectedTech = techName
@@ -182,7 +184,33 @@ function sb_download()
     if player.isAdmin() or player.consumeItem({name="techcard",count=sb_downloadCost}) then
       player.giveItem({"sb_tech",1,{techModule=self.selectedTech}})
     else
-      widget.setText("lblDescription", sb_downloadTechDescription)
+      --TODO: play sfx
+    end
+  end
+end
+
+function sb_bind()
+  if self.selectedTech and (contains(sb_ownedImplants, self.selectedTech) or contains(player.enabledTechs(), self.selectedTech)) then
+    if player.isAdmin() or player.consumeItem({name="techcard",count=sb_downloadCost}) then
+      if not sb_bindedTechItemDescription then
+        local itemConfig = root.itemConfig("sb_bindedtech").config
+        sb_bindedTechItemDescription = itemConfig.descriptionTemplate
+        sb_bindedTechItemSubtitle = itemConfig.subtitle
+        sb_bindedTechItemDurabilityHit = itemConfig.durabilityHit
+      end
+      local description = string.format(sb_bindedTechItemDescription, self.techs[self.selectedTech].shortDescription)
+      player.giveItem({"sb_bindedtech",1,{
+        techModule = self.selectedTech,
+        inventoryIcon = sb_assetmissing(self.techs[self.selectedTech].icon),
+        description = "^clear;" .. string.gsub(string.gsub(description, "(%^.-%;)", ""),("\n"),""),
+        durabilityHit = sb_bindedTechItemDurabilityHit,
+        tooltipFields = {
+          subtitle = string.format(sb_bindedTechItemSubtitle, root.techType(self.selectedTech)),
+          fakeDescriptionLabel = description
+        }
+      }})
+    else
+      --TODO: play sfx
     end
   end
 end
@@ -210,8 +238,9 @@ function sb_toggleButtons()
   local tech = self.selectedTech and (self.selectedSlot ~= "sb_suit" and player.equippedTech(self.selectedSlot) or self.selectedSlot == "sb_suit" and sb_suit) or false
   --yknow what fuck it it doesnt matter if the unequip/download buttons are visible for locked techs. they cant even download it. i tried string.find-ing "--" in the cost amount text but it didnt work for some reason
   --hi hello yes this is me from the future you need to %-%- ahahahaha that's also why the food rot bar detection didnt work
-  widget.setButtonEnabled("sb_download", tech and true or false)
   widget.setButtonEnabled("sb_unequip", tech and true or false)
+  widget.setButtonEnabled("sb_download", tech and true or false)
+  widget.setButtonEnabled("sb_bind", tech and true or false)
 end
 
 function sb_prepareSuits()
@@ -222,13 +251,22 @@ function sb_prepareSuits()
 end
 
 function createTooltip(p)
-  if self.selectedSlot ~= "sb_suit" then return originalCreateTooltip(p) else
-    name = widget.getChildAt(p)
+  local name = widget.getChildAt(p)
+
+  if name then
+    if name == ".sb_download" then
+      return sb_downloadTechDescription
+    elseif name == ".sb_bind" then
+      return sb_bindTechDescription
+    end
+
     name = name and name:sub(2,(name:find("%.", 26) or 3)-1) or nil
     name = name and widget.getData(name)
     if name then
-      sb_tooltip.descriptionLabel.value = self.techs[name].description
+      sb_tooltip.descriptionLabel.value = self.techs[name].description .. " " .. (self.techs[name].sb_longDescription or "")
       return sb_tooltip
     end
   end
+
+  return originalCreateTooltip(p)
 end

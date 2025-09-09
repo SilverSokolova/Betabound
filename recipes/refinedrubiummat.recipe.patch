@@ -1,0 +1,4 @@
+//Placeable Ingots Reborn
+[
+[{"op":"test","path":"/input/0/item","value":"refinedrubium"},{"op":"replace","path":"/input/0/item","value":"sb_refinedrubium"}]
+]

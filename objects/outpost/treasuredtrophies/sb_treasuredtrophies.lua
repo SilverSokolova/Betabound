@@ -7,6 +7,15 @@ function init() originalInit()
       i.filter[#i.filter+1] = "sb_treasuredtrophies_"..r[n]
     end
   end
+
+  if not sb_storyDisablerInstalled then
+    require("/scripts/sb_assetmissing.lua")
+  end
+
+  if sb_storyDisablerInstalled() then
+    i.filter[#i.filter + 1] = "sb_treasuredtrophies_beamaxe2"
+  end
+
   object.setConfigParameter("interactData",i)
-  object.setConfigParameter("sb_treasuredtrophies",{}) --this is to stop that issue caused by using groundfirebombs a specific distance away. Yes, that's how you trigger it. Why do you think it went unnoticed for so long?
+  object.setConfigParameter("sb_treasuredtrophies",{}) --TODO: Don't just clear it all, check for what we've already added! We need to do this so we don't infinitely add things and cause that one issue that crashes the game when a groundfirebomb is thrown.
 end

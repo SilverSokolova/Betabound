@@ -8,7 +8,7 @@
   //"sb_suitImage": "?replace;73daff=fde189;27abff=fdc92f;117ee4=fd6911;1f45d4=cf4e02",
   "rarity": "Legendary",
   "tooltipKind": "sb_object4",
-  "description": "A temporary shield which uses energy to absorb all outside damage. It is activated upon taking damage.",
+  "description": "A temporary shield which uses energy to absorb all outside damage! It is activated upon taking damage.",
   "shortDescription": "Shield",
 
   "rechargeTime": 10,

@@ -1,0 +1,5 @@
+{
+  "input": [["darkwoodmaterial",10],"copperbar"],
+  "output": "sb_ironbeacon",
+  "groups": ["objects","all","decoration","craftingfurniture"]
+}

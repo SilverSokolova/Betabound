@@ -32,7 +32,7 @@
 
   "particleEmitters": {
     "boostParticles": {
-      "emissionRate": 20,
+      "emissionRate": 15,
       "particles": [{
           "particle": "butterflyboost1"
         }, {

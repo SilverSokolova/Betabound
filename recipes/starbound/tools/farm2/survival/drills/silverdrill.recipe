@@ -1,0 +1,5 @@
+{
+  "input": [["silverbar",12],"sb_handdrill"],
+  "output": "silverdrill",
+  "groups": ["craftingfarm2","survival","all"]
+}

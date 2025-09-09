@@ -4,7 +4,7 @@
 
   "rarity": "Legendary",
   "icon": "/tech/starbound/balldash.png",
-  "description": "Double tap ^green;[A]^reset;/^green;[D]^reset; to roll!",
+  "description": "Double tap ^green;[A]^reset;/^green;[D]^reset; to roll at high speeds in a ball!",
   "shortDescription": "Rolly Sphere",
 
   "scripts": ["balldash.lua"],

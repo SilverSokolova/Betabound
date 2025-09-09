@@ -1,5 +1,11 @@
 {
-  "name" : "sb_airpocket",
-  "effectConfig" : {"effects":[{"effect":"sb_breathprotectiontech","duration":0.1}]},
-  "scripts" : ["airpocket.lua"]
+  "name": "sb_airpocket",
+  "effectConfig": {
+    "effects": [{
+        "effect": "sb_breathprotectiontech",
+        "duration": 0.1
+      }
+    ]
+  },
+  "scripts": ["airpocket.lua"]
 }

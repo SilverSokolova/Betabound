@@ -1,5 +1,5 @@
 {
   "input": ["cryonicextract","sb_gunpowder","lead"],
-  "output": ["sb_ammo",75,{"projectileType":"airbursticebullet"}],
+  "output": ["sb_ammo",25,{"projectileType":"airbursticebullet"}],
   "groups": ["consumables","craftinganvil2","all"]
 }

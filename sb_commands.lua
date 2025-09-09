@@ -37,10 +37,11 @@ function v.isPvp(you,them) local text = root.assetJson("/sb_commands.config")
   return string.format("%s %s %s %s.",cutColors(them), cutColors(them)==cutColors(universe.clientNick(you)) and "are" or "is", universe.isPvp(them) and "" or "not", "PVP.")
 end
 ]]--
-function v.sb_itemID(_,i,d) return v.itemID(_,i,d) end
-function v.itemID(_,it,detailed) local text = root.assetJson("/sb_commands.config")
+function v.itemid(_,i,d) return v.sb_itemid(_,i,d) end
+function v.sb_itemID() text = root.assetJson("/sb_commands.config"); return text.itemid.itemID end
+function v.sb_itemid(_,it,detailed) local text = root.assetJson("/sb_commands.config")
   detailed=it[2] or false it=it[1] or "perfectlygenericitem"
-  if not sb_itemExists(it) then return string.format(text.itemID.noItem,it) else
+  if not sb_itemExists(it) then return string.format(text.itemid.noItem,it) else
   local rarities = {common="f6f6f6",uncommon="77ee67",rare="6ba8ec",legendary="bb5beb",essential="c3c53e"}
   local item = root.itemConfig(it)
   if detailed then return sb.printJson(item,1) end
@@ -55,7 +56,7 @@ function v.sb_foodweight(_,it) local text = root.assetJson("/sb_commands.config"
   it=it or {"cookedalienmeat"}
   it=type(it)=="table" and it or {it}
   for i = 1, #it do
-    if not sb_itemExists(it[i]) then s = s..string.format(text.itemID.noItem,it[i]).."\n^#ff0;" else
+    if not sb_itemExists(it[i]) then s = s..string.format(text.itemid.noItem,it[i]).."\n^#ff0;" else
     local item = root.itemConfig(it[i]).config
     s = s..((item.shortdescription or "???").." weight: "..1-(item.foodValue or 100)/100).."\n^#ff0;"
     end
@@ -66,7 +67,7 @@ end
 function v.sb_foodsum(_,it) local text = root.assetJson("/sb_commands.config")
   dr=it[2] or 1; dr=tonumber(dr); if type(dr) ~= "number" then dr = 1 end
   it=it[1] or "carrotjuice"
-  if not sb_itemExists(it) then return string.format(text.itemID.noItem,it) else
+  if not sb_itemExists(it) then return string.format(text.itemid.noItem,it) else
   local recipe = root.recipesForItem(it)
   it = root.itemConfig(it).config
   local quantity, r
@@ -93,7 +94,7 @@ end
 function v.sb_rarity(_,it) local text = root.assetJson("/sb_commands.config")
   dr=it[2] or 1; dr=tonumber(dr); if type(dr) ~= "number" then dr = 1 end
   it=it[1] or "carrotjuice"
-  if not sb_itemExists(it) then return string.format(text.itemID.noItem,it) end
+  if not sb_itemExists(it) then return string.format(text.itemid.noItem,it) end
   local recipe = root.recipesForItem(it)
   if not recipe then return end
   local mr = #recipe

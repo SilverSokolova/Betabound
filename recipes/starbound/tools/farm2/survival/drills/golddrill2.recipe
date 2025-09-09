@@ -1,0 +1,5 @@
+{
+  "input": [["goldbar",8],"silverdrill"],
+  "output": "golddrill",
+  "groups": ["nouncrafting","craftingfarm2","survival","all"]
+}

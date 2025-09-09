@@ -9,8 +9,6 @@
   },
   "itemTags": ["weapon", "ranged", "pistol", "unique"],
   "category": "uniqueWeapon",
-  "fixedRarity": true,
-  "rarity": "Uncommon",
   "animation": "/items/active/weapons/ranged/gun.animation",
   "animationCustom": {
     "sounds": {
@@ -30,7 +28,7 @@
   "baseOffset": [0.5, 0.5],
   "muzzleOffset": [2.8, 0.3],
   "twoHanded": false,
-  "level": 2,
+  "level": 3,
   "primaryAbilityType": "sb_gun",
   "primaryAbility": {
     "fireTime": 0.6,

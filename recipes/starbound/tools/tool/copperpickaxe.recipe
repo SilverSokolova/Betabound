@@ -1,5 +1,0 @@
-{
-  "input": [["copperbar",8],"sb_stonepickaxe"],
-  "output": "copperpickaxe",
-  "groups": ["sb_craftingtable","mining","all"]
-}

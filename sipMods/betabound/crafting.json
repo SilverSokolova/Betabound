@@ -28,7 +28,7 @@
 ,{"icon":"/objects/crafting/sb_old/sb_scififurnace/scififurnaceicon.png","name":"sb_scififurnace","shortdescription":"^orange;Magnetic Crucible","category":"sb_disabled","rarity":"legendary"}
 
 ,{"icon":"/objects/crafting/sb_old/sb_ironanvil/ironanvilicon.png","name":"sb_ironanvil","shortdescription":"^orange;Iron Anvil","category":"sb_disabled","rarity":"uncommon"}
-,{"icon":"/objects/crafting/sb_metalworkstation/metalworkstationicon.png","name":"sb_metalworkstation","shortdescription":"^orange;Metalwork Station","category":"crafting","rarity":"rare"}
+,{"icon":"/objects/crafting/sb_metalworkstation/metalworkstationicon.png","name":"sb_metalworkstation","shortdescription":"^orange;Weapon Modding Station","category":"crafting","rarity":"rare"}
 
 ,{"icon":"/objects/crafting/sb_old/sb_scifianvil/scifianvilicon.png","name":"sb_scifianvil","shortdescription":"^orange;Replicator","category":"sb_disabled","rarity":"legendary"}
 ,{"icon":"/objects/crafting/sb_old/sb_acceleratortable/acceleratortableicon.png","name":"sb_acceleratortable","shortdescription":"^orange;Accelerator's Table","category":"sb_disabled","rarity":"legendary"}

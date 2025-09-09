@@ -4,8 +4,7 @@
 
   "rarity": "Legendary",
   "icon": "/tech/starbound/ftlboost.png",
-  "description": "Double tap ^#0f0;[A]^reset;/^#0f0;[D]^reset; to dash faster than light! Cooldown: 1.3s",
-  "sb_briefDescription": "Double tap ^#0f0;[A]^reset;/^#0f0;[D]^reset; to dash! Cooldown: 1.3s",
+  "description": "Double tap ^green;[A]^reset;/^green;[D]^reset; to dash faster than light! Cooldown: 1.3s",
   "shortDescription": "FTL Boost",
   "chipCost": 14,
 

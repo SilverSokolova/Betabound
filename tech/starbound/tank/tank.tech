@@ -6,7 +6,7 @@
   "sb_effect": "sb_tanktech",
   "sb_suitImage": "?replace;73daff=fefefe;27abff=afb3be;117ee4=7e838f;1f45d4=4a505b",
   "rarity": "Legendary",
-  "description": "Provides a boost in protection and knockback resistance whilst not moving.",
+  "description": "Provides a boost in protection and knockback resistance whilst not moving!",
   "shortDescription": "Tanky",
 
   "statIncrease": 10,

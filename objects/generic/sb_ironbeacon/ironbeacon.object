@@ -1,0 +1,31 @@
+{
+  "objectName": "sb_ironbeacon",
+  "rarity": "common",
+  "description": "A distress beacon. Who knows who might hear it?",
+  "shortdescription": "Distress Beacon",
+  "race": "generic",
+  "category": "decorative",
+  "printable": false,
+  "tooltipKind": "sb_object",
+
+  "price": 100,
+  "apexDescription": "A distress beacon. I hope the person who left it is okay.",
+  "avianDescription": "A distress beacon. Someone must be in trouble.",
+  "floranDescription": "Floran help as well as hunt. Sssometimes.",
+  "glitchDescription": "Analysis. This distress beacon is transmitting at a number of frequencies.",
+  "humanDescription": "This beacon's sending out a distress call.",
+  "hylotlDescription": "Someone needs help. Protecting the weak is a worthwhile pursuit.",
+  "novakidDescription": "A distress beacon. I wonder who activated it.",
+
+  "inventoryIcon": "ironbeaconicon.png",
+  "orientations": [{
+      "dualImage": "ironbeacon.png:<color>.<frame>",
+      "imagePosition": [-8, 0],
+      "spaces": [[-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2], [-1, 3], [0, 3], [1, 3]],
+      "frames": 12,
+      "animationCycle": 1.5,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ]
+}

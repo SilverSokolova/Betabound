@@ -17,10 +17,10 @@ function sweep() originalSweep()
   if not player then return end
   local pos = mcontroller.position()
   pos = {math.floor(pos[1]), math.floor(pos[2])}
-  brushArea = {
-    {pos[1], pos[2]-3},
-    {pos[1]-1, pos[2]-3},
-    {pos[1]+1, pos[2]-3}
+  brushArea = { --3 tiles horizontally at the player's feet
+    {pos[1] - 1, pos[2] - 3},
+    {pos[1], pos[2] - 3},
+    {pos[1] + 1, pos[2] - 3}
   }
-  world.damageTiles(brushArea, sb_fireMode == "primary" and "foreground" or "background", pos, "tilling", 0.001, 99) --don't set an owner id. npcs hate it
+  world.damageTiles(brushArea, sb_fireMode == "primary" and "foreground" or "background", pos, "tilling", 0.001, 99) --No owner ID because NPC's will accuse of theft
 end

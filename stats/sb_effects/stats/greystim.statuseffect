@@ -1,8 +1,8 @@
 {
-  "name" : "sb_greystim",
-  "defaultDuration" : 60,
-  "animationConfig" : "protectionboost.animation",
-  "scripts" : ["a.lua"],
-  "label" : "Bonus Protection",
-  "icon" : "/interface/stats/protection.png?crop=0;0;15;15?replace;4a4a4aed=0000"
+  "name": "sb_greystim",
+  "defaultDuration": 60,
+  "animationConfig": "protectionboost.animation",
+  "scripts": ["a.lua"],
+  "label": "Bonus Protection",
+  "icon": "/interface/stats/protection.png?crop=0;0;15;15?replace;4a4a4aed=0000"
 }

@@ -17,10 +17,13 @@ function init()
   maxDoubleTapTime = config.getParameter("maxDoubleTapTime", 0.2)
   energyUsage = config.getParameter("energyCostPerSmash", 0)
   knockbackOffset = config.getParameter("knockbackOffset", {0, -2})
+  mustBeActiveToSmash = config.getParameter("mustBeActiveToSmash", false)
+  damagingSmash = config.getParameter("damagingSmash", true)
 
   animator.setParticleEmitterOffsetRegion("landParticles", {0, -2, 0, -2}) --Dust cloud near feet
 end
 
+--Waterball hooks into this
 function input(args)
   doubleTapTimer = doubleTapTimer - args.dt
   if args.moves["down"] and not mcontroller.onGround() then
@@ -46,6 +49,7 @@ function update(args)
     and not mcontroller.liquidMovement()
     and not mcontroller.flying()
     and not mcontroller.zeroG()
+    and ((mustBeActiveToSmash and active) or not status.statPositive("activeMovementAbilities"))
     and status.overConsumeResource("energy", energyUsage)
   then
     animator.playSound("falling")
@@ -59,29 +63,32 @@ function update(args)
     status.addEphemeralEffect("nofalldamage")
     status.addEphemeralEffect("sb_grit")
     local currentVelocity = mcontroller.yVelocity()
-    if currentVelocity < lastVelocity then
-      lastVelocity = mcontroller.yVelocity()
-    elseif mcontroller.yVelocity() > lastVelocity then
+
+    if currentVelocity > lastVelocity or (mustBeActiveToSmash and not active) then
       groundsmashActive = false
+    elseif currentVelocity < lastVelocity then
+      lastVelocity = currentVelocity
     end
   elseif groundsmashActive or (groundsmashActive and (lastVelocity > mcontroller.yVelocity() - 30) and not mcontroller.isNullColliding()) then
-    animator.burstParticleEmitter("landParticles", true)
-    animator.playSound("landing")
     groundsmashActive = false
     lastVelocity = 0
 
-    --CF TODO: Use force region here when/if we have radial ones. Is there a way for us to be immune to it?
-    local position = vec2.add(mcontroller.position(), knockbackOffset)
+    if damagingSmash then
+      animator.playSound("landing")
+      animator.burstParticleEmitter("landParticles", true)
+      --CF TODO: Use force region here when/if we have radial ones. Is there a way for us to be immune to it?
+      local position = vec2.add(mcontroller.position(), knockbackOffset)
 
-    local nearEntities = world.entityQuery(position, knockbackRadius, {validTargetOf = entity.id(), includedTypes = {"monster", "npc", "player"}})
-    for _, entityId in pairs(nearEntities) do
-      local entityPosition = world.entityPosition(entityId)
-      local toEntity = world.distance(entityPosition, position)
-      local distance = world.magnitude(toEntity)
-      if (distance < knockbackRadius and not world.lineTileCollision(position, entityPosition)) and world.entityCanDamage(entity.id(), entityId) then
-        world.sendEntityMessage(entityId, "applyStatusEffect", "sb_groundsmashknockbackX", vec2.mul(vec2.norm(toEntity), knockbackSpeed)[1])
-        world.sendEntityMessage(entityId, "applyStatusEffect", "sb_groundsmashknockbackY", vec2.mul(vec2.norm(toEntity), knockbackSpeed)[2])
-        world.sendEntityMessage(entityId, "applyStatusEffect", "sb_groundsmashdamage", (knockbackSpeed/2) + status.stat("powerMultiplier")*3) --TODO: entityid of player here
+      local nearEntities = world.entityQuery(position, knockbackRadius, {validTargetOf = entity.id(), includedTypes = {"monster", "npc", "player"}})
+      for _, entityId in pairs(nearEntities) do
+        local entityPosition = world.entityPosition(entityId)
+        local toEntity = world.distance(entityPosition, position)
+        local distance = world.magnitude(toEntity)
+        if (distance < knockbackRadius and not world.lineTileCollision(position, entityPosition)) and world.entityCanDamage(entity.id(), entityId) then
+          world.sendEntityMessage(entityId, "applyStatusEffect", "sb_groundsmashknockbackX", vec2.mul(vec2.norm(toEntity), knockbackSpeed)[1])
+          world.sendEntityMessage(entityId, "applyStatusEffect", "sb_groundsmashknockbackY", vec2.mul(vec2.norm(toEntity), knockbackSpeed)[2])
+          world.sendEntityMessage(entityId, "applyStatusEffect", "sb_groundsmashdamage", (knockbackSpeed/2) + status.stat("powerMultiplier") * 3) --TODO: entityid of player here
+        end
       end
     end
   else

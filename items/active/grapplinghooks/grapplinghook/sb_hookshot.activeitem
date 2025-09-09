@@ -1,10 +1,10 @@
 {
   "itemName": "sb_hookshot",
   "price": 3500,
-  "inventoryIcon": "grapplehookicon.png",
+  "inventoryIcon": "sb_hookshoticon.png",
   "rarity": "Legendary",
   "maxStack": 1,
-  "description": "It pulls you up automatically! Why bother platforming when you can just use ropes?",
+  "description": "It reels in automatically! Why bother platforming when you can just use ropes?",
   "shortdescription": "Hookshot",
   "largeImage": "grapplehookbig.png?replace;e7c474=97a5b0;c88b28=646d7e;8d581c=3b4054",
   "category": "tool",

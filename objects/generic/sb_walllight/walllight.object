@@ -1,49 +1,48 @@
 {
-  "objectName" : "sb_walllight",
-  "rarity" : "Common",
-  "category" : "light",
-  "price" : 100,
+  "objectName": "sb_walllight",
+  "rarity": "Common",
+  "category": "light",
+  "price": 100,
 
-  "description" : "A thin light that sits on the wall.",
-  "shortdescription" : "Long Electric Light",
-  "race" : "generic",
-  "tooltipKind" : "sb_object",
+  "description": "A thin light that sits on the wall.",
+  "shortdescription": "Long Electric Light",
+  "race": "generic",
+  "tooltipKind": "sb_object",
 
-  "lightColor" : [218, 219, 183],
-  "flickerDistance" : 0.5,
-  "flickerStrength" : 0.1,
+  "lightColor": [218, 219, 183],
+  "flickerDistance": 0.5,
+  "flickerStrength": 0.1,
 
-  "apexDescription" : "A long mounted light.",
-  "avianDescription" : "These lights would fit nicely into Avian tombs.",
-  "floranDescription" : "Lonnnggg light!",
-  "glitchDescription" : "Observation. These lights appear to be fragile.",
-  "humanDescription" : "A long, bright light.",
-  "hylotlDescription" : "An unremarkable light.",
-  "novakidDescription" : "A big ol' bright light.",
+  "apexDescription": "A long mounted light.",
+  "avianDescription": "These lights would fit nicely into Avian tombs.",
+  "floranDescription": "Lonnnggg light!",
+  "glitchDescription": "Observation. These lights appear to be fragile.",
+  "humanDescription": "A long, bright light.",
+  "hylotlDescription": "An unremarkable light.",
+  "novakidDescription": "A big ol' bright light.",
 
-  "animation" : "/objects/wired/light/lighttoggle.animation",
-  "animationParts" : {
-    "light" : "walllight.png"
+  "animation": "/objects/wired/light/lighttoggle.animation",
+  "animationParts": {
+    "light": "walllight.png"
   },
-  "animationPosition" : [-7, 0],
+  "animationPosition": [-7, 0],
 
-  "scripts" : [ "/objects/wired/light/light.lua" ],
-  "scriptDelta" : 60,
-  
-  "interactive" : false,
+  "scripts": ["/objects/wired/light/light.lua"],
+  "scriptDelta": 60,
 
-  "inputNodes" : [ [0, 0] ],
-  "inventoryIcon" : "walllighticon.png",
-  "orientations" : [
+  "interactive": false,
 
+  "inputNodes": [[0, 0]],
+  "inventoryIcon": "walllighticon.png",
+  "orientations": [
     {
-      "image" : "walllight.png:<color>.<frame>",
-      "imagePosition" : [-7, 0],
-      "frames" : 1,
-      "animationCycle" : 0,
+      "image": "walllight.png:<color>.<frame>",
+      "imagePosition": [-7, 0],
+      "frames": 1,
+      "animationCycle": 0,
 
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
+      "spaceScan": 0.1,
+      "anchors": ["background"]
     }
   ]
 }

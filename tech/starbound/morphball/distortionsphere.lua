@@ -1,3 +1,4 @@
+--Identical to vanilla except without self. Do we need this?
 require "/scripts/vec2.lua"
 
 function init()

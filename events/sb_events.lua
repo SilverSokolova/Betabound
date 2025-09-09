@@ -1,3 +1,4 @@
+--NOTE: The 'no events' patch replaces this file completely
 require "/scripts/util.lua"
 require "/scripts/rect.lua"
 --require "/interface/cockpit/cockpitutil.lua"
@@ -48,7 +49,7 @@ function init()
 
   self.pendingConfirmations = {}
 
-  message.setHandler("confirm", function(_, _, dialogConfig)
+  message.setHandler("sb_confirm", function(_, _, dialogConfig)
       local uuid = sb.makeUuid()
       dialogConfig.paneLayout = "/interface/windowconfig/simpleconfirmation.config:paneLayout"
       self.pendingConfirmations[uuid] = player.confirm(dialogConfig)
@@ -56,7 +57,7 @@ function init()
     end)
 
   -- nil for unfinished, false for declined, true for accepted
-  message.setHandler("confirmResult", function(_, _, uuid)
+  message.setHandler("sb_confirmResult", function(_, _, uuid)
       local promise = self.pendingConfirmations[uuid]
       if not promise then
         return false
@@ -220,17 +221,17 @@ function eventRegions(event)
 end
 
 function spawnEventStagehand(stagehand, region)
-if world.getProperty("sb_events",true) ~= false then
-  local position = rect.center(region)
-  if world.inSurfaceLayer(position) then
-  local bounds = rect.translate(region, {-position[1], -position[2]})
-  world.spawnStagehand(position, stagehand, {
-      broadcastArea = bounds,
-      eventSource = player.id(),
-      bounty = self.bounty
-    })
+  if world.getProperty("sb_events", true) ~= false then
+    local position = rect.center(region)
+    if world.inSurfaceLayer(position) then
+      local bounds = rect.translate(region, {-position[1], -position[2]})
+      world.spawnStagehand(position, stagehand, {
+        broadcastArea = bounds,
+        eventSource = player.id(),
+        bounty = self.bounty
+      })
+    end
   end
- end
 end
 
 -- yields until an event has been triggered
@@ -240,10 +241,13 @@ function triggerEvent(eventPool)
     for _, eventName in ipairs(eventPool) do
       local event = self.config.events[eventName]
       if storage.lastEvent and storage.lastEvent ~= eventName then
-      for region in eventRegions(event) do
-        table.insert(validEvents, {event, region, eventName, event.skipChance or -1})
+        for region in eventRegions(event) do
+          if event.exclusiveQuest and player.hasCompletedQuest(event.exclusiveQuest) then
+            return
+          end
+          table.insert(validEvents, {event, region, eventName, event.skipChance or -1})
+        end
       end
-     end
     end
 
     if #validEvents > 0 then

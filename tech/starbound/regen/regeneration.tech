@@ -6,7 +6,7 @@
   "sb_effect": "sb_regenerationtech",
   "sb_suitImage": "?replace;73daff=e88888;27abff=e36e6e;117ee4=d93a3a;1f45d4=cd2828",
   "rarity": "Legendary",
-  "description": "Provides boosted health regeneration whilst not moving.",
+  "description": "Provides boosted health regeneration whilst not moving!",
   "shortDescription": "Regeneration",
 
   "regenRate": 7.5,

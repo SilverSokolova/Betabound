@@ -5,7 +5,7 @@
   "animator": "car.animation",
   "rarity": "legendary",
   "icon": "/tech/starbound/humancar.png",
-  "description": "^#0F0;[F]^reset; Traverses rough terrain quicker. It can also jump!",
+  "description": "Traverses rough terrain quicker. It can also jump! ^green;[F]^reset;",
   "shortDescription": "Car",
 
   "mechCustomMovementParameters": {

@@ -41,7 +41,7 @@
 ,{"icon":"/items/active/starbound/watch/watch.png","name":"sb_watch","shortdescription":"Watch","category":"tool","rarity":"legendary"}
 ,{"icon":"/items/active/starbound/gps/gps.png","name":"sb_gps","shortdescription":"Global Positioning System","category":"tool","rarity":"rare"}
 ,{"icon":"/items/active/starbound/healthmonitor/healthmonitor.png","name":"sb_healthmonitor","shortdescription":"Health Monitor","category":"tool","rarity":"rare"}
-,{"icon":"/items/active/starbound/buffs/spaceairtank.png","name":"sb_spaceairtank","shortdescription":"Survival System","category":"tool","rarity":"legendary"}
+//,{"icon":"/items/active/starbound/buffs/spaceairtank.png","name":"sb_spaceairtank","shortdescription":"Survival System","category":"tool","rarity":"legendary"}
 ,{"icon":"/items/active/starbound/hawkeyes/hawkeyes.png","name":"sb_hawkeyes","shortdescription":"All-Seeing Eye","category":"tool","rarity":"legendary"}
 ,{"icon":"/items/active/starbound/buffs/light2energy.png","name":"sb_light2energy","shortdescription":"Photosynthesis Panel","category":"tool","rarity":"legendary"}
 //,{"icon":"/items/active/starbound/wateringcan/wateringcanicon.png","name":"sb_wateringcan","shortdescription":"Lightweight Watering Can","category":"tool","rarity":"uncommon"}

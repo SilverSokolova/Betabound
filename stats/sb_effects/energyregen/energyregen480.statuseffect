@@ -1,11 +1,11 @@
 {
-  "name" : "sb_energyregen480",
-  "effectConfig" : {
-    "regenAmount" : 8
+  "name": "sb_energyregen480",
+  "effectConfig": {
+    "regenAmount": 8
   },
-  "defaultDuration" : 60,
-  "scripts" : ["energyregen.lua"],
-  "animationConfig" : "energyregen.animation",
-  "label" : "Energy Regeneration",
-  "icon" : "/interface/statuses/energyregen.png"
+  "defaultDuration": 60,
+  "scripts": ["energyregen.lua"],
+  "animationConfig": "energyregen.animation",
+  "label": "Energy Regeneration",
+  "icon": "/interface/statuses/energyregen.png"
 }

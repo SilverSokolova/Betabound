@@ -9,6 +9,9 @@
   [{"op":"test","path":"/pearlpeaHarvest/0/1/poolRounds","inverse":true},{"op":"add","path":"/pearlpeaHarvest/0/1/poolRounds/-","value":[0.2,3]}],
   [{"op":"test","path":"/pussplumHarvest/0/1/poolRounds","inverse":true},{"op":"add","path":"/pussplumHarvest/0/1/poolRounds/-","value":[0.2,3]}],
 
+
+  [{"op":"test","path":"/mushroomHarvest/0/1/fill","inverse":true},{"op":"add","path":"/mushroomHarvest/0/1/fill","value":[]}],
+  [{"op":"add","path":"/mushroomHarvest/0/1/fill/-","value":{"item":"mushroomseed"}}],
   [{"op":"add","path":"/mushroomHarvest/0/1/pool/-","value":{"weight":0.11,"item":"mushroomseed"}}],
 
   [{"op":"test","path":"/coralcreepHarvest/0/1/pool/2/item","value":"plantfibre"},{"op":"replace","path":"/coralcreepHarvest/0/1/pool/2/item","value":"kelp"}],

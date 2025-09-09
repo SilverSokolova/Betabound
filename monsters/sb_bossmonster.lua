@@ -4,10 +4,9 @@ local originalDie = die or function() end
 
 function init() originalInit() monster.setAggressive(true)
   sb_music = status.statusProperty("bossMusic","")
-  self.players = {} --???
+--  self.players = {} --???
   sb_noMusic = config.getParameter("podUuid")
   if sb_noMusic then monster.setDamageBar("Default") end
-  animator.setAnimationState("music","off")
 end
 
 function update(dt) originalUpdate(dt)

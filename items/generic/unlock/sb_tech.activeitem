@@ -12,7 +12,7 @@
   "description": "",
   "shortdescription": "",
   "scripts": ["sb_tech.lua"],
-  "builder": "/items/buildscripts/starbound/buildtechunlock.lua",
+  "builder": "/items/buildscripts/starbound/buildtech.lua",
 
   "inheritedParameters": [
     "tooltipFields",

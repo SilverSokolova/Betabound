@@ -1,0 +1,19 @@
+{
+  "itemName": "sb_bindedtech",
+  "price": 1250,
+  "maxStack": 1,
+  "tooltipKind": "sb_object",
+  "tooltipFields": {
+    "rarityLabel": ""
+  },
+  "category": "tech",
+  "animation": "bindedtech.animation",
+  "rarity": "rare",
+  "durability": 5,
+  "durabilityHit": 5,
+  "techModule": "",
+  "descriptionTemplate": "This can be used to equip ^orange;%s^reset; without the need for a tech console.",
+  "subtitle": "Tech (%s)",
+  "shortdescription": "Binded Tech",
+  "scripts": ["bindedtech.lua"]
+}

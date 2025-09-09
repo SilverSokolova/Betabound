@@ -10,7 +10,7 @@
   ],
   "sb_suitImage": "?replace;73daff=f84646;27abff=f72929;117ee4=db0808;1f45d4=bd0707",
   "rarity": "Rare",
-  "description": "Restore health by attacking, at the cost of a maximum health reduction.",
+  "description": "Restore health by attacking, at the cost of a maximum health reduction!",
   "shortDescription": "Vampiric",
 
   "percentage": 3

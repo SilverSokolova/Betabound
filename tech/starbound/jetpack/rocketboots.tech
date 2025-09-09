@@ -4,8 +4,8 @@
 
   "rarity": "Legendary",
   "icon": "/tech/starbound/rocketboots.png",
-  "description": "Press and hold ^#0f0;[SPACE]^reset; midair to activate the rocket boots!",
-  "sb_briefDescription": "Press and hold ^#0f0;[SPACE]^reset; midair to fly!",
+  "description": "Press and hold ^green;[SPACE]^reset; midair to fly!",
+  "sb_longDescription": "Fall damage is reduced while flying.",
   "shortDescription": "Rocket Boots",
   "chipCost": 6,
 

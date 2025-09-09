@@ -1,2 +1,3 @@
+//TODO: test for original page value, if present, replace with edited version and set a flag. next test op, check for flag. if absent, add new page
 [{"op":"add","path":"/contentPages/-","value":
 "Moondancer\nThe patterns on this bioluminescent bug's back will continuously change throughout its life."}]

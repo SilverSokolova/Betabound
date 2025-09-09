@@ -5,7 +5,7 @@
   "animator": "humanjeep.animation",
   "rarity": "legendary",
   "icon": "/tech/starbound/humanjeep.png",
-  "description": "^#0F0;[F]^reset; Traverses rough terrain quicker. It can also jump!",
+  "description": "Traverses rough terrain quicker. It can also jump! ^green;[F]^reset;",
   "shortDescription": "Jeep",
 
   "liquidStatsSubmersionLevel": 0.5,

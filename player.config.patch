@@ -112,7 +112,6 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_copybook"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_blankblueprint"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_wrappingpaper"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_spaceairtank"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_songbook"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_radio"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_ladderdeployer"}}],
@@ -173,6 +172,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"markerwallplaque1"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"locker1"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"locker2"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_ironbeacon"}}],
 
 //Tiered Furniture
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"serenechair"}}],
@@ -343,19 +343,20 @@
 
 
 //Ammo
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",30,{"projectileType":"bouncybullet"}]}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",75,{"projectileType":"piercingbullet"}]}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",15,{"projectileType":"standardbullet"}]}],
 
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",50,{"projectileType":"explosivebullet"}]}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",50,{"projectileType":"fast"}]}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",50,{"projectileType":"huntingbullet"}]}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",50,{"projectileType":"standardbullet"}]}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",10,{"projectileType":"bouncybullet"}]}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",10,{"projectileType":"fast"}]}],
 
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",75,{"projectileType":"airburstelectricbullet"}]}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",75,{"projectileType":"airburstfirebullet"}]}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",75,{"projectileType":"airbursticebullet"}]}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",75,{"projectileType":"airburstpoisonbullet"}]}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",75,{"projectileType":"sb_homingbullet"}]}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"piercingbullet"}]}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"explosivebullet"}]}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"huntingbullet"}]}],
+
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"airburstelectricbullet"}]}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"airburstfirebullet"}]}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"airbursticebullet"}]}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"airburstpoisonbullet"}]}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"sb_homingbullet"}]}],
 
 //Instruments
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"accordion"}}],

@@ -99,22 +99,6 @@
     "maxSize": [70, 45],
     "minSize": [70, 45]
   },
-  "objectBImage": {
-    "type": "image",
-    "position": [29, 123],
-    "file": "",
-    "centered": true,
-    "maxSize": [70, 45],
-    "minSize": [70, 45]
-  },
-  "objectCImage": {
-    "type": "image",
-    "position": [99, 123],
-    "file": "",
-    "centered": true,
-    "maxSize": [70, 45],
-    "minSize": [70, 45]
-  },
   "foodValueLabel": {
     "type": "label",
     "position": [8, 146],

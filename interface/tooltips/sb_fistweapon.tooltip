@@ -74,8 +74,7 @@
     "centered": false,
     "fontSize": 6,
     "color": "gray",
-    "wrapWidth": 126,
-    "value": "^gray;(Dyeable)"
+    "wrapWidth": 126
   },
   "sb_levelLabel": {
     "type": "label",

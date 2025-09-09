@@ -4,8 +4,7 @@
 
   "rarity": "Legendary",
   "icon": "/tech/starbound/bounce.png",
-  "description": "Generates a kinetic reversal field that reflects the ground. ^#0f0;[F]",
-  "sb_briefDescription": "Generates a kinetic reversal field. ^#0f0;[F]",
+  "description": "Generates a kinetic reversal field that reflects the ground! ^green;[F]^reset;",
   "shortDescription": "Bouncy",
   "chipCost": 3,
 

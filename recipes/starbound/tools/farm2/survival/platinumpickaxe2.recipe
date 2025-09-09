@@ -1,0 +1,5 @@
+{
+  "input": [["platinumbar",4],"goldpickaxe"],
+  "output": "platinumpickaxe",
+  "groups": ["nouncrafting","craftingfarm2","survival","all"]
+}

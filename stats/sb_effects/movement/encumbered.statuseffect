@@ -1,6 +1,8 @@
 {
-  "name" : "sb_encumbered",
-  "effectConfig" : {"percentage":0.2},
-  "defaultDuration" : 0.1,
-  "scripts" : ["encumbered.lua"]
+  "name": "sb_encumbered",
+  "effectConfig": {
+    "percentage": 0.2
+  },
+  "defaultDuration": 0.1,
+  "scripts": ["encumbered.lua"]
 }

@@ -1,0 +1,5 @@
+{
+  "input": [["diamond",8],"sb_stonepickaxe"],
+  "output": "diamondpickaxe",
+  "groups": ["craftingfarm2","survival","all"]
+}

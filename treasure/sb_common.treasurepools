@@ -132,7 +132,7 @@
     [0, {
       "fill": [
         {"item": "sb_revolver"},
-        {"item": ["sb_ammo",100]}
+        {"item": ["sb_ammo",25]}
       ]
     }]
   ],
@@ -181,7 +181,7 @@
         {"item": "sb_survivalguide-codex"},
         {"item": "sb_gunguide-codex"},
         {"item": "sb_novastarter"},
-        {"item": ["sb_ammo",250,{"projectileType":"standardbullet"}]}
+        {"item": ["sb_ammo",50,{"projectileType":"standardbullet"}]}
       ]
     }]
   ]

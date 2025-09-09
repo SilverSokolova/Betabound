@@ -1,0 +1,5 @@
+{
+  "input": [["platinumbar",8],"sb_stonepickaxe"],
+  "output": "platinumpickaxe",
+  "groups": ["craftingfarm2","survival","all"]
+}

@@ -1,0 +1,4 @@
+//Placeable Ingots Reborn
+[
+[{"op":"test","path":"/itemDrop","value":"imperviumcompound"},{"op":"replace","path":"/itemDrop","value":"sb_imperviumcompound"}]
+]

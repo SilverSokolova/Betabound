@@ -1,3 +1,4 @@
+//Station: craftingfurniture2
 [
 {"op":"add","path":"/input/-","value":{"item":"wire","count":1}}
 ]
