@@ -1,6 +1,6 @@
 [
 [{"op":"test","path":"/input/0","value":{"item":"titaniumbar","count":20}},{"op":"replace","path":"/input/0","value":["ironbar",5]}],
-[{"op":"test","path":"/groups/"},
+[{"op":"test","path":"/groups"},
 {"op":"add","path":"/groups/-","value":"inventorstable"},
 {"op":"add","path":"/groups/-","value":"holidaycraftingtable"},
 {"op":"add","path":"/groups/-","value":"craftingstations"},
