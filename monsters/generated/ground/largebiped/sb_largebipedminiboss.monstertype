@@ -13,8 +13,11 @@
   "baseParameters": {
     "scripts": [
       "/monsters/monster.lua",
+      "/monsters/sb_monster.lua",
       "/monsters/sb_miniboss.lua"
     ],
+
+    "sb_repeatingInitialStatusEffects": ["sb_minibossspawn"],
 
     "behavior": "monster",
 

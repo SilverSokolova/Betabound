@@ -23,7 +23,7 @@ function init() originalInit()
     if parameters and sb_scriptConfig then
       parameters.scriptConfig = sb.jsonMerge(sb_scriptConfig, parameters.scriptConfig)
     end
-    parameters.scriptConfig.sb_beamIn = true
+    parameters.scriptConfig.sb_initialStatusEffects = {"beamin"}
     return sb_spawnNpc(position, species, npcType, level, seed, parameters)
   end
 end
