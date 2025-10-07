@@ -1,4 +1,5 @@
 [
+//Move buff bar down a bit so it doesn't overlap the hunger bar
 [{"op":"test","path":"/statusIconPos/1","value":50},{"op":"replace","path":"/statusIconPos/1","value":53}]
 //,[{"op":"test","path":"/statusIconDarkenImage","value":"/interface/statuses/darken.png"},{"op":"replace","path":"/statusIconDarkenImage","value":"/interface/statuses/darken.png?scalenearest=1.4"}],
 

@@ -88,7 +88,7 @@
         "bk3k_Techs", //772812959 bk3k's More Powerful Techs - Incorporates bk3k_techHelper library mod instead of having it as download
         "Paint Gun Mod", //paint-gun-mod.4636/ Paint Gun Mod. Replaces vending machine animation file
       
-      "Starbound++",
+      "Starbound++", //1365556048 - Lack of prefixes, some other things (do they warrant loading after them?? bad patches??)
       "FrackinUniverse", //Every bad modding practice ever + so many things on this list (including tech menu breakage) + we add some recipes, holy fucking shit
       "serverDice", //Does not hook CommandProcessor
       "FrackinXmas", //Bad patches
