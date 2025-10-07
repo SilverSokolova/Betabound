@@ -10,6 +10,9 @@ function init()
   self.config = root.assetJson("/events/sb_events.config")
   if not world.terrestrial() or contains(self.config.invalidWorldTypes, world.type()) then invalidLocation = true end
   self.tileListeners = {}
+  message.setHandler("/sb_event", function(_, _, entityId)
+      storage.eventCooldown = 0.0
+    end)
   message.setHandler("listenTileBroken", function(_, _, entityId)
       table.insert(self.tileListeners, entityId)
     end)

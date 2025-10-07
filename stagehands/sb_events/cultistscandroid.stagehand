@@ -1,13 +1,25 @@
 {
-  "type" : "sb_cultistscandroid",
+  "type": "sb_cultistscandroid",
 
-  "scripts" : [
+  "scripts": [
     "/stagehands/sb_events/spawnmonster.lua"
   ],
-  "scriptDelta" : 10,
+  "scriptDelta": 10,
 
-  "requireOutOfSight" : false,
+  "requireOutOfSight": false,
 
-  "monsterType" : "cultistscandroid",
-  "monsterBounds" : [-1.5, -1.5, 1.5, 1.5]
+  "monsterType": "cultistscandroid",
+  "monsterBounds": [-1.5, -1.5, 1.5, 1.5],
+  //Monster needs to be patched with sb_monster.lua to support this:
+  "initialStatusEffects": ["blinkin", "electriccharge", {
+      "effect": "camouflage25",
+      "duration": 0.1
+    }, {
+      "effect": "camouflage35",
+      "duration": 0.2
+    }, {
+      "effect": "camouflage50",
+      "duration": 0.3
+    }
+  ]
 }
