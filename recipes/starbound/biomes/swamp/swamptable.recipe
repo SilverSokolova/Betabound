@@ -1,0 +1,5 @@
+{
+  "input": [["wicker",10],["plantfibre",2]],
+  "output": "swamptable",
+  "groups": ["craftingfurniture","decoration","objects","all"]
+}

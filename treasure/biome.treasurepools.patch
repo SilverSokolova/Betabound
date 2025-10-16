@@ -192,7 +192,10 @@
 ,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"lightbow-recipe"}}]
 
 //giant flower
-//swamp
+  // ================================
+  //            Swamp
+  // ================================
+,[{"op":"add","path":"/swampTreasure/0/1/pool/-","value":{"weight":0.3,"item":"swamptable-recipe"}}]
   // ================================
   //            Eyeball
   // ================================
