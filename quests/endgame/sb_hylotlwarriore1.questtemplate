@@ -2,8 +2,8 @@
   "id": "sb_hylotlwarriorE1",
   "prerequisites": ["glitch_mission2", "sb_hylotlperformerE2part1"],
   "title": "^green;Bark Life",
-  "text": "Have you seen the dog here in the outpost? I want him to like me more! ^green;If you could ^orange;find me a bone ^reset;to give him, I might become his favourite!",
-  "completionText": "You found me a bone! Now this dog is gonna have a new best friend - Me!",
+  "text": "Have you seen the dog here in the outpost? I want him to like me more! ^green;If you could find me a ^orange;bone^reset; to give him, I might become his favourite!",
+  "completionText": "You found me a bone! Now this dog is gonna have a new best friend: me!",
   "speaker": "questGiver",
   "moneyRange": [1100, 1200],
   "rewards": [["upgrademodule", ["rewardbag", 1, {

@@ -12,7 +12,7 @@ function init(); originalInit()
     end
   end
 
-  local currentVersion = 35
+  local currentVersion = 36
   if player.introComplete() then
     local playerVersion = player.getProperty("betabound", {}).version or status.statusProperty("xrc_0018z", 0)
     if playerVersion < currentVersion then

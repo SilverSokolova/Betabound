@@ -307,6 +307,11 @@ xrc0018[35]=function()
   end
 end
 
+--36, 9/OCT/2025: Changed underside quest rewards
+xrc0018[36]=function()
+  quest("sb_underside1", "upgrademodule")
+end
+
 function sb_doVersioning(cv,yv)
   newPlayer = yv == 0
   --player.getProperty doesn't return the default if the saved value exists as nil, so set it so the tech unlock quest doesnt break

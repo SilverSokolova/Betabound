@@ -1,8 +1,9 @@
+//TODO: this quest asks for gunpowder, but the item in the quest is made from volatile powder
 {
   "id": "sb_humanexcon2",
   "prerequisites": ["floran_mission1", "sb_floranfan1", "sb_hylotlperformer1"],
   "title": "^green;Time for a Celebration!",
-  "text": "I've come here after being released from a USCM prison and everyone has accepted me. I want to show them how much they mean to me. ^green;Bring me ^orange;5 units of gunpowder ^reset;so I can make fireworks ^orange;and show you how to make them too!",
+  "text": "I've come here after being released from a USCM prison and everyone has accepted me. I want to show them how much they mean to me. ^green;Bring me ^orange;5 units of gunpowder^green;, crafted at a ^orange;primitive furnace^reset;, so I can make ^orange;fireworks^green; and show you how to make them too!",
   "completionText": "Wonderful! They're going to love my firework display. Here! Take this firework and I'll show you how to make more.",
   "speaker": "questGiver",
   "moneyRange": [500, 600],

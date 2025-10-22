@@ -2,7 +2,7 @@
   "id": "sb_hylotlperformerE1",
   "prerequisites": ["glitch_mission2", "sb_hylotlperformer3"],
   "title": "^green;The Joker and the Thief",
-  "text": "The prankster strikes again! This time they've stolen my gag nose - No doubt an attempt to sabotage my act! ^green;Can you find me something ^orange;round, small and colourful ^green;around here to replace it?",
+  "text": "The prankster strikes again! This time they've stolen my ^orange;gag nose^reset; - No doubt an attempt to sabotage my act! ^green;Can you find me something ^orange;round, small and colourful^green; around here to replace it?",
   "completionText": "An orange! Perfect! It turns out I had left my original nose in my pocket all along. Here, you can have it. This orange nose is FAR funnier.",
   "speaker": "questGiver",
   "moneyRange": [1100, 1200],

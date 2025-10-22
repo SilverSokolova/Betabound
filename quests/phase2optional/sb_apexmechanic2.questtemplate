@@ -1,8 +1,10 @@
+//TODO: UNUSED: (not saying 'do XYZ because it's unused, just saying it's unused)
+//Anyway it's disabled because we kinda just did 10 copper bars for Elliot
 {
   "id": "sb_apexmechanic2",
   "prerequisites": ["sb_outpost1", "sb_floranfan1", "sb_hylotlperformer1", "sb_examplequest"],
   "title": "^green;Early Days",
-  "text": "Ello stranger! I am ze scientist 'ere at ze outpost. I 'av decided I vill build a device which vill aid ze outpost greatly. ^green;I am in need of ^orange;10 copper bars ^green;to make wiring. ^white;Bring zis to me and I vill reward you. ",
+  "text": "Ello stranger! I am ze scientist 'ere at ze outpost. I 'av decided I vill build a device which vill aid ze outpost greatly. ^green;I am in need of ^orange;10 copper bars ^green;to make wiring.^reset; Bring zis to me and I vill reward you.",
   "completionText": "'ere 'ere, you 'ave done a vonderful job! Zis is yours.",
   "speaker": "questGiver",
   "moneyRange": [500, 600],
