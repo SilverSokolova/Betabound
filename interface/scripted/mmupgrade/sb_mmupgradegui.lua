@@ -8,12 +8,22 @@ function sb_moveGui()
   for i = 0, 6 do widget.setImage("imgSbLine"..i,"/assetmissing.png") end
 end
 
+function sb_hideGui()
+  local w = {"LiquidCollection","Beamaxe","PaintMode","WireMode","ScanMode"}
+  for i = 1, #w do widget.setPosition("btnSb"..w[i], {-99, -99}) end
+  for i = 0, 6 do widget.setImage("imgSbLine"..i,"/assetmissing.png") end
+end
+
 function init() originalInit()
   if (root.assetJson("/betabound.config:forceMoveMMUI") --betabound
     or (#config.getParameter("upgrades",{}).paintmode.prerequisites < 1) --EnhancedMatterManipulator
     or betterResetTools) --moremmupgrades
   then
     sb_moveGui()
+  elseif
+    config.getParameter("upgradeBox") --An overhaul of Matter Manipulator Upgrades
+  then
+    sb_hideGui()
   end
   self.sb_defaultDescription = self.defaultDescription or ""
   sb_statusProperties = {}
