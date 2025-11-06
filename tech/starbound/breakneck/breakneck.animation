@@ -20,7 +20,7 @@
       "emissionRate": 60,
       "particles": [{
           "particle": "rocketsmoke"
-        },{
+        }, {
           "particle": "tinyrockettrail"
         }
       ]

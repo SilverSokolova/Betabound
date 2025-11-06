@@ -1,5 +1,5 @@
 {
-  "input": [["darkwoodmaterial",6],["cobblestonematerial",12],["plantfibre",3]],
+  "input": [["cobblestonematerial",12],["darkwoodmaterial",6],["plantfibre",3]],
   "output": "sb_stoneaxe",
   "groups": ["craftingfarm","farming","all"]
 }

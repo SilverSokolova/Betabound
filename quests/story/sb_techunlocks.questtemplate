@@ -1,24 +1,11 @@
+//TODO: move this and its script out of story folder, and maybe move scanning to another quest
 {
   "id": "sb_techunlocks",
   "prerequisites": [],
-  "showAcceptDialog": false,
-  "showCompleteDialog": false,
-  "showFailDialog": false,
-  "showInLog": false,
-  "canBeAbandoned": false,
-  "title": "",
-  "text": "",
-  "completionText": "",
-  "moneyRange": [0, 0],
-  "rewards": [],
-  "questGiverIndicator": "mainquestgiver",
-  "questReceiverIndicator": "mainquestreceiver",
 
   "updateDelta": 0,
   "script": "/quests/scripts/story/sb_techunlocks.lua",
   "scriptConfig": {
-    "portraits": {},
-    "descriptions": {},
     "radioMessages": [
       "/radiomessages/sb_tutorial.radiomessages:sb_unlocktech",
       "/radiomessages/sb_tutorial.radiomessages:sb_unlocktechs"
@@ -32,6 +19,22 @@
       ["sb_targetblink", "sb_ftlboost", "sb_rocketboots"],
       ["sb_particlethrust", "sb_energyregen", "sb_shield"],
       ["sb_bubbleboost", "sb_regeneration"] //also sb_humanmech if we ever implement it
-    ]
-  }
+    ],
+
+  //EOF
+    "portraits": {},
+    "descriptions": {}
+  },
+  "showAcceptDialog": false,
+  "showCompleteDialog": false,
+  "showFailDialog": false,
+  "showInLog": false,
+  "canBeAbandoned": false,
+  "title": "",
+  "text": "",
+  "completionText": "",
+  "moneyRange": [0, 0],
+  "rewards": [],
+  "questGiverIndicator": "mainquestgiver",
+  "questReceiverIndicator": "mainquestreceiver"
 }
