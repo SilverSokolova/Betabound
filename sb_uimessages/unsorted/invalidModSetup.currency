@@ -1,6 +1,7 @@
 {
-  "itemName": "sb_uimessage:techFail",
-  "shortdescription": "   Tech incompatible.^clear;",
+  //'Setup' refers to either presence or absence
+  "itemName": "sb_uimessage:invalidModSetup",
+  "shortdescription": "   Denied; would cause issues with current game-mods.^clear;",
   "currency": "sb_uimessage",
   "rarity": "rare",
   "value": 0,

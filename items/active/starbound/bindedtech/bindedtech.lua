@@ -51,7 +51,7 @@ function tryEquipTech()
     end
   else
     --No such tech
-    sb_uiMessage("techFail")
+    sb_uiMessage("invalidModSetup")
   end
 end
 

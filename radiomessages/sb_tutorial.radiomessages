@@ -21,7 +21,7 @@
   },
   "sb_pickupcustomcodex": {
     "type": "tutorial",
-    "text": "You have discovered a blank book. If you cannot decide what to write, consider writing down notes, messages to friends, lists, my advice, or notable locations you've discovered on your travels."
+    "text": "You have discovered a blank book. It may be worthwhile to write notes, messages to friends, my advice, or notable locations you've discovered on your travels."
   },
   "sb_pickuppaint": {
     "type": "tutorial",
@@ -43,9 +43,14 @@
     "type": "tutorial",
     "text": "I see you've acquired some ammunition! Certain firearms gain a ^green;20%^reset; damage boost when using any type of ammo. If your ammo reserves are depleted or ^#71f2f6;SHIFT^reset; is held, the gun will instead use energy."
   },
+  "sb_pickupmoonstoneore": {
+    "type": "tutorial",
+    "text": "You have discovered moonstone ore. It can be used at a ^orange;robotic tool table^reset; to create stat upgrades for your ship."
+  },
 
   // on encountering certain things
   // on unlocking capabilities
+
   "sb_unlocktech": {
     "text": "The following tech has been made available: ^green;%s^reset; You can purchase tech at a tech console using tech cards."
   },

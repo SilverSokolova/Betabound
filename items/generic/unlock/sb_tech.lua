@@ -19,7 +19,7 @@ function swingAction()
       sb_uiMessage("techKnown")
     end
   else
-    sb_uiMessage("techFail")
+    sb_uiMessage("invalidModSetup")
   end
 end
 
@@ -32,8 +32,8 @@ end
 
 function unlockSuit()
   if not conditions(root.techConfig(tech).sb_conditions) then
-    sb_uiMessage("techFail")
-    sb.logWarn("[BETABOUND] Player attempted to learn a tech but its mod conditions have not been met: "..tech)
+    sb_uiMessage("invalidModSetup")
+    sb.logWarn("[Betabound] Player attempted to learn a tech but its mod conditions have not been met: "..tech)
     return
   end
   if #player.getProperty("sb_bioimplants") == 0 then

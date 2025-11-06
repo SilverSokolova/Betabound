@@ -136,11 +136,6 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_weaponupgrade5"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_weaponupgrade6"}}],
 
-[{"op":"test","path":"/defaultCodexes/fumantizi","inverse":true}, //FU prevents other mods from using player.upgradeShip so disable ship upgrades if it's present
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_shipspeed1"}},
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_maxfuel1"}},
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_fuelefficiency1"}}],
-
 //Armor
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"snowinfantryhead"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"snowinfantrychest"}}],
