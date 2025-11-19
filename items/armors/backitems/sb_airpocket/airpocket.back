@@ -5,14 +5,18 @@
   "tooltipKind": "sb_baseaugment",
   "rarity": "uncommon",
   "category": "enviroProtectionPack",
-  "description": "This creates breathable air around the wearer. Sadly it won't work in liquids.",
-  "shortdescription": "Air Pocket Generator",
+  "description": "Slowly creates breathable air around the wearer, ^red;extending^reset; their oxygen reserves.",
+  "shortdescription": "Air Pocket Generator", //it's a really thin pocket, more like a membrane, maybe?? EPP's work by making a bubble (cheerful giraffe lore) and they don't mess with liquids
 
   "maleFrames": "back.png",
   "femaleFrames": "back.png",
   "maxStack": 1,
 
-  "statusEffects": ["sb_airpocket"],
+  "statusEffects": [{
+      "stat": "maxBreath",
+      "amount": 250
+    }
+  ],
 
   "acceptsAugmentType": "back",
   "radioMessagesOnPickup": ["pickupepp"],
