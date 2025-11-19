@@ -31,7 +31,15 @@ end
 function tryEquipTech()
   if root.hasTech(tech) then
     local equippedTechType = root.techType(tech)
-    local equippedTech = equippedTechType == "Suit" and player.getProperty("sb_bioimplant") or player.equippedTech(equippedTechType)
+    local equippedTech
+
+    --Done this way to avoid grabbing player.equippedTech("Suit") if no suit is equipped
+    if equippedTechType == "Suit" then
+      equippedTech = player.getProperty("sb_bioimplant")
+    else
+      equippedTech = player.equippedTech(equippedTechType)
+    end
+
     if ownsTech(equippedTechType) then
       if equippedTech then
         if equippedTech == tech then
