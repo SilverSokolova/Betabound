@@ -4,5 +4,5 @@
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object4"}],
 
 [{"op":"test","path":"/description","value":"An enhanced brain, perfect for transplanting."},
-{"op":"replace","path":"/description","value":"An enhanced brain, perfect for transplanting. Obtain brains with a ^orange;Brain Extractor^reset;, crafted at an anvil."}]
+{"op":"replace","path":"/description","value":"An enhanced brain, perfect for transplanting. Obtain brains with a ^orange;brain extractor^reset;, crafted at an anvil."}]
 ]

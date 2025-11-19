@@ -4,8 +4,8 @@
 
   "rarity": "Legendary",
   "icon": "/tech/starbound/gravityball.png",
-  "description": "Press and hold ^green;[SPACE]^reset; midair to freeze gravity.",
-  "sb_longDescription": "Useful for building!",
+  "description": "Press and hold ^green;[SPACE]^reset; midair to freeze gravity!",
+  "sb_longDescription": "Useful for building.",
   "shortDescription": "Gravity Bubble",
 
   "scripts": ["jetpack.lua"],

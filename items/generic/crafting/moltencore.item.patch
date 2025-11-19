@@ -1,4 +1,4 @@
 [[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
 [{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":200}],
-[{"op":"test","path":"/description","value":"A very powerful molten core. Can be used to craft a metalwork station!"},{"op":"replace","path":"/description","value":"A very powerful molten core. Can be used to craft a ^orange;steelworks upgrade!^reset;"}]
+[{"op":"test","path":"/description","value":"A very powerful molten core. Can be used to craft a metalwork station!"},{"op":"replace","path":"/description","value":"A very powerful molten core. Can be used to craft a ^orange;steelworks upgrade^reset;!"}]
 ]

@@ -10,7 +10,7 @@ function update(dt); originalUpdate(dt)
       local position = entity.position()
       position[1] = position[1] + (2 * config.getParameter("flyDir"))
       position[2] = position[2] + 1.75
-      world.spawnNpc(position, "human", "sb_beamoutanddie", 0)
+      world.spawnNpc(position, "human", "sb_beamoutanddie", 0) --TODO: instead of human, betabound.config:protectorateSpecies?
     end
   end
 end
