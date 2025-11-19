@@ -2,6 +2,7 @@ require "/scripts/sb_uimessage.lua"
 require "/scripts/util.lua"
 require "/scripts/activeitem/sb_cursors.lua"
 require "/scripts/activeitem/sb_swing.lua"
+require("/scripts/sb_assetmissing.lua")
 
 function init() swingInit() sb_cursor("power")
   upgradeName = config.getParameter("customUpgradeID", config.getParameter("itemName"))
@@ -9,6 +10,11 @@ function init() swingInit() sb_cursor("power")
 end
 
 function swingAction()
+  if sb_modsInGroupPresent("playerUpgradeShipMods") then
+    sb_uiMessage("invalidModSetup")
+    return
+  end
+
   local betabound = player.getProperty("betabound", {})
   local upgrades = betabound.shipUpgrades or {}
 
