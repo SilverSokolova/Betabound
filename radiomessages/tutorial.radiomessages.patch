@@ -1,4 +1,24 @@
 [
-[{"op":"test","path":"/pickupcorefrag/text","value":"You discovered a core fragment! These are useful objects. I estimate that you will require at least 20 of them."},
-{"op":"replace","path":"/pickupcorefrag/text","value":"You discovered a core fragment! These are useful objects. I estimate that you will require at least 20 of them. They can also be made into extremely volatile powder."}]
+  [{
+      "op": "test",
+      "path": "/pickupcorefrag/text",
+      "value": "You discovered a core fragment! These are useful objects. I estimate that you will require at least 20 of them."
+    }, {
+      "op": "replace",
+      "path": "/pickupcorefrag/text",
+      "value": "You discovered a core fragment! These are useful objects. I estimate that you will require at least 20 of them. They can also be made into extremely volatile powder."
+    }
+  ],
+
+  //Console xbox parity. colors based on protectorate intro buttons. 'use it with E to use it to' lmao
+  [{
+      "op": "test",
+      "path": "/pickupinventorstable/text",
+      "value": "Did you just craft an inventor's table? I estimate your chances of survival have improved by 7.2%."
+    }, {
+      "op": "replace",
+      "path": "/pickupinventorstable/text",
+      "value": "Did you just craft an inventor's table? I estimate your chances of survival have improved by 7.2%.\nUse it with ^#71f2f6;E^reset; to use it to create more crafting tables."
+    }
+  ]
 ]
