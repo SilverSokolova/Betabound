@@ -72,7 +72,6 @@
 
     //FIX
       "Improved Food Descriptions [Addon]", //We want there to be no stack limit on food, not 1000
-      "bk3k_inventory_reskin", "bk3k_inventory_reskin1", "bk3k_inventory", //These overwrite bag configs. We want durability bars to be shown at all times
     
     
     //CRASH FIX
@@ -86,6 +85,12 @@
         "bk3k_techHelper", //1279678818 - Overwrites populateTechList
         "bk3k_Techs", //772812959 bk3k's More Powerful Techs - Incorporates bk3k_techHelper library mod instead of having it as download
         "Paint Gun Mod", //paint-gun-mod.4636/ Paint Gun Mod. Replaces vending machine animation file
+
+      //Inventory-related (maybe we should just add our stuff in a postload since overwriting the inventory is so popular)
+        "bk3k_inventory_reskin", "bk3k_inventory_reskin1", "bk3k_inventory", //These overwrite bag configs. We want durability bars to be shown at all times
+        "Inventory Interface Redone", //Overwrites playerinventory.config
+        "Carlucci Inventory Mod Is Back 4 GooD !! v2.50", //2053251870 Replaces paneLayout
+        "Carlucci Inventory Mod - Visual Update! v2.50 - 225 Inventory size", //2218459596 Replaces paneLayout
       
       "Starbound++", //1365556048 - Lack of prefixes, some other things (do they warrant loading after them?? bad patches??)
       "FrackinUniverse", //Every bad modding practice ever + so many things on this list (including tech menu breakage) + we add some recipes, holy fucking shit
