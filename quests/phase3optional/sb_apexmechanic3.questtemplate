@@ -1,19 +1,19 @@
-//TODO: UNUSED: (not saying 'do XYZ because it's unused, just saying it's unused)
-//Anyway it's disabled because we kinda just did 10 copper bars for Elliot
+//Formerly apexmechanic2. Changed from 10 copper bars to 1 silicon board
 {
-  "id": "sb_apexmechanic2",
-  "prerequisites": ["sb_outpost1", "sb_floranfan1", "sb_hylotlperformer1", "sb_examplequest"],
+  "id": "sb_apexmechanic3",
+//"prerequisites": ["sb_outpost1", "sb_floranfan1", "sb_hylotlperformer1"],
+  "prerequisites": ["sb_bountyhunter2", "sb_humanexcon2"],
   "title": "^green;Early Days",
-  "text": "Ello stranger! I am ze scientist 'ere at ze outpost. I 'av decided I vill build a device which vill aid ze outpost greatly. ^green;I am in need of ^orange;10 copper bars ^green;to make wiring.^reset; Bring zis to me and I vill reward you.",
-  "completionText": "'ere 'ere, you 'ave done a vonderful job! Zis is yours.",
+  "text": "Hello stranger! I am one of the scientists here at the outpost. I have decided I will build a device which will aid the outpost greatly. ^green;I am in need of a ^orange;silicon board^green;.^reset; Bring this to me and I will reward you.",
+  "completionText": "Here here, you have done a wonderful job! This is yours.",
   "speaker": "questGiver",
   "moneyRange": [500, 600],
-  "rewards": [["manipulatormodule", ["commonpistol", 1, {
-          "level": 3
+  "rewards": [["manipulatormodule", ["wire", 15], ["commonpistol", 1, {
+          "level": 4
         }
       ], ["rewardbag", 1, {
           "treasure": {
-            "level": 3
+            "level": 4
           }
         }
       ]]],
@@ -33,8 +33,8 @@
     "turnInDescription": "Speak to ^orange;the Apex mechanic^reset; at the ^orange;outpost^reset;",
     "conditions": [{
         "type": "gatherItem",
-        "itemName": "copperbar",
-        "count": 10,
+        "itemName": "siliconboard",
+        "count": 1,
         "consume": true
       }
     ]

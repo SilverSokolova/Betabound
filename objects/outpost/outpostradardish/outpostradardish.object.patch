@@ -1,0 +1,5 @@
+[
+[{"op":"test","path":"/scripts","inverse":true},{"op":"add","path":"/scripts","value":[]}],
+[{"op":"add","path":"/scripts/-","value":"/scripts/objects/sb_questhook.lua"}],
+[{"op":"add","path":"/sb_quests","value":{"outpost":{"offeredQuests":["sb_radardish1"]}}}]
+]
