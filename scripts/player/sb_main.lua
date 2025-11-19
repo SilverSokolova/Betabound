@@ -2,14 +2,20 @@ function init()
   math.betabound_player = _ENV.player
   mcontroller = math.betabound_mcontroller
 
---  if not entity then status.addPersistentEffect("sb_entity","sb_entity") end
---  entity = math.betabound_entity
+  --If this check isn't passing on oSB, whatever is setting it before we get here (status script?) probably isn't, so move that check here.
+  if math.betabound_client == "OpenSB" then
+    inventory = interface.bindRegisteredPane("Inventory")
+    updateSuitIcon(player.getProperty("sb_bioimplant"))
+  else
+    updateSuitIcon = function() end
+  end
 
   --Suit tech. TODO: clean this up. give names to variables
   message.setHandler("sb_implant_unequip", function(_, fromSelf)
     if fromSelf == false then return end
     status.clearPersistentEffects("sb_bioimplant")
     player.setProperty("sb_bioimplant")
+    updateSuitIcon()
   end)
 
   message.setHandler("sb_implant", function(_, fromSelf, techName)
@@ -25,6 +31,7 @@ function init()
     end
 
     player.setProperty("sb_bioimplant", techName)
+    updateSuitIcon(techName)
   end)
 
   --Peacekeeper Teleporter
@@ -98,7 +105,61 @@ function init()
 
   message.setHandler("/sb_showhunger", function(_, fromSelf)
     if interface and fromSelf then
-      interface.queueMessage(string.format(root.assetJson("/betabound.config:showHunger"), math.floor(status.resource("food")).."/"..math.floor(status.resourceMax("food"))), 4, 0.5)
+      if not showHungerMessage then
+        showHungerMessage = root.assetJson("/betabound.config:showHunger")
+      end
+      interface.queueMessage(string.format(showHungerMessage, math.ceil(status.resource("food")).."/"..math.ceil(status.resourceMax("food"))), 4, 0.5)
     end
   end)
+end
+
+function updateSuitIcon(techName)
+  if inventory then
+    inventoryWidgets = inventory.toWidget()
+  
+    if techName then
+      local techConfig = root.techConfig(techName)
+      inventoryWidgets["setItemSlotItem"]("sb_techSuit", {"lead", 1, {
+        inventoryIcon = techConfig.icon,
+        tooltipKind = techConfig.tooltipKind or "sb_tech3",
+        description = techConfig.description,
+        shortdescription = "",
+        category = ""
+      }})
+    else
+      inventoryWidgets["setItemSlotItem"]("sb_techSuit")
+    end
+
+    if not inventoryWidgets["getData"]("sb_techSuit") then
+      inventoryWidgets["setData"]("sb_techSuit", true)
+      local cfg = root.assetJson("/interface/windowconfig/playerinventory.config:sb_techDisplay")
+      if cfg.enabled then
+        local hiddenWidgets = cfg.hiddenWidgets
+        for i = 1, #hiddenWidgets do
+          inventoryWidgets["setVisible"](hiddenWidgets[i], true)
+        end
+
+        local centeredOffset = root.assetJson("/interface/windowconfig/playerinventory.config:paneLayout.techHead.centered") and 0 or 8
+        local head, body, legs, suit = inventoryWidgets["getPosition"]("techHead"), inventoryWidgets["getPosition"]("techBody"), inventoryWidgets["getPosition"]("techLegs"), inventoryWidgets["getPosition"]("sb_techSuit")
+        local headD, bodyD, legsD = inventoryWidgets["getPosition"]("techHeadDisabled"), inventoryWidgets["getPosition"]("techBodyDisabled"), inventoryWidgets["getPosition"]("techLegsDisabled")
+        --Hi there! Did you know that in vanilla, the 16x16 disabled icons are one pixel higher than the 16x16 tech icons they go over, and inventory mods have likely inherited this too? Now you do!
+        --Eh? You checked and they're positioned properly? It's fixed in Patch Project if the Y position is the same as the vanilla inventory!
+
+        if (head[1] < body[1] and head[2] == body[2]) and (body[1] < legs[1] and body[2] == legs[2]) then
+          inventoryWidgets["setPosition"]("techBody", {head[1] + cfg.techBodyOffset, body[2]})
+          inventoryWidgets["setPosition"]("techLegs", {head[1] + cfg.techLegsOffset, legs[2]})
+          inventoryWidgets["setPosition"]("sb_techSuit", {head[1] + cfg.techSuitOffset[1] + centeredOffset, legs[2] + cfg.techSuitOffset[2] + centeredOffset})
+
+          inventoryWidgets["setPosition"]("sb_techHeadBacking", {head[1] + centeredOffset, head[2] + centeredOffset})
+          inventoryWidgets["setPosition"]("sb_techBodyBacking", {head[1] + cfg.techBodyOffset + centeredOffset, body[2] + centeredOffset})
+          inventoryWidgets["setPosition"]("sb_techLegsBacking", {head[1] + cfg.techLegsOffset + centeredOffset, legs[2] + centeredOffset})
+
+          inventoryWidgets["setPosition"]("techBodyDisabled", {head[1] + cfg.techBodyDisabledOffset, bodyD[2]})
+          inventoryWidgets["setPosition"]("techLegsDisabled", {head[1] + cfg.techLegsDisabledOffset, legsD[2]})
+        end
+      else
+        updateSuitIcon = function() end
+      end
+    end
+  end
 end
