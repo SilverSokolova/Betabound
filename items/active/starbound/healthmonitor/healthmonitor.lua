@@ -1,19 +1,21 @@
 function init()
   resources = config.getParameter("resources")
-  local showHunger = true
+
   if player.mode then
-    showHunger = root.assetJson("/playermodes.config")[player.mode()].hunger
+    resources["food"].visible = root.assetJson("/playermodes.config")[player.mode()].hunger
+  else
+    resources["food"].visible = true
   end
-  activeItem.setScriptedAnimationParameter("showHunger", showHunger)
 end
 
 function update()
-  local currentResources, maxResources = {}, {}
-  for i = 1, #resources do
-    local target = resources[i]
-    currentResources[i] = status.resource(target)
-    maxResources[i] = status.resourceMax(target)
+  --Breath is hidden when both immune and full, since oxygen replenishing items can work by providing temporary immunity
+  resources["breath"].visible = not (status.statPositive("breathProtection") and status.resourcePercentage("breath") == 1)
+
+  for k, _ in pairs(resources) do
+    resources[k].currentValue = status.resource(k)
+    resources[k].maxValue = status.resourceMax(k)
   end
-  activeItem.setScriptedAnimationParameter("currentResources", currentResources)
-  activeItem.setScriptedAnimationParameter("maxResources", maxResources)
+
+  activeItem.setScriptedAnimationParameter("resources", resources)
 end
