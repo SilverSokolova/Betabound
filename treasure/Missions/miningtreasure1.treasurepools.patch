@@ -1,13 +1,18 @@
 [
+//End-of-map chest
 [{"op":"add","path":"/miningtreasurelore/0/1/fill/-","value":{"pool":"sb_miningtreasureMusic"}}],
+
+//Add unobtainable blueprints. TODO: Does Patch Project do this?
 [{"op":"add","path":"/miningtreasure/0/1/pool/-","value":{"weight":0.02,"item":"lunarbaseblock-recipe"}},
 {"op":"add","path":"/miningtreasure/0/1/pool/-","value":{"weight":0.02,"item":"lunarbaseplatform-recipe"}},
 {"op":"add","path":"/miningtreasure/0/1/pool/-","value":{"weight":0.02,"item":"miningchest-recipe"}},
 {"op":"add","path":"/miningtreasure/0/1/pool/-","value":{"weight":0.02,"item":"miningdoor-recipe"}},
 {"op":"add","path":"/miningtreasure/0/1/pool/-","value":{"weight":0.02,"item":"miningverticaldoor-recipe"}}],
 
+//Cat
 [{"op":"add","path":"/translator1Pool/0/1/fill/-","value":{"item":["sb_filledcrittercapturepod",1,{"projectileConfig":{"actionOnReap":[{"offset":[0,0],"type":"blackcat","arguments":{"persistent":true,"damageTeamType":"friendly","wasRelocated":true},"action":"spawnmonster"},{"name":"capturepod","action":"item","offset":[0,0]}],"speed":40}}]}}],
 
+//Guarantee blueprints in hidden chests 
 [{"op":"add","path":"/lunarbaseRare1/0/1/fill/-","value":{"pool":"miningtreasure"}},{"op":"add","path":"/lunarbaseRare1/0/1/fill/-","value":{"pool":"miningtreasure"}}],
 [{"op":"add","path":"/lunarbaseRare2/0/1/fill/-","value":{"pool":"miningtreasure"}},{"op":"add","path":"/lunarbaseRare2/0/1/fill/-","value":{"pool":"miningtreasure"}}],
 [{"op":"add","path":"/lunarbaseRare3/0/1/fill/-","value":{"pool":"miningtreasure"}},{"op":"add","path":"/lunarbaseRare3/0/1/fill/-","value":{"pool":"miningtreasure"}}],

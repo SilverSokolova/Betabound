@@ -1,3 +1,4 @@
+--TODO: move this to objects folder?
 local originalInit = init or function() end
 function init()
   originalInit()

@@ -1,3 +1,4 @@
+--TODO: move to `/scripts/objects`?
 function init()
   if config.getParameter("sb_objectName") then return end
   local newParameters = root.itemConfig(config.getParameter("objectName"):sub(4)).config
