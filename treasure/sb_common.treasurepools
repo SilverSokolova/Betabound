@@ -85,23 +85,6 @@
     }]
   ],
 
-  "sb_rockblueprints": [
-    [0, {
-      "pool": [
-        {"weight": 1, "item": "rock01-recipe"},
-        {"weight": 1, "item": "rock02-recipe"},
-        {"weight": 1, "item": "rock03-recipe"},
-        {"weight": 1, "item": "rock04-recipe"},
-        {"weight": 1, "item": "rock12-recipe"},
-        {"weight": 1, "item": "rock14-recipe"},
-        {"weight": 1, "item": "rock15-recipe"},
-        {"weight": 1, "item": "rock17-recipe"},
-        {"weight": 1, "item": "rock19-recipe"},
-        {"weight": 1, "item": "rock20-recipe"}
-      ]
-    }]
-  ],
-
   "sb_dye": [
     [0, {
       "pool": [
@@ -122,8 +105,8 @@
   "sb_brain": [ //this is used
     [0, {
       "pool": [
-        {"weight": 0.4, "item": "brain"},
-        {"weight": 0.6, "item": "inferiorbrain"}
+        {"weight": 0.17, "item": "brain"},
+        {"weight": 0.83, "item": "inferiorbrain"}
       ]
     }]
   ],

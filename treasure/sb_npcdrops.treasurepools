@@ -1,5 +1,4 @@
 {
-  "sb_castlelordTreasure": [[0,{"fill":[{"pool":"castlelordtreasure"}]}]],//To keep old NPC's from crashing
   "sb_labscientistTreasure": [
     [0, {
       "pool": [

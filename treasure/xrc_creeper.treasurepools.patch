@@ -1,1 +1,1 @@
-[[{"op":"replace","path":"/xrc_creeper/0/1/pool/1/item/0","value":"sb_gunpowder"}]]
+[[{"op":"add","path":"/xrc_creeper/0/1/pool/-","value":{"weight":0.3,"item":"sb_gunpowder"}]]
