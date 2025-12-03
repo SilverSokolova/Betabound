@@ -14,7 +14,7 @@
 
   "statusEffects": [{
       "stat": "maxBreath",
-      "amount": 250
+      "amount": 500
     }
   ],
 
