@@ -12,6 +12,7 @@
       ]
     } ]
   ],
+
   "sb_swordstoneHarvest": [
     [0, {
       "fill": [
@@ -23,6 +24,7 @@
       ]
     } ]
   ],
+
   //unfortunately we can't put the deathstick here since it's laggy
   "sb_treeHarvest": [
     [0, {
@@ -32,6 +34,7 @@
       ]
     } ]
   ],
+
   "sb_fruitTreeHarvest": [
     [0, {
       "pool": [
@@ -40,6 +43,7 @@
       ]
     } ]
   ],
+
   "sb_fruitTreeHarvestFruit": [
     [0, {
       "pool": [
@@ -48,6 +52,7 @@
       ]
     } ]
   ],
+
   "sb_eyefoliageHarvest": [
     [0, {
       "pool": [
@@ -56,6 +61,7 @@
       ]
     } ]
   ],
+
   "sb_tentacletreeHarvest": [
     [0, {
       "pool": [
