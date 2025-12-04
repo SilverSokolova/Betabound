@@ -1,0 +1,7 @@
+{
+  "name": "sb_sgenergyshieldapplier",
+  "effectConfig": {
+    "tech": "sb_sgenergyshield"
+  },
+  "scripts": ["sgenergyshieldapplier.lua"]
+}
