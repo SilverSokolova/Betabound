@@ -15,11 +15,9 @@ function buildShortDescription(partName, weaponConfig) --I'm sure it's fine righ
   local name = (weaponConfig.shortdescription or "")
   --local name = string.gsub(string.format("%s%s",weaponConfig.shortdescription,string.gsub(originalBuildShortDescription(partName, weaponConfig), "(%w+)","",1)),"  "," ")
   --surely there's a better way to do this. this loops i*3 times! (does it?)
-  local rarities = {"Common","Uncommon","Rare","Legendary","Essential"}
-  for i = 1, #rarities do name=name:gsub(rarities[i].." ","") end
-  name=name.." "..partName:gsub(partName:sub(1,1),string.upper(partName:sub(1,1)))
+  local rarities = {"Common", "Uncommon", "Rare", "Legendary", "Essential"}
+  for i = 1, #rarities do name=name:gsub(rarities[i].." ", "") end
+  name = name .. " " .. partName:gsub(partName:sub(1,1),string.upper(partName:sub(1,1)))
   return name
 end
---I am aware that you can dupe weapons with this but I want to sleep right now
---HOW CAN YOU DUPE WEAPONS WITH IT??
---ok so reload the game with the item in the interface. it's an issue on their end, not ours
+--Fun fact: You can dupe weapons by reloading the game with items in the interface. Bug exists in the original mod!
