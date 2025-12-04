@@ -1,9 +1,9 @@
 {
   "id": "sb_outpost1",
   "prerequisites": [],
-  "title": "^green;Rent Well Spent",
-  "text": "My Landlord is a jerk! He's going to kick me out of my place if I don't get him a bar of ^orange;chocolate.^reset; ^#0f0;They sell them at Infinity Express,^reset; but I haven't got any pixels! Can you help me out?",
-  "completionText": "Thank you so much! Maybe it is time I found a better place to live. You seem like a nice person - If you head to the ^#0f0;Frogg Furnishing^reset; store, ^orange;you can become a Landlord yourself!^reset; I will tell the others here of your kindness.",
+  "title": "^green;Rent Well Spent^reset;",
+  "text": "My landlord is a jerk! He's going to kick me out of my place if I don't get him a bar of ^orange;chocolate^reset;. ^green;They sell them at Infinity Express^reset;, but I haven't got any pixels! Can you help me out?",
+  "completionText": "Thank you so much! Maybe it is time I found a better place to live. You seem like a nice person - If you head to the ^green;Frogg Furnishing^reset; store, ^orange;you can become a landlord yourself^reset;! I will tell the others here of your kindness.",
   "speaker": "questGiver",
   "moneyRange": [150, 250],
   "rewards": [["colonydeed", "colonymanual-codex", "rewardbag"]],
