@@ -1,0 +1,5 @@
+{
+  "input": [["cobblestonematerial",8],["darkwoodmaterial",8],["plantfibre",4]],
+  "output": "sb_stonepickaxe",
+  "groups": ["craftingfarm","survival","all"]
+}
