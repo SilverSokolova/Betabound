@@ -2,9 +2,10 @@ require "/scripts/sb_uimessage.lua"
 require "/scripts/util.lua"
 require "/scripts/activeitem/sb_cursors.lua"
 require "/scripts/sb_assetmissing.lua"
+require "/scripts/player/sb_hasTech.lua"
 
-function init() sb_techType()
-  script.setUpdateDelta(20)
+function init(); sb_techType()
+  script.setUpdateDelta(config.getParameter("scriptDelta"))
   activeItem.setHoldingItem(false)
   sb_cursor("power")
   tech = config.getParameter("techModule")
@@ -33,14 +34,14 @@ function tryEquipTech()
     local equippedTechType = root.techType(tech)
     local equippedTech
 
-    --Done this way to avoid grabbing player.equippedTech("Suit") if no suit is equipped
+    --Done this way to avoid grabbing `player.equippedTech("Suit")` if no suit is equipped
     if equippedTechType == "Suit" then
-      equippedTech = player.getProperty("sb_bioimplant")
+      equippedTech = player.getProperty("sb_equippedSuitTech")
     else
       equippedTech = player.equippedTech(equippedTechType)
     end
 
-    if ownsTech(equippedTechType) then
+    if sb_isTechEnabled(equippedTechType) then
       if equippedTech then
         if equippedTech == tech then
           --Both are identical
@@ -67,7 +68,7 @@ function equipTech(techName, slot)
   animator.playSound("success")
   activeItem.setInstanceValue("durabilityHit", 0)
   if slot == "Suit" then
-    player.interact("message", {messageType = "sb_implant", messageArgs = {techName}})
+    player.interact("message", {messageType = "sb_suitTech:equip", messageArgs = {techName}})
   else
     player.equipTech(techName)
   end
@@ -87,5 +88,4 @@ function changeItem(techName, equippedTechType)
   tech = techName
 end
 
-function ownsTech(slot) return slot == "Suit" and contains(player.getProperty("sb_bioimplants",{}), tech) or contains(player.enabledTechs(), tech) end
 function cutColors(text) return string.gsub(string.gsub(text, "(%^.-%;)", ""),("\n"),"") end

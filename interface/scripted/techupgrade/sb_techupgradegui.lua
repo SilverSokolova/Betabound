@@ -19,28 +19,29 @@ function init()
   player.sb_equippedTech = player.equippedTech
   player.equippedTech = function(tech)
     if tech == "sb_suit" then return nil end
-    return player.sb_equippedTech(tech) 
+    return player.sb_equippedTech(tech)
   end
-  if pat_unequip then widget.setVisible("pat_unequip", false) end --no need for a tech button that doesnt do suits
+  if pat_unequip then widget.setVisible("pat_unequip", false) end --no need for a tech button that doesnt do suits when we provide one that does
   player.sb_enabledTechs = player.enabledTechs
   player.sb_enableTech = player.enableTech
 
-  player.enabledTechs = function() return self.selectedSlot ~= "sb_suit" and player.sb_enabledTechs() or sb_ownedImplants end
+  player.enabledTechs = function() return self.selectedSlot ~= "sb_suit" and player.sb_enabledTechs() or sb_enabledSuitTechs end
   player.enableTech = function(tech)
     if self.selectedSlot ~= "sb_suit" then
       player.sb_enableTech(tech)
     else
-      if #sb_ownedImplants == 0 then
-        sb_ownedImplants = {tech}
+      if #sb_enabledSuitTechs == 0 then
+        sb_enabledSuitTechs = {tech}
       else
-        sb_ownedImplants[#sb_ownedImplants+1] = tech
-        table.sort(sb_ownedImplants, function(a,b) return a<b end)
+        sb_enabledSuitTechs[#sb_enabledSuitTechs+1] = tech
+        table.sort(sb_enabledSuitTechs, function(a,b) return a<b end)
       end
-      world.sendEntityMessage(player.id(), "sb_implant", tech)
+      player.interact("message", {messageType = "sb_suitTech:equip", messageArgs = {tech}})
       sb_suit = tech
       sb_toggleButtons()
       populateTechList("sb_suit")
-      player.setProperty("sb_bioimplants", sb_ownedImplants)
+      player.interact("message", {messageType = "sb_suitTech:enable", messageArgs = {tech}})
+--      player.setProperty("sb_enabledSuitTechs", sb_enabledSuitTechs)
     end
   end
 
@@ -55,8 +56,8 @@ function init()
   sb_suitImage = string.format(config.getParameter("suitImagePath"), player.species(), player.gender())
   sb_suitSelectedPath = string.format(self.suitSelectedPath, player.species(), player.gender(), ""):gsub("-.png","")..".png"
   sb_suitImageColor = ""
-  sb_suit = player.getProperty("sb_bioimplant")
-  sb_tooltip = root.assetJson("/interface/tooltips/sb_tech.tooltip")
+  sb_suit = player.getProperty("sb_equippedSuitTech")
+  sb_tooltip = root.assetJson("/interface/tooltips/sb_tech.tooltip") --TODO: use the one used for suit techs in the inventory tech display
   sb_tooltip.priceLabel.visible = false; sb_tooltip.moneyIcon.visible = false; sb_tooltip.background.fileHeader = "/interface/tooltips/sb_header4.png"
   sb_updateSuitImage()
 end
@@ -69,10 +70,10 @@ function setSelectedTech(techName)
     end
   else
     self.selectedTech = techName
-    if contains(sb_ownedImplants, techName) then
+    if contains(sb_enabledSuitTechs, techName) then
       widget.setButtonEnabled("btnEnable", false)
-      world.sendEntityMessage(player.id(), "sb_implant", techName)
-      sb_suit = techName --set it here in case the message arrives late
+      player.interact("message", {messageType = "sb_suitTech:equip", messageArgs = {techName}})
+      sb_suit = techName --set it here in case the message arrives late, but i dont think it will with player.interact
       sb_updateSuitImage()
     else
       widget.setButtonEnabled("btnEnable", false)
@@ -100,7 +101,7 @@ function populateTechList(slot)
     widget.clearListItems(self.techList)
     local listedTechs = {}
     for i = 1, 2 do
-      local currentList = i == 1 and sb_ownedImplants or sb_availableImplants
+      local currentList = i == 1 and sb_enabledSuitTechs or sb_availableSuitTechs
       for suit = 1, #currentList do
         local tech = currentList[suit]
         player.makeTechUnavailable(tech)
@@ -119,22 +120,23 @@ function populateTechList(slot)
               widget.setListSelected(self.techList, listItem)
             end
           else
+            --[[Not a suit tech, so remove it from the list
             local newOwned, newAvailable = {}, {}
-            for i = 1, #sb_ownedImplants do
-              if tech ~= sb_ownedImplants[i] then
-                newOwned[#newOwned+1] = sb_ownedImplants[i]
+            for i = 1, #sb_enabledSuitTechs do
+              if tech ~= sb_enabledSuitTechs[i] then
+                newOwned[#newOwned+1] = sb_enabledSuitTechs[i]
               end
             end
-            for i = 1, #sb_availableImplants do
-              if tech ~= sb_availableImplants[i] then
-                newAvailable[#newAvailable+1] = sb_availableImplants[i]
+            for i = 1, #sb_availableSuitTechs do
+              if tech ~= sb_availableSuitTechs[i] then
+                newAvailable[#newAvailable+1] = sb_availableSuitTechs[i]
               end
             end
-            player.setProperty("sb_bioimplants", newOwned)
-            player.setProperty("sb_availableImplants", newAvailable)
+            player.setProperty("sb_enabledSuitTechs", newOwned)
+            player.setProperty("sb_availableSuitTechs", newAvailable)
             player.makeTechAvailable(tech)
             player.sb_enableTech(tech)
-            sb_prepareSuits()
+            sb_prepareSuits()]]
           end
         end
       end
@@ -159,7 +161,7 @@ end
 
 function sb_unequip()
   if self.selectedSlot == "sb_suit" then
-    world.sendEntityMessage(player.id(), "sb_implant_unequip")
+    world.sendEntityMessage(player.id(), "sb_suitTech:equip") --Can't do player.interact here because nil args
     sb_suit = nil
   else
     local tech = player.equippedTech(self.selectedSlot)
@@ -180,7 +182,7 @@ function sb_showSuits()
 end
 
 function sb_download()
-  if self.selectedTech and (contains(sb_ownedImplants, self.selectedTech) or contains(player.enabledTechs(), self.selectedTech)) then
+  if self.selectedTech and (contains(sb_enabledSuitTechs, self.selectedTech) or contains(player.enabledTechs(), self.selectedTech)) then
     if player.isAdmin() or player.consumeItem({name="techcard",count=sb_downloadCost}) then
       player.giveItem({"sb_tech",1,{techModule=self.selectedTech}})
     else
@@ -190,7 +192,7 @@ function sb_download()
 end
 
 function sb_bind()
-  if self.selectedTech and (contains(sb_ownedImplants, self.selectedTech) or contains(player.enabledTechs(), self.selectedTech)) then
+  if self.selectedTech and (contains(sb_enabledSuitTechs, self.selectedTech) or contains(player.enabledTechs(), self.selectedTech)) then
     if player.isAdmin() or player.consumeItem({name="techcard",count=sb_downloadCost}) then
       if not sb_bindedTechItemDescription then
         local itemConfig = root.itemConfig("sb_bindedtech").config
@@ -217,7 +219,6 @@ end
 
 function sb_updateSuitImage()
   if sb_suit and root.hasTech(sb_suit) then
-    sb_suit = player.getProperty("sb_bioimplant")
     sb_toggleButtons()
     self.animationTimer = 0
     sb_suitImageColor = root.techConfig(sb_suit).sb_suitImage or "?replace;73daff=f7d700;27abff=e99400;117ee4=c65d00;1f45d4=8a2400;002b72=430000;001522=230000?saturation=-50"
@@ -244,10 +245,10 @@ function sb_toggleButtons()
 end
 
 function sb_prepareSuits()
-  sb_ownedImplants, sb_availableImplants = player.getProperty("sb_bioimplants",{}), player.getProperty("sb_availableBioimplants",{})
-  if #sb_ownedImplants > 1 then table.sort(sb_ownedImplants,function(a,b) return a<b end) end
-  if #sb_availableImplants > 1 then table.sort(sb_availableImplants,function(a,b) return a<b end) end
-  widget.setButtonEnabled("sb_btnSuit", #sb_ownedImplants + #sb_availableImplants > 0)
+  sb_enabledSuitTechs, sb_availableSuitTechs = player.getProperty("sb_enabledSuitTechs",{}), player.getProperty("sb_availableSuitTechs",{})
+  if #sb_enabledSuitTechs > 1 then table.sort(sb_enabledSuitTechs,function(a,b) return a<b end) end
+  if #sb_availableSuitTechs > 1 then table.sort(sb_availableSuitTechs,function(a,b) return a<b end) end
+  widget.setButtonEnabled("sb_btnSuit", #sb_enabledSuitTechs + #sb_availableSuitTechs > 0)
 end
 
 function createTooltip(p)

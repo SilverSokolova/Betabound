@@ -1,32 +1,69 @@
 xrc0018 = {}
-local function blue(a) if type(a)=="string" then a={a} end for i = 1, #a do player.giveBlueprint(a[i]) end end
-local function quest(a,b) if type(b)=="string" then b={b} end if player.hasCompletedQuest(a) then for i = 1, #b do player.giveItem(b[i]) end end end
-local function boxQuest(a,b) if player.hasCompletedQuest(a) then IB[#IB+1] = b end end
-local function giveBox(desc, tooltipKind) if #IB > 0 then player.giveItem({"sb_itembox",1,{tooltipKind=tooltipKind,description=string.format(root.assetJson("/betabound.config:updateNotes")[desc or "default"], #IB),items=IB}}) end end
-local function updateNote(a)
-  local b = root.assetJson("/betabound.config")
-  local i = root.assetJson("/scripts/sb_versioning/updateNote.json")
-  i.parameters.description = b.updateNotes[a or "default"]
-  player.giveItem(i)
+local function giveBlueprints(blueprints)
+  if type(blueprints) == "string" then blueprints = {blueprints} end
+
+  for i = 1, #blueprints do
+    player.giveBlueprint(blueprints[i])
+  end
+end
+
+local function giveQuestRewards(quest, rewards)
+  if type(rewards) == "string" then rewards = {rewards} end
+
+  if player.hasCompletedQuest(quest) then
+    for i = 1, #rewards do
+      player.giveItem(rewards[i])
+    end
+  end
+end
+
+local function addItemToBoxIfQuestCompleted(quest, item)
+  boxedItems = boxedItems or {}
+  if player.hasCompletedQuest(quest) then
+    boxedItems[#boxedItems+1] = item
+  end
+end
+
+local function giveBox(desc, tooltipKind)
+  if boxedItems and #boxedItems > 0 then
+    player.giveItem({
+      "sb_itembox", 1,
+      {
+        tooltipKind = tooltipKind,
+        description = string.format(root.assetJson("/betabound.config:updateNotes")[desc or "default"], #boxedItems),
+        items = boxedItems
+      }
+    })
+    boxedItems = nil
+  end
+end
+
+local function giveUpdateNote(messageKey)
+  local betaboundConfig = root.assetJson("/betabound.config")
+  local updateNoteItem = root.assetJson("/scripts/sb_versioning/updateNote.json")
+  updateNoteItem.parameters.description = betaboundConfig.updateNotes[messageKey or "default"]
+  player.giveItem(updateNoteItem)
 
   local audiodisc = root.itemConfig("audiodisc").config
   player.radioMessage({
     messageId = sb.makeUuid(),
     unique = false,
-    text = b["developerMessage"].." "..i.parameters.description,
+    text = betaboundConfig["developerMessage"].." "..updateNoteItem.parameters.description,
     portraitImage = audiodisc.defaultPortrait,
     portraitFrames = audiodisc.defaultPortraitFrames,
     senderName = "Betabound"
   })
 end
-local function reunlockRecipes(a)
-  if type(a) == "string" then a = {a} end
-  for i = 1, #a do
-    if player.blueprintKnown(a[i]) then
-      local recipes = root.recipesForItem(a[i][1])
+
+local function reunlockRecipes(recipes)
+  if type(recipes) == "string" then recipes = {recipes} end
+
+  for i = 1, #recipes do
+    if player.blueprintKnown(recipes[i]) then
+      local recipes = root.recipesForItem(recipes[i][1])
       for j = 1, #recipes do
         player.giveBlueprint(recipes[j].output)
-        sb.logInfo("Updated recipe for: "..a[i][1])
+        sb.logInfo("Updated recipe for: "..recipes[i][1])
       end
     end
   end
@@ -45,8 +82,10 @@ local function reunlockRecipes(a)
 end
 
 xrc0018[1]=function() local b = root.assetJson("/betabound.config:defaultItems") for i = 1, #b do player.giveItem(b[i]) end end
-xrc0018[4]=function() quest("sb_kelpquest.gearup","refinery") end
-xrc0018[5]=function() quest("sb_kelpquest.gearup","sb_techconsole") end
+xrc0018[4]=function() giveQuestRewards("sb_kelpquest.gearup","refinery") end
+xrc0018[5]=function() giveQuestRewards("sb_kelpquest.gearup","sb_techconsole") end
+
+--Version suit techs if the player has any
 xrc0018[8]=function()
   local a = status.statusProperty("sb_bioimplants")
   local b = root.assetJson("/versioning/sb_tech.config")
@@ -68,20 +107,22 @@ xrc0018[8]=function()
   end
 end
 
-xrc0018[13]=function() if player.blueprintKnown("sb_frostshield") then player.giveItem("sb_frostshield-recipe") player.addCurrency("money",5000) end end
+--xrc0018[13]=function() if player.blueprintKnown("sb_frostshield") then reunlockRecipes("sb_frostshield") end end
 xrc0018[14]=function()
   player.setProperty("betabound", sb.jsonMerge(status.statusProperty("betabound", {}), player.getProperty("betabound", {})))
   status.clearPersistentEffects("sb_entity")
+--[[
   local p = {"sb_bioimplant","sb_bioimplants"}
   local d = {{},nil,{}}
   for i = 1, #p do player.setProperty(p[i],status.statusProperty(p[i],d[i])) status.setStatusProperty(p[i]) end
   if type(player.getProperty(p[1])) ~= "string" then player.setProperty(p[1],nil) end
+]]--
 end
 
 xrc0018[15]=function()
   require("/scripts/sb_assetmissing.lua")
   if not sb_storyDisablerInstalled() then
-    quest("destroyruin","sb_beamaxe2")
+    giveQuestRewards("destroyruin","sb_beamaxe2")
   end
 end
 
@@ -99,7 +140,7 @@ xrc0018[18]=function()
         status.clearPersistentEffects("sb_bioimplant")
           player.setProperty("sb_bioimplant",e[i])
           local d = root.hasTech(c) and root.techConfig(c) or root.hasTech(e[i]) and root.techConfig(e[i]) or root.hasTech(b[e[i]]) and root.techConfig(b[e[i]])
-          if d then status.setPersistentEffects("sb_bioimplant",type(d.sb_effect)=="string" and {d.sb_effect} or d.sb_effect) end
+          if d then status.setPersistentEffects("sb_bioimplant",type(d.sb_effect)=="string" and {d.sb_effect} or d.sb_effect) end --send an entity mesage instead
       end
     end
     player.setProperty("sb_bioimplants",e)
@@ -112,11 +153,10 @@ xrc0018[18]=function()
     end
     player.setProperty("sb_availableBioimplants",e)
   end
-  IB = {}
-  boxQuest("sb_bountyhunter1.gearup",{"sb_uncommonbroadsword",1,{level=2}})
-  boxQuest("sb_bountyhunter3.gearup",{"sb_uncommonshotgun",1,{level=4}})
-  boxQuest("sb_floranhunter4.gearup",{"sb_uncommonspear",1,{level=5}})
-  boxQuest("sb_humanexcon4.gearup",{"sb_uncommonaxe",1,{level=5}})
+  addItemToBoxIfQuestCompleted("sb_bountyhunter1.gearup",{"sb_uncommonbroadsword",1,{level=2}})
+  addItemToBoxIfQuestCompleted("sb_bountyhunter3.gearup",{"sb_uncommonshotgun",1,{level=4}})
+  addItemToBoxIfQuestCompleted("sb_floranhunter4.gearup",{"sb_uncommonspear",1,{level=5}})
+  addItemToBoxIfQuestCompleted("sb_humanexcon4.gearup",{"sb_uncommonaxe",1,{level=5}})
   giveBox("changedQuestRewards")
 end
 --[[
@@ -131,9 +171,9 @@ xrc0018[19]=function()
   end
   IB = {}
   local t = {2,3,4,5,6} for i = 1, #t do t[#t+1]=t[i] end
-  boxQuest("destroyruin",{"superrewardbag",1,{treasure={level=6}}})
+  addItemToBoxIfQuestCompleted("destroyruin",{"superrewardbag",1,{treasure={level=6}}})
   for i = 1, #q do
-    boxQuest(q[i],{"rewardbag",1,{treasure={level=t[i]}}})
+    addItemToBoxIfQuestCompleted(q[i],{"rewardbag",1,{treasure={level=t[i]}}})
   end
   q = {
     {"sb_outpost0","sb_outpost1","sb_outpost2","sb_humanscientist1","sb_floranfan1"},
@@ -143,10 +183,12 @@ xrc0018[19]=function()
     {"sb_humanexcon4","sb_avianexplorer4","sb_avianmercenary4","sb_apexrefugee4","sb_floranhunter4","sb_bountyhunter4"},
     {"sb_avianrefugeeE1","sb_humanscientistE1","sb_avianrefugeeE2","sb_hylotlwarriorE2","sb_hylotlwarriorE1","sb_penguinpromoterE1"}
   }
-  for i = 1, #q do for j = 1, #q[i] do boxQuest(q[i][j]..".gearup",{"rewardbag",1,{treasure={level=i}}}) end end
+  for i = 1, #q do for j = 1, #q[i] do addItemToBoxIfQuestCompleted(q[i][j]..".gearup",{"rewardbag",1,{treasure={level=i}}}) end end
   giveBox("changedQuestRewards")
 end
 ]]
+
+--Update universe flags for quests
 xrc0018[20]=function()
   local q = {"sb_floranfan1","sb_hylotlwarriorE2"}
   for i = 1, #q do
@@ -159,7 +201,7 @@ end
 --21, 6/OCT/2022: Phase out redundant Betabound crafting stations
 xrc0018[21]=function()
   if player.blueprintKnown("sb_steelbar") then
-    updateNote("090")
+    giveUpdateNote("090")
   end
 end
 
@@ -184,8 +226,10 @@ xrc0018[23]=function()
   end
 end
 xrc0018[25]=function()
-  if player.blueprintKnown("sb_frostshield") then player.giveItem("frostshield-recipe") end
-  if player.blueprintKnown("sb_mushroomshield") then player.giveItem("mushroomshield-recipe") end
+  if player.blueprintKnown("sb_frostshield") or player.blueprintKnown("sb_mushroomshield") then
+  player.say("A")
+    reunlockRecipes("frostshield-recipe", "mushroomshield-recipe")
+  end
 end
 xrc0018[26]=function()
   local a = root.assetJson("/species/sb_recipes.config")
@@ -222,7 +266,7 @@ end
 --We use to have two scripts like this. One was shitty, so I'm ditching it completely now. If there are returning players from when that script was still used, run its code before deleting the version tracker
 --Some quests are commented out due to no longer existing under those names. Characters affected by the commented out 'fixes' will need to grab the quest from the outpost again, just like anyone else who had those quests active
 xrc0018[27]=function()
---quest("sb_outpostSkin.gearup","techconsole")
+--giveQuestRewards("sb_outpostSkin.gearup","techconsole")
   if not newPlayer then player.giveItem("sb_gunguide-codex") end
   local a = status.statusProperty("xrc_0018")
   if a then
@@ -239,11 +283,7 @@ xrc0018[28]=function()
     player.giveItem({"sb_musicsheet",1,{music="impact-event"}})
   end
 end
-xrc0018[30]=function()
-  if type(player.getProperty("sb_bioimplants")) ~= "table" then
-    player.setProperty("sb_bioimplants", {})
-  end
-end
+
 --32: Merge Betabound status properties to a single player property
 xrc0018[32]=function()
   if not newPlayer then
@@ -271,7 +311,7 @@ end
 
 --34: Chopped off the ".gearup" part of our quests, so check if the player completed those. If so, complete the quests under the new name.
 xrc0018[34]=function()
-  IB = {}
+  boxedItems = boxedItems or {}
   local quests = root.assetJson("/scripts/sb_versioning/changedQuestIds.json")
   for v, k in pairs(quests) do
     if player.hasCompletedQuest(v..".gearup") then
@@ -282,7 +322,7 @@ xrc0018[34]=function()
         if questItems then
           for i = 1, #questItems do
             if questItems[i].itemName then
-              IB[#IB+1] = {questItems[i].itemName, questItems[i].count or 1}
+              boxedItems[#boxedItems+1] = {questItems[i].itemName, questItems[i].count or 1}
             end
           end
         end
@@ -299,7 +339,7 @@ xrc0018[35]=function()
   for i = 1, #recipes do
     if player.blueprintKnown(string.format("sb_%s_repair", recipes[i])) then
       if not gotNote then
-        updateNote()
+        giveUpdateNote()
         gotNote = true
       end
       player.giveBlueprint(string.format("sb_%srepairtool", recipes[i]))
@@ -309,7 +349,29 @@ end
 
 --36, 9/OCT/2025: Changed underside quest rewards
 xrc0018[36]=function()
-  quest("sb_underside1", "upgrademodule")
+  giveQuestRewards("sb_underside1", "upgrademodule")
+end
+
+--37, 1/DEC/2025: Rename suit tech properties AND convert them if they're status properties
+xrc0018[37]=function()
+  player.setProperty("sb_equippedSuitTech", player.getProperty("sb_bioimplant", status.statusProperty("sb_bioimplant")))
+  player.setProperty("sb_bioimplant")
+  status.setPersistentEffects("sb_equippedSuitTech", status.getPersistentEffects("sb_bioimplant") or {})
+  status.clearPersistentEffects("sb_bioimplant")
+
+  player.setProperty("sb_availableSuitTechs", player.getProperty("sb_availableBioimplants", {}))
+  player.setProperty("sb_availableBioimplants")
+
+  player.setProperty("sb_enabledSuitTechs", player.getProperty("sb_bioimplants", status.statusProperty("sb_bioimplants", {})))
+  player.setProperty("sb_bioimplants")
+
+  if type(player.getProperty("sb_equippedSuitTech")) ~= "string" then
+    player.setProperty("sb_equippedSuitTech", nil)
+  end
+
+  if type(player.getProperty("sb_enabledSuitTechs")) ~= "table" then
+    player.setProperty("sb_enabledSuitTechs", {})
+  end
 end
 
 function sb_doVersioning(cv,yv)

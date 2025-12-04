@@ -15,5 +15,6 @@
   "descriptionTemplate": "This can be used to equip ^orange;%s^reset; without the need for a tech console.",
   "subtitle": "Tech (%s)",
   "shortdescription": "Binded Tech",
-  "scripts": ["bindedtech.lua"]
+  "scripts": ["bindedtech.lua"],
+  "scriptDelta": 20
 }

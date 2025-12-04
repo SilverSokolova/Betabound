@@ -1,8 +1,11 @@
 require "/scripts/util.lua"
 require("/scripts/sb_assetmissing.lua")
+require("/scripts/player/sb_hasTech.lua")
 
-function init()
-  sb_techType()
+--Update instead of init because entity messages
+function init(); sb_techType()
+  if not player.getProperty("sb_enabledSuitTechs") then return end --Skip if the player hasn't been setup or 36-37 versioning ran late
+
   skipMessage = config.getParameter("skipTechUnlockMessages", sb_storyDisablerInstalled())
   local quests = config.getParameter("quests")
   for i = 1, #quests do
@@ -15,6 +18,8 @@ function init()
     local objectName = world.getObjectParameter(id, "sb_objectName")
     if objectName then player.addScannedObject(objectName) end
   end)
+
+  update = nil
 end
 
 function unlockTech(tier)
@@ -25,8 +30,14 @@ function unlockTech(tier)
   local techs = techTiers[tier]
   local unownedTechs = {}
   for i = 1, #techs do
-    if root.hasTech(techs[i]) and not ownsTech(techs[i]) then
+    if root.hasTech(techs[i]) and not sb_isTechAvailable(techs[i]) and not sb_isTechEnabled(techs[i]) then
       unownedTechs[#unownedTechs + 1] = techs[i]
+
+      if root.techType(techs[i]) == "Suit" then
+        player.interact("message", {messageType = "sb_suitTech:makeAvailable", messageArgs = {techs[i]}})
+      else
+        player.makeTechAvailable(techs[i])
+      end
     end
   end
 
@@ -55,24 +66,5 @@ function sendRadioMessage(techs)
 end
 
 function makeSuitAvailable(suit)
-  local suits = player.getProperty("sb_availableBioimplants", {})
-  if #suits == 0 then suits = {suit} else suits[#suits+1] = suit end
-  player.setProperty("sb_availableBioimplants", suits)
-end
-
-function ownsTech(tech)
-  local isSuit = root.techType(tech) == "Suit"
-  local owned = isSuit
-                and (contains(player.getProperty("sb_bioimplants", {}), tech) or contains(player.getProperty("sb_availableBioimplants") or {}, tech))
-                or contains(player.availableTechs(), tech)
-
-  if not owned then
-    if isSuit then
-      makeSuitAvailable(tech)
-    else
-      player.makeTechAvailable(tech)
-    end
-  end
-
-  return owned
+  world.sendEntityMessage(player.id(), "sb_suitTech:makeAvailable", suit)
 end
