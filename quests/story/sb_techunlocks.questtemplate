@@ -1,4 +1,4 @@
-//TODO: move this and its script out of story folder, and maybe move scanning to another quest
+//TODO: move this and its script out of story folder, and maybe move scanning to another quest or rename this one
 {
   "id": "sb_techunlocks",
   "prerequisites": [],
@@ -11,6 +11,10 @@
       "/radiomessages/sb_tutorial.radiomessages:sb_unlocktechs"
     ],
     "cinematicRadioMessageDelay": 5,
+    //NOTE: If this is ever changed to be a key-value table (quest ID as key, techs as value),
+    //then the reward bags which use the `sb_techTier` player property must be adjusted.
+    //Perhaps we leave the structure here alone and have each completed quest increment
+    //increment the tier by 1 and give the `sb_techTier`th techs
     "quests": ["human_mission1", "floran_mission2", "hylotl_mission2", "avian_mission2", "apex_mission2", "glitch_mission2"],
     "techTiers": [
       ["sb_doublejump", "sb_dash", "sb_bounce", "sb_jump"],
