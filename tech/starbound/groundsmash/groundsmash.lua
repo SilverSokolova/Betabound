@@ -87,7 +87,7 @@ function update(args)
         if (distance < knockbackRadius and not world.lineTileCollision(position, entityPosition)) and world.entityCanDamage(entity.id(), entityId) then
           world.sendEntityMessage(entityId, "applyStatusEffect", "sb_groundsmashknockbackX", vec2.mul(vec2.norm(toEntity), knockbackSpeed)[1])
           world.sendEntityMessage(entityId, "applyStatusEffect", "sb_groundsmashknockbackY", vec2.mul(vec2.norm(toEntity), knockbackSpeed)[2])
-          world.sendEntityMessage(entityId, "applyStatusEffect", "sb_groundsmashdamage", (knockbackSpeed/2) + status.stat("powerMultiplier") * 3) --TODO: entityid of player here
+          world.sendEntityMessage(entityId, "applyStatusEffect", "sb_groundsmashdamage", (knockbackSpeed / 2) * status.stat("powerMultiplier")) --TODO: entityid of player here
         end
       end
     end

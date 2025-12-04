@@ -44,5 +44,6 @@
   "ballDeactivateCollisionTest": [-0.75, -0.75, 0.75, 2.97],
   "ballRadius": 1,
   "ballFrames": 8,
-  "ballBombCooldown": 0.5
+  "ballBombCooldown": 0.5,
+  "ballBombBasePower": 5
 }
