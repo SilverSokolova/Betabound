@@ -12,6 +12,8 @@ Credits
       Optimizing music files
     * [Toby Fox](https://store.steampowered.com/app/1671210/DELTARUNE/):<br/>
       Composing music ("Underground")
+    * [Curtis Schweitzer](https://curtisschweitzer.bandcamp.com/):<br/>
+      Composing music (["Weep Not My Child"](https://curtisschweitzer.bandcamp.com/track/weep-not-my-child))
 
   - Artwork
     * Website formerly hosted at 'pngimage.net'<br/>
@@ -40,6 +42,8 @@ Credits
       Roasted Cactus sprite
     * LittleVulpine:<br/>
       Magnetic tech sprite
+    * [Bug](https://steamcommunity.com/profiles/76561198163788245/myworkshopfiles/):<br/>
+      Betabound Steam logo background effects and layout
       
   - Level Design
     * [Rhopunzel](https://store.steampowered.com/app/1363900/Farworld_Pioneers/):<br/>
