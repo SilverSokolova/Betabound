@@ -178,7 +178,7 @@ function updateSuitIcon(techName)
     inventoryWidgets = inventory.toWidget()
   
     if techName then
-      local techConfig = root.techConfig(techName)
+      local techConfig = root.hasTech(techName) and root.techConfig(techName) or {icon = "/objects/generic/perfectlygenericitem/perfectlygenericitemicon.png", description = techName}
       inventoryWidgets["setItemSlotItem"]("sb_techSuit", {"lead", 1, {
         inventoryIcon = techConfig.icon,
         tooltipKind = "sb_tech3",
