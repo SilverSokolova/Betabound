@@ -3,13 +3,12 @@
   "type": "legs",
   "rarity": "Legendary",
   "icon": "/tech/starbound/doublejump.png",
-  "description": "Grants two additional jumps that can be used while in the air!",
-  "sb_longDescription": "Refreshed upon landing.",
+  "description": "Grants two additional jumps which use energy!",
   "shortDescription": "Energy Pulse Jump",
   "chipCost": 10,
-  "scripts": ["multijump.lua"],
+  "scripts": ["/tech/jump/multijump.lua", "energyusage.lua"],
   "animator": "multijump.animation",
 
   "multiJumpCount": 2,
-  "energyUsage": 11
+  "sb_energyUsage": 15
 }
