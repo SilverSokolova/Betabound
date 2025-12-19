@@ -4,7 +4,7 @@ function applyDefinition(config, definition, configOverrides)
       definition = {definition}
     end
     for i = 1, #definition do
-      util.mergeTable(config, root.assetJson("/sb_definitions/"..definition[i]..".config"))
+      util.mergeTable(config, root.assetJson("/sb_definitions/" .. definition[i] .. ".config"))
     end
   end
   if configOverrides then util.mergeTable(config, configOverrides) end
