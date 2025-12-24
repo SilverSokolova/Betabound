@@ -125,7 +125,7 @@
 [{"op":"add","path":"/depth2/2/1/-","value":["sb_fossil",0.50]}],
 [{"op":"add","path":"/depth3/2/1/-","value":["sb_fossil",0.50]}],
 
-[{"op":"copy","path":"/sb_surfaceOres","from":"/surface"}],
+[{"op":"copy","path":"/sb_surfaceOres","from":"/surface"}], //what
 
 //ocean world caves reworked
 /*

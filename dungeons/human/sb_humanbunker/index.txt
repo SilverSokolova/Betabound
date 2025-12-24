@@ -10,7 +10,7 @@
 10  hall
 11  hazard storage
 12  room with stairs and 4 paths
-13  TODO: what was 13
+13  TODO: doesnt exist here. existed in beta. similar layout to 7 but bottom-right is longer. look into this
 14  office
 15  up-right stairs
 16  up-left stairs
