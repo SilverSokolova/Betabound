@@ -354,15 +354,26 @@ end
 
 --37, 1/DEC/2025: Rename suit tech properties AND convert them if they're status properties
 xrc0018[37]=function()
-  player.setProperty("sb_equippedSuitTech", player.getProperty("sb_bioimplant", status.statusProperty("sb_bioimplant")))
+  sb.logInfo("[Betabound] Versioning 37 running. Printing values...")
+
+  local equippedSuitTechProperty = player.getProperty("sb_bioimplant", status.statusProperty("sb_bioimplant"))
+  local equippedSuitTechEffect = status.getPersistentEffects("sb_bioimplant") or {}
+  local availableSuitTechs = player.getProperty("sb_availableBioimplants", {})
+  local enabledSuitTechs = player.getProperty("sb_bioimplants", status.statusProperty("sb_bioimplants", {}))
+
+  sb.logInfo("Equipped suit tech (player property): " .. sb.print(equippedSuitTechProperty))
+  sb.logInfo("Equipped suit tech (persistent effect): " .. sb.print(equippedSuitTechEffect))
+  sb.logInfo("Available suit techs: " .. sb.print(availableSuitTechs))
+
+  player.setProperty("sb_equippedSuitTech", equippedSuitTechProperty)
   player.setProperty("sb_bioimplant")
-  status.setPersistentEffects("sb_equippedSuitTech", status.getPersistentEffects("sb_bioimplant") or {})
+  status.setPersistentEffects("sb_equippedSuitTech", equippedSuitTechEffect)
   status.clearPersistentEffects("sb_bioimplant")
 
-  player.setProperty("sb_availableSuitTechs", player.getProperty("sb_availableBioimplants", {}))
+  player.setProperty("sb_availableSuitTechs", availableSuitTechs)
   player.setProperty("sb_availableBioimplants")
 
-  player.setProperty("sb_enabledSuitTechs", player.getProperty("sb_bioimplants", status.statusProperty("sb_bioimplants", {})))
+  player.setProperty("sb_enabledSuitTechs", enabledSuitTechs)
   player.setProperty("sb_bioimplants")
 
   if type(player.getProperty("sb_equippedSuitTech")) ~= "string" then
