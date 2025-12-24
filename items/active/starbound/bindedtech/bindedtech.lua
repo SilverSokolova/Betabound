@@ -41,21 +41,20 @@ function tryEquipTech()
       equippedTech = player.equippedTech(equippedTechType)
     end
 
-    if sb_isTechEnabled(equippedTechType) then
-      if equippedTech then
-        if equippedTech == tech then
-          --Both are identical
-          sb_uiMessage("techAlreadyEquipped")
-        else
-          --Both are different; equip w/ change
-          equipTech(tech, equippedTechType)
+    if sb_isTechEnabled(tech) then
+      if equippedTech == tech then
+        --Both are identical; do nothing
+        sb_uiMessage("techAlreadyEquipped")
+      else
+        --Equip tech. Change item if swapping
+        equipTech(tech, equippedTechType)
+        
+        if equippedTech then
           changeItem(equippedTech, equippedTechType)
         end
-      else
-        --Not wearing anything; equip w/o change
-        equipTech(tech, equippedTechType)
       end
     else
+      --Not known
       sb_uiMessage("techNotKnown")
     end
   else
