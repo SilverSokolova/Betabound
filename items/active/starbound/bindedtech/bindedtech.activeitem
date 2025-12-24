@@ -14,7 +14,7 @@
   "techModule": "",
   "descriptionTemplate": "Use this to equip ^orange;%s^reset; without a tech console.",
   "subtitle": "Tech (%s)",
-  "shortdescription": "Binded Tech",
+  "shortdescription": "Bound Tech",
   "scripts": ["bindedtech.lua"],
   "scriptDelta": 20
 }
