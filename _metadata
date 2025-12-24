@@ -125,7 +125,7 @@
   },
   "icon" : "/interface/sb_modicon.png",
   "steamContentId" : "2010607826",
-  "steamTitle" : "Betabound!",
+  "steamTitle" : "Betabound: Vanilla Expanded!",
   "tags" : "Crafting and Building|Miscellaneous|Planets and Environments|Musical Instruments and Songs|NPCs and Creatures|Weapons|Quests|Dungeons|Ships|User Interface|Furniture and Objects|Character Improvements|Food and Farming|In-Game Tools|Mechanics|Vehicles and Mounts|Armor and Clothes",
   "version" : "17.0.2" // https://semver.org/spec/v2.0.0.html <- THIS ANSWERS ALL YOUR QUESTIONS
 }
