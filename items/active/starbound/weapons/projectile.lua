@@ -23,6 +23,7 @@ function projectileFire(self)
       local params = sb.jsonMerge({
         powerMultiplier = math.min(activeItem.ownerPowerMultiplier() / 3, 1),
         power = self.projectilePower
+--        damageType = "ignoresdef"
       }, self.projectileConfig)
       self.projectileId = world.spawnProjectile(self.projectileType, position, activeItem.ownerEntityId(), aimVector, false, params)
     end

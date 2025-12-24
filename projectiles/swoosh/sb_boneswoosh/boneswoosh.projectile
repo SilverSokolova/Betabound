@@ -1,26 +1,24 @@
 {
-  "projectileName" : "sb_boneswoosh",
-  "image" : "/projectiles/invisibleprojectile/invisibleprojectile.png",
-  "animationCycle" : 0.11,
-  "level" : 1,
-  "frameNumber" : 1,
-  "speed" : 0,
-  "knockback" : 30,
-  "knockbackDirectional" : true,
-  "orientationLocked" : true,
-  "damagePoly" : [ [-27, 24.5], [2.5, 24.5], [16.5, 18.5], [23.5, 11.5], [28.5, 0], [28.5, -13.5], [23.5, -24.5], [-12, -24.5] ],
-  "animationLoops" : false,
-  "piercing" : true,
-  "flippable" : true,
-  "damageKind" : "hammer",
-  "actionOnReap" : [
-    {
-      "action" : "config",
-      "file" : "/projectiles/explosions/friendlyboneexplosion/friendlyboneexplosion.config"
-    },
-    {
-      "action" : "config",
-      "file" : "/projectiles/swoosh/sb_boneswoosh/boneswooshtiledamage.config"
+  "projectileName": "sb_boneswoosh",
+  "image": "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "animationCycle": 0.11,
+  "frameNumber": 1,
+  "speed": 0,
+  "knockback": 30,
+  "knockbackDirectional": true,
+  "orientationLocked": true,
+  "damagePoly": [[-27, 24.5], [2.5, 24.5], [16.5, 18.5], [23.5, 11.5], [28.5, 0], [28.5, -13.5], [23.5, -24.5], [-12, -24.5]],
+  "animationLoops": false,
+  "piercing": true,
+  "flippable": true,
+  "damageKind": "hammer",
+  "actionOnReap": [{
+      "action": "projectile",
+      "type": "friendlyboneexplosion",
+      "inheritDamageFactor": 1
+    }, {
+      "action": "config",
+      "file": "/projectiles/swoosh/sb_boneswoosh/boneswooshtiledamage.config"
     }
   ]
 }
