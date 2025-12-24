@@ -1,8 +1,10 @@
 function sb_isTechEnabled(tech); sb_setupTechType()
-  local enabledTechs = root.techType(tech) == "Suit" and player.getProperty("sb_enabledSuitTechs") or player.enabledTechs()
-  for i = 1, #enabledTechs do
-    if enabledTechs[i] == tech then
-      return true
+  if tech then
+    local enabledTechs = root.techType(tech) == "Suit" and player.getProperty("sb_enabledSuitTechs") or player.enabledTechs()
+    for i = 1, #enabledTechs do
+      if enabledTechs[i] == tech then
+        return true
+      end
     end
   end
 
@@ -10,10 +12,12 @@ function sb_isTechEnabled(tech); sb_setupTechType()
 end
 
 function sb_isTechAvailable(tech); sb_setupTechType()
-  local availableTechs = root.techType(tech) == "Suit" and player.getProperty("sb_availableSuitTechs") or player.availableTechs()
-  for i = 1, #availableTechs do
-    if availableTechs[i] == tech then
-      return true
+  if tech then
+    local availableTechs = root.techType(tech) == "Suit" and player.getProperty("sb_availableSuitTechs") or player.availableTechs()
+    for i = 1, #availableTechs do
+      if availableTechs[i] == tech then
+        return true
+      end
     end
   end
 
