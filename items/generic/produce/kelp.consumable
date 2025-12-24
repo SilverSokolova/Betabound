@@ -2,6 +2,5 @@
   "originalItemName": "kelp.item",
   "itemName": "kelp",
   "shortdescription": "Kelp",
-  "foodValue": 1.5,
   "builder": "/items/buildscripts/starbound/fromsource.lua"
 }

@@ -1,5 +1,5 @@
 [
-[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
+[{"op":"test","path":"/maxStack","value":1000},{"op":"remove","path":"/maxStack"}],
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"candyblock"}]
 ]
