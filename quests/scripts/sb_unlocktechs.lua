@@ -9,8 +9,9 @@ function init()
   local techs = config.getParameter("techs")
   unownedTechs = {}
   for i = 1, #techs do
-    if not ownsTech(techs[i]) then
+    if not sb_isTechAvailableOrEnabled(techs[i]) then
       unownedTechs[#unownedTechs + 1] = techs[i]
+      world.sendEntityMessage(player.id(), "sb_suitTech:makeAvailable", techs[i])
     end
   end
 
@@ -24,7 +25,7 @@ end
 
 function update(dt)
   if not unownedTechs then
-    quest.complete()
+    quest.fail() --By the way, this originally completed itself, so we'll need to do something if we ever change what the items unlock
   end
 
   storage.delayTimer = storage.delayTimer + dt
