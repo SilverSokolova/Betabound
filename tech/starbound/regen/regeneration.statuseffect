@@ -7,5 +7,5 @@
   "scripts": ["regen.lua"],
   "animationConfig": "regeneration.animation",
   "label": "Regeneration",
-  "icon": "regeneration.png"
+  "icon": "/tech/starbound/regeneration.png"
 }

@@ -1,5 +1,5 @@
 {
   "name": "sb_reducefalldamagetech",
   "label": "Fall Dampener",
-  "icon": "reducefalldamage.png"
+  "icon": "/interface/statuses/nofalldamage.png"
 }
