@@ -2,7 +2,7 @@ require "/scripts/augments/item.lua"
 require "/scripts/sb_assetmissing.lua"
 
 function apply(input)
-  local output = Item.new(input)
+  local output = Item.new(root.createItem(input))
   if output:instanceValue("sb_unfreezeable") then return output:descriptor(), 0 end
   local item = root.itemConfig(output.name)
   local directory = item.directory
@@ -59,10 +59,11 @@ function apply(input)
       output:setInstanceValue("foodValue", foodValue)
 
       local fields = output:instanceValue("tooltipFields", {})
-      foodValue = "Food: "..math.floor(foodValue,1)
+      foodValue = "Food: " .. math.floor(foodValue, 1)
       fields.foodAmountLabel = foodValue
       fields.foodValueLabel = foodValue
       fields.rotTimeLabel = ""
+      fields.effectLabel = nil --New items have this as a parameter for a hot moment
       output:setInstanceValue("tooltipFields", fields)
     end
 
@@ -78,11 +79,31 @@ function apply(input)
     if maxStack > root.assetJson("/items/defaultParameters.config:defaultMaxStack") then
       output.parameters.maxStack = maxStack
     end
-    --TODO: loop? parametersToRemove? also remove animationCustom
-    output.parameters.timeToRot = nil
-    output.parameters.animation = nil
-    output.parameters.scripts = nil
-    output.parameters.rottingMultiplier = nil
+
+    --Remove unwanted parameters and discard null parameters (including nested ones)
+    local newParameters = {}
+    local parametersToRemove, temp = {}, config.getParameter("parametersToRemove", {})
+    for _, k in pairs(temp) do
+      parametersToRemove[k] = true
+    end
+    temp = nil
+
+    for k, v in pairs(output.parameters) do
+      if (not parametersToRemove[k]) and output.parameters[k] ~= nil then
+        if type(v) == "table" then
+          local newV = {}
+          for k2, v2 in pairs(v) do
+            if v2 ~= nil then
+              newV[k2] = v2
+            end
+          end
+          v = newV
+        end
+        newParameters[k] = v
+      end
+    end
+    
+    output.parameters = newParameters
 
     return output:descriptor(), 1
   end
