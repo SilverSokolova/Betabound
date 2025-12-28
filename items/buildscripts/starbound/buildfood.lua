@@ -6,20 +6,28 @@ function build(directory, config, parameters)
   local fields = config.tooltipFields or {}
   if foodTooltip.effectLabel then --check for IFD
     config.tooltipKind = "sb_food"
-  end--[[
-  if not (not not foodTooltip.foodAmountLabel or not not foodTooltip.foodValueLabel) then --check for other food label mods
-    if fields.foodValueLabel then fields.foodValueLabel = "" end
-    if fields.foodAmountLabel then fields.foodAmountLabel = "" end
-  else
-    local foodValue = parameters.foodValue or config.foodValue
-    if foodValue then
-      fields.foodValueLabel = "Food: "..foodValue
-      fields.foodAmountLabel = "Food: "..foodValue
-    end
-  end]]
+  end
 
   local subtitle = parameters.subtitle or config.subtitle
   if subtitle then
+    --[[
+      Flashfreeze wants to keep the subtitle as a parameter,
+      which causes the old parameter subtitle to show
+      instead of the new config subtitle. So we discard
+      the parameter so the config can show. Custom items
+      can get around this by setting the subtitle
+      parameter to `false`
+    ]]
+    if parameters.tooltipFields and parameters.tooltipFields.subtitle then
+      local newTooltipFields = {}
+      for k, v in pairs(parameters.tooltipFields) do
+        if k ~= "subtitle" then
+          newTooltipFields[k] = v
+        end
+      end
+      parameters.tooltipFields = newTooltipFields
+    end
+
     local subtitles = root.assetJson("/items/categories.config:labels")
     fields.subtitle = subtitles[subtitle] or subtitles["other"]
   end
