@@ -1,6 +1,6 @@
 [
 [{"op":"test","path":"/tooltipFields","inverse":true},{"op":"add","path":"/tooltipFields","value":{}}],
-[{"op":"add","path":"/tooltipFields/objectImage","value":"/items/tools/miningtools/sb_fossiltoolbig.png"}],
+[{"op":"add","path":"/tooltipFields/objectImage","value":"/items/tools/miningtools/sb_fossiltoolbig.png"}], //TODO: make a tool4 tooltip that uses objectImage outside of tooltipFields...
 [{"op":"test","path":"/tooltipKind","value":"tool"},{"op":"replace","path":"/tooltipKind","value":"sb_object4"}],
 [{"op":"add","path":"/tooltipFields/objectImage","value":"/items/tools/miningtools/sb_fossiltoolbig.png"}],
 [{"op":"test","path":"/inventoryIcon","value":"drillicon.png"},{"op":"replace","path":"/inventoryIcon","value":"sb_fossiltoolicon.png"}],
