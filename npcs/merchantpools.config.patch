@@ -87,8 +87,8 @@
   // ================
   //     Wizard
   // ================
-[{"op":"add","path":"/wizardmerchant/0/1/-","value":{"item":{"name":"orangestim"},"rarity":0.5}}],
-[{"op":"add","path":"/wizardmerchant/0/1/-","value":{"item":{"name":"sb_greystim"},"rarity":0.5}}],
+[{"op":"add","path":"/wizardmerchant/0/1/-","value":{"item":{"name":"orangestim"}}}],
+[{"op":"add","path":"/wizardmerchant/0/1/-","value":{"item":{"name":"sb_greystim"}}}],
 [{"op":"add","path":"/wizardmerchant/0/1/-","value":{"item":{"name":"sb_runbomb"},"rarity":0.5}}],
 [{"op":"add","path":"/wizardmerchant/0/1/-","value":{"item":{"name":"sb_healthbomb"},"rarity":0.5}}],
 [{"op":"add","path":"/wizardmerchant/0/1/-","value":{"item":{"name":"glowbomb"},"rarity":0.5}}],
