@@ -25,7 +25,7 @@ end
 
 function update(dt)
   if not unownedTechs then
-    quest.fail() --By the way, this originally completed itself, so we'll need to do something if we ever change what the items unlock
+    quest.fail() --By the way, this originally completed itself, so we'll need to do something (such as making the quest repeatable) if we ever change what the items unlock
   end
 
   storage.delayTimer = storage.delayTimer + dt

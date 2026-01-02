@@ -5,6 +5,7 @@
 
 [{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}],
 
+//For reefpod swimboost unmerge, do the duration patch like 9 times
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
 [{"op":"test","path":"/effects/0/0/duration","value":315},{"op":"replace","path":"/effects/0/0/duration","value":158}],
 [{"op":"add","path":"/effects/0/-","value":{"effect":"sb_protectionboost5","duration":158}}],
