@@ -3,8 +3,72 @@ require "/scripts/sb_assetmissing.lua"
 function init()
   math.betabound_player = _ENV.player
   mcontroller = math.betabound_mcontroller
-  sb_techType()
 
+  sb_techType()
+  suitsInit()
+
+  --Peacekeeper Teleporter
+  message.setHandler("sb_peacekeeperteleporter", function(_, _, b)
+    local bountyData = player.getProperty("bountyStation", nil)
+    bountyData = bountyData[player.serverUuid()] or nil
+    local interactData = root.assetJson(b[2])
+    if bountyData and bountyData ~= '{}' then
+      if bountyData.worldId then
+        local worldId = bountyData.worldId
+        local systemObjects = root.assetJson("/system_objects.config")
+        local n = worldId:find(":")+1
+        local rank = worldId:sub(n,worldId:find(":",n)-1)
+        dest = {
+          deploy = player.getProperty("mechUnlocked", false),
+          name = systemObjects[rank].parameters.displayName,
+          planetName = "",
+          warpAction = worldId,
+          icon = rank
+        }
+      end
+    end
+    if bountyData and dest then
+      interactData.destinations[1] = dest --#interactData.destinations+1
+    else
+      interactData.destinations = nil
+    end
+    player.interact(b[1],interactData,b[3])
+  end)
+
+  --Random Fountain
+  message.setHandler("sb_randomfountain", function(_, _, args)
+    if args then
+      if type(args) == "string" then
+        status.addEphemeralEffect(args)
+      else
+        status.addEphemeralEffect(args[1], args[2])
+      end
+      if player.emote then
+        player.emote("eat")
+      end
+    end
+  end)
+
+  --Wired Teleporters
+  message.setHandler("sb_wiredteleporter", function(_, _, x, y)
+    if x and y and not status.uniqueStatusEffectActive("blink") then
+      status.addEphemeralEffect("blink", 0.5)
+      mcontroller.setPosition({x, y + 3})
+    end
+  end)
+
+  --SE/oSB commands
+  message.setHandler("/sb_showhunger", function(_, fromSelf)
+    if interface and fromSelf then
+      if not showHungerMessage then
+        showHungerMessage = root.assetJson("/betabound.config:showHunger")
+      end
+      interface.queueMessage(string.format(showHungerMessage, math.ceil(status.resource("food")).."/"..math.ceil(status.resourceMax("food"))), 4, 0.5)
+    end
+  end)
+end
+
+function suitsInit()
   --Suit tech icon, and equip/unequip handlers
   --If this check isn't passing on oSB, whatever is setting it before we get here (status script?) probably isn't, so move that check here.
   if math.betabound_client == "OpenSB" then
@@ -79,56 +143,6 @@ function init()
     updateSuitIcon(tech)
   end)
 
-  --Peacekeeper Teleporter
-  message.setHandler("sb_peacekeeperteleporter", function(_, _, b)
-    local bountyData = player.getProperty("bountyStation", nil)
-    bountyData = bountyData[player.serverUuid()] or nil
-    local interactData = root.assetJson(b[2])
-    if bountyData and bountyData ~= '{}' then
-      if bountyData.worldId then
-        local worldId = bountyData.worldId
-        local systemObjects = root.assetJson("/system_objects.config")
-        local n = worldId:find(":")+1
-        local rank = worldId:sub(n,worldId:find(":",n)-1)
-        dest = {
-          deploy = player.getProperty("mechUnlocked", false),
-          name = systemObjects[rank].parameters.displayName,
-          planetName = "",
-          warpAction = worldId,
-          icon = rank
-        }
-      end
-    end
-    if bountyData and dest then
-      interactData.destinations[1] = dest --#interactData.destinations+1
-    else
-      interactData.destinations = nil
-    end
-    player.interact(b[1],interactData,b[3])
-  end)
-
-  --Random Fountain
-  message.setHandler("sb_randomfountain", function(_, _, args)
-    if args then
-      if type(args) == "string" then
-        status.addEphemeralEffect(args)
-      else
-        status.addEphemeralEffect(args[1], args[2])
-      end
-      if player.emote then
-        player.emote("eat")
-      end
-    end
-  end)
-
-  --Wired Teleporters
-  message.setHandler("sb_wiredteleporter", function(_, _, x, y)
-    if x and y and not status.uniqueStatusEffectActive("blink") then
-      status.addEphemeralEffect("blink", 0.5)
-      mcontroller.setPosition({x, y + 3})
-    end
-  end)
-
   --SE/oSB commands
   message.setHandler("/sb_enabletech", function(_, fromSelf, tech)
     if fromSelf == false or type(tech) ~= "string" then return end
@@ -161,15 +175,6 @@ function init()
     end
 
     return "Added " .. tech .. " to player's visible techs"
-  end)
-
-  message.setHandler("/sb_showhunger", function(_, fromSelf)
-    if interface and fromSelf then
-      if not showHungerMessage then
-        showHungerMessage = root.assetJson("/betabound.config:showHunger")
-      end
-      interface.queueMessage(string.format(showHungerMessage, math.ceil(status.resource("food")).."/"..math.ceil(status.resourceMax("food"))), 4, 0.5)
-    end
   end)
 end
 
