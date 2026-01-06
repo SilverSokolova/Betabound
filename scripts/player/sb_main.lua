@@ -1,4 +1,5 @@
 require "/scripts/sb_assetmissing.lua"
+require "/scripts/sb_uimessage.lua"
 
 function init()
   math.betabound_player = _ENV.player
@@ -55,6 +56,21 @@ function init()
       status.addEphemeralEffect("blink", 0.5)
       mcontroller.setPosition({x, y + 3})
     end
+  end)
+
+  --Add object to pixel printer
+  message.setHandler("sb_addScandata", function(_, _, objectName, silent)
+    local learned
+    if objectName then
+      learned = player.addScannedObject(objectName) --Vanilla
+      player.interact("message", {messageType = "objectScanned", messageArgs = {objectName, player.id()}}) --Lagless and quests
+
+      if not silent then
+        sb_uiMessage(learned and "scandataLearned" or "scandataKnown")
+      end
+    end
+
+    return learned
   end)
 
   --SE/oSB commands

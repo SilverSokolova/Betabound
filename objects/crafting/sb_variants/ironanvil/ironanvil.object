@@ -11,8 +11,8 @@
   "interactData": {
     "paneLayoutOverride": {
       "windowtitle": {
-        "title": "Iron Anvil",
-        "subtitle": "Turn metals into strong weapons and armor!",
+        "title": " Iron Anvil",
+        "subtitle": " Turn metals into strong weapons and armor!",
         "icon": {
           "file": "/interface/crafting/craftinganvil.png"
         }
@@ -22,8 +22,8 @@
     "config": "/interface/windowconfig/craftinganvil.config",
     "filter": ["craftinganvil"]
   },
-  "printable": false,
-  "price": 65,
+  "printable": true,
+  "price": 350,
 
   "apexDescription": "An anvil. The Apex haven't used these for metalwork for a long, long time.",
   "avianDescription": "A large slab of iron with a flat surface.",

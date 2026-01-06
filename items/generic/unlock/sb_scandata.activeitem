@@ -14,9 +14,6 @@
   "itemTags": ["sb_scandata"],
   "scripts": ["sb_scandata.lua"],
   "animationCustom": {
-    "sounds": {
-      "success": ["/sfx/interface/scan.ogg"]
-    },
     "animatedParts": {
       "parts": {
         "blueprint": {

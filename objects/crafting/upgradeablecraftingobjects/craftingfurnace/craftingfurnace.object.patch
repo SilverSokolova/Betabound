@@ -1,0 +1,31 @@
+[
+  [{
+      "op": "test",
+      "path": "/scripts"
+    }, {
+      "op": "add",
+      "path": "/scripts/-",
+      "value": "/scripts/objects/sb_addscandataoninteract.lua"
+    }
+  ],
+
+  //scandata
+  [{
+      "op": "test",
+      "path": "/upgradeStages/0"
+    }, {
+      "op": "add",
+      "path": "/upgradeStages/0/sb_scanObjectsOnInteract",
+      "value": ["sb_stonefurnace"]
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/upgradeStages/2"
+    }, {
+      "op": "add",
+      "path": "/upgradeStages/2/sb_scanObjectsOnInteract",
+      "value": ["sb_scififurnace", "sb_scififurnace2"]
+    }
+  ]
+]

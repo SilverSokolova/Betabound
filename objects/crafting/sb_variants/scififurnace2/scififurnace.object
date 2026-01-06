@@ -1,46 +1,46 @@
 {
-  "objectName": "sb_scififurnace",
+  "objectName": "sb_scififurnace2",
   "colonyTags": ["crafting", "electronic"],
-  "rarity": "legendary",
+  "rarity": "uncommon",
   "tooltipKind": "sb_object",
   "interactAction": "OpenCraftingInterface",
   "interactData": {
-    "config": "/interface/windowconfig/sb_crafting.config",
+    "config": "/interface/windowconfig/craftingfurnace.config",
     "paneLayoutOverride": {
       "windowtitle": {
-        "title": "MAGNETIC CRUCIBLE",
-        "subtitle": "Incredible technology for creating equally incredible materials!",
+        "title": " Atomic Furnace",
+        "subtitle": " ^#b9b5b2;Bars and ingredients",
         "icon": {
           "file": "/interface/crafting/craftingfurnace3.png"
         }
       }
     },
-    "filter": ["sb_scififurnace", "sb_stonefurnace", "sb_ironfurnace", "craftingfurnace", "craftingfurnace2", "craftingfurnace3"],
-    "craftingSound": "/sfx/interface/crafting_furnace.ogg"
+    "filter": ["craftingfurnace", "craftingfurnace2", "craftingfurnace3"],
+    "craftingSound": "/sfx/interface/crafting_furnacetech.ogg"
   },
-  "printable": false,
-  "description": "This device can break down materials and turn them into far stronger ones.",
-  "shortdescription": "^orange;Magnetic Crucible^reset;",
+
+  "printable": true,
+  "description": "A prototype of the ^orange;atomic furnace^reset;, originally called the ^orange;atomic blast furnace^reset;.",
+  "shortdescription": "^orange;Atomic Furnace^reset;",
   "race": "generic",
   "category": "crafting",
-  "price": 1000,
+  "price": 750,
 
-  "apexDescription": "A magnetic crucible. I can create incredibly strong alloys with this.",
-  "avianDescription": "A crucible. Perfect for crafting even stronger alloys.",
-  "floranDescription": "Shiny thing ssspin, ssspin, ssspin. Make smaller shiny thingsss.",
-  "glitchDescription": "Intrigued. This magnetic crucible is perfect for creating durasteel and other alloys.",
-  "humanDescription": "A magnetic crucible. This device is powerful enough to create durasteel and other materials.",
-  "hylotlDescription": "A magnetic crucible. I can make incredible materials with this.",
-  "novakidDescription": "This magnetic crucible can be used to create some real strong materials.",
+  "apexDescription": "An atomic furnace. I can create incredibly strong alloys with this.",
+  "avianDescription": "An atomic furnace. Perfect for making even stronger alloys.",
+  "floranDescription": "Shiny thing ssspin, ssspin, ssspin. Make sstronger shiny thingsss.",
+  "glitchDescription": "Amazed. This atomic furnace is advanced enough to combine ores into alloys.",
+  "humanDescription": "An atomic furnace. This device is powerful enough to create refined ore and alloys.",
+  "hylotlDescription": "An atomic furnace. I can make refined ore and alloys with this.",
+  "novakidDescription": "Could refine some mighty powerful alloys with this 'ere atomic furnace.",
 
-  "lightColor": [31, 66, 102],
-  "lightPosition": [0, 2],
-
+  "lightColor": [42, 82, 128],
+  "lightPosition": [0, 1],
   "flickerPeriod": 0.5,
   "flickerMinIntensity": 0.95,
-  "flickerMaxIntensity": 1.0,
-  "flickerPeriodVariance": 0.0,
-  "flickerIntensityVariance": 0.0,
+  "flickerMaxIntensity": 1,
+  "flickerPeriodVariance": 0,
+  "flickerIntensityVariance": 0,
 
   "inventoryIcon": "scififurnaceicon.png",
   "orientations": [{
@@ -53,7 +53,7 @@
       ],
 
       "imagePosition": [-8, 0],
-      "frames": 14,
+      "frames": 4,
       "animationCycle": 0.5,
 
       "direction": "left",
@@ -72,7 +72,7 @@
       ],
 
       "imagePosition": [-8, 0],
-      "frames": 14,
+      "frames": 4,
       "animationCycle": 0.5,
 
       "direction": "right",
@@ -83,12 +83,9 @@
     }
   ],
 
-  "soundEffect": "/sfx/objects/scififurnace.ogg",
+  "soundEffect": "/sfx/objects/campfire.ogg",
 
   "statusEffects": [],
-
-  "frameCooldown": 5,
-  "autoCloseCooldown": 3600,
 
   "scripts": ["/scripts/npcToyObject.lua"],
   "npcToy": {

@@ -1,6 +1,6 @@
 {
   "objectName": "sb_acceleratortable",
-  "colonyTags": ["crafting", "electronic", "aegisalt"],
+  "colonyTags": ["crafting"],
   "rarity": "Legendary",
   "tooltipKind": "sb_object",
   "interactAction": "OpenCraftingInterface",
@@ -8,37 +8,39 @@
     "config": "/interface/windowconfig/craftinganvil.config",
     "paneLayoutOverride": {
       "windowtitle": {
-        "title": "ACCELERATOR'S TABLE",
-        "subtitle": "Quality equipment for the marksman!",
+        "title": " Accelerator's Table",
+        "subtitle": " Armour and weapons",
         "icon": {
-          "file": "/interface/sb_crafting/craftingicons.png:acceleratortable"
+          "file": "/interface/sb_crafting/titleicons/acceleratortable.png"
         }
       }
     },
-    "filter": ["craftinganvil", "craftinganvil2", "craftinganvil3", "craftingaccelerator", "sb_acceleratortable", "sb_advancedanvil", "sb_scifianvil"]
+    "filter": ["craftinganvil", "craftinganvil2", "craftinganvil3", "craftingaccelerator"],
+    "craftingSound": "/sfx/interface/crafting_tech1.ogg"
   },
-  "printable": false,
-  "description": "For the marksman that needs both energy and defence from their gear!",
+  "printable": true,
+  "description": "A proof-of-concept modified ^orange;replicator^reset; for what became the ^orange;accelerator addon^reset;.",
   "shortdescription": "^orange;Accelerator's Table^reset;",
   "race": "generic",
   "category": "crafting",
-  "price": 600,
+  "price": 1250,
 
+  "lightPosition": [0, 0],
   "lightColor": [107, 179, 107],
 
-  "flickerPeriod": 2.00,
+  "flickerPeriod": 2,
   "flickerMinIntensity": 0.8,
-  "flickerMaxIntensity": 1.0,
+  "flickerMaxIntensity": 1,
   "flickerPeriodVariance": 0,
   "flickerIntensityVariance": 0,
 
-  "apexDescription": "A table for crafting equipment ideal for a gunner.",
-  "avianDescription": "An accelerator's crafting table. Perfect for the marksman.",
-  "floranDescription": "Sssmart Floran fight from far away.",
-  "glitchDescription": "Impressed. The equipment I could make on this would be ideal for ranged combat.",
-  "humanDescription": "With this I can craft gear with a good balance of defence and energy!",
-  "hylotlDescription": "With this table I can craft equipment ideal for ranged combat.",
-  "novakidDescription": "A gunman can't get a better crafting table than this.",
+  "apexDescription": "How useful, a replicator with additional ranged equipment and armour.",
+  "avianDescription": "I can use this to create extra equipment and armour not available at a replicator.",
+  "floranDescription": "Floran ussse thisss to make more thingss than replicator.",
+  "glitchDescription": "Excited. A replicator with additional ranged equipment and armour.",
+  "humanDescription": "A replicator with extra ranged equipment and armour!",
+  "hylotlDescription": "This useful replicator offers additional ranged equipment and armour.",
+  "novakidDescription": "This handy ol' replicator offers even more stuff.",
 
   "inventoryIcon": "acceleratortableicon.png",
   "orientations": [{
@@ -81,7 +83,6 @@
 
       "spaceScan": 0.1,
       "anchors": ["bottom"]
-
     }
   ]
 }

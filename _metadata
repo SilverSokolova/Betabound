@@ -52,6 +52,7 @@
       "Enhanced Storage", //Add items to manipulatable container list
       "Improved Containers", //Since we check via Lua, do we need this?
       "OceanicWorldsCaveRework", //Add ores to biome
+      "XRC_OMNICRAFTER", //Unlock scan data when opening UI's through this
 
     //MISC
       "InstaUrsa", //749395210 - We also change the order of Ursa Miner
