@@ -1,12 +1,14 @@
 function build(directory, config, parameters)
   local recipeList = config.recipeList or parameters.recipeList
   parameters.recipe = parameters.recipe or (recipeList and recipeList[math.random(#recipeList)]) or "apexshiplight"
+
   local itemConfig = root.itemConfig(parameters.recipe)
   if (not itemConfig) or (itemConfig and (tostring(itemConfig.config.printable or false) == "false")) then
-    sb.logError("[Betabound] Tried to make scandata item with unprintable item: "..parameters.recipe)
+    sb.logError("[Betabound] Tried to make scandata item with unprintable or nonexistent item: " .. parameters.recipe)
     parameters.recipe = "apexshiplight"
     itemConfig = root.itemConfig(parameters.recipe)
   end
+
   local directory = itemConfig.directory; itemConfig = itemConfig.config
   --I'd do something for sb_objectName here but I'll figure that out when it becomes relevant. Which is hopefully never.
 
@@ -23,11 +25,8 @@ function build(directory, config, parameters)
   config.description = string.format(config.description, config.shortdescription)
   config.rarity = itemConfig.rarity or config.rarity
 
-  if parameters.level then
-    parameters.level = nil
-  end
-  if parameters.recipeList then
-    parameters.recipeList = nil
-  end
+  if parameters.level then parameters.level = nil end
+  if parameters.recipeList then parameters.recipeList = nil end
+
   return config, parameters
 end

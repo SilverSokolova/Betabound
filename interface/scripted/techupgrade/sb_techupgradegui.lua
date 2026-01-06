@@ -239,15 +239,16 @@ function sb_toggleButtons()
   local tech = self.selectedTech and (self.selectedSlot ~= "sb_suit" and player.equippedTech(self.selectedSlot) or self.selectedSlot == "sb_suit" and sb_suit) or false
   --yknow what fuck it it doesnt matter if the unequip/download buttons are visible for locked techs. they cant even download it. i tried string.find-ing "--" in the cost amount text but it didnt work for some reason
   --hi hello yes this is me from the future you need to %-%- ahahahaha that's also why the food rot bar detection didnt work
+  --TODO: replace `tech and true or false` with `?:find("%-%-")`
   widget.setButtonEnabled("sb_unequip", tech and true or false)
   widget.setButtonEnabled("sb_download", tech and true or false)
   widget.setButtonEnabled("sb_bind", tech and true or false)
 end
 
 function sb_prepareSuits()
-  sb_enabledSuitTechs, sb_availableSuitTechs = player.getProperty("sb_enabledSuitTechs",{}), player.getProperty("sb_availableSuitTechs",{})
-  if #sb_enabledSuitTechs > 1 then table.sort(sb_enabledSuitTechs,function(a,b) return a<b end) end
-  if #sb_availableSuitTechs > 1 then table.sort(sb_availableSuitTechs,function(a,b) return a<b end) end
+  sb_enabledSuitTechs, sb_availableSuitTechs = player.getProperty("sb_enabledSuitTechs", {}), player.getProperty("sb_availableSuitTechs", {})
+  if #sb_enabledSuitTechs > 1 then table.sort(sb_enabledSuitTechs, function(a, b) return a < b end) end
+  if #sb_availableSuitTechs > 1 then table.sort(sb_availableSuitTechs, function(a, b) return a < b end) end
   widget.setButtonEnabled("sb_btnSuit", #sb_enabledSuitTechs + #sb_availableSuitTechs > 0)
 end
 
@@ -261,7 +262,7 @@ function createTooltip(p)
       return sb_bindTechDescription
     end
 
-    name = name and name:sub(2,(name:find("%.", 26) or 3)-1) or nil
+    name = name and name:sub(2, (name:find("%.", 26) or 3) - 1) or nil
     name = name and widget.getData(name)
     if name then
       sb_tooltip.descriptionLabel.value = self.techs[name].description .. " " .. (self.techs[name].sb_longDescription or "")

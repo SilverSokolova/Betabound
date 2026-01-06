@@ -1,3 +1,5 @@
+function configParameter(item, keyName, defaultValue) return item.parameters and item.parameters[keyName] or item.config and item.config[keyName] or defaultValue end
+
 function init()
   tab = "buySellTabs.tabs.buy."
   itemList = tab.."scrollArea.itemList"
@@ -121,13 +123,6 @@ function parseCountText()
   countChanged()
 end
 
---The game needs these due to our inherited context
-function sell() end
-function tbCount() end
-function itemGrid() end
-
-function configParameter(item, keyName, defaultValue) return item.parameters and item.parameters[keyName] or item.config and item.config[keyName] or defaultValue end
-
 function itemSelected()
   hasItemSelected = true
   selectedItem = widget.getListSelected(itemList)
@@ -157,3 +152,8 @@ end
 function uninit()
   world.sendEntityMessage(id, "toggleInteractable")
 end
+
+--The game needs these due to our inherited context
+function sell() end
+function tbCount() end
+function itemGrid() end

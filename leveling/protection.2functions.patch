@@ -1,8 +1,5 @@
 //eval root.assetJson("/leveling/protection.2functions:protection")[3][12][2][1]
 
-
-
-
 [
 [{"op":"test","path":"/protection/2/11/1/1","value":0},{"op":"replace","path":"/protection/2/11/1/1","value":0.5}],
 [{"op":"test","path":"/protection/2/11/1/2","value":0},{"op":"replace","path":"/protection/2/11/1/2","value":1}],
