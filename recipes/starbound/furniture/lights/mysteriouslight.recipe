@@ -1,0 +1,5 @@
+{
+  "input": ["goldbar", "torch", "glass"],
+  "output": "mysteriouslight",
+  "groups": ["craftingfurniture", "lights", "all"]
+}
