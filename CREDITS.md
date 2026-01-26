@@ -32,6 +32,7 @@ Credits
       Jam and salsa, organic torch, painting, orange & crystal tart icons
     * [ShyDispatch](https://steamcommunity.com/id/ShyDispatch/myworkshopfiles/):<br/>
       PB&J icon
+      Big Ape Poster icon
     * cutieryan:<br/>
       Heck flesh corpse sprites
     * Zygan:<br/>
@@ -44,7 +45,12 @@ Credits
       Magnetic tech sprite
     * [Bug](https://steamcommunity.com/profiles/76561198163788245/myworkshopfiles/):<br/>
       Betabound Steam logo background effects and layout
+    * TheShroomie:<br/>
+      Novakid racial melee weapons sprites
+      Racial shortsword/hammer sprites
+      Glitch large & small mace sprites
+      Heatstick weapon sprite
       
   - Level Design
     * [Rhopunzel](https://store.steampowered.com/app/1363900/Farworld_Pioneers/):<br/>
-      Original wrecked starship, USCM bunker designs
+      Original wrecked starship & USCM bunker designs
