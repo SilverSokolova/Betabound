@@ -11,7 +11,7 @@
   "tooltipKind": "sb_container",
   "health": 1.5,
   "builder": "/items/buildscripts/starbound/buildcontainer.lua",
-  "scripts": ["/scripts/sb_container.lua"],
+  "scripts": ["/scripts/objects/sb_container.lua"],
 
   "apexDescription": "The chest itself appears to be organic.",
   "avianDescription": "Was this chest built, or grown?",

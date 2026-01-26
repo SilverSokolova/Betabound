@@ -9,7 +9,7 @@
   "price": 35,
   "tooltipKind": "sb_container",
   "builder": "/items/buildscripts/starbound/buildcontainer.lua",
-  "scripts": ["/scripts/sb_container.lua"],
+  "scripts": ["/scripts/objects/sb_container.lua"],
 
   "apexDescription": "A storage locker built from wood.",
   "avianDescription": "I don't think wood is a good material for a storage locker.",

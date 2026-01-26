@@ -11,7 +11,7 @@
   "price": 40,
   "health": 1.5,
   "builder": "/items/buildscripts/starbound/buildcontainer.lua",
-  "scripts": ["/scripts/sb_container.lua"],
+  "scripts": ["/scripts/objects/sb_container.lua"],
 
   "apexDescription": "A wooden crate.",
   "avianDescription": "A wooden storage box.",
