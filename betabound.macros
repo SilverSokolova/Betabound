@@ -11,10 +11,10 @@
   "sb_beamaxe": ["/spawnitem sb_beamaxe2 1 '{\"upgrades\":[\"size1\",\"size2\",\"size3\",\"range1\",\"range2\",\"range3\",\"power1\",\"power2\",\"power3\",\"liquidcollection\",\"paintmode\",\"wiremode\"],\"canCollectLiquid\":true,\"blockRadius\":5,\"tileDamage\":4.8,\"minBeamWidth\":8,\"minBeamJitter\":0.2}"],
   "sb_kill": ["/entityeval if status then status.setResource('health',0) end"],
   "sb_dyes": [
-    "/spawnitem dyeremover 30",
     "/entityeval if world then
     i={'black','blue','brown','green','grey','sb_greyblue','sb_lightgrey','sb_limegreen','orange','pink','purple','red','sb_teal','white','yellow'}
-    for n=1, #i do world.spawnItem(i[n]..'dye',entity.position(),30) end end"
+    for n=1, #i do world.spawnItem(i[n]..'dye',entity.position(),30) end end",
+    "/spawnitem dyeremover 30"
   ],
   "sb_logger": ["/entityeval if world then world.spawnItem({'sb_debug',1,root.assetJson('/sipMods/betabound/debug.json')[1].parameters}, entity.position()) end"],
 
