@@ -20,7 +20,7 @@
     "craftingSound": "/sfx/interface/crafting_furnacetech.ogg"
   },
   "printable": true,
-  "description": "A prototype of the ^orange;atomic furnace^reset;, originally called the ^orange;magnetic nucleonic crucible^reset;.",
+  "description": "A prototype of the ^orange;atomic furnace^reset;, originally called the ^orange;magnetic crucible^reset;.",
   "shortdescription": "^orange;Atomic Furnace^reset;",
   "race": "generic",
   "category": "crafting",
