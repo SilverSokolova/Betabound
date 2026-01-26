@@ -1,38 +1,31 @@
 {
   "itemName": "sb_glitchlargemace",
-  "level": 1,
-  "price": 180,
-  "maxStack": 1,
-  "rarity": "common",
+  "definition": ["hammers/common", "hammers/abilities"],
+  "sb_waBan": true,
+  "description": "",
+  "shortdescription": "Heavy Mace",
   "tooltipKind": "sb_sword",
-  "category": "hammer",
   "tooltipFields": {
     "subtitle": "Heavy Mace"
   },
-  "description": "",
-  "shortdescription": "Heavy Mace",
-  "twoHanded": true,
+  "itemTags": ["weapon", "melee", "hammer"],
+
   "sb_dyeable": true,
   "sb_backingDirectives": "?replace;b6b6b6=ffca8a;7b7b7b=e0975c;373737=a85636",
   "sb_extraDirectives": "?replace;ffca8a=b6b6b6;e0975c=7b7b7b;a85636=373737",
-  "itemTags": ["weapon", "melee", "mace", "hammer"],
-  "animation": "/items/active/starbound/weapons/broadsword.animation",
-  "animationParts": {},
-  "animationCustom": {},
 
-  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
-  "primaryAbilityType": "sb_meleeslash",
+  "elementalType": "physical",
+  "primaryAbilityType": "sb_hammer",
   "primaryAbility": {
-    "fireTime": [0.8, 1.6],
-    "baseDps": [5.5, 7.8],
-    "damageConfig": {
-      "damageSourceKind": "hammer",
-      "knockback": 28
+    "stances": {
+      "idle": {
+        "weaponOffset": [-0.125, 1.5]
+      }
     }
   },
+
   "builderConfig": [{
       "nameGenerator": "glitchmacenames.config:nameGen",
-      "elementalType": "physical",
       "animationParts": {
         "blade": {
           "path": "glitchlargemace/blade/<variant>.png",
@@ -45,8 +38,7 @@
           "paletteSwap": true
         }
       },
-      "iconDrawables": ["handle", "blade"],
-      "altAbilities": []
+      "iconDrawables": ["handle", "blade"]
     }
   ],
   "builder": "/items/buildscripts/starbound/buildweapon.lua"
