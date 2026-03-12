@@ -1,6 +1,5 @@
 [
   [
-    {"op":"test","path":"/input/1"},
     {"op":"test","path":"/input/1/item","value":"glassmaterial"},
     {"op":"replace","path":"/input/1/item","value":"glass"}
   ]
