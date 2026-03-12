@@ -5,6 +5,7 @@
         {"pool": "bookTreasure"}
       ],
       "pool": [
+        {"weight": 0.025, "item": "sb_foodblueprinthuman"},
         {"weight": 0.5, "item": "sb_bunkerlog1-codex"},
         {"weight": 0.5, "item": "sb_bunkerlog2-codex"},
         {"weight": 0.5, "item": "sb_bunkerlog3-codex"},

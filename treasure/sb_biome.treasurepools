@@ -82,11 +82,11 @@
     [1, {
         "pool": [
           {"weight": 1, "item": ["metallic", 20]},
-          {"weight": 0.3, "item": "rustchair-recipe"},
-          {"weight": 0.3, "item": "rustbed-recipe"},
-          {"weight": 0.3, "item": "rustchest-recipe"},
-          {"weight": 0.3, "item": "rustdoor-recipe"},
-          {"weight": 0.3, "item": "rusttable-recipe"},
+          {"weight": 0.3, "item": "sb_biomeblueprintrust"},
+          {"weight": 0.3, "item": "sb_biomeblueprintrust"},
+          {"weight": 0.3, "item": "sb_biomeblueprintrust"},
+          {"weight": 0.3, "item": "sb_biomeblueprintrust"},
+          {"weight": 0.3, "item": "sb_biomeblueprintrust"},
           {"weight": 0.3, "item": "sb_rustsword"}
         ]
       }
@@ -190,7 +190,13 @@
           {"weight": 0.5, "pool": "basicTreasure"},
           {"weight": 0.5, "pool": "geometricTreasure"}
         ],
-        "poolRounds": [[0.05, 1], [0.40, 2], [0.30, 3], [0.15, 4], [0.10, 5]],
+        "poolRounds": [
+          [0.05, 1],
+          [0.40, 2],
+          [0.30, 3],
+          [0.15, 4],
+          [0.10, 5]
+        ],
         "allowDuplication": false
       }
     ]

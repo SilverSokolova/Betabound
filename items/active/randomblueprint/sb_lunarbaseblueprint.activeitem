@@ -1,0 +1,43 @@
+{
+  "itemName": "sb_lunarbaseblueprint",
+  "price": 150,
+  "rarity": "Common",
+  "description": "A blueprint from the Erchius Mining Facility.",
+  "shortdescription": "Lunar Base Blueprint",
+  "tooltipKind": "base",
+  "category": "blueprint",
+  "twoHanded": true,
+  "sb_uncopyable": true,
+
+  "inventoryIcon": [{
+      "image": "/items/generated/blueprint.png?replace;000=0000?border=1;000"
+    }, {
+      "image": "/items/materials/lunarbaseblock.png",
+      "position": [0, -0.5]
+    }, {
+      "image": "/interface/inventory/dot.png",
+      "position": [4, -4]
+    }
+  ],
+  "animation": "randomblueprint.animation",
+  "scripts": ["randomblueprint.lua", "sb_randomblueprint.lua"],
+  "swingTime": 0.15,
+
+  "allowDuplicateChance": 0.1,
+  "recipes": [
+    "lunarbasebunk",
+    "lunarbasechair",
+    "lunarbaseconsole",
+    "lunarbasecrate",
+    "lunarbasedoor",
+    "lunarbaselantern",
+    "lunarbaselocker",
+    
+    //betabound
+    "lunarbaseblock",
+    "lunarbaseplatform",
+    "miningchest",
+    "miningdoor",
+    "miningverticaldoor"
+  ]
+}

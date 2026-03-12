@@ -271,7 +271,7 @@
 
   [{"op":"add","path":"/essenceBurst/0/1/pool/-","value":{"weight":0.03,"pool":"microformerTreasure"}}],
   [{"op":"add","path":"/essenceBurst/0/1/pool/-","value":{"weight":0.03,"item":"vaultkey"}}],
-  [{"op":"add","path":"/essenceBurst/0/1/pool/-","value":{"weight":0.1,"pool":"sb_ancientBlueprints"}}],
+  [{"op":"add","path":"/essenceBurst/0/1/pool/-","value":{"weight":0.1,"item":"sb_ancientblueprint"}}],
 
     //Microformers
   [{"op":"add","path":"/microformerTreasure/0/1/pool/-","value":{"weight":1,"item":"sb_microformerheck"}}],

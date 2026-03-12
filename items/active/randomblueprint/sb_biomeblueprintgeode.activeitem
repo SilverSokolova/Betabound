@@ -1,0 +1,41 @@
+{
+  "itemName": "sb_biomeblueprintgeode",
+  "price": 150,
+  "rarity": "Common",
+  "description": "A blueprint found in a geode biome.",
+  "shortdescription": "Geode Blueprint",
+  "tooltipKind": "base",
+  "category": "blueprint",
+  "twoHanded": true,
+  "sb_uncopyable": true,
+
+  "inventoryIcon": [{
+      "image": "/items/generated/blueprint.png?replace;000=0000?border=1;000"
+    }, {
+      "image": "/items/active/unsorted/geode/geode.png"
+    }, {
+      "image": "/interface/inventory/dot.png",
+      "position": [4, -4]
+    }
+  ],
+  "animation": "randomblueprint.animation",
+  "scripts": ["randomblueprint.lua", "sb_randomblueprint.lua"],
+  "swingTime": 0.15,
+
+  "allowDuplicateChance": 0.1,
+  "recipes": [
+    "geodebed",
+    "geodechair",
+    "geodedoor",
+    "geodeplantpot",
+    "geodeceilinglight",
+    "geodelowanote",
+    "geodebnote",
+    "geodecnote",
+    "geodednote",
+    "geodeenote",
+    "geodefnote",
+    "geodegnote",
+    "geodehighanote"
+  ]
+}

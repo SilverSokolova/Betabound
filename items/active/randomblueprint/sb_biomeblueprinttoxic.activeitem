@@ -1,0 +1,34 @@
+{
+  "itemName": "sb_biomeblueprinttoxic",
+  "price": 150,
+  "rarity": "Common",
+  "description": "A blueprint found in a toxic biome.",
+  "shortdescription": "Toxic Blueprint",
+  "tooltipKind": "base",
+  "category": "blueprint",
+  "twoHanded": true,
+  "sb_uncopyable": true,
+
+  "inventoryIcon": [{
+      "image": "/items/generated/blueprint.png?replace;000=0000?border=1;000"
+    }, {
+      "image": "/items/generic/crafting/biosample.png",
+      "position": [0, 1.5]
+    }, {
+      "image": "/interface/inventory/dot.png",
+      "position": [4, -4]
+    }
+  ],
+  "animation": "randomblueprint.animation",
+  "scripts": ["randomblueprint.lua", "sb_randomblueprint.lua"],
+  "swingTime": 0.15,
+
+  "allowDuplicateChance": 0.1,
+  "recipes": [
+    "toxicchest",
+    "toxicchair",
+    "toxiclamp1",
+    "toxiclamp2",
+    "toxictable"
+  ]
+}

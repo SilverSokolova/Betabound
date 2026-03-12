@@ -1,3 +1,9 @@
 [
-[{"op":"add","path":"/cultistmission1Reward/0/1/fill/-","value":{"pool":"sb_cultistmission1Music"}}]
+[{"op":"add","path":"/cultistmission1Reward/0/1/fill/-","value":{"pool":"sb_cultistmission1Music"}}],
+
+//Replace blueprints
+[{"op":"test","path":"/cultistmissionBasic/0/1/pool/6/item","value":"cultistdoor-recipe"},{"op":"replace","path":"/cultistmissionBasic/0/1/pool/6/item","value":"sb_cultistmission1blueprint"}],
+[{"op":"test","path":"/cultistmissionBasic/0/1/pool/7/item","value":"cultistairlockdoor-recipe"},{"op":"replace","path":"/cultistmissionBasic/0/1/pool/7/item","value":"sb_cultistmission1blueprint"}],
+[{"op":"test","path":"/cultistmissionBasic/0/1/pool/8/item","value":"cultistbannerlarge-recipe"},{"op":"replace","path":"/cultistmissionBasic/0/1/pool/8/item","value":"sb_cultistmission1blueprint"}],
+[{"op":"test","path":"/cultistmissionBasic/0/1/pool/9/item","value":"cultistairlockhatch-recipe"},{"op":"replace","path":"/cultistmissionBasic/0/1/pool/9/item","value":"sb_cultistmission1blueprint"}]
 ]

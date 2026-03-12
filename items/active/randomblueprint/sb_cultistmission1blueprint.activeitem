@@ -1,0 +1,37 @@
+{
+  "itemName": "sb_cultistmission1blueprint",
+  "price": 150,
+  "rarity": "Common",
+  "description": "A blueprint from the Dantalion.",
+  //"description": "A blueprint from an Occasus Cultist base.",
+  "shortdescription": "Cultist Object Blueprint",
+  "tooltipKind": "base",
+  "category": "blueprint",
+  "twoHanded": true,
+  "sb_uncopyable": true,
+
+  "inventoryIcon": [{
+      "image": "/items/generated/blueprint.png?replace;000=0000?border=1;000"
+    }, {
+      "image": "/objects/cultist/cultistbannerlarge/cultistbannerlargeicon.png",
+      "position": [0, -1]
+    }, {
+      "image": "/interface/inventory/dot.png",
+      "position": [4, -4]
+    }
+  ],
+  "animation": "randomblueprint.animation",
+  "scripts": ["randomblueprint.lua", "sb_randomblueprint.lua"],
+  "swingTime": 0.15,
+
+  "allowDuplicateChance": 0.1,
+  "recipes": [
+    "cultistdoor",
+    "cultistairlockdoor",
+    "cultistbannerlarge",
+    "cultistairlockhatch",
+
+    //unobtainable in vanilla
+    "cultistchestlarge"
+  ]
+}

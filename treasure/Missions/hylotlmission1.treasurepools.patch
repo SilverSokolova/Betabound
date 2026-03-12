@@ -1,4 +1,15 @@
 [
 [{"op":"add","path":"/hylotlmissionReward/0/1/fill/-","value":{"pool":"sb_hylotlmissionMusic"}}],
-[{"op":"add","path":"/hylotlmissionBasic/0/1/pool/-","value":{"weight":0.05,"item":["sb_copybook",3]}}]
+//[{"op":"add","path":"/hylotlmissionBasic/0/1/pool/-","value":{"weight":0.05,"item":["sb_copybook",3]}}],
+
+
+//Replace blueprints
+[{"op":"test","path":"/hylotlmissionBasic/0/1/pool/5/item","value":"hylotlsupportbeam-recipe"},
+{"op":"replace","path":"/hylotlmissionBasic/0/1/pool/5/item","value":"sb_hylotlmission1blueprint"}],
+
+[{"op":"test","path":"/hylotlmissionBasic/0/1/pool/6/item","value":"airlockdoor-recipe"},
+{"op":"replace","path":"/hylotlmissionBasic/0/1/pool/6/item","value":"sb_hylotlmission1blueprint"}],
+
+[{"op":"test","path":"/hylotlmissionBasic/0/1/pool/7/item","value":"airlockhatch-recipe"},
+{"op":"replace","path":"/hylotlmissionBasic/0/1/pool/7/item","value":"sb_hylotlmission1blueprint"}]
 ]

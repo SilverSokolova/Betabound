@@ -49,4 +49,5 @@
 
 ,{"op":"add","path":"/-","value":"/sipMods/betabound/storage.json"}
 ,{"op":"add","path":"/-","value":"/sipMods/betabound/wire.json"}
+,{"op":"add","path":"/-","value":"/sipMods/betabound/blueprints.json"}
 ]
