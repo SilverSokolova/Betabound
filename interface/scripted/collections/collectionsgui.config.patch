@@ -3,5 +3,9 @@
 {"op":"add","path":"/gui/scrollArea/children/collectionList/schema/listTemplate/icon/scissoring","value":true}],
 
 [{"op":"test","path":"/gui/pat_numbererToggleButton/data","value":"fixed numbering"},
-{"op":"replace","path":"/gui/pat_numbererToggleButton/data","value":"Fixed Numbering"}]
+{"op":"replace","path":"/gui/pat_numbererToggleButton/data","value":"Fixed Numbering"}],
+
+[{"op":"add","path":"/sb_starWidget","value":{"type":"image","zlevel":3,"file":"/interface/scripted/collections/figurine_star.png"}}],
+
+[{"op":"add","path":"/scripts/-","value":"/interface/scripted/collections/sb_collectionsgui.lua"}]
 ]
