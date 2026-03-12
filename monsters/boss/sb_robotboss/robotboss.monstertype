@@ -21,6 +21,7 @@
     "alwaysAggressive": true,
     "damageBar": "Special",
     "behavior": "monster",
+
     "behaviorConfig": {
       "damageOnTouch": true,
       "targetQueryRange": 40,

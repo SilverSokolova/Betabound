@@ -1,5 +1,5 @@
 [
-  //Mmm yes let me make a piece of furniture which confers no benefits instead of 40 bandages
+  //Mmm yes let me make a piece of furniture which confers no benefits instead of 40 bandages. absurd
   //actually im not gonna change the fabric count since a shirt uses 20. still gonna change the fibre though
   [
     {"op":"test","path":"/input/2/item","value":"plantfibre"},

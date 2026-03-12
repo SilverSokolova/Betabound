@@ -1,5 +1,6 @@
 local originalInit = init or function() end
-function init() originalInit()
+
+function init(); originalInit()
   world.sb_entityHasCountOfItem = world.entityHasCountOfItem
   world.entityHasCountOfItem = function(entityId, itemDescriptor, exactMatch)
     return itemDescriptor == "solidfuel" and

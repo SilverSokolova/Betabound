@@ -83,10 +83,11 @@ function v.sb_foodsum(_,it) local text = root.assetJson("/sb_commands.config")
     sb.logInfo(sb.print(recipe[i]))
     mod = recipe[i].count or 1
     input = recipe[i].name
-    sum = sum + ((text.foodSums[input] and text.foodSums[input][1] or root.itemConfig(input).config.foodValue or 5)*mod)
+    sum = sum + ((text.foodSums[input] and text.foodSums[input][1] or root.itemConfig(input).config.foodValue or 0)*mod)
     psum = psum + ((text.foodSums[input] and text.foodSums[input][2] or root.itemConfig(input).config.price or 0)*mod)
   end
   local finalSum = sum/quantity
+
   return (it.shortdescription or it.itemName).." (x"..quantity..") ("..r.."/"..mr.."): "..(finalSum == it.foodValue and "^green;" or "^red;")..finalSum.."^reset; ("..((psum*1.25)/quantity)..")"
   end
 end

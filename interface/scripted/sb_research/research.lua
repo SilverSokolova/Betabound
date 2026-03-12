@@ -29,18 +29,19 @@ function populateList() --We've already checked if the item exists
 
     if (showAll or recipe.groups[1] == category) and ((not query and true) or shortdescription:lower():find(query)) then
       if (blueprintKnown and showOwned) or not blueprintKnown then
-      local listItem = widget.addListItem(itemList); listItem = string.format("%s.%s", itemList, listItem)
-      widget.setText(listItem..".itemName", shortdescription)
-      widget.setItemSlotItem(listItem..".itemIcon", output.itemName)
-      widget.setText(listItem..".priceLabel", recipe.input[2][2])
-      widget.setData(listItem, {output.itemName, recipe.input[2]})
-      if blueprintKnown then --recipesForItem for recipes with parameters, ie frost spear
-        local newIcon = listItem..".newIcon"
-        local oldPos = widget.getPosition(newIcon)
-        widget.setImage(newIcon, ownedIcon)
-        widget.setPosition(newIcon, {oldPos[1]+(newIconOffset),oldPos[2]})
+        local listItem = widget.addListItem(itemList); listItem = string.format("%s.%s", itemList, listItem)
+        widget.setText(listItem..".itemName", shortdescription)
+        widget.setItemSlotItem(listItem..".itemIcon", output.itemName)
+        widget.setText(listItem..".priceLabel", recipe.input[2][2])
+        widget.setData(listItem, {output.itemName, recipe.input[2]})
+        if blueprintKnown then --recipesForItem for recipes with parameters, ie frost spear
+          local newIcon = listItem..".newIcon"
+          local oldPos = widget.getPosition(newIcon)
+          widget.setImage(newIcon, ownedIcon)
+          widget.setPosition(newIcon, {oldPos[1]+(newIconOffset),oldPos[2]})
+        end
       end
-    end end
+    end
   end
 end
 

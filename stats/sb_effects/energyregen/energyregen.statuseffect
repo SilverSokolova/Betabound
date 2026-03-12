@@ -1,3 +1,4 @@
+//Names are regenAmount * 60
 {
   "name": "sb_energyregen",
   "effectConfig": {},

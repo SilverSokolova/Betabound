@@ -8,16 +8,15 @@ function init()
   turnVelocityDecrease = techConfig["turnVelocityDecrease"] or 3
   groundFrictionFactor = techConfig["groundFrictionFactor"] or 10
   velocity = 0
-  highestSprint = 0
   airTime = 0
   lastMovementDirection = mcontroller.movingDirection()
   baseParameters = mcontroller.baseParameters()
 
-  offsettedEmitters = config.getParameter("particleEmitterOffset")
-  if offsettedEmitters then
+  particleEmitterOffset = config.getParameter("particleEmitterOffset")
+  if particleEmitterOffset then
     local bounds = mcontroller.boundBox()
     bounds = {bounds[1], bounds[2] + 0.2, bounds[3], bounds[2] + 0.3}
-    for k, _ in pairs(offsettedEmitters) do
+    for k, _ in pairs(particleEmitterOffset) do
       animator.setParticleEmitterOffsetRegion(k, bounds)
     end
   end
@@ -61,7 +60,7 @@ function toggleAnimation(bool, highest, xVelocity)
       bool = false
     end
     local target = "particles"..i
-    if offsettedEmitters and offsettedEmitters[target] then
+    if particleEmitterOffset and particleEmitterOffset[target] then
       animator.setParticleEmitterActive(target, mcontroller.onGround() and bool)
     else
       animator.setParticleEmitterActive(target, bool)

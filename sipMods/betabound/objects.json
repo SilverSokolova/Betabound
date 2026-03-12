@@ -114,13 +114,13 @@
 ,{"icon":"/objects/apex/apexcooldoor/sb_apexcooldooricon.png","name":"sb_apexcoolverticaldoor","shortdescription":"Security Hatch","category":"door"}
 
 //other
-,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_avian","shortdescription":"^orange;Avian Tech Binder","category":"other","icon":"0","rarity":"legendary"}
-,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_glitch","shortdescription":"^orange;Glitch Tech Binder","category":"other","icon":"1","rarity":"legendary"}
-,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_human","shortdescription":"^orange;Human Tech Binder","category":"other","icon":"2","rarity":"legendary"}
-,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_floran","shortdescription":"^orange;Floran Tech Binder","category":"other","icon":"3","rarity":"legendary"}
-,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation","shortdescription":"^orange;Apex Tech Binder","category":"other","icon":"4","rarity":"legendary"}
-,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_hylotl","shortdescription":"^orange;Hylotl Tech Binder","category":"other","icon":"5","rarity":"legendary"}
-,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_novakid","shortdescription":"^orange;Novakid Tech Binder","category":"other","icon":"6","rarity":"legendary"}
+,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_avian","shortdescription":"^orange;Avian Tech Station","category":"other","icon":"0","rarity":"legendary"}
+,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_glitch","shortdescription":"^orange;Glitch Tech Station","category":"other","icon":"1","rarity":"legendary"}
+,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_human","shortdescription":"^orange;Human Tech Station","category":"other","icon":"2","rarity":"legendary"}
+,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_floran","shortdescription":"^orange;Floran Tech Station","category":"other","icon":"3","rarity":"legendary"}
+,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation","shortdescription":"^orange;Apex Tech Station","category":"other","icon":"4","rarity":"legendary"}
+,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_hylotl","shortdescription":"^orange;Hylotl Tech Station","category":"other","icon":"5","rarity":"legendary"}
+,{"path":"/objects/upgrade/sb_techstation/icons.png:","name":"sb_techstation_novakid","shortdescription":"^orange;Novakid Tech Station","category":"other","icon":"6","rarity":"legendary"}
 
 ,{"icon":"/objects/ship/sb_fuelhatch/avianicon.png","name":"sb_avianfuelhatch","shortdescription":"^orange;Avian Fuel Hatch","category":"techManagement","rarity":"uncommon"}
 ,{"icon":"/objects/ship/sb_fuelhatch/glitchicon.png","name":"sb_glitchfuelhatch","shortdescription":"^orange;Glitch Fuel Hatch","category":"techManagement","rarity":"uncommon"}
