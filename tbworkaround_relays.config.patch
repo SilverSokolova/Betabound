@@ -1,0 +1,4 @@
+[
+  {"op": "add", "path": "/tileBroken/-", "value": "sb_tileBroken"},
+  {"op": "add", "path": "/tileEntityBroken/-", "value": "sb_tileEntityBroken"}
+]
