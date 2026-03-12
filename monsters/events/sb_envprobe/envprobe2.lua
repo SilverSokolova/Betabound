@@ -73,8 +73,8 @@ function scanTarget(dt)
     local players = world.entityQuery(mcontroller.position(), 50, { includedTypes = { "player" }, order = "nearest" })
     if #players > 0 then
       self.target = players[1]
-      world.sendEntityMessage(self.target, "listenTileBroken", entity.id())
-      world.sendEntityMessage(self.target, "listenTileEntityBroken", entity.id())
+      world.sendEntityMessage(self.target, "sb_listenTileBroken", entity.id())
+      world.sendEntityMessage(self.target, "sb_listenTileEntityBroken", entity.id())
     end
 
     util.wait(0.5)
