@@ -1,145 +1,212 @@
 [
-  [
-    {"op":"test","path":"/undergroundPlaceables/items"},
-    {"op":"add","path":"/undergroundPlaceables/items/-","value":{
-      "mode":"floor",
-      "priority":0,
-      "variants":1,
-      "distribution":"/biomes/distributions.config:undergroundweaponChests",
-      "type":"treasureBox",
-      "treasureBoxSets":["sb_gunChest"]}
-    }
-  ],
-
-  [
-    {"op":"add","path":"/surfacePlaceables/items/-","value":{
-      "mode":"floor",
-      "priority":0.5,
-      "variants":1,
-      "distribution":"/biomes/distributions.config:mainBiomeEncounterDungeon",
-      "type":"microdungeon",
-      "microdungeons":["sb_glitchencounter","sb_randomencounter","sb_miniboss", "sb_shopencounter"]}
-    }
-  ],
-
-  [
-    {"op":"add","path":"/undergroundPlaceables/items/-","value":{
-      "mode":"floor",
-      "priority":0,
-      "variants":1,
-      "distribution":"/biomes/distributions.config:minibiomeChests",
-      "type":"treasureBox",
-      "treasureBoxSets":["sb_geometricChest"]}
-    }
-  ],
-
-  [
-    {"op":"add","path":"/undergroundPlaceables/items/-","value":{
-      "mode":"floor",
-      "priority":1,
-      "variants":1,
-      "distribution":"/biomes/distributions.config:scatteredSmall",
-      "type":"object",
-      "objectSets":[
-        {
-          "pool":[
-            [0.35,"sb_geometricbush1"],
-            [0.35,"sb_geometricbush2"],
-            [0.35,"sb_geometricbush3"],
-            [0.35,"sb_geometricbush3"]
-          ],
-          "parameters":{}
-          }
-        ]
+  //Misc 'most biomes' Betabound stuff
+  [{
+      "op": "test",
+      "path": "/undergroundPlaceables/items"
+    }, {
+      "op": "add",
+      "path": "/undergroundPlaceables/items/-",
+      "value": {
+        "mode": "floor",
+        "priority": 0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundweaponChests",
+        "type": "treasureBox",
+        "treasureBoxSets": ["sb_gunChest"]
       }
     }
   ],
 
-  [
-    {"op":"add","path":"/undergroundPlaceables/items/-","value":{
-      "mode":"floor",
-      "priority":1,
-      "variants":1,
-      "distribution":"/biomes/distributions.config:scatteredLarge",
-      "type":"object",
-      "objectSets":[
-        {
-          "pool":[
-            [0.35,"icesphere1"],
-            [0.35,"icesphere2"],
-            [0.35,"icesphere3"],
-            [0.35,"icesphere4"]
+  [{
+      "op": "add",
+      "path": "/surfacePlaceables/items/-",
+      "value": {
+        "mode": "floor",
+        "priority": 0.5,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:mainBiomeEncounterDungeon",
+        "type": "microdungeon",
+        "microdungeons": ["sb_glitchencounter", "sb_randomencounter", "sb_miniboss", "sb_shopencounter"]
+      }
+    }
+  ],
+
+  //Inherited from ice minibiome (vanilla file)
+  [{
+      "op": "add",
+      "path": "/subBlocks/-",
+      "value": "ice"
+    }
+  ],
+
+  //Frozen ponds
+  [{
+      "op": "add",
+      "path": "/surfacePlaceables/items/-",
+      "value": {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:scatteredSmall",
+
+        "type": "microdungeon",
+        "microdungeons": ["ice"]
+      }
+    }
+  ],
+
+  //No visual foliage; just drops sapling
+  /* TODO do this a different way OR add foliage sapling icon image
+  [{
+      "op": "add",
+      "path": "/surfacePlaceables/items/16/treeFoliageList/-",
+      "value": "geometricfoliage"
+    }
+  ],
+  */
+
+  //INHERITED FROM GEOMETRIC SURFACE BIOME (KOALA)
+  //geometric chests
+  [{
+      "op": "add",
+      "path": "/undergroundPlaceables/items/-",
+      "value": {
+        "mode": "floor",
+        "priority": 0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:minibiomeChests",
+        "type": "treasureBox",
+        "treasureBoxSets": ["sb_geometricChest"]
+      }
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/surfacePlaceables/items/-",
+      "value": {
+        "mode": "floor",
+        "priority": 0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:minibiomeChests",
+        "type": "treasureBox",
+        "treasureBoxSets": ["sb_geometricChest"]
+      }
+    }
+  ],
+  //
+  [{
+      "op": "add",
+      "path": "/surfacePlaceables/items/-",
+      "value": {
+        "mode": "floor",
+        "priority": 3,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:scatteredLarge",
+        "type": "grass",
+        "grasses": ["geometricflower"]
+      }
+    }
+  ],
+  //geometric bushes
+  [{
+      "op": "add",
+      "path": "/undergroundPlaceables/items/-",
+      "value": {
+        "mode": "floor",
+        "priority": 1,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:scatteredSmall",
+        "type": "object",
+        "objectSets": [{
+            "pool": [
+              [0.35, "sb_geometricbush1"],
+              [0.35, "sb_geometricbush2"],
+              [0.35, "sb_geometricbush3"],
+              [0.35, "sb_geometricbush3"]
             ],
-            "parameters":{}
+            "parameters": {}
           }
         ]
       }
     }
   ],
 
-  [
-    {"op":"add","path":"/surfacePlaceables/items/-","value":{
-      "mode":"floor",
-      "priority":1,
-      "variants":1,
-      "distribution":"/biomes/distributions.config:scatteredLarge",
-      "type":"object",
-      "objectSets":[
-        {
-          "pool":[
-            [0.35,"sb_geometricbush1"],
-            [0.35,"sb_geometricbush2"],
-            [0.35,"sb_geometricbush3"],
-            [0.35,"sb_geometricbush3"]
-          ],
-          "parameters":{}
+  [{
+      "op": "add",
+      "path": "/surfacePlaceables/items/-",
+      "value": {
+        "mode": "floor",
+        "priority": 1,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:scatteredLarge",
+        "type": "object",
+        "objectSets": [{
+            "pool": [
+              [0.35, "sb_geometricbush1"],
+              [0.35, "sb_geometricbush2"],
+              [0.35, "sb_geometricbush3"],
+              [0.35, "sb_geometricbush3"]
+            ],
+            "parameters": {}
           }
         ]
       }
     }
   ],
 
-  [
-  {"op":"add","path":"/surfacePlaceables/items/-","value":{
-    "mode":"floor",
-    "priority":1,
-    "variants":1,
-    "distribution":"/biomes/distributions.config:scatteredSmall",
-    "type":"object",
-    "objectSets":[
-    {
-      "pool":[
-      [0.35,"icesphere1"],
-      [0.35,"icesphere2"],
-      [0.35,"icesphere3"],
-      [0.35,"icesphere4"]
-    ],
-      "parameters":{}
-      }
-      ]
-      }
+  //INHERITED FROM ORB SURFACE BIOME (KOALA)
+  //No visual foliage; just drops sapling
+  /* TODO do this a different way OR add foliage sapling icon image
+  [{
+      "op": "add",
+      "path": "/surfacePlaceables/items/16/treeFoliageList/-",
+      "value": "icespherefoliage"
     }
-  ],
+  ],*/
   
-  [
-    {"op":"add","path":"/surfacePlaceables/items/-","value":{
-      "mode":"floor",
-      "priority":0,
-      "variants":1,
-      "distribution":"/biomes/distributions.config:minibiomeChests",
-      "type":"treasureBox",
-      "treasureBoxSets":["sb_geometricChest"]}
+  [{
+      "op": "add",
+      "path": "/surfacePlaceables/items/-",
+      "value": {
+        "mode": "floor",
+        "priority": 1,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:scatteredSmall",
+        "type": "object",
+        "objectSets": [{
+            "pool": [
+              [0.35, "icesphere1"],
+              [0.35, "icesphere2"],
+              [0.35, "icesphere3"],
+              [0.35, "icesphere4"]
+            ],
+            "parameters": {}
+          }
+        ]
+      }
     }
   ],
 
-  [
-    {"op":"add","path":"/surfacePlaceables/items/-","value":{
-      "mode":"floor",
-      "priority":3,
-      "variants":1,
-      "distribution":"/biomes/distributions.config:scatteredLarge",
-      "type":"grass",
-      "grasses":["geometricflower"]}
+  [{
+      "op": "add",
+      "path": "/undergroundPlaceables/items/-",
+      "value": {
+        "mode": "floor",
+        "priority": 1,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:scatteredLarge",
+        "type": "object",
+        "objectSets": [{
+            "pool": [
+              [0.35, "icesphere1"],
+              [0.35, "icesphere2"],
+              [0.35, "icesphere3"],
+              [0.35, "icesphere4"]
+            ],
+            "parameters": {}
+          }
+        ]
+      }
     }
   ]
 ]
