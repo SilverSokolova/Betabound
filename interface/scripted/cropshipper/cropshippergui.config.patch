@@ -3,6 +3,9 @@
 [{"op":"add","path":"/acceptItems/-","value":"sb_poisoncreepseed"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_swordstone"}]
 
+//SPINNING WHEEL
+,[{"op":"add","path":"/acceptItems/-","value":"thread"}]
+
 //PRODUCE
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_poisoncreep"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"crystalplant"}]
