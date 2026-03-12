@@ -29,7 +29,9 @@ Credits
     * [_InferusRF](https://steamcommunity.com/profiles/76561193786172700):<br/>
       Skyrails, many ranged weapons, melee weapons
     * [nuggubs](https://steamcommunity.com/profiles/76561198327710447/myworkshopfiles/):<br/>
-      Jam and salsa, organic torch, painting, orange & crystal tart icons
+      Organic torch icon (vanilla uses a placeholder)
+      Pearlpea jam (Betabound changes it back to red)
+      Bases for orange/crystal tart, orange/crystal/thorn jam, and peanut butter jar icons
     * [ShyDispatch](https://steamcommunity.com/id/ShyDispatch/myworkshopfiles/):<br/>
       PB&J icon
       Big Ape Poster icon
