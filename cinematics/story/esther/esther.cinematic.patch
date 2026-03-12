@@ -1,0 +1,18 @@
+[
+  [{
+      "op": "test",
+      "path": "/audio"
+    }, {
+      "op": "test",
+      "path": "/betabound:disableEstherStartMusic",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/audio/-",
+      "value": {
+        "timecode": 0,
+        "resource": "/sfx/cinematics/esther_start.ogg"
+      }
+    }
+  ]
+]
