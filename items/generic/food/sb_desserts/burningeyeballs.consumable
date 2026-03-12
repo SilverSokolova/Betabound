@@ -1,7 +1,7 @@
 {
   "itemName": "sb_burningeyeballs",
-  "price": 425,
-  "foodValue": 45,
+  "price": 760,
+  "foodValue": 55,
   "tooltipKind": "sb_object",
   "rarity": "rare",
   "handPosition": [-2.7, -2.6],
@@ -9,13 +9,13 @@
   "inventoryIcon": "burningeyeballs.png",
   "effects": [[{
         "effect": "maxhealthscalingboostfood",
-        "duration": 135
+        "duration": 165
       }, {
         "effect": "maxenergyscalingboostfood",
-        "duration": 135
+        "duration": 165
       }, {
         "effect": "nova",
-        "duration": 135
+        "duration": 165
       }, {
         "effect": "burning",
         "duration": 5
@@ -23,9 +23,9 @@
         "effect": "weakpoison",
         "duration": 5
       },
-      "sb_foodheal145"
+      "sb_foodheal190"
     ]],
-  "description": "Watch out, these gooey treats have an acidic taste!",
+  "description": "Watch out, this gooey treat has an acidic taste!",
   "shortdescription": "Melting Eyeballs",
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],

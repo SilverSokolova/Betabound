@@ -7,7 +7,7 @@
   "shortdescription": "Rice Wine",
   "category": "drink",
   "subtitle": "sb_alcohol",
-  "price": 180,
+  "price": 145,
   "tooltipKind": "sb_object",
   "effects": [[{
         "effect": "maxhealthscalingboostfood",

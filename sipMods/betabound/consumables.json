@@ -79,7 +79,7 @@
 ,{"path":"/items/generic/food/sb_snacks/","name":"sb_curriedbeakseed","shortdescription":"Curried Beakseed","category":"food","icon":"curriedbeakseed.png"}
 ,{"path":"/items/generic/food/sb_snacks/","name":"sb_chocolate","shortdescription":"Milk Chocolate","category":"food","icon":"chocolate.png","rarity":"uncommon"}
 ,{"path":"/items/generic/food/sb_snacks/","name":"sb_candiedpearlpeas","shortdescription":"Candied Pearlpeas","category":"food","icon":"candiedpearlpeas.png"}
-,{"path":"/items/generic/food/sb_snacks/","name":"sb_lollypop","shortdescription":"Lollypop","category":"food","icon":"lollypop.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_snacks/","name":"sb_lollypop","shortdescription":"Rice Lollypop","category":"food","icon":"lollypop.png","rarity":"uncommon"}
 ,{"path":"/items/generic/food/sb_snacks/","name":"sb_crystalchips","shortdescription":"Crystal Chips","category":"food","icon":"crystalchips.png"}
 
 ,{"path":"/items/generic/food/sb_condiments/","name":"sb_butter","shortdescription":"Butter","category":"food","icon":"butter.png"}

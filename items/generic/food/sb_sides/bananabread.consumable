@@ -11,10 +11,8 @@
   "effects": [[{
         "effect": "maxenergyscalingboostfood",
         "duration": 113
-      }, {
-        "effect": "sb_energyregen",
-        "duration": 113
       },
+      "sb_energyregen",
       "sb_foodheal35"
     ]],
   "sb_plateImage": true,

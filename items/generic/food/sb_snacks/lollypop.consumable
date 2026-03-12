@@ -1,26 +1,26 @@
 {
   "itemName": "sb_lollypop",
-  "price": 325,
-  "foodValue": 35,
+  "price": 260,
+  "foodValue": 30,
   "tooltipKind": "sb_object4",
   "rarity": "unCommon",
   "inventoryIcon": "lollypop.png",
   "handPosition": [-2.5, -2.6],
   "category": "preparedFood",
   "effects": [[{
+        "effect": "maxhealthscalingboostfood",
+        "duration": 135
+      }, {
         "effect": "maxenergyscalingboostfood",
-        "duration": 158
+        "duration": 135
       }, {
-        "effect": "sb_energyregen192",
-        "duration": 158
-      }, {
-        "effect": "sb_energy",
+        "effect": "sb_restoration",
         "duration": 20
       },
-      "sb_foodheal120"
+      "sb_foodheal95"
     ]],
   "description": "It's a lollypop! Or, for the uninitiated, a hunk of sugar on a stick.",
-  "shortdescription": "Lollypop",
+  "shortdescription": "Rice Lollypop",
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
   "rottingMultiplier": 5

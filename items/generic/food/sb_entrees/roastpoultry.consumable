@@ -1,7 +1,7 @@
 {
   "itemName": "sb_roastpoultry",
-  "price": 280,
-  "foodValue": 45,
+  "price": 545,
+  "foodValue": 55,
   "tooltipKind": "sb_object",
   "sb_plateHide": true,
   "rarity": "Rare",
@@ -10,15 +10,15 @@
   "description": "A beautiful, juicy platter of roasted poultry.",
   "effects": [[{
         "effect": "maxhealthscalingboostfood",
-        "duration": 203
+        "duration": 248
       }, {
         "effect": "nova",
-        "duration": 203
+        "duration": 248
       }, {
         "effect": "burning",
         "duration": 5
       },
-      "sb_foodheal145"
+      "sb_foodheal190"
     ]],
   "shortdescription": "Roasted Poultry",
   "builder": "/items/buildscripts/starbound/buildfood.lua",

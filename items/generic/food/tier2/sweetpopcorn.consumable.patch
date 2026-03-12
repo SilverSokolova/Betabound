@@ -1,3 +1,4 @@
+//has 5 more food value than it should. butter being 5 fv instead of 7.5 fixes this but creates another issue. also not my problem!!!!! :D
 [
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
 

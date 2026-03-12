@@ -8,6 +8,9 @@
 [{"op":"test","path":"/description","value":"Rice. Grains of goodness."},
 {"op":"replace","path":"/description","value":"Grains of goodness. Good for when you're hungry and want to eat a thousand of something."}],
 
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_lollypop"}],
+
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"fossil"}],
 [{"op":"test","path":"/builder","value":"/items/buildscripts/buildfood.lua"},{"op":"remove","path":"/builder"}],
 [{"op":"test","path":"/builder","inverse":true},{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildfood.lua"}],

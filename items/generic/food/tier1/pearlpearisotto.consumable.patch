@@ -4,6 +4,9 @@
 
 [{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":2}],
 
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_lollypop"}],
+
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
 [{"op":"test","path":"/effects/0/0/duration","value":225},{"op":"replace","path":"/effects/0/0/duration","value":113}],
 [{"op":"add","path":"/effects/0/-","value":{"effect":"sb_protectionboost5","duration":113}}],

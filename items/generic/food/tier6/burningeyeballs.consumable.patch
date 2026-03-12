@@ -1,6 +1,9 @@
 [
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
 
+[{"op":"test","path":"/description","value":"Watch out, they're super spicy!"},
+{"op":"replace","path":"/description","value":"Watch out, they're super spicy! Oh, don't make that sour face."}], //deltarune reference, burning eyes
+
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_burningeyeballs"}],
 

@@ -10,15 +10,13 @@
         "effect": "maxenergyscalingboostfood",
         "duration": 102
       },{
-        "effect": "sb_energyregen192",
-        "duration": 102
-      },{
         "effect": "runboostfood",
         "duration": 102
       },{
         "effect": "ragefood",
         "duration": 102
       },
+      "sb_energyregen192",
       "sb_foodheal145"
     ]],
   "inventoryIcon": "/objects/hylotl/smashabledrink1/smashabledrink1icon.png",

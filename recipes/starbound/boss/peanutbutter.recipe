@@ -1,6 +1,6 @@
-//Would use cardboard1 but stored item mods
+//Would use a cardboard box but 'containers keep contents when broken' mods exist, and because there are 3 cardboard boxes
 {
-  "input": [["paper",18],"sb_peanutbutterjar"],
+  "input": [["paper",10],["plantfibre",5],"sb_peanutbutterjar"],
   "output": "sb_peanutbutter",
   "groups": ["inventorstable2","craftingstations","all"]
 }

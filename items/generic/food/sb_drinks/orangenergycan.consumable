@@ -3,10 +3,10 @@
   "price": 40,
   "effects": [[{
         "effect": "maxhealthscalingboostfood",
-        "duration": 90
+        "duration": 30
       }, {
         "effect": "runboostfood",
-        "duration": 90
+        "duration": 30
       }, {
         "effect": "sb_health",
         "duration": 10

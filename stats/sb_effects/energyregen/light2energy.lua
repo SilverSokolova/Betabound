@@ -1,7 +1,7 @@
 function init()
   animator.setParticleEmitterOffsetRegion("energy", mcontroller.boundBox())
   animator.setParticleEmitterActive("energy", true)
-  maxRegen = config.getParameter("maxRegenAmount", 5)
+  maxRegen = config.getParameter("maxRegenAmount", 0.8)
   maxEmission = config.getParameter("maxEmissionRate", maxRegen)
   group = effect.addStatModifierGroup({})
 end

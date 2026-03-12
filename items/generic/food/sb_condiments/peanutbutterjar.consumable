@@ -1,3 +1,4 @@
+//Identical to pearlpea jam if foodValue is 25
 {
   "itemName": "sb_peanutbutterjar",
   "price": 165,
@@ -9,7 +10,7 @@
     "hidePlate": true
   },
   "inventoryIcon": "peanutbutterjar.png",
-  "category": "food",
+  "category": "preparedFood",
   "effects": [[{
         "effect": "maxenergyscalingboostfood",
         "duration": 135

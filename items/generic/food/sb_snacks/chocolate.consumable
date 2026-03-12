@@ -9,10 +9,7 @@
   "category": "food",
   "effects": [[{
         "effect": "maxenergyscalingboostfood",
-        "duration": 180
-      },{
-        "effect": "runboostfood",
-        "duration": 180
+        "duration": 360
       },
       "sb_foodheal135"
     ]],
