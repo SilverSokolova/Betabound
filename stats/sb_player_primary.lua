@@ -5,9 +5,20 @@ local originalUpdate = update or function() end
 local originalApplyDamageRequest = applyDamageRequest or function() end
 local originalOverheadBars = overheadBars or function() end
 
-function init() originalInit()
+function init(); originalInit()
   player = math.betabound_player
   math.betabound_mcontroller = _ENV.mcontroller
+
+  if type(math.betabound_applyProtectionOverride) == "nil" and not root.assetJson("/betabound.config:allowTotalPlayerDamageReduction") then
+    sb_checkProtectionForOverride()
+  end
+
+  if math.betabound_applyProtectionOverride then
+    root.sb_evalFunction2 = root.evalFunction2
+    root.evalFunction2 = function(functionName, input1, input2)
+      return root.sb_evalFunction2(functionName, input1, functionName == "protection" and math.min(math.betabound_applyProtectionOverride, input2) or input2)
+    end
+  end
 
   sb_hungerPopups = root.assetJson("/betabound.config:hungerPopups")
   if sb_hungerPopups then
@@ -17,9 +28,11 @@ function init() originalInit()
   end
 end
 
-function update(dt) originalUpdate(dt)
+function update(dt); originalUpdate(dt)
 --sb.setLogMap("sb_shield", "%s/%s%%", status.stat("shieldHealth"), status.resource("shieldStamina"))
 --sb.setLogMap("sb_techtier","%s", player and player.getProperty("sb_techTier","-") or "UNAVAILABLE")
+--sb.setLogMap("sb_apo", "%s", tostring(math.betabound_applyProtectionOverride))
+
   if not player then
     player = math.betabound_player
   end
@@ -31,8 +44,7 @@ function update(dt) originalUpdate(dt)
 
   --hunger
   if sb_hungerPopups then
-    local maxHunger = status.resourceMax("food") --grab this in update in case it changes
-    local hunger = math.floor(status.resourcePercentage("food") * maxHunger)
+    local hunger = math.floor(status.resourcePercentage("food") * 100)
     if hunger ~= sb_lastHunger then
       for i = 1, #sb_hungerBenchmarks - 1 do
         if hunger > sb_hungerBenchmarks[i] and hunger < sb_hungerBenchmarks[i+1] then
@@ -44,7 +56,7 @@ function update(dt) originalUpdate(dt)
         end
       end
     end
-    sb_lastHunger = math.floor(status.resourcePercentage("food") * maxHunger)
+    sb_lastHunger = math.floor(status.resourcePercentage("food") * 100)
   end
 end
 
@@ -84,4 +96,20 @@ function overheadBars()
   end
 
   return bars
+end
+
+function sb_checkProtectionForOverride()
+  local sum = 0
+  local protection = root.assetJson("/leveling/protection.2functions")["protection"]
+  for i = 1, #protection[3][#protection[3]][2] do
+    sum = sum + protection[3][#protection[3]][2][i]
+  end
+
+  if sum == 0 then
+    math.betabound_applyProtectionOverride = protection[3][#protection[3]][1] - 0.5
+    sb.logInfo("[Betabound] The player protection override was applied with a value of %s.", protection[3][#protection[3]][1])
+  else
+    math.betabound_applyProtectionOverride = false
+    sb.logInfo("[Betabound] The player protection override was not applied.")
+  end
 end
