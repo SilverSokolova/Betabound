@@ -48,7 +48,7 @@
 
   "mainBlock": "corruptdirt",
   "subBlocks": ["rock02", "direstone"],
-  "ores": "sb_surfaceOres",
+  "ores": "depth1",
 
   "parallax": "/parallax/underground/dirtunderground.parallax",
 
