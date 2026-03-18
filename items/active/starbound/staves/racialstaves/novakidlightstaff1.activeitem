@@ -15,6 +15,15 @@
     "damageKindImage": "/interface/elements/fire.png"
   },
   "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "stone": {
+          "properties": {
+            "focalPoint": [0, -1]
+          }
+        }
+      }
+    },
     "lights": {
       "glow": {
         "active": true,
