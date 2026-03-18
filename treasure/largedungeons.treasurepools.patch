@@ -32,6 +32,7 @@
 [{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_townadvert-codex"}}],
 [{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_apexorigins-codex"}}],
 [{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_townheadline"}}],
+[{"op":"add","path":"/apexcityLore/0/1/pool/-","value":{"weight":0.2,"item":"sb_townposter"}}],
   
   
   // ================================
