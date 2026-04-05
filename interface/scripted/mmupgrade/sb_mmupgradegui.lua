@@ -14,7 +14,25 @@ function sb_hideGui()
   for i = 0, 6 do widget.setImage("imgSbLine"..i,"/assetmissing.png") end
 end
 
-function init() originalInit()
+function init()
+  --Did a mod which loaded after us try to let us know the UI was replaced?
+  --This prevents the "OpenUI > Betabound > MM Upgrade Tree > OpenUI" loop
+  --Untested because I decided on a different method
+  --[[
+  if config.getParameter("replaced") then
+    player.say("!")
+    sb_hideGui()
+    updateGui = originalUpdateGui
+    performUpdate = originalPerformUpdate
+    return
+  end]]
+
+  originalInit()
+
+  --Must be hidden by default, in case our script isn't ran
+  widget.setVisible("btnSbBeamaxe", true)
+  widget.setVisible("imgSbLine5", true)
+
   if (root.assetJson("/betabound.config:forceMoveMMUI") --betabound
     or (#config.getParameter("upgrades",{}).paintmode.prerequisites < 1) --EnhancedMatterManipulator
     or betterResetTools) --moremmupgrades
