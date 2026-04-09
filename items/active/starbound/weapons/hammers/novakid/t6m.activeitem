@@ -1,0 +1,17 @@
+{
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "configOverrides": {
+    "primaryAbility": {
+      "stances": {
+        "idle": {
+          "weaponOffset": [0.2, 1.75]
+        }
+      }
+    }
+  },
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": ["colors/t6m", "hammers/t6m"],
+  "itemName": "sb_novakidtier6mhammer",
+  "shortdescription": "TODO",
+  "description": "TODO"
+}

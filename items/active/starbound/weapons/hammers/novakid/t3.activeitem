@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_novakidtier3hammer",
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": "hammers/t3",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "TODO",
+  "description": "TODO"
+}

@@ -1,0 +1,12 @@
+{
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_novakidtier5maxe",
+//"description": "TODO",
+  "shortdescription": "Exploratory Surgerizer",
+  "definition": ["colors/t5m", "axes/m"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+
+  "configOverrides": {
+    "tooltipKind": "sb_sword"
+  }
+}

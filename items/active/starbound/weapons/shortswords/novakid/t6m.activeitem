@@ -1,0 +1,8 @@
+{
+  "description": "TODO",
+  "shortdescription": "TODO",
+  "itemName": "sb_novakidtier6mshortsword",
+  "itemTags": ["weapon", "melee", "shortsword"],
+  "definition": ["colors/t6m", "shortswords/m"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

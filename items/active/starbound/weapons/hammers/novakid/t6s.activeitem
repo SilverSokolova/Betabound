@@ -1,0 +1,8 @@
+{
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": ["colors/t6s", "hammers/t6s"],
+  "itemName": "sb_novakidtier6shammer",
+  "shortdescription": "TODO",
+  "description": "TODO"
+}

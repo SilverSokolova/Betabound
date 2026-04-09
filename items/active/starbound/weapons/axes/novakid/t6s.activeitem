@@ -1,0 +1,25 @@
+{
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_novakidtier6saxe",
+  "definition": ["colors/t6s", "axes/s"],
+  "description": "Chop right about now.",
+  "shortdescription": "Axe-Questions-Later",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [-2.25, 1.25]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

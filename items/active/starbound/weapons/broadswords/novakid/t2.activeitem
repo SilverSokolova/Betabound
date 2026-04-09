@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_novakidtier2broadsword",
+  "description": "TODO",
+  "shortdescription": "TODO",
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "definition": "broadswords/t2",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

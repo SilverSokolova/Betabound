@@ -1,0 +1,25 @@
+{
+  "itemName": "sb_novakidtier3axe",
+  "description": "A proper axe, for proper kills.",
+  "shortdescription": "Tomahawkeye",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t3",
+  "itemTags": ["weapon", "melee", "axe"],
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [-2.25, 1]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

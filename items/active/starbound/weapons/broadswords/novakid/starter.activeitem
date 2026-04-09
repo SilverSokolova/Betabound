@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_novakidstarter",
+  "definition": "starter",
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "description": "A busted pipe with some cloth around the 'handle.'",
+  "shortdescription": "Longpipe",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

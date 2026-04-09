@@ -1,0 +1,25 @@
+{
+  "itemName": "sb_novakidtier1axe",
+  "description": "What a throwaway joke.",
+  "shortdescription": "Tomahawked",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t1",
+  "itemTags": ["weapon", "melee", "axe"],
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [-2.25, 1.25]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

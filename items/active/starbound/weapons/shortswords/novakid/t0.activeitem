@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_novakidtier0shortsword",
+  "definition": "shortswords/t0",
+  "itemTags": ["weapon", "melee", "shortsword"],
+  "description": "A busted pipe with some cloth around the 'handle.'",
+  "shortdescription": "Shortpipe",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

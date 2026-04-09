@@ -1,0 +1,25 @@
+{
+  "itemName": "sb_novakidtier4axe",
+  "description": "This will rearrange your enemies' insides, and not in the fun way.",
+  "shortdescription": "Plumbing Pummeler",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t4",
+  "itemTags": ["weapon", "melee", "axe"],
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [-2.25, 1.25]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
