@@ -1,5 +1,5 @@
 {
-  "input": ["titaniumbar","uraniumrod"],
+  "input": ["sb_steelbar","titaniumbar","uraniumrod"],
   "output": "durasteelbar",
   "duration": 0.15,
   "groups": ["craftingfurnace3","bars","all","nouncrafting"]

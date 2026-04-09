@@ -1,5 +1,5 @@
 {
-  "input": ["ironbar",["liquidoil",3]],
+  "input": ["ironbar","copperbar",["liquidoil",3]],
   "output": "sb_steelbar",
   "groups": ["craftingfurnace2","bars","all"]
 }
