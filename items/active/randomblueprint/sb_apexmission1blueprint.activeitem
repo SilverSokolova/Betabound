@@ -4,7 +4,7 @@
   "rarity": "Common",
   "description": "A blueprint from the Miniknog Stronghold.",
   "shortdescription": "Apex Object Blueprint",
-  "tooltipKind": "base",
+  "tooltipKind": "sb_object",
   "category": "blueprint",
   "twoHanded": true,
   "sb_uncopyable": true,

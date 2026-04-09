@@ -10,13 +10,16 @@
 ,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_cultistmission1blueprint","shortdescription":"Cultist Object Blueprint"}
 
 //food
-,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprintavian","shortdescription":"Avian Cooking Blueprint"}
-,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprintglitch","shortdescription":"Glitch Cooking Blueprint"}
-,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprinthuman","shortdescription":"Human Cooking Blueprint"}
-,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprintfloran","shortdescription":"Floran Cooking Blueprint"}
-,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprintapex","shortdescription":"Apex Cooking Blueprint"}
-,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprinthylotl","shortdescription":"Hylotl Cooking Blueprint"}
-,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprintnovakid","shortdescription":"Novakid Cooking Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprintavian","shortdescription":"Avian Culinary Recipe"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprintglitch","shortdescription":"Glitch Culinary Recipe"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprinthuman","shortdescription":"Human Culinary Recipe"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprintfloran","shortdescription":"Floran Culinary Recipe"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprintapex","shortdescription":"Apex Culinary Recipe"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprinthylotl","shortdescription":"Hylotl Culinary Recipe"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprintnovakid","shortdescription":"Novakid Culinary Recipe"}
+
+//other
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_instrumentblueprint","shortdescription":"Instrument Blueprint"}
 
 //biomes
 ,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintalien","shortdescription":"Alien Blueprint"}

@@ -5,7 +5,7 @@
   "description": "A blueprint from the Dantalion.",
   //"description": "A blueprint from an Occasus Cultist base.",
   "shortdescription": "Cultist Object Blueprint",
-  "tooltipKind": "base",
+  "tooltipKind": "sb_object",
   "category": "blueprint",
   "twoHanded": true,
   "sb_uncopyable": true,
