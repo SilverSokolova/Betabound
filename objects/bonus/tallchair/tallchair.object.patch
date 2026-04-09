@@ -1,6 +1,8 @@
 [
-[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":0}],
-[{"op":"replace","path":"/tooltipKind","value":"sb_object"}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+
+[{"op":"test","path":"/tooltipFields","inverse":true},{"op":"add","path":"/tooltipFields","value":{}}],
+[{"op":"test","path":"/tooltipFields/objectImage","inverse":true},{"op":"add","path":"/tooltipFields/objectImage","value":"/objects/generic/woodenchair/woodenchair.png:default"}],
 
 [{"op":"test","path":"/breakDropOptions","inverse":true},{"op":"add","path":"/breakDropOptions","value":[]}],
 [{"op":"add","path":"/breakDropOptions/-","value":[["woodenchair",32,{}]]}],
