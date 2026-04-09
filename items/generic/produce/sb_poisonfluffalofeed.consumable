@@ -1,7 +1,7 @@
 {
   "itemName": "sb_poisonfluffalofeed",
   "price": 50,
-  "rarity": "Uncommon",
+  "rarity": "Common",
   "category": "food",
   "foodValue": 5,
   "inventoryIcon": "sb_poisonfluffalofeed.png",
