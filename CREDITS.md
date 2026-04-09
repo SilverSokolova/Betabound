@@ -43,11 +43,11 @@ Credits
       Wrapping Table sprites
     * [BlossomDancer](https://steamcommunity.com/sharedfiles/filedetails/?id=2787981321):<br/>
       Roasted Cactus sprite
-    * LittleVulpine:<br/>
+    * [Apple/LittleVulpine](https://steamcommunity.com/id/LittleVulpine/myworkshopfiles/):<br/>
       Magnetic tech sprite
     * [Bug](https://steamcommunity.com/profiles/76561198163788245/myworkshopfiles/):<br/>
       Betabound Steam logo background effects and layout
-    * TheShroomie:<br/>
+    * Shroome:<br/>
       Novakid racial melee weapons sprites
       Racial shortsword/hammer sprites
       Glitch large & small mace sprites
