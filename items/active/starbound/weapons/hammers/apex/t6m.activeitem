@@ -1,1 +1,35 @@
-{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","configOverrides":{"primaryAbility":{"stances":{"idle":{"weaponOffset":[0.2,1.75]}}}},"itemTags":["weapon","melee","hammer"],"definition":["colors/t6m","hammers/t6m"],"description":"A bell-shaped hammer.","itemName":"sb_apextier6mhammer","shortdescription":"King of the Dingers"}
+{
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": ["colors/t6m", "hammers/t6m"],
+  "description": "A bell-shaped hammer.",
+  "itemName": "sb_apextier6mhammer",
+  "shortdescription": "King of the Dingers",
+
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [-2.5, 2]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "primaryAbility": {
+      "stances": {
+        "idle": {
+          "weaponOffset": [-0.125, 1.5]
+        }
+      }
+    }
+  }
+}

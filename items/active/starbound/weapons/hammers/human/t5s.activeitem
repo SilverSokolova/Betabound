@@ -1,1 +1,28 @@
-{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"A hammer that can smash even grandfather clocks.","itemTags":["weapon","melee","hammer"],"definition":["colors/t5s","hammers/t5s"],"itemName":"sb_humantier5shammer","shortdescription":"Timesmasher"}
+{
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "description": "A hammer that can smash even grandfather clocks.",
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": ["colors/t5s", "hammers/t5s"],
+  "itemName": "sb_humantier5shammer",
+  "shortdescription": "Timesmasher",
+
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [-1, 2]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -4,5 +4,23 @@
   "itemTags": ["weapon", "melee", "shortsword"],
   "definition": "shortswords/t4",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
-  "shortdescription": "Eye of the Needle"
+  "shortdescription": "Eye of the Needle",
+
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [1, 0.8]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

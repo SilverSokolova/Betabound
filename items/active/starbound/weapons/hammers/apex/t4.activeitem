@@ -4,5 +4,32 @@
   "itemTags": ["weapon", "melee", "hammer"],
   "definition": "hammers/t4",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
-  "shortdescription": "Gorillakilla"
+  "shortdescription": "Gorillakilla",
+
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [-2.5, 2]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "primaryAbility": {
+      "stances": {
+        "idle": {
+          "weaponOffset": [-0.125, 1.5]
+        }
+      }
+    }
+  }
 }

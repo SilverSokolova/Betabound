@@ -4,5 +4,24 @@
   "itemTags": ["weapon", "melee", "hammer"],
   "definition": "hammers/t1",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
-  "shortdescription": "Rockstriker"
+  "shortdescription": "Rockstriker",
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "uppercutSwoosh": {
+            "partStates": {
+              "uppercutSwoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [-2, -2]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

@@ -4,5 +4,23 @@
   "itemTags": ["weapon", "melee", "shortsword"],
   "definition": "shortswords/t1",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
-  "shortdescription": "The Carver"
+  "shortdescription": "The Carver",
+
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [1, 0.8]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

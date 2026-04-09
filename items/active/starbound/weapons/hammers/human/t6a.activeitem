@@ -1,1 +1,28 @@
-{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"A very lethal hammer.","itemTags":["weapon","melee","hammer"],"definition":["colors/t6a","hammers/t6a"],"itemName":"sb_humantier6ahammer","shortdescription":"Lifecrusher"}
+{
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "description": "A very lethal hammer.",
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": ["colors/t6a", "hammers/t6a"],
+  "itemName": "sb_humantier6ahammer",
+  "shortdescription": "Lifecrusher",
+
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [-1.5, 2]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

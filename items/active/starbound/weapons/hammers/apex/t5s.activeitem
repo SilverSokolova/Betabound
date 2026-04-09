@@ -1,1 +1,35 @@
-{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"A hammer with a huge surface.","itemTags":["weapon","melee","hammer"],"definition":["colors/t5s","hammers/t5s"],"itemName":"sb_apextier5shammer","shortdescription":"Toecrusher"}
+{
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "description": "A hammer with a huge surface.",
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": ["colors/t5s", "hammers/t5s"],
+  "itemName": "sb_apextier5shammer",
+  "shortdescription": "Toecrusher",
+
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [-2.5, 2]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "primaryAbility": {
+      "stances": {
+        "idle": {
+          "weaponOffset": [-0.125, 1.5]
+        }
+      }
+    }
+  }
+}

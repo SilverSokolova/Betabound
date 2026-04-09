@@ -1,1 +1,35 @@
-{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"A gilded lamb shank turned into a hammer.","itemTags":["weapon","melee","hammer"],"definition":["colors/t6a","hammers/t6a"],"itemName":"sb_apextier6ahammer","shortdescription":"Lamb Shank"}
+{
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "description": "A gilded lamb shank turned into a hammer.",
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": ["colors/t6a", "hammers/t6a"],
+  "itemName": "sb_apextier6ahammer",
+  "shortdescription": "Lamb Shank",
+
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [-2.5, 2]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "primaryAbility": {
+      "stances": {
+        "idle": {
+          "weaponOffset": [-0.125, 1.5]
+        }
+      }
+    }
+  }
+}
