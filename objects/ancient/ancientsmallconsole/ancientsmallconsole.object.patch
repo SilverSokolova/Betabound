@@ -1,3 +1,13 @@
 [
-[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":490}]
+  [{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":490}],
+
+  [
+    {"op":"test","path":"/animationCustom/sounds/on/0","value":"/sfx/objects/console_generic_switchon.ogg"},
+    {"op":"replace","path":"/animationCustom/sounds/on/0","value":"/sfx/objects/ancientconsole_on.ogg"}
+  ],
+
+  [
+    {"op":"test","path":"/animationCustom/sounds/off/0","value":"/sfx/objects/console_generic_switchoff.ogg"},
+    {"op":"replace","path":"/animationCustom/sounds/off/0","value":"/sfx/objects/ancientconsole_off.ogg"}
+  ]
 ]
