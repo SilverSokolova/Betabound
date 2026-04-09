@@ -112,7 +112,7 @@ function scanTarget(dt)
         mcontroller.controlApproachVelocity(vec2.mul(vec2.norm(toTarget), mcontroller.baseParameters().flySpeed), mcontroller.baseParameters().airForce)
       end
     else
-      local approachDistance = 10
+      local approachDistance = 7.5
       local toApproach = targetDistance - approachDistance
       local approachFactor = math.max(math.min(toApproach / approachDistance, 1.0), -1.0)
       
