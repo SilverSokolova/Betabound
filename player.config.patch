@@ -350,8 +350,8 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"airburstfirebullet"}]}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"airbursticebullet"}]}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"airburstpoisonbullet"}]}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"sb_homingbullet"}]}],
-
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"sb_homingbullet"}]}]
+/*
 //Instruments
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"accordion"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"acousticguitar"}}],
@@ -386,5 +386,5 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"steeldrum"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"trumpet"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"violin"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"overdriveguitar"}}]
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"overdriveguitar"}}]*/
 ]
