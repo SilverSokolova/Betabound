@@ -1,18 +1,26 @@
 {
-  "itemName" : "sb_ladderdeployer",
-  "price" : 150,
-  "rarity" : "common",
-  "category" : "tool",
-  "tooltipKind" : "sb_object",
-  "description" : "A tool that places up to 10 ladders simultaneously.",
-  "shortdescription" : "Ladder Deployer",
-  "twoHanded" : true,
-  "maxStack" : 1,
-  "ladderCount" : 10,
-  "inventoryIcon" : "ladderdeployer.png",
-  "scripts" : ["ladderdeployer.lua"],
-  "animationScripts" : ["ladderplacementpreview.lua"],
-  "placementRange" : 35,
-  "placementBounds" : [0, 0, 1, 1],
-  "placementPreviewImage" : "/objects/sb_ladders/medievalladder.png"
+  "itemName": "sb_ladderdeployer",
+  "price": 150,
+  "rarity": "common",
+  "category": "tool",
+  "tooltipKind": "sb_object",
+  "description": "Places multiple ladders simultaneously. Adjust height with ^green;[Shift]^reset; + ^green;[W]^reset;/^green;[S]^reset;.",
+  "shortdescription": "Ladder Deployer",
+  "twoHanded": true,
+  "maxStack": 1,
+  "inventoryIcon": "ladderdeployer.png",
+  "scripts": ["ladderdeployer.lua"],
+  "animationScripts": ["ladderplacementpreview.lua"],
+
+  "animationCustom": {
+    "sounds": {
+      "ladderHeightChange": ["/sfx/blocks/footstep_wood.ogg"]
+    }
+  },
+
+  "ladderCount": 10,
+  "maxLadderCount": 25,
+  "placementRange": 35,
+  "placementBounds": [0, 0, 1, 1],
+  "placementPreviewImage": "/objects/sb_ladders/medievalladder.png"
 }
