@@ -11,8 +11,8 @@
 ,{"icon":"/codex/apex/sb_apexcover2.png","name":"sb_townadvert-codex","shortdescription":"Miniknog Advert","category":"codex"}
 ,{"icon":"/codex/apex/sb_apexcover4.png","name":"sb_townheadline","shortdescription":"News Headline Clipping","category":"codex"}
 ,{"icon":"/codex/apex/sb_apexcover3.png","name":"sb_townproblems-codex","shortdescription":"Reported Problems","category":"codex"}
-,{"name":"sb_townrhyme-codex","shortdescription":"Children's Rhyme","rarity":"common","icon":"sb_apexcover6.png","category":"codex","path":"/codex/apex/"}
-,{"shortdescription":"Big Ape Poster","icon":"sb_apexcover7.png","path":"/codex/apex/","rarity":"common","name":"sb_townposter","category":"codex"}
+,{"name":"sb_townrhyme-codex","shortdescription":"Children's Rhyme","icon":"sb_apexcover6.png","category":"codex","path":"/codex/apex/"}
+,{"shortdescription":"Big Ape Poster","icon":"sb_apexcover7.png","path":"/codex/apex/","name":"sb_townposter","category":"codex"}
 
 //avian
 ,{"icon":"/codex/avian/sb_aviancover6.png","name":"sb_aviannotes-codex","shortdescription":"The Truth about Kluex","category":"codex"}

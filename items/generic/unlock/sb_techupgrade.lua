@@ -3,7 +3,7 @@ require "/scripts/util.lua"
 require "/scripts/activeitem/sb_swing.lua"
 
 function init() swingInit()
-  recipes = config.getParameter("recipes",{"money"})
+  recipes = config.getParameter("recipes", {"money"})
   reset()
 end
 

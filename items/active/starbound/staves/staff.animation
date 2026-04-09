@@ -39,7 +39,7 @@
           "centered": true,
           "image": "<partImage>",
           "offset": [0, 1],
-          "focalPoint": [0, 2.5],
+          "focalPoint": [0, 2.5], //TODO: needed??
           "transformationGroups": ["weapon"]
         }
       },
@@ -50,7 +50,7 @@
           "fullbright": true,
           "image": "<partImage>",
           "offset": [0, 1],
-          "focalPoint": [0, 2.5],
+          "focalPoint": [0, 2.5], //TODO: needed??
           "transformationGroups": ["weapon"]
         }
       },

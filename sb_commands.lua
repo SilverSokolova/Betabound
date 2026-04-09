@@ -1,9 +1,15 @@
 local v = {}
-local originalCommand = command or function() return nil end
+local originalCommand = command
 local originalInit = init or function() end
 
-function init() originalInit() require("/scripts/sb_assetmissing.lua") sb_techType() end
-function command(a,b,d) if originalCommand then if originalCommand(a,b,d) ~= nil then return originalCommand(a,b,d) end end if v[a] then return v[a](b,d) else return string.format(root.assetJson("/sb_commands.config").noSuchCommand,a) end end
+function init(); originalInit(); require("/scripts/sb_assetmissing.lua"); sb_techType() end
+
+function command(cmd, connectionId, args)
+  return
+       v[cmd] and v[cmd](connectionId, args)
+    or originalCommand and originalCommand(cmd, connectionId, args)
+    or string.format(root.assetJson("/sb_commands.config").noSuchCommand, cmd)
+end
 
 local function cutColors(text) return string.gsub(string.gsub(text, "(%^.-%;)", ""),("\n"),"") end
 
@@ -30,6 +36,7 @@ end
   universe.adminWhisper(you,string.format(text.whisper.you,nick,msg))
   return ""
 end]]--
+
 --[[
 function v.isPvp(you,them) local text = root.assetJson("/sb_commands.config")
   them = them==nil and you or them[1]
@@ -37,17 +44,55 @@ function v.isPvp(you,them) local text = root.assetJson("/sb_commands.config")
   return string.format("%s %s %s %s.",cutColors(them), cutColors(them)==cutColors(universe.clientNick(you)) and "are" or "is", universe.isPvp(them) and "" or "not", "PVP.")
 end
 ]]--
-function v.itemid(_,i,d) return v.sb_itemid(_,i,d) end
-function v.sb_itemID() text = root.assetJson("/sb_commands.config"); return text.itemid.itemID end
-function v.sb_itemid(_,it,detailed) local text = root.assetJson("/sb_commands.config")
-  detailed=it[2] or false it=it[1] or "perfectlygenericitem"
-  if not sb_itemExists(it) then return string.format(text.itemid.noItem,it) else
-  local rarities = {common="f6f6f6",uncommon="77ee67",rare="6ba8ec",legendary="bb5beb",essential="c3c53e"}
-  local item = root.itemConfig(it)
-  if detailed then return sb.printJson(item,1) end
-  --todo: loop with values in keys
-    local out = string.format("\n^green;Directory:^reset; ^#fff;%s%s.%s^reset;\n^green;Rarity: ^#%s;%s^reset;\n^yellow;Name: ^reset;%s\n^yellow;Category: ^reset;%s\n^yellow;Description: ^reset;%s\n^yellow;Two-Handed: ^reset;%s\n^yellow;Type: ^reset;%s\n^green;Max Stack:^reset; %s\n^green;No. Recipes:^reset; %s\n^green;Tags:^reset; %s\n^green;Tooltip Kind:^reset; %s\n^green;Fields:^reset; %s\n^green;Scripts:^reset; %s",item.directory, item.config.itemName, text.itemTypes[root.itemType(it)] or root.itemType(it),rarities[string.lower(item.config.rarity)],item.config.rarity,item.config.shortdescription,item.config.category,item.config.description,item.config.twoHanded,root.itemType(it),item.config.maxStack or root.assetJson("/items/defaultParameters.config:defaultMaxStack").." (default)",#root.recipesForItem(it),sb.printJson(root.itemTags(it)),item.config.tooltipKind,sb.printJson(item.config.tooltipFields),sb.printJson(item.config.scripts))
-  return out
+function v.itemid(_, itemId, detailed) return v.sb_itemid(_, itemId, detailed) end
+function v.sb_itemid(_, args, detailed)
+  item = args[1]
+  detailed = args[2] or false
+
+  if not item then
+    return string.format(root.assetJson("/sb_commands.config").itemid.usage)
+  elseif not sb_itemExists(item) then
+    return string.format(root.assetJson("/sb_commands.config").itemid.noItem, item)
+  else
+    local itemConfig = root.itemConfig(item)
+
+    if detailed then
+      return sb.printJson(itemConfig, 1)
+    else
+      local rarities = {common="f6f6f6", uncommon="77ee67", rare="6ba8ec", legendary="bb5beb", essential="c3c53e"}
+      local categoryNames = root.assetJson("/items/categories.config:labels")
+      local out = string.format(
+[[%s
+^green;Directory:^reset; %s
+^green;Rarity: ^#%s;%s^reset;
+^green;Name: ^reset;%s
+^green;Category: ^reset;%s^reset; (%s)
+^green;Description: ^reset;%s
+^green;Two-Handed: ^reset;%s
+^green;Type: ^reset;%s
+^green;Max Stack:^reset; %s
+^green;No. Recipes:^reset; %s
+^green;Tags:^reset; %s
+^green;Tooltip Kind:^reset; %s
+^green;Fields:^reset; %s
+^green;Scripts:^reset; %s]],
+      itemConfig.config.itemName,
+      root.itemFile and root.itemFile(item) or itemConfig.directory,
+      rarities[string.lower(itemConfig.config.rarity)], itemConfig.config.rarity,
+      itemConfig.config.shortdescription,
+      categoryNames[itemConfig.config.category] or categoryNames["other"], itemConfig.config.category,
+      itemConfig.config.description,
+      itemConfig.config.twoHanded,
+      root.itemType(item),
+      itemConfig.config.maxStack or root.assetJson("/items/defaultParameters.config:defaultMaxStack").." (default)",
+      #root.recipesForItem(item),
+      sb.printJson(root.itemTags(item)),
+      itemConfig.config.tooltipKind,
+      sb.printJson(itemConfig.config.tooltipFields, 1),
+      sb.printJson(itemConfig.config.scripts))
+
+      return out
+    end
   end
 end
 

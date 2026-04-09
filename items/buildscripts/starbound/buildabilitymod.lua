@@ -28,7 +28,7 @@ function build(directory, config, parameters)
     end
     config.acceptedElements = acceptedElements
   end
-  config.shortdescription = string.gsub((config.rarity ~= "common" and "^yellow;" or "")..abilityData.name.."^reset;", "<elementalName>", config.elementalNameDescription)
+  config.shortdescription = string.gsub((config.rarity ~= "common" and "^yellow;" or "") .. (abilityData.name or "unknown") .. "^reset;", "<elementalName>", config.elementalNameDescription) --"unknown" is same as vanilla weapon buildscript
   config.description = string.format(config.description, config.slotNames[(config.slot and config.slot or "alt")] or "^yellow;???")
 
   config.tooltipFields = parameters.tooltipFields or config.tooltipFields or {}
