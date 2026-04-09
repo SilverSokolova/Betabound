@@ -66,7 +66,7 @@
     //CHANGE
       "xrc_mccreepers", //Change mob drop
       "pat_techremover", //2507851821 Remove and Unequip Tech - Move their buttons and replace one
-      "moremmupgrades", //Don't think we need this since we check via Lua. Couldnt find non-Lua check
+      "moremmupgrades", //Replaces MM UI scripts list
       "Bug Spawn Improvement", //957164903 - We add a new bug to gardens so up their select from 3 to 4
 
     //RECIPE CHANGES
@@ -114,7 +114,7 @@
       "Sandbox", //1644335760 - Replaces blueprint unlocks
       "Ground Seeders", //742376260 - Replaces blueprint unlocks (many items)
       "new stars with min ibiome themed planets", //2032258885 "min ibiome"[sic] Replaces blueprint unlocks (rawham). Also replaces blueprint blob drops and crystal color for ore detector
-      "M.M Upgrade Tree", //3598822001 An overhaul of Matter Manipulator Upgrades - Replaces callbacks
+//      "M.M Upgrade Tree", //3598822001 An overhaul of Matter Manipulator Upgrades - Replaces callbacks
       "x5 Basic Drop Rates", //729731141 - Replaces lootpools with modified copies
       "x10 Basic Drop Rates", //731199031 - Replaces lootpools with modified copies
 
@@ -135,5 +135,5 @@
   "steamContentId" : "2010607826",
   "steamTitle" : "Betabound: Vanilla Expanded!",
   "tags" : "Crafting and Building|Miscellaneous|Planets and Environments|Musical Instruments and Songs|NPCs and Creatures|Weapons|Quests|Dungeons|Ships|User Interface|Furniture and Objects|Character Improvements|Food and Farming|In-Game Tools|Mechanics|Vehicles and Mounts|Armor and Clothes",
-  "version" : "17.0.2" // https://semver.org/spec/v2.0.0.html <- THIS ANSWERS ALL YOUR QUESTIONS
+  "version" : "17.1.0" // https://semver.org/spec/v2.0.0.html <- THIS ANSWERS ALL YOUR QUESTIONS
 }
