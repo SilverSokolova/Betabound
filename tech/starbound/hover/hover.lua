@@ -7,7 +7,7 @@ function init()
   energyUsagePerSecond = config.getParameter("energyUsagePerSecond", 43)
 end
 
-function input(args)
+function techInput(args)
   if args.moves["jump"] and mcontroller.jumping() then
     holdingJump = true
   elseif not args.moves["jump"] then
@@ -25,7 +25,7 @@ function input(args)
 end
 
 function update(args)
-  local action = input(args)
+  local action = techInput(args)
 
   if action == "hover" and status.overConsumeResource("energy", energyUsagePerSecond * args.dt) then
     active = true

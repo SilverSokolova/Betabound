@@ -1,5 +1,5 @@
 local originalInit = init or function() end
-local originalInput = input or function() end
+local originalTryGroundsmash = tryGroundsmash or function() end
 local originalUpdate = update or function() end
 
 function init() originalInit()
@@ -7,11 +7,6 @@ function init() originalInit()
   unmovingRotationFrameCounter = 0
   playedSplashSound = false
   transformedStats = config.getParameter("transformedStats")
-end
-
-function input(args)
-  local result = originalInput(args)
-  return (result and active and result == "groundsmash" and "groundsmash")
 end
 
 function update(...) originalUpdate(...)

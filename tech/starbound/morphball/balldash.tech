@@ -40,7 +40,6 @@
   },
 
   "energyCostPerSecond": 21,
-  "maxDoubleTapTime": 0.2,
   "dashControlForce": 600,
   "dashSpeed": 40,
   "ballTransformHeightChange": -1.7,

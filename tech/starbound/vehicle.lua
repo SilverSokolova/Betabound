@@ -55,7 +55,7 @@ function uninit()
   status.clearPersistentEffects("sb_liquidMech")
 end
 
-function input(args)
+function techInput(args)
   if args.moves["special1"] and not lastAction["special1"] then
     return active and "mechDeactivate" or "mechActivate"
   elseif args.moves["primaryFire"] then
@@ -76,12 +76,12 @@ function flipMech()
 end
 
 function update(args)
-  local currentInput = input(args)
+  local currentTechInput = techInput(args)
   for i = 1, polySize do
     world.debugText("^shadow;" .. i, {entity.position()[1] + mechCustomMovementParameters.collisionPoly[i][1], entity.position()[2] + mechCustomMovementParameters.collisionPoly[i][2]}, "green")
   end
   if
-    not active and not status.statPositive("activeMovementAbilities") and currentInput == "mechActivate" and
+    not active and not status.statPositive("activeMovementAbilities") and currentTechInput == "mechActivate" and
       not world.gravity(mcontroller.position()) ~= 0 and --need world gravity rather than player gravity because improved swim physics
       not (mcontroller.liquidPercentage() >= aquatic) and
       not tech.parentLounging()
@@ -108,7 +108,7 @@ function update(args)
     else
       --  animator.playSound("fail")
     end
-  elseif active and ((currentInput == "mechDeactivate") or tech.parentLounging()) then
+  elseif active and ((currentTechInput == "mechDeactivate") or tech.parentLounging()) then
     uninit()
   end
 
@@ -141,7 +141,7 @@ function update(args)
       end
     end
 
-    if currentInput == "mechFire" then
+    if currentTechInput == "mechFire" then
       local aimRotation =
         flipped and {math.cos(aimAngle), math.sin(aimAngle)} or
         vec2.rotate({math.cos(aimAngle), math.sin(aimAngle)}, mechBackGunAngle)

@@ -9,7 +9,7 @@ function init()
   stats = config.getParameter("flightStats", {{stat = "fallDamageMultiplier", effectiveMultiplier = 0.5}})
 end
 
-function input(args)
+function techInput(args)
   if args.moves["jump"] and mcontroller.jumping() then
     holdingJump = true
   elseif not args.moves["jump"] then
@@ -28,7 +28,7 @@ function input(args)
 end
 
 function update(args)
-  local action = input(args)
+  local action = techInput(args)
 
   if action and status.overConsumeResource("energy", energyUsagePerSecond * args.dt) then
     animator.setAnimationState("jetpack", "on")
