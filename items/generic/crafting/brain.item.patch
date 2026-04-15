@@ -1,7 +1,7 @@
 [
-[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object4"}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object4b"}],
 [{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":60}],
 
 [{"op":"test","path":"/description","value":"This brain looks to be perfect for experimentation."},
-{"op":"replace","path":"/description","value":"This brain looks to be perfect for experimentation. Obtain brains with a ^orange;brain extractor^reset;, crafted at an anvil."}]
+{"op":"replace","path":"/description","value":"This brain looks to be perfect for experimentation.\nObtain brains with a ^orange;brain extractor^reset;, crafted at a ^orange;forge (upgraded anvil)^reset;."}]
 ]
