@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_novakidtier1dagger",
+  "description": "Trusty little slasher for the upcoming deputy.",
+  "itemTags": ["weapon", "melee", "dagger"],
+  "definition": "daggers/t1",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Deputy's Blade"
+}

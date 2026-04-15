@@ -1,0 +1,8 @@
+{
+  "definition": ["colors/t6s", "spears/t6s"],
+  "itemName": "sb_novakidtier6sspear",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "itemTags": ["weapon", "melee", "spear"],
+  "shortdescription": "Rancher's Retort",
+  "description": "You'd need a Rancher's Retort's Retort to retort this rancher's retort."
+}

@@ -1,6 +1,6 @@
 {
-  "description": "TODO",
-  "shortdescription": "TODO",
+  "description": "It's a lean, green, mean machine- Er, lean lacerator.",
+  "shortdescription": "Lean Lacerator",
   "itemName": "sb_novakidtier5ashortsword",
   "itemTags": ["weapon", "melee", "shortsword"],
   "definition": ["colors/t5a", "shortswords/a"],

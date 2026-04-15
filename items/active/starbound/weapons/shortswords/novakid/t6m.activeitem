@@ -1,6 +1,6 @@
 {
-  "description": "TODO",
-  "shortdescription": "TODO",
+  "description": "The damage this deals is far more than minute.",
+  "shortdescription": "Minute-Mangler",
   "itemName": "sb_novakidtier6mshortsword",
   "itemTags": ["weapon", "melee", "shortsword"],
   "definition": ["colors/t6m", "shortswords/m"],

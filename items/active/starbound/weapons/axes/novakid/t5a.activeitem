@@ -22,8 +22,5 @@
       }
     }
   },
-
-  "configOverrides": {
-    "tooltipKind": "sb_sword"
-  }
+  "tooltipKind": "sb_sword"
 }

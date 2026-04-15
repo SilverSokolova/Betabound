@@ -1,8 +1,9 @@
 {
-  "description": "TODO",
-  "shortdescription": "TODO",
+  "description": "",
+  "shortdescription": "Sawtooth",
   "itemName": "sb_novakidtier5mshortsword",
   "itemTags": ["weapon", "melee", "shortsword"],
   "definition": ["colors/t5m", "shortswords/m"],
-  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "tooltipKind": "sb_sword"
 }

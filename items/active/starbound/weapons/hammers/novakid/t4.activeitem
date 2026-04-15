@@ -3,6 +3,6 @@
   "itemTags": ["weapon", "melee", "hammer"],
   "definition": "hammers/t4",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
-  "shortdescription": "TODO",
-  "description": "TODO"
+  "shortdescription": "Pipe Dream",
+  "description": "Wake up? Like that's ever gonna happen."
 }

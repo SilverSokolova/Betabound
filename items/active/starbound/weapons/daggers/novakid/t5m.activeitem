@@ -1,0 +1,9 @@
+{
+  "description": "",
+  "shortdescription": "Syringe Stabber",
+  "itemName": "sb_novakidtier5mdagger",
+  "itemTags": ["weapon", "melee", "dagger"],
+  "definition": ["colors/t5m", "daggers/m"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "tooltipKind": "sb_sword"
+}

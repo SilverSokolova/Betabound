@@ -1,0 +1,9 @@
+{
+  "description": "",
+  "shortdescription": "Grange Grazer",
+  "itemName": "sb_novakidtier6sdagger",
+  "itemTags": ["weapon", "melee", "dagger"],
+  "definition": ["colors/t6s", "daggers/s"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "tooltipKind": "sb_sword"
+}

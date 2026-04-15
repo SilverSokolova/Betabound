@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_novakidtier3dagger",
+  "description": "Good for cutting up dinner, and backs.",
+  "itemTags": ["weapon", "melee", "dagger"],
+  "definition": "daggers/t3",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Outlaw's Machete"
+}

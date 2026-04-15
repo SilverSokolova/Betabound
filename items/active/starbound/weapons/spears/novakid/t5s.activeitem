@@ -1,0 +1,8 @@
+{
+  "definition": ["colors/t5s", "spears/t5s"],
+  "itemName": "sb_novakidtier5sspear",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "itemTags": ["weapon", "melee", "spear"],
+  "shortdescription": "Cleaveround",
+  "description": "Great for chopping around corners!"
+}

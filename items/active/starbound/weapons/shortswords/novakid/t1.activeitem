@@ -1,7 +1,7 @@
 {
   "itemName": "sb_novakidtier1shortsword",
-  "description": "TODO",
-  "shortdescription": "TODO",
+  "description": "The perfect accessory for falling off a horse.",
+  "shortdescription": "Cavelring",
   "itemTags": ["weapon", "melee", "shortsword"],
   "definition": "shortswords/t1",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"

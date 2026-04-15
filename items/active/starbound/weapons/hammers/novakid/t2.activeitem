@@ -3,6 +3,6 @@
   "itemTags": ["weapon", "melee", "hammer"],
   "definition": "hammers/t2",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
-  "shortdescription": "TODO",
-  "description": "TODO"
+  "shortdescription": "Railmaker",
+  "description": "Strong enough to nail rails and spike skulls."
 }

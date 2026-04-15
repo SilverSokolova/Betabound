@@ -1,6 +1,6 @@
 {
-  "description": "TODO",
-  "shortdescription": "TODO",
+  "description": "Named after the mediocre middle child of the Novakid mafia family.",
+  "shortdescription": "Big Butcher",
   "itemName": "sb_novakidtier5sbroadsword",
   "definition": ["colors/t5s", "broadswords/t5s"],
   "itemTags": ["weapon", "melee", "broadsword"],

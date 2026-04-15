@@ -1,8 +1,9 @@
 {
-  "description": "TODO",
-  "shortdescription": "TODO",
+  "description": "",
+  "shortdescription": "Middle Ace",
   "itemName": "sb_novakidtier6ashortsword",
   "itemTags": ["weapon", "melee", "shortsword"],
   "definition": ["colors/t6a", "shortswords/a"],
-  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "tooltipKind": "sb_sword"
 }

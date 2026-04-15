@@ -3,6 +3,6 @@
   "itemTags": ["weapon", "melee", "hammer"],
   "definition": "hammers/t3",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
-  "shortdescription": "TODO",
-  "description": "TODO"
+  "shortdescription": "The Unsafe",
+  "description": "The richer you are, the harder this baby'll whack!"
 }

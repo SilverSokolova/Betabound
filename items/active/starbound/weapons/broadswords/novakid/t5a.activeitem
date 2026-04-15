@@ -1,8 +1,9 @@
 {
-  "description": "TODO",
-  "shortdescription": "TODO",
+  "description": "",
+  "shortdescription": "Mean Mangler",
   "itemName": "sb_novakidtier5abroadsword",
   "definition": ["colors/t5a", "broadswords/t5a"],
   "itemTags": ["weapon", "melee", "broadsword"],
-  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "tooltipKind": "sb_sword"
 }

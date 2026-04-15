@@ -3,6 +3,7 @@
   "itemTags": ["weapon", "melee", "hammer"],
   "definition": ["colors/t6a", "hammers/t6a"],
   "itemName": "sb_novakidtier6ahammer",
-  "shortdescription": "TODO",
-  "description": "TODO"
+  "shortdescription": "Roulette Rumbler",
+  "description": "",
+  "tooltipKind": "sb_sword"
 }

@@ -1,0 +1,9 @@
+{
+  "description": "",
+  "shortdescription": "Micro Maimer",
+  "itemName": "sb_novakidtier5adagger",
+  "itemTags": ["weapon", "melee", "dagger"],
+  "definition": ["colors/t5a", "daggers/a"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "tooltipKind": "sb_sword"
+}

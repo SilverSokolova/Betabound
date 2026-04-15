@@ -1,8 +1,9 @@
 {
-  "description": "TODO",
-  "shortdescription": "TODO",
+  "description": "",
+  "shortdescription": "Steading Stabber",
   "itemName": "sb_novakidtier6sshortsword",
   "itemTags": ["weapon", "melee", "shortsword"],
   "definition": ["colors/t6s", "shortswords/s"],
-  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "tooltipKind": "sb_sword"
 }

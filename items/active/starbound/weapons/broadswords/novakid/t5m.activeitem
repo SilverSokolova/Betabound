@@ -1,8 +1,9 @@
 {
-  "description": "TODO",
-  "shortdescription": "TODO",
+  "description": "",
+  "shortdescription": "Supersaw",
   "itemName": "sb_novakidtier5mbroadsword",
   "definition": ["colors/t5m", "broadswords/t5m"],
   "itemTags": ["weapon", "melee", "broadsword"],
-  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "tooltipKind": "sb_sword"
 }

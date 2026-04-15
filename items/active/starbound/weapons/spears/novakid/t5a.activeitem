@@ -1,0 +1,8 @@
+{
+  "definition": ["colors/t5a", "spears/t5a"],
+  "itemName": "sb_novakidtier5aspear",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "itemTags": ["weapon", "melee", "spear"],
+  "shortdescription": "Green Gouger",
+  "description": "\"Green Gouger?\" \"Because, uh, it gouges, and it's green.\" \"Oh, yeah.\""
+}

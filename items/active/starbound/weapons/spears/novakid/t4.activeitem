@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_novakidtier4spear",
+  "description": "Doubles as a surprisingly effective oar.",
+  "itemTags": ["weapon", "melee", "spear"],
+  "definition": "spears/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Pioneer Paddle"
+}
