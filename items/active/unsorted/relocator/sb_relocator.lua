@@ -1,8 +1,8 @@
 local originalInit = init or function() end
 local originalUpdate = update or function() end
 
-function init() originalInit()
-  if config.getParameter("sb_doNotUpdateInventoryIcon") then
+function init(); originalInit()
+  if config.getParameter("betabound:disableInventoryIconStoredCreatureCount") then
     update = originalUpdate
     return
   end
@@ -11,7 +11,7 @@ function init() originalInit()
   sb_directory = root.itemConfig(config.getParameter("itemName")).directory
 end
 
-function update(...) originalUpdate(...)
+function update(...); originalUpdate(...)
   local currentSize = config.getParameter("scriptStorage", {})
   currentSize = #(currentSize.storedMonsters or '')
   if currentSize ~= sb_lastSize then
