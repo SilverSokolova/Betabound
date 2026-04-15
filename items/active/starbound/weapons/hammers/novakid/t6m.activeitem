@@ -12,6 +12,7 @@
   "itemTags": ["weapon", "melee", "hammer"],
   "definition": ["colors/t6m", "hammers/t6m"],
   "itemName": "sb_novakidtier6mhammer",
-  "shortdescription": "TODO",
-  "description": "TODO"
+  "shortdescription": "",
+  "description": "Heart-stop-watch",
+  "tooltipKind": "sb_sword"
 }

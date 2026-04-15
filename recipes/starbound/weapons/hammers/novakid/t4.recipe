@@ -1,0 +1,5 @@
+{
+  "input": [["durasteelbar",6],["copperbar",4]],
+  "output": "sb_novakidtier4hammer",
+  "groups": ["craftinganvil3","weapons","sb_racialweapons","all"]
+}

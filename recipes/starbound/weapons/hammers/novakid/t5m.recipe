@@ -1,0 +1,5 @@
+{
+  "input": [["sb_refinedrubium",6],["durasteelbar",4],"scorchedcore"],
+  "output": "sb_novakidtier5mhammer",
+  "groups": ["craftingseparator","weapons","sb_racialweapons","all"]
+}
