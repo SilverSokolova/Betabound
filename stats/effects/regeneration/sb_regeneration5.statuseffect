@@ -2,7 +2,7 @@
   "name": "sb_regeneration5",
   "blockingStat": "healingStatusImmunity",
   "effectConfig": {
-    "healTime": 20
+    "healTime": 10
   },
   "defaultDuration": 5,
   "scripts": ["regeneration.lua"],
