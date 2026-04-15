@@ -38,20 +38,20 @@
     //Valuable Treasure
   [{"op":"add","path":"/valuableTreasure/0/1/pool/-","value":{"weight":0.02,"pool":"costume"}}],
   [{"op":"add","path":"/valuableTreasure/0/1/pool/-","value":{"weight":0.02,"pool":"instrument"}}],
-  [{"op":"add","path":"/valuableTreasure/0/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
+//[{"op":"add","path":"/valuableTreasure/0/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
 
   [{"op":"add","path":"/valuableTreasure/1/1/pool/-","value":{"weight":0.02,"pool":"costume"}}],
   [{"op":"add","path":"/valuableTreasure/1/1/pool/-","value":{"weight":0.02,"pool":"instrument"}}],
-  [{"op":"add","path":"/valuableTreasure/1/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
+//[{"op":"add","path":"/valuableTreasure/1/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
 
   [{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.02,"pool":"costume"}}],
   [{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.02,"pool":"instrument"}}],
-  [{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
+//[{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
 
   [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.02,"pool":"costume"}}],
   [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.02,"pool":"instrument"}}],
-  [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
-  [{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.08,"item":"sb_elementmod"}}],
+//[{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.08,"pool":"sb_abilityMod"}}],
+//[{"op":"add","path":"/valuableTreasure/3/1/pool/-","value":{"weight":0.08,"item":"sb_elementmod"}}],
 
     //Tech
 //[{"op":"add","path":"/valuableTreasure/2/1/pool/-","value":{"weight":0.1,"item":"sb_tech"}}],
@@ -338,13 +338,14 @@
 
 
     //Mods
-  [{"op":"add","path":"/weapon/0/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
-  [{"op":"add","path":"/weapon/1/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
-  [{"op":"add","path":"/weapon/2/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
+//[{"op":"add","path":"/weapon/0/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
+//[{"op":"add","path":"/weapon/1/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
+//[{"op":"add","path":"/weapon/2/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
   
   [{"op":"add","path":"/goodWeapon/0/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
   [{"op":"add","path":"/goodWeapon/1/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
   [{"op":"add","path":"/goodWeapon/2/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
+  [{"op":"add","path":"/goodWeapon/2/1/pool/-","value":{"weight":0.15,"item":"sb_elementmod"}}],
 
 /*
 ULTIMATE WEAPON CLASSIFICATION GUIDE:
