@@ -385,6 +385,12 @@ xrc0018[37]=function()
   end
 end
 
+--38, 17/MAR/2026: Tell players that a future update will remove vanilla/Betabound food stacking
+xrc0018[38]=function()
+  giveUpdateNote("notifyFoodStackPatch")
+end
+
+
 function sb_doVersioning(cv,yv)
   newPlayer = yv == 0
   --player.getProperty doesn't return the default if the saved value exists as nil, so set it so the tech unlock quest doesnt break
