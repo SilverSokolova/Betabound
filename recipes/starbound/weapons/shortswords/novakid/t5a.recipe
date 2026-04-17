@@ -1,5 +1,5 @@
 {
   "input": [["refinedaegisalt",3],["durasteelbar",2]],
   "output": "sb_novakidtier5ashortsword",
-  "groups": ["craftingseparator","weapons","sb_racialweapons","all"]
+  "groups": ["craftingseparator","sb_racialweapons","all"]
 }

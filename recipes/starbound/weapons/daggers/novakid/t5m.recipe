@@ -1,5 +1,5 @@
 {
   "input": [["sb_refinedrubium",2],["durasteelbar",1]],
   "output": "sb_novakidtier5mdagger",
-  "groups": ["craftingseparator","weapons","sb_racialweapons","all"]
+  "groups": ["craftingseparator","sb_racialweapons","all"]
 }

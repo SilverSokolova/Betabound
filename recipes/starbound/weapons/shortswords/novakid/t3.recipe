@@ -1,5 +1,5 @@
 {
   "input": [["sb_steelbar",3],["copperbar",2]],
   "output": "sb_novakidtier3shortsword",
-  "groups": ["craftinganvil2","weapons","sb_racialweapons","all"]
+  "groups": ["craftinganvil2","sb_racialweapons","all"]
 }

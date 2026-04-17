@@ -1,5 +1,5 @@
 {
   "input": [["sb_feroziumcompound",3],["solariumstar",2]],
   "output": "sb_novakidtier6aaxe",
-  "groups": ["craftingseparator","weapons","sb_racialweapons","all"]
+  "groups": ["craftingseparator","sb_racialweapons","all"]
 }

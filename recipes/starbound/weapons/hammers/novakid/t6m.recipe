@@ -1,5 +1,5 @@
 {
   "input": [["sb_ceruliumcompound",6],["solariumstar",4],"cryonicextract"],
   "output": "sb_novakidtier6mhammer",
-  "groups": ["craftingseparator","weapons","sb_racialweapons","all"]
+  "groups": ["craftingseparator","sb_racialweapons","all"]
 }

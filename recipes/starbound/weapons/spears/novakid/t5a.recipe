@@ -1,5 +1,5 @@
 {
   "input": [["refinedaegisalt",6],["durasteelbar",4],"venomsample"],
   "output": "sb_novakidtier5aspear",
-  "groups": ["craftingseparator","weapons","sb_racialweapons","all"]
+  "groups": ["craftingseparator","sb_racialweapons","all"]
 }
