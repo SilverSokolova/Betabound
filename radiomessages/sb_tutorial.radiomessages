@@ -4,6 +4,10 @@
 
   // on picking up various tables
 
+  "sb_pickupinventorstable": {
+    "type": "tutorial",
+    "text": "Note that many vanilla crafting stations allow de-selecting the currently selected tab to view all tabs at once. This may prove helpful if a modded item erroneously does not appear in any tabs."
+  },
   "sb_pickuptechconsole1": {
     "type": "tutorial",
     "text": "To obtain copies of tech for the Tech Development Console, ^green;select a tech in the ^orange;tech equip menu^green; and press the 'download' button^reset;. It should be noted that this requires a tech card."

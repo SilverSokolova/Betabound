@@ -1,0 +1,11 @@
+[
+  [{
+      "op": "test",
+      "path": "/radioMessagesOnPickup"
+    }, {
+      "op": "add",
+      "path": "/radioMessagesOnPickup/-",
+      "value": "sb_pickupinventorstable"
+    }
+  ]
+]
