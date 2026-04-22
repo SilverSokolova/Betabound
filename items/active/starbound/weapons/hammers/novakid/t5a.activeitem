@@ -5,5 +5,25 @@
   "itemName": "sb_novakidtier5ahammer",
   "shortdescription": "Bandito Basher",
   "description": "",
-  "tooltipKind": "sb_sword"
+  "tooltipKind": "sb_sword",
+
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [-0.5, 2]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

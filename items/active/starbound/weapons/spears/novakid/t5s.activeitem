@@ -4,5 +4,19 @@
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
   "itemTags": ["weapon", "melee", "spear"],
   "shortdescription": "Cleaveround",
-  "description": "Great for chopping around corners!"
+  "description": "Great for chopping around corners!",
+
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "properties": {
+              "offset": [4, -0.05]
+            }
+          }
+        }
+      }
+    }
+  }
 }
