@@ -387,7 +387,10 @@ end
 
 --38, 17/MAR/2026: Tell players that a future update will remove vanilla/Betabound food stacking
 xrc0018[38]=function()
-  giveUpdateNote("notifyFoodStackPatch")
+  if not newPlayer then
+    giveUpdateNote("getFoodStackPatch")
+    giveUpdateNote("getManyTabsMod")
+  end
 end
 
 
