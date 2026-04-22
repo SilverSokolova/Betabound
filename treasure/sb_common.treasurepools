@@ -163,6 +163,7 @@
         {"item": "sb_inspect"},
         {"item": "sb_survivalguide-codex"},
         {"item": "sb_gunguide-codex"},
+        {"item": "sb_novatier0rifle"},
         {"item": "sb_novastarter"},
         {"item": ["sb_ammo",50,{"projectileType":"standardbullet"}]}
       ]
