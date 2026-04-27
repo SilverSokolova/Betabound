@@ -6,7 +6,7 @@ function init()
   originalInit()
 end
 
-function addText(text, position, backingDirectives, textOffset, color)
+function addText(text, position, backingDirectives, textOffset)
   drawable = drawable or {}
   local textOffset = textOffset or 1
   for i = 1, #text do
