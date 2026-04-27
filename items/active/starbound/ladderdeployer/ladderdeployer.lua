@@ -5,6 +5,7 @@ function init()
   --Stuff related to how many ladders you're placing
   currentLadderCount = config.getParameter("ladderCount")
   maxLadderCount = config.getParameter("maxLadderCount")
+  activeItem.setScriptedAnimationParameter("maxLadderCount", maxLadderCount)
   ladderHeightChangeCooldown = config.getParameter("ladderHeightChangeCooldown", 0.1)
   ladderHeightChangeCooldownTimer = 0
 
@@ -40,10 +41,6 @@ function update(dt, fireMode, shiftHeld, args)
           animator.playSound("ladderHeightChange")
           activeItem.setScriptedAnimationParameter("ladderCount", currentLadderCount)
           ladderHeightChangeCooldownTimer = ladderHeightChangeCooldown
-
-          if player.say then
-            player.say(string.format("^gray;(%s)", newLadderCount))
-          end
         end
       end
     end

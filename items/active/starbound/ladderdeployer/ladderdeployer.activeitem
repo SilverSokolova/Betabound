@@ -10,7 +10,7 @@
   "maxStack": 1,
   "inventoryIcon": "ladderdeployer.png",
   "scripts": ["ladderdeployer.lua"],
-  "animationScripts": ["ladderplacementpreview.lua"],
+  "animationScripts": ["ladderplacementpreview.lua", "/scripts/animations/sb_info.lua"],
 
   "animationCustom": {
     "sounds": {
