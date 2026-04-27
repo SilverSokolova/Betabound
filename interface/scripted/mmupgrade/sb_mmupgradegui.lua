@@ -15,7 +15,6 @@ function sb_hideGui()
 end
 
 function init(); originalInit()
-
   --Must be hidden by default, in case our script isn't in the config
   widget.setVisible("btnSbBeamaxe", true)
   widget.setVisible("imgSbLine5", true)
