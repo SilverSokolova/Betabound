@@ -1,4 +1,5 @@
 [
+  //Filter deselecting
   [{
       "op": "test",
       "path": "/paneLayout/categories/toggleMode",
@@ -8,5 +9,16 @@
       "path": "/paneLayout/categories/toggleMode",
       "value": true
     }
-  ]
+  ] /* */,
+
+  //Many Tabs
+  [{
+      "op": "add",
+      "path": "/modTab/-",
+      "value": {
+        "file": "/interface/sb_crafting/tabicon_racialweapons.png",
+        "filter": ["sb_racialweapons"]
+      }
+    }
+  ] /* */
 ]

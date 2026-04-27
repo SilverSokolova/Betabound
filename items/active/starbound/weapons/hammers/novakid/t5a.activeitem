@@ -1,0 +1,29 @@
+{
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": ["colors/t5a", "hammers/t5a"],
+  "itemName": "sb_novakidtier5ahammer",
+  "shortdescription": "Bandito Basher",
+  "description": "",
+  "tooltipKind": "sb_sword",
+
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [-0.5, 2]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

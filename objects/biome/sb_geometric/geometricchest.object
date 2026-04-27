@@ -6,7 +6,7 @@
   "objectType": "container",
   "tooltipKind": "sb_container",
   "builder": "/items/buildscripts/starbound/buildcontainer.lua",
-  "scripts": ["/scripts/sb_container.lua"],
+  "scripts": ["/scripts/objects/sb_container.lua"],
   "category": "fridgeStorage",
   "price": 125,
   "description": "Haven't I seen this exact same design before? ...No, it's probably my imagination.",

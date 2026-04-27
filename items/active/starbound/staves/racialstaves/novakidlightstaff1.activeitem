@@ -15,6 +15,15 @@
     "damageKindImage": "/interface/elements/fire.png"
   },
   "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "stone": {
+          "properties": {
+            "focalPoint": [0, -1]
+          }
+        }
+      }
+    },
     "lights": {
       "glow": {
         "active": true,
@@ -55,9 +64,9 @@
   "primaryAbility": {
     "projectileType": "sb_redgiant",
     "maxCastRange": 20,
-    "energyCost": 80,
+    "energyCost": 300,
     "projectileParameters": {
-      "baseDamage": 20,
+      "baseDamage": 5,
       "speed": 0
     }
   },

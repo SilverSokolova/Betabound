@@ -11,7 +11,7 @@
   "shortdescription": "Aegisalt Tech Chest",
   "race": "generic",
   "builder": "/items/buildscripts/starbound/buildcontainer.lua",
-  "scripts": ["/scripts/sb_container.lua"],
+  "scripts": ["/scripts/objects/sb_container.lua"],
 
   "apexDescription": "A hi-tech chest. It looks as if it might contain something valuable.",
   "avianDescription": "A chest that looks like it stores something valuable.",

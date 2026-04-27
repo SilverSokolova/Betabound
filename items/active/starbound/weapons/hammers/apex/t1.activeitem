@@ -4,5 +4,43 @@
   "itemTags": ["weapon", "melee", "hammer"],
   "definition": "hammers/t1",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
-  "shortdescription": "Thunderpunch"
+  "shortdescription": "Thunderpunch",
+
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [-2.5, 2]
+                  }
+                }
+              }
+            }
+          },
+          "uppercutSwoosh": {
+            "partStates": {
+              "uppercutSwoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [-2.5, -1.5]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "primaryAbility": {
+      "stances": {
+        "idle": {
+          "weaponOffset": [-0.125, 1.5]
+        }
+      }
+    }
+  }
 }

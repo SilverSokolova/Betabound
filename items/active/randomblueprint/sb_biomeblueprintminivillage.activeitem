@@ -1,0 +1,45 @@
+{
+  "itemName": "sb_biomeblueprintminivillage",
+  "price": 150,
+  "rarity": "Common",
+  "description": "A blueprint found in a gnome village.",
+  "shortdescription": "Gnome Blueprint",
+  "tooltipKind": "sb_object",
+  "category": "blueprint",
+  "twoHanded": true,
+  "sb_uncopyable": true,
+
+  "inventoryIcon": [{
+      "image": "/items/generated/blueprint.png?replace;000=0000?border=1;000"
+    }, {
+      "image": "/items/generic/crafting/gnome.png"
+    }, {
+      "image": "/interface/inventory/dot.png",
+      "position": [4, -4]
+    }
+  ],
+  "animation": "randomblueprint.animation",
+  "scripts": ["randomblueprint.lua", "sb_randomblueprint.lua"],
+  "swingTime": 0.15,
+
+  "allowDuplicateChance": 0.1,
+  "recipes": [
+    //betabound
+    "smallchurch",
+    "smallclocktower",
+    "smallhouse1",
+    "smallhouse2",
+    "smallhouse3",
+    "smallhouse4",
+    "smallhouse5",
+    "smallhouse6",
+    "smallhouse7",
+    "smallhouse8",
+    "smallhouse9",
+    "smallhouse10",
+    "smallhouse11",
+    "smallinn",
+    "smalllamppost",
+    "smallwindmill"
+  ]
+}

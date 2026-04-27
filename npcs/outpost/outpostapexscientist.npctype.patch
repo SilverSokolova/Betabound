@@ -1,0 +1,8 @@
+[
+  [{
+      "op": "add",
+      "path": "/scriptConfig/sb_turnInQuests",
+      "value": ["sb_radardish1"]
+    }
+  ]
+]

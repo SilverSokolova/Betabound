@@ -2,7 +2,6 @@
 [{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
 
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
-
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"pizza"}],
 
 [{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Rare"}],

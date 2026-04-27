@@ -2,6 +2,9 @@
 [{"op":"replace","path":"/itemName","value":"starbound_crystalplant"}],
 
 [{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":100}],
+[{"op":"test","path":"/category","value":"cookingIngredient"},{"op":"replace","path":"/category","value":"food"}],
+[{"op":"test","path":"/foodValue","inverse":true},{"op":"add","path":"/foodValue","value":2.5}],
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
 
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_liquifiedcrystal"}],

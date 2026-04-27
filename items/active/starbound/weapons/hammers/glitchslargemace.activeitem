@@ -1,0 +1,45 @@
+{
+  "itemName": "sb_glitchlargemace",
+  "definition": ["hammers/common", "hammers/abilities"],
+  "sb_waBan": true,
+  "description": "",
+  "shortdescription": "Heavy Mace",
+  "tooltipKind": "sb_sword",
+  "tooltipFields": {
+    "subtitle": "Heavy Mace"
+  },
+  "itemTags": ["weapon", "melee", "hammer"],
+
+  "sb_dyeable": true,
+  "sb_backingDirectives": "?replace;b6b6b6=ffca8a;7b7b7b=e0975c;373737=a85636",
+  "sb_extraDirectives": "?replace;ffca8a=b6b6b6;e0975c=7b7b7b;a85636=373737",
+
+  "elementalType": "physical",
+  "primaryAbilityType": "sb_hammer",
+  "primaryAbility": {
+    "stances": {
+      "idle": {
+        "weaponOffset": [-0.125, 1.5]
+      }
+    }
+  },
+
+  "builderConfig": [{
+      "nameGenerator": "glitchmacenames.config:nameGen",
+      "animationParts": {
+        "blade": {
+          "path": "glitchlargemace/blade/<variant>.png",
+          "variants": 2,
+          "paletteSwap": true
+        },
+        "handle": {
+          "path": "glitchlargemace/handle/<variant>.png",
+          "variants": 2,
+          "paletteSwap": true
+        }
+      },
+      "iconDrawables": ["handle", "blade"]
+    }
+  ],
+  "builder": "/items/buildscripts/starbound/buildweapon.lua"
+}

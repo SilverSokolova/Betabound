@@ -34,7 +34,7 @@ function uninit()
   end
 end
 
-function input(args)
+function techInput(args)
   if args.moves["special1"] and not lastAction["special1"] then
     if active then
 --      animator.burstParticleEmitter("mechDeactivateParticles") --Okay, so, tech.setVisible hides everything, including the particles. I REALLY do not feel like adding an invisible state and adding a parameter for animation parts that exist, so for now...
@@ -53,9 +53,9 @@ function input(args)
 end
 
 function update(args)
-  local currentInput = input(args)
+  local currentTechInput = techInput(args)
   for i = 1, polySize do world.debugText("^shadow;"..i,{entity.position()[1]+mechCustomMovementParameters.collisionPoly[i][1],entity.position()[2]+mechCustomMovementParameters.collisionPoly[i][2]},"green") end
-  if not active and not status.statPositive("activeMovementAbilities") and currentInput == "mechActivate" and not mcontroller.zeroG() and not mcontroller.liquidMovement() then
+  if not active and not status.statPositive("activeMovementAbilities") and currentTechInput == "mechActivate" and not mcontroller.zeroG() and not mcontroller.liquidMovement() then
     mechCollisionTest = config.getParameter("mechCollisionTest")
     mechCollisionTest[1] = mechCollisionTest[1] + entity.position()[1]
     mechCollisionTest[2] = mechCollisionTest[2] + entity.position()[2]
@@ -73,12 +73,12 @@ function update(args)
     else
 --      animator.playSound("fail")
     end
-  elseif active and (currentInput == "mechDeactivate") then
+  elseif active and (currentTechInput == "mechDeactivate") then
 --or energyCostPerSecond * args.dt > status.overConsumeResource("energy",energyCostPerSecond)) then
     uninit()
   end
 
-  if active and (currentInput == "flip") then
+  if active and (currentTechInput == "flip") then
     for i = 1, polySize do mechCustomMovementParameters.collisionPoly[i][1] = -mechCustomMovementParameters.collisionPoly[i][1] end
     mcontroller.controlParameters(mechCustomMovementParameters)
     flipped = not flipped

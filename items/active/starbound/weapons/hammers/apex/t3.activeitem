@@ -4,5 +4,32 @@
   "itemTags": ["weapon", "melee", "hammer"],
   "definition": "hammers/t3",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
-  "shortdescription": "The Riveter"
+  "shortdescription": "The Riveter",
+
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [-2.5, 2]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "primaryAbility": {
+      "stances": {
+        "idle": {
+          "weaponOffset": [-0.125, 1.5]
+        }
+      }
+    }
+  }
 }

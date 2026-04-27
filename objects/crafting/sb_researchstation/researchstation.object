@@ -88,8 +88,6 @@
       ,"sb_applepie"
       ,"sb_candy"
       ,"sb_icecream"
-      ,"sb_lollypop"
-      ,"sb_butter"
       ,"sb_toffee"
       ,"sb_toffeeapple"
       ,"sb_alienburger"
@@ -122,11 +120,18 @@
     ],
     
     "craft": [
-      //seasonal
-      "heartforge"
-      ,"holidaycraftingtable"
-      ,"sb_iceaxe"
+      //tools
+      "sb_iceaxe"
       ,"sb_levitationpowder"
+
+      ,"glowstickorange"
+      ,"glowstickyellow"
+      ,"glowstickgreen"
+      ,"glowstickblue"
+
+      //crafting
+      ,"heartforge"
+      ,"holidaycraftingtable"
     ],
     
     "weapons": [
@@ -153,7 +158,6 @@
      
       //volcanic
       ,"sb_heatray"
-     
      
       //rainbow/colorful
       ,"sb_rainbowsword"
@@ -525,10 +529,6 @@
       ,"glowchest"
       ,"glowbed"
       ,"glowchair"
-      ,"glowstickorange"
-      ,"glowstickyellow"
-      ,"glowstickgreen"
-      ,"glowstickblue"
      
       //giant flower
       ,"giantflowerbed"
@@ -543,6 +543,7 @@
       ,"swampbed"
       ,"swampybed"
       ,"swampchest"
+      ,"swamptable"
     
       //eyeball*
       ,"sb_eyebed"

@@ -1,3 +1,4 @@
 [
+//Because the lunarbase crate costs the same but has less storage
 [{"op":"test","path":"/input/0/count","value":1},{"op":"replace","path":"/input/0/count","value":2}]
 ]

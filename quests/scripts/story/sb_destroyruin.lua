@@ -1,3 +1,4 @@
+--TODO: remove self. and test
 function init()
   self.sb_onInstanceWorld = player.worldId():find(config.getParameter("sb_instanceWorld"))
   

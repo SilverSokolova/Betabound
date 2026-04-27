@@ -2,7 +2,7 @@
   "objectName": "sb_caveart3",
   "rarity": "rare",
   "printable": false,
-  "scripts": ["/scripts/sb_mimicobject.lua"],
+  "scripts": ["/scripts/objects/sb_mimicobject.lua"],
   "inventoryIcon": "icon.png",
   "breakDropOptions": [[["caveart3", 1, {}]]],
   "orientations": [{

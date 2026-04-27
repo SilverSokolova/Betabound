@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_novakidtier2dagger",
+  "description": "The type of knife to bring to a gun fight.",
+  "itemTags": ["weapon", "melee", "dagger"],
+  "definition": "daggers/t2",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Bandit's Shiv"
+}

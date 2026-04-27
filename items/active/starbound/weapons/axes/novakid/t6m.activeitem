@@ -1,0 +1,25 @@
+{
+  "description": "Let 'er rip, boys.",
+  "shortdescription": "Cogtooth-Ripper",
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_novakidtier6maxe",
+  "definition": ["colors/t6m", "axes/m"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [-1, 2.25]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

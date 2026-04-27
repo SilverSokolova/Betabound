@@ -136,11 +136,6 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_weaponupgrade5"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_weaponupgrade6"}}],
 
-[{"op":"test","path":"/defaultCodexes/fumantizi","inverse":true}, //FU prevents other mods from using player.upgradeShip so disable ship upgrades if it's present
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_shipspeed1"}},
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_maxfuel1"}},
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_fuelefficiency1"}}],
-
 //Armor
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"snowinfantryhead"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"snowinfantrychest"}}],
@@ -173,6 +168,7 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"locker1"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"locker2"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_ironbeacon"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"mysteriouslight"}}],
 
 //Tiered Furniture
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"serenechair"}}],
@@ -264,12 +260,10 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_heatingbag"}}],
 
 
-//Weapons (For the `"crafted":true` entries, we can't do those kinds of recipes in learnBlueprintsOnPickup)
+//Weapons (We can't do parametered recipes in learnBlueprintsOnPickup, but we can here or with our scripted learnBlueprintsOnPickup)
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_slingshot"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_huntingknife"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_brainextractor"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_firebow",1,{"crafted":true}]}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_arcsword",1,{"crafted":true}]}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltpistol"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltrifle"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_aegisaltshotgun"}}],
@@ -356,8 +350,8 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"airburstfirebullet"}]}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"airbursticebullet"}]}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"airburstpoisonbullet"}]}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"sb_homingbullet"}]}],
-
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":["sb_ammo",25,{"projectileType":"sb_homingbullet"}]}]
+/*
 //Instruments
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"accordion"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"acousticguitar"}}],
@@ -392,5 +386,5 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"steeldrum"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"trumpet"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"violin"}}],
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"overdriveguitar"}}]
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"overdriveguitar"}}]*/
 ]

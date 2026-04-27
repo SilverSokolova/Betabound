@@ -1,0 +1,4 @@
+[
+//[{"op":"test","path":"/sounds/burst"},{"op":"add","path":"/sounds/burst/-","value":"/sfx/objects/essencechest_open1.ogg"}],
+[{"op":"test","path":"/sounds/burst"},{"op":"add","path":"/sounds/burst/-","value":"/sfx/objects/essencechest_open3.ogg"}]
+]

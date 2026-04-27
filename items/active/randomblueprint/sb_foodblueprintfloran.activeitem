@@ -1,0 +1,28 @@
+{
+  "itemName": "sb_foodblueprintfloran",
+  "price": 150,
+  "rarity": "Common",
+  "description": "A recipe for an Floran dish.",
+  "shortdescription": "Floran Culinary Recipe",
+  "tooltipKind": "sb_object",
+  "category": "blueprint",
+  "twoHanded": true,
+  "sb_uncopyable": true,
+
+  "inventoryIcon": "sb_foodblueprintfloran.png",
+  "animation": "randomblueprint.animation",
+  "scripts": ["randomblueprint.lua", "sb_randomblueprint.lua"],
+  "swingTime": 0.15,
+
+  "allowDuplicateChance": 0.1,
+  "recipes": [
+    "sb_pussplumpie",
+    "sb_boneboomarrow",
+    "sb_meatandmarrow",
+    "sb_meatwich",
+    "sb_thespecial",
+    "sb_meatjuice",
+    "sb_meatwine",
+    "sb_offal"
+  ]
+}

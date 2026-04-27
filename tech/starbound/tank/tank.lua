@@ -1,15 +1,24 @@
 function init()
   local techConfig = root.techConfig(config.getParameter("tech"))
   statModifierGroup = techConfig["statModifierGroup"]
-  glow = "border=3;"..(techConfig["glow"] or "0000")..";0000"
+  glow = techConfig["glow"] and ("border=3;" .. techConfig["glow"] .. ";0000") or ""
   animator.setParticleEmitterOffsetRegion("boost", mcontroller.boundBox())
   groupId = effect.addStatModifierGroup({})
-  script.setUpdateDelta(techConfig["scriptDelta"])
+  groundTime = 0
+  maxGroundTime = techConfig["maxGroundTime"]
+  maxYVelocity = techConfig["maxYVelocity"]
 end
 
 function update(dt)
-  --TODO: How's it feel if we set it to not running and not walking rather than a velocity check, just in case someone uses a moving platform or is pushed? I don't thhink platforms affect what velocity checks return
-  if math.floor(mcontroller.velocity()[1]) == 0 and not mcontroller.falling() and not mcontroller.jumping() then
+  --What's weird is that I tried having a timer- increment while moving, decrement otherwise- instead of just increasing scriptDelta. That somehow messes with the 'not falling not jumping' check, allowing the tech to briefly activate during the peak of a jump??
+
+  if mcontroller.yVelocity() > maxYVelocity then
+    groundTime = math.min(groundTime + dt, maxGroundTime)
+  else
+    groundTime = math.max(groundTime - dt, 0)
+  end
+  --No 'not falling not jumping' check because knockback could activate it
+  if not mcontroller.walking() and not mcontroller.running() and groundTime < maxGroundTime then
     effect.setParentDirectives(glow)
     animator.setParticleEmitterActive("boost", true)
     effect.setStatModifierGroup(groupId, statModifierGroup)

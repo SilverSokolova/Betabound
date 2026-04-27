@@ -1,0 +1,14 @@
+{
+  "itemName": "sb_gameboy",
+  "inventoryIcon": "gameboy.png?replace;df143a=df143afe",
+  "rarity": "legendary",
+  "maxStack": 1,
+  "price": 3000,
+  "description": "Now you're playing with power; PORTABLE POWER!",
+  "shortdescription": "Handheld Gaming System",
+  "tooltipKind": "sb_tool",
+  "largeImage": "gameboy.png",
+  "category": "toy",
+  "scripts": ["/items/active/starbound/interface.lua", "/scripts/activeitem/sb_held.lua"],
+  "interactAction": ["scriptPane", "/interface/games/sb_pong/pong.config"]
+}

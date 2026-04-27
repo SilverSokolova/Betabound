@@ -23,7 +23,7 @@
     "sounds": {
       "fireStart": ["/sfx/gun/aegisaltpistol_start.ogg"],
       "fireLoop": ["/sfx/gun/aegisaltpistol_loop2.ogg"],
-      "fireEnd": [],
+      "fireEnd": ["/sfx/gun/aegisaltpistol_stop.ogg"],
       "beamImpact": []
     }
   },

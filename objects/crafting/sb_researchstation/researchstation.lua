@@ -1,15 +1,14 @@
 require("/scripts/sb_assetmissing.lua")
 function init()
-  local defaultItemPrice = 50
-  local BPF = root.assetJson("/items/defaultParameters.config:blueprintPriceFactor")
+  local defaultItemPrice = 50 --TODO: config
+  local BPF = root.assetJson("/items/defaultParameters.config:blueprintPriceFactor") * config.getParameter("buyFactor", 3)
   data = root.assetJson(config.getParameter("interactData"))
   data.gui.categories.buttons = {}
   local button = config.getParameter("categoryButton")
   data.recipes = {}
   local groups = {} --groups["all"] = {}
   local items = config.getParameter("offeredItems")
-  local buyFactor = config.getParameter("buyFactor",3)
-  local append = config.getParameter("append","-recipe")
+  local append = config.getParameter("append", "-recipe")
   for k, v in pairs(items) do
     groups[#groups+1] = k
     for i = 1, #v do
@@ -19,18 +18,20 @@ function init()
         data.recipes[#data.recipes+1] = {
           input = {
             "sb_blankblueprint",
-            {"money",math.floor((price ~= 0 and price or defaultItemPrice)*BPF*buyFactor)}
+            {"money", math.floor((price ~= 0 and price or defaultItemPrice) * BPF)}
           },
           output = j,
           groups = {k}
         }
       else
-        sb.logInfo("Betabound: No such item for Research Station: "..j)
+        sb.logInfo("Betabound: No such item for Research Station: " .. j)
       end
     end
   end
+
   local spacing, offset = #groups < 9 and 20 or 18, 0
   table.sort(groups, function(a, b) return a < b end)
+
   for i = 1, #groups do
     local b = button
     b.position[1] = b.position[1]+offset --I wanted to move it by `offset * groups` but I can't seem to get it to work wtf
@@ -44,5 +45,5 @@ function init()
 end
 
 function onInteraction(args)
-  return {config.getParameter("interactAction"),data}
+  return {config.getParameter("interactAction"), data}
 end

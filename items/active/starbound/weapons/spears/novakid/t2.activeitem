@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_novakidtier2spear",
+  "description": "Jousting is so middle aged.",
+  "itemTags": ["weapon", "melee", "spear"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "spears/t2",
+  "shortdescription": "Horseback-Spiker"
+}

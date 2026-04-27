@@ -4,8 +4,8 @@
   "objectType": "teleporter",
   "printable": false,
   "rarity": "Legendary",
-  "description": "This trusty teleporter can be connected to another wired one for short-range travel.\n^red;Destroyed when broken.^reset;",
-  "tooltipKind": "sb_object4",
+  "description": "This trusty teleporter can be connected to another wired one for short-range travel.",
+  "tooltipKind": "sb_object",
   "price": 1500,
   "shortdescription": "Local Human Teleporter",
   "race": "human",
@@ -55,9 +55,8 @@
     "lit": "humanteleporterlit.png"
   },
   "animationPosition": [-16, 0],
-  "health": 10,
+  "health": 5,
   "rooting": true,
-  "breakDropPool": "remoteteleporter",
 
   "teleporterFootPosition": [0, 1],
 

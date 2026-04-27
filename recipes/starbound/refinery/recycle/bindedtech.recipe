@@ -1,0 +1,6 @@
+{
+  "input": ["sb_bindedtech"],
+  "output": "techcard",
+  "duration": 0.5,
+  "groups": ["refinery","nouncrafting","all"]
+}

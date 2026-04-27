@@ -2,7 +2,7 @@
   "id": "sb_avianrefugeeE1",
   "prerequisites": ["glitch_mission2", "sb_avianrefugee2"],
   "title": "^green;Leap for the Stars",
-  "text": "Remember the paper plane? I've been inspired to learn to fly myself! ^green;If you could bring me ^orange;five Blue Stimpacks ^white;then I could start practicing.",
+  "text": "Remember the paper plane? I've been inspired to learn to fly myself! ^green;If you could bring me ^orange;five blue stimpacks^green;, crafted at a ^orange;medical station (upgraded apocthecary)^reset; then I could start practicing.",
   "completionText": "You brought them! However, jumping isn't going to be enough. I'm going to need wings...",
   "speaker": "questGiver",
   "moneyRange": [1100, 1200],

@@ -113,7 +113,7 @@
       "op": "add",
       "path": "/effects/0/-",
       "value": {
-        "effect": "runboostfood",
+        "effect": "maxhealthscalingboostfood",
         "duration": 540
       }
     }

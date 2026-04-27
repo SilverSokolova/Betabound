@@ -1,0 +1,9 @@
+{
+  "description": "",
+  "shortdescription": "Second-To-None",
+  "itemName": "sb_novakidtier6mdagger",
+  "itemTags": ["weapon", "melee", "dagger"],
+  "definition": ["colors/t6m", "daggers/m"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "tooltipKind": "sb_sword"
+}

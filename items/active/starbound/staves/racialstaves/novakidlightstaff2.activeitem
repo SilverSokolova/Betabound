@@ -15,6 +15,15 @@
     "damageKindImage": "/interface/elements/fire.png"
   },
   "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "stone": {
+          "properties": {
+            "focalPoint": [0, -1]
+          }
+        }
+      }
+    },
     "lights": {
       "glow": {
         "active": true,
@@ -63,9 +72,9 @@
   "primaryAbility": {
     "projectileType": "sb_supergiant",
     "maxCastRange": 20,
-    "energyCost": 80,
+    "energyCost": 300,
     "projectileParameters": {
-      "baseDamage": 35,
+      "baseDamage": 7.5,
       "speed": 0
     }
   },

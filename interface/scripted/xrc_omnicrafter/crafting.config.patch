@@ -1,0 +1,8 @@
+[
+  [{
+      "op": "add",
+      "path": "/scripts/-",
+      "value": "/interface/scripted/xrc_omnicrafter/sb_crafting.lua"
+    }
+  ]
+]

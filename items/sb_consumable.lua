@@ -14,7 +14,7 @@ function init()
   foodValue = config.getParameter("foodValue", 0)
   ammoUsage = config.getParameter("ammoUsage", 1)
   resource = config.getParameter("resource", "food")
-  giveWellfed = config.getParameter("giveWellfed", true) and resource == "food" --What?
+  giveWellfed = config.getParameter("giveWellfed", true) and resource == "food" --giveWellfed is only checked alongside the item's foodValue
   returnItem = config.getParameter("returnItem")
   possibleEffects = config.getParameter("effects")
   blockingEffects = config.getParameter("blockingEffects", {})

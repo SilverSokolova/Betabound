@@ -1,4 +1,5 @@
 [
+  //Change diamond fuel
   [{
       "op": "test",
       "path": "/matMods/16/description",
@@ -30,6 +31,7 @@
     }
   ],
 
+  //Other ores
   [{
       "op": "add",
       "path": "/matMods/-",

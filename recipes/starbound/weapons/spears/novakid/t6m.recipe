@@ -1,0 +1,5 @@
+{
+  "input": [["sb_ceruliumcompound",6],["solariumstar",4]],
+  "output": "sb_novakidtier6mspear",
+  "groups": ["craftingseparator","sb_racialweapons","all"]
+}

@@ -1,5 +1,5 @@
 {
-  "input": [["money",140]],//setting this to 150 makes it not appear for some strange reason
+  "input": [["money", 140]], //setting this to 150 makes it not appear for some strange reason
   "output": "slidingdoor",
-  "groups": ["sb_portable3dprinter","doors","all"]
+  "groups": ["sb_portable3dprinter", "doors", "all"]
 }

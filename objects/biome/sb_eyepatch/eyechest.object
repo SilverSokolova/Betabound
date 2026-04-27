@@ -12,7 +12,7 @@
   "race": "generic",
   "health": 1.5,
   "builder": "/items/buildscripts/starbound/buildcontainer.lua",
-  "scripts": ["/scripts/sb_container.lua"],
+  "scripts": ["/scripts/objects/sb_container.lua"],
 
   "apexDescription": "This chest is almost daring you to look inside.",
   "avianDescription": "Perhaps the eye is meant to be some kind of deterrent for thieves. It's almost working on me.",

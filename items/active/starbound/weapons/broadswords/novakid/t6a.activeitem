@@ -1,0 +1,9 @@
+{
+  "description": "",
+  "shortdescription": "Ace's High",
+  "itemName": "sb_novakidtier6abroadsword",
+  "definition": ["colors/t6a", "broadswords/t6a"],
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "tooltipKind": "sb_sword"
+}

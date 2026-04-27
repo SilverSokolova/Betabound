@@ -1,8 +1,31 @@
 {
-  "itemName" : "sb_florantier0shortsword",
-  "definition" : "shortswords/t0",
-  "itemTags" : ["weapon","melee","shortsword"],
-  "description" : "A basic shortsword. The blade is blunt.",
-  "shortdescription" : "Dull Slicer",
-  "builder" : "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "itemName": "sb_florantier0shortsword",
+  "definition": "shortswords/t0",
+  "itemTags": ["weapon", "melee", "shortsword"],
+  "description": "A basic shortsword. The blade is blunt.",
+  "shortdescription": "Dull Slicer",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [1, 0.75]
+                }
+              },
+              "fire2": {
+                "properties": {
+                  "offset": [0.5, -0.125]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

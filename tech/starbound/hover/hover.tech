@@ -1,0 +1,16 @@
+{
+  "name": "sb_hover",
+  "type": "legs",
+
+  "rarity": "Legendary",
+  "icon": "/tech/starbound/hover.png",
+  "description": "Hold ^green;[SPACE]^reset; to neutralise gravity, and ^green;[SHIFT]^reset; to slow down!",
+  "shortDescription": "Gravity Neutraliser",
+
+  "scripts": ["hover.lua"],
+  "animator": "hover.animation",
+
+  "jetpackSpeed": 0,
+  "hoverControlForce": 10,
+  "energyUsagePerSecond": 50
+}

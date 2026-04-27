@@ -1,7 +1,6 @@
-require "/scripts/sb_uimessage.lua"
 require "/scripts/activeitem/sb_swing.lua"
 
-function init() swingInit()
+function init(); swingInit()
   playerId = player and player.id()
   recipe = config.getParameter("recipe")
   reset()
@@ -20,21 +19,13 @@ function swingAction()
     the player's entity ID as natural objectScanned's provide an entity ID.
   ]]--
   world.sendEntityMessage(playerId, "objectScanned", recipe, playerId)
-
-  if player.addScannedObject(recipe) then
-    consume = not reusable
-    used = true
-  end
-
-  if consume then
-    item.consume(1)
-  end
+  local used = world.sendEntityMessage(playerId, "sb_addScandata", recipe):result() --Luckily self-messages are instant as they are not networked
 
   if used then
-    animator.playSound("success")
-    sb_uiMessage("scandataLearned")
-  else
-    sb_uiMessage("scandataKnown")
+    consume = not reusable
+    if consume then
+      item.consume(1)
+    end
   end
 
   reset()

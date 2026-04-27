@@ -1,1 +1,35 @@
-{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"A hammer buzzing with energy.","itemTags":["weapon","melee","hammer"],"definition":["colors/t5m","hammers/t5m"],"itemName":"sb_apextier5mhammer","shortdescription":"Big Ape's Lament"}
+{
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "description": "A hammer buzzing with energy.",
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": ["colors/t5m", "hammers/t5m"],
+  "itemName": "sb_apextier5mhammer",
+  "shortdescription": "Big Ape's Lament",
+
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [-2.5, 2]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "primaryAbility": {
+      "stances": {
+        "idle": {
+          "weaponOffset": [-0.125, 1.5]
+        }
+      }
+    }
+  }
+}

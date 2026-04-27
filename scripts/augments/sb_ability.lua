@@ -5,8 +5,11 @@ function apply(input)
   if output:instanceValue("sb_builder", output:instanceValue("builder", "")):find("unrand")
     or output:instanceValue("sb_disallowAbilityMods", not output:instanceValue("twoHanded", true))
     or string.find(output:instanceValue("tooltipKind", "base"), "sup") --Supper's Combat Overhaul weapons tend to just eat the ability items. Possibly for the same reason as the Thorny Needler...?
-  then return output:descriptor(), 0 end
-  local slot = config.getParameter("slot", "alt").."AbilityType"
+  then
+    return output:descriptor(), 0
+  end
+
+  local slot = config.getParameter("slot", "alt").."AbilityType" --This grabs from buildscript config, meaning the wrapping table can't see it for primary abilities
   slotName = slot:match("[a-z]+").."Abilities"
   local currentAbility = output:instanceValue(slot, "1")
   newAbility = config.getParameter("ability", "0")
@@ -37,7 +40,10 @@ function apply(input)
         break
       end
     end
-    if not isValidElement then valid = false end
+
+    if not isValidElement then
+      valid = false
+    end
   end
 
   if valid and newAbility ~= currentAbility then

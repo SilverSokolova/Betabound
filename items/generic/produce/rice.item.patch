@@ -1,10 +1,15 @@
 [
 [{"op":"replace","path":"/itemName","value":"starbound_rice"}],
 
-[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
+[{"op":"test","path":"/maxStack","value":1000},{"op":"remove","path":"/maxStack"}],
+
+[{"op":"test","path":"/foodValue","inverse":true},{"op":"add","path":"/foodValue","value":2.5}],
 
 [{"op":"test","path":"/description","value":"Rice. Grains of goodness."},
 {"op":"replace","path":"/description","value":"Grains of goodness. Good for when you're hungry and want to eat a thousand of something."}],
+
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_lollypop"}],
 
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"fossil"}],
 [{"op":"test","path":"/builder","value":"/items/buildscripts/buildfood.lua"},{"op":"remove","path":"/builder"}],

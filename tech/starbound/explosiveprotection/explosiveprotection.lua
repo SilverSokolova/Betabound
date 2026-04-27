@@ -8,8 +8,8 @@ function init()
   beepCooldown = 0
   baseCooldown = techConfig["rechargeTime"] or 5
   minimumTime = techConfig["minimumTime"] or 6
-  beepStartTime = minimumTime/2
-  minimumDamage = techConfig["minimumDamage"] or 100
+  beepStartTime = minimumTime / 2
+  minimumDamage = techConfig["minimumDamage"] or 200
   particleCap = techConfig["particleCap"] or minimumDamage
   beepDelay = techConfig["beepDelay"] or 1
   damageMultiplier = techConfig["damageMultiplier"] or 2

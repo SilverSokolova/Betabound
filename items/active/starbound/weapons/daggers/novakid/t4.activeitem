@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_novakidtier4dagger",
+  "description": "It won't be funny when it's lodged in your enemy's torso.",
+  "itemTags": ["weapon", "melee", "dagger"],
+  "definition": "daggers/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Practical Poke"
+}

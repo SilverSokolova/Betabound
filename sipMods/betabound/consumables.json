@@ -79,7 +79,7 @@
 ,{"path":"/items/generic/food/sb_snacks/","name":"sb_curriedbeakseed","shortdescription":"Curried Beakseed","category":"food","icon":"curriedbeakseed.png"}
 ,{"path":"/items/generic/food/sb_snacks/","name":"sb_chocolate","shortdescription":"Milk Chocolate","category":"food","icon":"chocolate.png","rarity":"uncommon"}
 ,{"path":"/items/generic/food/sb_snacks/","name":"sb_candiedpearlpeas","shortdescription":"Candied Pearlpeas","category":"food","icon":"candiedpearlpeas.png"}
-,{"path":"/items/generic/food/sb_snacks/","name":"sb_lollypop","shortdescription":"Lollypop","category":"food","icon":"lollypop.png","rarity":"uncommon"}
+,{"path":"/items/generic/food/sb_snacks/","name":"sb_lollypop","shortdescription":"Rice Lollypop","category":"food","icon":"lollypop.png","rarity":"uncommon"}
 ,{"path":"/items/generic/food/sb_snacks/","name":"sb_crystalchips","shortdescription":"Crystal Chips","category":"food","icon":"crystalchips.png"}
 
 ,{"path":"/items/generic/food/sb_condiments/","name":"sb_butter","shortdescription":"Butter","category":"food","icon":"butter.png"}
@@ -97,11 +97,11 @@
 
 
 ,{"path":"/items/generic/produce/","name":"sb_poisoncreep","shortdescription":"Poisoncreep","category":"consumable","icon":"sb_poisoncreep.png"}
-,{"path":"/items/generic/produce/","name":"sb_fluffalofeed","shortdescription":"Ordinary Acorn","category":"consumable","icon":"sb_fluffalofeed.png","rarity":"uncommon"}
-,{"path":"/items/generic/produce/","name":"sb_firefluffalofeed","shortdescription":"Blazing Berry","category":"consumable","icon":"sb_firefluffalofeed.png","rarity":"uncommon"}
-,{"path":"/items/generic/produce/","name":"sb_icefluffalofeed","shortdescription":"Frosty Fig","category":"consumable","icon":"sb_icefluffalofeed.png","rarity":"uncommon"}
-,{"path":"/items/generic/produce/","name":"sb_poisonfluffalofeed","shortdescription":"Poison Pear","category":"consumable","icon":"sb_poisonfluffalofeed.png","rarity":"uncommon"}
-,{"path":"/items/generic/produce/","name":"sb_electricfluffalofeed","shortdescription":"Electric Eggplant","category":"consumable","icon":"sb_electricfluffalofeed.png","rarity":"uncommon"}
+,{"path":"/items/generic/produce/","name":"sb_fluffalofeed","shortdescription":"Ordinary Acorn","category":"consumable","icon":"sb_fluffalofeed.png"}
+,{"path":"/items/generic/produce/","name":"sb_firefluffalofeed","shortdescription":"Blazing Berry","category":"consumable","icon":"sb_firefluffalofeed.png"}
+,{"path":"/items/generic/produce/","name":"sb_icefluffalofeed","shortdescription":"Frosty Fig","category":"consumable","icon":"sb_icefluffalofeed.png"}
+,{"path":"/items/generic/produce/","name":"sb_poisonfluffalofeed","shortdescription":"Poison Pear","category":"consumable","icon":"sb_poisonfluffalofeed.png"}
+,{"path":"/items/generic/produce/","name":"sb_electricfluffalofeed","shortdescription":"Electric Eggplant","category":"consumable","icon":"sb_electricfluffalofeed.png"}
 
 //,{"path":"/items/generic/other/","name":"bandage","shortdescription":"Bandage","category":"consumable","icon":"sb_bandage.png","parameters":{"inventoryIcon":"sb_bandage.png","description":"A bandage for healing minor wounds.","emote":"annoyed","emitters":["eating"],"tooltipKind":"sb_object"}}
 ,{"path":"/items/generic/other/","name":"sb_gauze","shortdescription":"Gauze","category":"medicine","icon":"sb_gauze.png"}

@@ -6,7 +6,7 @@
   "description": "Poisoncreep preserved in a potent vinegar. It's still poisonous to non-aquatic species.",
   "shortdescription": "Pickled Poisoncreep",
   "category": "drink",
-  "price": 270,
+  "price": 245,
   "tooltipKind": "sb_object4b",
   "effects": [
     [{
@@ -14,7 +14,7 @@
         "duration": 270
       }, {
         "effect": "sb_poisoncreep",
-        "duration": 70
+        "duration": 5
       }
     ]
   ],

@@ -1,20 +1,21 @@
 function init()
   holdingJump = false
   active = false
-  jetpackSpeed = config.getParameter("jetpackSpeed",20)
-  jetpackControlForce = config.getParameter("jetpackControlForce",250)
-  energyUsagePerSecond = config.getParameter("energyUsagePerSecond",43)
-  enableZeroG = config.getParameter("enableZeroG",false)
-  controlXYApproachVelocity = config.getParameter("controlXYApproachVelocity",false)
-  stats = config.getParameter("flightStats",{{stat="fallDamageMultiplier",effectiveMultiplier=0.5}})
+  jetpackSpeed = config.getParameter("jetpackSpeed", 20)
+  jetpackControlForce = config.getParameter("jetpackControlForce", 250)
+  energyUsagePerSecond = config.getParameter("energyUsagePerSecond", 43)
+  enableZeroG = config.getParameter("enableZeroG", false)
+  controlXYApproachVelocity = config.getParameter("controlXYApproachVelocity", false)
+  stats = config.getParameter("flightStats", {{stat = "fallDamageMultiplier", effectiveMultiplier = 0.5}})
 end
 
-function input(args)
+function techInput(args)
   if args.moves["jump"] and mcontroller.jumping() then
     holdingJump = true
   elseif not args.moves["jump"] then
     holdingJump = false
   end
+
   return
     args.moves["jump"] and
     not args.moves["down"] and
@@ -27,7 +28,7 @@ function input(args)
 end
 
 function update(args)
-  local action = input(args)
+  local action = techInput(args)
 
   if action and status.overConsumeResource("energy", energyUsagePerSecond * args.dt) then
     animator.setAnimationState("jetpack", "on")
@@ -40,7 +41,7 @@ function update(args)
 
     if not active then animator.playSound("activate") end
     active = true
-    if stats then status.setPersistentEffects("sb_jetpack",stats) end
+    if stats then status.setPersistentEffects("sb_jetpack", stats) end
   else
     active = false
     animator.setAnimationState("jetpack", "off")

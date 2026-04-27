@@ -39,7 +39,7 @@
   },
 
   "ropeWidth": 0.8,
-  "ropeColor": [120, 80, 30, 255],
+  "ropeColor": [41, 46, 74, 255],
 
   "reelInDistance": 3.5,
   "reelOutLength": 50,

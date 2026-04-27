@@ -31,7 +31,7 @@ function apply(input)
         acceptedElements = {}
         for k, v in pairs(elementalConfig) do
           for _, _ in pairs(v) do --we have to do this because there's no table.size and one *elemental* vanilla ability has a blank elemental config for *physical*
-            acceptedElements[#acceptedElements+1] = k
+            acceptedElements[#acceptedElements + 1] = k
             break
           end
         end
@@ -46,7 +46,10 @@ function apply(input)
           break
         end
       end
-      if not isValidElement then valid = false end
+
+      if not isValidElement then
+        valid = false
+      end
     end
 
     if valid and newAbility ~= currentAbility then
@@ -63,7 +66,7 @@ function getRandomAbility(itemName)
   builderConfig = builderConfig and builderConfig.config.builderConfig or nil
   if builderConfig then
     for i = 1, #builderConfig do
-      local possibleAbilities = builderConfig[i][slotName.."_"..element] or builderConfig[i][slotName]
+      local possibleAbilities = builderConfig[i][slotName .. "_" .. element] or builderConfig[i][slotName]
       if possibleAbilities and #possibleAbilities > 0 then
         abilities = possibleAbilities[math.random(#possibleAbilities)]
         break

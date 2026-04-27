@@ -1,14 +1,14 @@
 require "/scripts/vec2.lua"
-require "/tech/starbound/morphball/distortionsphere.lua"
+require "/tech/starbound/morphball/distortionsphere.lua" --TODO: require vanilla one? would need to prefix some variables with 'self'
+require "/tech/doubletap.lua"
 
 function init()
-  specialLast = false
-  lastXPosition = nil
   angularVelocity = 0
   angle = 0
   transformFadeTimer = 0
   active = false
   tech.setVisible(false)
+  action = nil
 
   energyPerSecond = config.getParameter("energyCostPerSecond")
   dashControlForce = config.getParameter("dashControlForce")
@@ -18,47 +18,28 @@ function init()
   transformedMovementParameters = config.getParameter("transformedMovementParameters")
   basePoly = mcontroller.baseParameters().standingPoly
   collisionSet = {"Null", "Block", "Dynamic", "Slippery"}
+  maximumDoubleTapTime = config.getParameter("maximumDoubleTapTime", 0.2)
 
-  doubleTapTimers = {left=0,right=0}
-  inputs = {}
-  actions = {right="dashRight",left="dashLeft"}
+  doubleTap = DoubleTap:new({"left", "right"}, maximumDoubleTapTime, function(dir)
+    dashDirection = dir
+  end)
 end
 
-function input(args)
-  for dir,timer in pairs(doubleTapTimers) do
-    doubleTapTimers[dir] = timer - args.dt
-
-    if args.moves[dir] then
-      if not inputs[dir] then
-        if doubleTapTimers[dir] > 0 then
-          inputs[dir] = true
-          return actions[dir]
-        else
-          doubleTapTimers[dir] = config.getParameter("maxDoubleTapTime")
-        end
-      end
-      inputs[dir] = true
-    else
-      inputs[dir] = false
-    end
-  end
-end
-
-function update(args)
+function update(args); doubleTap:update(args.dt, args.moves)
   restoreStoredPosition()
-  local action = input(args)
-  if (action == "dashLeft" or action == "dashRight") and mcontroller.onGround() and not status.statPositive("activeMovementAbilities") and status.overConsumeResource("energy", energyPerSecond * args.dt) then
-    dashDirection = action == "dashLeft" and "left" or "right"
---  local transformPosition = transformPoly(transformedMovementParameters.standingPoly)
-    local transformPosition = transformedMovementParameters.standingPoly
-    if transformPosition then
-      mcontroller.setPosition(transformPosition)
+
+  if dashDirection and mcontroller.onGround() and not status.statPositive("activeMovementAbilities") and status.overConsumeResource("energy", energyPerSecond * args.dt) then
+    local pos = transformPosition()
+    if pos then
+      mcontroller.setPosition(pos)
     end
     activate()
-  elseif active and inputs[dashDirection] and status.overConsumeResource("energy", energyPerSecond * args.dt) then
-    local dir = dashDirection == "left" and -1 or 1
+
+  --Check for left and right instead of what's being held to allow switching directions without exiting ball form
+  elseif active and (args.moves["left"] or args.moves["right"]) and status.overConsumeResource("energy", energyPerSecond * args.dt) then
+    dashDirection = args.moves["left"] and "left" or args.moves["right"] and "right"
     mcontroller.controlParameters(transformedMovementParameters)
-    mcontroller.controlApproachXVelocity(dir * dashSpeed, dashControlForce)
+    mcontroller.controlApproachXVelocity((dashDirection == "left" and -1 or 1) * dashSpeed, dashControlForce)
     updateAngularVelocity(args.dt)
     updateRotationFrame(args.dt)
   else
@@ -69,36 +50,42 @@ function update(args)
 end
 
 function activate()
-  animator.burstParticleEmitter("activateParticles")
-  animator.playSound("activate")
-  animator.setAnimationState("ballState", "activate")
+  toggle("", true)
   tech.setParentOffset({0, positionOffset()})
-  tech.setVisible(true)
   status.setPersistentEffects("movementAbility", {{stat = "activeMovementAbilities", amount = 1}})
   status.setPersistentEffects("sb_disableBreakneck", {{stat = "sb_disableBreakneck", amount = 1}})
-  tech.setParentHidden(true)
 --  animator.burstParticleEmitter("morphballActivateParticles")
 --  tech.setParentDirectives("?multiply=0000")
-  tech.setToolUsageSuppressed(true)
+  self.angularVelocity = 0
   active = true
 end
 
 function deactivate()
   if active == true then
-  storePosition()
-  animator.burstParticleEmitter("deactivateParticles")
-  animator.playSound("deactivate")
-  animator.setAnimationState("ballState", "deactivate")
-  tech.setParentOffset({0, 0})
-  tech.setVisible(false)
-  tech.setParentHidden(false)
+    toggle("de", false)
+    storePosition()
+    tech.setParentOffset({0, 0})
 --  animator.burstParticleEmitter("morphballDeactivateParticles")
 --  tech.setParentDirectives()
-  tech.setToolUsageSuppressed(false)
-  lastXPosition = nil
-  angle = 0
-  active = false
+    dashDirection = nil
+    active = false
+    status.clearPersistentEffects("movementAbility")
+    status.clearPersistentEffects("sb_disableBreakneck")
+  end
+end
+
+function toggle(state, boolean)
+  animator.burstParticleEmitter(state .. "activateParticles")
+  animator.playSound(state .. "activate")
+  animator.setAnimationState("ballState", state .. "activate")
+  tech.setVisible(boolean)
+  tech.setParentHidden(boolean)
+  tech.setToolUsageSuppressed(boolean)
+
+  self.angle = 0
+end
+
+function uninit()
   status.clearPersistentEffects("movementAbility")
   status.clearPersistentEffects("sb_disableBreakneck")
- end
 end

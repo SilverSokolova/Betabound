@@ -1,14 +1,14 @@
 {
   "itemName": "sb_boneboomarrow",
-  "price": 190,
-  "foodValue": 10,
+  "price": 200,
+  "foodValue": 20,
   "tooltipKind": "sb_object",
   "rarity": "Common",
   "inventoryIcon": "boneboomarrow.png",
   "category": "food",
   "effects": [[{
         "effect": "ragefood",
-        "duration": 90
+        "duration": 180
       },
       "sb_foodheal50"
     ]],

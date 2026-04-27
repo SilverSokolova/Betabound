@@ -1,4 +1,4 @@
 [
 [{"op":"add","path":"/avianmission1Reward/0/1/fill/-","value":{"pool":"sb_avianmission1Music"}}],
-[{"op":"add","path":"/avianmission1Reward/0/1/fill/-","value":{"item":["aztecmaterial-recipe",1]}}] //TODO: should we move this elsewhere?
+[{"op":"add","path":"/avianmission1Reward/0/1/fill/-","value":{"item":["aztecmaterial-recipe",1]}}] //TODO: should we move this elsewhere? yes, we should
 ]

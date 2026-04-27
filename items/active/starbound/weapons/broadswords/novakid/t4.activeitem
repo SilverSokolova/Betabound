@@ -1,0 +1,9 @@
+{
+  "itemName": "sb_novakidtier4broadsword",
+  "description": "",
+  "shortdescription": "Patina Tearer",
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "definition": "broadswords/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "tooltipKind": "sb_sword"
+}

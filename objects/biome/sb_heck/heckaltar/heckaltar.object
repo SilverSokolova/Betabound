@@ -12,7 +12,7 @@
   "race": "generic", //it said floran, but... most say apex.
   "health": 1.5,
   "builder": "/items/buildscripts/starbound/buildcontainer.lua",
-  "scripts": ["/scripts/sb_container.lua"],
+  "scripts": ["/scripts/objects/sb_container.lua"],
 
   "apexDescription": "What manner of horrendous worshippers gather here?",
   "avianDescription": "The god this altar pays tribute to does not bear thinking of.",

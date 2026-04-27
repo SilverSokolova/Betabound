@@ -182,6 +182,18 @@
               "description":"Using this item will start the quest '^green;Looking Good and Dressing Well^reset;' (if possible.)",
               "shortdescription":"^green;Looking Good and Dressing Well^reset;"
             }}
+
+,{"name":"sb_quest","shortdescription":"^green;Contributing to Society","category":"sb_quest","icon":"/objects/outpost/outpostradardish/icon.png","rarity":"essential","parameters":{
+              "quest":"sb_radardish1",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/objects/outpost/outpostradardish/icon.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Contributing to Society^reset;' (if possible.)",
+              "shortdescription":"^green;Contributing to Society^reset;"
+            }}
 //PHASE 2
 ,{"name":"sb_quest","shortdescription":"^green;Taking out the Trash","category":"sb_quest","icon":"/items/generic/other/mysterioustrashbag.png","rarity":"essential","parameters":{
               "quest":"sb_bountyhunter2",
@@ -289,6 +301,18 @@
                 }],
               "description":"Using this item will start the quest '^green;This is my Song!^reset;' (if possible.)",
               "shortdescription":"^green;This is my Song!^reset;"
+            }}
+
+,{"name":"sb_quest","shortdescription":"^green;Early Days","category":"sb_quest","icon":"/items/generic/crafting/siliconboard.png","rarity":"essential","parameters":{
+              "quest":"sb_apexmechanic3",
+              "inventoryIcon" : [{
+                  "image":"sb_quest.png"
+                },{
+                  "image":"/items/generic/crafting/siliconboard.png",
+                  "position" : [0, -0.5]
+                }],
+              "description":"Using this item will start the quest '^green;Early Days^reset;' (if possible.)",
+              "shortdescription":"^green;Early Days^reset;"
             }}
 
 //PHASE 4

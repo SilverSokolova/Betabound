@@ -2,6 +2,5 @@
   "originalItemName": "rice.item",
   "itemName": "rice",
   "shortdescription": "Rice",
-  "foodValue": 2.5,
   "builder": "/items/buildscripts/starbound/fromsource.lua"
 }

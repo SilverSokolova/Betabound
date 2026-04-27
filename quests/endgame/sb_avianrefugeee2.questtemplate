@@ -2,7 +2,7 @@
   "id": "sb_avianrefugeeE2",
   "prerequisites": ["glitch_mission2", "sb_avianrefugeeE1"],
   "title": "^green;On Paper Wings",
-  "text": "I've finalised my plans for one-man flight! ^green;If you aren't busy, please ^orange;take this Blueprint and craft me Paper Wings ^green;at a spinning wheel^reset; so I can soar like the moon in the night sky!",
+  "text": "I've finalised my plans for one-man flight! ^green;If you aren't busy, please take this blueprint and craft me ^orange;paper wings^reset; ^green;at a ^orange;spinning wheel^reset; so I can soar like the moon in the night sky!",
   "completionText": "Thank you so much! Though now I take a look at them, these wings might not be enough to actually fly with. At least they look good!",
   "speaker": "questGiver",
   "moneyRange": [1100, 1200],

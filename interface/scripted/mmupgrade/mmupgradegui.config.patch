@@ -10,7 +10,8 @@
         "type": "image",
         "zlevel": 1,
         "file": "/interface/scripted/mmupgrade/sb_line.png",
-        "position": [31, 120]
+        "position": [31, 120],
+        "visible": false
       }
     }, {
       "op": "add",
@@ -19,7 +20,8 @@
         "type": "image",
         "zlevel": 1,
         "file": "/interface/scripted/mmupgrade/sb_line.png",
-        "position": [54, 120]
+        "position": [54, 120],
+        "visible": false
       }
     }, {
       "op": "add",
@@ -28,7 +30,8 @@
         "type": "image",
         "zlevel": 1,
         "file": "/interface/scripted/mmupgrade/sb_line.png",
-        "position": [76, 120]
+        "position": [76, 120],
+        "visible": false
       }
     }, {
       "op": "add",
@@ -37,7 +40,8 @@
         "type": "image",
         "zlevel": 1,
         "file": "/interface/scripted/mmupgrade/sb_line.png",
-        "position": [76, 115]
+        "position": [76, 115],
+        "visible": false
       }
     }, {
       "op": "add",
@@ -46,7 +50,8 @@
         "type": "image",
         "zlevel": 1,
         "file": "/interface/scripted/mmupgrade/sb_line.png",
-        "position": [76, 114]
+        "position": [76, 114],
+        "visible": false
       }
     }, {
       "op": "add",
@@ -55,7 +60,8 @@
         "type": "image",
         "zlevel": 1,
         "file": "/interface/scripted/mmupgrade/sb_line3.png",
-        "position": [108, 159]
+        "position": [108, 159],
+        "visible": false
       }
     }, {
       "op": "add",
@@ -64,7 +70,8 @@
         "type": "image",
         "zlevel": 1,
         "file": "/interface/scripted/mmupgrade/sb_line2.png",
-        "position": [240, 151]
+        "position": [240, 151],
+        "visible": false
       }
     }, {
       "op": "add",
@@ -79,7 +86,8 @@
         "position": [72, 106],
         "pressedOffset": [0, 0],
         "callback": "sb_liquid",
-        "checkable": true
+        "checkable": true,
+        "visible": false
       }
     }, {
       "op": "add",
@@ -90,7 +98,8 @@
         "hover": "/interface/scripted/mmupgrade/sb_slots.png:0?brightness=60",
         "position": [90, 151],
         "pressedOffset": [0, 0],
-        "callback": "sb_beamaxe"
+        "callback": "sb_beamaxe",
+        "visible": false
       }
     }, {
       "op": "add",
@@ -102,6 +111,7 @@
         "position": [45, 102],
         "pressedOffset": [0, 0],
         "callback": "sb_swap",
+        "visible": false,
         "data": {
           "slot": "painttool",
           "tool": "paintingbeamtool",
@@ -118,6 +128,7 @@
         "position": [22, 102],
         "pressedOffset": [0, 0],
         "callback": "sb_swap",
+        "visible": false,
         "data": {
           "slot": "wiretool",
           "tool": "wiretool",
@@ -134,6 +145,7 @@
         "position": [271, 154],
         "pressedOffset": [0, 0],
         "callback": "sb_swap",
+        "visible": false,
         "data": {
           "slot": "inspectiontool",
           "tool": "inspectiontool",

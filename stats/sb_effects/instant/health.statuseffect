@@ -1,7 +1,7 @@
 {
   "name": "sb_health",
   "effectConfig": {
-    "text": "^shadow,#f00;+%s Health",
+    "text": "^shadow,red;+%s Health",
     "textOffset": 0.9
   },
   "defaultDuration": 10,

@@ -1,0 +1,27 @@
+{
+  "id": "sb_learnblueprintsonpickup:moonstoneore",
+  "prerequisites": [],
+  "script": "/quests/scripts/sb_learnblueprintsonpickup.lua",
+  "scriptConfig": {
+    "radioMessagesOnPickup": ["sb_pickupmoonstoneore"],
+    "learnBlueprintsOnPickup": ["sb_shipspeed1", "sb_maxfuel1", "sb_fuelefficiency1"],
+    "invalidMods": "playerUpgradeShipMods",
+
+  //EOF
+    "portraits": {},
+    "descriptions": {}
+  },
+  "showAcceptDialog": false,
+  "showCompleteDialog": false,
+  "showFailDialog": false,
+  "showInLog": false,
+  "canBeAbandoned": false,
+  "title": "",
+  "text": "",
+  "completionText": "",
+  "moneyRange": [0, 0],
+  "rewards": [],
+  "questGiverIndicator": "mainquestgiver",
+  "questReceiverIndicator": "mainquestreceiver",
+  "updateDelta": 0
+}

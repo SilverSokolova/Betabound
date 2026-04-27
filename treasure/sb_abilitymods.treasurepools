@@ -1,112 +1,112 @@
 {
-  "sb_basicMeleeAbilityMods" : [
+  "sb_basicMeleeAbilityMods": [
     [0, {
-      "pool" : [
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["bladecharge","downstab","parry","risingslash","spinslash","superspinslash"]}]},
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["uppercut","physicalshockwave","groundslam"]}]},
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["flurry","spearspin","spearcharge"]}]}
+      "pool": [
+        {"weight": 1, "item": ["sb_abilitymod",1,{"abilityList":["bladecharge","downstab","parry","risingslash","spinslash","superspinslash"]}]},
+        {"weight": 1, "item": ["sb_abilitymod",1,{"abilityList":["uppercut","physicalshockwave","groundslam"]}]},
+        {"weight": 1, "item": ["sb_abilitymod",1,{"abilityList":["flurry","spearspin","spearcharge"]}]}
       ]
     }]
   ],
-  "sb_specialMeleeAbilityMods" : [
+  "sb_specialMeleeAbilityMods": [
     [0, {
-      "pool" : [
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["giantsword","travelingslash","blinkexplosion","blinkslash","traildash"]}]},
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["shockwave","elementalaura","elementalpillar"]}]},
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["barrier","elementalspin","rocketspear","blinkexplosion","blinkslash"]}]}
+      "pool": [
+        {"weight": 1, "item": ["sb_abilitymod",1,{"abilityList":["giantsword","travelingslash","blinkexplosion","blinkslash","traildash"]}]},
+        {"weight": 1, "item": ["sb_abilitymod",1,{"abilityList":["shockwave","elementalaura","elementalpillar"]}]},
+        {"weight": 1, "item": ["sb_abilitymod",1,{"abilityList":["barrier","elementalspin","rocketspear","blinkexplosion","blinkslash"]}]}
       ]
     }]
   ],
-  "sb_basicGunAbilityMods" : [
+  "sb_basicGunAbilityMods": [
     [0, {
-      "pool" : [
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["explosiveshot","bouncingshot","flashlight","grenadelauncher","spray"]}]},
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["flashlight","grenadelauncher","shrapnelbomb","burstshot","sb_vacuum"]}]},
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["homingrocket","guidedrocket","rocketburst","stickyshot"]}]},
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["flashlight","grenadelauncher","explosiveshot","bouncingshot","piercingshot"]}]}
+      "pool": [
+        {"weight": 1, "item": ["sb_abilitymod",1,{"abilityList":["explosiveshot","bouncingshot","flashlight","grenadelauncher","spray"]}]},
+        {"weight": 1, "item": ["sb_abilitymod",1,{"abilityList":["flashlight","grenadelauncher","shrapnelbomb","burstshot","sb_vacuum"]}]},
+        {"weight": 1, "item": ["sb_abilitymod",1,{"abilityList":["homingrocket","guidedrocket","rocketburst","stickyshot"]}]},
+        {"weight": 1, "item": ["sb_abilitymod",1,{"abilityList":["flashlight","grenadelauncher","explosiveshot","bouncingshot","piercingshot"]}]}
       ]
     }]
   ],
-  "sb_specialGunAbilityMods" : [
+  "sb_specialGunAbilityMods": [
     [0, {
-      "pool" : [
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["lance","explosiveburst","grenadelauncher"]}]},
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["guidedrocket"]}]},
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["flashlight","lance","grenadelauncher"]}]},
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["flashlight","grenadelauncher","markedshot","deathbomb"]}]}
+      "pool": [
+        {"weight": 1, "item": ["sb_abilitymod",1,{"abilityList":["lance","explosiveburst","grenadelauncher"]}]},
+        {"weight": 1, "item": ["sb_abilitymod",1,{"abilityList":["guidedrocket"]}]},
+        {"weight": 1, "item": ["sb_abilitymod",1,{"abilityList":["flashlight","lance","grenadelauncher"]}]},
+        {"weight": 1, "item": ["sb_abilitymod",1,{"abilityList":["flashlight","grenadelauncher","markedshot","deathbomb"]}]}
       ]
     }]
   ],
-  "sb_wandAbilityMods" : [
+  "sb_wandAbilityMods": [
     [0, {
-      "pool" : [
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["elementrain", "elementswarm", "elementbouncer", "elementorb", "elementportal"]}]}
+      "pool": [
+        {"weight": 1, "item": ["sb_abilitymod",1,{"abilityList":["elementrain", "elementswarm", "elementbouncer", "elementorb", "elementportal"]}]}
       ]
     }]
   ],
-  "sb_staffAbilityMods" : [
+  "sb_staffAbilityMods": [
     [0, {
-      "pool" : [
-        {"weight" : 1, "item" : ["sb_abilitymod",1,{"abilityList":["healingzone", "lowgravzone", "slowzone", "pushzone", "pullzone", "energyzone"]}]}
+      "pool": [
+        {"weight": 1, "item": ["sb_abilitymod",1,{"abilityList":["healingzone", "lowgravzone", "slowzone", "pushzone", "pullzone", "energyzone"]}]}
       ]
     }]
   ],
 
   //weapon abilities chosen based on vanilla weapon pool table. search 'moderate' in common pools
-  "sb_abilityMod" : [
+  "sb_abilityMod": [
     [0, {
-      "pool" : [
-        {"weight" : 0.6, "pool" : "sb_basicMeleeAbilityMods"},
-        {"weight" : 0.4, "pool" : "sb_specialMeleeAbilityMods"}
+      "pool": [
+        {"weight": 0.6, "pool": "sb_basicMeleeAbilityMods"},
+        {"weight": 0.4, "pool": "sb_specialMeleeAbilityMods"}
       ]
     }],
     [1.9, {
-      "pool" : [
-        {"weight" : 0.4, "pool" : "sb_basicMeleeAbilityMods"},
-        {"weight" : 0.4, "pool" : "sb_specialMeleeAbilityMods"},
-        {"weight" : 0.12, "pool" : "sb_basicGunAbilityMods"},
-        {"weight" : 0.08, "pool" : "sb_specialGunAbilityMods"}
+      "pool": [
+        {"weight": 0.4, "pool": "sb_basicMeleeAbilityMods"},
+        {"weight": 0.4, "pool": "sb_specialMeleeAbilityMods"},
+        {"weight": 0.12, "pool": "sb_basicGunAbilityMods"},
+        {"weight": 0.08, "pool": "sb_specialGunAbilityMods"}
       ]
     }],
     [2.9, {
-      "pool" : [
-        {"weight" : 0.25, "pool" : "sb_basicMeleeAbilityMods"},
-        {"weight" : 0.2, "pool" : "sb_specialMeleeAbilityMods"},
-        {"weight" : 0.25, "pool" : "sb_basicGunAbilityMods"},
-        {"weight" : 0.2, "pool" : "sb_specialGunAbilityMods"},
-        {"weight" : 0.05, "pool" : "sb_wandAbilityMods"},
-        {"weight" : 0.05, "pool" : "sb_staffAbilityMods"}
+      "pool": [
+        {"weight": 0.25, "pool": "sb_basicMeleeAbilityMods"},
+        {"weight": 0.2, "pool": "sb_specialMeleeAbilityMods"},
+        {"weight": 0.25, "pool": "sb_basicGunAbilityMods"},
+        {"weight": 0.2, "pool": "sb_specialGunAbilityMods"},
+        {"weight": 0.05, "pool": "sb_wandAbilityMods"},
+        {"weight": 0.05, "pool": "sb_staffAbilityMods"}
       ]
     }],
     [4.9, {
-      "pool" : [
-        {"weight" : 0.2, "pool" : "sb_basicMeleeAbilityMods"},
-        {"weight" : 0.17, "pool" : "sb_specialMeleeAbilityMods"},
-        {"weight" : 0.2, "pool" : "sb_basicGunAbilityMods"},
-        {"weight" : 0.18, "pool" : "sb_specialGunAbilityMods"},
-        {"weight" : 0.12, "pool" : "sb_wandAbilityMods"},
-        {"weight" : 0.13, "pool" : "sb_staffAbilityMods"}
+      "pool": [
+        {"weight": 0.2, "pool": "sb_basicMeleeAbilityMods"},
+        {"weight": 0.17, "pool": "sb_specialMeleeAbilityMods"},
+        {"weight": 0.2, "pool": "sb_basicGunAbilityMods"},
+        {"weight": 0.18, "pool": "sb_specialGunAbilityMods"},
+        {"weight": 0.12, "pool": "sb_wandAbilityMods"},
+        {"weight": 0.13, "pool": "sb_staffAbilityMods"}
       ]
     }]
   ],
 
-  "sb_gunAbilityMod" : [
+  "sb_gunAbilityMod": [
     [1.9, {
-      "pool" : [
-        {"weight" : 0.12, "pool" : "sb_basicGunAbilityMods"},
-        {"weight" : 0.08, "pool" : "sb_specialGunAbilityMods"}
+      "pool": [
+        {"weight": 0.12, "pool": "sb_basicGunAbilityMods"},
+        {"weight": 0.08, "pool": "sb_specialGunAbilityMods"}
       ]
     }],
     [2.9, {
-      "pool" : [
-        {"weight" : 0.25, "pool" : "sb_basicGunAbilityMods"},
-        {"weight" : 0.2, "pool" : "sb_specialGunAbilityMods"}
+      "pool": [
+        {"weight": 0.25, "pool": "sb_basicGunAbilityMods"},
+        {"weight": 0.2, "pool": "sb_specialGunAbilityMods"}
       ]
     }],
     [4.9, {
-      "pool" : [
-        {"weight" : 0.2, "pool" : "sb_basicGunAbilityMods"},
-        {"weight" : 0.18, "pool" : "sb_specialGunAbilityMods"}
+      "pool": [
+        {"weight": 0.2, "pool": "sb_basicGunAbilityMods"},
+        {"weight": 0.18, "pool": "sb_specialGunAbilityMods"}
       ]
     }]
   ]

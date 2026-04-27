@@ -1,31 +1,12 @@
+require "/scripts/sb_assetmissing.lua"
+require "/scripts/sb_uimessage.lua"
+
 function init()
   math.betabound_player = _ENV.player
   mcontroller = math.betabound_mcontroller
 
---  if not entity then status.addPersistentEffect("sb_entity","sb_entity") end
---  entity = math.betabound_entity
-
-  --Suit tech. TODO: clean this up. give names to variables
-  message.setHandler("sb_implant_unequip", function(_, fromSelf)
-    if fromSelf == false then return end
-    status.clearPersistentEffects("sb_bioimplant")
-    player.setProperty("sb_bioimplant")
-  end)
-
-  message.setHandler("sb_implant", function(_, fromSelf, techName)
-    if not fromSelf or not techName then return end
-
-    status.clearPersistentEffects("sb_bioimplant")
-    local effects = root.techConfig(techName).sb_effect
-    if effects then
-      if type(effects) == "string" then
-        effects = {effects}
-      end
-      status.setPersistentEffects("sb_bioimplant", effects)
-    end
-
-    player.setProperty("sb_bioimplant", techName)
-  end)
+  sb_techType()
+  suitsInit()
 
   --Peacekeeper Teleporter
   message.setHandler("sb_peacekeeperteleporter", function(_, _, b)
@@ -77,28 +58,190 @@ function init()
     end
   end)
 
-  --SE commands
-  message.setHandler("/sb_maketechavailable", function(_, fromSelf, b)
-    if fromSelf == false then return end
-    if b == nil or type(b) ~= "string" then return end
-    local suits = player.getProperty("sb_availableBioimplants")
-    if #suits == 0 then suits = {b} else suits[#suits+1] = b end
-    player.setProperty("sb_availableBioimplants",suits)
-    return "Added "..b.." to player's visible techs"
+  --Add object to pixel printer
+  message.setHandler("sb_addScandata", function(_, _, objectName, silent)
+    local learned
+    if objectName then
+      learned = player.addScannedObject(objectName) --Vanilla
+      player.interact("message", {messageType = "objectScanned", messageArgs = {objectName, player.id()}}) --Lagless and quests
+
+      if not silent then
+        sb_uiMessage(learned and "scandataLearned" or "scandataKnown")
+      end
+    end
+
+    return learned
   end)
 
-  message.setHandler("/sb_enabletech", function(_, fromSelf, b)
-    if fromSelf == false then return end
-    if b == nil or type(b) ~= "string" then return end
-    local suits = player.getProperty("sb_bioimplants")
-    if #suits == 0 then suits = {b} else suits[#suits+1] = b end
-    player.setProperty("sb_bioimplants",suits)
-    return "Player tech "..b.." enabled"
-  end)
-
+  --SE/oSB commands
   message.setHandler("/sb_showhunger", function(_, fromSelf)
     if interface and fromSelf then
-      interface.queueMessage(string.format(root.assetJson("/betabound.config:showHunger"), math.floor(status.resource("food")).."/"..math.floor(status.resourceMax("food"))), 4, 0.5)
+      if not showHungerMessage then
+        showHungerMessage = root.assetJson("/betabound.config:showHunger")
+      end
+      interface.queueMessage(string.format(showHungerMessage, math.ceil(status.resource("food")).."/"..math.ceil(status.resourceMax("food"))), 4, 0.5)
     end
   end)
+end
+
+function suitsInit()
+  --Suit tech icon, and equip/unequip handlers
+  --If this check isn't passing on oSB, whatever is setting it before we get here (status script?) probably isn't, so move that check here.
+  if math.betabound_client == "OpenSB" then
+    inventory = interface.bindRegisteredPane("Inventory")
+    updateSuitIcon(player.getProperty("sb_equippedSuitTech"))
+  else
+    updateSuitIcon = function() end
+  end
+
+  --Suit tech functions
+  message.setHandler("sb_suitTech:enable", function(_, fromSelf, tech)
+    if not fromSelf then return end
+
+    local shouldAddTech = true
+    local suits = player.getProperty("sb_enabledSuitTechs")
+
+    if #suits == 0 then
+      player.setProperty("sb_enabledSuitTechs", {tech}) --Prevent it from becoming a keyed table
+    else
+      for i = 1, #suits do
+        if suits[i] == tech then
+          shouldAddTech = false
+          break
+        end
+      end
+
+      if shouldAddTech then
+        suits[#suits + 1] = tech
+        player.setProperty("sb_enabledSuitTechs", suits)
+      end
+    end
+  end)
+
+  message.setHandler("sb_suitTech:makeAvailable", function(_, fromSelf, tech)
+    if not fromSelf then return end
+
+    local shouldAddTech = true
+    local suits = player.getProperty("sb_availableSuitTechs")
+
+    if #suits == 0 then
+      player.setProperty("sb_availableSuitTechs", {tech}) --Prevent it from becoming a keyed table
+    else
+      for i = 1, #suits do
+        if suits[i] == tech then
+          shouldAddTech = false
+          break
+        end
+      end
+
+      if shouldAddTech then
+        suits[#suits + 1] = tech
+        player.setProperty("sb_availableSuitTechs", suits)
+      end
+    end
+  end)
+
+  --Pass a string to equip, pass null to unequip
+  message.setHandler("sb_suitTech:equip", function(_, fromSelf, tech)
+    if not fromSelf then return end
+
+    status.clearPersistentEffects("sb_equippedSuitTech")
+    if tech then
+      if root.hasTech(tech) then
+        local effects = root.techConfig(tech).sb_effect or {} --god i really wanna rename it to sb_effects PLURAL for consistency with consumables
+        status.setPersistentEffects("sb_equippedSuitTech", type(effects) == "string" and {effects} or effects)
+        player.setProperty("sb_equippedSuitTech", tech)
+      end
+    else
+      status.clearPersistentEffects("sb_equippedSuitTech")
+      player.setProperty("sb_equippedSuitTech")
+    end
+    updateSuitIcon(tech)
+  end)
+
+  --SE/oSB commands
+  message.setHandler("/sb_enabletech", function(_, fromSelf, tech)
+    if fromSelf == false or type(tech) ~= "string" then return end
+
+    if not root.hasTech(tech) then
+      return "No such tech " .. tech
+    end
+
+    if root.techType(tech) == "Suit" then
+      player.interact("message", {messageType = "sb_suitTech:enable", messageArgs = {tech}})
+    else
+      player.makeTechAvailable(tech)
+      player.enableTech(tech)
+    end
+
+    return "Player tech " .. tech .. " enabled"
+  end)
+
+  message.setHandler("/sb_maketechavailable", function(_, fromSelf, tech)
+    if fromSelf == false or type(tech) ~= "string" then return end
+
+    if not root.hasTech(tech) then
+      return "No such tech " .. tech
+    end
+
+    if root.techType(tech) == "Suit" then
+      player.interact("message", {messageType = "sb_suitTech:makeAvailable", messageArgs = {tech}})
+    else
+      player.makeTechAvailable(tech)
+    end
+
+    return "Added " .. tech .. " to player's visible techs"
+  end)
+end
+
+function updateSuitIcon(techName)
+  if inventory then
+    inventoryWidgets = inventory.toWidget()
+  
+    if techName then
+      local techConfig = root.hasTech(techName) and root.techConfig(techName) or {icon = "/objects/generic/perfectlygenericitem/perfectlygenericitemicon.png", description = techName}
+      inventoryWidgets["setItemSlotItem"]("sb_techSuit", {"lead", 1, {
+        inventoryIcon = techConfig.icon,
+        tooltipKind = "sb_tech3",
+        description = techConfig.description,
+        shortdescription = "",
+        category = "" --^white;" .. techConfig.shortDescription
+      }})
+    else
+      inventoryWidgets["setItemSlotItem"]("sb_techSuit")
+    end
+
+    if not inventoryWidgets["getData"]("sb_techSuit") then
+      inventoryWidgets["setData"]("sb_techSuit", true)
+      local cfg = root.assetJson("/interface/windowconfig/playerinventory.config:sb_techDisplay")
+      if cfg.enabled then
+        local hiddenWidgets = cfg.hiddenWidgets
+        for i = 1, #hiddenWidgets do
+          inventoryWidgets["setVisible"](hiddenWidgets[i], true)
+        end
+
+        local centeredOffset = root.assetJson("/interface/windowconfig/playerinventory.config:paneLayout.techHead.centered") and 0 or 8
+        local head, body, legs, suit = inventoryWidgets["getPosition"]("techHead"), inventoryWidgets["getPosition"]("techBody"), inventoryWidgets["getPosition"]("techLegs"), inventoryWidgets["getPosition"]("sb_techSuit")
+        local headD, bodyD, legsD = inventoryWidgets["getPosition"]("techHeadDisabled"), inventoryWidgets["getPosition"]("techBodyDisabled"), inventoryWidgets["getPosition"]("techLegsDisabled")
+
+        if (head[1] < body[1] and head[2] == body[2]) and (body[1] < legs[1] and body[2] == legs[2]) then
+          inventoryWidgets["setPosition"]("techBody", {head[1] + cfg.techBodyOffset, body[2]})
+          inventoryWidgets["setPosition"]("techLegs", {head[1] + cfg.techLegsOffset, legs[2]})
+          inventoryWidgets["setPosition"]("sb_techSuit", {head[1] + cfg.techSuitOffset[1] + centeredOffset, legs[2] + cfg.techSuitOffset[2] + centeredOffset})
+
+          inventoryWidgets["setPosition"]("sb_techHeadBacking", {head[1] + centeredOffset, head[2] + centeredOffset})
+          inventoryWidgets["setPosition"]("sb_techBodyBacking", {head[1] + cfg.techBodyOffset + centeredOffset, body[2] + centeredOffset})
+          inventoryWidgets["setPosition"]("sb_techLegsBacking", {head[1] + cfg.techLegsOffset + centeredOffset, legs[2] + centeredOffset})
+
+          --Hi there! Did you know that in vanilla, the 16x16 disabled icons are one pixel higher than the 16x16 tech icons they go over, and inventory mods have likely inherited this too? Now you do!
+          --The reason we check for the difference between the UI elements is to fix this if it isn't already fixed by another mod.
+          inventoryWidgets["setPosition"]("techHeadDisabled", {headD[1], headD[2] - (head[2] - headD[2] == 8 and 1 or 0)})
+          inventoryWidgets["setPosition"]("techBodyDisabled", {head[1] + cfg.techBodyDisabledOffset, bodyD[2] - (body[2] - bodyD[2] == 8 and 1 or 0)})
+          inventoryWidgets["setPosition"]("techLegsDisabled", {head[1] + cfg.techLegsDisabledOffset, legsD[2] - (legs[2] - legsD[2] == 8 and 1 or 0)})
+        end
+      else
+        updateSuitIcon = function() end
+      end
+    end
+  end
 end

@@ -19,5 +19,6 @@
     }
   ],
   "glow": "7e838f30",
-  "scriptDelta": 60
+  "maxGroundTime": 0.25,
+  "maxYVelocity": 0.15
 }

@@ -1,17 +1,18 @@
-[
-    {
-        "op":"add","path":"/-","value":{
-            "name":"sb_moondancer",
-            "spawnParameters":{
-                "area":"air",
-                "region":"exposed",
-                "time":"night"
-            },
-            "spawnChance":0.001,
-            "monsterType":"sb_moondancer",
-            "monsterParameters":{
-                "aggressive":false
-            }
-        }
+[{
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "name": "sb_moondancer",
+      "spawnParameters": {
+        "area": "air",
+        "region": "exposed",
+        "time": "night"
+      },
+      "spawnChance": 0.001,
+      "monsterType": "sb_moondancer",
+      "monsterParameters": {
+        "aggressive": false
+      }
     }
+  }
 ]

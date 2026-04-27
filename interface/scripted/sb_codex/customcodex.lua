@@ -1,6 +1,7 @@
+--Oh god this is like super early code dont judge the quality lmfao
 function init()
   widget.playSound("/sfx/objects/bookcase_open.ogg")
-  skipPageSound = true
+  skipPageSound = true --todo: why not have a sound for opening the book??
   pageContents = config.getParameter("contentPages", {{""}})
   local customData = config.getParameter("customData")
   baseData = root.itemConfig("sb_customcodex").config
@@ -21,12 +22,13 @@ function init()
   modeWidgets = {{"pageNum", "nextButton", "prevButton"}, {"renameBox1", "renameBox2", "renameBox2label"}}
   captions = config.getParameter("captions")
   local path = "/interface/scripted/sb_codex/"
+  --TODO: what the fuck? put this in the config
   buttonImages = {}
   buttonImages[true] = {
-    base = path.."renameselected.png",
-    hover = path.."renameselected-hover.png",
-    pressed = path.."renameselected-hover.png?brightness=60",
-    disabledImage = path.."renameselected.png?brightness=-30"
+    base = path.."rename.png",
+    hover = path.."rename-hover.png",
+    pressed = path.."rename-hover.png?brightness=60",
+    disabledImage = path.."rename.png?brightness=-30"
   }
   buttonImages[false] = {
     base = path.."backbutton2.png",

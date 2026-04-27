@@ -2,7 +2,7 @@ function init()
   mode = "none"
   timer = 0
   targetPosition = nil
-  inputSpecial = false
+  techInputSpecial = false
   energyUsage = config.getParameter("energyUsage")
   maxEnergyUsage = config.getParameter("maxEnergyUsage", energyUsage) - energyUsage
   energyUsageType = config.getParameter("energyUsageType", "")
@@ -111,19 +111,19 @@ function findRandomBlinkLocation(doCollisionCheck, doLiquidCheck, doStandCheck)
   return nil
 end
 
-function input(args)
-  if args.moves["special1"] and not inputSpecial then
-    inputSpecial = true
+function techInput(args)
+  if args.moves["special1"] and not techInputSpecial then
+    techInputSpecial = true
     return "blink"
   elseif not args.moves["special1"] then
-    inputSpecial = false
+    techInputSpecial = false
   end
 
   return nil
 end
 
 function update(args)
-  local action = input(args)
+  local action = techInput(args)
 
   if action == "blink" and not tech.parentLounging() and mode == "none" then
     local blinkPosition = nil

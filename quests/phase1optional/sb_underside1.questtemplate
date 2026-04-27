@@ -1,11 +1,11 @@
 {
   "id": "sb_underside1",
-  "title": "^green;The Under Side",
+  "title": "^green;The Underside",
   "text": "I've been hiding down here for a while, but I think I'm safe to climb back up now. ^green;Could you get me ^orange;ten climbing ropes ^green;so I can climb out of here?",
   "completionText": "You brought me the ropes! However, I think the people looking for me are still out there, so I'm probably safer here. Here, have this as a token of my thanks!",
   "speaker": "questGiver",
   "moneyRange": [5000, 5000],
-  "rewards": [["insidioushead"]],
+  "rewards": [["upgrademodule"]],
 
   "guiConfigs": {
     "questComplete": "/interface/windowconfig/sb_questcomplete.config",

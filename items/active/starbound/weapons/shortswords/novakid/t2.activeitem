@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_novakidtier2shortsword",
+  "description": "Comes with a fist guard, just in case slashing wasn't enough.",
+  "shortdescription": "Cavelsting",
+  "itemTags": ["weapon", "melee", "shortsword"],
+  "definition": "shortswords/t2",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

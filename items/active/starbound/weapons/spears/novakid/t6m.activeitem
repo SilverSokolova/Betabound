@@ -1,0 +1,9 @@
+{
+  "definition": ["colors/t6m", "spears/t6m"],
+  "itemName": "sb_novakidtier6mspear",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "itemTags": ["weapon", "melee", "spear"],
+  "shortdescription": "Clockwork-Skewer",
+  "description": "",
+  "tooltipKind": "sb_sword"
+}

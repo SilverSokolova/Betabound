@@ -1,6 +1,6 @@
 {
   "itemName": "sb_orangenergyglass",
-  "price": 40,
+  "price": 140,
   "foodValue": 10,
   "effects": [[{
         "effect": "runboostfood",

@@ -22,8 +22,8 @@
   "hylotlDescription": "An elegant desk for wrapping presents.",
   "novakidDescription": "A table jam-packed with all sorts of wrapping stuff!",
 
-  "slotCount": 7,
-  "uiConfig": "/interface/sb_objectcrafting/wrapping.config",
+  "slotCount": 8,
+  "uiConfig": "/interface/scripted/sb_wrappingtable/wrapping.config",
   "frameCooldown": 5,
   "autoCloseCooldown": 3600,
 

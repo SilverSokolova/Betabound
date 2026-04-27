@@ -1,3 +1,4 @@
+//TODO: make this different somehow from cactus juice. 2 maxstack? seaweed for salt?
 {
   "itemName": "sb_roastcacti",
   "rarity": "Common",
@@ -5,7 +6,7 @@
   "inventoryIcon": "roastcacti.png",
   "description": "Sweet, succulent roasted cacti. It's crunchy and sticky.",
   "shortdescription": "Roasted Cactus",
-  "price": 95,
+  "price": 20,
   "effects": [[{
         "effect": "thorns",
         "duration": 60

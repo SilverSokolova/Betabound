@@ -1,4 +1,4 @@
 [
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
-[{"op":"test","path":"/description","value":"A very powerful processor."},{"op":"replace","path":"/description","value":"A very powerful processor. Can be used to craft a ^orange;robotic tool table!^reset;"}]
+[{"op":"test","path":"/description","value":"A very powerful processor."},{"op":"replace","path":"/description","value":"A very powerful processor. Can be used to craft a ^orange;robotic tool table^reset;!"}]
 ]

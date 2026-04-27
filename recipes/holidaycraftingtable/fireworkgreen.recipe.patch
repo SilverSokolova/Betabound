@@ -1,5 +1,5 @@
 [
-{"op":"add","path":"/input/0","value":"string"},
+{"op":"add","path":"/input/-","value":"string"},
 {"op":"add","path":"/groups/-","value":"plain"},
 {"op":"add","path":"/groups/-","value":"consumables"},
 {"op":"add","path":"/groups/-","value":"all"}

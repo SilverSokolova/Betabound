@@ -9,7 +9,7 @@
   "price": 115,
   "tooltipKind": "sb_container",
   "builder": "/items/buildscripts/starbound/buildcontainer.lua",
-  "scripts": ["/scripts/sb_container.lua"],
+  "scripts": ["/scripts/objects/sb_container.lua"],
 
   "apexDescription": "A battered crate.",
   "avianDescription": "Could there be anything still in here?",

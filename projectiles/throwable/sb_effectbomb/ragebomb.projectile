@@ -1,3 +1,4 @@
+//TODO damn that's a lotta projectiles do the vanilla gas pods make this many
 {
   "projectileName": "sb_ragebomb",
   "physics": "grenadenobounce",

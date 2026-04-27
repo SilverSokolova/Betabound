@@ -1,1 +1,31 @@
-{"description":"A curvy, disconcerting blade.","shortdescription":"Monkey Business","itemName":"sb_apextier5mshortsword","itemTags":["weapon","melee","shortsword"],"definition":["colors/t5m","shortswords/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "A curvy, disconcerting blade.",
+  "shortdescription": "Monkey Business",
+  "itemName": "sb_apextier5mshortsword",
+  "itemTags": ["weapon", "melee", "shortsword"],
+  "definition": ["colors/t5m", "shortswords/m"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [1, 0.75]
+                }
+              },
+              "fire2": {
+                "properties": {
+                  "offset": [0.5, 0.125]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

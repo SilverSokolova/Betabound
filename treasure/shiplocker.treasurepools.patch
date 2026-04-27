@@ -32,6 +32,7 @@
 
 [{"op":"add","path":"/novakidStarterTreasure/0/1/fill/-","value":{"item":["riceseed",3]}}],
 [{"op":"add","path":"/novakidStarterTreasure/0/1/fill/-","value":{"item":["wheatseed",3]}}],
-[{"op":"add","path":"/novakidStarterTreasure/0/1/fill/-","value":{"item":"sb_novatier0rifle"}}]
+[{"op":"add","path":"/hylotlStarterTreasure/0/1/fill/-","value":{"item":"sb_novakidstarter"}}],
+[{"op":"add","path":"/hylotlStarterTreasure/0/1/fill/-","value":{"item":"sb_novakidtier0shortsword"}}]
 //(In the depths of this file, you notice an sb_commonassaultrifle, an sb_crappybroadsword, three coalores, and 3 cornseeds floating in limbo.)
 ]

@@ -1,52 +1,98 @@
 [
+  //oSB fourth tech slot widgets and configuration
   [{
-      "op": "test",
-      "path": "/paneLayout/foodItemGrid/showDurability",
-      "inverse": true
-    }, {
       "op": "add",
-      "path": "/paneLayout/foodItemGrid/showDurability",
-      "value": true
+      "path": "/sb_techDisplay",
+      "value": {
+        "enabled": true,
+
+        "hiddenWidgets": ["sb_techSuit", "sb_techHeadBacking", "sb_techBodyBacking", "sb_techLegsBacking"],
+
+        "techBodyOffset": 20,
+        "techLegsOffset": 40,
+        "techSuitOffset": [51, -9],
+
+        "techBodyDisabledOffset": 11,
+        "techLegsDisabledOffset": 31
+      }
+    }
+  ],
+
+  [{
+      "op": "add",
+      "path": "/paneLayout/sb_techSuit",
+      "value": {
+        "type": "itemslot",
+        "position": [0, 0],
+        "backingImage": "/interface/inventory/grayborder.png",
+        "showBackingImageWhenFull": true,
+        "showRarity": false,
+        "callback": "null",
+        "rightClickCallback": "null",
+        "visible": false
+      }
     }
   ],
   [{
-      "op": "test",
-      "path": "/paneLayout/reagentItemGrid/showDurability",
-      "inverse": true
-    }, {
       "op": "add",
-      "path": "/paneLayout/reagentItemGrid/showDurability",
-      "value": true
+      "path": "/paneLayout/sb_techHeadBacking",
+      "value": {
+        "type": "image",
+        "file": "/interface/inventory/grayborder.png",
+        "position": [0, 0],
+        "zlevel": -2,
+        "centered": true,
+        "visible": false
+      }
     }
   ],
   [{
-      "op": "test",
-      "path": "/paneLayout/objectItemGrid/showDurability",
-      "inverse": true
-    }, {
       "op": "add",
-      "path": "/paneLayout/objectItemGrid/showDurability",
-      "value": true
+      "path": "/paneLayout/sb_techBodyBacking",
+      "value": {
+        "type": "image",
+        "file": "/interface/inventory/grayborder.png",
+        "position": [0, 0],
+        "zlevel": -2,
+        "centered": true,
+        "visible": false
+      }
     }
   ],
   [{
-      "op": "test",
-      "path": "/paneLayout/tileItemGrid/showDurability",
-      "inverse": true
-    }, {
       "op": "add",
-      "path": "/paneLayout/tileItemGrid/showDurability",
-      "value": true
+      "path": "/paneLayout/sb_techLegsBacking",
+      "value": {
+        "type": "image",
+        "file": "/interface/inventory/grayborder.png",
+        "position": [0, 0],
+        "zlevel": -2,
+        "centered": true,
+        "visible": false
+      }
     }
   ],
-  [{
-      "op": "test",
-      "path": "/paneLayout/mainItemGrid/showDurability",
-      "inverse": true
-    }, {
-      "op": "add",
-      "path": "/paneLayout/mainItemGrid/showDurability",
-      "value": true
-    }
+
+
+  //Durability bars for all vanilla item grids
+  [
+    {"op":"test","path":"/paneLayout/mainItemGrid/showDurability","inverse":true},
+    {"op":"add","path":"/paneLayout/mainItemGrid/showDurability","value":true}
+  ],
+  [
+    {"op":"test","path":"/paneLayout/tileItemGrid/showDurability","inverse":true},
+    {"op":"add","path":"/paneLayout/tileItemGrid/showDurability","value":true}
+  ],
+  [
+    {"op":"test","path":"/paneLayout/objectItemGrid/showDurability","inverse":true},
+    {"op":"add","path":"/paneLayout/objectItemGrid/showDurability","value":true}
+  ],
+  [
+    {"op":"test","path":"/paneLayout/reagentItemGrid/showDurability","inverse":true},
+    {"op":"add","path":"/paneLayout/reagentItemGrid/showDurability","value":true}
+  ],
+  [
+    {"op":"test","path":"/paneLayout/foodItemGrid/showDurability","inverse":true},
+    {"op":"add","path":"/paneLayout/foodItemGrid/showDurability","value":true}
   ]
 ]

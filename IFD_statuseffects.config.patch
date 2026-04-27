@@ -25,7 +25,7 @@
 ,[{"op":"add","path":"/effectNames/sb_gauzeheal","value":{"path":"/stats/effects/heal/sb_gauzeheal.statuseffect","effectConfigTypes":["healAmount"]}}]
 ,[{"op":"add","path":"/effectNames/sb_regeneration5","value":{"path":"/stats/effects/regeneration/sb_regeneration5.statuseffect","effectConfigTypes":["healTime"]}}]
 
-,[{"op":"add","path":"/effectNames/sb_energyregen","value":{"path":"/stats/sb_effects/energyregen/energyregen.statuseffect","customLabels":["^green;+ 5% Energy Regen^reset;"]}}]
+,[{"op":"add","path":"/effectNames/sb_energyregen","value":{"path":"/stats/sb_effects/energyregen/energyregen.statuseffect","customLabels":["^green;+ 0.8% Energy Regen^reset;"]}}]
 ,[{"op":"add","path":"/effectNames/sb_energyregen96","value":{"path":"/stats/sb_effects/energyregen/energyregen96.statuseffect","customLabels":["^green;+ 1.6% Energy Regen^reset;"]}}]
 ,[{"op":"add","path":"/effectNames/sb_energyregen192","value":{"path":"/stats/sb_effects/energyregen/energyregen192.statuseffect","customLabels":["^green;+ 3.2% Energy Regen^reset;"]}}]
 ,[{"op":"add","path":"/effectNames/sb_energyregen288","value":{"path":"/stats/sb_effects/energyregen/energyregen288.statuseffect","customLabels":["^green;+ 4.8% Energy Regen^reset;"]}}]

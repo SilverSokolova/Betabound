@@ -1,0 +1,5 @@
+{
+  "input": [["sb_imperviumcompound",3],["solariumstar",2]],
+  "output": "sb_novakidtier6sshortsword",
+  "groups": ["craftingseparator","sb_racialweapons","all"]
+}

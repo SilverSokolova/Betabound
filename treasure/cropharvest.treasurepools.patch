@@ -1,5 +1,5 @@
 [
-  //This first list is of all the crops we use to have 'exotic' variants of before merging them with their vanilla counterparts. Do we need this?
+  //TODO: This first list is of all the crops we use to have 'exotic' variants of before merging them with their vanilla counterparts. Do we need this?
   [{"op":"test","path":"/avesmingoHarvest/0/1/poolRounds","inverse":true},{"op":"add","path":"/avesmingoHarvest/0/1/poolRounds/-","value":[0.2,3]}],
   [{"op":"test","path":"/bananaHarvest/0/1/poolRounds","inverse":true},{"op":"add","path":"/bananaHarvest/0/1/poolRounds/-","value":[0.2,3]}],
   [{"op":"test","path":"/beakseedHarvest/0/1/poolRounds","inverse":true},{"op":"add","path":"/beakseedHarvest/0/1/poolRounds/-","value":[0.2,3]}],

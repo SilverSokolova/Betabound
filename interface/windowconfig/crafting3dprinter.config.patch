@@ -8,5 +8,12 @@
       "path": "/paneLayout/categories/toggleMode",
       "value": true
     }
+  ],
+
+  [{
+      "op": "add",
+      "path": "/paneLayout/categories/buttons/3/data/filter/-",
+      "value": "crafting"
+    }
   ]
 ]

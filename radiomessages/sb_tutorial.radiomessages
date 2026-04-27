@@ -4,13 +4,17 @@
 
   // on picking up various tables
 
+  "sb_pickupinventorstable": {
+    "type": "tutorial",
+    "text": "Note that many vanilla crafting stations allow de-selecting the currently selected tab to view all tabs at once. This may prove helpful if a modded item erroneously does not appear in any tabs."
+  },
   "sb_pickuptechconsole1": {
     "type": "tutorial",
-    "text": "To obtain copies of tech for the Tech Development Console, ^green;select a tech in the ^orange;tech equip menu^green; and press the 'download' button^reset;. It should be noted that this requires a tech card."
+    "text": "To obtain copies of tech for the ^orange;tech development console, ^green;select a tech in the ^orange;tech equip menu^green; and press the 'download' button^reset;. It should be noted that this requires a tech card." //These copies can be processed through a ^orange;refinery^reset; to refund the tech card.
   },
   "sb_pickuptechconsole2": {
     "type": "tutorial",
-    "text": "Additionally, excess copies of tech can be processed through a ^orange;Refinery^reset; to gain a tech card."
+    "text": "Additionally, excess copies of tech can be processed through a ^orange;refinery^reset; to gain a tech card."
   },
 
   // on picking up misc objects/items
@@ -21,7 +25,7 @@
   },
   "sb_pickupcustomcodex": {
     "type": "tutorial",
-    "text": "You have discovered a blank book. If you cannot decide what to write, consider writing down notes, messages to friends, lists, my advice, or notable locations you've discovered on your travels."
+    "text": "You have discovered a blank book. It may be worthwhile to write notes, messages to friends, my advice, or notable locations you've discovered on your travels."
   },
   "sb_pickuppaint": {
     "type": "tutorial",
@@ -29,11 +33,11 @@
   },
   "sb_pickupladder": {
     "type": "tutorial",
-    "text": "I see you've encountered a ladder! While on a ladder, hold ^#71f2f6;[SPACE]^reset; to quickly ascend."
+    "text": "I see you've encountered a ladder! While on a ladder, hold ^#71f2f6;[SPACE]^reset; to quickly ascend. A ^green;ladder deployer^reset; can be crafted at a ^orange;wooden tool table^reset; to facilitate placing multiple ladders at once."
   },
   "sb_pickupmusicsheet": {
     "type": "tutorial",
-    "text": "I see you've acquired a music sheet! You can craft a radio at a Wooden Tool Table to listen to the music."
+    "text": "I see you've acquired a music sheet! You can craft a radio at a ^orange;wooden tool table^reset; to listen to the music."
   },
   "sb_pickupminingtool": {
     "type": "tutorial",
@@ -43,9 +47,14 @@
     "type": "tutorial",
     "text": "I see you've acquired some ammunition! Certain firearms gain a ^green;20%^reset; damage boost when using any type of ammo. If your ammo reserves are depleted or ^#71f2f6;SHIFT^reset; is held, the gun will instead use energy."
   },
+  "sb_pickupmoonstoneore": {
+    "type": "tutorial",
+    "text": "You have discovered moonstone ore. It can be used at a ^orange;robotic tool table^reset; to create stat upgrades for your ship."
+  },
 
   // on encountering certain things
   // on unlocking capabilities
+
   "sb_unlocktech": {
     "text": "The following tech has been made available: ^green;%s^reset; You can purchase tech at a tech console using tech cards."
   },

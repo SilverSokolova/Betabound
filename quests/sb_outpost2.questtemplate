@@ -1,8 +1,8 @@
 {
   "id": "sb_outpost2",
   "prerequisites": ["sb_outpost1"],
-  "title": "^#0f0;A Fair Trade",
-  "text": "Nice to see a friendly face again! I found a better place to live but to tell you the truth, we're really hurting for food supplies at the moment. If you bring me ^#0f0;some steak and some wheat^reset;, I can give you an ^#0f0;Air Pocket Generator.^reset; They create breathable air in the empty space around you. ^orange;They won't work in liquids,^reset; but they're very useful for exploring airless environments.",
+  "title": "^green;A Fair Trade^reset;",
+  "text": "Nice to see a friendly face again! I found a better place to live but to tell you the truth, we're really hurting for food supplies at the moment. If you bring me ^green;some steak and some wheat^reset;, I can give you an ^green;air pocket generator^reset;. It creates breathable air around you. ^orange;It can't make it faster than you breathe it^reset;, but it's very useful for exploring airless environments.",
   "completionText": "Thanks, you're a lifesaver! Here's your reward, as promised.",
   "speaker": "questGiver",
   "moneyRange": [150, 250],

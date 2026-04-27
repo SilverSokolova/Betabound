@@ -1,0 +1,36 @@
+{
+  "itemName": "sb_weaponblueprintcrayon",
+  "price": 150,
+  "rarity": "Common",
+  "description": "A blueprint for a striking crayon.",
+  "shortdescription": "Striking Crayon Blueprint",
+  "tooltipKind": "sb_object",
+  "category": "blueprint",
+  "twoHanded": true,
+  "sb_uncopyable": true,
+
+  "inventoryIcon": [{
+      "image": "/items/generated/blueprint.png?replace;000=0000?border=1;000"
+    }, {
+//    "image": "/items/active/starbound/weapons/shortswords/crayon.png?replace;ffca8a=df8aff;eb9550=b150eb;b55f30=7730b5;843114=451484?scale=.5"
+      "image": "/items/armors/biome/colorful/crayonpurpleback/icon.png",
+      "position": [0.5, 0]
+    }, {
+      "image": "/interface/inventory/dot.png",
+      "position": [4, -4]
+    }
+  ],
+  "animation": "randomblueprint.animation",
+  "scripts": ["randomblueprint.lua", "sb_randomblueprint.lua"],
+  "swingTime": 0.15,
+
+  "allowDuplicateChance": 0.1,
+  "recipes": [
+    "sb_crayonred",
+    "sb_crayonblue",
+    "sb_crayonyellow",
+    "sb_crayonpurple",
+    "sb_crayongreen",
+    "sb_crayonorange"
+  ]
+}

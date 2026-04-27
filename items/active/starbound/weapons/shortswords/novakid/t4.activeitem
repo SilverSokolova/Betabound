@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_novakidtier4shortsword",
+  "description": "For hacking, slicing, dicing, and making great Julienne fries!",
+  "shortdescription": "Piping Hacker",
+  "itemTags": ["weapon", "melee", "shortsword"],
+  "definition": "shortswords/t4",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

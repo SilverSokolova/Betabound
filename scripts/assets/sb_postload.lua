@@ -1,6 +1,6 @@
 --mining tools
 local files = assets.byExtension("miningtool")
-local path = "/betabound/d1e48968b51d4616893aac83fe0c509c.patch"
+local path = "/betabound/miningtool.patch"
 assets.add(path, '{"canBeRepaired":true}')
 
 for i = 1, #files do
@@ -46,6 +46,43 @@ for i = 1, #files do
         local pathName = path..data.itemName
         assets.add(pathName, dyePatch)
         assets.patch(files[i], pathName)
+      end
+    end
+  end
+end
+
+--Remove suit tech icons from status bar if inventory display is enabled
+local files = assets.byExtension("tech")
+local path = "/betabound/statuseffectForSuitTech.patch"
+assets.add(path, '[[{"op":"test","path":"/icon"},{"op":"remove","path":"/icon"}]]')
+
+local effectsToPatch = {}
+
+if assets.json("/interface/windowconfig/playerinventory.config:sb_techDisplay").enabled then
+  for i = 1, #files do
+    local valid, data = pcall(function() return assets.json(files[i]) end)
+    if valid then
+      if data.sb_effect then
+        if type(data.sb_effect) == "string" then
+          effectsToPatch[data.sb_effect] = true
+        else
+          for j = 1, #data.sb_effect do
+            if type(data.sb_effect[j]) == "string" then
+              effectsToPatch[data.sb_effect[j]] = true
+            end
+          end
+        end
+      end
+    end
+  end
+
+  files = assets.byExtension("statuseffect")
+
+  for i = 1, #files do
+    local valid, data = pcall(function() return assets.json(files[i]) end)
+    if valid then
+      if effectsToPatch[data.name] then
+        assets.patch(files[i], path)
       end
     end
   end

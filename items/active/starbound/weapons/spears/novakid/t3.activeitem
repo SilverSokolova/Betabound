@@ -1,0 +1,9 @@
+{
+  "itemName": "sb_novakidtier3spear",
+  "description": "",
+  "itemTags": ["weapon", "melee", "spear"],
+  "definition": "spears/t3",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "Mooshi-Hassler",
+  "tooltipKind": "sb_sword"
+}

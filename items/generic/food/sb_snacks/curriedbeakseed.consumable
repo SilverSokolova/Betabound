@@ -1,24 +1,24 @@
 {
   "itemName": "sb_curriedbeakseed",
-  "price": 200,
-  "foodValue": 20,
+  "price": 375,
+  "foodValue": 30,
   "tooltipKind": "sb_object",
-  "rarity": "Common",
+  "rarity": "Uncommon",
   "category": "preparedFood",
   "inventoryIcon": "curriedbeakseed.png",
   "description": "Curried, crunchy beakseeds with hot chilli peppers. Mmm.",
   "shortdescription": "Curried Beakseed",
   "effects": [[{
         "effect": "jumpboostfood",
-        "duration": 90
+        "duration": 135
       }, {
         "effect": "nova",
-        "duration": 90
+        "duration": 135
       }, {
         "effect": "burning",
         "duration": 5
       },
-      "sb_foodheal50"
+      "sb_foodheal95"
     ]],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],

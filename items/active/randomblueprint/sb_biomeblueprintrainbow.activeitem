@@ -1,0 +1,56 @@
+{
+  "itemName": "sb_biomeblueprintrainbow",
+  "price": 150,
+  "rarity": "Common",
+  "description": "A blueprint found in a colourful biome.",
+  "shortdescription": "Colourful Blueprint",
+  "tooltipKind": "sb_object",
+  "category": "blueprint",
+  "twoHanded": true,
+  "sb_uncopyable": true,
+
+  "inventoryIcon": [{
+      "image": "/items/generated/blueprint.png?replace;000=0000?border=1;000"
+    }, {
+      "image": "/items/generic/crafting/rainbowwood.png"
+    }, {
+      "image": "/interface/inventory/dot.png",
+      "position": [4, -4]
+    }
+  ],
+  "animation": "randomblueprint.animation",
+  "scripts": ["randomblueprint.lua", "sb_randomblueprint.lua"],
+  "swingTime": 0.15,
+
+  "allowDuplicateChance": 0.1,
+  "recipes": [
+    "rainbowbed",
+    "rainbowchair",
+    "rainbowchest",
+    "rainbowdoor",
+    "rainbowtable",
+
+    "crayonredback",
+    "crayonblueback",
+    "crayonyellowback",
+    "crayonpurpleback",
+    "crayongreenback",
+    "crayonorangeback",
+
+    "paintgunred",
+    "paintgunblue",
+    "paintgunyellow",
+    "paintgunpurple",
+    "paintgungreen",
+    "paintgunorange",
+
+    //betabound
+    "rainbowwoodbed",
+    "rainbowwoodchair",
+    "rainbowwooddoor",
+    "rainbowwoodsafe",
+    "rainbowwoodtable",
+    "rainbowunicornstatue",
+    "rainbowpainting"
+  ]
+}

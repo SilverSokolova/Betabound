@@ -1,16 +1,5 @@
 [
   // ================
-  //     Logs
-  // ================
-[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"logblock"}}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"logblock"}}}],
-[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"logblock"}}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"logblock"}}}],
-[{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"logblock"}}}],
-[{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"logblock"}}}],
-[{"op":"add","path":"/oremerchant/0/1/-","value":{"item":{"name":"logblock"}}}],
-
-  // ================
   //     Basic Merchant
   // ================
 [{"op":"add","path":"/basicmerchant/0/1/-","value":{"item":{"name":"bandage"},"rarity":0.3}}],
@@ -65,30 +54,28 @@
   // ================================
 [{"op":"add","path":"/steamspringmerchant/0/1/-","value":{"item":{"name":"sb_jukebox"}}}],
 
-
-
   // ================
   //     Furniture
   // ================
+[{"op":"add","path":"/apexfurniture/0/1/-","value":{"item":{"name":"apexwoodpanel"},"rarity":0.06}}],
+
 [{"op":"add","path":"/avianfurniture/0/1/-","value":{"item":{"name":"sb_mask7"},"rarity":0.06}}],
 [{"op":"add","path":"/avianfurniture/0/1/-","value":{"item":{"name":"sb_tribaloven2"},"rarity":0.06}}],
 [{"op":"add","path":"/avianfurniture/0/1/-","value":{"item":{"name":"obsidianbookcase"},"rarity":0.06}}],
+
+[{"op":"add","path":"/humanfurniture/0/1/-","value":{"item":{"name":"basicbathdripping"},"rarity":0.06}}],
+[{"op":"add","path":"/humanfurniture/0/1/-","value":{"item":{"name":"prisonexitsign"},"rarity":0.06}}],
+//[{"op":"add","path":"/humanfurniture/0/1/-","value":{"item":{"name":"sb_vendingmachine"},"rarity":0.01}}], //TODO enable this sometime or remove it
 
 [{"op":"add","path":"/hylotlfurniture/0/1/-","value":{"item":{"name":"shopline"},"rarity":0.06}}],
 [{"op":"add","path":"/hylotlfurniture/0/1/-","value":{"item":{"name":"sb_hylotlpost"},"rarity":0.06}}],
 [{"op":"add","path":"/hylotlfurniture/0/1/-","value":{"item":{"name":"hylotlcounter"},"rarity":0.06}}],
 
-[{"op":"add","path":"/humanfurniture/0/1/-","value":{"item":{"name":"basicbathdripping"},"rarity":0.06}}],
-[{"op":"add","path":"/humanfurniture/0/1/-","value":{"item":{"name":"prisonexitsign"},"rarity":0.06}}],
-
-[{"op":"add","path":"/apexfurniture/0/1/-","value":{"item":{"name":"apexwoodpanel"},"rarity":0.06}}],
-
-
   // ================
   //     Wizard
   // ================
-[{"op":"add","path":"/wizardmerchant/0/1/-","value":{"item":{"name":"orangestim"},"rarity":0.5}}],
-[{"op":"add","path":"/wizardmerchant/0/1/-","value":{"item":{"name":"sb_greystim"},"rarity":0.5}}],
+[{"op":"add","path":"/wizardmerchant/0/1/-","value":{"item":{"name":"orangestim"}}}],
+[{"op":"add","path":"/wizardmerchant/0/1/-","value":{"item":{"name":"sb_greystim"}}}],
 [{"op":"add","path":"/wizardmerchant/0/1/-","value":{"item":{"name":"sb_runbomb"},"rarity":0.5}}],
 [{"op":"add","path":"/wizardmerchant/0/1/-","value":{"item":{"name":"sb_healthbomb"},"rarity":0.5}}],
 [{"op":"add","path":"/wizardmerchant/0/1/-","value":{"item":{"name":"glowbomb"},"rarity":0.5}}],
@@ -120,8 +107,6 @@
 [{"op":"add","path":"/oremerchant/0/1/-","value":{"item":{"name":"plutoniumrod"},"prerequisiteQuest":"avian_mission2"}}],
 [{"op":"add","path":"/oremerchant/0/1/-","value":{"item":{"name":"sb_refinedrubium"},"prerequisiteQuest":"avian_mission2"}}],
 
-[{"op":"add","path":"/deadbeatmerchant/0/1/-","value":{"item":{"name":"sb_explosivebarrel"},"rarity":0.5}}],
-
 [{"op":"add","path":"/foundrymerchant/0/1/-","value":{"item":{"name":"platinumbar"},"prerequisiteQuest":"human_mission1"}}],
 [{"op":"add","path":"/foundrymerchant/0/1/-","value":{"item":{"name":"sb_copperrepairtool"},"rarity":0.5}}],
 [{"op":"add","path":"/foundrymerchant/0/1/-","value":{"item":{"name":"sb_titaniumrepairtool"},"rarity":0.5}}],
@@ -129,11 +114,13 @@
   // ================
   //     Themed
   // ================
+[{"op":"add","path":"/deadbeatmerchant/0/1/-","value":{"item":{"name":"sb_explosivebarrel"},"rarity":0.5}}],
+
 [{"op":"add","path":"/glowmerchant/0/1/-","value":{"item":{"name":"yellowstim"},"rarity":0.5}}],
 [{"op":"add","path":"/glowmerchant/0/1/-","value":{"item":{"name":"glowbomb"},"rarity":0.5}}],
 [{"op":"add","path":"/glowmerchant/0/1/-","value":{"item":{"name":"sb_tech","parameters":{"techModule":"sb_glow"}},"rarity":0.2}}],
 
-[{"op":"add","path":"/geodemerchant/0/1/-","value":{"item":{"name":"biorock"},"price":15}}],
+[{"op":"add","path":"/geodemerchant/0/1/-","value":{"item":{"name":"biorock"},"price":15}}], //Vanilla price; biorock2 in vanilla but not biorock
 [{"op":"add","path":"/geodemerchant/0/1/-","value":{"item":{"name":"rock01-recipe"},"price":30,"rarity":0.05}}],
 [{"op":"add","path":"/geodemerchant/0/1/-","value":{"item":{"name":"rock02-recipe"},"price":30,"rarity":0.05}}],
 [{"op":"add","path":"/geodemerchant/0/1/-","value":{"item":{"name":"rock03-recipe"},"price":30,"rarity":0.05}}],
@@ -145,6 +132,7 @@
 [{"op":"add","path":"/geodemerchant/0/1/-","value":{"item":{"name":"rock19-recipe"},"price":30,"rarity":0.05}}],
 [{"op":"add","path":"/geodemerchant/0/1/-","value":{"item":{"name":"rock20-recipe"},"price":30,"rarity":0.05}}],
 
+//Price based on moonrock
 [{"op":"add","path":"/geodemerchant/0/1/-","value":{"item":{"name":"rock01"},"price":3,"rarity":0.05}}],
 [{"op":"add","path":"/geodemerchant/0/1/-","value":{"item":{"name":"rock02"},"price":3,"rarity":0.05}}],
 [{"op":"add","path":"/geodemerchant/0/1/-","value":{"item":{"name":"rock03"},"price":3,"rarity":0.05}}],
@@ -196,421 +184,681 @@
 
 
   // ================
-  //     Food
+  //     Racial Ingredients & Recipes
   // ================
-[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"kelp"},"rarity":0.05}}],
-[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_dirtea"},"rarity":0.05}}],
-[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_dirtea-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_ricewine"},"rarity":0.05}}],
-[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_ricewine-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_whiskeybottle"},"rarity":0.05}}],
-[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_whiskeybottle-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_whiskeyflask"},"rarity":0.05}}],
-[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_whiskeyflask-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_eggfriedrice"},"rarity":0.05}}],
-[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_eggfriedrice-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_cornontheblob"},"rarity":0.05}}],
-[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_cornontheblob-recipe"},"rarity":0.01}}],
 
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_rawfleshlump"},"rarity":0.05}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_applepie"},"rarity":0.05}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_applepie-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_candy"},"rarity":0.05}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_candy-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_icecream"},"rarity":0.05}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_icecream-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_lollypop"},"rarity":0.05}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_lollypop-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_butter"},"rarity":0.05}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_butter-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_toffeeapple"},"rarity":0.05}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_toffeeapple-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_toffee"},"rarity":0.05}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_toffee-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_alienburger"},"rarity":0.05}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_alienburger-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_burrito"},"rarity":0.05}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_burrito-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_chilistew"},"rarity":0.05}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_chilistew-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_hamsandwich"},"rarity":0.05}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_hamsandwich-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_vendingmachine"},"rarity":0.01}}],
-
-[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_rawfleshlump"},"rarity":0.05}}],
-[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_blackcurrentcrumble"},"rarity":0.05}}],
-[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_blackcurrentcrumble-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_copperkeypie"},"rarity":0.05}}],
-[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_copperkeypie-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_sweettime"},"rarity":0.05}}],
-[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_sweettime-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_corntent"},"rarity":0.05}}],
-[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_corntent-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_batteryacid"},"rarity":0.05}}],
-[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_batteryacid-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_boltedmilk"},"rarity":0.05}}],
-[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_boltedmilk-recipe"},"rarity":0.01}}],
-
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_rawfleshlump"},"rarity":0.05}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"rawham"},"rarity":0.05}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_pussplumpie"},"rarity":0.05}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_pussplumpie-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_boneboomarrow"},"rarity":0.05}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_boneboomarrow-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_meatandmarrow"},"rarity":0.05}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_meatandmarrow-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_meatwich"},"rarity":0.05}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_meatwich-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_thespecial"},"rarity":0.05}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_thespecial-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_meatjuice"},"rarity":0.05}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_meatjuice-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_meatwine"},"rarity":0.05}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_meatwine-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_offal"},"rarity":0.05}}],
-[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_offal-recipe"},"rarity":0.01}}],
-
+//A good time was had by all, I'm sb_rawfleshlump'd!
+//Ingredients which all races have
+[{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_rawfleshlump"},"rarity":0.05}}],
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_rawfleshlump"},"rarity":0.05}}],
-[{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_poachedavesmingo"},"rarity":0.05}}],
+[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_rawfleshlump"},"rarity":0.05}}],
+[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_rawfleshlump"},"rarity":0.05}}],
+[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_rawfleshlump"},"rarity":0.05}}],
+[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_rawfleshlump"},"rarity":0.05}}],
+
+//Ingredients
+[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"kelp"},"rarity":0.05}}],
+[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"rawham"},"rarity":0.05}}],
+
+//Recipes
+/*
+[{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_bananabread-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_mulledfruitdrink-recipe"},"rarity":0.01}}],
+
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_poachedavesmingo-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_crowncake"},"rarity":0.05}}],
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_crowncake-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_cordialglass"},"rarity":0.05}}],
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_cordialglass-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_cordialglass"},"rarity":0.05}}],
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_cordialglass-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_cordialbottle"},"rarity":0.05}}],
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_cordialbottle-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_wartjuice"},"rarity":0.05}}],
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_wartjuice-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_wartwine"},"rarity":0.05}}],
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_wartwine-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_pussplumpie"},"rarity":0.05}}],
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_pussplumpie-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_ricevinegar"},"rarity":0.05}}],
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_ricevinegar-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_rootpopbottle"},"rarity":0.05}}],
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_rootpopbottle-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_rootpopflask"},"rarity":0.05}}],
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_rootpopflask-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_curriedbeakseed"},"rarity":0.05}}],
 [{"op":"add","path":"/avianingredients/0/1/-","value":{"item":{"name":"sb_curriedbeakseed-recipe"},"rarity":0.01}}],
 
-[{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_rawfleshlump"},"rarity":0.05}}],
-[{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_bananabread"},"rarity":0.05}}],
-[{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_bananabread-recipe"},"rarity":0.01}}],
-[{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_mulledfruitdrink"},"rarity":0.05}}],
-[{"op":"add","path":"/apexingredients/0/1/-","value":{"item":{"name":"sb_mulledfruitdrink-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_pussplumpie-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_boneboomarrow-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_meatandmarrow-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_meatwich-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_thespecial-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_meatjuice-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_meatwine-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/floraningredients/0/1/-","value":{"item":{"name":"sb_offal-recipe"},"rarity":0.01}}],
+
+[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_blackcurrentcrumble-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_copperkeypie-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_sweettime-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_corntent-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_batteryacid-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/glitchingredients/0/1/-","value":{"item":{"name":"sb_boltedmilk-recipe"},"rarity":0.01}}],
+
+[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_applepie-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_candy-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_icecream-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_butter-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_toffeeapple-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_toffee-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_alienburger-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_burrito-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_chilistew-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/humaningredients/0/1/-","value":{"item":{"name":"sb_hamsandwich-recipe"},"rarity":0.01}}],
+
+[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_dirtea-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_ricewine-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_whiskeybottle-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_whiskeyflask-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_eggfriedrice-recipe"},"rarity":0.01}}],
+[{"op":"add","path":"/hylotlingredients/0/1/-","value":{"item":{"name":"sb_cornontheblob-recipe"},"rarity":0.01}}],
+*/
+
+
 
   // ================
   //     Chef
   // ================
-[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_roastbanana"}}}],
+//Chefs sell 1 tier higher than they are
+//Add missing vanilla foods and Betabound foods. No campfire items (except boiled pearlpeas because they were moved after the list was made and it'd be awkward to remove it)
 
-[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_vegetablesoup"}}}],
+[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"bonbonbonbons"}}}],
+[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"coffee"}}}],
 
-[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_applepie"}}}],
-[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_candiedpearlpeas"}}}],
-
+[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_alienburger"}}}],
+[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_burrito"}}}],
+[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_butter"}}}],
+[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_corntent"}}}],
+[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_hamsandwich"}}}],
+[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_meatwich"}}}],
 [{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_ricevinegar"}}}],
 [{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_ricewine"}}}],
-[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_rootpopbottle"}}}],
-[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_rootpopflask"}}}],
+[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_toast"}}}],
+[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_whiskeybottle"}}}],
+[{"op":"add","path":"/chefmerchant/0/1/-","value":{"item":{"name":"sb_whiskeyflask"}}}],
 
-//T2
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_alienburger"}}}],
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_burrito"}}}],
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_hamsandwich"}}}],
 
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_roastcacti"}}}],
 
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_butter"}}}],
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_toast"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"coconutmilk"}}}],
+
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_applepie"}}}],
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_cake"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_candiedpearlpeas"}}}],
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_candy"}}}],
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_cheesecake"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_capresesalad"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_chocolate"}}}],
 [{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_chocolatecoffeebeans"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_icecream"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_orangejam"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_orangejuice"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_orangepie"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_orangetart"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_peanutbutterjar"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_roastcacti"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_rootpopbottle"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_rootpopflask"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_sweetmeat"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_thornjam"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_toffee"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_toffeeapple"}}}],
+[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_vegetablesoup"}}}],
 
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_batteryacid"}}}],
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_meatjuice"}}}],
 
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"soda"}}}],
-[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"sb_meatballs"}}}],
-//[{"op":"add","path":"/chefmerchant/1/1/-","value":{"item":{"name":"pizza"}}}],
 
-//T3
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_crystalnachos"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_meatandmarrow"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_meatwich"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_thespecial"}}}],
+[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"avesmingojuice"}}}],
+[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"avesmingoicecream"}}}],
+[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"bananasplit"}}}],
 
+[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_bananabread"}}}],
+[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_batteryacid"}}}],
 [{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_boneboomarrow"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_cornontheblob"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_corntent"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_crystalchips"}}}],
-
 [{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_brineapple"}}}],
+[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_cheesecake"}}}],
 [{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_crowncake"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_crystalcandy"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_crystaljam"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_crystalpie"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_crowncake"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_crystaltart"}}}],
 [{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_lollypop"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_peanutbutterjar"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_pussplumpie"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_thornjam"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_toffee"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_toffeeapple"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_sweetmeat"}}}],
-
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_dirtea"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_liquifiedcrystal"}}}],
+[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_meatandmarrow"}}}],
+[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_meatjuice"}}}],
 [{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_meatwine"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_weyene"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_whiskeybottle"}}}],
-[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_whiskeyflask"}}}],
 [{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_pickledpoisoncreep"}}}],
-
-//T4
-[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":{"name":"sb_poachedavesmingo"}}}],
-
-[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":{"name":"sb_eggfriedrice"}}}],
-
-[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":{"name":"sb_blackcurrentcrumble"}}}],
-[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":{"name":"sb_copperkeypie"}}}],
-[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":{"name":"sb_sweettime"}}}],
-
-[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":{"name":"sb_boltedmilk"}}}],
-[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":{"name":"sb_oculemonade"}}}],
+[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_roastbanana"}}}],
+[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_thespecial"}}}],
+[{"op":"add","path":"/chefmerchant/2/1/-","value":{"item":{"name":"sb_wineglass"}}}],
 
 
-[{"op":"add","path":"/novakidarmour/0/1/-","value":{"item":{"name":"sb_ammo","parameters":{"projectileType":"standardbullet"}},"rarity":0.3}}],
-[{"op":"add","path":"/novakidarmour/1/1/-","value":{"item":{"name":"sb_ammo","parameters":{"projectileType":"standardbullet"}},"rarity":0.3}}],
-[{"op":"add","path":"/novakidarmour/2/1/-","value":{"item":{"name":"sb_ammo","parameters":{"projectileType":"standardbullet"}},"rarity":0.3}}],
-[{"op":"add","path":"/novakidarmour/3/1/-","value":{"item":{"name":"sb_ammo","parameters":{"projectileType":"standardbullet"}},"rarity":0.3}}],
-[{"op":"add","path":"/novakidarmour/4/1/-","value":{"item":{"name":"sb_ammo","parameters":{"projectileType":"standardbullet"}},"rarity":0.3}}],
+
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"alienfruitjuice"}}],
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"pussplumjam"}}],
+
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_cordialbottle"}}],
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_cordialglass"}}],
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_cornontheblob"}}],
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_crystalcandy"}}],
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_crystalchips"}}],
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_crystaljam"}}],
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_crystalnachos"}}],
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_crystalpie"}}],
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_crystaltart"}}],
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_dirtea"}}],
+//jelly
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_liquifiedcrystal"}}],
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_mulledfruitdrink"}}],
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_oculemonade"}}],
+//pbj
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_poachedavesmingo"}}],
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_pussplumpie"}}],
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_weyene"}}],
+[{"op":"add","path":"/chefmerchant/3/1/-","value":{"item":"sb_winebottle"}}],
+
+
+
+[
+  {"op":"test","path":"/chefmerchant/4","inverse":true},
+  {"op":"add","path":"/chefmerchant/4","value":[4.9,[
+    {"item":"8gbpizzap"},
+    {"item":"16gbpasty"},
+    {"item":"boltos"},
+    {"item":"eggshooticecream"},
+    {"item":"eggshootsalad"},
+    {"item":"eyebowls"},
+    {"item":"nutsandbolts"},
+    {"item":"piodia"},
+    {"item":"smash"}
+  ]]}
+],
+[{"op":"add","path":"/chefmerchant/4/1/-","value":{"item":{"name":"sb_automatostew"}}}],
+[{"op":"add","path":"/chefmerchant/4/1/-","value":{"item":{"name":"sb_blackcurrentcrumble"}}}],
+[{"op":"add","path":"/chefmerchant/4/1/-","value":{"item":{"name":"sb_boltedmilk"}}}],
+[{"op":"add","path":"/chefmerchant/4/1/-","value":{"item":{"name":"sb_copperkeypie"}}}],
+[{"op":"add","path":"/chefmerchant/4/1/-","value":{"item":{"name":"sb_eggfriedrice"}}}],
+[{"op":"add","path":"/chefmerchant/4/1/-","value":{"item":{"name":"sb_sweettime"}}}],
+
+
+
+[
+  {"op":"test","path":"/chefmerchant/5","inverse":true},
+  {"op":"add","path":"/chefmerchant/5","value":[5.9,[
+    {"item":"burningeyeballs"},
+    {"item":"coralcreepcurry"},
+    {"item":"hotbone"},
+    {"item":"hothothotpot"},
+    {"item":"neonmelonjam"},
+    {"item":"pearlpeaparcels"},
+    {"item":"pozest"},
+    {"item":"spicyfeathercrown"},
+    {"item":"spicyribs"},
+    {"item":"ultimatejuice"},
+    {"item":"volcanicsalsa"},
+    {"item":"wartweedjam"},
+    {"item":"wartweedjamdonut"},
+    {"item":"wartweedstew"}
+  ]]}
+],
+[{"op":"add","path":"/chefmerchant/5/1/-","value":{"item":{"name":"sb_burningeyeballs"}}}],
+[{"op":"add","path":"/chefmerchant/5/1/-","value":{"item":{"name":"sb_chilistew"}}}],
+[{"op":"add","path":"/chefmerchant/5/1/-","value":{"item":{"name":"sb_curriedbeakseed"}}}],
+[{"op":"add","path":"/chefmerchant/5/1/-","value":{"item":{"name":"sb_orangenergyglass"}}}],
+[{"op":"add","path":"/chefmerchant/5/1/-","value":{"item":{"name":"sb_roastpoultry"}}}],
+[{"op":"add","path":"/chefmerchant/5/1/-","value":{"item":{"name":"sb_wartjuice"}}}],
+[{"op":"add","path":"/chefmerchant/5/1/-","value":{"item":{"name":"sb_wartwine"}}}],
+
 
 
 [{"op":"add","path":"/musicalinstruments/0/1/-","value":{"item":{"name":"keyboard"},"rarity":0.001}}],
 
-
   // =====================================
   //   Racial Weapons
   // =====================================
+[{"op":"add","path":"/sb_apexweapons","value":[
+    [0,[
+        {"item":"sb_apextier1axe","rarity":0.03},
+        {"item":"sb_apextier1broadsword","rarity":0.03},
+        {"item":"sb_apextier1dagger","rarity":0.03},
+        {"item":"sb_apextier1hammer","rarity":0.03},
+        {"item":"sb_apextier1shortsword","rarity":0.03},
+        {"item":"sb_apextier1spear","rarity":0.03}
+    ]],
 
-[{"op":"add","path":"/novakidarmour/0/1/-","value":{"item":{"name":"sb_novatier1revolver"},"rarity":0.1}}],
-[{"op":"add","path":"/novakidarmour/1/1/-","value":{"item":{"name":"sb_novatier2revolver"},"rarity":0.1}}],
-[{"op":"add","path":"/novakidarmour/2/1/-","value":{"item":{"name":"sb_novatier3revolver"},"rarity":0.1}}],
-[{"op":"add","path":"/novakidarmour/2/1/-","value":{"item":{"name":"sb_novatier4revolver"},"rarity":0.1}}],
-[{"op":"add","path":"/novakidarmour/3/1/-","value":{"item":{"name":"sb_novatier5arevolver"},"rarity":0.1}}],
-[{"op":"add","path":"/novakidarmour/3/1/-","value":{"item":{"name":"sb_novatier5mrevolver"},"rarity":0.1}}],
-[{"op":"add","path":"/novakidarmour/3/1/-","value":{"item":{"name":"sb_novatier5srevolver"},"rarity":0.1}}],
+    [1.9,[
+        {"item":"sb_apextier2axe","rarity":0.03},
+        {"item":"sb_apextier2broadsword","rarity":0.03},
+        {"item":"sb_apextier2dagger","rarity":0.03},
+        {"item":"sb_apextier2hammer","rarity":0.03},
+        {"item":"sb_apextier2shortsword","rarity":0.03},
+        {"item":"sb_apextier2spear","rarity":0.03}
+    ]],
 
-[{"op":"add","path":"/novakidarmour/0/1/-","value":{"item":{"name":"sb_novatier1rifle"},"rarity":0.1}}],
-[{"op":"add","path":"/novakidarmour/1/1/-","value":{"item":{"name":"sb_novatier2rifle"},"rarity":0.1}}],
-[{"op":"add","path":"/novakidarmour/2/1/-","value":{"item":{"name":"sb_novatier3rifle"},"rarity":0.1}}],
-[{"op":"add","path":"/novakidarmour/2/1/-","value":{"item":{"name":"sb_novatier4rifle"},"rarity":0.1}}],
-[{"op":"add","path":"/novakidarmour/3/1/-","value":{"item":{"name":"sb_novatier5arifle"},"rarity":0.1}}],
-[{"op":"add","path":"/novakidarmour/3/1/-","value":{"item":{"name":"sb_novatier5mrifle"},"rarity":0.1}}],
-[{"op":"add","path":"/novakidarmour/3/1/-","value":{"item":{"name":"sb_novatier5srifle"},"rarity":0.1}}],
+    [2.9,[
+        {"item":"sb_apextier3axe","rarity":0.03},
+        {"item":"sb_apextier3broadsword","rarity":0.03},
+        {"item":"sb_apextier3dagger","rarity":0.03},
+        {"item":"sb_apextier3hammer","rarity":0.03},
+        {"item":"sb_apextier3shortsword","rarity":0.03},
+        {"item":"sb_apextier3spear","rarity":0.03}
+    ]],
 
-[{"op":"add","path":"/avianarmour/0/1/-","value":{"item":{"name":"sb_aviantier1dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/1/1/-","value":{"item":{"name":"sb_aviantier2dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/2/1/-","value":{"item":{"name":"sb_aviantier3dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/2/1/-","value":{"item":{"name":"sb_aviantier4dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/3/1/-","value":{"item":{"name":"sb_aviantier5adagger"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/3/1/-","value":{"item":{"name":"sb_aviantier5mdagger"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/3/1/-","value":{"item":{"name":"sb_aviantier5sdagger"},"rarity":0.1}}],
+    [3.9,[
+        {"item":"sb_apextier4axe","rarity":0.03},
+        {"item":"sb_apextier4broadsword","rarity":0.03},
+        {"item":"sb_apextier4dagger","rarity":0.03},
+        {"item":"sb_apextier4hammer","rarity":0.03},
+        {"item":"sb_apextier4shortsword","rarity":0.03},
+        {"item":"sb_apextier4spear","rarity":0.03}
+    ]],
 
-[{"op":"add","path":"/glitcharmour/0/1/-","value":{"item":{"name":"sb_glitchtier1dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/1/1/-","value":{"item":{"name":"sb_glitchtier2dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/2/1/-","value":{"item":{"name":"sb_glitchtier3dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/2/1/-","value":{"item":{"name":"sb_glitchtier4dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/3/1/-","value":{"item":{"name":"sb_glitchtier5adagger"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/3/1/-","value":{"item":{"name":"sb_glitchtier5mdagger"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/3/1/-","value":{"item":{"name":"sb_glitchtier5sdagger"},"rarity":0.1}}],
+    [4.9,[
+        {"item":"sb_apextier5aaxe","rarity":0.03},
+        {"item":"sb_apextier5abroadsword","rarity":0.03},
+        {"item":"sb_apextier5adagger","rarity":0.03},
+        {"item":"sb_apextier5ahammer","rarity":0.03},
+        {"item":"sb_apextier5ashortsword","rarity":0.03},
+        {"item":"sb_apextier5aspear","rarity":0.03},
 
-[{"op":"add","path":"/humanarmour/0/1/-","value":{"item":{"name":"sb_humantier1dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/1/1/-","value":{"item":{"name":"sb_humantier2dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/2/1/-","value":{"item":{"name":"sb_humantier3dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/2/1/-","value":{"item":{"name":"sb_humantier4dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/3/1/-","value":{"item":{"name":"sb_humantier5adagger"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/3/1/-","value":{"item":{"name":"sb_humantier5mdagger"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/3/1/-","value":{"item":{"name":"sb_humantier5sdagger"},"rarity":0.1}}],
+        {"item":"sb_apextier5maxe","rarity":0.03},
+        {"item":"sb_apextier5mbroadsword","rarity":0.03},
+        {"item":"sb_apextier5mdagger","rarity":0.03},
+        {"item":"sb_apextier5mhammer","rarity":0.03},
+        {"item":"sb_apextier5mshortsword","rarity":0.03},
+        {"item":"sb_apextier5mspear","rarity":0.03},
 
-[{"op":"add","path":"/floranarmour/0/1/-","value":{"item":{"name":"sb_florantier1dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/1/1/-","value":{"item":{"name":"sb_florantier2dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/2/1/-","value":{"item":{"name":"sb_florantier3dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/2/1/-","value":{"item":{"name":"sb_florantier4dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/3/1/-","value":{"item":{"name":"sb_florantier5adagger"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/3/1/-","value":{"item":{"name":"sb_florantier5mdagger"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/3/1/-","value":{"item":{"name":"sb_florantier5sdagger"},"rarity":0.1}}],
+        {"item":"sb_apextier5saxe","rarity":0.03},
+        {"item":"sb_apextier5sbroadsword","rarity":0.03},
+        {"item":"sb_apextier5sdagger","rarity":0.03},
+        {"item":"sb_apextier5shammer","rarity":0.03},
+        {"item":"sb_apextier5sshortsword","rarity":0.03},
+        {"item":"sb_apextier5sspear","rarity":0.03}
+    ]]
+]}],
 
-[{"op":"add","path":"/apexarmour/0/1/-","value":{"item":{"name":"sb_apextier1dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/1/1/-","value":{"item":{"name":"sb_apextier2dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/2/1/-","value":{"item":{"name":"sb_apextier3dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/2/1/-","value":{"item":{"name":"sb_apextier4dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/3/1/-","value":{"item":{"name":"sb_apextier5adagger"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/3/1/-","value":{"item":{"name":"sb_apextier5mdagger"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/3/1/-","value":{"item":{"name":"sb_apextier5sdagger"},"rarity":0.1}}],
+[{"op":"add","path":"/sb_avianweapons","value":[
+    [0,[
+        {"item":"sb_aviantier1axe","rarity":0.03},
+        {"item":"sb_aviantier1broadsword","rarity":0.03},
+        {"item":"sb_aviantier1dagger","rarity":0.03},
+        {"item":"sb_aviantier1hammer","rarity":0.03},
+        {"item":"sb_aviantier1shortsword","rarity":0.03},
+        {"item":"sb_aviantier1spear","rarity":0.03}
+    ]],
 
-[{"op":"add","path":"/hylotlarmour/0/1/-","value":{"item":{"name":"sb_hylotltier1dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/1/1/-","value":{"item":{"name":"sb_hylotltier2dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/2/1/-","value":{"item":{"name":"sb_hylotltier3dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/2/1/-","value":{"item":{"name":"sb_hylotltier4dagger"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/3/1/-","value":{"item":{"name":"sb_hylotltier5adagger"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/3/1/-","value":{"item":{"name":"sb_hylotltier5mdagger"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/3/1/-","value":{"item":{"name":"sb_hylotltier5sdagger"},"rarity":0.1}}],
+    [1.9,[
+        {"item":"sb_aviantier2axe","rarity":0.03},
+        {"item":"sb_aviantier2broadsword","rarity":0.03},
+        {"item":"sb_aviantier2dagger","rarity":0.03},
+        {"item":"sb_aviantier2hammer","rarity":0.03},
+        {"item":"sb_aviantier2shortsword","rarity":0.03},
+        {"item":"sb_aviantier2spear","rarity":0.03}
+    ]],
 
+    [2.9,[
+        {"item":"sb_aviantier3axe","rarity":0.03},
+        {"item":"sb_aviantier3broadsword","rarity":0.03},
+        {"item":"sb_aviantier3dagger","rarity":0.03},
+        {"item":"sb_aviantier3hammer","rarity":0.03},
+        {"item":"sb_aviantier3shortsword","rarity":0.03},
+        {"item":"sb_aviantier3spear","rarity":0.03}
+    ]],
 
+    [3.9,[
+        {"item":"sb_aviantier4axe","rarity":0.03},
+        {"item":"sb_aviantier4broadsword","rarity":0.03},
+        {"item":"sb_aviantier4dagger","rarity":0.03},
+        {"item":"sb_aviantier4hammer","rarity":0.03},
+        {"item":"sb_aviantier4shortsword","rarity":0.03},
+        {"item":"sb_aviantier4spear","rarity":0.03}
+    ]],
 
-[{"op":"add","path":"/avianarmour/0/1/-","value":{"item":{"name":"sb_aviantier1axe"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/1/1/-","value":{"item":{"name":"sb_aviantier2axe"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/2/1/-","value":{"item":{"name":"sb_aviantier3axe"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/2/1/-","value":{"item":{"name":"sb_aviantier4axe"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/3/1/-","value":{"item":{"name":"sb_aviantier5aaxe"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/3/1/-","value":{"item":{"name":"sb_aviantier5maxe"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/3/1/-","value":{"item":{"name":"sb_aviantier5saxe"},"rarity":0.1}}],
+    [4.9,[
+        {"item":"sb_aviantier5aaxe","rarity":0.03},
+        {"item":"sb_aviantier5abroadsword","rarity":0.03},
+        {"item":"sb_aviantier5adagger","rarity":0.03},
+        {"item":"sb_aviantier5ahammer","rarity":0.03},
+        {"item":"sb_aviantier5ashortsword","rarity":0.03},
+        {"item":"sb_aviantier5aspear","rarity":0.03},
 
-[{"op":"add","path":"/glitcharmour/0/1/-","value":{"item":{"name":"sb_glitchtier1axe"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/1/1/-","value":{"item":{"name":"sb_glitchtier2axe"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/2/1/-","value":{"item":{"name":"sb_glitchtier3axe"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/2/1/-","value":{"item":{"name":"sb_glitchtier4axe"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/3/1/-","value":{"item":{"name":"sb_glitchtier5aaxe"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/3/1/-","value":{"item":{"name":"sb_glitchtier5maxe"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/3/1/-","value":{"item":{"name":"sb_glitchtier5saxe"},"rarity":0.1}}],
+        {"item":"sb_aviantier5maxe","rarity":0.03},
+        {"item":"sb_aviantier5mbroadsword","rarity":0.03},
+        {"item":"sb_aviantier5mdagger","rarity":0.03},
+        {"item":"sb_aviantier5mhammer","rarity":0.03},
+        {"item":"sb_aviantier5mshortsword","rarity":0.03},
+        {"item":"sb_aviantier5mspear","rarity":0.03},
 
-[{"op":"add","path":"/humanarmour/0/1/-","value":{"item":{"name":"sb_humantier1axe"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/1/1/-","value":{"item":{"name":"sb_humantier2axe"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/2/1/-","value":{"item":{"name":"sb_humantier3axe"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/2/1/-","value":{"item":{"name":"sb_humantier4axe"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/3/1/-","value":{"item":{"name":"sb_humantier5aaxe"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/3/1/-","value":{"item":{"name":"sb_humantier5maxe"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/3/1/-","value":{"item":{"name":"sb_humantier5saxe"},"rarity":0.1}}],
+        {"item":"sb_aviantier5saxe","rarity":0.03},
+        {"item":"sb_aviantier5sbroadsword","rarity":0.03},
+        {"item":"sb_aviantier5sdagger","rarity":0.03},
+        {"item":"sb_aviantier5shammer","rarity":0.03},
+        {"item":"sb_aviantier5sshortsword","rarity":0.03},
+        {"item":"sb_aviantier5sspear","rarity":0.03}
+    ]]
+]}],
 
-[{"op":"add","path":"/floranarmour/0/1/-","value":{"item":{"name":"sb_florantier1axe"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/1/1/-","value":{"item":{"name":"sb_florantier2axe"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/2/1/-","value":{"item":{"name":"sb_florantier3axe"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/2/1/-","value":{"item":{"name":"sb_florantier4axe"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/3/1/-","value":{"item":{"name":"sb_florantier5aaxe"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/3/1/-","value":{"item":{"name":"sb_florantier5maxe"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/3/1/-","value":{"item":{"name":"sb_florantier5saxe"},"rarity":0.1}}],
+[{"op":"add","path":"/sb_floranweapons","value":[
+    [0,[
+        {"item":"sb_florantier1axe","rarity":0.03},
+        {"item":"sb_florantier1broadsword","rarity":0.03},
+        {"item":"sb_florantier1dagger","rarity":0.03},
+        {"item":"sb_florantier1hammer","rarity":0.03},
+        {"item":"sb_florantier1shortsword","rarity":0.03},
+        {"item":"sb_florantier1spear","rarity":0.03}
+    ]],
 
-[{"op":"add","path":"/apexarmour/0/1/-","value":{"item":{"name":"sb_apextier1axe"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/1/1/-","value":{"item":{"name":"sb_apextier2axe"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/2/1/-","value":{"item":{"name":"sb_apextier3axe"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/2/1/-","value":{"item":{"name":"sb_apextier4axe"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/3/1/-","value":{"item":{"name":"sb_apextier5aaxe"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/3/1/-","value":{"item":{"name":"sb_apextier5maxe"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/3/1/-","value":{"item":{"name":"sb_apextier5saxe"},"rarity":0.1}}],
+    [1.9,[
+        {"item":"sb_florantier2axe","rarity":0.03},
+        {"item":"sb_florantier2broadsword","rarity":0.03},
+        {"item":"sb_florantier2dagger","rarity":0.03},
+        {"item":"sb_florantier2hammer","rarity":0.03},
+        {"item":"sb_florantier2shortsword","rarity":0.03},
+        {"item":"sb_florantier2spear","rarity":0.03}
+    ]],
 
-[{"op":"add","path":"/hylotlarmour/0/1/-","value":{"item":{"name":"sb_hylotltier1axe"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/1/1/-","value":{"item":{"name":"sb_hylotltier2axe"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/2/1/-","value":{"item":{"name":"sb_hylotltier3axe"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/2/1/-","value":{"item":{"name":"sb_hylotltier4axe"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/3/1/-","value":{"item":{"name":"sb_hylotltier5aaxe"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/3/1/-","value":{"item":{"name":"sb_hylotltier5maxe"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/3/1/-","value":{"item":{"name":"sb_hylotltier5saxe"},"rarity":0.1}}],
+    [2.9,[
+        {"item":"sb_florantier3axe","rarity":0.03},
+        {"item":"sb_florantier3broadsword","rarity":0.03},
+        {"item":"sb_florantier3dagger","rarity":0.03},
+        {"item":"sb_florantier3hammer","rarity":0.03},
+        {"item":"sb_florantier3shortsword","rarity":0.03},
+        {"item":"sb_florantier3spear","rarity":0.03}
+    ]],
 
-[{"op":"add","path":"/avianarmour/0/1/-","value":{"item":{"name":"sb_aviantier1hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/1/1/-","value":{"item":{"name":"sb_aviantier2hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/2/1/-","value":{"item":{"name":"sb_aviantier3hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/2/1/-","value":{"item":{"name":"sb_aviantier4hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/3/1/-","value":{"item":{"name":"sb_aviantier5ahammer"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/3/1/-","value":{"item":{"name":"sb_aviantier5mhammer"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/3/1/-","value":{"item":{"name":"sb_aviantier5shammer"},"rarity":0.1}}],
+    [3.9,[
+        {"item":"sb_florantier4axe","rarity":0.03},
+        {"item":"sb_florantier4broadsword","rarity":0.03},
+        {"item":"sb_florantier4dagger","rarity":0.03},
+        {"item":"sb_florantier4hammer","rarity":0.03},
+        {"item":"sb_florantier4shortsword","rarity":0.03},
+        {"item":"sb_florantier4spear","rarity":0.03}
+    ]],
 
-[{"op":"add","path":"/glitcharmour/0/1/-","value":{"item":{"name":"sb_glitchtier1hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/1/1/-","value":{"item":{"name":"sb_glitchtier2hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/2/1/-","value":{"item":{"name":"sb_glitchtier3hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/2/1/-","value":{"item":{"name":"sb_glitchtier4hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/3/1/-","value":{"item":{"name":"sb_glitchtier5ahammer"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/3/1/-","value":{"item":{"name":"sb_glitchtier5mhammer"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/3/1/-","value":{"item":{"name":"sb_glitchtier5shammer"},"rarity":0.1}}],
+    [4.9,[
+        {"item":"sb_florantier5aaxe","rarity":0.03},
+        {"item":"sb_florantier5abroadsword","rarity":0.03},
+        {"item":"sb_florantier5adagger","rarity":0.03},
+        {"item":"sb_florantier5ahammer","rarity":0.03},
+        {"item":"sb_florantier5ashortsword","rarity":0.03},
+        {"item":"sb_florantier5aspear","rarity":0.03},
 
-[{"op":"add","path":"/humanarmour/0/1/-","value":{"item":{"name":"sb_humantier1hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/1/1/-","value":{"item":{"name":"sb_humantier2hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/2/1/-","value":{"item":{"name":"sb_humantier3hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/2/1/-","value":{"item":{"name":"sb_humantier4hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/3/1/-","value":{"item":{"name":"sb_humantier5ahammer"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/3/1/-","value":{"item":{"name":"sb_humantier5mhammer"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/3/1/-","value":{"item":{"name":"sb_humantier5shammer"},"rarity":0.1}}],
+        {"item":"sb_florantier5maxe","rarity":0.03},
+        {"item":"sb_florantier5mbroadsword","rarity":0.03},
+        {"item":"sb_florantier5mdagger","rarity":0.03},
+        {"item":"sb_florantier5mhammer","rarity":0.03},
+        {"item":"sb_florantier5mshortsword","rarity":0.03},
+        {"item":"sb_florantier5mspear","rarity":0.03},
 
-[{"op":"add","path":"/floranarmour/0/1/-","value":{"item":{"name":"sb_florantier1hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/1/1/-","value":{"item":{"name":"sb_florantier2hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/2/1/-","value":{"item":{"name":"sb_florantier3hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/2/1/-","value":{"item":{"name":"sb_florantier4hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/3/1/-","value":{"item":{"name":"sb_florantier5ahammer"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/3/1/-","value":{"item":{"name":"sb_florantier5mhammer"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/3/1/-","value":{"item":{"name":"sb_florantier5shammer"},"rarity":0.1}}],
+        {"item":"sb_florantier5saxe","rarity":0.03},
+        {"item":"sb_florantier5sbroadsword","rarity":0.03},
+        {"item":"sb_florantier5sdagger","rarity":0.03},
+        {"item":"sb_florantier5shammer","rarity":0.03},
+        {"item":"sb_florantier5sshortsword","rarity":0.03},
+        {"item":"sb_florantier5sspear","rarity":0.03}
+    ]]
+]}],
 
-[{"op":"add","path":"/apexarmour/0/1/-","value":{"item":{"name":"sb_apextier1hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/1/1/-","value":{"item":{"name":"sb_apextier2hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/2/1/-","value":{"item":{"name":"sb_apextier3hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/2/1/-","value":{"item":{"name":"sb_apextier4hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/3/1/-","value":{"item":{"name":"sb_apextier5ahammer"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/3/1/-","value":{"item":{"name":"sb_apextier5mhammer"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/3/1/-","value":{"item":{"name":"sb_apextier5shammer"},"rarity":0.1}}],
+[{"op":"add","path":"/sb_glitchweapons","value":[
+    [0,[
+        {"item":"sb_glitchtier1axe","rarity":0.03},
+        {"item":"sb_glitchtier1broadsword","rarity":0.03},
+        {"item":"sb_glitchtier1dagger","rarity":0.03},
+        {"item":"sb_glitchtier1hammer","rarity":0.03},
+        {"item":"sb_glitchtier1shortsword","rarity":0.03},
+        {"item":"sb_glitchtier1spear","rarity":0.03}
+    ]],
 
-[{"op":"add","path":"/hylotlarmour/0/1/-","value":{"item":{"name":"sb_hylotltier1hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/1/1/-","value":{"item":{"name":"sb_hylotltier2hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/2/1/-","value":{"item":{"name":"sb_hylotltier3hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/2/1/-","value":{"item":{"name":"sb_hylotltier4hammer"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/3/1/-","value":{"item":{"name":"sb_hylotltier5ahammer"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/3/1/-","value":{"item":{"name":"sb_hylotltier5mhammer"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/3/1/-","value":{"item":{"name":"sb_hylotltier5shammer"},"rarity":0.1}}],
+    [1.9,[
+        {"item":"sb_glitchtier2axe","rarity":0.03},
+        {"item":"sb_glitchtier2broadsword","rarity":0.03},
+        {"item":"sb_glitchtier2dagger","rarity":0.03},
+        {"item":"sb_glitchtier2hammer","rarity":0.03},
+        {"item":"sb_glitchtier2shortsword","rarity":0.03},
+        {"item":"sb_glitchtier2spear","rarity":0.03}
+    ]],
 
-[{"op":"add","path":"/avianarmour/0/1/-","value":{"item":{"name":"sb_aviantier1shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/1/1/-","value":{"item":{"name":"sb_aviantier2shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/2/1/-","value":{"item":{"name":"sb_aviantier3shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/2/1/-","value":{"item":{"name":"sb_aviantier4shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/3/1/-","value":{"item":{"name":"sb_aviantier5ashortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/3/1/-","value":{"item":{"name":"sb_aviantier5mshortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/avianarmour/3/1/-","value":{"item":{"name":"sb_aviantier5sshortsword"},"rarity":0.1}}],
+    [2.9,[
+        {"item":"sb_glitchtier3axe","rarity":0.03},
+        {"item":"sb_glitchtier3broadsword","rarity":0.03},
+        {"item":"sb_glitchtier3dagger","rarity":0.03},
+        {"item":"sb_glitchtier3hammer","rarity":0.03},
+        {"item":"sb_glitchtier3shortsword","rarity":0.03},
+        {"item":"sb_glitchtier3spear","rarity":0.03}
+    ]],
 
-[{"op":"add","path":"/glitcharmour/0/1/-","value":{"item":{"name":"sb_glitchtier1shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/1/1/-","value":{"item":{"name":"sb_glitchtier2shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/2/1/-","value":{"item":{"name":"sb_glitchtier3shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/2/1/-","value":{"item":{"name":"sb_glitchtier4shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/3/1/-","value":{"item":{"name":"sb_glitchtier5ashortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/3/1/-","value":{"item":{"name":"sb_glitchtier5mshortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/glitcharmour/3/1/-","value":{"item":{"name":"sb_glitchtier5sshortsword"},"rarity":0.1}}],
+    [3.9,[
+        {"item":"sb_glitchtier4axe","rarity":0.03},
+        {"item":"sb_glitchtier4broadsword","rarity":0.03},
+        {"item":"sb_glitchtier4dagger","rarity":0.03},
+        {"item":"sb_glitchtier4hammer","rarity":0.03},
+        {"item":"sb_glitchtier4shortsword","rarity":0.03},
+        {"item":"sb_glitchtier4spear","rarity":0.03}
+    ]],
 
-[{"op":"add","path":"/humanarmour/0/1/-","value":{"item":{"name":"sb_humantier1shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/1/1/-","value":{"item":{"name":"sb_humantier2shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/2/1/-","value":{"item":{"name":"sb_humantier3shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/2/1/-","value":{"item":{"name":"sb_humantier4shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/3/1/-","value":{"item":{"name":"sb_humantier5ashortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/3/1/-","value":{"item":{"name":"sb_humantier5mshortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/humanarmour/3/1/-","value":{"item":{"name":"sb_humantier5sshortsword"},"rarity":0.1}}],
+    [4.9,[
+        {"item":"sb_glitchtier5aaxe","rarity":0.03},
+        {"item":"sb_glitchtier5abroadsword","rarity":0.03},
+        {"item":"sb_glitchtier5adagger","rarity":0.03},
+        {"item":"sb_glitchtier5ahammer","rarity":0.03},
+        {"item":"sb_glitchtier5ashortsword","rarity":0.03},
+        {"item":"sb_glitchtier5aspear","rarity":0.03},
 
-[{"op":"add","path":"/floranarmour/0/1/-","value":{"item":{"name":"sb_florantier1shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/1/1/-","value":{"item":{"name":"sb_florantier2shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/2/1/-","value":{"item":{"name":"sb_florantier3shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/2/1/-","value":{"item":{"name":"sb_florantier4shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/3/1/-","value":{"item":{"name":"sb_florantier5ashortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/3/1/-","value":{"item":{"name":"sb_florantier5mshortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/floranarmour/3/1/-","value":{"item":{"name":"sb_florantier5sshortsword"},"rarity":0.1}}],
+        {"item":"sb_glitchtier5maxe","rarity":0.03},
+        {"item":"sb_glitchtier5mbroadsword","rarity":0.03},
+        {"item":"sb_glitchtier5mdagger","rarity":0.03},
+        {"item":"sb_glitchtier5mhammer","rarity":0.03},
+        {"item":"sb_glitchtier5mshortsword","rarity":0.03},
+        {"item":"sb_glitchtier5mspear","rarity":0.03},
 
-[{"op":"add","path":"/apexarmour/0/1/-","value":{"item":{"name":"sb_apextier1shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/1/1/-","value":{"item":{"name":"sb_apextier2shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/2/1/-","value":{"item":{"name":"sb_apextier3shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/2/1/-","value":{"item":{"name":"sb_apextier4shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/3/1/-","value":{"item":{"name":"sb_apextier5ashortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/3/1/-","value":{"item":{"name":"sb_apextier5mshortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/apexarmour/3/1/-","value":{"item":{"name":"sb_apextier5sshortsword"},"rarity":0.1}}],
+        {"item":"sb_glitchtier5saxe","rarity":0.03},
+        {"item":"sb_glitchtier5sbroadsword","rarity":0.03},
+        {"item":"sb_glitchtier5sdagger","rarity":0.03},
+        {"item":"sb_glitchtier5shammer","rarity":0.03},
+        {"item":"sb_glitchtier5sshortsword","rarity":0.03},
+        {"item":"sb_glitchtier5sspear","rarity":0.03}
+    ]]
+]}],
 
-[{"op":"add","path":"/hylotlarmour/0/1/-","value":{"item":{"name":"sb_hylotltier1shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/1/1/-","value":{"item":{"name":"sb_hylotltier2shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/2/1/-","value":{"item":{"name":"sb_hylotltier3shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/2/1/-","value":{"item":{"name":"sb_hylotltier4shortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/3/1/-","value":{"item":{"name":"sb_hylotltier5ashortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/3/1/-","value":{"item":{"name":"sb_hylotltier5mshortsword"},"rarity":0.1}}],
-[{"op":"add","path":"/hylotlarmour/3/1/-","value":{"item":{"name":"sb_hylotltier5sshortsword"},"rarity":0.1}}],
+[{"op":"add","path":"/sb_humanweapons","value":[
+    [0,[
+        {"item":"sb_humantier1axe","rarity":0.03},
+        {"item":"sb_humantier1broadsword","rarity":0.03},
+        {"item":"sb_humantier1dagger","rarity":0.03},
+        {"item":"sb_humantier1hammer","rarity":0.03},
+        {"item":"sb_humantier1shortsword","rarity":0.03},
+        {"item":"sb_humantier1spear","rarity":0.03}
+    ]],
 
+    [1.9,[
+        {"item":"sb_humantier2axe","rarity":0.03},
+        {"item":"sb_humantier2broadsword","rarity":0.03},
+        {"item":"sb_humantier2dagger","rarity":0.03},
+        {"item":"sb_humantier2hammer","rarity":0.03},
+        {"item":"sb_humantier2shortsword","rarity":0.03},
+        {"item":"sb_humantier2spear","rarity":0.03}
+    ]],
 
+    [2.9,[
+        {"item":"sb_humantier3axe","rarity":0.03},
+        {"item":"sb_humantier3broadsword","rarity":0.03},
+        {"item":"sb_humantier3dagger","rarity":0.03},
+        {"item":"sb_humantier3hammer","rarity":0.03},
+        {"item":"sb_humantier3shortsword","rarity":0.03},
+        {"item":"sb_humantier3spear","rarity":0.03}
+    ]],
 
+    [3.9,[
+        {"item":"sb_humantier4axe","rarity":0.03},
+        {"item":"sb_humantier4broadsword","rarity":0.03},
+        {"item":"sb_humantier4dagger","rarity":0.03},
+        {"item":"sb_humantier4hammer","rarity":0.03},
+        {"item":"sb_humantier4shortsword","rarity":0.03},
+        {"item":"sb_humantier4spear","rarity":0.03}
+    ]],
+
+    [4.9,[
+        {"item":"sb_humantier5aaxe","rarity":0.03},
+        {"item":"sb_humantier5abroadsword","rarity":0.03},
+        {"item":"sb_humantier5adagger","rarity":0.03},
+        {"item":"sb_humantier5ahammer","rarity":0.03},
+        {"item":"sb_humantier5ashortsword","rarity":0.03},
+        {"item":"sb_humantier5aspear","rarity":0.03},
+
+        {"item":"sb_humantier5maxe","rarity":0.03},
+        {"item":"sb_humantier5mbroadsword","rarity":0.03},
+        {"item":"sb_humantier5mdagger","rarity":0.03},
+        {"item":"sb_humantier5mhammer","rarity":0.03},
+        {"item":"sb_humantier5mshortsword","rarity":0.03},
+        {"item":"sb_humantier5mspear","rarity":0.03},
+
+        {"item":"sb_humantier5saxe","rarity":0.03},
+        {"item":"sb_humantier5sbroadsword","rarity":0.03},
+        {"item":"sb_humantier5sdagger","rarity":0.03},
+        {"item":"sb_humantier5shammer","rarity":0.03},
+        {"item":"sb_humantier5sshortsword","rarity":0.03},
+        {"item":"sb_humantier5sspear","rarity":0.03}
+    ]]
+]}],
+
+[{"op":"add","path":"/sb_hylotlweapons","value":[
+    [0,[
+        {"item":"sb_hylotltier1axe","rarity":0.03},
+        {"item":"sb_hylotltier1broadsword","rarity":0.03},
+        {"item":"sb_hylotltier1dagger","rarity":0.03},
+        {"item":"sb_hylotltier1hammer","rarity":0.03},
+        {"item":"sb_hylotltier1shortsword","rarity":0.03},
+        {"item":"sb_hylotltier1spear","rarity":0.03}
+    ]],
+
+    [1.9,[
+        {"item":"sb_hylotltier2axe","rarity":0.03},
+        {"item":"sb_hylotltier2broadsword","rarity":0.03},
+        {"item":"sb_hylotltier2dagger","rarity":0.03},
+        {"item":"sb_hylotltier2hammer","rarity":0.03},
+        {"item":"sb_hylotltier2shortsword","rarity":0.03},
+        {"item":"sb_hylotltier2spear","rarity":0.03}
+    ]],
+
+    [2.9,[
+        {"item":"sb_hylotltier3axe","rarity":0.03},
+        {"item":"sb_hylotltier3broadsword","rarity":0.03},
+        {"item":"sb_hylotltier3dagger","rarity":0.03},
+        {"item":"sb_hylotltier3hammer","rarity":0.03},
+        {"item":"sb_hylotltier3shortsword","rarity":0.03},
+        {"item":"sb_hylotltier3spear","rarity":0.03}
+    ]],
+
+    [3.9,[
+        {"item":"sb_hylotltier4axe","rarity":0.03},
+        {"item":"sb_hylotltier4broadsword","rarity":0.03},
+        {"item":"sb_hylotltier4dagger","rarity":0.03},
+        {"item":"sb_hylotltier4hammer","rarity":0.03},
+        {"item":"sb_hylotltier4shortsword","rarity":0.03},
+        {"item":"sb_hylotltier4spear","rarity":0.03}
+    ]],
+
+    [4.9,[
+        {"item":"sb_hylotltier5aaxe","rarity":0.03},
+        {"item":"sb_hylotltier5abroadsword","rarity":0.03},
+        {"item":"sb_hylotltier5adagger","rarity":0.03},
+        {"item":"sb_hylotltier5ahammer","rarity":0.03},
+        {"item":"sb_hylotltier5ashortsword","rarity":0.03},
+        {"item":"sb_hylotltier5aspear","rarity":0.03},
+
+        {"item":"sb_hylotltier5maxe","rarity":0.03},
+        {"item":"sb_hylotltier5mbroadsword","rarity":0.03},
+        {"item":"sb_hylotltier5mdagger","rarity":0.03},
+        {"item":"sb_hylotltier5mhammer","rarity":0.03},
+        {"item":"sb_hylotltier5mshortsword","rarity":0.03},
+        {"item":"sb_hylotltier5mspear","rarity":0.03},
+
+        {"item":"sb_hylotltier5saxe","rarity":0.03},
+        {"item":"sb_hylotltier5sbroadsword","rarity":0.03},
+        {"item":"sb_hylotltier5sdagger","rarity":0.03},
+        {"item":"sb_hylotltier5shammer","rarity":0.03},
+        {"item":"sb_hylotltier5sshortsword","rarity":0.03},
+        {"item":"sb_hylotltier5sspear","rarity":0.03}
+    ]]
+]}],
+
+[{"op":"add","path":"/sb_novakidweapons","value":[
+    [0,[
+        {"item":["sb_ammo",1,{"projectileType":"standardbullet"}],"rarity":0.05},
+        {"item":"sb_novatier1revolver","rarity":0.03},
+        {"item":"sb_novatier1rifle","rarity":0.03},
+
+        {"item":"sb_novakidtier1axe","rarity":0.03},
+        {"item":"sb_novakidtier1broadsword","rarity":0.03},
+        {"item":"sb_novakidtier1dagger","rarity":0.03},
+        {"item":"sb_novakidtier1hammer","rarity":0.03},
+        {"item":"sb_novakidtier1shortsword","rarity":0.03},
+        {"item":"sb_novakidtier1spear","rarity":0.03}
+    ]],
+
+    [1.9,[
+        {"item":["sb_ammo",1,{"projectileType":"standardbullet"}],"rarity":0.05},
+        {"item":"sb_novatier2revolver","rarity":0.03},
+        {"item":"sb_novatier2rifle","rarity":0.03},
+
+        {"item":"sb_novakidtier2axe","rarity":0.03},
+        {"item":"sb_novakidtier2broadsword","rarity":0.03},
+        {"item":"sb_novakidtier2dagger","rarity":0.03},
+        {"item":"sb_novakidtier2hammer","rarity":0.03},
+        {"item":"sb_novakidtier2shortsword","rarity":0.03},
+        {"item":"sb_novakidtier2spear","rarity":0.03}
+    ]],
+
+    [2.9,[
+        {"item":["sb_ammo",1,{"projectileType":"standardbullet"}],"rarity":0.05},
+        {"item":"sb_novatier3revolver","rarity":0.03},
+        {"item":"sb_novatier3rifle","rarity":0.03},
+
+        {"item":"sb_novakidtier3axe","rarity":0.03},
+        {"item":"sb_novakidtier3broadsword","rarity":0.03},
+        {"item":"sb_novakidtier3dagger","rarity":0.03},
+        {"item":"sb_novakidtier3hammer","rarity":0.03},
+        {"item":"sb_novakidtier3shortsword","rarity":0.03},
+        {"item":"sb_novakidtier3spear","rarity":0.03}
+    ]],
+
+    [3.9,[
+        {"item":["sb_ammo",1,{"projectileType":"standardbullet"}],"rarity":0.05},
+        {"item":"sb_novatier4revolver","rarity":0.03},
+        {"item":"sb_novatier4rifle","rarity":0.03},
+
+        {"item":"sb_novakidtier4axe","rarity":0.03},
+        {"item":"sb_novakidtier4broadsword","rarity":0.03},
+        {"item":"sb_novakidtier4dagger","rarity":0.03},
+        {"item":"sb_novakidtier4hammer","rarity":0.03},
+        {"item":"sb_novakidtier4shortsword","rarity":0.03},
+        {"item":"sb_novakidtier4spear","rarity":0.03}
+    ]],
+
+    [4.9,[
+        {"item":["sb_ammo",1,{"projectileType":"standardbullet"}],"rarity":0.05},
+        {"item":"sb_novatier5arevolver","rarity":0.03},
+        {"item":"sb_novatier5arifle","rarity":0.03},
+
+        {"item":"sb_novatier5mrevolver","rarity":0.03},
+        {"item":"sb_novatier5mrifle","rarity":0.03},
+
+        {"item":"sb_novatier5srevolver","rarity":0.03},
+        {"item":"sb_novatier5srifle","rarity":0.03},
+
+        {"item":"sb_novakidtier5aaxe","rarity":0.03},
+        {"item":"sb_novakidtier5abroadsword","rarity":0.03},
+        {"item":"sb_novakidtier5adagger","rarity":0.03},
+        {"item":"sb_novakidtier5ahammer","rarity":0.03},
+        {"item":"sb_novakidtier5ashortsword","rarity":0.03},
+        {"item":"sb_novakidtier5aspear","rarity":0.03},
+
+        {"item":"sb_novakidtier5maxe","rarity":0.03},
+        {"item":"sb_novakidtier5mbroadsword","rarity":0.03},
+        {"item":"sb_novakidtier5mdagger","rarity":0.03},
+        {"item":"sb_novakidtier5mhammer","rarity":0.03},
+        {"item":"sb_novakidtier5mshortsword","rarity":0.03},
+        {"item":"sb_novakidtier5mspear","rarity":0.03},
+
+        {"item":"sb_novakidtier5saxe","rarity":0.03},
+        {"item":"sb_novakidtier5sbroadsword","rarity":0.03},
+        {"item":"sb_novakidtier5sdagger","rarity":0.03},
+        {"item":"sb_novakidtier5shammer","rarity":0.03},
+        {"item":"sb_novakidtier5sshortsword","rarity":0.03},
+        {"item":"sb_novakidtier5sspear","rarity":0.03}
+    ]]
+]}],
   // =====================================
   //   Clothes
   // =====================================

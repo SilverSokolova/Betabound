@@ -18,7 +18,7 @@ function update()
   end
 
   if not requireOutOfSight or not world.isVisibleToPlayer(bounds) then
-    world.spawnMonster(monsterType, entity.position(), {aggressive=true, level = world.threatLevel(), eventSource = eventSource})
+    world.spawnMonster(monsterType, entity.position(), {aggressive = true, level = world.threatLevel(), eventSource = eventSource, sb_initialStatusEffects = config.getParameter("initialStatusEffects", {})})
     stagehand.die()
   end
 end

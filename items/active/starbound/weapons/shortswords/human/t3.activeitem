@@ -4,5 +4,23 @@
   "itemTags": ["weapon", "melee", "shortsword"],
   "definition": "shortswords/t3",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
-  "shortdescription": "Awesome Shortsword"
+  "shortdescription": "Awesome Shortsword",
+
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [1, 0.75]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

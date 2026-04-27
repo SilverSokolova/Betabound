@@ -1,13 +1,3 @@
 [
-[{"op":"add","path":"/tombTreasure/0/1/pool/-","value":{"weight":0.12,"item":"sb_copybook"}}],
-
-[{"op":"add","path":"/bookTreasure/0/1/pool/-","value":{"weight":0.2,"item":["sb_copybook",5]}}],
-[{"op":"add","path":"/bookTreasure/0/1/pool/-","value":{"weight":0.2,"item":["sb_copybook",4]}}],
-[{"op":"add","path":"/bookTreasure/0/1/pool/-","value":{"weight":0.2,"item":["sb_copybook",3]}}],
-[{"op":"add","path":"/bookTreasure/0/1/pool/-","value":{"weight":0.2,"item":["sb_copybook",2]}}],
-[{"op":"add","path":"/bookTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_copybook"}}],
-[{"op":"add","path":"/bookTreasure/0/1/pool/-","value":{"weight":0.2,"item":["sb_customcodex",2]}}],
-[{"op":"add","path":"/bookTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_customcodex"}}],
-
 [{"op":"add","path":"/vendingtreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_orangenergycan"}}]
 ]

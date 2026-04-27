@@ -5,5 +5,9 @@
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
 {"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_groundfirebomb"},
-{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"flamethrower"}]
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"flamethrower"}],
+
+[{"op":"test","path":"/pickupQuestTemplates","inverse":true},
+{"op":"add","path":"/pickupQuestTemplates","value":[]}],
+[{"op":"add","path":"/pickupQuestTemplates/-","value":"sb_learnblueprintsonpickup:sb_firebow"}]
 ]

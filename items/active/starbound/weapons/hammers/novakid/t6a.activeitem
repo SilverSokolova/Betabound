@@ -1,0 +1,29 @@
+{
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": ["colors/t6a", "hammers/t6a"],
+  "itemName": "sb_novakidtier6ahammer",
+  "shortdescription": "Roulette Rumbler",
+  "description": "",
+  "tooltipKind": "sb_sword",
+
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [-1, 2]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

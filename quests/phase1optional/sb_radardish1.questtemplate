@@ -1,9 +1,9 @@
 {
   "id": "sb_radardish1",
-  "prerequisites": ["sb_outpost1"],
+  "prerequisites": [],
   "title": "^green;Contributing to Society",
-  "text": "The dish appears to be non-functional! A tiny diamond inside looks cracked. ^green;I should give the Apex scientist a ^orange;diamond ^green;so she can fix it.",
-  "completionText": "This is for the radar dish? Thank you! This radar detects potential asteroid impacts and I didn't even know it was broken! Take this down to the 2-Stop Teleshop; I think you'll find it very useful!",
+  "text": "The dish appears to be non-functional! A tiny diamond inside looks cracked. ^green;I should give the Apex scientist a ^orange;diamond ^green;so he can fix it^reset;.",
+  "completionText": "This is for the radar dish? Thank you! This radar detects potential asteroid impacts and I didn't even know it was broken! Take this down to the ^orange;2-Stop Teleshop^reset;; I think you'll find it very useful!",
   "questStartedSpeaker": "player",
   "questCompleteSpeaker": "questReceiver",
   "moneyRange": [300, 400],

@@ -32,7 +32,7 @@
           "recharge": {
             "recharge": {
               "properties": {
-                "image": "/tech/starbound/dash/recharge.png:<frame>"
+                "image": "/tech/dash/recharge.png:<frame>?hueshift=180"
               }
             },
             "off": {}

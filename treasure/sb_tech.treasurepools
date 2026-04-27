@@ -1,6 +1,8 @@
-//NOTE: Each pool should contain at least one techModules value, as the sb_tech item pulls from this if no tech is specified.
+//NOTE: Each pool should contain at least one techModule value, as the sb_tech item pulls from this if no tech is specified.
 //Personally I liked not having a treasurepool for this, but this is probably the best way to implement tiers for them.
 //But hey, at least it's not one unique item file for each tech.
+//Also, get over it... It's still cool.
+
 //"sb_humancar", "sb_hoverbike", "sb_glitchmech", "sb_apexmech", "sb_humanmech", "sb_hylotlmech"
 {
   "sb_tech": [
@@ -8,7 +10,9 @@
       "pool": [
         {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_dash"}]},
         {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_doublejump"}]},
-        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_bounce"}]}
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_bounce"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_speed"}]},
+        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_jump"}]}
       ]
     }],
     [1.9, {
@@ -27,8 +31,6 @@
         {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_morphball"}]},
         {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_lightrig"}]},
         {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_hover"}]},
-        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_speed"}]},
-        {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_jump"}]},
         {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_absorption"}]},
         {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_spiked"}]},
         {"weight": 1, "item": ["sb_tech",1,{"techModule":"sb_magnet"}]},

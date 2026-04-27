@@ -9,16 +9,13 @@
   "effects": [[{
         "effect": "sb_maxenergyboost20",
         "duration": 135
-      },{
-        "effect": "sb_energyregen",
-        "duration": 135
       },
+      "sb_energyregen",
       "sb_foodheal35"
     ]],
   "foodValue": 15,
   "tooltipKind": "sb_object4",
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],
-  "rottingMultiplier": 2.5,
-  "learnBlueprintsOnPickup": ["sb_roastbanana"]
+  "rottingMultiplier": 2.5
 }

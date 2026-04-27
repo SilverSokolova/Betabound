@@ -1,0 +1,9 @@
+{
+  "description": "",
+  "shortdescription": "Ace's Low",
+  "itemName": "sb_novakidtier6adagger",
+  "itemTags": ["weapon", "melee", "dagger"],
+  "definition": ["colors/t6a", "daggers/a"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "tooltipKind": "sb_sword"
+}

@@ -8,14 +8,9 @@
   "category": "preparedFood",
   "effects": [[{
         "effect": "maxenergyscalingboostfood",
-        "duration": 135
-      }, {
-        "effect": "sb_energyregen96",
-        "duration": 135
-      }, {
-        "effect": "runboostfood",
-        "duration": 135
+        "duration": 270
       },
+      "sb_energyregen96",
       "sb_foodheal95"
     ]],
   "description": "Roasted coffee beans covered in chocolate. A fine mix of sweet and bitter flavours.",

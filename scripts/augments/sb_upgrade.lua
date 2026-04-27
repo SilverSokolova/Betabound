@@ -7,7 +7,7 @@ function apply(input)
   local level = output:instanceValue("level", 1)
   local upgradeable = false
 
-  local tags = output:instanceValue("itemTags",{})
+  local tags = output:instanceValue("itemTags", {})
   local upgradeTags = config.getParameter("upgradeTags", {"weapon", "shield"})
   for i = 1, #tags do
     for j = 1, #upgradeTags do
@@ -18,7 +18,7 @@ function apply(input)
     end
   end
 
---upgradeable = output:instanceValue("primaryAbility",upgradeable)
+--upgradeable = output:instanceValue("primaryAbility", upgradeable)
 
   if upgradeable and level < newLevel then
     output:setInstanceValue("level", newLevel)

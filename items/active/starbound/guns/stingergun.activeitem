@@ -5,8 +5,8 @@
   "muzzleOffset": [2, 0.125],
   "baseOffset": [-1.25, 0.375],
   "price": 620,
-  "tooltipKind": "sb_gun",
-  "description": "",
+  "tooltipKind": "sb_gun2",
+  "description": "Rapidly fires poison-coated stingers.",
   "shortdescription": "Stinger Gun",
   "category": "assaultRifle",
   "twoHanded": true,
@@ -46,11 +46,12 @@
     "projectileType": ["stingergunsting"],
     "projectileParameters": {
       "speed": 70,
-      "power": 5
+      "power": 5,
+      "knockback": 5
     },
     "fireTime": [0.08, 0.16],
     "baseDps": [8.25, 12.75],
-    "energyUsage": [45, 80],
+    "energyUsage": [28.5, 31.5],
     "inaccuracy": 0.025,
     "stances": {
       "cooldown": {

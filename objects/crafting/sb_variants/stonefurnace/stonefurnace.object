@@ -1,0 +1,113 @@
+{
+  "objectName": "sb_stonefurnace",
+  "colonyTags": ["crafting", "hot"],
+  "rarity": "uncommon",
+  "tooltipKind": "sb_object",
+
+  "interactAction": "OpenCraftingInterface",
+  "interactData": {
+    "config": "/interface/windowconfig/craftingfurnace.config",
+    "paneLayoutOverride": {
+      "windowtitle": {
+        "title": "Stout Furnace",
+        "subtitle": "^#b9b5b2;Old-fashioned Smelting",
+        "icon": {
+          "file": "/interface/crafting/craftingfurnace.png"
+        }
+      }
+    },
+    "filter": ["craftingfurnace"]
+  },
+
+  "printable": true,
+  "description": "Used to turn ores and other materials into crafting ingredients.",
+  "shortdescription": "^orange;Stone Furnace^reset;",
+  "race": "generic",
+  "category": "crafting",
+  "price": 50,
+
+  "apexDescription": "A stone furnace. I can smelt things here.",
+  "avianDescription": "A basic furnace perfect for smelting ore.",
+  "floranDescription": "Furnace hisss, ssspit, burn. Floran brave it.",
+  "glitchDescription": "Impressed. The furnace is the perfect temperature for smelting basic ores.",
+  "humanDescription": "A smelting furnace! Hot.",
+  "hylotlDescription": "A hot, imposing furnace.",
+  "novakidDescription": "This furnace is hot like the mouth of hell. I better be watchin' my fingers.",
+
+  //from animator
+  "lightColor": [153, 128, 92],
+  "lightPosition": [0, 1],
+  "flickerPeriod": 0.3,
+  "flickerMinIntensity": 0.95,
+  "flickerMaxIntensity": 1,
+  "flickerPeriodVariance": 0.075,
+  "flickerIntensityVariance": 0.025,
+
+  "inventoryIcon": "stonefurnaceicon.png",
+  "orientations": [{
+      "imageLayers": [{
+          "image": "stonefurnace.png:<color>.<frame>",
+          "fullbright": true
+        }, {
+          "image": "stonefurnacelit.png:<color>.<frame>"
+        }
+      ],
+
+      "imagePosition": [-8, 0],
+      "frames": 4,
+      "animationCycle": 0.5,
+
+      "direction": "left",
+      "flipImages": true,
+
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }, {
+      "imageLayers": [{
+          "image": "stonefurnace.png:<color>.<frame>",
+          "fullbright": true
+        }, {
+          "image": "stonefurnacelit.png:<color>.<frame>"
+        }
+      ],
+
+      "imagePosition": [-8, 0],
+      "frames": 4,
+      "animationCycle": 0.5,
+
+      "direction": "right",
+
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ],
+
+  "soundEffect": "/sfx/objects/campfire.ogg",
+
+  "statusEffects": [],
+
+  "scripts": ["/scripts/npcToyObject.lua"],
+  "npcToy": {
+    "influence": [
+      "furnace",
+      "furnace",
+      "furnaceComplete"
+    ],
+    "defaultReactions": {
+      "furnace": [
+        [1, "warmhands"],
+        [1, "crouchwarm"]
+      ],
+      "furnaceComplete": [
+        [1, "warmhands"],
+        [1, "crouchwarm"],
+        [1, "pokefire"]
+      ]
+    },
+    "preciseStandPositionLeft": [-2.5, 0],
+    "preciseStandPositionRight": [2.5, 0],
+    "maxNpcs": 1
+  }
+}

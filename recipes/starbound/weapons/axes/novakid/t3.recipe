@@ -1,0 +1,5 @@
+{
+  "input": [["sb_steelbar",3],["copperbar",2]],
+  "output": "sb_novakidtier3axe",
+  "groups": ["craftinganvil2","sb_racialweapons","all"]
+}

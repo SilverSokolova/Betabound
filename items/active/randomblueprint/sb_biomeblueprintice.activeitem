@@ -1,0 +1,37 @@
+{
+  "itemName": "sb_biomeblueprintice",
+  "price": 150,
+  "rarity": "Common",
+  "description": "A blueprint for an ice object.",
+  "shortdescription": "Ice Blueprint",
+  "tooltipKind": "sb_object",
+  "category": "blueprint",
+  "twoHanded": true,
+  "sb_uncopyable": true,
+
+  "inventoryIcon": [{
+      "image": "/items/generated/blueprint.png?replace;000=0000?border=1;000"
+    }, {
+      "image": "/items/materials/iceblock.png"
+    }, {
+      "image": "/interface/inventory/dot.png",
+      "position": [4, -4]
+    }
+  ],
+  "animation": "randomblueprint.animation",
+  "scripts": ["randomblueprint.lua", "sb_randomblueprint.lua"],
+  "swingTime": 0.15,
+
+  "allowDuplicateChance": 0.1,
+  "recipes": [
+    "icebed",
+    "icechair",
+    "icechest",
+    "icedoor",
+    "icetable",
+    "icemachine",
+
+    //betabound
+    "icespherechest"
+  ]
+}

@@ -1,1 +1,31 @@
-{"description":"A hefty sword with a lot of weight behind it.","shortdescription":"Wingclipper","itemName":"sb_aviantier5mshortsword","itemTags":["weapon","melee","shortsword"],"definition":["colors/t5m","shortswords/m"],"builder":"/items/buildscripts/starbound/buildunrandweapon.lua"}
+{
+  "description": "A hefty sword with a lot of weight behind it.",
+  "shortdescription": "Wingclipper",
+  "itemName": "sb_aviantier5mshortsword",
+  "itemTags": ["weapon", "melee", "shortsword"],
+  "definition": ["colors/t5m", "shortswords/m"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [1, 0.8]
+                }
+              },
+              "fire2": {
+                "properties": {
+                  "offset": [0.5, 0.15]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

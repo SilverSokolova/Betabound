@@ -1,4 +1,6 @@
 [
 [{"op":"test","path":"/inventoryIcon","value":"mechblueprint3.png"},{"op":"replace","path":"/inventoryIcon","value":"mechblueprint3.png?replace;000=0000?border=1;000"}],
-[{"op":"add","path":"/sb_uncopyable","value":true}]
+[{"op":"test","path":"/maxStack"},{"op":"remove","path":"/maxStack"}],
+[{"op":"add","path":"/sb_uncopyable","value":true}],
+[{"op":"add","path":"/scripts/-","value":"sb_randomblueprint.lua"}]
 ]

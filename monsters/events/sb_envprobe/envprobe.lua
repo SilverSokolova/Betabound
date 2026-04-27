@@ -1,13 +1,15 @@
+--TODO: change light color with animation state
 require "/scripts/util.lua"
 require "/scripts/vec2.lua"
 require "/scripts/companions/capturable.lua"
 
 function init()
   self.dialog = config.getParameter("dialog")
+  level = monster.level()
 
   mcontroller.controlFace(1)
 
-  message.setHandler("playerTileBroken", function(_, _, position, layer, materialId, dungeonId)
+  message.setHandler("sb_playerTileBroken", function(_, _, position, layer, materialId, dungeonId)
       if self.attack.state ~= nil then
         return
       end
@@ -20,7 +22,7 @@ function init()
       end
     end)
 
-  message.setHandler("playerTileEntityBroken", function(_, _, position, entityType, objectName)
+  message.setHandler("sb_playerTileEntityBroken", function(_, _, position, entityType, objectName)
       if self.attack.state ~= nil then
         return
       end
@@ -76,7 +78,8 @@ function attack()
   if targetPosition then
     self.lightning[1].worldEndPosition = targetPosition
     monster.setAnimationParameter("lightning", self.lightning)
-    world.spawnProjectile("shock", targetPosition, entity.id(), {0, 0}, false, {power = 3})
+    world.spawnProjectile("shock", targetPosition, entity.id(), {0, 0}, false, {power = 3 * level})
+    animator.playSound("attack")
 
     util.wait(0.1)
   end
@@ -94,8 +97,8 @@ function scanTarget(dt)
     local players = world.entityQuery(mcontroller.position(), 50, { includedTypes = { "player" }, order = "nearest" })
     if #players > 0 then
       self.target = players[1]
-      world.sendEntityMessage(self.target, "listenTileBroken", entity.id())
-      world.sendEntityMessage(self.target, "listenTileEntityBroken", entity.id())
+      world.sendEntityMessage(self.target, "sb_listenTileBroken", entity.id())
+      world.sendEntityMessage(self.target, "sb_listenTileEntityBroken", entity.id())
     end
 
     util.wait(0.5)

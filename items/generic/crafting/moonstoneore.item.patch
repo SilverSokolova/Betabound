@@ -1,8 +1,20 @@
 [
 [{"op":"test","path":"/description","value":"Moonstone ore, found only on moons and often used for FTL engine construction."},
 {"op":"replace","path":"/description","value":"Moonstone ore, found only on moons and often used to make FTL engine components."}],
+
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+
 [{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":30}],
+
 [{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}],
-[{"op":"test","path":"/category","value":"craftingOre","inverse":true},{"op":"test","path":"/inventoryIcon","value":"moonstoneore.png"},{"op":"replace","path":"/inventoryIcon","value":"sb_moonstoneore.png"}] //Someone really looked at moonstone and went, "Oh, yes! This is the perfect file to use for tele​brium (READ: NOT MOONSTONE). Huh? Making new files? Nah!"
+
+//Someone really looked at moonstone and went, "Oh, yes! This is the perfect file to use for tele​brium (READ: NOT MOONSTONE). Huh? Making new files? Nah!"
+[{"op":"test","path":"/category","value":"craftingOre","inverse":true},
+{"op":"test","path":"/inventoryIcon","value":"moonstoneore.png"},
+{"op":"replace","path":"/inventoryIcon","value":"sb_moonstoneore.png"}],
+
+
+[{"op":"test","path":"/pickupQuestTemplates","inverse":true},
+{"op":"add","path":"/pickupQuestTemplates","value":[]}],
+[{"op":"add","path":"/pickupQuestTemplates/-","value":"sb_learnblueprintsonpickup:moonstoneore"}]
 ]

@@ -5,9 +5,7 @@
     {"op":"add","path":"/groups/-","value":"sb_health"}
   ],
   [
-    {"op":"test","path":"/input/2","inverse":true},
     {"op":"test","path":"/input/1/item","value":"bread"},
-    {"op":"replace","path":"/input/1/item","value":"wheat"},
-    {"op":"add","path":"/input/-","value":{"item":"cheese","count":1}}
+    {"op":"replace","path":"/input/1/item","value":"wheat"}
   ]
 ]

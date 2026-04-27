@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_novakidtier1broadsword",
+  "description": "Good enough to wave around on horseback.",
+  "shortdescription": "Saberlet",
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "definition": "broadswords/t1",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

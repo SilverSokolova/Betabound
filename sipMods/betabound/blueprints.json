@@ -1,0 +1,56 @@
+[
+//missions
+{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_lunarbaseblueprint","shortdescription":"Lunar Base Blueprint"}
+
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_hylotlmission1blueprint","shortdescription":"Hylotl Object Blueprint"}
+
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_apexmission1blueprint","shortdescription":"Apex Object Blueprint"}
+
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_ancientblueprint","shortdescription":"Ancient Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_cultistmission1blueprint","shortdescription":"Cultist Object Blueprint"}
+
+//food
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprintavian","shortdescription":"Avian Culinary Recipe"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprintglitch","shortdescription":"Glitch Culinary Recipe"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprinthuman","shortdescription":"Human Culinary Recipe"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprintfloran","shortdescription":"Floran Culinary Recipe"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprintapex","shortdescription":"Apex Culinary Recipe"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprinthylotl","shortdescription":"Hylotl Culinary Recipe"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_foodblueprintnovakid","shortdescription":"Novakid Culinary Recipe"}
+
+//other
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_instrumentblueprint","shortdescription":"Instrument Blueprint"}
+
+//biomes
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintalien","shortdescription":"Alien Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintalpine","shortdescription":"Alpine Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintbioluminescence","shortdescription":"Bioluminescence Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintbone","shortdescription":"Bone Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintcell","shortdescription":"Cell Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintcrystal","shortdescription":"Crystalline Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprinteye","shortdescription":"Eyepatch Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintflesh","shortdescription":"Flesh Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintfoundry","shortdescription":"Foundry Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintgeode","shortdescription":"Geode Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintgeometric","shortdescription":"Geometric Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintgiantflower","shortdescription":"Giant Flower Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprinthive","shortdescription":"Hive Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintice","shortdescription":"Ice Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintminivillage","shortdescription":"Gnome Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintmushroom","shortdescription":"Shroom Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintoasis","shortdescription":"Oasis Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintprism","shortdescription":"Prism Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintrainbow","shortdescription":"Colourful Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_weaponblueprintcrayon","shortdescription":"Striking Crayon Blueprint"} //goes under colorful
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintrust","shortdescription":"Rust Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintsandstone","shortdescription":"Sandstone Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintscorchedcity","shortdescription":"Scorched City Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintslime","shortdescription":"Slime Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintspring","shortdescription":"Spring Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintsteamspring","shortdescription":"Steam Spring Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintstonecave","shortdescription":"Stone Cave Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_rockblueprint","shortdescription":"Rock Blueprint"} //goes under stone cave
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprintswamp","shortdescription":"Swamp Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprinttar","shortdescription":"Tar Blueprint"}
+,{"path":"/items/active/randomblueprint/","category":"blueprint","icon":"/items/generated/blueprintinhand.png","name":"sb_biomeblueprinttoxic","shortdescription":"Toxic Blueprint"}
+]

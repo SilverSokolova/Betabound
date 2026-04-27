@@ -66,7 +66,23 @@
 ,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_corrosivegun"}}]
 ,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_corrosivegun-recipe"}}]
 ,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_alienlaser"}}]
-,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.1,"item":"wormgun-recipe"}}]
+,[{"op":"add","path":"/alienTreasure/0/1/pool/-","value":{"weight":0.3,"item":"wormgun-recipe"}}]
+
+//
+,[{"op":"test","path":"/alienTreasure/0/1/pool/6/item","value":"alienbed-recipe"},
+{"op":"replace","path":"/alienTreasure/0/1/pool/6/item","value":"sb_biomeblueprintalien"}]
+
+,[{"op":"test","path":"/alienTreasure/0/1/pool/7/item","value":"alienchair-recipe"},
+{"op":"replace","path":"/alienTreasure/0/1/pool/7/item","value":"sb_biomeblueprintalien"}]
+
+,[{"op":"test","path":"/alienTreasure/0/1/pool/8/item","value":"alienchest-recipe"},
+{"op":"replace","path":"/alienTreasure/0/1/pool/8/item","value":"sb_biomeblueprintalien"}]
+
+,[{"op":"test","path":"/alienTreasure/0/1/pool/9/item","value":"aliendoor-recipe"},
+{"op":"replace","path":"/alienTreasure/0/1/pool/9/item","value":"sb_biomeblueprintalien"}]
+
+,[{"op":"test","path":"/alienTreasure/0/1/pool/10/item","value":"alientable-recipe"},
+{"op":"replace","path":"/alienTreasure/0/1/pool/10/item","value":"sb_biomeblueprintalien"}]
 
 
   // ================================
@@ -79,6 +95,24 @@
 ,[{"op":"add","path":"/toxicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_uraniumrodstaff"}}]
 ,[{"op":"add","path":"/toxicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_uraniumrodstaff-recipe"}}]
 ,[{"op":"add","path":"/toxicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_light2energy"}}]
+
+//
+,[{"op":"test","path":"/toxicTreasure/0/1/pool/3/item","value":"toxicchest-recipe"},
+{"op":"replace","path":"/toxicTreasure/0/1/pool/3/item","value":"sb_biomeblueprinttoxic"}]
+
+,[{"op":"test","path":"/toxicTreasure/0/1/pool/4/item","value":"toxicchair-recipe"},
+{"op":"replace","path":"/toxicTreasure/0/1/pool/4/item","value":"sb_biomeblueprinttoxic"}]
+
+,[{"op":"test","path":"/toxicTreasure/0/1/pool/5/item","value":"toxiclamp1-recipe"},
+{"op":"replace","path":"/toxicTreasure/0/1/pool/5/item","value":"sb_biomeblueprinttoxic"}]
+
+,[{"op":"test","path":"/toxicTreasure/0/1/pool/6/item","value":"toxiclamp2-recipe"},
+{"op":"replace","path":"/toxicTreasure/0/1/pool/6/item","value":"sb_biomeblueprinttoxic"}]
+
+,[{"op":"test","path":"/toxicTreasure/0/1/pool/7/item","value":"toxictable-recipe"},
+{"op":"replace","path":"/toxicTreasure/0/1/pool/7/item","value":"sb_biomeblueprinttoxic"}]
+
+
 //midnight
 
   // ================================
@@ -90,9 +124,43 @@
 ,[{"op":"add","path":"/volcanicTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_heatray-recipe"}}]
 
 
-
-//scorched city
+  // ================================
+  //            Scorched City
+  // ================================
 ,[{"op":"add","path":"/scorchedcityTreasure/0/1/pool/-","value":{"weight":0.1,"item":"vrheadset"}}]
+
+
+//
+,[{"op":"test","path":"/scorchedcityTreasure/0/1/pool/0/item","value":"scorchedcitybed-recipe"},
+{"op":"replace","path":"/scorchedcityTreasure/0/1/pool/0/item","value":"sb_biomeblueprintscorchedcity"}]
+
+,[{"op":"test","path":"/scorchedcityTreasure/0/1/pool/1/item","value":"scorchedcitychair-recipe"},
+{"op":"replace","path":"/scorchedcityTreasure/0/1/pool/1/item","value":"sb_biomeblueprintscorchedcity"}]
+
+,[{"op":"test","path":"/scorchedcityTreasure/0/1/pool/2/item","value":"scorchedcitychestdrawerlarge-recipe"},
+{"op":"replace","path":"/scorchedcityTreasure/0/1/pool/2/item","value":"sb_biomeblueprintscorchedcity"}]
+
+,[{"op":"test","path":"/scorchedcityTreasure/0/1/pool/3/item","value":"scorchedcitychestdrawersmall-recipe"},
+{"op":"replace","path":"/scorchedcityTreasure/0/1/pool/3/item","value":"sb_biomeblueprintscorchedcity"}]
+
+,[{"op":"test","path":"/scorchedcityTreasure/0/1/pool/4/item","value":"scorchedcitytable-recipe"},
+{"op":"replace","path":"/scorchedcityTreasure/0/1/pool/4/item","value":"sb_biomeblueprintscorchedcity"}]
+
+,[{"op":"test","path":"/scorchedcityTreasure/0/1/pool/5/item","value":"scorchedcityfridge-recipe"},
+{"op":"replace","path":"/scorchedcityTreasure/0/1/pool/5/item","value":"sb_biomeblueprintscorchedcity"}]
+
+,[{"op":"test","path":"/scorchedcityTreasure/0/1/pool/6/item","value":"scorchedcitytv-recipe"},
+{"op":"replace","path":"/scorchedcityTreasure/0/1/pool/6/item","value":"sb_biomeblueprintscorchedcity"}]
+
+,[{"op":"test","path":"/scorchedcityTreasure/0/1/pool/7/item","value":"scorchedcitycounter-recipe"},
+{"op":"replace","path":"/scorchedcityTreasure/0/1/pool/7/item","value":"sb_biomeblueprintscorchedcity"}]
+
+,[{"op":"test","path":"/scorchedcityTreasure/0/1/pool/8/item","value":"scorchedcityregister-recipe"},
+{"op":"replace","path":"/scorchedcityTreasure/0/1/pool/8/item","value":"sb_biomeblueprintscorchedcity"}]
+
+,[{"op":"test","path":"/scorchedcityTreasure/0/1/pool/9/item","value":"scorchedcitystoreshelf-recipe"},
+{"op":"replace","path":"/scorchedcityTreasure/0/1/pool/9/item","value":"sb_biomeblueprintscorchedcity"}]
+
 
 //tentacle
 
@@ -109,7 +177,26 @@
 ,[{"op":"add","path":"/mushroomTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_mushroomsword2"}}]
 ,[{"op":"add","path":"/mushroomTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_mushroomsword2-recipe"}}]
 ,[{"op":"add","path":"/mushroomTreasure/0/1/pool/-","value":{"weight":0.3,"item":"mushroomshield-recipe"}}]
-,[{"op":"add","path":"/mushroomTreasure/0/1/pool/-","value":{"weight":0.3,"item":"mushroomhead-recipe"}}]
+
+
+//
+,[{"op":"test","path":"/mushroomTreasure/0/1/pool/2/item","value":"shroombed-recipe"},
+{"op":"replace","path":"/mushroomTreasure/0/1/pool/2/item","value":"sb_biomeblueprintmushroom"}]
+
+,[{"op":"test","path":"/mushroomTreasure/0/1/pool/3/item","value":"shroomchair-recipe"},
+{"op":"replace","path":"/mushroomTreasure/0/1/pool/3/item","value":"sb_biomeblueprintmushroom"}]
+
+,[{"op":"test","path":"/mushroomTreasure/0/1/pool/4/item","value":"shroomchest-recipe"},
+{"op":"replace","path":"/mushroomTreasure/0/1/pool/4/item","value":"sb_biomeblueprintmushroom"}]
+
+,[{"op":"test","path":"/mushroomTreasure/0/1/pool/5/item","value":"shroomdoor-recipe"},
+{"op":"replace","path":"/mushroomTreasure/0/1/pool/5/item","value":"sb_biomeblueprintmushroom"}]
+
+,[{"op":"test","path":"/mushroomTreasure/0/1/pool/6/item","value":"shroomlamp-recipe"},
+{"op":"replace","path":"/mushroomTreasure/0/1/pool/6/item","value":"sb_biomeblueprintmushroom"}]
+
+,[{"op":"test","path":"/mushroomTreasure/0/1/pool/7/item","value":"shroomtable-recipe"},
+{"op":"replace","path":"/mushroomTreasure/0/1/pool/7/item","value":"sb_biomeblueprintmushroom"}]
 
   // ================================
   //            Spring
@@ -119,8 +206,25 @@
 ,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":1,"item":["wildvines",5]}}]
 ,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":0.3,"item":"pollenpump"}}]
 ,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":0.3,"item":"pollenpump-recipe"}}]
-,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":0.3,"item":"flowerstatue-recipe"}}]
 ,[{"op":"add","path":"/springTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_naturecapeback"}}]
+
+
+//
+,[{"op":"test","path":"/springTreasure/0/1/pool/3/item","value":"flowerbox-recipe"},
+{"op":"replace","path":"/springTreasure/0/1/pool/3/item","value":"sb_biomeblueprintspring"}]
+
+,[{"op":"test","path":"/springTreasure/0/1/pool/4/item","value":"flowerlamp-recipe"},
+{"op":"replace","path":"/springTreasure/0/1/pool/4/item","value":"sb_biomeblueprintspring"}]
+
+,[{"op":"test","path":"/springTreasure/0/1/pool/5/item","value":"movingsunflower-recipe"},
+{"op":"replace","path":"/springTreasure/0/1/pool/5/item","value":"sb_biomeblueprintspring"}]
+
+,[{"op":"test","path":"/springTreasure/0/1/pool/6/item","value":"petalfountain-recipe"},
+{"op":"replace","path":"/springTreasure/0/1/pool/6/item","value":"sb_biomeblueprintspring"}]
+
+,[{"op":"test","path":"/springTreasure/0/1/pool/7/item","value":"springchest-recipe"},
+{"op":"replace","path":"/springTreasure/0/1/pool/7/item","value":"sb_biomeblueprintspring"}]
+
 
   // ================================
   //      Oasis
@@ -131,6 +235,32 @@
 //,[{"op":"add","path":"/oasisTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_blowgun-recipe"}}]
 ,[{"op":"add","path":"/oasisTreasure/0/1/pool/-","value":{"weight":0.5,"item":["sb_throwingreed",5]}}]
 
+
+//
+,[{"op":"test","path":"/oasisTreasure/0/1/pool/1/item","value":"reedchair-recipe"},
+{"op":"replace","path":"/oasisTreasure/0/1/pool/1/item","value":"sb_biomeblueprintoasis"}]
+
+,[{"op":"test","path":"/oasisTreasure/0/1/pool/2/item","value":"reedbed-recipe"},
+{"op":"replace","path":"/oasisTreasure/0/1/pool/2/item","value":"sb_biomeblueprintoasis"}]
+
+,[{"op":"test","path":"/oasisTreasure/0/1/pool/3/item","value":"reedclock-recipe"},
+{"op":"replace","path":"/oasisTreasure/0/1/pool/3/item","value":"sb_biomeblueprintoasis"}]
+
+,[{"op":"test","path":"/oasisTreasure/0/1/pool/4/item","value":"reedlamp-recipe"},
+{"op":"replace","path":"/oasisTreasure/0/1/pool/4/item","value":"sb_biomeblueprintoasis"}]
+
+,[{"op":"test","path":"/oasisTreasure/0/1/pool/5/item","value":"reeddesk-recipe"},
+{"op":"replace","path":"/oasisTreasure/0/1/pool/5/item","value":"sb_biomeblueprintoasis"}]
+
+,[{"op":"test","path":"/oasisTreasure/0/1/pool/6/item","value":"reeddoor-recipe"},
+{"op":"replace","path":"/oasisTreasure/0/1/pool/6/item","value":"sb_biomeblueprintoasis"}]
+
+,[{"op":"test","path":"/oasisTreasure/0/1/pool/7/item","value":"reedchest-recipe"},
+{"op":"replace","path":"/oasisTreasure/0/1/pool/7/item","value":"sb_biomeblueprintoasis"}]
+
+,[{"op":"test","path":"/oasisTreasure/0/1/pool/8/item","value":"reedshelf-recipe"},
+{"op":"replace","path":"/oasisTreasure/0/1/pool/8/item","value":"sb_biomeblueprintoasis"}]
+
   // ================================
   //      Tar
   // ================================
@@ -138,6 +268,32 @@
 ,[{"op":"add","path":"/tarTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_tarhammer-recipe"}}]
 ,[{"op":"add","path":"/tarTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_sabertoothspear"}}]
 ,[{"op":"add","path":"/tarTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_sabertoothspear-recipe"}}]
+
+
+//
+,[{"op":"test","path":"/tarTreasure/0/1/pool/2/item","value":"asphalt-recipe"},
+{"op":"replace","path":"/tarTreasure/0/1/pool/2/item","value":"sb_biomeblueprinttar"}]
+
+,[{"op":"test","path":"/tarTreasure/0/1/pool/7/item","value":"tarchair-recipe"},
+{"op":"replace","path":"/tarTreasure/0/1/pool/7/item","value":"sb_biomeblueprinttar"}]
+
+,[{"op":"test","path":"/tarTreasure/0/1/pool/8/item","value":"tarbed-recipe"},
+{"op":"replace","path":"/tarTreasure/0/1/pool/8/item","value":"sb_biomeblueprinttar"}]
+
+,[{"op":"test","path":"/tarTreasure/0/1/pool/9/item","value":"tarconsole-recipe"},
+{"op":"replace","path":"/tarTreasure/0/1/pool/9/item","value":"sb_biomeblueprinttar"}]
+
+,[{"op":"test","path":"/tarTreasure/0/1/pool/10/item","value":"tarlight-recipe"},
+{"op":"replace","path":"/tarTreasure/0/1/pool/10/item","value":"sb_biomeblueprinttar"}]
+
+,[{"op":"test","path":"/tarTreasure/0/1/pool/11/item","value":"tarman-recipe"},
+{"op":"replace","path":"/tarTreasure/0/1/pool/11/item","value":"sb_biomeblueprinttar"}]
+
+,[{"op":"test","path":"/tarTreasure/0/1/pool/12/item","value":"tardoor-recipe"},
+{"op":"replace","path":"/tarTreasure/0/1/pool/12/item","value":"sb_biomeblueprinttar"}]
+
+,[{"op":"test","path":"/tarTreasure/0/1/pool/13/item","value":"tarpitchest-recipe"},
+{"op":"replace","path":"/tarTreasure/0/1/pool/13/item","value":"sb_biomeblueprinttar"}]
 
   // ================================
   //            Colourful
@@ -147,19 +303,66 @@
 ,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_rainbowsword-recipe"}}]
 ,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_rainbowspear"}}]
 ,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_rainbowspear-recipe"}}]
-,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayonred-recipe"}}]
-,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayonblue-recipe"}}]
-,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayonyellow-recipe"}}]
-,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayonpurple-recipe"}}]
-,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayongreen-recipe"}}]
-,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_crayonorange-recipe"}}]
-,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.5,"item":"rainbowwoodbed-recipe"}}]
-,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.5,"item":"rainbowwoodchair-recipe"}}]
-,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.5,"item":"rainbowwooddoor-recipe"}}]
-,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.5,"item":"rainbowwoodsafe-recipe"}}]
-,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.5,"item":"rainbowwoodtable-recipe"}}]
-,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.5,"item":"rainbowunicornstatue-recipe"}}]
-,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.5,"item":"rainbowpainting-recipe"}}]
+
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_weaponblueprintcrayon"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_weaponblueprintcrayon"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_weaponblueprintcrayon"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_weaponblueprintcrayon"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_weaponblueprintcrayon"}}]
+,[{"op":"add","path":"/rainbowTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_weaponblueprintcrayon"}}]
+
+
+//
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/1/item","value":"rainbowbed-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/1/item","value":"sb_biomeblueprintrainbow"}]
+
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/2/item","value":"rainbowchair-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/2/item","value":"sb_biomeblueprintrainbow"}]
+
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/3/item","value":"rainbowchest-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/3/item","value":"sb_biomeblueprintrainbow"}]
+
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/4/item","value":"rainbowdoor-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/4/item","value":"sb_biomeblueprintrainbow"}]
+
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/5/item","value":"rainbowtable-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/5/item","value":"sb_biomeblueprintrainbow"}]
+
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/11/item","value":"crayonredback-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/11/item","value":"sb_biomeblueprintrainbow"}]
+
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/12/item","value":"crayonblueback-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/12/item","value":"sb_biomeblueprintrainbow"}]
+
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/13/item","value":"crayonyellowback-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/13/item","value":"sb_biomeblueprintrainbow"}]
+
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/14/item","value":"crayonpurpleback-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/14/item","value":"sb_biomeblueprintrainbow"}]
+
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/15/item","value":"crayongreenback-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/15/item","value":"sb_biomeblueprintrainbow"}]
+
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/16/item","value":"crayonorangeback-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/16/item","value":"sb_biomeblueprintrainbow"}]
+
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/17/item","value":"paintgunred-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/17/item","value":"sb_biomeblueprintrainbow"}]
+
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/18/item","value":"paintgunblue-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/18/item","value":"sb_biomeblueprintrainbow"}]
+
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/19/item","value":"paintgunyellow-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/19/item","value":"sb_biomeblueprintrainbow"}]
+
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/20/item","value":"paintgunpurple-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/20/item","value":"sb_biomeblueprintrainbow"}]
+
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/21/item","value":"paintgungreen-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/21/item","value":"sb_biomeblueprintrainbow"}]
+
+,[{"op":"test","path":"/rainbowTreasure/0/1/pool/22/item","value":"paintgunorange-recipe"},
+{"op":"replace","path":"/rainbowTreasure/0/1/pool/22/item","value":"sb_biomeblueprintrainbow"}]
 
   // ================================
   //    Bone
@@ -172,7 +375,21 @@
 ,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_boneaxe"}}]
 ,[{"op":"add","path":"/boneTreasure/0/1/pool/-","value":{"weight":0.2,"item":"sb_boneaxe-recipe"}}]
 
+//
+,[{"op":"test","path":"/boneTreasure/0/1/pool/2/item","value":"bonebed-recipe"},
+{"op":"replace","path":"/boneTreasure/0/1/pool/2/item","value":"sb_biomeblueprintbone"}]
 
+,[{"op":"test","path":"/boneTreasure/0/1/pool/3/item","value":"bonechair-recipe"},
+{"op":"replace","path":"/boneTreasure/0/1/pool/3/item","value":"sb_biomeblueprintbone"}]
+
+,[{"op":"test","path":"/boneTreasure/0/1/pool/4/item","value":"bonechest-recipe"},
+{"op":"replace","path":"/boneTreasure/0/1/pool/4/item","value":"sb_biomeblueprintbone"}]
+
+,[{"op":"test","path":"/boneTreasure/0/1/pool/5/item","value":"bonedoor-recipe"},
+{"op":"replace","path":"/boneTreasure/0/1/pool/5/item","value":"sb_biomeblueprintbone"}]
+
+,[{"op":"test","path":"/boneTreasure/0/1/pool/6/item","value":"bonetable-recipe"},
+{"op":"replace","path":"/boneTreasure/0/1/pool/6/item","value":"sb_biomeblueprintbone"}]
 
   // ================================
   //           Alpine
@@ -181,34 +398,116 @@
 ,[{"op":"add","path":"/alpineTreasure/0/1/pool/-","value":{"weight":0.15,"item":"sb_iceaxe"}}]
 ,[{"op":"add","path":"/alpineTreasure/0/1/pool/-","value":{"weight":0.15,"item":"sb_iceaxe-recipe"}}]
 
+//
+,[{"op":"test","path":"/alpineTreasure/0/1/pool/1/item","value":"stonechest-recipe"},
+{"op":"replace","path":"/alpineTreasure/0/1/pool/1/item","value":"sb_biomeblueprintalpine"}]
 
+,[{"op":"test","path":"/alpineTreasure/0/1/pool/2/item","value":"stonebed-recipe"},
+{"op":"replace","path":"/alpineTreasure/0/1/pool/2/item","value":"sb_biomeblueprintalpine"}]
+
+,[{"op":"test","path":"/alpineTreasure/0/1/pool/3/item","value":"stonechair-recipe"},
+{"op":"replace","path":"/alpineTreasure/0/1/pool/3/item","value":"sb_biomeblueprintalpine"}]
+
+,[{"op":"test","path":"/alpineTreasure/0/1/pool/4/item","value":"stonedoor-recipe"},
+{"op":"replace","path":"/alpineTreasure/0/1/pool/4/item","value":"sb_biomeblueprintalpine"}]
+
+,[{"op":"test","path":"/alpineTreasure/0/1/pool/5/item","value":"stonetable-recipe"},
+{"op":"replace","path":"/alpineTreasure/0/1/pool/5/item","value":"sb_biomeblueprintalpine"}]
 
   // ================================
   //      Bio Luminescent
   // ================================
-,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_glowchest-recipe"}}]
 ,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_firesword"}}]
 ,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_firesword-recipe"}}]
 ,[{"op":"add","path":"/bioluminescenceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"lightbow-recipe"}}]
 
-//giant flower
-//swamp
+//
+,[{"op":"test","path":"/bioluminescenceTreasure/0/1/pool/1/item","value":"glowflowerlamp-recipe"},
+{"op":"replace","path":"/bioluminescenceTreasure/0/1/pool/1/item","value":"sb_biomeblueprintbioluminescence"}]
+
+,[{"op":"test","path":"/bioluminescenceTreasure/0/1/pool/2/item","value":"glowbushlamp-recipe"},
+{"op":"replace","path":"/bioluminescenceTreasure/0/1/pool/2/item","value":"sb_biomeblueprintbioluminescence"}]
+
+,[{"op":"test","path":"/bioluminescenceTreasure/0/1/pool/3/item","value":"glowvinelamp-recipe"},
+{"op":"replace","path":"/bioluminescenceTreasure/0/1/pool/3/item","value":"sb_biomeblueprintbioluminescence"}]
+
+,[{"op":"test","path":"/bioluminescenceTreasure/0/1/pool/4/item","value":"glowchest-recipe"},
+{"op":"replace","path":"/bioluminescenceTreasure/0/1/pool/4/item","value":"sb_biomeblueprintbioluminescence"}]
+
+,[{"op":"test","path":"/bioluminescenceTreasure/0/1/pool/5/item","value":"glowbed-recipe"},
+{"op":"replace","path":"/bioluminescenceTreasure/0/1/pool/5/item","value":"sb_biomeblueprintbioluminescence"}]
+
+,[{"op":"test","path":"/bioluminescenceTreasure/0/1/pool/6/item","value":"glowchair-recipe"},
+{"op":"replace","path":"/bioluminescenceTreasure/0/1/pool/6/item","value":"sb_biomeblueprintbioluminescence"}]
+  // ================================
+  //            Giant Flower
+  // ================================
+,[{"op":"test","path":"/giantflowerTreasure/0/1/pool/9/item","value":"giantflowerbed-recipe"},
+{"op":"replace","path":"/giantflowerTreasure/0/1/pool/9/item","value":"sb_biomeblueprintgiantflower"}]
+
+,[{"op":"test","path":"/giantflowerTreasure/0/1/pool/10/item","value":"giantflowerchair-recipe"},
+{"op":"replace","path":"/giantflowerTreasure/0/1/pool/10/item","value":"sb_biomeblueprintgiantflower"}]
+
+,[{"op":"test","path":"/giantflowerTreasure/0/1/pool/11/item","value":"giantflowerchest-recipe"},
+{"op":"replace","path":"/giantflowerTreasure/0/1/pool/11/item","value":"sb_biomeblueprintgiantflower"}]
+
+,[{"op":"test","path":"/giantflowerTreasure/0/1/pool/12/item","value":"giantflowerdoor-recipe"},
+{"op":"replace","path":"/giantflowerTreasure/0/1/pool/12/item","value":"sb_biomeblueprintgiantflower"}]
+
+,[{"op":"test","path":"/giantflowerTreasure/0/1/pool/13/item","value":"giantflowerlamp-recipe"},
+{"op":"replace","path":"/giantflowerTreasure/0/1/pool/13/item","value":"sb_biomeblueprintgiantflower"}]
+
+,[{"op":"test","path":"/giantflowerTreasure/0/1/pool/14/item","value":"giantflowertable-recipe"},
+{"op":"replace","path":"/giantflowerTreasure/0/1/pool/14/item","value":"sb_biomeblueprintgiantflower"}]
+
+  // ================================
+  //            Swamp
+  // ================================
+,[{"op":"test","path":"/swampTreasure/0/1/pool/0/item","value":"swampchair-recipe"},
+{"op":"replace","path":"/swampTreasure/0/1/pool/0/item","value":"sb_biomeblueprintswamp"}]
+
+,[{"op":"test","path":"/swampTreasure/0/1/pool/1/item","value":"swampbed-recipe"},
+{"op":"replace","path":"/swampTreasure/0/1/pool/1/item","value":"sb_biomeblueprintswamp"}]
+
+,[{"op":"test","path":"/swampTreasure/0/1/pool/2/item","value":"swampybed-recipe"},
+{"op":"replace","path":"/swampTreasure/0/1/pool/2/item","value":"sb_biomeblueprintswamp"}]
+
+,[{"op":"test","path":"/swampTreasure/0/1/pool/3/item","value":"swampchest-recipe"},
+{"op":"replace","path":"/swampTreasure/0/1/pool/3/item","value":"sb_biomeblueprintswamp"}]
   // ================================
   //            Eyeball
   // ================================
 //,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"rock02-recipe"}}]
+/*
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyebed-recipe"}}]
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyechair-recipe"}}]
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyechest-recipe"}}]
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyedoor-recipe"}}]
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyetable-recipe"}}]
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"eyehead-recipe"}}]
+*/
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_hawkeyes"}}]
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyesword"}}]
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyesword-recipe"}}]
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_hawkeyes"}}]
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyeballhead"}}]
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyeballchest"}}]
+
+//
+,[{"op":"test","path":"/eyeTreasure/0/1/pool/1/item","value":"eyebed-recipe"},
+{"op":"replace","path":"/eyeTreasure/0/1/pool/1/item","value":"sb_biomeblueprinteye"}]
+
+,[{"op":"test","path":"/eyeTreasure/0/1/pool/2/item","value":"eyechair-recipe"},
+{"op":"replace","path":"/eyeTreasure/0/1/pool/2/item","value":"sb_biomeblueprinteye"}]
+
+,[{"op":"test","path":"/eyeTreasure/0/1/pool/3/item","value":"eyechest-recipe"},
+{"op":"replace","path":"/eyeTreasure/0/1/pool/3/item","value":"sb_biomeblueprinteye"}]
+
+,[{"op":"test","path":"/eyeTreasure/0/1/pool/4/item","value":"eyedoor-recipe"},
+{"op":"replace","path":"/eyeTreasure/0/1/pool/4/item","value":"sb_biomeblueprinteye"}]
+
+,[{"op":"test","path":"/eyeTreasure/0/1/pool/5/item","value":"eyetable-recipe"},
+{"op":"replace","path":"/eyeTreasure/0/1/pool/5/item","value":"sb_biomeblueprinteye"}]
 
 
   // ================================
@@ -218,8 +517,71 @@
 ,[{"op":"add","path":"/iceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_frostspear-recipe"}}]
 ,[{"op":"add","path":"/iceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"frostshield"}}]
 ,[{"op":"add","path":"/iceTreasure/0/1/pool/-","value":{"weight":0.3,"item":"frostshield-recipe"}}]
-//steam spring
-//prism
+
+
+//
+,[{"op":"test","path":"/iceTreasure/0/1/pool/1/item","value":"icebed-recipe"},
+{"op":"replace","path":"/iceTreasure/0/1/pool/1/item","value":"sb_biomeblueprintice"}]
+
+,[{"op":"test","path":"/iceTreasure/0/1/pool/2/item","value":"icechair-recipe"},
+{"op":"replace","path":"/iceTreasure/0/1/pool/2/item","value":"sb_biomeblueprintice"}]
+
+,[{"op":"test","path":"/iceTreasure/0/1/pool/3/item","value":"icechest-recipe"},
+{"op":"replace","path":"/iceTreasure/0/1/pool/3/item","value":"sb_biomeblueprintice"}]
+
+,[{"op":"test","path":"/iceTreasure/0/1/pool/4/item","value":"icedoor-recipe"},
+{"op":"replace","path":"/iceTreasure/0/1/pool/4/item","value":"sb_biomeblueprintice"}]
+
+,[{"op":"test","path":"/iceTreasure/0/1/pool/5/item","value":"icetable-recipe"},
+{"op":"replace","path":"/iceTreasure/0/1/pool/5/item","value":"sb_biomeblueprintice"}]
+
+,[{"op":"test","path":"/iceTreasure/0/1/pool/6/item","value":"icemachine-recipe"},
+{"op":"replace","path":"/iceTreasure/0/1/pool/6/item","value":"sb_biomeblueprintice"}]
+
+
+  // ================================
+  //            Steam Spring
+  // ================================
+//TODO: this pool has a chance for a SINGLE copper block lmao maybe we should change that
+,[{"op":"test","path":"/steamspringTreasure/0/1/pool/0/item","value":"steamspringlamp-recipe"},
+{"op":"replace","path":"/steamspringTreasure/0/1/pool/0/item","value":"sb_biomeblueprintsteamspring"}]
+
+,[{"op":"test","path":"/steamspringTreasure/0/1/pool/1/item","value":"steamspringbed-recipe"},
+{"op":"replace","path":"/steamspringTreasure/0/1/pool/1/item","value":"sb_biomeblueprintsteamspring"}]
+
+,[{"op":"test","path":"/steamspringTreasure/0/1/pool/2/item","value":"steamspringdoor-recipe"},
+{"op":"replace","path":"/steamspringTreasure/0/1/pool/2/item","value":"sb_biomeblueprintsteamspring"}]
+
+,[{"op":"test","path":"/steamspringTreasure/0/1/pool/3/item","value":"steamspringchair-recipe"},
+{"op":"replace","path":"/steamspringTreasure/0/1/pool/3/item","value":"sb_biomeblueprintsteamspring"}]
+
+,[{"op":"test","path":"/steamspringTreasure/0/1/pool/4/item","value":"steamspringtable-recipe"},
+{"op":"replace","path":"/steamspringTreasure/0/1/pool/4/item","value":"sb_biomeblueprintsteamspring"}]
+
+  // ================================
+  //            Prism
+  // ================================
+//TODO: vanilla, chance for SINGLE ice block lmao?? 50
+,[{"op":"test","path":"/prismTreasure/0/1/pool/3/item","value":"prismbed-recipe"},
+{"op":"replace","path":"/prismTreasure/0/1/pool/3/item","value":"sb_biomeblueprintprism"}]
+
+,[{"op":"test","path":"/prismTreasure/0/1/pool/4/item","value":"prismdoor-recipe"},
+{"op":"replace","path":"/prismTreasure/0/1/pool/4/item","value":"sb_biomeblueprintprism"}]
+
+,[{"op":"test","path":"/prismTreasure/0/1/pool/5/item","value":"prismchair-recipe"},
+{"op":"replace","path":"/prismTreasure/0/1/pool/5/item","value":"sb_biomeblueprintprism"}]
+
+,[{"op":"test","path":"/prismTreasure/0/1/pool/6/item","value":"prismtable-recipe"},
+{"op":"replace","path":"/prismTreasure/0/1/pool/6/item","value":"sb_biomeblueprintprism"}]
+
+,[{"op":"test","path":"/prismTreasure/0/1/pool/7/item","value":"prismlamp1-recipe"},
+{"op":"replace","path":"/prismTreasure/0/1/pool/7/item","value":"sb_biomeblueprintprism"}]
+
+,[{"op":"test","path":"/prismTreasure/0/1/pool/8/item","value":"prismlamp2-recipe"},
+{"op":"replace","path":"/prismTreasure/0/1/pool/8/item","value":"sb_biomeblueprintprism"}]
+
+,[{"op":"test","path":"/prismTreasure/0/1/pool/9/item","value":"prismlamp3-recipe"},
+{"op":"replace","path":"/prismTreasure/0/1/pool/9/item","value":"sb_biomeblueprintprism"}]
 
   // ================================
   //            Hive
@@ -228,24 +590,103 @@
 ,[{"op":"add","path":"/hiveTreasure/0/1/pool/-","value":{"weight":0.3,"item":["hivebomb",3]}}]
 ,[{"op":"add","path":"/hiveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_stingergun"}}]
 
-//foundry
+//
+,[{"op":"test","path":"/hiveTreasure/0/1/pool/4/item","value":"hivebed-recipe"},
+{"op":"replace","path":"/hiveTreasure/0/1/pool/4/item","value":"sb_biomeblueprinthive"}]
+
+,[{"op":"test","path":"/hiveTreasure/0/1/pool/5/item","value":"hivedoor-recipe"},
+{"op":"replace","path":"/hiveTreasure/0/1/pool/5/item","value":"sb_biomeblueprinthive"}]
+
+,[{"op":"test","path":"/hiveTreasure/0/1/pool/6/item","value":"hivechair-recipe"},
+{"op":"replace","path":"/hiveTreasure/0/1/pool/6/item","value":"sb_biomeblueprinthive"}]
+
+,[{"op":"test","path":"/hiveTreasure/0/1/pool/7/item","value":"hivetable-recipe"},
+{"op":"replace","path":"/hiveTreasure/0/1/pool/7/item","value":"sb_biomeblueprinthive"}]
+
+,[{"op":"test","path":"/hiveTreasure/0/1/pool/8/item","value":"hivelamp-recipe"},
+{"op":"replace","path":"/hiveTreasure/0/1/pool/8/item","value":"sb_biomeblueprinthive"}]
 
   // ================================
-  //              Rust (For now, use foundry chests)
+  //              Foundry
   // ================================
-,[{"op":"add","path":"/foundryTreasure/0/1/pool/-","value":{"weight":0.3,"item":"rustchest-recipe"}}]
-,[{"op":"add","path":"/foundryTreasure/0/1/pool/-","value":{"weight":0.3,"item":"rustbed-recipe"}}]
-,[{"op":"add","path":"/foundryTreasure/0/1/pool/-","value":{"weight":0.3,"item":"rustchair-recipe"}}]
-,[{"op":"add","path":"/foundryTreasure/0/1/pool/-","value":{"weight":0.3,"item":"rustdoor-recipe"}}]
-,[{"op":"add","path":"/foundryTreasure/0/1/pool/-","value":{"weight":0.3,"item":"rusttable-recipe"}}]
+,[{"op":"test","path":"/foundryTreasure/0/1/pool/1/item","value":"foundrybed-recipe"},
+{"op":"replace","path":"/foundryTreasure/0/1/pool/1/item","value":"sb_biomeblueprintfoundry"}]
 
+,[{"op":"test","path":"/foundryTreasure/0/1/pool/2/item","value":"foundrychair-recipe"},
+{"op":"replace","path":"/foundryTreasure/0/1/pool/2/item","value":"sb_biomeblueprintfoundry"}]
 
-//geode
-//crystal
+,[{"op":"test","path":"/foundryTreasure/0/1/pool/3/item","value":"foundrydoor-recipe"},
+{"op":"replace","path":"/foundryTreasure/0/1/pool/3/item","value":"sb_biomeblueprintfoundry"}]
+
+,[{"op":"test","path":"/foundryTreasure/0/1/pool/4/item","value":"foundrylight-recipe"},
+{"op":"replace","path":"/foundryTreasure/0/1/pool/4/item","value":"sb_biomeblueprintfoundry"}]
+
+,[{"op":"test","path":"/foundryTreasure/0/1/pool/5/item","value":"magmalamp-recipe"},
+{"op":"replace","path":"/foundryTreasure/0/1/pool/5/item","value":"sb_biomeblueprintfoundry"}]
+
+  // ================================
+  //              Geode
+  // ================================
+,[{"op":"test","path":"/geodeTreasure/0/1/pool/0/item","value":"geodebed-recipe"},
+{"op":"replace","path":"/geodeTreasure/0/1/pool/0/item","value":"sb_biomeblueprintgeode"}]
+
+,[{"op":"test","path":"/geodeTreasure/0/1/pool/1/item","value":"geodechair-recipe"},
+{"op":"replace","path":"/geodeTreasure/0/1/pool/1/item","value":"sb_biomeblueprintgeode"}]
+
+,[{"op":"test","path":"/geodeTreasure/0/1/pool/2/item","value":"geodedoor-recipe"},
+{"op":"replace","path":"/geodeTreasure/0/1/pool/2/item","value":"sb_biomeblueprintgeode"}]
+
+,[{"op":"test","path":"/geodeTreasure/0/1/pool/3/item","value":"geodeplantpot-recipe"},
+{"op":"replace","path":"/geodeTreasure/0/1/pool/3/item","value":"sb_biomeblueprintgeode"}]
+
+,[{"op":"test","path":"/geodeTreasure/0/1/pool/4/item","value":"geodeceilinglight-recipe"},
+{"op":"replace","path":"/geodeTreasure/0/1/pool/4/item","value":"sb_biomeblueprintgeode"}]
+//decided against making a separate blueprint item for the notes
+,[{"op":"test","path":"/geodeTreasure/0/1/pool/8/item","value":"geodelowanote-recipe"},
+{"op":"replace","path":"/geodeTreasure/0/1/pool/8/item","value":"sb_biomeblueprintgeode"}]
+
+,[{"op":"test","path":"/geodeTreasure/0/1/pool/9/item","value":"geodebnote-recipe"},
+{"op":"replace","path":"/geodeTreasure/0/1/pool/9/item","value":"sb_biomeblueprintgeode"}]
+
+,[{"op":"test","path":"/geodeTreasure/0/1/pool/10/item","value":"geodecnote-recipe"},
+{"op":"replace","path":"/geodeTreasure/0/1/pool/10/item","value":"sb_biomeblueprintgeode"}]
+
+,[{"op":"test","path":"/geodeTreasure/0/1/pool/11/item","value":"geodednote-recipe"},
+{"op":"replace","path":"/geodeTreasure/0/1/pool/11/item","value":"sb_biomeblueprintgeode"}]
+
+,[{"op":"test","path":"/geodeTreasure/0/1/pool/12/item","value":"geodeenote-recipe"},
+{"op":"replace","path":"/geodeTreasure/0/1/pool/12/item","value":"sb_biomeblueprintgeode"}]
+
+,[{"op":"test","path":"/geodeTreasure/0/1/pool/13/item","value":"geodefnote-recipe"},
+{"op":"replace","path":"/geodeTreasure/0/1/pool/13/item","value":"sb_biomeblueprintgeode"}]
+
+,[{"op":"test","path":"/geodeTreasure/0/1/pool/14/item","value":"geodegnote-recipe"},
+{"op":"replace","path":"/geodeTreasure/0/1/pool/14/item","value":"sb_biomeblueprintgeode"}]
+
+,[{"op":"test","path":"/geodeTreasure/0/1/pool/15/item","value":"geodehighanote-recipe"},
+{"op":"replace","path":"/geodeTreasure/0/1/pool/15/item","value":"sb_biomeblueprintgeode"}]
+
+  // ================================
+  //              Crystal
+  // ================================
 ,[{"op":"add","path":"/crystalTreasure/0/1/pool/-","value":{"weight":0.03,"pool":"sb_crystalMusic"}}]
 ,[{"op":"add","path":"/crystalTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_hackman"}}]
 ,[{"op":"add","path":"/crystalTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_hackman-recipe"}}]
+//
+,[{"op":"test","path":"/crystalTreasure/0/1/pool/0/item","value":"crystalbed-recipe"},
+{"op":"replace","path":"/crystalTreasure/0/1/pool/0/item","value":"sb_biomeblueprintcrystal"}]
 
+,[{"op":"test","path":"/crystalTreasure/0/1/pool/1/item","value":"crystalchair-recipe"},
+{"op":"replace","path":"/crystalTreasure/0/1/pool/1/item","value":"sb_biomeblueprintcrystal"}]
+
+,[{"op":"test","path":"/crystalTreasure/0/1/pool/2/item","value":"crystalchest-recipe"},
+{"op":"replace","path":"/crystalTreasure/0/1/pool/2/item","value":"sb_biomeblueprintcrystal"}]
+
+,[{"op":"test","path":"/crystalTreasure/0/1/pool/3/item","value":"crystallamp-recipe"},
+{"op":"replace","path":"/crystalTreasure/0/1/pool/3/item","value":"sb_biomeblueprintcrystal"}]
+
+,[{"op":"test","path":"/crystalTreasure/0/1/pool/4/item","value":"crystaltable-recipe"},
+{"op":"replace","path":"/crystalTreasure/0/1/pool/4/item","value":"sb_biomeblueprintcrystal"}]
 
 
 
@@ -258,8 +699,30 @@
   // ================================
 ,[{"op":"add","path":"/mushroomUndergroundTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_smashroom"}}]
 ,[{"op":"add","path":"/mushroomUndergroundTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_smashroom-recipe"}}]
-,[{"op":"add","path":"/mushroomUndergroundTreasure/0/1/pool/-","value":{"weight":0.3,"item":"shroomstatue-recipe"}}]
-,[{"op":"add","path":"/mushroomUndergroundTreasure/0/1/pool/-","value":{"weight":0.3,"item":"mushroomhead-recipe"}}]
+//,[{"op":"add","path":"/mushroomUndergroundTreasure/0/1/pool/-","value":{"weight":0.3,"item":"shroomstatue-recipe"}}]
+//,[{"op":"add","path":"/mushroomUndergroundTreasure/0/1/pool/-","value":{"weight":0.3,"item":"mushroomhead-recipe"}}]
+
+//
+,[{"op":"test","path":"/mushroomUndergroundTreasure/0/1/pool/1/item","value":"shroombed-recipe"},
+{"op":"replace","path":"/mushroomUndergroundTreasure/0/1/pool/1/item","value":"sb_biomeblueprintmushroom"}]
+
+,[{"op":"test","path":"/mushroomUndergroundTreasure/0/1/pool/2/item","value":"shroomchair-recipe"},
+{"op":"replace","path":"/mushroomUndergroundTreasure/0/1/pool/2/item","value":"sb_biomeblueprintmushroom"}]
+
+,[{"op":"test","path":"/mushroomUndergroundTreasure/0/1/pool/3/item","value":"shroomchest-recipe"},
+{"op":"replace","path":"/mushroomUndergroundTreasure/0/1/pool/3/item","value":"sb_biomeblueprintmushroom"}]
+
+,[{"op":"test","path":"/mushroomUndergroundTreasure/0/1/pool/4/item","value":"shroomdoor-recipe"},
+{"op":"replace","path":"/mushroomUndergroundTreasure/0/1/pool/4/item","value":"sb_biomeblueprintmushroom"}]
+
+,[{"op":"test","path":"/mushroomUndergroundTreasure/0/1/pool/5/item","value":"shroomlamp-recipe"},
+{"op":"replace","path":"/mushroomUndergroundTreasure/0/1/pool/5/item","value":"sb_biomeblueprintmushroom"}]
+
+,[{"op":"test","path":"/mushroomUndergroundTreasure/0/1/pool/6/item","value":"shroomtable-recipe"},
+{"op":"replace","path":"/mushroomUndergroundTreasure/0/1/pool/6/item","value":"sb_biomeblueprintmushroom"}]
+
+,[{"op":"test","path":"/mushroomUndergroundTreasure/0/1/pool/7/item","value":"shroomwardrobe-recipe"},
+{"op":"replace","path":"/mushroomUndergroundTreasure/0/1/pool/7/item","value":"sb_biomeblueprintmushroom"}]
 
   // ================================
   //      Underground Wilderness
@@ -272,27 +735,49 @@
 //,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.003,"item":"sb_rock02-recipe"}}]
 //,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.003,"item":"sb_rock03-recipe"}}]
 //,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.003,"item":"sb_rock04-recipe"}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.2,"item":["gnome",7]}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.2,"item":["gnome",14]}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.2,"item":["gnome",21]}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallchurch-recipe"}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallclocktower-recipe"}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse1-recipe"}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse2-recipe"}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse3-recipe"}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse4-recipe"}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse5-recipe"}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse6-recipe"}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse7-recipe"}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse8-recipe"}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse9-recipe"}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse10-recipe"}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallhouse11-recipe"}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallinn-recipe"}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smalllamppost-recipe"}}]
-,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.02,"item":"smallwindmill-recipe"}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.1,"item":["gnome",7]}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.1,"item":["gnome",14]}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.1,"item":["gnome",21]}}]
+,[{"op":"add","path":"/miniVillageTreasure/0/1/pool/-","value":{"weight":0.12,"item":"sb_biomeblueprintminivillage"}}]
 
-//underground tar
+//throwing gnomes to gnomes
+,[{"op":"test","path":"/miniVillageTreasure/0/1/pool/1/item/0","value":"throwinggnome"},
+{"op":"replace","path":"/miniVillageTreasure/0/1/pool/1/item/0","value":"gnome"}]
+
+,[{"op":"test","path":"/miniVillageTreasure/0/1/pool/2/item/0","value":"throwinggnome"},
+{"op":"replace","path":"/miniVillageTreasure/0/1/pool/2/item/0","value":"gnome"}]
+
+,[{"op":"test","path":"/miniVillageTreasure/0/1/pool/3/item/0","value":"throwinggnome"},
+{"op":"replace","path":"/miniVillageTreasure/0/1/pool/3/item/0","value":"gnome"}]
+
+
+  // ================================
+  //    Underground Tar
+  // ================================
+
+,[{"op":"test","path":"/tarUndergroundTreasure/0/1/pool/3/item","value":"asphalt-recipe"},
+{"op":"replace","path":"/tarUndergroundTreasure/0/1/pool/3/item","value":"sb_biomeblueprinttar"}]
+
+,[{"op":"test","path":"/tarUndergroundTreasure/0/1/pool/8/item","value":"tarchair-recipe"},
+{"op":"replace","path":"/tarUndergroundTreasure/0/1/pool/8/item","value":"sb_biomeblueprinttar"}]
+
+,[{"op":"test","path":"/tarUndergroundTreasure/0/1/pool/9/item","value":"tarbed-recipe"},
+{"op":"replace","path":"/tarUndergroundTreasure/0/1/pool/9/item","value":"sb_biomeblueprinttar"}]
+
+,[{"op":"test","path":"/tarUndergroundTreasure/0/1/pool/10/item","value":"tarconsole-recipe"},
+{"op":"replace","path":"/tarUndergroundTreasure/0/1/pool/10/item","value":"sb_biomeblueprinttar"}]
+
+,[{"op":"test","path":"/tarUndergroundTreasure/0/1/pool/11/item","value":"tarlight-recipe"},
+{"op":"replace","path":"/tarUndergroundTreasure/0/1/pool/11/item","value":"sb_biomeblueprinttar"}]
+
+,[{"op":"test","path":"/tarUndergroundTreasure/0/1/pool/12/item","value":"tarman-recipe"},
+{"op":"replace","path":"/tarUndergroundTreasure/0/1/pool/12/item","value":"sb_biomeblueprinttar"}]
+
+,[{"op":"test","path":"/tarUndergroundTreasure/0/1/pool/13/item","value":"tardoor-recipe"},
+{"op":"replace","path":"/tarUndergroundTreasure/0/1/pool/13/item","value":"sb_biomeblueprinttar"}]
+
+,[{"op":"test","path":"/tarUndergroundTreasure/0/1/pool/14/item","value":"tarpitchest-recipe"},
+{"op":"replace","path":"/tarUndergroundTreasure/0/1/pool/14/item","value":"sb_biomeblueprinttar"}]
 
   // ================================
   //    Bone Cave
@@ -302,6 +787,21 @@
 ,[{"op":"add","path":"/boneCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_bonepistol"}}]
 //,[{"op":"add","path":"/boneCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_bonesword"}}]
 
+//
+,[{"op":"test","path":"/boneCaveTreasure/0/1/pool/3/item","value":"bonebed-recipe"},
+{"op":"replace","path":"/boneCaveTreasure/0/1/pool/3/item","value":"sb_biomeblueprintbone"}]
+
+,[{"op":"test","path":"/boneCaveTreasure/0/1/pool/4/item","value":"bonechair-recipe"},
+{"op":"replace","path":"/boneCaveTreasure/0/1/pool/4/item","value":"sb_biomeblueprintbone"}]
+
+,[{"op":"test","path":"/boneCaveTreasure/0/1/pool/5/item","value":"bonechest-recipe"},
+{"op":"replace","path":"/boneCaveTreasure/0/1/pool/5/item","value":"sb_biomeblueprintbone"}]
+
+,[{"op":"test","path":"/boneCaveTreasure/0/1/pool/6/item","value":"bonedoor-recipe"},
+{"op":"replace","path":"/boneCaveTreasure/0/1/pool/6/item","value":"sb_biomeblueprintbone"}]
+
+,[{"op":"test","path":"/boneCaveTreasure/0/1/pool/7/item","value":"bonetable-recipe"},
+{"op":"replace","path":"/boneCaveTreasure/0/1/pool/7/item","value":"sb_biomeblueprintbone"}]
 
   // ================================
   //    Ice Cave
@@ -310,7 +810,7 @@
 ,[{"op":"add","path":"/iceCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"frozenbow"}}]
 ,[{"op":"add","path":"/iceCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"frozenbow-recipe"}}]
 ,[{"op":"add","path":"/iceCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_freezeray"}}]
-,[{"op":"add","path":"/iceCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"icespherechest-recipe"}}]
+//,[{"op":"add","path":"/iceCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"icespherechest-recipe"}}]
 
 
   // ================================
@@ -318,9 +818,22 @@
   // ================================
 //,[{"op":"test","path":"/stoneCaveTreasure/0/1/pool/0/item/0","value":"limestone"},{"op":"test","path":"/stoneCaveTreasure/0/1/pool/0/weight","value":1.0},{"op":"replace","path":"/stoneCaveTreasure/0/1/pool/0/weight","value":0.5}]
 //,[{"op":"add","path":"/stoneCaveTreasure/0/1/pool/-","value":{"weight":1,"item":["rock01",15]}}]
-,[{"op":"add","path":"/stoneCaveTreasure/0/1/pool/-","value":{"weight":0.3,"pool":"sb_rockblueprints"}}]
+,[{"op":"add","path":"/stoneCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_rockblueprint"}}]
 ,[{"op":"add","path":"/stoneCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"cavebow"}}]
 ,[{"op":"add","path":"/stoneCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_cavehammer"}}]
+
+//
+,[{"op":"test","path":"/stoneCaveTreasure/0/1/pool/1/item","value":"cavebed-recipe"},
+{"op":"replace","path":"/stoneCaveTreasure/0/1/pool/1/item","value":"sb_biomeblueprintstonecave"}]
+
+,[{"op":"test","path":"/stoneCaveTreasure/0/1/pool/2/item","value":"cavechair-recipe"},
+{"op":"replace","path":"/stoneCaveTreasure/0/1/pool/2/item","value":"sb_biomeblueprintstonecave"}]
+
+,[{"op":"test","path":"/stoneCaveTreasure/0/1/pool/3/item","value":"cavechest-recipe"},
+{"op":"replace","path":"/stoneCaveTreasure/0/1/pool/3/item","value":"sb_biomeblueprintstonecave"}]
+
+,[{"op":"test","path":"/stoneCaveTreasure/0/1/pool/4/item","value":"cavelamp-recipe"},
+{"op":"replace","path":"/stoneCaveTreasure/0/1/pool/4/item","value":"sb_biomeblueprintstonecave"}]
 
   // ================================
   //    Luminous Cave
@@ -328,13 +841,27 @@
 ,[{"op":"add","path":"/luminousCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_biostaff"}}]
 ,[{"op":"add","path":"/luminousCaveTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_biostaff-recipe"}}]
 
-
+//Sorry bioshroomtable but I don't think you qualify as a biome blueprint set
+//this is bullshit you let 10 variants of cobblestone in
 
   // ================================
   //      Underground Flesh
   // ================================
 ,[{"op":"add","path":"/fleshTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_fleshstaff"}}]
-,[{"op":"add","path":"/fleshTreasure/0/1/pool/-","value":{"weight":0.3,"item":"fleshbed-recipe"}}]
+//,[{"op":"add","path":"/fleshTreasure/0/1/pool/-","value":{"weight":0.3,"item":"fleshbed-recipe"}}]
+
+//
+,[{"op":"test","path":"/fleshTreasure/0/1/pool/1/item","value":"fleshchair-recipe"},
+{"op":"replace","path":"/fleshTreasure/0/1/pool/1/item","value":"sb_biomeblueprintflesh"}]
+
+,[{"op":"test","path":"/fleshTreasure/0/1/pool/2/item","value":"fleshchest-recipe"},
+{"op":"replace","path":"/fleshTreasure/0/1/pool/2/item","value":"sb_biomeblueprintflesh"}]
+
+,[{"op":"test","path":"/fleshTreasure/0/1/pool/3/item","value":"fleshdoor-recipe"},
+{"op":"replace","path":"/fleshTreasure/0/1/pool/3/item","value":"sb_biomeblueprintflesh"}]
+
+,[{"op":"test","path":"/fleshTreasure/0/1/pool/4/item","value":"fleshtable-recipe"},
+{"op":"replace","path":"/fleshTreasure/0/1/pool/4/item","value":"sb_biomeblueprintflesh"}]
 
 
   // ================================
@@ -343,16 +870,40 @@
 ,[{"op":"add","path":"/cellTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_chromosword"}}]
 ,[{"op":"add","path":"/cellTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_chromosword-recipe"}}]
 
+//
+,[{"op":"test","path":"/cellTreasure/0/1/pool/2/item","value":"cellchair-recipe"},
+{"op":"replace","path":"/cellTreasure/0/1/pool/2/item","value":"sb_biomeblueprintcell"}]
+
+,[{"op":"test","path":"/cellTreasure/0/1/pool/3/item","value":"celltable-recipe"},
+{"op":"replace","path":"/cellTreasure/0/1/pool/3/item","value":"sb_biomeblueprintcell"}]
+
+,[{"op":"test","path":"/cellTreasure/0/1/pool/4/item","value":"celldoor-recipe"},
+{"op":"replace","path":"/cellTreasure/0/1/pool/4/item","value":"sb_biomeblueprintcell"}]
+
+,[{"op":"test","path":"/cellTreasure/0/1/pool/5/item","value":"celllamp-recipe"},
+{"op":"replace","path":"/cellTreasure/0/1/pool/5/item","value":"sb_biomeblueprintcell"}]
+
+,[{"op":"test","path":"/cellTreasure/0/1/pool/6/item","value":"cellchest-recipe"},
+{"op":"replace","path":"/cellTreasure/0/1/pool/6/item","value":"sb_biomeblueprintcell"}]
+
   // ================================
   //    Slime Cave
   // ================================
-,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.05,"item":"sb_slimehide-recipe"}}]
 ,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.2,"item":["sb_slimehandgrapple",5]}}]
 ,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_slimestaff"}}]
 ,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_slimestaff-recipe"}}]
 ,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_cutarrh"}}]
 ,[{"op":"add","path":"/slimeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_cutarrh-recipe"}}]
 
+//
+,[{"op":"test","path":"/slimeTreasure/0/1/pool/1/item","value":"slimechair-recipe"},
+{"op":"replace","path":"/slimeTreasure/0/1/pool/1/item","value":"sb_biomeblueprintslime"}]
+
+,[{"op":"test","path":"/slimeTreasure/0/1/pool/2/item","value":"slimebed-recipe"},
+{"op":"replace","path":"/slimeTreasure/0/1/pool/2/item","value":"sb_biomeblueprintslime"}]
+
+,[{"op":"test","path":"/slimeTreasure/0/1/pool/3/item","value":"slimehide-recipe"},
+{"op":"replace","path":"/slimeTreasure/0/1/pool/3/item","value":"sb_biomeblueprintslime"}]
 
 
   // ================================
@@ -361,24 +912,33 @@
   // ================================
 //,[{"op":"test","path":"/sandstoneTreasure/0/1/poolRounds/0/1","value":1},{"op":"replace","path":"/sandstoneTreasure/0/1/poolRounds/0/1","value":2}]
 //,[{"op":"test","path":"/sandstoneTreasure/0/1/poolRounds/1/1","value":2},{"op":"replace","path":"/sandstoneTreasure/0/1/poolRounds/1/1","value":3}]
-,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sandstonebed-recipe"}}]
-,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sandstonechair-recipe"}}]
-,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sandstonechest-recipe"}}]
-,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sandstonedoor-recipe"}}]
-,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sandstonetable-recipe"}}]
-,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sandstonetorch-recipe"}}]
+,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_biomeblueprintsandstone"}}]
+,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_biomeblueprintsandstone"}}]
+,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_biomeblueprintsandstone"}}]
+,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_biomeblueprintsandstone"}}]
+,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_biomeblueprintsandstone"}}]
+,[{"op":"add","path":"/sandstoneTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_biomeblueprintsandstone"}}]
 
 
   // ================================
   //  "OLD AND BUSTED" - Geometric
   // ================================
-,[{"op":"test","path":"/geometricTreasure/0/1/pool/0/item","value":"geometricchair-recipe"},{"op":"replace","path":"/geometricTreasure/0/1/pool/0/item","value":"sb_geometricchair-recipe"}]
-,[{"op":"test","path":"/geometricTreasure/0/1/pool/1/item","value":"geometricchest-recipe"},{"op":"replace","path":"/geometricTreasure/0/1/pool/1/item","value":"sb_geometricchest-recipe"}]
-,[{"op":"test","path":"/geometricTreasure/0/1/pool/2/item","value":"geometricbed-recipe"},{"op":"replace","path":"/geometricTreasure/0/1/pool/2/item","value":"sb_geometricbed-recipe"}]
-,[{"op":"test","path":"/geometricTreasure/0/1/pool/3/item","value":"geometricscreen-recipe"},{"op":"replace","path":"/geometricTreasure/0/1/pool/3/item","value":"sb_geometricscreen-recipe"}]
-,[{"op":"test","path":"/geometricTreasure/0/1/pool/4/item","value":"geometrictable-recipe"},{"op":"replace","path":"/geometricTreasure/0/1/pool/4/item","value":"sb_geometrictable-recipe"}]
-
 ,[{"op":"add","path":"/geometricTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_scistaff-recipe"}}]
 ,[{"op":"add","path":"/geometricTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_scistaff"}}]
 ,[{"op":"add","path":"/geometricTreasure/0/1/pool/-","value":{"weight":1,"item":["icecrystal",15]}}]
+//
+,[{"op":"test","path":"/geometricTreasure/0/1/pool/0/item","value":"geometricchair-recipe"},
+{"op":"replace","path":"/geometricTreasure/0/1/pool/0/item","value":"sb_biomeblueprintgeometric"}]
+
+,[{"op":"test","path":"/geometricTreasure/0/1/pool/1/item","value":"geometricchest-recipe"},
+{"op":"replace","path":"/geometricTreasure/0/1/pool/1/item","value":"sb_biomeblueprintgeometric"}]
+
+,[{"op":"test","path":"/geometricTreasure/0/1/pool/2/item","value":"geometricbed-recipe"},
+{"op":"replace","path":"/geometricTreasure/0/1/pool/2/item","value":"sb_biomeblueprintgeometric"}]
+
+,[{"op":"test","path":"/geometricTreasure/0/1/pool/3/item","value":"geometricscreen-recipe"},
+{"op":"replace","path":"/geometricTreasure/0/1/pool/3/item","value":"sb_biomeblueprintgeometric"}]
+
+,[{"op":"test","path":"/geometricTreasure/0/1/pool/4/item","value":"geometrictable-recipe"},
+{"op":"replace","path":"/geometricTreasure/0/1/pool/4/item","value":"sb_biomeblueprintgeometric"}]
 ]

@@ -10,40 +10,43 @@ function init()
   self.config = root.assetJson("/events/sb_events.config")
   if not world.terrestrial() or contains(self.config.invalidWorldTypes, world.type()) then invalidLocation = true end
   self.tileListeners = {}
-  message.setHandler("listenTileBroken", function(_, _, entityId)
+  message.setHandler("/sb_event", function(_, _, entityId)
+      storage.eventCooldown = 0.0
+    end)
+  message.setHandler("sb_listenTileBroken", function(_, _, entityId)
       table.insert(self.tileListeners, entityId)
     end)
   self.tileEntityListeners = {}
-  message.setHandler("listenTileEntityBroken", function(_, _, entityId)
+  message.setHandler("sb_listenTileEntityBroken", function(_, _, entityId)
       table.insert(self.tileEntityListeners, entityId)
     end)
 
-  message.setHandler("tileBroken", function(_, _, position, layer, materialId, dungeonId, harvested)
+  message.setHandler("sb_tileBroken", function(_, _, position, layer, materialId, dungeonId, harvested)
       if dungeonId == BiomeMicrodungeonId or dungeonId < FirstMetaDungeonId then
-        messageStagehands(position, "tileBroken")
+        messageStagehands(position, "sb_tileBroken")
       end
       for _, listener in ipairs(self.tileListeners) do
-        world.sendEntityMessage(listener, "playerTileBroken", position, layer, materialId, dungeonId)
+        world.sendEntityMessage(listener, "sb_playerTileBroken", position, layer, materialId, dungeonId)
       end
     end)
-  message.setHandler("tileEntityBroken", function(_, _, position, entityType, objectName)
+  message.setHandler("sb_tileEntityBroken", function(_, _, position, entityType, objectName)
       if entityType == "object" then
         messageStagehands(position, "objectBroken")
       end
       for _, listener in ipairs(self.tileEntityListeners) do
-        world.sendEntityMessage(listener, "playerTileEntityBroken", position, entityType, objectName)
+        world.sendEntityMessage(listener, "sb_playerTileEntityBroken", position, entityType, objectName)
       end
     end)
-
+--[[
   storage.wantedLevel = storage.wantedLevel or 0
-  message.setHandler("raiseWantedLevel", function(_, _, newLevel)
+  message.setHandler("sb_raiseWantedLevel", function(_, _, newLevel)
       if storage.wantedLevel < newLevel and newLevel >= 3 then
         storage.eventCooldown = 0.0
       end
       storage.wantedLevel = math.max(storage.wantedLevel, newLevel)
     end)
 
-  message.setHandler("setBountyName", function(_, _, bounty)
+  message.setHandler("sb_setBountyName", function(_, _, bounty)
       self.bounty = bounty
     end)
 
@@ -67,8 +70,8 @@ function init()
       end
       return nil
     end)
+]]
 
-  --storage.eventCooldown = 5
   storage.eventCooldown = storage.eventCooldown or math.random(self.config.eventCooldown[1], self.config.eventCooldown[2])
   storage.lastEvent = storage.lastEvent or ""
   self.cooldownTick = 0

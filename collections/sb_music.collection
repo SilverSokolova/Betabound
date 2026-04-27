@@ -139,7 +139,8 @@
     },
     "forest": {
       "icon": "forest-loop",
-      "title": "Forest"
+      "title": "Forest",
+      "description": "Toby Fox"
     },
     "forsaken-grotto": {
       "icon": "forsaken-grotto",
@@ -160,7 +161,8 @@
     },
     "home-concept": {
       "icon": "home-concept-loop",
-      "title": "Home"
+      "title": "Home",
+      "description": "Toby Fox"
     },
     "horsehead-nebula": {
       "icon": "horsehead-nebula",

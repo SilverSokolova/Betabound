@@ -1,0 +1,25 @@
+{
+  "id": "sb_learnblueprintsonpickup:sb_arcsword",
+  "prerequisites": [],
+  "script": "/quests/scripts/sb_learnblueprintsonpickup.lua",
+  "scriptConfig": {
+    "learnBlueprintsOnPickup": [["sb_arcsword", 1, {"crafted": true}]],
+
+    //EOF
+    "portraits": {},
+    "descriptions": {}
+  },
+  "showAcceptDialog": false,
+  "showCompleteDialog": false,
+  "showFailDialog": false,
+  "showInLog": false,
+  "canBeAbandoned": false,
+  "title": "",
+  "text": "",
+  "completionText": "",
+  "moneyRange": [0, 0],
+  "rewards": [],
+  "questGiverIndicator": "mainquestgiver",
+  "questReceiverIndicator": "mainquestreceiver",
+  "updateDelta": 0
+}

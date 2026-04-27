@@ -1,6 +1,6 @@
 {
   "objectName": "sb_codex",
-  "rarity": "Uncommon", //If you change this, make sure the first letter is uppercase
+  "rarity": "Uncommon", //If you change this, make sure the first letter is uppercase (why is this so jank)
   "objectType": "container",
   "colonyTags": ["knowledge", "storage"],
   "radioMessagesOnPickup": ["sb_pickuplibrary"],

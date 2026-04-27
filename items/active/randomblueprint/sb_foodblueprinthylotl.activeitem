@@ -1,0 +1,26 @@
+{
+  "itemName": "sb_foodblueprinthylotl",
+  "price": 150,
+  "rarity": "Common",
+  "description": "A recipe for an Hylotl dish.",
+  "shortdescription": "Hylotl Culinary Recipe",
+  "tooltipKind": "sb_object",
+  "category": "blueprint",
+  "twoHanded": true,
+  "sb_uncopyable": true,
+
+  "inventoryIcon": "sb_foodblueprinthylotl.png",
+  "animation": "randomblueprint.animation",
+  "scripts": ["randomblueprint.lua", "sb_randomblueprint.lua"],
+  "swingTime": 0.15,
+
+  "allowDuplicateChance": 0.1,
+  "recipes": [
+    "sb_dirtea",
+    "sb_ricewine",
+    "sb_whiskeybottle",
+    "sb_whiskeyflask",
+    "sb_eggfriedrice",
+    "sb_cornontheblob"
+  ]
+}

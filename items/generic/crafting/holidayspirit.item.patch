@@ -1,6 +1,7 @@
 [
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
 [{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":100}],
+[{"op":"test","path":"/description","value":"The essence of the holiday season, in its purest form!"},{"op":"replace","path":"/description","value":"The essence of the holiday season, in its purest form! ^orange;Found during December.^reset;"}],
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
 [{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"holidaycraftingtable"}]
 ]

@@ -1,4 +1,5 @@
 [
+//TOOD: desc fix patch project pp
 [{"op":"test","path":"/description","value":"A square of soft, lustrous silk"},
 {"op":"replace","path":"/description","value":"A square of soft, lustrous silk."}],
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},

@@ -1,5 +1,6 @@
 {
-  "input": [["biosample",2],["alienwoodsap",2],"syringe"],
+  //We're not trying to kill people by injecting an entire bottle of water into their veins...
+  "input": [["liquidhealing",2],["biosample",2],["alienwoodsap",2],"syringe"],
   "output": "synthesisstim",
   "groups": ["craftingmedical2","buffs","all"]
 }

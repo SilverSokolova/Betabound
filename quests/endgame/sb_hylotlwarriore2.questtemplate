@@ -2,7 +2,7 @@
   "id": "sb_hylotlwarriorE2",
   "prerequisites": ["glitch_mission2", "sb_hylotlwarriorE1"],
   "title": "^green;Hylotl's Best Friend",
-  "text": "Hmm, I think I'm going to have to do better than just a bone. ^green;Please ^orange;take this blueprint and make me a kennel ^reset;then the dog will think I'm awesome!",
+  "text": "Hmm, I think I'm going to have to do better than just a bone. ^green;Please take this blueprint and make me a ^orange;kennel^green; at a ^orange;wooden workbench^reset; then the dog will think I'm awesome!",
   "completionText": "You made me a kennel! Now I need to put it somewhere nice... Thanks for your help!",
   "speaker": "questGiver",
   "moneyRange": [1100, 1200],

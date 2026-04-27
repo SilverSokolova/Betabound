@@ -9,7 +9,7 @@
   "tooltipFields": {
     "subtitle": "Other"
   },
-  "description": "This music sheet can be played from a ^orange;Portable or Stationary Radio!^reset;",
+  "description": "This music sheet can be played from a ^orange;portable or stationary radio^reset;!",
   "shortdescription": "Music Sheet",
   "itemTags": ["sb_copybook"],
   "radioMessagesOnPickup": ["sb_pickupmusicsheet"],

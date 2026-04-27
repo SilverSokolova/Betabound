@@ -1,0 +1,25 @@
+{
+  "itemName": "sb_novakidtier2axe",
+  "description": "Maybe don't throw this one.",
+  "shortdescription": "Pommelhawk",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "definition": "axes/t2",
+  "itemTags": ["weapon", "melee", "axe"],
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [-2, 1.25]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

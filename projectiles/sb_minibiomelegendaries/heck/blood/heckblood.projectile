@@ -1,15 +1,15 @@
 {
-  "projectileName" : "sb_heckblood",
-  "image" : "heckblood.png",
-  "animationCycle" : 1,
-  "frameNumber" : 10,
-  "timeToLive" : 0.9,
-  "speed" : 50,
-  "physics" : "grenadenobounce",
-  "flippable" : true,
-  "pointLight" : false,
-  "piercing" : true,
-  "damagePoly" : [[-9,0],[-6,-6],[0,-9],[6,-6],[9,0],[6,6],[0,9],[-6,6]],
-  "damageKind" : "default",
-  "emitters" : ["blood"]
+  "projectileName": "sb_heckblood",
+  "image": "heckblood.png",
+  "animationCycle": 1,
+  "frameNumber": 10,
+  "timeToLive": 0.9,
+  "speed": 50,
+  "physics": "grenadenobounce",
+  "flippable": true,
+  "pointLight": false,
+  "piercing": true,
+  "damagePoly": [[-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6]],
+  "damageKind": "default",
+  "emitters": ["blood"]
 }

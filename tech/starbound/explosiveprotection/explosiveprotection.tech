@@ -9,5 +9,6 @@
   "description": "Any damage taken will be released in an explosion after a few seconds!",
   "shortDescription": "Explosive Protection",
 
-  "rechargeTime": 5
+  "rechargeTime": 5,
+  "particleCap": 100
 }

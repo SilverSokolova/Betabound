@@ -1,0 +1,8 @@
+{
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_novakidtier5saxe",
+  "definition": ["colors/t5s", "axes/s"],
+  "description": "The blade's notches are the perfect length to measure cut hides.",
+  "shortdescription": "The Big Cleave",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

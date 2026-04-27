@@ -4,5 +4,23 @@
   "itemTags": ["weapon", "melee", "shortsword"],
   "definition": "shortswords/t4",
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
-  "shortdescription": "The Undercompensator"
+  "shortdescription": "The Undercompensator",
+
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [1, 0.75]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

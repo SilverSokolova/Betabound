@@ -1,0 +1,11 @@
+{
+  "itemName": "sb_townposter",
+  "rarity": "Common",
+  "category": "other",
+  "price": 25,
+  "tooltipKind": "sb_object4",
+  "inventoryIcon": "sb_apexcover7.png",
+  "description": "Big Ape- depicted as a buff gorilla- is giving a thumbs-up. Under him, it reads, \"Bigger IS Better - Big Ape is watching.\"",
+  "shortdescription": "Big Ape Poster",
+  "itemTags": ["sb_copybook"]
+}

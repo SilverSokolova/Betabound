@@ -1,1 +1,20 @@
-{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"A huge, heavy ball on a stick.","itemTags":["weapon","melee","hammer"],"definition":["colors/t5a","hammers/t5a"],"itemName":"sb_hylotltier5ahammer","shortdescription":"The Pufferfish"}
+{
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "description": "A huge, heavy ball on a stick.",
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": ["colors/t5a", "hammers/t5a"],
+  "itemName": "sb_hylotltier5ahammer",
+  "shortdescription": "The Pufferfish",
+  "configOverrides": {
+    "primaryAbility": {
+      "stances": {
+        "idle": {
+          "weaponOffset": [0, 1.5]
+        },
+        "windup": {
+          "weaponOffset": [0, 1.5]
+        }
+      }
+    }
+  }
+}

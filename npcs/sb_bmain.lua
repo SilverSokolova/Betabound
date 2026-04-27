@@ -12,17 +12,22 @@ function init() originalInit()
   if quests[1] then npc.setOfferedQuests(sb_mergeQuests(quests[1], config.getParameter("offeredQuests",{}))) end
   if quests[2] then npc.setTurnInQuests(sb_mergeQuests(quests[2], config.getParameter("turnInQuests",{}))) end
 
-  --Book of Spirits check
+  --Book of Spirits check. TODO: move this to assetmissing script
   local booth = root.itemConfig("protectorateinfobooth").config
   if booth.npcName and booth.displayTitle then
     require("/npcs/bookofspirits_interact.lua")
   end
 
-  --Stuff for employment beacons
-  sb_beamIn = config.getParameter("sb_beamIn") and not status.statusProperty("sb_beamedIn")
-  if sb_beamIn then
-    status.setStatusProperty("sb_beamedIn", 1)
-    status.addEphemeralEffect("beamin")
+  --Beam-in animation on spawn employment beacons. Don't merge this and the monster one into a single file yet, not until we have multiple shared functions
+  sb_initialStatusEffects = config.getParameter("sb_initialStatusEffects")
+  if sb_initialStatusEffects and not status.statusProperty("sb_appliedInitialStatusEffects") then
+    status.setStatusProperty("sb_appliedInitialStatusEffects", true)
+    status.addEphemeralEffects(sb_initialStatusEffects)
+  end
+
+  sb_repeatingInitialStatusEffects = config.getParameter("sb_repeatingInitialStatusEffects")
+  if sb_repeatingInitialStatusEffects then
+    status.addEphemeralEffects(sb_repeatingInitialStatusEffects)
   end
 
   --Restore unused Esther dialogue
@@ -63,7 +68,7 @@ function update(dt) originalUpdate(dt)
     if world.universeFlagSet("sb_floranfan1") then
       local base = npc.getItemSlot("chest")
       params = base and base.parameters or {}
-      npc.setItemSlot("chestCosmetic",{"coolchest",1,params})
+      npc.setItemSlot("chestCosmetic", {"coolchest", 1, params})
       sb_npcType = 0
     end
   end
@@ -78,7 +83,7 @@ end
 
 function sb_mergeQuests(a, b)
   for i = 1, #b do
-    a[#a+1] = b[i]
+    a[#a + 1] = b[i]
   end
   return a
 end

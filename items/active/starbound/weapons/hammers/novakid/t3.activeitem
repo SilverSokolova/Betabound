@@ -1,0 +1,28 @@
+{
+  "itemName": "sb_novakidtier3hammer",
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": "hammers/t3",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "shortdescription": "The Unsafe",
+  "description": "The richer you are, the harder this baby'll whack!",
+
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [-1, 2]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

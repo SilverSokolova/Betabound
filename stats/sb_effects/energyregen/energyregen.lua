@@ -1,5 +1,5 @@
 function init()
-  local regenAmount = config.getParameter("regenAmount", 5)
+  local regenAmount = config.getParameter("regenAmount", 0.8)
   effect.addStatModifierGroup({{stat = "energyRegenPercentageRate", amount = regenAmount}})
 
   if animator then

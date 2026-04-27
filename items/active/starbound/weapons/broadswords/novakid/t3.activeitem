@@ -1,0 +1,8 @@
+{
+  "itemName": "sb_novakidtier3broadsword",
+  "description": "Rather good at motivating small armies.",
+  "shortdescription": "Saberlicious",
+  "itemTags": ["weapon", "melee", "broadsword"],
+  "definition": "broadswords/t3",
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+}

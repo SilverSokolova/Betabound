@@ -1,1 +1,20 @@
-{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","description":"A hammer that will crush any Floran.","itemTags":["weapon","melee","hammer"],"definition":["colors/t6s","hammers/t6s"],"itemName":"sb_hylotltier6shammer","shortdescription":"Plantpounder"}
+{
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "description": "A hammer that will crush any Floran.",
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": ["colors/t6s", "hammers/t6s"],
+  "itemName": "sb_hylotltier6shammer",
+  "shortdescription": "Plantpounder",
+  "configOverrides": {
+    "primaryAbility": {
+      "stances": {
+        "idle": {
+          "weaponOffset": [0, 1.5]
+        },
+        "windup": {
+          "weaponOffset": [0, 1.5]
+        }
+      }
+    }
+  }
+}

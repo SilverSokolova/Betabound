@@ -7,6 +7,7 @@ function init()
   bombCooldownTimer = config.getParameter("ballBombCooldown", 0.5)
   bombCooldownTime = bombCooldownTimer
   bombParameters = config.getParameter("ballBombProjectileParameters", {})
+  bombBasePower = config.getParameter("ballBombBasePower", 10)
   energyCostPerBomb = config.getParameter("energyCostPerBomb", 15)
 end
 
@@ -14,6 +15,7 @@ function update(args)
   originalUpdate(args)
   bombCooldownTimer = bombCooldownTimer - args.dt
   if active and args.moves["primaryFire"] and bombCooldownTimer <= 0 and status.overConsumeResource("energy", energyCostPerBomb) then
+    bombParameters.power = bombBasePower * status.stat("powerMultiplier")
     world.spawnProjectile(bombProjectile, entity.position(), entity.id(), {0,0}, false, bombParameters)
     bombCooldownTimer = bombCooldownTime
     animator.playSound("bomb")

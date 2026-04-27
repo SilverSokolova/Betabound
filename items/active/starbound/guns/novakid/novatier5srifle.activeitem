@@ -5,8 +5,8 @@
     "<t>": "5s"
   },
   "rarity": "rare",
-  "description" : "No one really knows how this gun works, or why it's so remarkably purple.",
-  "shortdescription" : "Almighty Magnetar",
+  "description": "No one really knows how this gun works, or why it's so remarkably purple.",
+  "shortdescription": "Almighty Magnetar",
   "level": 5,
   "itemTags": ["weapon", "ranged", "sniperrifle"],
   "configOverrides": {

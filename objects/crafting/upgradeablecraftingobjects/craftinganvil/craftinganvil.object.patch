@@ -1,14 +1,76 @@
 [
-    [{
-        "op": "test",
-        "path": "/upgradeStages/2/itemSpawnParameters/rarity",
-        "value": "Rare"
-    },{
-        "op": "test",
-        "path": "/upgradeStages/1/itemSpawnParameters/rarity",
-        "inverse": true
-    },{
-        "op": "remove",
-        "path": "/upgradeStages/2/itemSpawnParameters/rarity"
-    }]
+  [{
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/rarity",
+      "value": "Rare"
+    }, {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/rarity",
+      "inverse": true
+    }, {
+      "op": "remove",
+      "path": "/upgradeStages/2/itemSpawnParameters/rarity"
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/scripts"
+    }, {
+      "op": "add",
+      "path": "/scripts/-",
+      "value": "/scripts/objects/sb_addscandataoninteract.lua"
+    }
+  ],
+
+  //scandata
+  [{
+      "op": "test",
+      "path": "/upgradeStages/0"
+    }, {
+      "op": "add",
+      "path": "/upgradeStages/0/sb_scanObjectsOnInteract",
+      "value": ["sb_ironanvil"]
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/upgradeStages/2"
+    }, {
+      "op": "add",
+      "path": "/upgradeStages/2/sb_scanObjectsOnInteract",
+      "value": ["sb_scifianvil"]
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/upgradeStages/2/addonConfig/usesAddons/0/addonData"
+    }, {
+      "op": "add",
+      "path": "/upgradeStages/2/addonConfig/usesAddons/0/addonData/sb_scanObjectsOnInteract",
+      "value": ["sb_acceleratortable"]
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/upgradeStages/2/addonConfig/usesAddons/1/addonData"
+    }, {
+      "op": "add",
+      "path": "/upgradeStages/2/addonConfig/usesAddons/1/addonData/sb_scanObjectsOnInteract",
+      "value": ["sb_separatortable"]
+    }
+  ],
+
+  [{
+      "op": "test",
+      "path": "/upgradeStages/2/addonConfig/usesAddons/2/addonData"
+    }, {
+      "op": "add",
+      "path": "/upgradeStages/2/addonConfig/usesAddons/2/addonData/sb_scanObjectsOnInteract",
+      "value": ["sb_manipulatortable"]
+    }
+  ]
 ]

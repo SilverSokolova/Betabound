@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/description","value":"Cell Matter - it can be used to craft unspeakable things."},
+{"op":"replace","path":"/description","value":"It can be used to craft unspeakable things."}]
+]

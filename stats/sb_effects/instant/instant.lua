@@ -1,8 +1,9 @@
 function init()
-  local a, b = math.floor(effect.duration()), mcontroller.position()
-  status.modifyResource(config.getParameter("resource", "health"), a)
+  local duration, position = math.floor(effect.duration()), mcontroller.position()
+
+  status.modifyResource(config.getParameter("resource", "health"), duration)
   world.spawnProjectile("invisibleprojectile",
-    {b[1]-3, b[2] + config.getParameter("textOffset")}, entity.id(), {0, 0}, false,
+    {position[1] - 3, position[2] + config.getParameter("textOffset")}, entity.id(), {0, 0}, false,
       {
         damageType = "nodamage",
         timeToLive = 0,
@@ -13,7 +14,7 @@ function init()
           action = "particle",
           specification = {
             type = "text",
-            text = string.format(config.getParameter("text"), a),
+            text = string.format(config.getParameter("text"), duration),
             fullbright = true,
             size = 0.5,
             layer = "front",
@@ -29,4 +30,5 @@ function init()
   effect.expire()
   update=updat; updat=nil
 end
+
 function updat() effect.expire() end

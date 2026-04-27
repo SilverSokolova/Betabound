@@ -1,1 +1,20 @@
-{"builder":"/items/buildscripts/starbound/buildunrandweapon.lua","configOverrides":{"primaryAbility":{"stances":{"idle":{"weaponOffset":[0.2,1.75]}}}},"itemTags":["weapon","melee","hammer"],"definition":["colors/t5m","hammers/t5m"],"description":"A spiked cylindrical mace.","itemName":"sb_hylotltier5mhammer","shortdescription":"Sea Cucumber"}
+{
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "configOverrides": {
+    "primaryAbility": {
+      "stances": {
+        "idle": {
+          "weaponOffset": [0, 1.5]
+        },
+        "windup": {
+          "weaponOffset": [0, 1.5]
+        }
+      }
+    }
+  },
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": ["colors/t5m", "hammers/t5m"],
+  "description": "A spiked cylindrical mace.",
+  "itemName": "sb_hylotltier5mhammer",
+  "shortdescription": "Sea Cucumber"
+}

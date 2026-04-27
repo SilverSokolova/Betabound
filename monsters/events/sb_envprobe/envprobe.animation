@@ -195,6 +195,9 @@
       "/sfx/gun/grenadeblast_small_fire1.ogg",
       "/sfx/gun/grenadeblast_small_fire2.ogg",
       "/sfx/gun/grenadeblast_small_fire3.ogg"
+    ],
+    "attack": [
+      "/sfx/projectiles/electric_barrier_shock1.ogg"
     ]
   }
 }

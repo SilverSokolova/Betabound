@@ -1,0 +1,28 @@
+{
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": ["colors/t5m", "hammers/t5m"],
+  "itemName": "sb_novakidtier5mhammer",
+  "shortdescription": "General Anaesthetic",
+  "description": "It won't be pretty, but it sure will knock you out cold.",
+
+  "configOverrides": {
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [0, 2]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -11,7 +11,7 @@
     [9, 5],
     [10, 5]
   ],
-  //used for parry ability
+  //used for parry ability (TODO: test with vanilla's instead??)
   "sb_shieldLevelMultiplier": ["linear", "clamp",
     [0, 0.9],
     [1, 1],

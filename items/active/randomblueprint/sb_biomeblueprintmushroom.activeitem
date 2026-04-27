@@ -1,0 +1,41 @@
+{
+  "itemName": "sb_biomeblueprintmushroom",
+  "price": 150,
+  "rarity": "Common",
+  "description": "A blueprint found in a mushshroom biome.",
+  "shortdescription": "Shroom Blueprint",
+  "tooltipKind": "sb_object",
+  "category": "blueprint",
+  "twoHanded": true,
+  "sb_uncopyable": true,
+
+  "inventoryIcon": [{
+      "image": "/items/generated/blueprint.png?replace;000=0000?border=1;000"
+    }, {
+      "image": "/items/generic/produce/shroom.png",
+      "position": [0, 1]
+    }, {
+      "image": "/interface/inventory/dot.png",
+      "position": [4, -4]
+    }
+  ],
+  "animation": "randomblueprint.animation",
+  "scripts": ["randomblueprint.lua", "sb_randomblueprint.lua"],
+  "swingTime": 0.15,
+
+  "allowDuplicateChance": 0.1,
+  "recipes": [
+    "shroombed",
+    "shroomchair",
+    "shroomchest",
+    "shroomdoor",
+    "shroomlamp",
+    "shroomtable",
+
+    //underground
+    "shroomwardrobe",
+
+    //betabound
+    "mushroomhead" //I SPECIFICALLY TOLD YOU NOT TO SPEAK TO MUSHROOMHEAD
+  ]
+}

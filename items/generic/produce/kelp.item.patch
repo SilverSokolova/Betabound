@@ -2,6 +2,9 @@
 [{"op":"replace","path":"/itemName","value":"starbound_kelp"}],
 
 [{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":2}],
+[{"op":"test","path":"/foodValue","inverse":true},{"op":"add","path":"/foodValue","value":1.5}],
+
+//TODO: For these, maybe hook into the previous builder UNLESS we're already hooking into it (vanilla buildfood)
 [{"op":"test","path":"/builder","value":"/items/buildscripts/buildfood.lua"},{"op":"replace","path":"/builder","value":"/items/buildscripts/starbound/buildfood.lua"}],
 [{"op":"test","path":"/builder","inverse":true},{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildfood.lua"}]
 ]

@@ -1,0 +1,11 @@
+{
+  //'Setup' refers to either presence or absence
+  "itemName": "sb_uimessage:invalidModSetup",
+  "shortdescription": "   Denied; would cause issues with current game-mods.^clear;",
+  "currency": "sb_uimessage",
+  "rarity": "rare",
+  "value": 0,
+  "pickupSoundsSmall": ["/sfx/interface/clickon_error.ogg"],
+  "pickupSoundsMedium": [""],
+  "pickupSoundsLarge": [""]
+}

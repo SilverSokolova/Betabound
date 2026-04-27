@@ -1,0 +1,26 @@
+{
+  "itemTags": ["weapon", "melee", "axe"],
+  "itemName": "sb_novakidtier5aaxe",
+  //"description": "TODO",
+  "shortdescription": "Rascal's Ripper",
+  "definition": ["colors/t5a", "axes/a"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire": {
+                "properties": {
+                  "offset": [-1.5, 0.5]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tooltipKind": "sb_sword"
+}

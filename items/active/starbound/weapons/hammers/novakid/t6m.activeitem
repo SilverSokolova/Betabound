@@ -1,0 +1,35 @@
+{
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "configOverrides": {
+    "primaryAbility": {
+      "stances": {
+        "idle": {
+          "weaponOffset": [0.2, 1.75]
+        }
+      }
+    },
+    "animationCustom": {
+      "animatedParts": {
+        "parts": {
+          "swoosh": {
+            "partStates": {
+              "swoosh": {
+                "fire": {
+                  "properties": {
+                    "offset": [-1, 2]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "itemTags": ["weapon", "melee", "hammer"],
+  "definition": ["colors/t6m", "hammers/t6m"],
+  "itemName": "sb_novakidtier6mhammer",
+  "shortdescription": "",
+  "description": "Heart-stop-watch",
+  "tooltipKind": "sb_sword"
+}

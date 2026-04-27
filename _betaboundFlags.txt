@@ -1,0 +1,46 @@
+Flags which can be set to disable specific Betabound features in patch files.
+There are more flags in `/betabound.config`.
+
+/sky.config
+  betabound:noSpaceDebrisFields
+  Disables the space junk and penguin UFO in the background
+-
+
+(Has official patch)
+/cinematics/loading.cinematic
+  betabound:skip
+  Disables the new elements on the loading screen (separate from the version with the Chucklefish jumpscare)
+-
+
+(Has official patch)
+/cinematics/splash.cinematic
+  betabound:skip
+  Disables the new elements on the splash screen (separate from the version without the Chucklefish jumpscare)
+-
+
+/cinematics/story/esther/esther.cinematic
+  betabound:disableEstherStartMusic
+  Disables the music that plays before the vanilla music begins
+-
+
+(Has official patch)
+/effects/eating.effectsource
+  betabound
+  Disables the unused vanilla eating sounds
+-
+
+(Has official patch)
+/interface/windowconfig/crafting.config
+  betabound
+  Disables all or most changes, allowing other mods which change this UI to be used
+-
+
+/items/active/unsorted/relocator/relocator.activeitem
+  betabound:disableInventoryIconStoredCreatureCount
+  Disables the inventory icon changing to reflect the amount of creatures held
+
+-
+(Has official patch)
+/interface/scripted/sb_music/music.config
+  everythingUnlocked
+  Skips checking if the player has each music track unlocked, identical to being in admin mode

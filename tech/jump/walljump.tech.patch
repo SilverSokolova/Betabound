@@ -1,1 +1,5 @@
-[{"op":"add","path":"/sb_longDescription","value":"Refreshed upon landing."}]
+[
+[{"op":"add","path":"/sb_wallGrabRefreshesJump","value":true}],
+[{"op":"add","path":"/scripts/-","value":"sb_walljump.lua"}],
+[{"op":"add","path":"/sb_longDescription","value":"Refreshed upon landing or grabbing a wall."}]
+]

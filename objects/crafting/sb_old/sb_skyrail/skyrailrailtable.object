@@ -10,7 +10,7 @@
         "title": "SKYRAIL RAIL TABLE",
         "subtitle": "Build your very own Skyrail and Rail networks to travel in style!",
         "icon": {
-          "file": "/interface/sb_crafting/craftingicons.png:skyrailrailtable"
+//          "file": "/interface/sb_crafting/craftingicons.png:skyrailrailtable"
         }
       }
     },

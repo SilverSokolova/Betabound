@@ -6,14 +6,14 @@ function init()
   --wasColliding = false
 end
 
-function input(args)
+function techInput(args)
   if args.moves["special1"] == true and not lastAction then
     return active and "deactivate" or "activate"
   end
 end
 
 function update(args)
-  local action = input(args)
+  local action = techInput(args)
 
   if action == "activate"
     and not tech.parentLounging()
@@ -56,4 +56,6 @@ function deactivate()
   animator.playSound("deactivate")
 end
 
-function uninit() status.clearPersistentEffects("sb_bounceTech") end
+function uninit()
+  status.clearPersistentEffects("sb_bounceTech")
+end

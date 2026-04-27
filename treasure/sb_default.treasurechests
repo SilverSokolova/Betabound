@@ -1,53 +1,47 @@
 {
   // generic
-  "sb_gunChest" : [
-    {
-      "containers" : ["gunchest"],
-      "treasurePool" : "sb_gun",
-      "minimumLevel" : 1
+  "sb_gunChest": [{
+      "containers": ["gunchest"],
+      "treasurePool": "sb_gun",
+      "minimumLevel": 1
     }
   ],
-  
+
   // main biomes
-  "sb_arcticChest" : [
-    {
-      "containers" : ["icespherechest"],
-      "treasurePool" : "sb_arcticChestTreasure",
-      "minimumLevel" : 0
+  "sb_arcticChest": [{
+      "containers": ["icespherechest"],
+      "treasurePool": "sb_arcticChestTreasure",
+      "minimumLevel": 0
     }
   ],
 
   // detached biomes
-  "sb_rustChest" : [
-    {
-      "containers" : ["rustchest"],
-      "treasurePool" : "sb_rustChestTreasure",
-      "minimumLevel" : 0
+  "sb_rustChest": [{
+      "containers": ["rustchest"],
+      "treasurePool": "sb_rustChestTreasure",
+      "minimumLevel": 0
     }
   ],
   // underground detached biomes
 
-  "sb_heckChest" : [
-    {
-      "containers" : ["sb_heckaltar","sb_heckchest"],
-      "treasurePool" : "sb_heckChestTreasure",
-      "minimumLevel" : 0
+  "sb_heckChest": [{
+      "containers": ["sb_heckaltar", "sb_heckchest"],
+      "treasurePool": "sb_heckChestTreasure",
+      "minimumLevel": 0
     }
   ],
-  "sb_coralcaveChest" : [
-    {
-      "containers" : ["barrel"],
-      "treasurePool" : "sb_coralcaveChestTreasure",
-      "minimumLevel" : 0
+  "sb_coralcaveChest": [{
+      "containers": ["barrel"],
+      "treasurePool": "sb_coralcaveChestTreasure",
+      "minimumLevel": 0
     }
   ],
   // v v v v older stuff v v v v
 
-  "sb_geometricChest" : [
-    {
-      "containers" : ["sb_geometricchest"],
-      "treasurePool" : "sb_geometricChestTreasure",
-      "minimumLevel" : 0
+  "sb_geometricChest": [{
+      "containers": ["sb_geometricchest"],
+      "treasurePool": "sb_geometricChestTreasure",
+      "minimumLevel": 0
     }
   ]
 }

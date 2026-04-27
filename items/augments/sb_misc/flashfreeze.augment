@@ -30,5 +30,12 @@
     "price",
     "emote"
   ],
+  "parametersToRemove": [
+    "rottingMultiplier",
+    "animationCustom", //Are we sure about this?
+    "animation",
+    "timeToRot",
+    "scripts" //Should we keep scripts? If so, use root.itemConfig() to get the directory for non-local paths... But the scripts would be made for fireableItems, not activeItems
+  ],
   "scripts": ["/scripts/augments/sb_flashfreeze.lua"]
 }

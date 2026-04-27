@@ -8,15 +8,12 @@
   "tooltipFields": {
     "subtitle": "Scanchip"
   },
-  "description": "Unlocks the %s data for the Pixel Printer.",
+  "description": "Unlocks the %s data for the ^orange;pixel printer^reset;.",
   "shortdescription": "%s",
   "learnBlueprintsOnPickup": ["sb_blankscandata"],
   "itemTags": ["sb_scandata"],
   "scripts": ["sb_scandata.lua"],
   "animationCustom": {
-    "sounds": {
-      "success": ["/sfx/interface/scan.ogg"]
-    },
     "animatedParts": {
       "parts": {
         "blueprint": {

@@ -6,7 +6,7 @@
   "objectType": "container",
   "tooltipKind": "sb_container",
   "builder": "/items/buildscripts/starbound/buildcontainer.lua",
-  "scripts": ["/scripts/sb_container.lua"],
+  "scripts": ["/scripts/objects/sb_container.lua"],
   "category": "storage",
   "price": 80,
   "description": "A fearsome ancient chest ornamented with a lidless eye.",

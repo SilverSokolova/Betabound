@@ -1,0 +1,9 @@
+{
+  "description": "Named after a notorious mafia boss with a heavy hand for chopping.",
+  "shortdescription": "Baby Butcher",
+  "itemName": "sb_novakidtier5sdagger",
+  "itemTags": ["weapon", "melee", "dagger"],
+  "definition": ["colors/t5s", "daggers/s"],
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "tooltipKind": "sb_sword"
+}

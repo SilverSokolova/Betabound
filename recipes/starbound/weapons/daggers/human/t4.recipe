@@ -1,5 +1,5 @@
 {
   "input": [["durasteelbar",2],"copperbar"],
   "output": "sb_humantier4dagger",
-  "groups": ["craftinganvil3","weapons","all"]
+  "groups": ["craftinganvil3","sb_racialweapons","all"]
 }
