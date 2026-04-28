@@ -79,7 +79,7 @@ end
 function placementValid(pos)
   if world.isTileProtected(pos) or
     world.magnitude(mcontroller.position(), pos) > placementRange or
-    world.lineCollision(mcontroller.position(), pos, {"Null", "Block", "Dynamic", "Slippery"}) --TODO:
+    world.lineCollision(mcontroller.position(), pos, {"Null", "Block", "Dynamic", "Slippery"})
   then
     return false
   end
@@ -94,7 +94,8 @@ function placementValid(pos)
     and not world.tileIsOccupied(pos, true)
     and not world.tileIsOccupied({pos[1] + 1, pos[2]}, true)
     --has support under?
-    and world.rectCollision({pos[1], pos[2] - 1, pos[1] + 1, pos[2] - 1}, {"Null", "Block", "Dynamic", "Slippery", "Platform"})
---  and world.tileIsOccupied({pos[1], pos[2] - 1}, true)
---  and world.tileIsOccupied({pos[1] + 1, pos[2] - 1}, true)
+--  and world.rectCollision({pos[1], pos[2] - 1, pos[1] + 1, pos[2] - 1}, {"Null", "Block", "Dynamic", "Slippery", "Platform"})
+--Currently checks for anything under, even no-collision objects, BUT includes platforms and the tops of other ladders, which we want
+    and world.tileIsOccupied({pos[1], pos[2] - 1}, true)
+    and world.tileIsOccupied({pos[1] + 1, pos[2] - 1}, true)
 end
