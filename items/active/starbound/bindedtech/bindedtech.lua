@@ -67,7 +67,7 @@ function equipTech(techName, slot)
   animator.playSound("success")
   activeItem.setInstanceValue("durabilityHit", 0)
   if slot == "Suit" then
-    player.interact("message", {messageType = "sb_suitTech:equip", messageArgs = {techName}})
+    world.sendEntityMessage(player.id(), "sb_suitTech:equip", techName)
   else
     player.equipTech(techName)
   end

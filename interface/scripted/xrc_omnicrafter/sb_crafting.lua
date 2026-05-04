@@ -6,7 +6,7 @@ function openPane(_, config); originalOpenPane(_, config)
       local scandata = config.upgradeStages[i].sb_scanObjectsOnInteract
       if scandata then
         for j = 1, #scandata do
-          player.interact("message", {messageType = "sb_addScandata", messageArgs = {scandata[j], true}})
+          world.sendEntityMessage(player.id(), "sb_addScandata", scandata[j], true)
         end
       end
     end

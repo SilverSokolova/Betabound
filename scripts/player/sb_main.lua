@@ -11,7 +11,7 @@ function init()
   --Peacekeeper Teleporter
   message.setHandler("sb_peacekeeperteleporter", function(_, _, b)
     local bountyData = player.getProperty("bountyStation", nil)
-    bountyData = bountyData[player.serverUuid()] or nil
+    bountyData = bountyData and bountyData[player.serverUuid()] or nil
     local interactData = root.assetJson(b[2])
     if bountyData and bountyData ~= '{}' then
       if bountyData.worldId then
@@ -63,7 +63,7 @@ function init()
     local learned
     if objectName then
       learned = player.addScannedObject(objectName) --Vanilla
-      player.interact("message", {messageType = "objectScanned", messageArgs = {objectName, player.id()}}) --Lagless and quests
+      world.sendEntityMessage(player.id(), "objectScanned", objectName, player.id()) --Lagless and quests
 
       if not silent then
         sb_uiMessage(learned and "scandataLearned" or "scandataKnown")
@@ -168,7 +168,7 @@ function suitsInit()
     end
 
     if root.techType(tech) == "Suit" then
-      player.interact("message", {messageType = "sb_suitTech:enable", messageArgs = {tech}})
+      world.sendEntityMessage(player.id(), "sb_suitTech:enable", tech)
     else
       player.makeTechAvailable(tech)
       player.enableTech(tech)
@@ -185,7 +185,7 @@ function suitsInit()
     end
 
     if root.techType(tech) == "Suit" then
-      player.interact("message", {messageType = "sb_suitTech:makeAvailable", messageArgs = {tech}})
+      world.sendEntityMessage(player.id(), "sb_suitTech:makeAvailable", tech)
     else
       player.makeTechAvailable(tech)
     end
