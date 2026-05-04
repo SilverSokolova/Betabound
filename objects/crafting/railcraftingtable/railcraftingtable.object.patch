@@ -3,5 +3,30 @@
     {"op":"test","path":"/interactData/config","value":"/interface/windowconfig/crafting.config"},
     {"op":"replace","path":"/interactData/config","value":"/interface/windowconfig/sb_railcrafting.config"},
     {"op":"add","path":"/interactData/filter/-","value":"sb_skyrailtable"}
+  ],
+
+  [{
+      "op": "test",
+      "path": "/scripts",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/scripts",
+      "value": []
+    }],
+    
+  [{
+      "op": "add",
+      "path": "/scripts/-",
+      "value": "/scripts/objects/sb_addscandataoninteract.lua"
+    }
+  ],
+
+  //scandata
+  [{
+      "op": "add",
+      "path": "/sb_scanObjectsOnInteract",
+      "value": ["sb_skyrailtable"]
+    }
   ]
 ]

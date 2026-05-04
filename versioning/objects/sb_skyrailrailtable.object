@@ -1,0 +1,17 @@
+{
+  "objectName": "sb_skyrailrailtable",
+  "hasObjectItem": false,
+  "breakDropOptions":[[["sb_skyrailrailtable",1,{}]]],
+  "rarity": "rare",
+  "printable": false,
+  "inventoryIcon": "/assetmissing.png",
+  "orientations": [{
+      "dualImage": "/objects/generic/perfectlygenericitem/perfectlygenericitem.png",
+      "imagePosition": [-16, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ]
+}
