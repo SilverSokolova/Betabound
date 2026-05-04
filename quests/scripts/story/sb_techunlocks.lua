@@ -34,7 +34,7 @@ function unlockTech(tier)
       unownedTechs[#unownedTechs + 1] = techs[i]
 
       if root.techType(techs[i]) == "Suit" then
-        player.interact("message", {messageType = "sb_suitTech:makeAvailable", messageArgs = {techs[i]}})
+        world.sendEntityMessage(player.id(), "sb_suitTech:makeAvailable", techs[i])
       else
         player.makeTechAvailable(techs[i])
       end

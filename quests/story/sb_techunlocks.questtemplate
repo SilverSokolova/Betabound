@@ -3,7 +3,7 @@
   "id": "sb_techunlocks",
   "prerequisites": [],
 
-  "updateDelta": 0,
+  "updateDelta": 60,
   "script": "/quests/scripts/story/sb_techunlocks.lua",
   "scriptConfig": {
     "radioMessages": [
