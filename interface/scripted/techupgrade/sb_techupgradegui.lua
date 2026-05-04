@@ -36,11 +36,11 @@ function init()
         sb_enabledSuitTechs[#sb_enabledSuitTechs+1] = tech
         table.sort(sb_enabledSuitTechs, function(a,b) return a<b end)
       end
-      player.interact("message", {messageType = "sb_suitTech:equip", messageArgs = {tech}})
+      world.sendEntityMessage(player.id(), "sb_suitTech:equip", tech)
       sb_suit = tech
       sb_toggleButtons()
       populateTechList("sb_suit")
-      player.interact("message", {messageType = "sb_suitTech:enable", messageArgs = {tech}})
+      world.sendEntityMessage(player.id(), "sb_suitTech:enable", tech)
 --      player.setProperty("sb_enabledSuitTechs", sb_enabledSuitTechs)
     end
   end
@@ -72,8 +72,8 @@ function setSelectedTech(techName)
     self.selectedTech = techName
     if contains(sb_enabledSuitTechs, techName) then
       widget.setButtonEnabled("btnEnable", false)
-      player.interact("message", {messageType = "sb_suitTech:equip", messageArgs = {techName}})
-      sb_suit = techName --set it here in case the message arrives late, but i dont think it will with player.interact
+      world.sendEntityMessage(player.id(), "sb_suitTech:equip", techName)
+      sb_suit = techName --set it here in case the message arrives late
       sb_updateSuitImage()
     else
       widget.setButtonEnabled("btnEnable", false)
@@ -161,7 +161,7 @@ end
 
 function sb_unequip()
   if self.selectedSlot == "sb_suit" then
-    world.sendEntityMessage(player.id(), "sb_suitTech:equip") --Can't do player.interact here because nil args
+    world.sendEntityMessage(player.id(), "sb_suitTech:equip")
     sb_suit = nil
   else
     local tech = player.equippedTech(self.selectedSlot)
