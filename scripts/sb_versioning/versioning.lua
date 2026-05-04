@@ -347,13 +347,16 @@ xrc0018[35]=function()
   end
 end
 
---36, 9/OCT/2025: Changed underside quest rewards
-xrc0018[36]=function()
-  giveQuestRewards("sb_underside1", "upgrademodule")
-end
+--Whoops. v18 took so long that I versioned thrice and forgot each time
 
+--36, 9/OCT/2025: Changed underside quest rewards
 --37, 1/DEC/2025: Rename suit tech properties AND convert them if they're status properties
-xrc0018[37]=function()
+--38, 17/MAR/2026: Tell players that a future update will remove vanilla/Betabound food stacking
+xrc0018[38]=function()
+  --36
+  giveQuestRewards("sb_underside1", "upgrademodule")
+
+  --37
   sb.logInfo("[Betabound] Versioning 37 running. Printing values...")
 
   local equippedSuitTechProperty = player.getProperty("sb_bioimplant", status.statusProperty("sb_bioimplant"))
@@ -383,10 +386,8 @@ xrc0018[37]=function()
   if type(player.getProperty("sb_enabledSuitTechs")) ~= "table" then
     player.setProperty("sb_enabledSuitTechs", {})
   end
-end
 
---38, 17/MAR/2026: Tell players that a future update will remove vanilla/Betabound food stacking
-xrc0018[38]=function()
+  --38
   if not newPlayer then
     giveUpdateNote("getFoodStackPatch")
     giveUpdateNote("getManyTabsMod")
@@ -394,11 +395,10 @@ xrc0018[38]=function()
 end
 
 
-function sb_doVersioning(cv,yv)
+function sb_doVersioning(cv, yv)
   newPlayer = yv == 0
   --player.getProperty doesn't return the default if the saved value exists as nil, so set it so the tech unlock quest doesnt break
-  local betaboundStorage = player.getProperty("betabound")
-  if type(betaboundStorage) == "nil" then
+  if type(player.getProperty("betabound")) == "nil" then
     player.setProperty("betabound", {})
   end
 
