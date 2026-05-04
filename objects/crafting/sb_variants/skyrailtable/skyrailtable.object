@@ -2,29 +2,28 @@
   "objectName": "sb_skyrailtable",
   "colonyTags": ["crafting"],
   "rarity": "Legendary",
+  "price": 1250, //DELTARUNE-- oh wait no the last digit is different, sorry Dess
+  "printable": true,
   "interactAction": "OpenCraftingInterface",
   "interactData": {
     "config": "/interface/windowconfig/sb_railcrafting.config",
     "paneLayoutOverride": {
       "windowtitle": {
-        "title": "Skyrail Table",
-        "subtitle": "Build your very own Skyrail network to travel in style!",
+        "title": "Skyrail Crafting Table",
+        "subtitle": "Build your very own skyrail/rail network to travel in style!",
         "icon": {
-          "file": "/interface/crafting/skyrailtable.png"
+          "file": "/interface/crafting/craftingicon.png"
         }
       }
     },
-    "filter": ["skyrailtable", "sb_skyrailtable", "rails"],
-    "craftingSound": "/sfx/interface/crafting_compress.ogg",
-    "initialRecipeUnlocks": ["skyrailplatform", "skyrail_asc", "skyrail_desc", "skyrail_diodeL", "skyrail_diodeR", "skyrailboost", "skyrailbreak"]
+    "filter": ["rail", "sb_skyrailtable"]
+    //  "craftingSound": "/sfx/interface/crafting_compress.ogg"
   },
-  "printable": false,
-  "description": "Create your very own skyrail tracks with this table!",
+  "description": "Create your very own rail/skyrail tracks with this table!",
   "shortdescription": "^orange;Skyrail Crafting Table^reset;",
   "race": "generic",
   "category": "crafting",
-  "tooltipKind": "sb_object",
-  "price": 300,
+  "tooltipKind": "sb_object4",
 
   "apexDescription": "I can craft impressive skyrail parts on this workstation.",
   "avianDescription": "This is for crafting such admirable structures as skyrails.",
@@ -32,7 +31,7 @@
   "glitchDescription": "Excited. A workstation for crafting skyrail parts. I can't wait to get started!",
   "humanDescription": "I can create skyrail parts from the comfort of this workstation. What a time to be alive!",
   "hylotlDescription": "Skyrail parts can be crafted on this table.",
-  "novakidDescription": "I can make my own skyrail from parts crafted on this workstation.",
+  "novakidDescription": "Ridin' the rails - still works as good as it ever did for gettin' around.",
 
   "inventoryIcon": "skyrailtableicon.png",
   "orientations": [{
