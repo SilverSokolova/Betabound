@@ -7,6 +7,7 @@ local originalEquipTech = equipTech or function() end
 local originalCreateTooltip = createTooltip or function() end
 local originalTechSlotGroup = techSlotGroup or function() end
 local originalPat_remove = pat_remove or function() end
+local originalPat_techloadout = pat_techloadout or function(...) end
 
 function init()
   sb_selectTechDescription = config.getParameter("sb_selectTechDescription")
@@ -21,6 +22,27 @@ function init()
     if tech == "sb_suit" then return nil end
     return player.sb_equippedTech(tech)
   end
+
+  --tech loadout fix, for swapping loadouts when viewing suit tech menu
+  pat_techloadout = function(...)
+    if self.selectedSlot == "sb_suit" then
+      setSelectedSlot("Head")
+      updateEquippedIcons()
+      originalPopulateTechList("Head")
+    end
+    return originalPat_techloadout(...)
+  end
+  --[[
+  local m = getmetatable''
+  if m.pat_techloadoutswapped then
+    originalPat_techloadoutswapped = m.pat_techloadoutswapped
+    m.pat_techloadoutswapped = function(...)
+      if self.selectedSlot == 
+      return originalPat_techloadoutswapped(...)
+    end
+  end]]
+
+
   if pat_unequip then widget.setVisible("pat_unequip", false) end --no need for a tech button that doesnt do suits when we provide one that does
   player.sb_enabledTechs = player.enabledTechs
   player.sb_enableTech = player.enableTech
@@ -120,7 +142,7 @@ function populateTechList(slot)
               widget.setListSelected(self.techList, listItem)
             end
           else
-            --[[Not a suit tech, so remove it from the list
+            --Not a suit tech, so remove it from the list
             local newOwned, newAvailable = {}, {}
             for i = 1, #sb_enabledSuitTechs do
               if tech ~= sb_enabledSuitTechs[i] then
@@ -136,7 +158,7 @@ function populateTechList(slot)
             player.setProperty("sb_availableSuitTechs", newAvailable)
             player.makeTechAvailable(tech)
             player.sb_enableTech(tech)
-            sb_prepareSuits()]]
+            sb_prepareSuits()
           end
         end
       end

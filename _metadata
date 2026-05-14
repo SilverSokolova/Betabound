@@ -76,6 +76,7 @@
 
     //FIX
       "Improved Food Descriptions [Addon]", //We want there to be no stack limit on food, not 1000. TODO: remove this when food stacking is gone
+      "pat_techloadouts", //2848049388 - Tech Loadouts, hook into to fix suit tech bug
     
     
     //CRASH FIX
@@ -135,5 +136,5 @@
   "steamContentId" : "2010607826",
   "steamTitle" : "Betabound: Vanilla Expanded!",
   "tags" : "Crafting and Building|Miscellaneous|Planets and Environments|Musical Instruments and Songs|NPCs and Creatures|Weapons|Quests|Dungeons|Ships|User Interface|Furniture and Objects|Character Improvements|Food and Farming|In-Game Tools|Mechanics|Vehicles and Mounts|Armor and Clothes",
-  "version" : "18.0.6" // https://semver.org/spec/v2.0.0.html <- THIS ANSWERS ALL YOUR QUESTIONS
+  "version" : "18.0.7" // https://semver.org/spec/v2.0.0.html <- THIS ANSWERS ALL YOUR QUESTIONS
 }
