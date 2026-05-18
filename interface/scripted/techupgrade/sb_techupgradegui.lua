@@ -32,15 +32,6 @@ function init()
     end
     return originalPat_techloadout(...)
   end
-  --[[
-  local m = getmetatable''
-  if m.pat_techloadoutswapped then
-    originalPat_techloadoutswapped = m.pat_techloadoutswapped
-    m.pat_techloadoutswapped = function(...)
-      if self.selectedSlot == 
-      return originalPat_techloadoutswapped(...)
-    end
-  end]]
 
 
   if pat_unequip then widget.setVisible("pat_unequip", false) end --no need for a tech button that doesnt do suits when we provide one that does
