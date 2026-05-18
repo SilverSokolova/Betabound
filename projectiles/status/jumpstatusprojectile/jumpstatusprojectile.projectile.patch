@@ -1,0 +1,22 @@
+//All the other gas-spawners apply the buff directly. Run/jump spawn gases which apply a lower-duration effect, overwritten by their spawner's duration (unless you are far enough)
+[
+  [{
+      "op": "test",
+      "path": "/statusEffects",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/statusEffects",
+      "value": []
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/statusEffects/-",
+      "value": {
+        "effect": "jumpboost",
+        "duration": 90
+      }
+    }
+  ]
+]
