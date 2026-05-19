@@ -7,43 +7,42 @@ function init()
   clr = config.getParameter("gameColors")
   txt = config.getParameter("gameText")
 
-  if type(cfg.lightGridSize) == "number" then
-    introActive = true
-    endingActive = false
+  cfg.center = cfg.lightStart
 
-    local lightHalfSize = cfg.lightSize / 2
-    cfg.center = cfg.lightStart
+  widget.setSliderValue("sliderGridSize", cfg.lightGridSize - 3)
 
-    cfg.lightStart = {
-      cfg.lightStart[1] - (cfg.lightGridSize * lightHalfSize),
-      cfg.lightStart[2] - (cfg.lightGridSize * lightHalfSize)
-    }
+  introActive = true
+  endingActive = false
 
-    self.canvas:drawText(
-      txt.intro.text,
-      {position={cfg.center[1], cfg.center[2] + txt.intro.y}, horizontalAnchor="mid", verticalAnchor="top"},
-      16,
-      clr.text
-    )
+  self.canvas:drawText(
+    txt.intro.text,
+    {position={cfg.center[1], cfg.center[2] + txt.intro.y}, horizontalAnchor="mid", verticalAnchor="top"},
+    16,
+    clr.text
+  )
+  widget.playSound(sfx.start)
+  newGame()
+end
 
-    self.lights = {}
-    for x = 1, cfg.lightGridSize do
-      for y = 1, cfg.lightGridSize do
-        setLightValue({x, y}, true)
-      end
+function newGame()
+  local lightHalfSize = cfg.lightSize / 2
+
+  cfg.lightStart = {
+    cfg.center[1] - (cfg.lightGridSize * lightHalfSize),
+    cfg.center[2] - (cfg.lightGridSize * lightHalfSize)
+  }
+
+  self.lights = {}
+  for x = 1, cfg.lightGridSize do
+    for y = 1, cfg.lightGridSize do
+      setLightValue({x, y}, true)
     end
-  else
-    script.setUpdateDelta(0)
-    cfg.lightGridSize = math.random(cfg.lightGridSize[1], cfg.lightGridSize[2])
-    player.interact("ScriptPane",
-      {
-        baseConfig = "/interface/games/sb_lightsoff/game.config",
-        gameConfig = cfg,
-        setup = true
-      },
-      player.id()
-    )
   end
+end
+
+function setGridSize()
+  cfg.lightGridSize = widget.getSliderValue("sliderGridSize") + 3
+  newGame()
 end
 
 function lightPosition(light)
@@ -86,7 +85,7 @@ function update()
   --size
   self.canvas:drawText(
     string.format(txt.size.text, cfg.lightGridSize),
-    {position={cfg.center[1], cfg.center[2] + txt.size.y}, horizontalAnchor="mid", verticalAnchor="top"},
+    {position={cfg.center[1] + txt.size.x, cfg.center[2] + txt.size.y}, horizontalAnchor="mid", verticalAnchor="top"},
     8,
     clr.text
   )
@@ -127,17 +126,20 @@ function update()
     self.canvas:clear()
     self.canvas:drawText(
       txt.ending.text,
-      {position={cfg.center[1], cfg.center[2] + txt.ending.y}, horizontalAnchor="mid", verticalAnchor="top", wrapWidth = 275},
+      {position={cfg.center[1], cfg.center[2] + txt.ending.y}, horizontalAnchor="mid", verticalAnchor="top", wrapWidth = txt.ending.wrapWidth},
       8,
       clr.text
     )
+    widget.setVisible("sliderGridSize", false)
+    widget.playSound(sfx.ending)
   end
 end
 
 function canvasClickEvent(position, button, buttonDown)
-  if buttonDown then
+  if buttonDown and not endingActive then
     if introActive then
       introActive = false
+      widget.setVisible("sliderGridSize", true)
     else
       local light = lightFor(position)
       if lightWithinRange(light) then
