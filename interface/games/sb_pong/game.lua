@@ -126,7 +126,7 @@ function drawScore()
   self.canvas:drawText(
     string.format(cfg.scoreText, p1.score, p2.score),
     {position={cfg.windowCenter[1], gameRect[4] + 20}, horizontalAnchor="mid", verticalAnchor="top"},
-    14,
+    16,
     {255, 255, 255}
   )
 end
