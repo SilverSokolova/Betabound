@@ -9,7 +9,7 @@ function init()
 
   cfg.center = cfg.lightStart
 
-  widget.setSliderValue("sliderGridSize", cfg.lightGridSize - 3)
+  widget.setSliderValue("sliderGridSize", cfg.lightGridSize - 2)
 
   introActive = true
   endingActive = false
@@ -41,7 +41,7 @@ function newGame()
 end
 
 function setGridSize()
-  cfg.lightGridSize = widget.getSliderValue("sliderGridSize") + 3
+  cfg.lightGridSize = widget.getSliderValue("sliderGridSize") + 2
   newGame()
 end
 
