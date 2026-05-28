@@ -1,5 +1,5 @@
 [
-[{"op":"test","path":"/useSecondaryEnvironmentBiomeIndex","value":false},{"op":"replace","path":"/useSecondaryEnvironmentBiomeIndex","value":true}], //My final design decision is YES
+[{"op":"test","path":"/useSecondaryEnvironmentBiomeIndex","value":false},{"op":"replace","path":"/useSecondaryEnvironmentBiomeIndex","value":true}], //My final design decision is YES (this is a reference that hardly anyone will get)
 
 //DUNGEONS
   //USCM Bunker
@@ -41,9 +41,10 @@
   //make planet parallax apply to minibiome
   //what about the terraformer? just keep both the plant and minibiome?
   //vanilla planet-biomes don't have microformers, only terraformers (confirm?)
-//  [{"op":"add","path":"/regionTypes/forest/subRegion/-","value":"sb_tentacle"}],
-//  [{"op":"add","path":"/regionTypes/volcanic/subRegion/-","value":"sb_tentacle"}],
-//  [{"op":"add","path":"/regionTypes/scorchedcity/subRegion/-","value":"sb_tentacle"}],
+  //Also would need to remove heat if we make this a minibiome
+//[{"op":"add","path":"/regionTypes/forest/subRegion/-","value":"sb_tentacle"}],
+//[{"op":"add","path":"/regionTypes/volcanic/subRegion/-","value":"sb_tentacle"}],
+//[{"op":"add","path":"/regionTypes/scorchedcity/subRegion/-","value":"sb_tentacle"}],
 
   [{
       "op": "add",
@@ -140,6 +141,7 @@
   [{"op":"test","path":"/regionTypes/tentacleundergroundtentacles/caveLiquid/0","value":"poison"},{"op":"replace","path":"/regionTypes/tentacleundergroundtentacles/caveLiquid/0","value":"jellyliquid"}],
 
   //PLANETS
+    //secondaryRegions show in MPI and can bring their own subRegions, which do not show in MPI
     //Tentacle
     [{
         "op": "add",
@@ -149,7 +151,8 @@
           "layers": {
             "surface": {
               "primaryRegion": ["sb_tentacle"],
-              "secondaryRegions": [],
+              "secondaryRegions": ["forest", "desert", "garden", "jungle", "savannah", "snow", "tundra", "volcanic"], //2=arid
+//              "secondaryRegions": ["bones", "hive", "alpine", "flesh"], more interesting to use beta list??
               "dungeons": []
             },
             "subsurface": {
@@ -167,13 +170,11 @@
       "path": "/regionTypes/sb_tentacle",
       "value": {
         "caveLiquid": ["sb_tentaclejuice"],
+        "encloseLiquids": true,
         "blockSelector": ["sb_normalSurface"],
         "fgCaveSelector": ["surfaceCaves"],
         "bgCaveSelector": ["empty"],
-        "biome": [[0,["sb_tentacle"]]],
-         //I played around with moving subRegion to the main planet, and even making a sb_tentacle2 in this file, but Planet Search refuses to acknowledge it (TODO: is this still accurate?)
-        //Anyway, we'll have to move this to the planet definition if we make tentacle surface minibiomes
-        "subRegion" : ["forest", "desert", "garden", "jungle", "savannah", "snow", "tundra", "volcanic"] //2=arid
+        "biome": [[0, ["sb_tentacle"]]]
       }
     }],
     [{
@@ -184,7 +185,7 @@
         "blockSelector": ["sb_normalSurface"],
         "fgCaveSelector": ["surfaceCaves"],
         "bgCaveSelector": ["empty"],
-        "biome": [[0,["sb_tentacleunderground"]]]
+        "biome": [[0, ["sb_tentacleunderground"]]]
       }
     }]
 ]
