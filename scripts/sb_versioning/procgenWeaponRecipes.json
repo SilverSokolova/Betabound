@@ -6,8 +6,8 @@
 
   Our weapon recipes now have a 'crafted' parameter in them, which tells the
   builder to add some parameters (defined in the weapon's item file) to it.
-  This is so the output of a procgen weapon recipe output can be changed
-  without needing to update the player's unlocked recipes.
+  This is so the output of a procgen weapon recipe can be changed without
+  needing to update the player's unlocked recipes.
   As a result, this makes blueprint items for these recipes able to be traded
   between clients that have different parameters for the weapon recipe, since
   the recipe/blueprint is not responsible for any parameter except 'crafted'.

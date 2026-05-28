@@ -14,25 +14,9 @@
   ],
 
   [{
-      "op": "test",
-      "path": "/sb_fuelScalingModItems",
-      "inverse": true
-    }, {
       "op": "add",
       "path": "/sb_fuelScalingModItems",
-      "value": []
-    }
-  ],
-  [{
-      "op": "add",
-      "path": "/sb_fuelScalingModItems/-",
-      "value": "ceftlthruster"
-    }
-  ],
-  [{
-      "op": "add",
-      "path": "/sb_fuelScalingModItems/-",
-      "value": "fu_carbon"
+      "value": ["ceftlthruster", "fu_carbon"]
     }
   ],
 
@@ -316,7 +300,10 @@
     }, {
       "op": "add", "path": "/displayBiomes/sb_rust",
       "value": {"name": "Rust Fields", "icon": "/items/generic/crafting/metallic.png"}
-    },
+    }, { /*doesn't display in planet search due to line 386 planetTypeNames check (ACTUALLY I GUESS NOT??)
+      "op": "add", "path": "/displayBiomes/sb_tentacle",
+      "value": {"name": "Tentacle", "icon": "/items/materials/corruptdirt.png"}
+    },*/
     //underground
     {
       "op": "add", "path": "/displayBiomes/sb_coralcave",
@@ -346,8 +333,8 @@
       "op": "add",
       "path": "/visitableTypeDescription/sb_tentacle",
       "value": [
-        "A landing site characterised by tentacles, aggressive fauna and ^#f4aa9f;pools of tentacle juice^reset;. The area's inhabitants are highly ^#f00;aggressive^reset;.",
-        "The beam location is situated in a ^#f4aa9f;tentacular^reset; landscape. Readings indicate an unpleasant environment."]
+        "A landing site characterised by tentacles, aggressive fauna and ^#f4aa9f;pools of tentacle juice^reset;. The area's inhabitants are highly ^#f00;aggressive^reset;. Scans show no relation to ^orange;The Ruin^reset;.",
+        "The beam location is situated in a ^#f4aa9f;tentacular^reset; landscape. Readings indicate an unpleasant environment. Entirely unrelated to ^orange;The Ruin^reset;."]
     }, {
       "op": "add",
       "path": "/planetTypeNames/sb_tentacle",
