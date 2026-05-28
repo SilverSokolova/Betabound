@@ -1,0 +1,3 @@
+//Only add the sound if there aren't any
+[{"op":"test","path":"/sounds/fireEnd","value":[]},
+{"op":"add","path":"/sounds/fireEnd/-","value":"/sfx/gun/aegisaltpistol_stop.ogg"}]
