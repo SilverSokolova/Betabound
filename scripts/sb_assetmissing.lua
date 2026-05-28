@@ -1,8 +1,10 @@
 --TODO: rename to something like `sb_util.lua`
 function sb_techType()
-  root.sb_techType = root.techType
-  root.techType = function(t)
-    return root.techConfig(t).sb_effect and "Suit" or root.sb_techType(t)
+  if not root.sb_techType then
+    root.sb_techType = root.techType
+    root.techType = function(t)
+      return root.techConfig(t).sb_effect and "Suit" or root.sb_techType(t)
+    end
   end
 end
 
