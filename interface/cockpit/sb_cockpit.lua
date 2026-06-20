@@ -10,7 +10,7 @@ function init() originalInit()
       if parameter == "jumpFuelCost" then
         local current = celestial.currentSystem().location
         local dest = self.travel.system
-        if not dest then dest = dest or sb_travel or self.travel.system end
+        if not dest then dest = dest or sb_travel or self.travel.system end --wtf?
         sb_travel = self.travel.system or dest
         local distanceCost = math.sqrt(((current[1] - dest[1]) ^ 2) + ((current[2] - dest[2]) ^ 2))
         return math.min(config.sb_getParameter(parameter, default) + distanceCost, sb_jumpFuelCostCap)
