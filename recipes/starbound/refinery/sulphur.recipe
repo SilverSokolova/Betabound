@@ -1,0 +1,6 @@
+{
+  "input": ["sulphur"],
+  "output": ["money", 1],
+  "duration": 0.5,
+  "groups": ["refinery","all"]
+}

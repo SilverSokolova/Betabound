@@ -1,0 +1,6 @@
+{
+  "input": ["coalore"],
+  "output": ["money", 1],
+  "duration": 0.2,
+  "groups": ["refinery","all"]
+}
