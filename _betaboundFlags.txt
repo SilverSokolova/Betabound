@@ -1,4 +1,4 @@
-Flags which can be set to disable specific Betabound features in patch files.
+Flags which can be set to disable specific Betabound features in files.
 There are more flags in `/betabound.config`.
 
 /sky.config
@@ -21,6 +21,11 @@ There are more flags in `/betabound.config`.
 /cinematics/story/esther/esther.cinematic
   betabound:disableEstherStartMusic
   Disables the music that plays before the vanilla music begins
+-
+
+/interface/windowconfig/playerinventory.config
+  sb_techDisplay:enabled
+  Set to `false` to disable the fourth tech slot appearing in the inventory with OpenStarbound
 -
 
 (Has official patch)
