@@ -12,7 +12,6 @@
       "value": 300
     }
   ],
-
   [{
       "op": "add",
       "path": "/sb_fuelScalingModItems",
@@ -20,6 +19,7 @@
     }
   ],
 
+  //Ores
   [{
       "op": "test",
       "path": "/displayOres/platinum",
@@ -162,35 +162,6 @@
       }
     }
   ],
-  /* dont think we'll ever need this. just comment it out so Planet Search doesnt know about it solely from us
-  [{
-  "op": "test",
-  "path": "/displayOres/trianglium",
-  "inverse": true
-  }, {
-  "op": "add",
-  "path": "/displayOres/trianglium",
-  "value": {
-  "displayName": "Trianglium",
-  "icon": "/items/generic/crafting/triangliumore.png"
-  }
-  }
-  ],*/
-  /*
-  [{
-  "op": "test",
-  "path": "/displayOres/prisilite",
-  "inverse": true
-  }, {
-  "op": "add",
-  "path": "/displayOres/prisilite",
-  "value": {
-  "displayName": "Prisilite",
-  "icon": "/items/generic/crafting/prisiliteore.png"
-  }
-  }
-  ],
-   */
   [{
       "op": "add",
       "path": "/displayOres/sb_rubium",
@@ -215,6 +186,7 @@
     }
   ],
 
+  //Expand ore layout
   [{
       "op": "test",
       "path": "/gui/planetinfo/children/inner/children/oreLayout/rect",
@@ -300,7 +272,7 @@
     }, {
       "op": "add", "path": "/displayBiomes/sb_rust",
       "value": {"name": "Rust Fields", "icon": "/items/generic/crafting/metallic.png"}
-    }, { /*doesn't display in planet search due to line 386 planetTypeNames check (ACTUALLY I GUESS NOT??)
+    }, /*{ doesn't display in planet search due to line 386 planetTypeNames check (ACTUALLY I GUESS NOT??)
       "op": "add", "path": "/displayBiomes/sb_tentacle",
       "value": {"name": "Tentacle", "icon": "/items/materials/corruptdirt.png"}
     },*/
