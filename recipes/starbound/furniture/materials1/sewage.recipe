@@ -1,0 +1,6 @@
+{
+  "input": [["poop", 3]],
+  "output": ["sewage", 20],
+  "duration": 0.25,
+  "groups": ["craftingfurniture", "materials", "all"]
+}
