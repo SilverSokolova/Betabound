@@ -1,0 +1,11 @@
+{
+  "projectileName": "sb_filledcrittercapturepod",
+  "image": "/projectiles/throwable/filledcapturepod/filledcapturepod.png",
+  "animationCycle": 0.25,
+  "physics": "grenade",
+  "frameNumber": 1,
+  "pointLight": false,
+  "speed": 40,
+  "power": 0.1,
+  "damageKind": "default"
+}
