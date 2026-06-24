@@ -25,7 +25,6 @@ function update(dt, fireMode, shiftHeld)
     end
     storage.fireTimer = config.getParameter("fireTime", 1)
     storage.firing = true
-
   end
 
   active = false
