@@ -8,5 +8,6 @@
   },
   "description": "",
   "shortdescription": "Debug Item",
+  "inventoryFilters": {"default":{}},
   "scripts": ["/scripts/augments/sb_debug.lua"]
 }
