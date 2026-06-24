@@ -6,8 +6,7 @@ function init()
   originalInit()
 end
 
-function update(...)
-  originalUpdate(...)
+function update(...); originalUpdate(...)
   if sb_hasHook then
     animator.setAnimationState("sb_hook", self.projectileId and "off" or "on")
   end

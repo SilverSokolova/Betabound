@@ -1,3 +1,4 @@
+//Commented-out items are already in terramart, except meatchunks
 [[
 //{"op":"add","path":"/interactData/items/-","value":{"item":"sb_meatballs"}},
 //{"op":"add","path":"/interactData/items/-","value":{"item":"sb_meatchunks"}},

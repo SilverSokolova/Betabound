@@ -11,7 +11,7 @@
 [{"op":"test","path":"/tooltipKind","inverse":true},
 {"op":"add","path":"/tooltipKind","value":"codex"}],
 
-[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"uncommon"}],
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}],
 
 [{"op":"test","path":"/level","inverse":true},{"op":"add","path":"/level","value":3}],
 [{"op":"test","path":"/builder"},{"op":"move","from":"/builder","path":"/sb_builder"}],

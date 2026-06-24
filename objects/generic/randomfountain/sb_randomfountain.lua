@@ -14,7 +14,7 @@ function onInteraction(args)
   if storage.active then
     toggle(false)
     for i = 1, 3 do
-      animator.playSound("sb_use"..i)
+      animator.playSound("sb_use" .. i)
     end
     local statusOptions = config.getParameter("sb_statusOptions")
     world.sendEntityMessage(args.sourceId, "sb_randomfountain", statusOptions[math.random(#statusOptions)])

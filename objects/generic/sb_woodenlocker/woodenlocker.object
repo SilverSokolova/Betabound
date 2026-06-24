@@ -8,6 +8,7 @@
   "category": "storage",
   "price": 35,
   "tooltipKind": "sb_container",
+
   "builder": "/items/buildscripts/starbound/buildcontainer.lua",
   "scripts": ["/scripts/objects/sb_container.lua"],
 

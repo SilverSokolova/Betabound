@@ -12,6 +12,5 @@
   "animationLoops": false,
   "piercing": true,
   "flippable": true,
-  "universalDamage": false, //?
   "damageKind": "default"
 }

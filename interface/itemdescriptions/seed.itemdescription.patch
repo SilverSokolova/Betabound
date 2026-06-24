@@ -1,4 +1,5 @@
-[[{
+[
+  [{
       "op": "test",
       "path": "/toolLabel"
     }, {
@@ -17,4 +18,5 @@
       "op": "remove",
       "path": "/handednessLabel"
     }
-  ]]
+  ]
+]

@@ -2,7 +2,7 @@
   "type": "sb_stimmerchant",
   "baseType": "merchant",
   "displayTitle": "Stim Pack Merchant",
-  "dropPools": ["wizardtreasure"], //this, too. see doc spawner as to why don't worry about exploits
+  "dropPools": ["wizardtreasure"],
 
   "scriptConfig": {
     "questGenerator": {

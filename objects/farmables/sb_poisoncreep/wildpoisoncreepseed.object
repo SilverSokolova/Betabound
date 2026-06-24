@@ -40,7 +40,6 @@
       "resetToStage": 1
     }
   ],
-  "breakDropOptions": [[["sb_poisoncreepseed", 1, {}
-      ]]],
+  "breakDropOptions": [[["sb_poisoncreepseed", 1, {}]]],
   "consumeSoilMoisture": false
 }

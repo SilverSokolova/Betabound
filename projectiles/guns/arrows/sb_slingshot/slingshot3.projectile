@@ -1,3 +1,4 @@
+//TODO: Could this be replaced in the activeitem with an instant-suicide invisibleprojectile?
 {
   "projectileName": "sb_slingshot3",
   "physics": "illusion",

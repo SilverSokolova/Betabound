@@ -1,9 +1,9 @@
 {
-  "name" : "sb_hugedragonbody",
-  "category" : "sb_hugebiped",
-  "type" : "body",
+  "name": "sb_hugedragonbody",
+  "category": "sb_hugebiped",
+  "type": "body",
 
-  "frames" : {
-    "body" : "body.png"
+  "frames": {
+    "body": "body.png"
   }
 }

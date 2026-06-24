@@ -1,7 +1,7 @@
 function init()
   recoil = 0
   recoilRate = 0
-  fireOffset = config.getParameter("fireOffset",0)
+  fireOffset = config.getParameter("fireOffset", 0)
   updateAim()
   active = false
   storage.fireTimer = storage.fireTimer or 0

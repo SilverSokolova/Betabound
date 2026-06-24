@@ -85,8 +85,6 @@
 
   "soundEffect": "/sfx/objects/campfire.ogg",
 
-  "statusEffects": [],
-
   "scripts": ["/scripts/npcToyObject.lua"],
   "npcToy": {
     "influence": [
@@ -96,17 +94,17 @@
     ],
     "defaultReactions": {
       "furnace": [
-        [1.0, "warmhands"],
-        [1.0, "crouchwarm"]
+        [1, "warmhands"],
+        [1, "crouchwarm"]
       ],
       "furnaceComplete": [
-        [1.0, "warmhands"],
-        [1.0, "crouchwarm"],
-        [1.0, "pokefire"]
+        [1, "warmhands"],
+        [1, "crouchwarm"],
+        [1, "pokefire"]
       ]
     },
-    "preciseStandPositionLeft": [-2.5, 0.0],
-    "preciseStandPositionRight": [2.5, 0.0],
+    "preciseStandPositionLeft": [-2.5, 0],
+    "preciseStandPositionRight": [2.5, 0],
     "maxNpcs": 1
   }
 }

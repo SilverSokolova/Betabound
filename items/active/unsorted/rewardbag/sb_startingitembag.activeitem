@@ -25,6 +25,6 @@
   "fireOffset": [1, 0],
   "treasure": {
     "pool": "sb_defaultitems",
-    "level": 1
+    "level": 0
   }
 }

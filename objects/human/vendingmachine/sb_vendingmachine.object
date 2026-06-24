@@ -11,6 +11,7 @@
   "category": "fridgeStorage",
   "price": 185,
   "lightColor": [153, 115, 116],
+
   "builder": "/items/buildscripts/starbound/buildcontainer.lua",
 
   "apexDescription": "A vending machine. No banana-flavoured snacks, sadly.",

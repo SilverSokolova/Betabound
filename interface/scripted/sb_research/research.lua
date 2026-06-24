@@ -81,7 +81,7 @@ function itemSelected()
     widget.setItemSlotItem("currentRecipeIconInput2", selectedItem[2])
     widget.setItemSlotItem("currentRecipeIconOutput1", selectedItem[1])
     widget.setItemSlotItem("currentRecipeIconOutput2", {selectedItem[1], 1, {tooltipKind="simpletooltip"}})
-    local recipeData = root.recipesForItem(selectedItem[1]:sub(1,-8))[1].output
+    local recipeData = root.recipesForItem(selectedItem[1]:sub(1, -8))[1].output
     widget.setItemSlotItem("currentRecipeIconOutput3",{recipeData.name, 1, recipeData.parameters})
 
     if not selectedAnything then

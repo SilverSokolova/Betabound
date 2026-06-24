@@ -2,7 +2,6 @@
   "projectileName": "sb_robotwake",
   "physics": "grenadezbomb",
   "bounces": 0,
-  "level": 15,
   "speed": 0,
   "timeToLive": 0.2,
   "image": "robotwake.png",

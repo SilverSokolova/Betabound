@@ -1,7 +1,7 @@
---local originalInit = init or function() end function init() originalInit() object.setInteractive = function() end end
 local originalUpdate = update or function() end
-function update(...) originalUpdate(...)
-  object.setConfigParameter("treasurePools",{"empty"})
+
+function update(...); originalUpdate(...)
   storage = {}
+  object.setConfigParameter("treasurePools", {"empty"})
   object.setInteractive(animator.animationState("light") == "on" or false)
 end

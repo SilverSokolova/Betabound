@@ -14,6 +14,7 @@
   "edgeTrigger": true,
   "windupTime": 0,
   "cooldown": 1.5,
+
   "projectileType": "sb_toxicbarrel",
   "projectileConfig": {
     "speed": 15,

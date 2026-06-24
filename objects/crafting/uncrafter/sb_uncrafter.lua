@@ -1,11 +1,20 @@
 local originalInit = init or function() end
 
-function init(a) originalInit(a)
+function init(args); originalInit(args)
   if weaponLevelKinds then
-    local b = {}
-    b={"copperbar","copperbar"} sb_swapOutputs(1,"tungstenbar",b)
-    b={"sb_steelbar","tungstenbar"} sb_swapOutputs(2,"titaniumbar",b)
-    b={"goldbar","platinumbar"} sb_swapOutputs(3,"durasteelbar",b)
+    --[[
+      TODO: Do any of the uncrafter mods replace this object?
+      If so, it might be risky to load after them all because
+      someone may reverse engineer one of the faulty ones and
+      we'd have to account for that, too.
+      This directory is a good place to put a config file with
+      whatever we'd put into the object, anyway.
+    ]]
+
+    --Move mostly everything up a tier, and add our own stuff
+    sb_modifyWeaponLevelKinds(1, "tungstenbar", {"copperbar", "copperbar"}) --No more tier 1 tungsten
+    sb_modifyWeaponLevelKinds(2, "titaniumbar", {"goldbar", "tungstenbar"})
+    sb_modifyWeaponLevelKinds(3, "durasteelbar", {"platinumbar", "sb_steelbar"})
     weaponLevelKinds[4][#weaponLevelKinds[4]+1] = "durasteelbar"
     weaponLevelKinds[4][#weaponLevelKinds[4]+1] = "sb_refinedrubium"
     weaponLevelKinds[4][#weaponLevelKinds[4]+1] = "sb_refinedrubium"
@@ -16,6 +25,10 @@ function init(a) originalInit(a)
   end
 end
 
-function sb_swapOutputs(l,m,b)
-  for i = 1, #weaponLevelKinds[l] do if weaponLevelKinds[l][i] == m then weaponLevelKinds[l][i] = b[1+i%2] end end
+function sb_modifyWeaponLevelKinds(tier, itemName, newItems)
+  for i = 1, #weaponLevelKinds[tier] do
+    if weaponLevelKinds[tier][i] == itemName then
+      weaponLevelKinds[tier][i] = newItems[1 + i % 2]
+    end
+  end
 end

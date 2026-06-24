@@ -14,6 +14,7 @@
   "edgeTrigger": true,
   "windupTime": 0,
   "cooldown": 1,
+
   "projectileType": "reed",
   "projectileConfig": {
     "speed": 55,

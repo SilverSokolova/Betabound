@@ -1,6 +1,6 @@
 [
 [{"op":"test","path":"/description","value":"It's Silt. It's very silty."},
-{"op":"replace","path":"/description","value":"A fine glittering sand. Could probably be made into glass!"}],
+{"op":"replace","path":"/description","value":"A fine glittering sand, rather silty. Could probably be made into glass!"}],
 [{"op":"test","path":"/shortdescription","value":"Loose Silt"},
 {"op":"replace","path":"/shortdescription","value":"Fine Sand"}],
 

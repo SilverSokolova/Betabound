@@ -50,7 +50,7 @@ end
 spawnState = {}
 
 function spawnState.enter()
-  if #self.spawnedEntityIds >= config.getParameter("maxSpawnedRobots",4) then return nil end
+  if #self.spawnedEntityIds >= config.getParameter("maxSpawnedRobots", 4) then return nil end
 
   local rand = math.random(90)
   local monstertype

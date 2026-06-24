@@ -1,4 +1,5 @@
-[[{
+[
+  [{
       "op": "test",
       "path": "/toolLabel"
     }, {
@@ -10,4 +11,5 @@
       "path": "/toolLabel/value",
       "value": "Capture Pod"
     }
-  ]]
+  ]
+]

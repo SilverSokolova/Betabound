@@ -1,42 +1,35 @@
 [
-[{"op":"test","path":"/interactData/items/20"}
-,{"op":"add","path":"/interactData/items/6","value":{"item":"supermatter","prerequisiteQuest":"human_mission1"}}
-//,{"op":"add","path":"/interactData/items/9","value":{"item":"processor","prerequisiteQuest":"apex_mission1"}}
-,{"op":"add","path":"/interactData/items/10","value":{"item":"cottonwool"}}
-,{"op":"add","path":"/interactData/items/22","value":{"item":"rawham"}}
-,{"op":"add","path":"/interactData/items/24","value":{"item":"orange"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"sugar"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_candy"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_meatballs"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_copybook"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_customcodex"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"coffeemachine","prerequisiteQuest":"sb_coffee"}} //Can't print it due to category
-,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_airpocketback","prerequisiteQuest":"sb_outpost2"}}]
+[{"op":"test","path":"/interactData/items/20"},
+{"op":"add","path":"/interactData/items/6","value":{"item":"supermatter","prerequisiteQuest":"human_mission1"}},
+//{"op":"add","path":"/interactData/items/9","value":{"item":"processor","prerequisiteQuest":"apex_mission1"}},
+{"op":"add","path":"/interactData/items/10","value":{"item":"cottonwool"}},
+{"op":"add","path":"/interactData/items/22","value":{"item":"rawham"}},
+{"op":"add","path":"/interactData/items/24","value":{"item":"orange"}}],
 
+[{"op":"test","path":"/interactData/items/21","inverse":true},
+{"op":"add","path":"/interactData/items/-","value":{"item":"supermatter","prerequisiteQuest":"human_mission1"}},
+//{"op":"add","path":"/interactData/items/-","value":{"item":"processor","prerequisiteQuest":"apex_mission1"}},
+{"op":"add","path":"/interactData/items/-","value":{"item":"cottonwool"}},
+{"op":"add","path":"/interactData/items/-","value":{"item":"rawham"}},
+{"op":"add","path":"/interactData/items/-","value":{"item":"orange"}}],
 
-,[{"op":"test","path":"/interactData/items/21","inverse":true}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"supermatter","prerequisiteQuest":"human_mission1"}}
-//,{"op":"add","path":"/interactData/items/-","value":{"item":"processor","prerequisiteQuest":"apex_mission1"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"cottonwool"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"rawham"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"orange"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"sugar"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_candy"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_meatballs"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_copybook"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_customcodex"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"coffeemachine","prerequisiteQuest":"sb_coffee0"}}
-,{"op":"add","path":"/interactData/items/-","value":{"item":"sb_airpocketback","prerequisiteQuest":"sb_outpost2"}}],
+[{"op":"add","path":"/interactData/items/-","value":{"item":"sugar"}},
+{"op":"add","path":"/interactData/items/-","value":{"item":"sb_candy"}},
+{"op":"add","path":"/interactData/items/-","value":{"item":"sb_meatballs"}},
+{"op":"add","path":"/interactData/items/-","value":{"item":"sb_copybook"}},
+{"op":"add","path":"/interactData/items/-","value":{"item":"sb_customcodex"}},
+{"op":"add","path":"/interactData/items/-","value":{"item":"coffeemachine","prerequisiteQuest":"sb_coffee"}},
+{"op":"add","path":"/interactData/items/-","value":{"item":"sb_airpocketback","prerequisiteQuest":"sb_outpost2"}}],
 
 
   [{"op":"test","path":"/scripts","inverse":true},{"op":"add","path":"/scripts","value":[]}],
   [{"op":"test","path":"/animation","inverse":true},{"op":"add","path":"/scripts/-","value":"sb_infinityexpress.lua"}],
   [{"op":"test","path":"/animation","inverse":true},{"op":"add","path":"/animation","value":"sb_infinityexpress.animation"}],
   [{"op":"test","path":"/animationParts","inverse":true},{"op":"add","path":"/animationParts","value":{"shopright":"infinityexpressright.png","shopleft":"infinityexpressleft.png"}}],
-  //i hate this so much. i swear to god if it randomly jumps around when unloaded i will SCREAM
-  [{"op":"replace","path":"/orientations/0/imagePosition","value":[-88,0]}],
-  [{"op":"replace","path":"/orientations/1/imagePosition","value":[-88,0]}],
-  [{"op":"add","path":"/animationPosition","value":[-88,0]}],
+
+  [{"op":"replace","path":"/orientations/0/imagePosition","value":[-88, 0]}],
+  [{"op":"replace","path":"/orientations/1/imagePosition","value":[-88, 0]}],
+  [{"op":"add","path":"/animationPosition","value":[-88, 0]}],
   [{"op":"test","path":"/orientations/0/imageLayers/0/image","value":"infinityexpressleft.png:<color>"},{"op":"replace","path":"/orientations/0/imageLayers/0/image","value":"infinityexpressleft.png:<frame>.<color>"}],
   [{"op":"test","path":"/orientations/1/imageLayers/0/image","value":"infinityexpressright.png:<color>"},{"op":"replace","path":"/orientations/1/imageLayers/0/image","value":"infinityexpressright.png:<frame>.<color>"}]
 ]

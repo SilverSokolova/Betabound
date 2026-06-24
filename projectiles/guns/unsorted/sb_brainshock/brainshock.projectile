@@ -1,3 +1,4 @@
+//TODO: Is there another projectile with this image? The brain gun can apply the status effect via projectile parameters. What does the sb_brain damageKind do differently?
 {
   "projectileName": "sb_brainshock",
   "image": "brainshock.png",

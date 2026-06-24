@@ -16,5 +16,5 @@
     [{"op":"test","path":"/floranDescription","value":"ALL HAIL GEORGE!!!"},{"op":"remove","path":"/floranDescription"}],
     [{"op":"test","path":"/apexDescription","value":"ALL HAIL GEORGE!!!"},{"op":"remove","path":"/apexDescription"}],
     [{"op":"test","path":"/hylotlDescription","value":"ALL HAIL GEORGE!!!"},{"op":"remove","path":"/hylotlDescription"}],
-    [{"op":"replace","path":"/description","value":"This guy makes me want to start drinking."}]
+    [{"op":"test","path":"/description","value":"A tribute to GeorgeV! Developer Ultimate! ALL HAIL GEORGE!!!"},{"op":"replace","path":"/description","value":"This guy makes me want to start drinking."}]
 ]

@@ -13,6 +13,7 @@
   "edgeTrigger": true,
   "windupTime": 0,
   "cooldown": 0.4,
+
   "projectileType": "sb_phoenix",
   "projectileConfig": {
     "speed": 45,

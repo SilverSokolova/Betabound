@@ -1,10 +1,12 @@
+// *Wheatley voice* And so I thought, "You know what this mod needs? An exact duplicate of `crystalplantseed.object.patch`." Yea, that's right! A direct copy. One to one hundred. Two, even. One to two. Heh.
 [
+//Already in Patch Project
 [{"op":"test","path":"/novakidDescription","value":"A famrable crystal! Now we're talkin'!"},{"op":"replace","path":"/novakidDescription","value":"A farmable crystal! Now we're talkin'!"}],
 [{"op":"test","path":"/description","value":"A Crystal plant. Truns out money does grow on trees."},{"op":"replace","path":"/description","value":"A crystal plant. Turns out money does grow on trees."}],
+
+//
 [{"op":"test","path":"/tooltipKind","value":"seed"},{"op":"replace","path":"/tooltipKind","value":"sb_tool"}],
 [{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":25}],
-[{"op":"test","path":"/stages/0/duration/0","value":2820},{"op":"replace","path":"/stages/0/duration/0","value":570}],
-[{"op":"test","path":"/stages/0/duration/1","value":2820},{"op":"replace","path":"/stages/0/duration/1","value":630}],
-[{"op":"test","path":"/stages/1/duration/0","value":2820},{"op":"replace","path":"/stages/1/duration/0","value":570}],
-[{"op":"test","path":"/stages/1/duration/1","value":2820},{"op":"replace","path":"/stages/1/duration/1","value":630}]
+[{"op":"test","path":"/stages/0/duration","value":[2820, 2820]},{"op":"replace","path":"/stages/0/duration","value":[570, 630]}],
+[{"op":"test","path":"/stages/1/duration","value":[2820, 2820]},{"op":"replace","path":"/stages/1/duration","value":[570, 630]}]
 ]

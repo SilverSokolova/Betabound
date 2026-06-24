@@ -1,1 +1,2 @@
+//TODO: For all of these kinds of patches, why not rework the weapon projectile stuff to include parameters?
 [[{"op":"test","path":"/speed","value":0},{"op":"replace","path":"/speed","value":25}]]

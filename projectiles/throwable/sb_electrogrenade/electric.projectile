@@ -11,10 +11,19 @@
   "timeToLive": 1.5,
   "bounces": -1,
   "piercing": true,
-  "damageTeam": {"type" : "indiscriminate"},
+  "damageTeam": {
+    "type": "indiscriminate"
+  },
   "damageKind": "electricbarrier",
   "damagePoly": [[-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6]],
   "damageRepeatTimeout": 0.5,
   "statusEffects": ["electrified"],
-  "emitters": ["electricplasmapurple","lightningthrowertrail"]
+  "emitters": ["electricplasmapurple", "lightningthrowertrail"],
+  "fullbright": true,
+  "persistentAudio": "/sfx/projectiles/electricstickyspikes_loop.ogg",
+  "actionOnReap": [{
+      "action": "sound",
+      "options": ["/sfx/projectiles/electrical_barrier_break1.ogg", "/sfx/projectiles/electrical_barrier_break2.ogg", "/sfx/projectiles/electrical_barrier_break3.ogg", "/sfx/projectiles/electrical_barrier_break4.ogg", "/sfx/projectiles/electrical_barrier_break5.ogg", "/sfx/projectiles/electrical_barrier_break6.ogg"]
+    }
+  ]
 }

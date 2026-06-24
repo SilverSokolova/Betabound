@@ -11,6 +11,7 @@
   "edgeTrigger": true,
   "windupTime": 0,
   "cooldown": 0.4,
+
   "projectileType": "poisonballoon",
   "projectileConfig": {
     "speed": 40,

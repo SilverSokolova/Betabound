@@ -14,7 +14,5 @@
       "duration": 3
     }
   ],
-  //  "damageTeam" : { "type" : "indiscriminate" },
-  //  "damageType" : "ignoresdef",
   "damageKind": "default"
 }

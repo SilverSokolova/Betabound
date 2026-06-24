@@ -6,6 +6,10 @@
 //SPINNING WHEEL
 ,[{"op":"add","path":"/acceptItems/-","value":"thread"}]
 
+//MISC
+,[{"op":"add","path":"/acceptItems/-","value":"valentinechocolates"}]
+,[{"op":"add","path":"/acceptItems/-","value":"basic"}]
+
 //PRODUCE
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_poisoncreep"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"crystalplant"}]
@@ -112,8 +116,4 @@
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_chilistew"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_curriedbeakseed"}]
 ,[{"op":"add","path":"/acceptItems/-","value":"sb_burningeyeballs"}]
-
-//MISC
-,[{"op":"add","path":"/acceptItems/-","value":"valentinechocolates"}]
-,[{"op":"add","path":"/acceptItems/-","value":"basic"}]
 ]

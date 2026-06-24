@@ -7,12 +7,7 @@
   "inventoryIcon": "sb_limegreendye.png",
   "description": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
   "shortdescription": "Lime Green Dye",
-  "dyeDirectives": {
-    "ffca8a": "d1e160",
-    "e0975c": "9bba3d",
-    "a85636": "48832f",
-    "6f2919": "1b4c2a"
-  }, //aegisalt, apparently. you can't tell by the bottle
+  "dyeDirectives": {"ffca8a": "d1e160", "e0975c": "9bba3d", "a85636": "48832f", "6f2919": "1b4c2a"}, //aegisalt, apparently. you can't tell by the bottle
   "radioMessagesOnPickup": ["pickupdye"],
   "scripts": ["/scripts/augments/dye.lua", "/scripts/augments/sb_dye.lua"]
 }

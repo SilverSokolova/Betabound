@@ -1,5 +1,5 @@
 [
-  //hey so dont use sb_quests for this guy. he does byos stuff
+  //hey so dont use sb_quests for this guy. he does byos stuff (And sb_quests doesn't merge with quests??)
   [{
       "op": "test",
       "path": "/scriptConfig/offeredQuests",

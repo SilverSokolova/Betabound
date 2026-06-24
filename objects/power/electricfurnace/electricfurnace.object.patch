@@ -2,7 +2,7 @@
     [{
         "op": "test",
         "path": "/bonusOutputs/platinumore",
-        "inverse" : true
+        "inverse": true
     },
     {
         "op": "add",
@@ -16,7 +16,7 @@
     [{
         "op": "test",
         "path": "/inputsToOutputs/platinumore",
-        "inverse" : true
+        "inverse": true
     },
     {
         "op": "add",

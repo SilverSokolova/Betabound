@@ -13,6 +13,5 @@
   "animationLoops": true,
   "piercing": true,
   "flippable": true,
-  "universalDamage": false,
   "damageKind": "retro"
 }

@@ -1,4 +1,5 @@
-[[{
+[
+  [{
       "op": "test",
       "path": "/paneLayout/rewardItems/dimensions/0",
       "value": 2
@@ -33,4 +34,5 @@
       "path": "/paneLayout/imgPolaroidBack/position/1",
       "value": 85
     }
-  ]]
+  ]
+]

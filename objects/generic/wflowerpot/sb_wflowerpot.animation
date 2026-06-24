@@ -1,9 +1,9 @@
 {
-  "animatedParts":{
-    "stateTypes":{
-      "sb_flower":{
-        "default":"1",
-        "states":{
+  "animatedParts": {
+    "stateTypes": {
+      "sb_flower": {
+        "default": "1",
+        "states": {
           "1":{"frames":1},
           "2":{"frames":1},
           "3":{"frames":1},
@@ -11,11 +11,11 @@
         }
       }
     },
-    "parts":{
-      "sb_flower":{
-        "properties":{"centered":false},
-        "partStates":{
-          "sb_flower":{
+    "parts": {
+      "sb_flower": {
+        "properties": {"centered": false},
+        "partStates": {
+          "sb_flower": {
             "1":{"properties":{"image":"<partImage>:<color>.0"}},
             "2":{"properties":{"image":"<partImage>:<color>.1"}},
             "3":{"properties":{"image":"<partImage>:<color>.2"}},

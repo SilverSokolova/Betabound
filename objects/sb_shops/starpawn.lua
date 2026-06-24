@@ -1,8 +1,9 @@
 require("/scripts/util.lua") --Provides `copy` function
+
 local originalInit = init or function() end
-function init()
-  originalInit()
-  interactable = interactable or true
+
+function init(); originalInit()
+  interactable = interactable or true --TODO: What? Does init run again? Was this debug code?
   object.setConfigParameter("mouthPosition", config.getParameter("mouthPositions")[direction == "right" and 1 or 2])
   shopInUseText = config.getParameter("shopInUseText")
   animator.setSoundPool("speech", config.getParameter("speechSoundPool"))
@@ -75,6 +76,7 @@ function onInteraction(args)
       sellSound = merchant.sellSound
     }
   end
+
   if interactable == true then
     return setInteractable(args.sourceId) and {interactAction, interactData}
   else

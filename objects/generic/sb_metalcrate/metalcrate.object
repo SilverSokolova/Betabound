@@ -11,8 +11,10 @@
   "printable": true,
   "race": "generic",
   "health": 1.5,
+
   "builder": "/items/buildscripts/starbound/buildcontainer.lua",
   "scripts": ["/scripts/objects/sb_container.lua"],
+
   "apexDescription": "A nice storage crate made from a metal material.",
   "avianDescription": "This crate is used for storing different types of equipment.",
   "floranDescription": "Crate can store many thingss.",
