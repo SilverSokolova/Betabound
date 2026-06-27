@@ -1,11 +1,13 @@
-function onInputNodeChange() processWireInput() end
-function onNodeConnectionChange() processWireInput() end
+function onInputNodeChange(); processWireInput() end
+function onNodeConnectionChange(); processWireInput() end
 
 function init()
   linkedTeleporter = config.getParameter("linkedTeleporter")
   active = config.getParameter("active", linkedTeleporter or false)
   object.setConfigParameter("active", active)
   object.setInteractive(active)
+  animator.setParticleEmitterActive("teleporterParticles", active)
+
   local active = active and "on" or "off"
     animator.setAnimationState("light", active)
     animator.setAnimationState("teleporter", active)

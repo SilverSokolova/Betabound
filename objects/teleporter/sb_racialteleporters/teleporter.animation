@@ -78,5 +78,36 @@
         }
       }
     }
+  },
+
+  "particleEmitters": {
+    "teleporterParticles": {
+      "emissionRate": 3,
+      "emissionVariance": 0.5,
+      "active": false,
+
+      "particles": [{
+          "particle": {
+            "type": "ember",
+            "position": [2, 1.25],
+            "size": 0.8,
+            "color": [64, 190, 255, 255],
+            "light": [50, 50, 150],
+            "fade": 0.5,
+            "destructionAction": "shrink",
+            "destructionTime": 0.5,
+            "initialVelocity": [0, 1],
+            "finalVelocity": [0, 0.5],
+            "approach": [0, 1],
+            "timeToLive": 1,
+            "layer": "middle",
+            "variance": {
+              "position": [1.5, 0],
+              "size": 0.25
+            }
+          }
+        }
+      ]
+    }
   }
 }
