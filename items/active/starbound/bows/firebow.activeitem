@@ -8,7 +8,7 @@
   "tooltipFields": {
     "objectImage": "/items/active/starbound/bows/firebowfull.png:0"
   },
-  "description": "Every arrow loosed from this bow at full power is set aflame.",
+  "description": "Fires arrows which are set aflame.",
   "shortdescription": "Fire Bow",
   "configOverrides": {
     "animationCustom": {

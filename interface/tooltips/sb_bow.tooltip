@@ -72,7 +72,7 @@
   },
   "descriptionLabel": {
     "type": "label",
-    "position": [9, 59], //57
+    "position": [9, 57],
     "hAnchor": "left",
     "vAnchor": "top",
     "wrapWidth": 124,
