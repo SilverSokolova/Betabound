@@ -8,7 +8,7 @@
   "tooltipFields": {
     "subtitle": "Other"
   },
-  "description": "A jar of paint, used to change the hueshift of blocks.\n^gray;Select paint and right-click block (in chest or inventory).",
+  "description": "A jar of paint, used to change the hueshift of blocks.\n^gray;Select paint and right-click block (in chest or inventory)",
   "shortdescription": "Jar of '%s' Paint",
   "radioMessagesOnPickup": ["sb_pickuppaint"],
   "scripts": ["/scripts/augments/sb_paint.lua"],
