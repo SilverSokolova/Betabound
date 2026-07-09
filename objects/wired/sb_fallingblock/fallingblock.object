@@ -1,7 +1,6 @@
 {
   "objectName": "sb_fallingblock",
-  "objectType": "physics",
-  "colonyTags": ["wired"],
+  "objectType": "physics", //TODO: Is this needed?
   "rarity": "Rare",
   "description": "Watch your step! These blocks can't hold much weight.",
   "shortdescription": "Falling Block",
@@ -10,7 +9,8 @@
     "objectImage": "/objects/wired/sb_fallingblock/fallingblock.png:5"
   },
 
-  "category": "wire",
+  "category": "block",
+  "inventoryFilters": {"materialBag":{},"default":{"tagWhitelist":[]},"autoAddToCustomBar":{"categoryWhitelist":["other"]}},
   "price": 50,
 
   "floranDescription": "They ssstep, they fall.",
