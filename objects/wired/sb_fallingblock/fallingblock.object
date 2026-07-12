@@ -9,8 +9,7 @@
     "objectImage": "/objects/wired/sb_fallingblock/fallingblock.png:5"
   },
 
-  "category": "block",
-  "inventoryFilters": {"materialBag":{},"default":{"tagWhitelist":[]},"autoAddToCustomBar":{"categoryWhitelist":["other"]}},
+  "category": "other", //Not block because printer + slippery slope
   "price": 50,
 
   "floranDescription": "They ssstep, they fall.",
