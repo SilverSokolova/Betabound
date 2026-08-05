@@ -7,6 +7,7 @@ function init()
 
   sb_techType()
   suitsInit()
+  status.clearPersistentEffects("sb_wiredteleporter")
 
   --Peacekeeper Teleporter
   message.setHandler("sb_peacekeeperteleporter", function(_, _, args)
@@ -68,7 +69,10 @@ function init()
   message.setHandler("sb_wiredteleporter", function(_, _, x, y)
     if x and y and not status.uniqueStatusEffectActive("blink") then
       status.addEphemeralEffect("blink", 0.5)
-      mcontroller.setPosition({x, y + 3})
+      wiredTeleporterWaitTime = 15
+      wiredTeleporterX = x
+      wiredTeleporterY = y
+      status.setPersistentEffects("sb_wiredteleporter", {{stat = "activeMovementAbilities", amount = 1}})
     end
   end)
 
@@ -96,6 +100,23 @@ function init()
       interface.queueMessage(string.format(showHungerMessage, math.ceil(status.resource("food")).."/"..math.ceil(status.resourceMax("food"))), 4, 0.5)
     end
   end)
+end
+
+--While this could be a status effect, this should be fine
+function update()
+  if wiredTeleporterWaitTime then
+    wiredTeleporterWaitTime = math.max(0, wiredTeleporterWaitTime - 1)
+    mcontroller.setVelocity({0, 0})
+
+    if wiredTeleporterWaitTime == 0 then
+      mcontroller.setPosition({wiredTeleporterX, wiredTeleporterY + 3.5})
+
+      wiredTeleporterWaitTime = nil
+      wiredTeleporterX = nil
+      wiredTeleporterY = nil
+      status.clearPersistentEffects("sb_wiredteleporter")
+    end
+  end
 end
 
 function suitsInit()
@@ -234,7 +255,7 @@ function updateSuitIcon(techName)
           inventoryWidgets["setVisible"](hiddenWidgets[i], true)
         end
 
-        local centeredOffset = root.assetJson("/interface/windowconfig/playerinventory.config:paneLayout.techHead.centered") and 0 or 8
+        local centeredOffset = root.assetJson("/interface/windowconfig/playerinventory.config:paneLayout.techHead")["centered"] and 0 or 8
         local head, body, legs, suit = inventoryWidgets["getPosition"]("techHead"), inventoryWidgets["getPosition"]("techBody"), inventoryWidgets["getPosition"]("techLegs"), inventoryWidgets["getPosition"]("sb_techSuit")
         local headD, bodyD, legsD = inventoryWidgets["getPosition"]("techHeadDisabled"), inventoryWidgets["getPosition"]("techBodyDisabled"), inventoryWidgets["getPosition"]("techLegsDisabled")
 
