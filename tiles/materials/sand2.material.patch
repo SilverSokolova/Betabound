@@ -1,0 +1,4 @@
+[
+[{"op":"test","path":"/description","value":"A fine glittering sand. Could probably be made into glass!"},
+{"op":"replace","path":"/description","value":"Soft and warm sand. Could probably be made into glass!"}]
+]
