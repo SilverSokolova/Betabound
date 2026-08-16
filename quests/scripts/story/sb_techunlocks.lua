@@ -2,6 +2,8 @@ require "/scripts/util.lua"
 require("/scripts/sb_assetmissing.lua")
 require("/scripts/player/sb_hasTech.lua")
 
+--Here's an idea, shove this into the sb_main script instead of adding a whole quest for it. Why did we do it like this?
+
 --Update instead of init because entity messages
 function update(); sb_techType()
   if not player.getProperty("sb_enabledSuitTechs") then return end --Skip if the player hasn't been setup or 36-37 versioning ran late

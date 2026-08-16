@@ -1,3 +1,4 @@
+//Would add sb_standingturret, but remember that they can accept and consume throwables
 [
   {"op":"add","path":"/ignoreContainerNames/treasuretestchest","value":1},
   

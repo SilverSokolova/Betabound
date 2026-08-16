@@ -10,7 +10,7 @@ end
 
 function sb_assetmissing(asset, fallbackAsset)
   local defaultFallbackAsset = "/sb_assetmissing.png"
-  return (root.nonEmptyRegion(asset or defaultFallbackAsset) ~= nil) and asset or fallbackAsset or defaultFallbackAsset
+  return (root.nonEmptyRegion(asset or defaultFallbackAsset) ~= nil) and asset or fallbackAsset or defaultFallbackAsset --TODO: why "asset or defaultFallbackAsset". check everywhere we call this function
 end
 
 function sb_itemExists(item) return root.itemConfig(item) ~= nil end
