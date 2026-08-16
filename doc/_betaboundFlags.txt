@@ -1,4 +1,4 @@
-Flags which can be set to disable specific Betabound features in files.
+Flags which can be set in specific files to disable Betabound features related to that file.
 There are more flags in `/betabound.config`.
 
 /sky.config
