@@ -1,0 +1,62 @@
+{
+  "sounds": {
+    "on": ["/sfx/objects/speaker_toggle.ogg"],
+    "off": ["/sfx/objects/speaker_toggle.ogg"]
+  },
+
+  "animatedParts": {
+    "stateTypes": {
+      "light": {
+        "default": "off",
+        "states": {
+          "off": {
+            "properties": {
+              "particleEmittersOff": ["music"]
+            }
+          },
+          "on": {
+            "frames": 8,
+            "cycle": 0.8,
+            "mode": "loop",
+            "properties": {
+              "particleEmittersOn": ["music"]
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "particleEmitters": {
+    "music": {
+      "emissionRate": 1.5,
+      "emissionRateVariance": 0,
+      "active": true,
+
+      "particles": [{
+          "particle": {
+            "type": "textured",
+            "image": "/particles/music/note.png",
+            "flippable": false,
+            "position": [0.3, 1.5],
+            "size": 0.5,
+            "color": [255, 255, 255, 255],
+            "light": [0, 0, 0],
+            "fade": 0,
+            "destructionAction": "shrink",
+            "destructionTime": 5,
+            "initialVelocity": [2, -3],
+            "finalVelocity": [0, 5],
+            "approach": [0, 20],
+            "timeToLive": 0.5,
+            "layer": "middle",
+            "collidesForeground": false,
+            "variance": {
+              "initialVelocity": [1, 1]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

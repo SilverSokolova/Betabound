@@ -64,6 +64,7 @@
 ,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"On the Beach at Night","rarity":"uncommon","parameters":{"music":"on-the-beach-at-night"}}
 ,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Planetarium","rarity":"uncommon","parameters":{"music":"planetarium"}}
 ,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Poptop Humming","rarity":"rare","parameters":{"music":"poptop"}}
+,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Poptop Plushie","rarity":"rare","parameters":{"music":"musicbox1"}}
 ,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Procyon","rarity":"uncommon","parameters":{"music":"procyon"}}
 ,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Psyche","rarity":"uncommon","parameters":{"music":"psyche"}}
 ,{"name":"sb_musicsheet","category":"sb_music","icon":"/items/generic/unlock/sb_musicsheet.png","shortdescription":"Scorian Flow","rarity":"uncommon","parameters":{"music":"scorian-flow"}}

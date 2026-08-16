@@ -358,6 +358,11 @@
       "title": "Dancebound",
       "special": true
     },
+    "musicbox1": {
+      "icon": "/sfx/objects/musicbox1.ogg",
+      "title": "Poptop Plushie",
+      "special": true
+    },
     "musicbox2": {
       "icon": "/sfx/objects/musicbox2.ogg",
       "title": "Decorated Music Box",
