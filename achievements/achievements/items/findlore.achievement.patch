@@ -1,0 +1,1 @@
+[{"op":"test","path":"/stats/0/value","value":1},{"op":"replace","path":"/stats/0/value","value":3}]
