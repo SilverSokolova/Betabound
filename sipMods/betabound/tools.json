@@ -1,7 +1,7 @@
 [
 //tools with corresponding copy items
 {"icon":"/items/generated/blueprintinhand.png","name":"sb_blankblueprint","shortdescription":"Blank Blueprint","category":"tool"}
-,{"icon":"/items/augments/sb_misc/copybook.png","name":"sb_copybook","shortdescription":"Copybook","category":"tool"}
+,{"icon":"/items/augments/sb_copybook/copybook.png","name":"sb_copybook","shortdescription":"Copybook","category":"tool"}
 ,{"icon":"/items/generic/unlock/sb_scandata.png","name":"sb_blankscandata","shortdescription":"Blank Scanchip","category":"tool"}
 ,{"icon":"/items/generic/unlock/sb_scandata.png","name":"sb_scandata","shortdescription":"Scanchip","category":"tool"}
 ,{"icon":"/items/active/starbound/codex/icon.png","name":"sb_customcodex","shortdescription":"Blank Book","category":"tool"}
@@ -51,8 +51,8 @@
 
 ,{"icon":"/items/active/starbound/whistle/whistle.png","name":"sb_whistle","shortdescription":"Pet Whistle","category":"tool","rarity":"uncommon"}
 
-,{"path":"/items/augments/sb_misc/","name":"sb_preservatives","shortdescription":"Preservatives","category":"tool","icon":"preservatives.png"}
-,{"path":"/items/augments/sb_misc/","name":"sb_flashfreeze","shortdescription":"Flash Freeze Spray","category":"tool","icon":"flashfreeze.png","rarity":"uncommon"}
+,{"path":"/items/augments/sb_preservatives/","name":"sb_preservatives","shortdescription":"Preservatives","category":"tool","icon":"preservatives.png"}
+,{"path":"/items/augments/sb_flashfreeze/","name":"sb_flashfreeze","shortdescription":"Flash Freeze Spray","category":"tool","icon":"flashfreeze.png","rarity":"uncommon"}
 
 //,{"path":"/items/generic/unlock/","name":"sb_firework_recipes","shortdescription":"Fireworks Blueprints","category":"sb_celestial","icon":"sb_blueprint.png","rarity":"rare"}
 ,{"path":"/items/generic/unlock/","name":"sb_blueprint","shortdescription":"Blueprint","category":"sb_disabled","icon":"sb_blueprint.png","rarity":"uncommon"}
