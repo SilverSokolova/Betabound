@@ -6,6 +6,8 @@ Credits
       Date/time detection code
     * [BlossomDancer](https://steamcommunity.com/sharedfiles/filedetails/?id=2787981321):<br/>
       Reefpod dishes give swim boost
+    * [Apple/LittleVulpine](https://steamcommunity.com/id/LittleVulpine/myworkshopfiles/):<br/>
+      Master Manipulator highlight pulse effect
       
   - Music
     * [jss2a98aj](https://steamcommunity.com/sharedfiles/filedetails/?id=1543219534):<br/>
@@ -19,7 +21,7 @@ Credits
     * Website formerly hosted at 'pngimage.net'<br/>
       "Beta Logo PNG 5" image, used in Betabound logo
     * [Frykas](https://steamcommunity.com/sharedfiles/filedetails/?id=2431875552):<br/>
-      Orange Juice and ability icons
+      Orange Juice and some ability icons
     * [Rhopunzel](https://store.steampowered.com/app/1363900/Farworld_Pioneers/):<br/>
       Starpawn, many equipment icons and images
     * [SOULs](https://twiom.carrd.co/):<br/>
@@ -27,7 +29,7 @@ Credits
     * [Tea-Loving Lad](https://steamcommunity.com/id/TeaLovingLad/myworkshopfiles/):<br/>
       Many melee weapons
     * [_InferusRF](https://steamcommunity.com/profiles/76561193786172700):<br/>
-      Skyrails, many ranged weapons, melee weapons
+      Skyrails, many ranged weapons, melee weapons, some throwable items, Skyrail rail platform icons and images
     * [nuggubs](https://steamcommunity.com/profiles/76561198327710447/myworkshopfiles/):<br/>
       Organic torch icon (vanilla uses a placeholder)
       Pearlpea jam (Betabound changes it back to red)
