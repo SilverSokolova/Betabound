@@ -1,5 +1,5 @@
 {
-  "input": ["siliconboard","sb_steelbar",["durasteelbar",2]],//laserdiode
+  "input": [["scanner"], ["siliconboard"], ["smallbattery"], ["wire", 2], ["durasteelbar", 5]],
   "output": "sb_standingturret",
-  "groups": ["craftingwiring","mechanics","all"]
+  "groups": ["craftingwiring", "mechanics", "all"]
 }
