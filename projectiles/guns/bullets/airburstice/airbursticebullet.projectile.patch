@@ -8,10 +8,5 @@
       "path": "/onlyHitTerrain",
       "value": false
     }
-  ], [{ //TODO: How about we put this in the bullet config file?
-      "op": "add",
-      "path": "/sb_power",
-      "value": 1.25
-    }
   ]
 ]

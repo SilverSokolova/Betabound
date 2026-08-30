@@ -21,23 +21,24 @@ function sb_AmmoGunFire:init()
 end
 
 function sb_AmmoGunFire:updateAmmo(shiftHeld)
-  local h = activeItem.hand()=="alt" and "primary" or "alt"
-  local a = world.entityHandItem(activeItem.ownerEntityId(),h)
-  activeItem.setScriptedAnimationParameter("hand",a and root.itemHasTag(a,"sb_info") and h=="primary" and 3 or 2)
+  local h = activeItem.hand() == "alt" and "primary" or "alt"
+  local a = world.entityHandItem(activeItem.ownerEntityId(), h)
+  activeItem.setScriptedAnimationParameter("hand", a and root.itemHasTag(a, "sb_info") and h == "primary" and 3 or 2)
   --and how does this interact with two-handed items? just 'primary'?
   --not ideal to have this in update, but switching from an infoitem to two guns shows ammo counter twice
   projectileType = sb_AmmoGunFire:checkAmmo()
   if shiftHeld and projectileType then
     self.projectileType = projectileType.parameters.projectileType or self.energyProjectileType
-    self.power = root.projectileConfig(self.projectileType).sb_power or 0
+--  self.power = root.projectileConfig(self.projectileType).sb_power or 0
+    self.power = 1.25
   else
     self.power = 0
   end
   ammoCount = projectileType and projectileType.count or 0
   self.usingAmmo = shiftHeld and ammoCount > 0
-  activeItem.setScriptedAnimationParameter("totalAmmo",self.usingAmmo and player.hasCountOfItem("sb_ammo") or 0)
-  activeItem.setScriptedAnimationParameter("ammo",self.usingAmmo and ammoCount or 0)
-  activeItem.setScriptedAnimationParameter("name",self.projectileType)
+  activeItem.setScriptedAnimationParameter("totalAmmo", self.usingAmmo and player.hasCountOfItem("sb_ammo") or 0)
+  activeItem.setScriptedAnimationParameter("ammo", self.usingAmmo and ammoCount or 0)
+  activeItem.setScriptedAnimationParameter("name", self.projectileType)
 end
 
 function sb_AmmoGunFire:checkAmmo()
@@ -47,11 +48,11 @@ function sb_AmmoGunFire:checkAmmo()
       return hands[i]
     end
   end
-  return player.getItemWithParameter("itemName","sb_ammo")
+  return player.getItemWithParameter("itemName", "sb_ammo")
 end
 
 function sb_AmmoGunFire:consumeAmmo()
-  return player.consumeItem({"sb_ammo",1,{projectileType=self.projectileType}},false,true)
+  return player.consumeItem({"sb_ammo", 1, {projectileType = self.projectileType}}, false, true)
 end
 
 function sb_AmmoGunFire:canShoot()
