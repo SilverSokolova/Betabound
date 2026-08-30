@@ -1,9 +1,11 @@
 function init()
   radius = animationConfig.animationParameter("radius", config.getParameter("blockRadius"))
   highlight = config.getParameter("highlight")
+  alphaTimer = 0
   local unconvertedHighlightColor = animationConfig.animationParameter("highlightColor", root.assetJson("/player.config:defaultHumanoidIdentity.color"))
   unconvertedHighlightColor[4] = nil
   highlightColor = ""
+  highlightAlpha = ""
   for i = 1, #unconvertedHighlightColor do
     highlightColor = highlightColor .. string.format("%02x", unconvertedHighlightColor[i])
   end
@@ -12,6 +14,10 @@ end
 function update(dt)
   radius = animationConfig.animationParameter("radius", config.getParameter("blockRadius"))
   inRange = animationConfig.animationParameter("inRange", false)
+
+  alphaTimer = alphaTimer + dt
+  highlightAlpha = cycleAlpha()
+
   localAnimator.clearDrawables()
   localAnimator.clearLightSources()
   if inRange then
@@ -25,7 +31,7 @@ function fillRadius(radius)
 --localAnimator.addDrawable({image = endImages[1], fullbright = true, position = base}, layer)
 
   local position = radius % 2 == 0 and {base[1] + 1, base[2] + 1} or {base[1] + 0.5, base[2] + 0.5}
-  localAnimator.addDrawable({image = string.format(highlight, highlightColor, radius, highlightColor), fullbright = true, position = position}, layer)
+  localAnimator.addDrawable({image = string.format(highlight, highlightColor .. highlightAlpha, radius, highlightColor), fullbright = true, position = position}, layer)
 
   if radius == 1 then
     addLight(position)
@@ -45,4 +51,11 @@ function addLight(position)
   if world.material(position, "foreground") then
     localAnimator.addLightSource({position = position, color = {50, 50, 50}, pointLight = true, beamAmbience = 0.00002})
   end
+end
+
+--By Apple
+function cycleAlpha()
+  local ratio = (math.sin(alphaTimer * 4) + 1) / 8
+  local alpha = math.floor(64 + (255 - 64) * ratio)
+  return string.format("%02x", alpha) 
 end
