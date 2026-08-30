@@ -32,7 +32,7 @@
 ,{"icon":"/items/active/starbound/weapons/broadswords/chromosword.png","name":"sb_chromosword","shortdescription":"Chromosword","category":"melee","rarity":"legendary"}
 
 //colorful
-,{"icon":"/items/active/starbound/weapons/broadswords/rainbowsword.png","name":"sb_rainbowsword","shortdescription":"Rainbow Sword","category":"melee","rarity":"rare"}
+,{"icon":"/items/active/starbound/weapons/broadswords/rainbowsword.png","name":"sb_rainbowsword","shortdescription":"Rainbow Katana","category":"melee","rarity":"rare"}
 ,{"name":"sb_rainbowspear","shortdescription":"Rainbow Spear","category":"melee","rarity":"rare"}
 ,{"icon":"/items/active/starbound/weapons/shortswords/crayon.png?replace;ffca8a=ffaa8a;eb9550=eb6c50;b55f30=b53b30;843114=841415","name":"sb_crayonred","shortdescription":"Striking Red Crayon","category":"melee","rarity":"uncommon"}
 ,{"icon":"/items/active/starbound/weapons/shortswords/crayon.png?replace;ffca8a=8efb94;eb9550=5be655;b55f30=44b034;843114=2f8017","name":"sb_crayongreen","shortdescription":"Striking Green Crayon","category":"melee","rarity":"uncommon"}
