@@ -1,0 +1,6 @@
+{
+  "input": [["cobblestonematerial",25]],
+  "output": "throwingboulder",
+  "duration": 0.75,
+  "groups": ["craftinganvil","consumables","all"]
+}
