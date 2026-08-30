@@ -9,6 +9,7 @@
   "shortdescription": "Gauze",
   "effects": [["sb_gauzeheal"]],
   "emitters": ["bandageuse"],
+  "builder": "/items/buildscripts/starbound/buildfood.lua",
   "emote": "",
   "blockingEffects": [
     "salveheal",
