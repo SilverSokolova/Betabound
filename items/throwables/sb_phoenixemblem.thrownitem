@@ -1,5 +1,6 @@
 {
   "itemName": "sb_phoenixemblem",
+  "price": 140,
   "rarity": "rare",
   "tooltipKind": "sb_object",
   "inventoryIcon": "sb_phoenixemblem.png",
@@ -12,7 +13,7 @@
   "ammoUsage": 1,
   "edgeTrigger": true,
   "windupTime": 0,
-  "cooldown": 0.4,
+  "cooldown": 2,
 
   "projectileType": "sb_phoenix",
   "projectileConfig": {
