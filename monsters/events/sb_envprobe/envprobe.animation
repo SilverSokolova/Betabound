@@ -132,12 +132,16 @@
     "deathPoof": {
       "offsetRegion": [-0.75, -0.75, 0.75, 0.75],
       "burstCount": 5,
-      "particles": [{
-          "particle": "dust2"
-        }, {
-          "particle": "metalshard",
-          "count": 3
-        }
+      "particles": [
+        //*some* stuff from minidrone
+        {"particle" : "electricswoosh1"},
+        {"particle" : "electricswoosh2"},
+        {"particle" : "electricswoosh1"},
+        {"particle" : "electricswoosh2"},
+
+        //stuff that was here before we added the above from minidrone
+        {"particle": "dust2"},
+        {"particle": "metalshard", "count": 3}
       ]
     },
     "captureParticles": {
