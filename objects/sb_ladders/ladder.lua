@@ -5,7 +5,8 @@ function init()
 end
 
 function update(dt)
-  if length > 0 then
+  --TODO: Does this HAVE to be in update? init might work better
+  if length and length > 0 then
     runLength()
   end
 
