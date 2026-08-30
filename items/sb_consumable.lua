@@ -1,9 +1,11 @@
+--TODO: move to scripts folder? animation file would be weird there- well, no, fishing has a config file and deployment has images
+--Lua recreation of consumable item functionality
 function init()
   animationConfig = config.getParameter("animation")
   if animationConfig then
-    local itemConfig = root.itemConfig(config.getParameter("itemName"))
-    animationConfig = root.assetJson(animationConfig:sub(1,1) == "/" and animationConfig or itemConfig.directory..animationConfig).extraSounds
+    animationConfig = root.assetJson(animationConfig:sub(1, 1) == "/" and animationConfig or root.itemConfig(config.getParameter("itemName")).directory .. animationConfig).extraSounds
   end
+
   activeItem.setArmAngle(-math.pi / 2)
   swingStart = config.getParameter("swingStart", -60) * math.pi / 180
   swingFinish = config.getParameter("swingFinish", 40) * math.pi / 180
@@ -19,6 +21,7 @@ function init()
   possibleEffects = config.getParameter("effects")
   blockingEffects = config.getParameter("blockingEffects", {})
   autoFire = config.getParameter("autoFire")
+  
   selectEffects()
 
   local eatWhileWellFed = root.assetJson("/stats/effects/food/wellfed/wellfed.statuseffect:defaultDuration") == 0
@@ -63,7 +66,7 @@ function update(dt, fireMode)
       if animationConfig[selectedSoundSet] then
         animator.playSound(selectedSoundSet)
         for i = 1, #animationConfig[selectedSoundSet] do
-          animator.playSound(selectedSoundSet..animationConfig[selectedSoundSet][i])
+          animator.playSound(selectedSoundSet .. animationConfig[selectedSoundSet][i])
         end
       else
         animator.playSound(selectedSoundSet)
@@ -91,6 +94,7 @@ function update(dt, fireMode)
       end
     end
   end
+
   justUsed = fireMode == "primary" and not autoFire
 end
 
