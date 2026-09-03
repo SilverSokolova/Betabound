@@ -1,5 +1,5 @@
 {
-  "itemName": "sb_uimessage:upgradeApplied",
+  "itemName": "sb_uimessage:upgradeApplied", //TODO: name is misleading, should be 'alreadyApplied' or such
   "shortdescription": "   Upgrade already applied.^clear;",
   "currency": "sb_uimessage",
   "rarity": "rare",
