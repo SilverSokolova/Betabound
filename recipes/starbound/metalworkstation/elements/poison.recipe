@@ -1,5 +1,5 @@
 {
-  "input": ["venomsample","diamond"],
+  "input": ["upgrademodule","venomsample",["platinumbar",10]],
   "output": ["sb_elementmod",1,{"element":"poison"}],
-  "groups": ["sb_metalworkstation","sb_elements","all"]
+  "groups": ["sb_metalworkstation","sb_elements","all","nouncrafting"]
 }
