@@ -1,0 +1,10 @@
+{
+  "itemName": "sb_uimessage:blueprintSetKnown",
+  "shortdescription": "   You know all recipes from this set.^clear;",
+  "currency": "sb_uimessage",
+  "rarity": "rare",
+  "value": 0,
+  "pickupSoundsSmall": [""],
+  "pickupSoundsMedium": [""],
+  "pickupSoundsLarge": [""]
+}

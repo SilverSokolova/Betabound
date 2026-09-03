@@ -1,0 +1,10 @@
+{
+  "itemName": "sb_uimessage:blueprintSetUnknown",
+  "shortdescription": "   There are more recipes to learn from this set.^clear;",
+  "currency": "sb_uimessage",
+  "rarity": "rare",
+  "value": 0,
+  "pickupSoundsSmall": [""],
+  "pickupSoundsMedium": [""],
+  "pickupSoundsLarge": [""]
+}
