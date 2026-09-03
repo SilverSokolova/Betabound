@@ -6,6 +6,7 @@ local originalPopulateTechList = populateTechList or function() end
 local originalEquipTech = equipTech or function() end
 local originalCreateTooltip = createTooltip or function() end
 local originalTechSlotGroup = techSlotGroup or function() end
+local originalUpdate = update or function() end
 local originalPat_remove = pat_remove or function() end
 local originalPat_techloadout = pat_techloadout or function(...) end
 
@@ -75,6 +76,13 @@ function init()
   sb_updateSuitImage()
 end
 
+--Literally only here because of bk3k's mods not hooking into anything other than init
+--Can't have update replace itself with originalUpdate because that causes issues. vanillaUpdate > moddedUpdate > inABetaboundTrenchCoat!vanillaUpdate
+function update(dt)
+  sb_hooked = true
+  originalUpdate(dt)
+end
+
 function setSelectedTech(techName)
   if self.selectedSlot ~= "sb_suit" then
     originalSetSelectedTech(techName)
@@ -108,6 +116,7 @@ function animateSelection(dt)
   end
 end
 
+--Renaming this and only calling it in sb_showSuits works when bk3k is overriding, but since it overrides basically every function without hooking (including the function which actually equips the suit tech onto the player), that doesn't matter much. Yeah, we could change the callbacks for certain things in the config file, but why bend over backwards so much?
 function populateTechList(slot)
   self.selectedTech = nil
   if slot ~= "sb_suit" then originalPopulateTechList(slot) else
@@ -186,12 +195,25 @@ function sb_unequip()
 end
 
 function sb_showSuits()
-  self.selectedSlot = "sb_suit"
-  sb_updateSuitImage()
-  populateTechList("sb_suit")
-  widget.setText("lblDescription", sb_selectTechDescription)
-  widget.setText("lblSlot", self.slotLabelText["sb_suit"])
-  sb_toggleButtons()
+  if sb_hooked then
+    self.selectedSlot = "sb_suit"
+    sb_updateSuitImage()
+    populateTechList("sb_suit")
+    widget.setText("lblDescription", sb_selectTechDescription)
+    widget.setText("lblSlot", self.slotLabelText["sb_suit"])
+    sb_toggleButtons()
+  else
+    player.interact("showPopup", config.getParameter("sb_modIncompatibilityPopup"))
+
+    local scripts = root.assetJson("/interface/scripted/techupgrade/techupgradegui.config:scripts")
+    if sb_checkClient() == "OpenSB" then
+      for i = 1, #scripts do
+        sb.logInfo(string.format('"%s" added by "%s"', scripts[i], root.assetOrigin(scripts[i])))
+      end
+    else
+      sb.logInfo(sb.print(scripts, 2))
+    end
+  end
 end
 
 function sb_download()
@@ -263,6 +285,19 @@ function sb_prepareSuits()
   if #sb_enabledSuitTechs > 1 then table.sort(sb_enabledSuitTechs, function(a, b) return a < b end) end
   if #sb_availableSuitTechs > 1 then table.sort(sb_availableSuitTechs, function(a, b) return a < b end) end
   widget.setButtonEnabled("sb_btnSuit", #sb_enabledSuitTechs + #sb_availableSuitTechs > 0)
+
+--This prevents the suit list from erroring if bk3k's techhelper script is installed, but it's actually better to let it error so we can find out which mod has the damned thing. Fixing it here doesn't fix the issue, it just exposes ANOTHER one that bk3k causes but without a traceback
+
+--local function loadTechConfig(techs)
+--  for i = 1, #techs do
+--    if root.hasTech(techs[i]) and not self.techs[techs[i]] then
+--      self.techs[techs[i]] = root.techConfig(techs[i])
+--    end
+--  end
+--end
+--
+--loadTechConfig(sb_enabledSuitTechs)
+--loadTechConfig(sb_availableSuitTechs)
 end
 
 function createTooltip(p)

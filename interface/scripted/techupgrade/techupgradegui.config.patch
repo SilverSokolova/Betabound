@@ -53,7 +53,7 @@
       "path": "/gui/sb_download",
       "value": {
         "type": "button",
-        "zlevel" : 7,
+        "zlevel": 7,
         "base": "/interface/button.png",
         "hover": "/interface/buttonhover.png",
         "pressedOffset": [0, -1],
@@ -180,6 +180,15 @@
       "op": "add",
       "path": "/sb_bindTechDescription",
       "value": "Use a Tech Card to create a tech equip item"
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/sb_modIncompatibilityPopup",
+      "value": {
+        "message": "You have a mod which is preventing ^yellow;Betabound^reset; from properly adding its suit tech functionality to the tech UI. Information has been dumped to the log, with additional information dumped if using ^yellow;OpenStarbound^reset;. Please report this to the developer and submit the log file so a fix may be developed or user-solution proposed.",
+        "title": "Betabound"
+      }
     }
   ],
 
