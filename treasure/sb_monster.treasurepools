@@ -133,5 +133,31 @@
         [0.1, 3]
       ]
     }]
+  ],
+  "sb_sporgusTreasure": [
+    [1, {
+      "pool": [
+        {"weight": 1, "item": "shroom"}
+      ],
+      "poolRounds": [
+        [0.6, 0],
+        [0.2, 1],
+        [0.1, 2],
+        [0.1, 3]
+      ]
+    }]
+  ],
+  "sb_taroniTreasure": [
+    [1, {
+      "pool": [
+        {"weight": 1, "item": "tar"}
+      ],
+      "poolRounds": [
+        [0.6, 0],
+        [0.2, 1],
+        [0.1, 2],
+        [0.1, 3]
+      ]
+    }]
   ]
 }
