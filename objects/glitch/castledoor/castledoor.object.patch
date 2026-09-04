@@ -1,0 +1,30 @@
+[
+  [{
+      "op": "test",
+      "path": "/animationCustom/sounds/open/pool/0",
+      "value": "/sfx/objects/woodendoor_open.ogg"
+    }, {
+      "op": "test",
+      "path": "/animationCustom/sounds/open/pool/1",
+      "inverse": true
+    }, {
+      "op": "replace",
+      "path": "/animationCustom/sounds/open/pool/0",
+      "value": "/sfx/objects/wooddoor2_open.ogg"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/animationCustom/sounds/close/pool/0",
+      "value": "/sfx/objects/woodendoor_close.ogg"
+    }, {
+      "op": "test",
+      "path": "/animationCustom/sounds/close/pool/1",
+      "inverse": true
+    }, {
+      "op": "replace",
+      "path": "/animationCustom/sounds/close/pool/0",
+      "value": "/sfx/objects/wooddoor2_close.ogg"
+    }
+  ]
+]
