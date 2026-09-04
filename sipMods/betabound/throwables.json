@@ -3,7 +3,7 @@
 {"icon":"/items/active/unsorted/filledcapturepod/filledcapturepod.png","name":"sb_filledcapturepod","shortdescription":"Filled Transport Pod","category":"sb_misc"}
 //,{"icon":"/items/throwables/sb_crittercapturepod.png","name":"sb_crittercapturepod","shortdescription":"Critter Capture Pod","category":"throwableitem"}
 ,{"icon":"/items/active/unsorted/filledcapturepod/filledcapturepod.png","name":"sb_filledcrittercapturepod","shortdescription":"Filled Critter Capture Pod","category":"sb_misc"}
-,{"icon":"/items/throwables/sb_healthbomb.png","name":"sb_healthbomb","shortdescription":"Burst of Energy","category":"throwableitem"}
+,{"icon":"/items/throwables/sb_healthbomb.png","name":"sb_healthbomb","shortdescription":"Burst of Health","category":"throwableitem"}
 ,{"icon":"/items/throwables/sb_runbomb.png","name":"sb_runbomb","shortdescription":"The Sprinter","category":"throwableitem"}
 ,{"icon":"/items/throwables/sb_jumpbomb.png","name":"sb_jumpbomb","shortdescription":"The Bouncer","category":"throwableitem"}
 ,{"icon":"/items/throwables/sb_ragebomb.png","name":"sb_ragebomb","shortdescription":"The Rager","category":"throwableitem"}
@@ -14,7 +14,7 @@
 ,{"icon":"/items/throwables/sb_gasgrenade.png","name":"sb_gasgrenade","shortdescription":"Gas Grenade","category":"throwableitem"}
 ,{"icon":"/items/throwables/sb_plasmagrenade.png","name":"sb_plasmagrenade","shortdescription":"Plasma Grenade","category":"throwableitem"}
 ,{"icon":"/items/throwables/sb_handgrenade.png","name":"sb_handgrenade","shortdescription":"Hand Grenade","category":"throwableitem"}
-,{"icon":"/items/throwables/sb_smokegrenade.png","name":"sb_smokegrenade","shortdescription":"Heated Smoke Grenade","category":"throwableitem"}
+,{"icon":"/items/throwables/sb_smokegrenade.png","name":"sb_smokegrenade","shortdescription":"Hot Smoke Grenade","category":"throwableitem"}
 ,{"icon":"/items/throwables/sb_groundfirebomb.png","name":"sb_groundfirebomb","shortdescription":"Spreading Fire Bomb","category":"throwableitem"}
 ,{"icon":"/items/throwables/sb_throwingneedle.png","name":"sb_throwingneedle","shortdescription":"Throwing Needle","category":"throwableitem"}
 ,{"icon":"/projectiles/guns/unsorted/shuriken/icon.png","name":"sb_shuriken","shortdescription":"Plasma Shuriken","category":"throwableitem","rarity":"rare"}
