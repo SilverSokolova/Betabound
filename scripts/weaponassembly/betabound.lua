@@ -21,3 +21,16 @@ function buildShortDescription(partName, weaponConfig) --I'm sure it's fine righ
   return name
 end
 --Fun fact: You can dupe weapons by reloading the game with items in the interface. Bug exists in the original mod!
+
+--Ripped from the original mod to add 'essential'
+function findRarity(parts)
+  local rarities = {"common", "uncommon", "rare", "legendary", "essential"}
+  local rarityValues = {common = 1, uncommon = 2, rare = 3, legendary = 4, essential = 5}
+  local sum = 0
+  for _,part in pairs(parts) do
+    local rarity = part.parameters.rarity:lower()
+    if rarity then sum = sum + rarityValues[rarity] end
+  end
+  local avg = math.floor(sum / 3 + 0.5)
+  return rarities[avg]
+end
