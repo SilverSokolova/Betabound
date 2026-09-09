@@ -1,0 +1,5 @@
+{
+  "input": ["silkfibre"],
+  "output": ["spidersilkblock",15],
+  "groups": ["craftingfurniture","materials","all"]
+}
