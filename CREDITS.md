@@ -45,6 +45,7 @@ Credits
       Wrapping Table sprites
     * [BlossomDancer](https://steamcommunity.com/sharedfiles/filedetails/?id=2787981321):<br/>
       Roasted Cactus sprite
+      Spider Silk block tileset and inventory icon
     * [Apple/LittleVulpine](https://steamcommunity.com/id/LittleVulpine/myworkshopfiles/):<br/>
       Magnetic tech sprite
     * [Bug](https://steamcommunity.com/profiles/76561198163788245/myworkshopfiles/):<br/>
