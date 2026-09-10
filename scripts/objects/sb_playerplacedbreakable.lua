@@ -1,13 +1,9 @@
-local originalInit = init or function() end
+local originalDie = die or function() end
 
-function init(); originalInit()
+function die(); originalDie()
   if config.getParameter("owner") then
-    local parameters = {"smashDropPool", "breakDropPool"}
-    for i = 1, #parameters do
-      local value = config.getParameter(parameters[i])
-      if value and value ~= "empty" then
-        object.setConfigParameter(parameters[i], "empty")
-      end
-    end
+    object.setConfigParameter("smashDropPool", "empty")
+    object.setConfigParameter("breakDropPool", "empty")
+    world.spawnItem(config.getParameter("objectName"), object.position())
   end
 end
