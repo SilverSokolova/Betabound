@@ -1,0 +1,5 @@
+{
+  "input": ["sb_ceruliumcompound"],
+  "output": "wavetable",
+  "groups": ["craftingfurniture2","decoration","all"]
+}

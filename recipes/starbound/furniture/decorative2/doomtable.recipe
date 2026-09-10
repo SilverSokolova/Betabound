@@ -1,0 +1,5 @@
+{
+  "input": ["sb_refinedrubium"],
+  "output": "doomtable",
+  "groups": ["craftingfurniture2","decoration","all"]
+}

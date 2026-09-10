@@ -1,0 +1,5 @@
+{
+  "input": ["refinedviolium",["glass",2],"smallbattery"],
+  "output": "opulentlight",
+  "groups": ["craftingfurniture2","lights","all"]
+}

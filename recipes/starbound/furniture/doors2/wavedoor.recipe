@@ -1,0 +1,5 @@
+{
+  "input": ["sb_ceruliumcompound"],
+  "output": "wavedoor",
+  "groups": ["craftingfurniture2","doors","all"]
+}

@@ -1,0 +1,5 @@
+{
+  "input": ["sb_feroziumcompound",["fabric",10],["silk",3]],
+  "output": "geometricbed",
+  "groups": ["craftingfurniture2","beds","all"]
+}

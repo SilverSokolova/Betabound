@@ -1,0 +1,5 @@
+{
+  "input": ["sb_refinedrubium",["fabric",10],["silk",3]],
+  "output": "doombed",
+  "groups": ["craftingfurniture2","beds","all"]
+}

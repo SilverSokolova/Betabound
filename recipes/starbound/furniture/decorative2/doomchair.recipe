@@ -1,0 +1,5 @@
+{
+  "input": ["sb_refinedrubium",["leather",5]],
+  "output": "doomchair",
+  "groups": ["craftingfurniture2","decoration","all"]
+}

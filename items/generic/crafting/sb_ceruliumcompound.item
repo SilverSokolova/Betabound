@@ -6,7 +6,6 @@
   "category": "craftingMaterial",
   "itemTags": ["reagent"],
   "inventoryIcon": "sb_ceruliumcompound.png",
-  "learnBlueprintsOnPickup": ["sb_ceruliumbar"],
   "description": "Weapons made from this charged compound are energy efficient. Cerulium ore is primarily found on planets orbiting fiery stars.",
   "shortdescription": "Cerulium Compound"
 }

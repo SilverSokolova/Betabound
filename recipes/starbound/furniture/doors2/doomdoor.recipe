@@ -1,0 +1,5 @@
+{
+  "input": ["sb_refinedrubium"],
+  "output": "doomdoor",
+  "groups": ["craftingfurniture2","doors","all"]
+}

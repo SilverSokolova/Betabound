@@ -1,5 +1,0 @@
-{
-  "input": [["sb_violiumbar",2],["glass",2],"smallbattery"],
-  "output": "opulentlight",
-  "groups": ["craftingfurniture2","lights","all"]
-}

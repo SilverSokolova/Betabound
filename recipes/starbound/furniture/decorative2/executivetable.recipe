@@ -1,0 +1,5 @@
+{
+  "input": ["sb_imperviumcompound"],
+  "output": "executivetable",
+  "groups": ["craftingfurniture2","decoration","all"]
+}
