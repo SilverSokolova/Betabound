@@ -1,5 +1,9 @@
 [
   [{
+      "op": "test",
+      "path": "/levelLabel",
+      "inverse": true
+    }, {
       "op": "add",
       "path": "/sb_level2Label",
       "value": {

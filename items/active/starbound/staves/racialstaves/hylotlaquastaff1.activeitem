@@ -11,9 +11,6 @@
   "level": 5,
   "description": "Creates a splash of water.",
   "shortdescription": "Sacred Splash Staff",
-  "tooltipFields": {
-    "damageKindImage": "/interface/elements/ice.png"
-  },
   "animationCustom": {
     "sounds": {
       "zoneactivate": []

@@ -1,9 +1,9 @@
 {
-  "name" : "head",
-  "category" : "sb_moondancer",
-  "type" : "head",
+  "name": "head",
+  "category": "sb_moondancer",
+  "type": "head",
 
-  "frames" : {
-    "head" : "glow.png"
+  "frames": {
+    "head": "glow.png"
   }
 }

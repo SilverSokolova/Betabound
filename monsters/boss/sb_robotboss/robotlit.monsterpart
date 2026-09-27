@@ -1,9 +1,9 @@
 {
-  "name" : "sb_robotlit",
-  "category" : "sb_robotboss",
-  "type" : "lit",
+  "name": "sb_robotlit",
+  "category": "sb_robotboss",
+  "type": "lit",
 
-  "frames" : {
-    "lit" : "robotlit.png"
+  "frames": {
+    "lit": "robotlit.png"
   }
 }

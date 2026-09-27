@@ -1,12 +1,12 @@
 local originalInit = init or function() end
 local originalUpdate = update or function() end
 
-function init() originalInit()
+function init(); originalInit()
   sb_knownPlayers = {}
   sb_radioMessage = config.getParameter("sb_radioMessage")
 end
 
-function update(dt) originalUpdate(dt)
+function update(dt); originalUpdate(dt)
   if not self.isOutpostGate then
     local players = world.players()
     if #players > 0 then

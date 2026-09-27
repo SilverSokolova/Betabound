@@ -28,7 +28,7 @@
 ,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Energy Dash","category":"sb_tech","icon":"dash.png","parameters":{"techModule":"sb_dash"},"rarity":"legendary"}
 ,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Light Rig","category":"sb_tech","icon":"lightrig.png","parameters":{"techModule":"sb_lightrig"},"rarity":"legendary"}
 ,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Ground Smash","category":"sb_tech","icon":"groundsmash.png","parameters":{"techModule":"sb_groundsmash"},"rarity":"legendary"}
-,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Rolly Sphere","category":"sb_tech","icon":"balldash.png","parameters":{"techModule":"sb_balldash"},"rarity":"legendary"}
+,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Mach Sphere","category":"sb_tech","icon":"balldash.png","parameters":{"techModule":"sb_balldash"},"rarity":"legendary"}
 ,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"FTL Boost","category":"sb_tech","icon":"ftlboost.png","parameters":{"techModule":"sb_ftlboost"},"rarity":"legendary"}
 ,{"path":"/tech/starbound/","name":"sb_tech","shortdescription":"Mining Drill","category":"sb_tech","icon":"miningdrill.png","parameters":{"techModule":"sb_miningdrill"},"rarity":"legendary"}
 

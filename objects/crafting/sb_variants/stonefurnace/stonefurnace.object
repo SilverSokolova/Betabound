@@ -86,8 +86,6 @@
 
   "soundEffect": "/sfx/objects/campfire.ogg",
 
-  "statusEffects": [],
-
   "scripts": ["/scripts/npcToyObject.lua"],
   "npcToy": {
     "influence": [

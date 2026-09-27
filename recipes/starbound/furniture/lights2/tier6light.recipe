@@ -1,5 +1,0 @@
-{
-  "input": [["sb_feroziumbar",2],["glass",2],"smallbattery"],
-  "output": "geometriclight",
-  "groups": ["craftingfurniture2","lights","all"]
-}

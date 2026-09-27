@@ -26,7 +26,7 @@
     "manipulator": "/items/tools/miningtools/sb_mastermanipulator.png",
     "manipulatorOptics": "/items/tools/miningtools/sb_mastermanipulatorfb.png"
   },
-  "highlight": "/humanoid/any/sb_tileglow.png?multiply=%s5a?scalenearest=%s?border=1;%sff;0000",
+  "highlight": "/humanoid/any/sb_tileglow.png?multiply=%s?scalenearest=%s?border=1;%sff;0000",
   "handPosition": [-2, 0],
   "firePosition": [5, 0],
   "animationScripts": ["sb_beamaxeanimation.lua"],

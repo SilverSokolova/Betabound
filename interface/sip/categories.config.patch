@@ -50,7 +50,7 @@
     }
   },
 
-  //bulding
+  //building
   {
     "op": "add",
     "path": "/5/Building:/-",

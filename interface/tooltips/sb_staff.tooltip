@@ -7,16 +7,14 @@
   },
   "objectImage": {
     "type": "image",
-    "position": [67, 109],
-    "file": "",
+    "position": [70, 109],
     "centered": true,
     "maxSize": [70, 45],
-    "minSize": [70, 45]
+    "minSize": [70, 45] //larger than vanilla's. good! we can actually see it
   },
   "damageKindImage": {
     "type": "image",
     "position": [120, 90],
-    "file": "",
     "centered": true,
     "maxSize": [16, 16],
     "minSize": [16, 16]

@@ -1,3 +1,4 @@
 [
+//Script required for an event
 [{"op":"test","path":"/baseParameters/scripts"},{"op":"add","path":"/baseParameters/scripts/-","value":"/monsters/sb_monster.lua"}]
 ]

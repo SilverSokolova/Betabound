@@ -1,9 +1,9 @@
 {
-  "name" : "ruinportal",
-  "category" : "sb_ruinportal",
-  "type" : "portal",
+  "name": "ruinportal",
+  "category": "sb_ruinportal",
+  "type": "portal",
 
-  "frames" : {
-    "portal" : "portal.png"
+  "frames": {
+    "portal": "portal.png"
   }
 }

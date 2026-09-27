@@ -76,6 +76,5 @@
 
 
 //    -=- OBJECTS  -=-
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_floranfuelhatch"}},
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"floranshiplocker"}}
+{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_floranfuelhatch"}}
 ]

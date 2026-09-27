@@ -1,5 +1,0 @@
-{
-  "input": ["durasteelbar","platinumbar","wire"],
-  "output": "glitchshiplocker",
-  "groups": ["craftingfurniture2","storage","all"]
-}

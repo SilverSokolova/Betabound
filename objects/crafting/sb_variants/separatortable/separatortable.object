@@ -62,7 +62,6 @@
 
       "spaceScan": 0.1,
       "anchors": ["bottom"]
-
     }, {
       "imageLayers": [{
           "image": "separatortable.png:<color>.<frame>",
@@ -82,7 +81,6 @@
 
       "spaceScan": 0.1,
       "anchors": ["bottom"]
-
     }
   ]
 }

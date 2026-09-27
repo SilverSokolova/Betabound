@@ -1,3 +1,19 @@
 [
-[{"op":"test","path":"/floranDescription","value":"Ssssmells bad."},{"op":"replace","path":"/floranDescription","value":"Ssssmells bad. Floran hungry now."}]
+  //Removed the beta floran scan description because it was gross and contradicts sewage scan desc. Plus there's a mod just for the old scan desc
+  [{
+      "op": "test",
+      "path": "/learnBlueprintsOnPickup",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/learnBlueprintsOnPickup",
+      "value": []
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/learnBlueprintsOnPickup/-",
+      "value": "sewage"
+    }
+  ]
 ]

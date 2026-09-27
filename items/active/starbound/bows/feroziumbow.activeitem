@@ -10,23 +10,23 @@
   "tooltipFields": {
     "objectImage": "/items/active/starbound/bows/feroziumbowfull.png:0"
   },
-  "description": "Harvests meat and other goods from monsters.",
+  "description": "Scintillium bowstrings shorten the time between shots.",
   "shortdescription": "Scintillium Bow",
   "level": 6,
   "primaryAbility": {
-    "fireTime": 0.6,
+    "cooldownTime": 0.15,
     "inaccuracy": 0.01,
     "projectileType": "purplearrow",
     "powerProjectileType": "chargedpurplearrow",
     "walkWhileFiring": true,
     "projectileParameters": {
-      "power": 6
+      "power": 6.25
     }
   },
   "altAbility": {
     "projectileType": "purplearrow",
     "projectileParameters": {
-      "power": 6
+      "power": 6.25
     }
   },
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"

@@ -8,7 +8,7 @@
   "inventoryIcon": "butter.png",
   "category": "food",
   "learnBlueprintsOnPickup": ["sb_peanutbutterjar", "sb_toast"],
-  "description": "For making everything less healthy and more awesome.",
+  "description": "For making everything less healthy and more awesome.", //MARGARINE?! MARGARINE?! You would cook escargot... with margarine?!
   "shortdescription": "Butter",
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],

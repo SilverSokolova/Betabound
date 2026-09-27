@@ -5,7 +5,7 @@
   "rarity": "Legendary",
   "icon": "/tech/starbound/balldash.png",
   "description": "Double tap ^green;[A]^reset;/^green;[D]^reset; to roll at high speeds in a ball!",
-  "shortDescription": "Rolly Sphere",
+  "shortDescription": "Mach Sphere", //Based on Super Metroid's Mockball exploit. All the spheres roll, so I renamed it from Rolly Sphere
 
   "scripts": ["balldash.lua"],
   "animator": "morphball.animation",

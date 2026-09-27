@@ -115,7 +115,8 @@ function update(dt)
       storage.eventCooldown = storage.eventCooldown - self.cooldownTick
       self.cooldownTick = 0
       if storage.eventCooldown < 0.0 then
-        local pool
+        local pool = self.config.generic
+--[[
         if storage.wantedLevel > 0 then
           pool = self.config.generic
          -- pool = self.config.wanted[storage.wantedLevel]
@@ -125,6 +126,7 @@ function update(dt)
         else
           pool = self.config.generic
         end
+        ]]
         self.spawner = coroutine.create(function()
           if triggerEvent(pool) then
             storage.eventCooldown = math.random(self.config.eventCooldown[1], self.config.eventCooldown[2])
@@ -150,12 +152,12 @@ function update(dt)
     end
   end]]--
 end
-
+--[[
 function uninit()
   if status.resource("health") <= 0 then
     storage.wantedLevel = 0
   end
-end
+end]]
 
 -- yields on-screen quest location regions
 function questLocationRegions()

@@ -4,9 +4,7 @@
   "rarity": "Legendary",
   "tooltipKind": "sb_object",
   "category": "actionFigure",
-  "collectablesOnPickup": {
-    "actionfigures": "sb_fatalcircuitaf"
-  },
+  "collectablesOnPickup": {"actionfigures": "sb_fatalcircuitaf"},
   "price": 5000,
   "printable": false,
   "description": "The label reads, \"A top-secret upgraded form of the Glitch gone horribly wrong.\"",

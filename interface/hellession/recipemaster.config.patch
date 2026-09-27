@@ -50,21 +50,8 @@
 ,{"op":"add","path":"/filterNameToFriendly/sb_ironcraftingtable","value":"Iron Tool Table"}
 ,{"op":"add","path":"/filterNameToFriendly/sb_roboticcraftingtable","value":"Robotic Tool Table"}
 
-,{"op":"add","path":"/filterNameToFriendly/sb_stonefurnace","value":"Stone Furnace"}
-,{"op":"add","path":"/filterNameToFriendly/sb_ironfurnace","value":"Iron Furnace"}
-,{"op":"add","path":"/filterNameToFriendly/sb_scififurnace","value":"Magnetic Crucible"}
+,{"op":"add","path":"/filterNameToFriendly/sb_metalworkstation","value":"Weapon Modding Station"}
 
-,{"op":"add","path":"/filterNameToFriendly/sb_anvil","value":"Iron Anvil"}
-,{"op":"add","path":"/filterNameToFriendly/sb_metalworkstation","value":"Metalwork Station"}
-
-,{"op":"add","path":"/filterNameToFriendly/sb_scifianvil","value":"Replicator (Beta)"}
-,{"op":"add","path":"/filterNameToFriendly/sb_advancedanvil","value":"Accel. / Manip. / Seper. Table (Beta)"}
-,{"op":"add","path":"/filterNameToFriendly/sb_acceleratortable","value":"Accelerator's Table (Beta)"}
-,{"op":"add","path":"/filterNameToFriendly/sb_manipulatortable","value":"Manipulator's Table (Beta)"}
-,{"op":"add","path":"/filterNameToFriendly/sb_separatortable","value":"Separator's Table (Beta)"}
-
-,{"op":"add","path":"/filterNameToFriendly/sb_kitchen","value":"Wooden Cooking Table"}
-,{"op":"add","path":"/filterNameToFriendly/sb_skyrailtable","value":"Skyrail Crafting Table"}
 ,{"op":"add","path":"/filterNameToFriendly/sb_portable3dprinter","value":"Portable Pixel Printer"}
 ,{"op":"add","path":"/filterNameToFriendly/sb_techconsole","value":"Tech Development Console"}
 ,{"op":"add","path":"/filterNameToFriendly/spawnerstation","value":"Employer's Station"}

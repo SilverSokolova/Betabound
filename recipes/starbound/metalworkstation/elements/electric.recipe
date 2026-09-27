@@ -1,5 +1,5 @@
 {
-  "input": ["staticcell","diamond"],
+  "input": ["upgrademodule","staticcell",["platinumbar",10]],
   "output": ["sb_elementmod",1,{"element":"electric"}],
-  "groups": ["sb_metalworkstation","sb_elements","all"]
+  "groups": ["sb_metalworkstation","sb_elements","all","nouncrafting"]
 }

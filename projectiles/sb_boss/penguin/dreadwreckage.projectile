@@ -8,7 +8,7 @@
   "frameNumber": 1,
   "damageKind": "default",
   "power": 0.1,
-  "clientEntityMode": "ClientSlaveOnly",
+  "clientEntityMode": "ClientSlaveOnly", //TODO: Is this doing anything?
   "actionOnReap": [{
       "action": "item",
       "name": "sb_dreadwreckage"

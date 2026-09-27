@@ -87,3 +87,20 @@ if assets.json("/interface/windowconfig/playerinventory.config:sb_techDisplay").
     end
   end
 end
+
+
+--local path = "/betabound/junkRarity.patch"
+--assets.add(path, '[[{"op":"test","path":"/rarityBorder","inverse":true},{"op":"add","path":"/rarityBorder","value":"/interface/inventory/itembordercommon.png?brightness=-40"}]]')
+--local fileTypes = {"item", "consumable"}
+--for i = 1, #fileTypes do
+--  local files = assets.byExtension(fileTypes[i])
+--  for j = 1, #files do
+--    local valid, data = pcall(function() return assets.json(files[j]) end)
+--    if valid then
+--      local category = data.category or ""
+--      if category == "junk" or category == "foodJunk" then
+--        assets.patch(files[j], path)
+--      end
+--    end
+--  end
+--end

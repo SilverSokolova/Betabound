@@ -3,12 +3,9 @@
   "prerequisites": [],
   "script": "/quests/scripts/sb_learnblueprintsonpickup.lua",
   "scriptConfig": {
-    "learnBlueprintsOnPickup": [["sb_arcsword", 1, {"crafted": true}]],
-
-    //EOF
-    "portraits": {},
-    "descriptions": {}
+    "learnBlueprintsOnPickup": [["sb_arcsword", 1, {"crafted": true}]]
   },
+  //EOF
   "showAcceptDialog": false,
   "showCompleteDialog": false,
   "showFailDialog": false,

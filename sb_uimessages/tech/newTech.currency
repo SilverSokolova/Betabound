@@ -1,6 +1,6 @@
 {
   "itemName": "sb_uimessage:newTech",
-  "shortdescription": "   New tech available.^clear;",
+  "shortdescription": "   ^green;New tech available.^clear;",
   "currency": "sb_uimessage",
   "rarity": "rare",
   "value": 0,

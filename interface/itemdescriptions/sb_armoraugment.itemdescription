@@ -7,8 +7,7 @@
   "priceLabel": {
     "type": "label",
     "position": [115, 30],
-    "hAnchor": "left",
-    "value": "0"
+    "hAnchor": "left"
   },
   "sb_level2Label": {
     "type": "label",
@@ -28,7 +27,6 @@
   "objectImage": {
     "type": "image",
     "position": [40, 127],
-    "file": "",
     "centered": true,
     "maxSize": [46, 59],
     "minSize": [46, 59]
@@ -36,15 +34,13 @@
   "title": {
     "type": "label",
     "position": [35, 179],
-    "hAnchor": "left",
-    "value": ""
+    "hAnchor": "left"
   },
   "subTitle": {
     "type": "label",
     "position": [35, 169],
     "hAnchor": "left",
-    "color": [185, 181, 178],
-    "value": ""
+    "color": [185, 181, 178]
   },
   "rarityLabel": {
     "type": "label",
@@ -71,7 +67,6 @@
           "scissoring": false,
           "type": "image",
           "position": [62, -1],
-          "file": "",
           "zlevel": 8
         },
         "backgroundImage": {

@@ -1,4 +1,4 @@
-//TODO: fix the bottom two(?) pixels being cropped off. also add an arrow
+//TODO: No pixels are dropped, the string is just weird but works. Needs arrow and maybe string color changed in icon
 {
   "itemName": "sb_heartstringbow",
   "definition": "bow",

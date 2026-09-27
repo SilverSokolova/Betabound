@@ -22,6 +22,5 @@
   ],
 
   "statusEffects": ["crash"],
-
   "damageKind": "plasma"
 }

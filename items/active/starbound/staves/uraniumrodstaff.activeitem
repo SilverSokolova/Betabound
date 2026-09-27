@@ -75,10 +75,6 @@
       ]
     }
   },
-  "altAbility": {
-    "name": "Focused Exposure",
-    "projectileType": "sb_uraniumorb"
-  },
 
   "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
 

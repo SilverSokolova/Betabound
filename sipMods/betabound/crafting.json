@@ -12,8 +12,6 @@
 ,{"icon":"/objects/crafting/upgradeablecraftingobjects/sb_craftingtool/icon1.png","name":"sb_craftingtool","shortdescription":"^orange;Wooden Tool Table","category":"sb_crafting","rarity":"uncommon"}
 ,{"icon":"/objects/crafting/sb_researchstation/researchstationicon.png","name":"sb_researchstation","shortdescription":"^orange;Research Station","category":"crafting","rarity":"legendary"}
 ,{"icon":"/objects/crafting/sb_techconsole/techconsoleicon.png","name":"sb_techconsole","shortdescription":"^orange;Tech Development Console","category":"crafting","rarity":"legendary"}
-,{"path":"/objects/crafting/sb_old/sb_skyrail/skyrail","name":"sb_skyrailtable","shortdescription":"^orange;Skyrail Table","category":"crafting","icon":"tableicon.png","rarity":"legendary"}
-,{"path":"/objects/crafting/sb_old/sb_skyrail/skyrail","name":"sb_skyrailrailtable","shortdescription":"^orange;Skyrail Rail Crafting Table","category":"crafting","icon":"railtabletableicon.png","rarity":"legendary"}
 ,{"icon":"/objects/crafting/sb_wrappingtable/icon.png","name":"sb_wrappingtable","shortdescription":"^orange;Wrapping Table","category":"crafting","rarity":"uncommon"}
 
 ,{"icon":"/objects/crafting/sb_metalworkstation/metalworkstationicon.png","name":"sb_metalworkstation","shortdescription":"^orange;Weapon Modding Station","category":"crafting","rarity":"rare"}
@@ -26,15 +24,18 @@
 //,{"icon":"/objects/crafting/sb_ironcraftingtable/ironcraftingtableicon.png","name":"sb_ironcraftingtable","shortdescription":"^orange;Iron Crafting Table","category":"sb_disabled","rarity":"rare"}
 //,{"icon":"/objects/crafting/sb_roboticcraftingtable/roboticcraftingtableicon.png","name":"sb_roboticcraftingtable","shortdescription":"^orange;Robotic Crafting Table","category":"sb_disabled","rarity":"legendary"}
 
-,{"icon":"/objects/crafting/sb_variants/stonefurnace/stonefurnaceicon.png","name":"sb_stonefurnace","shortdescription":"^orange;Stone Furnace","category":"crafting","rarity":"uncommon"}
+,{"icon":"/objects/crafting/sb_variants/stonefurnace/stonefurnaceicon.png","name":"sb_stonefurnace","shortdescription":"^orange;Primitive Furnace^reset; (alt)","category":"crafting","rarity":"uncommon"}
 //,{"icon":"/objects/crafting/sb_old/sb_alloyfurnace/alloyfurnaceicon.png","name":"sb_alloyfurnace","shortdescription":"^orange;Iron Furnace","category":"sb_disabled","rarity":"rare"}
 ,{"icon":"/objects/crafting/upgradeablecraftingobjects/craftingfurnace/craftingfurnace3icon.png","name":"sb_scififurnace","shortdescription":"^orange;Atomic Furnace^reset; (alt)","category":"crafting","rarity":"uncommon"}
 ,{"icon":"/objects/crafting/sb_variants/scififurnace2/scififurnaceicon.png","name":"sb_scififurnace2","shortdescription":"^orange;Atomic Furnace^reset; (alt)","category":"crafting","rarity":"uncommon"}
 
-,{"icon":"/objects/crafting/sb_variants/ironanvil/ironanvilicon.png","name":"sb_ironanvil","shortdescription":"^orange;Iron Anvil","category":"crafting","rarity":"uncommon"}
+,{"icon":"/objects/crafting/sb_variants/ironanvil/ironanvilicon.png","name":"sb_ironanvil","shortdescription":"^orange;Anvil^reset; (alt)","category":"crafting","rarity":"uncommon"}
 
-,{"icon":"/objects/crafting/sb_variants/scifianvil/scifianvilicon.png","name":"sb_scifianvil","shortdescription":"^orange;Replicator^reset (alt)","category":"crafting","rarity":"legendary"}
+,{"icon":"/objects/crafting/sb_variants/scifianvil/scifianvilicon.png","name":"sb_scifianvil","shortdescription":"^orange;Replicator^reset; (alt)","category":"crafting","rarity":"legendary"}
 ,{"icon":"/objects/crafting/sb_variants/acceleratortable/acceleratortableicon.png","name":"sb_acceleratortable","shortdescription":"^orange;Accelerator's Table^reset; (alt)","category":"crafting","rarity":"legendary"}
 ,{"icon":"/objects/crafting/sb_variants/manipulatortable/manipulatortableicon.png","name":"sb_manipulatortable","shortdescription":"^orange;Manipulator's Table^reset; (alt)","category":"crafting","rarity":"legendary"}
 ,{"icon":"/objects/crafting/sb_variants/separatortable/separatortableicon.png","name":"sb_separatortable","shortdescription":"^orange;Separator's Table^reset; (alt)","category":"crafting","rarity":"legendary"}
+
+,{"path":"/objects/crafting/sb_variants/skyrailtable/skyrail","name":"sb_skyrailtable","shortdescription":"^orange;Rail Crafting Table^reset; (alt)","category":"crafting","icon":"tableicon.png","rarity":"legendary"}
+//,{"path":"/objects/crafting/sb_old/sb_skyrail/skyrail","name":"sb_skyrailrailtable","shortdescription":"^orange;Skyrail Rail Crafting Table","category":"crafting","icon":"railtabletableicon.png","rarity":"legendary"}
 ]

@@ -1,4 +1,5 @@
-[[{
+[
+  [{
       "op": "test",
       "path": "/frameGrid/names",
       "inverse": true

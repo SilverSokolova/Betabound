@@ -13,7 +13,7 @@ function update()
           killedEntities[notification.targetEntityId] = 1
           local killCount = world.getProperty("sb_killCount", 0) + 1
           world.setProperty("sb_killCount", killCount)
-          local item = items[killCount..""]
+          local item = items[tostring(killCount)]
           if item then
             world.spawnItem(item, notification.position)
           end

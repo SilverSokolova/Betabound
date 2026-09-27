@@ -1,0 +1,11 @@
+Information on mimicking vanilla's writing style.
+
+Use the Queen's English.
+Tech descriptions must end with an exclamation mark.
+
+This is different than vanilla, however I prefer this style. For mentions of items (even if they are not outright named), write them as so: "This is a direct mention of the item known as ^orange;copper bar^reset. Notice how the color does not extend to its punctuation. For an item such as the ^orange;forge (upgraded anvil)^reset;, which is an ^green;upgrade-stage of a crafting station^reset;, note the unupgraded station name in parentheses as part of the item name (meaning it is entirely orange). The quantity is also highlighted and numeric, ie "^orange;10 copper bars^reset;"
+
+For quests, information for the player to skim through is green. For example, "I hear the ^green;Infinity Express is selling ^orange;Nintendo Game Boys^green!^reset; Despite being a die-hard Water Ring Toss Handheld fan, ^green;I'd love to have one of my very own.^reset;"
+Note how 'of my very own' is also highlighted.
+Punctuation is highlighted as well.
+The punctuation after 'Game Boys' is green because it is a highlighted part of the Infinity Express text.

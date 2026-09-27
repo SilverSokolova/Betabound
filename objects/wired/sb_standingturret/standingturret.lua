@@ -213,6 +213,7 @@ function containerCallback()
     end
 
     --activeitem
+    --TODO: This doesn't account for wands that have their primaryAbility changed
     if itemType == "activeitem" then
       local configAbility = itemConfig.primaryAbility or {}
       local parameterAbility = contents.primaryAbility or {}
@@ -220,7 +221,7 @@ function containerCallback()
       local count = 0
       for _, v in pairs(configAbility) do count = count + 1 break end; for _, v in pairs(parameterAbility) do count = count + 1 break end --god forbid we have a built-in way to check size for these
       if itemConfig.projectileType then count = count + 1 end
-      if count > 0 and (parameterAbility.projectileType or configAbility.projectileType or itemConfig.projectileType) then
+      if count > 0 and (parameterAbility.projectileType or configAbility.projectileType or configAbility.projectileType) then
         validItem = true
       end
 

@@ -91,6 +91,5 @@
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novakidtier6sspear"}},
 
 //    -=- OBJECTS  -=-
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novakidfuelhatch"}},
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"novakidshiplocker"}}
+{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_novakidfuelhatch"}}
 ]

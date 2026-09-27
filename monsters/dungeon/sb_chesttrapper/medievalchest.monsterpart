@@ -1,9 +1,9 @@
 {
-  "name" : "chest",
-  "category" : "sb_medievalchesttrapper",
-  "type" : "body",
+  "name": "chest",
+  "category": "sb_medievalchesttrapper",
+  "type": "body",
 
-  "frames" : {
-    "body" : "medievalchest.png"
+  "frames": {
+    "body": "medievalchest.png"
   }
 }

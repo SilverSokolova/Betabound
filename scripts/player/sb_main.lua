@@ -7,19 +7,22 @@ function init()
 
   sb_techType()
   suitsInit()
+  status.clearPersistentEffects("sb_wiredteleporter")
 
   --Peacekeeper Teleporter
-  message.setHandler("sb_peacekeeperteleporter", function(_, _, b)
+  message.setHandler("sb_peacekeeperteleporter", function(_, _, args)
     local bountyData = player.getProperty("bountyStation", nil)
     bountyData = bountyData and bountyData[player.serverUuid()] or nil
-    local interactData = root.assetJson(b[2])
+
+    args.interactData = root.assetJson(args.interactData) --Do this here instead of in the object in case a non-Peacekeeper uses it
+
     if bountyData and bountyData ~= '{}' then
       if bountyData.worldId then
         local worldId = bountyData.worldId
         local systemObjects = root.assetJson("/system_objects.config")
-        local n = worldId:find(":")+1
-        local rank = worldId:sub(n,worldId:find(":",n)-1)
-        dest = {
+        local n = worldId:find(":") + 1
+        local rank = worldId:sub(n, worldId:find(":", n) - 1)
+        peacekeeperStation = {
           deploy = player.getProperty("mechUnlocked", false),
           name = systemObjects[rank].parameters.displayName,
           planetName = "",
@@ -28,12 +31,24 @@ function init()
         }
       end
     end
-    if bountyData and dest then
-      interactData.destinations[1] = dest --#interactData.destinations+1
-    else
-      interactData.destinations = nil
+
+    if bountyData and peacekeeperStation then
+      local newDestinations = {peacekeeperStation}
+      for i = 1, #args.interactData.destinations do
+        newDestinations[i + 1] = args.interactData.destinations[i]
+      end
+
+      --ship should always be first option. vanilla does this: koichi's museum
+      if newDestinations[2] then
+        local temp = newDestinations[1]
+        newDestinations[1] = newDestinations[2]
+        newDestinations[2] = temp
+      end
+
+      args.interactData.destinations = newDestinations
+      args.interactData.canBookmark = args.canBookmark
     end
-    player.interact(b[1],interactData,b[3])
+    player.interact(args.interactAction, args.interactData, args.teleporterEntityId)
   end)
 
   --Random Fountain
@@ -54,7 +69,10 @@ function init()
   message.setHandler("sb_wiredteleporter", function(_, _, x, y)
     if x and y and not status.uniqueStatusEffectActive("blink") then
       status.addEphemeralEffect("blink", 0.5)
-      mcontroller.setPosition({x, y + 3})
+      wiredTeleporterWaitTime = 15
+      wiredTeleporterX = x
+      wiredTeleporterY = y
+      status.setPersistentEffects("sb_wiredteleporter", {{stat = "activeMovementAbilities", amount = 1}})
     end
   end)
 
@@ -82,6 +100,23 @@ function init()
       interface.queueMessage(string.format(showHungerMessage, math.ceil(status.resource("food")).."/"..math.ceil(status.resourceMax("food"))), 4, 0.5)
     end
   end)
+end
+
+--While this could be a status effect, this should be fine
+function update()
+  if wiredTeleporterWaitTime then
+    wiredTeleporterWaitTime = math.max(0, wiredTeleporterWaitTime - 1)
+    mcontroller.setVelocity({0, 0})
+
+    if wiredTeleporterWaitTime == 0 then
+      mcontroller.setPosition({wiredTeleporterX, wiredTeleporterY + 3.5})
+
+      wiredTeleporterWaitTime = nil
+      wiredTeleporterX = nil
+      wiredTeleporterY = nil
+      status.clearPersistentEffects("sb_wiredteleporter")
+    end
+  end
 end
 
 function suitsInit()
@@ -220,7 +255,7 @@ function updateSuitIcon(techName)
           inventoryWidgets["setVisible"](hiddenWidgets[i], true)
         end
 
-        local centeredOffset = root.assetJson("/interface/windowconfig/playerinventory.config:paneLayout.techHead.centered") and 0 or 8
+        local centeredOffset = root.assetJson("/interface/windowconfig/playerinventory.config:paneLayout.techHead")["centered"] and 0 or 8
         local head, body, legs, suit = inventoryWidgets["getPosition"]("techHead"), inventoryWidgets["getPosition"]("techBody"), inventoryWidgets["getPosition"]("techLegs"), inventoryWidgets["getPosition"]("sb_techSuit")
         local headD, bodyD, legsD = inventoryWidgets["getPosition"]("techHeadDisabled"), inventoryWidgets["getPosition"]("techBodyDisabled"), inventoryWidgets["getPosition"]("techLegsDisabled")
 

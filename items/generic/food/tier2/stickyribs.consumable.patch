@@ -7,5 +7,8 @@
 
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
 [{"op":"add","path":"/effects/0/-","value":"sb_foodheal145"}],
-[{"op":"add","path":"/effects/0/-","value":{"effect":"sb_restoration","duration":25}}]
+[{"op":"add","path":"/effects/0/-","value":{"effect":"sb_restoration","duration":25}}],
+
+[{"op":"test","path":"/description","value":"Sweet and sticky ribs. Delicious!"},
+{"op":"replace","path":"/description","value":"Sweet and sticky ribs, straight from the campfire. Delicious!"}]
 ]

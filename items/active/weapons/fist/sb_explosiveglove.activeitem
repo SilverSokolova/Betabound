@@ -5,7 +5,6 @@
   "maxStack": 1,
   "rarity": "Legendary",
   "description": "PUNCH HIM SO HARD HE EXPLODES!",
-  //"description" : "Punch with the force of a hundred powder kegs!",
   "shortdescription": "Explosive Glove",
   "tooltipKind": "sb_fistweapon",
   "category": "fistWeapon",

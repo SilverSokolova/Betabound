@@ -4,8 +4,7 @@ require "/scripts/companions/capturable.lua"
 
 --TODO: Not prefixing the probe functions seems fine for now but it'll probably cause problems later. See you in 2034
 local originalInit = init or function() end
-function init()
-  originalInit()
+function init(); originalInit()
   self.dialog = config.getParameter("dialog")
 
   mcontroller.controlFace(1)

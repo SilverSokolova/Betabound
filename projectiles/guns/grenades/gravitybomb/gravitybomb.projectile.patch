@@ -1,4 +1,12 @@
 [
-[{"op":"test","path":"/actionOnReap/0/file","value":"/projectiles/explosions/regularexplosion/regularexplosionuniversal.config"},
-{"op":"replace","path":"/actionOnReap/0/file","value":"/projectiles/explosions/regularexplosion/regularexplosion.config"}]
+  [{
+      "op": "test",
+      "path": "/actionOnReap/0/file",
+      "value": "/projectiles/explosions/regularexplosion/regularexplosionuniversal.config"
+    }, {
+      "op": "replace",
+      "path": "/actionOnReap/0/file",
+      "value": "/projectiles/explosions/regularexplosion/regularexplosion.config"
+    }
+  ]
 ]

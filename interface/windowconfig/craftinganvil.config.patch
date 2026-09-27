@@ -9,7 +9,7 @@
       "path": "/paneLayout/categories/toggleMode",
       "value": true
     }
-  ] /* */,
+  ],
 
   //Many Tabs
   [{
@@ -20,5 +20,5 @@
         "filter": ["sb_racialweapons"]
       }
     }
-  ] /* */
+  ]
 ]

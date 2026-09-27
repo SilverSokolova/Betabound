@@ -107,9 +107,9 @@ function sb_checkProtectionForOverride()
 
   if sum == 0 then
     math.betabound_applyProtectionOverride = protection[3][#protection[3]][1] - 0.5
-    sb.logInfo("[Betabound] The player protection override was applied with a value of %s.", protection[3][#protection[3]][1])
+--  sb.logInfo("[Betabound] The player protection override was applied with a value of %s.", protection[3][#protection[3]][1])
   else
     math.betabound_applyProtectionOverride = false
-    sb.logInfo("[Betabound] The player protection override was not applied.")
+--  sb.logInfo("[Betabound] The player protection override was not applied.")
   end
 end

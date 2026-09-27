@@ -12,8 +12,14 @@
   "edgeTrigger": true,
   "windupTime": 0,
   "cooldown": 0.2,
+
   "projectileType": "levitationstatusprojectile",
   "projectileConfig": {
+    "statusEffects": [{
+        "effect": "levitation",
+        "duration": 15
+      }
+    ],
     "speed": 0,
     "periodicActions": [{
         "time": 0,

@@ -1,4 +1,5 @@
 [
+  //IDF
   [{
       "op": "test",
       "path": "/effectLabel"
@@ -12,7 +13,8 @@
       "value": 0.9
     }
   ],
-  //move FU's food label
+
+  //Move FU's food label
   [{
       "op": "test",
       "path": "/foodValueLabel"
@@ -32,6 +34,8 @@
       }
     }
   ],
+
+  //
   [{
       "op": "test",
       "path": "/rotTimeLabel",
@@ -49,6 +53,7 @@
       }
     }
   ],
+
   //move rot label if IFD is present
   [{
       "op": "test",

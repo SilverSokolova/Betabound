@@ -1,0 +1,1 @@
+[{"op":"test","path":"/renderParameters/multiColored","value":false},{"op":"replace","path":"/renderParameters/multiColored","value":true}]

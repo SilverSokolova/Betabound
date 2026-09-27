@@ -5,7 +5,7 @@ require "/items/buildscripts/abilities.lua"
 
 function build(directory, config, parameters, level, seed)
   local configParameter = function(keyName, defaultValue) return parameters[keyName] or config[keyName] or defaultValue end
-  local definition = configParameter("definition",configParameter("sb_definition"))
+  local definition = configParameter("definition", configParameter("sb_definition"))
   if definition then
     require "/items/buildscripts/starbound/definition.lua"
     config = applyDefinition(config, definition, configParameter("configOverrides"))

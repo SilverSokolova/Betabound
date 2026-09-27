@@ -4,5 +4,20 @@
   "shortdescription": "", //required to keep ES from dying
   "animation": "/items/sb_consumable.animation",
   "scripts": ["/items/sb_consumable.lua"],
-  "builder": "/items/buildscripts/starbound/buildfood.lua"
+  "builder": "/items/buildscripts/starbound/buildpreservedfood.lua",
+
+  "sb_configToIgnore": {
+    "maxStack": true,
+    "itemName": true,
+    "timeToRot": true,
+    "itemAgingScripts": true,
+    "sb_plate": true,
+    "sb_plateImage": true
+  },
+
+  "sb_configToOverwrite": {
+    "rarity": true,
+    "shortdescription": true,
+    "effects": true
+  }
 }

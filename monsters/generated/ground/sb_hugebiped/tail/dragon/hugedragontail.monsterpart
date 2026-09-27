@@ -1,9 +1,9 @@
 {
-  "name" : "sb_hugedragontail",
-  "category" : "sb_hugebiped",
-  "type" : "tail",
+  "name": "sb_hugedragontail",
+  "category": "sb_hugebiped",
+  "type": "tail",
 
-  "frames" : {
-    "tail" : "tail.png"
+  "frames": {
+    "tail": "tail.png"
   }
 }

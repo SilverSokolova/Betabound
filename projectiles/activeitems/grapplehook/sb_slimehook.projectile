@@ -1,12 +1,10 @@
 {
   "projectileName": "sb_slimehook",
-  "image": "/items/tools/slimehook.png", //Oh how I wish to rotate you...
+  "image": "/items/tools/slimehook.png", //Oh how I wish to rotate you... BUT WE CAN THOUGH?? ICEHOOK?? TODO:
   "animationCycle": 1,
   "frameNumber": 1,
   "pointLight": false,
   "flippable": false,
-  "actionOnReap": [],
-  "statusEffects": [],
   "power": 0,
   "speed": 4,
   "movementSettings": {

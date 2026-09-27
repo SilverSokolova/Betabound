@@ -10,6 +10,7 @@
   "category": "storage",
   "price": 40,
   "health": 1.5,
+
   "builder": "/items/buildscripts/starbound/buildcontainer.lua",
   "scripts": ["/scripts/objects/sb_container.lua"],
 

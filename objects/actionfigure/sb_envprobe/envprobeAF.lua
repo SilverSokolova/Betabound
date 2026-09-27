@@ -1,5 +1,6 @@
-function onInputNodeChange() processWireInput() end
-function onNodeConnectionChange() processWireInput() end
+function onInputNodeChange(); processWireInput() end
+function onNodeConnectionChange(); processWireInput() end
+
 function init()
   object.setInteractive(true)
   storage.color = storage.color or 1

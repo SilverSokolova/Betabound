@@ -3,7 +3,7 @@
   "image": "/projectiles/invisibleprojectile/invisibleprojectile.png",
   "animationCycle": 1,
   "frameNumber": 1,
-  "timeToLive": 0.01,
+  "timeToLive": 0,
   "physics": "grenade",
   "pointLight": false,
   "onlyHitTerrain": true,

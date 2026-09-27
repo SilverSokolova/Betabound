@@ -1,5 +1,9 @@
 [
   [{
+      "op": "test",
+      "path": "/levelLabel",
+      "inverse": true
+    }, {
       "op": "add",
       "path": "/sb_level2Label",
       "value": {
@@ -10,131 +14,6 @@
         "centered": true,
         "wrapWidth": 126
       }
-    }
-  ],
-
-  [{
-      "op": "test",
-      "path": "/damagePerShotLabel/position/0",
-      "value": 130
-    }, {
-      "op": "replace",
-      "path": "/damagePerShotLabel/position/0",
-      "value": 134
-    }
-  ],
-  [{
-      "op": "test",
-      "path": "/damagePerShotLabel/position/1",
-      "value": 80
-    }, {
-      "op": "replace",
-      "path": "/damagePerShotLabel/position/1",
-      "value": 95
-    }
-  ],
-
-  [{
-      "op": "test",
-      "path": "/speedLabel/position/0",
-      "value": 130
-    }, {
-      "op": "replace",
-      "path": "/speedLabel/position/0",
-      "value": 134
-    }
-  ],
-  [{
-      "op": "test",
-      "path": "/speedLabel/position/1",
-      "value": 71
-    }, {
-      "op": "replace",
-      "path": "/speedLabel/position/1",
-      "value": 86
-    }
-  ],
-
-  [{
-      "op": "test",
-      "path": "/comboFinisherLabel/position/0",
-      "value": 130
-    }, {
-      "op": "replace",
-      "path": "/comboFinisherLabel/position/0",
-      "value": 134
-    }
-  ],
-  [{
-      "op": "test",
-      "path": "/comboFinisherLabel/position/1",
-      "value": 62
-    }, {
-      "op": "replace",
-      "path": "/comboFinisherLabel/position/1",
-      "value": 77
-    }
-  ],
-
-  [{
-      "op": "test",
-      "path": "/damagePerShotTitleLabel/position/0",
-      "value": 20
-    }, {
-      "op": "replace",
-      "path": "/damagePerShotTitleLabel/position/0",
-      "value": 15
-    }
-  ],
-  [{
-      "op": "test",
-      "path": "/speedTitleLabel/position/0",
-      "value": 20
-    }, {
-      "op": "replace",
-      "path": "/speedTitleLabel/position/0",
-      "value": 15
-    }
-  ],
-  [{
-      "op": "test",
-      "path": "/comboFinisherTitleLabel/position/0",
-      "value": 20
-    }, {
-      "op": "replace",
-      "path": "/comboFinisherTitleLabel/position/0",
-      "value": 15
-    }
-  ],
-
-  [{
-      "op": "test",
-      "path": "/damagePerShotTitleLabel/position/1",
-      "value": 80
-    }, {
-      "op": "replace",
-      "path": "/damagePerShotTitleLabel/position/1",
-      "value": 95
-    }
-  ],
-  [{
-      "op": "test",
-      "path": "/speedTitleLabel/position/1",
-      "value": 71
-    }, {
-      "op": "replace",
-      "path": "/speedTitleLabel/position/1",
-      "value": 86
-    }
-  ],
-  [{
-      "op": "test",
-      "path": "/comboFinisherTitleLabel/position/1",
-      "value": 62
-    }, {
-      "op": "replace",
-      "path": "/comboFinisherTitleLabel/position/1",
-      "value": 77
     }
   ],
 
@@ -154,27 +33,6 @@
     }, {
       "op": "remove",
       "path": "/descriptionLabel/lineSpacing"
-    }
-  ],
-
-  [{
-      "op": "test",
-      "path": "/descriptionLabel/position/0",
-      "value": 20
-    }, {
-      "op": "replace",
-      "path": "/descriptionLabel/position/0",
-      "value": 15
-    }
-  ],
-  [{
-      "op": "test",
-      "path": "/descriptionLabel/position/1",
-      "value": 58
-    }, {
-      "op": "replace",
-      "path": "/descriptionLabel/position/1",
-      "value": 70
     }
   ]
 ]

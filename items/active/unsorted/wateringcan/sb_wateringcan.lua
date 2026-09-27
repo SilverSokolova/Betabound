@@ -1,7 +1,6 @@
 local originalInit = init or function() end
 
-function init()
-  originalInit()
+function init(); originalInit()
   mcontroller.sb_controlModifiers = mcontroller.controlModifiers
   mcontroller.controlModifiers = function(modifiers)
     if modifiers then

@@ -34,6 +34,13 @@
 ,[{"op":"test","path":"/trictusTreasure/0/1/fill","inverse":true},{"op":"add","path":"/trictusTreasure/0/1/fill","value":[]}]
 ,[{"op":"add","path":"/trictusTreasure/0/1/fill/-","value":{"pool":"sb_trictusTreasure"}}]
 
+,[{"op":"test","path":"/sporgusTreasure/0/1/fill","inverse":true},{"op":"add","path":"/sporgusTreasure/0/1/fill","value":[]}]
+,[{"op":"add","path":"/sporgusTreasure/0/1/fill/-","value":{"pool":"sb_sporgusTreasure"}}]
+
+,[{"op":"test","path":"/taroniTreasure/0/1/fill","inverse":true},{"op":"add","path":"/taroniTreasure/0/1/fill","value":[]}]
+,[{"op":"add","path":"/taroniTreasure/0/1/fill/-","value":{"pool":"sb_taroniTreasure"}}]
+//Hypnare shall not drop petals. They are already farmable
+
 
 
 ,[{"op":"add","path":"/poptopTreasure/0/1/pool/-","value":{"weight":0.15,"pool":"sb_poptopMusic"}}]

@@ -75,8 +75,7 @@
 {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_glitchtier6sshortsword"}},
 
 //    -=- OBJECTS  -=-
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_glitchfuelhatch"}},
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"glitchshiplocker"}}],
+{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_glitchfuelhatch"}}],
 
 [{"op":"test","path":"/statusEffects","inverse":true},{"op":"add","path":"/statusEffects","value":[]}],
 [{"op":"add","path":"/statusEffects/-","value":"sb_poisoncreepimmunity"}]

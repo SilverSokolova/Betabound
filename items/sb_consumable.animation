@@ -8,8 +8,8 @@
   },
   //effectsources can play an entire list of sounds at once, whereas playSound plays a single one from the list
   //This is my solution. I did it this way so it can be patched by multiple mods
-  //Also I don't really want to add crumbs
+  //TODO: add the crumbs that spawn when 'food'
   "extraSounds": {
-    "medicine": ["2"]
+    "medicine": ["2"] //Items of the 'medicine' item category will play both 'medicine', and 'medicine' + <each value from this list>, so, it will also play 'medicine' + '2' which is 'medicine2'. For modders, note that the values are strings, so you can suffix them
   }
 }

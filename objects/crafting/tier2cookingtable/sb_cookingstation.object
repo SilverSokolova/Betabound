@@ -9,7 +9,7 @@
     "config": "/interface/windowconfig/sb_craftingfood.config",
     "filter": ["sb_kitchen", "craftingfood", "campfire", "sb_coffee"]
   },
-  "description": "The best place to cook. It allows you to filter food effects.",
+  "description": "The best place to cook. It allows filtering by status effects.",
   "shortdescription": "^orange;Cooking Station^reset;",
   "race": "generic",
   "category": "crafting",

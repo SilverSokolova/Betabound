@@ -1,1 +1,17 @@
-[[{"op":"test","path":"/upgradeStages/1/interactData/initialRecipeUnlocks","inverse":true},{"op":"add","path":"/upgradeStages/1/interactData/initialRecipeUnlocks","value":[]}],[{"op":"add","path":"/upgradeStages/1/interactData/initialRecipeUnlocks/-","value":"sb_tealdye"}]]
+[
+  [{
+      "op": "test",
+      "path": "/upgradeStages/1/interactData/initialRecipeUnlocks",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/upgradeStages/1/interactData/initialRecipeUnlocks",
+      "value": []
+    }
+  ], [{
+      "op": "add",
+      "path": "/upgradeStages/1/interactData/initialRecipeUnlocks/-",
+      "value": "sb_tealdye"
+    }
+  ]
+]

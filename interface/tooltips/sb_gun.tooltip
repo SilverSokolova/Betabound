@@ -13,62 +13,54 @@
   "priceLabel": {
     "type": "label",
     "position": [110, 23],
-    "hAnchor": "left",
-    "value": "tree"
-  },
-  "altAbilityTitleLabel": {
-    "type": "label",
-    "position": [9, 68],
-    "hAnchor": "left",
-    "value": ""
-  },
-  "altAbilityLabel": {
-    "type": "label",
-    "position": [130, 68],
-    "hAnchor": "right",
-    "centered": true,
-    "wrapWidth": 126
+    "hAnchor": "left"
   },
   "damagePerShotTitleLabel": {
     "type": "label",
-    "position": [9, 59],
+    "position": [9, 68],
     "hAnchor": "left",
     "value": "Damage Per Shot:"
   },
   "damagePerShotLabel": {
     "type": "label",
-    "position": [130, 59],
+    "position": [130, 68],
     "hAnchor": "right",
     "wrapWidth": 126
   },
   "speedTitleLabel": {
     "type": "label",
-    "position": [9, 50],
+    "position": [9, 59],
     "hAnchor": "left",
     "value": "Rate of Fire:"
   },
   "speedLabel": {
     "type": "label",
-    "position": [130, 50],
+    "position": [130, 59],
     "hAnchor": "right",
     "wrapWidth": 126
   },
   "energyPerShotTitleLabel": {
     "type": "label",
-    "position": [9, 41],
+    "position": [9, 50],
     "hAnchor": "left",
     "value": "Energy Per Shot:"
   },
   "energyPerShotLabel": {
     "type": "label",
-    "position": [130, 41],
+    "position": [130, 50],
     "hAnchor": "right",
     "wrapWidth": 126
   },
-  "descriptionLabel": {
+  "altAbilityTitleLabel": {
     "type": "label",
-    "position": [11, 41],
-    "hAnchor": "left",
+    "position": [9, 41],
+    "hAnchor": "left"
+  },
+  "altAbilityLabel": {
+    "type": "label",
+    "position": [130, 41],
+    "hAnchor": "right",
+    "centered": true,
     "wrapWidth": 126
   },
   "handednessLabel": {
@@ -104,29 +96,6 @@
   "damageKindImage": {
     "type": "image",
     "position": [120, 90],
-    "file": "",
-    "centered": true,
-    "maxSize": [16, 16],
-    "minSize": [16, 16]
-  },
-  "damageKindBImage": {
-    "type": "image",
-    "position": [120, 108],
-    "centered": true,
-    "file": "",
-    "maxSize": [16, 16],
-    "minSize": [16, 16]
-  },
-  "damageKindCImage": {
-    "type": "image",
-    "position": [18, 90],
-    "centered": true,
-    "maxSize": [16, 16],
-    "minSize": [16, 16]
-  },
-  "damageKindDImage": {
-    "type": "image",
-    "position": [18, 108],
     "centered": true,
     "maxSize": [16, 16],
     "minSize": [16, 16]
@@ -134,7 +103,6 @@
   "objectImage": {
     "type": "image",
     "position": [70, 105],
-    "file": "",
     "centered": true,
     "maxSize": [40, 40],
     "minSize": [40, 40]

@@ -3,7 +3,9 @@ require "/scripts/util.lua"
 require "/scripts/vec2.lua"
 require "/scripts/companions/capturable.lua"
 
-function init()
+--TODO: Not prefixing the probe functions seems fine for now but it'll probably cause problems later. See you in 2034
+local originalInit = init or function() end
+function init(); originalInit()
   self.dialog = config.getParameter("dialog")
   level = monster.level()
 

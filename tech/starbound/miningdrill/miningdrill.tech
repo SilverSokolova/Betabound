@@ -10,10 +10,17 @@
   "scriptDelta": 1,
   "animator": "miningdrill.animation",
   "energyUsageRate": 7,
+
   "drillPositions": {
     "up": [0, 3],
     "down": [0, -3],
-    "left": [-3, 0],
-    "right": [3, 0]
+    "left": [-2, 0],
+    "right": [2, 0]
+  },
+  "drillDamageHeights": {
+    "up": [-1, 1],
+    "down": [-2, 0],
+    "left": [-2, 1],
+    "right": [-2, 1]
   }
 }

@@ -231,14 +231,14 @@ function v.sb_sip(_, category); category = category[1]
   local tableOutput = {}
 
   if category == "ability" then
-    local abilities = root.assetJson("/sb_abilitymods.config:abilities")
+    local abilities = root.assetJson("/items/augments/sb_abilitymod/abilitymods.config:abilities")
 
     for k, _ in pairs(abilities) do
       local item = root.itemConfig({"sb_abilitymod", 1, {ability = k}}).config
       tableOutput[#tableOutput + 1] = string.format(templates[category], item.inventoryIcon[2].image, item.shortdescription, item.rarity, k):gsub("%^reset;", "")
     end
   elseif category == "ammo" then
-    local ammo = root.assetJson("/sb_projectiles.config")
+    local ammo = root.assetJson("/items/generic/sb_ammo/ammo.config")
 
     for k, _ in pairs(ammo) do
       local item = root.itemConfig({"sb_ammo", 1, {projectileType = k}}).config

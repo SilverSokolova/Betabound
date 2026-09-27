@@ -337,15 +337,23 @@
   [{"op":"add","path":"/chestMoney/6/1/pool/-","value":{"weight":1,"pool":"sb_holidaySpirit"}}],
 
 
-    //Mods
-//[{"op":"add","path":"/weapon/0/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
-//[{"op":"add","path":"/weapon/1/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
-//[{"op":"add","path":"/weapon/2/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
-  
-  [{"op":"add","path":"/goodWeapon/0/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
-  [{"op":"add","path":"/goodWeapon/1/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
-  [{"op":"add","path":"/goodWeapon/2/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}],
-  [{"op":"add","path":"/goodWeapon/2/1/pool/-","value":{"weight":0.15,"item":"sb_elementmod"}}],
+  //Mods
+/*[
+    {"op":"test","path":"/weapon/0/1/pool"},
+
+  //{"op":"add","path":"/weapon/0/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}},
+  //{"op":"add","path":"/weapon/1/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}},
+  //{"op":"add","path":"/weapon/2/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}}
+  ],*/
+
+  [
+    {"op":"test","path":"/goodWeapon/0/1/pool"},
+
+    {"op":"add","path":"/goodWeapon/0/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}},
+    {"op":"add","path":"/goodWeapon/1/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}},
+    {"op":"add","path":"/goodWeapon/2/1/pool/-","value":{"weight":0.15,"pool":"sb_abilityMod"}},
+    {"op":"add","path":"/goodWeapon/2/1/pool/-","value":{"weight":0.15,"item":"sb_elementmod"}}
+  ],
 
 /*
 ULTIMATE WEAPON CLASSIFICATION GUIDE:

@@ -7,8 +7,7 @@
   "priceLabel": {
     "type": "label",
     "position": [115, 30],
-    "hAnchor": "left",
-    "value": "0"
+    "hAnchor": "left"
   },
   "descriptionLabel": {
     "type": "label",
@@ -20,15 +19,13 @@
   "title": {
     "type": "label",
     "position": [35, 179],
-    "hAnchor": "left",
-    "value": ""
+    "hAnchor": "left"
   },
   "subTitle": {
     "type": "label",
     "position": [35, 169],
     "hAnchor": "left",
-    "color": [185, 181, 178],
-    "value": ""
+    "color": [185, 181, 178]
   },
   "titleIcon": {
     "type": "itemslot",

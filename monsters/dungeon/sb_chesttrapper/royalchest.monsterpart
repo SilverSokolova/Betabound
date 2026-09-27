@@ -1,9 +1,9 @@
 {
-  "name" : "chest",
-  "category" : "sb_royalchesttrapper",
-  "type" : "body",
+  "name": "chest",
+  "category": "sb_royalchesttrapper",
+  "type": "body",
 
-  "frames" : {
-    "body" : "royalchest.png"
+  "frames": {
+    "body": "royalchest.png"
   }
 }

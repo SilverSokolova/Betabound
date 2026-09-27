@@ -7,8 +7,7 @@
   "priceLabel": {
     "type": "label",
     "position": [115, 30],
-    "hAnchor": "left",
-    "value": "0"
+    "hAnchor": "left"
   },
   "descriptionLabel": {
     "type": "label",
@@ -17,80 +16,6 @@
     "vAnchor": "top",
     "lineSpacing": 0.9,
     "wrapWidth": 122
-  },
-  "damageKindImage": {
-    "type": "image",
-    "position": [120, 106],
-    "file": "",
-    "centered": true,
-    "maxSize": [16, 16],
-    "minSize": [16, 16]
-  },
-  "damageKindBImage": {
-    "type": "image",
-    "position": [120, 124],
-    "centered": true,
-    "maxSize": [16, 16],
-    "minSize": [16, 16]
-  },
-  "damageKindCImage": {
-    "type": "image",
-    "position": [18, 106],
-    "centered": true,
-    "maxSize": [16, 16],
-    "minSize": [16, 16]
-  },
-  "damageKindDImage": {
-    "type": "image",
-    "position": [18, 124],
-    "centered": true,
-    "maxSize": [16, 16],
-    "minSize": [16, 16]
-  },
-  "damageKindEImage": {
-    "type": "image",
-    "position": [120, 152],
-    "centered": true,
-    "maxSize": [16, 16],
-    "minSize": [16, 16]
-  },
-  "damageKindFImage": {
-    "visible": false,
-    "type": "image",
-    "position": [18, 152],
-    "centered": true,
-    "maxSize": [16, 16],
-    "minSize": [16, 16]
-  },
-  "foodValueLabel": {
-    "type": "label",
-    "position": [16, 152],
-    "hAnchor": "left",
-    "vAnchor": "top",
-    "width": 126
-  },
-  "foodAmountLabel": {
-    "type": "label",
-    "position": [16, 152],
-    "hAnchor": "left",
-    "vAnchor": "top",
-    "width": 126
-  },
-  "rotTimeLabel": {
-    "type": "label",
-    "position": [16, 152],
-    "hAnchor": "left",
-    "centered": true,
-    "lineSpacing": 1.1,
-    "wrapWidth": 122
-  },
-  "sb_level2Label": {
-    "type": "label",
-    "position": [118, 169],
-    "hAnchor": "left",
-    "color": "gray",
-    "centered": true,
-    "wrapWidth": 126
   },
   "objectImage": {
     "type": "image",
@@ -127,5 +52,38 @@
     "backingImage": "/interface/inventory/portrait.png",
     "showRarity": false,
     "showBackingImageWhenFull": true
+  },
+
+  //For throwables (none as of 30/MAY/2026)
+  "sb_level2Label": {
+    "type": "label",
+    "position": [118, 169],
+    "hAnchor": "left",
+    "color": "gray",
+    "centered": true,
+    "wrapWidth": 126
+  },
+  //For food
+  "foodValueLabel": {
+    "type": "label",
+    "position": [16, 152],
+    "hAnchor": "left",
+    "vAnchor": "top",
+    "width": 126
+  },
+  "foodAmountLabel": {
+    "type": "label",
+    "position": [16, 152],
+    "hAnchor": "left",
+    "vAnchor": "top",
+    "width": 126
+  },
+  "rotTimeLabel": {
+    "type": "label",
+    "position": [16, 152],
+    "hAnchor": "left",
+    "centered": true,
+    "lineSpacing": 1.1,
+    "wrapWidth": 122
   }
 }

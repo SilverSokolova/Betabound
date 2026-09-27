@@ -21,14 +21,14 @@
 ,{"path":"/items/generic/crafting/","name":"sb_imperviumcompound","shortdescription":"Impervium Compound","category":"ingredients","icon":"sb_imperviumcompound.png","rarity":"legendary"}
 
 ,{"path":"/items/generic/crafting/","name":"sb_solariumrod","shortdescription":"Solarium Rod","category":"ingredients","icon":"sb_solariumrod.png","rarity":"rare"}
-
+/*
 ,{"path":"/items/generic/crafting/","name":"sb_aegisaltbar","shortdescription":"Aegisalt Bar","category":"ingredients","icon":"sb_aegisaltbar.png","rarity":"rare"}
 ,{"path":"/items/generic/crafting/","name":"sb_violiumbar","shortdescription":"Violium Bar","category":"ingredients","icon":"sb_violiumbar.png","rarity":"rare"}
 ,{"path":"/items/generic/crafting/","name":"sb_rubiumbar","shortdescription":"Rubium Bar","category":"ingredients","icon":"sb_rubiumbar.png","rarity":"rare"}
 ,{"path":"/items/generic/crafting/","name":"sb_feroziumbar","shortdescription":"Scintillium Bar","category":"ingredients","icon":"sb_feroziumbar.png","rarity":"legendary"}
 ,{"path":"/items/generic/crafting/","name":"sb_ceruliumbar","shortdescription":"Cerulium Bar","category":"ingredients","icon":"sb_ceruliumbar.png","rarity":"legendary"}
 ,{"path":"/items/generic/crafting/","name":"sb_imperviumbar","shortdescription":"Impervium Bar","category":"ingredients","icon":"sb_imperviumbar.png","rarity":"legendary"}
-
+*/
 //,{"path":"/items/generic/crafting/","name":"sb_robotheadempty","shortdescription":"Empty Robot Head","category":"ingredients","icon":"sb_robotheadempty.png","rarity":"uncommon"}
 
 

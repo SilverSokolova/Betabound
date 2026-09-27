@@ -10,5 +10,5 @@
   "largeImage": "gameboy.png",
   "category": "toy",
   "scripts": ["/items/active/starbound/interface.lua", "/scripts/activeitem/sb_held.lua"],
-  "interactAction": ["scriptPane", "/interface/games/sb_pong/pong.config"]
+  "interactAction": ["scriptPane", "/interface/scripted/sb_gameboy/gameboy.config"]
 }

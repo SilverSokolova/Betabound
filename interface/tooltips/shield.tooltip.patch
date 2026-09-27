@@ -1,5 +1,9 @@
 [
   [{
+      "op": "test",
+      "path": "/levelLabel",
+      "inverse": true
+    }, {
       "op": "add",
       "path": "/sb_levelLabel",
       "value": {
@@ -17,6 +21,9 @@
       "op": "test",
       "path": "/background/fileBody",
       "value": "/interface/tooltips/bodyobject3extended.png"
+    }, {
+      "op": "test",
+      "path": "/sb_levelLabel"
     }, {
       "op": "replace",
       "path": "/sb_levelLabel/position/1",

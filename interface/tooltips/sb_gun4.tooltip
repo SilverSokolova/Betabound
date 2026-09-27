@@ -13,57 +13,43 @@
   "priceLabel": {
     "type": "label",
     "position": [110, 23],
-    "hAnchor": "left",
-    "value": "tree"
+    "hAnchor": "left"
   },
   "descriptionLabel": {
     "type": "label",
-    "position": [11, 109],
+    "position": [9, 109],
     "hAnchor": "left",
     "vAnchor": "top",
     "wrapWidth": 126,
-    "lineSpacing": 0.9
+    "lineSpacing": 1
   },
   "ammoLabel": {
     "type": "label",
-    "position": [11, 86],
+    "position": [9, 85],
     "hAnchor": "left",
     "vAnchor": "top",
     "wrapWidth": 126,
     "value": "^green;This weapon can use ammo"
   },
-  "altAbilityTitleLabel": {
-    "type": "label",
-    "position": [9, 68],
-    "hAnchor": "left",
-    "value": ""
-  },
-  "altAbilityLabel": {
-    "type": "label",
-    "position": [130, 68],
-    "hAnchor": "right",
-    "centered": true,
-    "wrapWidth": 126
-  },
-  "speedTitleLabel": {
-    "type": "label",
-    "position": [9, 50],
-    "hAnchor": "left",
-    "value": "Rate of Fire:"
-  },
-  "speedLabel": {
-    "type": "label",
-    "position": [130, 50],
-    "hAnchor": "right",
-    "wrapWidth": 126
-  },
   "damagePerShotTitleLabel": {
     "type": "label",
-    "position": [9, 59],
+    "position": [9, 68],
     "hAnchor": "left",
     "value": "Damage Per Shot:"
   },
   "damagePerShotLabel": {
+    "type": "label",
+    "position": [130, 68],
+    "hAnchor": "right",
+    "wrapWidth": 126
+  },
+  "speedTitleLabel": {
+    "type": "label",
+    "position": [9, 59],
+    "hAnchor": "left",
+    "value": "Rate of Fire:"
+  },
+  "speedLabel": {
     "type": "label",
     "position": [130, 59],
     "hAnchor": "right",
@@ -71,14 +57,26 @@
   },
   "energyPerShotTitleLabel": {
     "type": "label",
-    "position": [9, 41],
+    "position": [9, 50],
     "hAnchor": "left",
     "value": "Energy (without ammo):"
   },
   "energyPerShotLabel": {
     "type": "label",
+    "position": [130, 50],
+    "hAnchor": "right",
+    "wrapWidth": 126
+  },
+  "altAbilityTitleLabel": {
+    "type": "label",
+    "position": [9, 41],
+    "hAnchor": "left"
+  },
+  "altAbilityLabel": {
+    "type": "label",
     "position": [130, 41],
     "hAnchor": "right",
+    "centered": true,
     "wrapWidth": 126
   },
   "handednessLabel": {

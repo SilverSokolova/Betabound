@@ -77,8 +77,7 @@
 
 
 //    -=- OBJECTS  -=-
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_hylotlfuelhatch"}},
-{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"hylotlshiplocker"}}],
+{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_hylotlfuelhatch"}}],
 
 [{"op":"test","path":"/statusEffects","inverse":true},{"op":"add","path":"/statusEffects","value":[]}],
 [{"op":"add","path":"/statusEffects/-","value":"sb_poisoncreepimmunity"}]

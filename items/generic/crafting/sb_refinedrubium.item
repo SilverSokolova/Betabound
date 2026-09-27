@@ -5,7 +5,6 @@
   "category": "craftingMaterial",
   "tooltipKind": "sb_object",
   "inventoryIcon": "sb_refinedrubium.png",
-  "learnBlueprintsOnPickup": ["sb_rubiumbar"],
   "itemTags": ["reagent"],
   "description": "Ore for refined rubium is primarily found on planets orbiting frozen stars.",
   "shortdescription": "Refined Rubium"

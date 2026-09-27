@@ -76,6 +76,7 @@
 
     //FIX
       "Improved Food Descriptions [Addon]", //We want there to be no stack limit on food, not 1000. TODO: remove this when food stacking is gone
+      "pat_techloadouts", //2848049388 - Tech Loadouts, hook into to fix suit tech bug
     
     
     //CRASH FIX

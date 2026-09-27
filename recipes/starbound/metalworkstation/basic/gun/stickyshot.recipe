@@ -1,5 +1,5 @@
 {
-  "input": [["platinumbar",3],"diamond"],
+  "input": ["upgrademodule", ["platinumbar",10]],
   "output": ["sb_abilitymod",1,{"ability":"stickyshot"}],
-  "groups": ["sb_metalworkstation","sb_gun","all"]
+  "groups": ["sb_metalworkstation","sb_gun","all","nouncrafting"]
 }

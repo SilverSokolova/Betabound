@@ -1,6 +1,5 @@
 function build(directory, config, parameters)
   if parameters.sb_paintData then
-    desc = root.itemConfig("sb_paint").config.shortdescription
     local itemC = root.itemConfig({name=parameters.sb_paintData[1]})
     parameters.sb_paint = parameters.sb_paintData[2]
     local inv = jarray()
@@ -13,7 +12,7 @@ function build(directory, config, parameters)
     table.insert(inv,{image=cropImage(img).."?hueshift="..parameters.sb_paint})
     table.insert(inv,{image="paint.png"})
     if string.lower(itemC.config.rarity) ~= "common" then table.insert(inv,{image="lids.png:"..string.lower(itemC.config.rarity),position={0,4.5}}) end
-    parameters.shortdescription = string.format(desc,itemC.config.materialId.."-"..parameters.sb_paint)
+    parameters.shortdescription = string.format(config.shortdescription,itemC.config.materialId.."-"..parameters.sb_paint)
     parameters.rarity = itemC.config.rarity or "common"
     parameters.inventoryIcon = inv
     parameters.sb_paintData = nil

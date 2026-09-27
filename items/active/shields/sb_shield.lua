@@ -2,6 +2,7 @@ local originalInit = init or function() end
 --disabled naming for mushroom/eye shields since merchants would keep regenerating them while the menu was open
 function init() originalInit()
   if player and not sb_init then
+    sb_init = true
     sb_hand = activeItem.hand() == "alt" and "R" or "L"
     sb_statusEffects = config.getParameter("statusEffects")
   
@@ -21,6 +22,5 @@ function init() originalInit()
       end
       return activeItem.sb_setItemDamageSources(damageSources)
     end
-  sb_init = true
   end
 end

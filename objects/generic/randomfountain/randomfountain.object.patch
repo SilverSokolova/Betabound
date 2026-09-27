@@ -26,17 +26,7 @@
     }, {
       "op": "replace",
       "path": "/description",
-      "value": "The most unpredictable of fountains. ^red;Destroyed when broken while empty."
-    }
-  ],
-  [{
-      "op": "test",
-      "path": "/novakidDescription",
-      "inverse": true
-    }, {
-      "op": "add",
-      "path": "/novakidDescription",
-      "value": "It's just a fountain."
+      "value": "The most unpredictable of fountains. ^red;Destroyed when broken while dry.^reset;"
     }
   ],
   //Only add a script if another mod is NOT doing something with this object already

@@ -1,0 +1,51 @@
+[
+[{"op":"test","path":"/collectablesOnPickup","inverse":true},
+{"op":"add","path":"/collectablesOnPickup","value":{}}],
+[{"op":"add","path":"/collectablesOnPickup/sb_music","value":"musicbox1"}],
+
+  //from protectorateradio
+  [
+    {"op":"test","path":"/animation","inverse":true},
+    {"op":"test","path":"/scripts","inverse":true},
+    {"op":"test","path":"/soundEffect","inverse":true},
+    {"op":"test","path":"/defaultLightState","inverse":true},
+    {"op":"test","path":"/inputNodes","inverse":true},
+    {"op":"test","path":"/lightColor","inverse":true},
+    {"op":"test","path":"/npcToy","inverse":true},
+
+    {"op":"add","path":"/animation","value":"sb_poptopplush.animation"},
+    {"op":"add","path":"/scripts","value":["/objects/wired/light/light.lua", "/scripts/npcToyObject.lua"]},
+    {"op":"add","path":"/soundEffect","value":"/sfx/objects/musicbox1.ogg"},
+    {"op":"add","path":"/defaultLightState","value":false},
+    {"op":"add","path":"/inputNodes","value":[[0, 0]]},
+    {"op":"add","path":"/lightColor","value":[0, 0, 0]},
+    {"op":"add","path":"/npcToy","value":
+      {
+        "influence": [
+          "hylotlmusic",
+          "hylotlmusic",
+          "hylotlmusic",
+          "hylotlmusicFinished"
+        ],
+        "defaultReactions": {
+          "hylotlmusic": [
+            [1, "hylotldance"]
+          ],
+          "hylotlmusicFinished": [
+            [1, "hylotldance"],
+            [1, "smile"],
+            [1, "laugh"]
+          ]
+        },
+        "randomStandXRange": [-4, 4],
+        "maxNpcs": 4
+      }
+    }
+  ],
+
+  [
+    {"op":"test","path":"/animation","value":"sb_poptopplush.animation"},
+    {"op":"test","path":"/description","value":"A soft Poptop plush toy."},
+    {"op":"replace","path":"/description","value":"A soft Poptop plush toy. There's a speaker inside."}
+  ]
+]

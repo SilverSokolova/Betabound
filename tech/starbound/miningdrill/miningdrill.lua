@@ -7,6 +7,7 @@ function init()
   harvestLevel = config.getParameter("harvestLevel", 99)
   energyUsageRate = config.getParameter("energyUsageRate", 0)
   drillPositions = config.getParameter("drillPositions")
+  drillDamageHeights = config.getParameter("drillDamageHeights")
 
   entityId = entity.id()
   drills = {
@@ -29,9 +30,18 @@ function update(args)
     if active then
       usedEnergy = usedEnergy + energyUsageRate * args.dt
       local drillPosition = vec2.add(position, drillPositions[dir])
+      local damagePositions = {}
 
-      world.damageTileArea(drillPosition, radius, "foreground", drillPosition, damageType, damageAmount, harvestLevel, entityId)
-      world.damageTileArea(drillPosition, radius, "background", drillPosition, damageType, damageAmount, harvestLevel, entityId)
+      for x = -1, 1 do
+        for y = drillDamageHeights[dir][1], drillDamageHeights[dir][2] do
+          damagePositions[#damagePositions + 1] = vec2.add({x, y}, drillPosition)
+        end
+      end
+
+      world.damageTiles(damagePositions, "foreground", drillPosition, damageType, damageAmount, harvestLevel, entityId)
+      world.damageTiles(damagePositions, "background", drillPosition, damageType, damageAmount, harvestLevel, entityId)
+--    world.damageTileArea(drillPosition, radius, "foreground", drillPosition, damageType, damageAmount, harvestLevel, entityId)
+--    world.damageTileArea(drillPosition, radius, "background", drillPosition, damageType, damageAmount, harvestLevel, entityId)
     end
   end
 

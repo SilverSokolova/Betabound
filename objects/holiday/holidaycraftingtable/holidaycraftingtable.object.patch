@@ -21,15 +21,10 @@
   ],
   [{
       "op": "test",
-      "inverse": true,
+      "value": 0,
       "path": "/price"
     }, {
       "op": "add",
-      "path": "/price",
-      "value": 0
-    }
-  ], [{
-      "op": "replace",
       "path": "/price",
       "value": 1225
     }

@@ -8,7 +8,7 @@ function update(dt)
       action = "projectile",
       type = periodicProjectile,
       timeToLive = 0.1,
-      angleAdjust = -math.random(90)+math.random(30)
+      angleAdjust = -math.random(90) + math.random(30)
     })
   end
 end

@@ -1,0 +1,5 @@
+{
+  "input": ["refinedviolium",["fabric",10],["silk",3]],
+  "output": "opulentbed",
+  "groups": ["craftingfurniture2","beds","all"]
+}

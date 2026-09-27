@@ -12,6 +12,7 @@
 
   "baseParameters": {
     "scripts": [
+      "/monsters/monster.lua",
       "/monsters/events/sb_envprobe/envprobe.lua"
     ],
 
@@ -24,6 +25,7 @@
       ]
     },
 
+    "behavior": "monster",
     "animationScripts": ["/items/active/effects/lightning.lua"],
     "lightning": [{
         "partStartPosition": ["body", "electrics"],

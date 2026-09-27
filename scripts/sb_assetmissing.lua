@@ -1,14 +1,16 @@
 --TODO: rename to something like `sb_util.lua`
 function sb_techType()
-  root.sb_techType = root.techType
-  root.techType = function(t)
-    return root.techConfig(t).sb_effect and "Suit" or root.sb_techType(t)
+  if not root.sb_techType then
+    root.sb_techType = root.techType
+    root.techType = function(t)
+      return root.techConfig(t).sb_effect and "Suit" or root.sb_techType(t)
+    end
   end
 end
 
 function sb_assetmissing(asset, fallbackAsset)
   local defaultFallbackAsset = "/sb_assetmissing.png"
-  return (root.nonEmptyRegion(asset or defaultFallbackAsset) ~= nil) and asset or fallbackAsset or defaultFallbackAsset
+  return (root.nonEmptyRegion(asset or defaultFallbackAsset) ~= nil) and asset or fallbackAsset or defaultFallbackAsset --TODO: why "asset or defaultFallbackAsset". check everywhere we call this function
 end
 
 function sb_itemExists(item) return root.itemConfig(item) ~= nil end

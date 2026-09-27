@@ -3,7 +3,7 @@
     [{
         "op": "test",
         "path": "/bonusOutputs/platinumore",
-        "inverse" : true
+        "inverse": true
     },
     {
         "op": "add",
@@ -17,7 +17,7 @@
     [{
         "op": "test",
         "path": "/inputsToOutputs/platinumore",
-        "inverse" : true
+        "inverse": true
     },
     {
         "op": "add",
@@ -29,7 +29,7 @@
     [{
         "op": "test",
         "path": "/bonusOutputs/sb_diamondore",
-        "inverse" : true
+        "inverse": true
     },
     {
         "op": "add",
@@ -43,7 +43,7 @@
     [{
         "op": "test",
         "path": "/inputsToOutputs/sb_diamondore",
-        "inverse" : true
+        "inverse": true
     },
     {
         "op": "add",
@@ -55,7 +55,7 @@
     [{
         "op": "test",
         "path": "/bonusOutputs/sb_rubiumore",
-        "inverse" : true
+        "inverse": true
     },
     {
         "op": "add",
@@ -71,7 +71,7 @@
     [{
         "op": "test",
         "path": "/inputsToOutputs/sb_rubiumore",
-        "inverse" : true
+        "inverse": true
     },
     {
         "op": "add",
@@ -83,7 +83,7 @@
     [{
         "op": "test",
         "path": "/bonusOutputs/sb_ceruliumore",
-        "inverse" : true
+        "inverse": true
     },
     {
         "op": "add",
@@ -98,7 +98,7 @@
     [{
         "op": "test",
         "path": "/inputsToOutputs/sb_ceruliumore",
-        "inverse" : true
+        "inverse": true
     },
     {
         "op": "add",

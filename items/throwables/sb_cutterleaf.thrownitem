@@ -13,6 +13,7 @@
   "edgeTrigger": true,
   "windupTime": 0,
   "cooldown": 0.2,
+
   "projectileType": "sb_cutterleaf",
   "projectileConfig": {
     "speed": 35,

@@ -1,0 +1,29 @@
+List of mods Betabound has built-in integration/patches for. No need to get separate patches for these, as they are built-in.
+(Note that this is a player-friendly list, so not everything Betabound touches will be noted (such as checking if a specific mod is present before attempting an operation which would create an incompatibility with said mod). For an exhaustive list which includes minor things, see the metadata file.)
+
+SPECIFIC MODS:
+  Anom's Outpost Overhaul
+  AAA Loading Tips
+  Bees Reborn (allows acquisition of rubium frame)
+  Spawnable Item Pack (Adds new categories for Betabound items, and adds Betabound items)
+  Equivalent Exchange for Starbound
+  WorldEdit
+  Improved Food Descriptions
+  Planet Search
+  More Planet Info
+  Weapon Assembly
+  Quickstack Gun
+  Combinable Augments
+  Augment Extractor
+  Growing Trays!
+  Useful Back Items (Adds Betabound ores to the Mining Magnet's dictionary)
+  Idle Factories
+  Garden Bots 2
+  Enhanced Storage (does not affect container capacities, but allows modifying them and using ES functionality)
+  Improved Containers
+
+TYPES OF MODS:
+  Mods that add augment slots for armor (Betabound automatically adds augments to its clothing/armor items if certain vanilla items (set in `/betabound.config` have augment slots)
+  Aimable Melee Weapons (If the vanilla broadsword combo attack is aimable, Betabound makes its own melee weapons aimable)
+  Aimable Shields (If the vanilla 'Starter Shield' (basicshield) item is aimable, Betabound makes its own shields aimable)
+  Mods that add a food value indicator to food items by setting a 'foodValueLabel' or 'foodAmountLabel' tooltip element

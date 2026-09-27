@@ -1,7 +1,7 @@
 local originalInit = init or function() end
 local originalUpdate = update or function() end
 
-function init() originalInit()
+function init(); originalInit()
   sb_npcType = npc.npcType()
   sb_crouching = config.getParameter("sb_crouching")
 
@@ -9,10 +9,10 @@ function init() originalInit()
   --We need this since NPC's with `offeredQuests` in their file just stop moving for some reason
   --TODO: We should find the reason why (didn't we find the exact file before?) and fix it...?
   local quests = {config.getParameter("sb_offeredQuests"), config.getParameter("sb_turnInQuests")}
-  if quests[1] then npc.setOfferedQuests(sb_mergeQuests(quests[1], config.getParameter("offeredQuests",{}))) end
-  if quests[2] then npc.setTurnInQuests(sb_mergeQuests(quests[2], config.getParameter("turnInQuests",{}))) end
+  if quests[1] then npc.setOfferedQuests(sb_mergeQuests(quests[1], config.getParameter("offeredQuests", {}))) end
+  if quests[2] then npc.setTurnInQuests(sb_mergeQuests(quests[2], config.getParameter("turnInQuests", {}))) end
 
-  --Book of Spirits check. TODO: move this to assetmissing script
+  --Book of Spirits check. TODO: move this to sb_assetmissing script
   local booth = root.itemConfig("protectorateinfobooth").config
   if booth.npcName and booth.displayTitle then
     require("/npcs/bookofspirits_interact.lua")
@@ -48,6 +48,7 @@ function init() originalInit()
       if sb_skipNpcSay then
         sb_skipNpcSay = false
       end
+
       if world.universeFlagSet("final_gate_key") and world.entityCurrency(args.sourceId, "sb_questActive:destroyruin") == 1 then
         sayToEntity({
           dialogType = "dialog.arkOpened",
@@ -62,7 +63,7 @@ function init() originalInit()
   end
 end
 
-function update(dt) originalUpdate(dt)
+function update(dt); originalUpdate(dt)
   --NPC type checks. We need them in update since the player can update quest/universe state while in the target world
   if sb_npcType == "outpostfloranfan" then
     if world.universeFlagSet("sb_floranfan1") then

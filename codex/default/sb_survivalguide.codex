@@ -17,7 +17,7 @@ Your handy Matter Manipulator is great if you're in a tight spot, but you can't 
 All you need to make them is cobblestone and wood!
 Wonderful, right?
 
-Before you go charging into alien lands, craft some basic tools on the wooden tool table.
+Before you go charging into alien lands, craft some basic tools at a foraging station.
 They'll help. Trust us.",
 
 "\"But what if those tools wear out\", you ask?
@@ -38,7 +38,7 @@ Craft better weapons, armour, and clothing before taking on more dangerous beast
 
 Everyone knows salves can heal every type of injury, so there's no excuse to be unprepared.",
 
-"Finally; BIRDS ARE NOT YOUR FRIENDS. Ever. Even if they look cute, they'll kill you as soon as you turn your back. All birds. Not Avians, of course. They're lovely. Proper flying, spitting, burning birds. You know the type. Never trust a bird."
+"Finally; ^red;BIRDS ARE NOT YOUR FRIENDS^reset;. Ever. Even if they look cute, they'll kill you as soon as you turn your back. All birds. Not Avians, of course. They're lovely. Proper flying, spitting, burning birds. You know the type. Never trust a bird."
   ],
   "itemConfig": {
     "rarity": "uncommon",

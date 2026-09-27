@@ -2,7 +2,6 @@
   "projectileName": "sb_watersword",
   "image": "/projectiles/invisibleprojectile/invisibleprojectile.png",
   "animationCycle": 1,
-  "level": 1,
   "frameNumber": 1,
   "speed": 0,
   "timeToLive": 0,

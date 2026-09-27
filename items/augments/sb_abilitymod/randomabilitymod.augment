@@ -15,7 +15,7 @@
   "inventoryIcon": [{
       "image": "/items/generated/sb_mod.png"
     }, {
-      "image": "sb_random.png"
+      "image": "icons/sb_random.png"
     }
   ],
   "scripts": ["/scripts/augments/sb_randomability.lua"]

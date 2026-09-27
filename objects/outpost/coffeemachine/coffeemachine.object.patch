@@ -1,4 +1,13 @@
-[
+[[{
+      "op": "test",
+      "path": "/tooltipFields",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/tooltipFields",
+      "value": {}
+    }
+  ],
   [{
       "op": "test",
       "path": "/interactAction",
@@ -51,26 +60,17 @@
       "from": "/subtitle"
     }, {
       "op": "add",
+      "path": "/tooltipFields/subtitle",
+      "value": "Crafting Station"
+    }, {
+      "op": "add",
       "path": "/objectType",
       "value": "container"
     }
   ], [{
       "op": "test",
-      "path": "/tooltipFields",
-      "inverse": true
-    }, {
-      "op": "add",
-      "path": "/tooltipFields",
-      "value": {}
-    }
-  ], [{
-      "op": "test",
       "path": "/shortdescription",
       "value": "Coffee Machine"
-    }, {
-      "op": "add",
-      "path": "/tooltipFields/subtitle",
-      "value": "Crafting Station"
     }, {
       "op": "replace",
       "path": "/shortdescription",

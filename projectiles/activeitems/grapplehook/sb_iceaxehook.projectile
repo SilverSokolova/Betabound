@@ -8,7 +8,9 @@
   "power": 0,
   "speed": 40,
   "damageKind": "default",
-  "movementSettings":{"collisionPoly":[[-0.25,0],[0,-0.25],[0.25,0],[0,0.25]]},
+  "movementSettings": {
+    "collisionPoly": [[-0.25, 0], [0, -0.25], [0.25, 0], [0, 0.25]]
+  },
   "physics": "ballisticgrapplehook",
   "bounces": -1,
   "piercing": true,

@@ -11,9 +11,6 @@
   "level": 5,
   "description": "Creates a miniature sun to light up the area.",
   "shortdescription": "Red Giant Orb",
-  "tooltipFields": {
-    "damageKindImage": "/interface/elements/fire.png"
-  },
   "animationCustom": {
     "animatedParts": {
       "parts": {

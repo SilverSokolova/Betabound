@@ -1,3 +1,4 @@
+//TODO: where's the, uh, the status effect. given by the actionOnReap?
 {
   "projectileName": "sb_marioballstatus",
   "physics": "fireball",

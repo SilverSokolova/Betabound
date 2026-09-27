@@ -1,0 +1,74 @@
+[
+  [{
+      "op": "test",
+      "path": "/damageKind",
+      "value": "default"
+    }, {
+      "op": "replace",
+      "path": "/damageKind",
+      "value": "nodamage"
+    }
+  ],
+
+  //replace old animation
+  [{
+      "op": "test",
+      "path": "/actionOnReap/0/body/0/specification/animation",
+      "value": "/animations/plasmapoof/plasmapoof.animation"
+    }, {
+      "op": "test",
+      "path": "/actionOnReap/1",
+      "inverse": true
+    }, {
+      "op": "replace",
+      "path": "/actionOnReap",
+      "value": [{
+          "action": "projectile",
+          "type": "lowgravboostergas",
+          "fuzzAngle": 0,
+          "angleAdjust": -20
+        }, {
+          "action": "projectile",
+          "type": "lowgravboostergas",
+          "fuzzAngle": 0,
+          "angleAdjust": 60
+        }, {
+          "action": "projectile",
+          "type": "lowgravboostergas",
+          "fuzzAngle": 0,
+          "angleAdjust": -100
+        }, {
+          "action": "projectile",
+          "type": "lowgravboostergas",
+          "fuzzAngle": 0,
+          "angleAdjust": -140
+        }, {
+          "action": "projectile",
+          "type": "lowgravboostergas",
+          "fuzzAngle": 0,
+          "angleAdjust": 0
+        }, {
+          "action": "projectile",
+          "type": "lowgravboostergas",
+          "fuzzAngle": 0,
+          "angleAdjust": 40
+        }, {
+          "action": "projectile",
+          "type": "lowgravboostergas",
+          "fuzzAngle": 0,
+          "angleAdjust": 80
+        }, {
+          "action": "projectile",
+          "type": "lowgravboostergas",
+          "fuzzAngle": 0,
+          "angleAdjust": 120
+        }, {
+          "action": "projectile",
+          "type": "lowgravboostergas",
+          "fuzzAngle": 0,
+          "angleAdjust": 180
+        }
+      ]
+    }
+  ]
+]

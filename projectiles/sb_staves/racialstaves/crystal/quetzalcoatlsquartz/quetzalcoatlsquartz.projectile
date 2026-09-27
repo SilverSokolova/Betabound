@@ -22,6 +22,7 @@
       "time": 0,
       "repeat": false
     }, {
+      //TODO: If all of these are the same, why not just repeat them?
       "action": "projectile",
       "type": "sb_quartzpulse",
       "fuzzAngle": 180,
