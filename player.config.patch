@@ -7,6 +7,8 @@
 [{"op":"add","path":"/statusControllerSettings/resources/sb_shieldStaminaT","value":{"maxValue":1,"initialPercentage":0}}],
 [{"op":"add","path":"/statusControllerSettings/resources/sb_forceFieldStrength","value":{"baseValue":0}}],
 
+//Tweak status effect areas to make ladders more consistent
+[{"op":"test","path":"/statusControllerSettings/environmentStatusEffectUpdateTimer","inverse":true},{"op":"add","path":"/statusControllerSettings/environmentStatusEffectUpdateTimer","value":0}],
 
 //Inventory
 [{"op":"test","path":"/ageItemsEvery","value":10},{"op":"replace","path":"/ageItemsEvery","value":300}],

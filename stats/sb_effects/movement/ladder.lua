@@ -4,5 +4,5 @@ function init()
 end
 
 function update()
-  mcontroller.controlParameters({airJumpProfile={jumpSpeed=20, multiJump=true, autoJump=true}})
+  mcontroller.controlParameters({airJumpProfile={jumpSpeed=20, multiJump=true, autoJump=true, jumpHoldTime=0.01}})
 end
