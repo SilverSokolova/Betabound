@@ -1,0 +1,5 @@
+{
+  "input": ["wickersupport"],
+  "output": "wickerbasket5",
+  "groups": ["craftingfurniture","decoration","all"]
+}

@@ -169,6 +169,11 @@
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"locker2"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"sb_ironbeacon"}}],
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"mysteriouslight"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"wickerbasket1"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"wickerbasket2"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"wickerbasket3"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"wickerbasket4"}}],
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"wickerbasket5"}}],
 
 //Tiered Furniture
 [{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"serenechair"}}],
