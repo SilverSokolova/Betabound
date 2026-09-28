@@ -26,6 +26,7 @@
       "imagePosition": [0, 0],
       "animationPosition": [0, 0],
       "flipImages": false,
+      "direction" : "right",
 
       "spaces": [[0, 0], [1, 0]],
       "anchors": ["bottom"],
@@ -39,5 +40,10 @@
   },
   "statusEffects": ["sb_ladder"],
   "scripts": ["ladder.lua"],
-  "scriptDelta": 60
+  "scriptDelta": 3,
+  "paintable": true,
+  "paintableParts": {
+    "ladderL": [0, 0],
+    "ladderR": [1, 0]
+  }
 }

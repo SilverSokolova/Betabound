@@ -4,40 +4,37 @@
       "ladder": {
         "default": "bottom",
         "states": {
-          "top": {
-            "frames": 1
-          },
-          "middle": {
-            "frames": 1
-          },
-          "bottom": {
-            "frames": 1
-          }
+          "top": {},
+          "middle": {},
+          "bottom": {}
         }
       }
     },
     "parts": {
-      "ladder": {
+      "ladderL": {
         "properties": {
-          "centered": false
+          "centered": false,
+          "paintPosition": [0, 0]
         },
         "partStates": {
           "ladder": {
-            "top": {
-              "properties": {
-                "image": "<partImage>:top<color>"
-              }
-            },
-            "middle": {
-              "properties": {
-                "image": "<partImage>:middle<color>"
-              }
-            },
-            "bottom": {
-              "properties": {
-                "image": "<partImage>:bottom<color>"
-              }
-            }
+            "top": {"properties": {"image": "<partImage>:top.<paint>?crop=0;0;8;8"}},
+            "middle": {"properties": {"image": "<partImage>:middle.<paint>?crop=0;0;8;8"}},
+            "bottom": {"properties": {"image": "<partImage>:bottom.<paint>?crop=0;0;8;8"}}
+          }
+        }
+      },
+      "ladderR": {
+        "properties": {
+          "centered": false,
+          "offset": [1, 0],
+          "paintPosition": [1, 0]
+        },
+        "partStates": {
+          "ladder": {
+            "top": {"properties": {"image": "<partImage>:top.<paint>?crop=8;0;16;8"}},
+            "middle": {"properties": {"image": "<partImage>:middle.<paint>?crop=8;0;16;8"}},
+            "bottom": {"properties": {"image": "<partImage>:bottom.<paint>?crop=8;0;16;8"}}
           }
         }
       }
