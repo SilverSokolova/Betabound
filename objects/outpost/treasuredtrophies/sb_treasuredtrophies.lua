@@ -1,4 +1,3 @@
---Silver Sokolova
 local originalInit = init or function() end
 
 function init(); originalInit()
@@ -12,6 +11,14 @@ function init(); originalInit()
     else
       newR[#newR + 1] = r[n]
     end
+  end
+
+  if not sb_storyDisablerInstalled then
+    require("/scripts/sb_assetmissing.lua")
+  end
+
+  if sb_storyDisablerInstalled() then
+    i.filter[#i.filter + 1] = "sb_treasuredtrophies_beamaxe2"
   end
 
   object.setConfigParameter("interactData", i)
