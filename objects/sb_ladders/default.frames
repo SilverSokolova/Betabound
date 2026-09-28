@@ -1,15 +1,23 @@
 {
   "frameGrid": {
     "size": [16, 8],
-    "dimensions": [3, 1],
+    "dimensions": [3, 9],
     "names": [
-      ["top", "middle", "bottom"]
+      ["top.default", "middle.default", "bottom.default"],
+      ["top.red",     "middle.red",     "bottom.red"],
+      ["top.blue",    "middle.blue",    "bottom.blue"],
+      ["top.green",   "middle.green",   "bottom.green"],
+      ["top.yellow",  "middle.yellow",  "bottom.yellow"],
+      ["top.orange",  "middle.orange",  "bottom.orange"],
+      ["top.magenta", "middle.magenta", "bottom.magenta"],
+      ["top.black",   "middle.black",   "bottom.black"],
+      ["top.white",   "middle.white",   "bottom.white"]
     ]
   },
 
   "aliases": {
-    "topdefault": "top",
-    "middledefault": "middle",
-    "bottomdefault": "bottom"
+    "top": "top.default",
+    "middle": "middle.default",
+    "bottom": "bottom.default"
   }
 }

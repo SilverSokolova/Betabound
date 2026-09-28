@@ -1,0 +1,20 @@
+{
+  "materialId" : 6972,
+  "materialName" : "sb_ladder_metamaterial",
+  "shortdescription" : "",
+  "health" : 1.5,
+  "category" : "materials",
+  "collisionKind" : "platform",
+  "foregroundOnly" : true,
+
+  // This could probably be made to use a custom template, cause we just want it invisible, but whatever
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ladder_metamaterial.png", // I tried making this use `/assetmissing.png` and it caused visual artifacting, soooooo...
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1920
+  }
+}
