@@ -99,6 +99,10 @@
         "Carlucci Inventory Mod Is Back 4 GooD !! v2.50", //2053251870 Replaces paneLayout
         "Carlucci Inventory Mod - Visual Update! v2.50 - 225 Inventory size", //2218459596 Replaces paneLayout
       
+      //Bad patches for NPC scripts
+        "Killable Villagers + Space Police", //1103338736 villager, tutorial, merchant
+        "Space Police - Villager Protection", //1104656560 villager, tutorial, merchant
+
       "Starbound++", //1365556048 - Lack of prefixes, some other things (do they warrant loading after them?? bad patches??)
       "FrackinUniverse", //Every bad modding practice ever + so many things on this list (including tech menu breakage) + we add some recipes, holy fucking shit
       "serverDice", //Does not hook CommandProcessor
