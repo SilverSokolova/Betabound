@@ -6,4 +6,5 @@
 ,{"icon":"/items/skyrail/skyrailicon_dioder.png","name":"skyrail_diodeR","shortdescription":"Skyrail Diode (Right)","category":"platform","rarity":"uncommon"}
 ,{"icon":"/items/skyrail/skyrailicon_boost.png","name":"skyrailboost","shortdescription":"Skyrail Booster","category":"platform","rarity":"uncommon"}
 ,{"icon":"/items/skyrail/skyrailicon_break.png","name":"skyrailbreak","shortdescription":"Skyrail Breaker","category":"platform","rarity":"uncommon"}
+,{"icon":"/items/materials/platform.png?multiply=fff9","name":"sb_ladder","shortdescription":"Invisible Platform","category":"platform"}
 ]
