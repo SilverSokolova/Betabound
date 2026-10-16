@@ -5,8 +5,8 @@
     "<t>": "5a"
   },
   "rarity": "rare",
-  "description": "Packs a punch!",
-  "shortdescription": "Red Giant",
+  "description": "The real deal when it comes to delivering justice.",
+  "shortdescription": "Lawmaker",
   "level": 5,
   "itemTags": ["weapon", "ranged", "sniperrifle"],
   "configOverrides": {

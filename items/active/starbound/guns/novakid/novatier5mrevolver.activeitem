@@ -6,8 +6,8 @@
     "<t>": "5m"
   },
   "rarity": "rare",
-  "description": "A respectable weapon with a suspiciously vague past.",
-  "shortdescription": "Lawkeeper",
+  "description": "Everybody's dead, Dave.",
+  "shortdescription": "Red Dwarf",
   "muzzleOffset": [1.375, 0.2],
   "level": 5,
   "configOverrides": {
