@@ -5,6 +5,7 @@
 ,{"path":"/items/active/starbound/weapons/broadswords/glitch/","name":"sb_glitchstarter","shortdescription":"Broken Runewrath Sword","category":"sb_broadswords","icon":"starter.png","rarity":"legendary"}
 ,{"path":"/items/active/starbound/weapons/broadswords/human/","name":"sb_humanstarter","shortdescription":"Broken Hero Sword","category":"sb_broadswords","icon":"starter.png","rarity":"legendary"}
 ,{"path":"/items/active/starbound/weapons/broadswords/hylotl/","name":"sb_hylotlstarter","shortdescription":"Broken Wave Sword","category":"sb_broadswords","icon":"starter.png","rarity":"legendary"}
+,{"path":"/items/active/starbound/weapons/broadswords/novakid/","name":"sb_novakidstarter","shortdescription":"Longpipe","category":"sb_broadswords","icon":"starter.png","rarity":"legendary"}
 
 ,{"path":"/items/active/starbound/weapons/shortswords/apex/","name":"sb_apextier0shortsword","shortdescription":"Lil Apepoker","category":"sb_shortswords","icon":"t0.png","rarity":"legendary"}
 ,{"path":"/items/active/starbound/weapons/shortswords/avian/","name":"sb_aviantier0shortsword","shortdescription":"The Talon","category":"sb_shortswords","icon":"t0.png","rarity":"legendary"}
@@ -12,6 +13,7 @@
 ,{"path":"/items/active/starbound/weapons/shortswords/glitch/","name":"sb_glitchtier0shortsword","shortdescription":"Beta 0.5","category":"sb_shortswords","icon":"t0.png","rarity":"legendary"}
 ,{"path":"/items/active/starbound/weapons/shortswords/human/","name":"sb_humantier0shortsword","shortdescription":"Blunt Shortsword","category":"sb_shortswords","icon":"t0.png","rarity":"legendary"}
 ,{"path":"/items/active/starbound/weapons/shortswords/hylotl/","name":"sb_hylotltier0shortsword","shortdescription":"Swashbuckler Xtra Lite","category":"sb_shortswords","icon":"t0.png","rarity":"legendary"}
+,{"path":"/items/active/starbound/weapons/shortswords/novakid/","name":"sb_novakidtier0shortsword","shortdescription":"Shortpipe","category":"sb_shortswords","icon":"t0.png","rarity":"legendary"}
 
 ,{"name":"sb_apextier1axe","shortdescription":"Apex Tier 1 Axe","category":"sb_axes","icon":"/items/generic/crafting/ironbar.png"}
 ,{"name":"sb_apextier2axe","shortdescription":"Apex Tier 2 Axe","category":"sb_axes","icon":"/items/generic/crafting/sb_steelbar.png"}
