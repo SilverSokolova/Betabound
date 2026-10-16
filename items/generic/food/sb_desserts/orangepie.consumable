@@ -4,7 +4,7 @@
   "price": 120,
   "category": "preparedFood",
   "inventoryIcon": "orangepie.png",
-  "description": "A pie! What kind is it? Is it an apple pie? No. It's an orange pie! A pie? What kind is it? Is it a banana pie? No-",
+  "description": "Better go down the entire list of every pie in order to check what kind this orange pie is.",
   "shortdescription": "Orange Pie",
   "effects": [[{
         "effect": "maxhealthscalingboostfood",
