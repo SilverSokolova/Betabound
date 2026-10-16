@@ -1,8 +1,9 @@
 {
-  "description": "The best friend for an understaffed sherrif's office.",
+  "description": "",
   "shortdescription": "Rush-Hour",
   "itemName": "sb_novakidtier6mbroadsword",
   "definition": ["colors/t6m", "broadswords/t6m"],
   "itemTags": ["weapon", "melee", "broadsword"],
-  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua"
+  "builder": "/items/buildscripts/starbound/buildunrandweapon.lua",
+  "tooltipKind": "sb_sword"
 }
