@@ -1,0 +1,5 @@
+{
+  "input": ["egg","plantfibre"],
+  "output": "birdsnest",
+  "groups": ["craftingfurniture","decoration","all"]
+}
