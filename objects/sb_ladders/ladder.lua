@@ -11,7 +11,7 @@ function init()
 
   if paintable then
     local tiles = {}
-    for _, tile in pairs(spaces) do table.insert(tiles, {tile, "sb_ladder_metamaterial"}) end
+    for _, tile in pairs(spaces) do table.insert(tiles, {tile, "sb_ladder"}) end
     object.setMaterialSpaces(tiles)
 
     paintData = config.getParameter("sb_paintData", {})

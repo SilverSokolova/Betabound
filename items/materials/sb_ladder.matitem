@@ -1,0 +1,10 @@
+{
+  "itemName": "sb_ladder",
+  "category": "platform",
+  "rarity": "rare",
+  "inventoryIcon": "/interface/x.png",
+  "description": "Invisible platform used for ladder-painting. Time is an evolving flat circle.", //medieval and copper ladders respectively existed and currently exist in the vanilla assets as platforms, whereas Betabound's ladders are objects, which later got this companion platform-material
+  "shortdescription": "Invisible Platform",
+  "tooltipKind": "sb_object",
+  "materialId": 6972
+}
