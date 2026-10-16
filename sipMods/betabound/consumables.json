@@ -49,8 +49,8 @@
 ,{"path":"/items/generic/food/sb_desserts/","name":"sb_poachedavesmingo","shortdescription":"Poached Avesmingo","category":"food","icon":"poachedavesmingo.png"}
 
 
-,{"icon":"/objects/hylotl/smashabledrink1/smashabledrink1icon.png","name":"sb_cordialglass","shortdescription":"Avesmingo Cordial Glass","category":"food","rarity":"uncommon"}
-,{"icon":"/objects/hylotl/smashabledrink3/smashabledrink3icon.png","name":"sb_cordialbottle","shortdescription":"Avesmingo Cordial Bottle","category":"food","rarity":"rare"}
+,{"icon":"/items/generic/food/sb_drinks/cordialglass.png","name":"sb_cordialglass","shortdescription":"Avesmingo Cordial Glass","category":"food","rarity":"uncommon"}
+,{"icon":"/objects/hylotl/smashabledrink1/smashabledrink1icon.png","name":"sb_cordialbottle","shortdescription":"Avesmingo Cordial Bottle","category":"food","rarity":"rare"}
 ,{"path":"/items/generic/food/sb_drinks/","name":"sb_batteryacid","shortdescription":"Battery Acid","category":"food","icon":"batteryacid.png"}
 ,{"path":"/items/generic/food/sb_drinks/","name":"sb_boltedmilk","shortdescription":"Bolted Milk","category":"food","icon":"boltedmilk.png"}
 ,{"path":"/items/generic/food/sb_drinks/","name":"sb_dirtea","shortdescription":"Dirtea","category":"food","icon":"dirtea.png"}
