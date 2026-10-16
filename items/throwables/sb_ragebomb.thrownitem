@@ -6,7 +6,7 @@
   "image": "sb_ragebomb.png",
   "shortdescription": "The Rager",
   "category": "throwableItem",
-  "description": "A bomb for when you feel the need to break things.",
+  "description": "A bomb to help you break things.",
   "price": 110,
   "ammoUsage": 1,
   "edgeTrigger": true,

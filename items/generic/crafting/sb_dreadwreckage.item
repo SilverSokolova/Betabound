@@ -2,10 +2,10 @@
   "itemName": "sb_dreadwreckage",
   "rarity": "Common",
   "price": 10,
-  "tooltipKind": "sb_object",
+  "tooltipKind": "sb_object4",
   "itemTags": ["reagent"],
   "category": "craftingMaterial",
   "inventoryIcon": "sb_dreadwreckage.png",
-  "description": "Recycleable metal from something or other.",
+  "description": "Recycleable metal from something or other. Can be turned into ^green;iron bars^reset; at a ^orange;furnace^reset;.",
   "shortdescription": "Scrap Metal"
 }

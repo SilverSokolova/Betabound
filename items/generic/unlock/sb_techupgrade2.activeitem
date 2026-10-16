@@ -5,9 +5,9 @@
   "tooltipFields": {
     "rarityLabel": "Critical"
   },
-  "tooltipKind": "sb_object4",
+  "tooltipKind": "sb_object4b",
   "shortdescription": "^#ff0;Compounding Upgrade^reset;",
-  "description": "Unlocks the ability to create scintillium, cerulium, and impervium compounds at an ^orange;atomic furnace^reset;.",
+  "description": "Unlocks the ability to create scintillium, cerulium, and impervium compounds at an ^orange;atomic furnace^reset; (upgraded ^orange;primitive furnace^reset;).",
   "category": "upgradeComponent",
   "animation": "sb_techupgrade.animation",
   "inventoryIcon": "sb_techupgrade2.png",

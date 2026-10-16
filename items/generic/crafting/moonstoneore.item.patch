@@ -1,6 +1,6 @@
 [
 [{"op":"test","path":"/description","value":"Moonstone ore, found only on moons and often used for FTL engine construction."},
-{"op":"replace","path":"/description","value":"Moonstone ore, found only on moons and often used to make FTL engine components."}],
+{"op":"replace","path":"/description","value":"Moonstone ore, found only on moons and often used for FTL engine components."}],
 
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
 

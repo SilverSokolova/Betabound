@@ -1,5 +1,11 @@
-[[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+[
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
 [{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":10}],
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
+
 {"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
-[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"brain"}]]
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"brain"}],
+
+[{"op":"test","path":"/description","value":"A waste of brain cells."},
+{"op":"replace","path":"/description","value":"A waste of brain cells. Can be turned into a ^green;superior brain^reset; at an ^orange;iron tool table^reset;."}]
+]

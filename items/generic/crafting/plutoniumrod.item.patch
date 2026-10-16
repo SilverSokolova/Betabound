@@ -33,7 +33,7 @@
     }, {
       "op": "add",
       "path": "/tooltipKind",
-      "value": "sb_object"
+      "value": "sb_object4"
     }
   ],
   [{
@@ -63,7 +63,7 @@
     }, {
       "op": "replace",
       "path": "/description",
-      "value": "It's a plutonium rod. Pretty, extremely radioactive, and a great source of fuel."
+      "value": "Pretty, extremely radioactive, and a great source of fuel. Ore for this material is primarily found on moons."
     }
   ],
   [{

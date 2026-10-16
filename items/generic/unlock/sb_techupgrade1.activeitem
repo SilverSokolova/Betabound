@@ -5,9 +5,9 @@
   "tooltipFields": {
     "rarityLabel": "Critical"
   },
-  "tooltipKind": "sb_object",
+  "tooltipKind": "sb_object4",
   "shortdescription": "^#ff0;Steelworks Upgrade^reset;",
-  "description": "Unlocks the ability to create steel, an alloy made with iron at an ^orange;industrial furnace^reset;.",
+  "description": "Unlocks the ability to create steel, an alloy made with iron at an ^orange;industrial furnace^reset; (upgraded ^orange;primitive furnace^reset;).",
   "category": "upgradeComponent",
   "animation": "sb_techupgrade.animation",
   "inventoryIcon": "sb_techupgrade1.png",

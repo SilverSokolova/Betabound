@@ -46,7 +46,7 @@
     }, {
       "op": "replace",
       "path": "/description",
-      "value": "It's a uranium rod. A good source of fuel."
+      "value": "A good source of fuel. Ore for this material is primarily found on moons."
     }
   ],
   [{

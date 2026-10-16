@@ -1,4 +1,15 @@
 [
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
-[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":60}]
+[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":60}],
+
+[{
+    "op": "test",
+    "path": "/description",
+    "value": "It radiates a pleasant warmth."
+  }, {
+    "op": "replace",
+    "path": "/description",
+    "value": "It radiates a pleasant warmth. Can be turned into ^green;volatile powder^reset; at a ^orange;furnace^reset;."
+  }
+]
 ]
