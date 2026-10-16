@@ -46,18 +46,9 @@
     }
   ], [{
       "op": "add",
-      "path": "/collectables/sb_poptop",
-      "value": {
-        "order": 66,
-        "monsterType": "sb_poptop",
-        "icon": "/monsters/walkers/sb_poptop/poptop.png:idle.1"
-      }
-    }
-  ], [{
-      "op": "add",
       "path": "/collectables/sb_repairbot",
       "value": {
-        "order": 67,
+        "order": 66,
         "monsterType": "sb_repairbot",
         "icon": "/monsters/dungeon/sb_repairbot/repairbot.png:portrait"
       }
@@ -66,7 +57,7 @@
       "op": "add",
       "path": "/collectables/sb_serpentdroid",
       "value": {
-        "order": 68,
+        "order": 67,
         "monsterType": "sb_serpentdroid",
         "icon": "/monsters/dungeon/sb_serpentdroid/portrait.png"
       }
@@ -79,7 +70,7 @@
       "op": "add",
       "path": "/collectables/sewerfly",
       "value": {
-        "order": 69,
+        "order": 68,
         "monsterType": "sewerfly",
         "icon": "/monsters/dungeon/sewerfly/sb_portrait.png"
       }
@@ -92,7 +83,7 @@
       "op": "add",
       "path": "/collectables/glitchspider",
       "value": {
-        "order": 70,
+        "order": 69,
         "monsterType": "glitchspider",
         "icon": "/monsters/dungeon/glitchspider/glitchspider.png:idle.1"
       }
@@ -105,7 +96,7 @@
       "op": "add",
       "path": "/collectables/swarpion",
       "value": {
-        "order": 71,
+        "order": 70,
         "monsterType": "swarpion",
         "icon": "/monsters/dungeon/swarpion/swarpion.png:idle.1"
       }
@@ -118,7 +109,7 @@
       "op": "add",
       "path": "/collectables/bonebird",
       "value": {
-        "order": 72,
+        "order": 71,
         "monsterType": "bonebird",
         "icon": "/monsters/generated/flying/bonebird/sb_portrait.png"
       }
