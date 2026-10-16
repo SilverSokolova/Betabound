@@ -1,4 +1,3 @@
---TODO: Why not move this to the `/scripts/objects/` folder?
 require "/scripts/sb_assetmissing.lua"
 function init()
   local modded = false

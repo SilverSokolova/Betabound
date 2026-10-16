@@ -1,5 +1,5 @@
 [
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
-[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":2}],
-[{"op":"test","path":"/description","value":"Sulphur, a surprisingly useful compound."},{"op":"replace","path":"/description","value":"Sulphur, a surprisingly useful element."}]
+[{"op":"test","path":"/description","value":"Sulphur, a surprisingly useful compound."},{"op":"replace","path":"/description","value":"Sulphur, a surprisingly useful element."}], //Already in Patch Project
+[{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":2}]
 ]

@@ -3,5 +3,16 @@
 
 [{"op":"test","path":"/builder"},{"op":"test","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua","inverse":true},{"op":"move","from":"/builder","path":"/sb_builder"}],[{"op":"add","path":"/builder","value":"/items/buildscripts/starbound/buildvweapon.lua"}],
 
+/*sfx from glad giraffe
+[
+  {"op":"test","path":"/animationCustom/sounds/release/0","value":"/sfx/gun/bow_loose.ogg"},
+  {"op":"test","path":"/animationCustom/sounds/release/1","inverse":true},
+  {"op":"test","path":"/animationCustom/sounds/perfectRelease/0","value":"/sfx/gun/bow_loose_perfect.ogg"},
+  {"op":"test","path":"/animationCustom/sounds/perfectRelease/1","inverse":true},
+
+  {"op":"replace","path":"/animationCustom/sounds/release/0","value":"/sfx/melee/laser_weapon_swing2.ogg"},
+  {"op":"replace","path":"/animationCustom/sounds/perfectRelease/0","value":"/sfx/melee/laser_weapon_swing1.ogg"}
+],*/
+
 [{"op":"test","path":"/tooltipFields/objectImage","inverse":true},{"op":"add","path":"/sb_animationPartsAsTooltipImage","value":true}]
 ]

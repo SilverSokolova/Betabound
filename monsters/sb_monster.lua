@@ -1,6 +1,6 @@
 local originalInit = init or function() end
 
-function init() originalInit()
+function init(); originalInit()
   --Initial status effects. Temporary innate status effects
   sb_initialStatusEffects = config.getParameter("sb_initialStatusEffects")
   if sb_initialStatusEffects and not status.statusProperty("sb_appliedInitialStatusEffects") then
