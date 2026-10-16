@@ -5,8 +5,8 @@
   "price": 640,
   "rarity": "rare",
   "fixedRarity": false,
-  "category": "uniqueWeapon",
-  "itemTags": ["weapon", "ranged", "pistol", "unique"],
+  "category": "pistol",
+  "itemTags": ["weapon", "ranged", "pistol"],
   "tooltipKind": "sb_gun2",
   "tooltipFields": {
     "objectImage": "/items/active/starbound/guns/icechucker.png"
