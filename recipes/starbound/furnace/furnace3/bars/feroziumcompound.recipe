@@ -1,5 +1,5 @@
 {
-  "input": [["refinedferozium",2],"solariumstar"],
+  "input": [["refinedaegisalt",2],"solariumstar"],
   "output": "sb_feroziumcompound",
   "duration": 0.15,
   "groups": ["craftingfurnace3","bars","all"]
