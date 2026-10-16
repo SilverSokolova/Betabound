@@ -1,0 +1,5 @@
+{
+  "input": [["money",70]],
+  "output": "capsulesmall",
+  "groups": ["sb_portable3dprinter","decoration","all"]
+}
