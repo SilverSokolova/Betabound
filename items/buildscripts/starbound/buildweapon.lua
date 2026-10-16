@@ -4,13 +4,14 @@ require "/scripts/versioningutils.lua"
 require "/scripts/staticrandom.lua"
 require "/items/buildscripts/starbound/abilities.lua"
 require "/scripts/sb_assetmissing.lua"
-
+--need to specify which parts are vanilla, which are betabound
 function build(directory, config, parameters, level, seed)
   local configParameter = function(keyName, defaultValue) return parameters[keyName] or config[keyName] or defaultValue end
 
   --we need to transform the item because primaryAbility.projectileType doesn't change when upgrading normally
   --this happens because we randomize the projectile based on the seed instead of using the one from parameters
   --regardless, this is fine
+  --TODO: But vanilla's obey parameters, even the ones with multiple projectile options.
   local newItemName = parameters.sb_newItemName
   if newItemName then
     parameters.sb_newItemName = nil
@@ -34,7 +35,7 @@ function build(directory, config, parameters, level, seed)
 
   if level and not configParameter("fixedLevel", false) then parameters.level = level end
 
-  -- initialize randomization
+  -- initialize randomization (vanilla)
   if seed then
     parameters.seed = seed
   else
@@ -46,43 +47,40 @@ function build(directory, config, parameters, level, seed)
     end
   end
 
-  -- select the generation profile to use
+  -- select the generation profile to use (vanilla)
   local builderConfig = {}
   if config.builderConfig then
     builderConfig = randomFromList(config.builderConfig, seed, "builderConfig")
   end
 
-  -- elemental type
+  -- elemental type (vanilla, swapped)
   if not parameters.elementalType and builderConfig.elementalType then
     parameters.elementalType = randomFromList(builderConfig.elementalType, seed, "elementalType")
   end
   local elementalType = configParameter("elementalType", "physical")
 
-  -- select, load and merge abilities
+  -- select, load and merge abilities (vanilla, swapped, modified)
   setupAbility(config, parameters, "alt", builderConfig, seed, elementalType)
   setupAbility(config, parameters, "primary", builderConfig, seed, elementalType)
 
-  -- elemental config
+  -- elemental config (vanilla)
   if builderConfig.elementalConfig and builderConfig.elementalConfig[elementalType] then
     util.mergeTable(config, builderConfig.elementalConfig[elementalType])
   end
   if config.altAbility and config.altAbility.elementalConfig then
     util.mergeTable(config.altAbility, config.altAbility.elementalConfig[elementalType])
   end
-  if config.altAbility and config.altAbility.shieldHealth then
-    config.altAbility.shieldHealth = config.altAbility.shieldHealth * root.evalFunction("sb_shieldLevelMultiplier", configParameter("level", 1))
-  end
 
-  -- elemental tag
+  -- elemental tag (vanilla)
   replacePatternInData(config, nil, "<elementalType>", elementalType)
   replacePatternInData(config, nil, "<elementalName>", elementalType:gsub("^%l", string.upper))
 
-  -- name
+  -- name (vanilla)
   if not parameters.shortdescription and builderConfig.nameGenerator then
     parameters.shortdescription = root.generateName(util.absolutePath(directory, builderConfig.nameGenerator), seed)
   end
 
-  -- merge damage properties
+  -- merge damage properties (vanilla)
   if builderConfig.damageConfig then
     util.mergeTable(config.damageConfig or {}, builderConfig.damageConfig)
   end
@@ -100,13 +98,23 @@ function build(directory, config, parameters, level, seed)
   config.primaryAbility.fireTime = scaleConfig(parameters.primaryAbility.fireTimeFactor, config.primaryAbility.fireTime)
   config.primaryAbility.baseDps = scaleConfig(parameters.primaryAbility.baseDpsFactor, config.primaryAbility.baseDps)
   config.primaryAbility.energyUsage = scaleConfig(parameters.primaryAbility.energyUsageFactor, config.primaryAbility.energyUsage) or 0
-  if config.primaryAbility.energyUsage ~= 0 then
-    config.primaryAbility.energyUsage = config.primaryAbility.energyUsage + config.damageLevelMultiplier
-  end
   if type(config.primaryAbility.inaccuracy) == "table" then
-    config.primaryAbility.inaccuracy = math.random(config.primaryAbility.inaccuracy[1], config.primaryAbility.inaccuracy[2])/150 or 0
+    config.primaryAbility.inaccuracy = math.random(config.primaryAbility.inaccuracy[1], config.primaryAbility.inaccuracy[2]) / 100
   end
-
+ --remove stance durations if needed
+  local primary = config.primaryAbility
+  if primary and primary.class == "GunFire" then
+    if primary.stances and primary.stances.cooldown and primary.stances.cooldown.duration then
+      local fireTime = parameters.primaryAbility.fireTime or config.primaryAbility.fireTime or 1.0
+      if primary.stances.cooldown.duration > fireTime then
+        primary.stances.cooldown.duration = fireTime
+        if config.primaryAbility.energyUsage then
+          config.shortdescription = "UZI LINE2"
+        end
+      end
+    end
+  end
+  
   -- preprocess melee primary attack config
   if not config.primaryAbility.projectileParameters then
     if config.primaryAbility.damageConfig and config.primaryAbility.damageConfig.knockbackRange then
@@ -132,33 +140,12 @@ function build(directory, config, parameters, level, seed)
     config.primaryAbility.burstCount = randomIntInRange(config.primaryAbility.burstCount, seed, "burstCount") or 1
     config.primaryAbility.burstTime = randomInRange(config.primaryAbility.burstTime, seed, "burstTime")
 
-    --nerf for shotguns
-    if config.primaryAbility.projectileCount > 1 then
-      if config.primaryAbility.energyUsage > 0 then
-        config.primaryAbility.energyUsage = config.primaryAbility.energyUsage+(config.primaryAbility.projectileCount*1.4)
-      end
-    end
-
     --various ranges
     if config.primaryAbility.projectileParameters.knockbackRange then
       config.primaryAbility.projectileParameters.knockback = scaleConfig(parameters.primaryAbility.fireTimeFactor, config.primaryAbility.projectileParameters.knockbackRange)
     end
     if config.primaryAbility.projectileParameters.speedRange then
       config.primaryAbility.projectileParameters.speed = randomIntInRange(config.primaryAbility.projectileParameters.speedRange, seed, "speed")
-    end
-  end
-
-  --remove stance durations if needed
-  local primary = config.primaryAbility
-  if primary and primary.class == "GunFire" then
-    if primary.stances and primary.stances.cooldown and primary.stances.cooldown.duration then
-      local fireTime = parameters.primaryAbility.fireTime or config.primaryAbility.fireTime or 1.0
-      if primary.stances.cooldown.duration > fireTime then
-        primary.stances.cooldown.duration = fireTime
-        if config.primaryAbility.energyUsage then
-          config.primaryAbility.energyUsage = config.primaryAbility.energyUsage * 3
-        end
-      end
     end
   end
 
@@ -287,8 +274,9 @@ function build(directory, config, parameters, level, seed)
   if configParameter("sb_dyeable") then
     config.tooltipFields.dyeLabel = root.assetJson("/betabound.config:dyeLabel")
   end
-  config.tooltipFields.sb_levelLabel = "^shadow;Lvl "..string.format("%.0f",configParameter("level", 1))
-  config.tooltipFields.sb_level2Label = "Lvl "..string.format("%.0f",configParameter("level", 1))
+  local roundedLevelString = string.format("%.0f", configParameter("level", 1))
+  config.tooltipFields.sb_levelLabel = "^shadow;Lvl ".. roundedLevelString
+  config.tooltipFields.sb_level2Label = "Lvl ".. roundedLevelString
   local fireTime = parameters.primaryAbility.fireTime or config.primaryAbility.fireTime or 1.0
   local baseDps = parameters.primaryAbility.baseDps or config.primaryAbility.baseDps or 0
   local energyUsage = parameters.primaryAbility.energyUsage or config.primaryAbility.energyUsage or 0
@@ -360,12 +348,12 @@ end
 
 function ensureNestedTable(data, tables)
   local current = data
-  
+
   for i = 1, #tables do
     local key = tables[i]
     current[key] = current[key] or {}
     current = current[key]
   end
-  
+
   return data
 end

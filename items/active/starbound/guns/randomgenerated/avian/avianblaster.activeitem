@@ -1,16 +1,17 @@
+//STATS: Pistol > M. Pistol > Uzi. Based on rare machine pistol
 {
   "itemName": "sb_avianblaster",
   "maxStack": 1,
   "rarity": "rare",
-  "price": 620,
+  "price": 720,
   "baseOffset": [-0.25, 0.25],
   "muzzleOffset": [0, 0.25],
-  "tooltipKind": "sb_gun",
+  "tooltipKind": "sb_gun2",
   "category": "machinePistol",
   "twoHanded": false,
   "level": 1,
   "paletteSwaps": "",
-  "description": "",
+  "description": "Fires an inaccurate spread of fast bullets.",
   "shortdescription": "Avian Blaster",
   "tooltipFields": {
     "subtitle": "Avian Blaster"
@@ -34,11 +35,16 @@
     "projectileType": ["plasmabullet", "greenplasmabullet", "yellowplasmabullet"],
 
     "fireTime": [0.07, 0.11],
-    "baseDps": [7.5, 8],
-    "energyUsage": [11, 13],
-    "inaccuracy": [1, 3],
+    "baseDps": [8.25, 8.75],
+    "energyUsage": [21.5, 22],
+    "inaccuracy": 0.06,
+
+    "damageConfig": {
+      "timeout": 0.05
+    },
+
     "projectileParameters": {
-      "knockbackRange": [0, 0.1]
+      "knockbackRange": [0, 2]
     },
     "stances": {
       "idle": {
@@ -50,8 +56,7 @@
       },
       "fire": {},
       "cooldown": {
-        "duration": 0.025,
-        "recoil": true,
+        "duration": 0.01,
         "armRotation": 2,
         "weaponRotation": 2
       }

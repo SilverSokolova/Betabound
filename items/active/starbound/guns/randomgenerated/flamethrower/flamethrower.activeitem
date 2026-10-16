@@ -28,11 +28,11 @@
       "knockback": 0,
       "speedRange": [20, 30]
     },
-    "fireTime": [0.03, 0.09],
-    "baseDps": [6.5, 8.5],
+    "fireTime": [0.055, 0.075],
+    "baseDps": [9, 11],
     "projectileOffset": [0, 0.5],
-    "energyUsage": [68, 98],
-    "inaccuracy": 0.08,
+    "energyUsage": [29, 31],
+    "inaccuracy": [4, 6],
     "stances": {
       "idle": {},
       "fire": {},
@@ -48,7 +48,7 @@
     "baseDamage": 2,
     "projectileCount": 6,
     "fireTime": 0.06,
-    "energyUsage": 200,
+    "energyUsage": 180,
     "projectileParameters": {
       "knockback": 2
     },

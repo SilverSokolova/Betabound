@@ -1,3 +1,4 @@
+//Stats based on uncommonassaultrifle
 {
   "itemName": "sb_pulserifle",
   "maxStack": 1,
@@ -47,10 +48,25 @@
       "knockbackRange": [4, 8]
     },
     "fireType": "auto",
-    "fireTime": [0.08, 0.14],
+    "fireTime": [0.11, 0.18],
     "baseDps": [9.5, 10.5],
     "energyUsage": [28.5, 31.5],
-    "inaccuracy": 0.02
+    "inaccuracy": 0.02,
+
+    "stances": {
+      "idle": {},
+      "fire": {
+        "duration": 0
+      },
+      "cooldown": {
+        "duration": 0.11,
+        "armRotation": 3,
+        "weaponRotation": 3,
+
+        "allowRotate": true,
+        "allowFlip": true
+      }
+    }
   },
 
   "builderConfig": [{

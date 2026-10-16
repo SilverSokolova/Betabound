@@ -1,13 +1,14 @@
+//STATS: Pistol > M. Pistol > Uzi. Based on common machine pistol
 {
   "itemName": "sb_uzi",
   "maxStack": 1,
   "rarity": "common",
   "baseOffset": [-0.85, 0.12],
   "muzzleOffset": [0.125, 0.25],
-  "price": 620,
+  "price": 600,
   "paletteSwaps": "",
-  "tooltipKind": "sb_gun",
-  "description": "",
+  "tooltipKind": "sb_gun2",
+  "description": "Fires an inaccurate spread of fast bullets.",
   "shortdescription": "Uzi",
   "category": "machinePistol",
   "twoHanded": false,
@@ -44,25 +45,21 @@
     "fireTime": [0.07, 0.11],
     "baseDps": [5.5, 6],
     "energyUsage": [21.5, 22],
-    "inaccuracy": [2, 7],
+    "inaccuracy": 0.06,
 
     "damageConfig": {
       "timeout": 0.05
     },
 
     "projectileParameters": {
-      "knockbackRange": [1, 2]
+      "knockbackRange": [0, 2]
     },
     "stances": {
       "idle": {
         "armRotation": 0,
         "weaponRotation": 0
       },
-      "fire": {
-        "duration": 0.01,
-        "armRotation": 2,
-        "weaponRotation": 2
-      },
+      "fire": {},
       "cooldown": {
         "duration": 0.01,
         "armRotation": 2,

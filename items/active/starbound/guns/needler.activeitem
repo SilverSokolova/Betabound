@@ -4,21 +4,23 @@
   "rarity": "rare",
   "muzzleOffset": [2, 0.125],
   "baseOffset": [-1.25, 0.375],
-  "price": 620,
+  "price": 1080,
   "tooltipKind": "sb_gun2",
   "description": "Fires a rapid barrage of thorns.",
   "shortdescription": "Thorny Needler",
+  "tooltipFields": {
+    "subtitle": "Thorny Needler"
+  },
   "category": "assaultRifle",
   "twoHanded": true,
   "sb_waBan": true,
   "sb_disallowAbilityMods": true,
   "level": 1,
   "itemTags": ["weapon", "ranged", "assaultrifle"],
-  "tooltipFields": {
-    "subtitle": "Thorny Needler"
-  },
+
   "scripts": ["/items/active/weapons/ranged/gun.lua"],
   "animation": "/items/active/weapons/ranged/gun.animation",
+
   "inventoryIcon": "needler.png",
   "animationParts": {
     "muzzleFlash": "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.png",
@@ -51,9 +53,9 @@
       "speed": 70,
       "power": 5
     },
-    "fireTime": [0.08, 0.16],
+    "fireTime": [0.11, 0.18],
     "fireType": "auto",
-    "baseDps": [8.25, 12.75],
+    "baseDps": [9.5, 10.5],
     "energyUsage": [28.5, 31.5],
     "inaccuracy": 0.025,
     "stances": {

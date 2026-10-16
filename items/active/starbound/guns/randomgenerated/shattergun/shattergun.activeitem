@@ -10,7 +10,7 @@
     "subtitle": "Shattergun"
   },
   "twoHanded": true,
-  "price": 620,
+  "price": 990,
   "paletteSwaps": "",
   "level": 1,
   "description": "",
@@ -45,7 +45,7 @@
     "fireTime": [0.4, 1.4],
     "projectileCount": [5, 10],
     "baseDps": [20.5, 23.5],
-    "energyUsage": [22.5, 25.5],
+    "energyUsage": [28.5, 31.5],
     "inaccuracy": 0.75,
     "projectileParameters": {
       "knockbackRange": [20, 30]

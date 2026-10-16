@@ -55,9 +55,6 @@ function build(directory, config, parameters, level, seed)
   if config.altAbility and config.altAbility.elementalConfig then
     util.mergeTable(config.altAbility, config.altAbility.elementalConfig[elementalType])
   end
-  if config.altAbility and config.altAbility.shieldHealth then
-    config.altAbility.shieldHealth = config.altAbility.shieldHealth * root.evalFunction("sb_shieldLevelMultiplier", configParameter("level", 1))
-  end
 
   -- calculate damage level multiplier
   config.damageLevelMultiplier = root.evalFunction("weaponDamageLevelMultiplier", configParameter("level", 1))
@@ -129,10 +126,13 @@ function build(directory, config, parameters, level, seed)
   end
 
   if not configParameter("fixedRarity") then
-    local rarities = {"common","uncommon","rare","legendary","essential"}
-    config.rarity = rarities[math.max(configParameter("minimumRarity",1),root.evalFunction("sb_rarity", math.floor(configParameter("level", 1))))] or config.rarity or "legendary"
+    local rarities = {"common", "uncommon", "rare", "legendary", "essential"}
+    config.rarity = rarities[math.max(configParameter("minimumRarity", 1), root.evalFunction("sb_rarity", math.floor(configParameter("level", 1))))] or config.rarity or "legendary"
   end
-  if config.rarity == "essential" then config.tooltipFields.rarityLabel = "Epic" end
+
+  if config.rarity == "essential" then
+    config.tooltipFields.rarityLabel = "Epic" --TODO: translateable
+  end
 
   config.price = (config.price or 0) * root.evalFunction("itemLevelPriceMultiplier", configParameter("level", 1))
 

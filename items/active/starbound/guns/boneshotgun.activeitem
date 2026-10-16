@@ -9,7 +9,7 @@
   "twoHanded": true,
   "sb_waBan": true,
   "sb_disallowAbilityMods": true,
-  "price": 620,
+  "price": 1080,
   "paletteSwaps": "",
   "level": 1,
   "description": "An entirely organic firearm.",
@@ -49,13 +49,13 @@
   "primaryAbilityType": "sb_gun2",
   "primaryAbility": {
     "projectileType": ["bonethorn", "throwingbone"],
-    "fireTime": [0.4, 1.4],
-    "baseDps": [8, 9],
-    "projectileCount": [3, 8],
-    "energyUsage": [22.5, 25.5],
-    "inaccuracy": [5, 15],
+    "fireTime": [0.4, 1.25],
+    "baseDps": [9, 10.5],
+    "projectileCount": [3, 6], //2 down from rareshotgun
+    "energyUsage": [28.5, 31.5],
+    "inaccuracy": [12, 14],
     "projectileParameters": {
-      "knockbackRange": [10, 30]
+      "knockbackRange": [10, 40]
     }
   },
   "altAbilityType": "sb_burst",
@@ -63,12 +63,12 @@
     "name": "Bloody Vomit",
     "projectileType": "bloodvomit",
     "burstCount": 3,
-    "burstSpeed" : 0.066,
+    "burstSpeed": 0.066,
     "energyUsage": 9,
     "usePrimaryFireSound": false,
     "projectileParameters": {
       "speed": 30,
-      "power": 8
+      "power": 5
     }
   },
 

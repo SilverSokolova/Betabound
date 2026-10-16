@@ -36,7 +36,7 @@
     "projectileType": ["lightning2", "electro", "teslaboltsmall", "teslabolt", "electriccrutterlightning"],
     "projectileParameters": {
       "statusEffects": ["electrified"],
-      "knockbackRange": [0, 0],
+      "knockback": 0,
       "bounces": 4
     },
     "fireTime": [0.03, 0.09],

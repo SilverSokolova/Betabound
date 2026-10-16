@@ -1,15 +1,16 @@
+//Stats based on commongrenadelauncher
 {
   "itemName": "sb_florangrenadelauncher",
   "maxStack": 1,
   "rarity": "common",
   "muzzleOffset": [0, 0.25],
   "baseOffset": [-0.375, 0.375],
-  "tooltipKind": "sb_gun",
+  "tooltipKind": "sb_gun2",
   "category": "grenadeLauncher",
   "twoHanded": true,
-  "price": 620,
+  "price": 880,
   "level": 1,
-  "description": "",
+  "description": "For when your grenades need some distance.",
   "shortdescription": "Toxic Launcher",
   "itemTags": ["weapon", "ranged", "grenadelauncher"],
   "tooltipFields": {
@@ -43,19 +44,18 @@
   "primaryAbilityType": "sb_gun2",
   "primaryAbility": {
     "projectileType": ["acidgrenade"],
-    "fireTime": [0.5, 2],
-    "baseDps": [5, 6.5],
-    "energyUsage": [22.5, 25.5],
-    "inaccuracy": 0,
-    "projectileParameters": {
-      "knockbackRange": [10, 30]
-    }
+    "fireTime": [1, 1.5],
+    "baseDps": [6, 6.5],
+    "energyUsage": [24, 26],
+    "inaccuracy": 0
   },
 
   "altAbility": {
     "name": "Poison Spray",
-    "scripts": ["/items/active/weapons/ranged/gunfire.lua"],
-    "class": "GunFire",
+    "scripts": ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class": "AltFireAttack",
+    "useParticleEmitter": false,
+    "usePrimaryFireSound": true,
     "stances": {
       "idle": {
         "armRotation": 0,
@@ -67,11 +67,11 @@
       },
       "fire": {},
       "cooldown": {
-        "duration": 0.11,
-        "recoil": true,
+        "duration": 0.4,
         "armRotation": 0,
         "weaponRotation": 0,
         "twoHanded": true,
+        "recoil": true,
 
         "allowRotate": true,
         "allowFlip": true
@@ -80,8 +80,11 @@
     "projectileCount": 4,
     "fireTime": 1.5,
     "baseDps": 7.5,
-    "energyUsage": 82,
+    "energyUsage": 25,
     "inaccuracy": 0.13,
+    "projectileParameters": {
+      "knockback": 0
+    },
     "fireType": "auto",
     "projectileType": "poisonthrower"
   },
