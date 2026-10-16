@@ -40,6 +40,11 @@
     "ancientlight",
     "sb_ancientbigchest",
     "ancientlightround",
-    "ancientpressureplate"
+    "ancientpressureplate",
+    "ancientpot1",
+    "ancientpot2",
+    "ancientpot3",
+    "ancientpot4",
+    "ancientpot5"
   ]
 }

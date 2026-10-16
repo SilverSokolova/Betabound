@@ -1,0 +1,5 @@
+{
+  "input": [["ancientblock",3]],
+  "output": "ancientpot5",
+  "groups": ["craftingfurniture2","decoration","all"]
+}
