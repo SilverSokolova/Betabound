@@ -8,6 +8,8 @@ Credits
       Reefpod dishes give swim boost
     * [Apple/LittleVulpine](https://steamcommunity.com/id/LittleVulpine/myworkshopfiles/):<br/>
       Master Manipulator highlight pulse effect
+    * [Debug](https://steamcommunity.com/profiles/76561199274763581/myworkshopfiles/):<br/>
+      Paintable ladders, improved ladder physics
       
   - Music
     * [jss2a98aj](https://steamcommunity.com/sharedfiles/filedetails/?id=1543219534):<br/>
@@ -55,7 +57,26 @@ Credits
       Racial shortsword/hammer sprites
       Glitch large & small mace sprites
       Heatstick weapon sprite
+      Jerrycan sprites
+      Scintillium compound sprite
+      
+  - Writing
+    * Shroome<br/>
+      Several racial Novakid melee weapon names and descriptions
+      Human, Floran, Glitch, and Avian jerrycan descriptions
       
   - Level Design
     * [Rhopunzel](https://store.steampowered.com/app/1363900/Farworld_Pioneers/):<br/>
       Original wrecked starship & USCM bunker designs
+
+  - Other
+    * [Silver Sokolova](https://steamcommunity.com/id/SilverSokolova/myworkshopfiles/):<br/>
+      Betabound creator and developer
+      Too many things to list. Contributions to programming, artwork, writing, level design, and more
+    * [Chucklefish](https://chucklefish.org/):<br>/
+      Starbound assets
+      Starbound beta assets
+      Starbound developer assets
+    * Mystery Starbound Source Code Provider Person:<br>/
+      Technical help
+      Starbound developer assets
