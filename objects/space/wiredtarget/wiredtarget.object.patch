@@ -1,5 +1,6 @@
 [
 [{"op":"test","path":"/price","value":0},{"op":"replace","path":"/price","value":80}],
 [{"op":"test","path":"/description","value":"This practice target outputs a wire signal until broken."},{"op":"replace","path":"/description","value":"This practice target outputs a wire signal until broken.\n^red;Destroyed when broken.^reset;"}],
-[{"op":"test","path":"/printable","value":false},{"op":"replace","path":"/printable","value":true}]
+[{"op":"test","path":"/printable","value":false},{"op":"replace","path":"/printable","value":true}],
+[{"op":"test","path":"/category","value":"other"},{"op":"replace","path":"/category","value":"wire"}]
 ]

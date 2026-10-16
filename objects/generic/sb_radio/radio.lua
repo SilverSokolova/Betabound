@@ -2,29 +2,17 @@
 function init()
   storage.radio = storage.radio or config.getParameter("radioData")
   storage.knownPlayers = {}
-
-  if storage.radio[1] then
-    storage.radio = {
-      song = type(storage.radio[1]) == "string" and storage.radio[1] or storage.radio[1][1],
-      range = storage.radio[2],
-      active = false
-    }
-  end
-
   entityPosition = entity.position()
+  interactAction = config.getParameter("interactAction")
+
   interfaceData = root.assetJson(config.getParameter("interactData"))
   interfaceData.radioType = "stationary"
   interfaceData.id = entity.id()
-  interactAction = config.getParameter("interactAction")
 
   message.setHandler("sb_radio:update", function(_, _, data)
     updateRadio(data)
   end)
-
-  processWireInteraction()
-  if storage.radio.active == false then
-    disableRadio()
-  end
+  animator.setParticleEmitterActive("music", storage.radio.active)
 end
 
 function onInteraction()
@@ -33,21 +21,27 @@ function onInteraction()
 end
 
 function enableRadio()
+  if storage.radio.active == false then
+    animator.playSound("on")
+  end
+
   script.setUpdateDelta(60)
   object.setInteractive(true)
   storage.radio.active = true
 end
 
-function onNodeConnectionChange() processWireInteraction() end
-function onInputNodeChange() processWireInteraction() end
-function processWireInteraction()
+function onNodeConnectionChange(); processWireInput() end
+function onInputNodeChange(); processWireInput() end
+function processWireInput()
   if object.isInputNodeConnected(0) then
-    if object.getInputNodeLevel(0) or not object.isInputNodeConnected(0) then
+    if object.getInputNodeLevel(0) then
       enableRadio()
     else
       disableRadio()
       object.setInteractive(false)
     end
+  else
+    object.setInteractive(true)
   end
   animator.setParticleEmitterActive("music", storage.radio.active)
 end
@@ -56,6 +50,9 @@ function updateRadio(data)
   storage.radio.range = data.range
 
   if data.song then
+  --if storage.radio.song ~= data.song and storage.radio.active then
+  --  animator.playSound("on")
+  --end
     storage.radio.song = data.song
   end
 
@@ -71,14 +68,15 @@ function updateRadio(data)
 end
 
 function update(dt)
-  local players = world.players()
   world.debugPoly({
     {entityPosition[1] + storage.radio.range, entityPosition[2] + storage.radio.range - 2},
     {entityPosition[1] - storage.radio.range + 2, entityPosition[2] + storage.radio.range - 2},
     {entityPosition[1] - storage.radio.range + 2, entityPosition[2] - storage.radio.range - 2},
     {entityPosition[1] + storage.radio.range, entityPosition[2] - storage.radio.range - 2}
   }, "green")
+
   if storage.radio.active then
+    local players = world.players()
     for _, player in pairs(players) do
       if world.magnitude(entityPosition, world.entityPosition(player)) < storage.radio.range then
         world.sendEntityMessage(player, "playAltMusic", {storage.radio.song}, 1)
@@ -97,6 +95,10 @@ function uninit()
 end
 
 function disableRadio()
+  if storage.radio.active == true then
+    animator.playSound("off")
+  end
+
   storage.radio.active = false
   stopMusic()
 end

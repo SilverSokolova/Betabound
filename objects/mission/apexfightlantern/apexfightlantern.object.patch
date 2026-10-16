@@ -1,3 +1,4 @@
 [
-[{"op":"test","path":"/printable","value":false},{"op":"replace","path":"/printable","value":true}]
+[{"op":"test","path":"/printable","value":false},{"op":"replace","path":"/printable","value":true}],
+[{"op":"test","path":"/shortdescription","value":"Apex Lantern"},{"op":"replace","path":"/shortdescription","value":"Hi-Tech Lantern"}]
 ]
