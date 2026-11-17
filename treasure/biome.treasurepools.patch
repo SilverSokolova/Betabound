@@ -491,7 +491,6 @@
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_hawkeyes"}}]
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyesword"}}]
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyesword-recipe"}}]
-,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_hawkeyes"}}]
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyeballhead"}}]
 ,[{"op":"add","path":"/eyeTreasure/0/1/pool/-","value":{"weight":0.3,"item":"sb_eyeballchest"}}]
 
