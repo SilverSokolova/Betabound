@@ -29,6 +29,14 @@ function init()
     animator.setPartTag("ladderL", "partImage", animationParts.ladder)
     animator.setPartTag("ladderR", "partImage", animationParts.ladder)
   end
+
+  message.setHandler("sb.ladderChainBreak", function(_, master, depth)
+    if master then
+      die = nil -- To prevent a new chain from starting
+      object.smash()
+      chainBreak(depth)
+    end  
+  end)
 end
 
 function update(dt)
@@ -75,4 +83,17 @@ function runLength()
 
   object.setConfigParameter("length", nil)
   length = nil
+end
+
+function chainBreak(depth)
+  if depth < 16 then
+    local up = world.objectAt({pos[1], pos[2] + 1})
+    if up and (world.entityName(up) == ladderName) then
+      world.sendEntityMessage(up, "sb.ladderChainBreak", depth + 1)
+    end
+  end
+end
+
+function die()
+  chainBreak(0)
 end
