@@ -1,4 +1,5 @@
 [
+[{"op":"test","path":"/printable","inverse":true},{"op":"add","path":"/printable","value":false}],
 [{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
 [{"op":"test","path":"/category","inverse":true},{"op":"add","path":"/category","value":"furniture"}]
 ]

@@ -1,5 +1,6 @@
 {
   "objectName": "sb_woodenlocker",
+  "colonyTags": ["storage"],
   "rarity": "Common",
   "objectType": "container",
   "description": "An item locker built from wood.",
@@ -8,6 +9,7 @@
   "category": "storage",
   "price": 35,
   "tooltipKind": "sb_container",
+  "printable": false,
 
   "builder": "/items/buildscripts/starbound/buildcontainer.lua",
   "scripts": ["/scripts/objects/sb_container.lua"],

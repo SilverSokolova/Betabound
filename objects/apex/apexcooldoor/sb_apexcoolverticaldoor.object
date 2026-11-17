@@ -8,6 +8,7 @@
   "description": "This hatch is made of some sort of bulletproof material.",
   "shortdescription": "Security Hatch",
   "race": "apex",
+  "printable": false,
 
   "apexDescription": "This door looks strong enough to keep anything out... or everyone in.",
   "avianDescription": "A strong hatch. Not even the breeze could slip through.",

@@ -1,4 +1,4 @@
 [
-[{"op":"test","path":"/rarity","value":"Common"},
-{"op":"replace","path":"/rarity","value":"Uncommon"}]
+[{"op":"test","path":"/printable","inverse":true},{"op":"add","path":"/printable","value":false}],
+[{"op":"test","path":"/rarity","value":"Common"},{"op":"replace","path":"/rarity","value":"Uncommon"}]
 ]

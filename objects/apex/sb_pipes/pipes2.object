@@ -4,7 +4,7 @@
   "category": "decorative",
   "price": 40,
   "tooltipKind": "sb_object",
-
+  "printable": false,
   "description": "Metal pipes.",
   "shortdescription": "Short Split Pipe",
   "race": "apex",
