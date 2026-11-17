@@ -2,6 +2,6 @@
 [{"op":"test","path":"/price","inverse":true},{"op":"add","path":"/price","value":0}],
 [{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
 
-[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"coalore"}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"plantlog"}],
 [{"op":"replace","path":"/price","value":2}]
 ]
