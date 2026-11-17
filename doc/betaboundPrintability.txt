@@ -1,0 +1,4 @@
+If an item can be crafted, it should not be printable. The exceptions are:
+  * If the item is "crafted" in a technical sense, rather than an in-universe sense (ie printing an item via the Portable Pixel Printer, and exchanging items at Treasured Trophies, are recipes to the game, while to the player, they are something else).
+  * It is a racial ship door/hatch, as these are annoying to get, would cause inconsistencies with modded races, and Betabound adds a way to scan these items without other characters.
+  * The item's only recipes are a 'conversion' recipe. Note that vanilla has none; the conversion recipes for the vanilla Foundry Logic Gate objects are from the Macrochips mod.
