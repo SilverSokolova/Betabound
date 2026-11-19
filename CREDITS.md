@@ -68,6 +68,10 @@ Credits
   - Level Design
     * [Rhopunzel](https://store.steampowered.com/app/1363900/Farworld_Pioneers/):<br/>
       Original wrecked starship & USCM bunker designs
+      
+  - Bug Fixes
+    * emmypos<br/>
+      Pump world wrap boundary fix
 
   - Other
     * [Silver Sokolova](https://steamcommunity.com/id/SilverSokolova/myworkshopfiles/):<br/>
