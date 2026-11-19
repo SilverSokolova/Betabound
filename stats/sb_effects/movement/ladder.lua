@@ -1,26 +1,16 @@
-require "/scripts/vec2.lua"
-
 function init()
   effect.addStatModifierGroup({{stat = "fallDamageMultiplier", effectiveMultiplier = 0}})
   world.sendEntityMessage(entity.id(), "queueRadioMessage", "sb_pickupladder")
+
+  controlParameters = config.getParameter("controlParameters", {})
+  airControlParameters = config.getParameter("airControlParameters", {})
 end
 
 function update()
   if not mcontroller.onGround() then
-    mcontroller.controlParameters({airFriction = 6})
+    mcontroller.controlParameters(airControlParameters)
   end
-  mcontroller.controlParameters({
-    airForce = 100,
-    airJumpProfile = {
-      jumpSpeed = 20,
-      jumpHoldTime = 0.01,
-      reJumpDelay = 0.01,
-      jumpInitialPercentage = 0.05,
-      jumpControlForce = 100000,
-      multiJump = true,
-      autoJump = true,
-    }
-  })
+  mcontroller.controlParameters(controlParameters)
 end
 
 function uninit()

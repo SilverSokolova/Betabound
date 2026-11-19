@@ -3,5 +3,23 @@
   "defaultDuration": 0.3,
   "scripts": ["ladder.lua"],
   "label": "Safe Fall",
-  "icon": "/interface/statuses/nofalldamage.png"
+  "icon": "/interface/statuses/nofalldamage.png",
+
+  "effectConfig": {
+    "controlParameters": {
+      "airForce": 100,
+      "airJumpProfile": {
+        "jumpSpeed": 20,
+        "jumpHoldTime": 0.01,
+        "reJumpDelay": 0.01,
+        "jumpInitialPercentage": 0.05,
+        "jumpControlForce": 100000,
+        "multiJump": true,
+        "autoJump": true
+      }
+    },
+    "airControlParameters": { //Merged with non-air control parameters
+      "airFriction": 6
+    }
+  }
 }
