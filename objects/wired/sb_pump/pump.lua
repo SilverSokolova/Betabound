@@ -2,8 +2,8 @@ require "/scripts/vec2.lua"
 
 function init()
   local pos = entity.position()
-  inputPosition = vec2.add(vec2.add(config.getParameter("inputPosition"), pos), {0.5, 0.5})
-  outputPosition = vec2.add(vec2.add(config.getParameter("outputPosition"), pos), {0.5, 0.5})
+  inputPosition = world.xwrap(vec2.add(vec2.add(config.getParameter("inputPosition"), pos), {0.5, 0.5}))
+  outputPosition = world.xwrap(vec2.add(vec2.add(config.getParameter("outputPosition"), pos), {0.5, 0.5}))
 
   if object.direction() < 0 then
     inputPosition, outputPosition = outputPosition, inputPosition
