@@ -1,6 +1,10 @@
 [
+//TODO: patch project shortdesc & desc, but keep them here too. there are others in this folder
 [{"op":"test","path":"/inventoryIcon","value":"capsulebigicon.png"},{"op":"replace","path":"/inventoryIcon","value":"smallwindmill.png?border=1;000"}],
 [{"op":"test","path":"/description","value":"A miniature house. Don't knock too hard!"},{"op":"replace","path":"/description","value":"A miniature windmill. Don't knock too hard!"}],
 [{"op":"test","path":"/shortdescription","value":"Tiny House"},{"op":"replace","path":"/shortdescription","value":"Tiny Windmill"}],
-[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}]
+[{"op":"test","path":"/tooltipKind","inverse":true},{"op":"add","path":"/tooltipKind","value":"sb_object"}],
+
+[{"op":"test","path":"/scripts","inverse":true},{"op":"add","path":"/scripts","value":[]}],
+[{"op":"add","path":"/scripts/-","value":"/scripts/objects/sb_playerplacedbreakable.lua"}]
 ]
