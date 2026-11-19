@@ -1,0 +1,11 @@
+[{
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "group": "Betabound",
+      "images": [
+        "/interface/sb_modicon.png" //Updates automatically if changed hell yeah
+      ]
+    }
+  }
+]
