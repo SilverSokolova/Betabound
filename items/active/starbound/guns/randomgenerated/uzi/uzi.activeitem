@@ -8,7 +8,7 @@
   "price": 600,
   "paletteSwaps": "",
   "tooltipKind": "sb_gun2",
-  "description": "Fires an inaccurate spread of fast bullets.",
+  "description": "Fires an inaccurate stream of fast bullets.",
   "shortdescription": "Uzi",
   "category": "machinePistol",
   "twoHanded": false,
