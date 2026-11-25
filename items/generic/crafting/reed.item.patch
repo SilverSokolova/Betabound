@@ -1,5 +1,12 @@
-[[
-{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
-{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}
-],
-[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_throwingreed"}]]
+[
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
+{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"sb_throwingreed"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"reedseed1"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"reedseed2"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"reedseed3"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"reedseed4"},
+{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"reedseed5"}
+]
+]

@@ -1,0 +1,5 @@
+{
+  "input": [["reed",4]],
+  "output": "reedseed1",
+  "groups": ["craftingfurniture","decoration","all"]
+}
