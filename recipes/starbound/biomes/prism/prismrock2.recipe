@@ -1,0 +1,5 @@
+{
+  "input": [["prisiliteore",3]],
+  "output": "prismrock2",
+  "groups": ["craftingfurniture","decoration","all"]
+}
