@@ -2,5 +2,9 @@
 [{"op":"test","path":"/scripts","inverse":true},{"op":"add","path":"/scripts","value":[]}],
 [{"op":"add","path":"/scripts/-","value":"/scripts/objects/sb_playerplacedbreakable.lua"}],
 
-[{"op":"test","path":"/shortdescription","value":"Reed Seed"},{"op":"replace","path":"/shortdescription","value":"Reeds"}]
+[{"op":"test","path":"/shortdescription","value":"Reed Seed"},{"op":"replace","path":"/shortdescription","value":"Reeds"}],
+
+[{"op":"test","path":"/learnBlueprintsOnPickup","inverse":true},
+{"op":"add","path":"/learnBlueprintsOnPickup","value":[]}],
+[{"op":"add","path":"/learnBlueprintsOnPickup/-","value":"reedseed4"}]
 ]
