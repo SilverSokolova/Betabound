@@ -22,8 +22,7 @@
       }, {
         "effect": "weakpoison",
         "duration": 5
-      },
-      "sb_foodheal190"
+      }
     ]],
   "description": "Watch out, this gooey treat has an acidic taste!",
   "shortdescription": "Melting Eyeballs",

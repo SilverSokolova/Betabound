@@ -18,8 +18,7 @@
       }, {
         "effect": "sb_energy",
         "duration": 15
-      },
-      "sb_foodheal70"
+      }
     ]],
   "description": "It's a delicious shortcake!",
   "shortdescription": "Shortcake",

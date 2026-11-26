@@ -8,6 +8,5 @@
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
 [{"op":"test","path":"/effects/0/0/duration","value":248},{"op":"replace","path":"/effects/0/0/duration","value":165}],
 [{"op":"test","path":"/effects/0/1/duration","value":248},{"op":"replace","path":"/effects/0/1/duration","value":165}],
-[{"op":"add","path":"/effects/0/-","value":{"effect":"electrified","duration":165}}],
-[{"op":"add","path":"/effects/0/-","value":"sb_foodheal190"}]
+[{"op":"add","path":"/effects/0/-","value":{"effect":"electrified","duration":165}}]
 ]

@@ -12,8 +12,7 @@
       }, {
         "effect": "sb_protectionboost5",
         "duration": 123
-      },
-      "sb_foodheal70"
+      }
     ]],
   "description": "Pearlpeas which are roasted in sugar and shoved on a stick.",
   "shortdescription": "Candied Pearlpeas",

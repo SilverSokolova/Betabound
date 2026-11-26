@@ -16,8 +16,7 @@
       }, {
         "effect": "sb_restoration",
         "duration": 20
-      },
-      "sb_foodheal95"
+      }
     ]],
   "description": "It's a lollypop! Or, for the uninitiated, a hunk of sugar on a stick.",
   "shortdescription": "Rice Lollypop",

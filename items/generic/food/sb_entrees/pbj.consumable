@@ -19,8 +19,7 @@
       },{
         "effect": "sb_health",
         "duration": 20
-      },
-      "sb_foodheal120"
+      }
     ]],
   "shortdescription": "PB&J Sandwich",
   "builder": "/items/buildscripts/starbound/buildfood.lua",

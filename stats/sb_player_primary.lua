@@ -2,6 +2,7 @@ require "/scripts/sb_uimessage.lua"
 
 local originalInit = init or function() end
 local originalUpdate = update or function() end
+local originalUninit = uninit or function() end
 local originalApplyDamageRequest = applyDamageRequest or function() end
 local originalOverheadBars = overheadBars or function() end
 
@@ -20,9 +21,14 @@ function init(); originalInit()
     end
   end
 
+  sb_foodHeal = root.assetJson("/betabound.config:foodHeal")
+  if sb_foodHeal then
+    sb_lastHungerAbsolute = status.resource("food")
+  end
+
   sb_hungerPopups = root.assetJson("/betabound.config:hungerPopups")
   if sb_hungerPopups then
-    sb_lastHunger = math.floor(status.resourcePercentage("food") * 100)
+    sb_lastHungerPercentage = status.resourcePercentage("food")
     sb_lastHungerMessage = "d100"
     sb_hungerBenchmarks = {2, 5, 10, 15, 25, 50, 75, 100}
   end
@@ -42,13 +48,35 @@ function update(dt); originalUpdate(dt)
     animator.setAnimationState("sb_flames", not player.isLounging() and not mcontroller.zeroG() and mcontroller.yVelocity() <= -170 and "flames" or "none")
   end
 
-  --hunger
+  --foodheal
+  if sb_foodHeal then
+    if not sb_remainingFoodHeal then --In case player hasn't been smuggled yet. We could move this to sb_main, but it's fine
+      sb_remainingFoodHeal = player.getProperty("sb_remainingFoodHeal") or 0
+    end
+
+    local hungerAbsolute = status.resource("food")
+    if hungerAbsolute > sb_lastHungerAbsolute then
+      sb_remainingFoodHeal = sb_remainingFoodHeal + math.floor((hungerAbsolute - sb_lastHungerAbsolute) / 2)
+    end
+
+    if sb_remainingFoodHeal > 0 then
+      status.modifyResource("health", 0.5)
+      sb_remainingFoodHeal = math.min(sb_remainingFoodHeal - 0.5)
+      animator.setParticleEmitterOffsetRegion("sb_foodheal", mcontroller.boundBox())
+      animator.setParticleEmitterEmissionRate("sb_foodheal", 3)
+    else
+      animator.setParticleEmitterEmissionRate("sb_foodheal", 0)
+    end
+    sb_lastHungerAbsolute = status.resource("food")
+  end
+
+  --hunger popups
   if sb_hungerPopups then
     local hunger = math.floor(status.resourcePercentage("food") * 100)
-    if hunger ~= sb_lastHunger then
+    if hunger ~= sb_lastHungerPercentage then
       for i = 1, #sb_hungerBenchmarks - 1 do
         if hunger > sb_hungerBenchmarks[i] and hunger < sb_hungerBenchmarks[i+1] then
-          local id = (hunger > sb_lastHunger and "u" or "d")..sb_hungerBenchmarks[i+1]
+          local id = (hunger > sb_lastHungerPercentage and "u" or "d") .. sb_hungerBenchmarks[i+1]
           if sb_lastHungerMessage ~= id then
             if player then sb_uiMessage(id) end
             sb_lastHungerMessage = id
@@ -56,12 +84,12 @@ function update(dt); originalUpdate(dt)
         end
       end
     end
-    sb_lastHunger = math.floor(status.resourcePercentage("food") * 100)
+    sb_lastHungerPercentage = status.resourcePercentage("food")
   end
 end
 
 function applyDamageRequest(damageRequest)
-  if (world.getProperty("invinciblePlayers", false) or world.getProperty("nonCombat", false)) then return {} end
+  if (world.getProperty("invinciblePlayers", false) or world.getProperty("nonCombat", false)) then return {} end --vanilla conditions
 
   --force field tech
   if status.resource("sb_forceFieldStrength") > 0 and status.resourcePositive("energy") and not status.resourceLocked("energy") then --resourcePositive rounds or smth
@@ -85,13 +113,22 @@ function applyDamageRequest(damageRequest)
   return originalApplyDamageRequest(damageRequest)
 end
 
+--TODO: move bar colors to a config file?
 function overheadBars()
   local bars = originalOverheadBars()
 
   if status.resourcePercentage("sb_shieldStaminaT") > 0 then
-    bars[#bars+1] = {
+    bars[#bars + 1] = {
       percentage = status.resource("sb_shieldStaminaT"),
       color = {106, 225, 255}
+    }
+  end
+
+  local lavaImmunity = status.resourcePercentage("sb_lavaImmunity")
+  if lavaImmunity > 0 and lavaImmunity ~= 1 then
+    bars[#bars + 1] = {
+      percentage = status.resource("sb_lavaImmunity"),
+      color = {255, 126, 23}
     }
   end
 
@@ -111,5 +148,11 @@ function sb_checkProtectionForOverride()
   else
     math.betabound_applyProtectionOverride = false
 --  sb.logInfo("[Betabound] The player protection override was not applied.")
+  end
+end
+
+function uninit(); originalUninit()
+  if sb_foodHeal and player then
+    player.setProperty("sb_remainingFoodHeal", sb_remainingFoodHeal)
   end
 end

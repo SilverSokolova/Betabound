@@ -12,8 +12,7 @@
       }, {
         "effect": "thorns",
         "duration": 158
-      },
-      "sb_foodheal120"
+      }
     ]],
   "sb_plateImage": true,
   "sb_plateHide": true,

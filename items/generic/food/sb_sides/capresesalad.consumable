@@ -9,8 +9,7 @@
       }, {
         "effect": "sb_health",
         "duration": 15
-      },
-      "sb_foodheal70"
+      }
     ]],
   "rarity": "Common",
   "sb_plateHide": true,

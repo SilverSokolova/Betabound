@@ -3,7 +3,6 @@
   "rarity": "common",
   "price": 60,
   "foodValue": 30,
-  "effects": [["sb_foodheal95"]],
   "tooltipKind": "sb_object4",
   "inventoryIcon": "sb_offal.png",
   "category": "food",

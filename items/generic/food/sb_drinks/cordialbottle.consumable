@@ -16,8 +16,7 @@
         "effect": "ragefood",
         "duration": 102
       },
-      "sb_energyregen192",
-      "sb_foodheal145"
+      "sb_energyregen192"
     ]],
   "inventoryIcon": "/objects/hylotl/smashabledrink1/smashabledrink1icon.png",
   "sb_plateImage": "/objects/hylotl/smashabledrink1/smashabledrink1.png?flipx",

@@ -13,8 +13,7 @@
       }, {
         "effect": "sb_health",
         "duration": 30
-      },
-      "sb_foodheal190"
+      }
     ]],
   "shortdescription": "Meatwich",
   "builder": "/items/buildscripts/starbound/buildfood.lua",

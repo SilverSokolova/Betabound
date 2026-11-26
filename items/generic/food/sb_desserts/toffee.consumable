@@ -9,8 +9,7 @@
   "effects": [[{
         "effect": "maxenergyscalingboostfood",
         "duration": 225
-      },
-      "sb_foodheal70"
+      }
     ]],
   "description": "Toffee! A common ingredient in sweets.",
   "learnBlueprintsOnPickup": ["sb_toffeeapple", "sb_sweetmeat"],

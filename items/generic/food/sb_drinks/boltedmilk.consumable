@@ -8,8 +8,7 @@
       }, {
         "effect": "electrified",
         "duration": 135
-      },
-      "sb_foodheal95"
+      }
     ]],
   "tooltipKind": "sb_object",
   "rarity": "uncommon",

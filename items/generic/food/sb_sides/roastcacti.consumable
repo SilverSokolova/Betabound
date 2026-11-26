@@ -10,8 +10,7 @@
   "effects": [[{
         "effect": "thorns",
         "duration": 60
-      },
-      "sb_foodheal25"
+      }
     ]],
   "foodValue": 10,
   "tooltipKind": "sb_object",

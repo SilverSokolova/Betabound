@@ -18,8 +18,7 @@
       }, {
         "effect": "sb_energy",
         "duration": 35
-      },
-      "sb_foodheal265"
+      }
     ]],
   "description": "A creamy cheesecake! Absolutely lovely.",
   "shortdescription": "Cheesecake",

@@ -5,9 +5,6 @@
   "price": 75,
   "foodValue": 30,
   "tooltipKind": "sb_object4b",
-  /*  "effects": [[
-  "sb_foodheal95"
-  ]],*/
   "inventoryIcon": "/items/generic/food/tier6/hothothotpot.png",
   "category": "food",
   "description": "Meatballs in a can. Not quite homemade, but then again, we're in space. Plus, they'll keep a lot longer.",

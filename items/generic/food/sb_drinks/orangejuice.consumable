@@ -8,8 +8,7 @@
       }, {
         "effect": "sb_health",
         "duration": 10
-      },
-      "sb_foodheal35"
+      }
     ]],
   "tooltipKind": "sb_object",
   "rarity": "Common",

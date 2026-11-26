@@ -9,8 +9,7 @@
   "effects": [[{
         "effect": "ragefood",
         "duration": 180
-      },
-      "sb_foodheal50"
+      }
     ]],
   "description": "The creamy, spongey innards of the boneboo fruit.",
   "shortdescription": "Boneboo Marrow",

@@ -8,8 +8,7 @@
       }, {
         "effect": "ragefood",
         "duration": 113
-      },
-      "sb_foodheal70"
+      }
     ]],
   "tooltipKind": "sb_object4",
   "category": "drink",

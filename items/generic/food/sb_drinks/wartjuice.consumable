@@ -5,8 +5,7 @@
   "effects": [[{
         "effect": "maxhealthscalingboostfood",
         "duration": 90
-      },
-      "sb_foodheal25"
+      }
     ]],
   "tooltipKind": "sb_object",
   "category": "drink",

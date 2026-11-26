@@ -15,8 +15,7 @@
         "effect": "sb_restoration",
         "duration": 25
       },
-      "sb_energyregen288",
-      "sb_foodheal170"
+      "sb_energyregen288"
     ]],
   "inventoryIcon": "/objects/apex/cider/cidericon.png",
   "sb_plateImage": "/objects/apex/cider/cider.png",

@@ -12,8 +12,7 @@
         "effect": "maxenergyscalingboostfood",
         "duration": 113
       },
-      "sb_energyregen",
-      "sb_foodheal35"
+      "sb_energyregen"
     ]],
   "sb_plateImage": true,
   "builder": "/items/buildscripts/starbound/buildfood.lua",

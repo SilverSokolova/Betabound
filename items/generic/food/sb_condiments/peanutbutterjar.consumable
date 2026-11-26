@@ -17,8 +17,7 @@
       }, {
         "effect": "sb_protectionboost5",
         "duration": 135
-      },
-      "sb_foodheal95"
+      }
     ]],
   "description": "A rich, creamy spread enhanced with actual butter. It offers a nutty flavor.",
   "shortdescription": "Peanut Butter",

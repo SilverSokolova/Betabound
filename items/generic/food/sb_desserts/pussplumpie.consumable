@@ -14,8 +14,7 @@
       }, {
         "effect": "bouncy",
         "duration": 15
-      },
-      "sb_foodheal145"
+      }
     ]],
   "category": "preparedFood",
   "description": "A slice of pussplum pie. The smell is a little off-putting.",

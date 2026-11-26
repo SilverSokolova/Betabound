@@ -6,6 +6,5 @@
 [{"op":"add","path":"/sb_plateHide","value":true}],
 
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
-[{"op":"test","path":"/effects/0/0/effect","value":"maxhealthscalingboostfood"},{"op":"replace","path":"/effects/0/0/effect","value":"sb_protectionboost5"}],
-[{"op":"add","path":"/effects/0/-","value":"sb_foodheal50"}]
+[{"op":"test","path":"/effects/0/0/effect","value":"maxhealthscalingboostfood"},{"op":"replace","path":"/effects/0/0/effect","value":"sb_protectionboost5"}]
 ]

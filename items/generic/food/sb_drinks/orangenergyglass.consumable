@@ -8,8 +8,7 @@
       }, {
         "effect": "maxhealthscalingboostfood",
         "duration": 90
-      },
-      "sb_foodheal25", {
+      }, {
         "effect": "sb_health",
         "duration": 10
       }

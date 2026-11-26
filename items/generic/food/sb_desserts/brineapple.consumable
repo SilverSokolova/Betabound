@@ -12,8 +12,7 @@
       }, {
         "effect": "runboostfood",
         "duration": 225
-      },
-      "sb_foodheal170"
+      }
     ]],
   "description": "Sweetened poisoncreep served inside a pineapple. Cooking it rendered the toxicity inert.",
   "shortdescription": "Poison-Down Cake",

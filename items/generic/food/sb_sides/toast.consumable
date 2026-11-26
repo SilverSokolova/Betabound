@@ -17,8 +17,7 @@
       }, {
         "effect": "sb_restoration",
         "duration": 10
-      },
-      "sb_foodheal50"
+      }
     ]],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"]

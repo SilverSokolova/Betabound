@@ -5,8 +5,7 @@
   "effects": [[{
         "effect": "glow",
         "duration": 135
-      },
-      "sb_foodheal35"
+      }
     ]],
   "tooltipKind": "sb_object",
   "rarity": "Common",

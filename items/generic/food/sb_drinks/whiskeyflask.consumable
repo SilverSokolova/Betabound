@@ -11,8 +11,7 @@
       }, {
         "effect": "sb_foodslow",
         "duration": 30
-      },
-      "sb_foodheal95"
+      }
     ]],
   "tooltipKind": "sb_object",
   "rarity": "unCommon",

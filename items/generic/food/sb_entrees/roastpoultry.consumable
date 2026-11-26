@@ -17,8 +17,7 @@
       }, {
         "effect": "burning",
         "duration": 5
-      },
-      "sb_foodheal190"
+      }
     ]],
   "shortdescription": "Roasted Poultry",
   "builder": "/items/buildscripts/starbound/buildfood.lua",

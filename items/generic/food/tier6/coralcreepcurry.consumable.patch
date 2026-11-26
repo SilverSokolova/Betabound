@@ -4,8 +4,5 @@
 [{"op":"add","path":"/sb_plateHide","value":true}],
 
 [{"op":"test","path":"/price","value":515},{"op":"replace","path":"/price","value":540}],
-[{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":2}],
-
-[{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
-[{"op":"add","path":"/effects/0/-","value":"sb_foodheal135"}]
+[{"op":"test","path":"/rottingMultiplier","value":1.0},{"op":"replace","path":"/rottingMultiplier","value":2}]
 ]

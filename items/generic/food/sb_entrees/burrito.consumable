@@ -12,8 +12,7 @@
       }, {
         "effect": "sb_health",
         "duration": 25
-      },
-      "sb_foodheal145"
+      }
     ]],
   "description": "A beef and cheese burrito. Deliciously unhealthy!",
   "shortdescription": "Burrito",

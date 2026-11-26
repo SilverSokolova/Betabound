@@ -1,43 +1,76 @@
 [
-    [{"op":"test","path":"/animatedParts","inverse":true},{"op":"add","path":"/animatedParts","value":{}}],
-    [{"op":"test","path":"/animatedParts/stateTypes","inverse":true},{"op":"add","path":"/animatedParts/stateTypes","value":{}}],
-    [{"op":"test","path":"/animatedParts/parts","inverse":true},{"op":"add","path":"/animatedParts/parts","value":{}}],
-    [{
-        "op": "add",
-        "path": "/animatedParts/stateTypes/sb_flames",
-        "value": {
-            "default": "none",
-            "states": {
-                "none": {},
-                "flames": {
-                    "frames": 8,
-                    "cycle": 0.5,
-                    "mode": "loop"
-                }
-            }
+  [{"op":"test","path":"/animatedParts","inverse":true},{"op":"add","path":"/animatedParts","value":{}}],
+  [{"op":"test","path":"/animatedParts/stateTypes","inverse":true},{"op":"add","path":"/animatedParts/stateTypes","value":{}}],
+  [{"op":"test","path":"/animatedParts/parts","inverse":true},{"op":"add","path":"/animatedParts/parts","value":{}}],
+
+  //flames
+  [{
+      "op": "add",
+      "path": "/animatedParts/stateTypes/sb_flames",
+      "value": {
+        "default": "none",
+        "states": {
+          "none": {},
+          "flames": {
+            "frames": 8,
+            "cycle": 0.5,
+            "mode": "loop"
+          }
         }
-    }],
-    [{
-        "op": "add",
-        "path": "/animatedParts/parts",
-        "value": {
+      }
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/animatedParts/parts",
+      "value": {
+        "sb_flames": {
+          "properties": {
+            "fullbright": true,
+            "centered": true,
+            "offset": [0, 0],
+            "zLevel": -1
+          },
+          "partStates": {
             "sb_flames": {
+              "flames": {
                 "properties": {
-                    "fullbright": true,
-                    "centered": true,
-                    "offset": [0,0],
-                    "zLevel": -1
-                },
-                "partStates": {
-                    "sb_flames": {
-                        "flames": {
-                            "properties": {
-                                "image": "/humanoid/any/flames.png:<frame>"
-                            }
-                        }
-                    }
+                  "image": "/humanoid/any/flames.png:<frame>"
                 }
+              }
             }
+          }
         }
-    }]
+      }
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/particleEmitters/sb_foodheal",
+      "value": {
+        "active": true,
+        "emissionRate": 0,
+        "particles": [{
+            "particle": {
+              "type": "animated",
+              "mode": "LoopForever",
+              "animation": "/animations/statuseffects/heal/heal.animation",
+              "size": 1,
+              "color": [250, 30, 30, 230],
+              "fade": 0.9,
+              "position": [0, 0],
+              "offsetRegion": [0, 0, 0, 0],
+              "initialVelocity": [0, 1],
+              "finalVelocity": [0, 5],
+              "approach": [0, 10],
+              "timeToLive": 0.6,
+              "variance": {
+                "initialVelocity": [0.5, 1]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
 ]

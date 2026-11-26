@@ -17,8 +17,7 @@
       }, {
         "effect": "burning",
         "duration": 5
-      },
-      "sb_foodheal95"
+      }
     ]],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],

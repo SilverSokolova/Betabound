@@ -15,8 +15,7 @@
       },{
         "effect": "sb_restoration",
         "duration": 20
-      },
-      "sb_foodheal120"
+      }
     ]],
   "description": "A sweet dish inspired by the Florans-- toffee'd beacon.",
   "shortdescription": "Toffee Bacon",

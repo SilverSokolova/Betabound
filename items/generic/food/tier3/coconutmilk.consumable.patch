@@ -8,6 +8,5 @@
 [{"op":"test","path":"/foodValue","value":10},{"op":"replace","path":"/foodValue","value":15}],
 
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
-[{"op":"test","path":"/effects/0/0/duration","value":90},{"op":"replace","path":"/effects/0/0/duration","value":135}],
-[{"op":"add","path":"/effects/0/-","value":"sb_foodheal35"}]
+[{"op":"test","path":"/effects/0/0/duration","value":90},{"op":"replace","path":"/effects/0/0/duration","value":135}]
 ]

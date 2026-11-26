@@ -10,8 +10,7 @@
   "effects": [[{
         "effect": "maxenergyscalingboostfood",
         "duration": 360
-      },
-      "sb_foodheal135"
+      }
     ]],
   "description": "Sweet chocolate that melts in your mouth.",
   "shortdescription": "Milk Chocolate",

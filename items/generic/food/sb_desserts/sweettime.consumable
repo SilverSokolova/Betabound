@@ -13,8 +13,7 @@
       }, {
         "effect": "electrified",
         "duration": 150
-      },
-      "sb_foodheal95"
+      }
     ]],
   "inventoryIcon": "sweettime.png",
   "category": "preparedFood",

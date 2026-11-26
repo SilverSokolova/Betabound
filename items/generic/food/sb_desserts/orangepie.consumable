@@ -12,8 +12,7 @@
       }, {
         "effect": "sb_health",
         "duration": 20
-      },
-      "sb_foodheal120"
+      }
     ]],
   "foodValue": 35,
   "tooltipKind": "sb_object4b",

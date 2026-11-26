@@ -13,8 +13,7 @@
       }, {
         "effect": "maxhealthscalingboostfood",
         "duration": 293
-      },
-      "sb_foodheal240"
+      }
     ]],
   "shortdescription": "The Special",
   "builder": "/items/buildscripts/starbound/buildfood.lua",

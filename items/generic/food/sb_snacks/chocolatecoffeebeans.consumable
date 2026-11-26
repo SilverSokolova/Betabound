@@ -10,8 +10,7 @@
         "effect": "maxenergyscalingboostfood",
         "duration": 270
       },
-      "sb_energyregen96",
-      "sb_foodheal95"
+      "sb_energyregen96"
     ]],
   "description": "Roasted coffee beans covered in chocolate. A fine mix of sweet and bitter flavours.",
   "shortdescription": "Chocolate Coffee Beans",

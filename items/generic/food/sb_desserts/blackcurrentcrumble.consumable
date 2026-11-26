@@ -15,8 +15,7 @@
       }, {
         "effect": "electrified",
         "duration": 203
-      },
-      "sb_foodheal145"
+      }
     ]],
   "builder": "/items/buildscripts/starbound/buildfood.lua",
   "itemAgingScripts": ["/scripts/items/rotting.lua"],

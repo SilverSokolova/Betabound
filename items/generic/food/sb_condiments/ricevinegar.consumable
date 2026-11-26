@@ -5,8 +5,7 @@
   "effects": [[{
         "duration": 135,
         "effect": "maxhealthscalingboostfood"
-      },
-      "sb_foodheal35"
+      }
     ]],
   "tooltipKind": "sb_object",
   "rarity": "Common",

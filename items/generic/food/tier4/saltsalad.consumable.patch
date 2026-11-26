@@ -10,6 +10,5 @@
 [{"op":"test","path":"/effects","inverse":true},{"op":"add","path":"/effects","value":[[]]}],
 [{"op":"test","path":"/effects/0/0/duration","value":315},{"op":"replace","path":"/effects/0/0/duration","value":158}],
 [{"op":"add","path":"/effects/0/-","value":{"effect":"sb_protectionboost5","duration":158}}],
-[{"op":"add","path":"/effects/0/-","value":{"effect":"swimboostcola","duration":158}}],
-[{"op":"add","path":"/effects/0/-","value":"sb_foodheal95"}]
+[{"op":"add","path":"/effects/0/-","value":{"effect":"swimboostcola","duration":158}}]
 ]

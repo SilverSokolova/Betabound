@@ -1,5 +1,5 @@
 {
   "input": ["cacti"],
   "output": "sb_roastcacti",
-  "groups": ["campfire", "consumables", "all", "sides", "sb_healing", "sb_thorns"]
+  "groups": ["campfire", "consumables", "all", "sides", "sb_thorns"]
 }

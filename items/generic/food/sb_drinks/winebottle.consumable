@@ -18,8 +18,7 @@
       }, {
         "effect": "bouncy",
         "duration": 15
-      },
-      "sb_foodheal145"
+      }
     ]],
   "inventoryIcon": "winebottle.png",
   "sb_plateImage": true,

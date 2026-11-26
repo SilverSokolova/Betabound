@@ -16,8 +16,7 @@
       }, {
         "effect": "sb_health",
         "duration": 20
-      },
-      "sb_foodheal135"
+      }
     ]],
   "shortdescription": "Ham Sandwich",
   "builder": "/items/buildscripts/starbound/buildfood.lua",

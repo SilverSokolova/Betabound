@@ -10,8 +10,7 @@
   "effects": [[{
         "effect": "maxenergyscalingboostfood",
         "duration": 45
-      },
-      "sb_foodheal10"
+      }
     ]],
   "shortdescription": "Candy",
   "builder": "/items/buildscripts/starbound/buildfood.lua",

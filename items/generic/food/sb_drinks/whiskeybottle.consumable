@@ -19,8 +19,7 @@
       }, {
         "effect": "sb_foodslow",
         "duration": 30
-      },
-      "sb_foodheal135"
+      }
     ]],
   "handPosition": [1, -3],
   "emote": "laugh",

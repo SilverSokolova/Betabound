@@ -13,8 +13,7 @@
       }, {
         "effect": "sb_energy",
         "duration": 15
-      },
-      "sb_foodheal70"
+      }
     ]],
   "description": "I scream, you scream, we all scream for-- oh, you get the point.",
   "shortdescription": "Vanilla Ice Cream",

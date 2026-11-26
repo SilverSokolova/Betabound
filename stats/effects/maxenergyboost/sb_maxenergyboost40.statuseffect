@@ -1,8 +1,0 @@
-{
-  "name" : "sb_maxenergyboost40",
-  "effectConfig" : {"energyAmount":40},
-  "defaultDuration" : 60,
-  "scripts" : ["maxenergyboost.lua"],
-  "label" : "Bonus Energy",
-  "icon" : "/interface/statuses/maxenergy.png"
-}

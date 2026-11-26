@@ -13,8 +13,7 @@
       }, {
         "effect": "electrified",
         "duration": 180
-      },
-      "sb_foodheal135"
+      }
     ]],
   "description": "A surprisingly tasty stew made with meat and veggies-- Just watch out for the bits of metal.",
   "shortdescription": "Meaty Metal Stew",

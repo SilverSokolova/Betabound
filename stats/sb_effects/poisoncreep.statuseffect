@@ -1,8 +1,7 @@
 {
   "name": "sb_poisoncreep",
   "effectConfig": {
-    "poisonEffect": "foodpoison",
-    "healEffect": "sb_foodheal"
+    "poisonEffect": "foodpoison"
   },
   "defaultDuration": 10,
   "scripts": ["poisoncreep.lua"]

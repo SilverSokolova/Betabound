@@ -12,8 +12,7 @@
       }, {
         "effect": "glow",
         "duration": 135
-      },
-      "sb_foodheal95"
+      }
     ]],
   "sb_plateImage": true,
   "sb_plateHide": true,

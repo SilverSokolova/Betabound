@@ -14,8 +14,7 @@
       }, {
         "effect": "jumpboostfood",
         "duration": 135
-      },
-      "sb_foodheal145"
+      }
     ]],
   "inventoryIcon": "copperkeypie.png",
   "description": "A kiwi pie with a bit of a coppery kick.",

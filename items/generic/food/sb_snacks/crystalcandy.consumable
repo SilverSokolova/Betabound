@@ -8,8 +8,7 @@
       },{
         "effect": "glow",
         "duration": 68
-      },
-      "sb_foodheal35"
+      }
     ]],
   "tooltipKind": "sb_object",
   "rarity": "Common",

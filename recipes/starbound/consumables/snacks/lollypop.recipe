@@ -1,6 +1,6 @@
 {
   "input": ["sugar","rice"],
   "output": "sb_lollypop",
-  "groups": ["craftingfood","snacks","sb_healing","sb_energy","sb_health","sb_t1food","all"],
+  "groups": ["craftingfood","snacks","sb_energy","sb_health","sb_t1food","all"],
   "collectables": {"cooking":"sb_lollypop"}
 }

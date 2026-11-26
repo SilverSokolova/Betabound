@@ -11,8 +11,7 @@
       }, {
         "effect": "ragefood",
         "duration": 165
-      },
-      "sb_foodheal190"
+      }
     ]],
   "tooltipKind": "sb_object4",
   "rarity": "Rare",
