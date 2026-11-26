@@ -89,6 +89,7 @@ function update(dt, fireMode)
       currentAngle = -swingStart
       currentSwing = swingStart
       useTimer = nil
+      selectEffects()
       if returnItem then
         player.giveItem(returnItem)
       end
